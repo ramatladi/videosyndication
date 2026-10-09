@@ -4,6 +4,17 @@ Each episode is one JSON file in `episodes/` (see `episodes/ep001.json` for a fu
 Format of the video: the TikTok "we had an AI write our script" trend — a deadpan, melodramatic
 skit played completely straight, in one barn set at night.
 
+## Audience and trends (do this first, every episode)
+Target audience: **the United States**. Every episode must ride something trending in the US *this week*:
+1. Research before writing (WebSearch/WebFetch): this month's TikTok trends (e.g. newengen.com/insights "<month> TikTok trends"),
+   Instagram Reels trends, YouTube Shorts trends, and Google Trends US daily (trends.google.com/trends/trendingsearches/daily?geo=US).
+2. Pick ONE trending **format** that suits a multi-character dialogue skit (e.g. "answer in one word", POV, documentary chair-sit,
+   absurd-rule skit, bait-and-switch), and optionally ONE light **topic** hook from US trends (sports weekend, a holiday, weather,
+   a viral challenge, a big streaming release — referred to generically).
+3. Never touch tragedies, crime, politics, health scares, real people's names, team/brand/show names, or copyrighted songs/quotes.
+   Keep it US-English (fall, candy, football, Thanksgiving, etc.).
+4. Record the trend you used in the episode's `trend` field and in EPISODES.md. Use the trend's hashtag in the captions.
+
 ## The cast (never change their personalities)
 - **Marigold (`M`)** — a patchwork scarecrow queen. Dignified, dramatic, secretly soft. Takes everything personally.
 - **Pip (`P`)** — her small crow, lives on her shoulder. Blunt, literal, a little selfish, deeply loyal. Loves corn.
