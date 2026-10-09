@@ -49,14 +49,17 @@ a sleepy coffee cup, a ghost at a party, etc.
 - `intro`: on-screen hook card, 2–3 short lowercase lines, the last one smaller — usually the trend's own phrasing (e.g. "pov:", "answer in one word", "tell me you're X without telling me")
 
 ## 4. Script
-- 18–34 lines, about 50–110 seconds. Short sentences; every line under ~20 words. Hook in the first 2 lines, escalate, twist, button line.
+- **Every video is exactly 2:55 (175 s).** Write about **58–70 lines** (roughly 145–170 s of natural speech); the engine stretches pauses
+  and the outro to land on 2:55 exactly. If the render step says `SCRIPT TOO LONG` or `SCRIPT TOO SHORT`, cut or add lines by the amount it gives.
+  Short sentences; every line under ~20 words. Structure for the length: hook in the first 2 lines, then 3 escalating beats (each with its own
+  mini-punchline and a sound effect), a twist around the two-minute mark, and a final button line.
 - Speakable text only: no emoji, no stage directions, numbers as words, no abbreviations or ALL CAPS.
 - Line: `{"spk": "<id>" | ["id1","id2"] | "all", "text", "shot", "gesture", "jump", "pre", "post", "after"}`
   - `shot`: `CU` close-up on speaker (default), `TWO` speaker + the last other speaker, `W` wide (everyone), or a cast id for a reaction close-up
   - `gesture`: talk (default while speaking), wave, point, shrug, arms_up, cross, hips, facepalm, think
   - `jump`: true = speaker hops (excitement)
   - `pre`/`post`: silence before/after in seconds (defaults 0 / 0.45); `pre` 0.8–1.0 = awkward pause
-  - `after`: sound effect after the line — sting, boing, whoosh, applause, rimshot, record_scratch, ding (use 2–4 per episode)
+  - `after`: sound effect after the line — sting, boing, whoosh, applause, rimshot, record_scratch, ding (use 4–7 per episode)
 
 ## 5. Metadata
 `id`, `slug`, `title`, `trend` (what trend and where), `youtube_title` (≤ 90 chars), `description` (2–3 lines + hashtags incl. the trend's hashtag and #shorts),

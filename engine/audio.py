@@ -31,19 +31,34 @@ def spk_list(s):
     return s if isinstance(s, list) else [s]
 
 # ---------------------------------------------------------------- timeline
-t = INTRO; lines = []; tracks = {}; sfx = []
+# Every episode is stretched to exactly TARGET seconds (default 175 = 2:55) by adding small pauses
+# between lines and a longer outro. Scripts that run long or far too short fail with a clear message.
+TARGET = float(EP.get('target_seconds', 175))
+synth_all = []
 for i, ln in enumerate(EP['lines']):
-    t += ln.get('pre', 0.0)
     ids = spk_list(ln['spk'])
     clips = {c: synth(c, ln['text'], f'{WD}/lines/{i:02d}_{c}.wav') for c in ids}
-    dur = max(len(c) for c in clips.values()) / SR
+    synth_all.append((ln, ids, clips, max(len(c) for c in clips.values()) / SR))
+natural = INTRO + OUTRO + sum(ln.get('pre', 0.0) + d + ln.get('post', 0.45) for ln, _, _, d in synth_all)
+extra = TARGET - natural
+nl = len(synth_all)
+if extra < 0:
+    sys.exit(f'SCRIPT TOO LONG: natural length {natural:.1f}s exceeds the {TARGET:.0f}s target by {-extra:.1f}s - cut lines or shorten them.')
+per_gap = min(0.7, extra / nl)
+outro_add = extra - per_gap * nl
+if outro_add > 4.0:
+    sys.exit(f'SCRIPT TOO SHORT: natural length {natural:.1f}s; needs about {outro_add - 4.0 + 0.1:.1f}s more dialogue to reach {TARGET:.0f}s - add lines.')
+OUTRO += outro_add
+t = INTRO; lines = []; tracks = {}; sfx = []
+for i, (ln, ids, clips, dur) in enumerate(synth_all):
+    t += ln.get('pre', 0.0)
     lines.append(dict(i=i, spk=ids, text=ln['text'], shot=ln.get('shot', 'CU'), gesture=ln.get('gesture'),
                       jump=bool(ln.get('jump')), start=round(t, 3), end=round(t + dur, 3)))
     for c, x in clips.items(): tracks.setdefault(c, []).append((t, x))
-    t += dur + ln.get('post', 0.45)
+    t += dur + ln.get('post', 0.45) + per_gap
     if ln.get('after'):
         sfx.append((lines[-1]['end'] + 0.2, ln['after']))
-END = t; TOTAL = t + OUTRO
+END = t; TOTAL = TARGET
 N = int(TOTAL * SR); dry = np.zeros((2, N)); wet = np.zeros((2, N)); t_all = np.arange(N) / SR
 
 def add(t0, sig, g=1.0, pan=0.0, send=0.0):
