@@ -35,6 +35,16 @@ seg_start = {}
 for l in lines:
     seg_start.setdefault(l["seg"], l["start"] - (0.6 if l["seg"] else intro))
 seg_start[0] = 0.0
+import re as _re
+def _w(x): return set(_re.findall(r"[a-z']+", x.lower()))
+qtime = {}
+for si, s_ in enumerate(SEGMENTS):
+    qw = _w(s_["quote"]); best = None
+    for l in lines:
+        if l["seg"] != si: continue
+        ov = len(qw & _w(s_["lines"][l["line"]])) / max(1, len(qw))
+        if ov >= 0.6 and (best is None or ov > best[0]): best = (ov, l["start"], l["dur"])
+    qtime[si] = (best[1], best[2] * 0.9) if best else None
 
 # ---------- audio ----------
 SR = lines[0]["sr"]
@@ -192,7 +202,7 @@ def qcard(si, prog):
     im = Image.new("RGB", (W - 80, BOARD_H), PANEL); dd = ImageDraw.Draw(im)
     dd.text((34, -10), "\u201c", font=f_qm, fill=GOLD)
     ls = wrap(s["quote"], f_q, W - 200)
-    k = max(1, round(len(s["quote"].split()) * prog)); shown = 0
+    k = round(len(s["quote"].split()) * prog); shown = 0
     for i, ln in enumerate(ls):
         ws = ln.split(); take = ws[:max(0, k - shown)]; shown += len(ws)
         if take: dd.text((70, 120 + i * 64), " ".join(take), font=f_q, fill=WHITE)
@@ -231,9 +241,10 @@ for fi in (sorted(int(x*FPS) for x in PREV) if PREV else range(NFR)):
     while ci < len(caps) - 1 and caps[ci][1] < tt and caps[ci + 1][0] <= tt: ci += 1
     if caps[ci][0] <= tt <= caps[ci][1]:
         fr.paste(cap_img(caps[ci][2]), (0, CAP_Y))
-    prog = min(1.0, local / 3.0)
+    qt = qtime.get(si)
+    prog = min(1.0, local / 3.0) if qt is None else max(0.0, min(1.0, (tt - qt[0]) / max(qt[1], 1.0)))
     key = (si, round(prog, 2))
-    if key not in board_cache: board_cache[key] = qcard(si, prog)
+    if key not in board_cache: board_cache[key] = qcard(si, key[1])
     fr.paste(board_cache[key], (40, BOARD_Y))
     if PREV: fr.save(os.path.join(WORK, f"frame_{fi}.png")); continue
     ff.stdin.write(fr.tobytes())
