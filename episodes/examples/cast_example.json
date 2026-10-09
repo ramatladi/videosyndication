@@ -1,0 +1,35 @@
+{
+ "engine": "cast",
+ "id": 900,
+ "slug": "the-last-donut",
+ "title": "The Last Donut",
+ "trend": "Instagram 'Netflix documentary chair-sit' — narrating a mundane thing with total gravity",
+ "scene": "office",
+ "desk": false,
+ "music": "dramatic",
+ "intro": ["a documentary about", "the last donut in the office", "based on true events"],
+ "youtube_title": "A documentary about the last donut in the office 🍩",
+ "description": "Nobody was ready for what happened to the last donut.\n\n#documentary #officehumor #comedy #animation #shorts",
+ "tags": ["documentary trend", "office humor", "animation", "comedy", "cartoon", "funny", "donut"],
+ "tiktok_caption": "a documentary about the last donut in the office 🍩 #documentary #officehumor #comedy #fyp",
+ "cast": [
+  {"id": "brenda", "name": "Brenda", "kind": "human", "color": "#f1c27d", "hair": {"style": "bun", "color": "#7b4a2a"},
+   "top": {"color": "#34495e", "pattern": "suit", "pattern_color": "#e74c3c"}, "bottom": "#2c3e50", "accessories": ["glasses"],
+   "brows": "worried", "voice": {"base": "slt", "pitch": -1, "tempo": 0.95}},
+  {"id": "gary", "name": "Gary", "kind": "human", "color": "#c68642", "hair": {"style": "short", "color": "#2d1b0e"},
+   "top": {"color": "#27ae60", "pattern": "hoodie"}, "bottom": "#3b4a6b", "eye": "sleepy", "mouth": "flat",
+   "voice": {"base": "us2", "pitch": -2, "tempo": 0.9}},
+  {"id": "mug", "name": "The Coffee Mug", "kind": "mascot", "shape": "cup", "color": "#ffffff", "sleeve": "#c49a6c",
+   "accessories": ["sunglasses"], "voice": {"base": "kal", "pitch": 4, "tempo": 1.05}}
+ ],
+ "lines": [
+  {"spk": "brenda", "text": "It was a Tuesday. There were twelve donuts.", "shot": "CU", "gesture": "think"},
+  {"spk": "gary", "text": "Now there is one.", "shot": "CU"},
+  {"spk": "mug", "text": "I saw everything. I am a mug. I see everything.", "shot": "CU", "gesture": "shrug", "after": "sting"},
+  {"spk": "brenda", "text": "Gary. Where were you at nine fifteen?", "shot": "TWO", "gesture": "point"},
+  {"spk": "gary", "text": "Nowhere near a donut.", "shot": "CU", "gesture": "cross"},
+  {"spk": "mug", "text": "He has sprinkles on his hoodie.", "shot": "W", "after": "record_scratch"},
+  {"spk": ["brenda", "gary"], "text": "Oh no.", "shot": "W", "gesture": "facepalm"},
+  {"spk": "gary", "text": "Fine. I ate eleven donuts.", "shot": "CU", "gesture": "arms_up", "jump": true, "after": "applause"}
+ ]
+}

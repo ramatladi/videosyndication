@@ -1,45 +1,65 @@
-# Writing a new Marigold, Pip & Gourdon episode
+# Writing a new episode
 
-Each episode is one JSON file in `episodes/` (see `episodes/ep001.json` for a full example).
-Format of the video: the TikTok "we had an AI write our script" trend — a deadpan, melodramatic
-skit played completely straight, in one barn set at night.
+Every episode is a fresh, original animated skit built on **what is trending in the United States this week**.
+Each episode gets its **own cast and setting**, designed for that trend. Don't reuse the same characters day after day
+(a character may return only if the trend calls for a recurring bit, and never two days in a row).
 
-## Audience and trends (do this first, every episode)
-Target audience: **the United States**. Every episode must ride something trending in the US *this week*:
-1. Research before writing (WebSearch/WebFetch): this month's TikTok trends (e.g. newengen.com/insights "<month> TikTok trends"),
-   Instagram Reels trends, YouTube Shorts trends, and Google Trends US daily (trends.google.com/trends/trendingsearches/daily?geo=US).
-2. Pick ONE trending **format** that suits a multi-character dialogue skit (e.g. "answer in one word", POV, documentary chair-sit,
-   absurd-rule skit, bait-and-switch), and optionally ONE light **topic** hook from US trends (sports weekend, a holiday, weather,
-   a viral challenge, a big streaming release — referred to generically).
-3. Never touch tragedies, crime, politics, health scares, real people's names, team/brand/show names, or copyrighted songs/quotes.
-   Keep it US-English (fall, candy, football, Thanksgiving, etc.).
-4. Record the trend you used in the episode's `trend` field and in EPISODES.md. Use the trend's hashtag in the captions.
+Episodes use the **cast engine**: one JSON file in `episodes/` with `"engine": "cast"`.
+Full working example: `episodes/examples/cast_example.json`.
+(The original barn episodes 001–002 used the legacy Marigold/Pip/Gourdon renderer — don't use that for new episodes.)
 
-## The cast (never change their personalities)
-- **Marigold (`M`)** — a patchwork scarecrow queen. Dignified, dramatic, secretly soft. Takes everything personally.
-- **Pip (`P`)** — her small crow, lives on her shoulder. Blunt, literal, a little selfish, deeply loyal. Loves corn.
-- **Gourdon (`G`)** — a jack-o'-lantern on the floor. Theatrical, over-emotional narrator who butts in. Says one-word interjections ("Gasp.", "Kiss.") and grand false morals.
+## 1. Find the trend (every episode)
+Research before writing (WebSearch/WebFetch), US-focused, this week:
+- TikTok trends this month (e.g. newengen.com/insights "<month> <year> TikTok trends"; also "TikTok trending sounds this week")
+- Instagram Reels trends, YouTube Shorts trends
+- Google Trends US daily: https://trends.google.com/trends/trendingsearches/daily?geo=US
 
-## Rules
-1. **Brand-new premise every episode.** Read `EPISODES.md` first and do not reuse a premise, conflict, punchline or callback that's listed there. Vary the situation (a mystery, a talent show, a job interview, a haunted object, a family visit, a misunderstanding, a holiday, a competition, a secret, therapy for Gourdon, …).
-2. **Length:** 24–36 lines, about 70–120 seconds. Short sentences (TTS reads them better). Every line under about 20 words.
-3. **Speakable text only:** no emoji, no stage directions in `text`, numbers as words, no abbreviations, no ALL CAPS. Use `.`, `?` and `,` for rhythm.
-4. **Clean, all-ages comedy.** No profanity, violence, romance beyond a joke "Kiss." gag, real people, brands, or copyrighted characters/songs.
-5. **Structure:** cold open with the conflict in the first two lines → escalate → absurd twist → button line. End with Gourdon if the candle gag is used.
-6. **Season:** Halloween framing up to 31 October; after that, autumn/spooky-cosy or whatever holiday is near — keep the barn.
+Pick the **most trending format or topic that works as a dialogue skit** (POV, "answer in one word", documentary narration,
+"tell me without telling me", absurd-rule skit, bait-and-switch, reaction, interview, a viral challenge acted out by characters,
+a big sports weekend, a holiday, the weather, a hyped release referred to generically…). Prefer a different format from the last 3 episodes in `EPISODES.md`.
 
-## Line fields
-`{"spk": "M"|"P"|"G"|"MP", "text": "...", "shot": "W"|"MP"|"M"|"P"|"G", "pre": 0.0, "post": 0.5, "during": ..., "after": ...}`
-- `spk`: `MP` = Marigold and Pip say it together (use for one or two words only).
-- `shot`: `W` wide (all three), `MP` two-shot of Marigold & Pip, `M`/`P`/`G` close-ups. Use the speaker's close-up most of the time, `MP` for back-and-forth, `W` for reactions or physical gags. Gourdon lines usually `G`.
-- `pre` / `post`: seconds of silence before/after (default 0 / 0.5). Use `pre` 0.8–1.0 for an awkward pause, `post` 1.3–1.5 before a sting.
-- `during` (optional): `"arms"` — Marigold throws her arms out wide during her line (once per episode at most); `"flare"` — Gourdon's candle flares up while he speaks.
-- `after` (optional): `"sting"` — a dun-dun-DUN organ sting (max 2 per episode); `"fly"` — Pip flies off-screen and comes back a few seconds later (max once; the next line should acknowledge it); `"candle_out"` — Gourdon's candle blows out and the episode ends in the dark with Marigold's glowing eyes (only on the LAST line).
+**Never:** tragedies, crime, violence, politics, health scares, real people or their names, brand / team / show / product names,
+logos, copyrighted characters, lyrics or quotes. Refer to things generically ("the big game", "that new show everyone is watching").
+All-ages, US-English.
 
-## Episode file fields
-- `id` (number), `slug`, `title`
-- `intro`: on-screen hook card, 2–3 short lowercase lines, the last one smaller (e.g. `["we had an AI write our", "halloween script", "we changed nothing"]`). Vary it each time.
-- `youtube_title` (≤ 90 chars, include the episode title), `description` (2–4 lines + hashtags incl. #shorts), `tags` (6–10), `tiktok_caption` (≤ 150 chars with hashtags)
-- `lines`: the script.
+## 2. Design the cast for the trend (2–4 characters)
+Each cast member: `{"id", "name", "kind", "color", ... , "voice": {...}}`
+- `kind`: `human` | `animal` | `mascot` (a talking object or creature)
+- `color`: skin (human), fur (animal) or body colour (mascot) — hex
+- `scale`: optional 0.85–1.15 (kids smaller, big personalities bigger)
+- **human**: `hair` `{"style": short|long|curly|afro|bun|ponytail|spiky|mohawk|bald, "color"}`
+- **animal**: `ears`: cat|fox|bear|mouse|bunny|dog; optional `snout` (default true), `belly`, `inner` colours
+- **mascot**: `shape`: gumdrop|box|cup|phone|ghost|pumpkin|egg|ball|football|toast; optional `case` (phone), `sleeve`/`lid` (cup), `crust` (toast)
+- clothes (human/animal): `top` `{"color", "pattern": plain|stripes|dots|jersey|hoodie|suit|apron, "pattern_color", "number"}`, `bottom`, `shoes`
+- `accessories` (list, optional `:#hex` colour): glasses, sunglasses, cap, beanie, crown, headphones, mic_headset, bow, tophat, witchhat,
+  party_hat, chef_hat, tie, scarf, whistle, halo, horns — e.g. `"cap:#c0392b"`
+- face: `eye`: round|big|sleepy|happy; `brows`: neutral|angry|worried|raised; `mouth` when silent: smile|flat|frown; `blush`: true/false
+- `label_color`: optional caption name colour
+- **voice** `{"base", "pitch", "tempo"}` — bases: `slt` (US female, most natural), `us1` (US female), `kal` (US male), `us2` (US male, deep),
+  `us3` (US male), `en1` (British male). `pitch` in semitones (-6…+8: + is younger/smaller, − is older/bigger), `tempo` 0.85–1.15.
+  Give every character a clearly different voice.
 
-After writing it, add a row to `EPISODES.md`: `| NNN | date | title | one-line premise | key jokes |`.
+Make the look tell the joke instantly: a referee with a whistle and stripes, a dramatic cat in a suit, a phone that's "too online",
+a sleepy coffee cup, a ghost at a party, etc.
+
+## 3. Scene, music, hook
+- `scene`: studio | kitchen | living_room | classroom | office | street_night | park_day | stadium | bedroom | halloween_porch | barn
+- `desk`: true puts a desk in front (podcast, news, interview, talk show — best with `studio` or `office`)
+- `music`: upbeat | lofi | dramatic (documentary/serious) | spooky
+- `intro`: on-screen hook card, 2–3 short lowercase lines, the last one smaller — usually the trend's own phrasing (e.g. "pov:", "answer in one word", "tell me you're X without telling me")
+
+## 4. Script
+- 18–34 lines, about 50–110 seconds. Short sentences; every line under ~20 words. Hook in the first 2 lines, escalate, twist, button line.
+- Speakable text only: no emoji, no stage directions, numbers as words, no abbreviations or ALL CAPS.
+- Line: `{"spk": "<id>" | ["id1","id2"] | "all", "text", "shot", "gesture", "jump", "pre", "post", "after"}`
+  - `shot`: `CU` close-up on speaker (default), `TWO` speaker + the last other speaker, `W` wide (everyone), or a cast id for a reaction close-up
+  - `gesture`: talk (default while speaking), wave, point, shrug, arms_up, cross, hips, facepalm, think
+  - `jump`: true = speaker hops (excitement)
+  - `pre`/`post`: silence before/after in seconds (defaults 0 / 0.45); `pre` 0.8–1.0 = awkward pause
+  - `after`: sound effect after the line — sting, boing, whoosh, applause, rimshot, record_scratch, ding (use 2–4 per episode)
+
+## 5. Metadata
+`id`, `slug`, `title`, `trend` (what trend and where), `youtube_title` (≤ 90 chars), `description` (2–3 lines + hashtags incl. the trend's hashtag and #shorts),
+`tags` (6–10), `tiktok_caption` (≤ 150 chars with hashtags).
+
+After writing, add a row to the END of `EPISODES.md`: `| NNN | date | title | Trend: … — premise | cast | key jokes |`.
