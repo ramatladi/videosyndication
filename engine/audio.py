@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audio for a cast-engine episode: per-character voices (Festival), timeline, lip-sync envelopes, music mood, SFX.
+"""Audio for a cast-engine episode: per-character natural human voices (Kokoro), timeline, lip-sync envelopes, music mood, SFX.
 usage: python3 engine/audio.py episodes/epNNN.json WORKDIR"""
 import subprocess, json, math, os, sys, wave
 import numpy as np
@@ -7,19 +7,34 @@ import numpy as np
 EP = json.load(open(sys.argv[1])); WD = sys.argv[2]
 os.makedirs(f'{WD}/lines', exist_ok=True)
 SR = 44100; FPS = 30; INTRO = 3.0; OUTRO = 3.0
-BASES = {'slt': 'voice_cmu_us_slt_arctic_hts', 'us1': 'voice_us1_mbrola', 'kal': 'voice_kal_diphone',
-         'us2': 'voice_us2_mbrola', 'us3': 'voice_us3_mbrola', 'en1': 'voice_en1_mbrola'}
+# Natural human voices (Kokoro). `voice.id` picks one; old Festival `base` names map to a default.
+HUMAN = ['af_heart', 'af_bella', 'af_nicole', 'af_sarah', 'af_jessica', 'af_river', 'af_nova', 'af_kore', 'af_aoede',
+         'am_michael', 'am_adam', 'am_eric', 'am_liam', 'am_onyx', 'am_echo', 'am_puck', 'am_fenrir',
+         'bf_emma', 'bf_isabella', 'bf_alice', 'bf_lily', 'bm_george', 'bm_lewis', 'bm_daniel', 'bm_fable']
+OLD = {'slt': 'af_heart', 'us1': 'af_sarah', 'kal': 'am_michael', 'us2': 'am_onyx', 'us3': 'am_eric', 'en1': 'bm_george'}
 CAST = {c['id']: c for c in EP['cast']}
 rg = np.random.default_rng(EP.get('id', 1))
+_K = None
+def kokoro():
+    global _K
+    if _K is None:
+        from kokoro_onnx import Kokoro
+        m = os.path.expanduser('~/.cache/kokoro')
+        _K = Kokoro(f'{m}/kokoro.onnx', f'{m}/voices.bin')
+    return _K
 
 def synth(cid, text, path):
-    v = CAST[cid].get('voice', {}); base = BASES.get(v.get('base', 'slt'), BASES['slt'])
-    semi = float(v.get('pitch', 0)); tempo = float(v.get('tempo', 1.0))
-    with open(f'{WD}/lines/tmp.txt', 'w') as f: f.write(text)
-    subprocess.run(['text2wave', '-eval', f'({base})', f'{WD}/lines/tmp.txt', '-o', f'{WD}/lines/raw.wav'], check=True, capture_output=True)
+    v = CAST[cid].get('voice', {})
+    vid = v.get('id') or OLD.get(v.get('base', 'slt'), 'af_heart')
+    if vid not in HUMAN: vid = 'af_heart'
+    # small pitch nudges only (+-2 semitones) so voices stay human, never cartoonish
+    semi = max(-2.0, min(2.0, float(v.get('pitch', 0)))); speed = max(0.85, min(1.15, float(v.get('tempo', 1.0))))
+    import soundfile as sf
+    a, sr = kokoro().create(text, voice=vid, speed=speed, lang='en-gb' if vid[0] == 'b' else 'en-us')
+    sf.write(f'{WD}/lines/raw.wav', a, sr)
     r = 2 ** (semi / 12)
-    af = (f'aresample={SR},asetrate={SR}*{r:.5f},aresample={SR},atempo={max(0.5, min(2.0, tempo / r)):.5f},'
-          f'highpass=f=90,acompressor=threshold=0.12:ratio=3:attack=5:release=80,silenceremove=start_periods=1:start_threshold=-50dB,'
+    af = (f'aresample={SR},asetrate={SR}*{r:.5f},aresample={SR},atempo={1 / r:.5f},'
+          f'highpass=f=70,acompressor=threshold=0.15:ratio=2.5:attack=5:release=80,silenceremove=start_periods=1:start_threshold=-50dB,'
           f'areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse')
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', f'{WD}/lines/raw.wav', '-af', af, '-ac', '1', '-ar', str(SR), path], check=True)
     with wave.open(path) as w:

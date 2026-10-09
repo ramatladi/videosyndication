@@ -35,12 +35,19 @@ Each cast member: `{"id", "name", "kind", "color", ... , "voice": {...}}`
   party_hat, chef_hat, tie, scarf, whistle, halo, horns — e.g. `"cap:#c0392b"`
 - face: `eye`: round|big|sleepy|happy; `brows`: neutral|angry|worried|raised; `mouth` when silent: smile|flat|frown; `blush`: true/false
 - `label_color`: optional caption name colour
-- **voice** `{"base", "pitch", "tempo"}` — bases: `slt` (US female, most natural), `us1` (US female), `kal` (US male), `us2` (US male, deep),
-  `us3` (US male), `en1` (British male). `pitch` in semitones (-6…+8: + is younger/smaller, − is older/bigger), `tempo` 0.85–1.15.
-  Give every character a clearly different voice.
+- **voice** `{"id", "pitch", "tempo"}` — natural HUMAN voices only, never cartoon voices. `id` is one of:
+  US female `af_heart` `af_bella` `af_nicole` (soft/whispery) `af_sarah` `af_jessica` `af_river` `af_nova` `af_kore` `af_aoede`;
+  US male `am_michael` `am_adam` `am_eric` `am_liam` `am_onyx` (deep) `am_echo` `am_puck` (playful) `am_fenrir` (gruff);
+  British female `bf_emma` `bf_isabella` `bf_alice` `bf_lily`; British male `bm_george` `bm_lewis` `bm_daniel` `bm_fable`.
+  `pitch` −2…+2 semitones only (subtle), `tempo` 0.85–1.15. Animals and talking objects still speak with a normal human
+  voice (that contrast is part of the joke). Give every character a different `id`.
 
 Make the look tell the joke instantly: a referee with a whistle and stripes, a dramatic cat in a suit, a phone that's "too online",
 a sleepy coffee cup, a ghost at a party, etc.
+
+## Never mention AI
+No caption, title, description, hook card, tag or line of dialogue may say or hint that AI, a chatbot or a computer
+wrote, made or chose anything ("we asked AI…", "an AI wrote this…", "ChatGPT…"). Present every video as our own.
 
 ## 3. Scene, music, hook
 - `scene`: studio | kitchen | living_room | classroom | office | street_night | park_day | stadium | bedroom | halloween_porch | barn

@@ -15,12 +15,12 @@
  "cast": [
   {"id": "brenda", "name": "Brenda", "kind": "human", "color": "#f1c27d", "hair": {"style": "bun", "color": "#7b4a2a"},
    "top": {"color": "#34495e", "pattern": "suit", "pattern_color": "#e74c3c"}, "bottom": "#2c3e50", "accessories": ["glasses"],
-   "brows": "worried", "voice": {"base": "slt", "pitch": -1, "tempo": 0.95}},
+   "brows": "worried", "voice": {"id": "af_sarah", "pitch": 0, "tempo": 0.95}},
   {"id": "gary", "name": "Gary", "kind": "human", "color": "#c68642", "hair": {"style": "short", "color": "#2d1b0e"},
    "top": {"color": "#27ae60", "pattern": "hoodie"}, "bottom": "#3b4a6b", "eye": "sleepy", "mouth": "flat",
-   "voice": {"base": "us2", "pitch": -2, "tempo": 0.9}},
+   "voice": {"id": "am_onyx", "pitch": -1, "tempo": 0.92}},
   {"id": "mug", "name": "The Coffee Mug", "kind": "mascot", "shape": "cup", "color": "#ffffff", "sleeve": "#c49a6c",
-   "accessories": ["sunglasses"], "voice": {"base": "kal", "pitch": 4, "tempo": 1.05}}
+   "accessories": ["sunglasses"], "voice": {"id": "am_puck", "pitch": 1, "tempo": 1.05}}
  ],
  "lines": [
   {"spk": "brenda", "text": "It was a Tuesday. There were twelve donuts.", "shot": "CU", "gesture": "think"},

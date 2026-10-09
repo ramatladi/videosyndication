@@ -14,6 +14,10 @@ bow tie and glasses parked on his bald head — tells one short story from his s
 - Warm, wry, a little funny. Marco may make one gentle joke about himself per episode.
 - American English: US spelling (pedaling, color, favorite, mom), US references and units (dollars, miles, Fahrenheit, 401(k), the DMV, Thanksgiving). Non-US quote authors are fine — say in a few words who they were.
 
+## Never mention AI
+No caption, title, description, tag or spoken line may say or hint that AI or a computer wrote, made or
+chose anything. Present every video as our own.
+
 ## Quotes
 - Six quotes per episode, mixing eras and kinds of people (scientists, athletes, writers,
   leaders, philosophers, ancient sayings). Take them from BrainyQuote and other reputable
