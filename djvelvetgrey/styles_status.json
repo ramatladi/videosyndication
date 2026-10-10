@@ -1,65 +1,89 @@
 {
- "note": "Activation per agreed rollout gate. active-technical = passed 3 full qualification renders + regression + independent review, NOT listened to. active-auditioned = also heard and approved by Sello.",
+ "note": "Activation per agreed rollout gate. active-technical = passed 3 full qualification renders + regression + independent review, NOT listened to. active-auditioned = also heard and approved by Sello. All 12 activated 2026-10-10 as active-technical (qualification 36/36 pass, tests, full build, independent code review). None has been listened to.",
  "styles": {
   "deep": {
-   "status": "inactive",
-   "qualified": null,
-   "auditioned_by": null
+   "status": "active-technical",
+   "qualified": "2026-10-10",
+   "auditioned_by": null,
+   "activated": "2026-10-10",
+   "evidence": "qualification/2026-10-10.json"
   },
   "melodic": {
-   "status": "inactive",
-   "qualified": null,
-   "auditioned_by": null
+   "status": "active-technical",
+   "qualified": "2026-10-10",
+   "auditioned_by": null,
+   "activated": "2026-10-10",
+   "evidence": "qualification/2026-10-10.json"
   },
   "house": {
-   "status": "inactive",
-   "qualified": null,
-   "auditioned_by": null
+   "status": "active-technical",
+   "qualified": "2026-10-10",
+   "auditioned_by": null,
+   "activated": "2026-10-10",
+   "evidence": "qualification/2026-10-10.json"
   },
   "afro": {
-   "status": "inactive",
-   "qualified": null,
-   "auditioned_by": null
+   "status": "active-technical",
+   "qualified": "2026-10-10",
+   "auditioned_by": null,
+   "activated": "2026-10-10",
+   "evidence": "qualification/2026-10-10.json"
   },
   "tropical": {
-   "status": "inactive",
-   "qualified": null,
-   "auditioned_by": null
+   "status": "active-technical",
+   "qualified": "2026-10-10",
+   "auditioned_by": null,
+   "activated": "2026-10-10",
+   "evidence": "qualification/2026-10-10.json"
   },
   "nudisco": {
-   "status": "inactive",
-   "qualified": null,
-   "auditioned_by": null
+   "status": "active-technical",
+   "qualified": "2026-10-10",
+   "auditioned_by": null,
+   "activated": "2026-10-10",
+   "evidence": "qualification/2026-10-10.json"
   },
   "progressive": {
-   "status": "inactive",
-   "qualified": null,
-   "auditioned_by": null
+   "status": "active-technical",
+   "qualified": "2026-10-10",
+   "auditioned_by": null,
+   "activated": "2026-10-10",
+   "evidence": "qualification/2026-10-10.json"
   },
   "tech": {
-   "status": "inactive",
-   "qualified": null,
-   "auditioned_by": null
+   "status": "active-technical",
+   "qualified": "2026-10-10",
+   "auditioned_by": null,
+   "activated": "2026-10-10",
+   "evidence": "qualification/2026-10-10.json"
   },
   "vocal": {
-   "status": "inactive",
-   "qualified": null,
-   "auditioned_by": null
+   "status": "active-technical",
+   "qualified": "2026-10-10",
+   "auditioned_by": null,
+   "activated": "2026-10-10",
+   "evidence": "qualification/2026-10-10.json"
   },
   "soulful": {
-   "status": "inactive",
-   "qualified": null,
-   "auditioned_by": null
+   "status": "active-technical",
+   "qualified": "2026-10-10",
+   "auditioned_by": null,
+   "activated": "2026-10-10",
+   "evidence": "qualification/2026-10-10.json"
   },
   "disco": {
-   "status": "inactive",
-   "qualified": null,
-   "auditioned_by": null
+   "status": "active-technical",
+   "qualified": "2026-10-10",
+   "auditioned_by": null,
+   "activated": "2026-10-10",
+   "evidence": "qualification/2026-10-10.json"
   },
   "french": {
-   "status": "inactive",
-   "qualified": null,
-   "auditioned_by": null
+   "status": "active-technical",
+   "qualified": "2026-10-10",
+   "auditioned_by": null,
+   "activated": "2026-10-10",
+   "evidence": "qualification/2026-10-10.json"
   }
  }
 }
