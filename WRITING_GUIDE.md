@@ -32,7 +32,7 @@ Each cast member: `{"id", "name", "kind", "color", ... , "voice": {...}}`
 - **mascot**: `shape`: gumdrop|box|cup|phone|ghost|pumpkin|egg|ball|football|toast; optional `case` (phone), `sleeve`/`lid` (cup), `crust` (toast)
 - clothes (human/animal): `top` `{"color", "pattern": plain|stripes|dots|jersey|hoodie|suit|apron, "pattern_color", "number"}`, `bottom`, `shoes`
 - `accessories` (list, optional `:#hex` colour): glasses, sunglasses, cap, beanie, crown, headphones, mic_headset, bow, tophat, witchhat,
-  party_hat, chef_hat, tie, scarf, whistle, halo, horns — e.g. `"cap:#c0392b"`
+  party_hat, chef_hat, tie, scarf, whistle, halo, horns — e.g. `"cap:#c0392b"` (`bow` is a hair bow worn on the head, not a bow tie; use `tie` for men)
 - face: `eye`: round|big|sleepy|happy; `brows`: neutral|angry|worried|raised; `mouth` when silent: smile|flat|frown; `blush`: true/false
 - `label_color`: optional caption name colour
 - **voice** `{"id", "pitch", "tempo"}` — natural HUMAN voices only, never cartoon voices. `id` is one of:

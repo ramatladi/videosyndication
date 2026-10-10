@@ -1,0 +1,500 @@
+{
+ "engine": "cast",
+ "id": 3,
+ "slug": "stop-the-wedding-but",
+ "title": "Stop The Wedding, But",
+ "trend": "TikTok 'Stop the wedding, but…' confession trend (October 2026, US) — acted out live at an outdoor wedding",
+ "scene": "park_day",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "stop the wedding,",
+  "but…",
+  "a wedding where everyone has a confession"
+ ],
+ "youtube_title": "Stop the wedding, but… everyone has a confession 💍",
+ "description": "Every guest at this wedding has something to confess. Even the dog.\n\n#stopthewedding #wedding #comedy #animation #shorts",
+ "tags": [
+  "stop the wedding",
+  "wedding",
+  "comedy",
+  "animation",
+  "funny",
+  "skit",
+  "wedding fails",
+  "dog"
+ ],
+ "tiktok_caption": "stop the wedding, but… everyone has a confession 💍🐶 #stopthewedding #wedding #comedy #fyp",
+ "cast": [
+  {
+   "id": "tasha",
+   "name": "Tasha",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "bun",
+    "color": "#1b1111"
+   },
+   "top": {
+    "color": "#fdfdfd",
+    "pattern": "plain"
+   },
+   "bottom": "#fdfdfd",
+   "accessories": [
+    "halo:#f5f0e6"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "kevin",
+   "name": "Kevin",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "curly",
+    "color": "#7b4a2a"
+   },
+   "top": {
+    "color": "#22313f",
+    "pattern": "suit",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#22313f",
+   "accessories": [
+    "bow:#c0392b"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "blush": true,
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "dale",
+   "name": "Dale the Officiant",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "bald",
+    "color": "#9e9e9e"
+   },
+   "top": {
+    "color": "#5d4037",
+    "pattern": "suit",
+    "pattern_color": "#f5f5f5"
+   },
+   "bottom": "#3e2723",
+   "accessories": [
+    "glasses",
+    "tie:#2e7d32"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "biscuit",
+   "name": "Biscuit the Ring Dog",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#d4a056",
+   "belly": "#f3dcb2",
+   "top": {
+    "color": "#22313f",
+    "pattern": "suit",
+    "pattern_color": "#ffffff"
+   },
+   "accessories": [
+    "bow:#c0392b"
+   ],
+   "scale": 0.88,
+   "eye": "happy",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 0.96
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "dale",
+   "text": "If anyone here has a reason these two should not be married, speak now.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dale",
+   "text": "Or forever hold your peace.",
+   "shot": "W",
+   "post": 1.0
+  },
+  {
+   "spk": "biscuit",
+   "text": "Stop the wedding.",
+   "shot": "biscuit",
+   "after": "record_scratch"
+  },
+  {
+   "spk": [
+    "tasha",
+    "kevin"
+   ],
+   "text": "Biscuit?",
+   "shot": "W",
+   "jump": true
+  },
+  {
+   "spk": "biscuit",
+   "text": "Stop the wedding, but I need to say something. I have been holding it in.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "tasha",
+   "text": "Okay. Biscuit. Sweetie. Go ahead.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "biscuit",
+   "text": "I ate the rings.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "kevin",
+   "text": "Both of them?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "biscuit",
+   "text": "One was not enough. I am a growing boy.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dale",
+   "text": "Well. I have been doing weddings for many years.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tasha",
+   "text": "That's comforting, Dale.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "dale",
+   "text": "Stop the wedding, but that is not true.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.8
+  },
+  {
+   "spk": "kevin",
+   "text": "What do you mean, not true?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "dale",
+   "text": "I got ordained online. Last night. In the parking lot.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dale",
+   "text": "It took eleven minutes. I also got a free mug.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "tasha",
+   "text": "You told us you were a professional.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dale",
+   "text": "I am a professional. A professional accountant.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kevin",
+   "text": "We have love. We do not need rings. We do not need a real officiant.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tasha",
+   "text": "We need a real officiant, Kevin.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dale",
+   "text": "I am legally real. I have a certificate. It is on my phone.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "biscuit",
+   "text": "His phone is at two percent.",
+   "shot": "biscuit"
+  },
+  {
+   "spk": "dale",
+   "text": "Nobody asked you, ring eater.",
+   "shot": "TWO",
+   "after": "boing"
+  },
+  {
+   "spk": "tasha",
+   "text": "Okay. Deep breath. Is that everything? Any more confessions?",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "kevin",
+   "text": "Stop the wedding, but.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "tasha",
+   "text": "Kevin.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tasha",
+   "text": "Say it.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "kevin",
+   "text": "I wrote my vows in the car. On a napkin. From a taco place.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kevin",
+   "text": "And some of the vows are just the taco order.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "sting"
+  },
+  {
+   "spk": "tasha",
+   "text": "Read them.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kevin",
+   "text": "Tasha. From the day I met you, my heart has been full.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "kevin",
+   "text": "Like two chicken tacos with extra cheese.",
+   "shot": "CU"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Beautiful. I am crying. Also, I am hungry again.",
+   "shot": "biscuit",
+   "gesture": "wave"
+  },
+  {
+   "spk": "tasha",
+   "text": "That is honestly the most romantic thing you have ever said.",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "dale",
+   "text": "Wonderful. Then by the power vested in me, by a website.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tasha",
+   "text": "Wait.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "tasha",
+   "text": "Stop the wedding, but I also have one.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": [
+    "kevin",
+    "dale",
+    "biscuit"
+   ],
+   "text": "Oh no.",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "tasha",
+   "text": "I do not actually like hiking.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kevin",
+   "text": "We met on a hiking trail.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "tasha",
+   "text": "I was lost, Kevin. I was looking for the parking lot.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kevin",
+   "text": "You bought hiking boots. You bought the fancy socks.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tasha",
+   "text": "The socks were a cry for help.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "biscuit",
+   "text": "I also hate hiking. My legs are eight inches long.",
+   "shot": "biscuit"
+  },
+  {
+   "spk": "dale",
+   "text": "Is that every confession? Because my phone is at one percent now.",
+   "shot": "W"
+  },
+  {
+   "spk": "kevin",
+   "text": "Hold on. Hold on. Everybody look around.",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "kevin",
+   "text": "Those balloons. They say congratulations, Brad and Megan.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tasha",
+   "text": "Who are Brad and Megan?",
+   "shot": "TWO",
+   "pre": 0.5
+  },
+  {
+   "spk": "kevin",
+   "text": "Stop the wedding, but I think we are at the wrong wedding.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "tasha",
+   "text": "Our wedding is across the park, by the duck pond.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dale",
+   "text": "So I have been marrying you to the wrong chairs.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "biscuit",
+   "text": "And I ate the wrong rings.",
+   "shot": "biscuit",
+   "post": 0.8
+  },
+  {
+   "spk": [
+    "tasha",
+    "kevin",
+    "dale"
+   ],
+   "text": "Biscuit.",
+   "shot": "W",
+   "gesture": "hips"
+  },
+  {
+   "spk": "biscuit",
+   "text": "In my defense, they were delicious. Very shiny.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tasha",
+   "text": "Okay. New plan. Everybody walk to the duck pond. Quickly. Quietly.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "kevin",
+   "text": "It's across the park. Up a hill.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tasha",
+   "text": "So, it's a hike.",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 0.7
+  },
+  {
+   "spk": "kevin",
+   "text": "It's a small hike.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "tasha",
+   "text": "I will marry you, Kevin. But you are carrying me.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "dale",
+   "text": "And somebody please carry my phone charger.",
+   "shot": "CU"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Stop the wedding, but somebody also has to carry me. Eight inch legs.",
+   "shot": "W",
+   "gesture": "wave",
+   "jump": true,
+   "after": "boing"
+  }
+ ]
+}
