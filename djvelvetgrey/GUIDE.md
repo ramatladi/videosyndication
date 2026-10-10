@@ -1,7 +1,7 @@
 # DJ Velvet Grey — weekly house tracks
 
 Two original tracks a week by **DJ Velvet Grey**, each a 2:59 (179.0 s) vertical video of one
-beautiful nature photo with a slow zoom, the track title, a live equalizer and the photo credit,
+beach/nature photo featuring a woman in a bikini with a slow zoom, the track title, a live equalizer and the photo credit,
 published to YouTube (Short) and TikTok through Metricool (brand `everythingyouwant_tv`, id 7321327).
 
 | Day | Style (`style`) | Sound |
@@ -43,10 +43,16 @@ lead sound with every seed, so each track is new.
 ## Rules
 - **Title**: original, evocative, nature/mood inspired, 2–4 words, Title Case; never used before in
   `TRACKS.md` and not the title of a well-known existing song (check with a quick web search).
-- **Photo**: only beautiful nature — landscapes, mountains, forests, lakes, oceans, waterfalls,
-  skies, flowers, deserts, auroras. No people, no buildings, roads, boats, vehicles or other
-  man-made objects, no text, logos or watermarks, nothing dark or disturbing. Portrait or large
-  enough to crop to 9:16 (at least ~1600 px on the short side).
+- **Photo**: a beautiful natural setting (beach, ocean, lake, island, waterfall, coastline, dunes,
+  tropical lagoon…) featuring one or more adult women in bikinis — the "lady in a bikini" beach-lifestyle
+  look. Keep it tasteful: clearly adults, natural relaxed or playful poses with the scenery clearly visible,
+  no nudity or see-through swimwear, no close-up crops of body parts, no explicit or provocative posing,
+  no visible brand logos, no text or watermarks, no buildings or vehicles dominating the frame. Portrait
+  or large enough to crop to 9:16 (at least ~1600 px on the short side). Leave the lower-middle of the frame
+  for the title (the subject sits best in the upper two-thirds or off-centre).
+- **Finding photos**: Unsplash search pages work with WebFetch, e.g.
+  `https://unsplash.com/s/photos/woman-bikini-beach?orientation=portrait&license=free`; then confirm on the
+  photo page that it says "Free to use under the Unsplash License". Pexels search pages block fetching.
 - **Photo sources**: free-license sites only — Unsplash (Unsplash License; never Unsplash+),
   Pexels (Pexels License) or Pixabay (Pixabay Content License). Always credit the photographer and
   site in the video (`credit`) and in the YouTube description and TikTok caption.
