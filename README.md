@@ -13,3 +13,7 @@ original cast and setting, rendered entirely in code and published to YouTube an
 
 The latest video is hosted on the `media` branch (replaced each day), giving Metricool a public URL:
 `https://raw.githubusercontent.com/ramatladi/videosyndication/media/epNNN.mp4`
+
+## DJ Velvet Grey (`djvelvetgrey/`)
+Two original house tracks a week (Tue: melodic chill house, Fri: vocal deep house), 2:59 each, shown over a credited
+free-license nature photo. See `djvelvetgrey/GUIDE.md`; build with `./djvelvetgrey/make.sh djvelvetgrey/tracks/dvgNNN.json`.
