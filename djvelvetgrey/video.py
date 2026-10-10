@@ -12,7 +12,15 @@ from scipy.io import wavfile
 W, H, FPS = 1080, 1920, 24
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONTS = os.path.join(HERE, 'fonts')
-STYLE_LABEL = {'chill': 'Melodic Chill House', 'deep': 'Deep House'}
+import sys as _sys
+_sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'v2'))
+try:
+    import styles as _S
+    STYLE_LABEL = {k: v['label'] for k, v in _S.STYLES.items()}
+    STYLE_LABEL.update({a: _S.STYLES[b]['label'] for a, b in _S.ALIASES.items()})
+except Exception:
+    STYLE_LABEL = {}
+STYLE_LABEL.setdefault('chill', 'Melodic House')
 
 
 def font(name, size):
@@ -67,7 +75,7 @@ def overlay(title, style, credit):
     for i, ln in enumerate(lines):
         d.text((W / 2, y0 + i * lh), ln, font=ft, fill=(255, 255, 255, 255), anchor='mm')
     fl = font('IBMPlexSans-SemiBold.ttf', 36)
-    d.text((W / 2, 1430 + lh * .5 + 40), STYLE_LABEL[style], font=fl, fill=(255, 255, 255, 200), anchor='mm')
+    d.text((W / 2, 1430 + lh * .5 + 40), STYLE_LABEL.get(style, style.replace('_', ' ').title()), font=fl, fill=(255, 255, 255, 200), anchor='mm')
     fc = font('IBMPlexSans-SemiBold.ttf', 28)
     d.text((W / 2, H - 70), credit, font=fc, fill=(255, 255, 255, 190), anchor='mm')
     return ov, y0 - lh // 2
@@ -99,6 +107,7 @@ def bands(audio_path, nframes, nb=40):
 def main():
     ap = argparse.ArgumentParser()
     for k in ('image', 'audio', 'title', 'style', 'credit', 'out'): ap.add_argument('--' + k, required=True)
+    ap.add_argument('--aac', help='final AAC (.m4a) to copy into the MP4 unchanged (the stream QC measures)')
     a = ap.parse_args()
     sr, x = wavfile.read(a.audio)
     dur = len(x) / sr
@@ -125,9 +134,9 @@ def main():
            '-loop', '1', '-framerate', str(FPS), '-t', f'{dur:.3f}', '-i', os.path.join(work, 'bg.png'),
            '-loop', '1', '-framerate', str(FPS), '-t', f'{dur:.3f}', '-i', os.path.join(work, 'ov.png'),
            '-f', 'rawvideo', '-pix_fmt', 'rgba', '-s', f'{BWt}x{BHt}', '-r', str(FPS), '-i', 'pipe:0',
-           '-i', a.audio, '-filter_complex', fc, '-map', '[v]', '-map', '3:a',
+           '-i', a.audio] + (['-i', a.aac] if a.aac else []) + ['-filter_complex', fc, '-map', '[v]', '-map', ('4:a' if a.aac else '3:a'),
            '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-maxrate', '1000k', '-bufsize', '2000k',
-           '-c:a', 'aac', '-b:a', '192k', '-t', f'{dur:.3f}', '-movflags', '+faststart', a.out]
+           ] + (['-c:a', 'copy'] if a.aac else ['-c:a', 'aac', '-b:a', '192k']) + ['-t', f'{dur:.3f}', '-movflags', '+faststart', a.out]
     enc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     for f in range(nframes):
         im = Image.new('RGBA', (BWt, BHt), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
