@@ -33,7 +33,8 @@ lead sound with every seed, so each track is new.
   "photo_site": "Unsplash",
   "credit": "Photo: Jane Doe / Unsplash",
   "youtube_title": "Silver Fern Morning — DJ Velvet Grey | Melodic Chill House",
-  "description": "...",
+  "scene": "Road trip — Pacific Coast Highway, Big Sur",
+  "description": "Picture yourself ... (scene first, then credit and hashtags)",
   "tiktok_caption": "...",
   "tags": ["deep house", "chill house", "DJ Velvet Grey", "..."]
 }
@@ -49,6 +50,14 @@ lead sound with every seed, so each track is new.
 - **Photo sources**: free-license sites only — Unsplash (Unsplash License; never Unsplash+),
   Pexels (Pexels License) or Pixabay (Pixabay Content License). Always credit the photographer and
   site in the video (`credit`) and in the YouTube description and TikTok caption.
+- **Captions spark the imagination**: the YouTube description and TikTok caption open with one vivid,
+  second-person scene (1–2 sentences) of where this track belongs — a lifestyle moment or activity
+  (road trip, beach walk, hiking, running, a leisure drive, a boat at sunset, a rooftop evening,
+  a slow morning coffee, cycling, a picnic…) set at a famous tourist attraction somewhere in the world
+  (e.g. driving the Pacific Coast Highway, a sunrise hike up Table Mountain, a boat on Lake Como,
+  a run along Copacabana, Iceland's Ring Road, the Amalfi Coast, Santorini at sunset, Banff's Moraine Lake).
+  Match the track's mood (chill = bright and breezy, deep = warm and after-dark) and the photo's feel;
+  never repeat an activity + place pairing from `TRACKS.md`.
 - Never reuse a photo or a title listed in `TRACKS.md`.
 - Nothing in titles, captions or descriptions mentions AI.
 - `madeForKids` is always false; YouTube category MUSIC, type short.
