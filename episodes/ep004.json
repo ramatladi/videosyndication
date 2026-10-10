@@ -1,0 +1,492 @@
+{
+ "engine": "cast",
+ "id": 4,
+ "slug": "two-fishes",
+ "title": "Two Fishes",
+ "trend": "TikTok 'Two Fishes' trend (October 2026, US) — calmly defending a reasonable-unreasonable take to your parents, TED Talk style",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "me explaining to my parents",
+  "that i can save money",
+  "and still travel"
+ ],
+ "youtube_title": "Me explaining to my parents why I can keep both fishes 🐟🐟",
+ "description": "Theo calmly explains why he can save money and still go to Italy. His parents have a counter-argument. So does the cat.\n\n#twofishes #explainingtomyparents #comedy #animation #shorts",
+ "tags": [
+  "two fishes",
+  "explaining to my parents",
+  "comedy",
+  "animation",
+  "funny",
+  "skit",
+  "living at home",
+  "cat"
+ ],
+ "tiktok_caption": "me explaining to my parents that i can save money and still travel 🐟🐟 #twofishes #comedy #animation #fyp",
+ "cast": [
+  {
+   "id": "theo",
+   "name": "Theo",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "curly",
+    "color": "#2b1b10"
+   },
+   "top": {
+    "color": "#2e86de",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "accessories": [
+    "mic_headset"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "mom",
+   "name": "Mom",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "long",
+    "color": "#5b3a29"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "plain"
+   },
+   "bottom": "#2c3e50",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "dad",
+   "name": "Dad",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "short",
+    "color": "#9e9e9e"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "stripes",
+    "pattern_color": "#1e8449"
+   },
+   "bottom": "#7f8c8d",
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_michael",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "duchess",
+   "name": "Duchess the Cat",
+   "kind": "animal",
+   "ears": "cat",
+   "color": "#9e9e9e",
+   "belly": "#e0e0e0",
+   "inner": "#f8bbd0",
+   "accessories": [
+    "crown:#f1c40f"
+   ],
+   "scale": 0.86,
+   "eye": "sleepy",
+   "brows": "raised",
+   "voice": {
+    "id": "bf_isabella",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "theo",
+   "text": "Mom. Dad. Please sit down. I would like to explain something. Calmly.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dad",
+   "text": "Why is there a whiteboard in the living room?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "Because this is a presentation, Dad.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "mom",
+   "text": "Is this about the credit card bill?",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "theo",
+   "text": "It is about fish.",
+   "shot": "CU",
+   "post": 0.9,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "theo",
+   "text": "Imagine you have two fishes.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "theo",
+   "text": "Everybody tells you, you have to put one back.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "But who says? Who made that rule?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "mom",
+   "text": "Nobody said anything about fish, Theo.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "theo",
+   "text": "The fish are a metaphor, Mom. Stay with me.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "duchess",
+   "text": "He has been practicing this in the mirror since noon.",
+   "shot": "duchess"
+  },
+  {
+   "spk": "theo",
+   "text": "Fish number one is saving money. Fish number two is going to Italy.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dad",
+   "text": "You can't keep both of those fish.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "theo",
+   "text": "And that, Dad, is exactly what they want you to think.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "mom",
+   "text": "Who is they?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "theo",
+   "text": "Them. The fish police.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dad",
+   "text": "There is no fish police.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "theo",
+   "text": "Not with that attitude.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "mom",
+   "text": "Okay. How exactly do you save money and go to Italy?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "theo",
+   "text": "Simple. I save money by living here. Rent free.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "theo",
+   "text": "Then I take the money I saved, and I go to Italy.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dad",
+   "text": "So we are paying for Italy.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "theo",
+   "text": "No. You are investing in Italy. There is a difference.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "duchess",
+   "text": "There is not.",
+   "shot": "duchess",
+   "pre": 0.6,
+   "after": "boing"
+  },
+  {
+   "spk": "theo",
+   "text": "Nobody asked the cat.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "duchess",
+   "text": "The cat also lives here rent free. And the cat does not go to Italy.",
+   "shot": "CU"
+  },
+  {
+   "spk": "mom",
+   "text": "She makes a good point.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "theo",
+   "text": "Fine. Next slide.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "I can eat a salad, and also a whole pizza. In the same meal.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "mom",
+   "text": "That is not two fishes, sweetie. That is one very large fish.",
+   "shot": "CU"
+  },
+  {
+   "spk": "theo",
+   "text": "I can be at peace, and completely losing it, at the same time.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "duchess",
+   "text": "That one is true. I have heard him in the shower. Singing and crying.",
+   "shot": "duchess"
+  },
+  {
+   "spk": "dad",
+   "text": "Son. Life is about choices. You pick a fish. You live with that fish.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "theo",
+   "text": "Dad. Respectfully. You have two recliners.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "dad",
+   "text": "That's different.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "theo",
+   "text": "Why do you need two recliners?",
+   "shot": "CU"
+  },
+  {
+   "spk": "dad",
+   "text": "One is for sitting. The other one is for thinking about sitting.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "mom",
+   "text": "He got you there, Ray.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "theo",
+   "text": "And Mom. You have two phones.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "mom",
+   "text": "One is for family. One is for my book club.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "duchess",
+   "text": "The book club does not read books. They eat cake and talk about the neighbors.",
+   "shot": "duchess"
+  },
+  {
+   "spk": "mom",
+   "text": "Duchess!",
+   "shot": "CU",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "theo",
+   "text": "So we all keep two fishes. That is my point. Thank you. I will now take questions.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "applause"
+  },
+  {
+   "spk": "dad",
+   "text": "Okay. One question.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "dad",
+   "text": "Your mom and I also have two fishes.",
+   "shot": "CU"
+  },
+  {
+   "spk": "theo",
+   "text": "Great. See? Everybody wins.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "mom",
+   "text": "Fish number one is our son. Fish number two is turning his bedroom into a home gym.",
+   "shot": "CU",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "theo",
+   "text": "You can't keep both of those fish.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "dad",
+   "text": "And that, son, is exactly what they want you to think.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "Okay. Who is they?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "mom",
+   "text": "Us. We are the fish police.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "duchess",
+   "text": "I am also the fish police. Mostly, I just want the fish.",
+   "shot": "duchess",
+   "jump": true
+  },
+  {
+   "spk": "theo",
+   "text": "So where am I supposed to sleep?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dad",
+   "text": "The gym has a bench.",
+   "shot": "CU"
+  },
+  {
+   "spk": "mom",
+   "text": "It is very comfortable. And rent free.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "theo",
+   "text": "This is a hostile environment.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "theo",
+   "text": "Fine. New plan. I save money by going to Italy, and just staying there.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dad",
+   "text": "That is not how saving works.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "theo",
+   "text": "Respectfully, nobody in this room is wrong.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "duchess",
+   "text": "He is wrong.",
+   "shot": "duchess",
+   "pre": 0.5
+  },
+  {
+   "spk": [
+    "mom",
+    "dad"
+   ],
+   "text": "He is wrong.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "Not with that attitude.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  }
+ ]
+}
