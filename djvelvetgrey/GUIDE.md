@@ -68,3 +68,43 @@ lead sound with every seed, so each track is new.
 - Nothing in titles, captions or descriptions mentions AI.
 - `madeForKids` is always false; YouTube category MUSIC, type short.
 - The video is removed from the `media` branch once Metricool has copied it.
+
+## Engine v2 — distinct, instrumental-first tracks (`djvelvetgrey/v2/`)
+Opt in per track with `"engine": "v2"` in the track file; files without it use the original generator
+(the Tuesday/Friday scheduled runs still use v1 until switched explicitly).
+
+**Workflow per track:** written brief → 6 motif candidates → catalogue screen → selection → developed
+arrangement → mix → automated QC → listening feedback.
+
+1. **Brief** (`"brief"` in the track file): mood, `lead` and `answer` instruments (mallet, pluck, flute,
+   rhodes, kalimba, glass), `progression` (scale degree + chord type), `groove` (`bass_a`, `bass_b` from
+   offbeat, rolling, syncop, octave, walk, sustain; optional `swing`), `arc` (classic, early, burn, wave),
+   `bpm`, `tonic` (MIDI), `loudness_lufs`, `seed`. Vary these deliberately between tracks — a new title,
+   key, seed or photo does not make a new composition.
+2. **Motif candidates:** `python3 djvelvetgrey/v2/previews.py djvelvetgrey/tracks/dvgNNN.json <outdir>`
+   writes six 8-bar hook previews at equal loudness (-14 LUFS) over the same backing, plus
+   `candidates.json` with compositional evidence and a shortlist of three. The shortlist is NOT a listening
+   judgement; a listener chooses. Copy the chosen candidate's `cell`, `contour`, `start` into `brief.motif`.
+3. **Motif design:** 2-bar rhythm cell + contour, developed into an 8-bar call (lead) and response
+   (answer instrument) hook, strong/long notes on chord tones. The motif is teased ~2–10 s in and the full
+   hook lands ~15–25 s in (all four arcs). The second drop develops the idea (bass pattern change, lead up
+   an octave, guide-tone countermelody, extra percussion).
+4. **Catalogue screening** (`djvelvetgrey/catalog.json`): motifs compared by intervals + rhythm + contour,
+   including transposed, shifted and rotated versions. Calibration (`python3 djvelvetgrey/v2/compose.py`):
+   identical/transposed/shifted 0.0, one changed interval ~0.02–0.06, different motifs 0.26–0.61; distances
+   below 0.18 are flagged for revision or review. Identical progression + arc + groove + lead combinations
+   are flagged too. This screens our own catalogue only; it is not an all-music originality guarantee.
+5. **Sound and mix:** original synthesis (PolyBLEP oscillators, filter envelopes, FM bells, synthesised
+   drums with humanised timing/velocity, ghost hats, fills every 8 bars), per-group gain staging and bus
+   compression, kick sidechain, separate reverb/delay returns, low end mono below ~120 Hz, loudness set
+   by the brief, true-peak limiter at -1.5 dBTP internally. Licensed drum one-shots may be added later only
+   with documented terms permitting commercial use, logged with source and licence.
+6. **QC** (`djvelvetgrey/v2/qc.py`, run automatically by make.sh for v2): duration, integrated loudness,
+   true peak on the encoded file (target ≤ -1.0 dBTP), clipping, click suspects (spikes not repeated 1, 2,
+   8 or 16 bars earlier), silence, mono compatibility, low end below 80 Hz mono, tease/hook timing and
+   second-drop changes. These are automated technical checks only — hook memorability, groove feel, tone
+   and mix balance, the second-drop payoff and overall quality need listening.
+
+Counts above (6 candidates, 4 arcs, fills every 8 bars, range ≤ a tenth) are starting heuristics, not
+quality gates. Upgraded tracks are recommended for listener review before release; automated selection is
+never described as listening approval.

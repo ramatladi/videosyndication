@@ -1,0 +1,57 @@
+{
+  "image": "djvelvetgrey/photos/dvg001.jpg",
+  "photo_page": "https://unsplash.com/photos/woman-in-yellow-bikini-standing-on-beach-during-daytime-zxUgUc0bG8k",
+  "photo_url": "https://images.unsplash.com/photo-1592169556116-a0eab523e424?w=2400&q=85",
+  "photographer": "Carol Magalhães",
+  "photo_site": "Unsplash",
+  "credit": "Photo: Carol Magalhães / Unsplash",
+  "scene": "Barefoot beach walk — Copacabana, Rio de Janeiro",
+  "title": "Sunlit Shallows (Instrumental Mix)",
+  "style": "chill",
+  "engine": "v2",
+  "release_status": "draft — not published",
+  "brief": {
+    "engine": "v2",
+    "mood": "warm coastal afternoon, sunlit and unhurried; the original's identity without the sung voice",
+    "style": "chill",
+    "bpm": 121,
+    "tonic": 58,
+    "key": "Bb minor",
+    "progression": [
+      [
+        0,
+        "m9"
+      ],
+      [
+        3,
+        "maj7"
+      ],
+      [
+        10,
+        "add9"
+      ],
+      [
+        5,
+        "m7"
+      ]
+    ],
+    "lead": "mallet",
+    "answer": "flute",
+    "groove": {
+      "bass_a": "syncop",
+      "bass_b": "octave",
+      "swing": 0.0
+    },
+    "arc": "wave",
+    "loudness_lufs": -10.5,
+    "seed": 621013,
+    "notes": "Instrumental-first. Mallet carries the motif, flute answers (call and response). Tease ~2 s, full hook ~16 s. Second drop: octave bass, lead up an octave, guide-tone countermelody, congas.",
+    "motif": {
+      "cell": "lilt",
+      "contour": "pedal",
+      "start": 77,
+      "candidate": 2,
+      "selected_by": "compositional evidence (top score) pending listener choice among shortlist 2, 3, 4"
+    }
+  }
+}

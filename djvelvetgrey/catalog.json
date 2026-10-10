@@ -1,0 +1,61 @@
+[
+ {
+  "id": "dvg001v2",
+  "title": "Sunlit Shallows (Instrumental Mix)",
+  "status": "draft",
+  "style": "chill",
+  "motif": {
+   "intervals": [
+    0,
+    5,
+    -2,
+    0,
+    0,
+    -3
+   ],
+   "onsets": [
+    0,
+    3,
+    6,
+    12,
+    14,
+    16,
+    24
+   ],
+   "durs": [
+    3,
+    3,
+    4,
+    2,
+    2,
+    6,
+    8
+   ]
+  },
+  "cell": "lilt",
+  "contour": "pedal",
+  "progression": [
+   [
+    0,
+    "m9"
+   ],
+   [
+    3,
+    "maj7"
+   ],
+   [
+    10,
+    "add9"
+   ],
+   [
+    5,
+    "m7"
+   ]
+  ],
+  "template": "wave",
+  "bass_a": "syncop",
+  "lead": "mallet",
+  "key": "Bb minor",
+  "bpm": 121
+ }
+]
