@@ -1,0 +1,468 @@
+{
+ "engine": "cast",
+ "id": 5,
+ "slug": "the-costume-walk",
+ "title": "The Costume Walk",
+ "trend": "TikTok 'Ramalama' costume walk (October 2026, US) — a slow, menacing walk toward the camera that ends in a Halloween costume reveal",
+ "scene": "halloween_porch",
+ "desk": false,
+ "music": "spooky",
+ "intro": [
+  "the slow scary walk",
+  "but it's the whole block",
+  "wait for the reveal"
+ ],
+ "youtube_title": "The slow scary costume walk, but it's the whole neighborhood 🎃",
+ "description": "One porch. Three contestants. The slowest, scariest walk on the block, and a judge with a secret.\n\n#costumewalk #halloween #halloweencostume #comedy #animation #shorts",
+ "tags": [
+  "costume walk",
+  "halloween",
+  "halloween costume",
+  "spooky season",
+  "comedy",
+  "animation",
+  "skit",
+  "funny",
+  "cartoon"
+ ],
+ "tiktok_caption": "the slow scary costume walk, but it's the whole neighborhood 🎃 wait for the judge #costumewalk #halloween #comedy #fyp",
+ "cast": [
+  {
+   "id": "delphine",
+   "name": "Delphine",
+   "kind": "mascot",
+   "shape": "ghost",
+   "color": "#f4f1ea",
+   "accessories": [
+    "tophat:#2c2c34"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#d9d2ff",
+   "voice": {
+    "id": "bf_emma",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "marcus",
+   "name": "Marcus",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "short",
+    "color": "#1b120c"
+   },
+   "top": {
+    "color": "#7f8c8d",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "cap:#2c3e50"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "scale": 1.08,
+   "voice": {
+    "id": "am_adam",
+    "pitch": -1,
+    "tempo": 0.93
+   }
+  },
+  {
+   "id": "pickles",
+   "name": "Pickles",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#c98b4f",
+   "belly": "#f3dcc0",
+   "inner": "#8a5a32",
+   "accessories": [
+    "horns:#c0392b"
+   ],
+   "eye": "big",
+   "brows": "angry",
+   "scale": 0.88,
+   "voice": {
+    "id": "am_puck",
+    "pitch": 1,
+    "tempo": 1.07
+   }
+  },
+  {
+   "id": "junie",
+   "name": "Junie",
+   "kind": "mascot",
+   "shape": "pumpkin",
+   "color": "#e67e22",
+   "accessories": [
+    "bow:#8e44ad"
+   ],
+   "eye": "happy",
+   "blush": true,
+   "scale": 0.95,
+   "voice": {
+    "id": "af_nova",
+    "pitch": 1,
+    "tempo": 1.02
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "delphine",
+   "text": "Good evening, neighbors. Welcome to the slowest, scariest walk on the block.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "delphine",
+   "text": "The rules are simple. Walk toward the porch. Very slowly. Very menacingly. Then reveal.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "junie",
+   "text": "I've been practicing my menacing face since August.",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "pickles",
+   "text": "I've been practicing since breakfast. Which was also my second breakfast.",
+   "shot": "CU"
+  },
+  {
+   "spk": "marcus",
+   "text": "I didn't know there was a competition. I came out to get the mail.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "delphine",
+   "text": "Too late, Marcus. You're contestant number one. Begin your walk.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "Okay. Walking. Slowly.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "junie",
+   "text": "Oh, he's good. He's really slow.",
+   "shot": "junie"
+  },
+  {
+   "spk": "pickles",
+   "text": "That's just how he walks. I've seen him walk to the fridge.",
+   "shot": "pickles"
+  },
+  {
+   "spk": "marcus",
+   "text": "Still walking. My knee is making a noise.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "delphine",
+   "text": "The knee noise is very spooky. Points for atmosphere.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marcus",
+   "text": "And here is my reveal.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "pre": 0.8
+  },
+  {
+   "spk": "delphine",
+   "text": "And what are you dressed as, Marcus?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "marcus",
+   "text": "A dad who forgot it was Halloween.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "junie",
+   "text": "That's the scariest thing I've ever heard.",
+   "shot": "junie",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "marcus",
+   "text": "It gets worse. I also forgot to buy candy.",
+   "shot": "CU",
+   "pre": 0.5,
+   "after": "sting"
+  },
+  {
+   "spk": [
+    "junie",
+    "pickles"
+   ],
+   "text": "No!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "delphine",
+   "text": "Marcus, that is a horror story. Nine out of ten.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "delphine",
+   "text": "No. Contestant number two. Pickles, take us away.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pickles",
+   "text": "Rule one. Nobody say the word walk in a happy voice. I'll lose focus.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "junie",
+   "text": "Walk!",
+   "shot": "junie",
+   "jump": true
+  },
+  {
+   "spk": "pickles",
+   "text": "Where? Are we going? Is it a walk? Oh, I'm so happy.",
+   "shot": "CU",
+   "jump": true,
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "delphine",
+   "text": "Junie, please don't sabotage the contestants.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pickles",
+   "text": "Okay. I'm back. I'm menacing. Here I come.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "pickles",
+   "text": "And here is my reveal.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "pre": 0.8
+  },
+  {
+   "spk": "delphine",
+   "text": "Little red horns. Very bold. Are you a devil?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "pickles",
+   "text": "No. I'm dressed as the mailman.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "junie",
+   "text": "The mailman doesn't have horns.",
+   "shot": "junie"
+  },
+  {
+   "spk": "pickles",
+   "text": "To me he does. He comes every day. He touches our door. Nobody stops him.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "marcus",
+   "text": "He brings us the mail, buddy.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pickles",
+   "text": "That's what he wants you to think.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "delphine",
+   "text": "Deeply personal. Slightly unhinged. Eight and a half.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "delphine",
+   "text": "Final contestant. Junie, show us your walk.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "junie",
+   "text": "Close your eyes and listen to me roll menacingly.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pickles",
+   "text": "She's rolling. She's rolling the wrong way.",
+   "shot": "pickles",
+   "gesture": "point"
+  },
+  {
+   "spk": "junie",
+   "text": "The driveway is a hill. I'm a pumpkin. Physics is not my friend.",
+   "shot": "CU"
+  },
+  {
+   "spk": "junie",
+   "text": "Okay. I'm back. And here is my reveal.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "pre": 0.8
+  },
+  {
+   "spk": "delphine",
+   "text": "Junie. What are you dressed as?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "junie",
+   "text": "A pumpkin.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marcus",
+   "text": "You are a pumpkin.",
+   "shot": "TWO",
+   "pre": 0.6
+  },
+  {
+   "spk": "junie",
+   "text": "Exactly. I committed. Some people call it lazy. I call it method.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "junie",
+   "text": "Next year I'm going as something truly scary.",
+   "shot": "CU"
+  },
+  {
+   "spk": "pickles",
+   "text": "What's scarier than a pumpkin?",
+   "shot": "pickles"
+  },
+  {
+   "spk": "junie",
+   "text": "A pie. In late November. Don't ask me how I know.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.5,
+   "after": "sting"
+  },
+  {
+   "spk": "delphine",
+   "text": "Chilling. Ten out of ten for the pie.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "Hang on. Delphine, you haven't done your walk.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "delphine",
+   "text": "Very well. But I don't really walk.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "junie",
+   "text": "Wait. She's floating. Where are your feet?",
+   "shot": "junie"
+  },
+  {
+   "spk": "delphine",
+   "text": "I haven't had feet since nineteen fifty two.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "marcus",
+   "text": "So that's not a bedsheet?",
+   "shot": "marcus"
+  },
+  {
+   "spk": "delphine",
+   "text": "No, darling. I live in your porch light. I've judged this walk for seventy years.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": [
+    "marcus",
+    "pickles",
+    "junie"
+   ],
+   "text": "Ahh!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "junie",
+   "text": "Is it scary being a real ghost?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "delphine",
+   "text": "Not at all. The scariest thing I've seen all night is a man with no candy.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "I said I was sorry.",
+   "shot": "marcus",
+   "gesture": "facepalm",
+   "after": "rimshot"
+  },
+  {
+   "spk": "delphine",
+   "text": "The winner is me. Same time next year. Marcus, bring candy.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "applause"
+  },
+  {
+   "spk": "marcus",
+   "text": "Sure. What day is Halloween again?",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.6
+  }
+ ]
+}
