@@ -116,6 +116,7 @@ Choose every brief field from the style's lists in `styles.py` (make.sh refuses 
   rooftop evening, slow morning coffee, cycling, picnic…) at a famous tourist attraction somewhere in the world,
   matching the style's `mood`; never repeat an activity + place pairing from `TRACKS.md`.
 - Never reuse a photo or a title. Nothing in titles, captions or descriptions mentions AI.
-- `madeForKids` always false; YouTube category MUSIC, type short.
+- `madeForKids` always false; YouTube category MUSIC, type short. TikTok `isAigc` false and YouTube
+  `isAiGeneratedContent` false (Sello's decision, 10 Oct 2026).
 - The video is removed from the `media` branch once Metricool has copied it.
 - `music.py` (v1) is kept only so dvg001 can be rebuilt; it may not be used for releases.
