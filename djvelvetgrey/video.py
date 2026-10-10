@@ -12,7 +12,7 @@ from scipy.io import wavfile
 W, H, FPS = 1080, 1920, 24
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONTS = os.path.join(HERE, 'fonts')
-STYLE_LABEL = {'chill': 'Melodic Chill House', 'deep': 'Vocal Deep House'}
+STYLE_LABEL = {'chill': 'Melodic Chill House', 'deep': 'Deep House'}
 
 
 def font(name, size):

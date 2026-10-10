@@ -6,8 +6,11 @@ published to YouTube (Short) and TikTok through Metricool (brand `everythingyouw
 
 | Day | Style (`style`) | Sound |
 |---|---|---|
-| Tuesday | `chill` — Melodic Chill House | supersaw pads, plucky arp, four-on-the-floor, airy female vocal |
-| Friday | `deep` — Vocal Deep House | Rhodes stabs, rolling bass, swung shakers/congas, flute or kalimba hook, female vocal |
+| Tuesday | `chill` — Melodic Chill House | instrumental: bright lead motif with call-and-response, airy pads, four-on-the-floor |
+| Friday | `deep` — Deep House | instrumental: warm lead motif with call-and-response, rolling/walking bass, swung shakers/congas |
+
+**Every new track uses engine v2** (`"engine": "v2"`, section below). The original `music.py` is kept only
+so the first published track (dvg001) can be rebuilt.
 
 Both styles come from Sello's own library (Oct 2026 study: 58% deep house, 17% melodic house;
 top artists Paul Lock, Jerro, Sharapov, Nando Fortunato, NICCKO, Housenick, Papa Tin,
@@ -70,8 +73,8 @@ lead sound with every seed, so each track is new.
 - The video is removed from the `media` branch once Metricool has copied it.
 
 ## Engine v2 — distinct, instrumental-first tracks (`djvelvetgrey/v2/`)
-Opt in per track with `"engine": "v2"` in the track file; files without it use the original generator
-(the Tuesday/Friday scheduled runs still use v1 until switched explicitly).
+Required for all new tracks (Sello, Oct 2026): set `"engine": "v2"` and a `"brief"` in the track file.
+Track files without it fall back to the original generator (only dvg001 relies on that).
 
 **Workflow per track:** written brief → 6 motif candidates → catalogue screen → selection → developed
 arrangement → mix → automated QC → listening feedback.
@@ -84,7 +87,12 @@ arrangement → mix → automated QC → listening feedback.
 2. **Motif candidates:** `python3 djvelvetgrey/v2/previews.py djvelvetgrey/tracks/dvgNNN.json <outdir>`
    writes six 8-bar hook previews at equal loudness (-14 LUFS) over the same backing, plus
    `candidates.json` with compositional evidence and a shortlist of three. The shortlist is NOT a listening
-   judgement; a listener chooses. Copy the chosen candidate's `cell`, `contour`, `start` into `brief.motif`.
+   judgement; a listener chooses. Record the choice with
+   `python3 djvelvetgrey/v2/select_motif.py <track.json> <outdir>/candidates.json [id]` (no id = automatic pick:
+   top-scoring shortlisted candidate without catalogue flags, recorded as not a listening judgement).
+   Before previews, run `python3 djvelvetgrey/v2/brief_check.py <track.json>` and revise the brief if it
+   flags repeated arc/progression/lead/bass choices. After publishing, catalogue the motif with
+   `python3 djvelvetgrey/v2/catalog_add.py <track.json> dvgNNN`.
 3. **Motif design:** 2-bar rhythm cell + contour, developed into an 8-bar call (lead) and response
    (answer instrument) hook, strong/long notes on chord tones. The motif is teased ~2–10 s in and the full
    hook lands ~15–25 s in (all four arcs). The second drop develops the idea (bass pattern change, lead up
