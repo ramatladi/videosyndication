@@ -1,0 +1,466 @@
+{
+ "engine": "cast",
+ "id": 6,
+ "slug": "were-okay",
+ "title": "We're Okay!",
+ "trend": "TikTok 'Be OK' trend (October 2026) — a big cheerful smile and happy dance while the captions reveal an unpleasant truth",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "smiling like everything is fine",
+  "a cozy fall cooking show",
+  "live, unfortunately"
+ ],
+ "youtube_title": "Smiling through the worst cozy fall cooking show ever 🥞🔥",
+ "description": "Paige is hosting her first live fall cooking show. The pancakes are on fire. She is okay. She is SO okay.\n\n#beok #smilingthroughit #cookingshow #fallvibes #comedy #animation #shorts",
+ "tags": [
+  "be ok trend",
+  "smiling through it",
+  "cooking show",
+  "fall recipes",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny",
+  "pancakes",
+  "everything is fine"
+ ],
+ "tiktok_caption": "me smiling through my first live cooking show 🥞🔥 we're okay!! #beok #smilingthroughit #cookingshow #fallvibes #fyp",
+ "cast": [
+  {
+   "id": "paige",
+   "name": "Paige",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "ponytail",
+    "color": "#b5651d"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "apron",
+    "pattern_color": "#fdebd0"
+   },
+   "bottom": "#5d4037",
+   "shoes": "#ffffff",
+   "accessories": [
+    "bow:#c0392b"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "voice": {
+    "id": "af_heart",
+    "pitch": 1,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "toast",
+   "name": "Burnt Toast",
+   "kind": "mascot",
+   "shape": "toast",
+   "color": "#6b4423",
+   "crust": "#2b1a0e",
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "flat",
+   "scale": 0.95,
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.9
+   }
+  },
+  {
+   "id": "dougie",
+   "name": "Dougie",
+   "kind": "animal",
+   "ears": "bear",
+   "color": "#8d5a3b",
+   "belly": "#d7b899",
+   "top": {
+    "color": "#2e86c1",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "accessories": [
+    "headphones:#222222"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "scale": 1.12,
+   "voice": {
+    "id": "am_puck",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "chat",
+   "name": "The Live Chat",
+   "kind": "mascot",
+   "shape": "phone",
+   "color": "#ecf0f1",
+   "case": "#8e44ad",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "scale": 0.9,
+   "voice": {
+    "id": "bf_emma",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "paige",
+   "text": "Hi everyone! Welcome to Cozy Fall Kitchen, live, on day one!",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "paige",
+   "text": "Today, pumpkin spice pancakes, and everything is going great!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "toast",
+   "text": "I am on fire.",
+   "shot": "TWO",
+   "pre": 0.6,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "paige",
+   "text": "He is not on fire. He is toasty. It's a fall word.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "toast",
+   "text": "I was bread twenty minutes ago. I had dreams.",
+   "shot": "CU"
+  },
+  {
+   "spk": "paige",
+   "text": "And we're okay! Little happy dance, everybody!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "dougie",
+   "text": "Paige, the smoke alarm is doing its own little dance.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "paige",
+   "text": "That's our theme song, Dougie.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "chat",
+   "text": "New comment. Is that smoke, or is it a filter?",
+   "shot": "CU"
+  },
+  {
+   "spk": "paige",
+   "text": "It's a filter! It's called cozy.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "paige",
+   "text": "Okay! Step one. Grab your pumpkin.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dougie",
+   "text": "About the pumpkin.",
+   "shot": "dougie",
+   "pre": 0.8
+  },
+  {
+   "spk": "paige",
+   "text": "Dougie. Where is the pumpkin.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dougie",
+   "text": "I'm a bear. It's October. I'm basically legally required to eat everything.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "paige",
+   "text": "You ate the whole pumpkin?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dougie",
+   "text": "And the flour. And the spice. And a candle that smelled like the spice.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "boing"
+  },
+  {
+   "spk": "paige",
+   "text": "And we're okay! Pumpkin spice pancakes, minus the pumpkin!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "chat",
+   "text": "So, just pancakes.",
+   "shot": "CU"
+  },
+  {
+   "spk": "chat",
+   "text": "Viewer update. There are now four people watching.",
+   "shot": "CU"
+  },
+  {
+   "spk": "paige",
+   "text": "Four! Hi, four people! We're growing!",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "chat",
+   "text": "One is your mom. One is your mom's second account.",
+   "shot": "CU"
+  },
+  {
+   "spk": "chat",
+   "text": "One is me. And one has been asleep since the intro.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "paige",
+   "text": "Step two! Let's open the fridge and see what fall gave us!",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dougie",
+   "text": "One egg. One lemon. And a note that says, sorry, from me.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "paige",
+   "text": "Love that. Lemon egg. Very bold. Very autumn.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "toast",
+   "text": "Lemons are not autumn.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "paige",
+   "text": "Everything is autumn if you say it in a soft voice.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "chat",
+   "text": "Your mom says, sweetie, blink twice if you need help.",
+   "shot": "CU"
+  },
+  {
+   "spk": "paige",
+   "text": "I'm blinking because of the smoke, Mom! Happy blinks!",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "paige",
+   "text": "Okay, quick break for the special guest, chef Rosalind!",
+   "shot": "CU",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "dougie",
+   "text": "Chef Rosalind texted. She said she smelled us from the parking lot and left.",
+   "shot": "CU",
+   "pre": 0.7
+  },
+  {
+   "spk": "paige",
+   "text": "Then I will be the special guest. Hi, Paige. Hi, Paige. Great to have me.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "chat",
+   "text": "Viewer update. We are now at three.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "paige",
+   "text": "That's still a crowd! A crowd is three! I looked it up!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "toast",
+   "text": "You did not look it up.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "paige",
+   "text": "I looked it up in my heart, Toast.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dougie",
+   "text": "Paige, can I say something weird?",
+   "shot": "dougie"
+  },
+  {
+   "spk": "paige",
+   "text": "Weird is our brand. Go!",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dougie",
+   "text": "I don't think I ever pressed the start button on the stream.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.6
+  },
+  {
+   "spk": "paige",
+   "text": "Then who has been watching?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "chat",
+   "text": "Funny story. This is not your cooking stream.",
+   "shot": "CU"
+  },
+  {
+   "spk": "chat",
+   "text": "This is your video interview. For the bakery job. It started twenty minutes ago.",
+   "shot": "CU",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "all",
+   "text": "Oh no.",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "toast",
+   "text": "Your interviewer has been watching me burn this entire time.",
+   "shot": "toast"
+  },
+  {
+   "spk": "paige",
+   "text": "And we're okay! We are so okay! Hello, hiring manager!",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "paige",
+   "text": "As you can see, I stay calm under pressure.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dougie",
+   "text": "The oven mitt is on fire now.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "paige",
+   "text": "Very calm. Under a lot of pressure.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "chat",
+   "text": "New message from the interviewer.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "chat",
+   "text": "She says, anyone who can smile through that can survive our Saturday morning rush. You're hired.",
+   "shot": "CU"
+  },
+  {
+   "spk": "paige",
+   "text": "I'm hired! I'm a baker!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "chat",
+   "text": "She also says, please do not bring the toast.",
+   "shot": "CU"
+  },
+  {
+   "spk": "toast",
+   "text": "Fair.",
+   "shot": "toast",
+   "pre": 0.5
+  },
+  {
+   "spk": "dougie",
+   "text": "Can I come? I'll only eat a little bit of the bakery.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "paige",
+   "text": "We'll talk. Thank you all for watching Cozy Fall Kitchen!",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "toast",
+   "text": "And remember, if everything is on fire, just smile harder.",
+   "shot": "CU"
+  },
+  {
+   "spk": "all",
+   "text": "We're okay!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "ding"
+  }
+ ]
+}
