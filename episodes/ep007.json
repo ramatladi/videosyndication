@@ -1,0 +1,455 @@
+{
+ "engine": "cast",
+ "id": 7,
+ "slug": "honest-review-taco-truck",
+ "title": "Honest Review",
+ "trend": "TikTok #CityTasteTest 'honest local review' challenge (October 2026) — creators give brutally honest ratings of local food spots",
+ "scene": "street_night",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "honest review:",
+  "the viral food truck",
+  "rated out of ten"
+ ],
+ "youtube_title": "My honest review of the food truck everyone is talking about 🌮",
+ "description": "Gloria gives a brutally honest review of the late-night taco truck. Sal is fine with it. Sal is not fine with it.\n\n#citytastetest #honestreview #foodtruck #foodreview #comedy #animation #shorts",
+ "tags": [
+  "city taste test",
+  "honest review",
+  "food truck",
+  "food review",
+  "tacos",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny"
+ ],
+ "tiktok_caption": "honest review of the food truck everyone is talking about 🌮 rated out of ten #citytastetest #honestreview #foodtruck #fyp",
+ "cast": [
+  {
+   "id": "gloria",
+   "name": "Gloria",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "ponytail",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#e91e63",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ffffff",
+   "accessories": [
+    "sunglasses",
+    "mic_headset"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "sal",
+   "name": "Big Sal",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.12,
+   "hair": {
+    "style": "bald",
+    "color": "#3b2a1a"
+   },
+   "top": {
+    "color": "#ecf0f1",
+    "pattern": "apron",
+    "pattern_color": "#c0392b"
+   },
+   "bottom": "#34495e",
+   "accessories": [
+    "chef_hat"
+   ],
+   "brows": "angry",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "noodle",
+   "name": "Noodle",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#c8a27a",
+   "belly": "#f3e5d0",
+   "scale": 0.9,
+   "top": {
+    "color": "#16a085",
+    "pattern": "plain"
+   },
+   "accessories": [
+    "tie:#8e44ad"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "lemon",
+   "name": "The Lemonade",
+   "kind": "mascot",
+   "shape": "cup",
+   "color": "#f7dc6f",
+   "sleeve": "#f39c12",
+   "lid": "#ffffff",
+   "scale": 0.85,
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "af_nicole",
+    "pitch": 1,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "gloria",
+   "text": "Hi guys! Honest review time. The food truck everyone is talking about.",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "gloria",
+   "text": "I eat, I tell the truth, I give a number out of ten.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "sal",
+   "text": "Nobody said anything about truth.",
+   "shot": "TWO",
+   "gesture": "cross",
+   "pre": 0.6
+  },
+  {
+   "spk": "gloria",
+   "text": "That is the whole thing, sir. Honest review.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "sal",
+   "text": "I thought it said honest compliments.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "noodle",
+   "text": "It never said that. I have read the sign many times.",
+   "shot": "noodle",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "noodle",
+   "text": "I'm Noodle. I come here every night. I am a regular.",
+   "shot": "CU"
+  },
+  {
+   "spk": "sal",
+   "text": "He is a dog.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "noodle",
+   "text": "I am a regular dog. Those are different things.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gloria",
+   "text": "Sal, the menu has one item. It says The Sal.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "sal",
+   "text": "Correct. And there is a secret menu.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gloria",
+   "text": "What's on the secret menu?",
+   "shot": "CU"
+  },
+  {
+   "spk": "sal",
+   "text": "The Sal. But I say it louder.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "rimshot"
+  },
+  {
+   "spk": "gloria",
+   "text": "Great. One Sal, please. Regular volume.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "lemon",
+   "text": "Psst. Order the lemonade. Nobody ever orders me.",
+   "shot": "lemon"
+  },
+  {
+   "spk": "gloria",
+   "text": "Did that cup just whisper at me?",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "lemon",
+   "text": "I am mostly tap water and hope.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "gloria",
+   "text": "That's the most honest thing ever said on this channel.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gloria",
+   "text": "Okay, first bite, guys. Moment of truth.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "sal",
+   "text": "Before you say anything, I've been doing this nineteen years.",
+   "shot": "sal",
+   "pre": 0.8
+  },
+  {
+   "spk": "sal",
+   "text": "My mother is watching. She has the internet now.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gloria",
+   "text": "Mmm. Okay. Crunchy. Smoky. A little bit spicy.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "sal",
+   "text": "So, ten.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "noodle",
+   "text": "Too much onion. Nobody listens to the dog.",
+   "shot": "noodle"
+  },
+  {
+   "spk": "sal",
+   "text": "You eat the napkins, Noodle.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "noodle",
+   "text": "And the napkins are excellent. Credit where it is due.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "gloria",
+   "text": "Okay, honest number for the taco. Seven.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "sal",
+   "text": "Seven.",
+   "shot": "sal",
+   "pre": 0.9
+  },
+  {
+   "spk": "sal",
+   "text": "Seven is a number you give a parking lot.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gloria",
+   "text": "Seven is good! Seven is a solid weeknight number!",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "sal",
+   "text": "I need to sit down. I don't have a chair.",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "gloria",
+   "text": "Fine. One lemonade.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "lemon",
+   "text": "She said it! Somebody said it!",
+   "shot": "CU",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "lemon",
+   "text": "Spoiler. I am warm. I have been next to the grill since spring.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gloria",
+   "text": "Lemonade gets a four.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lemon",
+   "text": "A four. I will take it. My mother got a two.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gloria",
+   "text": "Final score coming in three, two...",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "noodle",
+   "text": "Wait. I am not just a regular dog.",
+   "shot": "noodle",
+   "pre": 0.8
+  },
+  {
+   "spk": "noodle",
+   "text": "I am the anonymous reviewer with the one-word reviews.",
+   "shot": "CU",
+   "gesture": "think",
+   "after": "sting"
+  },
+  {
+   "spk": "sal",
+   "text": "You wrote fine about the pizza place. They closed in a week!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "noodle",
+   "text": "It was not fine. I was being generous.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gloria",
+   "text": "You've been coming here undercover? As a dog?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "noodle",
+   "text": "I am a dog. That is the cover. It is a very good cover.",
+   "shot": "CU"
+  },
+  {
+   "spk": "sal",
+   "text": "Every night I give you the burnt ones out of pity!",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "noodle",
+   "text": "I know. I wrote it down. Generous man.",
+   "shot": "CU"
+  },
+  {
+   "spk": "sal",
+   "text": "Noodle, please. One word. A nice word.",
+   "shot": "sal",
+   "pre": 0.6
+  },
+  {
+   "spk": "noodle",
+   "text": "The word is...",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.5
+  },
+  {
+   "spk": "noodle",
+   "text": "Home.",
+   "shot": "CU",
+   "pre": 1.0,
+   "after": "ding"
+  },
+  {
+   "spk": "lemon",
+   "text": "I am crying. I'm lemonade, so it's mostly the same.",
+   "shot": "lemon"
+  },
+  {
+   "spk": "gloria",
+   "text": "Okay, final honest score for the truck. Eight out of ten.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "sal",
+   "text": "Eight! Mom! We got an eight!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "noodle",
+   "text": "Minus one point for the lemonade.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lemon",
+   "text": "Fair.",
+   "shot": "lemon",
+   "pre": 0.6
+  },
+  {
+   "spk": "gloria",
+   "text": "That's the honest review. Go see Sal. Bring a chair.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "applause"
+  }
+ ]
+}
