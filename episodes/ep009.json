@@ -1,0 +1,440 @@
+{
+ "engine": "cast",
+ "id": 9,
+ "slug": "grandpas-hoco-proposal",
+ "title": "Grandpa's Hoco Proposal",
+ "trend": "TikTok 'Homecoming Proposal Reveal' (October 2026) — creators film their hoco proposal sign with a pun, then the big moment of the answer",
+ "scene": "halloween_porch",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "pov:",
+  "grandpa's hoco proposal",
+  "senior center edition"
+ ],
+ "youtube_title": "Grandpa's hoco proposal (senior center edition) 🎃",
+ "description": "Jayden helps his grandpa ask Lorraine to the senior center homecoming dance. The pumpkin did not agree to any of this.\n\n#hocoproposal #homecoming #hoco #grandpa #comedy #animation #shorts",
+ "tags": [
+  "hoco proposal",
+  "homecoming proposal",
+  "homecoming",
+  "hoco",
+  "grandpa",
+  "pumpkin",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny"
+ ],
+ "tiktok_caption": "grandpa's hoco proposal 🎃 senior center edition #hocoproposal #homecoming #hoco #grandpa #fyp",
+ "cast": [
+  {
+   "id": "walter",
+   "name": "Grandpa Walter",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.05,
+   "hair": {
+    "style": "bald",
+    "color": "#d5d8dc"
+   },
+   "top": {
+    "color": "#a04000",
+    "pattern": "suit",
+    "pattern_color": "#f5f5f5"
+   },
+   "bottom": "#5d6d7e",
+   "shoes": "#3e2723",
+   "accessories": [
+    "glasses",
+    "tie:#1f618d"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "jayden",
+   "name": "Jayden",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.93,
+   "hair": {
+    "style": "short",
+    "color": "#1b120b"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "cap:#2980b9"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 0,
+    "tempo": 1.08
+   }
+  },
+  {
+   "id": "pumpkin",
+   "name": "The Pun Pumpkin",
+   "kind": "mascot",
+   "shape": "pumpkin",
+   "color": "#e67e22",
+   "scale": 0.95,
+   "accessories": [
+    "tie:#c0392b"
+   ],
+   "eye": "sleepy",
+   "brows": "angry",
+   "mouth": "frown",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "lorraine",
+   "name": "Lorraine",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "bun",
+    "color": "#d5d8dc"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "dots",
+    "pattern_color": "#fdebd0"
+   },
+   "bottom": "#4a235a",
+   "shoes": "#2c3e50",
+   "accessories": [
+    "glasses:#8e44ad",
+    "scarf:#f39c12"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "voice": {
+    "id": "af_heart",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "jayden",
+   "text": "It's hoco proposal season, and my grandpa is asking someone to the dance.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "walter",
+   "text": "Not someone. Lorraine. I have waved at her every single morning for years.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "jayden",
+   "text": "Step one of a hoco proposal. You need a sign with a pun on it.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "pumpkin",
+   "text": "Which is why I have been painted. Without permission. On my face.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "walter",
+   "text": "You're a pumpkin. Your whole job is to sit on a porch and be read.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "jayden",
+   "text": "Okay, let's hear the puns. Grandpa, you go first.",
+   "shot": "CU"
+  },
+  {
+   "spk": "walter",
+   "text": "Lorraine, I'd be gourd to go to the dance with you.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "pumpkin",
+   "text": "Gourd. Like good. But with a gourd.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "jayden",
+   "text": "That one is going on the maybe pile.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "walter",
+   "text": "Lorraine, let's make this dance un-be-leaf-able.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "jayden",
+   "text": "That's a leaf pun, Grandpa. You painted a leaf pun on a pumpkin.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "walter",
+   "text": "I ran out of pumpkin puns at four in the morning.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pumpkin",
+   "text": "He was up all night whispering at me with a paintbrush. Not cozy.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "jayden",
+   "text": "Step two. We rehearse. I'll be Lorraine. You knock, and I open the door.",
+   "shot": "W",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walter",
+   "text": "Knock knock.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jayden",
+   "text": "Who is it?",
+   "shot": "CU"
+  },
+  {
+   "spk": "walter",
+   "text": "It's Walter. Will you go to homecoming with me? Yes or no. Thank you.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jayden",
+   "text": "Grandpa, that was a job interview.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jayden",
+   "text": "Okay. Where are the flowers? You need flowers.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "walter",
+   "text": "I have a coupon for flowers.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "pumpkin",
+   "text": "He is going to hand her a coupon. I have seen more romance in a compost bin.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "sting"
+  },
+  {
+   "spk": "jayden",
+   "text": "New plan. You hold the sign, she reads it, she says yes. I film it.",
+   "shot": "W"
+  },
+  {
+   "spk": "jayden",
+   "text": "Okay. Porch light is on. She's home. Go, go, go.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "walter",
+   "text": "Hold the pumpkin higher. She has to read it from the door.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "pumpkin",
+   "text": "Please do not lift me by the stem. That is my hair.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "lorraine",
+   "text": "Walter? Why are you knocking on your own front door?",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jayden",
+   "text": "Ma'am, I'm just a bush. Please continue.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "walter",
+   "text": "Lorraine. I have prepared a question. And a pumpkin.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "lorraine",
+   "text": "The pumpkin says, un-be-leaf-able.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "pumpkin",
+   "text": "I told him. I told him at four in the morning.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "walter",
+   "text": "Lorraine, will you go to the senior center homecoming dance with me?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "lorraine",
+   "text": "Walter, I have one question first.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "walter",
+   "text": "Anything.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lorraine",
+   "text": "Is that a coupon in your hand?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "walter",
+   "text": "It's twenty percent off flowers. The flowers are implied.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jayden",
+   "text": "We are losing her.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "lorraine",
+   "text": "Walter. We have been married for fifty one years.",
+   "shot": "W",
+   "pre": 0.6
+  },
+  {
+   "spk": "jayden",
+   "text": "Wait. What?",
+   "shot": "jayden",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "walter",
+   "text": "Of course we're married. Who did you think Lorraine was?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "jayden",
+   "text": "Grandma! Her name is Grandma!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "lorraine",
+   "text": "In nineteen seventy four, I asked him to a dance. He has never asked me to anything.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "walter",
+   "text": "I wanted it to be perfect.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pumpkin",
+   "text": "It is not perfect. There is a leaf pun on a pumpkin.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lorraine",
+   "text": "It's perfect. Yes, Walter. I will go to the dance with you.",
+   "shot": "CU",
+   "gesture": "wave",
+   "after": "applause"
+  },
+  {
+   "spk": "walter",
+   "text": "She said yes! Jayden, clap!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "lorraine",
+   "text": "Now, Jayden. Who are you taking to homecoming?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "jayden",
+   "text": "Oh. I haven't asked anybody yet.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "walter",
+   "text": "Step one. You need a sign with a pun on it.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "lorraine",
+   "text": "I'll get the paint.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pumpkin",
+   "text": "Absolutely not. I am moving to the neighbors' porch.",
+   "shot": "W",
+   "gesture": "cross",
+   "after": "ding"
+  }
+ ]
+}
