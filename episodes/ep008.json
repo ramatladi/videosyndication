@@ -1,0 +1,525 @@
+{
+ "engine": "cast",
+ "id": 8,
+ "slug": "were-not-gonna-be-group-costume",
+ "title": "We're Not Gonna Be",
+ "trend": "TikTok 'We're Not Gonna Be' Halloween edition (October 2026) \u2014 creators eliminate costume ideas one by one until they land on a group costume",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "we're not gonna be",
+  "for halloween",
+  "group costume edition"
+ ],
+ "youtube_title": "We're not gonna be... for Halloween (group costume edition) \ud83c\udf83",
+ "description": "Three roommates, one cat and a costume box try to pick a group costume the night of the party. It does not go well.\n\n#werenotgonnabe #halloween #halloweencostume #groupcostume #comedy #animation #shorts",
+ "tags": [
+  "we're not gonna be",
+  "halloween",
+  "group costume",
+  "halloween costume ideas",
+  "roommates",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny"
+ ],
+ "tiktok_caption": "we're not gonna be... for halloween \ud83c\udf83 group costume edition #werenotgonnabe #halloween #groupcostume #fyp",
+ "cast": [
+  {
+   "id": "tamsin",
+   "name": "Tamsin",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "bun",
+    "color": "#1b120b"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "plain"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "af_kore",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "derek",
+   "name": "Derek",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.1,
+   "hair": {
+    "style": "curly",
+    "color": "#a0522d"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#2c3e50",
+   "accessories": [
+    "beanie:#27ae60"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "waffles",
+   "name": "Waffles",
+   "kind": "animal",
+   "ears": "cat",
+   "color": "#e0a96d",
+   "belly": "#fbe9d0",
+   "inner": "#f5b7b1",
+   "scale": 0.88,
+   "accessories": [
+    "witchhat:#2c3e50"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "box",
+   "name": "The Costume Box",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#c49a6c",
+   "scale": 1.0,
+   "accessories": [
+    "tophat"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "frown",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "tamsin",
+   "text": "Okay. The party is tonight. We still don't have a group costume.",
+   "shot": "W",
+   "gesture": "hips"
+  },
+  {
+   "spk": "derek",
+   "text": "So we play the game. We're not gonna be.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "waffles",
+   "text": "I'll start. We're not gonna be cats.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "waffles",
+   "text": "I'm already a cat. That's my whole life. Get your own thing.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "rimshot"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Fair. Box, what do we have?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "box",
+   "text": "Hello. I am the costume box. I have seen things.",
+   "shot": "CU"
+  },
+  {
+   "spk": "box",
+   "text": "I contain one cape, one shoe, some antlers, and a banana suit.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "derek",
+   "text": "Just one shoe?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "box",
+   "text": "We don't talk about the other shoe.",
+   "shot": "CU",
+   "pre": 0.6,
+   "after": "sting"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Okay. We're not gonna be superheroes. We have one cape.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "derek",
+   "text": "One of us flies. The rest of us run behind him.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "waffles",
+   "text": "That's not a costume. That's a jogging group.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tamsin",
+   "text": "We're not gonna be a jogging group.",
+   "shot": "W",
+   "gesture": "cross",
+   "after": "ding"
+  },
+  {
+   "spk": "derek",
+   "text": "What about a ghost? Everyone has a sheet.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "box",
+   "text": "Every ghost in this box is just a sheet with regrets.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Plus Derek was a ghost last year.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "derek",
+   "text": "I was a ghost for six hours. I walked into four doors.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "waffles",
+   "text": "Five. I counted.",
+   "shot": "waffles",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tamsin",
+   "text": "We're not gonna be ghosts.",
+   "shot": "W",
+   "gesture": "cross"
+  },
+  {
+   "spk": "derek",
+   "text": "Okay, okay. I have a big one. Ready?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "tamsin",
+   "text": "No.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "derek",
+   "text": "We go as the weather.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "tamsin",
+   "text": "The weather.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "derek",
+   "text": "I'm the sun, you're a cloud, Waffles is a light breeze.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "waffles",
+   "text": "I am not a breeze. I have never once been a breeze.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Nobody at a party wants to talk to the forecast.",
+   "shot": "TWO",
+   "gesture": "facepalm",
+   "after": "boing"
+  },
+  {
+   "spk": "tamsin",
+   "text": "We're not gonna be the weather.",
+   "shot": "W",
+   "gesture": "cross"
+  },
+  {
+   "spk": "derek",
+   "text": "Then we go as a crowd. We just stand there together.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "waffles",
+   "text": "That's just us. At the party. With no costume.",
+   "shot": "CU"
+  },
+  {
+   "spk": "derek",
+   "text": "Yes, but on purpose.",
+   "shot": "CU",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "tamsin",
+   "text": "Derek, a crowd is not a costume. A crowd is a situation.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "tamsin",
+   "text": "We're not gonna be a crowd.",
+   "shot": "W",
+   "gesture": "cross",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Okay, the banana suit. Let's talk about it.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "box",
+   "text": "Please don't. The banana has been through a lot.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "derek",
+   "text": "Why is there a stain on the banana?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "box",
+   "text": "Some questions are bigger than Halloween.",
+   "shot": "CU"
+  },
+  {
+   "spk": "waffles",
+   "text": "I'm not touching it. And I lick myself.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "rimshot"
+  },
+  {
+   "spk": "tamsin",
+   "text": "We're not gonna be bananas.",
+   "shot": "W",
+   "gesture": "cross"
+  },
+  {
+   "spk": "derek",
+   "text": "So what's left?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tamsin",
+   "text": "A cape, a shoe, and some antlers.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "derek",
+   "text": "A reindeer who flies and only needs one shoe.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "waffles",
+   "text": "That's not a costume. That's a craft project that gave up.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tamsin",
+   "text": "We're not gonna be a craft project.",
+   "shot": "W",
+   "gesture": "cross"
+  },
+  {
+   "spk": "derek",
+   "text": "Okay, what time is this party anyway?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Eight o'clock. Whose house is it at again?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "waffles",
+   "text": "Let me check the invitation.",
+   "shot": "waffles",
+   "gesture": "think"
+  },
+  {
+   "spk": "waffles",
+   "text": "It says our address.",
+   "shot": "CU",
+   "pre": 0.9,
+   "after": "record_scratch"
+  },
+  {
+   "spk": [
+    "tamsin",
+    "derek"
+   ],
+   "text": "Our address?",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "box",
+   "text": "Oh no. You're hosting.",
+   "shot": "CU"
+  },
+  {
+   "spk": "derek",
+   "text": "We're hosting? Who invited everyone?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "waffles",
+   "text": "You did. Three weeks ago. You said, leave it to me.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "derek",
+   "text": "That does sound like something I would say.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "tamsin",
+   "text": "There's no snacks. There's no music. There's no costume.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "box",
+   "text": "There is one shoe.",
+   "shot": "CU",
+   "after": "ding"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Okay. Everybody grab something from the box. Now.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "derek",
+   "text": "I've got the cape and the antlers.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "tamsin",
+   "text": "I've got the shoe. Just the one.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "waffles",
+   "text": "And I'll wear the banana.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": [
+    "tamsin",
+    "derek"
+   ],
+   "text": "You said you wouldn't touch it!",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "waffles",
+   "text": "I'm a cat. I change my mind. That's my costume.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "derek",
+   "text": "So what are we? As a group?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "tamsin",
+   "text": "We're a costume box that couldn't decide.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "box",
+   "text": "Finally. Somebody gets me.",
+   "shot": "CU",
+   "after": "applause"
+  },
+  {
+   "spk": "waffles",
+   "text": "We're not gonna be invited to anything next year.",
+   "shot": "W",
+   "gesture": "shrug"
+  }
+ ]
+}
