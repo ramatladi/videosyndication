@@ -1,0 +1,441 @@
+{
+ "engine": "cast",
+ "id": 10,
+ "slug": "halloween-home-tour",
+ "title": "Halloween Home Tour",
+ "trend": "TikTok & Instagram Reels 'Halloween Home Tour' (October 2026) — a room-by-room walkthrough of a fully decorated house that saves the best room for last",
+ "scene": "living_room",
+ "desk": false,
+ "music": "spooky",
+ "intro": [
+  "halloween home tour",
+  "room by room",
+  "best room last"
+ ],
+ "youtube_title": "Our Halloween home tour (we saved the best room for last) 🎃",
+ "description": "Bev gives the full Halloween home tour, room by room. Glen was not consulted. Wait for the garage.\n\n#halloweenhometour #halloweendecor #halloween #hometour #comedy #animation #shorts",
+ "tags": [
+  "halloween home tour",
+  "halloween decor",
+  "halloween",
+  "home tour",
+  "spooky season",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny",
+  "christmas decorations"
+ ],
+ "tiktok_caption": "our halloween home tour 🎃 wait for the last room #halloweenhometour #halloweendecor #spookyseason #hometour #fyp",
+ "cast": [
+  {
+   "id": "bev",
+   "name": "Bev",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.0,
+   "hair": {
+    "style": "bun",
+    "color": "#8e3b1f"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "stripes",
+    "pattern_color": "#1c1c1c"
+   },
+   "bottom": "#2c2c2c",
+   "shoes": "#6c3483",
+   "accessories": [
+    "witchhat:#4a235a",
+    "glasses"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "glen",
+   "name": "Glen",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.08,
+   "hair": {
+    "style": "short",
+    "color": "#3b2a20"
+   },
+   "top": {
+    "color": "#7f8c8d",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#2c3e50",
+   "accessories": [],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_michael",
+    "pitch": -1,
+    "tempo": 0.94
+   }
+  },
+  {
+   "id": "sheet",
+   "name": "The Sheet",
+   "kind": "mascot",
+   "shape": "ghost",
+   "color": "#f4f6f7",
+   "scale": 1.0,
+   "accessories": [
+    "tie:#1f618d"
+   ],
+   "eye": "sleepy",
+   "brows": "angry",
+   "mouth": "frown",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 0,
+    "tempo": 0.96
+   }
+  },
+  {
+   "id": "pepper",
+   "name": "Pepper",
+   "kind": "animal",
+   "ears": "mouse",
+   "color": "#a6acaf",
+   "inner": "#f5b7b1",
+   "belly": "#e5e8e8",
+   "scale": 0.85,
+   "top": {
+    "color": "#c0392b",
+    "pattern": "dots",
+    "pattern_color": "#fdfefe"
+   },
+   "accessories": [
+    "bow:#f39c12"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_river",
+    "pitch": 1,
+    "tempo": 1.06
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "bev",
+   "text": "Welcome to our Halloween home tour. Room by room, best room last.",
+   "shot": "W",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "glen",
+   "text": "I am the husband. I was not consulted.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "bev",
+   "text": "First, the front hall. The fog machine has been on since August.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "glen",
+   "text": "I have not seen my own feet since Labor Day.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "whoosh"
+  },
+  {
+   "spk": "bev",
+   "text": "Now the living room. This is where the magic lives.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "bev",
+   "text": "Forty skeletons, three hundred candles, and a very expensive cobweb.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "glen",
+   "text": "We don't have a couch anymore. She traded it for a coffin with cup holders.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "glen",
+   "text": "I sleep in it now. When I close the lid, I get some peace.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bev",
+   "text": "And of course, our resident ghost. Say hi to the viewers.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "sheet",
+   "text": "Good evening. I used to be the fitted sheet in the guest room.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "sheet",
+   "text": "I had a mattress. I had a purpose. Now I have eye holes.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "bev",
+   "text": "Next, the kitchen. Everything in here is orange or it does not stay.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "glen",
+   "text": "I wore a blue shirt to breakfast. I ate on the porch.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bev",
+   "text": "And the fridge. Read what the magnets say.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "glen",
+   "text": "Turn back. Hard to do when you just want milk.",
+   "shot": "CU"
+  },
+  {
+   "spk": "pepper",
+   "text": "Excuse me. Excuse me, down here.",
+   "shot": "pepper",
+   "gesture": "wave",
+   "jump": true,
+   "pre": 0.8
+  },
+  {
+   "spk": "bev",
+   "text": "Oh. That's Pepper. She lives in the wall.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pepper",
+   "text": "Three years in that wall. No rent. Very tidy.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pepper",
+   "text": "Someone put a tiny gravestone outside my door.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "glen",
+   "text": "That was decorative.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pepper",
+   "text": "It says, here lies the mouse. I am not lying. I'm standing.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "bev",
+   "text": "Upstairs, the bathroom is a swamp. The soap is an eyeball.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "glen",
+   "text": "Washing my hands has never felt so personal.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "bev",
+   "text": "And our bedroom. Two hundred bats on the ceiling.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "glen",
+   "text": "When the heat comes on, they all turn and look at me.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "sheet",
+   "text": "They look at everyone, Glen. That's what bats are for.",
+   "shot": "sheet"
+  },
+  {
+   "spk": "bev",
+   "text": "And now, the best room in the house.",
+   "shot": "W",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "glen",
+   "text": "Oh. We don't have to do the last room.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bev",
+   "text": "Glen, the best room goes last. That's the whole trend.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "glen",
+   "text": "Right. It's just that the garage is not ready.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "bev",
+   "text": "What's not ready?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "pepper",
+   "text": "I've seen the garage. You should sit down.",
+   "shot": "pepper"
+  },
+  {
+   "spk": "sheet",
+   "text": "There's nowhere to sit. She traded the couch for a coffin.",
+   "shot": "sheet",
+   "after": "rimshot"
+  },
+  {
+   "spk": "bev",
+   "text": "Open it, Glen.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.8
+  },
+  {
+   "spk": "glen",
+   "text": "Okay. Please remember I love this family.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "post": 0.9
+  },
+  {
+   "spk": "bev",
+   "text": "Is that a snowman?",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "glen",
+   "text": "It's a snowman. And nine reindeer. And a tiny train village.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bev",
+   "text": "It is October thirteenth, Glen.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "glen",
+   "text": "Somebody has to be ready for the next holiday.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "pepper",
+   "text": "The tiny village has a bakery. I live there now.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "sheet",
+   "text": "There are flannel sheets in there. On a bed. Being sheets.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "bev",
+   "text": "You built a secret Christmas in my Halloween house?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "glen",
+   "text": "You turned my couch into a coffin. I needed somewhere warm.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bev",
+   "text": "The comments are going wild. Half say team Bev.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "pepper",
+   "text": "The other half say team garage.",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "sheet",
+   "text": "I would like to transfer to the garage.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "bev",
+   "text": "Fine. The garage stays. The snowman wears a witch hat until November.",
+   "shot": "W",
+   "gesture": "hips",
+   "after": "applause"
+  },
+  {
+   "spk": "glen",
+   "text": "Deal.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "pepper",
+   "text": "Thanks for watching. Next week, my wall. It's decorated for Easter.",
+   "shot": "W",
+   "gesture": "wave",
+   "jump": true,
+   "after": "ding"
+  }
+ ]
+}
