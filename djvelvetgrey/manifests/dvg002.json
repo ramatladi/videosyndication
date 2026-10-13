@@ -1,0 +1,132 @@
+{
+ "release_id": "dvg002",
+ "title": "Amber Tide Lights",
+ "style": "deep",
+ "style_as_written": "deep",
+ "status": "pass",
+ "created_utc": "2026-10-13T18:12:52Z",
+ "engine_version": "3.1.0",
+ "code_sha256": "59fac40f3edce12451472cb82c09d9d5c34f6730f4bbbf7ecff9820cc36264e0",
+ "files": {
+  "track_json": "/home/claude/videosyndication/djvelvetgrey/tracks/dvg002.json",
+  "photo": "/home/claude/videosyndication/djvelvetgrey/photos/dvg002.jpg",
+  "delivery_wav": "/home/claude/videosyndication/out/dvg002.delivery.wav",
+  "mp3": "/home/claude/videosyndication/out/dvg002.mp3",
+  "aac": "/home/claude/videosyndication/out/dvg002.m4a",
+  "mp4": "/home/claude/videosyndication/out/dvg002.mp4",
+  "qc_json": "/home/claude/videosyndication/out/dvg002.qc.json",
+  "meta_json": "/home/claude/videosyndication/out/dvg002.meta.json",
+  "export_json": "/home/claude/videosyndication/out/dvg002.export.json"
+ },
+ "repo_commit": "79c733eacb75f60484b21be0ed78690dde97f07f",
+ "repo_dirty": false,
+ "tools": {
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pyloudnorm": "installed",
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
+ },
+ "brief": {
+  "engine": "v2",
+  "style": "deep",
+  "release": "dvg002",
+  "mood": "warm after-dark drift, amber light fading over calm water",
+  "bpm": 122,
+  "tonic": 57,
+  "mode": "minor",
+  "progression": [
+   [
+    0,
+    "m11"
+   ],
+   [
+    5,
+    "m9"
+   ],
+   [
+    10,
+    "sus2"
+   ],
+   [
+    3,
+    "maj9"
+   ]
+  ],
+  "lead": "rhodes",
+  "answer": "glass",
+  "groove": {
+   "bass_a": "rolling",
+   "bass_b": "octave",
+   "swing": 0.03
+  },
+  "arc": "wave",
+  "loudness_lufs": -10.0,
+  "seed": 538449,
+  "motif": {
+   "cell": "dotted",
+   "contour": "leapstep",
+   "start": 72,
+   "candidate": 5,
+   "selected_by": "automatic: top compositional score without catalogue flags (not a listening judgement)"
+  }
+ },
+ "motif_selection": {
+  "cell": "dotted",
+  "contour": "leapstep",
+  "start": 72,
+  "candidate": 5,
+  "selected_by": "automatic: top compositional score without catalogue flags (not a listening judgement)"
+ },
+ "sha256": {
+  "track_json": "152dc1c54f01ff326717efdd723cbe7f7a2d088715cd6d0df4828c9296e2aed1",
+  "photo": "808b62d203f7884dfafcaf44b562315c539e65ff5c033ce363a09ae111d6903a",
+  "delivery_wav": "c95adb6e3629d49bc72b99de3f0a024dc115a034c7e9aa68996b8173565c1f93",
+  "mp3": "151dc906e5cdf11074f4a501d3e17854a49d6817cd38a8ceb35aae42dd89b2d5",
+  "aac": "0041305357e77fae89267563d2815811fec1018d4fe0048739feddf229526b99",
+  "mp4": "e8ff0e404a534efdcb4c7fbf01ded90b871b0f3125332371aea10ee4a37fbac8",
+  "qc_json": "74bc95ce008790865e178607a9b21d1d0d5f4a007d5d863e47f43940b20e1028",
+  "meta_json": "6085e35bf133391c912f1b4944c3d9e56b8aa2547040c73b2ce2ba38a798ab1d",
+  "export_json": "b7166039a2404d03a67b078fb3ab08c068d667a1fbda69a67fe41be977c6e0b8"
+ },
+ "export": {
+  "gain_trim_db": -0.63,
+  "final": {
+   "iteration": 1,
+   "gain_db": -0.63,
+   "mp3": -2.8,
+   "aac": -1.43,
+   "pcm": -3.43
+  }
+ },
+ "qc": {
+  "status": "pass",
+  "files": {
+   "mp3": {
+    "decode_errors": null,
+    "duration_s": 179.0,
+    "true_peak_dbtp": -2.8,
+    "integrated_lufs": -11.07,
+    "samples_over_full_scale": 0
+   },
+   "mp4_audio": {
+    "decode_errors": null,
+    "duration_s": 179.003,
+    "true_peak_dbtp": -1.43,
+    "integrated_lufs": -11.1,
+    "samples_over_full_scale": 0
+   },
+   "wav": {
+    "duration_s": 179.0,
+    "true_peak_dbtp": -3.43,
+    "integrated_lufs": -11.07,
+    "samples_over_full_scale": 0
+   }
+  },
+  "click_suspects": [],
+  "outro_bars_heard": 23.0,
+  "stereo_correlation": 0.864
+ },
+ "assessment": "Automated technical checks only. Not listened to unless \"auditioned_by\" is set.",
+ "auditioned_by": null
+}
