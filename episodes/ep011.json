@@ -1,0 +1,427 @@
+{
+ "engine": "cast",
+ "id": 11,
+ "slug": "my-reaction-to-the-thermostat",
+ "title": "My Reaction To The Thermostat",
+ "trend": "Instagram Reels & TikTok 'My Reaction To ___' (October 2026) — start with the smallest number and a flat stare, then escalate the reaction each round as the number grows; set during the first cold week of October when every US household fights over turning the heat on",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "my reaction to",
+  "the thermostat in october",
+  "round by round"
+ ],
+ "youtube_title": "My dad's reaction to the thermostat, round by round 🌡️",
+ "description": "Every round the number goes up. So does Dad. Nobody touches the heat in October… or do they?\n\n#myreactionto #thermostat #october #dadsoftiktok #comedy #animation #shorts",
+ "tags": [
+  "my reaction to",
+  "thermostat",
+  "dad humor",
+  "october",
+  "heating season",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny",
+  "cat"
+ ],
+ "tiktok_caption": "my dad's reaction to the thermostat, round by round 🌡️ wait for round four #myreactionto #thermostat #dadhumor #fyp",
+ "cast": [
+  {
+   "id": "ron",
+   "name": "Dad",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.08,
+   "hair": {
+    "style": "short",
+    "color": "#5a3a22"
+   },
+   "top": {
+    "color": "#7f8c8d",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#2c2c2c",
+   "accessories": [
+    "glasses"
+   ],
+   "brows": "angry",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_michael",
+    "pitch": -1,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "kayla",
+   "name": "Kayla",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.92,
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#e84393",
+    "pattern": "plain"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "accessories": [
+    "beanie:#6c5ce7"
+   ],
+   "eye": "happy",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 1,
+    "tempo": 1.08
+   }
+  },
+  {
+   "id": "thermo",
+   "name": "The Thermostat",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#ecf0f1",
+   "scale": 0.95,
+   "accessories": [
+    "tie:#2980b9"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "mittens",
+   "name": "Mittens",
+   "kind": "animal",
+   "ears": "cat",
+   "color": "#f39c12",
+   "belly": "#fdebd0",
+   "inner": "#f5b7b1",
+   "scale": 0.88,
+   "accessories": [
+    "scarf:#c0392b"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "af_nicole",
+    "pitch": -1,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "kayla",
+   "text": "Okay. My reaction to the thermostat. Starring my dad.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "ron",
+   "text": "Kayla, put the phone down. It's October. Nobody touches the heat in October.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "thermo",
+   "text": "Good evening. I am the thermostat. I have been touched.",
+   "shot": "W",
+   "gesture": "shrug",
+   "after": "sting"
+  },
+  {
+   "spk": "kayla",
+   "text": "Round one. Somebody set it to sixty-five.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ron",
+   "text": "Sixty-five.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "ron",
+   "text": "That's fine. That's a sweater number.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "mittens",
+   "text": "I am wearing a scarf indoors. Draw your own conclusions.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kayla",
+   "text": "Dad, the cat is cold.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "ron",
+   "text": "The cat has a fur coat. Built in. Free of charge.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "mittens",
+   "text": "This coat was not free. I paid for it with my dignity.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "rimshot"
+  },
+  {
+   "spk": "kayla",
+   "text": "Round two. Somebody set it to sixty-eight.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ron",
+   "text": "Sixty-eight?",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "ron",
+   "text": "Do you know what sixty-eight costs? It costs a vacation.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "kayla",
+   "text": "We don't go on vacations.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ron",
+   "text": "Because somebody keeps setting it to sixty-eight!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "boing"
+  },
+  {
+   "spk": "thermo",
+   "text": "I'd like to say I feel very warm and very blamed.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ron",
+   "text": "In this house we have a system. Cold? Put on a sweater.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "kayla",
+   "text": "And if you're still cold?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "ron",
+   "text": "Second sweater.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "kayla",
+   "text": "And after that?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "ron",
+   "text": "After that, you become a man.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "mittens",
+   "text": "I have been a cat for six years. I am not becoming a man for you.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kayla",
+   "text": "Round three. Seventy-two.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "ron",
+   "text": "Seventy...",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "ron",
+   "text": "Seventy-two is not a temperature. That's a sauna. That's an insult to the furnace.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "ron",
+   "text": "I can hear the money. I can hear it leaving through the windows.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "kayla",
+   "text": "Dad, the windows are closed.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ron",
+   "text": "Money finds a way, Kayla!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "ron",
+   "text": "Everybody line up. Who touched the dial?",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "kayla",
+   "text": "Not me. I was under three blankets doing homework.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ron",
+   "text": "Mittens. Where were you at four o'clock?",
+   "shot": "mittens",
+   "gesture": "point"
+  },
+  {
+   "spk": "mittens",
+   "text": "On the warm spot by the vent. Like a professional.",
+   "shot": "CU"
+  },
+  {
+   "spk": "thermo",
+   "text": "May I speak? I have something to confess.",
+   "shot": "W",
+   "pre": 0.7
+  },
+  {
+   "spk": "ron",
+   "text": "Make it quick. Every second is a nickel.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "thermo",
+   "text": "I am not connected to anything.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "ron",
+   "text": "What?",
+   "shot": "ron",
+   "pre": 0.6
+  },
+  {
+   "spk": "thermo",
+   "text": "Never have been. Not since you moved in. Nine years. I'm decorative.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kayla",
+   "text": "So every time he yelled at you...",
+   "shot": "TWO"
+  },
+  {
+   "spk": "thermo",
+   "text": "I just nodded and showed a number. It was always a very nice number.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ron",
+   "text": "Then who controls the heat?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "mittens",
+   "text": "The little box in the basement. Behind the litter.",
+   "shot": "CU"
+  },
+  {
+   "spk": "mittens",
+   "text": "It's very warm. I sit on it. Sometimes I sit on it harder.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "ron",
+   "text": "The cat. The cat has been running the house.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "kayla",
+   "text": "Round four. My reaction to the cat paying nothing and controlling everything.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ron",
+   "text": "That's my dream job.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "mittens",
+   "text": "Final round. I just set it to eighty.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "whoosh"
+  },
+  {
+   "spk": "ron",
+   "text": "Eighty?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "kayla",
+   "text": "Dad. Your reaction?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "ron",
+   "text": "I'm going to go stand in the basement.",
+   "shot": "CU",
+   "pre": 1.0
+  },
+  {
+   "spk": "mittens",
+   "text": "Bring a sweater. Then a second sweater. Then become a man.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "applause"
+  }
+ ]
+}
