@@ -58,5 +58,86 @@
   "answer": "flute",
   "key": "Bb minor",
   "bpm": 121
+ },
+ {
+  "id": "dvg002",
+  "title": "Amber Tide Lights",
+  "status": "published",
+  "style": "deep",
+  "mode": "minor",
+  "motif": {
+   "intervals": [
+    4,
+    -4,
+    -3,
+    -2,
+    2
+   ],
+   "onsets": [
+    0,
+    6,
+    12,
+    16,
+    22,
+    24
+   ],
+   "durs": [
+    6,
+    6,
+    4,
+    6,
+    2,
+    6
+   ]
+  },
+  "answer_motif": {
+   "intervals": [
+    2,
+    3,
+    2,
+    -2
+   ],
+   "onsets": [
+    38,
+    44,
+    48,
+    54,
+    56
+   ],
+   "durs": [
+    6,
+    4,
+    6,
+    2,
+    6
+   ]
+  },
+  "bass_b": "octave",
+  "cell": "dotted",
+  "contour": "leapstep",
+  "progression": [
+   [
+    0,
+    "m11"
+   ],
+   [
+    5,
+    "m9"
+   ],
+   [
+    10,
+    "sus2"
+   ],
+   [
+    3,
+    "maj9"
+   ]
+  ],
+  "template": "wave",
+  "bass_a": "rolling",
+  "lead": "rhodes",
+  "answer": "glass",
+  "key": "A minor",
+  "bpm": 122
  }
 ]
