@@ -1,0 +1,454 @@
+{
+ "engine": "cast",
+ "id": 12,
+ "slug": "the-unlucky-spoon",
+ "title": "The Unlucky Spoon",
+ "trend": "Baseball postseason (October 2026, MLB League Championship Series this week) — TikTok/Instagram Reels 'POV: your first playoff game with his superstitious family' superstition-rules skits at home watch parties",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "pov:",
+  "your first playoff game",
+  "with his superstitious family"
+ ],
+ "youtube_title": "POV: your first playoff game with his superstitious family ⚾",
+ "description": "Rule one: don't use the front door. Rule two: never wash the jersey. Rule three: hold the spoon.\nOne playoff night, three rules, and a very lucky nacho.\n\n#playoffs #superstitions #baseball #october #comedy #animation #shorts",
+ "tags": [
+  "playoffs",
+  "baseball",
+  "sports superstitions",
+  "watch party",
+  "pov",
+  "october",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny"
+ ],
+ "tiktok_caption": "pov: your first playoff game with his superstitious family ⚾ never touch the spoon #playoffs #superstitions #baseball #fyp",
+ "cast": [
+  {
+   "id": "benny",
+   "name": "Uncle Benny",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.1,
+   "hair": {
+    "style": "short",
+    "color": "#3b2a1a"
+   },
+   "top": {
+    "color": "#1f4e9c",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "7"
+   },
+   "bottom": "#5d6d7e",
+   "shoes": "#2c2c2c",
+   "accessories": [
+    "cap:#c0392b"
+   ],
+   "brows": "angry",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "priya",
+   "name": "Priya",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.95,
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "plain"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "ball",
+   "name": "The Foul Ball",
+   "kind": "mascot",
+   "shape": "ball",
+   "color": "#f4f1e8",
+   "scale": 0.85,
+   "accessories": [
+    "tophat:#2c2c2c"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "gus",
+   "name": "Gus",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#b07d4f",
+   "belly": "#f0dcc0",
+   "inner": "#8a5a33",
+   "scale": 0.85,
+   "top": {
+    "color": "#1f4e9c",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "0"
+   },
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_liam",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "benny",
+   "text": "Priya. Welcome to your first playoff game with this family. Please. Do not touch anything.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "priya",
+   "text": "Hi! I brought dip.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "benny",
+   "text": "Put the dip down. Slowly. Which door did you walk in through?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "priya",
+   "text": "The front door?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "benny",
+   "text": "Unbelievable. We have lost three games to the front door.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "ball",
+   "text": "Good evening. I am the foul ball. He caught me in nineteen ninety eight. With his face.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "benny",
+   "text": "With my hands. Near my face.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gus",
+   "text": "Don't touch the ball. He'll make you sit with it.",
+   "shot": "CU"
+  },
+  {
+   "spk": "priya",
+   "text": "Your dog talks?",
+   "shot": "gus",
+   "gesture": "think"
+  },
+  {
+   "spk": "gus",
+   "text": "Only during the playoffs. It's a superstition.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "benny",
+   "text": "Rule one. Everyone sits exactly where they sat when we won game two.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "priya",
+   "text": "I wasn't here for game two.",
+   "shot": "CU"
+  },
+  {
+   "spk": "benny",
+   "text": "Then you were in the hallway. Go stand in the hallway.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "priya",
+   "text": "Can I at least see the screen from the hallway?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "benny",
+   "text": "Through the mirror. Backwards. That's how the luck likes it.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "gus",
+   "text": "I've been on this cushion for nine days. I am part of the couch now.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ball",
+   "text": "He is a throw pillow with opinions.",
+   "shot": "W",
+   "after": "rimshot"
+  },
+  {
+   "spk": "benny",
+   "text": "Rule two. The jersey does not get washed during October.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gus",
+   "text": "I can smell it from the cushion. And I lick things for fun.",
+   "shot": "gus"
+  },
+  {
+   "spk": "priya",
+   "text": "Benny, there's a nacho stuck to your number seven.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "benny",
+   "text": "That nacho was there for the double play. That nacho stays.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "boing"
+  },
+  {
+   "spk": "priya",
+   "text": "Okay. Do I get a lucky thing?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "benny",
+   "text": "You get the unlucky spoon. Hold it. It absorbs the bad luck.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "priya",
+   "text": "This is a regular spoon.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "benny",
+   "text": "It was. Then it stirred the chili during the rain delay.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gus",
+   "text": "We don't speak of the rain delay.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ball",
+   "text": "I speak of it. Constantly. To myself. In the cabinet.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "benny",
+   "text": "Rule three. Nobody uses the bathroom while we have runners on base.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "priya",
+   "text": "What if it's an emergency?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "benny",
+   "text": "Then you go next door. Their team got knocked out. They have luck to spare.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "gus",
+   "text": "I went in their yard in the fourth inning. We scored twice.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "benny",
+   "text": "Good boy. Hero. Somebody put that dog on a stamp.",
+   "shot": "TWO",
+   "gesture": "point",
+   "after": "ding"
+  },
+  {
+   "spk": "benny",
+   "text": "Here it comes. Bottom of the eighth. Everybody do the rally face.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "all",
+   "text": "Rally face!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "priya",
+   "text": "What is the rally face?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gus",
+   "text": "You look worried, but in a confident way. Like a dad at a water park.",
+   "shot": "CU"
+  },
+  {
+   "spk": "priya",
+   "text": "Wait. Benny. Why does the corner of the screen say last October?",
+   "shot": "TWO",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "benny",
+   "text": "No it doesn't.",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 0.9
+  },
+  {
+   "spk": "priya",
+   "text": "It does. In tiny letters. Right under the pitcher.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ball",
+   "text": "Oh dear. She can read.",
+   "shot": "W",
+   "after": "sting"
+  },
+  {
+   "spk": "benny",
+   "text": "Fine. I don't watch the real game. I watch last year's win. It puts luck in the room.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "priya",
+   "text": "So where is the real game?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gus",
+   "text": "Kitchen radio. I've been listening the whole time. With my big ears.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "priya",
+   "text": "And?",
+   "shot": "gus"
+  },
+  {
+   "spk": "gus",
+   "text": "Ninth inning. Two outs. And somebody left the front door open.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "benny",
+   "text": "Nobody move! Nobody breathe! Priya, hold up the spoon!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "priya",
+   "text": "I'm holding the spoon!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gus",
+   "text": "There's the pitch. Big swing. And it is. Gone. We win.",
+   "shot": "CU",
+   "pre": 0.6,
+   "after": "applause"
+  },
+  {
+   "spk": "benny",
+   "text": "We won! Because of the open door! And the spoon! And the new girl!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "priya",
+   "text": "I didn't do anything.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "benny",
+   "text": "Exactly. You did nothing perfectly. You're coming to every game. Forever. Holding that spoon.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "ball",
+   "text": "Welcome to the family, dear. Nobody leaves. I've been here since nineteen ninety eight.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "gus",
+   "text": "And somebody, please, wash that jersey.",
+   "shot": "CU",
+   "after": "whoosh"
+  }
+ ]
+}
