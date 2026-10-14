@@ -1,0 +1,495 @@
+{
+ "engine": "cast",
+ "id": 13,
+ "slug": "creepy-fact-storytime",
+ "title": "Creepy Fact Storytime",
+ "trend": "TikTok 'Creepy Fact Storytime' (October 2026 spooky-season format: an unsettling fact over an eerie clip, ending with a twist that makes you rewatch) — trending in the US on TikTok and Reels",
+ "scene": "bedroom",
+ "desk": false,
+ "music": "spooky",
+ "intro": [
+  "creepy fact storytime",
+  "lights off. nobody leaves the bed.",
+  "the last one is the worst"
+ ],
+ "youtube_title": "Creepy fact storytime, but every fact is about our apartment 👻",
+ "description": "Lights off. Nobody leaves the bed. The facts get creepier, the yogurt keeps disappearing, and then the bunny wakes up.\n\n#creepyfacts #storytime #spookyseason #roommates #comedy #animation #shorts",
+ "tags": [
+  "creepy facts",
+  "storytime",
+  "spooky season",
+  "roommates",
+  "halloween",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny",
+  "bunny"
+ ],
+ "tiktok_caption": "creepy fact storytime but it's about our apartment 👻 who is vacuuming at 3am #creepyfacts #storytime #spookyseason #fyp",
+ "cast": [
+  {
+   "id": "margo",
+   "name": "Margo",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "curly",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#6c5ce7",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#dfe6e9",
+   "accessories": [
+    "glasses"
+   ],
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_kore",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "desmond",
+   "name": "Desmond",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.12,
+   "hair": {
+    "style": "short",
+    "color": "#b5532a"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#27ae60",
+   "shoes": "#636e72",
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "frown",
+   "voice": {
+    "id": "am_michael",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "nightlight",
+   "name": "The Night-Light",
+   "kind": "mascot",
+   "shape": "egg",
+   "color": "#fff3b0",
+   "scale": 0.85,
+   "eye": "sleepy",
+   "mouth": "flat",
+   "label_color": "#fdcb6e",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.9
+   }
+  },
+  {
+   "id": "clementine",
+   "name": "Clementine",
+   "kind": "animal",
+   "ears": "bunny",
+   "color": "#f5f5f5",
+   "inner": "#f8bbd0",
+   "belly": "#ffffff",
+   "scale": 0.9,
+   "top": {
+    "color": "#fd79a8",
+    "pattern": "dots",
+    "pattern_color": "#ffffff"
+   },
+   "accessories": [
+    "scarf:#e17055"
+   ],
+   "eye": "round",
+   "brows": "neutral",
+   "mouth": "flat",
+   "voice": {
+    "id": "bf_lily",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "margo",
+   "text": "Creepy fact storytime. Lights off. Nobody leaves the bed.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "desmond",
+   "text": "Can the night-light stay on? For legal reasons.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nightlight",
+   "text": "I'm staying on. I have seen him sleep without me.",
+   "shot": "CU"
+  },
+  {
+   "spk": "margo",
+   "text": "Creepy fact number one. You can always see your own nose.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "margo",
+   "text": "Your brain just chooses to ignore it.",
+   "shot": "desmond"
+  },
+  {
+   "spk": "desmond",
+   "text": "Why would you tell me that?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "desmond",
+   "text": "Now it's just sitting in the middle of my face.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "nightlight",
+   "text": "It has always been there, Desmond. That is where they keep it.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "margo",
+   "text": "Creepy fact number two. Your tongue never knows where to rest.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "desmond",
+   "text": "Stop it. Stop it right now.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "nightlight",
+   "text": "He is going to be like this until Thursday.",
+   "shot": "W",
+   "after": "rimshot"
+  },
+  {
+   "spk": "margo",
+   "text": "Okay. Real ones now. Creepy facts about this apartment.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "margo",
+   "text": "Creepy fact. We live on the top floor.",
+   "shot": "CU"
+  },
+  {
+   "spk": "desmond",
+   "text": "Yeah. So?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "margo",
+   "text": "So who vacuums upstairs at three in the morning?",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "desmond",
+   "text": "The roof. The roof is vacuuming.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.9
+  },
+  {
+   "spk": "nightlight",
+   "text": "I have heard it. It does the corners.",
+   "shot": "CU"
+  },
+  {
+   "spk": "margo",
+   "text": "Creepy fact. Someone has been eating your yogurt.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "desmond",
+   "text": "My labeled yogurt?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "margo",
+   "text": "Every single cup. And they put the lid back on.",
+   "shot": "clementine"
+  },
+  {
+   "spk": "desmond",
+   "text": "That is the scariest thing ever said in this room.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "whoosh"
+  },
+  {
+   "spk": "nightlight",
+   "text": "Creepy fact. The empty cups are lined up behind the couch. In size order.",
+   "shot": "CU"
+  },
+  {
+   "spk": "desmond",
+   "text": "They're all the same size!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "nightlight",
+   "text": "Exactly. Think about it.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "desmond",
+   "text": "I want my mom.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "margo",
+   "text": "Your mom gave us the bunny.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "desmond",
+   "text": "Clementine has nothing to do with this. Look at her. She's asleep.",
+   "shot": "clementine",
+   "gesture": "point"
+  },
+  {
+   "spk": "nightlight",
+   "text": "Is she, though.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "margo",
+   "text": "Creepy facts about you, Desmond.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "desmond",
+   "text": "Me? I am not creepy. I am a delight.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "margo",
+   "text": "Creepy fact. You say good night to the fridge.",
+   "shot": "CU"
+  },
+  {
+   "spk": "desmond",
+   "text": "The fridge works hard. It deserves respect.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "nightlight",
+   "text": "Creepy fact. He says good morning to the toaster. It never answers.",
+   "shot": "CU"
+  },
+  {
+   "spk": "desmond",
+   "text": "It's shy!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "margo",
+   "text": "Creepy fact. Last night you talked in your sleep for twenty minutes.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "desmond",
+   "text": "What did I say?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "margo",
+   "text": "You said, I will not be returning the shopping cart.",
+   "shot": "CU"
+  },
+  {
+   "spk": "desmond",
+   "text": "That doesn't sound like me.",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 0.9
+  },
+  {
+   "spk": "nightlight",
+   "text": "You said it with your whole chest. I flickered.",
+   "shot": "W",
+   "after": "boing"
+  },
+  {
+   "spk": "desmond",
+   "text": "My turn. Nobody remembers buying the night-light.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "nightlight",
+   "text": "I came with the apartment. Like the smell.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "margo",
+   "text": "What smell?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "nightlight",
+   "text": "Exactly. You stopped noticing it. That is the creepy part.",
+   "shot": "CU"
+  },
+  {
+   "spk": "clementine",
+   "text": "Creepy fact. Bunnies can sleep with their eyes open.",
+   "shot": "CU",
+   "pre": 1.0
+  },
+  {
+   "spk": "desmond",
+   "text": "Clementine can talk?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "clementine",
+   "text": "Creepy fact. I was never asleep. I heard every secret.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "margo",
+   "text": "How long have you been able to talk?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "clementine",
+   "text": "Since the yogurt.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "desmond",
+   "text": "You ate my yogurt?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "clementine",
+   "text": "You labeled it Desmond. I assumed that was the flavor.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nightlight",
+   "text": "I told you. Size order.",
+   "shot": "nightlight"
+  },
+  {
+   "spk": "margo",
+   "text": "Wait. The vacuuming at three in the morning?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "clementine",
+   "text": "It's a hobby. Don't ask how I get up there.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "desmond",
+   "text": "How do you get up there?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "clementine",
+   "text": "I said don't ask.",
+   "shot": "W",
+   "pre": 0.5,
+   "after": "rimshot"
+  },
+  {
+   "spk": "margo",
+   "text": "Last creepy fact. Clementine is on the lease.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "desmond",
+   "text": "She pays rent?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "clementine",
+   "text": "More than you, darling. I do voiceovers.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "desmond",
+   "text": "I'm sleeping in the hallway.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "nightlight",
+   "text": "Creepy fact. The hallway light is my cousin. He is worse.",
+   "shot": "CU",
+   "pre": 0.6,
+   "after": "applause"
+  },
+  {
+   "spk": "desmond",
+   "text": "Good night, fridge.",
+   "shot": "W",
+   "gesture": "wave",
+   "pre": 0.8
+  }
+ ]
+}
