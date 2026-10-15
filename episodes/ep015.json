@@ -1,0 +1,465 @@
+{
+ "engine": "cast",
+ "id": 15,
+ "slug": "somewhere-you-wont-like",
+ "title": "Somewhere You're Not Gonna Like",
+ "trend": "TikTok 'I'm gonna send you somewhere you're not gonna like' (lip-sync about a plan that turned out far worse than expected) — trending across US TikTok in October 2026",
+ "scene": "park_day",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "i'm gonna send you",
+  "somewhere you won't like",
+  "a fall hike story"
+ ],
+ "youtube_title": "When the trail app says it's sending you somewhere you're not gonna like 🍂",
+ "description": "Curtis ignored the trail app one time. One time. Now the whole family is touring every place they did not want to see.\n\n#somewhereyourenotgonnalike #fallhike #dadjokes #familyfun #comedy #animation #shorts",
+ "tags": [
+  "somewhere you're not gonna like",
+  "fall hike",
+  "dad humor",
+  "family comedy",
+  "funny",
+  "comedy",
+  "animation",
+  "cartoon",
+  "trail app",
+  "geese"
+ ],
+ "tiktok_caption": "the trail app said it would send us somewhere we're not gonna like 🍂 it was not lying #somewhereyourenotgonnalike #fallhike #comedy #fyp",
+ "cast": [
+  {
+   "id": "curtis",
+   "name": "Curtis",
+   "kind": "human",
+   "color": "#d1a074",
+   "scale": 1.08,
+   "hair": {
+    "style": "short",
+    "color": "#5a3a1e"
+   },
+   "top": {
+    "color": "#b03a2e",
+    "pattern": "stripes",
+    "pattern_color": "#1c2833"
+   },
+   "bottom": "#5d6d7e",
+   "shoes": "#6e4b2a",
+   "accessories": [
+    "cap:#1e8449"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "jasmine",
+   "name": "Jasmine",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.95,
+   "hair": {
+    "style": "afro",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#7d3c98",
+    "pattern": "hoodie"
+   },
+   "bottom": "#212f3d",
+   "shoes": "#fdfefe",
+   "accessories": [
+    "headphones:#f4d03f"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "voice": {
+    "id": "af_river",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "app",
+   "name": "The Trail App",
+   "kind": "mascot",
+   "shape": "phone",
+   "color": "#1c2833",
+   "case": "#e67e22",
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#e67e22",
+   "voice": {
+    "id": "bf_emma",
+    "pitch": 0,
+    "tempo": 0.96
+   }
+  },
+  {
+   "id": "pretzel",
+   "name": "Pretzel",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#c68e4e",
+   "belly": "#f5deb3",
+   "inner": "#a0522d",
+   "scale": 0.88,
+   "accessories": [
+    "scarf:#c0392b"
+   ],
+   "eye": "big",
+   "brows": "neutral",
+   "mouth": "smile",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "curtis",
+   "text": "Okay, phone. Take us to the waterfall. Fastest way.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "app",
+   "text": "In two hundred feet, turn left at the big rock.",
+   "shot": "CU"
+  },
+  {
+   "spk": "curtis",
+   "text": "Nah. I know a shortcut. Going right.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "app",
+   "text": "Curtis. I am going to send you somewhere you are not going to like.",
+   "shot": "CU",
+   "pre": 0.6,
+   "after": "sting"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Dad. The phone just said your name. Like a teacher.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "curtis",
+   "text": "It's a trail app, Jas. It doesn't have feelings.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "app",
+   "text": "Rerouting. With feelings.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "curtis",
+   "text": "Look, a pond! See? Shortcut. Scenic. Peaceful.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "app",
+   "text": "You have arrived at the goose pond.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Dad, there are forty geese. And they are all looking at you.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "pretzel",
+   "text": "That one is the manager. Do not make eye contact.",
+   "shot": "CU"
+  },
+  {
+   "spk": "curtis",
+   "text": "Why is it walking toward me with its arms out?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Those are wings. Run, Dad.",
+   "shot": "jasmine",
+   "after": "boing"
+  },
+  {
+   "spk": "curtis",
+   "text": "Okay. Okay. I lost a shoe. The goose has my shoe.",
+   "shot": "W",
+   "gesture": "facepalm",
+   "pre": 0.8
+  },
+  {
+   "spk": "app",
+   "text": "You did not like it. I told you.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Can you change the voice? It sounds like a substitute teacher on a Monday.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "app",
+   "text": "Jasmine.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "jasmine",
+   "text": "Oh no. It knows me too.",
+   "shot": "jasmine"
+  },
+  {
+   "spk": "app",
+   "text": "Rerouting you somewhere you are not going to like. Again.",
+   "shot": "CU"
+  },
+  {
+   "spk": "app",
+   "text": "Welcome to the stairs. Four hundred and thirty seven of them.",
+   "shot": "W"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Why are there stairs in a forest? Who asked for this?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "curtis",
+   "text": "This is great cardio. I'm great. I'm doing great.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "curtis",
+   "text": "I'm gonna lie down on this step. Just for a year.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Dad, a grandma just passed us. Twice.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "curtis",
+   "text": "She had poles. Poles are cheating.",
+   "shot": "CU"
+  },
+  {
+   "spk": "curtis",
+   "text": "No, nobody quits. We are a hiking family now.",
+   "shot": "W",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Since when?",
+   "shot": "CU"
+  },
+  {
+   "spk": "curtis",
+   "text": "Since the goose took my shoe. It's personal now.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "pretzel",
+   "text": "Phone, I would like to go somewhere I am going to like. It has snacks.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "app",
+   "text": "You licked my screen this morning, Pretzel.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "pretzel",
+   "text": "It looked like a window to a better life.",
+   "shot": "CU"
+  },
+  {
+   "spk": "app",
+   "text": "Rerouting everyone.",
+   "shot": "W",
+   "after": "whoosh"
+  },
+  {
+   "spk": "app",
+   "text": "You have arrived at the picnic area. A stranger's uncle is teaching line dancing.",
+   "shot": "W"
+  },
+  {
+   "spk": "jasmine",
+   "text": "No. No, no, no. He made eye contact. He's coming over.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "curtis",
+   "text": "Step, slide, turn, clap. Jas! I'm in the front row!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "pretzel",
+   "text": "He is not good. But he is so committed.",
+   "shot": "pretzel"
+  },
+  {
+   "spk": "curtis",
+   "text": "The uncle says I'm a natural. He gave me a sticker!",
+   "shot": "W",
+   "gesture": "point",
+   "after": "applause"
+  },
+  {
+   "spk": "app",
+   "text": "Something is wrong. You are supposed to hate this.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "jasmine",
+   "text": "Wait. Supposed to? Who told you to make him hate this?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "app",
+   "text": "You did, Jasmine. This morning. You picked the route called make Dad want to go home.",
+   "shot": "CU",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "curtis",
+   "text": "Jas?",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "jasmine",
+   "text": "Okay, yes. I wanted to be home by noon.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "curtis",
+   "text": "Kiddo, the geese, the stairs, the dancing? Best morning all year.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "app",
+   "text": "I have failed. He enjoys everything. He is impossible to ruin.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Fine. Then just take us to the waterfall. Please.",
+   "shot": "CU"
+  },
+  {
+   "spk": "app",
+   "text": "About the waterfall.",
+   "shot": "CU",
+   "pre": 0.7
+  },
+  {
+   "spk": "app",
+   "text": "It is a drinking fountain. The park just calls it a waterfall.",
+   "shot": "W"
+  },
+  {
+   "spk": "pretzel",
+   "text": "I already found it. I drank the waterfall.",
+   "shot": "pretzel",
+   "after": "ding"
+  },
+  {
+   "spk": "curtis",
+   "text": "You know what? Worth it. Best hike ever.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "jasmine",
+   "text": "You have one shoe and a sticker.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "curtis",
+   "text": "And a goose who respects me now.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pretzel",
+   "text": "The goose does not respect you. The goose is wearing your shoe.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "curtis",
+   "text": "Same thing. Next weekend, we do it again!",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "app",
+   "text": "Next weekend, I am sending you somewhere you are really not going to like.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": [
+    "curtis",
+    "jasmine"
+   ],
+   "text": "Where?",
+   "shot": "W"
+  },
+  {
+   "spk": "app",
+   "text": "The mall parking lot. On a Saturday. No open spots. Forever.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "all",
+   "text": "No!",
+   "shot": "W",
+   "gesture": "arms_up"
+  }
+ ]
+}
