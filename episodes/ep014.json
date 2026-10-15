@@ -1,0 +1,469 @@
+{
+ "engine": "cast",
+ "id": 14,
+ "slug": "the-cat-handshake",
+ "title": "The Cat Handshake",
+ "trend": "TikTok 'Cat Handshake' (a smug cat claps and offers a handshake whenever someone gets away with something sneaky) — one of the most-used US TikTok formats in October 2026",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "cat handshake",
+  "when you get away with it",
+  "watch the cat"
+ ],
+ "youtube_title": "Cat handshake, but the cat gets away with everything before dinner 🐱🤝",
+ "description": "Two hours before the in-laws arrive, everything in the kitchen goes wrong. Dale gets blamed every time. The cat keeps offering handshakes.\n\n#cathandshake #catsoftiktok #gotawaywithit #familydinner #comedy #animation #shorts",
+ "tags": [
+  "cat handshake",
+  "cat handshake trend",
+  "got away with it",
+  "funny cat",
+  "family dinner",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny",
+  "kitchen"
+ ],
+ "tiktok_caption": "cat handshake but the cat gets away with everything before dinner 🐱🤝 watch dale #cathandshake #catsoftiktok #comedy #fyp",
+ "cast": [
+  {
+   "id": "renee",
+   "name": "Renee",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "bun",
+    "color": "#3b2314"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "apron",
+    "pattern_color": "#fdfefe"
+   },
+   "bottom": "#34495e",
+   "shoes": "#7f8c8d",
+   "brows": "raised",
+   "mouth": "flat",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "dale",
+   "name": "Dale",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.1,
+   "hair": {
+    "style": "short",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ecf0f1",
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "frown",
+   "voice": {
+    "id": "am_adam",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "tofu",
+   "name": "Tofu",
+   "kind": "animal",
+   "ears": "cat",
+   "color": "#f39c12",
+   "belly": "#fdebd0",
+   "inner": "#f5b7b1",
+   "scale": 0.9,
+   "top": {
+    "color": "#2c3e50",
+    "pattern": "suit",
+    "pattern_color": "#ecf0f1"
+   },
+   "accessories": [
+    "tie:#8e44ad"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#f39c12",
+   "voice": {
+    "id": "am_echo",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "jar",
+   "name": "The Cookie Jar",
+   "kind": "mascot",
+   "shape": "cup",
+   "color": "#f5e6ca",
+   "lid": "#8e5b3a",
+   "sleeve": "#d4a373",
+   "scale": 0.85,
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#d4a373",
+   "voice": {
+    "id": "bf_alice",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "renee",
+   "text": "Your parents land in two hours. Nothing goes wrong today. Nothing.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "tofu",
+   "text": "Nothing. Absolutely nothing. Shake on it?",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "dale",
+   "text": "Why is the cat offering handshakes again?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jar",
+   "text": "He only does that when he has gotten away with something.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "renee",
+   "text": "Okay. Step one. Your mother's favorite mug comes down from the shelf.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "renee",
+   "text": "Where is the mug, Dale?",
+   "shot": "TWO",
+   "gesture": "hips",
+   "pre": 0.6
+  },
+  {
+   "spk": "dale",
+   "text": "It was on the counter. Right on the edge. Like it wanted adventure.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tofu",
+   "text": "Mugs are free spirits. You can't hold them.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "renee",
+   "text": "It's in four pieces under the fridge.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "dale",
+   "text": "I did not put it on the edge!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "tofu",
+   "text": "Great talk, everyone. Handshake.",
+   "shot": "CU",
+   "gesture": "wave",
+   "after": "boing"
+  },
+  {
+   "spk": "renee",
+   "text": "Fine. Step two. The birthday cake. Your mother turns seventy tonight.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "renee",
+   "text": "Why is there a little path through the frosting?",
+   "shot": "jar",
+   "pre": 0.8
+  },
+  {
+   "spk": "dale",
+   "text": "That is a tiny path. That is a path for someone very short.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tofu",
+   "text": "Interesting. Dale, check your nose.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "dale",
+   "text": "Why is there frosting on my nose?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "tofu",
+   "text": "You fell asleep on the couch at noon. Things happen to sleeping men.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "renee",
+   "text": "Dale. It says happy birthday, Lin.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dale",
+   "text": "Her name is Linda!",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "tofu",
+   "text": "And now, briefly, it is Lin. Very modern.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tofu",
+   "text": "Handshake, cookie jar?",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "jar",
+   "text": "I do not have hands. That is why he picks me.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "renee",
+   "text": "Step three. The roast chicken. The one thing we cannot replace.",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "renee",
+   "text": "I left it resting on the stove. Where is the chicken?",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.5
+  },
+  {
+   "spk": "dale",
+   "text": "It was resting. Maybe it's resting somewhere else.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tofu",
+   "text": "Chickens leave, Renee. It is the circle of life.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "renee",
+   "text": "It was cooked! It had no legs left to leave on!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "tofu",
+   "text": "Then it was very determined.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dale",
+   "text": "There is a trail of gravy going under the table.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "tofu",
+   "text": "That's interesting, because Dale's socks are covered in gravy.",
+   "shot": "dale"
+  },
+  {
+   "spk": "dale",
+   "text": "When did you put gravy on my socks?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jar",
+   "text": "Witness statement. A large orange gentleman dragged a chicken under that table.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tofu",
+   "text": "Cookie jar. Remember who knocked your lid off last spring? And who did not tell?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "jar",
+   "text": "Witness statement withdrawn. Nobody saw anything. Least of all me.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tofu",
+   "text": "Beautiful. Handshake.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "dale",
+   "text": "Renee, it's him. Look at his face. He's smiling in a suit.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "renee",
+   "text": "Dale, he's a cat. Cats don't plan things.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "renee",
+   "text": "Okay. Everyone stop. I have to tell you something.",
+   "shot": "W",
+   "gesture": "cross",
+   "pre": 0.8
+  },
+  {
+   "spk": "renee",
+   "text": "I burned the chicken this morning. It was black. It was charcoal with wings.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "dale",
+   "text": "What?",
+   "shot": "CU"
+  },
+  {
+   "spk": "renee",
+   "text": "So I asked Tofu to make it disappear. And I ordered a new one.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tofu",
+   "text": "We had a deal. I take the chicken. Dale takes the blame.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "dale",
+   "text": "And the cake? And the mug?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "renee",
+   "text": "The cake was me. I was stressed. I ate the D and the A.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "tofu",
+   "text": "The mug was me. Free spirit. Some things you just have to push.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dale",
+   "text": "So I've been framed by my wife and a cat in a tie.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "renee",
+   "text": "Partner. Handshake.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "tofu",
+   "text": "Partner. Handshake.",
+   "shot": "CU",
+   "gesture": "wave",
+   "after": "applause"
+  },
+  {
+   "spk": "dale",
+   "text": "Okay. Well. I have something to tell you too.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "dale",
+   "text": "My parents aren't coming tonight. They canceled yesterday.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "renee",
+   "text": "You let me cook for two days?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "dale",
+   "text": "I wanted the chicken. I've been watching this whole thing very quietly.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tofu",
+   "text": "Dale. I underestimated you.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dale",
+   "text": "Handshake?",
+   "shot": "TWO",
+   "gesture": "wave",
+   "pre": 0.5
+  },
+  {
+   "spk": "jar",
+   "text": "Absolutely not. Nobody here gets away with anything ever again.",
+   "shot": "W",
+   "after": "ding"
+  }
+ ]
+}
