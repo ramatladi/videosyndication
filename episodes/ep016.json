@@ -1,0 +1,463 @@
+{
+ "engine": "cast",
+ "id": 16,
+ "slug": "day-sixteen-of-halloween",
+ "title": "Day Sixteen Of Thirty One",
+ "trend": "TikTok '31 Days of Halloween' daily countdown series (a numbered Halloween video every day of October) — trending across US TikTok and Reels in October 2026",
+ "scene": "living_room",
+ "desk": false,
+ "music": "spooky",
+ "intro": [
+  "day sixteen of",
+  "thirty one days of halloween",
+  "i have run out of ideas"
+ ],
+ "youtube_title": "Day 16 of 31 days of Halloween and I have completely run out of ideas 🎃",
+ "description": "Nadia promised a Halloween video every single day of October. By day sixteen her brother is done, her pumpkin is soft, and her hamster has a secret.\n\n#31daysofhalloween #halloween #spookyseason #siblings #comedy #animation #shorts",
+ "tags": [
+  "31 days of halloween",
+  "halloween",
+  "spooky season",
+  "halloween countdown",
+  "siblings",
+  "pumpkin",
+  "hamster",
+  "comedy",
+  "animation",
+  "funny"
+ ],
+ "tiktok_caption": "day 16 of 31 days of halloween and the hamster is doing better than me 🎃 #31daysofhalloween #halloween #spookyseason #comedy #fyp",
+ "cast": [
+  {
+   "id": "nadia",
+   "name": "Nadia",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "bun",
+    "color": "#2b1a10"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#f4f6f7",
+   "accessories": [
+    "witchhat:#5b2c6f",
+    "mic_headset"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "voice": {
+    "id": "af_nova",
+    "pitch": 1,
+    "tempo": 1.06
+   }
+  },
+  {
+   "id": "leo",
+   "name": "Leo",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.9,
+   "hair": {
+    "style": "curly",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#566573",
+    "pattern": "hoodie"
+   },
+   "bottom": "#1c2833",
+   "shoes": "#e74c3c",
+   "accessories": [
+    "headphones:#2ecc71"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 1,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "hubert",
+   "name": "Hubert",
+   "kind": "mascot",
+   "shape": "pumpkin",
+   "color": "#d35400",
+   "accessories": [
+    "tophat"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "frown",
+   "label_color": "#e67e22",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.94
+   }
+  },
+  {
+   "id": "peanut",
+   "name": "Peanut",
+   "kind": "animal",
+   "ears": "mouse",
+   "color": "#e0a96d",
+   "belly": "#fbeee0",
+   "inner": "#f5b7b1",
+   "scale": 0.85,
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "round",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#f4d03f",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "nadia",
+   "text": "Hi guys! Welcome back to day sixteen of thirty one days of Halloween!",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "leo",
+   "text": "She says that like it's a gift. It is a hostage situation.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "leo",
+   "text": "Day nine, she posted me sneezing into the cauldron.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "nadia",
+   "text": "And it did numbers!",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "hubert",
+   "text": "Excuse me. Some of us were in the background of that sneeze.",
+   "shot": "hubert"
+  },
+  {
+   "spk": "nadia",
+   "text": "Guys, this is Hubert. He's been in every video since day one.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "hubert",
+   "text": "Against my will. I came from a farm. I had prospects.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "peanut",
+   "text": "He had a vine. Now he has a windowsill.",
+   "shot": "peanut"
+  },
+  {
+   "spk": "nadia",
+   "text": "And that's Peanut. Peanut doesn't usually talk.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "peanut",
+   "text": "Peanut talks in October. Peanut has range.",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "nadia",
+   "text": "Okay! Today's idea. Spooky snack!",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "leo",
+   "text": "No. I have eaten every spooky snack.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "leo",
+   "text": "Mummy hot dogs. Eyeball grapes. Graveyard brownies with real dirt.",
+   "shot": "CU"
+  },
+  {
+   "spk": "leo",
+   "text": "There was a worm in mine.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "peanut",
+   "text": "Leave Gary out of this.",
+   "shot": "peanut"
+  },
+  {
+   "spk": "leo",
+   "text": "Who is Gary?",
+   "shot": "CU"
+  },
+  {
+   "spk": "peanut",
+   "text": "Gary was the worm. He was a good worm.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "nadia",
+   "text": "Fine. Idea two. Live pumpkin carving!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "hubert",
+   "text": "I beg your pardon.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "nadia",
+   "text": "Hubert, you're the only pumpkin I have.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "hubert",
+   "text": "I've watched you film one dance thirty eight times. I know every step. I don't have legs.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "leo",
+   "text": "Honestly? The pumpkin has a point.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "hubert",
+   "text": "Also, I've gone a little soft on the bottom.",
+   "shot": "hubert"
+  },
+  {
+   "spk": "nadia",
+   "text": "How soft?",
+   "shot": "CU"
+  },
+  {
+   "spk": "hubert",
+   "text": "If you lift me, part of me stays on the windowsill.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "leo",
+   "text": "That's why the room smells like a candle that gave up.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "nadia",
+   "text": "That's the pumpkin spice plug in!",
+   "shot": "CU"
+  },
+  {
+   "spk": "hubert",
+   "text": "There is no plug in, Nadia. I am the plug in.",
+   "shot": "W"
+  },
+  {
+   "spk": "nadia",
+   "text": "Idea three. The classic. Jump scare my little brother.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "leo",
+   "text": "You're saying that out loud. In front of me.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "nadia",
+   "text": "Just look at your phone.",
+   "shot": "CU"
+  },
+  {
+   "spk": "leo",
+   "text": "I'm always looking at my phone. That's not acting.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nadia",
+   "text": "Peanut, you're on lights.",
+   "shot": "CU"
+  },
+  {
+   "spk": "peanut",
+   "text": "I'm a hamster. But okay.",
+   "shot": "peanut"
+  },
+  {
+   "spk": "nadia",
+   "text": "Three, two, one, go!",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "peanut",
+   "text": "Lights are off.",
+   "shot": "CU",
+   "after": "whoosh"
+  },
+  {
+   "spk": "nadia",
+   "text": "Boo!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "leo",
+   "text": "Hi, Nadia.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "hubert",
+   "text": "I screamed. Did anyone else scream?",
+   "shot": "W"
+  },
+  {
+   "spk": "nadia",
+   "text": "Why aren't you scared? I wore the mask!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "leo",
+   "text": "That mask lives on the fridge. I say good morning to it.",
+   "shot": "CU"
+  },
+  {
+   "spk": "peanut",
+   "text": "We all do. His name is Frank.",
+   "shot": "peanut"
+  },
+  {
+   "spk": "nadia",
+   "text": "Day sixteen has nothing. Let me check the comments.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "nadia",
+   "text": "Wait. Why does every comment say, where is the hamster?",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "nadia",
+   "text": "Thirty one days of hamster is my favorite show? Thirty one days of hamster?",
+   "shot": "CU",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "peanut",
+   "text": "That's me. I post at night. From your phone. You charge it next to my box.",
+   "shot": "peanut",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nadia",
+   "text": "How many followers do you have?",
+   "shot": "CU"
+  },
+  {
+   "spk": "peanut",
+   "text": "Two million. And a guy in Ohio who mails me sunflower seeds.",
+   "shot": "CU"
+  },
+  {
+   "spk": "leo",
+   "text": "Nadia has nine hundred, and that counts Grandma twice.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "peanut",
+   "text": "Also, I finished all thirty one days. I'm on Thanksgiving now.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "nadia",
+   "text": "You finished Halloween by the sixteenth?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "peanut",
+   "text": "Kid. You plan October in July.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nadia",
+   "text": "Peanut, please. What do I post today?",
+   "shot": "CU"
+  },
+  {
+   "spk": "peanut",
+   "text": "Easy. Look at the fridge.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "nadia",
+   "text": "Why is Frank looking at me?",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "peanut",
+   "text": "Say good morning, Nadia.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nadia",
+   "text": "Okay, that counts! Day sixteen is done!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "hubert",
+   "text": "Wonderful. Fifteen more days. Somebody please just make me a pie.",
+   "shot": "hubert",
+   "after": "ding"
+  }
+ ]
+}
