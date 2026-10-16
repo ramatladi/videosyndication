@@ -1,0 +1,132 @@
+{
+ "release_id": "dvg003",
+ "title": "Glasswater Breeze",
+ "style": "melodic",
+ "style_as_written": "melodic",
+ "status": "pass",
+ "created_utc": "2026-10-16T18:25:32Z",
+ "engine_version": "3.1.0",
+ "code_sha256": "59fac40f3edce12451472cb82c09d9d5c34f6730f4bbbf7ecff9820cc36264e0",
+ "files": {
+  "track_json": "/home/claude/videosyndication/djvelvetgrey/tracks/dvg003.json",
+  "photo": "/home/claude/videosyndication/djvelvetgrey/photos/dvg003.jpg",
+  "delivery_wav": "/home/claude/videosyndication/out/dvg003.delivery.wav",
+  "mp3": "/home/claude/videosyndication/out/dvg003.mp3",
+  "aac": "/home/claude/videosyndication/out/dvg003.m4a",
+  "mp4": "/home/claude/videosyndication/out/dvg003.mp4",
+  "qc_json": "/home/claude/videosyndication/out/dvg003.qc.json",
+  "meta_json": "/home/claude/videosyndication/out/dvg003.meta.json",
+  "export_json": "/home/claude/videosyndication/out/dvg003.export.json"
+ },
+ "repo_commit": "718ed7bb06eeaf24f3a0d34bf92eb8e1857181f2",
+ "repo_dirty": false,
+ "tools": {
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pyloudnorm": "installed",
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
+ },
+ "brief": {
+  "engine": "v2",
+  "style": "melodic",
+  "release": "dvg003",
+  "mood": "bright breezy morning over glass-clear turquoise shallows",
+  "bpm": 123,
+  "tonic": 62,
+  "mode": "minor",
+  "progression": [
+   [
+    8,
+    "maj7"
+   ],
+   [
+    10,
+    "add9"
+   ],
+   [
+    0,
+    "m9"
+   ],
+   [
+    0,
+    "m7"
+   ]
+  ],
+  "lead": "glass",
+  "answer": "pluck",
+  "groove": {
+   "bass_a": "offbeat",
+   "bass_b": "rolling",
+   "swing": 0.0
+  },
+  "arc": "prog",
+  "loudness_lufs": -10.5,
+  "seed": 259724,
+  "motif": {
+   "cell": "lilt",
+   "contour": "pedal",
+   "start": 74,
+   "candidate": 6,
+   "selected_by": "automatic: top compositional score without catalogue flags (not a listening judgement)"
+  }
+ },
+ "motif_selection": {
+  "cell": "lilt",
+  "contour": "pedal",
+  "start": 74,
+  "candidate": 6,
+  "selected_by": "automatic: top compositional score without catalogue flags (not a listening judgement)"
+ },
+ "sha256": {
+  "track_json": "840fd364c302a1edb91b3e7f2f64e0af6a751a2009c5826b789cbd1fde79bdac",
+  "photo": "c1c00e78e69e002ad46b0c79bd4fffd583fb68ff23cacaa63504b054ae9312b3",
+  "delivery_wav": "c498d4e945bc62a0552ceec3f521c4267468be416e7c966a713dc2742d6790ec",
+  "mp3": "9e81452c3c52ce098a18140221dfd6fc65cb364e2afbb6eb694c857e84ca1c48",
+  "aac": "ae4eeba331ddfd7ed21b70d3594d7b454594f0de26a8ca2bbebdb5fbb6ff47c4",
+  "mp4": "031af3342e9acbaeb142971979c653ef2e7ee29b53796a92f8dee667e90e0cb1",
+  "qc_json": "4094a4943bd5f79301aa7c7b450a2170042f7a8ec3ff6136d475e24aa1669e8f",
+  "meta_json": "769a8661b6c82de4079156bf61f732d3a844f4952865ede6c82668506da603fb",
+  "export_json": "c1ceea538f56a8a1458df5f51cd52627112186bbff4a129231a64c5b9ca39ae7"
+ },
+ "export": {
+  "gain_trim_db": -0.63,
+  "final": {
+   "iteration": 1,
+   "gain_db": -0.63,
+   "mp3": -2.73,
+   "aac": -1.75,
+   "pcm": -3.43
+  }
+ },
+ "qc": {
+  "status": "pass",
+  "files": {
+   "mp3": {
+    "decode_errors": null,
+    "duration_s": 179.0,
+    "true_peak_dbtp": -2.73,
+    "integrated_lufs": -11.44,
+    "samples_over_full_scale": 0
+   },
+   "mp4_audio": {
+    "decode_errors": null,
+    "duration_s": 179.003,
+    "true_peak_dbtp": -1.75,
+    "integrated_lufs": -11.47,
+    "samples_over_full_scale": 0
+   },
+   "wav": {
+    "duration_s": 179.0,
+    "true_peak_dbtp": -3.43,
+    "integrated_lufs": -11.43,
+    "samples_over_full_scale": 0
+   }
+  },
+  "click_suspects": [],
+  "outro_bars_heard": 6.7,
+  "stereo_correlation": 0.823
+ },
+ "assessment": "Automated technical checks only. Not listened to unless \"auditioned_by\" is set.",
+ "auditioned_by": null
+}
