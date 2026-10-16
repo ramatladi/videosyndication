@@ -1,0 +1,467 @@
+{
+ "engine": "cast",
+ "id": 17,
+ "slug": "the-slow-mo-entrance",
+ "title": "The Slow-Mo Entrance",
+ "trend": "TikTok/Reels 'slow-motion entrance' trend (friends take turns making dramatic slow-mo walk-ins in ordinary places) — on New Engen's October 2026 US TikTok trends list",
+ "scene": "office",
+ "desk": false,
+ "music": "dramatic",
+ "intro": [
+  "slow motion entrance",
+  "office edition",
+  "we took this way too seriously"
+ ],
+ "youtube_title": "We tried the slow-mo entrance trend at the office and it went so wrong 🎬",
+ "description": "Friday office video: one slow-motion entrance each. Marvin brought soup, Denise brought wind, and nobody read the door.\n\n#slowmoentrance #slowmotion #officehumor #fridayvibes #comedy #animation #shorts",
+ "tags": [
+  "slow mo entrance",
+  "slow motion trend",
+  "office humor",
+  "coworkers",
+  "friday",
+  "office dog",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny"
+ ],
+ "tiktok_caption": "slow mo entrance, office edition. the dog did it best 🎬 #slowmoentrance #slowmotion #officehumor #comedy #fyp",
+ "cast": [
+  {
+   "id": "denise",
+   "name": "Denise",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "long",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "suit",
+    "pattern_color": "#f5b041"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#c0392b",
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "marvin",
+   "name": "Marvin",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "bald",
+    "color": "#7b5a3a"
+   },
+   "top": {
+    "color": "#d6eaf8",
+    "pattern": "plain"
+   },
+   "bottom": "#5d6d7e",
+   "shoes": "#4a2f1b",
+   "accessories": [
+    "glasses",
+    "tie:#c0392b"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_michael",
+    "pitch": -1,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "copier",
+   "name": "The Copier",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#d5d8dc",
+   "scale": 1.1,
+   "accessories": [
+    "glasses",
+    "tie:#2c3e50"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#aed6f1",
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "barkley",
+   "name": "Barkley",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#a6835a",
+   "belly": "#f0e0c8",
+   "scale": 0.9,
+   "top": {
+    "color": "#27ae60",
+    "pattern": "plain"
+   },
+   "accessories": [
+    "scarf:#e74c3c"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#f8c471",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -2,
+    "tempo": 0.88
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "denise",
+   "text": "Okay team. Friday video. Slow motion entrances. Like a movie.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marvin",
+   "text": "Like a movie about an accountant?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "denise",
+   "text": "Like a movie where the accountant is the hero.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "marvin",
+   "text": "I have waited eleven years for that sentence.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "copier",
+   "text": "And I am judging. I have seen all of you on Mondays.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "barkley",
+   "text": "I am only here for the rug.",
+   "shot": "CU"
+  },
+  {
+   "spk": "denise",
+   "text": "Marvin, you're first. Walk in like the wind is on your side.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "marvin",
+   "text": "The wind has never been on my side.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "copier",
+   "text": "He is walking very slowly. Like a man who lost his car.",
+   "shot": "copier"
+  },
+  {
+   "spk": "denise",
+   "text": "Marvin. The phone does the slow part.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "marvin",
+   "text": "Then why did I practice in the parking garage for an hour?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "copier",
+   "text": "Security has a video of that. It is their favorite video.",
+   "shot": "CU"
+  },
+  {
+   "spk": "marvin",
+   "text": "I also brought a hot coffee. For drama.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "copier",
+   "text": "That is not coffee. That is soup.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "marvin",
+   "text": "It was the only hot thing in the kitchen.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "denise",
+   "text": "Okay! Very bold. Very soup. Next!",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "denise",
+   "text": "My turn. I need wind. Hair blowing. Main character energy.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marvin",
+   "text": "We don't have a fan.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "copier",
+   "text": "I have a fan in my back. For emergencies.",
+   "shot": "CU"
+  },
+  {
+   "spk": "copier",
+   "text": "Warning. It smells like warm paper and regret.",
+   "shot": "CU",
+   "after": "whoosh"
+  },
+  {
+   "spk": "denise",
+   "text": "Oh. Oh, that is hot. Why is it so hot?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "copier",
+   "text": "I am a copier. I am always this hot. Nobody ever asks.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marvin",
+   "text": "Your hair looks amazing. It also looks like it's leaving.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "barkley",
+   "text": "Something smells like toast.",
+   "shot": "barkley",
+   "pre": 0.5
+  },
+  {
+   "spk": "copier",
+   "text": "That is me. That is how I say I love you.",
+   "shot": "CU"
+  },
+  {
+   "spk": "denise",
+   "text": "Turn it off! Tell me my eyebrows are fine.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "marvin",
+   "text": "Your eyebrows are still in the building.",
+   "shot": "CU",
+   "gesture": "think",
+   "after": "rimshot"
+  },
+  {
+   "spk": "denise",
+   "text": "Final shot. Group heist entrance. We're stealing the good chair.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "copier",
+   "text": "Bold. Linda has sat in that chair since two thousand nine.",
+   "shot": "CU"
+  },
+  {
+   "spk": "marvin",
+   "text": "Linda is on vacation.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "copier",
+   "text": "Linda always knows.",
+   "shot": "copier",
+   "pre": 0.6
+  },
+  {
+   "spk": "denise",
+   "text": "Ready? Three. Two. One. Walk.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": [
+    "denise",
+    "marvin"
+   ],
+   "text": "Ow.",
+   "shot": "W",
+   "gesture": "facepalm",
+   "after": "boing"
+  },
+  {
+   "spk": "copier",
+   "text": "It is a pull door. It has always been a pull door. It says pull.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "denise",
+   "text": "Or so much better. Pain is cinema.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "barkley",
+   "text": "I have watched people push that door for nine years. Best show.",
+   "shot": "CU"
+  },
+  {
+   "spk": "denise",
+   "text": "That's a wrap. Let's watch it back. In glorious slow motion.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marvin",
+   "text": "Play it. I need to see the soup.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "copier",
+   "text": "Oh no.",
+   "shot": "copier",
+   "pre": 0.8
+  },
+  {
+   "spk": "denise",
+   "text": "Why is everyone so fast?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "copier",
+   "text": "Denise. That is not slow motion. That is time lapse.",
+   "shot": "CU"
+  },
+  {
+   "spk": "marvin",
+   "text": "I look like a squirrel late for a meeting.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "denise",
+   "text": "My hair is going up and down like a car wash.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "copier",
+   "text": "You walked into the door four times in one second. It is beautiful.",
+   "shot": "CU"
+  },
+  {
+   "spk": "copier",
+   "text": "Too late. It is in the office group chat. Linda replied.",
+   "shot": "CU"
+  },
+  {
+   "spk": "denise",
+   "text": "What did Linda say?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.5
+  },
+  {
+   "spk": "copier",
+   "text": "She said, is that my chair. Then she said, best video this office has ever made.",
+   "shot": "CU",
+   "after": "applause"
+  },
+  {
+   "spk": "marvin",
+   "text": "So we're heroes.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "denise",
+   "text": "Wait. Barkley never did his entrance.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "barkley",
+   "text": "I am doing it right now.",
+   "shot": "barkley",
+   "pre": 0.6
+  },
+  {
+   "spk": "copier",
+   "text": "He has been crossing the room since lunch.",
+   "shot": "CU"
+  },
+  {
+   "spk": "marvin",
+   "text": "That's real slow motion. No phone needed.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "barkley",
+   "text": "It is not a trend. It is my knees.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "ding"
+  },
+  {
+   "spk": "denise",
+   "text": "Next Friday's video. Starring Barkley.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "barkley",
+   "text": "I will need a rug. And Linda's chair.",
+   "shot": "CU",
+   "post": 1.0
+  }
+ ]
+}
