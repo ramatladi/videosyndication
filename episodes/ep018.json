@@ -1,0 +1,441 @@
+{
+ "engine": "cast",
+ "id": 18,
+ "slug": "the-microwave-is-a-time-machine",
+ "title": "The Microwave Is A Time Machine",
+ "trend": "TikTok 'Two Fishes' trend (calmly making a perfectly reasonable-sounding argument for a completely absurd take) — named the top trending TikTok audio on New Engen's October 2026 US TikTok trends list",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "lofi",
+ "intro": [
+  "say something absurd",
+  "but very, very calmly",
+  "the two fishes trend, family edition"
+ ],
+ "youtube_title": "My dad tried the two fishes trend and calmly lost his mind 🐟",
+ "description": "The trend: say something absurd, very calmly, like it is science. Dad was way too good at it. Then the toast joined in. Then the fox.\n\n#twofishes #calmdebate #familyhumor #comedy #animation #shorts",
+ "tags": [
+  "two fishes trend",
+  "calm argument",
+  "absurd take",
+  "family humor",
+  "dad jokes",
+  "talking toast",
+  "fox",
+  "comedy",
+  "animation",
+  "cartoon"
+ ],
+ "tiktok_caption": "two fishes trend but dad is way too calm about the microwave 🐟 #twofishes #familyhumor #comedy #fyp",
+ "cast": [
+  {
+   "id": "tasha",
+   "name": "Tasha",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.92,
+   "hair": {
+    "style": "curly",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "headphones:#2c3e50"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "marcus",
+   "name": "Dad",
+   "kind": "human",
+   "color": "#a0673d",
+   "hair": {
+    "style": "short",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#d4a373",
+    "pattern": "plain"
+   },
+   "bottom": "#5d6d7e",
+   "shoes": "#4a2f1b",
+   "accessories": [
+    "glasses",
+    "tie:#2e86ab"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "voice": {
+    "id": "am_michael",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "toast",
+   "name": "Sourdough",
+   "kind": "mascot",
+   "shape": "toast",
+   "color": "#e8b46a",
+   "crust": "#8b5a2b",
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#f5cba7",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "doug",
+   "name": "Doug",
+   "kind": "animal",
+   "ears": "fox",
+   "color": "#d35400",
+   "belly": "#f5e6d3",
+   "scale": 0.9,
+   "top": {
+    "color": "#34495e",
+    "pattern": "suit",
+    "pattern_color": "#f5b041"
+   },
+   "accessories": [
+    "tophat:#1c1c1c"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f8c471",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "tasha",
+   "text": "Okay Dad. Say something absurd, very calmly, like it is science.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "The microwave is a time machine.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.6,
+   "after": "sting"
+  },
+  {
+   "spk": "marcus",
+   "text": "Tuesday, lasagna goes in the fridge. Thursday, it goes in the microwave.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marcus",
+   "text": "Ninety seconds later, Tuesday is in my mouth. On a Thursday.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tasha",
+   "text": "That is just leftovers.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "marcus",
+   "text": "That is what they said about the wheel.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "tasha",
+   "text": "Nobody said that about the wheel.",
+   "shot": "tasha",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "marcus",
+   "text": "And the beep at the end? That is the machine. Being proud of the journey.",
+   "shot": "CU",
+   "after": "ding"
+  },
+  {
+   "spk": "tasha",
+   "text": "Dad, this is a little too good. My phone is already buzzing.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "tasha",
+   "text": "Okay, someone else. Calmer. Wronger.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "toast",
+   "text": "I would like to calmly state that I am not bread.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "tasha",
+   "text": "The toast talks?",
+   "shot": "tasha",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marcus",
+   "text": "Only in the mornings. Go on, Sourdough.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "toast",
+   "text": "Bread was my past. I went in soft. I came out with opinions.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tasha",
+   "text": "You are literally breakfast.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "toast",
+   "text": "I am a breakfast survivor. There is a difference.",
+   "shot": "CU",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "toast",
+   "text": "Also, butter is a blanket. And I am always cold.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tasha",
+   "text": "Three thousand people agree with the toast. In four minutes.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "toast",
+   "text": "You cannot un-toast a man.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "doug",
+   "text": "Pardon me. I also have a calm take.",
+   "shot": "CU",
+   "gesture": "wave",
+   "pre": 0.9
+  },
+  {
+   "spk": "tasha",
+   "text": "Dad. Dad. There is a fox at the window. In a top hat.",
+   "shot": "tasha",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "marcus",
+   "text": "That is Doug. He lives under the deck. Very polite.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "doug",
+   "text": "Good evening. My take is that this house is in my yard.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tasha",
+   "text": "The yard is in front of our house.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "doug",
+   "text": "From under the deck, your house is my guest room.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marcus",
+   "text": "We have been guests this whole time?",
+   "shot": "marcus",
+   "gesture": "think"
+  },
+  {
+   "spk": "doug",
+   "text": "Since the summer. I chose not to make it weird.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "doug",
+   "text": "Speaking of the time machine. I have one small correction.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "doug",
+   "text": "Every Wednesday, the lasagna leaves the fridge. It comes back smaller.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marcus",
+   "text": "Time travel takes a toll.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "doug",
+   "text": "Or. Calmly. A fox comes in at midnight and has a little lasagna.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tasha",
+   "text": "So the time machine is just you.",
+   "shot": "tasha",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "doug",
+   "text": "Calmly? Yes.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "tasha",
+   "text": "Okay. My turn. Very calm.",
+   "shot": "CU",
+   "gesture": "hips",
+   "pre": 0.8
+  },
+  {
+   "spk": "tasha",
+   "text": "The dishes in the sink are Thursday dishes.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marcus",
+   "text": "It is Tuesday.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "tasha",
+   "text": "Exactly. I already did them. On Thursday. In the future.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tasha",
+   "text": "By your science, they are already clean. You just have not arrived yet.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "That is airtight.",
+   "shot": "marcus",
+   "pre": 0.9
+  },
+  {
+   "spk": "doug",
+   "text": "Calm. Clear. Slightly evil. I would rent her the deck.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "marcus",
+   "text": "So who washes them today?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "tasha",
+   "text": "Someone who is still living in Tuesday.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "applause"
+  },
+  {
+   "spk": "tasha",
+   "text": "Forty thousand people say Dad does the dishes.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "toast",
+   "text": "Forty thousand and one. I have no hands. I have a past.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "doug",
+   "text": "I would help, but I am the landlord.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marcus",
+   "text": "Fine. I will wash Thursday's dishes. Calmly.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "doug",
+   "text": "Wonderful. And I will take the lasagna. To Wednesday.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "toast",
+   "text": "Bread was my past. Dishes are your future, Marcus.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "This is the best day of my life.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "pre": 0.6,
+   "after": "ding"
+  }
+ ]
+}
