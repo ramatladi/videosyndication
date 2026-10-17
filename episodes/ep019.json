@@ -1,0 +1,506 @@
+{
+ "engine": "cast",
+ "id": 19,
+ "slug": "mom-said-she-was-in",
+ "title": "Mom Said She Was In",
+ "trend": "TikTok 'Shaving Cream Prank Reveal' (a parent seems ready to join a kid's shaving cream prank, then backs out at the last second and the kid's reaction is the payoff) — listed on New Engen's October 2026 US TikTok viral trends",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "pov:",
+  "mom agreed to help",
+  "with the shaving cream prank"
+ ],
+ "youtube_title": "POV: Mom agreed to help with the shaving cream prank 😂",
+ "description": "Mom said she was in. Mom was not in. Three times. Then Uncle Ray woke up.\n\n#shavingcreamprank #momprank #pov #familyhumor #comedy #animation #shorts",
+ "tags": [
+  "shaving cream prank",
+  "mom backs out",
+  "prank trend",
+  "pov",
+  "family humor",
+  "uncle",
+  "talking shaving cream",
+  "comedy",
+  "animation",
+  "cartoon"
+ ],
+ "tiktok_caption": "she said she was in 😭 the shaving cream prank, mom edition #shavingcreamprank #momprank #pov #comedy #fyp",
+ "cast": [
+  {
+   "id": "zoe",
+   "name": "Zoe",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 0.86,
+   "hair": {
+    "style": "ponytail",
+    "color": "#5a3825"
+   },
+   "top": {
+    "color": "#ff6f91",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#f1c40f",
+   "eye": "big",
+   "brows": "angry",
+   "mouth": "smile",
+   "blush": true,
+   "label_color": "#ff8fab",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 2,
+    "tempo": 1.06
+   }
+  },
+  {
+   "id": "trish",
+   "name": "Mom",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.0,
+   "hair": {
+    "style": "curly",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "stripes",
+    "pattern_color": "#e8f8f5"
+   },
+   "bottom": "#5d6d7e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#76d7c4",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "ray",
+   "name": "Uncle Ray",
+   "kind": "human",
+   "color": "#b5835a",
+   "scale": 1.1,
+   "hair": {
+    "style": "short",
+    "color": "#4a3728"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "plain"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#4a2f1b",
+   "accessories": [
+    "cap:#27ae60"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#f1948a",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.93
+   }
+  },
+  {
+   "id": "foamy",
+   "name": "The Shaving Cream",
+   "kind": "mascot",
+   "shape": "cup",
+   "color": "#eaf2f8",
+   "sleeve": "#2e86de",
+   "lid": "#e74c3c",
+   "scale": 0.9,
+   "accessories": [
+    "tie:#e74c3c"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#85c1e9",
+   "voice": {
+    "id": "bm_fable",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "zoe",
+   "text": "Okay. Uncle Ray is asleep on the couch. This is the moment.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "trish",
+   "text": "Shaving cream on the hand. Feather on the nose. Classic. I am so in.",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "foamy",
+   "text": "Hello. I am the shaving cream. I have waited my whole shelf life for this.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "zoe",
+   "text": "Mom, you hold the feather. I do the cream.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "trish",
+   "text": "Partners. Like a heist. A heist with foam.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "ray",
+   "text": "Mm. Five more minutes, Coach.",
+   "shot": "CU"
+  },
+  {
+   "spk": "foamy",
+   "text": "Shake me first. Gently. I am sensitive.",
+   "shot": "CU"
+  },
+  {
+   "spk": "foamy",
+   "text": "Oh, that tickles. That is a lot of me. Is that too much of me?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "zoe",
+   "text": "It's a perfect little mountain. Mom, feather. On three.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "trish",
+   "text": "One.",
+   "shot": "CU"
+  },
+  {
+   "spk": "zoe",
+   "text": "Two.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "trish",
+   "text": "Oh! I just remembered. I have to go fold a towel.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "zoe",
+   "text": "A towel?",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "trish",
+   "text": "One towel. It's been on my mind all week.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "foamy",
+   "text": "She left. She just left. The mountain is melting, Zoe.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "zoe",
+   "text": "Mom! You said heist!",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "trish",
+   "text": "And I meant it in my heart. My hands had other plans.",
+   "shot": "W",
+   "gesture": "hips"
+  },
+  {
+   "spk": "zoe",
+   "text": "Plan B. We do it together. Both hands on the can.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "trish",
+   "text": "Okay. This time I'm serious. I have waited thirty years for this.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "trish",
+   "text": "When I was nine, he put a frog in my cereal. A real frog. It had opinions.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "foamy",
+   "text": "A frog in the cereal? Ray, you monster.",
+   "shot": "foamy"
+  },
+  {
+   "spk": "ray",
+   "text": "Ribbit.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "zoe",
+   "text": "Then this is revenge. Hold the can. Aim. Ready?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "trish",
+   "text": "Born ready. Here we go. Here we go.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "foamy",
+   "text": "Aim for the palm. I am not a face product.",
+   "shot": "CU"
+  },
+  {
+   "spk": "trish",
+   "text": "Wait.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "zoe",
+   "text": "What now?",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "trish",
+   "text": "He looks so peaceful. He looks seven. Look at his little cheeks.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "zoe",
+   "text": "Mom. He is forty three.",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "trish",
+   "text": "I'm going to get him a blanket.",
+   "shot": "CU",
+   "gesture": "wave",
+   "after": "whoosh"
+  },
+  {
+   "spk": "foamy",
+   "text": "She tucked him in. She tucked in the target.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ray",
+   "text": "Thanks, Mom.",
+   "shot": "CU"
+  },
+  {
+   "spk": "zoe",
+   "text": "That's not your mom! That's your sister!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "foamy",
+   "text": "Fine. If nobody here is brave enough, I will do it myself.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "zoe",
+   "text": "You don't have hands.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "foamy",
+   "text": "I have a nozzle and a dream.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "trish",
+   "text": "No. Give me the can. I am doing it. For nine year old me.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "trish",
+   "text": "For real. Goodbye, Raymond. This is for the frog.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "trish",
+   "text": "Three. Two.",
+   "shot": "CU",
+   "pre": 0.3
+  },
+  {
+   "spk": "trish",
+   "text": "Is it cold in here? I'm putting the can in the fridge.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.6,
+   "after": "boing"
+  },
+  {
+   "spk": "foamy",
+   "text": "Not the fridge! Not next to the pickles! They judge me!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "zoe",
+   "text": "Mom. Why do you keep doing this?",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "trish",
+   "text": "Because, sweetie. Look up. Top shelf. Behind the plant.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "zoe",
+   "text": "Is that your phone? Has that been recording?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "trish",
+   "text": "The whole time. It's a trend. The parent backs out. Your face is the joke.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "zoe",
+   "text": "My face is the joke?",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "trish",
+   "text": "Your face is doing numbers, baby. Twelve thousand likes. The towel one is the favorite.",
+   "shot": "TWO",
+   "gesture": "hips",
+   "after": "ding"
+  },
+  {
+   "spk": "zoe",
+   "text": "So Uncle Ray was just a prop?",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "ray",
+   "text": "A prop? Please. I'm the producer.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "sting"
+  },
+  {
+   "spk": "zoe",
+   "text": "You're awake?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "ray",
+   "text": "Kiddo. Nobody sleep talks in full sentences. The coach thing was improv.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "trish",
+   "text": "Thirty years I've been backing out of that frog revenge. Every Thanksgiving.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "zoe",
+   "text": "Okay. That's fine. Totally fine.",
+   "shot": "CU",
+   "pre": 0.8,
+   "gesture": "cross"
+  },
+  {
+   "spk": "foamy",
+   "text": "I'm out of the fridge, and I know that voice. Something is about to happen.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "zoe",
+   "text": "Quick question. Do you two feel anything on your hands?",
+   "shot": "W",
+   "gesture": "hips"
+  },
+  {
+   "spk": [
+    "trish",
+    "ray"
+   ],
+   "text": "Why is my hand foamy?",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "zoe",
+   "text": "I did it while you were explaining the trend. Nobody backs out on me.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "applause"
+  },
+  {
+   "spk": "ray",
+   "text": "She's good. Who taught her that?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "foamy",
+   "text": "I did. I'm empty, and I have never been prouder.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  }
+ ]
+}
