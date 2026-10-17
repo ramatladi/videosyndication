@@ -197,15 +197,18 @@ def board(si, prog):
     return im
 board_cache = {}
 f_q, f_qm, f_au = F(SERIF, 50), F(SERIF, 150), F(SANS_S, 34)
+f_qs = F(SERIF, 42)
 def qcard(si, prog):
     s = SEGMENTS[si]
     im = Image.new("RGB", (W - 80, BOARD_H), PANEL); dd = ImageDraw.Draw(im)
     dd.text((34, -10), "\u201c", font=f_qm, fill=GOLD)
-    ls = wrap(s["quote"], f_q, W - 200)
+    fq, lh = f_q, 64
+    ls = wrap(s["quote"], fq, W - 200)
+    if len(ls) > 3: fq, lh = f_qs, 54; ls = wrap(s["quote"], fq, W - 200)
     k = round(len(s["quote"].split()) * prog); shown = 0
     for i, ln in enumerate(ls):
         ws = ln.split(); take = ws[:max(0, k - shown)]; shown += len(ws)
-        if take: dd.text((70, 120 + i * 64), " ".join(take), font=f_q, fill=WHITE)
+        if take: dd.text((70, 120 + i * lh), " ".join(take), font=fq, fill=WHITE)
     if prog >= 1: dd.text((70, BOARD_H - 66), "\u2014 " + s["author"], font=f_au, fill=GOLD)
     return im
 
