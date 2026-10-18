@@ -1,0 +1,498 @@
+{
+ "engine": "cast",
+ "id": 21,
+ "slug": "my-decorations-are-alive",
+ "title": "My Decorations Are Alive",
+ "trend": "Instagram Reels 'my Halloween decoration is alive' POV gag (peak trending Reels audio format the week of October 12–25, 2026) — a POV where the yard decorations come to life",
+ "scene": "halloween_porch",
+ "desk": false,
+ "music": "spooky",
+ "intro": [
+  "pov:",
+  "my halloween decorations",
+  "are alive"
+ ],
+ "youtube_title": "POV: my Halloween decorations are alive and they have demands 👻",
+ "description": "I just wanted a spooky porch video. The ghost wants weekends off, the motion sensor screams at leaves, and the rubber rat is not rubber.\n\n#mydecorationisalive #halloweendecor #halloween #pov #comedy #animation #shorts",
+ "tags": [
+  "halloween decorations",
+  "decoration is alive",
+  "pov",
+  "halloween porch",
+  "inflatable ghost",
+  "halloween comedy",
+  "spooky season",
+  "comedy",
+  "animation",
+  "cartoon"
+ ],
+ "tiktok_caption": "pov: my halloween decorations are alive and they have demands 👻 #mydecorationisalive #halloween #halloweendecor #pov #fyp",
+ "cast": [
+  {
+   "id": "marisol",
+   "name": "Marisol",
+   "kind": "human",
+   "color": "#d9a066",
+   "hair": {
+    "style": "curly",
+    "color": "#2b1a10"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#f4f6f7",
+   "accessories": [
+    "glasses",
+    "scarf:#8e44ad"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f5b041",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "steve",
+   "name": "Big Steve (the lawn ghost)",
+   "kind": "mascot",
+   "shape": "ghost",
+   "color": "#f4f6f7",
+   "scale": 1.15,
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "frown",
+   "label_color": "#d5dbdb",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "reginald",
+   "name": "Reginald (the motion sensor)",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#3d3d4a",
+   "scale": 0.9,
+   "accessories": [
+    "tophat:#1c1c1c"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#e74c3c",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "linda",
+   "name": "Linda (the rubber rat)",
+   "kind": "animal",
+   "ears": "mouse",
+   "color": "#8e8e93",
+   "belly": "#d7c4c4",
+   "inner": "#f1a9a0",
+   "scale": 0.85,
+   "accessories": [
+    "bow:#e67e22"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#bb8fce",
+   "voice": {
+    "id": "af_kore",
+    "pitch": 1,
+    "tempo": 0.98
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "marisol",
+   "text": "Okay. Day one of my Halloween decorations being alive. Everybody stay still.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "steve",
+   "text": "Which one of us is supposed to move first?",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "sting"
+  },
+  {
+   "spk": "marisol",
+   "text": "Who said that?",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "steve",
+   "text": "The ghost. On the lawn. Twelve feet tall.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "marisol",
+   "text": "You're an inflatable. You were forty dollars.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "steve",
+   "text": "Forty nine. With the stakes.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "reginald",
+   "text": "Movement detected. Good evening, terrible person.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marisol",
+   "text": "The motion sensor talks too. Great.",
+   "shot": "reginald",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "reginald",
+   "text": "I do not talk, madam. I announce.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marisol",
+   "text": "Fine. Just act alive for the camera.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "steve",
+   "text": "We are alive. Nobody ever asks us anything.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marisol",
+   "text": "Like what?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "steve",
+   "text": "You plugged me in September first. I've held my breath for seven weeks.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "marisol",
+   "text": "You don't breathe. You're nylon and a fan.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "steve",
+   "text": "And the fan is in my lower back. Whirring.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "steve",
+   "text": "I want weekends off. Deflated. Like a normal person.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "steve",
+   "text": "Lying down. Two whole days. A dream.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "boing"
+  },
+  {
+   "spk": "marisol",
+   "text": "Okay. Sensor. You're very scary.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "reginald",
+   "text": "Thank you. I have screamed at four hundred things this month.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marisol",
+   "text": "It's October. We've had six trick or treaters.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "reginald",
+   "text": "I screamed at the mailman. He now delivers from the street.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "reginald",
+   "text": "I screamed at a leaf. A leaf, madam.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "steve",
+   "text": "He screamed at his own reflection in the window.",
+   "shot": "steve",
+   "gesture": "point"
+  },
+  {
+   "spk": "reginald",
+   "text": "I thought he was handsome. I panicked.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "marisol",
+   "text": "So what do you want?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "reginald",
+   "text": "Only to go off for the man who parks out front every morning with his engine running.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marisol",
+   "text": "That's fair. Scream at him.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marisol",
+   "text": "At least the rubber rat is quiet.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "linda",
+   "text": "Thank you for noticing.",
+   "shot": "CU",
+   "gesture": "wave",
+   "pre": 0.9
+  },
+  {
+   "spk": "marisol",
+   "text": "No. No, no. You were a dollar.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "linda",
+   "text": "I was never in the store. I was in your shopping bag.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "linda",
+   "text": "You didn't buy a rat. A rat moved in.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "linda",
+   "text": "I'm not rubber. I'm relaxed.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "steve",
+   "text": "She's very relaxed. She ate the whole candy bowl.",
+   "shot": "steve",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marisol",
+   "text": "I blamed the kids! I made a sign! One per person!",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "linda",
+   "text": "I respected the sign. One at a time. Two hundred times.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "reginald",
+   "text": "I screamed every time. She finds it soothing.",
+   "shot": "reginald",
+   "gesture": "talk"
+  },
+  {
+   "spk": "linda",
+   "text": "It's like a little alarm clock for snacks.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "marisol",
+   "text": "Fine. Weekends, a list, and your own bowl.",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "linda",
+   "text": "The good candy. Not the raisins.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "marisol",
+   "text": "Deal. Now one scary moment for the video. Please.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "steve",
+   "text": "Fine. On three. One. Two.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "reginald",
+   "text": "Movement detected!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "sting"
+  },
+  {
+   "spk": "marisol",
+   "text": "Perfect. Posting it.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marisol",
+   "text": "Wait. It already has a million views.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.9,
+   "after": "ding"
+  },
+  {
+   "spk": "steve",
+   "text": "A million? I'll need a bigger fan.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "marisol",
+   "text": "The comments say the ghost looks so realistic.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marisol",
+   "text": "And they want the rat to get her own show.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "linda",
+   "text": "I accept. I'll need a very little chair.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "marisol",
+   "text": "And this one says, how did she get the lady animatronic to blink?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "steve",
+   "text": "Which lady?",
+   "shot": "steve",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "marisol",
+   "text": "Me. They think I'm the decoration.",
+   "shot": "W",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "linda",
+   "text": "To be fair, you do have a very stiff wave.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "steve",
+   "text": "You stood still for three minutes. Even I breathe more.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "reginald",
+   "text": "Four hundred people want to know where to buy you.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marisol",
+   "text": "I am not for sale. I am a homeowner.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "linda",
+   "text": "Stand by the candy bowl? Asking for business reasons.",
+   "shot": "linda",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marisol",
+   "text": "Fine. One night. But I want weekends off.",
+   "shot": "W",
+   "gesture": "hips"
+  },
+  {
+   "spk": "steve",
+   "text": "Welcome to the porch. It's a lot of standing.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "reginald",
+   "text": "Movement detected. Good evening, decoration.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  }
+ ]
+}
