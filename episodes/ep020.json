@@ -1,0 +1,419 @@
+{
+ "engine": "cast",
+ "id": 20,
+ "slug": "the-pumpkin-has-notes",
+ "title": "The Pumpkin Has Notes",
+ "trend": "TikTok 'Pumpkin Head Illusion' (forced perspective makes a held pumpkin look like a dancing person's head; #3 on New Engen's October 2026 US TikTok trends list)",
+ "scene": "park_day",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "pumpkin head illusion",
+  "but the pumpkin",
+  "has notes"
+ ],
+ "youtube_title": "We tried the pumpkin head illusion. The pumpkin had notes 🎃",
+ "description": "Dad dances. I hold the pumpkin. Simple, right? The pumpkin disagreed. Then the farmer showed up.\n\n#pumpkinheadillusion #pumpkinpatch #dadsoftiktok #halloween #comedy #animation #shorts",
+ "tags": [
+  "pumpkin head illusion",
+  "pumpkin patch",
+  "halloween trend",
+  "dad dancing",
+  "forced perspective",
+  "talking pumpkin",
+  "family humor",
+  "comedy",
+  "animation",
+  "cartoon"
+ ],
+ "tiktok_caption": "pumpkin head illusion but the pumpkin has notes 🎃 #pumpkinheadillusion #pumpkinpatch #dadsoftiktok #halloween #fyp",
+ "cast": [
+  {
+   "id": "brooke",
+   "name": "Brooke",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#f4f6f7",
+   "accessories": [
+    "beanie:#6c3483"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "label_color": "#f5b041",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 1,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "hector",
+   "name": "Dad",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "short",
+    "color": "#3b2a1a"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#1c2833"
+   },
+   "bottom": "#5d6d7e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#e74c3c",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "patrice",
+   "name": "Patrice",
+   "kind": "mascot",
+   "shape": "pumpkin",
+   "color": "#e67e22",
+   "accessories": [
+    "bow:#c0392b"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#f39c12",
+   "voice": {
+    "id": "af_river",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "gerald",
+   "name": "Gerald",
+   "kind": "animal",
+   "ears": "bear",
+   "color": "#7b4a2a",
+   "belly": "#c49a6c",
+   "inner": "#c49a6c",
+   "scale": 1.15,
+   "top": {
+    "color": "#27ae60",
+    "pattern": "apron",
+    "pattern_color": "#f4d03f"
+   },
+   "bottom": "#2c3e50",
+   "accessories": [
+    "cap:#f4d03f"
+   ],
+   "eye": "round",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#58d68d",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "brooke",
+   "text": "Pumpkin head illusion. Dad dances back there, I hold the pumpkin up front. Boom, pumpkin head.",
+   "shot": "CU",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "patrice",
+   "text": "Nobody asked the pumpkin.",
+   "shot": "CU",
+   "post": 0.6,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "brooke",
+   "text": "Patrice. You are a pumpkin. You do not get asked.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "patrice",
+   "text": "I have been in this patch for four months. I have seen things. I have standards.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hector",
+   "text": "I'm warmed up! I'm stretched! I did the hamstring thing in the car!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "patrice",
+   "text": "Is that the body? That is the body you picked for me?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "hector",
+   "text": "Excuse me. I danced at three weddings this summer.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "brooke",
+   "text": "Dad, just show her the moves.",
+   "shot": "W"
+  },
+  {
+   "spk": "hector",
+   "text": "This is the sprinkler. This is the lawn mower. And this is the dad who found a twenty in his jacket.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "boing"
+  },
+  {
+   "spk": "brooke",
+   "text": "Take one. Dad, go back by the hay bales. I'll hold her up. Ready? Dance!",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "hector",
+   "text": "Is it working? Do I look like a pumpkin?",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "brooke",
+   "text": "No. You look like a tiny man standing next to a giant pumpkin.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "patrice",
+   "text": "I am not giant. I am confident.",
+   "shot": "CU"
+  },
+  {
+   "spk": "brooke",
+   "text": "Okay, further back. Now she looks like a grape on your shoulder.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "patrice",
+   "text": "Do not ever compare me to a grape. A grape has never been carried in a wagon.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gerald",
+   "text": "Ma'am. You have to pay for the pumpkin before you put it on a man.",
+   "shot": "CU",
+   "pre": 0.8,
+   "after": "sting"
+  },
+  {
+   "spk": "gerald",
+   "text": "I am Gerald. I run the patch. Mostly I sit in the corn maze.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hector",
+   "text": "Big fan of the maze. We were in there for two hours.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "gerald",
+   "text": "It is eight rows of corn, sir.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hector",
+   "text": "We took the scenic way.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "brooke",
+   "text": "How much is she? We just need her for one video.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "gerald",
+   "text": "Pumpkins are by the pound. Dancing near a pumpkin is extra.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gerald",
+   "text": "Depends on the dancing. Show me.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "hector",
+   "text": "Okay. Here is the lawn mower, but it's going uphill.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "gerald",
+   "text": "That is going to cost you nine dollars.",
+   "shot": "CU"
+  },
+  {
+   "spk": "brooke",
+   "text": "Take two. Gerald, can you just stand very still and not be in the shot?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "gerald",
+   "text": "I am a bear in a field. I am always in the shot.",
+   "shot": "CU"
+  },
+  {
+   "spk": "brooke",
+   "text": "Okay, Dad, go! I'm holding her! It's lining up! It's perfect!",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "patrice",
+   "text": "I am turning around.",
+   "shot": "CU"
+  },
+  {
+   "spk": "brooke",
+   "text": "Why would you turn around!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "patrice",
+   "text": "That is my bad side. You are not posting my bad side.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "hector",
+   "text": "She has a bad side? She's round. She's all sides.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "patrice",
+   "text": "And all of them are better than the lawn mower.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gerald",
+   "text": "I will hold the pumpkin. My arms are longer. I have done this before.",
+   "shot": "W"
+  },
+  {
+   "spk": "gerald",
+   "text": "Every October. People come here and put Patrice on their dads. Every year she says no.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gerald",
+   "text": "Patrice is not for sale. Patrice is my daughter.",
+   "shot": "CU",
+   "pre": 0.9,
+   "after": "sting"
+  },
+  {
+   "spk": "patrice",
+   "text": "Hi, Dad.",
+   "shot": "patrice",
+   "gesture": "wave"
+  },
+  {
+   "spk": "brooke",
+   "text": "Your daughter is a pumpkin?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "gerald",
+   "text": "We found her in the patch. We do not use the word adopted. We use the word harvested.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hector",
+   "text": "Gerald, that's beautiful. I'm a girl dad too.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "gerald",
+   "text": "Then you know. Nobody puts your kid on a stranger's shoulders.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hector",
+   "text": "I put my kid on my shoulders at every parade until she was fourteen.",
+   "shot": "CU"
+  },
+  {
+   "spk": "brooke",
+   "text": "Wait. Hold on. I left the phone recording on the hay bale.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "brooke",
+   "text": "When Gerald held her up, she lined up perfectly. It's a bear doing the sprinkler. With a pumpkin head.",
+   "shot": "W",
+   "after": "applause"
+  },
+  {
+   "spk": "gerald",
+   "text": "I was not dancing. I was waving off a bee.",
+   "shot": "CU"
+  },
+  {
+   "spk": "patrice",
+   "text": "Best video anyone has ever made of me. Finally, a body with standards.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hector",
+   "text": "So I came all the way out here to be the backup dad.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gerald",
+   "text": "You can be in the next one, sir. That will be nine dollars.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "patrice",
+   "text": "Eighteen. He does the lawn mower again, it's eighteen.",
+   "shot": "CU",
+   "after": "rimshot"
+  }
+ ]
+}
