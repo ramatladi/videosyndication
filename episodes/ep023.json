@@ -1,0 +1,461 @@
+{
+ "engine": "cast",
+ "id": 23,
+ "slug": "fan-transition",
+ "title": "Four Fits, One Ceiling Fan",
+ "trend": "TikTok 'Fan Transition' (three or four outfit changes filmed from below, each cut hidden by a ceiling-fan blade wipe; on New Engen's October 2026 US TikTok list) plus the matching Instagram Reels ceiling-fan outfit-spin trend (SocialPilot, week of October 12–25, 2026)",
+ "scene": "bedroom",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "fall fits but",
+  "make it a fan transition",
+  "four looks. one ceiling fan. zero plan."
+ ],
+ "youtube_title": "Fan transition challenge, but the fall fits are all my dad's 🍂🌀",
+ "description": "Four fall fits, one ceiling fan, one little sister filming from the floor. The scarf did not survive. Neither did my plan. And the hamper has been keeping a secret.\n\n#fantransition #outfittransition #fallfits #falloutfits #comedy #animation #shorts",
+ "tags": [
+  "fan transition",
+  "outfit transition",
+  "fall outfits",
+  "fall fits",
+  "ceiling fan trend",
+  "dad humor",
+  "siblings",
+  "comedy",
+  "animation",
+  "funny"
+ ],
+ "tiktok_caption": "fan transition with my fall fits… turns out they were never my fits 🌀🍂 #fantransition #outfittransition #fallfits #fyp",
+ "cast": [
+  {
+   "id": "andre",
+   "name": "Andre",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.05,
+   "hair": {
+    "style": "curly",
+    "color": "#2b1a10"
+   },
+   "top": {
+    "color": "#d35400",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ffffff",
+   "accessories": [
+    "beanie:#f1c40f"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f5b041",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 1.08
+   }
+  },
+  {
+   "id": "mia",
+   "name": "Mia",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.88,
+   "hair": {
+    "style": "ponytail",
+    "color": "#2b1a10"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "stripes",
+    "pattern_color": "#d2b4de"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "headphones:#1abc9c"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#bb8fce",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 1,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "hamper",
+   "name": "The Hamper",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#c8a165",
+   "scale": 0.92,
+   "accessories": [
+    "glasses",
+    "tie:#2c3e50"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "frown",
+   "label_color": "#d7bde2",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "lou",
+   "name": "Dad (Lou)",
+   "kind": "human",
+   "color": "#a0522d",
+   "scale": 1.1,
+   "hair": {
+    "style": "bald",
+    "color": "#2b1a10"
+   },
+   "top": {
+    "color": "#7f8c8d",
+    "pattern": "plain"
+   },
+   "bottom": "#5d4037",
+   "shoes": "#3e2723",
+   "accessories": [
+    "glasses",
+    "scarf:#c0392b"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#e59866",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "andre",
+   "text": "Okay. Fan transition. Four fall fits. Every time the blade goes by, a brand new me.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "mia",
+   "text": "I am lying on the floor filming up your nose. This is my whole Saturday.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hamper",
+   "text": "I am the hamper. Nobody asked me. As usual.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "andre",
+   "text": "Fit number one. The cozy cardigan. Very autumn. Very main character.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "mia",
+   "text": "It has elbow patches. You look like you grade papers.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "andre",
+   "text": "Turn the fan on. Setting three. We need drama.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "mia",
+   "text": "This fan has one setting. It is called slowly thinking about it.",
+   "shot": "CU"
+  },
+  {
+   "spk": "mia",
+   "text": "Three, two, one. Spin.",
+   "shot": "W",
+   "gesture": "point",
+   "pre": 0.3
+  },
+  {
+   "spk": "andre",
+   "text": "Whoa. Whoa. The room is still going. Why is the room still going?",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "whoosh"
+  },
+  {
+   "spk": "hamper",
+   "text": "He fell on me. He is lying on me. This is my life now.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "andre",
+   "text": "So the transition was me falling into a laundry basket.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "mia",
+   "text": "Twelve people already liked it.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hamper",
+   "text": "Twelve people support me holding you. Thank you, twelve.",
+   "shot": "hamper",
+   "after": "rimshot"
+  },
+  {
+   "spk": "andre",
+   "text": "Fit two. The scarf moment. A scarf says I own a forest candle.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "mia",
+   "text": "That scarf is longer than our hallway.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "hamper",
+   "text": "Keep that thing away from the fan. I am begging you.",
+   "shot": "hamper",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "andre",
+   "text": "Rolling. And spin!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "mia",
+   "text": "Andre. The fan has your scarf.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "andre",
+   "text": "Let it go! Let it go, it is wool!",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "hamper",
+   "text": "The fan finally has a personality.",
+   "shot": "hamper",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "andre",
+   "text": "The fan is getting more comments than me.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "mia",
+   "text": "One says, who is the gorgeous fan. Another says, is the boy okay.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lou",
+   "text": "Why is my ceiling wearing a scarf?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.7
+  },
+  {
+   "spk": "andre",
+   "text": "Dad! Hi. Art is happening. Please walk around the art.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "lou",
+   "text": "Carry on. I am just here for the vibes.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "andre",
+   "text": "Fit three. The big fall hat.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "mia",
+   "text": "It is a hat with a feather. You look like you sell pianos.",
+   "shot": "CU"
+  },
+  {
+   "spk": "andre",
+   "text": "Hat stays on. Three, two, one.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "hamper",
+   "text": "Incoming! Incoming hat!",
+   "shot": "hamper",
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "hamper",
+   "text": "No. Anything that lands in me is mine. That is the hamper rule.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "andre",
+   "text": "That is not a rule!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "hamper",
+   "text": "I have four single socks in here who say otherwise.",
+   "shot": "CU"
+  },
+  {
+   "spk": "mia",
+   "text": "He is right. I lost a sweater in there in August.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hamper",
+   "text": "And I treat it like family.",
+   "shot": "hamper"
+  },
+  {
+   "spk": "andre",
+   "text": "Final fit. The leather jacket. The grand finale.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "lou",
+   "text": "Hold on. Is that my leather jacket?",
+   "shot": "lou",
+   "pre": 0.8
+  },
+  {
+   "spk": "andre",
+   "text": "No. It is a leather jacket with your name in it.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hamper",
+   "text": "Should I tell him? Every fit today is your dad's.",
+   "shot": "hamper",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "mia",
+   "text": "The cardigan. The scarf. The piano hat. All Dad.",
+   "shot": "W"
+  },
+  {
+   "spk": "andre",
+   "text": "So my fall fits were just one man's closet.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "lou",
+   "text": "That is okay, son. I knew. I have been doing the trend all week.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "mia",
+   "text": "He is not lying. His fan video has four hundred thousand views.",
+   "shot": "TWO",
+   "pre": 0.4
+  },
+  {
+   "spk": "andre",
+   "text": "Four hundred thousand? How?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "lou",
+   "text": "Same cardigan four times. I just spin with more belief each time.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "mia",
+   "text": "The top comment says, this man is the fall.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "lou",
+   "text": "You did great. Now give me back my jacket.",
+   "shot": "TWO",
+   "gesture": "point",
+   "after": "applause"
+  },
+  {
+   "spk": "andre",
+   "text": "One together? Father and son?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "lou",
+   "text": "Only if Mia films. She gets my good side. The top of my head.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "mia",
+   "text": "Three, two, one. Spin.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": [
+    "andre",
+    "lou"
+   ],
+   "text": "Whoa. The room is still going.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "hamper",
+   "text": "They both landed in me. I am keeping them.",
+   "shot": "hamper",
+   "gesture": "cross"
+  },
+  {
+   "spk": "mia",
+   "text": "Twelve likes. And one of them is the fan.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  }
+ ]
+}
