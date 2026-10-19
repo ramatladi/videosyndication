@@ -1,0 +1,508 @@
+{
+ "engine": "cast",
+ "id": 22,
+ "slug": "find-the-beat",
+ "title": "Dad Found The Beat",
+ "trend": "TikTok 'Find the Beat' partner challenge (one partner does a known dance, the other has to pick up the beat on the spot; partner's reaction is the joke) — on SocialPilot's trending formats list for the week of October 12–25, 2026, US",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "find the beat challenge",
+  "i do the dance,",
+  "my dad has to find the beat"
+ ],
+ "youtube_title": "Find the beat challenge, but my dad keeps clapping on a beat that isn't here 🕺",
+ "description": "I do the dance, Dad finds the beat. Easy. Except Dad claps on five, Grandma has three accounts just to roast him, and the speaker has a secret.\n\n#findthebeat #findthebeatchallenge #dancechallenge #dadsoftiktok #comedy #animation #shorts",
+ "tags": [
+  "find the beat",
+  "find the beat challenge",
+  "dance challenge",
+  "dad dancing",
+  "family comedy",
+  "grandma",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny"
+ ],
+ "tiktok_caption": "find the beat challenge but my dad lives on five 🕺 #findthebeat #findthebeatchallenge #dancechallenge #dadsoftiktok #fyp",
+ "cast": [
+  {
+   "id": "keisha",
+   "name": "Keisha",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.95,
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "stripes",
+    "pattern_color": "#f1c40f"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ffffff",
+   "accessories": [
+    "mic_headset"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#48c9b0",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 1,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "ronnie",
+   "name": "Dad (Ronnie)",
+   "kind": "human",
+   "color": "#a0522d",
+   "scale": 1.1,
+   "hair": {
+    "style": "short",
+    "color": "#2b1a10"
+   },
+   "top": {
+    "color": "#f39c12",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "5"
+   },
+   "bottom": "#5d6d7e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "cap:#2980b9"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#f5b041",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "bernice",
+   "name": "Grandma Bernice",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.9,
+   "hair": {
+    "style": "bun",
+    "color": "#d5d8dc"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "dots",
+    "pattern_color": "#f5eef8"
+   },
+   "bottom": "#4a235a",
+   "shoes": "#1c1c1c",
+   "accessories": [
+    "glasses",
+    "scarf:#e74c3c"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#bb8fce",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": -1,
+    "tempo": 0.93
+   }
+  },
+  {
+   "id": "speaker",
+   "name": "The Speaker",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#1f2329",
+   "scale": 0.88,
+   "accessories": [
+    "sunglasses",
+    "headphones:#e74c3c"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#85c1e9",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "keisha",
+   "text": "Okay. Find the beat challenge. I start the dance, Dad has to find the beat.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ronnie",
+   "text": "I have never lost a beat in my life. I just never looked for one.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "sting"
+  },
+  {
+   "spk": "bernice",
+   "text": "He looked once. At his wedding. He found a chair.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ronnie",
+   "text": "That chair was on beat, Mom.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "keisha",
+   "text": "Speaker, play the song.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "speaker",
+   "text": "Good evening. I am the speaker. Playing your song.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "speaker",
+   "text": "There it is.",
+   "shot": "CU",
+   "pre": 1.0
+  },
+  {
+   "spk": "keisha",
+   "text": "Here we go! Bounce, bounce, shoulder, spin.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "ronnie",
+   "text": "Hold on. I am listening with my whole body.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bernice",
+   "text": "He's listening like a man who heard his name at the airport.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "ronnie",
+   "text": "Found it! Is this it? This feels like it.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "keisha",
+   "text": "Dad, you are clapping on a beat that is not in this room.",
+   "shot": "TWO",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "keisha",
+   "text": "Okay. Coaching time. Count with me. One, two, three, four.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ronnie",
+   "text": "Five.",
+   "shot": "CU",
+   "pre": 0.4
+  },
+  {
+   "spk": "keisha",
+   "text": "There is no five, Dad.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ronnie",
+   "text": "There's always a five. That's where I live.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "ding"
+  },
+  {
+   "spk": "keisha",
+   "text": "Just copy me. Step left, step right, little hop.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ronnie",
+   "text": "Left. Right. And now a little stop.",
+   "shot": "CU"
+  },
+  {
+   "spk": "keisha",
+   "text": "That's not a hop. You just stopped.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "ronnie",
+   "text": "I hopped on the inside.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bernice",
+   "text": "He dances like he's parallel parking a boat.",
+   "shot": "W",
+   "after": "rimshot"
+  },
+  {
+   "spk": "keisha",
+   "text": "Okay, I posted the practice take. Let's read the comments.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ronnie",
+   "text": "Read them. I can take it. I raised you.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "keisha",
+   "text": "Someone wrote, your dad found the beat and returned it without a receipt.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ronnie",
+   "text": "That's fair. I return everything.",
+   "shot": "ronnie",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "keisha",
+   "text": "Another one says, sir, the beat is right in front of you.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bernice",
+   "text": "That one's from me.",
+   "shot": "CU",
+   "gesture": "hips",
+   "pre": 0.5
+  },
+  {
+   "spk": "bernice",
+   "text": "I have three accounts. One is just for your dancing.",
+   "shot": "CU",
+   "gesture": "wave",
+   "after": "whoosh"
+  },
+  {
+   "spk": "ronnie",
+   "text": "Alright. No more mister nice dad. I'm stretching.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "keisha",
+   "text": "Speaker. One more time.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "speaker",
+   "text": "Playing your song. Again.",
+   "shot": "CU"
+  },
+  {
+   "spk": "speaker",
+   "text": "There it is.",
+   "shot": "CU",
+   "pre": 1.0
+  },
+  {
+   "spk": "ronnie",
+   "text": "Wait. Did anybody else hear that? There was a little wait.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "keisha",
+   "text": "Dad, focus. Bounce, bounce, shoulder, spin.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "ronnie",
+   "text": "Bounce, bounce, shoulder, spin!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "keisha",
+   "text": "You did it two seconds before me!",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "ronnie",
+   "text": "Then you're late.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "keisha",
+   "text": "I am never late! I have been doing this dance since August!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "bernice",
+   "text": "Move over, baby. Let a professional find the beat.",
+   "shot": "W",
+   "gesture": "hips"
+  },
+  {
+   "spk": "bernice",
+   "text": "Bounce, bounce, shoulder, and spin.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "keisha",
+   "text": "Grandma, you were also two seconds early!",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "bernice",
+   "text": "Early is on time. Your grandfather taught me that at the roller rink.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "speaker",
+   "text": "Okay. I have something to confess.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.9
+  },
+  {
+   "spk": "keisha",
+   "text": "You're a speaker. What could you possibly confess?",
+   "shot": "speaker",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "speaker",
+   "text": "I have a two second delay. I have always had a two second delay.",
+   "shot": "CU",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "ronnie",
+   "text": "So I was on beat.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "speaker",
+   "text": "Perfectly on beat. Everyone else was dancing to me.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "keisha",
+   "text": "I learned the whole dance two seconds late?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "speaker",
+   "text": "Since August. I was too proud to say anything.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bernice",
+   "text": "That explains the wedding. The conga line went straight into the cake.",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "speaker",
+   "text": "In my defense, the cake was also late.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ronnie",
+   "text": "I found the beat! I have always had the beat! Put that in the comments!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "keisha",
+   "text": "Fine. One last take. Speaker, play it. Everybody, wait two seconds.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ronnie",
+   "text": "I've waited forty five years. Two more seconds is nothing.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "speaker",
+   "text": "Playing your song.",
+   "shot": "CU"
+  },
+  {
+   "spk": "speaker",
+   "text": "There it is.",
+   "shot": "W",
+   "pre": 1.0
+  },
+  {
+   "spk": "all",
+   "text": "Bounce, bounce, shoulder, spin!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "ronnie",
+   "text": "Look at us. A whole family, finally on the beat.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "speaker",
+   "text": "Beat.",
+   "shot": "CU",
+   "pre": 1.0
+  }
+ ]
+}
