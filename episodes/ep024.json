@@ -1,0 +1,467 @@
+{
+ "engine": "cast",
+ "id": 24,
+ "slug": "who-ate-the-halloween-candy",
+ "title": "Who Ate The Halloween Candy",
+ "trend": "Instagram Reels / TikTok 'Netflix documentary' chair-sit parody (narrating an ordinary event with total gravity over dramatic music; on SocialBee's and AniJam's 2026 trend lists) applied to the US pre-Halloween moment of eating the trick-or-treat candy you bought too early (Halloween in eleven days)",
+ "scene": "living_room",
+ "desk": false,
+ "music": "dramatic",
+ "intro": [
+  "a documentary about",
+  "who ate the halloween candy",
+  "eleven days before halloween"
+ ],
+ "youtube_title": "A documentary about who ate the Halloween candy 🎃🍫",
+ "description": "Four bags of Halloween candy. Eleven days to go. One bag left. Somebody in this house has some explaining to do.\n\n#documentary #halloweencandy #halloween #spookyseason #comedy #animation #shorts",
+ "tags": [
+  "documentary trend",
+  "halloween candy",
+  "halloween",
+  "spooky season",
+  "family humor",
+  "raccoon",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny"
+ ],
+ "tiktok_caption": "a documentary about who ate the halloween candy… 11 days early 🎃🍫 #documentary #halloweencandy #halloween #fyp",
+ "cast": [
+  {
+   "id": "gwen",
+   "name": "Gwen",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "bun",
+    "color": "#5a3825"
+   },
+   "top": {
+    "color": "#7d3c98",
+    "pattern": "plain"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#4a2c1a",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#c39bd3",
+   "voice": {
+    "id": "af_kore",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "hank",
+   "name": "Hank",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.08,
+   "hair": {
+    "style": "short",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#ec7063",
+   "voice": {
+    "id": "am_eric",
+    "pitch": -1,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "bowl",
+   "name": "The Candy Bowl",
+   "kind": "mascot",
+   "shape": "pumpkin",
+   "color": "#e67e22",
+   "scale": 0.9,
+   "accessories": [
+    "glasses",
+    "tie:#1b1b1b"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#f0b27a",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "earl",
+   "name": "Earl",
+   "kind": "animal",
+   "ears": "bear",
+   "color": "#7f8c8d",
+   "belly": "#d5d8dc",
+   "inner": "#5d6d7e",
+   "scale": 0.95,
+   "top": {
+    "color": "#566573",
+    "pattern": "plain"
+   },
+   "accessories": [
+    "sunglasses:#111111",
+    "scarf:#f4f6f7"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#aab7b8",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "gwen",
+   "text": "On October first, I bought four bags of Halloween candy.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "gwen",
+   "text": "Early. To get the good kind.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "bowl",
+   "text": "Today is October twentieth. There is one bag left.",
+   "shot": "W",
+   "after": "sting"
+  },
+  {
+   "spk": "gwen",
+   "text": "Halloween is in eleven days. Someone in this house is a monster.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hank",
+   "text": "It is spooky season. Everyone is a monster.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gwen",
+   "text": "Hank. Please sit in the chair.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "hank",
+   "text": "Okay. For the record, I have eaten zero pieces of candy.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "bowl",
+   "text": "He has eaten forty one fun size bars.",
+   "shot": "bowl",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "hank",
+   "text": "Fun size is not a piece. Fun size is a feeling.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gwen",
+   "text": "A feeling with chocolate on your hoodie.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "bowl",
+   "text": "Every night at eleven, he sneaks downstairs in socks.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bowl",
+   "text": "Then he eats the evidence and folds every wrapper into a tiny square.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gwen",
+   "text": "Where are the tiny squares, Hank?",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "hank",
+   "text": "In my other socks.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.9,
+   "after": "rimshot"
+  },
+  {
+   "spk": "gwen",
+   "text": "Next witness. The candy bowl.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "bowl",
+   "text": "I am a plastic pumpkin. I have held Halloween candy since nineteen ninety eight.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bowl",
+   "text": "I have held raisins. Nobody wants the raisins. They will outlive us all.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bowl",
+   "text": "Everyone in this house. And one person who does not live in this house.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "earl",
+   "text": "Evening.",
+   "shot": "earl",
+   "gesture": "wave",
+   "after": "whoosh"
+  },
+  {
+   "spk": "earl",
+   "text": "Earl. I live under your deck. I pay rent in eye contact.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "hank",
+   "text": "There has been a raccoon under the deck?",
+   "shot": "hank",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "earl",
+   "text": "Since the barbecue. You called me a big cat.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gwen",
+   "text": "Earl. Have you been eating our Halloween candy?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "earl",
+   "text": "Ma'am, I eat garbage. I have standards. Low ones.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "earl",
+   "text": "And lately your garbage has been full of tiny folded squares.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hank",
+   "text": "Those were in my socks!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "earl",
+   "text": "Your sock was in the garbage, sir. The left one.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "earl",
+   "text": "I wear it now. As a scarf. It is very warm.",
+   "shot": "earl",
+   "gesture": "hips"
+  },
+  {
+   "spk": "gwen",
+   "text": "So it was Hank. Case closed.",
+   "shot": "W",
+   "gesture": "cross"
+  },
+  {
+   "spk": "earl",
+   "text": "Hank is a small fish, ma'am.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "earl",
+   "text": "Some wrappers were not folded. Only peanut butter cups.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "earl",
+   "text": "Who in this house only eats the peanut butter ones?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": [
+    "hank",
+    "bowl",
+    "earl"
+   ],
+   "text": "Gwen.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "gwen",
+   "text": "I was testing them. For quality. For the children.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bowl",
+   "text": "You tested thirty two of them.",
+   "shot": "bowl"
+  },
+  {
+   "spk": "gwen",
+   "text": "Quality is a journey.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "hank",
+   "text": "You put me in the documentary chair!",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gwen",
+   "text": "Every documentary needs a red herring. You were in a red hoodie.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hank",
+   "text": "This is my only hoodie!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "gwen",
+   "text": "Okay. Okay. Here is the real truth.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "gwen",
+   "text": "There were never four bags. There were eight. I hid four of them in the dryer.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hank",
+   "text": "Then we are fine! We are totally fine!",
+   "shot": "hank",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "bowl",
+   "text": "The dryer has been running since Saturday.",
+   "shot": "bowl",
+   "pre": 0.9,
+   "after": "ding"
+  },
+  {
+   "spk": "hank",
+   "text": "That was me. I washed my hoodie. Because of the feeling.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "earl",
+   "text": "So that is the smell. The whole street smells like warm caramel.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bowl",
+   "text": "Four bags of candy. Now one very big candy. Shaped like a dryer.",
+   "shot": "W"
+  },
+  {
+   "spk": "gwen",
+   "text": "So. One bag. Eleven days. And a dryer full of fudge.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "bowl",
+   "text": "New plan. We give out the raisins.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "all",
+   "text": "No.",
+   "shot": "W",
+   "gesture": "cross"
+  },
+  {
+   "spk": "earl",
+   "text": "Can I keep the sock?",
+   "shot": "earl"
+  },
+  {
+   "spk": "hank",
+   "text": "Keep the sock, Earl.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "bowl",
+   "text": "This has been a documentary. Nobody learned anything.",
+   "shot": "W"
+  },
+  {
+   "spk": "gwen",
+   "text": "Hank. Is that a peanut butter cup in your hand?",
+   "shot": "TWO",
+   "gesture": "point",
+   "pre": 0.9
+  },
+  {
+   "spk": "hank",
+   "text": "It is fun size. It does not count.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "applause"
+  }
+ ]
+}
