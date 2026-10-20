@@ -28,11 +28,20 @@ def versions():
     except Exception: pass
     ff = subprocess.run(['ffmpeg', '-version'], capture_output=True, text=True).stdout.splitlines()
     v['ffmpeg'] = ff[0] if ff else None
+    try:                                   # v4 sampled instruments: exact SoundFont + synth library
+        import sampler, fluidsynth
+        v['soundfont'] = os.path.basename(sampler.sf2_path()); v['soundfont_sha256'] = sampler.sf2_sha256()
+        v['pyfluidsynth'] = getattr(fluidsynth, '__version__', 'installed')
+        fv = subprocess.run(['fluidsynth', '--version'], capture_output=True, text=True).stdout.splitlines()
+        v['fluidsynth'] = fv[0] if fv else None
+    except Exception as e:
+        v['soundfont'] = f'unavailable: {e!r}'
     return v
 
 
 CODE_FILES = ['make.sh', 'video.py'] + ['v2/' + f for f in ('compose.py', 'engine.py', 'instruments.py', 'styles.py', 'export.py',
-                                                              'qc.py', 'manifest.py', 'release_gate.py', 'make_track.py')]
+                                                              'qc.py', 'manifest.py', 'release_gate.py', 'make_track.py',
+                                                              'sampler.py')]
 
 
 def code_sha256():

@@ -11,7 +11,7 @@ import json, os, itertools
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-CATALOG = os.path.join(os.path.dirname(HERE), 'catalog.json')
+CATALOG = os.environ.get('DVG_CATALOG') or os.path.join(os.path.dirname(HERE), 'catalog.json')   # env override: tests only
 
 NOTE = ['C', 'C#', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'Ab', 'A', 'Bb', 'B']
 MINOR = (0, 2, 3, 5, 7, 8, 10)

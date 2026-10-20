@@ -1,4 +1,4 @@
-"""Engine v3 test suite (no audio rendering except tiny fixtures). Run: python3 djvelvetgrey/v2/tests.py
+"""Engine v4 test suite (no audio rendering except tiny fixtures). Run: python3 djvelvetgrey/v2/tests.py
 Exits non-zero if any test fails. Negative tests prove that invalid, missing or QC-failed inputs never
 reach the publishing step (release_gate.py exit != 0, and the simulated publisher is never called).
 """
@@ -229,11 +229,13 @@ def _():
     assert r.returncode == 0, r.stderr
     tj = json.load(open(os.path.join(ROOT, 'tracks', 'dvg001v2.json')))
     for k in ('title', 'image', 'credit'): assert tj.get(k)
-    r = subprocess.run(['bash', os.path.join(ROOT, 'make.sh'), os.path.join('djvelvetgrey', 'tracks', 'dvg001v2.json'), '--check'],
-                       capture_output=True, text=True, cwd=REPO)
-    assert r.returncode == 0 and 'CHECK OK dvg001v2 style=chill' in r.stdout, (r.stdout, r.stderr[-500:])
     tmpd = tempfile.mkdtemp(dir=os.path.join(ROOT, 'tracks'))
     try:
+        from PIL import Image                  # photos are not committed: use a stand-in image so the test is self-contained
+        img = os.path.join(tmpd, 'stand_in.jpg'); Image.new('RGB', (64, 96), (40, 120, 180)).save(img); tj['image'] = img
+        p0 = os.path.join(tmpd, 'dvg001v2.json'); json.dump(tj, open(p0, 'w'))
+        r = subprocess.run(['bash', os.path.join(ROOT, 'make.sh'), p0, '--check'], capture_output=True, text=True, cwd=REPO)
+        assert r.returncode == 0 and 'CHECK OK dvg001v2 style=chill' in r.stdout, (r.stdout, r.stderr[-500:])
         tj['brief'].pop('motif'); p = os.path.join(tmpd, 'nomotif_check.json'); json.dump(tj, open(p, 'w'))
         r = subprocess.run(['bash', os.path.join(ROOT, 'make.sh'), p, '--check'], capture_output=True, text=True, cwd=REPO)
         assert r.returncode == 0, ('--check must accept a brief before the hook is chosen', r.stderr[-300:])
@@ -389,6 +391,115 @@ def _():
         assert any(abs(c - 120.0) < .05 for c in rep['click_suspects']), ('on-grid click missed', rep['click_suspects'])
     finally:
         shutil.rmtree(tmp)
+
+
+# ---------------------------------------------------------------- engine v4 (sampled instruments, variety)
+@test('v4 sampled instruments: FluidR3 SoundFont loads, every mapped voice and drum renders non-silent audio')
+def _():
+    import sampler as SM
+    assert SM.available(), 'FluidR3_GM.sf2 / pyfluidsynth missing'
+    assert SM.sf2_sha256() == SM.SF2_SHA256, 'unexpected SoundFont file (hash differs)'
+    for seed in (1, 2, 3):
+        pal = SM.Palette(seed, 'house')
+        for k in SM.PRESETS:
+            if not pal.sampled(k): continue
+            x = SM.note(pal, k, 60, .4, .8)
+            assert x.ndim == 2 and np.abs(x).max() > 1e-3, f'{k} silent'
+            if x is None: continue
+            assert np.abs(x[-10:]).max() < np.abs(x).max() * .05, f'{k} not faded at the end'
+        for d in SM.DRUM_NOTES:
+            assert np.abs(SM.drum(pal, d, .8)).max() > 1e-4, f'drum {d} silent'
+
+
+@test('v4 palette: deterministic per seed, and different seeds give different sound sets')
+def _():
+    import engine as E
+    a = E.sound_fingerprint(123456, 'deep'); b = E.sound_fingerprint(123456, 'deep')
+    assert a == b, 'not deterministic'
+    fps = [json.dumps(E.sound_fingerprint(s, 'deep'), sort_keys=True) for s in range(100000, 100040)]
+    assert len(set(fps)) >= 35, f'only {len(set(fps))} distinct sound sets in 40 seeds'
+
+
+@test('v4 determinism: a sampled note does not depend on what was rendered before it')
+def _():
+    import sampler as SM
+    a = SM.render(0, 0, 60, .37, 90, .9)
+    SM.render(0, 4, 64, .5, 70, .7); SM.render(128, 25, 42, .1, 60, .35, chan=9); SM.clear_cache()
+    b = SM.render(0, 0, 60, .37, 90, .9)
+    assert np.array_equal(a, b), float(np.abs(a - b).max())
+
+
+@test('v4 determinism: track B renders identically alone and after track A in the same process')
+def _():
+    import engine as E, hashlib
+    def brief(seed):
+        P = S.STYLES['disco']; b = {'style': 'disco', 'bpm': 120, 'tonic': 57, 'progression': [list(x) for x in P['progressions'][0]],
+                                   'mode': C.best_mode(P['progressions'][0], P['modes']), 'lead': 'strings', 'answer': 'brass',
+                                   'groove': {'bass_a': 'disco_oct', 'bass_b': 'walk', 'swing': 0}, 'arc': 'classic', 'seed': seed}
+        b['motif'] = C.candidates(b, 1)[0]; return b
+    h = lambda b: hashlib.sha256(E.TrackV2(b, b['motif'], template=[('hook', 8)], length=17, lufs=-14).render().tobytes()).hexdigest()
+    hb1 = h(brief(777002)); h(brief(777001)); hb2 = h(brief(777002))
+    code = ('import sys,json,hashlib; sys.path.insert(0,%r); import engine as E, compose as C, styles as S\n' % HERE) + \
+           'P=S.STYLES["disco"]; b={"style":"disco","bpm":120,"tonic":57,"progression":[list(x) for x in P["progressions"][0]],' \
+           '"mode":C.best_mode(P["progressions"][0],P["modes"]),"lead":"strings","answer":"brass","groove":{"bass_a":"disco_oct","bass_b":"walk","swing":0},' \
+           '"arc":"classic","seed":777002}; b["motif"]=C.candidates(b,1)[0]\n' \
+           'print(hashlib.sha256(E.TrackV2(b,b["motif"],template=[("hook",8)],length=17,lufs=-14).render().tobytes()).hexdigest())'
+    hb3 = subprocess.run([sys.executable, '-c', code], capture_output=True, text=True).stdout.strip()
+    assert hb1 == hb2 == hb3, (hb1[:12], hb2[:12], hb3[:12])
+
+
+@test('v4 voice leading: chords are inverted to move less than parallel root-position blocks, inside the comp register')
+def _():
+    import engine as E
+    for st, seed in (('house', 11), ('deep', 12), ('soulful', 13)):
+        P = S.STYLES[st]; b = {'style': st, 'bpm': P['bpm'][0], 'tonic': 57, 'progression': [list(x) for x in P['progressions'][1]],
+                              'mode': C.best_mode(P['progressions'][1], P['modes']), 'lead': P['leads'][0], 'answer': P['answers'][0],
+                              'groove': {'bass_a': P['bass_a'][0], 'bass_b': P['bass_b'][0], 'swing': P['swing'][0]}, 'arc': P['arcs'][0], 'seed': seed}
+        b['motif'] = C.candidates(b, 1)[0]
+        tr = E.TrackV2(b, b['motif'], template=[('hook', 8)], length=20)
+        tr.voicing = 'close'
+        moves_v, moves_r = 0, 0; prev_r = None
+        for ci in [0, 1, 2, 3] * 2:
+            ch = tr.h.chords[ci]; v = tr.voiced(ch)
+            assert 46 <= min(v) and max(v) <= 80, (st, v)
+            assert {n % 12 for n in v} <= {n % 12 for n in ch[:4]}, (st, v, ch)
+            r = list(ch[:4])
+            if prev_r is not None:
+                moves_v += sum(min(abs(x - y) for y in pv) for x in v); moves_r += sum(min(abs(x - y) for y in prev_r) for x in r)
+            pv, prev_r = v, r
+        assert moves_v <= moves_r, (st, moves_v, moves_r)
+
+
+@test('v4 variety: brief_check flags a seed whose sound set repeats a previous same-style track')
+def _():
+    import engine as E
+    tmp = tempfile.mkdtemp()
+    try:
+        b = {'release': 'dvg990', 'style': 'deep', 'bpm': 122, 'tonic': 57, 'mode': 'minor', 'progression': [list(x) for x in S.STYLES['deep']['progressions'][0]],
+             'lead': 'rhodes', 'answer': 'flute', 'groove': {'bass_a': 'walk', 'bass_b': 'octave', 'swing': .03}, 'arc': 'early', 'seed': 424242}
+        tj = os.path.join(tmp, 't.json'); json.dump({'brief': b}, open(tj, 'w'))
+        cat = [{'id': 'dvg989', 'title': 'Twin', 'status': 'published', 'style': 'deep', 'motif': {'intervals': [1], 'onsets': [0, 4], 'durs': [4, 4]},
+                'sound': E.sound_fingerprint(424242, 'deep')}]
+        cpath = os.path.join(tmp, 'catalog.json'); json.dump(cat, open(cpath, 'w'))
+        env = dict(os.environ, DVG_CATALOG=cpath)
+        r = subprocess.run([sys.executable, os.path.join(HERE, 'brief_check.py'), tj], capture_output=True, text=True, env=env)
+        flags = json.loads(r.stdout)['flags']
+        assert any('sound set too close' in f for f in flags), flags
+    finally:
+        shutil.rmtree(tmp)
+
+
+@test('v4 render: a short sampled render is finite, non-silent and records its palette in the meta')
+def _():
+    import engine as E
+    P = S.STYLES['disco']; b = {'style': 'disco', 'bpm': 120, 'tonic': 57, 'progression': [list(x) for x in P['progressions'][0]],
+                               'mode': C.best_mode(P['progressions'][0], P['modes']), 'lead': 'strings', 'answer': 'brass',
+                               'groove': {'bass_a': 'disco_oct', 'bass_b': 'walk', 'swing': 0}, 'arc': 'classic', 'seed': 777001}
+    b['motif'] = C.candidates(b, 1)[0]
+    tr = E.TrackV2(b, b['motif'], template=[('hook', 8)], length=17, lufs=-14)
+    mix = tr.render()
+    assert np.isfinite(mix).all() and np.abs(mix).max() > .1
+    assert tr.meta['engine_version'].startswith('4.') and 'palette' in tr.meta and tr.meta['palette']['drum_kit']
 
 
 if __name__ == '__main__':

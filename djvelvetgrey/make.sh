@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Usage: ./djvelvetgrey/make.sh djvelvetgrey/tracks/dvgNNN.json [--check]   (--check: validate track file + brief only, no render; motif not required yet)
-# Fail-closed build of one release (engine v3, all 12 styles):
+# Fail-closed build of one release (engine v4: sampled instruments + per-track palette, all 12 styles):
 #   music -> export (codec headroom: final MP3 + AAC <= -1.3 dBTP decoded) -> video (copies the exact AAC)
 #   -> blocking QC on the FINAL wav/mp3/mp4 -> manifest (hashes + versions).
 # Any failure exits non-zero and leaves NO manifest, so release_gate.py refuses to publish.
@@ -13,6 +13,12 @@ NAME="$(basename "$TJ" .json)"; OUT="$ROOT/out"; mkdir -p "$OUT"
 command -v ffmpeg >/dev/null || apt-get install -y -q ffmpeg >/dev/null
 python3 -c "import numpy, scipy, PIL" 2>/dev/null || pip install -q --break-system-packages numpy scipy pillow
 python3 -c "import pyloudnorm" 2>/dev/null || pip install -q --break-system-packages pyloudnorm
+# engine v4 sampled instruments: FluidR3 GM SoundFont (MIT) + FluidSynth
+if [ ! -s /usr/share/sounds/sf2/FluidR3_GM.sf2 ] || ! command -v fluidsynth >/dev/null; then
+  apt-get install -y -q fluid-soundfont-gm fluidsynth >/dev/null 2>&1 || { apt-get update -q >/dev/null 2>&1; apt-get install -y -q fluid-soundfont-gm fluidsynth >/dev/null; }
+fi
+python3 -c "import fluidsynth" 2>/dev/null || pip install -q --break-system-packages pyfluidsynth==1.4.0
+python3 -c "import sys; sys.path.insert(0,'$HERE/v2'); import sampler; sampler.available() or sys.exit('sampled instruments unavailable (FluidR3_GM.sf2 / pyfluidsynth)'); sampler.check_soundfont()"
 F="$HERE/fonts"; mkdir -p "$F"
 [ -s "$F/SourceSerif4-Bold.ttf" ] || curl -sSLf -o "$F/SourceSerif4-Bold.ttf" https://raw.githubusercontent.com/adobe-fonts/source-serif/release/TTF/SourceSerif4-Bold.ttf
 [ -s "$F/IBMPlexSans-SemiBold.ttf" ] || curl -sSLf -o "$F/IBMPlexSans-SemiBold.ttf" https://raw.githubusercontent.com/IBM/plex/master/packages/plex-sans/fonts/complete/ttf/IBMPlexSans-SemiBold.ttf

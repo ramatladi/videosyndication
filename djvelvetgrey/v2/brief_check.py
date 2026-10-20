@@ -4,6 +4,7 @@
 
 Flags (heuristics, not bans): same arc as either of the previous 2 tracks, same progression as any of
 the previous 3 tracks of the same style, same lead as the previous track, same bass_a as the previous
+track, and (v4) a sound set (palette + variation from the seed) repeating most of a previous same-style
 track. Exit code 0 always; read the flags and revise the brief if any are listed.
 """
 import json, os, sys
@@ -36,4 +37,14 @@ else:
     if b['lead'] not in P['leads']: flags.append(f"lead not in {P['leads']}")
     import make_track as MT
     flags += [f'profile: {e}' for e in MT.validate(b, P)]
+# v4: sound-set variety — the seed decides the palette (instruments, kit, hats/clap, voicing, comping and
+# hat variants, pad source); flag when it repeats most of a previous same-style track's sound set
+try:
+    import engine as E
+    fp = E.sound_fingerprint(b['seed'], st, b)
+    for e in [e for e in cat if S.ALIASES.get(e.get('style'), e.get('style')) == st and e.get('sound')][-6:]:
+        same = [k for k in fp if fp[k] == e['sound'].get(k)]
+        if len(same) >= 0.55 * len(fp): flags.append(f"sound set too close to '{e.get('title')}' ({len(same)}/{len(fp)} same) - change the seed")
+except Exception as ex:
+    flags.append(f'could not compute the sound fingerprint: {ex!r}')
 print(json.dumps({'flags': flags, 'catalog_tracks': len(cat)}, indent=1))

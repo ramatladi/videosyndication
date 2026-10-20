@@ -1,4 +1,5 @@
-"""DJ Velvet Grey — instruments (all original synthesis; no samples).
+"""DJ Velvet Grey — synthesised instruments (engine v4 plays recorded instruments from sampler.py where they exist;
+these synth voices remain for the electronic parts: sub bass, acid, stabs, pads, kick, some leads).
 
 Instrumental-first: the melody carries the track. Original synthesis throughout
 (PolyBLEP oscillators, filter envelopes, FM bells), per-group mixing, sidechain,

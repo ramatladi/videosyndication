@@ -1,4 +1,4 @@
-# DJ Velvet Grey — weekly house & disco tracks (engine v3.1, 12 styles)
+# DJ Velvet Grey — weekly house & disco tracks (engine v4, 12 styles)
 
 Two original instrumental tracks a week by **DJ Velvet Grey** (Tue + Fri, 18:00 America/New_York), each a
 2:59 (179.0 s) vertical video of one credited beach/nature photo featuring a woman in a bikini, with a slow
@@ -35,14 +35,33 @@ Metricool (brand `everythingyouwant_tv`, id 7321327).
   listened to / approved unless Sello auditioned it (`auditioned_by` in the manifest / styles_status.json).
   Perceptual quality ("equal or better than deep house") is unverified until listened to. No hit is guaranteed.
 
+## Engine v4 (20 Oct 2026 — Sello: "too similar each time and sounds too synthetic")
+Sello asked for real sampled instruments and more variety per track, produced and published without his input.
+- **Recorded instruments** (`v2/sampler.py`): piano, electric pianos, organs, strings, brass, flute/pan flute,
+  guitars (clean, jazz, palm-muted funk), marimba/xylophone, vibraphone, kalimba, steel drums, harp, nylon
+  guitar, celesta, music box, saxophone (instrumental topline), bass guitars (finger, pick, slap, pop), kit
+  kicks/snares/toms, hand percussion, hats and claps come from the **FluidR3 GM SoundFont** (MIT licence,
+  © Frank Wen; Ubuntu `fluid-soundfont-gm`, sha256 pinned in `sampler.py`) through FluidSynth. Synth voices stay
+  where the genre is electronic (sub bass, acid, stabs, supersaw, 909-style kick, some plucks/bells).
+  Every note is rendered by a fresh synth, so the same brief always gives the same audio.
+- **Per-track palette** from the seed: which piano / EP / organ / strings / bass guitar / drum kit, hats and clap
+  (recorded, synth, layered, 808), sampled kick layer, pad source (synth, strings, blend), voicing style.
+- **Performance and arrangement variety**: voice-led chord inversions (close / open / shell), strummed chord
+  hits, comping A/B rhythms alternating per 8-bar phrase, hat variants, arpeggio shapes, bass and kick
+  variations at phrase ends, timing feel (pushed / laid back) and velocity humanisation.
+- `brief_check.py` flags a seed whose sound set repeats 55% or more of one of the last 6 same-style tracks
+  (`sound` fingerprint in `catalog.json`); pick another seed.
+- All of this is checked technically (tests, qualification, QC). **Nobody has listened** to v4 output; whether it
+  sounds less synthetic is unverified until Sello hears it.
+
 ## Files
 - `v2/styles.py` — the 12 style profiles (tempo range, modes, progressions, kick/backbeat/hats/perc/fills,
   bass instrument + patterns, comping, pad, focal point, leads, motif rhythm cells, arcs, second-drop
   development, swing, documented loudness, mix offsets, photo / caption mood).
 - `v2/compose.py` — harmony (modes, chord types, `best_mode`), motif writing, hooks, `fit_sections`
   (arrangement fitted to 179 s at any supported tempo, outro always heard), catalogue screening.
-- `v2/instruments.py` — all original synthesis (no samples). `v2/engine.py` — style-driven arrangement,
-  mix and master (`ENGINE_VERSION`).
+- `v2/instruments.py` — synthesised voices. `v2/sampler.py` — recorded instruments (FluidR3 GM) and the per-track
+  palette. `v2/engine.py` — style-driven arrangement, variation, mix and master (`ENGINE_VERSION`).
 - `v2/previews.py` — six 8-bar hook previews at -14 LUFS + `candidates.json` (shortlist = compositional evidence).
 - `v2/select_motif.py` — records the chosen hook: listener choice (id), automatic (no id), or automatic retry
   (`<id> --auto`) — an unattended run never records a listener choice.
