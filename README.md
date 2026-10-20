@@ -1,13 +1,13 @@
 # Video syndication
 
-Daily animated skits (9:16, about 1–2 min) built on what is trending in the US that week, each with its own
-original cast and setting, rendered entirely in code and published to YouTube and TikTok through Metricool.
+Animated skits (2:55 to 29:55, rendered both 9:16 and 16:9) built on what is trending in the US that week, each with its own
+original cast and setting, rendered entirely in code and published through Metricool: the 16:9 cut to YouTube as a regular video, the 9:16 cut to TikTok and Instagram.
 
 - `engine/cast.py` — parametric characters (people, animals, mascots, talking objects) with lip-sync and gestures
 - `engine/scenes.py` — 11 procedural backdrops
 - `engine/audio.py` / `engine/video.py` — voices, music moods, SFX, camera cuts, captions, encoding
 - `render.py`, `episode_audio.py`, `episode_video.py` — legacy barn renderer (episodes 001–002)
-- `make_episode.sh episodes/epNNN.json` — full render → `out/epNNN.mp4`
+- `make_episode.sh episodes/epNNN.json` — full render → `out/epNNN.mp4` (9:16) and `out/epNNN_yt.mp4` (16:9)
 - `setup.sh` — installs the voice engine and Python deps on a fresh Linux box
 - `WRITING_GUIDE.md` — how to write a new episode; `EPISODES.md` — log of past episodes
 

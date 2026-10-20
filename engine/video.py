@@ -8,7 +8,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cast import Character, hexc, src, rrect, clamp, lerp
 from scenes import draw_scene, draw_front, FLOOR_Y
 
-W, H, FPS = 1080, 1920, 30
+# ASPECT=landscape renders a 16:9 1920x1080 version (long-form YouTube); default is 9:16 1080x1920
+LANDSCAPE = os.environ.get('ASPECT', 'portrait') == 'landscape'
+W, H, FPS = (1920, 1080, 30) if LANDSCAPE else (1080, 1920, 30)
 EP = json.load(open(sys.argv[1])); WD = sys.argv[2]
 TL = json.load(open(f'{WD}/timeline.json'))
 TOTAL, INTRO, END, LINES = TL['total'], TL['intro'], TL['end'], TL['lines']
@@ -19,9 +21,13 @@ IDS = [c['id'] for c in EP['cast']]
 n = len(CAST)
 XS = {1: [540], 2: [330, 750], 3: [215, 540, 865], 4: [150, 400, 680, 930]}[min(4, n)]
 BASE = {1: 1.0, 2: 0.9, 3: 0.78, 4: 0.66}[min(4, n)]
+if LANDSCAPE:  # spread the cast across the wide frame and make them a little bigger
+    XS = {1: [540], 2: [280, 800], 3: [120, 540, 960], 4: [-20, 360, 720, 1100]}[min(4, n)]
+    BASE *= 1.12
 FEET_Y = 1700 if not DESK else 1780
 POS = {}
 WIDE = ({1: 1.3, 2: 1.15, 3: 1.04, 4: 0.96}[min(4, n)], 540, FEET_Y - 560)
+if LANDSCAPE: WIDE = (0.95, 540, FEET_Y - 420)
 for k, (cid, ch) in enumerate(zip(IDS, CAST)):
     s = BASE * float(EP['cast'][k].get('scale', 1.0))
     POS[cid] = (XS[k], FEET_Y, s)
@@ -41,6 +47,13 @@ def head_pos(cid):
     x, fy, s = POS[cid]; ch = CAST[IDS.index(cid)]
     return x, fy + ch.head[1] * s, ch.head[2] * s
 
+def frame(z, cx, hy, below):
+    # portrait framings centre well below the head for a tall frame; for 16:9 keep the head(s) about 40% down
+    if LANDSCAPE:
+        zl = clamp(z * 0.8, 1.0, 1.9)
+        return zl, cx, hy + 120 / zl
+    return z, cx, hy + below / z
+
 def shot_for(k):
     l = LINES[k]; shot = l.get('shot', 'CU'); spk = l['spk']
     if shot == 'W' or n == 1 and shot == 'TWO':
@@ -50,16 +63,15 @@ def shot_for(k):
         hs = [head_pos(c) for c in group]
         x0 = min(h[0] for h in hs); x1 = max(h[0] for h in hs)
         z = clamp(900 / max(400, x1 - x0 + 420), 1.0, 1.6)
-        cy = sum(h[1] for h in hs) / len(hs) + 260 / z
-        return (z, (x0 + x1) / 2, cy)
+        return frame(z, (x0 + x1) / 2, sum(h[1] for h in hs) / len(hs), 260)
     target = shot if shot in POS else spk[0]
     hx, hy, hr = head_pos(target)
     z = clamp(560 / (hr * 2.6), 1.3, 2.4)
-    return (z, hx, hy + 330 / z)
+    return frame(z, hx, hy, 330)
 
 def camera(t):
     z, cx, cy = _camera(t)
-    cy = min(cy, 2330 - 960 / z); cx = max(-480 + 540 / z, min(1560 - 540 / z, cx))
+    cy = min(cy, 2330 - (H / 2) / z); cx = max(-480 + (W / 2) / z, min(1560 - (W / 2) / z, cx))
     return z, cx, cy
 
 def _camera(t):
@@ -105,15 +117,16 @@ def draw_captions(ctx, t):
     if t < INTRO + 0.2:
         it = EP.get('intro') or ['']
         ctx.push_group()
-        text_box(ctx, it, 330, [62] * (len(it) - 1) + [42 if len(it) > 1 else 62],
+        text_box(ctx, it, H - 150 if LANDSCAPE else 330, [62] * (len(it) - 1) + [42 if len(it) > 1 else 62],
                  [(1, 1, 1)] * (len(it) - 1) + [(1, 0.75, 0.3) if len(it) > 1 else (1, 1, 1)])
         ctx.pop_group_to_source(); ctx.paint_with_alpha(clamp(t / 0.3) * clamp((INTRO + 0.2 - t) / 0.3)); return
     for k, l in enumerate(LINES):
         end = min(l['end'] + 0.35, LINES[k + 1]['start'] - 0.02) if k + 1 < len(LINES) else l['end'] + 0.6
         if l['start'] - 0.05 <= t < end:
-            body = wrap(ctx, l['text'], 56, 900)
+            body = wrap(ctx, l['text'], 52 if LANDSCAPE else 56, 1500 if LANDSCAPE else 900)
             name = ' & '.join(SPEC[c].get('name', c).upper() for c in l['spk'])
-            text_box(ctx, [name] + body, 1360, [36] + [56] * len(body), [label_color(l['spk'][0])] + [(1, 1, 1)] * len(body))
+            fs_ = 52 if LANDSCAPE else 56
+            text_box(ctx, [name] + body, H - 70 - 34 * len(body) if LANDSCAPE else 1360, [34 if LANDSCAPE else 36] + [fs_] * len(body), [label_color(l['spk'][0])] + [(1, 1, 1)] * len(body))
             return
 
 def draw_frame(ctx, t):
@@ -145,7 +158,7 @@ def draw_frame(ctx, t):
         ctx.restore()
     draw_front(ctx, SCENE, t, DESK)
     ctx.restore()
-    g = cairo.RadialGradient(W / 2, H * 0.5, 450, W / 2, H * 0.5, 1300)
+    g = cairo.RadialGradient(W / 2, H * 0.5, 450, W / 2, H * 0.5, 1300 if not LANDSCAPE else 1150)
     g.add_color_stop_rgba(0, 0, 0, 0, 0); g.add_color_stop_rgba(1, 0, 0, 0, 0.5); ctx.set_source(g); ctx.paint()
     if t < 0.4: ctx.set_source_rgba(0, 0, 0, 1 - t / 0.4); ctx.paint()
     if t > TOTAL - 1.0: ctx.set_source_rgba(0, 0, 0, clamp((t - TOTAL + 1.0) / 0.8)); ctx.paint()

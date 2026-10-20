@@ -46,9 +46,9 @@ def spk_list(s):
     return s if isinstance(s, list) else [s]
 
 # ---------------------------------------------------------------- timeline
-# Every episode is stretched to exactly TARGET seconds (default 175 = 2:55) by adding small pauses
+# Every episode is stretched to exactly TARGET seconds (episode 'target_seconds', 175 = 2:55 to 1795 = 29:55) by adding small pauses
 # between lines and a longer outro. Scripts that run long or far too short fail with a clear message.
-TARGET = float(EP.get('target_seconds', 175))
+TARGET = min(1795.0, max(175.0, float(EP.get('target_seconds', 175))))  # 2:55 minimum, 29:55 maximum
 synth_all = []
 for i, ln in enumerate(EP['lines']):
     ids = spk_list(ln['spk'])

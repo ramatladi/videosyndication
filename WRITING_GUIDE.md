@@ -1,6 +1,7 @@
 # Writing a new episode
 
 Every episode is a fresh, original animated skit built on **what is trending in the United States this week**.
+Each render makes two files: `out/epNNN.mp4` (9:16, for TikTok and Instagram) and `out/epNNN_yt.mp4` (16:9, posted to YouTube as a regular video, not a Short).
 Each episode gets its **own cast and setting**, designed for that trend. Don't reuse the same characters day after day
 (a character may return only if the trend calls for a recurring bit, and never two days in a row).
 
@@ -55,21 +56,32 @@ wrote, made or chose anything ("we asked AI…", "an AI wrote this…", "ChatGPT
 - `music`: upbeat | lofi | dramatic (documentary/serious) | spooky
 - `intro`: on-screen hook card, 2–3 short lowercase lines, the last one smaller — usually the trend's own phrasing (e.g. "pov:", "answer in one word", "tell me you're X without telling me")
 
-## 4. Script
-- **Every video is exactly 2:55 (175 s).** Write about **58–70 lines** (roughly 145–170 s of natural speech); the engine stretches pauses
-  and the outro to land on 2:55 exactly. If the render step says `SCRIPT TOO LONG` or `SCRIPT TOO SHORT`, cut or add lines by the amount it gives.
-  Short sentences; every line under ~20 words. Structure for the length: hook in the first 2 lines, then 3 escalating beats (each with its own
-  mini-punchline and a sound effect), a twist around the two-minute mark, and a final button line.
+## 4. Length and script
+- **Length (`target_seconds`):** pick a length that fits the trend: about as long as the original trend content runs,
+  never under **175 (2:55)** and never over **1795 (29:55)**. Quick one-clip formats (POV, one-word answers, a dance
+  or prank reveal) stay at 175–240. Formats with more story behind them (documentary narration, storytime, a home tour,
+  a series, a big event or holiday with many angles) can run 300–600. Go past 600 (10 minutes) only when the trend itself
+  is long-form, because TikTok takes 10 minutes at most. Instagram Reels take 3 minutes at most, so anything over 180
+  goes to YouTube and TikTok only. Write the reason in `length_reason`.
+- **Lines:** about **22 lines per minute** of `target_seconds` (58–70 lines for 2:55, about 110 for 5:00, about 220 for 10:00).
+  The engine stretches pauses and the outro to land exactly on the target. If the render step says `SCRIPT TOO LONG`
+  or `SCRIPT TOO SHORT`, cut or add lines by the amount it gives.
+  Keep sentences short, every line under about 20 words.
+- **Structure:** hook in the first 2 lines, then 3 escalating beats (each with its own mini-punchline and a sound effect),
+  a twist at about 70% of the running time, and a final button line. For episodes over 5 minutes, add one more beat
+  per extra 2–3 minutes, give each beat its own small story turn, and bring back an earlier joke every couple of minutes
+  so it stays funny all the way through.
 - Speakable text only: no emoji, no stage directions, numbers as words, no abbreviations or ALL CAPS.
 - Line: `{"spk": "<id>" | ["id1","id2"] | "all", "text", "shot", "gesture", "jump", "pre", "post", "after"}`
   - `shot`: `CU` close-up on speaker (default), `TWO` speaker + the last other speaker, `W` wide (everyone), or a cast id for a reaction close-up
   - `gesture`: talk (default while speaking), wave, point, shrug, arms_up, cross, hips, facepalm, think
   - `jump`: true = speaker hops (excitement)
   - `pre`/`post`: silence before/after in seconds (defaults 0 / 0.45); `pre` 0.8–1.0 = awkward pause
-  - `after`: sound effect after the line — sting, boing, whoosh, applause, rimshot, record_scratch, ding (use 4–7 per episode)
+  - `after`: sound effect after the line — sting, boing, whoosh, applause, rimshot, record_scratch, ding (use 4–7 per 2:55, roughly 2 per extra minute)
 
 ## 5. Metadata
-`id`, `slug`, `title`, `trend` (what trend and where), `youtube_title` (≤ 90 chars), `description` (2–3 lines + hashtags incl. the trend's hashtag and #shorts),
+`id`, `slug`, `title`, `trend` (what trend and where), `target_seconds`, `length_reason`, `youtube_title` (≤ 90 chars),
+`description` (2–3 lines + hashtags incl. the trend's hashtag; no #shorts, because YouTube gets a regular 16:9 video),
 `tags` (6–10), `tiktok_caption` (≤ 150 chars with hashtags).
 
 After writing, add a row to the END of `EPISODES.md`: `| NNN | date | title | Trend: … — premise | cast | key jokes |`.
