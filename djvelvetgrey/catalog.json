@@ -226,5 +226,98 @@
   "answer": "pluck",
   "key": "D minor",
   "bpm": 123
+ },
+ {
+  "id": "dvg004",
+  "title": "Saltwater Confetti",
+  "status": "published",
+  "style": "house",
+  "mode": "dorian",
+  "motif": {
+   "intervals": [
+    2,
+    2,
+    2,
+    -2,
+    -4,
+    -1,
+    -4
+   ],
+   "onsets": [
+    0,
+    3,
+    4,
+    10,
+    12,
+    19,
+    22,
+    24
+   ],
+   "durs": [
+    3,
+    1,
+    4,
+    2,
+    4,
+    3,
+    2,
+    6
+   ]
+  },
+  "answer_motif": {
+   "intervals": [
+    -2,
+    0,
+    4,
+    1,
+    2,
+    3
+   ],
+   "onsets": [
+    35,
+    36,
+    42,
+    44,
+    51,
+    54,
+    56
+   ],
+   "durs": [
+    1,
+    4,
+    2,
+    4,
+    3,
+    2,
+    6
+   ]
+  },
+  "bass_b": "rolling",
+  "cell": "syncop",
+  "contour": "arch",
+  "progression": [
+   [
+    0,
+    "m9"
+   ],
+   [
+    3,
+    "maj7"
+   ],
+   [
+    5,
+    "9"
+   ],
+   [
+    3,
+    "maj7"
+   ]
+  ],
+  "template": "classic",
+  "bass_a": "octave",
+  "lead": "piano",
+  "answer": "organ",
+  "key": "G dorian",
+  "bpm": 124
  }
 ]
