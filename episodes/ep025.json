@@ -1,0 +1,445 @@
+{
+ "engine": "cast",
+ "id": 25,
+ "slug": "im-not-a-perfect-person",
+ "title": "I'm Not A Perfect Person",
+ "trend": "TikTok 'I'm not a perfect person' confession trend (admit a funny flaw, then own it; on SocialBee's October 2026 US TikTok list) — acted out at a fall parent-teacher conference",
+ "scene": "classroom",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "i'm not a perfect person",
+  "parent-teacher night",
+  "every confession counts"
+ ],
+ "youtube_title": "I'm not a perfect person: parent-teacher conference edition 🍎",
+ "description": "One dad, one teacher, one pencil sharpener and a class guinea pig. Everybody has something to confess at this parent-teacher conference.\n\n#notaperfectperson #parentteacherconference #backtoschool #momlife #dadlife #comedy #animation #shorts",
+ "tags": [
+  "not a perfect person",
+  "parent teacher conference",
+  "confession trend",
+  "dad humor",
+  "teacher humor",
+  "guinea pig",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny"
+ ],
+ "tiktok_caption": "i'm not a perfect person… parent-teacher conference edition 🍎🐹 #notaperfectperson #parentteacherconference #dadlife #fyp",
+ "cast": [
+  {
+   "id": "pruitt",
+   "name": "Miss Pruitt",
+   "kind": "human",
+   "color": "#d9a066",
+   "hair": {
+    "style": "bun",
+    "color": "#9e9e9e"
+   },
+   "top": {
+    "color": "#b03a2e",
+    "pattern": "plain"
+   },
+   "bottom": "#4a235a",
+   "shoes": "#2c1a0e",
+   "accessories": [
+    "glasses",
+    "scarf:#f5cba7"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#f1948a",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": 0,
+    "tempo": 0.96
+   }
+  },
+  {
+   "id": "trevor",
+   "name": "Trevor",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.06,
+   "hair": {
+    "style": "short",
+    "color": "#6e3b1f"
+   },
+   "top": {
+    "color": "#1f618d",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2e4053",
+   "shoes": "#f4f6f7",
+   "accessories": [
+    "cap:#27ae60"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#7fb3d5",
+   "voice": {
+    "id": "am_michael",
+    "pitch": 0,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "sharpener",
+   "name": "Agnes",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#5d6d7e",
+   "scale": 0.88,
+   "accessories": [
+    "bow:#e74c3c"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#aeb6bf",
+   "voice": {
+    "id": "bf_isabella",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "nugget",
+   "name": "Nugget",
+   "kind": "animal",
+   "ears": "mouse",
+   "color": "#c68642",
+   "belly": "#fdebd0",
+   "inner": "#f5b7b1",
+   "scale": 0.85,
+   "top": {
+    "color": "#f4d03f",
+    "pattern": "plain"
+   },
+   "accessories": [
+    "glasses:#1b1b1b"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#f8c471",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.93
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "trevor",
+   "text": "Hi. Trevor. Mason's dad. I'm here about the volcano.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Mister Hale. Sit down. We need to talk about the volcano.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "trevor",
+   "text": "Before you say anything. I'm not a perfect person.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "sting"
+  },
+  {
+   "spk": "pruitt",
+   "text": "It was a meatloaf, Trevor.",
+   "shot": "W",
+   "pre": 0.6
+  },
+  {
+   "spk": "trevor",
+   "text": "It was a volcano made of meatloaf. Very scientific.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "sharpener",
+   "text": "It smelled lovely. The whole room had dinner at ten in the morning.",
+   "shot": "CU"
+  },
+  {
+   "spk": "pruitt",
+   "text": "That's Agnes. The pencil sharpener. She has opinions.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "sharpener",
+   "text": "I have one opinion. That meatloaf deserved better than a C plus.",
+   "shot": "CU"
+  },
+  {
+   "spk": "trevor",
+   "text": "Wait. Mason got a C plus?",
+   "shot": "trevor"
+  },
+  {
+   "spk": "pruitt",
+   "text": "No. You got a C plus. Mason didn't touch it.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Mason told me you stayed up until two in the morning.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "trevor",
+   "text": "I'm not a perfect person. I wanted it to erupt.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "boing"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Okay. Since we're being honest. Agnes, anything to share?",
+   "shot": "W"
+  },
+  {
+   "spk": "sharpener",
+   "text": "Fine. I am not a perfect sharpener.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "sharpener",
+   "text": "I've eaten forty pencils this year. Whole.",
+   "shot": "CU"
+  },
+  {
+   "spk": "sharpener",
+   "text": "I keep the erasers. I'm saving them for something.",
+   "shot": "CU",
+   "gesture": "think",
+   "after": "rimshot"
+  },
+  {
+   "spk": "nugget",
+   "text": "Can I go next? I've been holding this in since August.",
+   "shot": "W"
+  },
+  {
+   "spk": "trevor",
+   "text": "The guinea pig talks?",
+   "shot": "trevor",
+   "gesture": "point"
+  },
+  {
+   "spk": "pruitt",
+   "text": "That's Nugget. Class pet. He only talks at conferences.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nugget",
+   "text": "I'm not a perfect guinea pig. I get out every night.",
+   "shot": "CU"
+  },
+  {
+   "spk": "pruitt",
+   "text": "I knew it. The glue sticks.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "nugget",
+   "text": "The glue sticks were me. And the pen pal letters.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nugget",
+   "text": "The class writes to a boy in Ohio. There is no boy in Ohio. It's me.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nugget",
+   "text": "Mason thinks I have a horse. I said the horse is named Kevin.",
+   "shot": "CU",
+   "after": "ding"
+  },
+  {
+   "spk": "trevor",
+   "text": "Mason talks about Kevin every single day!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "pruitt",
+   "text": "Trevor. There's one more thing. Costume day.",
+   "shot": "W",
+   "pre": 0.5
+  },
+  {
+   "spk": "trevor",
+   "text": "I'm not a perfect person. I muted the parent group chat.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "trevor",
+   "text": "It had two hundred messages about a raffle basket. I panicked.",
+   "shot": "CU"
+  },
+  {
+   "spk": "pruitt",
+   "text": "So you sent Mason in a hard hat and called him a man who fixes things.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "trevor",
+   "text": "It was a costume. He fixed the door.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pruitt",
+   "text": "And on snack day, you brought one pickle.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "trevor",
+   "text": "One very large pickle. Family size.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Twenty two children shared one pickle, Trevor.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "trevor",
+   "text": "Okay. Your turn. Teachers aren't perfect either, right?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Fine. I'm not a perfect person.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "pruitt",
+   "text": "I knew it was you. I always know. I've graded your homework before.",
+   "shot": "CU"
+  },
+  {
+   "spk": "trevor",
+   "text": "What?",
+   "shot": "trevor"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Room twelve. Nineteen ninety nine. You sat by the window.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "trevor",
+   "text": "Miss Pruitt? You haven't aged at all!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "pruitt",
+   "text": "I've aged. I just do it quietly.",
+   "shot": "CU"
+  },
+  {
+   "spk": "pruitt",
+   "text": "And you still owe me a book report. You said your dog ate it.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "trevor",
+   "text": "My dog did eat it!",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "nugget",
+   "text": "No. I ate it.",
+   "shot": "W",
+   "pre": 0.8
+  },
+  {
+   "spk": "trevor",
+   "text": "That was twenty seven years ago!",
+   "shot": "nugget"
+  },
+  {
+   "spk": "nugget",
+   "text": "Nobody ever asks how old the class pet is.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "sharpener",
+   "text": "I've known for years. We don't talk about it.",
+   "shot": "CU"
+  },
+  {
+   "spk": "trevor",
+   "text": "I'm not a perfect person. You'll have that book report by Friday.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Do not make it out of meatloaf.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "trevor",
+   "text": "No promises.",
+   "shot": "CU",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Mason gets an A, by the way. He's very honest. He told me everything.",
+   "shot": "W"
+  },
+  {
+   "spk": "trevor",
+   "text": "Everything?",
+   "shot": "trevor",
+   "pre": 0.6
+  },
+  {
+   "spk": "nugget",
+   "text": "Everything. He writes to me in Ohio.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nugget",
+   "text": "I'm not a perfect person. I'm a guinea pig. Kevin says hi.",
+   "shot": "W",
+   "gesture": "wave"
+  }
+ ]
+}
