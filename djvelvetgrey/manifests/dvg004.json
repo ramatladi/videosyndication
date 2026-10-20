@@ -1,0 +1,132 @@
+{
+ "release_id": "dvg004",
+ "title": "Saltwater Confetti",
+ "style": "house",
+ "style_as_written": "house",
+ "status": "pass",
+ "created_utc": "2026-10-20T18:13:36Z",
+ "engine_version": "3.1.0",
+ "code_sha256": "59fac40f3edce12451472cb82c09d9d5c34f6730f4bbbf7ecff9820cc36264e0",
+ "files": {
+  "track_json": "/home/claude/videosyndication/djvelvetgrey/tracks/dvg004.json",
+  "photo": "/home/claude/videosyndication/djvelvetgrey/photos/dvg004.jpg",
+  "delivery_wav": "/home/claude/videosyndication/out/dvg004.delivery.wav",
+  "mp3": "/home/claude/videosyndication/out/dvg004.mp3",
+  "aac": "/home/claude/videosyndication/out/dvg004.m4a",
+  "mp4": "/home/claude/videosyndication/out/dvg004.mp4",
+  "qc_json": "/home/claude/videosyndication/out/dvg004.qc.json",
+  "meta_json": "/home/claude/videosyndication/out/dvg004.meta.json",
+  "export_json": "/home/claude/videosyndication/out/dvg004.export.json"
+ },
+ "repo_commit": "72dd79f4541ef1f4c4249bee77d005667683ce63",
+ "repo_dirty": false,
+ "tools": {
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pyloudnorm": "installed",
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
+ },
+ "brief": {
+  "engine": "v2",
+  "style": "house",
+  "release": "dvg004",
+  "mood": "upbeat sunny afternoon on a wind-swept Atlantic beach",
+  "bpm": 124,
+  "tonic": 55,
+  "progression": [
+   [
+    0,
+    "m9"
+   ],
+   [
+    3,
+    "maj7"
+   ],
+   [
+    5,
+    "9"
+   ],
+   [
+    3,
+    "maj7"
+   ]
+  ],
+  "mode": "dorian",
+  "lead": "piano",
+  "answer": "organ",
+  "groove": {
+   "bass_a": "octave",
+   "bass_b": "rolling",
+   "swing": 0.02
+  },
+  "arc": "classic",
+  "loudness_lufs": -9.5,
+  "seed": 851875,
+  "motif": {
+   "cell": "syncop",
+   "contour": "arch",
+   "start": 70,
+   "candidate": 3,
+   "selected_by": "automatic: top compositional score without catalogue flags (not a listening judgement)"
+  }
+ },
+ "motif_selection": {
+  "cell": "syncop",
+  "contour": "arch",
+  "start": 70,
+  "candidate": 3,
+  "selected_by": "automatic: top compositional score without catalogue flags (not a listening judgement)"
+ },
+ "sha256": {
+  "track_json": "d9bb575f50c05d2415acfefdc3900c23c4152a4ea056a812c63730d7405f74cb",
+  "photo": "f845e9f4e96063a1ce04c72e764954be90637a26d6c1a5b9a49936bacc427488",
+  "delivery_wav": "21fca519c667cec7d957738c729e954dd7e744fcc8c5583b26fdc0ab55fd11dc",
+  "mp3": "53fb8426d87d0c2d7d316ffcda0eb9fd49d9575ed13e72352c3c35ff66890129",
+  "aac": "d47f1402eaff6b8e65d6fcd132fc0a03260ffa199c51275493c3e91042cf8a4f",
+  "mp4": "bcefad6fc841d7277d0ed5deb2ef079f0aa736750fe62b260248bf6c0ca607f3",
+  "qc_json": "2573fc80ea2120fcc8a385e24044d97ce9adb8f98e3afafc9d278c7c4b681819",
+  "meta_json": "b9ca09107c23559a1d1fa37c4938ee60ea2d994f9e386b04c849de4c1b55c863",
+  "export_json": "c534943e8ceb555a195e34e1abbf7f7088584b7bda358ebc78d8ae6ff1f634d3"
+ },
+ "export": {
+  "gain_trim_db": -0.41,
+  "final": {
+   "iteration": 1,
+   "gain_db": -0.41,
+   "mp3": -2.49,
+   "aac": -1.39,
+   "pcm": -3.21
+  }
+ },
+ "qc": {
+  "status": "pass",
+  "files": {
+   "mp3": {
+    "decode_errors": null,
+    "duration_s": 179.0,
+    "true_peak_dbtp": -2.49,
+    "integrated_lufs": -10.49,
+    "samples_over_full_scale": 0
+   },
+   "mp4_audio": {
+    "decode_errors": null,
+    "duration_s": 179.003,
+    "true_peak_dbtp": -1.39,
+    "integrated_lufs": -10.52,
+    "samples_over_full_scale": 0
+   },
+   "wav": {
+    "duration_s": 179.0,
+    "true_peak_dbtp": -3.21,
+    "integrated_lufs": -10.49,
+    "samples_over_full_scale": 0
+   }
+  },
+  "click_suspects": [],
+  "outro_bars_heard": 16.5,
+  "stereo_correlation": 0.863
+ },
+ "assessment": "Automated technical checks only. Not listened to unless \"auditioned_by\" is set.",
+ "auditioned_by": null
+}

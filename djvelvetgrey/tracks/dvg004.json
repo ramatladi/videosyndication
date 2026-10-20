@@ -1,0 +1,70 @@
+{
+  "title": "Saltwater Confetti",
+  "engine": "v2",
+  "image": "djvelvetgrey/photos/dvg004.jpg",
+  "photo_page": "https://unsplash.com/photos/a-woman-in-a-bikini-sitting-on-the-beach-suuKjlQvQBA",
+  "photo_url": "https://images.unsplash.com/photo-1700739746391-26561c282181?w=2400&q=85",
+  "photographer": "Ivan Rohovchenko",
+  "photo_site": "Unsplash",
+  "credit": "Photo: Ivan Rohovchenko / Unsplash",
+  "scene": "Coastal cycle ride — Cabo da Roca, Portugal",
+  "youtube_title": "Saltwater Confetti — DJ Velvet Grey | House",
+  "description": "Picture yourself freewheeling down the coast road to Cabo da Roca on a bright afternoon, Atlantic spray in the air and the sea breaking white below the cliffs at the edge of Europe.\nAn upbeat, sun-soaked house groove with piano chords made for long beach days.\n\nPhoto: Ivan Rohovchenko on Unsplash — https://unsplash.com/photos/a-woman-in-a-bikini-sitting-on-the-beach-suuKjlQvQBA\nMusic: DJ Velvet Grey\n\n#housemusic #pianohouse #summervibes #DJVelvetGrey",
+  "tiktok_caption": "Cycling the coast road to Cabo da Roca with Atlantic spray on your skin and the whole afternoon ahead 🚲🌊 Photo: Ivan Rohovchenko / Unsplash #housemusic #pianohouse #summervibes #CaboDaRoca #DJVelvetGrey",
+  "tags": [
+    "house",
+    "house music",
+    "DJ Velvet Grey",
+    "piano house",
+    "summer music",
+    "Cabo da Roca",
+    "Portugal",
+    "beach house music",
+    "cycling music",
+    "instrumental house"
+  ],
+  "brief": {
+    "engine": "v2",
+    "style": "house",
+    "release": "dvg004",
+    "mood": "upbeat sunny afternoon on a wind-swept Atlantic beach",
+    "bpm": 124,
+    "tonic": 55,
+    "progression": [
+      [
+        0,
+        "m9"
+      ],
+      [
+        3,
+        "maj7"
+      ],
+      [
+        5,
+        "9"
+      ],
+      [
+        3,
+        "maj7"
+      ]
+    ],
+    "mode": "dorian",
+    "lead": "piano",
+    "answer": "organ",
+    "groove": {
+      "bass_a": "octave",
+      "bass_b": "rolling",
+      "swing": 0.02
+    },
+    "arc": "classic",
+    "loudness_lufs": -9.5,
+    "seed": 851875,
+    "motif": {
+      "cell": "syncop",
+      "contour": "arch",
+      "start": 70,
+      "candidate": 3,
+      "selected_by": "automatic: top compositional score without catalogue flags (not a listening judgement)"
+    }
+  }
+}
