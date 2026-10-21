@@ -1,8 +1,14 @@
 # Wise Words with Marco Reyes — writing guide
 
-A recurring vertical video (YouTube Short + TikTok), **exactly 2:55**, 1080×1920.
-Marco Reyes — a round, jolly, old-school former trader with a white handlebar moustache,
-bow tie and glasses parked on his bald head — tells one short story from his study, and every turn in the story lands on a famous quote.
+A recurring story video, **exactly 2:55**, rendered in two versions from the same script:
+`out/wwNNN.mp4` (1080×1920, TikTok + Instagram Reels) and `out/wwNNN_yt.mp4` (1920×1080, posted to
+YouTube as a regular video — not a Short — so the title and description carry no #shorts).
+Marco Reyes — a round, jolly, old-school storyteller with a white handlebar moustache, red bow tie,
+green cardigan and gold glasses parked on his bald head — fills the screen from his wingback chair in a
+warm study (night-city window, bookshelf, banker's lamp, vintage microphone). He tells one short story,
+and every turn in the story lands on a famous quote; he raises an open hand as he says each quote.
+The studio art lives in `wisewords/scene.py`; `render.py` handles the camera (alternating wide and close
+shots), captions, headline band and the quote card.
 
 ## Audience and tone
 - **Audience: the USA, 18+ target.** The show is published as NOT "made for kids".
@@ -58,8 +64,8 @@ SHORT` and the number of seconds to cut or add.
      "quote": "…exact quote…", "author": "Albert Einstein",
      "lines": ["spoken line", "spoken line", …]}   // one sentence or two short ones per line
   ],
-  "youtube_title": "…under 70 chars, ends with #shorts",
-  "description": "…2 sentences + 3–5 hashtags incl. #shorts…",
+  "youtube_title": "…under 70 chars, a story hook, no #shorts",
+  "description": "…2 sentences + 3–5 hashtags (no #shorts)…",
   "tiktok_caption": "…under 150 chars with 3–5 hashtags…",
   "tags": ["quotes", "life advice", …]
 }
@@ -67,4 +73,5 @@ SHORT` and the number of seconds to cut or add.
 The open and sign-off segments also need `head`, `quote` (a one-line summary card) and `author`.
 Write numbers as words in `lines` ("one hundred percent") so the voice reads them right.
 
-Build: `./wisewords/make.sh wisewords/episodes/wwNNN.json` → `out/wwNNN.mp4` (about 2–4 minutes).
+Build: `./wisewords/make.sh wisewords/episodes/wwNNN.json` → `out/wwNNN.mp4` + `out/wwNNN_yt.mp4` (about 8 minutes;
+run it in the background and poll render.log for the two DONE lines).

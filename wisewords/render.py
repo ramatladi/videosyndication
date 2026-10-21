@@ -1,22 +1,31 @@
-import os, sys, re, json, io, subprocess, random, math
-import numpy as np, soundfile as sf, cairosvg
+"""Render a Wise Words episode.
+
+usage: python3 render.py episode.json out.mp4 [tall|wide]
+  tall = 1080x1920 (TikTok / Instagram Reels), wide = 1920x1080 (regular YouTube video).
+Marco and his studio fill the whole frame; headline, captions and the quote card float on top.
+"""
+import os, sys, json, io, subprocess, random, math, re
+import numpy as np, soundfile as sf, cairosvg, cv2
 from PIL import Image, ImageDraw, ImageFont
 
 D = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, D)
+import scene
+
 EP = json.load(open(sys.argv[1])); SEGMENTS = EP["segments"]
+OUT = sys.argv[2]
+FMT = sys.argv[3] if len(sys.argv) > 3 else "tall"
 WORK = os.environ.get("WORK", "/tmp/wisewords_work"); os.makedirs(WORK, exist_ok=True)
 
 FONTS = os.path.join(D, "fonts")
 SERIF = os.path.join(FONTS, "SourceSerif4-Bold.ttf")
 SANS_B = os.path.join(FONTS, "IBMPlexSans-Bold.ttf")
 SANS_S = os.path.join(FONTS, "IBMPlexSans-SemiBold.ttf")
-W, H, FPS, TOTAL = 1080, 1920, 30, 175.0
+W, H = (1080, 1920) if FMT == "tall" else (1920, 1080)
+FPS, TOTAL = 30, 175.0
 NFR = int(TOTAL * FPS)
-OUT = sys.argv[2]
 
-BG = (15, 22, 34); PANEL = (24, 35, 58); RED = (215, 38, 46); WHITE = (244, 241, 234)
-GOLD = (217, 180, 90); UP = (47, 191, 113); DOWN = (255, 92, 92); MUTED = (150, 162, 184)
+RED = (215, 38, 46); WHITE = (244, 241, 234); GOLD = (217, 180, 90); NAVY = (16, 24, 42)
 
 # ---------- timeline ----------
 lines = json.load(open(os.path.join(WORK, "lines.json")))
@@ -35,8 +44,10 @@ seg_start = {}
 for l in lines:
     seg_start.setdefault(l["seg"], l["start"] - (0.6 if l["seg"] else intro))
 seg_start[0] = 0.0
-import re as _re
-def _w(x): return set(_re.findall(r"[a-z']+", x.lower()))
+seg_starts = [seg_start[i] for i in range(len(SEGMENTS))]
+seg_ends = seg_starts[1:] + [TOTAL]
+
+def _w(x): return set(re.findall(r"[a-z']+", x.lower()))
 qtime = {}
 for si, s_ in enumerate(SEGMENTS):
     qw = _w(s_["quote"]); best = None
@@ -65,73 +76,105 @@ for si in range(1, len(SEGMENTS)):
     sting(seg_start[si], [587.3, 784.0], 0.8, 0.05)
 sting(TOTAL - 2.0, [293.7, 392.0, 493.9], 2.0, 0.14)
 audio = np.clip(audio / max(1.0, np.abs(audio).max() / 0.95), -1, 1)
-WAV = os.path.join(WORK, "mix.wav"); sf.write(WAV, audio, SR)
+WAV = os.path.join(WORK, f"mix_{FMT}.wav"); sf.write(WAV, audio, SR)
 
 hop = SR // FPS
 rms = np.array([np.sqrt(np.mean(voice[i * hop:(i + 1) * hop] ** 2)) for i in range(NFR)])
 ref = np.percentile(rms[rms > 0.005], 90) if (rms > 0.005).any() else 1
 lvl = rms / ref
 
-# ---------- Marco scene variants ----------
-svg = open(os.path.join(D, "marco.svg")).read()
-MOUTH = '<path d="M312,224 Q320,229 328,224" stroke="#5A2E22" stroke-width="2" fill="none" stroke-linecap="round"/>'
-EYES = 'd="M300,194 Q306,189 312,194 M328,194 Q334,189 340,194"'
-assert MOUTH in svg and EYES in svg
-SW, SH = 1188, 817
-def render(s):
-    png = cairosvg.svg2png(bytestring=s.encode(), output_width=SW, output_height=SH)
-    return Image.open(io.BytesIO(png)).convert("RGB")
-mouths = [MOUTH,
-          '<ellipse cx="320" cy="225.5" rx="6.5" ry="2.6" fill="#4A2018"/>',
-          '<ellipse cx="320" cy="226.5" rx="7.5" ry="5" fill="#4A2018"/><path d="M315,229 Q320,231 325,229" stroke="#C8746A" stroke-width="2" fill="none"/>']
-scene = {}
-for mi, m in enumerate(mouths):
-    for bi, e in enumerate([EYES, 'd="M300,193 L312,193 M328,193 L340,193"']):
-        scene[(mi, bi)] = render(svg.replace(MOUTH, m).replace(EYES, e))
+# ---------- studio layers ----------
+VW, VH = scene.VB
+RS = W / VW if FMT == "wide" else H / VH          # px per scene unit at zoom 1
+ZMAX = 1.3
+SC = RS * ZMAX                                     # layers are drawn sharp enough for the closest shot
+def svg_png(s):
+    png = cairosvg.svg2png(bytestring=s.encode(), output_width=round(VW * SC), output_height=round(VH * SC))
+    return Image.open(io.BytesIO(png)).convert("RGBA")
+static = svg_png(scene.bg())
+for layer in (scene.body(), scene.desk()):
+    static.alpha_composite(svg_png(layer))
+static = np.asarray(static.convert("RGB"))
+hx0, hy0, hx1, hy1 = scene.HEAD_BOX
+pad = 20
+hbox = tuple(round(v * SC) for v in (hx0 - pad, hy0 - pad, hx1 + pad, hy1 + pad))
+pivot = (round((scene.HEAD_PIVOT[0] - hx0 + pad) * SC), round((scene.HEAD_PIVOT[1] - hy0 + pad) * SC))
+heads = {(m, e): svg_png(scene.head(m, e)).crop(hbox) for m in range(3) for e in range(2)}
+hands = []
+for mode in range(2):
+    im = svg_png(scene.hands(mode)); bb = im.getbbox()
+    hands.append((im.crop(bb), bb[:2]))
+rot_cache = {}
+def head_img(m, e, ang):
+    k = (m, e, ang)
+    if k not in rot_cache:
+        rot_cache[k] = heads[(m, e)].rotate(ang, resample=Image.BICUBIC, center=pivot)
+    return rot_cache[k]
 
-# ---------- fonts ----------
+# ---------- camera: alternating wide and close shots ----------
+def view(si, tt):
+    p = (tt - seg_starts[si]) / max(1.0, seg_ends[si] - seg_starts[si])
+    close = si % 2 == 1 and si < len(SEGMENTS) - 1
+    if FMT == "wide":
+        z = (1.22 + 0.06 * p) if close else (1.0 + 0.045 * p)
+        vw, vh = VW / z, VH / z
+        cx = 600 + 0.14 * vw if close else 800 + 18 * math.sin(tt / 7)
+        cy = 400 if close else 450
+    else:
+        z = (1.14 + 0.05 * p) if close else (1.0 + 0.045 * p)
+        vh = VH / z; vw = vh * W / H
+        cx = 600 + 10 * math.sin(tt / 7)
+        cy = 420 if close else 450
+    cx = min(max(cx, vw / 2), VW - vw / 2); cy = min(max(cy, vh / 2), VH - vh / 2)
+    return cx - vw / 2, cy - vh / 2, vw, vh
+
+# ---------- fonts & overlays ----------
 def F(p, s): return ImageFont.truetype(p, s)
-f_title, f_sub, f_head = F(SERIF, 60), F(SANS_S, 28), F(SANS_B, 46)
-f_cap, f_idx, f_val, f_small = F(SANS_B, 60), F(SERIF, 64), F("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 66), F(SANS_S, 26)
+def wrap(text, font, maxw):
+    ws, ls, cur = text.split(), [], ""
+    for w_ in ws:
+        t_ = (cur + " " + w_).strip()
+        if font.getlength(t_) > maxw and cur: ls.append(cur); cur = w_
+        else: cur = t_
+    ls.append(cur); return ls
 
-# ---------- static layout ----------
-SCENE_Y, SCENE_H = 150, 742
-HEAD_Y, HEAD_H = SCENE_Y + SCENE_H, 104
-TICK_Y, TICK_H = HEAD_Y + HEAD_H, 0
-CAP_Y, CAP_H = TICK_Y + TICK_H + 20, 230
-BOARD_Y, BOARD_H = CAP_Y + CAP_H + 10, 420
+if FMT == "wide":
+    f_title, f_sub, f_head, f_cap = F(SERIF, 58), F(SANS_S, 24), F(SANS_B, 38), F(SANS_B, 52)
+    f_q, f_qs, f_qm, f_au = F(SERIF, 44), F(SERIF, 38), F(SERIF, 130), F(SANS_S, 30)
+    TITLE_XY, SUB_XY, HEAD_Y, HEAD_H = (56, 30), (58, 100), H - 292, 64
+    CAP_CY, CAP_MAXW, CAP_LH = H - 140, W - 360, 64
+    CARD_X, CARD_W, CARD_TOP, CARD_BOTTOM = 1150, 712, 170, None
+else:
+    f_title, f_sub, f_head, f_cap = F(SERIF, 66), F(SANS_S, 28), F(SANS_B, 42), F(SANS_B, 60)
+    f_q, f_qs, f_qm, f_au = F(SERIF, 50), F(SERIF, 43), F(SERIF, 140), F(SANS_S, 34)
+    TITLE_XY, SUB_XY, HEAD_Y, HEAD_H = (48, 44), (50, 124), 196, 76
+    CAP_CY, CAP_MAXW, CAP_LH = 1300, W - 100, 74
+    CARD_X, CARD_W, CARD_TOP, CARD_BOTTOM = 44, W - 88, None, H - 56
 
-base = Image.new("RGB", (W, H), BG)
-d = ImageDraw.Draw(base)
-d.text((48, 30), EP.get("title", "Wise Words"), font=f_title, fill=WHITE)
-d.text((50, 104), EP.get("subtitle", "WITH MARCO REYES  ·  WISE WORDS"), font=f_sub, fill=GOLD)
-d.rounded_rectangle((W - 170, 52, W - 48, 100), 6, fill=RED)
-d.text((W - 109, 76), "LIVE", font=f_sub, fill=(255, 255, 255), anchor="mm")
-d.rounded_rectangle((40, BOARD_Y, W - 40, BOARD_Y + BOARD_H), 18, fill=PANEL)
+# static overlay: shading, vignette, show title, LIVE pill
+yy = np.linspace(0, 1, H)[:, None]; xx = np.linspace(0, 1, W)[None, :]
+top = np.clip(1 - yy / (0.17 if FMT == "wide" else 0.16), 0, 1) ** 1.6 * 0.75
+bot_start = 0.66 if FMT == "wide" else 0.55
+bot = np.clip((yy - bot_start) / (1 - bot_start), 0, 1) ** 1.2 * (0.82 if FMT == "wide" else 0.86)
+vig = np.clip((np.sqrt(((xx - 0.5) / 0.75) ** 2 + ((yy - 0.47) / 0.75) ** 2) - 0.55) / 0.45, 0, 1) * 0.45
+alpha = np.clip(1 - (1 - top) * (1 - bot) * (1 - vig), 0, 1)
+shade = np.zeros((H, W, 4), np.uint8); shade[..., 0:3] = (8, 10, 18); shade[..., 3] = (alpha * 255).astype(np.uint8)
+overlay = Image.fromarray(shade, "RGBA")
+od = ImageDraw.Draw(overlay)
+od.text(TITLE_XY, EP.get("title", "Wise Words"), font=f_title, fill=WHITE)
+od.text(SUB_XY, EP.get("subtitle", "WITH MARCO REYES  ·  STORY NIGHT"), font=f_sub, fill=GOLD)
+lw = f_sub.getlength("LIVE") + 40; lx1 = W - 48; ly0 = TITLE_XY[1] + 18
+od.rounded_rectangle((lx1 - lw, ly0, lx1, ly0 + 46), 8, fill=RED)
+od.ellipse((lx1 - lw + 12, ly0 + 18, lx1 - lw + 22, ly0 + 28), fill=(255, 255, 255))
+od.text((lx1 - lw / 2 + 8, ly0 + 23), "LIVE", font=f_sub, fill=(255, 255, 255), anchor="mm")
 
-heads = []
+head_bands = []
 for s in SEGMENTS:
-    im = Image.new("RGB", (W, HEAD_H), RED); dd = ImageDraw.Draw(im)
-    dd.text((48, HEAD_H // 2), s["head"], font=f_head, fill=(255, 255, 255), anchor="lm")
-    heads.append(im)
-
-# ticker strip
-items = []
-for s in SEGMENTS:
-    if s.get("dir") in (1, -1):
-        items.append((s["index"], ("▲ " if s["dir"] == 1 else "▼ ") + s["val"].lstrip("+-"), UP if s["dir"] == 1 else DOWN))
-items += [("WORRY", "▼ 22.0%", DOWN), ("KINDNESS", "▲ 9.5%", UP), ("SCREEN TIME", "▼ 5.3%", DOWN), ("GRATITUDE", "▲ 7.7%", UP)]
-f_tk = F("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 30)
-parts, x = [], 0
-for name, v, c in items:
-    parts.append((x, name, WHITE)); x += f_tk.getlength(name) + 16
-    parts.append((x, v, c)); x += f_tk.getlength(v) + 60
-strip_w = int(x)
-strip = Image.new("RGB", (strip_w * 2 + W, TICK_H), (10, 15, 26)); sd = ImageDraw.Draw(strip)
-for rep in range(3):
-    for px, txt, c in parts:
-        if rep * strip_w + px < strip.width:
-            sd.text((rep * strip_w + px, TICK_H // 2), txt, font=f_tk, fill=c, anchor="lm")
+    tw = f_head.getlength(s["head"])
+    im = Image.new("RGBA", (int(tw + 88), HEAD_H), RED + (255,)); dd = ImageDraw.Draw(im)
+    dd.rectangle((0, 0, 10, HEAD_H), fill=GOLD)
+    dd.text((44, HEAD_H // 2), s["head"], font=f_head, fill=(255, 255, 255), anchor="lm")
+    head_bands.append(im)
 
 # ---------- captions ----------
 def chunks(text, maxc=34):
@@ -141,16 +184,9 @@ def chunks(text, maxc=34):
         else: cur = (cur + " " + w_).strip()
     if cur: out.append(cur)
     return out
-def wrap(text, font, maxw):
-    ws, ls, cur = text.split(), [], ""
-    for w_ in ws:
-        t_ = (cur + " " + w_).strip()
-        if font.getlength(t_) > maxw and cur: ls.append(cur); cur = w_
-        else: cur = t_
-    ls.append(cur); return ls
 caps = []
 for l in lines:
-    ch = chunks(l_txt := SEGMENTS[l["seg"]]["lines"][l["line"]])
+    ch = chunks(SEGMENTS[l["seg"]]["lines"][l["line"]])
     tot = sum(len(c) for c in ch); t0 = l["start"]
     for c in ch:
         dur = l["dur"] * len(c) / tot
@@ -158,99 +194,86 @@ for l in lines:
 cap_cache = {}
 def cap_img(text):
     if text not in cap_cache:
-        im = Image.new("RGB", (W, CAP_H), BG); dd = ImageDraw.Draw(im)
-        ls = wrap(text, f_cap, W - 120)
-        y0 = CAP_H // 2 - (len(ls) * 76) // 2 + 38
+        ls = wrap(text, f_cap, CAP_MAXW)
+        im = Image.new("RGBA", (W, CAP_LH * len(ls) + 40), (0, 0, 0, 0)); dd = ImageDraw.Draw(im)
         for i, ln in enumerate(ls):
-            dd.text((W // 2, y0 + i * 76), ln, font=f_cap, fill=WHITE, anchor="mm")
+            dd.text((W // 2, 20 + CAP_LH // 2 + i * CAP_LH), ln, font=f_cap, fill=(255, 255, 255), anchor="mm",
+                    stroke_width=6, stroke_fill=(10, 10, 16))
         cap_cache[text] = im
     return cap_cache[text]
 
-# ---------- board charts ----------
-random.seed(7)
-def series(direction, n=48):
-    v, out = 50.0, []
-    for i in range(n):
-        if direction == 1: v += random.uniform(-1.5, 2.6)
-        elif direction == -1: v += random.uniform(-2.8, 1.2)
-        elif direction == 2: v += (-3.2 if i < n * 0.45 else 3.6) + random.uniform(-1.4, 1.4)
-        else: v += random.uniform(-1.2, 1.2)
-        out.append(v)
-    return out
-charts = [series(s.get("dir", 0)) for s in SEGMENTS]
-def board(si, prog):
-    s = SEGMENTS[si]; col = {1: UP, -1: DOWN}.get(s["dir"], GOLD)
-    im = Image.new("RGB", (W - 80, BOARD_H), PANEL); dd = ImageDraw.Draw(im)
-    dd.text((40, 34), "INDEX", font=f_small, fill=MUTED)
-    dd.text((40, 66), s["index"], font=f_idx, fill=WHITE)
-    arrow = {1: "▲ ", -1: "▼ "}.get(s["dir"], "")
-    dd.text((W - 120, 92), arrow + s["val"].lstrip("+-") if arrow else s["val"], font=f_val, fill=col, anchor="rm")
-    pts = charts[si]; lo, hi = min(pts), max(pts)
-    cx0, cy0, cw, ch_ = 40, 170, W - 160, 130
-    for gy in range(4):
-        yy = cy0 + gy * ch_ / 3
-        dd.line((cx0, yy, cx0 + cw, yy), fill=(36, 50, 79), width=2)
-    k = max(2, int(len(pts) * prog))
-    xy = [(cx0 + i * cw / (len(pts) - 1), cy0 + ch_ - (p - lo) / (hi - lo + 1e-6) * ch_) for i, p in enumerate(pts[:k])]
-    dd.line(xy, fill=col, width=6, joint="curve")
-    ex, ey = xy[-1]; dd.ellipse((ex - 9, ey - 9, ex + 9, ey + 9), fill=col)
-    return im
-board_cache = {}
-f_q, f_qm, f_au = F(SERIF, 50), F(SERIF, 150), F(SANS_S, 34)
-f_qs = F(SERIF, 42)
-def qcard(si, prog):
-    s = SEGMENTS[si]
-    im = Image.new("RGB", (W - 80, BOARD_H), PANEL); dd = ImageDraw.Draw(im)
-    dd.text((34, -10), "\u201c", font=f_qm, fill=GOLD)
-    fq, lh = f_q, 64
-    ls = wrap(s["quote"], fq, W - 200)
-    if len(ls) > 3: fq, lh = f_qs, 54; ls = wrap(s["quote"], fq, W - 200)
+# ---------- quote card ----------
+card_cache = {}
+def card(si, prog, fade):
+    key = (si, round(prog, 2), round(fade, 1))
+    if key in card_cache: return card_cache[key]
+    s = SEGMENTS[si]; fq, lh = f_q, int(f_q.size * 1.3)
+    ls = wrap(s["quote"], fq, CARD_W - 120)
+    if len(ls) > 4: fq, lh = f_qs, int(f_qs.size * 1.3); ls = wrap(s["quote"], fq, CARD_W - 120)
+    ch = 120 + lh * len(ls) + 80
+    im = Image.new("RGBA", (CARD_W, ch), (0, 0, 0, 0)); dd = ImageDraw.Draw(im)
+    a = int(232 * fade)
+    dd.rounded_rectangle((0, 0, CARD_W - 1, ch - 1), 22, fill=NAVY + (a,), outline=GOLD + (int(200 * fade),), width=3)
+    dd.text((34, -18), "“", font=f_qm, fill=GOLD + (int(255 * fade),))
     k = round(len(s["quote"].split()) * prog); shown = 0
     for i, ln in enumerate(ls):
         ws = ln.split(); take = ws[:max(0, k - shown)]; shown += len(ws)
-        if take: dd.text((70, 120 + i * lh), " ".join(take), font=fq, fill=WHITE)
-    if prog >= 1: dd.text((70, BOARD_H - 66), "\u2014 " + s["author"], font=f_au, fill=GOLD)
+        if take: dd.text((60, 104 + i * lh), " ".join(take), font=fq, fill=WHITE + (int(255 * fade),))
+    if prog >= 1: dd.text((60, ch - 62), "— " + s["author"], font=f_au, fill=GOLD + (int(255 * fade),))
+    card_cache[key] = im
     return im
 
 # ---------- frames ----------
-seg_starts = [seg_start[i] for i in range(len(SEGMENTS))]
-PREV = [float(x) for x in os.environ.get("PREVIEW","").split(",") if x]
-ff = None if PREV else subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
-                       "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-i", WAV,
-                       "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
-                       "-c:a", "aac", "-b:a", "192k", "-t", str(TOTAL), "-movflags", "+faststart", OUT],
-                      stdin=subprocess.PIPE)
+PREV = [float(x) for x in os.environ.get("PREVIEW", "").split(",") if x]
+ff = None if PREV else subprocess.Popen(
+    ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
+     "-i", "-", "-i", WAV, "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
+     "-c:a", "aac", "-b:a", "192k", "-t", str(TOTAL), "-movflags", "+faststart", OUT], stdin=subprocess.PIPE)
 random.seed(3); blinks = set()
 tb = 1.5
 while tb < TOTAL:
     f0 = int(tb * FPS); blinks.update(range(f0, f0 + 4)); tb += random.uniform(2.8, 5.5)
 ci, mouth_prev = 0, 0
-for fi in (sorted(int(x*FPS) for x in PREV) if PREV else range(NFR)):
+for fi in (sorted(int(x * FPS) for x in PREV) if PREV else range(NFR)):
     tt = fi / FPS
     si = max(i for i, s in enumerate(seg_starts) if s <= tt)
-    fr = base.copy()
+    local = tt - seg_starts[si]
     lv = lvl[fi]
     m = 2 if lv > 0.55 else 1 if lv > 0.18 else 0
     if m == 2 and mouth_prev == 2 and fi % 3 == 0: m = 1
     mouth_prev = m
-    sc = scene[(m, 1 if fi in blinks else 0)]
-    # slow drift + gentle push per segment
-    local = tt - seg_starts[si]
-    ox = int(54 + 40 * math.sin(tt / 9.0)); oy = int(38 + 22 * math.sin(tt / 13.0 + 1))
-    fr.paste(sc.crop((ox, oy, ox + W, oy + SCENE_H)), (0, SCENE_Y))
+    qt = qtime.get(si)
+    pointing = qt is not None and 0 < si < len(SEGMENTS) - 1 and qt[0] - 0.2 <= tt <= qt[0] + qt[1] / 0.9 + 0.6
+    # studio crop for this camera position, with Marco's head and hands
+    left, top_, vw, vh = view(si, tt)
+    box = (round(left * SC), round(top_ * SC), round((left + vw) * SC), round((top_ + vh) * SC))
+    fr = Image.fromarray(static[box[1]:box[3], box[0]:box[2]])
+    ang = round((1.4 * math.sin(tt * 2 * math.pi / 6.0) + (0.9 * math.sin(tt * 5.1) if lv > 0.18 else 0)) * 4) / 4
+    hi = head_img(m, 1 if fi in blinks else 0, ang)
+    bob = round(2.5 * SC * math.sin(tt * 2 * math.pi / 4.2))
+    fr.paste(hi, (hbox[0] - box[0], hbox[1] - box[1] + bob), hi)
+    him, hxy = hands[1 if pointing else 0]
+    fr.paste(him, (hxy[0] - box[0], hxy[1] - box[1]), him)
+    fr = Image.fromarray(cv2.resize(np.asarray(fr), (W, H), interpolation=cv2.INTER_LINEAR))
+    fr.paste(overlay, (0, 0), overlay)
     # headline slides in
-    slide = min(1.0, local / 0.45); hx = int(-W * (1 - slide) ** 3)
-    fr.paste(heads[si], (hx, HEAD_Y))
+    slide = min(1.0, local / 0.45); hb = head_bands[si]
+    fr.paste(hb, (int(-hb.width * (1 - slide) ** 3), HEAD_Y), hb)
+    # captions
     while ci < len(caps) - 1 and caps[ci][1] < tt and caps[ci + 1][0] <= tt: ci += 1
     if caps[ci][0] <= tt <= caps[ci][1]:
-        fr.paste(cap_img(caps[ci][2]), (0, CAP_Y))
-    qt = qtime.get(si)
-    prog = min(1.0, local / 3.0) if qt is None else max(0.0, min(1.0, (tt - qt[0]) / max(qt[1], 1.0)))
-    key = (si, round(prog, 2))
-    if key not in board_cache: board_cache[key] = qcard(si, key[1])
-    fr.paste(board_cache[key], (40, BOARD_Y))
-    if PREV: fr.save(os.path.join(WORK, f"frame_{fi}.png")); continue
+        c = cap_img(caps[ci][2]); fr.paste(c, (0, int(CAP_CY - c.height / 2)), c)
+    # quote card types out as Marco says the quote, then stays for the chapter
+    t_on = qt[0] if qt else seg_starts[si] + 1.0
+    if tt >= t_on - 0.3:
+        prog = min(1.0, local / 3.0) if qt is None else max(0.0, min(1.0, (tt - qt[0]) / max(qt[1], 1.0)))
+        fade = min(1.0, (tt - t_on + 0.3) / 0.35)
+        out = max(0.0, min(1.0, (seg_ends[si] - tt) / 0.35)) if si < len(SEGMENTS) - 1 else 1.0
+        cd = card(si, prog, min(fade, out))
+        y = CARD_TOP if CARD_TOP is not None else CARD_BOTTOM - cd.height
+        fr.paste(cd, (CARD_X, int(y + 24 * (1 - fade))), cd)
+    if PREV: fr.save(os.path.join(WORK, f"{FMT}_{fi}.png")); continue
     ff.stdin.write(fr.tobytes())
-    if fi % 750 == 0: print("frame", fi, flush=True)
+    if fi % 750 == 0: print(FMT, "frame", fi, flush=True)
 if ff: ff.stdin.close(); ff.wait()
 print("done", OUT)
