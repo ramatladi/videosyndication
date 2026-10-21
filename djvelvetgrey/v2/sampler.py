@@ -38,14 +38,36 @@ PRESETS = {
 SAMPLED_KINDS = {'piano', 'rhodes', 'organ', 'strings', 'brass', 'flute', 'guitar', 'marimba', 'steel', 'kalimba', 'mallet',
                  'topline', 'pluck', 'glass'}
 
+# "Real instruments only" mode (brief "instruments": "real"): every voice is a recording of an acoustic or
+# electro-acoustic instrument. Synth presets (Synth Strings, Orchestral/Detuned pads) and the drum-machine kits
+# (Electronic, TR-808) are excluded; the engine's synth parts get real substitutes.
+PRESETS_REAL = dict(PRESETS, **{
+    'piano':    [(0, 0, .9, 0), (0, 1, .9, 0)],                       # Grand, Bright Grand
+    'rhodes':   [(0, 4, .7, 0), (0, 5, .7, 0)],                       # Rhodes EP, Legend EP 2 (electro-mechanical)
+    'organ':    [(0, 17, .12, 0), (0, 16, .12, 0), (0, 18, .12, 0)],  # tonewheel organs
+    'strings':  [(0, 48, .45, 0), (0, 49, .55, 0)],                   # Strings, Slow Strings
+    'pluck':    [(0, 46, .6, 0), (0, 24, .6, 0), (0, 45, .3, 0)],     # Harp, Nylon guitar, Pizzicato strings
+    'glass':    [(0, 8, .9, 0), (0, 10, .9, 0), (0, 11, .8, 0)],      # Celesta, Music Box, Vibraphone
+    'polysynth': [(0, 4, .7, 0), (0, 61, .2, 0), (0, 48, .45, 0)],    # -> Rhodes, Brass Section, Strings
+    'stab':     [(0, 61, .15, 0), (0, 45, .2, 0), (0, 0, .4, 0)],     # -> Brass stab, Pizzicato, Piano
+    'rim_synth': [(0, 115, .2, 0), (0, 13, .3, 0)],                   # -> Woodblock, Xylophone
+    'choir':    [(0, 52, .8, 0)],                                     # Ahh choir (pads)
+    'bass_real': [(0, 32, .08, 0), (0, 33, .06, 0), (0, 35, .08, 0), (0, 34, .06, 0)],  # Upright, Finger, Fretless, Pick
+    'kalimba':  [(0, 108, .6, 0)], 'mallet': [(0, 11, .8, 0)], 'marimba': [(0, 12, .5, 0), (0, 13, .4, 0)],
+    'cymbal_swell': [(0, 119, .3, 0)],                                # Reverse cymbal (a recorded cymbal, reversed)
+})
+
+
 # GM drum map (channel 10) notes used by the engine's percussion names
 DRUM_NOTES = {'kick': 36, 'rim': 37, 'snare': 38, 'clap': 39, 'snare2': 40, 'hat': 42, 'hat_pedal': 44, 'hat_open': 46,
               'tom_lo': 45, 'tom_mid': 47, 'tom_hi': 50, 'tamb': 54, 'cowbell': 56, 'bongo_hi': 60, 'bongo_lo': 61,
               'conga_mute': 62, 'conga_hi': 63, 'conga_lo': 64, 'timbale_hi': 65, 'agogo_hi': 67, 'agogo_lo': 68,
-              'cabasa': 69, 'shaker': 70, 'claves': 75, 'wood': 76, 'wood_lo': 77}
+              'cabasa': 69, 'shaker': 70, 'claves': 75, 'wood': 76, 'wood_lo': 77, 'kick_ac': 35, 'snare_ac': 38,
+              'crash': 49, 'ride': 51, 'splash': 55, 'crash2': 57, 'side_stick': 37}
 KITS = {'standard': [0, 1, 2, 3, 4, 5, 6, 7], 'room': [8, 9, 10, 11], 'electronic': [24], 'tr808': [25], 'jazz': [32, 33, 34]}
 # In FluidR3 the hand percussion, clap and hats are the same recordings in every acoustic kit; only TR-808 differs.
 # So the audible choices are: acoustic (kit 0) vs 808 (kit 25) vs the engine's synth voice.
+REAL_KITS = KITS['standard'] + KITS['room'] + KITS['jazz'] + [16, 17]   # acoustic kits only (+ Power)
 BLOCK = 64                                   # FluidSynth renders in 64-sample blocks; every read is block-aligned
 
 _fs = None; _sf = None; _cache = {}
@@ -160,8 +182,9 @@ def midi_vel(vel):
 
 class Palette:
     """Per-track sound choices, derived from the seed (recorded in the track meta)."""
-    def __init__(self, seed, style):
+    def __init__(self, seed, style, real=False):
         r = np.random.default_rng(int(seed) * 7 + 3)
+        self.real = bool(real); self.table = PRESETS_REAL if real else PRESETS
         self.choice = {k: int(r.integers(len(v))) for k, v in PRESETS.items()}
         drum_pref = {'tech': ['electronic', 'tr808', 'standard'], 'french': ['electronic', 'standard', 'room'],
                      'disco': ['standard', 'room', 'jazz'], 'nudisco': ['standard', 'electronic', 'room'],
@@ -175,16 +198,21 @@ class Palette:
         self.clap = src[int(r.integers(len(src)))]
         self.perc = '808' if (electronic and r.random() < .2) else 'acoustic'     # hand percussion source
         self.kick_layer = float(r.choice([0.0, .25, .4]))    # sampled kick blended under the synth kick
+        if self.real:                                         # all-recorded palette (separate stream: v4 choices unchanged)
+            rr = np.random.default_rng(int(seed) * 11 + 9)
+            self.choice = {k: int(rr.integers(len(v))) for k, v in PRESETS_REAL.items()}
+            self.kit = int(rr.choice(REAL_KITS)); self.kit_family = 'acoustic'
+            self.hats = self.clap = self.perc = 'acoustic'; self.kick_layer = 1.0
 
     def preset(self, kind):
-        return PRESETS[kind][self.choice[kind]]
+        return self.table[kind][self.choice[kind]]
 
     def sampled(self, kind):
-        return kind in PRESETS and self.preset(kind) is not None
+        return kind in self.table and self.preset(kind) is not None
 
     def describe(self):
-        fs, sf = _synth()
-        d = {k: ('synth' if PRESETS[k][i] is None else fs.sfpreset_name(sf, PRESETS[k][i][0], PRESETS[k][i][1])) for k, i in self.choice.items()}
+        fs, sf = _synth(); T = self.table
+        d = {k: ('synth' if T[k][i] is None else fs.sfpreset_name(sf, T[k][i][0], T[k][i][1])) for k, i in self.choice.items()}
         d.update({'drum_kit': fs.sfpreset_name(sf, 128, self.kit), 'hats': self.hats, 'clap': self.clap, 'perc': self.perc,
                   'kick_layer': self.kick_layer})
         return d
@@ -202,4 +230,4 @@ def drum(pal, name, vel=1.0, kit=None, dur=.25):
 
 def hand(pal, name, vel=1.0, dur=.25):
     """Hand percussion / hats / clap from the acoustic set (kit 0) or the 808 set (kit 25)."""
-    return drum(pal, name, vel, kit=25 if pal.perc == '808' else 0, dur=dur)
+    return drum(pal, name, vel, kit=25 if pal.perc == '808' else (pal.kit if pal.real else 0), dur=dur)

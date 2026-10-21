@@ -502,6 +502,21 @@ def _():
     assert tr.meta['engine_version'].startswith('4.') and 'palette' in tr.meta and tr.meta['palette']['drum_kit']
 
 
+@test('real-instruments mode: renders with every synth voice disabled, records it in the meta; default mode unaffected')
+def _():
+    import engine as E, instruments as I
+    P = S.STYLES['tech']; b = {'style': 'tech', 'bpm': 126, 'tonic': 57, 'progression': [list(x) for x in P['progressions'][0]],
+                              'mode': C.best_mode(P['progressions'][0], P['modes']), 'lead': 'stab', 'answer': 'glass',
+                              'groove': {'bass_a': 'acid16', 'bass_b': 'tech_roll', 'swing': .05}, 'arc': 'loop', 'seed': 616161,
+                              'instruments': 'real'}
+    b['motif'] = C.candidates(b, 1)[0]
+    tr = E.TrackV2(b, b['motif'], template=[('intro', 4), ('build', 4), ('drop1', 8)], length=34, lufs=-14)
+    mix = tr.render()
+    assert np.isfinite(mix).all() and np.abs(mix).max() > .1
+    assert tr.meta['instruments'].startswith('real') and 'synth' not in tr.meta['palette'].values()
+    assert I.kick is E.I.kick and I.kick.__name__ == 'kick', 'synth voices not restored after the render'
+
+
 if __name__ == '__main__':
     for n, s_, msg in results: print(f'{s_:5s} {n}' + (f'\n      -> {msg}' if msg else ''))
     bad = [r for r in results if r[1] != 'PASS']

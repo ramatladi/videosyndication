@@ -51,6 +51,10 @@ Sello asked for real sampled instruments and more variety per track, produced an
   variations at phrase ends, timing feel (pushed / laid back) and velocity humanisation.
 - `brief_check.py` flags a seed whose sound set repeats 55% or more of one of the last 6 same-style tracks
   (`sound` fingerprint in `catalog.json`); pick another seed.
+- **Real-instruments mode** (brief `"instruments": "real"`, made for Sello's listening set on 21 Oct 2026): every
+  sound is a recording — acoustic/electric instruments, acoustic drum kits, upright/fretless/finger/pick bass,
+  strings + choir instead of synth pads, real cymbals instead of noise sweeps. All synth voices are disabled during
+  the render (any use is an error). Not used for scheduled releases unless Sello asks.
 - All of this is checked technically (tests, qualification, QC). **Nobody has listened** to v4 output; whether it
   sounds less synthetic is unverified until Sello hears it.
 

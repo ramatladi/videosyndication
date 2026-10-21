@@ -177,7 +177,8 @@ class TrackV2:
             raise RuntimeError('engine v4 needs the sampled instruments: apt-get install -y fluid-soundfont-gm fluidsynth; pip install pyfluidsynth==1.4.0')
         SM.check_soundfont()                       # fail closed on any other SoundFont build
         self.sampled = True
-        self.pal = SM.Palette(brief['seed'], self.style_name)
+        self.real = brief.get('instruments') == 'real'          # recorded instruments only, no synthesis at all
+        self.pal = SM.Palette(brief['seed'], self.style_name, real=self.real)
         v = track_variation(brief['seed'], self.style_name)
         self.voicing = v['voicing']
         cv = COMP_VARIANTS.get(self.P['comp'], [])
@@ -185,10 +186,12 @@ class TrackV2:
         if cv and v['comp_swap']: self.comp_a, self.comp_b = self.comp_b, self.comp_a
         self.hat_vars = [HAT_VARIANTS[i] for i in v['hat_vars']]
         self.pad_src = v['pad_src']
+        if self.real: self.pad_src = 'strings' if v['pad_src'] != 'blend' else 'choir'
         self.arp_shape = v['arp_shape']; self.bass_var = v['bass_var']; self.kick_var = v['kick_var']
         self.feel = v['feel_ms']            # ms: whole-band push (-) / laid-back (+) on hats, perc & comp
         self.prev_voicing = None
         if self.pal: self.meta['palette'] = self.pal.describe()
+        self.meta['instruments'] = 'real (recorded instruments only)' if self.real else 'recorded + synth'
         self.meta.update({'voicing': self.voicing, 'pad_source': self.pad_src, 'feel_ms': self.feel,
                           'comp_variant': v['comp_b'], 'comp_swap': v['comp_swap'], 'hat_variants': v['hat_vars'],
                           'arp_shape': v['arp_shape'], 'bass_variation': v['bass_var'], 'kick_variation': v['kick_var']})
@@ -238,6 +241,7 @@ class TrackV2:
         """Any melodic voice: sampled when a recorded instrument exists for it, else the engine's synth voice."""
         if self.pal is not None and self.pal.sampled(kind):
             return SM.note(self.pal, kind, m, dur, vel) * 4.0
+        if self.real: raise RuntimeError(f'real-instruments mode has no recording for {kind!r}')
         return I.note(kind, m, dur, vel)
 
     def perc_hit(self, name, vel):
@@ -247,6 +251,8 @@ class TrackV2:
 
     def hat_sig(self, op, vel):
         mode = self.pal.hats if self.pal else 'synth'
+        if self.real:
+            return SM.drum(self.pal, 'hat_open' if op else 'hat', vel, kit=self.pal.kit, dur=.3 if op else .08).mean(1) * 3.0
         syn = I.hat(op, vel)
         if mode == 'synth': return syn
         smp = SM.drum(self.pal, 'hat_open' if op else 'hat', vel, kit=25 if mode == '808' else 0, dur=.3 if op else .08).mean(1) * 3.0
@@ -255,6 +261,11 @@ class TrackV2:
 
     def clap_sig(self, vel, tail=True):
         mode = self.pal.clap if self.pal else 'synth'
+        if self.real:      # a real hand clap, doubled slightly late for a two-person clap
+            a = SM.drum(self.pal, 'clap', vel, kit=self.pal.kit, dur=.2).mean(1) * 3.0
+            b = SM.drum(self.pal, 'clap', vel * .8, kit=0, dur=.2).mean(1) * 3.0
+            d = int(.011 * SR); n = max(len(a), len(b) + d)
+            return np.pad(a, (0, n - len(a))) + .6 * np.pad(b, (d, n - len(b) - d))
         syn = I.clap(vel, tail)
         if mode == 'synth': return syn
         smp = SM.drum(self.pal, 'clap', vel, kit=25 if mode == '808' else 0, dur=.2).mean(1) * 3.0
@@ -264,10 +275,16 @@ class TrackV2:
     def snare_sig(self, vel, tail=True):
         if self.pal is None: return I.snare(vel, tail)
         smp = SM.drum(self.pal, 'snare', vel, dur=.25).mean(1) * 3.0
+        if self.real: return smp
         syn = I.snare(vel, tail); n = max(len(syn), len(smp))
         return np.pad(syn, (0, n - len(syn))) * .35 + np.pad(smp, (0, n - len(smp))) * .85
 
     def kick_sig(self, vel, kind):
+        if self.real:      # two recorded bass drums (kit + acoustic), the second adds low-end weight
+            a = SM.drum(self.pal, 'kick', vel, dur=.35).mean(1) * 3.0
+            b = SM.drum(self.pal, 'kick_ac', vel, kit=0, dur=.35).mean(1) * 3.0
+            n = max(len(a), len(b)); x = np.pad(a, (0, n - len(a))) + .7 * np.pad(b, (0, n - len(b)))
+            return np.tanh(1.3 * (x + .8 * filt(x, 110)))         # saturate/EQ the recording (processing, not synthesis)
         k = I.kick(vel, kind)
         if self.pal is None or not self.pal.kick_layer: return k
         smp = SM.drum(self.pal, 'kick', vel, dur=.3).mean(1) * 3.0
@@ -321,7 +338,25 @@ class TrackV2:
                     self.place(dst, self.voice(kind, v + (12 if kind in ('stab', 'pluck') else 0), dur, vv / len(voices) * 2), tt, pan + p)
 
     # ------------------------------------------------------------ render
+    SYNTH_VOICES = ('kick', 'clap', 'hat', 'shaker', 'conga', 'rim', 'bass_note', 'pad_chord', 'lead_note', 'snare', 'snap', 'tamb',
+                    'tom', 'wood', 'bell', 'acid_note', 'funk_bass', 'piano_note', 'organ_note', 'strings_note', 'brass_note',
+                    'guitar_note', 'stab_note', 'polysynth_note', 'topline_note', 'marimba_note', 'steel_note', 'rimsynth_note', 'note')
+
     def render(self):
+        if not self.real: return self._render()
+        # real-instruments mode: every synthesised voice is disabled for the duration of the render, so any
+        # synth sound reaching the mix is an error, not a silent substitute
+        saved = {n: getattr(I, n) for n in self.SYNTH_VOICES}
+        def refuse(name):
+            def f(*a, **k): raise RuntimeError(f'synth voice {name}() used in real-instruments mode')
+            return f
+        try:
+            for n in self.SYNTH_VOICES: setattr(I, n, refuse(n))
+            return self._render()
+        finally:
+            for n, f in saved.items(): setattr(I, n, f)
+
+    def _render(self):
         I._cache.clear(); SM.clear_cache()    # bounded memory across many renders in one process (renders are deterministic)
         b, h, P = self.b, self.h, self.P
         L = {k: self.zeros() for k in ('kick', 'clap', 'hats', 'perc', 'bass', 'pad', 'comp', 'lead', 'answer', 'counter', 'fx')}
@@ -351,7 +386,13 @@ class TrackV2:
                        'interlude': 1500, 'groove': 2000, 'outro': 1700}.get(name, 3000)
                 if P['pad'] in ('warm', 'supersaw') and cst:      # one pad per chord, never across a change
                     c2 = cut * (1.6 if P['pad'] == 'supersaw' else 1.0)
-                    src = 'blend' if (P['pad'] == 'supersaw' and self.pad_src == 'strings') else self.pad_src
+                    src = 'blend' if (P['pad'] == 'supersaw' and self.pad_src == 'strings' and not self.real) else self.pad_src
+                    if self.real and P['pad'] == 'supersaw': src = 'choir'
+                    if src == 'choir':           # real mode: strings + "ahh" choir instead of a synth pad
+                        for j, v in enumerate(self.voiced(chord)):
+                            pn = (-.45, -.15, .15, .45)[j % 4]; dd = self.bar * cl * .97
+                            self.place(L['pad'], self.voice('strings', v, dd, .5) * .6, self.T(B, 0, self.hum(8)), pn)
+                            self.place(L['pad'], SM.note(self.pal, 'choir', v + 12, dd, .45) * 4.0 * .45, self.T(B, 0, self.hum(8)), -pn)
                     if src in ('synth', 'blend'):
                         self.place(L['pad'], I.pad_chord(chord, self.bar * cl, c2, si), self.T(B), g=(.6 if src == 'blend' else 1.0))
                     if src in ('strings', 'blend'):
@@ -369,7 +410,7 @@ class TrackV2:
                         for q in (0, 2.5):
                             if q < 4 * cl: self.chord_hit(L['pad'], 'piano', chord, self.T(B, q), (4 * cl - q) * self.beat * .95, .55)
                     else:
-                        if self.pad_src != 'synth':
+                        if self.pad_src != 'synth' or self.real:
                             for j, v in enumerate(self.voiced(chord)):
                                 self.place(L['pad'], self.voice('strings', v, self.bar * cl * .97, .4) * .6, self.T(B), (-.4, -.1, .1, .4)[j % 4])
                         else:
@@ -398,7 +439,8 @@ class TrackV2:
                             q, dd, o = item[:3]; vel = item[3] if len(item) > 3 else 1.0
                             self.bass_voice(L['bass'], h.roots[ci] + o, dd * self.beat * .95, B, q, vel * (.92 + .1 * self.rng.random()), bright=d2)
                 elif name in ('interlude', 'break2') and cst:      # held for exactly one chord
-                    self.place(L['bass'], I.bass_note(h.roots[ci], cl * self.bar * .9, .15), self.T(B), g=.6)
+                    if self.real: self.place(L['bass'], self.real_bass(h.roots[ci], cl * self.bar * .9, .5), self.T(B), g=.6)
+                    else: self.place(L['bass'], I.bass_note(h.roots[ci], cl * self.bar * .9, .15), self.T(B), g=.6)
                 # ---------------- hats / perc
                 if drums or name in ('break', 'interlude', 'build'):
                     soft = .45 if not drums else 1.0
@@ -419,7 +461,7 @@ class TrackV2:
                             self.place(L['perc'], self.perc_hit(inst, v), self.T(B, q, self.hum(4)), pan)
                     if d2 and 'triplet_perc' in drop2:
                         for s3 in range(12):
-                            if s3 % 3: self.place(L['perc'], I.wood(2300, .22), self.T(B, s3 / 3, self.hum(2)), .55)
+                            if s3 % 3: self.place(L['perc'], self.perc_hit('wood', .22) if self.real else I.wood(2300, .22), self.T(B, s3 / 3, self.hum(2)), .55)
                 # ---------------- backbeat + fills
                 if drums and name != 'intro':
                     bb = P['backbeat']
@@ -428,13 +470,17 @@ class TrackV2:
                         hv = .82 + .16 * self.rng.random()
                         if bb == 'clap': self.place(L['clap'], self.clap_sig(.9 * hv), self.T(B, q, self.hum(2)))
                         elif bb == 'snare': self.place(L['clap'], self.snare_sig(.85 * hv), self.T(B, q, self.hum(2)))
-                        elif bb == 'snap': self.place(L['clap'], I.snap(.8 * hv), self.T(B, q, self.hum(2)))
+                        elif bb == 'snap':
+                            if self.real: self.place(L['clap'], SM.drum(self.pal, 'side_stick', .8 * hv).mean(1) * 3.0 + 0, self.T(B, q, self.hum(2)))
+                            else: self.place(L['clap'], I.snap(.8 * hv), self.T(B, q, self.hum(2)))
                         else: self.place(L['clap'], self.clap_sig(.55 * hv), self.T(B, q)); self.place(L['perc'], self.perc_hit('rim', .45), self.T(B, q + .02), -.4)
                     if fill_bar: self.fill(L, B)
                 if name == 'build':
                     rel = k / nb; step = 1 if rel < .5 else (.5 if rel < .75 else .25)
                     for q in np.arange(0, 4, step):
-                        hit = I.snare(.25 + .7 * (k * 4 + q) / (nb * 4), tail=False) if P['backbeat'] == 'snare' else I.clap(.25 + .7 * (k * 4 + q) / (nb * 4), tail=False)
+                        bv = .25 + .7 * (k * 4 + q) / (nb * 4)
+                        if self.real: hit = self.snare_sig(bv) if P['backbeat'] == 'snare' or q % 1 else self.clap_sig(bv)
+                        else: hit = I.snare(bv, tail=False) if P['backbeat'] == 'snare' else I.clap(bv, tail=False)
                         self.place(L['clap'], hit, self.T(B, q))
                 # ---------------- comping
                 comp_on = name in ('groove', 'hook', 'drop1', 'drop2') or (name == 'outro' and k < 8) or \
@@ -467,10 +513,18 @@ class TrackV2:
                     tone = C.fold(root + (sv if k % 2 == 0 else th), h.tonic - 5, h.tonic + 6)
                     self.place(L['counter'], self.voice('rhodes' if lead_k != 'rhodes' else 'glass', tone, 3 * self.beat, .55), self.T(B, .5, self.hum(6)), -.3, .6)
                 # ---------------- fx
-                if name == 'build' and k == 0:
+                if self.real:      # real cymbals instead of noise sweeps: reverse-cymbal swell into the drop, crash on it
+                    if name == 'build' and k == nb - 1:
+                        sw = SM.note(self.pal, 'cymbal_swell', 72, 2.2, .8).mean(1) * 4.0
+                        nz = np.nonzero(np.abs(sw) > np.abs(sw).max() * .05)[0]
+                        end = (nz[-1] if len(nz) else len(sw)) / SR
+                        self.place(L['fx'], sw, self.T(B + 1) - end, .1, g=.8)
+                    if name in ('drop1', 'drop2', 'hook') and k == 0:
+                        self.place(L['fx'], SM.drum(self.pal, 'crash', .9, dur=1.5) * 3.0, self.T(B), 0, g=.7)
+                elif name == 'build' and k == 0:
                     rs = int(nb * self.bar * SR); tr = np.arange(rs) / rs
                     self.place(L['fx'], filt(self.rng.standard_normal(rs), 2500, 'high') * tr ** 2, self.T(B), g=.3)
-                if name in ('drop1', 'drop2', 'hook') and k == 0:
+                if not self.real and name in ('drop1', 'drop2', 'hook') and k == 0:
                     t = np.arange(int(2.5 * SR)) / SR
                     self.place(L['fx'], filt(self.rng.standard_normal(len(t)), 5500, 'high') * np.exp(-t * 1.7), self.T(B), g=.4)
             bar += nb
@@ -505,7 +559,19 @@ class TrackV2:
             return [x for x in pat if x[0] < 3.5] + [(3.5, .25, 7, .8), (3.75, .2, 0, .7)]
         return pat
 
+    def real_bass(self, m, dur, vel):
+        """A recorded bass (upright / finger / fretless / pick) with its own low end reinforced by EQ
+        (a low-passed copy of the same recording, saturated) — no oscillator."""
+        mm = m
+        while mm < 28: mm += 12
+        g = SM.note(self.pal, 'bass_real', mm, dur, min(1.0, vel)).mean(1) * 4.0
+        x = np.tanh(1.2 * (g + .9 * filt(g, 140)))
+        r = min(len(x), int(.008 * SR)); x[-r:] *= np.linspace(1, 0, r)
+        return x
+
     def bass_voice(self, dst, m, dur, B, q, vel, bright=False):
+        if self.real:
+            self.place(dst, self.real_bass(m, dur, .7 * vel + (.15 if bright else 0)) * vel, self.T(B, q)); return
         kind = self.P['bass']
         if kind == 'acid': sig = I.acid_note(m, dur, min(1.0, vel + (.2 if bright else 0)))
         elif kind == 'funk':
@@ -646,7 +712,7 @@ class TrackV2:
     def fill(self, L, B):
         f = self.P['fill']
         if f in ('clap_conga', 'clap_roll', 'conga_run') and f != 'conga_run' and (f == 'clap_roll' or (B // 8) % 2 == 0):
-            for i, q in enumerate(np.arange(3, 4, .25)): self.place(L['clap'], I.clap(.35 + .15 * i, tail=False), self.T(B, q))
+            for i, q in enumerate(np.arange(3, 4, .25)): self.place(L['clap'], self.clap_sig(.35 + .15 * i) if self.real else I.clap(.35 + .15 * i, tail=False), self.T(B, q))
         elif f in ('clap_conga', 'conga_run'):
             for i, (q, f0) in enumerate(((3, 260), (3.25, 230), (3.5, 200), (3.75, 170))):
                 hit = self.perc_hit(('conga_hi', 'conga_hi', 'conga_lo', 'conga_lo')[i], .6) if self.pal is not None else I.conga(f0, .6)
@@ -663,7 +729,7 @@ class TrackV2:
         elif f == 'perc_drop':
             for q in (3.25, 3.5, 3.75): self.place(L['perc'], self.perc_hit('rim', .45), self.T(B, q, self.hum(2)), -.4)
         elif f == 'filter_drop':
-            for i, q in enumerate(np.arange(3, 4, .25)): self.place(L['clap'], I.clap(.25 + .12 * i, tail=False), self.T(B, q))
+            for i, q in enumerate(np.arange(3, 4, .25)): self.place(L['clap'], self.clap_sig(.25 + .12 * i) if self.real else I.clap(.25 + .12 * i, tail=False), self.T(B, q))
 
 
 # ---------------------------------------------------------------- master
