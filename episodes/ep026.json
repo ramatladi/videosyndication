@@ -1,0 +1,500 @@
+{
+ "engine": "cast",
+ "id": 26,
+ "slug": "october-is-all-about-me",
+ "title": "October Is All About Me",
+ "trend": "TikTok 'October is all about me' main-character-month sound trend (Later's October 2026 US TikTok trends list) — acted out at a small-town Friday night high school football game",
+ "target_seconds": 180,
+ "length_reason": "Quick one-clip POV/sound format whose originals are short single clips, so it stays at the low end (3:00), which also keeps it inside Instagram's Reels limit.",
+ "scene": "stadium",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "october is all about me",
+  "friday night football",
+  "it's my month"
+ ],
+ "youtube_title": "October is all about me: Friday night football edition 🏈👑",
+ "description": "It's her birthday month, her snack stand and her halftime. The coach, the football and the team's bulldog have other plans.\n\n#octoberisallaboutme #maincharactermonth #fridaynightfootball #highschoolfootball #birthdaymonth #comedy #animation #funny",
+ "tags": [
+  "october is all about me",
+  "main character month",
+  "friday night football",
+  "high school football",
+  "birthday month",
+  "bulldog",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny"
+ ],
+ "tiktok_caption": "october is all about me… friday night football edition 🏈👑 #octoberisallaboutme #maincharacter #fridaynightfootball #fyp",
+ "cast": [
+  {
+   "id": "tiff",
+   "name": "Tiffany",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "ponytail",
+    "color": "#e3b04b"
+   },
+   "top": {
+    "color": "#e84393",
+    "pattern": "plain"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ffffff",
+   "accessories": [
+    "crown:#f1c40f",
+    "sunglasses"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "label_color": "#fd79a8",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "coach",
+   "name": "Coach Dwayne",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.1,
+   "hair": {
+    "style": "short",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#1e3799",
+    "pattern": "hoodie"
+   },
+   "bottom": "#7f8c8d",
+   "shoes": "#2d3436",
+   "accessories": [
+    "cap:#c0392b",
+    "whistle"
+   ],
+   "eye": "sleepy",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#74b9ff",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "ball",
+   "name": "The Football",
+   "kind": "mascot",
+   "shape": "football",
+   "color": "#8b4a2b",
+   "scale": 0.9,
+   "accessories": [
+    "sunglasses",
+    "tie:#f1c40f"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#e17055",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 1,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "gravy",
+   "name": "Gravy",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#d2a46c",
+   "belly": "#f5e3c8",
+   "scale": 0.95,
+   "top": {
+    "color": "#c0392b",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "1"
+   },
+   "accessories": [
+    "scarf:#1e3799"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#fdcb6e",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.9
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "tiff",
+   "text": "October is all about me. My birthday month. My snack stand. My halftime.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "coach",
+   "text": "October is the playoffs, Tiffany. It's about the team.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "ball",
+   "text": "Respectfully, it's a football game. I am the football.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "sting"
+  },
+  {
+   "spk": "tiff",
+   "text": "This year I bought myself a crown. Nobody stopped me.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "coach",
+   "text": "Nobody could. You were at the register.",
+   "shot": "W"
+  },
+  {
+   "spk": "tiff",
+   "text": "Welcome to the snack stand. Tonight, everything is named after me.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "coach",
+   "text": "Can I just get some nachos?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "tiff",
+   "text": "We have Tiffchos. Same chip. More confidence.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "coach",
+   "text": "How much?",
+   "shot": "CU"
+  },
+  {
+   "spk": "tiff",
+   "text": "Four dollars and one compliment.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "coach",
+   "text": "Your crown is very round.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.9
+  },
+  {
+   "spk": "tiff",
+   "text": "That's worth three dollars. I'll take it.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gravy",
+   "text": "Woof.",
+   "shot": "gravy",
+   "pre": 0.7
+  },
+  {
+   "spk": "coach",
+   "text": "Gravy stays out of this. He's a professional.",
+   "shot": "W"
+  },
+  {
+   "spk": "ball",
+   "text": "Let's be honest about who the star is. Every Friday, ninety thousand eyes on me.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "coach",
+   "text": "It's a high school. We have four hundred seats.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ball",
+   "text": "And every seat is looking at me.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tiff",
+   "text": "They're looking at the scoreboard.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "ball",
+   "text": "I've been kicked more than a vending machine. And still, I show up.",
+   "shot": "CU"
+  },
+  {
+   "spk": "coach",
+   "text": "You show up in a bag. I carry you.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "ball",
+   "text": "That's a limo with a zipper.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "rimshot"
+  },
+  {
+   "spk": "coach",
+   "text": "Okay. Kickoff in two minutes. Let's go, buddy.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "ball",
+   "text": "Wait. Tonight I wanted a solo. Just me, in the air, one slow spin.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "coach",
+   "text": "Kickoff!",
+   "shot": "W",
+   "gesture": "point",
+   "after": "whoosh"
+  },
+  {
+   "spk": "ball",
+   "text": "I'm back. I have grass in places I don't have.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.9
+  },
+  {
+   "spk": "tiff",
+   "text": "Welcome to my month, sweetie.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tiff",
+   "text": "Okay. Halftime. This is my moment.",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "tiff",
+   "text": "Slow walk across the fifty yard line. Wind in my hair. Crown on.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "coach",
+   "text": "The marching band uses the field at halftime.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "tiff",
+   "text": "I told the band. I wrote it on a napkin.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "coach",
+   "text": "The band doesn't read napkins. The band has sheet music and no mercy.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "ball",
+   "text": "I've seen it. Tubas don't turn.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tiff",
+   "text": "Here I go. Main character walk.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "tiff",
+   "text": "Okay, there's a trombone. I'm fine. Oh, that's a lot of drums.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "gravy",
+   "text": "Woof.",
+   "shot": "gravy",
+   "pre": 0.7
+  },
+  {
+   "spk": "tiff",
+   "text": "They marched right through me. In formation. They spelled the word go.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "coach",
+   "text": "That's the fight song, Tiffany. They spell it every week.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ball",
+   "text": "At least you got a solo. I got a toe.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tiff",
+   "text": "It's fine. It's still my month. There are eleven days left.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tiff",
+   "text": "I just need one person to say it out loud.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "coach",
+   "text": "Tiffany. Look at the scoreboard.",
+   "shot": "W",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "tiff",
+   "text": "Oh my gosh. It says happy birthday!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "tiff",
+   "text": "Thank you. Thank you, everyone. I didn't think anybody knew.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "ball",
+   "text": "Keep reading.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "tiff",
+   "text": "Happy birthday, Gravy?",
+   "shot": "CU",
+   "pre": 0.9,
+   "after": "sting"
+  },
+  {
+   "spk": "coach",
+   "text": "It's Gravy Night. His tenth birthday. Bobbleheads for the first five hundred fans.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "tiff",
+   "text": "We have four hundred seats!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "coach",
+   "text": "People stood.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gravy",
+   "text": "Hello, Tiffany.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "tiff",
+   "text": "You talk?",
+   "shot": "W"
+  },
+  {
+   "spk": "gravy",
+   "text": "Once a year. On my birthday. In October.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ball",
+   "text": "Every year I forget he can do that.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gravy",
+   "text": "October has always been all about me. Ten years. Ten bobbleheads.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tiff",
+   "text": "So I wore a crown to your party.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "gravy",
+   "text": "It's a nice crown. I only need tonight. You take the rest of the month.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "tiff",
+   "text": "Really? All eleven days?",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "gravy",
+   "text": "Ten. The last one is about candy. Nobody wins that one.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "coach",
+   "text": "And the playoffs?",
+   "shot": "W",
+   "pre": 0.6
+  },
+  {
+   "spk": "all",
+   "text": "No.",
+   "shot": "W",
+   "gesture": "cross",
+   "after": "rimshot"
+  },
+  {
+   "spk": "ball",
+   "text": "Next October, football bobbleheads. It's just a ball. Nailed it.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  }
+ ]
+}
