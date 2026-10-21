@@ -1,89 +1,101 @@
 {
- "note": "Activation per agreed rollout gate. active-technical = passed 3 full qualification renders + regression + independent review, NOT listened to. active-auditioned = also heard and approved by Sello. All 12 activated 2026-10-10 as active-technical (qualification 36/36 pass, tests, full build, independent code review). None has been listened to.",
+ "note": "Activation per agreed rollout gate. active-technical = passed 3 full qualification renders + regression + independent review, NOT listened to. active-auditioned = also heard and approved by Sello. All 12 activated 2026-10-10 as active-technical. Re-qualified on engine v4 (sampled instruments) 2026-10-21: 36/36 full renders pass blocking QC, tests 29/29, independent code review approved after fixes. None has been listened to.",
  "styles": {
   "deep": {
    "status": "active-technical",
-   "qualified": "2026-10-10",
+   "qualified": "2026-10-21",
    "auditioned_by": null,
    "activated": "2026-10-10",
-   "evidence": "qualification/2026-10-10.json"
+   "evidence": "qualification/2026-10-21-v4.json",
+   "engine": "4.0.0"
   },
   "melodic": {
    "status": "active-technical",
-   "qualified": "2026-10-10",
+   "qualified": "2026-10-21",
    "auditioned_by": null,
    "activated": "2026-10-10",
-   "evidence": "qualification/2026-10-10.json"
+   "evidence": "qualification/2026-10-21-v4.json",
+   "engine": "4.0.0"
   },
   "house": {
    "status": "active-technical",
-   "qualified": "2026-10-10",
+   "qualified": "2026-10-21",
    "auditioned_by": null,
    "activated": "2026-10-10",
-   "evidence": "qualification/2026-10-10.json"
+   "evidence": "qualification/2026-10-21-v4.json",
+   "engine": "4.0.0"
   },
   "afro": {
    "status": "active-technical",
-   "qualified": "2026-10-10",
+   "qualified": "2026-10-21",
    "auditioned_by": null,
    "activated": "2026-10-10",
-   "evidence": "qualification/2026-10-10.json"
+   "evidence": "qualification/2026-10-21-v4.json",
+   "engine": "4.0.0"
   },
   "tropical": {
    "status": "active-technical",
-   "qualified": "2026-10-10",
+   "qualified": "2026-10-21",
    "auditioned_by": null,
    "activated": "2026-10-10",
-   "evidence": "qualification/2026-10-10.json"
+   "evidence": "qualification/2026-10-21-v4.json",
+   "engine": "4.0.0"
   },
   "nudisco": {
    "status": "active-technical",
-   "qualified": "2026-10-10",
+   "qualified": "2026-10-21",
    "auditioned_by": null,
    "activated": "2026-10-10",
-   "evidence": "qualification/2026-10-10.json"
+   "evidence": "qualification/2026-10-21-v4.json",
+   "engine": "4.0.0"
   },
   "progressive": {
    "status": "active-technical",
-   "qualified": "2026-10-10",
+   "qualified": "2026-10-21",
    "auditioned_by": null,
    "activated": "2026-10-10",
-   "evidence": "qualification/2026-10-10.json"
+   "evidence": "qualification/2026-10-21-v4.json",
+   "engine": "4.0.0"
   },
   "tech": {
    "status": "active-technical",
-   "qualified": "2026-10-10",
+   "qualified": "2026-10-21",
    "auditioned_by": null,
    "activated": "2026-10-10",
-   "evidence": "qualification/2026-10-10.json"
+   "evidence": "qualification/2026-10-21-v4.json",
+   "engine": "4.0.0"
   },
   "vocal": {
    "status": "active-technical",
-   "qualified": "2026-10-10",
+   "qualified": "2026-10-21",
    "auditioned_by": null,
    "activated": "2026-10-10",
-   "evidence": "qualification/2026-10-10.json"
+   "evidence": "qualification/2026-10-21-v4.json",
+   "engine": "4.0.0"
   },
   "soulful": {
    "status": "active-technical",
-   "qualified": "2026-10-10",
+   "qualified": "2026-10-21",
    "auditioned_by": null,
    "activated": "2026-10-10",
-   "evidence": "qualification/2026-10-10.json"
+   "evidence": "qualification/2026-10-21-v4.json",
+   "engine": "4.0.0"
   },
   "disco": {
    "status": "active-technical",
-   "qualified": "2026-10-10",
+   "qualified": "2026-10-21",
    "auditioned_by": null,
    "activated": "2026-10-10",
-   "evidence": "qualification/2026-10-10.json"
+   "evidence": "qualification/2026-10-21-v4.json",
+   "engine": "4.0.0"
   },
   "french": {
    "status": "active-technical",
-   "qualified": "2026-10-10",
+   "qualified": "2026-10-21",
    "auditioned_by": null,
    "activated": "2026-10-10",
-   "evidence": "qualification/2026-10-10.json"
+   "evidence": "qualification/2026-10-21-v4.json",
+   "engine": "4.0.0"
   }
  }
 }
