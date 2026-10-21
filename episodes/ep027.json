@@ -1,0 +1,465 @@
+{
+ "engine": "cast",
+ "id": 27,
+ "slug": "look-haunted-house-training",
+ "title": "Look... Haunted House Training Night",
+ "trend": "TikTok 'Look…' two-person reaction format (one person says 'look…' and names a scary thing, the other panics, then it flips to a more personal fear; SocialBee's October 2026 US TikTok trends list) — acted out on training night at a homemade haunted house ten days before Halloween",
+ "target_seconds": 180,
+ "length_reason": "Quick two-person reaction format whose originals are single short clips, so it stays at the low end (3:00), which also keeps it inside Instagram's Reels limit.",
+ "scene": "halloween_porch",
+ "desk": false,
+ "music": "spooky",
+ "intro": [
+  "look...",
+  "haunted house training night",
+  "he's not scared of monsters"
+ ],
+ "youtube_title": "Look... he's not scared of monsters, just everything else 👻",
+ "description": "Opening night is Friday and the new scare guy fears nothing in the haunted house. Voicemails, group projects and quick questions are a different story.\n\n#looktrend #look #hauntedhouse #halloween #spookyseason #comedy #animation #funny",
+ "tags": [
+  "look trend",
+  "look challenge",
+  "haunted house",
+  "halloween",
+  "spooky season",
+  "ghost",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny"
+ ],
+ "tiktok_caption": "look… a voicemail from your landlord 👻 haunted house training night #looktrend #hauntedhouse #halloween #fyp",
+ "cast": [
+  {
+   "id": "rosa",
+   "name": "Rosa",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "bun",
+    "color": "#3b2416"
+   },
+   "top": {
+    "color": "#6c3483",
+    "pattern": "suit",
+    "pattern_color": "#e67e22"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#1b1b1b",
+   "accessories": [
+    "mic_headset",
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#c39bd3",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "benji",
+   "name": "Benji",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.05,
+   "hair": {
+    "style": "curly",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#1e1e1e",
+    "pattern": "stripes",
+    "pattern_color": "#f5f5f5"
+   },
+   "bottom": "#1e1e1e",
+   "shoes": "#f5f5f5",
+   "accessories": [
+    "beanie:#e67e22"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#f39c12",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "mort",
+   "name": "Mortimer",
+   "kind": "mascot",
+   "shape": "ghost",
+   "color": "#eef2f7",
+   "scale": 1.1,
+   "accessories": [
+    "glasses",
+    "tie:#7f8c8d"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#dfe6e9",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "fog",
+   "name": "The Fog Machine",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#636e72",
+   "scale": 0.9,
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "frown",
+   "label_color": "#b2bec3",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "rosa",
+   "text": "Look... a werewolf.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "benji",
+   "text": "Aw. He's got a little sweater on.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosa",
+   "text": "Look... a voicemail from your landlord.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "benji",
+   "text": "No! Don't play it! Delete it! Delete my whole phone!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "rosa",
+   "text": "Opening night is Friday, Benji. You're supposed to be the scariest thing in here.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "benji",
+   "text": "And I will be. I'm just not scared of scary things.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "benji",
+   "text": "I'm scared of real things. Like phone calls. And people who say quick question.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "fog",
+   "text": "Quick question.",
+   "shot": "CU",
+   "pre": 0.7
+  },
+  {
+   "spk": "benji",
+   "text": "Ah! Who said that?",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "fog",
+   "text": "The fog machine. I've been on this porch since August. Nobody asks how I'm doing.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "fog",
+   "text": "I'm always nervous. That's why this porch looks so good.",
+   "shot": "CU",
+   "after": "whoosh"
+  },
+  {
+   "spk": "rosa",
+   "text": "Fine. Training. I say look, you react. Like the videos.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "benji",
+   "text": "Got it. Hit me.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "rosa",
+   "text": "Look... a zombie hand coming out of the ground.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "benji",
+   "text": "High five, buddy. Love the effort.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "rosa",
+   "text": "Look... a group project. Due tomorrow. Your partners are both named Chad.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "benji",
+   "text": "Two Chads? No! I'll do it alone! I'll do the whole thing alone!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "sting"
+  },
+  {
+   "spk": "fog",
+   "text": "Too much fog. Too much fog. Sorry.",
+   "shot": "fog"
+  },
+  {
+   "spk": "rosa",
+   "text": "We can't scare guests with group projects, Benji.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "benji",
+   "text": "You could. Put a sign on the door. Please introduce yourself to the group.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "benji",
+   "text": "My turn. Look... a smoke detector.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "fog",
+   "text": "Where? Don't tell it about me! We have history!",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "benji",
+   "text": "Look... someone plugging you in right next to the microwave.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "fog",
+   "text": "The lights go out and everyone looks at me! It was the microwave once!",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "boing"
+  },
+  {
+   "spk": "rosa",
+   "text": "Okay. Let's test the animatronic. The old guy on the stairs.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "rosa",
+   "text": "I paid extra for the blinking.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "mort",
+   "text": "You did not pay for anything, madam.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "rosa",
+   "text": "He talks too? That was not in the warranty.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "benji",
+   "text": "Look... a chain rattling up in the attic.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "mort",
+   "text": "That is my chain. I keep it up there. That is where I keep my things.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosa",
+   "text": "Look... a door that slowly opens all by itself.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "mort",
+   "text": "I did that. I was being polite.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "benji",
+   "text": "Look... a guy with a flashlight and a podcast saying, did you hear that?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "mort",
+   "text": "No. Not the podcast men. They ask me questions in the dark and never wait for the answer.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "rosa",
+   "text": "Okay, wait. Is the animatronic a real ghost?",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "mort",
+   "text": "I am Mortimer. I have lived in this house since eighteen ninety four.",
+   "shot": "CU"
+  },
+  {
+   "spk": "mort",
+   "text": "And Benjamin. You have not called.",
+   "shot": "TWO",
+   "pre": 0.9
+  },
+  {
+   "spk": "benji",
+   "text": "Grandpa Mort? Hi! You look great. Very see-through.",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "rosa",
+   "text": "Grandpa?",
+   "shot": "rosa",
+   "pre": 0.5
+  },
+  {
+   "spk": "benji",
+   "text": "Great great grandpa. I grew up in this house. He tucked me in. Through the wall.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "benji",
+   "text": "That's why nothing here scares me. The werewolf is the neighbor's dog in my old sweater.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "rosa",
+   "text": "You did not tell me any of this when I rented it.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "mort",
+   "text": "His grandmother said it came with an old man on the stairs.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "rosa",
+   "text": "I thought she meant a decoration!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "mort",
+   "text": "She did. I decorate.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "benji",
+   "text": "Grandpa. Look... the family group chat.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "mort",
+   "text": "Not the group chat. Two hundred messages, all soup. I cannot eat soup.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "rosa",
+   "text": "Okay. Can we open on Friday or not?",
+   "shot": "W",
+   "gesture": "hips"
+  },
+  {
+   "spk": "benji",
+   "text": "Look... eight hundred people. On opening night.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "rosa",
+   "text": "Good. That's great. That's the dream.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "benji",
+   "text": "Look... all eight hundred want to speak to the manager.",
+   "shot": "TWO",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "rosa",
+   "text": "No! Close the house! I'm the werewolf now!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "sting"
+  },
+  {
+   "spk": "mort",
+   "text": "Benjamin. Call your grandmother.",
+   "shot": "W",
+   "pre": 0.5
+  }
+ ]
+}
