@@ -725,6 +725,184 @@
      "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
     }
    }
+  },
+  {
+   "release": "mtr009",
+   "date": "2026-10-26",
+   "slot": "2026-10-26T23:55:00",
+   "format": "video",
+   "title": "Concrete Sunrise",
+   "style": "tech",
+   "tonic": 58,
+   "mode": "minor",
+   "key": "Bb minor",
+   "bpm": 125,
+   "lead": "Woodblock",
+   "answer": "Pizzicato Section",
+   "lead_family": "Woodblock",
+   "answer_family": "Pizzicato Section",
+   "chord_pcs": [
+    [
+     1,
+     5,
+     10
+    ],
+    [
+     1,
+     5,
+     10
+    ],
+    [
+     1,
+     6,
+     10
+    ],
+    [
+     0,
+     3,
+     8
+    ]
+   ],
+   "photographer": "Geio Tischler",
+   "photo_page": "https://unsplash.com/photos/an-aerial-view-of-an-island-in-the-middle-of-the-ocean-_D_zFmpg8nE",
+   "metricool_uuid": "-8377679153544476972",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-3833302403085648531.mp4",
+   "style_reference": "Favour - FISHER & Tones And I",
+   "brief": {
+    "engine": "v2",
+    "style": "tech",
+    "release": "hitstyle2-concrete-sunrise",
+    "bpm": 125,
+    "tonic": 58,
+    "progression": [
+     [
+      0,
+      "min"
+     ],
+     [
+      0,
+      "min"
+     ],
+     [
+      8,
+      "maj"
+     ],
+     [
+      10,
+      "maj"
+     ]
+    ],
+    "mode": "minor",
+    "lead": "rim_synth",
+    "answer": "stab",
+    "groove": {
+     "bass_a": "acid16",
+     "bass_b": "tech_roll",
+     "swing": 0.05
+    },
+    "arc": "classic",
+    "loudness_lufs": -9.0,
+    "seed": 976277,
+    "instruments": "real",
+    "motif": {
+     "cell": "offbeat",
+     "contour": "arch",
+     "start": 77,
+     "candidate": 5,
+     "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+    }
+   }
+  },
+  {
+   "release": "mtr010",
+   "date": "2026-10-27",
+   "slot": "2026-10-27T05:55:00",
+   "format": "short",
+   "title": "Endless July",
+   "style": "progressive",
+   "tonic": 59,
+   "mode": "minor",
+   "key": "B minor",
+   "bpm": 127,
+   "lead": "Nylon String Guitar",
+   "answer": "Flute",
+   "lead_family": "Nylon String Guitar",
+   "answer_family": "Flute",
+   "chord_pcs": [
+    [
+     2,
+     6,
+     7,
+     11
+    ],
+    [
+     1,
+     4,
+     9,
+     11
+    ],
+    [
+     2,
+     6,
+     9,
+     11
+    ],
+    [
+     1,
+     4,
+     6,
+     9
+    ]
+   ],
+   "photographer": "Jared Rice",
+   "photo_page": "https://unsplash.com/photos/white-sand-beach-in-el-nido-Tm0XygW6gN8",
+   "metricool_uuid": "-1712618066753797178",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-12459719213816024940.mp4",
+   "style_reference": "Summer - Calvin Harris",
+   "brief": {
+    "engine": "v2",
+    "style": "progressive",
+    "release": "hitstyle2-endless-july",
+    "bpm": 127,
+    "tonic": 59,
+    "progression": [
+     [
+      8,
+      "maj9"
+     ],
+     [
+      10,
+      "add9"
+     ],
+     [
+      0,
+      "m9"
+     ],
+     [
+      7,
+      "m7"
+     ]
+    ],
+    "mode": "minor",
+    "lead": "pluck",
+    "answer": "flute",
+    "groove": {
+     "bass_a": "rolling",
+     "bass_b": "octave",
+     "swing": 0.0
+    },
+    "arc": "prog",
+    "loudness_lufs": -10.0,
+    "seed": 144672,
+    "instruments": "real",
+    "motif": {
+     "cell": "dotted",
+     "contour": "rise",
+     "start": 74,
+     "candidate": 2,
+     "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+    }
+   }
   }
  ]
 }

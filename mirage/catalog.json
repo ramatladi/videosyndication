@@ -469,5 +469,122 @@
   "bass_b": "octave",
   "key": "Bb major",
   "bpm": 123
+ },
+ {
+  "id": "mtr009",
+  "title": "Concrete Sunrise",
+  "status": "published",
+  "style": "tech",
+  "mode": "minor",
+  "motif": {
+   "intervals": [
+    1,
+    4,
+    0,
+    -2,
+    -3,
+    -4
+   ],
+   "onsets": [
+    2,
+    6,
+    10,
+    13,
+    18,
+    22,
+    26
+   ],
+   "durs": [
+    2,
+    2,
+    3,
+    3,
+    2,
+    4,
+    6
+   ]
+  },
+  "progression": [
+   [
+    0,
+    "min"
+   ],
+   [
+    0,
+    "min"
+   ],
+   [
+    8,
+    "maj"
+   ],
+   [
+    10,
+    "maj"
+   ]
+  ],
+  "template": "classic",
+  "lead": "rim_synth",
+  "answer": "stab",
+  "bass_a": "acid16",
+  "bass_b": "tech_roll",
+  "key": "Bb minor",
+  "bpm": 125
+ },
+ {
+  "id": "mtr010",
+  "title": "Endless July",
+  "status": "published",
+  "style": "progressive",
+  "mode": "minor",
+  "motif": {
+   "intervals": [
+    5,
+    4,
+    -4,
+    2,
+    2
+   ],
+   "onsets": [
+    0,
+    6,
+    12,
+    16,
+    22,
+    24
+   ],
+   "durs": [
+    6,
+    6,
+    4,
+    6,
+    2,
+    6
+   ]
+  },
+  "progression": [
+   [
+    8,
+    "maj9"
+   ],
+   [
+    10,
+    "add9"
+   ],
+   [
+    0,
+    "m9"
+   ],
+   [
+    7,
+    "m7"
+   ]
+  ],
+  "template": "prog",
+  "lead": "pluck",
+  "answer": "flute",
+  "bass_a": "rolling",
+  "bass_b": "octave",
+  "key": "B minor",
+  "bpm": 127
  }
 ]
