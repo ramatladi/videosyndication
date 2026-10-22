@@ -1,0 +1,878 @@
+[
+ {
+  "i": 0,
+  "title": "Coral Lanterns",
+  "brief": {
+   "engine": "v2",
+   "style": "tropical",
+   "release": "set-real-take2-01",
+   "bpm": 108,
+   "tonic": 60,
+   "progression": [
+    [
+     9,
+     "m7"
+    ],
+    [
+     5,
+     "maj7"
+    ],
+    [
+     0,
+     "add9"
+    ],
+    [
+     7,
+     "add9"
+    ]
+   ],
+   "mode": "major",
+   "lead": "flute",
+   "answer": "pluck",
+   "groove": {
+    "bass_a": "tropical",
+    "bass_b": "octave",
+    "swing": 0.011
+   },
+   "arc": "classic",
+   "loudness_lufs": -11.0,
+   "seed": 848660,
+   "instruments": "real"
+  },
+  "take1": {
+   "prog": [
+    [
+     5,
+     "maj7"
+    ],
+    [
+     7,
+     "add9"
+    ],
+    [
+     4,
+     "m7"
+    ],
+    [
+     9,
+     "m7"
+    ]
+   ],
+   "lead": "marimba",
+   "answer": "kalimba",
+   "bass_a": "sustain",
+   "bass_b": "tropical",
+   "arc": "early",
+   "seed": 186689
+  },
+  "penalty": 0,
+  "lead_inst": "Flute",
+  "answer_inst": "Harp",
+  "bass_inst": "Acoustic Bass",
+  "pad": "choir",
+  "take1_lead_inst": "Marimba"
+ },
+ {
+  "i": 1,
+  "title": "Saffron Boulevard",
+  "brief": {
+   "engine": "v2",
+   "style": "nudisco",
+   "release": "set-real-take2-02",
+   "bpm": 116,
+   "tonic": 57,
+   "progression": [
+    [
+     0,
+     "m9"
+    ],
+    [
+     5,
+     "9"
+    ],
+    [
+     0,
+     "m9"
+    ],
+    [
+     5,
+     "9"
+    ]
+   ],
+   "mode": "dorian",
+   "lead": "glass",
+   "answer": "strings",
+   "groove": {
+    "bass_a": "syncop",
+    "bass_b": "octave",
+    "swing": 0.018
+   },
+   "arc": "early",
+   "loudness_lufs": -10.0,
+   "seed": 957292,
+   "instruments": "real"
+  },
+  "take1": {
+   "prog": [
+    [
+     0,
+     "m7"
+    ],
+    [
+     3,
+     "maj7"
+    ],
+    [
+     5,
+     "7"
+    ],
+    [
+     10,
+     "6"
+    ]
+   ],
+   "lead": "rhodes",
+   "answer": "polysynth",
+   "bass_a": "funk",
+   "bass_b": "funk",
+   "arc": "classic",
+   "seed": 443434
+  },
+  "penalty": 0,
+  "lead_inst": "Music Box",
+  "answer_inst": "Slow Strings",
+  "bass_inst": "Acoustic Bass",
+  "pad": "choir",
+  "take1_lead_inst": "Rhodes EP"
+ },
+ {
+  "i": 2,
+  "title": "Glitter Tidewater",
+  "brief": {
+   "engine": "v2",
+   "style": "disco",
+   "release": "set-real-take2-03",
+   "bpm": 118,
+   "tonic": 62,
+   "progression": [
+    [
+     0,
+     "maj7"
+    ],
+    [
+     2,
+     "m7"
+    ],
+    [
+     4,
+     "m7"
+    ],
+    [
+     5,
+     "maj7"
+    ]
+   ],
+   "mode": "major",
+   "lead": "brass",
+   "answer": "strings",
+   "groove": {
+    "bass_a": "funk",
+    "bass_b": "walk",
+    "swing": 0.001
+   },
+   "arc": "early",
+   "loudness_lufs": -10.0,
+   "seed": 802531,
+   "instruments": "real"
+  },
+  "take1": {
+   "prog": [
+    [
+     0,
+     "maj9"
+    ],
+    [
+     5,
+     "9"
+    ],
+    [
+     2,
+     "m9"
+    ],
+    [
+     7,
+     "9"
+    ]
+   ],
+   "lead": "strings",
+   "answer": "brass",
+   "bass_a": "disco_oct",
+   "bass_b": "disco_oct",
+   "arc": "classic",
+   "seed": 172232
+  },
+  "penalty": 0,
+  "lead_inst": "Brass 2",
+  "answer_inst": "Strings",
+  "bass_inst": "Picked Bass",
+  "pad": "strings",
+  "take1_lead_inst": "Strings"
+ },
+ {
+  "i": 3,
+  "title": "Baobab Sundown",
+  "brief": {
+   "engine": "v2",
+   "style": "afro",
+   "release": "set-real-take2-04",
+   "bpm": 120,
+   "tonic": 57,
+   "progression": [
+    [
+     0,
+     "m7"
+    ],
+    [
+     0,
+     "m7"
+    ],
+    [
+     10,
+     "sus2"
+    ],
+    [
+     8,
+     "maj7"
+    ]
+   ],
+   "mode": "minor",
+   "lead": "flute",
+   "answer": "glass",
+   "groove": {
+    "bass_a": "syncop",
+    "bass_b": "afro_roll",
+    "swing": 0.045
+   },
+   "arc": "classic",
+   "loudness_lufs": -10.0,
+   "seed": 951661,
+   "instruments": "real"
+  },
+  "take1": {
+   "prog": [
+    [
+     0,
+     "m11"
+    ],
+    [
+     8,
+     "maj9"
+    ],
+    [
+     10,
+     "sus2"
+    ],
+    [
+     0,
+     "m9"
+    ]
+   ],
+   "lead": "flute",
+   "answer": "kalimba",
+   "bass_a": "sustain",
+   "bass_b": "walk",
+   "arc": "burn",
+   "seed": 988453
+  },
+  "penalty": 0,
+  "lead_inst": "Pan Flute",
+  "answer_inst": "Vibraphone",
+  "bass_inst": "Fingered Bass",
+  "pad": "strings",
+  "take1_lead_inst": "Flute"
+ },
+ {
+  "i": 4,
+  "title": "Velvet Harbour Lights",
+  "brief": {
+   "engine": "v2",
+   "style": "deep",
+   "release": "set-real-take2-05",
+   "bpm": 121,
+   "tonic": 55,
+   "progression": [
+    [
+     0,
+     "m11"
+    ],
+    [
+     5,
+     "m9"
+    ],
+    [
+     10,
+     "sus2"
+    ],
+    [
+     3,
+     "maj9"
+    ]
+   ],
+   "mode": "minor",
+   "lead": "rhodes",
+   "answer": "glass",
+   "groove": {
+    "bass_a": "walk",
+    "bass_b": "octave",
+    "swing": 0.036
+   },
+   "arc": "classic",
+   "loudness_lufs": -10.0,
+   "seed": 859358,
+   "instruments": "real"
+  },
+  "take1": {
+   "prog": [
+    [
+     0,
+     "m9"
+    ],
+    [
+     8,
+     "maj9"
+    ],
+    [
+     5,
+     "m7"
+    ],
+    [
+     7,
+     "m7"
+    ]
+   ],
+   "lead": "kalimba",
+   "answer": "rhodes",
+   "bass_a": "sustain",
+   "bass_b": "walk",
+   "arc": "burn",
+   "seed": 110619
+  },
+  "penalty": 0,
+  "lead_inst": "Legend EP 2",
+  "answer_inst": "Celesta",
+  "bass_inst": "Fingered Bass",
+  "pad": "strings",
+  "take1_lead_inst": "Kalimba"
+ },
+ {
+  "i": 5,
+  "title": "Honeyed Promenade",
+  "brief": {
+   "engine": "v2",
+   "style": "soulful",
+   "release": "set-real-take2-06",
+   "bpm": 122,
+   "tonic": 58,
+   "progression": [
+    [
+     0,
+     "m9"
+    ],
+    [
+     10,
+     "69"
+    ],
+    [
+     8,
+     "maj9"
+    ],
+    [
+     7,
+     "9"
+    ]
+   ],
+   "mode": "dorian",
+   "lead": "topline",
+   "answer": "flute",
+   "groove": {
+    "bass_a": "sustain",
+    "bass_b": "walk",
+    "swing": 0.027
+   },
+   "arc": "wave",
+   "loudness_lufs": -10.5,
+   "seed": 529112,
+   "instruments": "real"
+  },
+  "take1": {
+   "prog": [
+    [
+     0,
+     "m9"
+    ],
+    [
+     5,
+     "9"
+    ],
+    [
+     10,
+     "maj9"
+    ],
+    [
+     3,
+     "69"
+    ]
+   ],
+   "lead": "flute",
+   "answer": "strings",
+   "bass_a": "syncop",
+   "bass_b": "funk",
+   "arc": "early",
+   "seed": 146151
+  },
+  "penalty": 3,
+  "lead_inst": "Tenor Sax",
+  "answer_inst": "Flute",
+  "bass_inst": "Fretless Bass",
+  "pad": "strings",
+  "take1_lead_inst": "Flute"
+ },
+ {
+  "i": 6,
+  "title": "Open Sky Chorus",
+  "brief": {
+   "engine": "v2",
+   "style": "vocal",
+   "release": "set-real-take2-07",
+   "bpm": 122,
+   "tonic": 60,
+   "progression": [
+    [
+     0,
+     "maj7"
+    ],
+    [
+     9,
+     "m7"
+    ],
+    [
+     2,
+     "m7"
+    ],
+    [
+     7,
+     "9"
+    ]
+   ],
+   "mode": "major",
+   "lead": "topline",
+   "answer": "rhodes",
+   "groove": {
+    "bass_a": "octave",
+    "bass_b": "octave",
+    "swing": 0.015
+   },
+   "arc": "classic",
+   "loudness_lufs": -10.0,
+   "seed": 223008,
+   "instruments": "real"
+  },
+  "take1": {
+   "prog": [
+    [
+     5,
+     "maj7"
+    ],
+    [
+     4,
+     "m7"
+    ],
+    [
+     2,
+     "m7"
+    ],
+    [
+     7,
+     "9"
+    ]
+   ],
+   "lead": "flute",
+   "answer": "strings",
+   "bass_a": "walk",
+   "bass_b": "walk",
+   "arc": "wave",
+   "seed": 177888
+  },
+  "penalty": 0,
+  "lead_inst": "Alto Sax",
+  "answer_inst": "Rhodes EP",
+  "bass_inst": "Picked Bass",
+  "pad": "strings",
+  "take1_lead_inst": "Pan Flute"
+ },
+ {
+  "i": 7,
+  "title": "Lagoon Reverie",
+  "brief": {
+   "engine": "v2",
+   "style": "melodic",
+   "release": "set-real-take2-08",
+   "bpm": 123,
+   "tonic": 62,
+   "progression": [
+    [
+     0,
+     "add9"
+    ],
+    [
+     10,
+     "add9"
+    ],
+    [
+     8,
+     "maj7"
+    ],
+    [
+     5,
+     "m9"
+    ]
+   ],
+   "mode": "minor",
+   "lead": "kalimba",
+   "answer": "glass",
+   "groove": {
+    "bass_a": "rolling",
+    "bass_b": "rolling",
+    "swing": 0.0
+   },
+   "arc": "prog",
+   "loudness_lufs": -10.5,
+   "seed": 389756,
+   "instruments": "real"
+  },
+  "take1": {
+   "prog": [
+    [
+     0,
+     "m9"
+    ],
+    [
+     8,
+     "maj9"
+    ],
+    [
+     3,
+     "maj7"
+    ],
+    [
+     10,
+     "add9"
+    ]
+   ],
+   "lead": "glass",
+   "answer": "pluck",
+   "bass_a": "offbeat",
+   "bass_b": "octave",
+   "arc": "classic",
+   "seed": 442935
+  },
+  "penalty": 3,
+  "lead_inst": "Kalimba",
+  "answer_inst": "Music Box",
+  "bass_inst": "Fretless Bass",
+  "pad": "strings",
+  "take1_lead_inst": "Music Box"
+ },
+ {
+  "i": 8,
+  "title": "Pier Side Piano",
+  "brief": {
+   "engine": "v2",
+   "style": "house",
+   "release": "set-real-take2-09",
+   "bpm": 124,
+   "tonic": 55,
+   "progression": [
+    [
+     0,
+     "m7"
+    ],
+    [
+     5,
+     "7"
+    ],
+    [
+     0,
+     "m7"
+    ],
+    [
+     5,
+     "7"
+    ]
+   ],
+   "mode": "dorian",
+   "lead": "piano",
+   "answer": "organ",
+   "groove": {
+    "bass_a": "syncop",
+    "bass_b": "octave",
+    "swing": 0.024
+   },
+   "arc": "early",
+   "loudness_lufs": -9.5,
+   "seed": 767199,
+   "instruments": "real"
+  },
+  "take1": {
+   "prog": [
+    [
+     0,
+     "m7"
+    ],
+    [
+     10,
+     "7"
+    ],
+    [
+     8,
+     "maj7"
+    ],
+    [
+     7,
+     "m7"
+    ]
+   ],
+   "lead": "organ",
+   "answer": "flute",
+   "bass_a": "offbeat",
+   "bass_b": "rolling",
+   "arc": "classic",
+   "seed": 392613
+  },
+  "penalty": 3,
+  "lead_inst": "Yamaha Grand Piano",
+  "answer_inst": "Percussive Organ",
+  "bass_inst": "Acoustic Bass",
+  "pad": "choir",
+  "take1_lead_inst": "Rock Organ"
+ },
+ {
+  "i": 9,
+  "title": "Riviera Shutters",
+  "brief": {
+   "engine": "v2",
+   "style": "french",
+   "release": "set-real-take2-10",
+   "bpm": 124,
+   "tonic": 57,
+   "progression": [
+    [
+     0,
+     "7"
+    ],
+    [
+     10,
+     "maj7"
+    ],
+    [
+     5,
+     "9"
+    ],
+    [
+     7,
+     "7"
+    ]
+   ],
+   "mode": "dorian",
+   "lead": "stab",
+   "answer": "polysynth",
+   "groove": {
+    "bass_a": "disco_oct",
+    "bass_b": "disco_oct",
+    "swing": 0.019
+   },
+   "arc": "classic",
+   "loudness_lufs": -9.5,
+   "seed": 781594,
+   "instruments": "real"
+  },
+  "take1": {
+   "prog": [
+    [
+     0,
+     "maj7"
+    ],
+    [
+     10,
+     "6"
+    ],
+    [
+     5,
+     "maj7"
+    ],
+    [
+     7,
+     "7"
+    ]
+   ],
+   "lead": "polysynth",
+   "answer": "strings",
+   "bass_a": "funk",
+   "bass_b": "funk",
+   "arc": "loop",
+   "seed": 735898
+  },
+  "penalty": 3,
+  "lead_inst": "Pizzicato Section",
+  "answer_inst": "Brass Section",
+  "bass_inst": "Fingered Bass",
+  "pad": "choir",
+  "take1_lead_inst": "Brass Section"
+ },
+ {
+  "i": 10,
+  "title": "Cliffline Ascent",
+  "brief": {
+   "engine": "v2",
+   "style": "progressive",
+   "release": "set-real-take2-11",
+   "bpm": 126,
+   "tonic": 59,
+   "progression": [
+    [
+     8,
+     "maj9"
+    ],
+    [
+     10,
+     "add9"
+    ],
+    [
+     0,
+     "m9"
+    ],
+    [
+     7,
+     "m7"
+    ]
+   ],
+   "mode": "minor",
+   "lead": "glass",
+   "answer": "pluck",
+   "groove": {
+    "bass_a": "prog_roll",
+    "bass_b": "prog_roll",
+    "swing": 0.0
+   },
+   "arc": "prog",
+   "loudness_lufs": -10.0,
+   "seed": 169848,
+   "instruments": "real"
+  },
+  "take1": {
+   "prog": [
+    [
+     0,
+     "m11"
+    ],
+    [
+     3,
+     "maj9"
+    ],
+    [
+     10,
+     "add9"
+    ],
+    [
+     8,
+     "maj7"
+    ]
+   ],
+   "lead": "mallet",
+   "answer": "glass",
+   "bass_a": "rolling",
+   "bass_b": "octave",
+   "arc": "prog",
+   "seed": 478278
+  },
+  "penalty": 6,
+  "lead_inst": "Celesta",
+  "answer_inst": "Nylon String Guitar",
+  "bass_inst": "Fretless Bass",
+  "pad": "choir",
+  "take1_lead_inst": "Vibraphone"
+ },
+ {
+  "i": 11,
+  "title": "Midnight Driftwood",
+  "brief": {
+   "engine": "v2",
+   "style": "tech",
+   "release": "set-real-take2-12",
+   "bpm": 126,
+   "tonic": 57,
+   "progression": [
+    [
+     0,
+     "m7"
+    ],
+    [
+     0,
+     "m7"
+    ],
+    [
+     0,
+     "m7"
+    ],
+    [
+     10,
+     "7"
+    ]
+   ],
+   "mode": "minor",
+   "lead": "rim_synth",
+   "answer": "stab",
+   "groove": {
+    "bass_a": "acid16",
+    "bass_b": "tech_roll",
+    "swing": 0.057
+   },
+   "arc": "classic",
+   "loudness_lufs": -9.0,
+   "seed": 289386,
+   "instruments": "real"
+  },
+  "take1": {
+   "prog": [
+    [
+     0,
+     "min"
+    ],
+    [
+     0,
+     "min"
+    ],
+    [
+     8,
+     "maj"
+    ],
+    [
+     10,
+     "maj"
+    ]
+   ],
+   "lead": "pluck",
+   "answer": "glass",
+   "bass_a": "tech_roll",
+   "bass_b": "acid16",
+   "arc": "loop",
+   "seed": 602244
+  },
+  "penalty": 6,
+  "lead_inst": "Xylophone",
+  "answer_inst": "Yamaha Grand Piano",
+  "bass_inst": "Picked Bass",
+  "pad": "choir",
+  "take1_lead_inst": "Nylon String Guitar"
+ }
+]

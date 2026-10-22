@@ -1,0 +1,540 @@
+{
+ "01": {
+  "hook": {
+   "type": "reseq",
+   "src": "508456_female-voice-doodling.mp3",
+   "pattern": [
+    0,
+    3,
+    6,
+    10,
+    12,
+    16,
+    19,
+    22,
+    26,
+    28
+   ],
+   "hold": 2.2,
+   "bars": 2
+  },
+  "layer": {
+   "type": "reseq",
+   "src": "343868_oooh-ooh-hoo-hoo.mp3",
+   "pattern": [
+    8,
+    24
+   ],
+   "hold": 4,
+   "bars": 2,
+   "slice_max": 0.6
+  },
+  "bed": {
+   "src": "352573_angelic-voice.mp3"
+  },
+  "adlibs": {
+   "drop1": "341488_woo-hoo.mp3",
+   "drop2": "320739_yeah.mp3"
+  },
+  "names": {
+   "hook": "Re-cut female improv vocal",
+   "layer": "\"Oooh ooh\" answer",
+   "bed": "Angelic voice",
+   "adlib_drop1": "\"Woo hoo\"",
+   "adlib_drop2": "\"Yeah!\""
+  }
+ },
+ "02": {
+  "hook": {
+   "type": "reseq",
+   "src": "566684_vocal-loop-vocoder.mp3",
+   "pattern": [
+    0,
+    2,
+    6,
+    8,
+    11,
+    14,
+    16,
+    18,
+    22,
+    24,
+    27,
+    30
+   ],
+   "hold": 1.6,
+   "bars": 2
+  },
+  "layer": {
+   "type": "reseq",
+   "src": "419161_ooh-aha.mp3",
+   "pattern": [
+    4,
+    12,
+    20,
+    28
+   ],
+   "hold": 3.5,
+   "bars": 2,
+   "slice_max": 0.5
+  },
+  "bed": {
+   "src": "577833_vocal-padd.mp3"
+  },
+  "adlibs": {
+   "build": "57204_men-shouting-hey.mp3",
+   "drop1": "416843_shouting-yeah.mp3",
+   "drop2": "57204_men-shouting-hey.mp3"
+  },
+  "names": {
+   "hook": "Vocoder vocal chops",
+   "layer": "\"Ooh-aha\" backing",
+   "bed": "Vocal pad",
+   "adlib_build": "\"Hey!\"",
+   "adlib_drop1": "\"Yeah!\"",
+   "adlib_drop2": "\"Hey!\""
+  }
+ },
+ "03": {
+  "hook": {
+   "type": "reseq",
+   "src": "464239_male-scat-singing.mp3",
+   "pattern": [
+    0,
+    2,
+    3,
+    6,
+    8,
+    10,
+    11,
+    14,
+    16,
+    18,
+    19,
+    22,
+    24,
+    26,
+    27,
+    30
+   ],
+   "hold": 1.2,
+   "bars": 2,
+   "slice_max": 0.15
+  },
+  "layer": {
+   "type": "reseq",
+   "src": "362340_short-vocals-100bpm.mp3",
+   "pattern": [
+    6,
+    14,
+    22,
+    30
+   ],
+   "hold": 2,
+   "bars": 2,
+   "shift": "none"
+  },
+  "bed": {
+   "src": "211629_uuuhh.mp3"
+  },
+  "adlibs": {
+   "build": "448705_hey-hey-hey-yeah.mp3",
+   "drop1": "341488_woo-hoo.mp3",
+   "drop2": "416843_shouting-yeah.mp3"
+  },
+  "adlib_shift": {
+   "build": null
+  },
+  "names": {
+   "hook": "Doo-wop scat chops",
+   "layer": "Short vocal stabs",
+   "bed": "\"Uuuhh\" pad",
+   "adlib_build": "\"Hey hey hey yeah\"",
+   "adlib_drop1": "\"Woo hoo\"",
+   "adlib_drop2": "\"Yeah!\""
+  }
+ },
+ "04": {
+  "hook": {
+   "type": "reseq",
+   "src": "319254_high-chant.mp3",
+   "pattern": [
+    0,
+    4,
+    6,
+    10,
+    12,
+    16,
+    20,
+    22,
+    26,
+    28
+   ],
+   "hold": 3,
+   "bars": 2,
+   "slice_max": 0.45
+  },
+  "layer": {
+   "type": "reseq",
+   "src": "319253_low-chant.mp3",
+   "pattern": [
+    0,
+    8,
+    16,
+    24
+   ],
+   "hold": 6,
+   "bars": 2,
+   "slice_max": 0.8
+  },
+  "bed": {
+   "src": "523051_shaman-choir.mp3"
+  },
+  "adlibs": {
+   "build": "57204_men-shouting-hey.mp3",
+   "drop1": "57204_men-shouting-hey.mp3",
+   "drop2": "416843_shouting-yeah.mp3"
+  },
+  "names": {
+   "hook": "High chant chops",
+   "layer": "Low chant",
+   "bed": "Choir chant",
+   "adlib_build": "\"Hey!\"",
+   "adlib_drop1": "\"Hey!\"",
+   "adlib_drop2": "\"Yeah!\""
+  }
+ },
+ "05": {
+  "hook": {
+   "type": "reseq",
+   "src": "333264_vocal-cut-ups-collage.mp3",
+   "region": [
+    0,
+    16
+   ],
+   "pattern": [
+    0,
+    6,
+    10,
+    16,
+    22,
+    26
+   ],
+   "hold": 3,
+   "bars": 2,
+   "slice_max": 0.4
+  },
+  "layer": {
+   "type": "reseq",
+   "src": "537090_love-vocal.mp3",
+   "pattern": [
+    12,
+    28
+   ],
+   "hold": 4,
+   "bars": 2,
+   "slice_max": 0.7
+  },
+  "bed": {
+   "src": "131094_vocal-harmony.mp3",
+   "region": [
+    30.5,
+    66
+   ]
+  },
+  "levels": {
+   "lead": -20.0,
+   "bed": -24.5
+  },
+  "names": {
+   "hook": "Breathy female chops",
+   "layer": "\"Love\" vocal",
+   "bed": "Vocal harmony pad"
+  }
+ },
+ "06": {
+  "hook": {
+   "type": "reseq",
+   "src": "365849_many-lovers.mp3",
+   "pattern": [
+    0,
+    3,
+    6,
+    10,
+    12,
+    14,
+    16,
+    19,
+    22,
+    26,
+    28
+   ],
+   "hold": 2.5,
+   "bars": 2,
+   "slice_max": 0.4
+  },
+  "layer": {
+   "type": "reseq",
+   "src": "251829_female-voice.mp3",
+   "pattern": [
+    6,
+    14,
+    22,
+    30
+   ],
+   "hold": 3,
+   "bars": 2,
+   "slice_max": 0.5
+  },
+  "phrase": {
+   "src": "365849_many-lovers.mp3",
+   "region": [
+    0.7,
+    9.0
+   ]
+  },
+  "bed": {
+   "src": "331130_sisters-voices.mp3"
+  },
+  "adlibs": {
+   "build": "320739_yeah.mp3",
+   "drop1": "387947_oh-yeah.mp3",
+   "drop2": "341488_woo-hoo.mp3"
+  },
+  "names": {
+   "hook": "\"Many Lovers\" chops",
+   "layer": "Female voice answer",
+   "phrase": "\"Many Lovers\" sung phrase",
+   "bed": "Sisters' voices",
+   "adlib_build": "\"Yeah!\"",
+   "adlib_drop1": "\"Oh yeah\"",
+   "adlib_drop2": "\"Woo hoo\""
+  }
+ },
+ "08": {
+  "hook": {
+   "type": "reseq",
+   "src": "333264_vocal-cut-ups-collage.mp3",
+   "region": [
+    16,
+    32
+   ],
+   "pattern": [
+    0,
+    3,
+    6,
+    8,
+    12,
+    14,
+    16,
+    19,
+    22,
+    24,
+    28
+   ],
+   "hold": 2.5,
+   "bars": 2,
+   "slice_max": 0.35
+  },
+  "layer": {
+   "type": "reseq",
+   "src": "474209_glitching-vocal-chop.mp3",
+   "pattern": [
+    7,
+    15,
+    23,
+    31
+   ],
+   "hold": 1.5,
+   "bars": 2,
+   "shift": "none"
+  },
+  "bed": {
+   "src": "577828_dream-vocal-pad.mp3"
+  },
+  "adlibs": {
+   "build": "502946_vocal-crescendo.mp3"
+  },
+  "levels": {
+   "lead": -19.5
+  },
+  "names": {
+   "hook": "Layered female chops",
+   "layer": "Glitch vocal",
+   "bed": "Dream vocal pad",
+   "adlib_build": "Vocal crescendo"
+  }
+ },
+ "09": {
+  "hook": {
+   "type": "loop",
+   "src": "467908_vocal2.mp3",
+   "bpm": 124.8,
+   "trim": 0.045,
+   "bars": 1
+  },
+  "layer": {
+   "type": "loop",
+   "src": "469018_vocal3.mp3",
+   "bpm": 127.2,
+   "trim": 0.05,
+   "bars": 2
+  },
+  "adlibs": {
+   "build": "320739_yeah.mp3",
+   "drop1": "384981_hell-yeah.mp3",
+   "drop2": "63982_go-for-it.mp3"
+  },
+  "adlib_shift": {
+   "drop2": "none"
+  },
+  "names": {
+   "hook": "2-step female chop",
+   "layer": "2-step female phrase",
+   "adlib_build": "\"Yeah!\"",
+   "adlib_drop1": "\"Hell yeah!\"",
+   "adlib_drop2": "\"Go for it\""
+  }
+ },
+ "10": {
+  "hook": {
+   "type": "reseq",
+   "src": "529476_hip-vocal-dance-loop-100bpm.mp3",
+   "pattern": [
+    0,
+    3,
+    4,
+    7,
+    8,
+    11,
+    12,
+    14,
+    16,
+    19,
+    20,
+    23,
+    24,
+    27,
+    28,
+    30
+   ],
+   "hold": 1.4,
+   "bars": 2,
+   "slice_max": 0.3
+  },
+  "layer": {
+   "type": "loop",
+   "src": "467909_vocal1.mp3",
+   "bpm": 125.0,
+   "trim": 0.05,
+   "bars": 1
+  },
+  "adlibs": {
+   "drop1": "416843_shouting-yeah.mp3",
+   "drop2": "387947_oh-yeah.mp3"
+  },
+  "filter_vox": [
+   250,
+   3200
+  ],
+  "names": {
+   "hook": "Filtered vocal loop chops",
+   "layer": "Filtered female chop",
+   "adlib_drop1": "\"Yeah!\"",
+   "adlib_drop2": "\"Oh yeah\""
+  }
+ },
+ "11": {
+  "hook": {
+   "type": "loop",
+   "src": "161507_chopped-vocal-loop.mp3",
+   "bpm": 140.25,
+   "trim": 0.05,
+   "bars": 1
+  },
+  "layer": {
+   "type": "reseq",
+   "src": "333264_vocal-cut-ups-collage.mp3",
+   "region": [
+    56,
+    72
+   ],
+   "pattern": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28
+   ],
+   "hold": 3.5,
+   "bars": 2,
+   "slice_max": 0.5
+  },
+  "bed": {
+   "src": "556980_tension-vocals.mp3"
+  },
+  "levels": {
+   "lead": -19.5
+  },
+  "names": {
+   "hook": "Chopped female loop",
+   "layer": "Female vocal pulses",
+   "bed": "Dark choir"
+  }
+ },
+ "12": {
+  "hook": {
+   "type": "reseq",
+   "src": "554623_male-vocal-glitch.mp3",
+   "pattern": [
+    0,
+    3,
+    7,
+    10,
+    14,
+    16,
+    19,
+    23,
+    26,
+    30
+   ],
+   "hold": 1.5,
+   "bars": 2,
+   "shift": "none"
+  },
+  "layer": {
+   "type": "reseq",
+   "src": "384981_hell-yeah.mp3",
+   "pattern": [
+    8,
+    24
+   ],
+   "hold": 3,
+   "bars": 2,
+   "shift": "none",
+   "slice_max": 0.5
+  },
+  "bed": {
+   "src": "395431_male-vocal-drone.mp3"
+  },
+  "adlibs": {
+   "build": "63982_go-for-it.mp3",
+   "drop1": "57204_men-shouting-hey.mp3",
+   "drop2": "384981_hell-yeah.mp3"
+  },
+  "levels": {
+   "lead": -19.0
+  },
+  "names": {
+   "hook": "Male glitch vocal",
+   "layer": "\"Yeah\" stabs",
+   "bed": "Male vocal drone",
+   "adlib_build": "\"Go for it\"",
+   "adlib_drop1": "\"Hey!\"",
+   "adlib_drop2": "\"Hell yeah!\""
+  }
+ }
+}
