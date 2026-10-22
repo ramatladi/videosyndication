@@ -355,5 +355,119 @@
   "bass_b": "octave",
   "key": "C# major",
   "bpm": 106
+ },
+ {
+  "id": "mtr007",
+  "title": "Rooftop Telegram",
+  "status": "published",
+  "style": "house",
+  "mode": "dorian",
+  "motif": {
+   "intervals": [
+    -2,
+    2,
+    -2,
+    2,
+    3,
+    2,
+    2
+   ],
+   "onsets": [
+    0,
+    3,
+    4,
+    10,
+    12,
+    19,
+    22,
+    24
+   ],
+   "durs": [
+    3,
+    1,
+    4,
+    2,
+    4,
+    3,
+    2,
+    6
+   ]
+  },
+  "progression": [
+   [
+    0,
+    "m9"
+   ],
+   [
+    3,
+    "maj7"
+   ],
+   [
+    5,
+    "9"
+   ],
+   [
+    3,
+    "maj7"
+   ]
+  ],
+  "template": "early",
+  "lead": "piano",
+  "answer": "organ",
+  "bass_a": "offbeat",
+  "bass_b": "octave",
+  "key": "B dorian",
+  "bpm": 124
+ },
+ {
+  "id": "mtr008",
+  "title": "Golden Chorus Line",
+  "status": "published",
+  "style": "vocal",
+  "mode": "major",
+  "motif": {
+   "intervals": [
+    0,
+    4,
+    -2
+   ],
+   "onsets": [
+    0,
+    10,
+    12,
+    16
+   ],
+   "durs": [
+    8,
+    2,
+    4,
+    12
+   ]
+  },
+  "progression": [
+   [
+    5,
+    "maj7"
+   ],
+   [
+    4,
+    "m7"
+   ],
+   [
+    2,
+    "m7"
+   ],
+   [
+    7,
+    "9"
+   ]
+  ],
+  "template": "early",
+  "lead": "topline",
+  "answer": "rhodes",
+  "bass_a": "octave",
+  "bass_b": "octave",
+  "key": "Bb major",
+  "bpm": 123
  }
 ]

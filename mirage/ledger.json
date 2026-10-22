@@ -543,6 +543,188 @@
      "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
     }
    }
+  },
+  {
+   "release": "mtr007",
+   "date": "2026-10-25",
+   "slot": "2026-10-25T23:55:00",
+   "format": "video",
+   "title": "Rooftop Telegram",
+   "style": "house",
+   "tonic": 59,
+   "mode": "dorian",
+   "key": "B dorian",
+   "bpm": 124,
+   "lead": "Yamaha Grand Piano",
+   "answer": "Percussive Organ",
+   "lead_family": "piano",
+   "answer_family": "organ",
+   "chord_pcs": [
+    [
+     2,
+     6,
+     9,
+     11
+    ],
+    [
+     1,
+     2,
+     6,
+     9
+    ],
+    [
+     2,
+     4,
+     8,
+     11
+    ],
+    [
+     1,
+     2,
+     6,
+     9
+    ]
+   ],
+   "photographer": "Vivek Panwar",
+   "photo_page": "https://unsplash.com/photos/longtail-boats-on-koh-phi-phi-_ZavQnIScwM",
+   "metricool_uuid": "-2650268408767886772",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-13808308876827485684.mp4",
+   "style_reference": "I Got U (feat. Jax Jones) - Duke Dumont",
+   "brief": {
+    "engine": "v2",
+    "style": "house",
+    "release": "hitstyle2-rooftop-telegram",
+    "bpm": 124,
+    "tonic": 59,
+    "progression": [
+     [
+      0,
+      "m9"
+     ],
+     [
+      3,
+      "maj7"
+     ],
+     [
+      5,
+      "9"
+     ],
+     [
+      3,
+      "maj7"
+     ]
+    ],
+    "mode": "dorian",
+    "lead": "piano",
+    "answer": "organ",
+    "groove": {
+     "bass_a": "offbeat",
+     "bass_b": "octave",
+     "swing": 0.02
+    },
+    "arc": "early",
+    "loudness_lufs": -9.5,
+    "seed": 141506,
+    "instruments": "real",
+    "motif": {
+     "cell": "syncop",
+     "contour": "valley",
+     "start": 71,
+     "candidate": 4,
+     "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+    }
+   }
+  },
+  {
+   "release": "mtr008",
+   "date": "2026-10-26",
+   "slot": "2026-10-26T05:55:00",
+   "format": "short",
+   "title": "Golden Chorus Line",
+   "style": "vocal",
+   "tonic": 58,
+   "mode": "major",
+   "key": "Bb major",
+   "bpm": 123,
+   "lead": "Tenor Sax",
+   "answer": "Rhodes EP",
+   "lead_family": "sax",
+   "answer_family": "ep",
+   "chord_pcs": [
+    [
+     2,
+     3,
+     7,
+     10
+    ],
+    [
+     0,
+     2,
+     5,
+     9
+    ],
+    [
+     0,
+     3,
+     7,
+     10
+    ],
+    [
+     0,
+     3,
+     5,
+     9
+    ]
+   ],
+   "photographer": "Yegor Denisov",
+   "photo_page": "https://unsplash.com/photos/seashore-during-golden-hour-yIpU0HMpN0I",
+   "metricool_uuid": "-7845471107835999520",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-16230183396522149775.mp4",
+   "style_reference": "Sweet Lovin' - Sigala & Bryn Christopher",
+   "brief": {
+    "engine": "v2",
+    "style": "vocal",
+    "release": "hitstyle2-golden-chorus-line",
+    "bpm": 123,
+    "tonic": 58,
+    "progression": [
+     [
+      5,
+      "maj7"
+     ],
+     [
+      4,
+      "m7"
+     ],
+     [
+      2,
+      "m7"
+     ],
+     [
+      7,
+      "9"
+     ]
+    ],
+    "mode": "major",
+    "lead": "topline",
+    "answer": "rhodes",
+    "groove": {
+     "bass_a": "octave",
+     "bass_b": "octave",
+     "swing": 0.015
+    },
+    "arc": "early",
+    "loudness_lufs": -10.0,
+    "seed": 570699,
+    "instruments": "real",
+    "motif": {
+     "cell": "sparse",
+     "contour": "pedal",
+     "start": 75,
+     "candidate": 3,
+     "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+    }
+   }
   }
  ]
 }
