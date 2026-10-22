@@ -1,0 +1,62 @@
+[
+ {
+  "id": "mtr001",
+  "title": "Sequin Harbour",
+  "status": "published",
+  "style": "disco",
+  "mode": "major",
+  "motif": {
+   "intervals": [
+    -2,
+    -2,
+    0,
+    5,
+    2,
+    2
+   ],
+   "onsets": [
+    0,
+    4,
+    6,
+    12,
+    16,
+    20,
+    22
+   ],
+   "durs": [
+    4,
+    2,
+    6,
+    4,
+    4,
+    2,
+    10
+   ]
+  },
+  "progression": [
+   [
+    0,
+    "maj9"
+   ],
+   [
+    5,
+    "9"
+   ],
+   [
+    2,
+    "m9"
+   ],
+   [
+    7,
+    "9"
+   ]
+  ],
+  "template": "classic",
+  "lead": "brass",
+  "answer": "glass",
+  "bass_a": "funk",
+  "bass_b": "disco_oct",
+  "key": "Ab major",
+  "bpm": 118
+ }
+]

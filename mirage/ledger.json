@@ -1,0 +1,95 @@
+{
+ "releases": [
+  {
+   "release": "mtr001",
+   "date": "2026-10-22",
+   "slot": "2026-10-22T23:55:00",
+   "format": "video",
+   "title": "Sequin Harbour",
+   "style": "disco",
+   "tonic": 56,
+   "mode": "major",
+   "key": "Ab major",
+   "bpm": 118,
+   "lead": "Brass Section",
+   "answer": "Vibraphone",
+   "lead_family": "brass",
+   "answer_family": "Vibraphone",
+   "chord_pcs": [
+    [
+     0,
+     3,
+     7,
+     8
+    ],
+    [
+     1,
+     5,
+     8,
+     11
+    ],
+    [
+     1,
+     5,
+     8,
+     10
+    ],
+    [
+     1,
+     3,
+     7,
+     10
+    ]
+   ],
+   "photographer": "Sean Oulashin",
+   "photo_page": "https://unsplash.com/photos/seashore-during-golden-hour-KMn4VEeEPR8",
+   "metricool_uuid": "4104394772784563036",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-14563412346349068058.mp4",
+   "style_reference": "Stay a While (feat. Sister Sledge) - The Revenge",
+   "brief": {
+    "engine": "v2",
+    "style": "disco",
+    "release": "hitstyle2-sequin-harbour",
+    "bpm": 118,
+    "tonic": 56,
+    "progression": [
+     [
+      0,
+      "maj9"
+     ],
+     [
+      5,
+      "9"
+     ],
+     [
+      2,
+      "m9"
+     ],
+     [
+      7,
+      "9"
+     ]
+    ],
+    "mode": "major",
+    "lead": "brass",
+    "answer": "glass",
+    "groove": {
+     "bass_a": "funk",
+     "bass_b": "disco_oct",
+     "swing": 0.005
+    },
+    "arc": "classic",
+    "loudness_lufs": -10.0,
+    "seed": 937492,
+    "instruments": "real",
+    "motif": {
+     "cell": "anthem",
+     "contour": "valley",
+     "start": 72,
+     "candidate": 1,
+     "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+    }
+   }
+  }
+ ]
+}
