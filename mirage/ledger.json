@@ -181,6 +181,186 @@
      "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
     }
    }
+  },
+  {
+   "release": "mtr003",
+   "date": "2026-10-23",
+   "slot": "2026-10-23T23:55:00",
+   "format": "video",
+   "title": "Kalahari Footsteps",
+   "style": "afro",
+   "tonic": 60,
+   "mode": "minor",
+   "key": "C minor",
+   "bpm": 121,
+   "lead": "Xylophone",
+   "answer": "Celesta",
+   "lead_family": "Xylophone",
+   "answer_family": "Celesta",
+   "chord_pcs": [
+    [
+     0,
+     3,
+     7,
+     10
+    ],
+    [
+     0,
+     3,
+     7,
+     10
+    ],
+    [
+     0,
+     5,
+     10
+    ],
+    [
+     0,
+     3,
+     7,
+     8
+    ]
+   ],
+   "photographer": "Onofre Quezada",
+   "photo_page": "https://unsplash.com/photos/tropical-river-winding-through-lush-jungle-with-mountains-in-background-MA9sLbbIE3g",
+   "metricool_uuid": "-5146832345994607055",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-16979182499448938246.mp4",
+   "style_reference": "Move - Adam Port, Stryv & Malachiii",
+   "brief": {
+    "engine": "v2",
+    "style": "afro",
+    "release": "hitstyle2-kalahari-footsteps",
+    "bpm": 121,
+    "tonic": 60,
+    "progression": [
+     [
+      0,
+      "m7"
+     ],
+     [
+      0,
+      "m7"
+     ],
+     [
+      10,
+      "sus2"
+     ],
+     [
+      8,
+      "maj7"
+     ]
+    ],
+    "mode": "minor",
+    "lead": "marimba",
+    "answer": "glass",
+    "groove": {
+     "bass_a": "sustain",
+     "bass_b": "walk",
+     "swing": 0.04
+    },
+    "arc": "wave",
+    "loudness_lufs": -10.0,
+    "seed": 479697,
+    "instruments": "real",
+    "motif": {
+     "cell": "offbeat",
+     "contour": "zigzag",
+     "start": 72,
+     "candidate": 2,
+     "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+    }
+   }
+  },
+  {
+   "release": "mtr004",
+   "date": "2026-10-24",
+   "slot": "2026-10-24T05:55:00",
+   "format": "short",
+   "title": "Quiet Signal",
+   "style": "deep",
+   "tonic": 62,
+   "mode": "minor",
+   "key": "D minor",
+   "bpm": 122,
+   "lead": "Rhodes EP",
+   "answer": "Music Box",
+   "lead_family": "ep",
+   "answer_family": "Music Box",
+   "chord_pcs": [
+    [
+     0,
+     2,
+     5,
+     9
+    ],
+    [
+     2,
+     5,
+     7,
+     10
+    ],
+    [
+     0,
+     2,
+     7
+    ],
+    [
+     0,
+     4,
+     5,
+     9
+    ]
+   ],
+   "photographer": "Wendi Wells",
+   "photo_page": "https://unsplash.com/photos/a-wooden-pier-with-a-thatched-roof-over-the-ocean-OSw0NOptNu8",
+   "metricool_uuid": "-1156498126230368834",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-3049957344251582144.mp4",
+   "style_reference": "You & Me (feat. Eliza Doolittle) [Rivo Remix] - Disclosure",
+   "brief": {
+    "engine": "v2",
+    "style": "deep",
+    "release": "hitstyle2-quiet-signal",
+    "bpm": 122,
+    "tonic": 62,
+    "progression": [
+     [
+      0,
+      "m11"
+     ],
+     [
+      5,
+      "m9"
+     ],
+     [
+      10,
+      "sus2"
+     ],
+     [
+      3,
+      "maj9"
+     ]
+    ],
+    "mode": "minor",
+    "lead": "rhodes",
+    "answer": "glass",
+    "groove": {
+     "bass_a": "walk",
+     "bass_b": "syncop",
+     "swing": 0.03
+    },
+    "arc": "classic",
+    "loudness_lufs": -10.0,
+    "seed": 104618,
+    "instruments": "real",
+    "motif": {
+     "cell": "call",
+     "contour": "zigzag",
+     "start": 77,
+     "candidate": 1,
+     "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+    }
+   }
   }
  ]
 }
