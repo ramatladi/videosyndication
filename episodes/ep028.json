@@ -1,0 +1,465 @@
+{
+ "engine": "cast",
+ "id": 28,
+ "slug": "list-of-betrayals-season-opener",
+ "title": "List Of Betrayals: Season Opener",
+ "trend": "TikTok 'List of Betrayals' (reading out a numbered list of small personal betrayals; New Engen / B&T October 2026 TikTok trends) + the pro basketball season opening week, which filled the top of Google Trends US on October 21–22 — a superfan reads his betrayal list on his couch before tip-off so he can forgive and start fresh",
+ "target_seconds": 180,
+ "length_reason": "List of Betrayals is a quick one-clip list format whose originals run well under a minute, so it stays at the low end (3:00), which also keeps it inside Instagram's Reels limit.",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "list of betrayals",
+  "basketball season opener",
+  "he forgives no one"
+ ],
+ "youtube_title": "My list of betrayals before the basketball season starts 🏀",
+ "description": "Before every season opener, Darnell reads his list of betrayals out loud so he can forgive and start fresh. His wife, his dog and the ball from the nachos have lists too.\n\n#listofbetrayals #betrayallist #basketball #seasonopener #hoops #comedy #animation #funny",
+ "tags": [
+  "list of betrayals",
+  "betrayal list trend",
+  "basketball",
+  "season opener",
+  "basketball fan",
+  "sports comedy",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny"
+ ],
+ "tiktok_caption": "list of betrayals: basketball season opener edition 🏀 he forgives no one #listofbetrayals #basketball #seasonopener #fyp",
+ "cast": [
+  {
+   "id": "darnell",
+   "name": "Darnell",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.08,
+   "hair": {
+    "style": "short",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "8"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#f5f5f5",
+   "accessories": [
+    "cap:#1f3a93"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "frown",
+   "label_color": "#e74c3c",
+   "voice": {
+    "id": "am_michael",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "simone",
+   "name": "Simone",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "afro",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#48c9b0",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "ball",
+   "name": "The Ball",
+   "kind": "mascot",
+   "shape": "ball",
+   "color": "#e67e22",
+   "scale": 0.9,
+   "accessories": [
+    "tophat:#1b1b1b"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f39c12",
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "rebound",
+   "name": "Rebound",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#c49a6c",
+   "belly": "#f3e0c7",
+   "scale": 0.92,
+   "top": {
+    "color": "#f1c40f",
+    "pattern": "jersey",
+    "pattern_color": "#1b1b1b",
+    "number": "0"
+   },
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#f4d03f",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "darnell",
+   "text": "Before every season opener, I read my list of betrayals. Then I forgive.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "simone",
+   "text": "He has never forgiven anything. He still brings up a waffle from twenty nineteen.",
+   "shot": "TWO",
+   "gesture": "cross",
+   "after": "rimshot"
+  },
+  {
+   "spk": "darnell",
+   "text": "Tip-off is in five minutes. Betrayal number one.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "darnell",
+   "text": "I bought this jersey on a Tuesday. Number eight.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "darnell",
+   "text": "Wednesday morning, they traded number eight.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "darnell",
+   "text": "I am wearing a man who lives in another state now.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "simone",
+   "text": "The tag is still on it. You can return him.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "darnell",
+   "text": "You don't return family, Simone.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "darnell",
+   "text": "Betrayal number two. The one game I went to in person.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "darnell",
+   "text": "Row thirty one. A ball flies into the stands. Right into my nachos.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "ball",
+   "text": "In my defense, I was aiming for the hot dog man.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "simone",
+   "text": "He kept the ball. It lives on the couch now. It has a pillow.",
+   "shot": "W"
+  },
+  {
+   "spk": "darnell",
+   "text": "You were supposed to be my lucky ball.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "ball",
+   "text": "We lost that night by thirty. I was lucky. Just not for you.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "boing"
+  },
+  {
+   "spk": "darnell",
+   "text": "Betrayal number three. Playoffs. Two minutes left.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "darnell",
+   "text": "I yell, he's open! He's wide open!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "rebound",
+   "text": "I heard open. I went to the snack table. It was also open.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "simone",
+   "text": "Rebound ate the wings, the dip, and one of my earrings.",
+   "shot": "rebound"
+  },
+  {
+   "spk": "rebound",
+   "text": "The earring was a choice. I stand by it.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "rebound",
+   "text": "You named me after a missed shot. I was born a little bit sad.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.6
+  },
+  {
+   "spk": "darnell",
+   "text": "Betrayal number four. Double overtime.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "darnell",
+   "text": "I go to the kitchen for one second. I come back. Baking show.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "simone",
+   "text": "The cake had better defense than your team.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "darnell",
+   "text": "Okay. That is my list. I forgive the jersey. I forgive the ball.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "darnell",
+   "text": "I forgive the dog. Mostly. Now we can start the season clean.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "simone",
+   "text": "Great. My turn.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.9
+  },
+  {
+   "spk": "darnell",
+   "text": "Your turn for what?",
+   "shot": "CU"
+  },
+  {
+   "spk": "simone",
+   "text": "My list of betrayals. It is longer. It has a table of contents.",
+   "shot": "TWO",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "simone",
+   "text": "Number one. Our wedding. I walk down the aisle and you yell travel.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "darnell",
+   "text": "You took four steps without dribbling. That's the rule.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "simone",
+   "text": "Number two. You made me move the couch for better spacing.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "simone",
+   "text": "Number three. Our anniversary dinner. You asked the waiter for a timeout.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "darnell",
+   "text": "The food came out too fast! We needed to regroup!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "rebound",
+   "text": "I also have a list.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.8
+  },
+  {
+   "spk": "darnell",
+   "text": "You can't even write.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "rebound",
+   "text": "I have a good memory and a lot of time. Number one. The vacuum.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "rebound",
+   "text": "Numbers two through forty. Also the vacuum.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "rimshot"
+  },
+  {
+   "spk": "ball",
+   "text": "I have just one. You dribbled me in the kitchen at two in the morning.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "darnell",
+   "text": "I was practicing for my comeback!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "simone",
+   "text": "Your comeback from what? You played one year of middle school.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "darnell",
+   "text": "I scored two points. They still talk about it.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "simone",
+   "text": "Your mom talks about it. Every Thanksgiving. For an hour.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "darnell",
+   "text": "Fine. I'm sorry. For the travel call, the timeout, and the couch.",
+   "shot": "W",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "rebound",
+   "text": "And the vacuum.",
+   "shot": "rebound"
+  },
+  {
+   "spk": "darnell",
+   "text": "I'm not apologizing for the vacuum. The vacuum is innocent.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "simone",
+   "text": "Then I forgive you. Clean season. Fresh start.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "all",
+   "text": "Fresh start!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "ball",
+   "text": "The game is starting. Here's the tip-off. And the first shot is up.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ball",
+   "text": "And it misses. Badly.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "darnell",
+   "text": "New list. Betrayal number one.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.9
+  },
+  {
+   "spk": "simone",
+   "text": "It has been eleven seconds, Darnell.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "darnell",
+   "text": "I'm very organized. I already have a page for Thanksgiving.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "sting"
+  }
+ ]
+}
