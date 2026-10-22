@@ -1,0 +1,898 @@
+[
+ {
+  "title": "Sequin Harbour",
+  "reference": "Stay a While (feat. Sister Sledge) - The Revenge",
+  "brief": {
+   "engine": "v2",
+   "style": "disco",
+   "release": "hitstyle2-sequin-harbour",
+   "bpm": 118,
+   "tonic": 56,
+   "progression": [
+    [
+     0,
+     "maj9"
+    ],
+    [
+     5,
+     "9"
+    ],
+    [
+     2,
+     "m9"
+    ],
+    [
+     7,
+     "9"
+    ]
+   ],
+   "mode": "major",
+   "lead": "brass",
+   "answer": "glass",
+   "groove": {
+    "bass_a": "funk",
+    "bass_b": "disco_oct",
+    "swing": 0.005
+   },
+   "arc": "classic",
+   "loudness_lufs": -10.0,
+   "seed": 937492,
+   "instruments": "real",
+   "motif": {
+    "cell": "anthem",
+    "contour": "valley",
+    "start": 72,
+    "candidate": 1,
+    "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+   }
+  },
+  "vocals": {
+   "hook": {
+    "type": "phrase",
+    "src": "365849_many-lovers.mp3",
+    "region": [
+     0.7,
+     9.0
+    ],
+    "shift": 0
+   },
+   "phrase": {
+    "src": "365849_many-lovers.mp3",
+    "region": [
+     9.0,
+     22.6
+    ],
+    "shift": 0
+   },
+   "bed": {
+    "src": "211629_uuuhh.mp3"
+   },
+   "adlibs": {
+    "drop1": "341488_woo-hoo.mp3"
+   },
+   "names": {
+    "hook": "\"Many Lovers\" sung line (Paranoye)",
+    "phrase": "\"Many Lovers\" second line",
+    "bed": "\"Uuuhh\" pad",
+    "adlib_drop1": "\"Woo hoo\""
+   }
+  },
+  "instruments": {
+   "lead": "Brass Section",
+   "answer": "Vibraphone",
+   "bass": "Fretless Bass",
+   "kit": "Standard 4",
+   "pad": "strings"
+  },
+  "hook_min_distance_to_others": 1.0,
+  "plan_penalty": 278,
+  "max_chord_similarity": 0.68
+ },
+ {
+  "title": "Neon Tide Pull",
+  "reference": "Hypnotized - Purple Disco Machine & Sophie and the Giants",
+  "brief": {
+   "engine": "v2",
+   "style": "nudisco",
+   "release": "hitstyle2-neon-tide-pull",
+   "bpm": 116,
+   "tonic": 55,
+   "progression": [
+    [
+     0,
+     "m9"
+    ],
+    [
+     10,
+     "6"
+    ],
+    [
+     8,
+     "maj7"
+    ],
+    [
+     7,
+     "7"
+    ]
+   ],
+   "mode": "minor",
+   "lead": "polysynth",
+   "answer": "strings",
+   "groove": {
+    "bass_a": "funk",
+    "bass_b": "funk",
+    "swing": 0.02
+   },
+   "arc": "early",
+   "loudness_lufs": -10.0,
+   "seed": 837553,
+   "instruments": "real",
+   "motif": {
+    "cell": "skip",
+    "contour": "leapstep",
+    "start": 67,
+    "candidate": 2,
+    "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+   }
+  },
+  "vocals": {
+   "hook": {
+    "type": "phrase",
+    "src": "437584_female-vocal-chops.mp3",
+    "region": [
+     0.07,
+     12.75
+    ],
+    "shift": 0
+   },
+   "bed": {
+    "src": "577833_vocal-padd.mp3"
+   },
+   "adlibs": {
+    "drop2": "387947_oh-yeah.mp3"
+   },
+   "names": {
+    "hook": "Female sung vocal line (chenny0607)",
+    "bed": "Vocal pad",
+    "adlib_drop2": "\"Oh yeah\""
+   }
+  },
+  "instruments": {
+   "lead": "Rhodes EP",
+   "answer": "Slow Strings",
+   "bass": "Fingered Bass",
+   "kit": "Power",
+   "pad": "blend"
+  },
+  "hook_min_distance_to_others": 0.465,
+  "plan_penalty": 278,
+  "max_chord_similarity": 0.83
+ },
+ {
+  "title": "Kalahari Footsteps",
+  "reference": "Move - Adam Port, Stryv & Malachiii",
+  "brief": {
+   "engine": "v2",
+   "style": "afro",
+   "release": "hitstyle2-kalahari-footsteps",
+   "bpm": 121,
+   "tonic": 60,
+   "progression": [
+    [
+     0,
+     "m7"
+    ],
+    [
+     0,
+     "m7"
+    ],
+    [
+     10,
+     "sus2"
+    ],
+    [
+     8,
+     "maj7"
+    ]
+   ],
+   "mode": "minor",
+   "lead": "marimba",
+   "answer": "glass",
+   "groove": {
+    "bass_a": "sustain",
+    "bass_b": "walk",
+    "swing": 0.04
+   },
+   "arc": "wave",
+   "loudness_lufs": -10.0,
+   "seed": 479697,
+   "instruments": "real",
+   "motif": {
+    "cell": "offbeat",
+    "contour": "zigzag",
+    "start": 72,
+    "candidate": 2,
+    "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+   }
+  },
+  "vocals": {
+   "hook": {
+    "type": "phrase",
+    "src": "427418_get-down.mp3",
+    "region": [
+     5.2,
+     11.3
+    ],
+    "shift": 0
+   },
+   "phrase": {
+    "src": "427418_get-down.mp3",
+    "region": [
+     0.5,
+     4.2
+    ],
+    "shift": 0
+   },
+   "layer": {
+    "type": "reseq",
+    "src": "319254_high-chant.mp3",
+    "pattern": [
+     0,
+     6,
+     10,
+     16,
+     22,
+     26
+    ],
+    "hold": 2.5,
+    "bars": 2,
+    "slice_max": 0.35
+   },
+   "bed": {
+    "src": "319253_low-chant.mp3"
+   },
+   "adlibs": {
+    "drop1": "57204_men-shouting-hey.mp3"
+   },
+   "names": {
+    "hook": "\"Get Down\" vocal line (thef1like)",
+    "phrase": "\"Get Down\" calls",
+    "layer": "High chant",
+    "bed": "Low chant",
+    "adlib_drop1": "\"Hey!\""
+   }
+  },
+  "instruments": {
+   "lead": "Xylophone",
+   "answer": "Celesta",
+   "bass": "Fretless Bass",
+   "kit": "Room 2",
+   "pad": "blend"
+  },
+  "hook_min_distance_to_others": 0.416,
+  "plan_penalty": 278,
+  "max_chord_similarity": 0.74
+ },
+ {
+  "title": "Quiet Signal",
+  "reference": "You & Me (feat. Eliza Doolittle) [Rivo Remix] - Disclosure",
+  "brief": {
+   "engine": "v2",
+   "style": "deep",
+   "release": "hitstyle2-quiet-signal",
+   "bpm": 122,
+   "tonic": 62,
+   "progression": [
+    [
+     0,
+     "m11"
+    ],
+    [
+     5,
+     "m9"
+    ],
+    [
+     10,
+     "sus2"
+    ],
+    [
+     3,
+     "maj9"
+    ]
+   ],
+   "mode": "minor",
+   "lead": "rhodes",
+   "answer": "glass",
+   "groove": {
+    "bass_a": "walk",
+    "bass_b": "syncop",
+    "swing": 0.03
+   },
+   "arc": "classic",
+   "loudness_lufs": -10.0,
+   "seed": 104618,
+   "instruments": "real",
+   "motif": {
+    "cell": "call",
+    "contour": "zigzag",
+    "start": 77,
+    "candidate": 1,
+    "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+   }
+  },
+  "vocals": {
+   "hook": {
+    "type": "phrase",
+    "src": "537090_love-vocal.mp3",
+    "region": [
+     0.05,
+     3.25
+    ],
+    "shift": 0
+   },
+   "layer": {
+    "type": "reseq",
+    "src": "333264_vocal-cut-ups-collage.mp3",
+    "pattern": [
+     2,
+     7,
+     10,
+     15,
+     18,
+     23,
+     26,
+     31
+    ],
+    "hold": 2,
+    "bars": 2,
+    "slice_max": 0.3
+   },
+   "bed": {
+    "src": "131094_vocal-harmony.mp3"
+   },
+   "names": {
+    "hook": "\"Love\" vocal line (oceaans)",
+    "layer": "Breathy female chops",
+    "bed": "Vocal harmony pad"
+   }
+  },
+  "instruments": {
+   "lead": "Rhodes EP",
+   "answer": "Music Box",
+   "bass": "Fingered Bass",
+   "kit": "Standard",
+   "pad": "strings"
+  },
+  "hook_min_distance_to_others": 0.367,
+  "plan_penalty": 278,
+  "max_chord_similarity": 0.68
+ },
+ {
+  "title": "Glass Coastline",
+  "reference": "Diamonds (feat. Solomon Grey) - Lane 8",
+  "brief": {
+   "engine": "v2",
+   "style": "melodic",
+   "release": "hitstyle2-glass-coastline",
+   "bpm": 120,
+   "tonic": 57,
+   "progression": [
+    [
+     0,
+     "m9"
+    ],
+    [
+     3,
+     "maj7"
+    ],
+    [
+     10,
+     "add9"
+    ],
+    [
+     5,
+     "m7"
+    ]
+   ],
+   "mode": "minor",
+   "lead": "kalimba",
+   "answer": "flute",
+   "groove": {
+    "bass_a": "syncop",
+    "bass_b": "octave",
+    "swing": 0.0
+   },
+   "arc": "wave",
+   "loudness_lufs": -10.5,
+   "seed": 159352,
+   "instruments": "real",
+   "motif": {
+    "cell": "dotted",
+    "contour": "fall",
+    "start": 76,
+    "candidate": 1,
+    "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+   }
+  },
+  "vocals": {
+   "hook": {
+    "type": "phrase",
+    "src": "523227_morning-country-female-vocal-loop.mp3",
+    "region": [
+     0.0,
+     9.3
+    ],
+    "shift": 0
+   },
+   "phrase": {
+    "src": "523227_morning-country-female-vocal-loop.mp3",
+    "region": [
+     9.3,
+     18.65
+    ],
+    "shift": 0
+   },
+   "bed": {
+    "src": "577828_dream-vocal-pad.mp3"
+   },
+   "names": {
+    "hook": "Sung female line (szegvari)",
+    "phrase": "Sung female answer line",
+    "bed": "Dream vocal pad"
+   }
+  },
+  "instruments": {
+   "lead": "Kalimba",
+   "answer": "Pan Flute",
+   "bass": "Fretless Bass",
+   "kit": "Jazz",
+   "pad": "synth"
+  },
+  "hook_min_distance_to_others": 0.4,
+  "plan_penalty": 278,
+  "max_chord_similarity": 0.74
+ },
+ {
+  "title": "Mango Skies",
+  "reference": "Freeze - Kygo",
+  "brief": {
+   "engine": "v2",
+   "style": "tropical",
+   "release": "hitstyle2-mango-skies",
+   "bpm": 106,
+   "tonic": 61,
+   "progression": [
+    [
+     9,
+     "m7"
+    ],
+    [
+     5,
+     "maj7"
+    ],
+    [
+     0,
+     "add9"
+    ],
+    [
+     7,
+     "add9"
+    ]
+   ],
+   "mode": "major",
+   "lead": "marimba",
+   "answer": "pluck",
+   "groove": {
+    "bass_a": "tropical",
+    "bass_b": "octave",
+    "swing": 0.01
+   },
+   "arc": "wave",
+   "loudness_lufs": -11.0,
+   "seed": 592723,
+   "instruments": "real",
+   "motif": {
+    "cell": "lilt",
+    "contour": "pedal",
+    "start": 73,
+    "candidate": 2,
+    "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+   }
+  },
+  "vocals": {
+   "hook": {
+    "type": "phrase",
+    "src": "508456_female-voice-doodling.mp3",
+    "region": [
+     1.1,
+     6.4
+    ],
+    "shift": 1
+   },
+   "bed": {
+    "src": "352573_angelic-voice.mp3"
+   },
+   "adlibs": {
+    "drop2": "320739_yeah.mp3"
+   },
+   "names": {
+    "hook": "Female improvised sung line (owstu)",
+    "bed": "Angelic voice",
+    "adlib_drop2": "\"Yeah!\""
+   }
+  },
+  "instruments": {
+   "lead": "Marimba",
+   "answer": "Harp",
+   "bass": "Acoustic Bass",
+   "kit": "Jazz 1",
+   "pad": "blend"
+  },
+  "hook_min_distance_to_others": 0.39,
+  "plan_penalty": 278,
+  "max_chord_similarity": 0.67
+ },
+ {
+  "title": "Rooftop Telegram",
+  "reference": "I Got U (feat. Jax Jones) - Duke Dumont",
+  "brief": {
+   "engine": "v2",
+   "style": "house",
+   "release": "hitstyle2-rooftop-telegram",
+   "bpm": 124,
+   "tonic": 59,
+   "progression": [
+    [
+     0,
+     "m9"
+    ],
+    [
+     3,
+     "maj7"
+    ],
+    [
+     5,
+     "9"
+    ],
+    [
+     3,
+     "maj7"
+    ]
+   ],
+   "mode": "dorian",
+   "lead": "piano",
+   "answer": "organ",
+   "groove": {
+    "bass_a": "offbeat",
+    "bass_b": "octave",
+    "swing": 0.02
+   },
+   "arc": "early",
+   "loudness_lufs": -9.5,
+   "seed": 141506,
+   "instruments": "real",
+   "motif": {
+    "cell": "syncop",
+    "contour": "valley",
+    "start": 71,
+    "candidate": 4,
+    "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+   }
+  },
+  "vocals": {
+   "hook": {
+    "type": "phrase",
+    "src": "469018_vocal3.mp3",
+    "region": [
+     0.0,
+     3.69
+    ],
+    "shift": 0
+   },
+   "layer": {
+    "type": "loop",
+    "src": "467908_vocal2.mp3",
+    "bpm": 124.8,
+    "trim": 0.045,
+    "bars": 1
+   },
+   "adlibs": {
+    "drop1": "384981_hell-yeah.mp3"
+   },
+   "names": {
+    "hook": "2-step female sung phrase (arnasarnas)",
+    "layer": "2-step female chop",
+    "adlib_drop1": "\"Hell yeah!\""
+   }
+  },
+  "instruments": {
+   "lead": "Yamaha Grand Piano",
+   "answer": "Percussive Organ",
+   "bass": "Picked Bass",
+   "kit": "Room 3",
+   "pad": "blend"
+  },
+  "hook_min_distance_to_others": 0.381,
+  "plan_penalty": 278,
+  "max_chord_similarity": 0.69
+ },
+ {
+  "title": "Golden Chorus Line",
+  "reference": "Sweet Lovin' - Sigala & Bryn Christopher",
+  "brief": {
+   "engine": "v2",
+   "style": "vocal",
+   "release": "hitstyle2-golden-chorus-line",
+   "bpm": 123,
+   "tonic": 58,
+   "progression": [
+    [
+     5,
+     "maj7"
+    ],
+    [
+     4,
+     "m7"
+    ],
+    [
+     2,
+     "m7"
+    ],
+    [
+     7,
+     "9"
+    ]
+   ],
+   "mode": "major",
+   "lead": "topline",
+   "answer": "rhodes",
+   "groove": {
+    "bass_a": "octave",
+    "bass_b": "octave",
+    "swing": 0.015
+   },
+   "arc": "early",
+   "loudness_lufs": -10.0,
+   "seed": 570699,
+   "instruments": "real",
+   "motif": {
+    "cell": "sparse",
+    "contour": "pedal",
+    "start": 75,
+    "candidate": 3,
+    "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+   }
+  },
+  "vocals": {
+   "hook": {
+    "type": "phrase",
+    "src": "448705_hey-hey-hey-yeah.mp3",
+    "region": [
+     0.6,
+     5.35
+    ],
+    "shift": 0
+   },
+   "layer": {
+    "type": "reseq",
+    "src": "419161_ooh-aha.mp3",
+    "pattern": [
+     4,
+     12,
+     20,
+     28
+    ],
+    "hold": 3.5,
+    "bars": 2,
+    "slice_max": 0.5
+   },
+   "bed": {
+    "src": "331130_sisters-voices.mp3"
+   },
+   "adlibs": {
+    "drop1": "416843_shouting-yeah.mp3"
+   },
+   "names": {
+    "hook": "\"Hey hey hey yeah\" sung line (ellenmentor)",
+    "layer": "\"Ooh-aha\" backing",
+    "bed": "Sisters' voices",
+    "adlib_drop1": "\"Yeah!\""
+   }
+  },
+  "instruments": {
+   "lead": "Tenor Sax",
+   "answer": "Rhodes EP",
+   "bass": "Acoustic Bass",
+   "kit": "Room 1",
+   "pad": "synth"
+  },
+  "hook_min_distance_to_others": 0.539,
+  "plan_penalty": 278,
+  "max_chord_similarity": 0.7
+ },
+ {
+  "title": "Concrete Sunrise",
+  "reference": "Favour - FISHER & Tones And I",
+  "brief": {
+   "engine": "v2",
+   "style": "tech",
+   "release": "hitstyle2-concrete-sunrise",
+   "bpm": 125,
+   "tonic": 58,
+   "progression": [
+    [
+     0,
+     "min"
+    ],
+    [
+     0,
+     "min"
+    ],
+    [
+     8,
+     "maj"
+    ],
+    [
+     10,
+     "maj"
+    ]
+   ],
+   "mode": "minor",
+   "lead": "rim_synth",
+   "answer": "stab",
+   "groove": {
+    "bass_a": "acid16",
+    "bass_b": "tech_roll",
+    "swing": 0.05
+   },
+   "arc": "classic",
+   "loudness_lufs": -9.0,
+   "seed": 976277,
+   "instruments": "real",
+   "motif": {
+    "cell": "offbeat",
+    "contour": "arch",
+    "start": 77,
+    "candidate": 5,
+    "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+   }
+  },
+  "vocals": {
+   "hook": {
+    "type": "phrase",
+    "src": "362340_short-vocals-100bpm.mp3",
+    "region": [
+     1.8,
+     7.85
+    ],
+    "shift": 0
+   },
+   "layer": {
+    "type": "reseq",
+    "src": "554623_male-vocal-glitch.mp3",
+    "pattern": [
+     0,
+     3,
+     8,
+     11,
+     16,
+     19,
+     24,
+     27
+    ],
+    "hold": 2,
+    "bars": 2,
+    "slice_max": 0.25,
+    "shift": "none"
+   },
+   "bed": {
+    "src": "395431_male-vocal-drone.mp3"
+   },
+   "adlibs": {
+    "build": "63982_go-for-it.mp3"
+   },
+   "adlib_shift": {
+    "build": "none"
+   },
+   "names": {
+    "hook": "Short vocal phrase (DivingInSpace)",
+    "layer": "Male vocal glitch",
+    "bed": "Male vocal drone",
+    "adlib_build": "\"Go for it\""
+   }
+  },
+  "instruments": {
+   "lead": "Woodblock",
+   "answer": "Pizzicato Section",
+   "bass": "Acoustic Bass",
+   "kit": "Power 1",
+   "pad": "strings"
+  },
+  "hook_min_distance_to_others": 0.271,
+  "plan_penalty": 278,
+  "max_chord_similarity": 0.66
+ },
+ {
+  "title": "Endless July",
+  "reference": "Summer - Calvin Harris",
+  "brief": {
+   "engine": "v2",
+   "style": "progressive",
+   "release": "hitstyle2-endless-july",
+   "bpm": 127,
+   "tonic": 59,
+   "progression": [
+    [
+     8,
+     "maj9"
+    ],
+    [
+     10,
+     "add9"
+    ],
+    [
+     0,
+     "m9"
+    ],
+    [
+     7,
+     "m7"
+    ]
+   ],
+   "mode": "minor",
+   "lead": "pluck",
+   "answer": "flute",
+   "groove": {
+    "bass_a": "rolling",
+    "bass_b": "octave",
+    "swing": 0.0
+   },
+   "arc": "prog",
+   "loudness_lufs": -10.0,
+   "seed": 144672,
+   "instruments": "real",
+   "motif": {
+    "cell": "dotted",
+    "contour": "rise",
+    "start": 74,
+    "candidate": 2,
+    "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+   }
+  },
+  "vocals": {
+   "hook": {
+    "type": "phrase",
+    "src": "529476_hip-vocal-dance-loop-100bpm.mp3",
+    "region": [
+     0.0,
+     7.3
+    ],
+    "shift": 0
+   },
+   "layer": {
+    "type": "loop",
+    "src": "161507_chopped-vocal-loop.mp3",
+    "bpm": 126.0,
+    "bars": 1
+   },
+   "bed": {
+    "src": "556980_tension-vocals.mp3"
+   },
+   "names": {
+    "hook": "Dance vocal phrase (szegvari)",
+    "layer": "Chopped female loop",
+    "bed": "Tension vocals"
+   }
+  },
+  "instruments": {
+   "lead": "Nylon String Guitar",
+   "answer": "Flute",
+   "bass": "Picked Bass",
+   "kit": "Standard 3",
+   "pad": "strings"
+  },
+  "hook_min_distance_to_others": 0.351,
+  "plan_penalty": 278,
+  "max_chord_similarity": 0.83
+ }
+]
