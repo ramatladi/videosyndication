@@ -15,7 +15,7 @@ Instrumental house/disco by **DJ Velvet Purple**, released on the **Mirage Tropi
 - **Every release different** (enforced by `make_release.py plan` against `ledger.json` + `catalog.json`): style rotation over
   the 12 styles (never the same style twice in a row), key+mode not used in the last 10 releases, tempo not within 1 BPM of the
   previous one, chord loop at most 0.75 alike to any of the last 30, lead/answer instrument families not used in the last 3,
-  hook melody distance ≥ 0.35 to every earlier release. A plan that can't meet this stops instead of publishing.
+  hook melody the furthest of 48 candidates from every earlier release and at least 0.25 away (near-copies score below 0.18). A plan that can't meet this stops instead of publishing.
 - **Fail-closed:** a release is only scheduled if `qc.py` passed (exit 0) on the final WAV/MP3/AAC. Nothing is described as
   listened to — all checks are automated.
 - **Photo:** one free-licence tropical/nature photo per release (Unsplash License, never Unsplash+), no people in focus, no

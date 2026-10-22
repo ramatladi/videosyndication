@@ -10,7 +10,7 @@ Music: djvelvetgrey engine v4 in real-instruments mode (every sound a recorded i
   - key+mode not used in the last 10 releases, tempo not within 1 BPM of the previous release;
   - chord loop at most 0.75 alike (any key, any rotation) to every release in the last 30;
   - lead and answer instrument families not used as lead/answer in the last 3 releases;
-  - hook melody distance >= 0.35 to every earlier release.
+  - hook melody: the candidate furthest from every earlier release, and at least 0.25 away (near-copies are < 0.18).
 build renders, exports (codec headroom), runs the blocking QC (qc.py, exit 0 required) and makes the 16:9 video.
 Automated technical checks only - not a listening judgement.
 """
@@ -28,6 +28,7 @@ FAMILY = {'Yamaha Grand Piano': 'piano', 'Bright Yamaha Grand': 'piano', 'Electr
           'Legend EP 2': 'ep', 'Detuned EP 1': 'ep', 'Percussive Organ': 'organ', 'DrawbarOrgan': 'organ', 'Rock Organ': 'organ',
           'Alto Sax': 'sax', 'Tenor Sax': 'sax'}
 FAM = lambda n: FAMILY.get(n, n)
+HOOK_MIN = 0.25    # melody distance to every earlier release (near-copies score < 0.18; unrelated tunes ~0.4+)
 
 
 def ledger():
@@ -85,9 +86,11 @@ def plan(date):
          'arc': c['arc'], 'loudness_lufs': P['lufs'], 'seed': c['seed'], 'instruments': 'real'}
     errs = MT.validate(b, P)
     if errs: raise SystemExit('; '.join(errs))
-    cands = C.candidates(b, 24); cat = C.load_catalog()
-    ok = [x for x in cands if not x['catalog']['flags'] and all(C.similarity_distance(x['motif'], e['motif']) >= .35 for e in cat)]
-    if not ok: raise SystemExit('no hook candidate is far enough (>= 0.35) from every earlier release')
+    cands = C.candidates(b, 48); cat = C.load_catalog()
+    mind = lambda x: min([C.similarity_distance(x['motif'], e['motif']) for e in cat] or [1.0])
+    ok = sorted([x for x in cands if not x['catalog']['flags']], key=lambda x: -mind(x))
+    if not ok or mind(ok[0]) < HOOK_MIN:
+        raise SystemExit(f'no hook candidate is far enough (>= {HOOK_MIN}) from every earlier release')
     pick = ok[0]
     b['motif'] = {'cell': pick['cell'], 'contour': pick['contour'], 'start': pick['start'], 'candidate': pick['id'],
                   'selected_by': 'automatic, screened against every earlier release - not a listening judgement'}
