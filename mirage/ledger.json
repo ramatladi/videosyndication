@@ -361,6 +361,188 @@
      "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
     }
    }
+  },
+  {
+   "release": "mtr005",
+   "date": "2026-10-24",
+   "slot": "2026-10-24T23:55:00",
+   "format": "video",
+   "title": "Glass Coastline",
+   "style": "melodic",
+   "tonic": 57,
+   "mode": "minor",
+   "key": "A minor",
+   "bpm": 120,
+   "lead": "Kalimba",
+   "answer": "Pan Flute",
+   "lead_family": "Kalimba",
+   "answer_family": "Pan Flute",
+   "chord_pcs": [
+    [
+     0,
+     4,
+     7,
+     9
+    ],
+    [
+     0,
+     4,
+     7,
+     11
+    ],
+    [
+     2,
+     7,
+     9,
+     11
+    ],
+    [
+     0,
+     2,
+     5,
+     9
+    ]
+   ],
+   "photographer": "Armand Mckenzie",
+   "photo_page": "https://unsplash.com/photos/turquoise-water-and-white-sandbars-with-green-hills-a_-xp8Ju_b4",
+   "metricool_uuid": "-1944070918754513481",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-7207649901847249409.mp4",
+   "style_reference": "Diamonds (feat. Solomon Grey) - Lane 8",
+   "brief": {
+    "engine": "v2",
+    "style": "melodic",
+    "release": "hitstyle2-glass-coastline",
+    "bpm": 120,
+    "tonic": 57,
+    "progression": [
+     [
+      0,
+      "m9"
+     ],
+     [
+      3,
+      "maj7"
+     ],
+     [
+      10,
+      "add9"
+     ],
+     [
+      5,
+      "m7"
+     ]
+    ],
+    "mode": "minor",
+    "lead": "kalimba",
+    "answer": "flute",
+    "groove": {
+     "bass_a": "syncop",
+     "bass_b": "octave",
+     "swing": 0.0
+    },
+    "arc": "wave",
+    "loudness_lufs": -10.5,
+    "seed": 159352,
+    "instruments": "real",
+    "motif": {
+     "cell": "dotted",
+     "contour": "fall",
+     "start": 76,
+     "candidate": 1,
+     "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+    }
+   }
+  },
+  {
+   "release": "mtr006",
+   "date": "2026-10-25",
+   "slot": "2026-10-25T05:55:00",
+   "format": "short",
+   "title": "Mango Skies",
+   "style": "tropical",
+   "tonic": 61,
+   "mode": "major",
+   "key": "C# major",
+   "bpm": 106,
+   "lead": "Marimba",
+   "answer": "Harp",
+   "lead_family": "Marimba",
+   "answer_family": "Harp",
+   "chord_pcs": [
+    [
+     1,
+     5,
+     8,
+     10
+    ],
+    [
+     1,
+     5,
+     6,
+     10
+    ],
+    [
+     1,
+     3,
+     5,
+     8
+    ],
+    [
+     0,
+     3,
+     8,
+     10
+    ]
+   ],
+   "photographer": "Ittemaldiviano",
+   "photo_page": "https://unsplash.com/photos/green-palm-tree-on-white-sand-beach-during-daytime-jmkMl20jNS0",
+   "metricool_uuid": "-140712085934880832",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-6667283977877171126.mp4",
+   "style_reference": "Freeze - Kygo",
+   "brief": {
+    "engine": "v2",
+    "style": "tropical",
+    "release": "hitstyle2-mango-skies",
+    "bpm": 106,
+    "tonic": 61,
+    "progression": [
+     [
+      9,
+      "m7"
+     ],
+     [
+      5,
+      "maj7"
+     ],
+     [
+      0,
+      "add9"
+     ],
+     [
+      7,
+      "add9"
+     ]
+    ],
+    "mode": "major",
+    "lead": "marimba",
+    "answer": "pluck",
+    "groove": {
+     "bass_a": "tropical",
+     "bass_b": "octave",
+     "swing": 0.01
+    },
+    "arc": "wave",
+    "loudness_lufs": -11.0,
+    "seed": 592723,
+    "instruments": "real",
+    "motif": {
+     "cell": "lilt",
+     "contour": "pedal",
+     "start": 73,
+     "candidate": 2,
+     "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+    }
+   }
   }
  ]
 }
