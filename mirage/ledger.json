@@ -90,6 +90,97 @@
      "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
     }
    }
+  },
+  {
+   "release": "mtr002",
+   "date": "2026-10-23",
+   "slot": "2026-10-23T05:55:00",
+   "format": "short",
+   "title": "Neon Tide Pull",
+   "style": "nudisco",
+   "tonic": 55,
+   "mode": "minor",
+   "key": "G minor",
+   "bpm": 116,
+   "lead": "Rhodes EP",
+   "answer": "Slow Strings",
+   "lead_family": "ep",
+   "answer_family": "strings",
+   "chord_pcs": [
+    [
+     2,
+     5,
+     7,
+     10
+    ],
+    [
+     0,
+     2,
+     5,
+     9
+    ],
+    [
+     2,
+     3,
+     7,
+     10
+    ],
+    [
+     0,
+     2,
+     6,
+     9
+    ]
+   ],
+   "photographer": "llxvisuals",
+   "photo_page": "https://unsplash.com/photos/palm-trees-silhouetted-against-a-vibrant-sunset-sky-VmRQHXHfygw",
+   "metricool_uuid": "-765948784812536301",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-1443677010544984393.mp4",
+   "style_reference": "Hypnotized - Purple Disco Machine & Sophie and the Giants",
+   "brief": {
+    "engine": "v2",
+    "style": "nudisco",
+    "release": "hitstyle2-neon-tide-pull",
+    "bpm": 116,
+    "tonic": 55,
+    "progression": [
+     [
+      0,
+      "m9"
+     ],
+     [
+      10,
+      "6"
+     ],
+     [
+      8,
+      "maj7"
+     ],
+     [
+      7,
+      "7"
+     ]
+    ],
+    "mode": "minor",
+    "lead": "polysynth",
+    "answer": "strings",
+    "groove": {
+     "bass_a": "funk",
+     "bass_b": "funk",
+     "swing": 0.02
+    },
+    "arc": "early",
+    "loudness_lufs": -10.0,
+    "seed": 837553,
+    "instruments": "real",
+    "motif": {
+     "cell": "skip",
+     "contour": "leapstep",
+     "start": 67,
+     "candidate": 2,
+     "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
+    }
+   }
   }
  ]
 }
