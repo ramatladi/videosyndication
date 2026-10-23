@@ -17,8 +17,12 @@ parts = [
     f"💵 Pay: {J['pay_full']}",
     f"🏢 Employer: {J['employer']}",
     f"📍 Location: {J['location']}" + (f" ({J['workplace']})" if J.get("workplace") else ""),
-    f"🕒 Type: {J.get('type', 'Full time')}",
-    f"🗓 Posted: {J['posted']}" + (f"  ·  Job ID: {J['ref']}" if J.get("ref") else ""),
+]
+# Type, posted date and job ID only when the posting itself states them (empty = left out).
+if J.get("type"): parts.append(f"🕒 Type: {J['type']}")
+facts = ([f"Posted: {J['posted']}"] if J.get("posted") else []) + ([f"Job ID: {J['ref']}"] if J.get("ref") else [])
+if facts: parts.append("🗓 " + "  ·  ".join(facts))
+parts += [
     "",
     "ABOUT THE ROLE",
     X["about"],

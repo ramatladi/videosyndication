@@ -43,7 +43,8 @@ the fuller read: about the team, what you'll do, what you need, pay and benefits
 
 ## Job file (`veritas/jobs/vraNNN.json`)
 `id`, `format` (`short`|`video`), `voice`, `speed`, `source_id` (the jobs table id), `job` {employer, title, location,
-workplace, pay (short form for the screen), pay_full, type, posted, ref, apply_url, apply_site}, `details` {about,
+workplace, pay (short form for the screen), pay_full, type, posted, ref, apply_url, apply_site — workplace, type, posted
+and ref only when the posting itself states them, otherwise ""}, `details` {about,
 duties[], needs[], nice[], benefits, notes[]}, `yt_title`, `hashtags[]`, `tags[]`, `scenes[]` {head, bullets[]
 (short screen points), lines[] (spoken), show[] (captions, null where the line reads as written)}.
 Shorts: 5 scenes (The role · What you'll do · What you need · Pay · How to apply), one or two lines each.
