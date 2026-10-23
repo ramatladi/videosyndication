@@ -1,7 +1,8 @@
 """Fetch the full text of each queued job posting from the employer's own careers site (runs in GitHub Actions).
 
 usage: python3 veritas/fetch.py veritas/queue/YYYY-MM-DD.json
-Writes veritas/fetched/YYYY-MM-DD/<safe id>.json: {source_id, url, http, ok, text}. The text is the posting as the
+Writes veritas/fetched/YYYY-MM-DD/<safe id>.json: {source_id, url, http, ok, text}, and for the queue's "logos" entries
+every logo candidate the employer's own pages name (veritas/fetched/YYYY-MM-DD/logos/<slug>/NN.ext + index.json). The text is the posting as the
 employer publishes it (Workday and Greenhouse through their public job APIs, everything else from the page itself:
 its schema.org JobPosting when it has one, else its visible text). Standard library only; one request at a time.
 """
@@ -54,6 +55,76 @@ def fetch(job):
         return st, f"{j.get('title')}\nLocation: {(j.get('location') or {}).get('name')}\n\n" + text_of(html.unescape(j.get("content", "")))
     st, page = get(url)
     return st, jobposting(page) or text_of(page)
+
+LOGO_HINT = re.compile(r"logo|brand|wordmark", re.I)
+
+def absolute(base, src):
+    return urllib.parse.urljoin(base, html.unescape(src.strip()))
+
+def download(url, path, limit=3_000_000):
+    req = urllib.request.Request(url, headers={"user-agent": UA, "accept": "image/svg+xml,image/png,image/webp,image/*"})
+    with urllib.request.urlopen(req, timeout=45) as r:
+        body = r.read(limit + 1)
+    if len(body) > limit or len(body) < 100: raise ValueError(f"size {len(body)}")
+    open(path, "wb").write(body)
+    return r.headers.get("content-type", "")
+
+def logo_candidates(page_url, page):
+    """Where an employer's own page names its logo: schema.org Organization logo, og:logo, <img> marked as the logo,
+    inline <svg> marked as the logo, and the site's SVG/touch icons."""
+    found = []
+    for m in re.finditer(r'(?is)<script[^>]+application/ld\+json[^>]*>(.*?)</script>', page):
+        for u in re.findall(r'"logo"\s*:\s*(?:\{[^}]*?"url"\s*:\s*)?"([^"]+)"', m.group(1)):
+            found.append(("jsonld", absolute(page_url, u)))
+    for m in re.finditer(r'(?is)<meta[^>]+property=["\']og:logo["\'][^>]*content=["\']([^"\']+)', page):
+        found.append(("og:logo", absolute(page_url, m.group(1))))
+    for m in re.finditer(r'(?is)<img\b[^>]*>', page):
+        tag = m.group(0); src = re.search(r'\bsrc=["\']([^"\']+)', tag)
+        if src and LOGO_HINT.search(tag) and not src.group(1).startswith("data:"):
+            found.append(("img", absolute(page_url, src.group(1))))
+    for m in re.finditer(r'(?is)<svg\b.*?</svg>', page):
+        svg, before = m.group(0), page[max(0, m.start() - 400): m.start()]
+        if (LOGO_HINT.search(svg[:600]) or LOGO_HINT.search(before[-250:])) and len(svg) < 200_000:
+            found.append(("inline-svg", svg))
+    for m in re.finditer(r'(?is)<link\b[^>]*>', page):
+        tag = m.group(0); href = re.search(r'\bhref=["\']([^"\']+)', tag)
+        if href and re.search(r'rel=["\'][^"\']*(apple-touch-icon|mask-icon|icon)', tag, re.I) and (".svg" in href.group(1) or "apple-touch" in tag or "image/svg" in tag):
+            found.append(("icon", absolute(page_url, href.group(1))))
+    seen, out = set(), []
+    for kind, v in found:
+        if v not in seen: seen.add(v); out.append((kind, v))
+    return out[:14]
+
+def fetch_logos(entry):
+    """entry {slug, employer, pages[]}: saves every logo candidate from the employer's own pages for review."""
+    folder = os.path.join(OUT, "logos", re.sub(r"[^a-z0-9-]+", "-", entry["slug"].lower()))
+    os.makedirs(folder, exist_ok=True); index = []
+    for page_url in entry["pages"]:
+        try:
+            st, page = get(page_url)
+        except Exception as e:
+            index.append({"page": page_url, "error": f"{type(e).__name__}: {e}"[:200]}); continue
+        for kind, v in logo_candidates(page_url, page):
+            n = len([x for x in index if x.get("file")]) + 1
+            item = {"page": page_url, "kind": kind}
+            try:
+                if kind == "inline-svg":
+                    svg = v if "xmlns=" in v[:400] else v.replace("<svg", '<svg xmlns="http://www.w3.org/2000/svg"', 1)
+                    path = os.path.join(folder, f"{n:02d}.svg"); open(path, "w").write(svg); item["source"] = page_url + " (inline SVG)"
+                else:
+                    ext = (re.search(r"\.(svg|png|webp|jpe?g|ico)(?:$|[?#])", v, re.I) or [None, "img"])[1].lower()
+                    path = os.path.join(folder, f"{n:02d}.{ext}"); ctype = download(v, path); item.update(source=v, type=ctype)
+                item["file"] = os.path.basename(path)
+            except Exception as e:
+                item.update(source=v[:300] if kind != "inline-svg" else page_url, error=f"{type(e).__name__}: {e}"[:200])
+            index.append(item); time.sleep(0.5)
+        time.sleep(2)
+    json.dump({"employer": entry["employer"], "candidates": index}, open(os.path.join(folder, "index.json"), "w"), indent=1)
+    print("logos", entry["slug"], len([x for x in index if x.get("file")]), "candidates")
+
+for entry in Q.get("logos", []):
+    try: fetch_logos(entry)
+    except Exception as e: print("logos", entry.get("slug"), "failed", e)
 
 for i, job in enumerate(Q["jobs"]):
     if i: time.sleep(2)
