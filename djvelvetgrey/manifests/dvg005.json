@@ -1,0 +1,136 @@
+{
+ "release_id": "dvg005",
+ "title": "Copper Horizon Drift",
+ "style": "afro",
+ "style_as_written": "afro",
+ "status": "pass",
+ "created_utc": "2026-10-23T18:11:38Z",
+ "engine_version": "4.0.0",
+ "code_sha256": "77053c79d37f4d3dbc7feea1761c8a381df8a5cb68086fe7679cc9161c0b63d6",
+ "files": {
+  "track_json": "/home/claude/videosyndication/djvelvetgrey/tracks/dvg005.json",
+  "photo": "/home/claude/videosyndication/djvelvetgrey/photos/dvg005.jpg",
+  "delivery_wav": "/home/claude/videosyndication/out/dvg005.delivery.wav",
+  "mp3": "/home/claude/videosyndication/out/dvg005.mp3",
+  "aac": "/home/claude/videosyndication/out/dvg005.m4a",
+  "mp4": "/home/claude/videosyndication/out/dvg005.mp4",
+  "qc_json": "/home/claude/videosyndication/out/dvg005.qc.json",
+  "meta_json": "/home/claude/videosyndication/out/dvg005.meta.json",
+  "export_json": "/home/claude/videosyndication/out/dvg005.export.json"
+ },
+ "repo_commit": "855868db6c67b694728d7bd3b7a3ca08002ca20c",
+ "repo_dirty": false,
+ "tools": {
+  "python": "3.13.17",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pyloudnorm": "installed",
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+  "soundfont": "FluidR3_GM.sf2",
+  "soundfont_sha256": "74594e8f4250680adf590507a306655a299935343583256f3b722c48a1bc1cb0",
+  "pyfluidsynth": "installed",
+  "fluidsynth": "FluidSynth runtime version 2.3.4"
+ },
+ "brief": {
+  "engine": "v2",
+  "style": "afro",
+  "release": "dvg005",
+  "mood": "earthy, hypnotic sunset groove on the Indian Ocean",
+  "bpm": 120,
+  "tonic": 59,
+  "progression": [
+   [
+    0,
+    "m11"
+   ],
+   [
+    8,
+    "maj9"
+   ],
+   [
+    10,
+    "sus2"
+   ],
+   [
+    0,
+    "m9"
+   ]
+  ],
+  "mode": "minor",
+  "lead": "kalimba",
+  "answer": "flute",
+  "groove": {
+   "bass_a": "afro_sub",
+   "bass_b": "afro_roll",
+   "swing": 0.04
+  },
+  "arc": "burn",
+  "loudness_lufs": -10.0,
+  "seed": 334027,
+  "motif": {
+   "cell": "skip",
+   "contour": "arch",
+   "start": 71,
+   "candidate": 1,
+   "selected_by": "automatic: top compositional score without catalogue flags (not a listening judgement)"
+  }
+ },
+ "motif_selection": {
+  "cell": "skip",
+  "contour": "arch",
+  "start": 71,
+  "candidate": 1,
+  "selected_by": "automatic: top compositional score without catalogue flags (not a listening judgement)"
+ },
+ "sha256": {
+  "track_json": "f128bd818b8cc2ea11eb78090ac48cfd9e3b7f1e3d39e9c7428a7eef1b521881",
+  "photo": "247894918051aa83b0933ddeab06744574e37fedceeeae49b521431c765b2220",
+  "delivery_wav": "88f9ed2bebb36997fb6f48e8e6b25a1238c279f98a257df99b4addb40a369096",
+  "mp3": "5e3d778a14edabe22aa8a722e2a2844232d7c587a310577d13ba74f585e84cc2",
+  "aac": "1ea7db38edd6f374e5e9467e8668793f55a65844ddc1e710ec8ba4f35632cb0f",
+  "mp4": "5f958bd7fc54cef61a6e2db89425891191570bec33db3faa7dfb1cb6fb9d7f86",
+  "qc_json": "c510a26ceb4e690428f3975e9233ccb65bd0302fb26ddf607138a39854ca3046",
+  "meta_json": "e75e814deff9ead07542bcab17b414787e975f660e2a604d44b5d01e0f8db60e",
+  "export_json": "0a8631b77a62678aaa67a1423c7a9079fb1c7eefb7baca5f362e1d91b5fcac93"
+ },
+ "export": {
+  "gain_trim_db": -1.0,
+  "final": {
+   "iteration": 1,
+   "gain_db": -1.0,
+   "mp3": -3.02,
+   "aac": -1.35,
+   "pcm": -3.8
+  }
+ },
+ "qc": {
+  "status": "pass",
+  "files": {
+   "mp3": {
+    "decode_errors": null,
+    "duration_s": 179.0,
+    "true_peak_dbtp": -3.02,
+    "integrated_lufs": -11.6,
+    "samples_over_full_scale": 0
+   },
+   "mp4_audio": {
+    "decode_errors": null,
+    "duration_s": 179.003,
+    "true_peak_dbtp": -1.35,
+    "integrated_lufs": -11.63,
+    "samples_over_full_scale": 0
+   },
+   "wav": {
+    "duration_s": 179.0,
+    "true_peak_dbtp": -3.8,
+    "integrated_lufs": -11.6,
+    "samples_over_full_scale": 0
+   }
+  },
+  "click_suspects": [],
+  "outro_bars_heard": 9.5,
+  "stereo_correlation": 0.806
+ },
+ "assessment": "Automated technical checks only. Not listened to unless \"auditioned_by\" is set.",
+ "auditioned_by": null
+}
