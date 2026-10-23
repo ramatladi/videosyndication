@@ -122,9 +122,10 @@ def build(a):
         sf.write(base + '.master2.wav', (np.clip(y, -1, 1) * 32767).astype(np.int16), sr, subtype='PCM_16'); rc = export(base + '.master2.wav')
     q = json.load(open(base + '.qc.json'))
     if rc != 0: raise SystemExit(f"QC failed: {[f['check'] for f in q.get('failures', [])]}")
+    # photo credit goes in the description only (describe.py), never on the video
     vs = 'video_short.py' if a.format == 'short' else 'video.py'
     subprocess.run([sys.executable, os.path.join(HERE, vs), '--image', a.photo, '--audio', base + '.delivery.wav', '--aac', base + '.m4a',
-                    '--title', a.title, '--style', b['style'], '--credit', f'Photo: {a.photographer} / Unsplash', '--out', base + '.mp4'], check=True)
+                    '--title', a.title, '--style', b['style'], '--credit', '-', '--out', base + '.mp4'], check=True)
     p.update(title=a.title, photographer=a.photographer, photo_page=a.photo_page, qc=q['status'], lufs=q['files']['wav']['integrated_lufs'], format=a.format)
     json.dump(p, open(os.path.join(OUT, a.release + '.plan.json'), 'w'), indent=1)
     print(json.dumps({'release': a.release, 'title': a.title, 'qc': q['status'], 'lufs': p['lufs'], 'mp4': base + '.mp4'}))

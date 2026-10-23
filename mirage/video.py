@@ -1,4 +1,4 @@
-"""DJ Velvet Purple / Mirage Tropical Records video (16:9): one credited tropical photo, slow zoom, title, live equalizer.
+"""DJ Velvet Purple / Mirage Tropical Records video (16:9): one photo (credit in the description only), slow zoom, title, live equalizer.
 
     python3 video.py --image photo.jpg --audio track.wav --title "Name" --style chill|deep \
                      --credit "Photo: Jane Doe / Unsplash" --out out.mp4
@@ -75,7 +75,8 @@ def overlay(title, style, credit):
     fl = font('IBMPlexSans-SemiBold.ttf', 32)
     d.text((W / 2, 860 + lh * .5 + 34), STYLE_LABEL.get(style, style.replace('_', ' ').title()).replace(' (Instrumental)', '') + '  ·  Instrumental', font=fl, fill=(255, 255, 255, 205), anchor='mm')
     fc = font('IBMPlexSans-SemiBold.ttf', 24)
-    d.text((W - 40, H - 34), credit, font=fc, fill=(255, 255, 255, 185), anchor='rm')
+    pass  # photo credit lives in the description only (Sello, 23 Oct)
+    # d.text((W - 40, H - 34), credit, font=fc, fill=(255, 255, 255, 185), anchor='rm')
     return ov, y0 - lh // 2
 
 
