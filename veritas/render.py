@@ -3,11 +3,14 @@
 usage: python3 veritas/render.py veritas/jobs/vraNNN.json out.mp4
 The job file's "format" picks the frame: "short" = 1080x1920 (YouTube Short, under 60 s), "video" = 1920x1080.
 Needs $WORK/lines.json from tts.py. Layout: the Veritas wordmark, the job header (title, employer, place, pay), one
-card per scene whose points appear as they are read, and the spoken line as a caption.
+card per scene whose points appear as they are read, and the spoken line as a caption. The employer is shown by its
+official logo when job.logo names one in veritas/logos/logos.json.
 """
 import os, sys, json, math, subprocess
 import numpy as np, soundfile as sf
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from logotile import logo_tile, shows_name
 
 D = os.path.dirname(os.path.abspath(__file__))
 JOB = json.load(open(sys.argv[1])); OUT = sys.argv[2]
@@ -128,7 +131,15 @@ tf, tl = fit(d, J["title"], BOLD, 74 if SHORT else 62, colw, 3 if SHORT else 4, 
 for s in tl:
     d.text((x0, y), s, font=tf, fill=WHITE); y += int(tf.size * 1.14)
 y += 14
-ef = font(SEMI, 46 if SHORT else 40); d.text((x0, y), J["employer"], font=ef, fill=GOLD); y += int(ef.size * 1.3)
+ef = font(SEMI, 46 if SHORT else 40)
+tile = logo_tile(J.get("logo"), 108 if SHORT else 92, 520 if SHORT else 440, 20 if SHORT else 17)
+if tile:  # the employer's official logo (with its name beside it when the logo is only a mark)
+    y += 4; static.alpha_composite(tile, (x0, y))
+    if not shows_name(J.get("logo")):
+        d.text((x0 + tile.width + 26, y + (tile.height - ef.size * 1.25) / 2), J["employer"], font=ef, fill=GOLD)
+    y += tile.height + 22
+else:
+    d.text((x0, y), J["employer"], font=ef, fill=GOLD); y += int(ef.size * 1.3)
 lf, ll = fit(d, J["location"] + ("  ·  " + J["workplace"] if J.get("workplace") else ""), MED, 38 if SHORT else 32, colw, 2, 26)
 for s in ll:
     d.text((x0, y), s, font=lf, fill=MUTED); y += int(lf.size * 1.3)
