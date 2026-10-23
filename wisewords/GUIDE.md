@@ -1,14 +1,19 @@
 # Wise Words with Marco Reyes — writing guide
 
 A recurring story video, **exactly 2:55**, rendered in two versions from the same script:
-`out/wwNNN.mp4` (1080×1920, TikTok + Instagram Reels) and `out/wwNNN_yt.mp4` (1920×1080, posted to
-YouTube as a regular video — not a Short — so the title and description carry no #shorts).
+`out/wwNNN.mp4` (1080×1920) and `out/wwNNN_yt.mp4` (1920×1080).
 Marco Reyes — a round, jolly, old-school storyteller with a white handlebar moustache, red bow tie,
 green cardigan and gold glasses parked on his bald head — fills the screen from his wingback chair in a
 warm study (night-city window, bookshelf, banker's lamp, vintage microphone). He tells one short story,
 and every turn in the story lands on a famous quote; he raises an open hand as he says each quote.
 The studio art lives in `wisewords/scene.py`; `render.py` handles the camera (alternating wide and close
 shots), captions, headline band and the quote card.
+
+## Where episodes go (from ww030, 23 Oct 2026)
+- YouTube channel "Marco Reyes - Mr. Wise Words" (@MrWiseWords, Metricool brand 7614792): six uploads a day, every one a different episode: 4 Shorts (the 1080×1920 file, YouTube type "short") at 08:00, 12:00, 18:00 and 22:00 America/New_York, and 2 regular videos (the 1920×1080 file, YouTube type "video") at 15:00 and 20:00.
+- TikTok + Instagram Reels (Metricool brand everythingyouwant_tv, 7321327): only the two video-slot episodes, as their 1080×1920 version, at the same time as the YouTube video.
+- Nothing goes to the everythingyouwant_tv YouTube channel any more (episodes up to ww029 stay there).
+- Titles and descriptions never carry #shorts.
 
 ## Audience and tone
 - **Audience: the USA, 18+ target.** The show is published as NOT "made for kids".
