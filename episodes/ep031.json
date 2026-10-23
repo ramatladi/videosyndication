@@ -1,0 +1,496 @@
+{
+ "engine": "cast",
+ "id": 31,
+ "slug": "message-from-a-roommate-edition",
+ "title": "Message From A: Roommate Edition",
+ "trend": "TikTok 'Message from A' (an anonymous message signed 'A' calls out an everyday habit while the person is doing it; October 2026 TikTok formats list) with a 'subtle foreshadowing' payoff. Roommates Jordan and Camille keep getting messages from A exposing their habits, suspect their ghost roommate, and learn A is the dog, typing with his nose to get his walk",
+ "target_seconds": 180,
+ "length_reason": "Message from A is a quick one-clip call-out format whose originals run under thirty seconds, so it stays at the low end (3:00), which also keeps it inside Instagram's Reels limit.",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "spooky",
+ "intro": [
+  "message from a",
+  "roommate edition",
+  "someone sees everything"
+ ],
+ "youtube_title": "Message From A: someone in our apartment sees EVERYTHING (it's not who you think) 📱",
+ "description": "Jordan eats cereal over the sink, Camille hides the ketchup, and the ghost roommate steals one sock per load. Then the messages from A start. Watch Archie closely.\n\n#messagefroma #roommates #roommateproblems #comedy #animation #funny #dogsoftiktok",
+ "tags": [
+  "message from a",
+  "message from a trend",
+  "roommates",
+  "roommate problems",
+  "talking dog",
+  "ghost roommate",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny"
+ ],
+ "tiktok_caption": "message from A 📱 roommate edition (watch the dog) #messagefroma #roommates #comedy #fyp",
+ "cast": [
+  {
+   "id": "jordan",
+   "name": "Jordan",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "spiky",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#2e86c1",
+    "pattern": "hoodie"
+   },
+   "bottom": "#6e7f80",
+   "shoes": "#f39c12",
+   "accessories": [
+    "headphones:#e74c3c"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#5dade2",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "camille",
+   "name": "Camille",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "ponytail",
+    "color": "#a0522d"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ffffff",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#58d68d",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "archie",
+   "name": "Archie (the dog)",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#b5793b",
+   "belly": "#f3e0c2",
+   "inner": "#8b5a2b",
+   "scale": 0.95,
+   "top": {
+    "color": "#c0392b",
+    "pattern": "plain"
+   },
+   "accessories": [
+    "scarf:#f1c40f"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#f5b041",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.9
+   }
+  },
+  {
+   "id": "bernard",
+   "name": "Bernard (the ghost roommate)",
+   "kind": "mascot",
+   "shape": "ghost",
+   "color": "#eef2f7",
+   "scale": 1.05,
+   "accessories": [
+    "tophat:#1c1c1c",
+    "tie:#8e44ad"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#d6dbdf",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "jordan",
+   "text": "Midnight snack. Nobody is awake. Nobody will ever know.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "jordan",
+   "text": "Message from A. Nice cereal over the sink. Bowls exist, Jordan. A.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.6,
+   "after": "ding"
+  },
+  {
+   "spk": "camille",
+   "text": "Good morning. Why are you eating cereal in the dark like a raccoon?",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jordan",
+   "text": "Someone is watching me. Someone with one letter.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "camille",
+   "text": "Why is Archie staring at me like that?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "jordan",
+   "text": "He's a dog. That's his whole face.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jordan",
+   "text": "Message from A. Fourteen alarms is not a morning routine. It is a group project for the whole building. A.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "ding"
+  },
+  {
+   "spk": "camille",
+   "text": "True. I hear every alarm through the wall.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jordan",
+   "text": "They're all different songs. It's a playlist.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "camille",
+   "text": "It's a playlist of me crying.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "rimshot"
+  },
+  {
+   "spk": "jordan",
+   "text": "Message from A. Also, those are Camille's slippers. A.",
+   "shot": "CU",
+   "gesture": "think",
+   "after": "ding"
+  },
+  {
+   "spk": "camille",
+   "text": "Those are my slippers!",
+   "shot": "W",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "jordan",
+   "text": "They were by the door. That's basically a donation.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "camille",
+   "text": "Wait. My phone. Message from A.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.5,
+   "after": "ding"
+  },
+  {
+   "spk": "camille",
+   "text": "Camille. We know you hide the ketchup behind the kale so nobody finds it. A.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jordan",
+   "text": "You hide my ketchup?",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "camille",
+   "text": "I organize the fridge by color. Ketchup doesn't match anything.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jordan",
+   "text": "It matches fries, Camille!",
+   "shot": "CU",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "camille",
+   "text": "Okay. Who in this apartment sees everything and never sleeps?",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": [
+    "jordan",
+    "camille"
+   ],
+   "text": "Bernard.",
+   "shot": "W",
+   "gesture": "point",
+   "pre": 0.4
+  },
+  {
+   "spk": "bernard",
+   "text": "I beg your pardon. I was in the laundry room, minding my own haunting.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "bernard",
+   "text": "I am a ghost. The walls are my hallway.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "camille",
+   "text": "Where were you at midnight?",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "bernard",
+   "text": "Taking one sock from every load. Like I have since nineteen fifty two.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "jordan",
+   "text": "That's where my socks go?",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "bernard",
+   "text": "Oh. Oh dear. A message. Message from A.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "ding"
+  },
+  {
+   "spk": "bernard",
+   "text": "Bernard. Use the door. You leave cold spots on the couch. A.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bernard",
+   "text": "And frankly, I would never sign it A. I would sign it boo.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "rimshot"
+  },
+  {
+   "spk": "jordan",
+   "text": "Phones off. If we can't read it, it can't hurt us.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "camille",
+   "text": "Archie, stop staring at the phone. It is not a sandwich.",
+   "shot": "archie",
+   "gesture": "think"
+  },
+  {
+   "spk": "jordan",
+   "text": "Why is the screen on my phone all wet and smudgy?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "camille",
+   "text": "Because you eat cereal over the sink, Jordan.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jordan",
+   "text": "It just turned back on by itself. Message from A.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.5,
+   "after": "ding"
+  },
+  {
+   "spk": "jordan",
+   "text": "You said five minutes in March. It is October. A. Sent from a nose.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "camille",
+   "text": "Sent from a what?",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "bernard",
+   "text": "Who did we say five minutes to in March?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bernard",
+   "text": "The gym. You said that to the gym every day.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "archie",
+   "text": "It was me. I am A. Archie.",
+   "shot": "CU",
+   "gesture": "hips",
+   "pre": 1.0,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "jordan",
+   "text": "Archie! You can talk?",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "archie",
+   "text": "Nobody listens to the dog. Everybody listens to a mystery.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "camille",
+   "text": "Why didn't you just say something?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "archie",
+   "text": "I said walk every morning for three years. You said, aww, who's a good boy.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "archie",
+   "text": "So I type with my nose. Forty minutes a message. I am exhausted.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jordan",
+   "text": "That's why the phone is always wet.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "camille",
+   "text": "And the ketchup?",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "archie",
+   "text": "Ketchup was for Jordan. I am not a monster. I just want my walk.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jordan",
+   "text": "Okay. Walk at seven. Every day. No five minutes.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "camille",
+   "text": "And I will stop hiding the ketchup. Mostly.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "archie",
+   "text": "And the treat jar is not empty. I can hear it. Stop shaking it and saying all gone.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "rimshot"
+  },
+  {
+   "spk": "camille",
+   "text": "Wait. My phone again. Message from B.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8,
+   "after": "ding"
+  },
+  {
+   "spk": [
+    "jordan",
+    "camille",
+    "archie"
+   ],
+   "text": "Bernard?",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "bernard",
+   "text": "I did tell you. I sign everything boo.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "camille",
+   "text": "It says, I lived here first, and I would also like a walk. B.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "bernard",
+   "text": "Seven sounds lovely. I will bring the socks.",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true,
+   "after": "applause"
+  }
+ ]
+}
