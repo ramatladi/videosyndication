@@ -6,7 +6,7 @@ every logo candidate the employer's own pages name (veritas/fetched/YYYY-MM-DD/l
 employer publishes it (Workday and Greenhouse through their public job APIs, everything else from the page itself:
 its schema.org JobPosting when it has one, else its visible text). Standard library only; one request at a time.
 """
-import sys, os, json, re, time, html, urllib.request, urllib.parse
+import sys, os, json, re, time, html, http.client, urllib.request, urllib.parse
 
 UA = "Mozilla/5.0 (compatible; VeritasRecruitment/1.0; +https://github.com/ramatladi/videosyndication)"
 Q = json.load(open(sys.argv[1]))
@@ -17,7 +17,9 @@ os.makedirs(OUT, exist_ok=True)
 def get(url, accept="text/html,application/json"):
     req = urllib.request.Request(url, headers={"user-agent": UA, "accept": accept, "accept-language": "en-US"})
     with urllib.request.urlopen(req, timeout=45) as r:
-        return r.status, r.read().decode("utf-8", "replace")
+        try: body = r.read()
+        except http.client.IncompleteRead as e: body = e.partial  # the server closed early; keep what arrived
+        return r.status, body.decode("utf-8", "replace")
 
 def text_of(markup):
     markup = re.sub(r"(?is)<(script|style|noscript|svg|nav|footer|header)\b.*?</\1>", " ", markup)
@@ -76,8 +78,8 @@ def logo_candidates(page_url, page):
     for m in re.finditer(r'(?is)<script[^>]+application/ld\+json[^>]*>(.*?)</script>', page):
         for u in re.findall(r'"logo"\s*:\s*(?:\{[^}]*?"url"\s*:\s*)?"([^"]+)"', m.group(1)):
             found.append(("jsonld", absolute(page_url, u)))
-    for m in re.finditer(r'(?is)<meta[^>]+property=["\']og:logo["\'][^>]*content=["\']([^"\']+)', page):
-        found.append(("og:logo", absolute(page_url, m.group(1))))
+    for m in re.finditer(r'(?is)<meta[^>]+property=["\'](og:logo|og:image)["\'][^>]*content=["\']([^"\']+)', page):
+        found.append((m.group(1).lower(), absolute(page_url, m.group(2))))
     for m in re.finditer(r'(?is)<img\b[^>]*>', page):
         tag = m.group(0); src = re.search(r'\bsrc=["\']([^"\']+)', tag)
         if src and LOGO_HINT.search(tag) and not src.group(1).startswith("data:"):
@@ -99,7 +101,14 @@ def fetch_logos(entry):
     """entry {slug, employer, pages[]}: saves every logo candidate from the employer's own pages for review."""
     folder = os.path.join(OUT, "logos", re.sub(r"[^a-z0-9-]+", "-", entry["slug"].lower()))
     os.makedirs(folder, exist_ok=True); index = []
-    for page_url in entry["pages"]:
+    for n, url in enumerate(entry.get("files", []), 1):  # logo files the employer publishes at a known address
+        item = {"page": url, "kind": "file", "source": url}
+        try:
+            ext = (re.search(r"\.(svg|png|webp|jpe?g)(?:$|[?#])", url, re.I) or [None, "img"])[1].lower()
+            path = os.path.join(folder, f"f{n:02d}.{ext}"); item.update(type=download(url, path), file=os.path.basename(path))
+        except Exception as e: item["error"] = f"{type(e).__name__}: {e}"[:200]
+        index.append(item); time.sleep(0.5)
+    for page_url in entry.get("pages", []):
         try:
             st, page = get(page_url)
         except Exception as e:
