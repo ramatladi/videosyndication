@@ -19,10 +19,9 @@ Short = 1080×1920, under 60 s (about 130–150 spoken words). Video = 1920×108
 the fuller read: about the team, what you'll do, what you need, pay and benefits, how to apply.
 
 ## Rules
-- **Jobs come only from the jobs collection the news site already gathers from employers' own careers sites**
-  (D1 database `af13219e-ece9-466d-b54d-56a3afd9d3bb`, table `jobs`, read with the Cloudflare connector). Never a job
-  board or aggregator. Never name, link or hint at the site the jobs were collected for — not in a video, title,
-  description, tag, file name or commit message.
+- **Jobs come only from Sello's own jobs collection, gathered from employers' own careers sites** (the daily task
+  says where to read it). Never a job board or aggregator. Never name, link or hint at where the collection lives —
+  not in a video, title, description, tag, file name or commit message.
 - **US tech roles**: software, data, ML/AI, security, cloud/DevOps, networking, IT engineering. Posted in the last 4 days,
   seen by the collector in the last day, not closing within 3 days, pay published (preferred; required for videos).
   At most two jobs per employer per day, never a job already in `ledger.json`; mix seniority (new-grad/entry roles when
