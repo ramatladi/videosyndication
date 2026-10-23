@@ -1,0 +1,25 @@
+{
+ "employer": "Palantir",
+ "candidates": [
+  {
+   "page": "https://www.palantir.com/",
+   "kind": "inline-svg",
+   "source": "https://www.palantir.com/ (inline SVG)",
+   "file": "01.svg"
+  },
+  {
+   "page": "https://jobs.lever.co/palantir",
+   "kind": "img",
+   "source": "https://lever-client-logos.s3.us-west-2.amazonaws.com/b8300af6-ed1c-4d0b-8956-cee7839555b9-1599675095718.png",
+   "type": "application/octet-stream",
+   "file": "02.png"
+  },
+  {
+   "page": "https://jobs.lever.co/palantir",
+   "kind": "img",
+   "source": "https://jobs.lever.co/img/lever-logo-refresh.svg",
+   "type": "image/svg+xml",
+   "file": "03.svg"
+  }
+ ]
+}

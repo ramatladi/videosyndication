@@ -1,0 +1,31 @@
+{
+ "employer": "Amazon",
+ "candidates": [
+  {
+   "page": "https://www.aboutamazon.com/",
+   "kind": "img",
+   "source": "https://assets.aboutamazon.com/dims4/default/adc1ae6/2147483647/strip/true/crop/2000x1125+0+0/resize/767x431!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2Fc5%2F0a%2Fc80fca28437698eb7514d935f78c%2Famazon-luna-evergreen-images-9.png",
+   "type": "image/png",
+   "file": "01.png"
+  },
+  {
+   "page": "https://www.aboutamazon.com/",
+   "kind": "inline-svg",
+   "source": "https://www.aboutamazon.com/ (inline SVG)",
+   "file": "02.svg"
+  },
+  {
+   "page": "https://www.aboutamazon.com/",
+   "kind": "inline-svg",
+   "source": "https://www.aboutamazon.com/ (inline SVG)",
+   "file": "03.svg"
+  },
+  {
+   "page": "https://www.aboutamazon.com/",
+   "kind": "icon",
+   "source": "https://www.aboutamazon.com/_next/static/media/apple-touch-icon.706b1b87.png",
+   "type": "image/png",
+   "file": "04.png"
+  }
+ ]
+}

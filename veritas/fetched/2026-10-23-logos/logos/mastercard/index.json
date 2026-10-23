@@ -1,0 +1,13 @@
+{
+ "employer": "Mastercard",
+ "candidates": [
+  {
+   "page": "https://www.mastercard.com/us/en.html",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "page": "https://www.mastercard.us/en-us.html",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  }
+ ]
+}

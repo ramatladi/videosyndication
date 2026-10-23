@@ -1,0 +1,13 @@
+{
+ "employer": "Visa",
+ "candidates": [
+  {
+   "page": "https://usa.visa.com/",
+   "error": "IncompleteRead: IncompleteRead(57368 bytes read)"
+  },
+  {
+   "page": "https://corporate.visa.com/en.html",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  }
+ ]
+}
