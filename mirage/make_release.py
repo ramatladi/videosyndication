@@ -195,7 +195,7 @@ def record(a):
     lead_fam, ans_fam = FAM(p['lead']), FAM(p['answer'])
     L['releases'].append({'release': a.release, 'date': a.date, 'slot': a.slot, 'format': p.get('format', a.format), 'title': p['title'], 'style': p['style'], 'tonic': b['tonic'], 'mode': b['mode'],
                           'key': p['key'], 'bpm': b['bpm'], 'lead': p['lead'], 'answer': p['answer'], 'lead_family': lead_fam, 'answer_family': ans_fam,
-                          'chord_pcs': p['chord_pcs'], 'photographer': p['photographer'], 'photo_page': p['photo_page'],
+                          'chord_pcs': p['chord_pcs'], 'photographer': p['photographer'], 'photo_page': p['photo_page'], 'photo_kind': a.photo_kind or 'bikini',
                           'metricool_uuid': a.uuid, 'media_url': a.media})
     json.dump(L, open(LEDGER, 'w'), indent=1)
     C.add_to_catalog({'id': a.release, 'title': p['title'], 'status': 'published', 'style': p['style'], 'mode': b['mode'],
@@ -207,6 +207,7 @@ def record(a):
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(); ap.add_argument('cmd', choices=['plan', 'build', 'record'])
     for k in ('date', 'release', 'photo', 'photographer', 'photo-page', 'title', 'uuid', 'media', 'slot'): ap.add_argument('--' + k)
+    ap.add_argument('--photo-kind', choices=['bikini', 'fashion', 'nature'], default='bikini')
     ap.add_argument('--format', choices=['video', 'short'], default='video')
     a = ap.parse_args()
     {'plan': lambda: plan(a.date), 'build': lambda: build(a), 'record': lambda: record(a)}[a.cmd]()

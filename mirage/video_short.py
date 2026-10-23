@@ -44,6 +44,33 @@ def wrap(draw, text, f, maxw):
     return lines
 
 
+def brand_badge(ov, cx, top, scale=1.0):
+    """'DJ VELVET PURPLE' + 'Mirage Tropical Records' on a dark frosted pill with a purple rule and soft text shadow,
+    so the brand stays legible on bright skies and white sand (Sello, 23 Oct)."""
+    fb = font('IBMPlexSans-SemiBold.ttf', int(40 * scale)); fr = font('IBMPlexSans-SemiBold.ttf', int(26 * scale))
+    brand = '  '.join('DJ VELVET PURPLE')
+    tmp = ImageDraw.Draw(ov)
+    bw = tmp.textlength(brand, font=fb); rw = tmp.textlength('Mirage Tropical Records', font=fr)
+    pw, ph = int(max(bw, rw) + 90 * scale), int(150 * scale)
+    x0, y0 = int(cx - pw / 2), int(top)
+    pill = Image.new('RGBA', ov.size, (0, 0, 0, 0)); dp = ImageDraw.Draw(pill)
+    dp.rounded_rectangle([x0 - 6, y0 - 6, x0 + pw + 6, y0 + ph + 6], radius=int(36 * scale), fill=(0, 0, 0, 90))
+    pill = pill.filter(ImageFilter.GaussianBlur(10 * scale))
+    dp = ImageDraw.Draw(pill)
+    dp.rounded_rectangle([x0, y0, x0 + pw, y0 + ph], radius=int(30 * scale), fill=(18, 8, 32, 165), outline=(190, 140, 255, 110), width=2)
+    ov = Image.alpha_composite(ov, pill)
+    yb, yl, yr = y0 + ph * .33, y0 + ph * .58, y0 + ph * .78
+    sh = Image.new('RGBA', ov.size, (0, 0, 0, 0)); ds = ImageDraw.Draw(sh)
+    ds.text((cx, yb + 2), brand, font=fb, fill=(0, 0, 0, 200), anchor='mm')
+    ds.text((cx, yr + 2), 'Mirage Tropical Records', font=fr, fill=(0, 0, 0, 200), anchor='mm')
+    ov = Image.alpha_composite(ov, sh.filter(ImageFilter.GaussianBlur(3)))
+    d = ImageDraw.Draw(ov)
+    d.text((cx, yb), brand, font=fb, fill=(255, 255, 255, 255), anchor='mm')
+    d.line([(cx - 70 * scale, yl), (cx + 70 * scale, yl)], fill=(190, 140, 255, 235), width=max(2, int(3 * scale)))
+    d.text((cx, yr), 'Mirage Tropical Records', font=fr, fill=(235, 225, 255, 240), anchor='mm')
+    return ov
+
+
 def overlay(title, style, credit):
     ov = Image.new('RGBA', (W, H), (0, 0, 0, 0))
     # soft dark gradients top and bottom for legibility
@@ -52,13 +79,8 @@ def overlay(title, style, credit):
     a = np.clip((y - H * .52) / (H * .48), 0, 1) ** 1.3 * 190 + np.clip((H * .16 - y) / (H * .16), 0, 1) * 120
     grad[..., 3] = a.astype(np.uint8)
     ov = Image.alpha_composite(ov, Image.fromarray(grad, 'RGBA'))
+    ov = brand_badge(ov, W / 2, 110, 1.05)
     d = ImageDraw.Draw(ov)
-    # brand
-    fb = font('IBMPlexSans-SemiBold.ttf', 34)
-    brand = '  '.join('DJ VELVET PURPLE')
-    d.text((W / 2, 150), brand, font=fb, fill=(255, 255, 255, 235), anchor='mm')
-    d.line([(W / 2 - 60, 196), (W / 2 + 60, 196)], fill=(255, 255, 255, 150), width=2)
-    d.text((W / 2, 232), 'Mirage Tropical Records', font=font('IBMPlexSans-SemiBold.ttf', 26), fill=(255, 255, 255, 200), anchor='mm')
     # title
     size = 104
     while True:

@@ -25,7 +25,10 @@ USES = {'disco': 'sunset drives, rooftop parties and dancing at home', 'nudisco'
         'soulful': 'golden-hour drives, Sunday sessions and dinner parties', 'french': 'late-night drives, house parties and dancing'}
 
 
-def make(title, style, key, bpm, fmt, mood, photographer, photo_page):
+PHOTO_TAG = {'bikini': 'bikini beach', 'fashion': 'summer fashion', 'nature': 'tropical scenery'}
+
+
+def make(title, style, key, bpm, fmt, mood, photographer, photo_page, photo_kind='bikini'):
     g = GENRE.get(style, style.title()); short = fmt == 'short'
     yt_title = f'{title} - DJ Velvet Purple | {g} Instrumental' + (' #shorts' if short else '')
     tags = TAGS.get(style, [g.lower().replace(' ', '').replace('-', '')])
@@ -51,7 +54,7 @@ def make(title, style, key, bpm, fmt, mood, photographer, photo_page):
         '',
         hashtags])
     tag_list = [g.lower(), f'{g.lower()} instrumental', f'{g.lower()} 2026', 'instrumental', 'house music', 'summer mix', 'beach vibes',
-                'DJ Velvet Purple', 'Mirage Tropical Records', title, f'DJ Velvet Purple {title}', 'bikini beach', 'summer vibes', key]
+                'DJ Velvet Purple', 'Mirage Tropical Records', title, f'DJ Velvet Purple {title}', PHOTO_TAG.get(photo_kind, 'summer vibes'), 'summer vibes', key]
     return {'yt_title': yt_title, 'description': text, 'tags': tag_list}
 
 
@@ -59,5 +62,6 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     for k in ('title', 'style', 'key', 'bpm', 'mood', 'photographer', 'photo-page'): ap.add_argument('--' + k, required=True)
     ap.add_argument('--format', choices=['video', 'short'], default='video')
+    ap.add_argument('--photo-kind', choices=['bikini', 'fashion', 'nature'], default='bikini')
     a = ap.parse_args()
-    print(json.dumps(make(a.title, a.style, a.key, a.bpm, a.format, a.mood, a.photographer, a.photo_page), indent=1, ensure_ascii=False))
+    print(json.dumps(make(a.title, a.style, a.key, a.bpm, a.format, a.mood, a.photographer, a.photo_page, a.photo_kind), indent=1, ensure_ascii=False))
