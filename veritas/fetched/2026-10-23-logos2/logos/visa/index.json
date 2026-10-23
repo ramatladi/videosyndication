@@ -1,0 +1,39 @@
+{
+ "employer": "Visa",
+ "candidates": [
+  {
+   "page": "https://visa.wd5.myworkdayjobs.com/Visa/assets/logo",
+   "kind": "file",
+   "source": "https://visa.wd5.myworkdayjobs.com/Visa/assets/logo",
+   "type": "text/plain; charset=UTF-8",
+   "file": "f01.img"
+  },
+  {
+   "page": "https://usa.visa.com/",
+   "kind": "og:image",
+   "source": "https://www.visa.com/vcom-assets/content/dam/visa/reimagine-visa/personal/images/consumer-driver-1200x6301.jpg",
+   "type": "image/jpeg",
+   "file": "02.jpg"
+  },
+  {
+   "page": "https://usa.visa.com/",
+   "kind": "img",
+   "source": "https://usa.visa.com/vcom-assets/content/dam/visa/header/Vector.png",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "page": "https://www.visa.com/",
+   "kind": "og:image",
+   "source": "https://www.visa.com/vcom-assets/content/dam/visa/reimagine-visa/personal/images/consumer-driver-1200x6301.jpg",
+   "type": "image/jpeg",
+   "file": "03.jpg"
+  },
+  {
+   "page": "https://www.visa.com/",
+   "kind": "img",
+   "source": "https://www.visa.com/vcom-assets/content/dam/visa/header/Vector.png",
+   "type": "image/png",
+   "file": "04.png"
+  }
+ ]
+}

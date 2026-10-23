@@ -1,0 +1,20 @@
+{
+ "employer": "Mastercard",
+ "candidates": [
+  {
+   "page": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/assets/logo",
+   "kind": "file",
+   "source": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/assets/logo",
+   "type": "image/png",
+   "file": "f01.img"
+  },
+  {
+   "page": "https://brand.mastercard.com/",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "page": "https://www.mastercard.com/",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  }
+ ]
+}
