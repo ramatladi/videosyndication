@@ -1,0 +1,470 @@
+{
+ "engine": "cast",
+ "id": 30,
+ "slug": "grandmas-zero-to-one-hundred",
+ "title": "Grandma's Zero To One Hundred",
+ "trend": "Instagram Reels + TikTok '0% to 100%' glow-up transformation (rising Reels sound on SocialPilot's Oct 12-25, 2026 US list: a bare face snaps to a full look as the percent climbs). Kiara films her grandma's zero-to-one-hundred glow up for her fifty-fifth class reunion; the percent turns out to be the phone's battery",
+ "target_seconds": 180,
+ "length_reason": "The 0% to 100% glow-up is a quick one-clip transformation format whose originals run under a minute, so it stays at the low end (3:00), which also keeps it inside Instagram's Reels limit.",
+ "scene": "bedroom",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "zero to one hundred",
+  "grandma's glow up",
+  "reunion is tonight at seven"
+ ],
+ "youtube_title": "0% to 100%: Grandma's glow up for her class reunion (the meter was lying) ✨",
+ "description": "Kiara gives Grandma Dot the full zero-to-one-hundred glow up before her fifty-fifth class reunion. The cat wants to lick her hair, the prom dress is made of curtains, and the meter is not what anyone thought.\n\n#0to100 #glowup #transformation #grandma #reunion #comedy #animation #funny",
+ "tags": [
+  "0% to 100%",
+  "glow up",
+  "glow up transformation",
+  "grandma glow up",
+  "class reunion",
+  "show cat",
+  "comedy",
+  "animation",
+  "cartoon",
+  "funny"
+ ],
+ "tiktok_caption": "0% to 100% ✨ grandma's reunion glow up (the meter was lying) #0to100 #glowup #grandma #transformation #fyp",
+ "cast": [
+  {
+   "id": "dot",
+   "name": "Grandma Dot",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 0.95,
+   "hair": {
+    "style": "bun",
+    "color": "#d9d9d9"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "dots",
+    "pattern_color": "#fdebd0"
+   },
+   "bottom": "#5b2c6f",
+   "shoes": "#2c2c2c",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "label_color": "#e74c3c",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": -1,
+    "tempo": 0.93
+   }
+  },
+  {
+   "id": "kiara",
+   "name": "Kiara",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "curly",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#ff6fae",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ffffff",
+   "accessories": [
+    "mic_headset"
+   ],
+   "eye": "big",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#ff6fae",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 1,
+    "tempo": 1.06
+   }
+  },
+  {
+   "id": "phone",
+   "name": "The Phone",
+   "kind": "mascot",
+   "shape": "phone",
+   "color": "#2c3e50",
+   "case": "#16a085",
+   "accessories": [
+    "sunglasses"
+   ],
+   "mouth": "flat",
+   "label_color": "#1abc9c",
+   "voice": {
+    "id": "af_river",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "biscotti",
+   "name": "Biscotti",
+   "kind": "animal",
+   "ears": "cat",
+   "color": "#f5f0e6",
+   "belly": "#ffffff",
+   "inner": "#f4b6c2",
+   "scale": 0.9,
+   "top": {
+    "color": "#2c3e50",
+    "pattern": "suit",
+    "pattern_color": "#f1c40f"
+   },
+   "bottom": "#2c3e50",
+   "accessories": [
+    "crown:#f1c40f",
+    "tie:#8e44ad"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#f1c40f",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "kiara",
+   "text": "Zero to one hundred. Grandma's glow up for her class reunion. Tonight at seven.",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "dot",
+   "text": "I'm already at forty. I put on earrings.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "phone",
+   "text": "Zero percent.",
+   "shot": "CU",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "kiara",
+   "text": "That's the meter, Grandma. It tells us how glowed up you are.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dot",
+   "text": "A phone is going to grade me? I raised four boys. Nothing grades me.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "biscotti",
+   "text": "I grade everyone. Silently. From the dresser.",
+   "shot": "biscotti"
+  },
+  {
+   "spk": "kiara",
+   "text": "That's Biscotti. Retired show cat. He's helping.",
+   "shot": "CU"
+  },
+  {
+   "spk": "biscotti",
+   "text": "Third place, nineteen ninety eight, Ohio. Best Attitude.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kiara",
+   "text": "Step one. Skincare. What do you wash your face with?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "dot",
+   "text": "Dish soap. Same bottle since nineteen eighty.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kiara",
+   "text": "That cannot be the same bottle.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dot",
+   "text": "I refill it with hope.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kiara",
+   "text": "Okay. This is a serum. Three drops.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dot",
+   "text": "It says forty dollars. Per drop? I'll drink it.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "phone",
+   "text": "Ten percent.",
+   "shot": "CU",
+   "after": "ding"
+  },
+  {
+   "spk": "dot",
+   "text": "I feel moisturized against my will.",
+   "shot": "W"
+  },
+  {
+   "spk": "biscotti",
+   "text": "She is glistening. Like a rotisserie chicken. That is a compliment.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kiara",
+   "text": "Step two. Hair. Grandma, when did you last take down the bun?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "dot",
+   "text": "The moon landing. I was excited, it came loose.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "biscotti",
+   "text": "Allow me. I will lick it into shape.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "kiara",
+   "text": "Nobody is licking Grandma.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kiara",
+   "text": "Okay. Unpinning. Three, two, one.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dot",
+   "text": "Release the bun.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "boing",
+   "jump": true
+  },
+  {
+   "spk": "biscotti",
+   "text": "Ma'am, that is a lot of hair. Where was it living?",
+   "shot": "biscotti"
+  },
+  {
+   "spk": "dot",
+   "text": "Up there. Rent free. Since nineteen sixty nine.",
+   "shot": "CU"
+  },
+  {
+   "spk": "phone",
+   "text": "Twenty seven percent.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kiara",
+   "text": "Twenty seven? Why are you so slow?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "phone",
+   "text": "I am doing my best. I am plugged in behind the dresser. It is dusty back here.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kiara",
+   "text": "Step three. The outfit. What were you going to wear?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "dot",
+   "text": "My prom dress. It still fits.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "kiara",
+   "text": "Grandma, that's from nineteen seventy one.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dot",
+   "text": "I sewed elastic in it in nineteen seventy one. I plan ahead.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "biscotti",
+   "text": "It is giving curtains.",
+   "shot": "biscotti"
+  },
+  {
+   "spk": "dot",
+   "text": "It was curtains. Your great grandmother's living room. She never forgave me.",
+   "shot": "CU"
+  },
+  {
+   "spk": "phone",
+   "text": "Fifty percent.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kiara",
+   "text": "Who are we glowing up for, anyway?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "dot",
+   "text": "Harold Pemberton. At prom he said I danced like a shopping cart.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dot",
+   "text": "One wheel that goes its own way. He was right, and I have never let it go.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kiara",
+   "text": "Last step. Lashes.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "biscotti",
+   "text": "Spider. Spider on her face. I will handle this.",
+   "shot": "CU",
+   "jump": true,
+   "after": "whoosh"
+  },
+  {
+   "spk": "dot",
+   "text": "Biscotti, those are eyelashes! They cost more than you!",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "phone",
+   "text": "Seventy percent. Charging.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "kiara",
+   "text": "Wait. Charging?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "phone",
+   "text": "The percent is my battery. You plugged me in when you pressed record.",
+   "shot": "CU",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "kiara",
+   "text": "So the glow up meter was never a meter?",
+   "shot": "CU"
+  },
+  {
+   "spk": "phone",
+   "text": "I am a phone. I do not rate grandmas. I would lose.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dot",
+   "text": "So what was I at? At the start?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "phone",
+   "text": "Ma'am. You were at a hundred. I just did not want to say it before the transition.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dot",
+   "text": "I knew it. Earrings.",
+   "shot": "CU",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "kiara",
+   "text": "Then why did you let me do all this?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "dot",
+   "text": "Because you spent a whole Saturday with your grandma. That's my glow up.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "biscotti",
+   "text": "I am not crying. I have something in my eye. It is the eyelash.",
+   "shot": "biscotti"
+  },
+  {
+   "spk": "phone",
+   "text": "Incoming call. Harold Pemberton.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "dot",
+   "text": "Harold? Yes. I still dance like a shopping cart. Wheels and all. See you at seven.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "phone",
+   "text": "One hundred percent.",
+   "shot": "W",
+   "after": "applause"
+  },
+  {
+   "spk": "kiara",
+   "text": "Glow up complete! Grandma, you look amazing.",
+   "shot": "CU",
+   "jump": true,
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dot",
+   "text": "Now sit down, sweetie. Your turn. Zero percent.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "biscotti",
+   "text": "Third place. Again.",
+   "shot": "W"
+  }
+ ]
+}
