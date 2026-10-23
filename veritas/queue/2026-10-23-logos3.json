@@ -2,7 +2,22 @@
  "date": "2026-10-23",
  "jobs": [],
  "logos": [
-  {"slug": "mastercard", "employer": "Mastercard", "pages": ["https://careers.mastercard.com/us/en", "https://careers.mastercard.com/"]},
-  {"slug": "amazon", "employer": "Amazon", "pages": ["https://www.amazon.jobs/en/", "https://press.aboutamazon.com/"]}
- ]
+  {
+   "slug": "mastercard",
+   "employer": "Mastercard",
+   "pages": [
+    "https://careers.mastercard.com/us/en",
+    "https://careers.mastercard.com/"
+   ]
+  },
+  {
+   "slug": "amazon",
+   "employer": "Amazon",
+   "pages": [
+    "https://www.amazon.jobs/en/",
+    "https://press.aboutamazon.com/"
+   ]
+  }
+ ],
+ "retry": 1
 }
