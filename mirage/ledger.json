@@ -276,7 +276,7 @@
   {
    "release": "mtr004",
    "date": "2026-10-24",
-   "slot": "2026-10-24T05:55:00",
+   "slot": "2026-10-24T03:55:00",
    "format": "short",
    "title": "Quiet Signal",
    "style": "deep",
@@ -459,7 +459,7 @@
   {
    "release": "mtr006",
    "date": "2026-10-25",
-   "slot": "2026-10-25T05:55:00",
+   "slot": "2026-10-25T03:55:00",
    "format": "short",
    "title": "Mango Skies",
    "style": "tropical",
@@ -643,7 +643,7 @@
   {
    "release": "mtr008",
    "date": "2026-10-26",
-   "slot": "2026-10-26T05:55:00",
+   "slot": "2026-10-26T03:55:00",
    "format": "short",
    "title": "Golden Chorus Line",
    "style": "vocal",
@@ -823,7 +823,7 @@
   {
    "release": "mtr010",
    "date": "2026-10-27",
-   "slot": "2026-10-27T05:55:00",
+   "slot": "2026-10-27T03:55:00",
    "format": "short",
    "title": "Endless July",
    "style": "progressive",
@@ -911,6 +911,52 @@
     }
    },
    "photo_rule": "bikini (23 Oct 2026), credit in description only"
+  },
+  {
+   "release": "mtr011",
+   "date": "2026-10-23",
+   "slot": "2026-10-23T19:55",
+   "format": "short",
+   "title": "Honey Hour Drift",
+   "style": "soulful",
+   "tonic": 57,
+   "mode": "major",
+   "key": "A major",
+   "bpm": 121,
+   "lead": "Pan Flute",
+   "answer": "Slow Strings",
+   "lead_family": "Pan Flute",
+   "answer_family": "strings",
+   "chord_pcs": [
+    [
+     1,
+     4,
+     8,
+     9
+    ],
+    [
+     1,
+     4,
+     8,
+     11
+    ],
+    [
+     1,
+     4,
+     6,
+     9
+    ],
+    [
+     2,
+     6,
+     9,
+     11
+    ]
+   ],
+   "photographer": "kevin turcios",
+   "photo_page": "https://unsplash.com/photos/woman-in-white-bikini-lying-on-palm-tree-on-beach-during-daytime-Q9NlhDOGNR8",
+   "metricool_uuid": "1130039041506887741",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-17565321583289914202.mp4"
   }
  ]
 }

@@ -586,5 +586,65 @@
   "bass_b": "octave",
   "key": "B minor",
   "bpm": 127
+ },
+ {
+  "id": "mtr011",
+  "title": "Honey Hour Drift",
+  "status": "published",
+  "style": "soulful",
+  "mode": "major",
+  "motif": {
+   "intervals": [
+    5,
+    -5,
+    -3,
+    -2,
+    -2,
+    -1
+   ],
+   "onsets": [
+    4,
+    6,
+    8,
+    12,
+    20,
+    22,
+    24
+   ],
+   "durs": [
+    2,
+    2,
+    4,
+    4,
+    2,
+    2,
+    8
+   ]
+  },
+  "progression": [
+   [
+    0,
+    "maj9"
+   ],
+   [
+    4,
+    "m7"
+   ],
+   [
+    9,
+    "m9"
+   ],
+   [
+    2,
+    "m9"
+   ]
+  ],
+  "template": "classic",
+  "lead": "flute",
+  "answer": "strings",
+  "bass_a": "syncop",
+  "bass_b": "walk",
+  "key": "A major",
+  "bpm": 121
  }
 ]

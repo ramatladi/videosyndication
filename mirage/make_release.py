@@ -8,9 +8,11 @@ Music: djvelvetgrey engine v4 in real-instruments mode (every sound a recorded i
 "Different every day" is enforced against the ledger (ledger.json), not assumed:
   - style rotation over all 12 styles, never the same style two days running;
   - key+mode not used in the last 10 releases, tempo not within 1 BPM of the previous release;
-  - chord loop at most 0.75 alike (any key, any rotation) to every release in the last 30;
-  - lead and answer instrument families not used as lead/answer in the last 3 releases;
-  - hook melody: the candidate furthest from every earlier release, and at least 0.25 away (near-copies are < 0.18).
+  - chord loop at most 0.85 alike (any key, any rotation; 1.0 = same loop) to each release of the last day (6); the last 30 weigh in;
+  - production (progression, arc, basslines, lead, mode) never identical in 5 of those 6 choices to an earlier release of the style;
+  - lead and answer instrument families avoided if used as lead/answer in the last 2 releases (weighted);
+  - hook melody: every rhythm cell x contour x start note of the style is realised exactly as rendered; the one furthest
+    from every earlier release is used, and it must be at least 0.25 away (near-copies are < 0.18).
 build renders, exports (codec headroom), runs the blocking QC (qc.py, exit 0 required) and makes the 16:9 video.
 Automated technical checks only - not a listening judgement.
 """
@@ -28,6 +30,30 @@ FAMILY = {'Yamaha Grand Piano': 'piano', 'Bright Yamaha Grand': 'piano', 'Electr
           'Legend EP 2': 'ep', 'Detuned EP 1': 'ep', 'Percussive Organ': 'organ', 'DrawbarOrgan': 'organ', 'Rock Organ': 'organ',
           'Alto Sax': 'sax', 'Tenor Sax': 'sax'}
 FAM = lambda n: FAMILY.get(n, n)
+CHORD_STRICT = 6   # chord loop at most CHORD_MAX alike to each of the last 6 releases (one day); the last 30 weigh in above 0.75
+CHORD_MAX = 0.85  # 1.0 = same loop in any key/rotation; common diatonic loops sit at 0.5-0.8
+HOOK_TRIES = 12   # briefs tried for a far-enough hook before refusing
+CELLS_OVERRIDE = None
+GEN_CELLS = 40    # extra procedurally generated rhythm cells searched when the style's own cells can't reach HOOK_MIN
+
+
+def gen_cell(k):
+    """Deterministic 2-bar hook rhythm 'gen<k>': 5-8 notes, mostly on 8ths with some 16ths, at least two notes per bar,
+    last note held. Registered into compose.RHYTHM_CELLS so hook_from_spec renders it exactly like a built-in cell."""
+    g = np.random.default_rng(1_000_003 + int(k))
+    grid = np.arange(0, 6.75, .25); w = np.array([3.0 if (x * 2) % 1 == 0 else 1.0 for x in grid])
+    while True:
+        n = int(g.integers(5, 9))
+        on = sorted(g.choice(grid, size=n, replace=False, p=w / w.sum()).tolist())
+        if on[0] <= 1 and sum(1 for o in on if o < 4) >= 2 and sum(1 for o in on if o >= 4) >= 2: break
+    cell = [(float(o), float(min(2.0, b - o))) for o, b in zip(on, on[1:])] + [(float(on[-1]), float(min(2.5, 8 - on[-1])))]
+    return cell
+
+
+def ensure_cell(name):
+    if isinstance(name, str) and name.startswith('gen') and name not in C.RHYTHM_CELLS:
+        C.RHYTHM_CELLS[name] = gen_cell(int(name[3:]))
+    return name
 HOOK_MIN = 0.25    # melody distance to every earlier release (near-copies score < 0.18; unrelated tunes ~0.4+)
 
 
@@ -61,38 +87,67 @@ def plan(date):
     used_keys = {(x['tonic'] % 12, x['mode']) for x in L[-10:]}
     last_bpm = L[-1]['bpm'] if L else None
     recent_pcs = [[frozenset(p) for p in x['chord_pcs']] for x in L[-30:]]
-    recent_fams = {f for x in L[-3:] for f in (x['lead_family'], x['answer_family'])}
-    best = None
-    for _ in range(3000):
+    strict_pcs = recent_pcs[-CHORD_STRICT:]; soft_pcs = recent_pcs[:-CHORD_STRICT] if len(recent_pcs) > CHORD_STRICT else []
+    recent_fams = {f for x in L[-2:] for f in (x['lead_family'], x['answer_family'])}
+    cat = C.load_catalog()
+    def prod_overlap(b):   # compose.screen flags every hook of a brief that shares >= 5 production features with a release
+        g = b['groove']; feats = {'progression': b['progression'], 'template': b['arc'], 'bass_a': g['bass_a'], 'bass_b': g['bass_b'],
+                                  'lead': b['lead'], 'style': b['style'], 'mode': b['mode']}
+        return max([sum(1 for k, v in feats.items() if e.get(k) == v) for e in cat] or [0])
+    pool = []
+    for it in range(3000):
+        if it >= 300 and sum(1 for x in pool if x[0] == 0) >= HOOK_TRIES: break
         prog = P['progressions'][int(r.integers(len(P['progressions'])))]; mode = C.best_mode(prog, P['modes'])
         tonic = int(r.integers(55, 63)); bpm = int(r.integers(P['bpm'][0], P['bpm'][1] + 1))
         lead = P['leads'][int(r.integers(len(P['leads'])))]; ans = [a for a in P['answers'] if a != lead]; answer = ans[int(r.integers(len(ans)))]
         seed = int(r.integers(100000, 999999)); d = SM.Palette(seed, style, real=True).describe()
         li, ai = d.get(lead, lead), d.get(answer, answer)
         pcs = chord_pcs(style, tonic, mode, prog)
+        c = dict(prog=prog, mode=mode, tonic=tonic, bpm=bpm, lead=lead, answer=answer, seed=seed, li=li, ai=ai, pcs=pcs,
+                 ba=P['bass_a'][int(r.integers(len(P['bass_a'])))], bb=P['bass_b'][int(r.integers(len(P['bass_b'])))],
+                 arc=P['arcs'][int(r.integers(len(P['arcs'])))], swing=round(float(r.uniform(*P['swing'])), 3))
+        b = {'engine': 'v2', 'style': style, 'release': rid, 'bpm': bpm, 'tonic': tonic, 'progression': [list(x) for x in prog],
+             'mode': mode, 'lead': lead, 'answer': answer, 'groove': {'bass_a': c['ba'], 'bass_b': c['bb'], 'swing': c['swing']},
+             'arc': c['arc'], 'loudness_lufs': P['lufs'], 'seed': seed, 'instruments': 'real'}
+        ov = prod_overlap(b)
         pen = (1000 if FAM(li) == FAM(ai) else 0) + (300 if (tonic % 12, mode) in used_keys else 0) \
             + (300 if last_bpm is not None and abs(bpm - last_bpm) <= 1 else 0) \
-            + sum(400 for q in recent_pcs if chord_sim(pcs, q) > .75) \
-            + (200 if FAM(li) in recent_fams else 0) + (100 if FAM(ai) in recent_fams else 0)
-        if best is None or pen < best[0]:
-            best = (pen, dict(prog=prog, mode=mode, tonic=tonic, bpm=bpm, lead=lead, answer=answer, seed=seed, li=li, ai=ai, pcs=pcs,
-                              ba=P['bass_a'][int(r.integers(len(P['bass_a'])))], bb=P['bass_b'][int(r.integers(len(P['bass_b'])))],
-                              arc=P['arcs'][int(r.integers(len(P['arcs'])))], swing=round(float(r.uniform(*P['swing'])), 3)))
-        if pen == 0: break
-    pen, c = best
-    if pen >= 300: raise SystemExit(f'could not find a release different enough from the ledger (penalty {pen})')
-    b = {'engine': 'v2', 'style': style, 'release': rid, 'bpm': c['bpm'], 'tonic': c['tonic'], 'progression': [list(x) for x in c['prog']],
-         'mode': c['mode'], 'lead': c['lead'], 'answer': c['answer'], 'groove': {'bass_a': c['ba'], 'bass_b': c['bb'], 'swing': c['swing']},
-         'arc': c['arc'], 'loudness_lufs': P['lufs'], 'seed': c['seed'], 'instruments': 'real'}
-    errs = MT.validate(b, P)
-    if errs: raise SystemExit('; '.join(errs))
-    cands = C.candidates(b, 48); cat = C.load_catalog()
-    mind = lambda x: min([C.similarity_distance(x['motif'], e['motif']) for e in cat] or [1.0])
-    ok = sorted([x for x in cands if not x['catalog']['flags']], key=lambda x: -mind(x))
-    if not ok or mind(ok[0]) < HOOK_MIN:
-        raise SystemExit(f'no hook candidate is far enough (>= {HOOK_MIN}) from every earlier release')
-    pick = ok[0]
-    b['motif'] = {'cell': pick['cell'], 'contour': pick['contour'], 'start': pick['start'], 'candidate': pick['id'],
+            + sum(400 for q in strict_pcs if chord_sim(pcs, q) > CHORD_MAX) + min(120, sum(20 for q in soft_pcs if chord_sim(pcs, q) > .75)) \
+            + (1000 if ov >= 6 else 150 if ov == 5 else 10 * ov) \
+            + (100 if FAM(li) in recent_fams else 0) + (50 if FAM(ai) in recent_fams else 0)
+        if pen < 300: pool.append((pen, len(pool), c, b))
+    if not pool: raise SystemExit('could not find a release different enough from the ledger')
+    pool.sort(key=lambda x: (x[0], x[1]))
+    motifs = [e['motif'] for e in cat]
+    def hook_search(b):
+        """Every (rhythm cell, contour, start note) of the style, realised exactly as the render will (hook_from_spec),
+        scored by its distance to the nearest catalogue hook; returns the furthest."""
+        h = C.harmony_for(b); lo, hi = b['tonic'] + 9, b['tonic'] + 24
+        best = (-1.0, None)
+        style_cells = CELLS_OVERRIDE or P.get('cells') or [c for c in C.RHYTHM_CELLS if not c.startswith('gen')]
+        gen = [ensure_cell(f'gen{int(r.integers(1, 10**6))}') for _ in range(GEN_CELLS)]
+        for cell in style_cells + ['|'] + gen:
+            if cell == '|':
+                if best[0] >= HOOK_MIN: break      # the style's own rhythms are far enough: keep the idiomatic one
+                continue
+            for con in C.CONTOURS:
+                for start in h.chord_tones_in(0, lo + 2, hi - 5):
+                    spec = {'cell': cell, 'contour': con, 'start': int(start)}
+                    rep = C.motif_repr(C.hook_from_spec(b, spec)[1]['call'])
+                    d = 1.0
+                    for m in motifs:
+                        d = min(d, C.similarity_distance(rep, m))
+                        if d <= best[0]: break
+                    if d > best[0]: best = (d, spec)
+        return best
+    chosen = None
+    for pen, _, c, b in pool[:HOOK_TRIES]:   # next-best brief when no hook of this one is far enough from the catalogue
+        if MT.validate(b, P): continue
+        d, spec = hook_search(b)
+        if spec and d >= HOOK_MIN: chosen = (pen, c, b, dict(spec, distance=round(d, 3))); break
+    if not chosen: raise SystemExit(f'no hook candidate is far enough (>= {HOOK_MIN}) from every earlier release ({HOOK_TRIES} briefs tried)')
+    pen, c, b, pick = chosen
+    b['motif'] = {'cell': pick['cell'], 'contour': pick['contour'], 'start': pick['start'], 'candidate': 'search', 'distance': pick['distance'],
                   'selected_by': 'automatic, screened against every earlier release - not a listening judgement'}
     p = {'release': rid, 'date': date, 'style': style, 'label': P['label'], 'key': C.key_name(c['tonic'], c['mode']), 'bpm': c['bpm'],
          'lead': c['li'], 'answer': c['ai'], 'mood': P['mood'], 'photo_brief': P['photo'], 'penalty': pen, 'brief': b,
@@ -104,6 +159,7 @@ def plan(date):
 def build(a):
     p = json.load(open(os.path.join(OUT, a.release + '.plan.json'))); b = p['brief']; base = os.path.join(OUT, a.release)
     from scipy.io import wavfile
+    ensure_cell(b['motif']['cell'])
     t = E.TrackV2(b, b['motif']); mix = t.render()
     wavfile.write(base + '.master.wav', E.SR, (np.clip(mix, -1, 1) * 32767).astype(np.int16))
     meta = dict(t.meta, title=a.title, bpm=b['bpm'], key=p['key'], brief=b)
@@ -134,6 +190,7 @@ def build(a):
 def record(a):
     p = json.load(open(os.path.join(OUT, a.release + '.plan.json'))); b = p['brief']; L = ledger()
     if any(x['release'] == a.release for x in L['releases']): raise SystemExit('already recorded')
+    ensure_cell(b['motif']['cell'])
     hook = C.hook_from_spec(b, b['motif'])[1]
     lead_fam, ans_fam = FAM(p['lead']), FAM(p['answer'])
     L['releases'].append({'release': a.release, 'date': a.date, 'slot': a.slot, 'format': p.get('format', a.format), 'title': p['title'], 'style': p['style'], 'tonic': b['tonic'], 'mode': b['mode'],

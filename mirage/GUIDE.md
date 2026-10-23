@@ -4,18 +4,19 @@ Instrumental house/disco by **DJ Velvet Purple**, released on the **Mirage Tropi
 (brand "Mirage Tropical Records", blogId **7593699**, YouTube only, timezone Africa/Johannesburg). Started 22 Oct 2026 (Sello).
 
 ## Schedule
-- **Two uploads a day, six hours apart:** a 16:9 **video** at **23:55 SAST** (17:55 US Eastern) and a 9:16 **Short** at
-  **05:55 SAST** the next morning (23:55 US Eastern). Every upload is a different song.
-- mtr001–mtr010 were built and scheduled on 22 Oct 2026 (videos 22–26 Oct, Shorts 23–27 Oct). From then on the daily
-  scheduled task builds the next video + Short with `make_release.py` and schedules them.
+- **Six uploads a day (Sello, 23 Oct 2026): 2 videos + 4 Shorts, every 4 hours (SAST):** 23:55 **video**, 03:55 Short,
+  07:55 Short, 11:55 **video**, 15:55 Short, 19:55 Short. Every upload is a different song. (Until 23 Oct: one video at 23:55
+  and one Short at 05:55; the already-scheduled Shorts of 24-27 Oct were moved to 03:55.)
+- Three scheduled tasks share the day, each building and scheduling two slots with `make_release.py`:
+  19:37 → 23:55 video + 03:55 Short (next day); 03:37 → 07:55 Short + 11:55 video; 11:37 → 15:55 Short + 19:55 Short.
 
 ## Rules
 - **Instrumental only — no vocals.** Every sound is a recorded instrument: djvelvetgrey engine v4 in real-instruments mode
   (`"instruments": "real"`; synth voices are disabled during the render).
 - **Every release different** (enforced by `make_release.py plan` against `ledger.json` + `catalog.json`): style rotation over
   the 12 styles (never the same style twice in a row), key+mode not used in the last 10 releases, tempo not within 1 BPM of the
-  previous one, chord loop at most 0.75 alike to any of the last 30, lead/answer instrument families not used in the last 3,
-  hook melody the furthest of 48 candidates from every earlier release and at least 0.25 away (near-copies score below 0.18). A plan that can't meet this stops instead of publishing.
+  previous one, chord loop at most 0.85 alike to each release of the last day (1.0 = same loop), production never identical to an earlier release in 5 of its 6 choices, lead/answer instrument families of the last 2 releases avoided,
+  hook melody searched over every rhythm cell x contour x start note of the style (plus generated rhythms when needed), realised exactly as rendered, the furthest from every earlier release and at least 0.25 away (near-copies score below 0.18). A plan that can't meet this stops instead of publishing.
 - **Fail-closed:** a release is only scheduled if `qc.py` passed (exit 0) on the final WAV/MP3/AAC. Nothing is described as
   listened to — all checks are automated.
 - **Photo (Sello, 23 Oct 2026):** every upload shows one or more attractive adult women in bikinis, any setting (beach, pool,
