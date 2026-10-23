@@ -10,19 +10,23 @@ import argparse, json
 
 GENRE = {'disco': 'Disco', 'nudisco': 'Nu-Disco', 'afro': 'Afro House', 'deep': 'Deep House', 'melodic': 'Melodic House',
          'tropical': 'Tropical House', 'house': 'House', 'vocal': 'Vocal House', 'tech': 'Tech House', 'progressive': 'Progressive House',
-         'chill': 'Chill House', 'french': 'French House', 'funky': 'Funky House', 'soulful': 'Soulful House', 'organic': 'Organic House'}
+         'chill': 'Chill House', 'french': 'French House', 'trance': 'Trance', 'futurebass': 'Future Bass', 'indiedance': 'Indie Dance', 'funky': 'Funky House', 'soulful': 'Soulful House', 'organic': 'Organic House'}
 TAGS = {'disco': ['disco', 'discohouse', 'funkydisco'], 'nudisco': ['nudisco', 'discohouse', 'indiedance'],
         'afro': ['afrohouse', 'afrobeats', 'amapiano'], 'deep': ['deephouse', 'chillhouse', 'lofihouse'],
         'melodic': ['melodichouse', 'melodictechno', 'chillout'], 'tropical': ['tropicalhouse', 'summervibes', 'beachhouse'],
         'house': ['housemusic', 'pianohouse', 'classichouse'], 'vocal': ['vocalhouse', 'housemusic', 'soulfulhouse'],
         'tech': ['techhouse', 'clubmusic', 'minimalhouse'], 'progressive': ['progressivehouse', 'summermusic', 'edm'],
-        'soulful': ['soulfulhouse', 'deephouse', 'housemusic'], 'french': ['frenchhouse', 'filterhouse', 'discohouse']}
+        'soulful': ['soulfulhouse', 'deephouse', 'housemusic'], 'french': ['frenchhouse', 'filterhouse', 'discohouse'],
+        'trance': ['trance', 'upliftingtrance', 'progressivetrance'], 'futurebass': ['futurebass', 'chillmusic', 'melodicbass'],
+        'indiedance': ['indiedance', 'nudisco', 'darkdisco']}
 USES = {'disco': 'sunset drives, rooftop parties and dancing at home', 'nudisco': 'late-night drives, city lights and dance floors',
         'afro': 'beach parties, workouts and sunset sessions', 'deep': 'pool days, night swims, studying and relaxing',
         'melodic': 'road trips, sunsets and focus sessions', 'tropical': 'beach days, pool parties and summer mornings',
         'house': 'rooftop afternoons, workouts and pre-party', 'vocal': 'summer parties, gym sessions and good-mood days',
         'tech': 'club nights, gym sessions and driving', 'progressive': 'festival sunsets, road trips and running',
-        'soulful': 'golden-hour drives, Sunday sessions and dinner parties', 'french': 'late-night drives, house parties and dancing'}
+        'soulful': 'golden-hour drives, Sunday sessions and dinner parties', 'french': 'late-night drives, house parties and dancing',
+        'trance': 'festival sunsets, night drives and workouts', 'futurebass': 'sunset drives, gaming sessions and feel-good days',
+        'indiedance': 'late-night drives, warehouse parties and running'}
 
 
 PHOTO_TAG = {'bikini': 'bikini beach', 'fashion': 'summer fashion', 'nature': 'tropical scenery'}

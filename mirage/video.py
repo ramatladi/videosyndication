@@ -16,7 +16,7 @@ import sys as _sys
 _sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'djvelvetgrey', 'v2'))
 try:
     import styles as _S
-    STYLE_LABEL = {k: v['label'] for k, v in _S.STYLES.items()}
+    STYLE_LABEL = {k: v['label'] for k, v in list(_S.STYLES.items()) + list(getattr(_S, 'EXTRA_STYLES', {}).items())}
     STYLE_LABEL.update({a: _S.STYLES[b]['label'] for a, b in _S.ALIASES.items()})
 except Exception:
     STYLE_LABEL = {}

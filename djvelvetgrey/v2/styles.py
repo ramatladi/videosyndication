@@ -155,6 +155,46 @@ STYLES = {
 }
 
 ORDER = ['deep', 'melodic', 'house', 'afro', 'tropical', 'nudisco', 'progressive', 'tech', 'vocal', 'soulful', 'disco', 'french']
+# Mirage Tropical Records-only styles (DJ Velvet Purple): trance, future bass, indie dance (half_time: kick 'half', backbeat on beat 3 only). Not part of DJ Velvet Grey's 12-style rotation (ORDER);
+# mirage/make_release.py merges them into STYLES for its own runs. Built only from patterns/instruments the engine
+# already implements and qualifies.
+EXTRA_STYLES = {
+    'trance': dict(
+        label='Trance', bpm=(134, 140), modes=['minor'],
+        progressions=[[(0, 'min'), (8, 'maj'), (3, 'maj'), (10, 'maj')], [(0, 'm9'), (10, 'add9'), (8, 'maj7'), (10, 'sus2')],
+                      [(8, 'maj9'), (10, 'add9'), (0, 'm9'), (0, 'm9')], [(0, 'min'), (5, 'm7'), (8, 'maj7'), (7, 'maj')]],
+        harm_rhythm=2, kick='four', backbeat='clap', hats='rolling16', perc='prog', fill='snare_roll',
+        bass='sub', bass_a=['prog_roll', 'rolling'], bass_b=['prog_roll', 'octave'],
+        comp='gated8', comp_inst='polysynth', pad='supersaw', focal='melody',
+        leads=['pluck', 'glass', 'strings', 'polysynth'], answers=['strings', 'glass', 'pluck'],
+        cells=['anthem', 'dotted', 'sparse', 'question', 'lilt'], hook_every=8, arcs=['prog', 'classic'],
+        drop2=['bass_b', 'lead_oct', 'arp_double', 'counter'], swing=(0, 0), lufs=-9.5,
+        mix={'pad': 2.5, 'comp': 0.5, 'lead': 0.5}, sc=.65, verb=4.0, photo='sunset beach or festival-like coastline',
+        mood='euphoric, soaring, hands-in-the-air'),
+    'futurebass': dict(
+        label='Future Bass', bpm=(140, 150), modes=['major'], half_time=True,
+        progressions=[[(5, 'maj9'), (7, 'add9'), (4, 'm7'), (9, 'm9')], [(0, 'maj7'), (7, 'add9'), (9, 'm9'), (5, 'maj9')],
+                      [(9, 'm9'), (5, 'maj7'), (0, 'add9'), (7, 'sus2')], [(5, 'maj7'), (4, 'm7'), (2, 'm9'), (0, 'add9')]],
+        harm_rhythm=1, kick='half', backbeat='clap', hats='house16', perc='light', fill='snare_roll',
+        bass='sub', bass_a=['sustain', 'octave'], bass_b=['octave', 'syncop'],
+        comp='poly_stab', comp_inst='polysynth', pad='supersaw', focal='melody',
+        leads=['pluck', 'glass', 'mallet', 'polysynth'], answers=['glass', 'strings', 'pluck'],
+        cells=['syncop', 'skip', 'question', 'lilt', 'anthem'], hook_every=8, arcs=['classic', 'early'],
+        drop2=['bass_b', 'lead_oct', 'counter', 'arp_double'], swing=(0, .01), lufs=-9.5,
+        mix={'pad': 2.5, 'comp': 1.5}, sc=.75, verb=3.0, photo='pastel sunset beach or pool', mood='bright, emotional, pastel'),
+    'indiedance': dict(
+        label='Indie Dance', bpm=(116, 124), modes=['minor', 'dorian'],
+        progressions=[[(0, 'min'), (10, 'maj'), (8, 'maj'), (10, 'maj')], [(0, 'm7'), (5, 'm7'), (8, 'maj7'), (7, 'min')],
+                      [(0, 'min'), (3, 'maj'), (10, 'maj'), (5, 'm7')], [(0, 'm9'), (0, 'm9'), (8, 'maj7'), (10, '6')]],
+        harm_rhythm=1, kick='four_hard', backbeat='snare', hats='disco16', perc='nudisco', fill='tom_run',
+        bass='funk', bass_a=['octave', 'rolling'], bass_b=['disco_oct', 'rolling'],
+        comp='guitar16', comp_inst='guitar', pad=None, focal='bass',
+        leads=['guitar', 'polysynth', 'strings', 'glass'], answers=['strings', 'glass', 'polysynth'],
+        cells=['offbeat', 'syncop', 'call', 'skip'], hook_every=8, arcs=['classic', 'loop'],
+        drop2=['bass_b', 'lead_layer', 'extra_perc', 'counter'], swing=(0, .01), lufs=-9.5,
+        mix={'bass': 1.5, 'comp': 1}, sc=.5, verb=1.8, photo='night city lights or neon-lit beach', mood='dark, driving, cool'),
+}
+
 # legacy style name used by dvg001 / dvg001v2
 ALIASES = {'chill': 'melodic'}
 

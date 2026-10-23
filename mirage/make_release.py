@@ -6,7 +6,7 @@
 
 Music: djvelvetgrey engine v4 in real-instruments mode (every sound a recorded instrument, no vocals).
 "Different every day" is enforced against the ledger (ledger.json), not assumed:
-  - style rotation over all 12 styles, never the same style two days running;
+  - style rotation over the 15 Mirage styles (DJ Velvet Grey's 12 + trance + future bass + indie dance), never the same style twice in a row;
   - key+mode not used in the last 10 releases, tempo not within 1 BPM of the previous release;
   - chord loop at most 0.85 alike (any key, any rotation; 1.0 = same loop) to each release of the last day (6); the last 30 weigh in;
   - production (progression, arc, basslines, lead, mode) never identical in 5 of those 6 choices to an earlier release of the style;
@@ -22,6 +22,10 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 V2 = os.path.join(ROOT, 'djvelvetgrey', 'v2'); sys.path.insert(0, V2)
 os.environ.setdefault('DVG_CATALOG', os.path.join(HERE, 'catalog.json'))
 import styles as S, compose as C, engine as E, sampler as SM, make_track as MT  # noqa: E402
+S.STYLES.update(getattr(S, 'EXTRA_STYLES', {}))   # Mirage-only styles (trance)
+MIRAGE_ORDER = ['deep', 'melodic', 'house', 'afro', 'tropical', 'futurebass', 'nudisco', 'progressive', 'tech', 'trance', 'vocal', 'soulful',
+                'indiedance', 'disco', 'french']   # DJ Velvet Grey's 12 + trance + future bass + indie dance (Sello, 23 Oct)
+assert set(MIRAGE_ORDER) == set(S.STYLES), set(S.STYLES) ^ set(MIRAGE_ORDER)
 OUT = os.path.join(ROOT, 'out'); os.makedirs(OUT, exist_ok=True)
 LEDGER = os.path.join(HERE, 'ledger.json')
 MODES = {'major': [0, 2, 4, 5, 7, 9, 11], 'minor': [0, 2, 3, 5, 7, 8, 10], 'dorian': [0, 2, 3, 5, 7, 9, 10], 'mixolydian': [0, 2, 4, 5, 7, 9, 10]}
@@ -78,10 +82,10 @@ def chord_sim(a, b):
 def plan(date):
     L = ledger()['releases']; n = len(L) + 1; rid = f'mtr{n:03d}'
     r = np.random.default_rng(int(dt.date.fromisoformat(date).strftime('%Y%m%d')) * 31 + n)
-    recent_styles = [x['style'] for x in L[-11:]]
+    recent_styles = [x['style'] for x in L[-(len(MIRAGE_ORDER) - 1):]]
     yesterday = L[-1]['style'] if L else None
-    unused = [s for s in S.ORDER if s not in recent_styles]          # least recently used style first, never yesterday's
-    style = unused[0] if unused else min((s for s in S.ORDER if s != yesterday),
+    unused = [s for s in MIRAGE_ORDER if s not in recent_styles]          # least recently used style first, never yesterday's
+    style = unused[0] if unused else min((s for s in MIRAGE_ORDER if s != yesterday),
                                          key=lambda s: max(i for i, x in enumerate(recent_styles) if x == s))
     P = S.STYLES[style]
     used_keys = {(x['tonic'] % 12, x['mode']) for x in L[-10:]}

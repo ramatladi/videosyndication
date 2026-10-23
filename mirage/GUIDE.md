@@ -11,10 +11,14 @@ Instrumental house/disco by **DJ Velvet Purple**, released on the **Mirage Tropi
   19:37 → 23:55 video + 03:55 Short (next day); 03:37 → 07:55 Short + 11:55 video; 11:37 → 15:55 Short + 19:55 Short.
 
 ## Rules
+- **Styles (15):** Deep, Melodic, House, Afro, Tropical, **Future Bass**, Nu-Disco, Progressive House, Tech House, **Trance**,
+  Vocal House (instrumental), Soulful, **Indie Dance**, Disco, French House. The three in bold were added 23 Oct (Sello) as
+  Mirage-only styles (`EXTRA_STYLES` in djvelvetgrey/v2/styles.py; DJ Velvet Grey's 12-style rotation is unchanged). Each was
+  test-built end to end in real-instruments mode and passed QC before going live.
 - **Instrumental only — no vocals.** Every sound is a recorded instrument: djvelvetgrey engine v4 in real-instruments mode
   (`"instruments": "real"`; synth voices are disabled during the render).
 - **Every release different** (enforced by `make_release.py plan` against `ledger.json` + `catalog.json`): style rotation over
-  the 12 styles (never the same style twice in a row), key+mode not used in the last 10 releases, tempo not within 1 BPM of the
+  the 15 styles (never the same style twice in a row), key+mode not used in the last 10 releases, tempo not within 1 BPM of the
   previous one, chord loop at most 0.85 alike to each release of the last day (1.0 = same loop), production never identical to an earlier release in 5 of its 6 choices, lead/answer instrument families of the last 2 releases avoided,
   hook melody searched over every rhythm cell x contour x start note of the style (plus generated rhythms when needed), realised exactly as rendered, the furthest from every earlier release and at least 0.25 away (near-copies score below 0.18). A plan that can't meet this stops instead of publishing.
 - **Fail-closed:** a release is only scheduled if `qc.py` passed (exit 0) on the final WAV/MP3/AAC. Nothing is described as

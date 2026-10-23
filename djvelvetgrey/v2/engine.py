@@ -34,7 +34,8 @@ HATS = {   # (beat, open?, velocity)
     'afro':          [(q * .5, False, (.4 if q % 2 else .25)) for q in range(8)] + [(q + .5, True, .32) for q in range(4)],
 }
 KICKS = {'four_soft': [0, 1, 2, 3], 'four': [0, 1, 2, 3], 'four_hard': [0, 1, 2, 3],
-         'afro': None}          # afro: chosen per track from AFRO_KICKS
+         'afro': None,          # afro: chosen per track from AFRO_KICKS
+         'half': [0, 1.5, 2.75]}   # half-time (future bass): the backbeat lands on beat 3 only (style half_time=True)
 AFRO_KICKS = [[0, 1, 2, 3], [0, 1.5, 2, 3], [0, 1, 2.75, 3.5], [0, 2, 2.75]]
 PERC = {   # (instrument, beat, velocity, pan)
     'deep':     [('shaker', s * .25, (1.0 if s % 4 == 2 else (.5 if s % 2 else .32)), .35) for s in range(16)] + [('rim', 2.75, .35, -.5)],
@@ -465,7 +466,7 @@ class TrackV2:
                 # ---------------- backbeat + fills
                 if drums and name != 'intro':
                     bb = P['backbeat']
-                    for q in (1, 3):
+                    for q in ((2,) if P.get('half_time') else (1, 3)):
                         if fill_bar and q == 3: continue
                         hv = .82 + .16 * self.rng.random()
                         if bb == 'clap': self.place(L['clap'], self.clap_sig(.9 * hv), self.T(B, q, self.hum(2)))
