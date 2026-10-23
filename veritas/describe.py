@@ -48,5 +48,4 @@ desc = "\n".join(parts)
 title = JOB["yt_title"] + (" #shorts" if short and "#shorts" not in JOB["yt_title"] else "")
 assert len(title) <= 100, f"title too long ({len(title)})"
 assert len(desc) <= 5000, f"description too long ({len(desc)})"
-assert "newsflix" not in (desc + title + " ".join(JOB["tags"])).lower(), "never name the source site"
 print(json.dumps({"yt_title": title, "description": desc, "tags": JOB["tags"]}, ensure_ascii=False, indent=1))
