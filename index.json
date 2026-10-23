@@ -1,0 +1,6989 @@
+{
+ "version": 1,
+ "licence": "CC0 1.0 (VSCO 2 Community Edition; Versilian Community Sample Library)",
+ "instruments": {
+  "violins": {
+   "kind": "pitched",
+   "source": "VSCO 2 CE (CC0)",
+   "regions": [
+    {
+     "file": "violins/57_0_0.flac",
+     "key": 57,
+     "lokey": 56,
+     "hikey": 57,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_A2_v1.wav"
+    },
+    {
+     "file": "violins/69_0_0.flac",
+     "key": 69,
+     "lokey": 68,
+     "hikey": 70,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_A3_v1.wav"
+    },
+    {
+     "file": "violins/59_0_0.flac",
+     "key": 59,
+     "lokey": 58,
+     "hikey": 60,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_B2_v1.wav"
+    },
+    {
+     "file": "violins/83_0_0.flac",
+     "key": 83,
+     "lokey": 81,
+     "hikey": 84,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_B4_v1.wav"
+    },
+    {
+     "file": "violins/72_0_0.flac",
+     "key": 72,
+     "lokey": 71,
+     "hikey": 73,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_C4_v1.wav"
+    },
+    {
+     "file": "violins/62_0_0.flac",
+     "key": 62,
+     "lokey": 61,
+     "hikey": 63,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_D3_v1.wav"
+    },
+    {
+     "file": "violins/86_0_0.flac",
+     "key": 86,
+     "lokey": 85,
+     "hikey": 86,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_D5_v1.wav"
+    },
+    {
+     "file": "violins/76_0_0.flac",
+     "key": 76,
+     "lokey": 74,
+     "hikey": 77,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_E4_v1.wav"
+    },
+    {
+     "file": "violins/66_0_0.flac",
+     "key": 66,
+     "lokey": 64,
+     "hikey": 67,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_F#3_v1.wav"
+    },
+    {
+     "file": "violins/55_0_0.flac",
+     "key": 55,
+     "lokey": 55,
+     "hikey": 55,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_G2_v1.wav"
+    },
+    {
+     "file": "violins/79_0_0.flac",
+     "key": 79,
+     "lokey": 78,
+     "hikey": 80,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_G4_v1.wav"
+    },
+    {
+     "file": "violins/57_64_0.flac",
+     "key": 57,
+     "lokey": 56,
+     "hikey": 57,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_A2_v2.wav"
+    },
+    {
+     "file": "violins/69_64_0.flac",
+     "key": 69,
+     "lokey": 68,
+     "hikey": 70,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_A3_v2.wav"
+    },
+    {
+     "file": "violins/59_64_0.flac",
+     "key": 59,
+     "lokey": 58,
+     "hikey": 60,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_B2_v2.wav"
+    },
+    {
+     "file": "violins/83_64_0.flac",
+     "key": 83,
+     "lokey": 81,
+     "hikey": 84,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_B4_v2.wav"
+    },
+    {
+     "file": "violins/72_64_0.flac",
+     "key": 72,
+     "lokey": 71,
+     "hikey": 73,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_C4_v2.wav"
+    },
+    {
+     "file": "violins/62_64_0.flac",
+     "key": 62,
+     "lokey": 61,
+     "hikey": 63,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_D3_v2.wav"
+    },
+    {
+     "file": "violins/86_64_0.flac",
+     "key": 86,
+     "lokey": 85,
+     "hikey": 86,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_D5_v2.wav"
+    },
+    {
+     "file": "violins/76_64_0.flac",
+     "key": 76,
+     "lokey": 74,
+     "hikey": 77,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_E4_v2.wav"
+    },
+    {
+     "file": "violins/66_64_0.flac",
+     "key": 66,
+     "lokey": 64,
+     "hikey": 67,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_F#3_v2.wav"
+    },
+    {
+     "file": "violins/55_64_0.flac",
+     "key": 55,
+     "lokey": 55,
+     "hikey": 55,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_G2_v2.wav"
+    },
+    {
+     "file": "violins/79_64_0.flac",
+     "key": 79,
+     "lokey": 78,
+     "hikey": 80,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_G4_v2.wav"
+    }
+   ],
+   "gain": 0.601
+  },
+  "violas": {
+   "kind": "pitched",
+   "source": "VSCO 2 CE (CC0)",
+   "regions": [
+    {
+     "file": "violas/69_0_0.flac",
+     "key": 69,
+     "lokey": 67,
+     "hikey": 70,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_A3_v1_1.wav"
+    },
+    {
+     "file": "violas/59_0_0.flac",
+     "key": 59,
+     "lokey": 57,
+     "hikey": 60,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_B2_v1_1.wav"
+    },
+    {
+     "file": "violas/83_0_0.flac",
+     "key": 83,
+     "lokey": 81,
+     "hikey": 84,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_B4_v1_1.wav"
+    },
+    {
+     "file": "violas/48_0_0.flac",
+     "key": 48,
+     "lokey": 48,
+     "hikey": 48,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_C2_v1_1.wav"
+    },
+    {
+     "file": "violas/72_0_0.flac",
+     "key": 72,
+     "lokey": 71,
+     "hikey": 73,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_C4_v1_1.wav"
+    },
+    {
+     "file": "violas/50_0_0.flac",
+     "key": 50,
+     "lokey": 49,
+     "hikey": 50,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_D2_v1_1.wav"
+    },
+    {
+     "file": "violas/62_0_0.flac",
+     "key": 62,
+     "lokey": 61,
+     "hikey": 63,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_D3_v1_1.wav"
+    },
+    {
+     "file": "violas/86_0_0.flac",
+     "key": 86,
+     "lokey": 85,
+     "hikey": 86,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_D5_v1_1.wav"
+    },
+    {
+     "file": "violas/52_0_0.flac",
+     "key": 52,
+     "lokey": 51,
+     "hikey": 53,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_E2_v1_1.wav"
+    },
+    {
+     "file": "violas/76_0_0.flac",
+     "key": 76,
+     "lokey": 74,
+     "hikey": 77,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_E4_v1_1.wav"
+    },
+    {
+     "file": "violas/65_0_0.flac",
+     "key": 65,
+     "lokey": 64,
+     "hikey": 66,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_F3_v1_1.wav"
+    },
+    {
+     "file": "violas/55_0_0.flac",
+     "key": 55,
+     "lokey": 54,
+     "hikey": 56,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_G2_v1_1.wav"
+    },
+    {
+     "file": "violas/79_0_0.flac",
+     "key": 79,
+     "lokey": 78,
+     "hikey": 80,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_G4_v1_1.wav"
+    },
+    {
+     "file": "violas/69_64_0.flac",
+     "key": 69,
+     "lokey": 67,
+     "hikey": 70,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_A3_v2_1.wav"
+    },
+    {
+     "file": "violas/59_64_0.flac",
+     "key": 59,
+     "lokey": 57,
+     "hikey": 60,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_B2_v2_1.wav"
+    },
+    {
+     "file": "violas/83_64_0.flac",
+     "key": 83,
+     "lokey": 81,
+     "hikey": 84,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_B4_v2_1.wav"
+    },
+    {
+     "file": "violas/48_64_0.flac",
+     "key": 48,
+     "lokey": 48,
+     "hikey": 48,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_C2_v2_1.wav"
+    },
+    {
+     "file": "violas/72_64_0.flac",
+     "key": 72,
+     "lokey": 71,
+     "hikey": 73,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_C4_v2_1.wav"
+    },
+    {
+     "file": "violas/50_64_0.flac",
+     "key": 50,
+     "lokey": 49,
+     "hikey": 50,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_D2_v2_1.wav"
+    },
+    {
+     "file": "violas/62_64_0.flac",
+     "key": 62,
+     "lokey": 61,
+     "hikey": 63,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_D3_v2_1.wav"
+    },
+    {
+     "file": "violas/86_64_0.flac",
+     "key": 86,
+     "lokey": 85,
+     "hikey": 86,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_D5_v2_1.wav"
+    },
+    {
+     "file": "violas/52_64_0.flac",
+     "key": 52,
+     "lokey": 51,
+     "hikey": 53,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_E2_v2_1.wav"
+    },
+    {
+     "file": "violas/76_64_0.flac",
+     "key": 76,
+     "lokey": 74,
+     "hikey": 77,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_E4_v2_1.wav"
+    },
+    {
+     "file": "violas/65_64_0.flac",
+     "key": 65,
+     "lokey": 64,
+     "hikey": 66,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_F3_v2_1.wav"
+    },
+    {
+     "file": "violas/55_64_0.flac",
+     "key": 55,
+     "lokey": 54,
+     "hikey": 56,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_G2_v2_1.wav"
+    },
+    {
+     "file": "violas/79_64_0.flac",
+     "key": 79,
+     "lokey": 78,
+     "hikey": 80,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_G4_v2_1.wav"
+    }
+   ],
+   "gain": 0.4074
+  },
+  "celli": {
+   "kind": "pitched",
+   "source": "VSCO 2 CE (CC0)",
+   "regions": [
+    {
+     "file": "celli/40_0_0.flac",
+     "key": 40,
+     "lokey": 38,
+     "hikey": 41,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_E1_v1_1.wav"
+    },
+    {
+     "file": "celli/40_42_0.flac",
+     "key": 40,
+     "lokey": 38,
+     "hikey": 41,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_E1_v1_2.wav"
+    },
+    {
+     "file": "celli/57_85_0.flac",
+     "key": 57,
+     "lokey": 55,
+     "hikey": 58,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_A2_v3_1.wav"
+    },
+    {
+     "file": "celli/47_85_0.flac",
+     "key": 47,
+     "lokey": 45,
+     "hikey": 48,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_B1_v3_1.wav"
+    },
+    {
+     "file": "celli/71_85_0.flac",
+     "key": 71,
+     "lokey": 69,
+     "hikey": 72,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_B3_v3_1.wav"
+    },
+    {
+     "file": "celli/36_85_0.flac",
+     "key": 36,
+     "lokey": 36,
+     "hikey": 37,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_C1_v3_1.wav"
+    },
+    {
+     "file": "celli/60_85_0.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 61,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_C3_v3_1.wav"
+    },
+    {
+     "file": "celli/50_85_0.flac",
+     "key": 50,
+     "lokey": 49,
+     "hikey": 51,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_D2_v3_1.wav"
+    },
+    {
+     "file": "celli/74_85_0.flac",
+     "key": 74,
+     "lokey": 73,
+     "hikey": 75,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_D4_v3_1.wav"
+    },
+    {
+     "file": "celli/40_85_0.flac",
+     "key": 40,
+     "lokey": 38,
+     "hikey": 41,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_E1_v3_1.wav"
+    },
+    {
+     "file": "celli/64_85_0.flac",
+     "key": 64,
+     "lokey": 62,
+     "hikey": 65,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_E3_v3_1.wav"
+    },
+    {
+     "file": "celli/53_85_0.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 54,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_F2_v3_1.wav"
+    },
+    {
+     "file": "celli/77_85_0.flac",
+     "key": 77,
+     "lokey": 76,
+     "hikey": 77,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_F4_v3_1.wav"
+    },
+    {
+     "file": "celli/43_85_0.flac",
+     "key": 43,
+     "lokey": 42,
+     "hikey": 44,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_G1_v3_1.wav"
+    },
+    {
+     "file": "celli/67_85_0.flac",
+     "key": 67,
+     "lokey": 66,
+     "hikey": 68,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_G3_v3_1.wav"
+    }
+   ],
+   "gain": 0.175
+  },
+  "violin_pizz": {
+   "kind": "pitched",
+   "source": "VSCO 2 CE (CC0)",
+   "regions": [
+    {
+     "file": "violin_pizz/57_0_0.flac",
+     "key": 57,
+     "lokey": 56,
+     "hikey": 57,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_A2_v1_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/69_0_0.flac",
+     "key": 69,
+     "lokey": 68,
+     "hikey": 70,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_A3_v1_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/59_0_0.flac",
+     "key": 59,
+     "lokey": 58,
+     "hikey": 60,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_B2_v1_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/83_0_0.flac",
+     "key": 83,
+     "lokey": 81,
+     "hikey": 84,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_B4_v1_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/72_0_0.flac",
+     "key": 72,
+     "lokey": 71,
+     "hikey": 73,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_C4_v1_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/62_0_0.flac",
+     "key": 62,
+     "lokey": 61,
+     "hikey": 63,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_D3_v1_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/86_0_0.flac",
+     "key": 86,
+     "lokey": 85,
+     "hikey": 86,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_D5_v1_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/76_0_0.flac",
+     "key": 76,
+     "lokey": 74,
+     "hikey": 77,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_E4_v1_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/66_0_0.flac",
+     "key": 66,
+     "lokey": 64,
+     "hikey": 67,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_F#3_v1_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/55_0_0.flac",
+     "key": 55,
+     "lokey": 55,
+     "hikey": 55,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_G2_v1_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/79_0_0.flac",
+     "key": 79,
+     "lokey": 78,
+     "hikey": 80,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_G4_v1_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/57_0_1.flac",
+     "key": 57,
+     "lokey": 56,
+     "hikey": 57,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_A2_v1_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/69_0_1.flac",
+     "key": 69,
+     "lokey": 68,
+     "hikey": 70,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_A3_v1_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/59_0_1.flac",
+     "key": 59,
+     "lokey": 58,
+     "hikey": 60,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_B2_v1_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/83_0_1.flac",
+     "key": 83,
+     "lokey": 81,
+     "hikey": 84,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_B4_v1_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/72_0_1.flac",
+     "key": 72,
+     "lokey": 71,
+     "hikey": 73,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_C4_v1_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/62_0_1.flac",
+     "key": 62,
+     "lokey": 61,
+     "hikey": 63,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_D3_v1_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/86_0_1.flac",
+     "key": 86,
+     "lokey": 85,
+     "hikey": 86,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_D5_v1_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/76_0_1.flac",
+     "key": 76,
+     "lokey": 74,
+     "hikey": 77,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_E4_v1_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/66_0_1.flac",
+     "key": 66,
+     "lokey": 64,
+     "hikey": 67,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_F#3_v1_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/55_0_1.flac",
+     "key": 55,
+     "lokey": 55,
+     "hikey": 55,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_G2_v1_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/79_0_1.flac",
+     "key": 79,
+     "lokey": 78,
+     "hikey": 80,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_G4_v1_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/57_64_0.flac",
+     "key": 57,
+     "lokey": 56,
+     "hikey": 57,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_A2_v2_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/69_64_0.flac",
+     "key": 69,
+     "lokey": 68,
+     "hikey": 70,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_A3_v2_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/59_64_0.flac",
+     "key": 59,
+     "lokey": 58,
+     "hikey": 60,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_B2_v2_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/83_64_0.flac",
+     "key": 83,
+     "lokey": 81,
+     "hikey": 84,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_B4_v2_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/72_64_0.flac",
+     "key": 72,
+     "lokey": 71,
+     "hikey": 73,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_C4_v2_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/62_64_0.flac",
+     "key": 62,
+     "lokey": 61,
+     "hikey": 63,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_D3_v2_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/86_64_0.flac",
+     "key": 86,
+     "lokey": 85,
+     "hikey": 86,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_D5_v2_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/76_64_0.flac",
+     "key": 76,
+     "lokey": 74,
+     "hikey": 77,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_E4_v2_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/66_64_0.flac",
+     "key": 66,
+     "lokey": 64,
+     "hikey": 67,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_F#3_v2_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/55_64_0.flac",
+     "key": 55,
+     "lokey": 55,
+     "hikey": 55,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_G2_v2_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/79_64_0.flac",
+     "key": 79,
+     "lokey": 78,
+     "hikey": 80,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_G4_v2_rr1.wav"
+    },
+    {
+     "file": "violin_pizz/57_64_1.flac",
+     "key": 57,
+     "lokey": 56,
+     "hikey": 57,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_A2_v2_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/69_64_1.flac",
+     "key": 69,
+     "lokey": 68,
+     "hikey": 70,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_A3_v2_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/59_64_1.flac",
+     "key": 59,
+     "lokey": 58,
+     "hikey": 60,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_B2_v2_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/83_64_1.flac",
+     "key": 83,
+     "lokey": 81,
+     "hikey": 84,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_B4_v2_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/72_64_1.flac",
+     "key": 72,
+     "lokey": 71,
+     "hikey": 73,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_C4_v2_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/62_64_1.flac",
+     "key": 62,
+     "lokey": 61,
+     "hikey": 63,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_D3_v2_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/86_64_1.flac",
+     "key": 86,
+     "lokey": 85,
+     "hikey": 86,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_D5_v2_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/76_64_1.flac",
+     "key": 76,
+     "lokey": 74,
+     "hikey": 77,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_E4_v2_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/66_64_1.flac",
+     "key": 66,
+     "lokey": 64,
+     "hikey": 67,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_F#3_v2_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/55_64_1.flac",
+     "key": 55,
+     "lokey": 55,
+     "hikey": 55,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_G2_v2_rr2.wav"
+    },
+    {
+     "file": "violin_pizz/79_64_1.flac",
+     "key": 79,
+     "lokey": 78,
+     "hikey": 80,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_G4_v2_rr2.wav"
+    }
+   ],
+   "gain": 0.5497
+  },
+  "upright_bass": {
+   "kind": "pitched",
+   "source": "VSCO 2 CE (CC0)",
+   "regions": [
+    {
+     "file": "upright_bass/34_0_0.flac",
+     "key": 34,
+     "lokey": 33,
+     "hikey": 34,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_A#0_v1_rr1.wav"
+    },
+    {
+     "file": "upright_bass/36_0_0.flac",
+     "key": 36,
+     "lokey": 35,
+     "hikey": 36,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_C1_v1_rr1.wav"
+    },
+    {
+     "file": "upright_bass/28_0_0.flac",
+     "key": 28,
+     "lokey": 24,
+     "hikey": 28,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_E0_v1_rr1.wav"
+    },
+    {
+     "file": "upright_bass/40_0_0.flac",
+     "key": 40,
+     "lokey": 39,
+     "hikey": 40,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_E1_v1_rr1.wav"
+    },
+    {
+     "file": "upright_bass/30_0_0.flac",
+     "key": 30,
+     "lokey": 29,
+     "hikey": 30,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_F#0_v1_rr1.wav"
+    },
+    {
+     "file": "upright_bass/31_0_0.flac",
+     "key": 31,
+     "lokey": 31,
+     "hikey": 32,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_G0_v1_rr1.wav"
+    },
+    {
+     "file": "upright_bass/34_0_1.flac",
+     "key": 34,
+     "lokey": 33,
+     "hikey": 34,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_A#0_v1_rr2.wav"
+    },
+    {
+     "file": "upright_bass/36_0_1.flac",
+     "key": 36,
+     "lokey": 35,
+     "hikey": 36,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_C1_v1_rr2.wav"
+    },
+    {
+     "file": "upright_bass/28_0_1.flac",
+     "key": 28,
+     "lokey": 24,
+     "hikey": 28,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_E0_v1_rr2.wav"
+    },
+    {
+     "file": "upright_bass/40_0_1.flac",
+     "key": 40,
+     "lokey": 39,
+     "hikey": 40,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_E1_v1_rr2.wav"
+    },
+    {
+     "file": "upright_bass/30_0_1.flac",
+     "key": 30,
+     "lokey": 29,
+     "hikey": 30,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_F#0_v1_rr2.wav"
+    },
+    {
+     "file": "upright_bass/31_0_1.flac",
+     "key": 31,
+     "lokey": 31,
+     "hikey": 32,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_G0_v1_rr2.wav"
+    },
+    {
+     "file": "upright_bass/45_42_0.flac",
+     "key": 45,
+     "lokey": 45,
+     "hikey": 46,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_A1_v1_rr1.wav"
+    },
+    {
+     "file": "upright_bass/59_42_0.flac",
+     "key": 59,
+     "lokey": 58,
+     "hikey": 60,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_B2_v1_rr1.wav"
+    },
+    {
+     "file": "upright_bass/49_42_0.flac",
+     "key": 49,
+     "lokey": 47,
+     "hikey": 50,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_C#2_v1_rr1.wav"
+    },
+    {
+     "file": "upright_bass/38_42_0.flac",
+     "key": 38,
+     "lokey": 37,
+     "hikey": 38,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_D1_v1_rr1.wav"
+    },
+    {
+     "file": "upright_bass/52_42_0.flac",
+     "key": 52,
+     "lokey": 51,
+     "hikey": 53,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_E2_v1_rr1.wav"
+    },
+    {
+     "file": "upright_bass/42_42_0.flac",
+     "key": 42,
+     "lokey": 41,
+     "hikey": 42,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_F#1_v1_rr1.wav"
+    },
+    {
+     "file": "upright_bass/44_42_0.flac",
+     "key": 44,
+     "lokey": 43,
+     "hikey": 44,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_G#1_v1_rr1.wav"
+    },
+    {
+     "file": "upright_bass/56_42_0.flac",
+     "key": 56,
+     "lokey": 54,
+     "hikey": 57,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_G#2_v1_rr1.wav"
+    },
+    {
+     "file": "upright_bass/45_42_1.flac",
+     "key": 45,
+     "lokey": 45,
+     "hikey": 46,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_A1_v1_rr2.wav"
+    },
+    {
+     "file": "upright_bass/59_42_1.flac",
+     "key": 59,
+     "lokey": 58,
+     "hikey": 60,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_B2_v1_rr2.wav"
+    },
+    {
+     "file": "upright_bass/49_42_1.flac",
+     "key": 49,
+     "lokey": 47,
+     "hikey": 50,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_C#2_v1_rr2.wav"
+    },
+    {
+     "file": "upright_bass/38_42_1.flac",
+     "key": 38,
+     "lokey": 37,
+     "hikey": 38,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_D1_v1_rr2.wav"
+    },
+    {
+     "file": "upright_bass/52_42_1.flac",
+     "key": 52,
+     "lokey": 51,
+     "hikey": 53,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_E2_v1_rr2.wav"
+    },
+    {
+     "file": "upright_bass/42_42_1.flac",
+     "key": 42,
+     "lokey": 41,
+     "hikey": 42,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_F#1_v1_rr2.wav"
+    },
+    {
+     "file": "upright_bass/44_42_1.flac",
+     "key": 44,
+     "lokey": 43,
+     "hikey": 44,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_G#1_v1_rr2.wav"
+    },
+    {
+     "file": "upright_bass/56_42_1.flac",
+     "key": 56,
+     "lokey": 54,
+     "hikey": 57,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_G#2_v1_rr2.wav"
+    },
+    {
+     "file": "upright_bass/34_85_0.flac",
+     "key": 34,
+     "lokey": 33,
+     "hikey": 34,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_A#0_v3_rr1.wav"
+    },
+    {
+     "file": "upright_bass/36_85_0.flac",
+     "key": 36,
+     "lokey": 35,
+     "hikey": 36,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_C1_v3_rr1.wav"
+    },
+    {
+     "file": "upright_bass/28_85_0.flac",
+     "key": 28,
+     "lokey": 24,
+     "hikey": 28,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_E0_v3_rr1.wav"
+    },
+    {
+     "file": "upright_bass/40_85_0.flac",
+     "key": 40,
+     "lokey": 39,
+     "hikey": 40,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_E1_v3_rr1.wav"
+    },
+    {
+     "file": "upright_bass/30_85_0.flac",
+     "key": 30,
+     "lokey": 29,
+     "hikey": 30,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_F#0_v3_rr1.wav"
+    },
+    {
+     "file": "upright_bass/31_85_0.flac",
+     "key": 31,
+     "lokey": 31,
+     "hikey": 32,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_G0_v3_rr1.wav"
+    },
+    {
+     "file": "upright_bass/34_85_1.flac",
+     "key": 34,
+     "lokey": 33,
+     "hikey": 34,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_A#0_v3_rr2.wav"
+    },
+    {
+     "file": "upright_bass/36_85_1.flac",
+     "key": 36,
+     "lokey": 35,
+     "hikey": 36,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_C1_v3_rr2.wav"
+    },
+    {
+     "file": "upright_bass/28_85_1.flac",
+     "key": 28,
+     "lokey": 24,
+     "hikey": 28,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_E0_v3_rr2.wav"
+    },
+    {
+     "file": "upright_bass/40_85_1.flac",
+     "key": 40,
+     "lokey": 39,
+     "hikey": 40,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_E1_v3_rr2.wav"
+    },
+    {
+     "file": "upright_bass/30_85_1.flac",
+     "key": 30,
+     "lokey": 29,
+     "hikey": 30,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_F#0_v3_rr2.wav"
+    },
+    {
+     "file": "upright_bass/31_85_1.flac",
+     "key": 31,
+     "lokey": 31,
+     "hikey": 32,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_G0_v3_rr2.wav"
+    }
+   ],
+   "gain": 4.3644
+  },
+  "harp": {
+   "kind": "pitched",
+   "source": "VSCO 2 CE (CC0)",
+   "regions": [
+    {
+     "file": "harp/31_0_0.flac",
+     "key": 31,
+     "lokey": 30,
+     "hikey": 32,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_G1_mp.wav"
+    },
+    {
+     "file": "harp/45_0_0.flac",
+     "key": 45,
+     "lokey": 43,
+     "hikey": 46,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_A2_mf.wav"
+    },
+    {
+     "file": "harp/69_0_0.flac",
+     "key": 69,
+     "lokey": 67,
+     "hikey": 70,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_A4_mf.wav"
+    },
+    {
+     "file": "harp/93_0_0.flac",
+     "key": 93,
+     "lokey": 91,
+     "hikey": 93,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_A6_mf.wav"
+    },
+    {
+     "file": "harp/35_0_0.flac",
+     "key": 35,
+     "lokey": 33,
+     "hikey": 36,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_B1_mf.wav"
+    },
+    {
+     "file": "harp/59_0_0.flac",
+     "key": 59,
+     "lokey": 57,
+     "hikey": 60,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_B3_mf.wav"
+    },
+    {
+     "file": "harp/83_0_0.flac",
+     "key": 83,
+     "lokey": 81,
+     "hikey": 84,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_B5_mf.wav"
+    },
+    {
+     "file": "harp/95_0_0.flac",
+     "key": 95,
+     "lokey": 94,
+     "hikey": 96,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_B6_mf.wav"
+    },
+    {
+     "file": "harp/48_0_0.flac",
+     "key": 48,
+     "lokey": 47,
+     "hikey": 49,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_C3_mf.wav"
+    },
+    {
+     "file": "harp/72_0_0.flac",
+     "key": 72,
+     "lokey": 71,
+     "hikey": 73,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_C5_mf.wav"
+    },
+    {
+     "file": "harp/38_0_0.flac",
+     "key": 38,
+     "lokey": 37,
+     "hikey": 39,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_D2_mf.wav"
+    },
+    {
+     "file": "harp/62_0_0.flac",
+     "key": 62,
+     "lokey": 61,
+     "hikey": 63,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_D4_mf.wav"
+    },
+    {
+     "file": "harp/86_0_0.flac",
+     "key": 86,
+     "lokey": 85,
+     "hikey": 87,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_D6_mf.wav"
+    },
+    {
+     "file": "harp/52_0_0.flac",
+     "key": 52,
+     "lokey": 50,
+     "hikey": 53,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_E3_mf.wav"
+    },
+    {
+     "file": "harp/76_0_0.flac",
+     "key": 76,
+     "lokey": 74,
+     "hikey": 77,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_E5_mf.wav"
+    },
+    {
+     "file": "harp/41_0_0.flac",
+     "key": 41,
+     "lokey": 40,
+     "hikey": 42,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_F2_mf.wav"
+    },
+    {
+     "file": "harp/65_0_0.flac",
+     "key": 65,
+     "lokey": 64,
+     "hikey": 66,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_F4_mf.wav"
+    },
+    {
+     "file": "harp/89_0_0.flac",
+     "key": 89,
+     "lokey": 88,
+     "hikey": 90,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_F6_mf.wav"
+    },
+    {
+     "file": "harp/55_0_0.flac",
+     "key": 55,
+     "lokey": 54,
+     "hikey": 56,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_G3_mf.wav"
+    },
+    {
+     "file": "harp/79_0_0.flac",
+     "key": 79,
+     "lokey": 78,
+     "hikey": 80,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_G5_mf.wav"
+    },
+    {
+     "file": "harp/98_0_0.flac",
+     "key": 98,
+     "lokey": 97,
+     "hikey": 99,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_D7_f.wav"
+    },
+    {
+     "file": "harp/28_0_0.flac",
+     "key": 28,
+     "lokey": 28,
+     "hikey": 29,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_E1_f.wav"
+    },
+    {
+     "file": "harp/101_0_0.flac",
+     "key": 101,
+     "lokey": 100,
+     "hikey": 101,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Strings/Harp/KSHarp_F7_f.wav"
+    }
+   ],
+   "gain": 1.6496
+  },
+  "trumpet": {
+   "kind": "pitched",
+   "source": "VSCO 2 CE (CC0)",
+   "regions": [
+    {
+     "file": "trumpet/70_0_0.flac",
+     "key": 70,
+     "lokey": 69,
+     "hikey": 71,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_A#3_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet/57_0_0.flac",
+     "key": 57,
+     "lokey": 55,
+     "hikey": 58,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_A2_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet/81_0_0.flac",
+     "key": 81,
+     "lokey": 79,
+     "hikey": 82,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_A4_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet/60_0_0.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 61,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_C3_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet/84_0_0.flac",
+     "key": 84,
+     "lokey": 83,
+     "hikey": 84,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_C5_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet/63_0_0.flac",
+     "key": 63,
+     "lokey": 62,
+     "hikey": 64,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_D#3_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet/74_0_0.flac",
+     "key": 74,
+     "lokey": 72,
+     "hikey": 75,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_D4_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet/53_0_0.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 54,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_F2_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet/77_0_0.flac",
+     "key": 77,
+     "lokey": 76,
+     "hikey": 78,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_F4_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet/67_0_0.flac",
+     "key": 67,
+     "lokey": 65,
+     "hikey": 68,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_G3_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet/70_64_0.flac",
+     "key": 70,
+     "lokey": 69,
+     "hikey": 71,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_A#3_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet/57_64_0.flac",
+     "key": 57,
+     "lokey": 55,
+     "hikey": 58,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_A2_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet/81_64_0.flac",
+     "key": 81,
+     "lokey": 79,
+     "hikey": 82,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_A4_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet/60_64_0.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 61,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_C3_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet/84_64_0.flac",
+     "key": 84,
+     "lokey": 83,
+     "hikey": 84,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_C5_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet/63_64_0.flac",
+     "key": 63,
+     "lokey": 62,
+     "hikey": 64,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_D#3_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet/74_64_0.flac",
+     "key": 74,
+     "lokey": 72,
+     "hikey": 75,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_D4_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet/53_64_0.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 54,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_F2_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet/77_64_0.flac",
+     "key": 77,
+     "lokey": 76,
+     "hikey": 78,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_F4_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet/67_64_0.flac",
+     "key": 67,
+     "lokey": 65,
+     "hikey": 68,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_G3_v3_rr1.wav"
+    }
+   ],
+   "gain": 0.2041
+  },
+  "trumpet_stac": {
+   "kind": "pitched",
+   "source": "VSCO 2 CE (CC0)",
+   "regions": [
+    {
+     "file": "trumpet_stac/70_0_0.flac",
+     "key": 70,
+     "lokey": 69,
+     "hikey": 71,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A#3_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/57_0_0.flac",
+     "key": 57,
+     "lokey": 55,
+     "hikey": 58,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A2_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/81_0_0.flac",
+     "key": 81,
+     "lokey": 79,
+     "hikey": 82,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A4_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/60_0_0.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 61,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_C3_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/84_0_0.flac",
+     "key": 84,
+     "lokey": 83,
+     "hikey": 84,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_C5_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/63_0_0.flac",
+     "key": 63,
+     "lokey": 62,
+     "hikey": 63,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_D#3_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/74_0_0.flac",
+     "key": 74,
+     "lokey": 72,
+     "hikey": 75,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_D4_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/53_0_0.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 54,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F2_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/65_0_0.flac",
+     "key": 65,
+     "lokey": 64,
+     "hikey": 65,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F3_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/77_0_0.flac",
+     "key": 77,
+     "lokey": 76,
+     "hikey": 78,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F4_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/67_0_0.flac",
+     "key": 67,
+     "lokey": 66,
+     "hikey": 68,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_G3_v1_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/70_0_1.flac",
+     "key": 70,
+     "lokey": 69,
+     "hikey": 71,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A#3_v1_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/57_0_1.flac",
+     "key": 57,
+     "lokey": 55,
+     "hikey": 58,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A2_v1_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/81_0_1.flac",
+     "key": 81,
+     "lokey": 79,
+     "hikey": 82,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A4_v1_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/60_0_1.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 61,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_C3_v1_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/84_0_1.flac",
+     "key": 84,
+     "lokey": 83,
+     "hikey": 84,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_C5_v1_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/63_0_1.flac",
+     "key": 63,
+     "lokey": 62,
+     "hikey": 63,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_D#3_v1_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/74_0_1.flac",
+     "key": 74,
+     "lokey": 72,
+     "hikey": 75,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_D4_v1_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/53_0_1.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 54,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F2_v1_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/65_0_1.flac",
+     "key": 65,
+     "lokey": 64,
+     "hikey": 65,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F3_v1_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/77_0_1.flac",
+     "key": 77,
+     "lokey": 76,
+     "hikey": 78,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F4_v1_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/67_0_1.flac",
+     "key": 67,
+     "lokey": 66,
+     "hikey": 68,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_G3_v1_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/70_42_0.flac",
+     "key": 70,
+     "lokey": 69,
+     "hikey": 71,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A#3_v2_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/57_42_0.flac",
+     "key": 57,
+     "lokey": 55,
+     "hikey": 58,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A2_v2_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/81_42_0.flac",
+     "key": 81,
+     "lokey": 79,
+     "hikey": 82,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A4_v2_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/60_42_0.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 61,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_C3_v2_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/84_42_0.flac",
+     "key": 84,
+     "lokey": 83,
+     "hikey": 84,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_C5_v2_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/63_42_0.flac",
+     "key": 63,
+     "lokey": 62,
+     "hikey": 63,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_D#3_v2_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/74_42_0.flac",
+     "key": 74,
+     "lokey": 72,
+     "hikey": 75,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_D4_v2_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/53_42_0.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 54,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F2_v2_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/65_42_0.flac",
+     "key": 65,
+     "lokey": 64,
+     "hikey": 65,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F3_v2_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/77_42_0.flac",
+     "key": 77,
+     "lokey": 76,
+     "hikey": 78,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F4_v2_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/67_42_0.flac",
+     "key": 67,
+     "lokey": 66,
+     "hikey": 68,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_G3_v2_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/70_42_1.flac",
+     "key": 70,
+     "lokey": 69,
+     "hikey": 71,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A#3_v2_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/57_42_1.flac",
+     "key": 57,
+     "lokey": 55,
+     "hikey": 58,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A2_v2_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/81_42_1.flac",
+     "key": 81,
+     "lokey": 79,
+     "hikey": 82,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A4_v2_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/60_42_1.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 61,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_C3_v2_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/84_42_1.flac",
+     "key": 84,
+     "lokey": 83,
+     "hikey": 84,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_C5_v2_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/63_42_1.flac",
+     "key": 63,
+     "lokey": 62,
+     "hikey": 63,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_D#3_v2_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/74_42_1.flac",
+     "key": 74,
+     "lokey": 72,
+     "hikey": 75,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_D4_v2_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/53_42_1.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 54,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F2_v2_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/65_42_1.flac",
+     "key": 65,
+     "lokey": 64,
+     "hikey": 65,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F3_v2_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/77_42_1.flac",
+     "key": 77,
+     "lokey": 76,
+     "hikey": 78,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F4_v2_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/67_42_1.flac",
+     "key": 67,
+     "lokey": 66,
+     "hikey": 68,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_G3_v2_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/70_85_0.flac",
+     "key": 70,
+     "lokey": 69,
+     "hikey": 71,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A#3_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/57_85_0.flac",
+     "key": 57,
+     "lokey": 55,
+     "hikey": 58,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A2_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/81_85_0.flac",
+     "key": 81,
+     "lokey": 79,
+     "hikey": 82,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A4_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/60_85_0.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 61,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_C3_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/84_85_0.flac",
+     "key": 84,
+     "lokey": 83,
+     "hikey": 84,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_C5_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/63_85_0.flac",
+     "key": 63,
+     "lokey": 62,
+     "hikey": 63,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_D#3_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/74_85_0.flac",
+     "key": 74,
+     "lokey": 72,
+     "hikey": 75,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_D4_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/53_85_0.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 54,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F2_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/65_85_0.flac",
+     "key": 65,
+     "lokey": 64,
+     "hikey": 65,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F3_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/77_85_0.flac",
+     "key": 77,
+     "lokey": 76,
+     "hikey": 78,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F4_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/67_85_0.flac",
+     "key": 67,
+     "lokey": 66,
+     "hikey": 68,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_G3_v3_rr1.wav"
+    },
+    {
+     "file": "trumpet_stac/70_85_1.flac",
+     "key": 70,
+     "lokey": 69,
+     "hikey": 71,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A#3_v3_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/57_85_1.flac",
+     "key": 57,
+     "lokey": 55,
+     "hikey": 58,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A2_v3_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/81_85_1.flac",
+     "key": 81,
+     "lokey": 79,
+     "hikey": 82,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_A4_v3_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/60_85_1.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 61,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_C3_v3_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/84_85_1.flac",
+     "key": 84,
+     "lokey": 83,
+     "hikey": 84,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_C5_v3_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/63_85_1.flac",
+     "key": 63,
+     "lokey": 62,
+     "hikey": 63,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_D#3_v3_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/74_85_1.flac",
+     "key": 74,
+     "lokey": 72,
+     "hikey": 75,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_D4_v3_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/53_85_1.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 54,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F2_v3_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/65_85_1.flac",
+     "key": 65,
+     "lokey": 64,
+     "hikey": 65,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F3_v3_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/77_85_1.flac",
+     "key": 77,
+     "lokey": 76,
+     "hikey": 78,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_F4_v3_rr2.wav"
+    },
+    {
+     "file": "trumpet_stac/67_85_1.flac",
+     "key": 67,
+     "lokey": 66,
+     "hikey": 68,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_G3_v3_rr2.wav"
+    }
+   ],
+   "gain": 1.0911
+  },
+  "horn": {
+   "kind": "pitched",
+   "source": "VSCO 2 CE (CC0)",
+   "regions": [
+    {
+     "file": "horn/60_0_0.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 66,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/F Horn/sus/MOHorn_sus_C3_v1_1.wav"
+    },
+    {
+     "file": "horn/50_0_0.flac",
+     "key": 50,
+     "lokey": 48,
+     "hikey": 51,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/F Horn/sus/MOHorn_sus_D2_v1_1.wav"
+    },
+    {
+     "file": "horn/46_42_0.flac",
+     "key": 46,
+     "lokey": 45,
+     "hikey": 47,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/F Horn/sus/MOHorn_sus_A#1_v2_1.wav"
+    },
+    {
+     "file": "horn/57_42_0.flac",
+     "key": 57,
+     "lokey": 55,
+     "hikey": 58,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/F Horn/sus/MOHorn_sus_A2_v2_1.wav"
+    },
+    {
+     "file": "horn/36_42_0.flac",
+     "key": 36,
+     "lokey": 35,
+     "hikey": 37,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/F Horn/sus/MOHorn_sus_C1_v2_1.wav"
+    },
+    {
+     "file": "horn/39_42_0.flac",
+     "key": 39,
+     "lokey": 38,
+     "hikey": 40,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/F Horn/sus/MOHorn_sus_D#1_v2_1.wav"
+    },
+    {
+     "file": "horn/53_42_0.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 54,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/F Horn/sus/MOHorn_sus_F2_v2_1.wav"
+    },
+    {
+     "file": "horn/43_42_0.flac",
+     "key": 43,
+     "lokey": 41,
+     "hikey": 44,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/F Horn/sus/MOHorn_sus_G1_v2_1.wav"
+    },
+    {
+     "file": "horn/60_85_0.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 66,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/F Horn/sus/MOHorn_sus_C3_v4_1.wav"
+    },
+    {
+     "file": "horn/50_85_0.flac",
+     "key": 50,
+     "lokey": 48,
+     "hikey": 51,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/F Horn/sus/MOHorn_sus_D2_v4_1.wav"
+    }
+   ],
+   "gain": 0.5389
+  },
+  "trombone": {
+   "kind": "pitched",
+   "source": "VSCO 2 CE (CC0)",
+   "regions": [
+    {
+     "file": "trombone/46_0_0.flac",
+     "key": 46,
+     "lokey": 44,
+     "hikey": 47,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_A#1_v1_1.wav"
+    },
+    {
+     "file": "trombone/61_0_0.flac",
+     "key": 61,
+     "lokey": 61,
+     "hikey": 61,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_C#3_v1_1.wav"
+    },
+    {
+     "file": "trombone/60_0_0.flac",
+     "key": 60,
+     "lokey": 57,
+     "hikey": 60,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_C3_v1_1.wav"
+    },
+    {
+     "file": "trombone/39_0_0.flac",
+     "key": 39,
+     "lokey": 38,
+     "hikey": 39,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_D#1_v1_1.wav"
+    },
+    {
+     "file": "trombone/63_0_0.flac",
+     "key": 63,
+     "lokey": 62,
+     "hikey": 63,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_D#3_v1_1.wav"
+    },
+    {
+     "file": "trombone/50_0_0.flac",
+     "key": 50,
+     "lokey": 48,
+     "hikey": 51,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_D2_v1_1.wav"
+    },
+    {
+     "file": "trombone/41_0_0.flac",
+     "key": 41,
+     "lokey": 40,
+     "hikey": 43,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_F1_v1_1.wav"
+    },
+    {
+     "file": "trombone/53_0_0.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 56,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_F2_v1_1.wav"
+    },
+    {
+     "file": "trombone/65_0_0.flac",
+     "key": 65,
+     "lokey": 64,
+     "hikey": 65,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_F3_v1_1.wav"
+    },
+    {
+     "file": "trombone/46_42_0.flac",
+     "key": 46,
+     "lokey": 44,
+     "hikey": 47,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_A#1_v2_1.wav"
+    },
+    {
+     "file": "trombone/61_42_0.flac",
+     "key": 61,
+     "lokey": 61,
+     "hikey": 61,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_C#3_v2_1.wav"
+    },
+    {
+     "file": "trombone/60_42_0.flac",
+     "key": 60,
+     "lokey": 57,
+     "hikey": 60,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_C3_v2_1.wav"
+    },
+    {
+     "file": "trombone/39_42_0.flac",
+     "key": 39,
+     "lokey": 38,
+     "hikey": 39,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_D#1_v2_1.wav"
+    },
+    {
+     "file": "trombone/63_42_0.flac",
+     "key": 63,
+     "lokey": 62,
+     "hikey": 63,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_D#3_v2_1.wav"
+    },
+    {
+     "file": "trombone/50_42_0.flac",
+     "key": 50,
+     "lokey": 48,
+     "hikey": 51,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_D2_v2_1.wav"
+    },
+    {
+     "file": "trombone/41_42_0.flac",
+     "key": 41,
+     "lokey": 40,
+     "hikey": 43,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_F1_v2_1.wav"
+    },
+    {
+     "file": "trombone/53_42_0.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 56,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_F2_v2_1.wav"
+    },
+    {
+     "file": "trombone/65_42_0.flac",
+     "key": 65,
+     "lokey": 64,
+     "hikey": 65,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_F3_v2_1.wav"
+    },
+    {
+     "file": "trombone/46_85_0.flac",
+     "key": 46,
+     "lokey": 44,
+     "hikey": 47,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_A#1_v3_1.wav"
+    },
+    {
+     "file": "trombone/61_85_0.flac",
+     "key": 61,
+     "lokey": 61,
+     "hikey": 61,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_C#3_v3_1.wav"
+    },
+    {
+     "file": "trombone/60_85_0.flac",
+     "key": 60,
+     "lokey": 57,
+     "hikey": 60,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_C3_v3_1.wav"
+    },
+    {
+     "file": "trombone/39_85_0.flac",
+     "key": 39,
+     "lokey": 38,
+     "hikey": 39,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_D#1_v3_1.wav"
+    },
+    {
+     "file": "trombone/63_85_0.flac",
+     "key": 63,
+     "lokey": 62,
+     "hikey": 63,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_D#3_v3_1.wav"
+    },
+    {
+     "file": "trombone/50_85_0.flac",
+     "key": 50,
+     "lokey": 48,
+     "hikey": 51,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_D2_v3_1.wav"
+    },
+    {
+     "file": "trombone/41_85_0.flac",
+     "key": 41,
+     "lokey": 40,
+     "hikey": 43,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_F1_v3_1.wav"
+    },
+    {
+     "file": "trombone/53_85_0.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 56,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_F2_v3_1.wav"
+    },
+    {
+     "file": "trombone/65_85_0.flac",
+     "key": 65,
+     "lokey": 64,
+     "hikey": 65,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_F3_v3_1.wav"
+    }
+   ],
+   "gain": 4.6619
+  },
+  "flute": {
+   "kind": "pitched",
+   "source": "VSCO 2 CE (CC0)",
+   "regions": [
+    {
+     "file": "flute/72_0_0.flac",
+     "key": 72,
+     "lokey": 71,
+     "hikey": 73,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Flute/susvib/LDFlute_susvib_C4_v1_1.wav"
+    },
+    {
+     "file": "flute/76_0_0.flac",
+     "key": 76,
+     "lokey": 74,
+     "hikey": 78,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Flute/susvib/LDFlute_susvib_E4_v1_1.wav"
+    },
+    {
+     "file": "flute/88_0_0.flac",
+     "key": 88,
+     "lokey": 86,
+     "hikey": 90,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Flute/susvib/LDFlute_susvib_E5_v1_1.wav"
+    },
+    {
+     "file": "flute/69_42_0.flac",
+     "key": 69,
+     "lokey": 67,
+     "hikey": 70,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Flute/susvib/LDFlute_susvib_A3_v1_1.wav"
+    },
+    {
+     "file": "flute/81_42_0.flac",
+     "key": 81,
+     "lokey": 79,
+     "hikey": 82,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Flute/susvib/LDFlute_susvib_A4_v1_1.wav"
+    },
+    {
+     "file": "flute/93_42_0.flac",
+     "key": 93,
+     "lokey": 91,
+     "hikey": 94,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Flute/susvib/LDFlute_susvib_A5_v1_1.wav"
+    },
+    {
+     "file": "flute/60_42_0.flac",
+     "key": 60,
+     "lokey": 60,
+     "hikey": 61,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Flute/susvib/LDFlute_susvib_C3_v1_1.wav"
+    },
+    {
+     "file": "flute/84_42_0.flac",
+     "key": 84,
+     "lokey": 83,
+     "hikey": 85,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Flute/susvib/LDFlute_susvib_C5_v1_1.wav"
+    },
+    {
+     "file": "flute/96_42_0.flac",
+     "key": 96,
+     "lokey": 95,
+     "hikey": 96,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Flute/susvib/LDFlute_susvib_C6_v1_1.wav"
+    },
+    {
+     "file": "flute/64_42_0.flac",
+     "key": 64,
+     "lokey": 62,
+     "hikey": 66,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Flute/susvib/LDFlute_susvib_E3_v1_1.wav"
+    },
+    {
+     "file": "flute/72_85_0.flac",
+     "key": 72,
+     "lokey": 71,
+     "hikey": 73,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Flute/susvib/LDFlute_susvib_C4_v1_2.wav"
+    },
+    {
+     "file": "flute/76_85_0.flac",
+     "key": 76,
+     "lokey": 74,
+     "hikey": 78,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Flute/susvib/LDFlute_susvib_E4_v1_2.wav"
+    },
+    {
+     "file": "flute/88_85_0.flac",
+     "key": 88,
+     "lokey": 86,
+     "hikey": 90,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Flute/susvib/LDFlute_susvib_E5_v1_2.wav"
+    }
+   ],
+   "gain": 1.5113
+  },
+  "clarinet": {
+   "kind": "pitched",
+   "source": "VSCO 2 CE (CC0)",
+   "regions": [
+    {
+     "file": "clarinet/58_0_0.flac",
+     "key": 58,
+     "lokey": 56,
+     "hikey": 59,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_A#2_v1_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/70_0_0.flac",
+     "key": 70,
+     "lokey": 68,
+     "hikey": 71,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_A#3_v1_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/82_0_0.flac",
+     "key": 82,
+     "lokey": 80,
+     "hikey": 83,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_A#4_v1_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/50_0_0.flac",
+     "key": 50,
+     "lokey": 50,
+     "hikey": 51,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_D2_v1_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/62_0_0.flac",
+     "key": 62,
+     "lokey": 60,
+     "hikey": 63,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_D3_v1_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/74_0_0.flac",
+     "key": 74,
+     "lokey": 72,
+     "hikey": 75,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_D4_v1_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/86_0_0.flac",
+     "key": 86,
+     "lokey": 84,
+     "hikey": 87,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_D5_v1_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/89_0_0.flac",
+     "key": 89,
+     "lokey": 88,
+     "hikey": 90,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_F#5_v1_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/53_0_0.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 55,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_F2_v1_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/65_0_0.flac",
+     "key": 65,
+     "lokey": 64,
+     "hikey": 67,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_F3_v1_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/77_0_0.flac",
+     "key": 77,
+     "lokey": 76,
+     "hikey": 79,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_F4_v1_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/58_42_0.flac",
+     "key": 58,
+     "lokey": 56,
+     "hikey": 59,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_A#2_v2_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/70_42_0.flac",
+     "key": 70,
+     "lokey": 68,
+     "hikey": 71,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_A#3_v2_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/82_42_0.flac",
+     "key": 82,
+     "lokey": 80,
+     "hikey": 83,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_A#4_v2_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/50_42_0.flac",
+     "key": 50,
+     "lokey": 50,
+     "hikey": 51,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_D2_v2_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/62_42_0.flac",
+     "key": 62,
+     "lokey": 60,
+     "hikey": 63,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_D3_v2_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/74_42_0.flac",
+     "key": 74,
+     "lokey": 72,
+     "hikey": 75,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_D4_v2_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/86_42_0.flac",
+     "key": 86,
+     "lokey": 84,
+     "hikey": 87,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_D5_v2_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/89_42_0.flac",
+     "key": 89,
+     "lokey": 88,
+     "hikey": 90,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_F#5_v2_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/53_42_0.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 55,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_F2_v2_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/65_42_0.flac",
+     "key": 65,
+     "lokey": 64,
+     "hikey": 67,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_F3_v2_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/77_42_0.flac",
+     "key": 77,
+     "lokey": 76,
+     "hikey": 79,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_F4_v2_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/58_85_0.flac",
+     "key": 58,
+     "lokey": 56,
+     "hikey": 59,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_A#2_v3_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/70_85_0.flac",
+     "key": 70,
+     "lokey": 68,
+     "hikey": 71,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_A#3_v3_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/82_85_0.flac",
+     "key": 82,
+     "lokey": 80,
+     "hikey": 83,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_A#4_v3_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/50_85_0.flac",
+     "key": 50,
+     "lokey": 50,
+     "hikey": 51,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_D2_v3_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/62_85_0.flac",
+     "key": 62,
+     "lokey": 60,
+     "hikey": 63,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_D3_v3_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/74_85_0.flac",
+     "key": 74,
+     "lokey": 72,
+     "hikey": 75,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_D4_v3_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/86_85_0.flac",
+     "key": 86,
+     "lokey": 84,
+     "hikey": 87,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_D5_v3_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/89_85_0.flac",
+     "key": 89,
+     "lokey": 88,
+     "hikey": 90,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_F#5_v3_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/53_85_0.flac",
+     "key": 53,
+     "lokey": 52,
+     "hikey": 55,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_F2_v3_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/65_85_0.flac",
+     "key": 65,
+     "lokey": 64,
+     "hikey": 67,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_F3_v3_rr1_sum.wav"
+    },
+    {
+     "file": "clarinet/77_85_0.flac",
+     "key": 77,
+     "lokey": 76,
+     "hikey": 79,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_F4_v3_rr1_sum.wav"
+    }
+   ],
+   "gain": 0.8215
+  },
+  "piano_steinway": {
+   "kind": "pitched",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "piano_steinway/22_2_0.flac",
+     "key": 22,
+     "lokey": 10,
+     "hikey": 23,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#0_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/22_3_0.flac",
+     "key": 22,
+     "lokey": 10,
+     "hikey": 23,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#0_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/22_4_0.flac",
+     "key": 22,
+     "lokey": 10,
+     "hikey": 23,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#0_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/24_2_0.flac",
+     "key": 24,
+     "lokey": 23,
+     "hikey": 25,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C1_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/24_3_0.flac",
+     "key": 24,
+     "lokey": 23,
+     "hikey": 25,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C1_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/24_4_0.flac",
+     "key": 24,
+     "lokey": 23,
+     "hikey": 25,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C1_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/26_2_0.flac",
+     "key": 26,
+     "lokey": 25,
+     "hikey": 27,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D1_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/26_3_0.flac",
+     "key": 26,
+     "lokey": 25,
+     "hikey": 27,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D1_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/26_4_0.flac",
+     "key": 26,
+     "lokey": 25,
+     "hikey": 27,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D1_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/28_2_0.flac",
+     "key": 28,
+     "lokey": 27,
+     "hikey": 29,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E1_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/28_3_0.flac",
+     "key": 28,
+     "lokey": 27,
+     "hikey": 29,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E1_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/28_4_0.flac",
+     "key": 28,
+     "lokey": 27,
+     "hikey": 29,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E1_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/30_2_0.flac",
+     "key": 30,
+     "lokey": 29,
+     "hikey": 31,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#1_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/30_3_0.flac",
+     "key": 30,
+     "lokey": 29,
+     "hikey": 31,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#1_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/30_4_0.flac",
+     "key": 30,
+     "lokey": 29,
+     "hikey": 31,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#1_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/32_2_0.flac",
+     "key": 32,
+     "lokey": 31,
+     "hikey": 33,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#1_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/32_3_0.flac",
+     "key": 32,
+     "lokey": 31,
+     "hikey": 33,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#1_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/32_4_0.flac",
+     "key": 32,
+     "lokey": 31,
+     "hikey": 33,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#1_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/34_2_0.flac",
+     "key": 34,
+     "lokey": 33,
+     "hikey": 35,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#1_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/34_3_0.flac",
+     "key": 34,
+     "lokey": 33,
+     "hikey": 35,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#1_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/34_4_0.flac",
+     "key": 34,
+     "lokey": 33,
+     "hikey": 35,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#1_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/36_2_0.flac",
+     "key": 36,
+     "lokey": 35,
+     "hikey": 37,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C2_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/36_3_0.flac",
+     "key": 36,
+     "lokey": 35,
+     "hikey": 37,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C2_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/36_4_0.flac",
+     "key": 36,
+     "lokey": 35,
+     "hikey": 37,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C2_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/38_2_0.flac",
+     "key": 38,
+     "lokey": 37,
+     "hikey": 39,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D2_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/38_3_0.flac",
+     "key": 38,
+     "lokey": 37,
+     "hikey": 39,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D2_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/38_4_0.flac",
+     "key": 38,
+     "lokey": 37,
+     "hikey": 39,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D2_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/40_2_0.flac",
+     "key": 40,
+     "lokey": 39,
+     "hikey": 41,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E2_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/40_3_0.flac",
+     "key": 40,
+     "lokey": 39,
+     "hikey": 41,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E2_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/40_4_0.flac",
+     "key": 40,
+     "lokey": 39,
+     "hikey": 41,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E2_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/42_2_0.flac",
+     "key": 42,
+     "lokey": 41,
+     "hikey": 43,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#2_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/42_3_0.flac",
+     "key": 42,
+     "lokey": 41,
+     "hikey": 43,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#2_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/42_4_0.flac",
+     "key": 42,
+     "lokey": 41,
+     "hikey": 43,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#2_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/44_2_0.flac",
+     "key": 44,
+     "lokey": 43,
+     "hikey": 45,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#2_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/44_3_0.flac",
+     "key": 44,
+     "lokey": 43,
+     "hikey": 45,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#2_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/44_4_0.flac",
+     "key": 44,
+     "lokey": 43,
+     "hikey": 45,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#2_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/46_2_0.flac",
+     "key": 46,
+     "lokey": 45,
+     "hikey": 47,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#2_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/46_3_0.flac",
+     "key": 46,
+     "lokey": 45,
+     "hikey": 47,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#2_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/46_4_0.flac",
+     "key": 46,
+     "lokey": 45,
+     "hikey": 47,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#2_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/48_2_0.flac",
+     "key": 48,
+     "lokey": 47,
+     "hikey": 49,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C3_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/48_3_0.flac",
+     "key": 48,
+     "lokey": 47,
+     "hikey": 49,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C3_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/48_4_0.flac",
+     "key": 48,
+     "lokey": 47,
+     "hikey": 49,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C3_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/50_2_0.flac",
+     "key": 50,
+     "lokey": 49,
+     "hikey": 51,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D3_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/50_3_0.flac",
+     "key": 50,
+     "lokey": 49,
+     "hikey": 51,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D3_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/50_4_0.flac",
+     "key": 50,
+     "lokey": 49,
+     "hikey": 51,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D3_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/52_2_0.flac",
+     "key": 52,
+     "lokey": 51,
+     "hikey": 53,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E3_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/52_3_0.flac",
+     "key": 52,
+     "lokey": 51,
+     "hikey": 53,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E3_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/52_4_0.flac",
+     "key": 52,
+     "lokey": 51,
+     "hikey": 53,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E3_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/54_2_0.flac",
+     "key": 54,
+     "lokey": 53,
+     "hikey": 55,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#3_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/54_3_0.flac",
+     "key": 54,
+     "lokey": 53,
+     "hikey": 55,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#3_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/54_4_0.flac",
+     "key": 54,
+     "lokey": 53,
+     "hikey": 55,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#3_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/56_2_0.flac",
+     "key": 56,
+     "lokey": 55,
+     "hikey": 57,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#3_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/56_3_0.flac",
+     "key": 56,
+     "lokey": 55,
+     "hikey": 57,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#3_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/56_4_0.flac",
+     "key": 56,
+     "lokey": 55,
+     "hikey": 57,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#3_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/58_2_0.flac",
+     "key": 58,
+     "lokey": 57,
+     "hikey": 59,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#3_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/58_3_0.flac",
+     "key": 58,
+     "lokey": 57,
+     "hikey": 59,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#3_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/58_4_0.flac",
+     "key": 58,
+     "lokey": 57,
+     "hikey": 59,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#3_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/60_2_0.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 61,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C4_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/60_3_0.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 61,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C4_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/60_4_0.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 61,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C4_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/62_2_0.flac",
+     "key": 62,
+     "lokey": 61,
+     "hikey": 63,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D4_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/62_3_0.flac",
+     "key": 62,
+     "lokey": 61,
+     "hikey": 63,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D4_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/62_4_0.flac",
+     "key": 62,
+     "lokey": 61,
+     "hikey": 63,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D4_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/64_2_0.flac",
+     "key": 64,
+     "lokey": 63,
+     "hikey": 65,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E4_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/64_3_0.flac",
+     "key": 64,
+     "lokey": 63,
+     "hikey": 65,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E4_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/64_4_0.flac",
+     "key": 64,
+     "lokey": 63,
+     "hikey": 65,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E4_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/66_2_0.flac",
+     "key": 66,
+     "lokey": 65,
+     "hikey": 67,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#4_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/66_3_0.flac",
+     "key": 66,
+     "lokey": 65,
+     "hikey": 67,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#4_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/66_4_0.flac",
+     "key": 66,
+     "lokey": 65,
+     "hikey": 67,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#4_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/68_2_0.flac",
+     "key": 68,
+     "lokey": 67,
+     "hikey": 69,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#4_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/68_3_0.flac",
+     "key": 68,
+     "lokey": 67,
+     "hikey": 69,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#4_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/68_4_0.flac",
+     "key": 68,
+     "lokey": 67,
+     "hikey": 69,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#4_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/70_2_0.flac",
+     "key": 70,
+     "lokey": 69,
+     "hikey": 71,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#4_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/70_3_0.flac",
+     "key": 70,
+     "lokey": 69,
+     "hikey": 71,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#4_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/70_4_0.flac",
+     "key": 70,
+     "lokey": 69,
+     "hikey": 71,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#4_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/72_2_0.flac",
+     "key": 72,
+     "lokey": 71,
+     "hikey": 73,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C5_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/72_3_0.flac",
+     "key": 72,
+     "lokey": 71,
+     "hikey": 73,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C5_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/72_4_0.flac",
+     "key": 72,
+     "lokey": 71,
+     "hikey": 73,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C5_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/74_2_0.flac",
+     "key": 74,
+     "lokey": 73,
+     "hikey": 75,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D5_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/74_3_0.flac",
+     "key": 74,
+     "lokey": 73,
+     "hikey": 75,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D5_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/74_4_0.flac",
+     "key": 74,
+     "lokey": 73,
+     "hikey": 75,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D5_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/76_2_0.flac",
+     "key": 76,
+     "lokey": 75,
+     "hikey": 77,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E5_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/76_3_0.flac",
+     "key": 76,
+     "lokey": 75,
+     "hikey": 77,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E5_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/76_4_0.flac",
+     "key": 76,
+     "lokey": 75,
+     "hikey": 77,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E5_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/78_2_0.flac",
+     "key": 78,
+     "lokey": 77,
+     "hikey": 79,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#5_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/78_3_0.flac",
+     "key": 78,
+     "lokey": 77,
+     "hikey": 79,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#5_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/78_4_0.flac",
+     "key": 78,
+     "lokey": 77,
+     "hikey": 79,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#5_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/80_2_0.flac",
+     "key": 80,
+     "lokey": 79,
+     "hikey": 81,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#5_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/80_3_0.flac",
+     "key": 80,
+     "lokey": 79,
+     "hikey": 81,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#5_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/80_4_0.flac",
+     "key": 80,
+     "lokey": 79,
+     "hikey": 81,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#5_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/82_2_0.flac",
+     "key": 82,
+     "lokey": 81,
+     "hikey": 83,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#5_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/82_3_0.flac",
+     "key": 82,
+     "lokey": 81,
+     "hikey": 83,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#5_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/82_4_0.flac",
+     "key": 82,
+     "lokey": 81,
+     "hikey": 83,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#5_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/84_2_0.flac",
+     "key": 84,
+     "lokey": 83,
+     "hikey": 85,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C6_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/84_3_0.flac",
+     "key": 84,
+     "lokey": 83,
+     "hikey": 85,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C6_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/84_4_0.flac",
+     "key": 84,
+     "lokey": 83,
+     "hikey": 85,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C6_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/86_2_0.flac",
+     "key": 86,
+     "lokey": 85,
+     "hikey": 87,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D6_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/86_3_0.flac",
+     "key": 86,
+     "lokey": 85,
+     "hikey": 87,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D6_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/86_4_0.flac",
+     "key": 86,
+     "lokey": 85,
+     "hikey": 87,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D6_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/88_2_0.flac",
+     "key": 88,
+     "lokey": 87,
+     "hikey": 89,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E6_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/88_3_0.flac",
+     "key": 88,
+     "lokey": 87,
+     "hikey": 89,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E6_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/88_4_0.flac",
+     "key": 88,
+     "lokey": 87,
+     "hikey": 89,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E6_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/90_2_0.flac",
+     "key": 90,
+     "lokey": 89,
+     "hikey": 91,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#6_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/90_3_0.flac",
+     "key": 90,
+     "lokey": 89,
+     "hikey": 91,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#6_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/90_4_0.flac",
+     "key": 90,
+     "lokey": 89,
+     "hikey": 91,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#6_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/92_2_0.flac",
+     "key": 92,
+     "lokey": 91,
+     "hikey": 93,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#6_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/92_3_0.flac",
+     "key": 92,
+     "lokey": 91,
+     "hikey": 93,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#6_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/92_4_0.flac",
+     "key": 92,
+     "lokey": 91,
+     "hikey": 93,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#6_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/94_2_0.flac",
+     "key": 94,
+     "lokey": 93,
+     "hikey": 95,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#6_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/94_3_0.flac",
+     "key": 94,
+     "lokey": 93,
+     "hikey": 95,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#6_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/94_4_0.flac",
+     "key": 94,
+     "lokey": 93,
+     "hikey": 95,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_A#6_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/96_2_0.flac",
+     "key": 96,
+     "lokey": 95,
+     "hikey": 97,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C7_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/96_3_0.flac",
+     "key": 96,
+     "lokey": 95,
+     "hikey": 97,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C7_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/96_4_0.flac",
+     "key": 96,
+     "lokey": 95,
+     "hikey": 97,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_C7_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/98_2_0.flac",
+     "key": 98,
+     "lokey": 97,
+     "hikey": 99,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D7_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/98_3_0.flac",
+     "key": 98,
+     "lokey": 97,
+     "hikey": 99,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D7_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/98_4_0.flac",
+     "key": 98,
+     "lokey": 97,
+     "hikey": 99,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_D7_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/100_2_0.flac",
+     "key": 100,
+     "lokey": 99,
+     "hikey": 101,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E7_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/100_3_0.flac",
+     "key": 100,
+     "lokey": 99,
+     "hikey": 101,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E7_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/100_4_0.flac",
+     "key": 100,
+     "lokey": 99,
+     "hikey": 101,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_E7_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/102_2_0.flac",
+     "key": 102,
+     "lokey": 101,
+     "hikey": 103,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#7_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/102_3_0.flac",
+     "key": 102,
+     "lokey": 101,
+     "hikey": 103,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#7_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/102_4_0.flac",
+     "key": 102,
+     "lokey": 101,
+     "hikey": 103,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_F#7_vl4_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/104_2_0.flac",
+     "key": 104,
+     "lokey": 103,
+     "hikey": 116,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#7_vl2_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/104_3_0.flac",
+     "key": 104,
+     "lokey": 103,
+     "hikey": 116,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#7_vl3_rr1.wav"
+    },
+    {
+     "file": "piano_steinway/104_4_0.flac",
+     "key": 104,
+     "lokey": 103,
+     "hikey": 116,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#7_vl4_rr1.wav"
+    }
+   ],
+   "gain": 0.1015
+  },
+  "tenor_sax": {
+   "kind": "pitched",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "tenor_sax/34_5_0.flac",
+     "key": 34,
+     "lokey": 22,
+     "hikey": 35,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_A#1_var2.wav"
+    },
+    {
+     "file": "tenor_sax/36_5_0.flac",
+     "key": 36,
+     "lokey": 35,
+     "hikey": 37,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_C2_var4.wav"
+    },
+    {
+     "file": "tenor_sax/38_5_0.flac",
+     "key": 38,
+     "lokey": 37,
+     "hikey": 39,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_D2_var2.wav"
+    },
+    {
+     "file": "tenor_sax/40_5_0.flac",
+     "key": 40,
+     "lokey": 39,
+     "hikey": 41,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_E2_var2.wav"
+    },
+    {
+     "file": "tenor_sax/42_5_0.flac",
+     "key": 42,
+     "lokey": 41,
+     "hikey": 44,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_F#2_var3.wav"
+    },
+    {
+     "file": "tenor_sax/46_5_0.flac",
+     "key": 46,
+     "lokey": 44,
+     "hikey": 47,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_A#2_var4.wav"
+    },
+    {
+     "file": "tenor_sax/48_5_0.flac",
+     "key": 48,
+     "lokey": 47,
+     "hikey": 49,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_C3_var1.wav"
+    },
+    {
+     "file": "tenor_sax/50_5_0.flac",
+     "key": 50,
+     "lokey": 49,
+     "hikey": 51,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_D3_var1.wav"
+    },
+    {
+     "file": "tenor_sax/52_5_0.flac",
+     "key": 52,
+     "lokey": 51,
+     "hikey": 53,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_E3_var3.wav"
+    },
+    {
+     "file": "tenor_sax/54_5_0.flac",
+     "key": 54,
+     "lokey": 53,
+     "hikey": 56,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_F#3_var2.wav"
+    },
+    {
+     "file": "tenor_sax/58_5_0.flac",
+     "key": 58,
+     "lokey": 56,
+     "hikey": 59,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_A#3_var3.wav"
+    },
+    {
+     "file": "tenor_sax/60_5_0.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 61,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_C4_var2.wav"
+    },
+    {
+     "file": "tenor_sax/62_5_0.flac",
+     "key": 62,
+     "lokey": 61,
+     "hikey": 63,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_D4_var1.wav"
+    },
+    {
+     "file": "tenor_sax/64_5_0.flac",
+     "key": 64,
+     "lokey": 63,
+     "hikey": 65,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_E4_var4.wav"
+    },
+    {
+     "file": "tenor_sax/67_5_0.flac",
+     "key": 67,
+     "lokey": 66,
+     "hikey": 67,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_G4_var3.wav"
+    },
+    {
+     "file": "tenor_sax/68_5_0.flac",
+     "key": 68,
+     "lokey": 68,
+     "hikey": 69,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_G#4_var3.wav"
+    },
+    {
+     "file": "tenor_sax/70_5_0.flac",
+     "key": 70,
+     "lokey": 69,
+     "hikey": 71,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_A#4_var2.wav"
+    },
+    {
+     "file": "tenor_sax/72_5_0.flac",
+     "key": 72,
+     "lokey": 71,
+     "hikey": 73,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_C5_var2.wav"
+    },
+    {
+     "file": "tenor_sax/74_5_0.flac",
+     "key": 74,
+     "lokey": 73,
+     "hikey": 86,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_D5_var3.wav"
+    }
+   ],
+   "gain": 2.0821
+  },
+  "vibraphone": {
+   "kind": "pitched",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "vibraphone/53_2_0.flac",
+     "key": 53,
+     "lokey": 41,
+     "hikey": 55,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_F2_v2_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/53_3_0.flac",
+     "key": 53,
+     "lokey": 41,
+     "hikey": 55,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_F2_v3_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/57_2_0.flac",
+     "key": 57,
+     "lokey": 55,
+     "hikey": 58,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_A2_v2_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/57_3_0.flac",
+     "key": 57,
+     "lokey": 55,
+     "hikey": 58,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_A2_v3_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/60_2_0.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 62,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_C3_v2_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/60_3_0.flac",
+     "key": 60,
+     "lokey": 59,
+     "hikey": 62,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_C3_v3_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/64_2_0.flac",
+     "key": 64,
+     "lokey": 62,
+     "hikey": 65,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_E3_v2_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/64_3_0.flac",
+     "key": 64,
+     "lokey": 62,
+     "hikey": 65,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_E3_v3_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/67_2_0.flac",
+     "key": 67,
+     "lokey": 66,
+     "hikey": 69,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_G3_v2_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/67_3_0.flac",
+     "key": 67,
+     "lokey": 66,
+     "hikey": 69,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_G3_v3_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/71_2_0.flac",
+     "key": 71,
+     "lokey": 69,
+     "hikey": 72,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_B3_v2_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/71_3_0.flac",
+     "key": 71,
+     "lokey": 69,
+     "hikey": 72,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_B3_v3_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/74_2_0.flac",
+     "key": 74,
+     "lokey": 73,
+     "hikey": 75,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_D4_v2_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/74_3_0.flac",
+     "key": 74,
+     "lokey": 73,
+     "hikey": 75,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_D4_v3_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/77_2_0.flac",
+     "key": 77,
+     "lokey": 76,
+     "hikey": 79,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_F4_v2_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/77_3_0.flac",
+     "key": 77,
+     "lokey": 76,
+     "hikey": 79,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_F4_v3_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/81_2_0.flac",
+     "key": 81,
+     "lokey": 79,
+     "hikey": 82,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_A4_v2_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/81_3_0.flac",
+     "key": 81,
+     "lokey": 79,
+     "hikey": 82,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_A4_v3_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/84_2_0.flac",
+     "key": 84,
+     "lokey": 83,
+     "hikey": 86,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_C5_v2_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/84_3_0.flac",
+     "key": 84,
+     "lokey": 83,
+     "hikey": 86,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_C5_v3_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/88_2_0.flac",
+     "key": 88,
+     "lokey": 86,
+     "hikey": 100,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_E5_v2_rr1_Main.wav"
+    },
+    {
+     "file": "vibraphone/88_3_0.flac",
+     "key": 88,
+     "lokey": 86,
+     "hikey": 100,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_E5_v3_rr1_Main.wav"
+    }
+   ],
+   "gain": 0.4012
+  },
+  "marimba": {
+   "kind": "pitched",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "marimba/41_2_0.flac",
+     "key": 41,
+     "lokey": 29,
+     "hikey": 44,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F1_soft_01.wav"
+    },
+    {
+     "file": "marimba/41_4_0.flac",
+     "key": 41,
+     "lokey": 29,
+     "hikey": 44,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F1_med_01.wav"
+    },
+    {
+     "file": "marimba/41_7_0.flac",
+     "key": 41,
+     "lokey": 29,
+     "hikey": 44,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F1_loud_01.wav"
+    },
+    {
+     "file": "marimba/48_2_0.flac",
+     "key": 48,
+     "lokey": 45,
+     "hikey": 51,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C2_soft_01.wav"
+    },
+    {
+     "file": "marimba/48_4_0.flac",
+     "key": 48,
+     "lokey": 45,
+     "hikey": 51,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C2_med_01.wav"
+    },
+    {
+     "file": "marimba/48_7_0.flac",
+     "key": 48,
+     "lokey": 45,
+     "hikey": 51,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C2_loud_01.wav"
+    },
+    {
+     "file": "marimba/55_2_0.flac",
+     "key": 55,
+     "lokey": 52,
+     "hikey": 57,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_G2_soft_01.wav"
+    },
+    {
+     "file": "marimba/55_4_0.flac",
+     "key": 55,
+     "lokey": 52,
+     "hikey": 57,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_G2_med_01.wav"
+    },
+    {
+     "file": "marimba/55_7_0.flac",
+     "key": 55,
+     "lokey": 52,
+     "hikey": 57,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_G2_loud_01.wav"
+    },
+    {
+     "file": "marimba/59_2_0.flac",
+     "key": 59,
+     "lokey": 57,
+     "hikey": 62,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_B2_soft_01.wav"
+    },
+    {
+     "file": "marimba/59_4_0.flac",
+     "key": 59,
+     "lokey": 57,
+     "hikey": 62,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_B2_med_01.wav"
+    },
+    {
+     "file": "marimba/59_7_0.flac",
+     "key": 59,
+     "lokey": 57,
+     "hikey": 62,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_B2_loud_01.wav"
+    },
+    {
+     "file": "marimba/65_2_0.flac",
+     "key": 65,
+     "lokey": 62,
+     "hikey": 68,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F3_soft_01.wav"
+    },
+    {
+     "file": "marimba/65_4_0.flac",
+     "key": 65,
+     "lokey": 62,
+     "hikey": 68,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F3_med_01.wav"
+    },
+    {
+     "file": "marimba/65_7_0.flac",
+     "key": 65,
+     "lokey": 62,
+     "hikey": 68,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F3_loud_01.wav"
+    },
+    {
+     "file": "marimba/72_2_0.flac",
+     "key": 72,
+     "lokey": 69,
+     "hikey": 75,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C4_soft_01.wav"
+    },
+    {
+     "file": "marimba/72_4_0.flac",
+     "key": 72,
+     "lokey": 69,
+     "hikey": 75,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C4_med_01.wav"
+    },
+    {
+     "file": "marimba/72_7_0.flac",
+     "key": 72,
+     "lokey": 69,
+     "hikey": 75,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C4_loud_01.wav"
+    },
+    {
+     "file": "marimba/79_2_0.flac",
+     "key": 79,
+     "lokey": 76,
+     "hikey": 81,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_G4_soft_01.wav"
+    },
+    {
+     "file": "marimba/79_4_0.flac",
+     "key": 79,
+     "lokey": 76,
+     "hikey": 81,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_G4_med_01.wav"
+    },
+    {
+     "file": "marimba/79_7_0.flac",
+     "key": 79,
+     "lokey": 76,
+     "hikey": 81,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_G4_loud_01.wav"
+    },
+    {
+     "file": "marimba/83_2_0.flac",
+     "key": 83,
+     "lokey": 81,
+     "hikey": 86,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_B4_soft_01.wav"
+    },
+    {
+     "file": "marimba/83_4_0.flac",
+     "key": 83,
+     "lokey": 81,
+     "hikey": 86,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_B4_med_01.wav"
+    },
+    {
+     "file": "marimba/83_7_0.flac",
+     "key": 83,
+     "lokey": 81,
+     "hikey": 86,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_B4_loud_01.wav"
+    },
+    {
+     "file": "marimba/89_2_0.flac",
+     "key": 89,
+     "lokey": 86,
+     "hikey": 92,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F5_soft_01.wav"
+    },
+    {
+     "file": "marimba/89_4_0.flac",
+     "key": 89,
+     "lokey": 86,
+     "hikey": 92,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F5_med_01.wav"
+    },
+    {
+     "file": "marimba/89_7_0.flac",
+     "key": 89,
+     "lokey": 86,
+     "hikey": 92,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F5_loud_01.wav"
+    },
+    {
+     "file": "marimba/96_2_0.flac",
+     "key": 96,
+     "lokey": 93,
+     "hikey": 108,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C6_soft_01.wav"
+    },
+    {
+     "file": "marimba/96_4_0.flac",
+     "key": 96,
+     "lokey": 93,
+     "hikey": 108,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C6_med_01.wav"
+    },
+    {
+     "file": "marimba/96_7_0.flac",
+     "key": 96,
+     "lokey": 93,
+     "hikey": 108,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C6_loud_01.wav"
+    }
+   ],
+   "gain": 1.9287
+  },
+  "xylophone": {
+   "kind": "pitched",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "xylophone/67_1_0.flac",
+     "key": 67,
+     "lokey": 55,
+     "hikey": 69,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_G3_pp_01_far.wav"
+    },
+    {
+     "file": "xylophone/67_8_0.flac",
+     "key": 67,
+     "lokey": 55,
+     "hikey": 69,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_G3_ff_01_far.wav"
+    },
+    {
+     "file": "xylophone/72_1_0.flac",
+     "key": 72,
+     "lokey": 70,
+     "hikey": 75,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C4_pp_01_far.wav"
+    },
+    {
+     "file": "xylophone/72_8_0.flac",
+     "key": 72,
+     "lokey": 70,
+     "hikey": 75,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C4_ff_01_far.wav"
+    },
+    {
+     "file": "xylophone/79_1_0.flac",
+     "key": 79,
+     "lokey": 76,
+     "hikey": 81,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_G4_pp_01_far.wav"
+    },
+    {
+     "file": "xylophone/79_8_0.flac",
+     "key": 79,
+     "lokey": 76,
+     "hikey": 81,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_G4_ff_01_far.wav"
+    },
+    {
+     "file": "xylophone/84_1_0.flac",
+     "key": 84,
+     "lokey": 82,
+     "hikey": 87,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C5_pp_01_far.wav"
+    },
+    {
+     "file": "xylophone/84_8_0.flac",
+     "key": 84,
+     "lokey": 82,
+     "hikey": 87,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C5_ff_01_far.wav"
+    },
+    {
+     "file": "xylophone/91_1_0.flac",
+     "key": 91,
+     "lokey": 88,
+     "hikey": 93,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_G5_pp_01_far.wav"
+    },
+    {
+     "file": "xylophone/91_8_0.flac",
+     "key": 91,
+     "lokey": 88,
+     "hikey": 93,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_G5_ff_01_far.wav"
+    },
+    {
+     "file": "xylophone/96_1_0.flac",
+     "key": 96,
+     "lokey": 94,
+     "hikey": 99,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C6_pp_01_far.wav"
+    },
+    {
+     "file": "xylophone/96_8_0.flac",
+     "key": 96,
+     "lokey": 94,
+     "hikey": 99,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C6_ff_01_far.wav"
+    },
+    {
+     "file": "xylophone/103_1_0.flac",
+     "key": 103,
+     "lokey": 100,
+     "hikey": 105,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_G6_pp_01_far.wav"
+    },
+    {
+     "file": "xylophone/103_8_0.flac",
+     "key": 103,
+     "lokey": 100,
+     "hikey": 105,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_G6_ff_01_far.wav"
+    },
+    {
+     "file": "xylophone/108_1_0.flac",
+     "key": 108,
+     "lokey": 106,
+     "hikey": 120,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C7_pp_01_far.wav"
+    },
+    {
+     "file": "xylophone/108_8_0.flac",
+     "key": 108,
+     "lokey": 106,
+     "hikey": 120,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C7_ff_01_far.wav"
+    }
+   ],
+   "gain": 0.227
+  },
+  "glockenspiel": {
+   "kind": "pitched",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "glockenspiel/79_2_0.flac",
+     "key": 79,
+     "lokey": 67,
+     "hikey": 81,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_soft_G4_01.wav"
+    },
+    {
+     "file": "glockenspiel/79_4_0.flac",
+     "key": 79,
+     "lokey": 67,
+     "hikey": 81,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_medium_G4_01.wav"
+    },
+    {
+     "file": "glockenspiel/79_7_0.flac",
+     "key": 79,
+     "lokey": 67,
+     "hikey": 81,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_loud_G4_01.wav"
+    },
+    {
+     "file": "glockenspiel/84_2_0.flac",
+     "key": 84,
+     "lokey": 82,
+     "hikey": 87,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_soft_C5_02.wav"
+    },
+    {
+     "file": "glockenspiel/84_4_0.flac",
+     "key": 84,
+     "lokey": 82,
+     "hikey": 87,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_medium_C5_01.wav"
+    },
+    {
+     "file": "glockenspiel/84_7_0.flac",
+     "key": 84,
+     "lokey": 82,
+     "hikey": 87,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_loud_C5_01.wav"
+    },
+    {
+     "file": "glockenspiel/91_2_0.flac",
+     "key": 91,
+     "lokey": 88,
+     "hikey": 93,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_soft_G5_01.wav"
+    },
+    {
+     "file": "glockenspiel/91_4_0.flac",
+     "key": 91,
+     "lokey": 88,
+     "hikey": 93,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_medium_G5_01.wav"
+    },
+    {
+     "file": "glockenspiel/91_7_0.flac",
+     "key": 91,
+     "lokey": 88,
+     "hikey": 93,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_loud_G5_01.wav"
+    },
+    {
+     "file": "glockenspiel/96_2_0.flac",
+     "key": 96,
+     "lokey": 94,
+     "hikey": 99,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_soft_C6_01.wav"
+    },
+    {
+     "file": "glockenspiel/96_4_0.flac",
+     "key": 96,
+     "lokey": 94,
+     "hikey": 99,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_medium_C6_01.wav"
+    },
+    {
+     "file": "glockenspiel/96_7_0.flac",
+     "key": 96,
+     "lokey": 94,
+     "hikey": 99,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_loud_C6_01.wav"
+    },
+    {
+     "file": "glockenspiel/103_2_0.flac",
+     "key": 103,
+     "lokey": 100,
+     "hikey": 103,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_soft_G6_01.wav"
+    },
+    {
+     "file": "glockenspiel/103_4_0.flac",
+     "key": 103,
+     "lokey": 100,
+     "hikey": 103,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_medium_G6_01.wav"
+    },
+    {
+     "file": "glockenspiel/104_7_0.flac",
+     "key": 104,
+     "lokey": 104,
+     "hikey": 106,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_loud_G#6_01.wav"
+    },
+    {
+     "file": "glockenspiel/108_2_0.flac",
+     "key": 108,
+     "lokey": 106,
+     "hikey": 120,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_soft_C7_03.wav"
+    },
+    {
+     "file": "glockenspiel/108_4_0.flac",
+     "key": 108,
+     "lokey": 106,
+     "hikey": 120,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_medium_C7_01.wav"
+    },
+    {
+     "file": "glockenspiel/108_7_0.flac",
+     "key": 108,
+     "lokey": 106,
+     "hikey": 120,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_loud_C7_01.wav"
+    }
+   ],
+   "gain": 2.9264
+  },
+  "kalimba": {
+   "kind": "pitched",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "kalimba/59_3_0.flac",
+     "key": 59,
+     "lokey": 47,
+     "hikey": 60,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_B2_k8_vl3_rr2.wav"
+    },
+    {
+     "file": "kalimba/61_3_0.flac",
+     "key": 61,
+     "lokey": 60,
+     "hikey": 62,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_C#3_k7_vl3_rr2.wav"
+    },
+    {
+     "file": "kalimba/63_3_0.flac",
+     "key": 63,
+     "lokey": 62,
+     "hikey": 64,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_D#3_k9_vl3_rr2.wav"
+    },
+    {
+     "file": "kalimba/63_3_1.flac",
+     "key": 63,
+     "lokey": 62,
+     "hikey": 64,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_D#3_k6_vl3_rr2.wav"
+    },
+    {
+     "file": "kalimba/66_3_0.flac",
+     "key": 66,
+     "lokey": 65,
+     "hikey": 67,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_F#3_k5_vl3_rr2.wav"
+    },
+    {
+     "file": "kalimba/66_3_1.flac",
+     "key": 66,
+     "lokey": 65,
+     "hikey": 67,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_F#3_k10_vl3_rr2.wav"
+    },
+    {
+     "file": "kalimba/68_3_0.flac",
+     "key": 68,
+     "lokey": 67,
+     "hikey": 69,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_G#3_k4_vl3_rr2.wav"
+    },
+    {
+     "file": "kalimba/68_3_1.flac",
+     "key": 68,
+     "lokey": 67,
+     "hikey": 69,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_G#3_k11_vl3_rr2.wav"
+    },
+    {
+     "file": "kalimba/71_3_0.flac",
+     "key": 71,
+     "lokey": 70,
+     "hikey": 72,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_B3_k3_vl3_rr2.wav"
+    },
+    {
+     "file": "kalimba/71_3_1.flac",
+     "key": 71,
+     "lokey": 70,
+     "hikey": 72,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_B3_k12_vl3_rr2.wav"
+    },
+    {
+     "file": "kalimba/73_3_0.flac",
+     "key": 73,
+     "lokey": 72,
+     "hikey": 74,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_C#4_k2_vl3_rr2.wav"
+    },
+    {
+     "file": "kalimba/75_3_0.flac",
+     "key": 75,
+     "lokey": 74,
+     "hikey": 76,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_D#4_k13_vl3_rr2.wav"
+    },
+    {
+     "file": "kalimba/78_3_0.flac",
+     "key": 78,
+     "lokey": 77,
+     "hikey": 79,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_F#4_k14_vl3_rr2.wav"
+    },
+    {
+     "file": "kalimba/81_3_0.flac",
+     "key": 81,
+     "lokey": 80,
+     "hikey": 82,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_A4_k1_vl3_rr2.wav"
+    },
+    {
+     "file": "kalimba/83_3_0.flac",
+     "key": 83,
+     "lokey": 82,
+     "hikey": 95,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_B4_k15_vl3_rr2.wav"
+    }
+   ],
+   "gain": 1.1173
+  },
+  "clap": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "clap/5_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Claps/Clap_rr1.wav"
+    },
+    {
+     "file": "clap/5_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Idiophones/Struck Idiophones/Claps/Clap_rr2.wav"
+    },
+    {
+     "file": "clap/5_2.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 2,
+     "src": "VCSL/Idiophones/Struck Idiophones/Claps/Clap_rr3.wav"
+    }
+   ],
+   "gain": 0.4304
+  },
+  "hat": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "hat/1_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v1_rr1_Mid.wav"
+    },
+    {
+     "file": "hat/1_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VCSL/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v1_rr2_Mid.wav"
+    },
+    {
+     "file": "hat/3_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v3_rr1_Mid.wav"
+    },
+    {
+     "file": "hat/3_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VCSL/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v3_rr2_Mid.wav"
+    },
+    {
+     "file": "hat/4_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v4_rr1_Mid.wav"
+    },
+    {
+     "file": "hat/4_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v4_rr2_Mid.wav"
+    }
+   ],
+   "gain": 0.1986
+  },
+  "hat_open": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "hat_open/5_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitO_rr1_Mid.wav"
+    },
+    {
+     "file": "hat_open/5_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitO_rr2_Mid.wav"
+    }
+   ],
+   "gain": 0.1425
+  },
+  "shaker": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "shaker/5_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Shaker, Small/Mid_Shaker_Slap_rr1.wav"
+    },
+    {
+     "file": "shaker/5_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Idiophones/Struck Idiophones/Shaker, Small/Mid_Shaker_Slap_rr2.wav"
+    },
+    {
+     "file": "shaker/5_2.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 2,
+     "src": "VCSL/Idiophones/Struck Idiophones/Shaker, Small/Mid_ShakerDouble_Down_rr1.wav"
+    }
+   ],
+   "gain": 3.9495
+  },
+  "tamb": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "tamb/1_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Tambourine 1/Tamb1_Hit_v1_rr1_Mid.wav"
+    },
+    {
+     "file": "tamb/2_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Tambourine 1/Tamb1_Hit_v2_rr1_Mid.wav"
+    }
+   ],
+   "gain": 2.0219
+  },
+  "cowbell": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "cowbell/2_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Cowbells/Cowbell1_Hit_v2_rr1_Mid.wav"
+    },
+    {
+     "file": "cowbell/3_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Cowbells/Cowbell1_Hit_v3_rr1_Mid.wav"
+    },
+    {
+     "file": "cowbell/4_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Cowbells/Cowbell1_Hit_v4_rr1_Mid.wav"
+    }
+   ],
+   "gain": 0.5605
+  },
+  "claves": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "claves/1_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Claves/Claves1_Hit_v1_rr1_Mid.wav"
+    },
+    {
+     "file": "claves/2_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Claves/Claves1_Hit_v2_rr1_Mid.wav"
+    },
+    {
+     "file": "claves/3_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Claves/Claves1_Hit_v3_rr1_Mid.wav"
+    }
+   ],
+   "gain": 2.7592
+  },
+  "wood": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "wood/1_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Woodblock/wood_click_pp_rr1.wav"
+    },
+    {
+     "file": "wood/1_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VCSL/Idiophones/Struck Idiophones/Woodblock/wood_click_pp_rr2.wav"
+    },
+    {
+     "file": "wood/1_2.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 2,
+     "src": "VCSL/Idiophones/Struck Idiophones/Woodblock/wood_click_pp_rr3.wav"
+    },
+    {
+     "file": "wood/6_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Woodblock/wood_click_f_rr1.wav"
+    },
+    {
+     "file": "wood/6_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VCSL/Idiophones/Struck Idiophones/Woodblock/wood_click_f_rr2.wav"
+    },
+    {
+     "file": "wood/8_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Woodblock/wood_click_ff.wav"
+    }
+   ],
+   "gain": 0.8
+  },
+  "bell_hi": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "bell_hi/1_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Agogo Bells/Agogo_High_v1_rr1_Mid.wav"
+    },
+    {
+     "file": "bell_hi/2_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Agogo Bells/Agogo_High_v2_rr1_Mid.wav"
+    },
+    {
+     "file": "bell_hi/3_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Agogo Bells/Agogo_High_v3_rr1_Mid.wav"
+    }
+   ],
+   "gain": 2.1297
+  },
+  "bell_lo": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "bell_lo/1_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 63,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Agogo Bells/Agogo_Low_v1_rr1_Mid.wav"
+    },
+    {
+     "file": "bell_lo/2_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 64,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Agogo Bells/Agogo_Low_v2_rr1_Mid.wav"
+    }
+   ],
+   "gain": 3.0878
+  },
+  "cabasa": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "cabasa/5_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Cabasa/Cabasa1_Hit_rr1_Mid.wav"
+    },
+    {
+     "file": "cabasa/5_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Idiophones/Struck Idiophones/Cabasa/Cabasa1_Hit_rr2_Mid.wav"
+    }
+   ],
+   "gain": 4.9201
+  },
+  "conga_hi": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "conga_hi/1_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Conga_HitN_v1_rr1_Sum.wav"
+    },
+    {
+     "file": "conga_hi/1_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Conga_HitN_v1_rr2_Sum.wav"
+    },
+    {
+     "file": "conga_hi/1_2.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 2,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Quinto_HitN_v1_rr1_Sum.wav"
+    },
+    {
+     "file": "conga_hi/2_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Conga_HitN_v2_rr1_Sum.wav"
+    },
+    {
+     "file": "conga_hi/2_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Conga_HitN_v2_rr2_Sum.wav"
+    },
+    {
+     "file": "conga_hi/2_2.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 2,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Quinto_HitN_v2_rr1_Sum.wav"
+    },
+    {
+     "file": "conga_hi/3_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Conga_HitN_v3_rr1_Sum.wav"
+    },
+    {
+     "file": "conga_hi/3_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Conga_HitN_v3_rr2_Sum.wav"
+    },
+    {
+     "file": "conga_hi/3_2.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 2,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Quinto_HitN_v3_rr1_Sum.wav"
+    }
+   ],
+   "gain": 1.0699
+  },
+  "conga_lo": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "conga_lo/1_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Tumba_HitN_v1_rr1_Sum.wav"
+    },
+    {
+     "file": "conga_lo/1_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Tumba_HitN_v1_rr2_Sum.wav"
+    },
+    {
+     "file": "conga_lo/3_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Tumba_HitN_v3_rr1_Sum.wav"
+    },
+    {
+     "file": "conga_lo/3_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Tumba_HitN_v3_rr2_Sum.wav"
+    },
+    {
+     "file": "conga_lo/3_2.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 2,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Tumba_HitFM_v3_rr1_Sum.wav"
+    },
+    {
+     "file": "conga_lo/4_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Tumba_HitN_v4_rr1_Sum.wav"
+    },
+    {
+     "file": "conga_lo/4_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Tumba_HitN_v4_rr2_Sum.wav"
+    },
+    {
+     "file": "conga_lo/4_2.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 2,
+     "src": "VCSL/Membranophones/Struck Membranophones/Conga/Tumba_HitFM_v4_rr1_Sum.wav"
+    }
+   ],
+   "gain": 1.5695
+  },
+  "bongo_hi": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "bongo_hi/1_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v1_rr1_Mid.wav"
+    },
+    {
+     "file": "bongo_hi/1_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v1_rr2_Mid.wav"
+    },
+    {
+     "file": "bongo_hi/1_2.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 2,
+     "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoH_HitMuted1_v1_rr1_Mid.wav"
+    },
+    {
+     "file": "bongo_hi/2_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v2_rr1_Mid.wav"
+    },
+    {
+     "file": "bongo_hi/2_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v2_rr2_Mid.wav"
+    },
+    {
+     "file": "bongo_hi/2_2.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 2,
+     "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoH_HitMuted1_v2_rr1_Mid.wav"
+    },
+    {
+     "file": "bongo_hi/3_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v3_rr1_Mid.wav"
+    },
+    {
+     "file": "bongo_hi/3_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v3_rr2_Mid.wav"
+    },
+    {
+     "file": "bongo_hi/3_2.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 2,
+     "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoH_HitMuted1_v3_rr1_Mid.wav"
+    }
+   ],
+   "gain": 1.0975
+  },
+  "bongo_lo": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "bongo_lo/1_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v1_rr1_Mid.wav"
+    },
+    {
+     "file": "bongo_lo/1_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v1_rr2_Mid.wav"
+    },
+    {
+     "file": "bongo_lo/2_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v2_rr1_Mid.wav"
+    },
+    {
+     "file": "bongo_lo/2_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v2_rr2_Mid.wav"
+    },
+    {
+     "file": "bongo_lo/3_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v3_rr1_Mid.wav"
+    },
+    {
+     "file": "bongo_lo/3_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v3_rr2_Mid.wav"
+    }
+   ],
+   "gain": 0.4671
+  },
+  "snare": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "snare/2_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Snare Drum, Modern 1/Snare2_HitNS_v2_rr1_Mid.wav"
+    },
+    {
+     "file": "snare/2_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Snare Drum, Modern 1/Snare2_HitNS_v2_rr2_Mid.wav"
+    },
+    {
+     "file": "snare/5_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Snare Drum, Modern 1/Snare2_HitNS_v5_rr1_Mid.wav"
+    },
+    {
+     "file": "snare/5_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Snare Drum, Modern 1/Snare2_HitNS_v5_rr2_Mid.wav"
+    },
+    {
+     "file": "snare/6_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Snare Drum, Modern 1/Snare2_HitNS_v6_rr1_Mid.wav"
+    },
+    {
+     "file": "snare/6_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Snare Drum, Modern 1/Snare2_HitNS_v6_rr2_Mid.wav"
+    }
+   ],
+   "gain": 0.2524
+  },
+  "side_stick": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "side_stick/1_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Snare Drum, Modern 1/Snare2_stick_v1_rr1_Mid.wav"
+    },
+    {
+     "file": "side_stick/1_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Snare Drum, Modern 1/Snare2_stick_v1_rr2_Mid.wav"
+    }
+   ],
+   "gain": 3.9291
+  },
+  "tom_mid": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "tom_mid/1_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Tom 1/Stick/TomH_RollS_v1_rr1_Mid.wav"
+    },
+    {
+     "file": "tom_mid/3_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Tom 1/Stick/TomH_HitS_v3_rr1_Mid.wav"
+    },
+    {
+     "file": "tom_mid/3_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Tom 1/Stick/TomH_HitS_v3_rr2_Mid.wav"
+    },
+    {
+     "file": "tom_mid/4_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Membranophones/Struck Membranophones/Tom 1/Stick/TomH_HitS_v4_rr1_Mid.wav"
+    },
+    {
+     "file": "tom_mid/4_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Membranophones/Struck Membranophones/Tom 1/Stick/TomH_HitS_v4_rr2_Mid.wav"
+    }
+   ],
+   "gain": 0.7664
+  },
+  "crash": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "crash/3_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 41,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_hit_mp1.wav"
+    },
+    {
+     "file": "crash/6_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 42,
+     "hivel": 84,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_hit_f1.wav"
+    },
+    {
+     "file": "crash/9_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 85,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_hit_fff1.wav"
+    }
+   ],
+   "gain": 0.3801
+  },
+  "cymbal_swell": {
+   "kind": "oneshot",
+   "source": "VCSL (CC0)",
+   "regions": [
+    {
+     "file": "cymbal_swell/5_0.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 0,
+     "src": "VCSL/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_cresc_1.5s.wav"
+    },
+    {
+     "file": "cymbal_swell/5_1.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 1,
+     "src": "VCSL/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_cresc_2s.wav"
+    },
+    {
+     "file": "cymbal_swell/5_2.flac",
+     "key": 60,
+     "lokey": 0,
+     "hikey": 127,
+     "lovel": 0,
+     "hivel": 127,
+     "rr": 2,
+     "src": "VCSL/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_cresc_4s.wav"
+    }
+   ],
+   "gain": 0.83
+  }
+ }
+}
