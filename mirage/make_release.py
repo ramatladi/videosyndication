@@ -38,6 +38,8 @@ CHORD_STRICT = 6   # chord loop at most CHORD_MAX alike to each of the last 6 re
 CHORD_MAX = 0.85  # 1.0 = same loop in any key/rotation; common diatonic loops sit at 0.5-0.8
 HOOK_TRIES = 12   # briefs tried for a far-enough hook before refusing
 CELLS_OVERRIDE = None
+# studio = real recorded instruments with the CC0 studio pack (VSCO 2 CE + VCSL) where it has the instrument (Sello, 24 Oct)
+INSTRUMENTS = os.environ.get('MIRAGE_INSTRUMENTS', 'real')   # 'studio' once Sello approves the A/B (24 Oct)
 GEN_CELLS = 40    # extra procedurally generated rhythm cells searched when the style's own cells can't reach HOOK_MIN
 
 
@@ -80,6 +82,9 @@ def chord_sim(a, b):
 
 
 def plan(date):
+    if INSTRUMENTS == 'studio':
+        import studio as ST
+        if not ST.available(): raise SystemExit('studio pack missing: git clone --depth 1 -b samples https://github.com/ramatladi/videosyndication /home/claude/studio_pack')
     L = ledger()['releases']; n = len(L) + 1; rid = f'mtr{n:03d}'
     r = np.random.default_rng(int(dt.date.fromisoformat(date).strftime('%Y%m%d')) * 31 + n)
     recent_styles = [x['style'] for x in L[-(len(MIRAGE_ORDER) - 1):]]
@@ -112,7 +117,7 @@ def plan(date):
                  arc=P['arcs'][int(r.integers(len(P['arcs'])))], swing=round(float(r.uniform(*P['swing'])), 3))
         b = {'engine': 'v2', 'style': style, 'release': rid, 'bpm': bpm, 'tonic': tonic, 'progression': [list(x) for x in prog],
              'mode': mode, 'lead': lead, 'answer': answer, 'groove': {'bass_a': c['ba'], 'bass_b': c['bb'], 'swing': c['swing']},
-             'arc': c['arc'], 'loudness_lufs': P['lufs'], 'seed': seed, 'instruments': 'real'}
+             'arc': c['arc'], 'loudness_lufs': P['lufs'], 'seed': seed, 'instruments': INSTRUMENTS}
         ov = prod_overlap(b)
         pen = (1000 if FAM(li) == FAM(ai) else 0) + (300 if (tonic % 12, mode) in used_keys else 0) \
             + (300 if last_bpm is not None and abs(bpm - last_bpm) <= 1 else 0) \

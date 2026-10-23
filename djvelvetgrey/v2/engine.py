@@ -178,8 +178,9 @@ class TrackV2:
             raise RuntimeError('engine v4 needs the sampled instruments: apt-get install -y fluid-soundfont-gm fluidsynth; pip install pyfluidsynth==1.4.0')
         SM.check_soundfont()                       # fail closed on any other SoundFont build
         self.sampled = True
-        self.real = brief.get('instruments') == 'real'          # recorded instruments only, no synthesis at all
-        self.pal = SM.Palette(brief['seed'], self.style_name, real=self.real)
+        self.studio = brief.get('instruments') == 'studio'      # real mode + the CC0 studio pack (studio.py)
+        self.real = brief.get('instruments') in ('real', 'studio')   # recorded instruments only, no synthesis at all
+        self.pal = SM.Palette(brief['seed'], self.style_name, real=self.real, studio=self.studio)
         v = track_variation(brief['seed'], self.style_name)
         self.voicing = v['voicing']
         cv = COMP_VARIANTS.get(self.P['comp'], [])
@@ -192,7 +193,11 @@ class TrackV2:
         self.feel = v['feel_ms']            # ms: whole-band push (-) / laid-back (+) on hats, perc & comp
         self.prev_voicing = None
         if self.pal: self.meta['palette'] = self.pal.describe()
-        self.meta['instruments'] = 'real (recorded instruments only)' if self.real else 'recorded + synth'
+        self.meta['instruments'] = ('studio (recorded instruments only: CC0 studio pack + FluidR3)' if self.studio else
+                                    'real (recorded instruments only)') if self.real else 'recorded + synth'
+        if self.studio:
+            import studio as _ST
+            self.meta['studio_pack_sha256'] = _ST.pack_sha()
         self.meta.update({'voicing': self.voicing, 'pad_source': self.pad_src, 'feel_ms': self.feel,
                           'comp_variant': v['comp_b'], 'comp_swap': v['comp_swap'], 'hat_variants': v['hat_vars'],
                           'arp_shape': v['arp_shape'], 'bass_variation': v['bass_var'], 'kick_variation': v['kick_var']})
@@ -704,6 +709,12 @@ class TrackV2:
         low = ss.sosfiltfilt(ss.butter(4, 120, 'low', fs=SR, output='sos'), mix, axis=0)
         mix = (mix - low) + low.mean(1, keepdims=True)
         mix = filt(mix, 25, 'high')[:int(self.length * SR)]
+        if self.studio:                                   # studio mode: mastering-bus polish (glue, air, width above 300 Hz)
+            mix = comp(mix, -14, 2.0, .02, .25)
+            mix = mix + .19 * filt(mix, 10000, 'high')    # ~+1.5 dB high shelf ("air")
+            mid = mix.mean(1, keepdims=True); side = (mix[:, :1] - mix[:, 1:]) / 2
+            side = side + .12 * filt(side, 300, 'high')
+            mix = np.concatenate([mid + side, mid - side], 1)
         fade = int(min(8.0, self.length * .1) * SR); mix[-fade:] *= (np.linspace(1, 0, fade) ** 2)[:, None]
         mix[:int(.02 * SR)] *= np.linspace(0, 1, int(.02 * SR))[:, None]
         out, achieved = master(mix, self.lufs)

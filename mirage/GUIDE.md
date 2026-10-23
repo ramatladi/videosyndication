@@ -15,6 +15,11 @@ Instrumental house/disco by **DJ Velvet Purple**, released on the **Mirage Tropi
   Vocal House (instrumental), Soulful, **Indie Dance**, Disco, French House. The three in bold were added 23 Oct (Sello) as
   Mirage-only styles (`EXTRA_STYLES` in djvelvetgrey/v2/styles.py; DJ Velvet Grey's 12-style rotation is unchanged). Each was
   test-built end to end in real-instruments mode and passed QC before going live.
+- **Studio mode (ready, awaiting Sello's A/B approval):** `MIRAGE_INSTRUMENTS=studio` (default flips to studio once approved)
+  plays the CC0 studio pack — Steinway B grand, real string and brass sections, flute, clarinet, tenor sax, harp, pizzicato,
+  upright bass, vibraphone, marimba, xylophone, glockenspiel, kalimba and VCSL hand percussion, hats, claps, snare, cymbals
+  (VSCO 2 CE + VCSL, both CC0) — plus a mastering-bus polish (glue compression, air, width). The pack lives on the repo's
+  `samples` branch: `git clone --depth 1 -b samples https://github.com/ramatladi/videosyndication /home/claude/studio_pack`.
 - **Instrumental only — no vocals.** Every sound is a recorded instrument: djvelvetgrey engine v4 in real-instruments mode
   (`"instruments": "real"`; synth voices are disabled during the render).
 - **Every release different** (enforced by `make_release.py plan` against `ledger.json` + `catalog.json`): style rotation over

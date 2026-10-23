@@ -57,6 +57,31 @@ PRESETS_REAL = dict(PRESETS, **{
     'cymbal_swell': [(0, 119, .3, 0)],                                # Reverse cymbal (a recorded cymbal, reversed)
 })
 
+# "Studio" mode (brief "instruments": "studio"): real mode + the CC0 studio pack (studio.py) wherever it has the
+# instrument. ('lib', instrument, release_s, octave_shift). Kinds without a pack instrument keep their FluidR3 recording.
+PRESETS_STUDIO = dict(PRESETS_REAL, **{
+    'piano':    [('lib', 'piano_steinway', .5, 0)],
+    'strings':  [('lib', 'string_section', .6, 0)],
+    'brass':    [('lib', 'brass_section', .3, 0)],
+    'flute':    [('lib', 'flute', .3, 0), ('lib', 'clarinet', .3, 0)],
+    'marimba':  [('lib', 'marimba', .5, 0), ('lib', 'xylophone', .4, 0)],
+    'kalimba':  [('lib', 'kalimba', .6, 0)],
+    'mallet':   [('lib', 'vibraphone', .8, 0)],
+    'topline':  [('lib', 'tenor_sax', .25, 0), (0, 65, .2, 0)],                    # tenor sax (VCSL), alto sax
+    'pluck':    [('lib', 'harp', .6, 0), ('lib', 'violin_pizz', .3, 0), (0, 24, .6, 0)],
+    'glass':    [('lib', 'glockenspiel', .9, 0), (0, 8, .9, 0), ('lib', 'vibraphone', .8, 0)],
+    'polysynth': [(0, 4, .7, 0), ('lib', 'brass_section', .25, 0), ('lib', 'string_section', .5, 0)],
+    'stab':     [('lib', 'trumpet_stac', .15, 0), ('lib', 'violin_pizz', .2, 0), ('lib', 'piano_steinway', .3, 0)],
+    'rim_synth': [(0, 115, .2, 0), ('lib', 'xylophone', .3, 0)],
+    'bass_real': [(0, 32, .08, 0), (0, 33, .06, 0), (0, 35, .08, 0), (0, 34, .06, 0), ('lib', 'upright_bass', .08, 0)],
+    'cymbal_swell': [('lib', 'cymbal_swell', .3, 0)],
+})
+# engine percussion name -> studio-pack one-shot (the kick stays on the FluidR3 kit recordings)
+STUDIO_DRUMS = {'clap': 'clap', 'hat': 'hat', 'hat_open': 'hat_open', 'shaker': 'shaker', 'tamb': 'tamb', 'cowbell': 'cowbell',
+                'claves': 'claves', 'wood': 'wood', 'wood_lo': 'wood', 'agogo_hi': 'bell_hi', 'agogo_lo': 'bell_lo', 'cabasa': 'cabasa',
+                'conga_hi': 'conga_hi', 'conga_lo': 'conga_lo', 'conga_mute': 'conga_hi', 'bongo_hi': 'bongo_hi', 'bongo_lo': 'bongo_lo',
+                'snare': 'snare', 'snare2': 'snare', 'snare_ac': 'snare', 'side_stick': 'side_stick', 'rim': 'side_stick',
+                'tom_mid': 'tom_mid', 'crash': 'crash', 'crash2': 'crash'}
 
 # GM drum map (channel 10) notes used by the engine's percussion names
 DRUM_NOTES = {'kick': 36, 'rim': 37, 'snare': 38, 'clap': 39, 'snare2': 40, 'hat': 42, 'hat_pedal': 44, 'hat_open': 46,
@@ -182,9 +207,10 @@ def midi_vel(vel):
 
 class Palette:
     """Per-track sound choices, derived from the seed (recorded in the track meta)."""
-    def __init__(self, seed, style, real=False):
+    def __init__(self, seed, style, real=False, studio=False):
         r = np.random.default_rng(int(seed) * 7 + 3)
-        self.real = bool(real); self.table = PRESETS_REAL if real else PRESETS
+        self.studio = bool(studio); real = real or self.studio
+        self.real = bool(real); self.table = PRESETS_STUDIO if self.studio else PRESETS_REAL if real else PRESETS
         self.choice = {k: int(r.integers(len(v))) for k, v in PRESETS.items()}
         drum_pref = {'tech': ['electronic', 'tr808', 'standard'], 'french': ['electronic', 'standard', 'room'],
                      'disco': ['standard', 'room', 'jazz'], 'nudisco': ['standard', 'electronic', 'room'],
@@ -203,6 +229,9 @@ class Palette:
             self.choice = {k: int(rr.integers(len(v))) for k, v in PRESETS_REAL.items()}
             self.kit = int(rr.choice(REAL_KITS)); self.kit_family = 'acoustic'
             self.hats = self.clap = self.perc = 'acoustic'; self.kick_layer = 1.0
+        if self.studio:                                       # studio pack choices (own stream: real-mode choices unchanged)
+            rs = np.random.default_rng(int(seed) * 13 + 5)
+            self.choice = {k: int(rs.integers(len(v))) for k, v in PRESETS_STUDIO.items()}
 
     def preset(self, kind):
         return self.table[kind][self.choice[kind]]
@@ -212,7 +241,8 @@ class Palette:
 
     def describe(self):
         fs, sf = _synth(); T = self.table
-        d = {k: ('synth' if T[k][i] is None else fs.sfpreset_name(sf, T[k][i][0], T[k][i][1])) for k, i in self.choice.items()}
+        name = lambda e: 'synth' if e is None else ('studio:' + e[1]) if e[0] == 'lib' else fs.sfpreset_name(sf, e[0], e[1])
+        d = {k: name(T[k][i]) for k, i in self.choice.items()}
         d.update({'drum_kit': fs.sfpreset_name(sf, 128, self.kit), 'hats': self.hats, 'clap': self.clap, 'perc': self.perc,
                   'kick_layer': self.kick_layer})
         return d
@@ -220,10 +250,16 @@ class Palette:
 
 def note(pal, kind, m, dur, vel=1.0):
     bank, preset, rel, octv = pal.preset(kind)
+    if bank == 'lib':
+        import studio
+        return studio.render(preset, m + octv, dur, midi_vel(vel), rel)
     return render(bank, preset, m + octv, dur, midi_vel(vel), rel)
 
 
 def drum(pal, name, vel=1.0, kit=None, dur=.25):
+    if getattr(pal, 'studio', False) and name in STUDIO_DRUMS:
+        import studio
+        return studio.render(STUDIO_DRUMS[name], 60, dur, midi_vel(vel), .3)
     k = pal.kit if kit is None else kit
     return render(128, k, DRUM_NOTES[name], dur, midi_vel(vel), .35, chan=9)
 
