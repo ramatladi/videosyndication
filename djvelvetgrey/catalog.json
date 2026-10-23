@@ -319,5 +319,122 @@
   "answer": "organ",
   "key": "G dorian",
   "bpm": 124
+ },
+ {
+  "id": "dvg005",
+  "title": "Copper Horizon Drift",
+  "status": "published",
+  "style": "afro",
+  "mode": "minor",
+  "motif": {
+   "intervals": [
+    2,
+    1,
+    4,
+    -4,
+    -1,
+    -2,
+    0
+   ],
+   "onsets": [
+    0,
+    3,
+    6,
+    9,
+    16,
+    19,
+    22,
+    25
+   ],
+   "durs": [
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    7
+   ]
+  },
+  "answer_motif": {
+   "intervals": [
+    -2,
+    0,
+    4,
+    2,
+    1,
+    5
+   ],
+   "onsets": [
+    35,
+    38,
+    41,
+    48,
+    51,
+    54,
+    57
+   ],
+   "durs": [
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    7
+   ]
+  },
+  "bass_b": "afro_roll",
+  "cell": "skip",
+  "contour": "arch",
+  "progression": [
+   [
+    0,
+    "m11"
+   ],
+   [
+    8,
+    "maj9"
+   ],
+   [
+    10,
+    "sus2"
+   ],
+   [
+    0,
+    "m9"
+   ]
+  ],
+  "template": "burn",
+  "bass_a": "afro_sub",
+  "lead": "kalimba",
+  "answer": "flute",
+  "key": "B minor",
+  "bpm": 120,
+  "sound": {
+   "flute": 1,
+   "glass": 2,
+   "rhodes": 0,
+   "strings": 2,
+   "kit": 8,
+   "hats": "synth",
+   "clap": "synth",
+   "perc": "acoustic",
+   "kick_layer": 0.4,
+   "voicing": "close",
+   "comp": [
+    1,
+    true
+   ],
+   "hat_vars": [
+    3,
+    4
+   ],
+   "pad_src": "synth",
+   "arp": 2,
+   "bass_var": "ghost",
+   "kick_var": "none"
+  }
  }
 ]

@@ -2,8 +2,8 @@
 
 Two original instrumental tracks a week by **DJ Velvet Grey** (Tue + Fri, 18:00 America/New_York), each a
 2:59 (179.0 s) vertical video of one credited beach/nature photo featuring a woman in a bikini, with a slow
-zoom, the track title, a live equalizer and the photo credit, published to YouTube (Short) and TikTok through
-Metricool (brand `everythingyouwant_tv`, id 7321327).
+zoom, the track title, a live equalizer and the photo credit, published through Metricool: from dvg005 on, the YouTube Short goes to the
+Mirage Tropical Records channel (Metricool brand 7593699) and TikTok/Instagram to `everythingyouwant_tv` (brand 7321327).
 
 ## The agreed decision (Oct 2026 — Sello, Codex, Claude)
 - **12 styles**, equally represented, from the 1,816 retained house/disco tracks in Sello's library:
