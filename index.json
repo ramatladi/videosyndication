@@ -227,7 +227,7 @@
      "src": "VSCO-2-CE/Strings/Violin Section/susVib/VlnEns_susVib_G4_v2.wav"
     }
    ],
-   "gain": 0.601
+   "gain": 2.5176
   },
   "violas": {
    "kind": "pitched",
@@ -494,7 +494,7 @@
      "src": "VSCO-2-CE/Strings/Viola Section/susvib/ViolaEns_susvib_G4_v2_1.wav"
     }
    ],
-   "gain": 0.4074
+   "gain": 1.5246
   },
   "celli": {
    "kind": "pitched",
@@ -651,7 +651,7 @@
      "src": "VSCO-2-CE/Strings/Cello Section/susvib/susvib_G3_v3_1.wav"
     }
    ],
-   "gain": 0.175
+   "gain": 0.2534
   },
   "violin_pizz": {
    "kind": "pitched",
@@ -1098,7 +1098,7 @@
      "src": "VSCO-2-CE/Strings/Violin Section/Pizz/VlnEns_Pizz_G4_v2_rr2.wav"
     }
    ],
-   "gain": 0.5497
+   "gain": 1.4453
   },
   "upright_bass": {
    "kind": "pitched",
@@ -1505,7 +1505,7 @@
      "src": "VSCO-2-CE/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_G0_v3_rr2.wav"
     }
    ],
-   "gain": 4.3644
+   "gain": 8.055
   },
   "harp": {
    "kind": "pitched",
@@ -1742,7 +1742,7 @@
      "src": "VSCO-2-CE/Strings/Harp/KSHarp_F7_f.wav"
     }
    ],
-   "gain": 1.6496
+   "gain": 3.0023
   },
   "trumpet": {
    "kind": "pitched",
@@ -1949,7 +1949,7 @@
      "src": "VSCO-2-CE/Brass/Trumpet/sus/Sum_SHTrumpet_sus_G3_v3_rr1.wav"
     }
    ],
-   "gain": 0.2041
+   "gain": 0.5763
   },
   "trumpet_stac": {
    "kind": "pitched",
@@ -2616,7 +2616,7 @@
      "src": "VSCO-2-CE/Brass/Trumpet/stac/Sum_SHTrumpet_stac_G3_v3_rr2.wav"
     }
    ],
-   "gain": 1.0911
+   "gain": 4.2591
   },
   "horn": {
    "kind": "pitched",
@@ -2723,7 +2723,7 @@
      "src": "VSCO-2-CE/Brass/F Horn/sus/MOHorn_sus_D2_v4_1.wav"
     }
    ],
-   "gain": 0.5389
+   "gain": 1.9451
   },
   "trombone": {
    "kind": "pitched",
@@ -3000,7 +3000,7 @@
      "src": "VSCO-2-CE/Brass/Tenor Trombone/sus/tenortbn_sus_F3_v3_1.wav"
     }
    ],
-   "gain": 4.6619
+   "gain": 9.8711
   },
   "flute": {
    "kind": "pitched",
@@ -3137,7 +3137,7 @@
      "src": "VSCO-2-CE/Woodwinds/Flute/susvib/LDFlute_susvib_E5_v1_2.wav"
     }
    ],
-   "gain": 1.5113
+   "gain": 1.6209
   },
   "clarinet": {
    "kind": "pitched",
@@ -3474,7 +3474,7 @@
      "src": "VSCO-2-CE/Woodwinds/Clarinet/susLong/DCClar_susLong_F4_v3_rr1_sum.wav"
     }
    ],
-   "gain": 0.8215
+   "gain": 1.1167
   },
   "piano_steinway": {
    "kind": "pitched",
@@ -4741,7 +4741,7 @@
      "src": "VCSL/Chordophones/Zithers/Grand Piano, Steinway B/NoSus/JHPiano_NoSus_Close_G#7_vl4_rr1.wav"
     }
    ],
-   "gain": 0.1015
+   "gain": 0.1173
   },
   "tenor_sax": {
    "kind": "pitched",
@@ -4938,7 +4938,7 @@
      "src": "VCSL/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_D5_var3.wav"
     }
    ],
-   "gain": 2.0821
+   "gain": 2.6133
   },
   "vibraphone": {
    "kind": "pitched",
@@ -5165,7 +5165,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_E5_v3_rr1_Main.wav"
     }
    ],
-   "gain": 0.4012
+   "gain": 0.53
   },
   "marimba": {
    "kind": "pitched",
@@ -5472,7 +5472,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C6_loud_01.wav"
     }
    ],
-   "gain": 1.9287
+   "gain": 7.5287
   },
   "xylophone": {
    "kind": "pitched",
@@ -5639,7 +5639,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C7_ff_01_far.wav"
     }
    ],
-   "gain": 0.227
+   "gain": 0.2884
   },
   "glockenspiel": {
    "kind": "pitched",
@@ -5826,7 +5826,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Glockenspiel/glock_loud_C7_01.wav"
     }
    ],
-   "gain": 2.9264
+   "gain": 4.9615
   },
   "kalimba": {
    "kind": "pitched",
@@ -5983,7 +5983,7 @@
      "src": "VCSL/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_B4_k15_vl3_rr2.wav"
     }
    ],
-   "gain": 1.1173
+   "gain": 1.3166
   },
   "clap": {
    "kind": "oneshot",
@@ -6020,7 +6020,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Claps/Clap_rr3.wav"
     }
    ],
-   "gain": 0.4304
+   "gain": 0.4817
   },
   "hat": {
    "kind": "oneshot",
@@ -6087,7 +6087,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v4_rr2_Mid.wav"
     }
    ],
-   "gain": 0.1986
+   "gain": 0.5438
   },
   "hat_open": {
    "kind": "oneshot",
@@ -6114,7 +6114,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitO_rr2_Mid.wav"
     }
    ],
-   "gain": 0.1425
+   "gain": 0.1772
   },
   "shaker": {
    "kind": "oneshot",
@@ -6151,7 +6151,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Shaker, Small/Mid_ShakerDouble_Down_rr1.wav"
     }
    ],
-   "gain": 3.9495
+   "gain": 4.4904
   },
   "tamb": {
    "kind": "oneshot",
@@ -6178,7 +6178,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Tambourine 1/Tamb1_Hit_v2_rr1_Mid.wav"
     }
    ],
-   "gain": 2.0219
+   "gain": 3.2338
   },
   "cowbell": {
    "kind": "oneshot",
@@ -6215,7 +6215,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Cowbells/Cowbell1_Hit_v4_rr1_Mid.wav"
     }
    ],
-   "gain": 0.5605
+   "gain": 1.8307
   },
   "claves": {
    "kind": "oneshot",
@@ -6252,7 +6252,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Claves/Claves1_Hit_v3_rr1_Mid.wav"
     }
    ],
-   "gain": 2.7592
+   "gain": 5.9998
   },
   "wood": {
    "kind": "oneshot",
@@ -6319,7 +6319,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Woodblock/wood_click_ff.wav"
     }
    ],
-   "gain": 0.8
+   "gain": 1.9832
   },
   "bell_hi": {
    "kind": "oneshot",
@@ -6356,7 +6356,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Agogo Bells/Agogo_High_v3_rr1_Mid.wav"
     }
    ],
-   "gain": 2.1297
+   "gain": 5.0786
   },
   "bell_lo": {
    "kind": "oneshot",
@@ -6383,7 +6383,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Agogo Bells/Agogo_Low_v2_rr1_Mid.wav"
     }
    ],
-   "gain": 3.0878
+   "gain": 5.0418
   },
   "cabasa": {
    "kind": "oneshot",
@@ -6410,7 +6410,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Cabasa/Cabasa1_Hit_rr2_Mid.wav"
     }
    ],
-   "gain": 4.9201
+   "gain": 5.381
   },
   "conga_hi": {
    "kind": "oneshot",
@@ -6507,7 +6507,7 @@
      "src": "VCSL/Membranophones/Struck Membranophones/Conga/Quinto_HitN_v3_rr1_Sum.wav"
     }
    ],
-   "gain": 1.0699
+   "gain": 1.7035
   },
   "conga_lo": {
    "kind": "oneshot",
@@ -6594,7 +6594,7 @@
      "src": "VCSL/Membranophones/Struck Membranophones/Conga/Tumba_HitFM_v4_rr1_Sum.wav"
     }
    ],
-   "gain": 1.5695
+   "gain": 2.6617
   },
   "bongo_hi": {
    "kind": "oneshot",
@@ -6691,7 +6691,7 @@
      "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoH_HitMuted1_v3_rr1_Mid.wav"
     }
    ],
-   "gain": 1.0975
+   "gain": 2.3914
   },
   "bongo_lo": {
    "kind": "oneshot",
@@ -6758,7 +6758,7 @@
      "src": "VCSL/Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v3_rr2_Mid.wav"
     }
    ],
-   "gain": 0.4671
+   "gain": 1.4845
   },
   "snare": {
    "kind": "oneshot",
@@ -6825,7 +6825,7 @@
      "src": "VCSL/Membranophones/Struck Membranophones/Snare Drum, Modern 1/Snare2_HitNS_v6_rr2_Mid.wav"
     }
    ],
-   "gain": 0.2524
+   "gain": 0.3248
   },
   "side_stick": {
    "kind": "oneshot",
@@ -6852,7 +6852,7 @@
      "src": "VCSL/Membranophones/Struck Membranophones/Snare Drum, Modern 1/Snare2_stick_v1_rr2_Mid.wav"
     }
    ],
-   "gain": 3.9291
+   "gain": 3.9608
   },
   "tom_mid": {
    "kind": "oneshot",
@@ -6909,7 +6909,7 @@
      "src": "VCSL/Membranophones/Struck Membranophones/Tom 1/Stick/TomH_HitS_v4_rr2_Mid.wav"
     }
    ],
-   "gain": 0.7664
+   "gain": 1.3209
   },
   "crash": {
    "kind": "oneshot",
@@ -6946,7 +6946,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_hit_fff1.wav"
     }
    ],
-   "gain": 0.3801
+   "gain": 0.8939
   },
   "cymbal_swell": {
    "kind": "oneshot",
@@ -6983,7 +6983,7 @@
      "src": "VCSL/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_cresc_4s.wav"
     }
    ],
-   "gain": 0.83
+   "gain": 0.9351
   }
  }
 }
