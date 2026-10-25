@@ -1,0 +1,464 @@
+{
+ "engine": "cast",
+ "id": 32,
+ "slug": "day-in-the-life-of-the-microwave-clock",
+ "title": "Day In The Life Of The Microwave Clock",
+ "trend": "TikTok 'Reali-Tea' unfiltered day-in-the-life mini vlog (sozee week-of-Oct-17 TikTok list) + 'Daylight Saving Time' rising on Google Trends US (clocks fall back Sunday Nov 1, 2026). Tasha vlogs a day in her kitchen the week before the clocks fall back; Grandpa Walt trusts only the microwave clock, which nobody has changed since last November, so next Sunday it becomes right on its own",
+ "target_seconds": 180,
+ "length_reason": "Day-in-the-life mini vlogs are quick one-clip videos that run under a minute, so it stays at the low end (3:00), which also fits Instagram's Reels limit.",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "a day in the life",
+  "of our kitchen microwave",
+  "one week before we fall back"
+ ],
+ "youtube_title": "A day in the life of our microwave clock (one week before the clocks fall back) ⏰",
+ "description": "Grandpa Walt only trusts the microwave clock. Tasha tries to fix it before the clocks fall back, the phone keeps updating itself, and somebody makes popcorn for two hours.\n\n#cartoon #animation #funny #comedy #daylightsaving",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "daylight saving time",
+  "fall back",
+  "microwave clock",
+  "grandpa",
+  "family comedy"
+ ],
+ "tiktok_caption": "a day in the life of our microwave clock, one week before we fall back ⏰ #cartoon #animation #funny #comedy #daylightsaving",
+ "cast": [
+  {
+   "id": "tasha",
+   "name": "Tasha",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#f4c430",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ffffff",
+   "accessories": [
+    "mic_headset"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f7dc6f",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "walt",
+   "name": "Grandpa Walt",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "bald",
+    "color": "#bdc3c7"
+   },
+   "top": {
+    "color": "#7d5a3c",
+    "pattern": "stripes",
+    "pattern_color": "#d5b895"
+   },
+   "bottom": "#5d6d7e",
+   "shoes": "#4a2f1b",
+   "accessories": [
+    "glasses",
+    "cap:#c0392b"
+   ],
+   "eye": "sleepy",
+   "brows": "angry",
+   "mouth": "frown",
+   "label_color": "#e59866",
+   "scale": 1.05,
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "micro",
+   "name": "The Microwave",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#bfc9ca",
+   "scale": 1.1,
+   "accessories": [
+    "tie:#2c3e50"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#d5dbdb",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.9
+   }
+  },
+  {
+   "id": "phone",
+   "name": "The Phone",
+   "kind": "mascot",
+   "shape": "phone",
+   "color": "#2c3e50",
+   "case": "#ff6fa8",
+   "scale": 0.9,
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#ff8fbf",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 1,
+    "tempo": 1.08
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "tasha",
+   "text": "Hi, it's Tasha. A day in our kitchen, one week before the clocks fall back.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "micro",
+   "text": "Good morning. It is six thirty.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tasha",
+   "text": "It is seven thirty.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "micro",
+   "text": "Agree to disagree.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "walt",
+   "text": "Don't argue with him. That microwave has been in this family since the nineties.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "tasha",
+   "text": "Grandpa, it has been wrong since March.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "walt",
+   "text": "It's not wrong. It's on its own time. Like me.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "phone",
+   "text": "Morning. I am always right. I update myself.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "micro",
+   "text": "He updates himself at three in the morning, then asks for your password at breakfast.",
+   "shot": "CU"
+  },
+  {
+   "spk": "phone",
+   "text": "Security is a lifestyle.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tasha",
+   "text": "Okay. The plan this week is simple. We fix the microwave clock.",
+   "shot": "W",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walt",
+   "text": "Absolutely not.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "walt",
+   "text": "Last time somebody touched that clock, we ate soup at midnight for a month.",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "tasha",
+   "text": "Step one. Find the manual.",
+   "shot": "W"
+  },
+  {
+   "spk": "micro",
+   "text": "The manual went in the drawer in two thousand four.",
+   "shot": "CU"
+  },
+  {
+   "spk": "walt",
+   "text": "The drawer with rubber bands, soy sauce and one mystery key.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "micro",
+   "text": "Press clock. Hold stop for three seconds. Then whisper my name.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tasha",
+   "text": "What is your name?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "micro",
+   "text": "Nobody has ever asked.",
+   "shot": "CU",
+   "after": "sting",
+   "pre": 0.8
+  },
+  {
+   "spk": "walt",
+   "text": "Let me do it. I have big fingers and no patience.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "walt",
+   "text": "Clock. Stop. Hold. Okay. Now it says popcorn.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "micro",
+   "text": "We are making popcorn now. For two hours.",
+   "shot": "CU",
+   "after": "ding"
+  },
+  {
+   "spk": "tasha",
+   "text": "Grandpa!",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "walt",
+   "text": "It smells like progress.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tasha",
+   "text": "Okay, tonight is the big game. The watch party starts at eight.",
+   "shot": "W",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walt",
+   "text": "Eight by which clock?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "tasha",
+   "text": "The real clock.",
+   "shot": "CU"
+  },
+  {
+   "spk": "walt",
+   "text": "The real clock is the microwave.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "micro",
+   "text": "By my count it is six o'clock. Plenty of time.",
+   "shot": "CU"
+  },
+  {
+   "spk": "walt",
+   "text": "Then I'm taking a nap first.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tasha",
+   "text": "Grandpa, it is seven. If you nap, you miss the first pitch.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "walt",
+   "text": "Chips! Dip! Lucky socks! Front row of my own couch!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "whoosh",
+   "jump": true
+  },
+  {
+   "spk": "micro",
+   "text": "On Tuesday he fell in the couch cushions and thought he was in Ohio.",
+   "shot": "CU"
+  },
+  {
+   "spk": "phone",
+   "text": "It was dark. It was warm. There were crackers.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "tasha",
+   "text": "Fine. Last idea. I unplug him and plug him back in.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "micro",
+   "text": "If you unplug me, I blink twelve o'clock forever.",
+   "shot": "CU"
+  },
+  {
+   "spk": "walt",
+   "text": "The blinking twelve. My father had the blinking twelve. He blinked back.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tasha",
+   "text": "Why do you two love this clock so much?",
+   "shot": "W",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "micro",
+   "text": "Because nobody has changed me since last November.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "micro",
+   "text": "Next Sunday, everyone falls back one hour. Me? I never left.",
+   "shot": "CU"
+  },
+  {
+   "spk": "micro",
+   "text": "And for the first time all year, I will be exactly right.",
+   "shot": "W",
+   "after": "sting"
+  },
+  {
+   "spk": "tasha",
+   "text": "Wait. You were never wrong. You were just early.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "micro",
+   "text": "I did not change. The world comes back to me.",
+   "shot": "CU"
+  },
+  {
+   "spk": "walt",
+   "text": "That's my boy.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "phone",
+   "text": "So I change myself twice a year for nothing?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "micro",
+   "text": "You change yourself every time somebody posts a sunset.",
+   "shot": "CU"
+  },
+  {
+   "spk": "walt",
+   "text": "I haven't changed my watch since nineteen eighty one. I'm right twice a year too.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tasha",
+   "text": "So this whole week was pointless.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "walt",
+   "text": "No. We made two hours of popcorn.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tasha",
+   "text": "Okay, that's our day in the life. Any final words?",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "phone",
+   "text": "I'm setting a reminder for March.",
+   "shot": "CU"
+  },
+  {
+   "spk": "micro",
+   "text": "In March, I go back to being wrong. With dignity.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "walt",
+   "text": "See you in March, old friend.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "micro",
+   "text": "Goodnight. It is eight o'clock.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tasha",
+   "text": "It's nine.",
+   "shot": "tasha",
+   "gesture": "cross",
+   "pre": 0.8
+  },
+  {
+   "spk": "micro",
+   "text": "Next Sunday.",
+   "shot": "CU",
+   "after": "applause"
+  }
+ ]
+}
