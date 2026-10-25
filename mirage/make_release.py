@@ -11,6 +11,8 @@ Music: djvelvetgrey engine v4 in real-instruments mode (every sound a recorded i
   - chord loop at most 0.85 alike (any key, any rotation; 1.0 = same loop) to each release of the last day (6); the last 30 weigh in;
   - production (progression, arc, both basslines, lead) never identical in all 5 choices to an earlier release of the style;
   - lead and answer instrument families avoided if used as lead/answer in the last 2 releases (weighted);
+  - taste: each release follows the tempo and key colour of one reference song from Sello's library (mirage/taste/refs.json,
+    public metadata only; not reused within 90 releases) - melodies stay original;
   - hook melody: every rhythm cell x contour x start note of the style is realised exactly as rendered; the one furthest
     from every earlier release is used, and it must be at least 0.25 away (near-copies are < 0.18).
 build renders, exports (codec headroom), runs the blocking QC (qc.py, exit 0 required) and makes the 16:9 video.
@@ -22,7 +24,12 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 V2 = os.path.join(ROOT, 'djvelvetgrey', 'v2'); sys.path.insert(0, V2)
 os.environ.setdefault('DVG_CATALOG', os.path.join(HERE, 'catalog.json'))
 import styles as S, compose as C, engine as E, sampler as SM, make_track as MT  # noqa: E402
-S.STYLES.update(getattr(S, 'EXTRA_STYLES', {}))   # Mirage-only styles (trance)
+S.STYLES.update(getattr(S, 'EXTRA_STYLES', {}))   # Mirage-only styles (trance, future bass, indie dance)
+# Mirage-only: melodic house may be major too - about half of the melodic references in Sello's library are major keys
+S.STYLES['melodic'] = dict(S.STYLES['melodic'], modes=S.STYLES['melodic']['modes'] + ['major'],
+                           progressions=S.STYLES['melodic']['progressions'] + [[(0, 'maj7'), (7, 'add9'), (9, 'm7'), (5, 'maj9')],
+                                                                               [(5, 'maj9'), (0, 'add9'), (7, 'sus2'), (9, 'm9')]])
+REFS_FILE = os.path.join(HERE, 'taste', 'refs.json')
 MIRAGE_ORDER = ['deep', 'melodic', 'house', 'afro', 'tropical', 'futurebass', 'nudisco', 'progressive', 'tech', 'trance', 'vocal', 'soulful',
                 'indiedance', 'disco', 'french']   # DJ Velvet Grey's 12 + trance + future bass + indie dance (Sello, 23 Oct)
 assert set(MIRAGE_ORDER) == set(S.STYLES), set(S.STYLES) ^ set(MIRAGE_ORDER)
@@ -108,11 +115,21 @@ def plan(date):
         g = b['groove']; feats = {'progression': b['progression'], 'template': b['arc'], 'bass_a': g['bass_a'], 'bass_b': g['bass_b'],
                                   'lead': b['lead']}
         return max([sum(1 for k, v in feats.items() if e.get(k) == v) for e in cat if e.get('style') == b['style']] or [0])
+    ref = None
+    try:
+        refs = [x for x in json.load(open(REFS_FILE))['refs'] if x['style'] == style]
+        used = {(x.get('reference') or {}).get('title', '').lower() + '|' + (x.get('reference') or {}).get('artist', '').lower() for x in L[-90:]}
+        refs = [x for x in refs if (x['title'].lower() + '|' + x['artist'].lower()) not in used]
+        if refs: ref = refs[int(r.integers(len(refs)))]
+    except FileNotFoundError:
+        pass
     pool = []
     for it in range(3000):
-        if it >= 300 and sum(1 for x in pool if x[0] == 0) >= HOOK_TRIES: break
+        if it >= 300 and sum(1 for x in pool if x[0] == 0) >= HOOK_TRIES: break       # (x[0] = penalty + reference distance)
         prog = P['progressions'][int(r.integers(len(P['progressions'])))]; mode = C.best_mode(prog, P['modes'])
         tonic = int(r.integers(54, 66)); bpm = int(r.integers(P['bpm'][0], P['bpm'][1] + 1))   # tonic: all 12 keys (was 8)
+        if ref and r.random() < .7: tonic = 54 + (ref['tonic_pc'] - 54) % 12                  # the reference's key...
+        if ref and r.random() < .7: bpm = int(np.clip(ref['bpm'] + int(r.integers(-1, 2)), *P['bpm']))   # ...and tempo
         lead = P['leads'][int(r.integers(len(P['leads'])))]; ans = [a for a in P['answers'] if a != lead]; answer = ans[int(r.integers(len(ans)))]
         seed = int(r.integers(100000, 999999)); d = SM.Palette(seed, style, real=True).describe()
         li, ai = d.get(lead, lead), d.get(answer, answer)
@@ -129,7 +146,9 @@ def plan(date):
             + sum(400 for q in strict_pcs if chord_sim(pcs, q) > CHORD_MAX) + min(120, sum(20 for q in soft_pcs if chord_sim(pcs, q) > .75)) \
             + (1000 if ov >= 5 else 100 if ov == 4 else 10 * ov) \
             + (100 if FAM(li) in recent_fams else 0) + (50 if FAM(ai) in recent_fams else 0)
-        if pen < 300: pool.append((pen, len(pool), c, b))
+        refpen = ((40 if tonic % 12 != ref['tonic_pc'] else 0) + (40 if (mode == 'major') != (ref['mode'] == 'major') else 0)
+                  + (30 if abs(bpm - ref['bpm']) > 2 else 0)) if ref else 0     # closeness to the reference: ranking only
+        if pen < 300: pool.append((pen + refpen, len(pool), c, b))
     if not pool: raise SystemExit('could not find a release different enough from the ledger')
     pool.sort(key=lambda x: (x[0], x[1]))
     motifs = [e['motif'] for e in cat]
@@ -163,7 +182,8 @@ def plan(date):
     pen, c, b, pick = chosen
     b['motif'] = {'cell': pick['cell'], 'contour': pick['contour'], 'start': pick['start'], 'candidate': 'search', 'distance': pick['distance'],
                   'selected_by': 'automatic, screened against every earlier release - not a listening judgement'}
-    p = {'release': rid, 'date': date, 'style': style, 'label': P['label'], 'key': C.key_name(c['tonic'], c['mode']), 'bpm': c['bpm'],
+    p = {'reference': {k: ref[k] for k in ('artist', 'title', 'bpm', 'tonic_pc', 'mode', 'genre', 'source')} if ref else None,
+         'release': rid, 'date': date, 'style': style, 'label': P['label'], 'key': C.key_name(c['tonic'], c['mode']), 'bpm': c['bpm'],
          'lead': c['li'], 'answer': c['ai'], 'mood': P['mood'], 'photo_brief': P['photo'], 'penalty': pen, 'brief': b,
          'chord_pcs': [sorted(x) for x in c['pcs']]}
     json.dump(p, open(os.path.join(OUT, rid + '.plan.json'), 'w'), indent=1)
@@ -210,7 +230,7 @@ def record(a):
     L['releases'].append({'release': a.release, 'date': a.date, 'slot': a.slot, 'format': p.get('format', a.format), 'title': p['title'], 'style': p['style'], 'tonic': b['tonic'], 'mode': b['mode'],
                           'key': p['key'], 'bpm': b['bpm'], 'lead': p['lead'], 'answer': p['answer'], 'lead_family': lead_fam, 'answer_family': ans_fam,
                           'chord_pcs': p['chord_pcs'], 'photographer': p['photographer'], 'photo_page': p['photo_page'], 'photo_kind': getattr(a, 'photo_kind', None) or 'bikini',
-                          'metricool_uuid': a.uuid, 'media_url': a.media})
+                          'metricool_uuid': a.uuid, 'media_url': a.media, 'reference': p.get('reference')})
     json.dump(L, open(LEDGER, 'w'), indent=1)
     C.add_to_catalog({'id': a.release, 'title': p['title'], 'status': 'published', 'style': p['style'], 'mode': b['mode'],
                       'motif': C.motif_repr(hook['call']), 'progression': b['progression'], 'template': b['arc'], 'lead': b['lead'],
