@@ -1,0 +1,477 @@
+{
+ "engine": "cast",
+ "id": 33,
+ "slug": "things-you-should-definitely-ghost",
+ "title": "Things You Should Definitely Ghost",
+ "trend": "TikTok + Instagram Reels Halloween 'Things You Should Definitely Ghost' (a costumed ghost in a white sheet and sunglasses holds up signs naming habits to dismiss) combined with the 'Ghost Photoshoot' sheet-and-sunglasses group photo format (New Engen 2026 Halloween TikTok & Reels trends list; peak the final week before Halloween). Tre shoots a park ghost photoshoot for his friends; the tall ghost holding signs about pigeons turns out to be Douglas, a stranger who was napping on the bench under a sheet, while the real Mike is at the wrong park in someone else's family photo",
+ "target_seconds": 180,
+ "length_reason": "Ghost sign and photoshoot posts are quick one-clip videos or carousels that run well under a minute, so it stays at the low end (3:00), which also fits Instagram's Reels limit.",
+ "scene": "park_day",
+ "desk": false,
+ "music": "spooky",
+ "intro": [
+  "things you should",
+  "definitely ghost",
+  "group photoshoot edition"
+ ],
+ "youtube_title": "Things you should definitely ghost (our group ghost photoshoot went wrong) 👻",
+ "description": "Tre sets up a ghost photoshoot in the park. Lacey has signs about him, the tall ghost has signs about pigeons, and the bunny wants everybody off her bush. Then Mike calls.\n\n#cartoon #animation #funny #comedy #halloween",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "halloween",
+  "ghost",
+  "photoshoot",
+  "friends",
+  "halloween comedy"
+ ],
+ "tiktok_caption": "things you should definitely ghost, group photoshoot edition 👻 #cartoon #animation #funny #comedy #halloween",
+ "cast": [
+  {
+   "id": "tre",
+   "name": "Tre",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "short",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ffffff",
+   "accessories": [
+    "cap:#2e86c1",
+    "headphones:#2c3e50"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f5b041",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "lacey",
+   "name": "Lacey",
+   "kind": "mascot",
+   "shape": "ghost",
+   "color": "#fdfefe",
+   "accessories": [
+    "sunglasses",
+    "bow:#e84393"
+   ],
+   "blush": true,
+   "mouth": "smile",
+   "label_color": "#f1948a",
+   "voice": {
+    "id": "af_river",
+    "pitch": 1,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "douglas",
+   "name": "The Tall Ghost",
+   "kind": "mascot",
+   "shape": "ghost",
+   "color": "#ecf0f1",
+   "scale": 1.12,
+   "accessories": [
+    "sunglasses",
+    "cap:#c0392b"
+   ],
+   "mouth": "flat",
+   "eye": "sleepy",
+   "label_color": "#aed6f1",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.93
+   }
+  },
+  {
+   "id": "marjorie",
+   "name": "Marjorie",
+   "kind": "animal",
+   "ears": "bunny",
+   "color": "#c8ad91",
+   "belly": "#f5ebe0",
+   "inner": "#f5b7b1",
+   "scale": 0.88,
+   "top": {
+    "color": "#7d3c98",
+    "pattern": "plain"
+   },
+   "accessories": [
+    "scarf:#f4d03f",
+    "glasses"
+   ],
+   "brows": "angry",
+   "mouth": "frown",
+   "eye": "round",
+   "label_color": "#bb8fce",
+   "voice": {
+    "id": "bf_alice",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "tre",
+   "text": "Okay, ghost photoshoot. Sheets on, sunglasses on, hold up your signs.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "lacey",
+   "text": "Things you should definitely ghost. Number one. People who say we should hang out, and never hang out.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tre",
+   "text": "Love it. Very spooky. Very true.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "douglas",
+   "text": "Number one. Pigeons.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "tre",
+   "text": "Just pigeons?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "douglas",
+   "text": "All of them. They know what they did.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "rimshot"
+  },
+  {
+   "spk": "marjorie",
+   "text": "Excuse me. You are standing on my bush.",
+   "shot": "marjorie",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tre",
+   "text": "Sorry, who said that?",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "marjorie",
+   "text": "The bunny. In the bush. Which is my house. Which you are sitting on.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lacey",
+   "text": "Oh my gosh, she's so cute. Can she be in the photo?",
+   "shot": "CU",
+   "gesture": "jump"
+  },
+  {
+   "spk": "marjorie",
+   "text": "I charge by the ear.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tre",
+   "text": "Fine. Next sign. Lacey, go.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "lacey",
+   "text": "Number two. People who reply with just the letter k.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tre",
+   "text": "Who even does that?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "lacey",
+   "text": "You. Every time. I sent you a birthday cake picture. You said k.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tre",
+   "text": "It was a nice k. It had feelings.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "douglas",
+   "text": "Number two. The hot dog man by the fountain.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "tre",
+   "text": "Mike, what did the hot dog man do?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "douglas",
+   "text": "He said, have a nice day. He did not mean it.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "sting"
+  },
+  {
+   "spk": "tre",
+   "text": "Also, Mike, since when are you British?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "douglas",
+   "text": "Since the sheet. It is an old sheet. It has been abroad.",
+   "shot": "CU"
+  },
+  {
+   "spk": "marjorie",
+   "text": "I have lived here nine years. That is not Mike's walk.",
+   "shot": "marjorie",
+   "gesture": "think"
+  },
+  {
+   "spk": "tre",
+   "text": "Mike walks like that when he's hungry.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "marjorie",
+   "text": "Mike walks like a shopping cart. This one glides.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lacey",
+   "text": "Okay, number three. And this one is personal.",
+   "shot": "CU",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "tre",
+   "text": "Uh oh.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "lacey",
+   "text": "Photographers who charge their own friends twenty dollars.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tre",
+   "text": "That's the friends and family rate. Strangers pay twenty five.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "lacey",
+   "text": "Photographers who say one more, forty times.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tre",
+   "text": "Art takes forty tries. Sometimes fifty.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "douglas",
+   "text": "Number three. Photographers in hats indoors.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "tre",
+   "text": "We're outside, Mike.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "douglas",
+   "text": "In my heart, it is indoors.",
+   "shot": "CU"
+  },
+  {
+   "spk": "marjorie",
+   "text": "Number four. Teenagers who feed the ducks bread. The ducks are on a diet.",
+   "shot": "marjorie",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tre",
+   "text": "Okay, why does everybody have a sign but the bunny is just yelling?",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "marjorie",
+   "text": "I have a sign. It is the bush. It says keep off. You are on it.",
+   "shot": "CU",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "tre",
+   "text": "Okay, okay. Big group photo. Everybody lean in.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "lacey",
+   "text": "Wait. Tre. Your phone keeps buzzing.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "tre",
+   "text": "It's Mike.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "lacey",
+   "text": "Mike is right here.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "tre",
+   "text": "Mike says, where are you guys, I'm at Riverside Park in my sheet.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "tre",
+   "text": "He says a family just took him in. They gave him a juice box.",
+   "shot": "CU"
+  },
+  {
+   "spk": [
+    "tre",
+    "lacey"
+   ],
+   "text": "Then who is that?",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "douglas",
+   "text": "Hello. I am Douglas.",
+   "shot": "CU",
+   "gesture": "wave",
+   "pre": 0.8
+  },
+  {
+   "spk": "douglas",
+   "text": "I was napping on that bench under my sheet. You said, smile. So I smiled.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lacey",
+   "text": "You've been doing the signs for ten minutes!",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "douglas",
+   "text": "You handed me a marker. I have a lot of feelings about pigeons.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marjorie",
+   "text": "I said it was not Mike. Nobody listens to the bunny.",
+   "shot": "marjorie",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tre",
+   "text": "Mike just sent their photo. He's holding a sign.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "tre",
+   "text": "It says, things you should definitely ghost. My old friends.",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "lacey",
+   "text": "He's in their family photo now?",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "douglas",
+   "text": "And I am in yours. It is an exchange program.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tre",
+   "text": "Fine. Douglas, you're in. Twenty dollars.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "douglas",
+   "text": "Strangers pay twenty five. I heard you.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tre",
+   "text": "Everybody say boo.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": [
+    "lacey",
+    "douglas"
+   ],
+   "text": "Boo!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "marjorie",
+   "text": "Things you should definitely ghost. This park. I'm moving to Riverside.",
+   "shot": "marjorie",
+   "gesture": "wave",
+   "after": "ding"
+  }
+ ]
+}
