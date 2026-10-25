@@ -6,10 +6,10 @@
 
 Music: djvelvetgrey engine v4 in real-instruments mode (every sound a recorded instrument, no vocals).
 "Different every day" is enforced against the ledger (ledger.json), not assumed:
-  - style rotation over the 15 Mirage styles (DJ Velvet Grey's 12 + trance + future bass + indie dance), never the same style twice in a row;
-  - key+mode not used in the last 10 releases, tempo not within 1 BPM of the previous release;
+  - style from a 24-slot cycle weighted to Sello's library (deep/melodic/progressive/afro first), never the same style twice in a row;
+  - key+mode not used in the last 10 releases (tonic from all 12 keys), tempo not within 1 BPM of the previous release;
   - chord loop at most 0.85 alike (any key, any rotation; 1.0 = same loop) to each release of the last day (6); the last 30 weigh in;
-  - production (progression, arc, basslines, lead, mode) never identical in 5 of those 6 choices to an earlier release of the style;
+  - production (progression, arc, both basslines, lead) never identical in all 5 choices to an earlier release of the style;
   - lead and answer instrument families avoided if used as lead/answer in the last 2 releases (weighted);
   - hook melody: every rhythm cell x contour x start note of the style is realised exactly as rendered; the one furthest
     from every earlier release is used, and it must be at least 0.25 away (near-copies are < 0.18).
@@ -26,6 +26,11 @@ S.STYLES.update(getattr(S, 'EXTRA_STYLES', {}))   # Mirage-only styles (trance)
 MIRAGE_ORDER = ['deep', 'melodic', 'house', 'afro', 'tropical', 'futurebass', 'nudisco', 'progressive', 'tech', 'trance', 'vocal', 'soulful',
                 'indiedance', 'disco', 'french']   # DJ Velvet Grey's 12 + trance + future bass + indie dance (Sello, 23 Oct)
 assert set(MIRAGE_ORDER) == set(S.STYLES), set(S.STYLES) ^ set(MIRAGE_ORDER)
+# 24-slot cycle (4 days at 6 uploads/day) weighted to the listening profile: deep 5, melodic 4, progressive 3, afro 2,
+# house 2, soulful 1, tropical 1, nu-disco 1, indie dance 1, future bass 1, trance 1, tech 1, disco 1 (vocal/french rest).
+STYLE_CYCLE = ['deep', 'melodic', 'afro', 'progressive', 'deep', 'house', 'melodic', 'nudisco', 'deep', 'progressive', 'soulful', 'melodic',
+               'trance', 'deep', 'afro', 'tropical', 'melodic', 'indiedance', 'deep', 'progressive', 'futurebass', 'house', 'tech', 'disco']
+assert all(a != b for a, b in zip(STYLE_CYCLE, STYLE_CYCLE[1:] + STYLE_CYCLE[:1])) and set(STYLE_CYCLE) <= set(S.STYLES)
 OUT = os.path.join(ROOT, 'out'); os.makedirs(OUT, exist_ok=True)
 LEDGER = os.path.join(HERE, 'ledger.json')
 MODES = {'major': [0, 2, 4, 5, 7, 9, 11], 'minor': [0, 2, 3, 5, 7, 8, 10], 'dorian': [0, 2, 3, 5, 7, 9, 10], 'mixolydian': [0, 2, 4, 5, 7, 9, 10]}
@@ -87,11 +92,11 @@ def plan(date):
         if not ST.available(): raise SystemExit('studio pack missing: git clone --depth 1 -b samples https://github.com/ramatladi/videosyndication /home/claude/studio_pack')
     L = ledger()['releases']; n = len(L) + 1; rid = f'mtr{n:03d}'
     r = np.random.default_rng(int(dt.date.fromisoformat(date).strftime('%Y%m%d')) * 31 + n)
-    recent_styles = [x['style'] for x in L[-(len(MIRAGE_ORDER) - 1):]]
-    yesterday = L[-1]['style'] if L else None
-    unused = [s for s in MIRAGE_ORDER if s not in recent_styles]          # least recently used style first, never yesterday's
-    style = unused[0] if unused else min((s for s in MIRAGE_ORDER if s != yesterday),
-                                         key=lambda s: max(i for i, x in enumerate(recent_styles) if x == s))
+    # weighted by Sello's library (mirage/taste/profile.md): melodic/deep house dominates; every Mirage style still appears
+    style = STYLE_CYCLE[len(L) % len(STYLE_CYCLE)]
+    k = len(L)
+    while L and style == L[-1]['style']:                       # never the same style twice in a row
+        k += 1; style = STYLE_CYCLE[k % len(STYLE_CYCLE)]
     P = S.STYLES[style]
     used_keys = {(x['tonic'] % 12, x['mode']) for x in L[-10:]}
     last_bpm = L[-1]['bpm'] if L else None
@@ -101,13 +106,13 @@ def plan(date):
     cat = C.load_catalog()
     def prod_overlap(b):   # compose.screen flags every hook of a brief that shares >= 5 production features with a release
         g = b['groove']; feats = {'progression': b['progression'], 'template': b['arc'], 'bass_a': g['bass_a'], 'bass_b': g['bass_b'],
-                                  'lead': b['lead'], 'style': b['style'], 'mode': b['mode']}
-        return max([sum(1 for k, v in feats.items() if e.get(k) == v) for e in cat] or [0])
+                                  'lead': b['lead']}
+        return max([sum(1 for k, v in feats.items() if e.get(k) == v) for e in cat if e.get('style') == b['style']] or [0])
     pool = []
     for it in range(3000):
         if it >= 300 and sum(1 for x in pool if x[0] == 0) >= HOOK_TRIES: break
         prog = P['progressions'][int(r.integers(len(P['progressions'])))]; mode = C.best_mode(prog, P['modes'])
-        tonic = int(r.integers(55, 63)); bpm = int(r.integers(P['bpm'][0], P['bpm'][1] + 1))
+        tonic = int(r.integers(54, 66)); bpm = int(r.integers(P['bpm'][0], P['bpm'][1] + 1))   # tonic: all 12 keys (was 8)
         lead = P['leads'][int(r.integers(len(P['leads'])))]; ans = [a for a in P['answers'] if a != lead]; answer = ans[int(r.integers(len(ans)))]
         seed = int(r.integers(100000, 999999)); d = SM.Palette(seed, style, real=True).describe()
         li, ai = d.get(lead, lead), d.get(answer, answer)
@@ -122,7 +127,7 @@ def plan(date):
         pen = (1000 if FAM(li) == FAM(ai) else 0) + (300 if (tonic % 12, mode) in used_keys else 0) \
             + (300 if last_bpm is not None and abs(bpm - last_bpm) <= 1 else 0) \
             + sum(400 for q in strict_pcs if chord_sim(pcs, q) > CHORD_MAX) + min(120, sum(20 for q in soft_pcs if chord_sim(pcs, q) > .75)) \
-            + (1000 if ov >= 6 else 150 if ov == 5 else 10 * ov) \
+            + (1000 if ov >= 5 else 100 if ov == 4 else 10 * ov) \
             + (100 if FAM(li) in recent_fams else 0) + (50 if FAM(ai) in recent_fams else 0)
         if pen < 300: pool.append((pen, len(pool), c, b))
     if not pool: raise SystemExit('could not find a release different enough from the ledger')
@@ -204,7 +209,7 @@ def record(a):
     lead_fam, ans_fam = FAM(p['lead']), FAM(p['answer'])
     L['releases'].append({'release': a.release, 'date': a.date, 'slot': a.slot, 'format': p.get('format', a.format), 'title': p['title'], 'style': p['style'], 'tonic': b['tonic'], 'mode': b['mode'],
                           'key': p['key'], 'bpm': b['bpm'], 'lead': p['lead'], 'answer': p['answer'], 'lead_family': lead_fam, 'answer_family': ans_fam,
-                          'chord_pcs': p['chord_pcs'], 'photographer': p['photographer'], 'photo_page': p['photo_page'], 'photo_kind': a.photo_kind or 'bikini',
+                          'chord_pcs': p['chord_pcs'], 'photographer': p['photographer'], 'photo_page': p['photo_page'], 'photo_kind': getattr(a, 'photo_kind', None) or 'bikini',
                           'metricool_uuid': a.uuid, 'media_url': a.media})
     json.dump(L, open(LEDGER, 'w'), indent=1)
     C.add_to_catalog({'id': a.release, 'title': p['title'], 'status': 'published', 'style': p['style'], 'mode': b['mode'],

@@ -57,22 +57,23 @@ PRESETS_REAL = dict(PRESETS, **{
     'cymbal_swell': [(0, 119, .3, 0)],                                # Reverse cymbal (a recorded cymbal, reversed)
 })
 
-# "Studio" mode (brief "instruments": "studio"): real mode + the CC0 studio pack (studio.py) wherever it has the
+# "Studio" mode (brief "instruments": "studio"), retuned 25 Oct to Sello's library (melodic deep house): no
+# xylophone/glockenspiel/brass stabs in the melodic roles; real mode + the CC0 studio pack (studio.py) wherever it has the
 # instrument. ('lib', instrument, release_s, octave_shift). Kinds without a pack instrument keep their FluidR3 recording.
 PRESETS_STUDIO = dict(PRESETS_REAL, **{
     'piano':    [('lib', 'piano_steinway', .5, 0)],
     'strings':  [('lib', 'string_section', .6, 0)],
     'brass':    [('lib', 'brass_section', .3, 0)],
-    'flute':    [('lib', 'flute', .3, 0), ('lib', 'clarinet', .3, 0)],
-    'marimba':  [('lib', 'marimba', .5, 0), ('lib', 'xylophone', .4, 0)],
+    'flute':    [('lib', 'flute', .3, 0), (0, 75, .3, 0)],                       # flute, pan flute
+    'marimba':  [('lib', 'marimba', .5, 0)],
     'kalimba':  [('lib', 'kalimba', .6, 0)],
     'mallet':   [('lib', 'vibraphone', .8, 0)],
     'topline':  [('lib', 'tenor_sax', .25, 0), (0, 65, .2, 0)],                    # tenor sax (VCSL), alto sax
-    'pluck':    [('lib', 'harp', .6, 0), ('lib', 'violin_pizz', .3, 0), (0, 24, .6, 0)],
-    'glass':    [('lib', 'glockenspiel', .9, 0), (0, 8, .9, 0), ('lib', 'vibraphone', .8, 0)],
-    'polysynth': [(0, 4, .7, 0), ('lib', 'brass_section', .25, 0), ('lib', 'string_section', .5, 0)],
-    'stab':     [('lib', 'trumpet_stac', .15, 0), ('lib', 'violin_pizz', .2, 0), ('lib', 'piano_steinway', .3, 0)],
-    'rim_synth': [(0, 115, .2, 0), ('lib', 'xylophone', .3, 0)],
+    'pluck':    [('lib', 'harp', .6, 0), (0, 24, .6, 0), ('lib', 'kalimba', .5, 0)],   # harp, nylon guitar, kalimba
+    'glass':    [('lib', 'vibraphone', .8, 0), (0, 8, .9, 0), ('lib', 'kalimba', .6, 0)],   # vibes, celesta, kalimba
+    'polysynth': [(0, 4, .7, 0), (0, 5, .7, 0), ('lib', 'piano_steinway', .5, 0)],   # Rhodes, Legend EP, grand
+    'stab':     [('lib', 'piano_steinway', .3, 0), (0, 4, .3, 0), (0, 28, .1, 0)],   # grand, Rhodes, muted guitar
+    'rim_synth': [(0, 115, .2, 0), ('lib', 'marimba', .3, 0)],
     'bass_real': [(0, 32, .08, 0), (0, 33, .06, 0), (0, 35, .08, 0), (0, 34, .06, 0), ('lib', 'upright_bass', .08, 0)],
     'cymbal_swell': [('lib', 'cymbal_swell', .3, 0)],
 })

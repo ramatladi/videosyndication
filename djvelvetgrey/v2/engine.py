@@ -702,6 +702,12 @@ class TrackV2:
         answer = stage(filt(L['answer'], 220, 'high'), 'answer', -23.5)
         counter = stage(filt(L['counter'], 200, 'high'), 'counter', -27)
         fx = stage(L['fx'], 'fx', -29)
+        if self.studio:                                   # studio mode: deep-house warmth (Sello's library, 25 Oct)
+            warm = self.style_name in ('deep', 'melodic', 'progressive', 'afro', 'tropical', 'soulful', 'house')
+            pad = filt(pad, 2600 if warm else 4500)        # real strings/choir as a soft, dark pad bed
+            compg = filt(compg, 5500 if warm else 8000)
+            lead = filt(lead, 9000); answer = filt(answer, 7500)
+            if warm: bass = filt(bass, 900)                # round, deep sub instead of a bright bass guitar
         send = lead * .35 + answer * .45 + pad * .25 + compg * (.35 if P['comp'] == 'dub_stab' else .15) + L['clap'] * .02
         rev = filt(filt(reverb(send, P.get('verb', 2.6), 2.4, self.b['seed']), 300, 'high'), 9000) * sc(.3, .15)
         dly = delay(lead + answer * .5 + (compg * .6 if P['comp'] == 'dub_stab' else 0), .75) * .22

@@ -11,6 +11,10 @@ Instrumental house/disco by **DJ Velvet Purple**, released on the **Mirage Tropi
   19:37 → 23:55 video + 03:55 Short (next day); 03:37 → 07:55 Short + 11:55 video; 11:37 → 15:55 Short + 19:55 Short.
 
 ## Rules
+- **Taste (25 Oct):** `mirage/taste/profile.md` — Sello's 3,152-song library is ~2/3 melodic deep house. The style
+  rotation is a 24-slot cycle weighted to it (deep 5, melodic 4, progressive 3, afro 2, house 2, the rest 1 each) and studio
+  mode is retuned to deep-house warmth with real sounds only (vibes, kalimba, Rhodes, grand piano, nylon guitar, harp, flute,
+  dark string/choir pad bed, round sub; no xylophone/glockenspiel/brass stabs in melodic roles).
 - **Styles (15):** Deep, Melodic, House, Afro, Tropical, **Future Bass**, Nu-Disco, Progressive House, Tech House, **Trance**,
   Vocal House (instrumental), Soulful, **Indie Dance**, Disco, French House. The three in bold were added 23 Oct (Sello) as
   Mirage-only styles (`EXTRA_STYLES` in djvelvetgrey/v2/styles.py; DJ Velvet Grey's 12-style rotation is unchanged). Each was
