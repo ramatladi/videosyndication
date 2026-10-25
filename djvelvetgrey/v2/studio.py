@@ -95,6 +95,25 @@ def _region(inst, key, vel):
     return layer
 
 
+_rms = {}
+
+
+def _level(rel):
+    if rel not in _rms:
+        x = _load(rel); n = min(len(x), int(.4 * SR))
+        _rms[rel] = float(np.sqrt(np.mean(x[:n] ** 2)) + 1e-9)
+    return _rms[rel]
+
+
+_ref = {}
+
+
+def _norm(name, rel):
+    if name not in _ref:
+        _ref[name] = float(np.median([_level(r['file']) for r in index()['instruments'][name]['regions']]))
+    return float(np.clip(_ref[name] / _level(rel), .25, 4.0))
+
+
 def resolve(inst, key):
     for name, lo, hi in ENSEMBLES.get(inst, []):
         if lo <= key <= hi: return name
@@ -113,8 +132,9 @@ def render(inst, key, dur, vel, release=.4):
     h = int(hashlib.md5(f'{name}|{key}|{dq}|{vel}'.encode()).hexdigest(), 16)
     r = layer[h % len(layer)]
     x = _shifted(r['file'], 0 if kind == 'oneshot' else key - r['key'])
-    span = max(1, r['hivel'] - r['lovel'])
-    g = .72 + .28 * (vel - r['lovel']) / span               # within-layer dynamics (the layers carry the timbre)
+    # every recording is levelled to its instrument's median loudness, then one smooth velocity curve sets the level:
+    # no random loud/quiet jumps between notes, keys or dynamic layers (Sello, 25 Oct); the layers only change timbre
+    g = _norm(name, r['file']) * 10 ** (-18 * (1 - vel / 127) ** 1.6 / 20)
     g *= index()['instruments'][name].get('gain', 1.0)
     if kind == 'oneshot':                                  # drums: natural decay, choked after dur + release
         n_on = int(dq * SR); n_rel = int(max(.03, release) * SR)
@@ -126,7 +146,7 @@ def render(inst, key, dur, vel, release=.4):
         if len(y) > n_on:                                  # note-off: release (sustained) or damping (struck/plucked)
             tail = len(y) - n_on
             t = np.arange(tail) / SR
-            tau = release / 4 if name in SUSTAINED else max(.06, release / 6)
+            tau = release / 4 if name in SUSTAINED else max(.12, release / 2.5)   # struck/plucked: let notes ring like a played instrument
             y[n_on:] *= np.exp(-t / tau)[:, None]
     f = min(len(y) // 4, int(.01 * SR))
     if f > 0: y[-f:] *= np.linspace(1, 0, f)[:, None]

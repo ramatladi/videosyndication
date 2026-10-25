@@ -61,16 +61,16 @@ PRESETS_REAL = dict(PRESETS, **{
 # xylophone/glockenspiel/brass stabs in the melodic roles; real mode + the CC0 studio pack (studio.py) wherever it has the
 # instrument. ('lib', instrument, release_s, octave_shift). Kinds without a pack instrument keep their FluidR3 recording.
 PRESETS_STUDIO = dict(PRESETS_REAL, **{
-    'piano':    [('lib', 'piano_steinway', .5, 0)],
+    'piano':    [('lib', 'piano_steinway', .9, 0)],
     'strings':  [('lib', 'string_section', .6, 0)],
     'brass':    [('lib', 'brass_section', .3, 0)],
     'flute':    [('lib', 'flute', .3, 0), (0, 75, .3, 0)],                       # flute, pan flute
-    'marimba':  [('lib', 'marimba', .5, 0)],
-    'kalimba':  [('lib', 'kalimba', .6, 0)],
-    'mallet':   [('lib', 'vibraphone', .8, 0)],
+    'marimba':  [('lib', 'marimba', .8, 0)],
+    'kalimba':  [('lib', 'kalimba', .9, 0)],
+    'mallet':   [('lib', 'vibraphone', 1.2, 0)],
     'topline':  [('lib', 'tenor_sax', .25, 0), (0, 65, .2, 0)],                    # tenor sax (VCSL), alto sax
-    'pluck':    [('lib', 'harp', .6, 0), (0, 24, .6, 0), ('lib', 'kalimba', .5, 0)],   # harp, nylon guitar, kalimba
-    'glass':    [('lib', 'vibraphone', .8, 0), (0, 8, .9, 0), ('lib', 'kalimba', .6, 0)],   # vibes, celesta, kalimba
+    'pluck':    [('lib', 'harp', .9, 0), ('lib', 'kalimba', .8, 0)],                # harp, kalimba (studio recordings only)
+    'glass':    [('lib', 'vibraphone', 1.2, 0), ('lib', 'kalimba', .9, 0)],         # vibes, kalimba (no GM celesta)
     'polysynth': [(0, 4, .7, 0), (0, 5, .7, 0), ('lib', 'piano_steinway', .5, 0)],   # Rhodes, Legend EP, grand
     'stab':     [('lib', 'piano_steinway', .3, 0), (0, 4, .3, 0), (0, 28, .1, 0)],   # grand, Rhodes, muted guitar
     'rim_synth': [(0, 115, .2, 0), ('lib', 'marimba', .3, 0)],

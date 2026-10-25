@@ -241,7 +241,12 @@ class TrackV2:
         for st, d, m in notes:
             if only is not None and not (only[0] <= st < only[1]): continue
             acc = 1.0 if abs(st % 1) < 1e-6 else .9                  # downbeats a touch stronger
-            self.place(dst, self.voice(kind, m + octave, d * self.beat * dur_scale, .78 * acc * (.88 + .2 * self.rng.random())),
+            if self.studio:                                          # phrasing like a player: slight legato, phrase-end softer
+                pos = notes.index((st, d, m)) / max(1, len(notes) - 1)
+                acc *= 1.0 - .06 * pos * pos; dd = d * dur_scale * 1.08
+            else:
+                dd = d * dur_scale
+            self.place(dst, self.voice(kind, m + octave, dd * self.beat, .78 * acc * ((.96 + .06 * self.rng.random()) if self.studio else (.88 + .2 * self.rng.random()))),
                        self.T(bar0, st, self.hum(5)), pan, g)
 
     def voice(self, kind, m, dur, vel=1.0):
@@ -699,9 +704,9 @@ class TrackV2:
         bass = stage(np.tanh(1.2 * filt(L['bass'], 30, 'high')), 'bass', -16.5) * sc(min(.8, sc_d + .05), .09)
         drums = comp(stage(L['clap'], 'clap', -23 + dB('clap')) + stage(filt(L['hats'], 6000, 'high'), 'hats', -27 + dB('hats')) + stage(L['perc'], 'perc', -25.5 + dB('perc')), -20, 2)
         pad = stage(filt(L['pad'], 160, 'high'), 'pad', -23 + dB('pad')) * sc(sc_d + dB('sc'), .11)
-        compg = stage(filt(compb, 180, 'high'), 'comp', -24) * sc(sc_d * .8, .1)
-        lead = stage(filt(L['lead'], 220, 'high'), 'lead', -19)
-        answer = stage(filt(L['answer'], 220, 'high'), 'answer', -23.5)
+        compg = stage(filt(compb, 180, 'high'), 'comp', -24 + dB('comp')) * sc(sc_d * .8, .1)
+        lead = stage(filt(L['lead'], 220, 'high'), 'lead', -19 + dB('lead'))
+        answer = stage(filt(L['answer'], 220, 'high'), 'answer', -23.5 + dB('answer'))
         counter = stage(filt(L['counter'], 200, 'high'), 'counter', -27)
         fx = stage(L['fx'], 'fx', -29)
         if self.studio:                                   # studio mode: deep-house warmth (Sello's library, 25 Oct)
@@ -713,7 +718,25 @@ class TrackV2:
         send = lead * .35 + answer * .45 + pad * .25 + compg * (.35 if P['comp'] == 'dub_stab' else .15) + L['clap'] * .02
         rev = filt(filt(reverb(send, P.get('verb', 2.6), 2.4, self.b['seed']), 300, 'high'), 9000) * sc(.3, .15)
         dly = delay(lead + answer * .5 + (compg * .6 if P['comp'] == 'dub_stab' else 0), .75) * .22
-        mix = kick_ + bass + drums + pad + compg + (lead + answer + counter) * sc(.2, .1) + stage(rev, 'rev', -24 + dB('rev')) + stage(dly, 'dly', -29) + fx
+        if self.studio:                                   # arrangement motion (Sello, 25 Oct: 'too repetitive / flat')
+            music = bass + pad + compg + (lead + answer + counter) * sc(.2, .1)
+            sweep = np.zeros(N)
+            for sec in self.meta['sections']:             # builds: the music thins out from the bottom (rising high-pass)
+                if sec['name'] == 'build':
+                    i0 = int(sec['start_s'] * SR); i1 = min(N, i0 + int(sec['bars'] * self.bar * SR))
+                    if i1 > i0: sweep[i0:i1] = np.linspace(0, 1, i1 - i0) ** 1.5
+            if sweep.any():
+                music = music * (1 - sweep[:, None]) + filt(music, 900, 'high') * sweep[:, None]
+            mix = kick_ + drums + music + stage(rev, 'rev', -24 + dB('rev')) + stage(dly, 'dly', -29)
+            gap = np.ones(N)                              # a half-beat of silence right before each drop
+            for sec in self.meta['sections']:
+                if sec['name'] in ('drop1', 'drop2'):
+                    t1 = int(sec['start_s'] * SR); t0 = t1 - int(.5 * self.beat * SR); f = int(.01 * SR)
+                    if t0 > f:
+                        gap[t0:t1] = 0; gap[t0 - f:t0] = np.linspace(1, 0, f); gap[t1:t1 + f] = np.linspace(0, 1, min(f, N - t1))
+            mix = mix * gap[:, None] + fx
+        else:
+            mix = kick_ + bass + drums + pad + compg + (lead + answer + counter) * sc(.2, .1) + stage(rev, 'rev', -24 + dB('rev')) + stage(dly, 'dly', -29) + fx
         low = ss.sosfiltfilt(ss.butter(4, 120, 'low', fs=SR, output='sos'), mix, axis=0)
         mix = (mix - low) + low.mean(1, keepdims=True)
         mix = filt(mix, 25, 'high')[:int(self.length * SR)]
@@ -776,7 +799,7 @@ def limit(x, ceiling_db=-2.0, look_ms=3.0, release_ms=40.0):
 
 
 # studio-mode mix offsets (dB; 'sc' = extra sidechain depth), tuned with the machine ears (ears.py); env DVG_STUDIO_<K> overrides
-STUDIO_MIX = {'kick': 4, 'clap': 3, 'hats': 3, 'perc': 2, 'pad': -3, 'rev': -3, 'sc': .15}   # ears: house+dance up vs flat mix (25 Oct)
+STUDIO_MIX = {'kick': 4, 'clap': 3, 'hats': 3, 'perc': 2, 'pad': -3, 'rev': -3, 'sc': .15, 'lead': 3.5, 'answer': 2, 'comp': 1}   # ears: house+dance up vs flat mix (25 Oct)
 
 
 def master(mix, target_lufs, ceiling_db=-2.8):

@@ -52,6 +52,7 @@ HOOK_TRIES = 12   # briefs tried for a far-enough hook before refusing
 CELLS_OVERRIDE = None
 # studio = real recorded instruments with the CC0 studio pack (VSCO 2 CE + VCSL) where it has the instrument (Sello, 24 Oct)
 INSTRUMENTS = os.environ.get('MIRAGE_INSTRUMENTS', 'studio')   # Sello approved the studio sound (25 Oct)
+MUSICAL_CONTOURS = ['arch', 'rise', 'fall', 'wave', 'valley', 'pedal', 'leapstep']   # no zigzag (sounds aimless)
 GEN_CELLS = 40    # extra procedurally generated rhythm cells searched when the style's own cells can't reach HOOK_MIN
 
 
@@ -68,9 +69,32 @@ def gen_cell(k):
     return cell
 
 
+def phrase_cell(k):
+    """Deterministic 2-bar hook rhythm 'phr<k>' written like a producer's hook (Sello, 25 Oct: 'melody feels random'):
+    bar 1 is a short motif of 3-5 notes on the 8th grid (at most one 16th pickup); bar 2 answers it with the SAME rhythm,
+    varied by one change (a note dropped, added or delayed); the phrase ends on a held note."""
+    g = np.random.default_rng(2_000_029 + int(k))
+    while True:
+        n = int(g.integers(3, 6))
+        grid = np.arange(0, 3.5, .5)
+        on = sorted(g.choice(grid, size=n, replace=False).tolist())
+        if g.random() < .35: on[0] = max(0.0, on[0] - .25) if on[0] > 0 else on[0]     # 16th pickup feel
+        if on[0] <= 1: break
+    two = [o + 4 for o in on]
+    v = int(g.integers(3))
+    if v == 0 and len(two) > 3: two.pop(int(g.integers(1, len(two))))                    # answer drops a note
+    elif v == 1: two = sorted(set(two + [min(7.0, two[-1] + .5)]))                       # answer adds a note
+    else: two[-1] = min(7.0, two[-1] + .5)                                              # answer delays its last note
+    on = on + two
+    cell = [(float(o), float(min(1.5, b - o))) for o, b in zip(on, on[1:])] + [(float(on[-1]), float(min(2.0, 8 - on[-1])))]
+    return cell
+
+
 def ensure_cell(name):
     if isinstance(name, str) and name.startswith('gen') and name not in C.RHYTHM_CELLS:
         C.RHYTHM_CELLS[name] = gen_cell(int(name[3:]))
+    if isinstance(name, str) and name.startswith('phr') and name not in C.RHYTHM_CELLS:
+        C.RHYTHM_CELLS[name] = phrase_cell(int(name[3:]))
     return name
 HOOK_MIN = 0.25    # melody distance to every earlier release (near-copies score < 0.18; unrelated tunes ~0.4+)
 
@@ -153,34 +177,40 @@ def plan(date):
     pool.sort(key=lambda x: (x[0], x[1]))
     motifs = [e['motif'] for e in cat]
     def hook_search(b):
-        """Every (rhythm cell, contour, start note) of the style, realised exactly as the render will (hook_from_spec),
-        scored by its distance to the nearest catalogue hook; returns the furthest."""
+        """Every (rhythm cell, contour, start note) of the style, realised exactly as the render will (hook_from_spec).
+        Among the candidates at least HOOK_MIN from every catalogue hook, the most *musical* one wins (compose.score_motif:
+        singable range, mostly stepwise with one leap, moderate syncopation, 4-8 notes) - not the strangest one
+        (Sello, 25 Oct: 'melody feels random'). Returns (distance, spec, score)."""
         h = C.harmony_for(b); lo, hi = b['tonic'] + 9, b['tonic'] + 24
-        best = (-1.0, None)
-        style_cells = CELLS_OVERRIDE or P.get('cells') or [c for c in C.RHYTHM_CELLS if not c.startswith('gen')]
-        gen = [ensure_cell(f'gen{int(r.integers(1, 10**6))}') for _ in range(GEN_CELLS)]
-        for cell in style_cells + ['|'] + gen:
+        far = (-1.0, None, 0.0); best = None
+        style_cells = CELLS_OVERRIDE or P.get('cells') or [c for c in C.RHYTHM_CELLS if not c.startswith(('gen', 'phr'))]
+        phr = [ensure_cell(f'phr{int(r.integers(1, 10**6))}') for _ in range(GEN_CELLS)]
+        for cell in style_cells + ['|'] + phr:
             if cell == '|':
-                if best[0] >= HOOK_MIN: break      # the style's own rhythms are far enough: keep the idiomatic one
+                if best is not None: break         # the style's own rhythms already give a far-enough, musical hook
                 continue
-            for con in C.CONTOURS:
+            for con in MUSICAL_CONTOURS:
                 for start in h.chord_tones_in(0, lo + 2, hi - 5):
                     spec = {'cell': cell, 'contour': con, 'start': int(start)}
-                    rep = C.motif_repr(C.hook_from_spec(b, spec)[1]['call'])
+                    call = C.hook_from_spec(b, spec)[1]['call']
+                    rep = C.motif_repr(call)
                     d = 1.0
                     for m in motifs:
                         d = min(d, C.similarity_distance(rep, m))
-                        if d <= best[0]: break
-                    if d > best[0]: best = (d, spec)
-        return best
+                        if d < HOOK_MIN and d <= far[0]: break
+                    if d > far[0]: far = (d, spec, 0.0)
+                    if d >= HOOK_MIN:
+                        sc = C.score_motif(call, lo, hi)[0] + min(d - HOOK_MIN, .2)      # musicality first, distance breaks ties
+                        if best is None or sc > best[2]: best = (d, spec, sc)
+        return best or far
     chosen = None
     for pen, _, c, b in pool[:HOOK_TRIES]:   # next-best brief when no hook of this one is far enough from the catalogue
         if MT.validate(b, P): continue
-        d, spec = hook_search(b)
-        if spec and d >= HOOK_MIN: chosen = (pen, c, b, dict(spec, distance=round(d, 3))); break
+        d, spec, sc = hook_search(b)
+        if spec and d >= HOOK_MIN: chosen = (pen, c, b, dict(spec, distance=round(d, 3), musical_score=round(sc, 2))); break
     if not chosen: raise SystemExit(f'no hook candidate is far enough (>= {HOOK_MIN}) from every earlier release ({HOOK_TRIES} briefs tried)')
     pen, c, b, pick = chosen
-    b['motif'] = {'cell': pick['cell'], 'contour': pick['contour'], 'start': pick['start'], 'candidate': 'search', 'distance': pick['distance'],
+    b['motif'] = {'cell': pick['cell'], 'contour': pick['contour'], 'start': pick['start'], 'candidate': 'search', 'distance': pick['distance'], 'musical_score': pick.get('musical_score'),
                   'selected_by': 'automatic, screened against every earlier release - not a listening judgement'}
     p = {'reference': {k: ref[k] for k in ('artist', 'title', 'bpm', 'tonic_pc', 'mode', 'genre', 'source')} if ref else None,
          'release': rid, 'date': date, 'style': style, 'label': P['label'], 'key': C.key_name(c['tonic'], c['mode']), 'bpm': c['bpm'],
