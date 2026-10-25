@@ -205,7 +205,7 @@ def cap_img(text):
 # ---------- quote card ----------
 card_cache = {}
 def card(si, prog, fade):
-    key = (si, round(prog, 2), round(fade, 1))
+    key = (si, round(prog, 2), prog >= 1, round(fade, 1))
     if key in card_cache: return card_cache[key]
     s = SEGMENTS[si]; fq, lh = f_q, int(f_q.size * 1.3)
     ls = wrap(s["quote"], fq, CARD_W - 120)
