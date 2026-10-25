@@ -217,6 +217,12 @@ def build(a):
     subprocess.run([sys.executable, os.path.join(HERE, vs), '--image', a.photo, '--audio', base + '.delivery.wav', '--aac', base + '.m4a',
                     '--title', a.title, '--style', b['style'], '--credit', '-', '--out', base + '.mp4'], check=True)
     p.update(title=a.title, photographer=a.photographer, photo_page=a.photo_page, qc=q['status'], lufs=q['files']['wav']['integrated_lufs'], format=a.format)
+    try:                                   # machine ears (informational, never blocks a release): what a listener model hears
+        sys.path.insert(0, V2); import ears; ears.ensure_deps()
+        r = subprocess.run([sys.executable, os.path.join(V2, 'ears.py'), base + '.mp3'], capture_output=True, text=True, timeout=600)
+        p['ears'] = json.loads([l for l in r.stdout.splitlines() if l.startswith('{')][-1])
+    except Exception as e:
+        p['ears'] = {'error': str(e)[:200]}
     json.dump(p, open(os.path.join(OUT, a.release + '.plan.json'), 'w'), indent=1)
     print(json.dumps({'release': a.release, 'title': a.title, 'qc': q['status'], 'lufs': p['lufs'], 'mp4': base + '.mp4'}))
 
@@ -230,7 +236,7 @@ def record(a):
     L['releases'].append({'release': a.release, 'date': a.date, 'slot': a.slot, 'format': p.get('format', a.format), 'title': p['title'], 'style': p['style'], 'tonic': b['tonic'], 'mode': b['mode'],
                           'key': p['key'], 'bpm': b['bpm'], 'lead': p['lead'], 'answer': p['answer'], 'lead_family': lead_fam, 'answer_family': ans_fam,
                           'chord_pcs': p['chord_pcs'], 'photographer': p['photographer'], 'photo_page': p['photo_page'], 'photo_kind': getattr(a, 'photo_kind', None) or 'bikini',
-                          'metricool_uuid': a.uuid, 'media_url': a.media, 'reference': p.get('reference')})
+                          'metricool_uuid': a.uuid, 'media_url': a.media, 'reference': p.get('reference'), 'ears': p.get('ears')})
     json.dump(L, open(LEDGER, 'w'), indent=1)
     C.add_to_catalog({'id': a.release, 'title': p['title'], 'status': 'published', 'style': p['style'], 'mode': b['mode'],
                       'motif': C.motif_repr(hook['call']), 'progression': b['progression'], 'template': b['arc'], 'lead': b['lead'],

@@ -19,6 +19,9 @@ Instrumental house/disco by **DJ Velvet Purple**, released on the **Mirage Tropi
   (`mirage/taste/refs.json`: public tempo/key/genre from mixgraph.io / AcousticBrainz; never reused within 90 releases;
   recorded in the ledger as `reference`, never shown publicly). Melodies stay original. A daily 09:13 task adds ~12 artists.
   Melodic house may be major in Mirage (half its references are).
+- **Machine ears (25 Oct):** after QC, `djvelvetgrey/v2/ears.py` (musicnn MSD listener-tag model) records what a trained
+  tagger hears — house / dance / electronic scores and a genre-fit ratio — in the ledger (`ears`). Informational, never
+  blocks. The studio mix offsets (`STUDIO_MIX` in engine.py: drums up, pad/reverb down, more pump) were tuned with it.
 - **Styles (15):** Deep, Melodic, House, Afro, Tropical, **Future Bass**, Nu-Disco, Progressive House, Tech House, **Trance**,
   Vocal House (instrumental), Soulful, **Indie Dance**, Disco, French House. The three in bold were added 23 Oct (Sello) as
   Mirage-only styles (`EXTRA_STYLES` in djvelvetgrey/v2/styles.py; DJ Velvet Grey's 12-style rotation is unchanged). Each was

@@ -10,6 +10,7 @@ The style profile (styles.py) decides the drums, percussion, bass articulation, 
 musical focal point (melody, bass or rhythm), hook density, arrangement and mix balance.
 Arrangements are fitted to the 2:59 format at any supported tempo (compose.fit_sections).
 """
+import os
 import numpy as np, scipy.signal as ss
 from scipy.ndimage import minimum_filter1d, uniform_filter1d
 import compose as C
@@ -693,10 +694,11 @@ class TrackV2:
             env = uniform_filter1d(env, int(.5 * SR))
             compb = np.stack([I.lp_env(compb[:, 0], env, .9), I.lp_env(compb[:, 1], env, .9)], 1)
         sc_d = P.get('sc', .5)
-        kick_ = stage(L['kick'], 'kick', -14)
+        dB = (lambda k: float(os.environ.get('DVG_STUDIO_' + k, STUDIO_MIX.get(k, 0)))) if self.studio else (lambda k: 0.0)
+        kick_ = stage(L['kick'], 'kick', -14 + dB('kick'))
         bass = stage(np.tanh(1.2 * filt(L['bass'], 30, 'high')), 'bass', -16.5) * sc(min(.8, sc_d + .05), .09)
-        drums = comp(stage(L['clap'], 'clap', -23) + stage(filt(L['hats'], 6000, 'high'), 'hats', -27) + stage(L['perc'], 'perc', -25.5), -20, 2)
-        pad = stage(filt(L['pad'], 160, 'high'), 'pad', -23) * sc(sc_d, .11)
+        drums = comp(stage(L['clap'], 'clap', -23 + dB('clap')) + stage(filt(L['hats'], 6000, 'high'), 'hats', -27 + dB('hats')) + stage(L['perc'], 'perc', -25.5 + dB('perc')), -20, 2)
+        pad = stage(filt(L['pad'], 160, 'high'), 'pad', -23 + dB('pad')) * sc(sc_d + dB('sc'), .11)
         compg = stage(filt(compb, 180, 'high'), 'comp', -24) * sc(sc_d * .8, .1)
         lead = stage(filt(L['lead'], 220, 'high'), 'lead', -19)
         answer = stage(filt(L['answer'], 220, 'high'), 'answer', -23.5)
@@ -711,7 +713,7 @@ class TrackV2:
         send = lead * .35 + answer * .45 + pad * .25 + compg * (.35 if P['comp'] == 'dub_stab' else .15) + L['clap'] * .02
         rev = filt(filt(reverb(send, P.get('verb', 2.6), 2.4, self.b['seed']), 300, 'high'), 9000) * sc(.3, .15)
         dly = delay(lead + answer * .5 + (compg * .6 if P['comp'] == 'dub_stab' else 0), .75) * .22
-        mix = kick_ + bass + drums + pad + compg + (lead + answer + counter) * sc(.2, .1) + stage(rev, 'rev', -24) + stage(dly, 'dly', -29) + fx
+        mix = kick_ + bass + drums + pad + compg + (lead + answer + counter) * sc(.2, .1) + stage(rev, 'rev', -24 + dB('rev')) + stage(dly, 'dly', -29) + fx
         low = ss.sosfiltfilt(ss.butter(4, 120, 'low', fs=SR, output='sos'), mix, axis=0)
         mix = (mix - low) + low.mean(1, keepdims=True)
         mix = filt(mix, 25, 'high')[:int(self.length * SR)]
@@ -771,6 +773,10 @@ def limit(x, ceiling_db=-2.0, look_ms=3.0, release_ms=40.0):
     g = np.minimum(g, ss.lfilter([1 - a], [1, -a], g, zi=[g[0] * a])[0])
     g = uniform_filter1d(g, size=2 * W + 1)
     return x * g[:, None]
+
+
+# studio-mode mix offsets (dB; 'sc' = extra sidechain depth), tuned with the machine ears (ears.py); env DVG_STUDIO_<K> overrides
+STUDIO_MIX = {'kick': 4, 'clap': 3, 'hats': 3, 'perc': 2, 'pad': -3, 'rev': -3, 'sc': .15}   # ears: house+dance up vs flat mix (25 Oct)
 
 
 def master(mix, target_lufs, ceiling_db=-2.8):
