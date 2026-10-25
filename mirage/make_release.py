@@ -51,7 +51,7 @@ CHORD_MAX = 0.85  # 1.0 = same loop in any key/rotation; common diatonic loops s
 HOOK_TRIES = 12   # briefs tried for a far-enough hook before refusing
 CELLS_OVERRIDE = None
 # studio = real recorded instruments with the CC0 studio pack (VSCO 2 CE + VCSL) where it has the instrument (Sello, 24 Oct)
-INSTRUMENTS = os.environ.get('MIRAGE_INSTRUMENTS', 'real')   # 'studio' once Sello approves the A/B (24 Oct)
+INSTRUMENTS = os.environ.get('MIRAGE_INSTRUMENTS', 'studio')   # Sello approved the studio sound (25 Oct)
 GEN_CELLS = 40    # extra procedurally generated rhythm cells searched when the style's own cells can't reach HOOK_MIN
 
 
