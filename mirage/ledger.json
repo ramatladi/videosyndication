@@ -1197,6 +1197,74 @@
     "dance": 0.124,
     "genre_fit": 0.89
    }
+  },
+  {
+   "release": "mtr016",
+   "date": "2026-10-26",
+   "slot": "2026-10-26T15:55",
+   "format": "short",
+   "title": "Sunlit Ferry",
+   "artist": "DJ Saltwater",
+   "style": "house",
+   "key": "E major",
+   "bpm": 124,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr016.json",
+   "photographer": "Shalom Ejiofor",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-bikini-in-a-swimming-pool-aF_N_B1r914",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-5166809648363910290",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-2794911664793146401.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr016.mp3",
+    "top": [
+     [
+      "electronic",
+      0.473
+     ],
+     [
+      "electronica",
+      0.142
+     ],
+     [
+      "dance",
+      0.141
+     ],
+     [
+      "chillout",
+      0.123
+     ],
+     [
+      "House",
+      0.112
+     ],
+     [
+      "electro",
+      0.111
+     ],
+     [
+      "indie",
+      0.095
+     ],
+     [
+      "ambient",
+      0.078
+     ],
+     [
+      "pop",
+      0.069
+     ],
+     [
+      "female vocalists",
+      0.051
+     ]
+    ],
+    "house": 0.112,
+    "electronic": 0.473,
+    "dance": 0.141,
+    "genre_fit": 0.833
+   }
   }
  ]
 }

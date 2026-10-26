@@ -151,6 +151,10 @@ def sections(nbars):
     """2:59 house form in bars; drop/outro absorb the remainder."""
     s = [('intro', 16), ('build', 8), ('drop1', 16), ('break', 16), ('build2', 8), ('drop2', 16)]
     used = sum(b for _, b in s)
+    # slower tempos (tropical 98-112 BPM) have fewer bars in 2:59: shorten intro, then break, so the outro gets >= 4 bars
+    for name in ('intro', 'break'):
+        if nbars - used >= 4: break
+        i = [n for n, _ in s].index(name); s[i] = (name, 8); used = sum(b for _, b in s)
     s.append(('outro', max(4, nbars - used)))
     return s
 
