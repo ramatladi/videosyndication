@@ -49,6 +49,24 @@ name per sub-genre (not all DJs), and upload as per the schedule.**
   The Looperman drum loops Sello supplied were used only for the in-session samples (their licence forbids redistribution, so
   they are not in the repo).
 
+## Looperman loops first, hand-written as the fallback (Sello, 26 Oct 2026)
+"Use Looperman where completeness and accuracy are met, use other sources as a fallback." Sello keeps a Looperman loop
+library in his Google Drive (folder "looperman", one WAV per loop + CSVs). In a session with the Google Drive connector,
+download the WAVs one by one (`download_file_content`; files over ~5.5 MB fail), decode them into
+/home/claude/loops/<cat>/, then run `python3 mirage/loopkit/verify.py /home/claude/loops`:
+- **completeness:** bar-exact, decodable, not silent; **accuracy:** the key comes from the audio — the uploader's label is
+  kept only when the audio agrees (about half of the labels were wrong); unverifiable loops go to `_unverified/`.
+- Pick loops whose bar-by-bar chords agree (no semitone clashes between their strongest notes) and name them in the
+  spec's `loops` (roles keys, bass, melody, melody2, pad, vocals, drums_main, drums_alt, drums_tops; a Looperman id is
+  enough). Roles without a fitting verified loop are written by hand; `song.py check` verifies those hand-written chords
+  against what the keys/melody loop actually plays in each bar. A melody loop is not reused within 30 songs and a
+  keys+melody pair never.
+- Vocals are allowed (Sello, 26 Oct). Wordless vocal loops (ahs, oohs) keep the "Instrumental" title; a vocal with lyrics
+  would need the title changed.
+- Loops are never committed (Looperman forbids redistribution); the ledger records which loops each release used.
+- Scheduled runs have no Google Drive access, so they write the whole song by hand (the fallback). Looperman-led songs are
+  made in sessions with Sello and scheduled ahead (mtr018, mtr019 were the first).
+
 ## Schedule
 - **Six uploads a day (Sello, 23 Oct): 2 videos + 4 Shorts, every 4 hours (SAST):** 23:55 **video**, 03:55 Short, 07:55 Short,
   11:55 **video**, 15:55 Short, 19:55 Short. Every upload is a different, hand-written song.
