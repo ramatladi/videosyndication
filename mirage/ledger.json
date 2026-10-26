@@ -818,7 +818,9 @@
      "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
     }
    },
-   "photo_rule": "bikini (23 Oct 2026), credit in description only"
+   "photo_rule": "bikini (23 Oct 2026), credit in description only",
+   "replaced_by": "mtr014",
+   "status": "replaced before publishing (old engine)"
   },
   {
    "release": "mtr010",
@@ -1051,6 +1053,79 @@
    },
    "ears": {
     "note": "not run (build interrupted after QC)"
+   }
+  },
+  {
+   "release": "mtr014",
+   "date": "2026-10-26",
+   "slot": "2026-10-26T23:55",
+   "format": "video",
+   "title": "Marina Embers",
+   "artist": "Northline Arc",
+   "style": "progressive",
+   "key": "D# minor",
+   "bpm": 121,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr014.json",
+   "photographer": "Thought Catalog",
+   "photo_page": "https://unsplash.com/photos/smiling-woman-wearing-black-onepiece-bikini-P7SV0QSCbGU",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-8377679153544476972",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-8749694467309847170.mp4",
+   "reference": {
+    "artist": "Jerro",
+    "title": "Lido",
+    "data": "121 BPM, D# minor, Progressive House",
+    "source": "mixgraph.io"
+   },
+   "ears": {
+    "file": "mtr014.mp3",
+    "top": [
+     [
+      "electronic",
+      0.499
+     ],
+     [
+      "electronica",
+      0.155
+     ],
+     [
+      "electro",
+      0.128
+     ],
+     [
+      "chillout",
+      0.125
+     ],
+     [
+      "ambient",
+      0.122
+     ],
+     [
+      "dance",
+      0.099
+     ],
+     [
+      "House",
+      0.08
+     ],
+     [
+      "instrumental",
+      0.062
+     ],
+     [
+      "indie",
+      0.053
+     ],
+     [
+      "experimental",
+      0.046
+     ]
+    ],
+    "house": 0.08,
+    "electronic": 0.499,
+    "dance": 0.099,
+    "genre_fit": 0.883
    }
   }
  ]
