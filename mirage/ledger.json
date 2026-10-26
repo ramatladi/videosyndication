@@ -912,7 +912,9 @@
      "selected_by": "automatic, screened against the other 9 songs - not a listening judgement"
     }
    },
-   "photo_rule": "bikini (23 Oct 2026), credit in description only"
+   "photo_rule": "bikini (23 Oct 2026), credit in description only",
+   "replaced_by": "mtr015",
+   "status": "replaced before publishing (old engine)"
   },
   {
    "release": "mtr011",
@@ -1126,6 +1128,74 @@
     "electronic": 0.499,
     "dance": 0.099,
     "genre_fit": 0.883
+   }
+  },
+  {
+   "release": "mtr015",
+   "date": "2026-10-27",
+   "slot": "2026-10-27T03:55",
+   "format": "short",
+   "title": "Ember Savanna",
+   "artist": "Sahel Bloom",
+   "style": "afro",
+   "key": "G minor",
+   "bpm": 121,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr015.json",
+   "photographer": "Kade Beasley",
+   "photo_page": "https://unsplash.com/photos/woman-in-black-bikini-sitting-on-palm-tree-during-daytime-rAllHcRUqdc",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-1712618066753797178",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-18197184309800752675.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr015.mp3",
+    "top": [
+     [
+      "electronic",
+      0.481
+     ],
+     [
+      "chillout",
+      0.21
+     ],
+     [
+      "electronica",
+      0.157
+     ],
+     [
+      "ambient",
+      0.128
+     ],
+     [
+      "dance",
+      0.124
+     ],
+     [
+      "House",
+      0.116
+     ],
+     [
+      "electro",
+      0.086
+     ],
+     [
+      "jazz",
+      0.083
+     ],
+     [
+      "instrumental",
+      0.05
+     ],
+     [
+      "pop",
+      0.037
+     ]
+    ],
+    "house": 0.116,
+    "electronic": 0.481,
+    "dance": 0.124,
+    "genre_fit": 0.89
    }
   }
  ]
