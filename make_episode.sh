@@ -4,6 +4,7 @@
 #   out/epNNN.mp4     9:16 vertical  (TikTok / Instagram)
 #   out/epNNN_yt.mp4  16:9 landscape (long-form YouTube video)
 #   out/epNNN_cover.png
+# SHAPES=vertical ./make_episode.sh ... renders only the 9:16 file (YouTube Shorts); default renders both shapes.
 # Length comes from the episode's "target_seconds" (175 = 2:55 minimum, 1795 = 29:55 maximum).
 # File size: 27 MB for a 2:55 episode, scaling with length, never more than 90 MB per file (GitHub raw hosting limit is 100 MB).
 set -e
@@ -25,6 +26,7 @@ if [ "$ENGINE" = "cast" ]; then
   python3 engine/video.py "$EP_JSON" "$WD" video "$WD/master.mp4" | tail -1
   encode "$WD/master.mp4" "out/$NAME.mp4" 2000
   ffmpeg -v error -y -ss 5.3 -i "out/$NAME.mp4" -frames:v 1 "out/${NAME}_cover.png"
+  if [ "${SHAPES:-both}" = "vertical" ]; then echo "vertical done; landscape skipped (SHAPES=vertical)"; ls -la "out/$NAME.mp4"; exit 0; fi
   echo "vertical done; rendering landscape"
   ASPECT=landscape python3 engine/video.py "$EP_JSON" "$WD" video "$WD/master_yt.mp4" | tail -1
   encode "$WD/master_yt.mp4" "out/${NAME}_yt.mp4" 2500

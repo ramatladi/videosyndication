@@ -9,6 +9,28 @@ Episodes use the **cast engine**: one JSON file in `episodes/` with `"engine": "
 Full working example: `episodes/examples/cast_example.json`.
 (The original barn episodes 001–002 used the legacy Marigold/Pip/Gourdon renderer — don't use that for new episodes.)
 
+## Where episodes go (from 24 Oct 2026)
+- YouTube channel **Best United States Cartoons** (@BestUnitedStatesCartoons, Metricool brand 7615469) gets six uploads a day, each a new episode:
+  2 regular videos (1920×1080, type "video") at 08:00 and 12:00 America/New_York, 175–895 s, and
+  4 Shorts (1080×1920, type "short") at 10:00, 15:00, 18:00 and 21:00 America/New_York.
+- TikTok + Instagram (brand 7321327) get only the two video-slot episodes, as their 9:16 version.
+- Nothing goes to the everythingyouwant_tv YouTube channel any more (episodes up to 031 stay there).
+- Films stay at 895 s or less, because the channel is not phone-verified.
+
+### Shorts
+- `"format": "short"`, `"target_seconds": 175`, `"length_reason": "YouTube Short"`; 58–70 short lines.
+- A quick one-clip dialogue skit: hook in the first line, three escalating beats, a twist near the two-minute mark, a final button line, 4–7 sound effects.
+- Render vertical only: `SHAPES=vertical ./make_episode.sh episodes/epNNN.json` (1080×1920, 174–176 s, under 60 MB).
+- Description: 2–3 lines + 3–5 general hashtags and #shorts. Log the row as `SHORT · title (2:55)`.
+
+### Trade secret
+Never disclose how the cartoons are made or that they are based on trends. No title, description, tag, hashtag, caption, intro card,
+on-screen text or line of dialogue may use the words trend, trending, viral, inspired by, based on, remake or parody; name TikTok,
+Instagram, Reels, YouTube Shorts or Google Trends as a source; use a hashtag that names a trend, format or sound (use only general
+hashtags such as #cartoon #animation #funny #comedy #cartoons plus topic words like #roommates or #halloween); or mention tools, code,
+rendering, voices, scripts, scheduling or automation. Present every episode simply as an original cartoon. The trend research stays
+internal: only in the episode JSON's "trend" and "length_reason" fields and EPISODES.md.
+
 ## 1. Find the trend (every episode)
 Research before writing (WebSearch/WebFetch), US-focused, this week:
 - TikTok trends this month (e.g. newengen.com/insights "<month> <year> TikTok trends"; also "TikTok trending sounds this week")
