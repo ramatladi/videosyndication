@@ -1,0 +1,144 @@
+{
+ "id": "vra012",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.05,
+ "source_id": "okta:8319274",
+ "job": {
+  "employer": "Okta",
+  "logo": "okta",
+  "title": "Sr. Software Engineer, AI Platform & Infrastructure",
+  "short_title": "Sr. Software Engineer, AI Platform",
+  "location": "San Francisco, CA",
+  "workplace": "",
+  "pay": "$165K – $226.6K a year",
+  "pay_full": "$165,000 – $226,600 a year base salary (San Francisco Bay Area), plus equity (where applicable), bonus and benefits",
+  "type": "",
+  "posted": "",
+  "ref": "8319274",
+  "apply_url": "https://www.okta.com/company/careers/opportunity/8319274?gh_jid=8319274",
+  "apply_site": "okta.com/company/careers"
+ },
+ "details": {
+  "about": "Okta builds identity infrastructure that helps organisations adopt AI securely. The team that built Jeeva AI is now building Digital Workers, a new suite of autonomous agents for identity operations and security inside Okta, working directly with Okta's co-founder and CEO Todd McKinnon, with the chance to bring the product to Okta's 20,000+ customers. This engineer builds the backend and AWS platform that keeps these workers running around the clock: services, connectors, workflow execution, data and production reliability, mostly in Python and infrastructure code.",
+  "duties": [
+   "Build Python FastAPI services, data models and reusable connectors for Okta, AWS, ServiceNow and enterprise applications",
+   "Implement durable execution with Step Functions, SQS and EventBridge, handling approval waits, rate limits, duplicate events and safe retries",
+   "Manage PostgreSQL schemas, indexes, query performance and pgvector retrieval, and enforce tenant isolation across APIs, storage and credentials",
+   "Build model API access with credentials, quotas, timeouts and cost controls",
+   "Add an analytics pipeline for worker events, traces and outcomes, evaluating ClickHouse and comparable systems such as BigQuery",
+   "Create reliable usage records and reconciliation",
+   "Build deployment pipelines, infrastructure as code, observability and safe release controls",
+   "Implement scoped write services, kill switches, audit retention and backup recovery, and test failures"
+  ],
+  "needs": [
+   "Experience building and operating production backend or distributed systems, with strong coding skills in Python or a comparable language",
+   "Hands-on AWS experience with APIs, queues, containers, networking, IAM and databases",
+   "Strong SQL and data modeling skills, and experience diagnosing database performance and asynchronous system failures",
+   "Experience with infrastructure as code, deployment automation, observability and production incident response",
+   "Sound judgment about customer data, tenant isolation, credentials and safe changes to external systems"
+  ],
+  "nice": [
+   "ClickHouse, BigQuery or comparable analytics systems, event ingestion and usage metering",
+   "Multi-tenant SaaS, OAuth, OIDC, SAML, SCIM or enterprise connector development",
+   "Deploying agent frameworks (prior identity experience is optional)"
+  ],
+  "benefits": "Base salary $165,000 – $226,600 a year for candidates in the San Francisco Bay Area; actual pay depends on skills, qualifications, experience and location. Okta also offers equity (where applicable), bonus and benefits including health, dental and vision insurance, a 401(k), a flexible spending account and paid leave (including PTO and parental leave).",
+  "notes": [
+   "Stack: Python FastAPI, AWS Step Functions, Amazon Bedrock AgentCore, Lambda, SQS, EventBridge, API Gateway, containers, RDS PostgreSQL, pgvector, S3 Object Lock, KMS, Secrets Manager, CloudWatch, CloudTrail; React and AWS Amplify on the frontend",
+   "New hires start with an in-person onboarding experience"
+  ]
+ },
+ "yt_title": "Okta Is Hiring: Sr. Software Engineer, AI Platform | San Francisco, CA | $165K–$226.6K",
+ "hashtags": [
+  "#TechJobs",
+  "#SoftwareEngineer",
+  "#SanFranciscoJobs",
+  "#AWS",
+  "#Hiring"
+ ],
+ "tags": [
+  "okta jobs",
+  "senior software engineer jobs",
+  "backend engineer jobs",
+  "python jobs",
+  "aws jobs",
+  "ai platform engineer",
+  "san francisco tech jobs",
+  "tech jobs",
+  "jobs in usa",
+  "veritas recruitment agency"
+ ],
+ "scenes": [
+  {
+   "head": "The role",
+   "bullets": [
+    "Sr. Software Engineer",
+    "AI Platform & Infrastructure · Okta",
+    "San Francisco, California"
+   ],
+   "lines": [
+    "Now hiring in San Francisco! Okta wants a Senior Software Engineer to build the platform behind Digital Workers, its new autonomous agents for identity security.",
+    "The team works directly with Okta's C E O."
+   ],
+   "show": [
+    null,
+    "The team works directly with Okta's CEO."
+   ]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": [
+    "Python FastAPI services & connectors",
+    "Step Functions, SQS, EventBridge",
+    "PostgreSQL, tenant isolation, IaC"
+   ],
+   "lines": [
+    "You'll build Python FastAPI services and connectors on A W S, durable workflows with Step Functions and S Q S, and keep Postgres data fast and isolated."
+   ],
+   "show": [
+    "You'll build Python FastAPI services and connectors on AWS, durable workflows with Step Functions and SQS, and keep Postgres data fast and isolated."
+   ]
+  },
+  {
+   "head": "What you need",
+   "bullets": [
+    "Production backend / distributed systems",
+    "Python (or similar) · hands-on AWS",
+    "Strong SQL · infrastructure as code"
+   ],
+   "lines": [
+    "You'll need experience running production backend systems in Python or similar, hands-on A W S, strong S Q L, and infrastructure as code."
+   ],
+   "show": [
+    "You'll need experience running production backend systems in Python or similar, hands-on AWS, strong SQL, and infrastructure as code."
+   ]
+  },
+  {
+   "head": "Pay",
+   "bullets": [
+    "$165,000 – $226,600 a year (base)",
+    "Equity (where applicable) + bonus",
+    "Health, 401(k), PTO, parental leave"
+   ],
+   "lines": [
+    "Base pay is one hundred sixty-five thousand to two hundred twenty-six thousand six hundred dollars a year, plus bonus, equity where applicable, and benefits."
+   ],
+   "show": [
+    "Base pay is $165,000 to $226,600 a year, plus bonus, equity where applicable, and benefits."
+   ]
+  },
+  {
+   "head": "How to apply",
+   "bullets": [
+    "Application link in the description",
+    "Apply on Okta's careers site",
+    "Job ID 8319274"
+   ],
+   "lines": [
+    "To apply, find the direct application link in the description.",
+    "Follow Veritas for new tech jobs every day."
+   ]
+  }
+ ]
+}
