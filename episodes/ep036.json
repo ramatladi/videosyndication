@@ -1,0 +1,483 @@
+{
+ "engine": "cast",
+ "id": 36,
+ "slug": "say-it-again-cider-stand",
+ "title": "Say It Again, I'm Recording: The Cider Stand",
+ "trend": "TikTok/Instagram Reels 'Say It Again, I'm Recording' staged skit (a tense customer confrontation, the customer starts filming, and the employee flips it into an over-the-top sales pitch; Blue Bear Creative 'social media trends this week' list, week of Oct 21 2026, heat 3/4 - the hottest that week) + fall farm stand / apple cider donut season",
+ "target_seconds": 180,
+ "length_reason": "Quick one-clip skit format (the originals run well under a minute), so it stays at the short end; 180 s keeps it eligible for TikTok and Instagram too.",
+ "scene": "barn",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "say it again.",
+  "i'm recording.",
+  "the apple cider stand"
+ ],
+ "youtube_title": "Say It Again, I'm Recording: The Apple Cider Stand",
+ "description": "Darlene drives back to the farm stand to get four dollars back for cold donuts. She starts filming. That was her first mistake.\nBy the end she has a hayride ticket, a corn maze map and a cat who calls himself management.\n\n#cartoon #animation #funny #comedy #fall",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "fall",
+  "farm stand",
+  "apple cider donuts",
+  "customer service",
+  "talking cat"
+ ],
+ "tiktok_caption": "she wanted four dollars back from the farm stand #cartoon #animation #funny #comedy #fall",
+ "cast": [
+  {
+   "id": "darlene",
+   "name": "Darlene",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "ponytail",
+    "color": "#3b2a1a"
+   },
+   "top": {
+    "color": "#e84393",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "sunglasses"
+   ],
+   "brows": "angry",
+   "mouth": "flat",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "cody",
+   "name": "Cody",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.95,
+   "hair": {
+    "style": "curly",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "apron",
+    "pattern_color": "#f5e6c8"
+   },
+   "bottom": "#34495e",
+   "shoes": "#5d4037",
+   "accessories": [
+    "cap:#e67e22"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 1,
+    "tempo": 1.08
+   }
+  },
+  {
+   "id": "jug",
+   "name": "The Cider Jug",
+   "kind": "mascot",
+   "shape": "cup",
+   "color": "#d9822b",
+   "lid": "#8e5a2b",
+   "sleeve": "#f5e6c8",
+   "accessories": [
+    "glasses",
+    "tie:#2c3e50"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.94
+   }
+  },
+  {
+   "id": "mayor",
+   "name": "Mayor Pumpernickel",
+   "kind": "animal",
+   "ears": "cat",
+   "color": "#e67e22",
+   "belly": "#fbe3c4",
+   "scale": 1.05,
+   "top": {
+    "color": "#2c3e50",
+    "pattern": "suit",
+    "pattern_color": "#c0392b"
+   },
+   "accessories": [
+    "tophat"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "darlene",
+   "text": "Excuse me. These apple cider donuts are cold. I want my four dollars back.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "cody",
+   "text": "Ma'am, I hear you. Let me explain.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "darlene",
+   "text": "Oh, you'll explain. Say it again. I'm recording.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "cody",
+   "text": "Say it again? Gladly. These are the coldest donuts in the whole county.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "cody",
+   "text": "Chilled. On purpose. Hot donuts are for amateurs.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "darlene",
+   "text": "That is not a thing.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "jug",
+   "text": "It became a thing about four seconds ago.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "darlene",
+   "text": "Who said that? Is the cider talking?",
+   "shot": "darlene",
+   "pre": 0.6
+  },
+  {
+   "spk": "jug",
+   "text": "I am a jug, madam. I have been here since nine. I have seen things.",
+   "shot": "CU"
+  },
+  {
+   "spk": "cody",
+   "text": "Here is the move. Cold donut. Hot cider. Dunk it.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "darlene",
+   "text": "Okay. One dunk. For the video.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "darlene",
+   "text": "Oh no. Oh, that's good. Why is that good?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jug",
+   "text": "One large cider. Running total, eight dollars.",
+   "shot": "CU",
+   "after": "ding"
+  },
+  {
+   "spk": "darlene",
+   "text": "I came here to get money back, not spend it.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "darlene",
+   "text": "Also, there is hay in my shoe. Explain that. On camera.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "cody",
+   "text": "Say it again? That is not hay. That is a free sample of our hayride.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "cody",
+   "text": "Twelve minutes. One tractor. Earl drives.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "cody",
+   "text": "Earl waves at every cow by name. The cows wave back.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "darlene",
+   "text": "Cows do not wave.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "jug",
+   "text": "Not at you. You have not been on the hayride.",
+   "shot": "jug"
+  },
+  {
+   "spk": "darlene",
+   "text": "Fine. One hayride. Keep talking, I'm still recording.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "jug",
+   "text": "Running total, twenty one dollars.",
+   "shot": "CU"
+  },
+  {
+   "spk": "darlene",
+   "text": "Last thing. Your cat hissed at me in the parking lot.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "cody",
+   "text": "Ma'am. That is not a cat. That is Mayor Pumpernickel.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "mayor",
+   "text": "I do not hiss. I give feedback.",
+   "shot": "CU",
+   "pre": 0.5,
+   "after": "sting"
+  },
+  {
+   "spk": "darlene",
+   "text": "The cat talks too? What is in this cider?",
+   "shot": "darlene",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "mayor",
+   "text": "Apples, mostly. Say it again. I will wait.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "mayor",
+   "text": "Have you seen our corn maze? Forty acres. Two exits.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "mayor",
+   "text": "One of the exits is real.",
+   "shot": "CU",
+   "pre": 0.4
+  },
+  {
+   "spk": "darlene",
+   "text": "How long does it take to get out?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "mayor",
+   "text": "Most people are home by Thanksgiving.",
+   "shot": "CU"
+  },
+  {
+   "spk": "cody",
+   "text": "And every maze ticket comes with a pumpkin. You pick it. It picks you.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "darlene",
+   "text": "I want the lumpy one. The one that looks like my uncle.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "jug",
+   "text": "Maze, pumpkin, uncle. Running total, eighty seven dollars.",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "darlene",
+   "text": "Eighty seven? I came here for four dollars!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "cody",
+   "text": "And you are leaving with an experience.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "darlene",
+   "text": "That's it. Everybody is going to see this video.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "darlene",
+   "text": "Wait.",
+   "shot": "CU",
+   "pre": 1.0
+  },
+  {
+   "spk": "darlene",
+   "text": "The camera was flipped. I was recording my own face the whole time.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "jug",
+   "text": "How much of your face?",
+   "shot": "jug"
+  },
+  {
+   "spk": "darlene",
+   "text": "Forty minutes. It's just me. Nodding. Saying yes to a hayride.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "mayor",
+   "text": "You nodded beautifully. Very loyal customer energy.",
+   "shot": "CU"
+  },
+  {
+   "spk": "darlene",
+   "text": "Okay, but the donuts are still cold. Nobody explained why.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "jug",
+   "text": "The donut warmer works perfectly, madam.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jug",
+   "text": "Somebody sleeps on top of it from nine to five.",
+   "shot": "CU",
+   "pre": 0.3
+  },
+  {
+   "spk": "cody",
+   "text": "Mayor.",
+   "shot": "mayor",
+   "pre": 0.8
+  },
+  {
+   "spk": "mayor",
+   "text": "I am the warmest thing on this farm. That is called management.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "darlene",
+   "text": "So the cat is warm and the donuts are cold.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "mayor",
+   "text": "Everyone gets what they deserve.",
+   "shot": "CU"
+  },
+  {
+   "spk": "cody",
+   "text": "Ma'am, I am so sorry. Here is your four dollars.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "darlene",
+   "text": "Keep it. My sister wants a hayride. She saw the video.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "cody",
+   "text": "Two large ciders for the hayride, then?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "darlene",
+   "text": "Say it again. I'm recording. Camera facing the right way this time.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "cody",
+   "text": "The donuts are cold, ma'am.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "darlene",
+   "text": "I know. I'll take a dozen.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "applause"
+  },
+  {
+   "spk": "jug",
+   "text": "Running total, one hundred and twelve dollars.",
+   "shot": "CU"
+  },
+  {
+   "spk": "darlene",
+   "text": "Where do I go for a refund?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "mayor",
+   "text": "The corn maze. Second exit.",
+   "shot": "CU",
+   "after": "rimshot"
+  }
+ ]
+}
