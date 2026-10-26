@@ -64,6 +64,9 @@ Tasteful throughout: clearly adults, face visible, natural or glamour poses, no 
 body crops, no rear/thong-focused shots, no logos, text, watermarks or alcohol branding. Free Unsplash License only (never
 Unsplash+ / premium_photo), never reused (`ledger.json`). Landscape for the video (pre-crop to 16:9 if the centre crop would
 cut the head), portrait for the Short. **The photo credit is in the description only — never on the video.**
+For a video, the face must sit between the brand pill (top ~20% of the frame, and the slow zoom grows 12%) and the
+equalizer/title (below ~62%): when the subject's head is near the top of a landscape photo with plain sky above, run
+`python3 mirage/reframe.py photo.jpg photo_169.jpg --extend-top 130..200` and preview before building.
 Unsplash photo pages are read with WebFetch from search-result URLs; images download from images.unsplash.com.
 
 ## Text
