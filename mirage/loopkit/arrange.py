@@ -148,20 +148,44 @@ def master(mix, target_lufs):
 
 
 # ---------------------------------------------------------------- arrangement
-def sections(nbars):
-    """2:59 house form in bars; drop/outro absorb the remainder."""
-    s = [('intro', 16), ('build', 8), ('drop1', 16), ('break', 16), ('build2', 8), ('drop2', 16)]
-    used = sum(b for _, b in s)
-    # slower tempos (tropical 98-112 BPM) have fewer bars in 2:59: shorten intro, then break, so the outro gets >= 4 bars
-    for name in ('intro', 'break'):
-        if nbars - used >= 4: break
-        i = [n for n, _ in s].index(name); s[i] = (name, 8); used = sum(b for _, b in s)
-    s.append(('outro', max(4, nbars - used)))
+FORMS = {   # arrangement shapes (bars); drops and outro absorb the 2:59 remainder
+    'classic':      [('intro', 16), ('build', 8), ('drop1', 16), ('break', 16), ('build2', 8), ('drop2', 16)],
+    'early_drop':   [('intro', 8), ('drop1', 16), ('break', 8), ('build2', 8), ('drop2', 24)],
+    'hook_first':   [('tease', 4), ('build', 4), ('drop1', 16), ('break', 16), ('build2', 8), ('drop2', 16)],
+    'long_groove':  [('intro', 16), ('drop1', 24), ('break', 8), ('build2', 8), ('drop2', 16)],
+    'double_break': [('intro', 8), ('build', 8), ('drop1', 16), ('break', 8), ('drop1', 8), ('break', 8), ('build2', 8), ('drop2', 16)],
+}
+STYLE_FORMS = {'deep': ['classic', 'long_groove', 'double_break'], 'melodic': ['classic', 'double_break', 'long_groove'],
+               'afro': ['long_groove', 'classic', 'double_break'], 'tech': ['long_groove', 'classic'],
+               'progressive': ['classic', 'double_break', 'hook_first'], 'trance': ['classic', 'double_break', 'hook_first'],
+               'futurebass': ['hook_first', 'classic', 'early_drop'], 'tropical': ['early_drop', 'hook_first', 'classic']}
+DEFAULT_FORMS = ['classic', 'early_drop', 'hook_first']      # house, nu-disco, disco, French, soulful, vocal, indie dance
+
+
+def form_for(style, song_id):
+    opts = STYLE_FORMS.get(style, DEFAULT_FORMS)
+    return opts[int(hashlib.md5(str(song_id).encode()).hexdigest(), 16) % len(opts)]
+
+
+def sections(nbars, form='classic'):
+    """2:59 form in bars; slower tempos (tropical 98-112 BPM) have fewer bars: the longest intro/break/drop is cut by 4
+    until the outro keeps >= 4 bars."""
+    s = list(FORMS[form])
+    while nbars - sum(b for _, b in s) < 4:
+        i = max(range(len(s)), key=lambda j: (s[j][0] in ('intro', 'break', 'drop1', 'drop2', 'tease'), s[j][1]))
+        if s[i][1] <= 4: break
+        s[i] = (s[i][0], s[i][1] - 4)
+    turn = 0                                       # fast tempos have more bars: grow the drops by 8 so the outro stays 4-15 bars
+    while nbars - sum(b for _, b in s) >= 16:
+        names = [n for n, _ in s]; tgt = 'drop2' if turn % 2 == 0 or 'drop1' not in names else 'drop1'
+        i = len(names) - 1 - names[::-1].index(tgt); s[i] = (tgt, s[i][1] + 8); turn += 1
+    s.append(('outro', max(4, nbars - sum(b for _, b in s))))
     return s
 
 
 # which layers play in each section (and how)
 PLAN = {
+    'tease':  {'keys': 'lp', 'melody': 'lp', 'pad': 1},
     'intro':  {'tops': 1, 'drums': 'late', 'keys': 'lp', 'pad': 1},
     'build':  {'tops': 1, 'drums': 1, 'bass': 'hp', 'keys': 1, 'pad': 1, 'riser': 1},
     'drop1':  {'tops': 1, 'drums': 1, 'bass': 1, 'keys': 1, 'melody': 'half'},
@@ -211,11 +235,11 @@ def choose(lib, rng, key=None, bpm=None, force=None):
     return main, alt, top, pick, key, bpm
 
 
-def arrange(lib, seed, bpm=None, key=None, lufs=-11.0, force=None):
+def arrange(lib, seed, bpm=None, key=None, lufs=-11.0, force=None, form='classic'):
     rng = np.random.default_rng(seed)
     main, alt, top, pick, key, bpm = choose(lib, rng, key, bpm, force)
     bar = 4 * 60 / bpm; nbars = int(LEN / bar); N = int(LEN * SR)
-    S = sections(nbars)
+    S = sections(nbars, form)
     layers = {}
     layers['drums'] = level(stretch(main, bpm), TARGET_RMS['drums'])
     layers['drums_b'] = level(stretch(alt, bpm), TARGET_RMS['drums']) if alt else layers['drums']
@@ -265,6 +289,13 @@ def arrange(lib, seed, bpm=None, key=None, lufs=-11.0, force=None):
             for k8 in range(8, nb, 8):               # bar before each new 8: low cut on drums (a classic DJ lift)
                 p0 = a + int((k8 - 1) * bar * SR); p1 = a + int(k8 * bar * SR)
                 if p1 <= N: mix['drums'][p0:p1] = filt(mix['drums'][p0:p1], 'highpass', 250)
+        # variation inside long sections: a one-beat stop before bar 9 of drop 2, a filter dip on the keys in drop 1
+        if name == 'drop2' and nb >= 16:
+            p1 = a + int(8 * bar * SR); p0 = p1 - int(bar / 4 * SR)
+            for k in ('drums', 'tops', 'bass'): mix[k][p0:p1] *= 0.0
+        if name == 'drop1' and nb >= 16:
+            p0 = a + int(8 * bar * SR); p1 = min(b, a + int(12 * bar * SR))
+            mix['keys'][p0:p1] = sweep(mix['keys'][p0:p1], 'lowpass', 1400, 9000, 16)
         t += nb
     # sidechain-style ducking of bass/keys/pad on every beat where the kick plays
     beat = 60 / bpm; env = np.ones(N, np.float32); tt = np.arange(N) / SR
@@ -285,7 +316,7 @@ def arrange(lib, seed, bpm=None, key=None, lufs=-11.0, force=None):
     pre = out.copy()
     out, ach = master(out, lufs)
     used = {'drums': main, 'drums_b': alt, 'tops': top, **{c: p[0] for c, p in pick.items()}}
-    meta = {'seed': seed, 'bpm': bpm, 'key': key, 'target_lufs': lufs, 'achieved_lufs_master': ach, 'length_s': LEN,
+    meta = {'seed': seed, 'form': form, 'bpm': bpm, 'key': key, 'target_lufs': lufs, 'achieved_lufs_master': ach, 'length_s': LEN,
             'sections': sec_log,
             'loops': {k: ({kk: v[kk] for kk in ('name', 'id', 'title', 'uploader', 'url', 'bpm', 'key')} | ({'semitones': pick[k][1]} if k in pick else {}))
                       for k, v in used.items() if v},

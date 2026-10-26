@@ -152,9 +152,21 @@ def main():
     nb = bd.shape[1]; bar_w, gap, BHt = 14, 8, 110
     BWt = nb * bar_w + (nb - 1) * gap
     dx, dy = np.random.default_rng(len(a.title)).uniform(-1, 1, 2)
-    z = f"(1+0.12*(0.5-0.5*cos(PI*on/{nframes})))"
-    xs = f"(iw-iw/zoom)/2+{dx:.3f}*(iw-iw/zoom)/2*on/{nframes}"
-    ys = f"(ih-ih/zoom)/2+{dy:.3f}*(ih-ih/zoom)/2*on/{nframes}"
+    # camera move varies per release (seeded by the title): slow zoom in, slow zoom out, or a sideways drift
+    mode = ['zoom_in', 'zoom_out', 'drift'][sum(map(ord, a.title)) % 3]
+    if mode == 'zoom_in':
+        z = f"(1+0.12*(0.5-0.5*cos(PI*on/{nframes})))"
+    elif mode == 'zoom_out':
+        z = f"(1.12-0.10*(0.5-0.5*cos(PI*on/{nframes})))"
+    else:
+        z = "1.10"
+    if mode == 'drift':
+        sx = 1 if dx >= 0 else -1
+        xs = f"(iw-iw/zoom)*(0.5+{0.42 * sx:.2f}*(on/{nframes}-0.5))"
+        ys = "(ih-ih/zoom)/2"
+    else:
+        xs = f"(iw-iw/zoom)/2+{dx:.3f}*(iw-iw/zoom)/2*on/{nframes}"
+        ys = f"(ih-ih/zoom)/2+{dy:.3f}*(ih-ih/zoom)/2*on/{nframes}"
     fc = (f"[0:v]zoompan=z='{z}':x='{xs}':y='{ys}':d=1:s={W}x{H}:fps={FPS},format=rgba[bg];"
           f"[bg][1:v]overlay=0:0:format=auto[a];"
           f"[a][2:v]overlay=x={(W - BWt) // 2}:y={title_top - 40 - BHt}:format=auto[b];"

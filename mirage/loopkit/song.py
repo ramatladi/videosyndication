@@ -277,7 +277,8 @@ def render(spec, out, lufs=None):
             os.symlink(f, os.path.join(lib, cat, '_'.join([cat, parts[1], parts[2], tag] + parts[3:])))
             if not role.startswith('drums'): force[cat] = 'loop'
         L = AR.library(lib)
-        mix, meta = AR.arrange(L, 1, float(spec['bpm']), AR.parse_key(spec['key']), lufs, force)
+        form = spec.get('form') or AR.form_for(spec['style'], spec['id'])
+        mix, meta = AR.arrange(L, 1, float(spec['bpm']), AR.parse_key(spec['key']), lufs, force, form)
     sf.write(out, mix, SR, subtype='PCM_16')
     meta.update(id=spec['id'], title=spec['title'], artist=spec['artist'], style=spec['style'], key=spec['key'], bpm=spec['bpm'],
                 written_by_hand=True, reference=spec.get('reference'))
