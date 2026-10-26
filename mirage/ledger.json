@@ -1265,6 +1265,74 @@
     "dance": 0.141,
     "genre_fit": 0.833
    }
+  },
+  {
+   "release": "mtr017",
+   "date": "2026-10-26",
+   "slot": "2026-10-26T19:55",
+   "format": "short",
+   "title": "Papaya Tidepool",
+   "artist": "Coco Meridian",
+   "style": "tropical",
+   "key": "D major",
+   "bpm": 108,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr017.json",
+   "photographer": "Gabriel Dizzi",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-bikini-standing-on-a-rock-next-to-a-body-of-water-IeS81PiahD8",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-5070481694961743",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-17058441333552970354.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr017.mp3",
+    "top": [
+     [
+      "electronic",
+      0.291
+     ],
+     [
+      "chillout",
+      0.103
+     ],
+     [
+      "instrumental",
+      0.103
+     ],
+     [
+      "jazz",
+      0.102
+     ],
+     [
+      "dance",
+      0.09
+     ],
+     [
+      "electronica",
+      0.09
+     ],
+     [
+      "indie",
+      0.074
+     ],
+     [
+      "pop",
+      0.074
+     ],
+     [
+      "folk",
+      0.066
+     ],
+     [
+      "House",
+      0.063
+     ]
+    ],
+    "house": 0.063,
+    "electronic": 0.291,
+    "dance": 0.09,
+    "genre_fit": 0.681
+   }
   }
  ]
 }
