@@ -1,0 +1,128 @@
+{
+ "id": "mtr018",
+ "title": "Sundial Avenue",
+ "artist": "Saltglass Society",
+ "style": "deep",
+ "bpm": 125,
+ "key": "Em",
+ "loops": {
+  "keys": "0411226",
+  "melody": "0401975",
+  "melody2": "0384556",
+  "vocals": "0284556",
+  "drums_main": "0402571",
+  "drums_alt": "0399074",
+  "drums_tops": "0406398"
+ },
+ "chords": [
+  [
+   55,
+   59,
+   64,
+   67
+  ],
+  [
+   55,
+   60,
+   64,
+   71
+  ],
+  [
+   55,
+   59,
+   64,
+   67
+  ],
+  [
+   55,
+   60,
+   64,
+   71
+  ],
+  [
+   55,
+   59,
+   64,
+   67
+  ],
+  [
+   55,
+   60,
+   64,
+   71
+  ],
+  [
+   55,
+   59,
+   64,
+   67
+  ],
+  [
+   55,
+   60,
+   64,
+   71
+  ]
+ ],
+ "roots": [
+  28,
+  36,
+  28,
+  36,
+  28,
+  36,
+  28,
+  36
+ ],
+ "bass": {
+  "inst": "gm_bass_finger",
+  "pattern": [
+   [
+    0.0,
+    0.4,
+    0,
+    104
+   ],
+   [
+    0.75,
+    0.2,
+    12,
+    76
+   ],
+   [
+    1.5,
+    0.4,
+    0,
+    96
+   ],
+   [
+    2.5,
+    0.3,
+    7,
+    88
+   ],
+   [
+    3.0,
+    0.25,
+    12,
+    80
+   ],
+   [
+    3.5,
+    0.4,
+    7,
+    90
+   ]
+  ],
+  "release": 0.15
+ },
+ "pad": {
+  "layers": [
+   {
+    "inst": "string_section",
+    "vel": 46
+   }
+  ]
+ },
+ "notes": "Looperman loops (verified key + bar-exact): keys 'Dance Dance Dance', violin 'House Violin Loop', bells 'Mxpaa house starter bells', vocal 'autotuned ahs', drums 'Classic House', 'Deephouse dancerythm', 'Disco drums top'. Bass and pad hand-written (fallback: the bass/pad loops clashed with these chords)."
+}

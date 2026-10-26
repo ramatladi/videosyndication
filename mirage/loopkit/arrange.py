@@ -17,9 +17,9 @@ from scipy.ndimage import minimum_filter1d, uniform_filter1d
 
 SR = 44100
 LEN = 179.0
-CATS = ['drums', 'bass', 'keys', 'melody', 'pad', 'fx']
+CATS = ['drums', 'bass', 'keys', 'melody', 'melody2', 'pad', 'vocals', 'fx']
 NOTES = {'C': 0, 'D': 2, 'E': 4, 'F': 5, 'G': 7, 'A': 9, 'B': 11}
-TARGET_RMS = {'drums': -14.0, 'tops': -23.0, 'bass': -16.5, 'keys': -21.0, 'melody': -18.5, 'pad': -23.0, 'fx': -24.0}
+TARGET_RMS = {'drums': -14.0, 'tops': -23.0, 'bass': -16.5, 'keys': -21.0, 'melody': -18.5, 'pad': -23.0, 'fx': -24.0, 'melody2': -20.0, 'vocals': -20.0}
 
 
 # ---------------------------------------------------------------- library
@@ -39,6 +39,7 @@ def library(root):
         for r in csv.DictReader(open(csvf)): meta[r['file']] = r
     lib = {c: [] for c in CATS}
     for f in sorted(glob.glob(os.path.join(root, '*', '*.wav'))):
+        if os.sep + '_' in f[len(root):]: continue          # _unverified/ and other set-aside folders
         b = os.path.basename(f); parts = b.split('_')
         cat = parts[0]
         if cat not in lib or len(parts) < 3: continue
@@ -165,9 +166,9 @@ PLAN = {
     'build':  {'tops': 1, 'drums': 1, 'bass': 'hp', 'keys': 1, 'pad': 1, 'riser': 1},
     'drop1':  {'tops': 1, 'drums': 1, 'bass': 1, 'keys': 1, 'melody': 'half'},
     'break':  {'keys': 1, 'pad': 1, 'melody': 1, 'tops': 'tail'},
-    'build2': {'tops': 1, 'drums': 'hp', 'keys': 1, 'melody': 1, 'pad': 1, 'riser': 1},
-    'drop2':  {'tops': 1, 'drums': 1, 'bass': 1, 'keys': 1, 'melody': 1, 'pad': 'lo'},
-    'outro':  {'tops': 1, 'drums': 1, 'bass': 'fade', 'keys': 'fade'},
+    'build2': {'tops': 1, 'drums': 'hp', 'keys': 1, 'melody': 1, 'vocals': 'half', 'pad': 1, 'riser': 1},
+    'drop2':  {'tops': 1, 'drums': 1, 'bass': 1, 'keys': 1, 'melody': 1, 'melody2': 1, 'vocals': 'lo', 'pad': 'lo'},
+    'outro':  {'tops': 1, 'drums': 1, 'bass': 'fade', 'keys': 'fade', 'melody2': 'fade'},
 }
 
 
@@ -184,7 +185,7 @@ def choose(lib, rng, key=None, bpm=None, force=None):
     altp = [d for d in full if d is not main]
     alt = pickf(altp, 'alt')
     top = pickf(tops, 'top')
-    tonal = {c: lib[c] for c in ('bass', 'keys', 'melody', 'pad') if lib[c]}
+    tonal = {c: lib[c] for c in ('bass', 'keys', 'melody', 'melody2', 'pad', 'vocals') if lib.get(c)}
     # key: the requested one, else the key of a randomly chosen chord loop (keys > melody > bass > pad)
     if key is None:
         for c in ('keys', 'melody', 'bass', 'pad'):
@@ -201,7 +202,9 @@ def choose(lib, rng, key=None, bpm=None, force=None):
             else:
                 d = ((key[0] - i['key'][0] + 6) % 12) - 6
             if abs(d) <= 3: ok.append((i, d))
-        if ok: pick[c] = ok[rng.integers(len(ok))]
+        forced = [o for o in ok if force.get(c) and force[c] in o[0]['name']]
+        if forced: pick[c] = forced[0]
+        elif ok and not force.get(c): pick[c] = ok[rng.integers(len(ok))]
     if bpm is None:
         bpm = float(np.median([main['bpm']] + [p[0]['bpm'] for p in pick.values()]))
         bpm = float(np.clip(round(bpm), 118, 125))
@@ -218,7 +221,7 @@ def arrange(lib, seed, bpm=None, key=None, lufs=-11.0, force=None):
     layers['drums_b'] = level(stretch(alt, bpm), TARGET_RMS['drums']) if alt else layers['drums']
     if top: layers['tops'] = level(filt(stretch(top, bpm), 'lowpass', 13000), TARGET_RMS['tops'])
     for c, (item, d) in pick.items(): layers[c] = level(stretch(item, bpm, d), TARGET_RMS[c])
-    mix = {k: np.zeros((N, 2), np.float32) for k in ('drums', 'tops', 'bass', 'keys', 'melody', 'pad', 'fx')}
+    mix = {k: np.zeros((N, 2), np.float32) for k in ('drums', 'tops', 'bass', 'keys', 'melody', 'melody2', 'pad', 'vocals', 'fx')}
 
     def tile(x, a, b):
         """loop x (aligned to bar 0 of the song) from sample a to b"""
@@ -273,7 +276,7 @@ def arrange(lib, seed, bpm=None, key=None, lufs=-11.0, force=None):
     for k, depth in (('bass', 1.0), ('pad', 1.0), ('keys', .6)): mix[k] *= (1 - depth * (1 - env))[:, None]
     # tonal balance: bass mono below 150 Hz, keys/melody/pad cleared below 180 Hz
     mono = mix['bass'].mean(1, keepdims=True); lo = filt(mono, 'lowpass', 150); mix['bass'] = filt(mix['bass'], 'highpass', 150) + np.repeat(lo, 2, 1)
-    for k in ('keys', 'melody', 'pad', 'fx'): mix[k] = filt(mix[k], 'highpass', 180)
+    for k in ('keys', 'melody', 'melody2', 'pad', 'vocals', 'fx'): mix[k] = filt(mix[k], 'highpass', 180)
     out = sum(mix.values())
     # everything below 120 Hz mono (club/vinyl practice; QC requires side < -30 dB vs mid under 80 Hz)
     lo = ss.sosfiltfilt(ss.butter(4, 140, 'low', fs=SR, output='sos'), out, axis=0).astype('float32'); m = lo.mean(1, keepdims=True)
