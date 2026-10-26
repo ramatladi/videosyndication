@@ -68,10 +68,9 @@ download the WAVs one by one (`download_file_content`; files over ~5.5 MB fail),
   made in sessions with Sello and scheduled ahead (mtr018, mtr019 were the first).
 
 ## Schedule
-- **Six uploads a day (Sello, 23 Oct): 2 videos + 4 Shorts, every 4 hours (SAST):** 23:55 **video**, 03:55 Short, 07:55 Short,
-  11:55 **video**, 15:55 Short, 19:55 Short. Every upload is a different, hand-written song.
-- Three scheduled tasks share the day, each writing and scheduling two slots:
-  19:37 → 23:55 video + 03:55 Short (next day); 03:37 → 07:55 Short + 11:55 video; 11:37 → 15:55 Short + 19:55 Short.
+- **Four uploads a day (Sello, 26 Oct 2026): 2 videos + 2 Shorts (SAST):** 23:55 **video**, 07:55 Short, 11:55 **video**,
+  19:55 Short. (23-26 Oct it was six a day, adding 03:55 and 15:55 Shorts.) Every upload is a different song.
+- Two scheduled tasks share the day: 19:37 → 23:55 video + 07:55 Short (next day); 09:37 → 11:55 video + 19:55 Short.
 - The old-engine posts mtr009 (26 Oct 23:55) and mtr010 (27 Oct 03:55) were replaced before publishing by mtr014/mtr015.
 
 ## Photo (Sello, 23 Oct), in this order of preference
