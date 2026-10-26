@@ -1025,6 +1025,33 @@
     "dance": 0.134,
     "genre_fit": 0.862
    }
+  },
+  {
+   "release": "mtr013",
+   "date": "2026-10-26",
+   "slot": "2026-10-26T11:55",
+   "format": "video",
+   "title": "Sunbird Valley",
+   "artist": "Aurelle Vane",
+   "style": "melodic",
+   "key": "F# minor",
+   "bpm": 120,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr013.json",
+   "photographer": "Matas Katinas",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-bikini-standing-on-a-beach-GYxN5WTf1_4",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-8654299298559471786",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-785973431811077225.mp4",
+   "reference": {
+    "artist": "Nora En Pure",
+    "title": "Come With Me",
+    "data": "120 BPM, F# minor, Deep House; piano, strings, flute, tribal percussion",
+    "source": "mixgraph.io / Wikipedia"
+   },
+   "ears": {
+    "note": "not run (build interrupted after QC)"
+   }
   }
  ]
 }
