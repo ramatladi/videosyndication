@@ -6,7 +6,7 @@ Nothing here may mention AI.
     python3 mirage/describe.py --title T --style afro --key "C minor" --bpm 121 --format video|short \
         --mood "one line on the mood and instruments" --photographer NAME --photo-page URL
 """
-import argparse, json
+import argparse, re, json
 
 GENRE = {'disco': 'Disco', 'nudisco': 'Nu-Disco', 'afro': 'Afro House', 'deep': 'Deep House', 'melodic': 'Melodic House',
          'tropical': 'Tropical House', 'house': 'House', 'vocal': 'Vocal House', 'tech': 'Tech House', 'progressive': 'Progressive House',
@@ -32,13 +32,13 @@ USES = {'disco': 'sunset drives, rooftop parties and dancing at home', 'nudisco'
 PHOTO_TAG = {'bikini': 'bikini beach', 'fashion': 'summer fashion', 'nature': 'tropical scenery'}
 
 
-def make(title, style, key, bpm, fmt, mood, photographer, photo_page, photo_kind='bikini'):
+def make(title, style, key, bpm, fmt, mood, photographer, photo_page, photo_kind='bikini', artist='DJ Velvet Purple'):
     g = GENRE.get(style, style.title()); short = fmt == 'short'
-    yt_title = f'{title} - DJ Velvet Purple | {g} Instrumental' + (' #shorts' if short else '')
+    yt_title = f'{title} - {artist} | {g} Instrumental' + (' #shorts' if short else '')
     tags = TAGS.get(style, [g.lower().replace(' ', '').replace('-', '')])
-    hashtags = ' '.join('#' + t for t in tags + ['instrumental', 'summermix', 'DJVelvetPurple', 'MirageTropicalRecords'] + (['shorts'] if short else []))
+    hashtags = ' '.join('#' + t for t in tags + ['instrumental', 'summermix', re.sub(r'[^A-Za-z0-9]', '', artist), 'MirageTropicalRecords'] + (['shorts'] if short else []))
     text = '\n'.join([
-        f'🎧 DJ Velvet Purple - {title} ({g} Instrumental)',
+        f'🎧 {artist} - {title} ({g} Instrumental)',
         '',
         mood,
         '',
@@ -46,7 +46,7 @@ def make(title, style, key, bpm, fmt, mood, photographer, photo_page, photo_kind
         '👍 Like, comment and share if this one hits.',
         '',
         f'🎵 Track: {title}',
-        '🎤 Artist: DJ Velvet Purple',
+        f'🎤 Artist: {artist}',
         '💿 Label: Mirage Tropical Records',
         f'🎚 Genre: {g} (Instrumental)',
         f'🎹 Key: {key} · {bpm} BPM',
@@ -58,7 +58,7 @@ def make(title, style, key, bpm, fmt, mood, photographer, photo_page, photo_kind
         '',
         hashtags])
     tag_list = [g.lower(), f'{g.lower()} instrumental', f'{g.lower()} 2026', 'instrumental', 'house music', 'summer mix', 'beach vibes',
-                'DJ Velvet Purple', 'Mirage Tropical Records', title, f'DJ Velvet Purple {title}', PHOTO_TAG.get(photo_kind, 'summer vibes'), 'summer vibes', key]
+                artist, 'Mirage Tropical Records', title, f'{artist} {title}', PHOTO_TAG.get(photo_kind, 'summer vibes'), 'summer vibes', key]
     return {'yt_title': yt_title, 'description': text, 'tags': tag_list}
 
 
@@ -66,6 +66,7 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     for k in ('title', 'style', 'key', 'bpm', 'mood', 'photographer', 'photo-page'): ap.add_argument('--' + k, required=True)
     ap.add_argument('--format', choices=['video', 'short'], default='video')
+    ap.add_argument('--artist', default='DJ Velvet Purple')
     ap.add_argument('--photo-kind', choices=['bikini', 'fashion', 'nature'], default='bikini')
     a = ap.parse_args()
-    print(json.dumps(make(a.title, a.style, a.key, a.bpm, a.format, a.mood, a.photographer, a.photo_page, a.photo_kind), indent=1, ensure_ascii=False))
+    print(json.dumps(make(a.title, a.style, a.key, a.bpm, a.format, a.mood, a.photographer, a.photo_page, a.photo_kind, a.artist), indent=1, ensure_ascii=False))

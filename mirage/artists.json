@@ -1,0 +1,20 @@
+{
+ "note": "One act per sub-genre on Mirage Tropical Records (Sello, 26 Oct 2026: different artist names per sub-genre, not all DJs). Each name was web-checked for an obvious existing act before use.",
+ "artists": {
+  "deep":        {"name": "Saltglass Society",  "kind": "producer collective", "line": "late-night deep house from the coast"},
+  "melodic":     {"name": "Aurelle Vane",       "kind": "producer",            "line": "melodic, organic house with real strings and woodwinds"},
+  "house":       {"name": "DJ Saltwater",       "kind": "DJ",                  "line": "piano-driven sunshine house"},
+  "afro":        {"name": "Sahel Bloom",        "kind": "duo",                 "line": "afro house percussion and warm grooves"},
+  "tropical":    {"name": "Coco Meridian",      "kind": "producer",            "line": "tropical house for beach days"},
+  "futurebass":  {"name": "Prism Kites",        "kind": "duo",                 "line": "bright, bouncy future bass"},
+  "nudisco":     {"name": "Glossy Boulevard",   "kind": "band project",        "line": "nu-disco grooves with live bass and guitar"},
+  "progressive": {"name": "Northline Arc",      "kind": "producer",            "line": "emotional progressive house with big breakdowns"},
+  "tech":        {"name": "DJ Concrete Palm",   "kind": "DJ",                  "line": "rolling tech house for the late hours"},
+  "trance":      {"name": "Seraphine Tide",     "kind": "producer",            "line": "uplifting sunset trance"},
+  "vocal":       {"name": "Honey Static",       "kind": "duo",                 "line": "vocal-house energy, played on instruments"},
+  "soulful":     {"name": "Ellis Honeywell",    "kind": "keyboardist",         "line": "soulful house keys and Sunday grooves"},
+  "disco":       {"name": "Disco Lantern Club", "kind": "band project",        "line": "classic disco strings, brass and four-on-the-floor"},
+  "french":      {"name": "Les Nuits Pastel",   "kind": "duo",                 "line": "filtered French touch house"},
+  "indiedance":  {"name": "Neon Tamarind",      "kind": "band project",        "line": "indie dance with driving bass and guitars"}
+ }
+}

@@ -271,6 +271,9 @@ def arrange(lib, seed, bpm=None, key=None, lufs=-11.0, force=None):
     mono = mix['bass'].mean(1, keepdims=True); lo = filt(mono, 'lowpass', 150); mix['bass'] = filt(mix['bass'], 'highpass', 150) + np.repeat(lo, 2, 1)
     for k in ('keys', 'melody', 'pad', 'fx'): mix[k] = filt(mix[k], 'highpass', 180)
     out = sum(mix.values())
+    # everything below 120 Hz mono (club/vinyl practice; QC requires side < -30 dB vs mid under 80 Hz)
+    lo = ss.sosfiltfilt(ss.butter(4, 140, 'low', fs=SR, output='sos'), out, axis=0).astype('float32'); m = lo.mean(1, keepdims=True)
+    out = out - lo + np.repeat(m, 2, 1)
     fade = int(3 * SR); out[-fade:] *= np.linspace(1, 0, fade)[:, None]; out[:int(.02 * SR)] *= np.linspace(0, 1, int(.02 * SR))[:, None]
     pre = out.copy()
     out, ach = master(out, lufs)

@@ -24,8 +24,8 @@ def true_peak_db(x):
     return float(20 * np.log10(np.abs(up).max() + 1e-12))
 
 
-def encode(wav, mp3, m4a, title):
-    meta = ['-metadata', f'title={title}', '-metadata', 'artist=DJ Velvet Grey']
+def encode(wav, mp3, m4a, title, artist='DJ Velvet Grey'):
+    meta = ['-metadata', f'title={title}', '-metadata', f'artist={artist}']
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', wav, '-c:a', 'libmp3lame', '-b:a', '320k'] + meta + [mp3], check=True)
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', wav, '-c:a', 'aac', '-aac_coder', 'fast', '-b:a', '256k'] + meta + [m4a], check=True)
 
@@ -33,7 +33,7 @@ def encode(wav, mp3, m4a, title):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('master'); ap.add_argument('out_dir'); ap.add_argument('name')
-    ap.add_argument('--title', default=''); ap.add_argument('--ceiling', type=float, default=-1.3)
+    ap.add_argument('--title', default=''); ap.add_argument('--artist', default='DJ Velvet Grey'); ap.add_argument('--ceiling', type=float, default=-1.3)
     a = ap.parse_args()
     sr, x = wavfile.read(a.master)
     x = x.astype(np.float64) / (32768 if x.dtype == np.int16 else 1)
@@ -43,7 +43,7 @@ def main():
     for it in range(10):
         y = np.clip(x * 10 ** (gain_db / 20), -1, 1)
         wavfile.write(dwav, SR, (y * 32767).astype(np.int16))
-        encode(dwav, mp3, m4a, a.title)
+        encode(dwav, mp3, m4a, a.title, a.artist)
         tp = {'mp3': true_peak_db(decode(mp3)), 'aac': true_peak_db(decode(m4a)), 'pcm': true_peak_db(y)}
         worst = max(tp.values())
         log.append({'iteration': it, 'gain_db': round(gain_db, 2), **{k: round(v, 2) for k, v in tp.items()}})

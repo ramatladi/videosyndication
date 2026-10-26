@@ -44,11 +44,14 @@ def wrap(draw, text, f, maxw):
     return lines
 
 
+ARTIST = 'DJ Velvet Purple'          # set from --artist (one act per sub-genre, mirage/artists.json)
+
+
 def brand_badge(ov, cx, top, scale=1.0):
     """'DJ VELVET PURPLE' + 'Mirage Tropical Records' on a dark frosted pill with a purple rule and soft text shadow,
     so the brand stays legible on bright skies and white sand (Sello, 23 Oct)."""
-    fb = font('IBMPlexSans-SemiBold.ttf', int(40 * scale)); fr = font('IBMPlexSans-SemiBold.ttf', int(26 * scale))
-    brand = '  '.join('DJ VELVET PURPLE')
+    fb = font('IBMPlexSans-SemiBold.ttf', int((40 if len(ARTIST) <= 16 else 34) * scale)); fr = font('IBMPlexSans-SemiBold.ttf', int(26 * scale))
+    brand = '  '.join(ARTIST.upper())
     tmp = ImageDraw.Draw(ov)
     bw = tmp.textlength(brand, font=fb); rw = tmp.textlength('Mirage Tropical Records', font=fr)
     pw, ph = int(max(bw, rw) + 90 * scale), int(150 * scale)
@@ -129,8 +132,10 @@ def bands(audio_path, nframes, nb=40):
 def main():
     ap = argparse.ArgumentParser()
     for k in ('image', 'audio', 'title', 'style', 'credit', 'out'): ap.add_argument('--' + k, required=True)
+    ap.add_argument('--artist', default='DJ Velvet Purple')
     ap.add_argument('--aac', help='final AAC (.m4a) to copy into the MP4 unchanged (the stream QC measures)')
     a = ap.parse_args()
+    global ARTIST; ARTIST = a.artist
     sr, x = wavfile.read(a.audio)
     dur = len(x) / sr
     nframes = int(round(dur * FPS))
