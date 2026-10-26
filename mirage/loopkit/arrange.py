@@ -19,7 +19,7 @@ SR = 44100
 LEN = 179.0
 CATS = ['drums', 'bass', 'keys', 'melody', 'pad', 'fx']
 NOTES = {'C': 0, 'D': 2, 'E': 4, 'F': 5, 'G': 7, 'A': 9, 'B': 11}
-TARGET_RMS = {'drums': -13.0, 'tops': -21.0, 'bass': -16.5, 'keys': -19.5, 'melody': -19.0, 'pad': -23.0, 'fx': -24.0}
+TARGET_RMS = {'drums': -14.0, 'tops': -23.0, 'bass': -16.5, 'keys': -21.0, 'melody': -18.5, 'pad': -23.0, 'fx': -24.0}
 
 
 # ---------------------------------------------------------------- library
@@ -68,10 +68,11 @@ def stretch(item, bpm, semis=0, cache='/tmp/loopkit_cache'):
     os.makedirs(cache, exist_ok=True)
     h = hashlib.md5(f"{item['file']}|{bpm}|{semis}".encode()).hexdigest()[:16]
     out = os.path.join(cache, h + '.wav')
+    if not os.path.exists(out) and abs(item['bpm'] - bpm) < 1e-6 and semis == 0:
+        out = item['file']                                   # already at tempo and in key: untouched
     if not os.path.exists(out):
         ratio = item['bpm'] / bpm
         cmd = ['rubberband', '-q', '-3', '-T', f'{1 / ratio:.6f}', '-p', str(semis)]
-        if item['cat'] == 'drums': cmd += ['--formant'] if False else []
         subprocess.run(cmd + [item['file'], out], check=True, capture_output=True)
     x, sr = sf.read(out, always_2d=True, dtype='float32')
     if sr != SR: x = ss.resample_poly(x, SR, sr, axis=0).astype('float32')
@@ -122,7 +123,7 @@ def limit(x, ceiling_db=-2.8, look_ms=3.0, release_ms=60.0):
     return x * g[:, None]
 
 
-def glue(x, thr_db=-16, ratio=2.0, att=.01, rel=.15):
+def glue(x, thr_db=-10, ratio=1.6, att=.01, rel=.15):
     env = np.abs(x).max(1)
     a1, a2 = np.exp(-1 / (att * SR)), np.exp(-1 / (rel * SR))
     e = ss.lfilter([1 - a2], [1, -a2], env)
@@ -156,7 +157,7 @@ def sections(nbars):
 
 # which layers play in each section (and how)
 PLAN = {
-    'intro':  {'tops': 1, 'drums': 'lp', 'keys': 'lp', 'pad': 1},
+    'intro':  {'tops': 1, 'drums': 'late', 'keys': 'lp', 'pad': 1},
     'build':  {'tops': 1, 'drums': 1, 'bass': 'hp', 'keys': 1, 'pad': 1, 'riser': 1},
     'drop1':  {'tops': 1, 'drums': 1, 'bass': 1, 'keys': 1, 'melody': 'half'},
     'break':  {'keys': 1, 'pad': 1, 'melody': 1, 'tops': 'tail'},
@@ -166,17 +167,19 @@ PLAN = {
 }
 
 
-def choose(lib, rng, key=None, bpm=None):
+def choose(lib, rng, key=None, bpm=None, force=None):
     drums = [d for d in lib['drums']]
     if not drums: raise SystemExit('no drum loops')
     for d in drums:
         x, _ = sf.read(d['file'], always_2d=True, dtype='float32'); d['kick'] = kick_ratio(x)
     full = [d for d in drums if d['kick'] > .18] or drums
     tops = [d for d in drums if d['kick'] <= .18]
-    main = full[rng.integers(len(full))]
-    alt = [d for d in full if d is not main]
-    alt = alt[rng.integers(len(alt))] if alt else None
-    top = tops[rng.integers(len(tops))] if tops else None
+    force = force or {}
+    pickf = lambda pool, k: next((d for d in drums if force.get(k) and force[k] in d['name']), None) or (pool[rng.integers(len(pool))] if pool else None)
+    main = pickf(full, 'main')
+    altp = [d for d in full if d is not main]
+    alt = pickf(altp, 'alt')
+    top = pickf(tops, 'top')
     tonal = {c: lib[c] for c in ('bass', 'keys', 'melody', 'pad') if lib[c]}
     # key: the requested one, else the key of a randomly chosen chord loop (keys > melody > bass > pad)
     if key is None:
@@ -201,15 +204,15 @@ def choose(lib, rng, key=None, bpm=None):
     return main, alt, top, pick, key, bpm
 
 
-def arrange(lib, seed, bpm=None, key=None, lufs=-10.0):
+def arrange(lib, seed, bpm=None, key=None, lufs=-11.0, force=None):
     rng = np.random.default_rng(seed)
-    main, alt, top, pick, key, bpm = choose(lib, rng, key, bpm)
+    main, alt, top, pick, key, bpm = choose(lib, rng, key, bpm, force)
     bar = 4 * 60 / bpm; nbars = int(LEN / bar); N = int(LEN * SR)
     S = sections(nbars)
     layers = {}
     layers['drums'] = level(stretch(main, bpm), TARGET_RMS['drums'])
     layers['drums_b'] = level(stretch(alt, bpm), TARGET_RMS['drums']) if alt else layers['drums']
-    if top: layers['tops'] = level(stretch(top, bpm), TARGET_RMS['tops'])
+    if top: layers['tops'] = level(filt(stretch(top, bpm), 'lowpass', 13000), TARGET_RMS['tops'])
     for c, (item, d) in pick.items(): layers[c] = level(stretch(item, bpm, d), TARGET_RMS[c])
     mix = {k: np.zeros((N, 2), np.float32) for k in ('drums', 'tops', 'bass', 'keys', 'melody', 'pad', 'fx')}
 
@@ -234,6 +237,8 @@ def arrange(lib, seed, bpm=None, key=None, lufs=-10.0):
             if how == 'lp': seg = sweep(seg, 'lowpass', 300, 6000)
             elif how == 'hp': seg = sweep(seg, 'highpass', 30, 600)
             elif how == 'fade': seg *= np.linspace(1, 0, len(seg))[:, None] ** 1.5
+            elif how == 'late':                       # drums enter half-way through the intro, filtered open
+                h = len(seg) // 2; seg[:h] = 0; seg[h:] = sweep(seg[h:], 'lowpass', 400, 8000, 16)
             elif how == 'half':                       # melody only in the second half of drop1
                 seg[: len(seg) // 2] = 0
             elif how == 'tail':                       # tops fade out over the first 2 bars of the break
@@ -267,6 +272,7 @@ def arrange(lib, seed, bpm=None, key=None, lufs=-10.0):
     for k in ('keys', 'melody', 'pad', 'fx'): mix[k] = filt(mix[k], 'highpass', 180)
     out = sum(mix.values())
     fade = int(3 * SR); out[-fade:] *= np.linspace(1, 0, fade)[:, None]; out[:int(.02 * SR)] *= np.linspace(0, 1, int(.02 * SR))[:, None]
+    pre = out.copy()
     out, ach = master(out, lufs)
     used = {'drums': main, 'drums_b': alt, 'tops': top, **{c: p[0] for c, p in pick.items()}}
     meta = {'seed': seed, 'bpm': bpm, 'key': key, 'target_lufs': lufs, 'achieved_lufs_master': ach, 'length_s': LEN,
@@ -280,12 +286,13 @@ def arrange(lib, seed, bpm=None, key=None, lufs=-10.0):
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument('--lib', default='/home/claude/loops'); ap.add_argument('--seed', type=int, default=1)
-    ap.add_argument('--bpm', type=float); ap.add_argument('--key'); ap.add_argument('--lufs', type=float, default=-10.0)
+    ap.add_argument('--bpm', type=float); ap.add_argument('--key'); ap.add_argument('--lufs', type=float, default=-11.0)
     ap.add_argument('--out', required=True)
+    for k in ('main', 'alt', 'top'): ap.add_argument('--' + k)
     a = ap.parse_args()
     lib = library(a.lib)
     print({c: len(v) for c, v in lib.items()})
-    out, meta = arrange(lib, a.seed, a.bpm, parse_key(a.key) if a.key else None, a.lufs)
+    out, meta = arrange(lib, a.seed, a.bpm, parse_key(a.key) if a.key else None, a.lufs, {k: getattr(a, k) for k in ('main', 'alt', 'top')})
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
     sf.write(a.out, out, SR, subtype='PCM_16')
     json.dump(meta, open(os.path.splitext(a.out)[0] + '.json', 'w'), indent=1)
