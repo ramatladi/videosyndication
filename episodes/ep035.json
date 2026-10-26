@@ -1,0 +1,489 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 35,
+ "slug": "every-costume-was-the-sleeping-bag",
+ "title": "Every Costume Was The Sleeping Bag",
+ "trend": "TikTok + Instagram Reels Halloween 'Throwback Costume' (old photos of past costumes paired with a Halloween sound and on-screen text; New Engen 2026 Halloween TikTok & Reels list, peak the final week before Halloween). Zuri goes through Dad's throwback costume photos with the family photo album; Grandma Pearl reveals every costume for eleven years was the same green sleeping bag, including Zuri's baby frog costume and the tail of this year's dragon",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "throwback costumes",
+  "dad says he was",
+  "the best on the block"
+ ],
+ "youtube_title": "Dad's old Halloween costumes were all the same sleeping bag 🎃",
+ "description": "Zuri goes through Dad's old Halloween photos. The astronaut, the dinosaur, the superhero… and Grandma Pearl has a confession about the sleeping bag.\n\n#cartoon #animation #funny #halloween #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "halloween",
+  "halloween costume",
+  "family",
+  "grandma",
+  "dad"
+ ],
+ "tiktok_caption": "dad's old halloween costumes were all the same sleeping bag 🎃 #cartoon #animation #funny #halloween",
+ "cast": [
+  {
+   "id": "zuri",
+   "name": "Zuri",
+   "kind": "human",
+   "color": "#6b3e26",
+   "hair": {
+    "style": "afro",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#f4d03f",
+   "accessories": [
+    "bow:#f39c12"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "scale": 0.92,
+   "label_color": "#48c9b0",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 1,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "lamar",
+   "name": "Dad",
+   "kind": "human",
+   "color": "#5d3a1a",
+   "hair": {
+    "style": "short",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "94"
+   },
+   "bottom": "#34495e",
+   "shoes": "#2c3e50",
+   "accessories": [
+    "cap:#2c3e50"
+   ],
+   "brows": "raised",
+   "mouth": "smile",
+   "scale": 1.06,
+   "label_color": "#ec7063",
+   "voice": {
+    "id": "am_adam",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "pearl",
+   "name": "Grandma Pearl",
+   "kind": "human",
+   "color": "#7b4b2a",
+   "hair": {
+    "style": "bun",
+    "color": "#d5d8dc"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "dots",
+    "pattern_color": "#f5eef8"
+   },
+   "bottom": "#4a235a",
+   "shoes": "#2c3e50",
+   "accessories": [
+    "glasses",
+    "scarf:#f1c40f"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#bb8fce",
+   "voice": {
+    "id": "af_kore",
+    "pitch": -1,
+    "tempo": 0.94
+   }
+  },
+  {
+   "id": "album",
+   "name": "The Photo Album",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#a04000",
+   "accessories": [
+    "glasses",
+    "tie:#1a5276"
+   ],
+   "mouth": "flat",
+   "eye": "round",
+   "brows": "raised",
+   "label_color": "#e59866",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 0,
+    "tempo": 0.96
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "zuri",
+   "text": "Throwback costumes. Dad says his were the best on the whole block.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "lamar",
+   "text": "Not the block. The county.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "album",
+   "text": "Good evening. I am the family photo album. I have seen the county.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "zuri",
+   "text": "Okay, page one. Nineteen eighty eight.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "lamar",
+   "text": "The astronaut. Very scientific. Very brave.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "album",
+   "text": "Aluminum foil and a salad bowl.",
+   "shot": "CU"
+  },
+  {
+   "spk": "pearl",
+   "text": "My good salad bowl. I never saw it again.",
+   "shot": "pearl",
+   "gesture": "cross"
+  },
+  {
+   "spk": "lamar",
+   "text": "It was a helmet, Mom. It went to space.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pearl",
+   "text": "It went to the fire department. You got your head stuck.",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "zuri",
+   "text": "Dad, there are firemen in this picture.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "lamar",
+   "text": "My crew.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "album",
+   "text": "Page two. Nineteen ninety one.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lamar",
+   "text": "The dinosaur. Terrifying. Kids cried.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "album",
+   "text": "A green sleeping bag. With the zipper as teeth.",
+   "shot": "CU"
+  },
+  {
+   "spk": "zuri",
+   "text": "Why are you lying down in the photo?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "lamar",
+   "text": "Dinosaurs rest. It's very accurate.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pearl",
+   "text": "He fell asleep on the porch at six fifteen. I handed out candy around him.",
+   "shot": "pearl",
+   "gesture": "cross"
+  },
+  {
+   "spk": "album",
+   "text": "Three children asked if he was a cucumber.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "lamar",
+   "text": "A scary cucumber.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "zuri",
+   "text": "Page three. Nineteen ninety four. Dad, please.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "lamar",
+   "text": "The superhero. Captain Lamar. Fastest boy on Maple Street.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "album",
+   "text": "Grandma's tights, and a cape made from the shower curtain.",
+   "shot": "CU"
+  },
+  {
+   "spk": "pearl",
+   "text": "The shower curtain with the ducks.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "lamar",
+   "text": "They were eagles!",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "pearl",
+   "text": "They were ducks, Lamar. They came with the bath mat.",
+   "shot": "CU",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "zuri",
+   "text": "Why is the cape wet?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "album",
+   "text": "He took a shower before trick or treating. Without removing the cape.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lamar",
+   "text": "Superheroes stay clean.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "zuri",
+   "text": "So far, a salad bowl, a cucumber and a duck shower.",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "lamar",
+   "text": "Different times. We had imagination.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pearl",
+   "text": "We had one sleeping bag.",
+   "shot": "pearl"
+  },
+  {
+   "spk": "zuri",
+   "text": "Wait. What do you mean, one sleeping bag?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "album",
+   "text": "Page four. Nineteen ninety five. The ghost.",
+   "shot": "CU"
+  },
+  {
+   "spk": "album",
+   "text": "A green sleeping bag. With eye holes.",
+   "shot": "CU"
+  },
+  {
+   "spk": "zuri",
+   "text": "Green ghost?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pearl",
+   "text": "Very rare ghost.",
+   "shot": "CU"
+  },
+  {
+   "spk": "album",
+   "text": "Page five. The pumpkin. A green sleeping bag. Stuffed with leaves.",
+   "shot": "CU"
+  },
+  {
+   "spk": "album",
+   "text": "Page six. The race car. A green sleeping bag. On a skateboard.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lamar",
+   "text": "Mom. Was every costume the sleeping bag?",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "pre": 0.8
+  },
+  {
+   "spk": "pearl",
+   "text": "Eleven years. One sleeping bag. I was a genius.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "lamar",
+   "text": "I told my whole office I was a pirate in ninety seven!",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "album",
+   "text": "You were. The sleeping bag had a hat.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "zuri",
+   "text": "This is amazing. Okay, last page. Me, as a baby.",
+   "shot": "TWO",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "album",
+   "text": "Page twelve. Two thousand nine. The little frog.",
+   "shot": "CU"
+  },
+  {
+   "spk": "zuri",
+   "text": "I was so cute. Mom says Grandma sewed it by hand.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "album",
+   "text": "A green sleeping bag. Cut very small.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": [
+    "zuri",
+    "lamar"
+   ],
+   "text": "Grandma!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "pearl",
+   "text": "It was a good sleeping bag. It deserved a career.",
+   "shot": "pearl",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "zuri",
+   "text": "Okay, but this year I bought my own costume. With my own money.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pearl",
+   "text": "The dragon in the closet?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "zuri",
+   "text": "Yes. Why do you say it like that?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "pearl",
+   "text": "I had to hem the tail. It was very long.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "pearl",
+   "text": "So I added a little something from the garage.",
+   "shot": "CU"
+  },
+  {
+   "spk": "album",
+   "text": "It is green. It zips.",
+   "shot": "CU"
+  },
+  {
+   "spk": "zuri",
+   "text": "Grandma, no!",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "lamar",
+   "text": "Welcome to the county.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pearl",
+   "text": "Next year, the sleeping bag goes as a sleeping bag.",
+   "shot": "pearl",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "album",
+   "text": "I am saving page thirteen.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "applause"
+  }
+ ]
+}
