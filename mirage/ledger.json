@@ -1333,6 +1333,160 @@
     "dance": 0.09,
     "genre_fit": 0.681
    }
+  },
+  {
+   "release": "mtr018",
+   "date": "2026-10-27",
+   "slot": "2026-10-27T07:55",
+   "format": "short",
+   "title": "Sundial Avenue",
+   "artist": "Saltglass Society",
+   "style": "deep",
+   "key": "E minor",
+   "bpm": 125,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr018.json",
+   "photographer": "Keith Tanner",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-bikini-sitting-on-the-edge-of-a-pool-dxdASzd-bu0",
+   "photo_kind": "bikini",
+   "metricool_uuid": "5461188486492080132",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-9395277890932949698.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr018.mp3",
+    "top": [
+     [
+      "dance",
+      0.381
+     ],
+     [
+      "electronic",
+      0.369
+     ],
+     [
+      "House",
+      0.234
+     ],
+     [
+      "pop",
+      0.177
+     ],
+     [
+      "electronica",
+      0.097
+     ],
+     [
+      "electro",
+      0.085
+     ],
+     [
+      "female vocalists",
+      0.072
+     ],
+     [
+      "chillout",
+      0.07
+     ],
+     [
+      "90s",
+      0.034
+     ],
+     [
+      "indie",
+      0.034
+     ]
+    ],
+    "house": 0.234,
+    "electronic": 0.369,
+    "dance": 0.381,
+    "genre_fit": 0.91
+   },
+   "looperman": {
+    "keys": "0411226",
+    "melody": "0401975",
+    "melody2": "0384556",
+    "vocals": "0284556",
+    "drums_main": "0402571",
+    "drums_alt": "0399074",
+    "drums_tops": "0406398"
+   },
+   "source": "Looperman loops (verified) + hand-written fallback parts"
+  },
+  {
+   "release": "mtr019",
+   "date": "2026-10-27",
+   "slot": "2026-10-27T11:55",
+   "format": "video",
+   "title": "Velvet Boardwalk",
+   "artist": "Glossy Boulevard",
+   "style": "nudisco",
+   "key": "D minor",
+   "bpm": 122,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr019.json",
+   "photographer": "Matas Katinas",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-bikini-standing-on-a-beach-XpwUT96oArI",
+   "photo_kind": "bikini",
+   "metricool_uuid": "5498713252567469945",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-12097417163975691084.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr019.mp3",
+    "top": [
+     [
+      "electronic",
+      0.327
+     ],
+     [
+      "dance",
+      0.151
+     ],
+     [
+      "House",
+      0.121
+     ],
+     [
+      "electro",
+      0.102
+     ],
+     [
+      "funk",
+      0.099
+     ],
+     [
+      "electronica",
+      0.09
+     ],
+     [
+      "pop",
+      0.089
+     ],
+     [
+      "indie",
+      0.084
+     ],
+     [
+      "jazz",
+      0.069
+     ],
+     [
+      "chillout",
+      0.064
+     ]
+    ],
+    "house": 0.121,
+    "electronic": 0.327,
+    "dance": 0.151,
+    "genre_fit": 0.722
+   },
+   "looperman": {
+    "keys": "0402540",
+    "melody": "0310538",
+    "drums_main": "0396252",
+    "drums_alt": "0380238",
+    "drums_tops": "0401974"
+   },
+   "source": "Looperman loops (verified) + hand-written fallback parts"
   }
  ]
 }
