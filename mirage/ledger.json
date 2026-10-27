@@ -1555,6 +1555,74 @@
     "dance": 0.198,
     "genre_fit": 0.783
    }
+  },
+  {
+   "release": "mtr021",
+   "date": "2026-10-27",
+   "slot": "2026-10-27T23:55",
+   "format": "video",
+   "title": "Amber Porchlight",
+   "artist": "Ellis Honeywell",
+   "style": "soulful",
+   "key": "Ab major",
+   "bpm": 123,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr021.json",
+   "photographer": "Manny Moreno",
+   "photo_page": "https://unsplash.com/photos/woman-in-white-bikini-top-standing-on-beach-during-sunset-cwnE6pUF7Nk",
+   "photo_kind": "bikini",
+   "metricool_uuid": "5230167231197433495",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-7068718309048415864.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr021.mp3",
+    "top": [
+     [
+      "electronic",
+      0.388
+     ],
+     [
+      "jazz",
+      0.178
+     ],
+     [
+      "chillout",
+      0.132
+     ],
+     [
+      "electronica",
+      0.122
+     ],
+     [
+      "dance",
+      0.115
+     ],
+     [
+      "House",
+      0.11
+     ],
+     [
+      "electro",
+      0.085
+     ],
+     [
+      "ambient",
+      0.078
+     ],
+     [
+      "instrumental",
+      0.07
+     ],
+     [
+      "female vocalists",
+      0.048
+     ]
+    ],
+    "house": 0.11,
+    "electronic": 0.388,
+    "dance": 0.115,
+    "genre_fit": 0.788
+   }
   }
  ]
 }
