@@ -1,0 +1,176 @@
+{
+ "id": "vra014",
+ "format": "video",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "source_id": "gitlab:8771512002",
+ "job": {
+  "employer": "GitLab",
+  "logo": "gitlab",
+  "title": "Backend Engineer, Knowledge Graph (Rust)",
+  "short_title": "Backend Engineer, Rust",
+  "location": "Remote, United States",
+  "workplace": "All-remote",
+  "pay": "$115.2K – $162K a year",
+  "pay_full": "$115,200 – $162,000 a year base salary (United States range for this role's level; US residents)",
+  "type": "",
+  "posted": "",
+  "ref": "8771512002",
+  "apply_url": "https://job-boards.greenhouse.io/gitlab/jobs/8771512002",
+  "apply_site": "GitLab's job board (job-boards.greenhouse.io/gitlab)"
+ },
+ "details": {
+  "about": "GitLab is an intelligent orchestration platform for DevSecOps, with more than 50 million registered users and more than 50% of the Fortune 100 using it. This intermediate-level role is on the GitLab Orbit team in the Data Engineering organization, which builds and runs the Knowledge Graph: a Rust backend that turns GitLab's software development lifecycle (SDLC) and code data into a property graph, using ClickHouse, NATS JetStream and the Data Insights Platform, and serves secure graph queries and MCP tools to GitLab Duo agents and product features. In the first year you'd own specific components or features, such as parts of the SDLC indexing pipeline or query paths.",
+  "duties": [
+   "Build and improve features in the Rust-based Knowledge Graph service (query engine, SDLC and code indexing, API and MCP endpoints) with guidance from senior and staff engineers",
+   "Maintain integrations with the rest of GitLab: Rails, the Data Insights Platform (Siphon, NATS, ClickHouse) and the GitLab Duo Agent Platform",
+   "Contribute to system design discussions by proposing options, raising questions and documenting decisions",
+   "Improve operational maturity with metrics, logging, runbooks and alerts, and join the on-call rotation as appropriate for your level",
+   "Work asynchronously with product, data, infrastructure, security and AI counterparts to ship features safely",
+   "Use AI-assisted development workflows responsibly while keeping code quality high",
+   "Take part in code reviews, knowledge sharing and pairing",
+   "Pitch in across the stack when needed, including occasional Ruby work or small frontend changes"
+  ],
+  "needs": [
+   "Professional experience building and maintaining backend systems in production",
+   "Proficiency in at least one modern backend language and a strong interest in Rust: prior Rust experience or clear evidence you can ramp up quickly",
+   "Some exposure to distributed data or analytics systems (e.g. OLAP databases, Kafka- or NATS-style messaging, CDC pipelines), or strong motivation to learn them",
+   "Interest in graph data modeling and query patterns (property graphs, multi-step traversals, aggregations)",
+   "Practical experience with, or strong interest in, using AI tools in day-to-day development, with a thoughtful approach to checking their output",
+   "A language-agnostic mindset: able to pick up Ruby, Go or TypeScript/Vue as needed",
+   "Solid system design fundamentals for your level",
+   "Comfort in a low-process, high-ownership, all-remote team that communicates clearly in writing across time zones"
+  ],
+  "benefits": "US base salary range $115,200 – $162,000 a year for this role's level (for US residents; set through interviews and based on experience, skills and location; excludes bonuses, equity and benefits). GitLab supports full-time employees with benefits for health, finances and well-being, flexible paid time off, team member resource groups, equity compensation and an employee stock purchase plan, a growth and development fund, and parental leave.",
+  "notes": [
+   "Remote role open in the United States and Canada; the salary range applies to US residents",
+   "GitLab welcomes candidates who don't meet every single requirement",
+   "Accommodations are available during the recruiting process"
+  ]
+ },
+ "yt_title": "GitLab Is Hiring: Backend Engineer, Knowledge Graph (Rust) | Remote US | $115.2K–$162K",
+ "hashtags": [
+  "#TechJobs",
+  "#RemoteJobs",
+  "#RustLang",
+  "#BackendEngineer",
+  "#Hiring"
+ ],
+ "tags": [
+  "gitlab jobs",
+  "rust developer jobs",
+  "backend engineer jobs",
+  "remote software engineer jobs",
+  "remote tech jobs",
+  "knowledge graph",
+  "clickhouse",
+  "software engineer jobs",
+  "tech jobs",
+  "veritas recruitment agency"
+ ],
+ "scenes": [
+  {
+   "head": "Today's job",
+   "bullets": [
+    "Backend Engineer · GitLab",
+    "Knowledge Graph (Rust)",
+    "Remote · United States",
+    "Intermediate level"
+   ],
+   "lines": [
+    "Welcome to Veritas Recruitment Agency, where we bring you real tech jobs straight from employers' own careers sites.",
+    "Today, GitLab is hiring an intermediate Backend Engineer for its Knowledge Graph service, a remote role open across the United States.",
+    "You'll find the direct application link in the description."
+   ]
+  },
+  {
+   "head": "About the team",
+   "bullets": [
+    "50M+ registered users",
+    "GitLab Orbit · Data Engineering",
+    "Rust graph service for Duo agents & analytics"
+   ],
+   "lines": [
+    "GitLab's DevSecOps platform has more than fifty million registered users, and more than half of the Fortune one hundred use it.",
+    "This role is on the GitLab Orbit team, which builds a Rust service that turns GitLab's software development and code data into a graph, powering GitLab Duo agents, analytics, and product features."
+   ],
+   "show": [
+    "GitLab's DevSecOps platform has more than 50 million registered users, and more than half of the Fortune 100 use it.",
+    null
+   ]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": [
+    "Build features in the Rust Knowledge Graph",
+    "Maintain links to Rails, ClickHouse & NATS",
+    "Add metrics, runbooks & alerts · on-call",
+    "Code reviews, design talks, some Ruby"
+   ],
+   "lines": [
+    "You'll build features in the Rust Knowledge Graph service, from the query engine to indexing flows and A P I endpoints, with guidance from senior and staff engineers.",
+    "You'll keep its connections to the rest of GitLab working, including Rails, ClickHouse, and NATS.",
+    "You'll add metrics, logging, runbooks, and alerts, join on-call as fits your level, and take part in code reviews and design discussions.",
+    "Now and then, you'll also pitch in with some Ruby or small frontend changes."
+   ],
+   "show": [
+    "You'll build features in the Rust Knowledge Graph service, from the query engine to indexing flows and API endpoints, with guidance from senior and staff engineers.",
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "head": "What you need",
+   "bullets": [
+    "Production backend experience",
+    "A modern backend language + interest in Rust",
+    "Exposure to OLAP, Kafka/NATS or CDC (or keen to learn)",
+    "Async, all-remote, written communication"
+   ],
+   "lines": [
+    "You'll need professional experience building and running backend systems in production.",
+    "You should know at least one modern backend language and have a strong interest in Rust, with Rust experience or clear proof you can ramp up fast.",
+    "You'll also want some exposure to distributed data or analytics systems, like O L A P databases, Kafka or NATS-style messaging, or change data capture, or the drive to learn them, along with an interest in graph data modeling.",
+    "And you'll be comfortable in a low-process, high-ownership, all-remote team that communicates in writing across time zones."
+   ],
+   "show": [
+    null,
+    null,
+    "You'll also want some exposure to distributed data or analytics systems, like OLAP databases, Kafka or NATS-style messaging, or change data capture, or the drive to learn them, along with an interest in graph data modeling.",
+    null
+   ]
+  },
+  {
+   "head": "Pay & benefits",
+   "bullets": [
+    "$115,200 – $162,000 a year (US base)",
+    "Equity + employee stock purchase plan",
+    "Flexible paid time off · parental leave",
+    "Growth and development fund"
+   ],
+   "lines": [
+    "The U S base salary range is one hundred fifteen thousand two hundred to one hundred sixty-two thousand dollars a year.",
+    "Full-time team members also get flexible paid time off, equity and an employee stock purchase plan, a growth and development fund, parental leave, and benefits for health, finances, and well-being.",
+    "GitLab also encourages you to apply even if you don't meet every single requirement."
+   ],
+   "show": [
+    "The US base salary range is $115,200 to $162,000 a year.",
+    null,
+    null
+   ]
+  },
+  {
+   "head": "How to apply",
+   "bullets": [
+    "Application link in the description",
+    "Apply on GitLab's job board",
+    "Job ID 8771512002"
+   ],
+   "lines": [
+    "To apply, find the direct application link in the description below. It takes you straight to GitLab's careers site.",
+    "Subscribe to Veritas Recruitment Agency for new tech jobs across the United States, every day."
+   ]
+  }
+ ]
+}
