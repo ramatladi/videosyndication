@@ -1,0 +1,465 @@
+{
+ "engine": "cast",
+ "id": 37,
+ "slug": "nine-loaves-no-milk",
+ "title": "Nine Loaves, No Milk: The Storm Plan",
+ "trend": "TikTok 'Two Fishes' confident-defense format (face the camera and defend a shaky opinion with total confidence as if it is obvious; New Engen TikTok trends #1, updated Oct 26 2026) + 'winter storm' breakout on Google Trends US daily (Oct 27 2026)",
+ "target_seconds": 180,
+ "length_reason": "Quick one-clip talking-to-camera format (the originals run well under a minute), so it stays at the short end; 180 s keeps it eligible for TikTok and Instagram too.",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "hear me out.",
+  "my storm plan",
+  "makes total sense"
+ ],
+ "youtube_title": "Nine Loaves, No Milk: My Storm Plan Makes Total Sense",
+ "description": "Marcus has a plan for the big storm: nine loaves of bread, zero milk, one candle and every light in the house on. He can explain all of it.\nHis sister is not convinced, the thermostat has notes, and one loaf of bread would like a different family.\n\n#cartoon #animation #funny #comedy #winterstorm",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "winter storm",
+  "snow day",
+  "siblings",
+  "talking bread",
+  "family comedy"
+ ],
+ "tiktok_caption": "nine loaves, no milk. he can explain. #cartoon #animation #funny #comedy #winterstorm",
+ "cast": [
+  {
+   "id": "marcus",
+   "name": "Marcus",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "short",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#2c3e50",
+    "pattern": "suit",
+    "pattern_color": "#c0392b"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#111111",
+   "accessories": [
+    "tie:#c0392b"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "scale": 1.05,
+   "voice": {
+    "id": "am_michael",
+    "pitch": 0,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "priya",
+   "name": "Priya",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.95,
+   "hair": {
+    "style": "ponytail",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "glasses"
+   ],
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "thermo",
+   "name": "The Thermostat",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#ecebe4",
+   "accessories": [
+    "glasses",
+    "tie:#16a085"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "bread",
+   "name": "The Bread",
+   "kind": "mascot",
+   "shape": "toast",
+   "color": "#f3d9a4",
+   "crust": "#b9773a",
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "frown",
+   "accessories": [
+    "beanie:#2980b9"
+   ],
+   "scale": 0.9,
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.93
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "marcus",
+   "text": "Hear me out. Nine loaves of bread and zero milk. Perfect storm plan.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "priya",
+   "text": "Marcus, that's not a plan. That's a bakery with no customers.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "marcus",
+   "text": "Let me explain. I've explained this many times. Mostly to myself.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bread",
+   "text": "He has. I was there. I am the bread.",
+   "shot": "W",
+   "gesture": "shrug",
+   "after": "sting"
+  },
+  {
+   "spk": "marcus",
+   "text": "Milk goes bad. Bread never goes bad. It just becomes toast.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marcus",
+   "text": "Toast is bread with experience.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "bread",
+   "text": "I did not ask for experience.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "priya",
+   "text": "And when the toast gets old?",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marcus",
+   "text": "Cold toast is a cracker. Crackers last forever. Long term thinking.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "priya",
+   "text": "That is not how any of that works.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "boing"
+  },
+  {
+   "spk": "bread",
+   "text": "I have eight brothers in the pantry. We are all very nervous.",
+   "shot": "W",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "thermo",
+   "text": "Good evening. I'm the thermostat. A small note.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "thermo",
+   "text": "He has set me to seventy four. He calls it the beach setting.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marcus",
+   "text": "If the house is warm first, the cold gets embarrassed and leaves.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "priya",
+   "text": "The cold does not get embarrassed.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "marcus",
+   "text": "Ever walked into a party in the wrong outfit? Exactly.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "thermo",
+   "text": "I am working very hard. I can smell my own wires.",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "priya",
+   "text": "Why are you wearing a suit and tie in the kitchen?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "If the power goes out, I want to be dressed for the news crew.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "priya",
+   "text": "What news crew?",
+   "shot": "CU"
+  },
+  {
+   "spk": "marcus",
+   "text": "Every storm has a guy who was ready. I'm the guy.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "priya",
+   "text": "Okay. Why is every light in the house on?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marcus",
+   "text": "So the storm sees we're busy. It skips us. It goes to the Hendersons.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "priya",
+   "text": "The Hendersons are lovely people.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "marcus",
+   "text": "They can handle it. They have a snowblower and a great attitude.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "thermo",
+   "text": "The electric bill would like a word. It is crying.",
+   "shot": "W",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "priya",
+   "text": "Fine. Who is shoveling the driveway tomorrow?",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marcus",
+   "text": "Nobody. Snow melts. I'm just letting it finish.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "priya",
+   "text": "It melts in April.",
+   "shot": "CU"
+  },
+  {
+   "spk": "marcus",
+   "text": "Patience is a strategy, Priya.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "priya",
+   "text": "You also bought one candle. For the whole house.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "One candle. If we all sit very close, it's like nine candles.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marcus",
+   "text": "Snacks are sorted by mood. Brave snacks. Sad snacks. Emergency snacks.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "priya",
+   "text": "These are all bread.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "marcus",
+   "text": "Bread is a mood.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "sting"
+  },
+  {
+   "spk": "priya",
+   "text": "Marcus, I don't even think there is a storm.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "marcus",
+   "text": "Excuse me?",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "priya",
+   "text": "My weather says seventy eight and sunny. Palm tree icon. Very calm.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "thermo",
+   "text": "Oh dear. Priya, may I see that phone?",
+   "shot": "CU"
+  },
+  {
+   "spk": "thermo",
+   "text": "Your weather has been set to Florida since spring break.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "marcus",
+   "text": "You live in Florida on your phone.",
+   "shot": "CU",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "priya",
+   "text": "Okay. Hear me out.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "pre": 0.8
+  },
+  {
+   "spk": "priya",
+   "text": "If my phone thinks I'm in Florida, my body believes it. Science.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "thermo",
+   "text": "There are two of them now.",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "bread",
+   "text": "It runs in the family. Like the yeast.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "priya",
+   "text": "So no coat tomorrow. Florida people don't own coats.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "thermo",
+   "text": "I would like to report. Out the window. Snow.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.8
+  },
+  {
+   "spk": "all",
+   "text": "Oh no.",
+   "shot": "W",
+   "gesture": "facepalm",
+   "after": "whoosh"
+  },
+  {
+   "spk": "priya",
+   "text": "Okay. New plan. Make toast.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "See? Nine loaves. The plan was working the whole time.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "thermo",
+   "text": "The power is out. I'm still glowing. That's just my personality.",
+   "shot": "W",
+   "gesture": "shrug",
+   "pre": 0.8
+  },
+  {
+   "spk": "marcus",
+   "text": "No power means cold toast. Cold toast is a cracker. Forever.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "priya",
+   "text": "I hate that you were kind of right.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "bread",
+   "text": "I would like to speak to a different family.",
+   "shot": "W",
+   "gesture": "shrug",
+   "after": "applause"
+  }
+ ]
+}
