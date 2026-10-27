@@ -10,6 +10,39 @@
   ],
   "added": "2026-10-23"
  },
+ "cloudflare": {
+  "employer": "Cloudflare",
+  "file": "cloudflare.png",
+  "bg": "#FFFFFF",
+  "source": "https://www.cloudflare.com/ (site header wordmark, inline SVG)",
+  "size": [
+   5644,
+   476
+  ],
+  "added": "2026-10-27"
+ },
+ "datadog": {
+  "employer": "Datadog",
+  "file": "datadog.png",
+  "bg": "#632CA6",
+  "source": "https://corp.dd-static.net/img/dd_logos/png_logos/horizontal/dd_logo_h_white.png (datadoghq.com site logo)",
+  "size": [
+   1600,
+   392
+  ],
+  "added": "2026-10-27"
+ },
+ "gitlab": {
+  "employer": "GitLab",
+  "file": "gitlab.png",
+  "bg": "#171321",
+  "source": "https://about.gitlab.com/jobs/ (inline SVG header logo)",
+  "size": [
+   2000,
+   480
+  ],
+  "added": "2026-10-27"
+ },
  "mastercard": {
   "employer": "Mastercard",
   "file": "mastercard.png",
@@ -86,6 +119,17 @@
    479
   ],
   "added": "2026-10-26"
+ },
+ "sofi": {
+  "employer": "SoFi",
+  "file": "sofi.png",
+  "bg": "#FFFFFF",
+  "source": "https://d32ijn7u0aqfv4.cloudfront.net/git/svgs/sofi-logo.svg (sofi.com/careers header logo)",
+  "size": [
+   1660,
+   443
+  ],
+  "added": "2026-10-27"
  },
  "stripe": {
   "employer": "Stripe",
