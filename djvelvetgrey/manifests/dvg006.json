@@ -1,0 +1,136 @@
+{
+ "release_id": "dvg006",
+ "title": "Coral Kite Morning",
+ "style": "tropical",
+ "style_as_written": "tropical",
+ "status": "pass",
+ "created_utc": "2026-10-27T18:13:32Z",
+ "engine_version": "4.0.0",
+ "code_sha256": "a6e7fe5bfa06b572e6fc1db22f5cbe6241b8f3b8d4c3466c8ee443a8558294ba",
+ "files": {
+  "track_json": "/home/claude/videosyndication/djvelvetgrey/tracks/dvg006.json",
+  "photo": "/home/claude/videosyndication/djvelvetgrey/photos/dvg006.jpg",
+  "delivery_wav": "/home/claude/videosyndication/out/dvg006.delivery.wav",
+  "mp3": "/home/claude/videosyndication/out/dvg006.mp3",
+  "aac": "/home/claude/videosyndication/out/dvg006.m4a",
+  "mp4": "/home/claude/videosyndication/out/dvg006.mp4",
+  "qc_json": "/home/claude/videosyndication/out/dvg006.qc.json",
+  "meta_json": "/home/claude/videosyndication/out/dvg006.meta.json",
+  "export_json": "/home/claude/videosyndication/out/dvg006.export.json"
+ },
+ "repo_commit": "0120a03b7f2df842031e0a0dfe67ec377b03c319",
+ "repo_dirty": false,
+ "tools": {
+  "python": "3.13.17",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pyloudnorm": "installed",
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+  "soundfont": "FluidR3_GM.sf2",
+  "soundfont_sha256": "74594e8f4250680adf590507a306655a299935343583256f3b722c48a1bc1cb0",
+  "pyfluidsynth": "installed",
+  "fluidsynth": "FluidSynth runtime version 2.3.4"
+ },
+ "brief": {
+  "engine": "v2",
+  "style": "tropical",
+  "release": "dvg006",
+  "mood": "bright, carefree island morning on the water",
+  "bpm": 106,
+  "tonic": 57,
+  "progression": [
+   [
+    0,
+    "add9"
+   ],
+   [
+    9,
+    "m7"
+   ],
+   [
+    5,
+    "maj9"
+   ],
+   [
+    7,
+    "add9"
+   ]
+  ],
+  "mode": "major",
+  "lead": "marimba",
+  "answer": "flute",
+  "groove": {
+   "bass_a": "tropical",
+   "bass_b": "octave",
+   "swing": 0.01
+  },
+  "arc": "wave",
+  "loudness_lufs": -11.0,
+  "seed": 806221,
+  "motif": {
+   "cell": "question",
+   "contour": "valley",
+   "start": 69,
+   "candidate": 6,
+   "selected_by": "automatic: top compositional score without catalogue flags (not a listening judgement)"
+  }
+ },
+ "motif_selection": {
+  "cell": "question",
+  "contour": "valley",
+  "start": 69,
+  "candidate": 6,
+  "selected_by": "automatic: top compositional score without catalogue flags (not a listening judgement)"
+ },
+ "sha256": {
+  "track_json": "b1a1d6098f542d6966c38d0dacde911c7ff0f3af7bdf33450fa4af4760f9b401",
+  "photo": "fe30964ffd2628ccea1816ce653006024f2cfca1d6fd819ebad6daab481a1c5d",
+  "delivery_wav": "b9ddc5117db01d9abd7703117634ac22f97b5c88a5714e816a2f4d2a05217f73",
+  "mp3": "4457770ef3ba0f50f3480e86874bbd86f084fcc983cb862da337f21f791d4522",
+  "aac": "9d554a0a839720da5f20951ea5f66d6bb05b494acd2adae9703ed56ff7b43533",
+  "mp4": "391d0382e5f6afc25742ff8e78b954b1edc470e6fb363c78252015bcfb66b351",
+  "qc_json": "b9f8861f400af922dfd91c10be3bafb80bbfd879cc6577b97fcb8394151bde88",
+  "meta_json": "5929447223e527dbe821e45916eabf2d2d2f1790a50efe718fffd297641263aa",
+  "export_json": "1e424448798ce97d5e6329d9815bbc740b0651e4c5aafbfb27beebbc92b5064c"
+ },
+ "export": {
+  "gain_trim_db": 0.0,
+  "final": {
+   "iteration": 0,
+   "gain_db": 0.0,
+   "mp3": -1.79,
+   "aac": -1.46,
+   "pcm": -2.8
+  }
+ },
+ "qc": {
+  "status": "pass",
+  "files": {
+   "mp3": {
+    "decode_errors": null,
+    "duration_s": 179.0,
+    "true_peak_dbtp": -1.79,
+    "integrated_lufs": -11.24,
+    "samples_over_full_scale": 0
+   },
+   "mp4_audio": {
+    "decode_errors": null,
+    "duration_s": 179.003,
+    "true_peak_dbtp": -1.46,
+    "integrated_lufs": -11.27,
+    "samples_over_full_scale": 0
+   },
+   "wav": {
+    "duration_s": 179.0,
+    "true_peak_dbtp": -2.8,
+    "integrated_lufs": -11.24,
+    "samples_over_full_scale": 0
+   }
+  },
+  "click_suspects": [],
+  "outro_bars_heard": 11.1,
+  "stereo_correlation": 0.756
+ },
+ "assessment": "Automated technical checks only. Not listened to unless \"auditioned_by\" is set.",
+ "auditioned_by": null
+}
