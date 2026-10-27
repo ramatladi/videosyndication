@@ -436,5 +436,118 @@
    "bass_var": "ghost",
    "kick_var": "none"
   }
+ },
+ {
+  "id": "dvg006",
+  "title": "Coral Kite Morning",
+  "status": "published",
+  "style": "tropical",
+  "mode": "major",
+  "motif": {
+   "intervals": [
+    -1,
+    1,
+    0,
+    2,
+    2,
+    5
+   ],
+   "onsets": [
+    4,
+    6,
+    8,
+    12,
+    20,
+    22,
+    24
+   ],
+   "durs": [
+    2,
+    2,
+    4,
+    4,
+    2,
+    2,
+    8
+   ]
+  },
+  "answer_motif": {
+   "intervals": [
+    2,
+    0,
+    -2,
+    -2,
+    2
+   ],
+   "onsets": [
+    38,
+    40,
+    44,
+    52,
+    54,
+    56
+   ],
+   "durs": [
+    2,
+    4,
+    4,
+    2,
+    2,
+    8
+   ]
+  },
+  "bass_b": "octave",
+  "cell": "question",
+  "contour": "valley",
+  "progression": [
+   [
+    0,
+    "add9"
+   ],
+   [
+    9,
+    "m7"
+   ],
+   [
+    5,
+    "maj9"
+   ],
+   [
+    7,
+    "add9"
+   ]
+  ],
+  "template": "wave",
+  "bass_a": "tropical",
+  "lead": "marimba",
+  "answer": "flute",
+  "key": "A major",
+  "bpm": 106,
+  "sound": {
+   "flute": 0,
+   "glass": 2,
+   "marimba": 0,
+   "pluck": 2,
+   "rhodes": 2,
+   "strings": 0,
+   "kit": 7,
+   "hats": "synth",
+   "clap": "layer",
+   "perc": "acoustic",
+   "kick_layer": 0.4,
+   "voicing": "shell",
+   "comp": [
+    0,
+    false
+   ],
+   "hat_vars": [
+    0,
+    1
+   ],
+   "pad_src": "strings",
+   "arp": 5,
+   "bass_var": "ghost",
+   "kick_var": "pickup"
+  }
  }
 ]
