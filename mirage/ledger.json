@@ -1487,6 +1487,74 @@
     "drums_tops": "0401974"
    },
    "source": "Looperman loops (verified) + hand-written fallback parts"
+  },
+  {
+   "release": "mtr020",
+   "date": "2026-10-27",
+   "slot": "2026-10-27T19:55",
+   "format": "short",
+   "title": "Moonwater Terrace",
+   "artist": "Aurelle Vane",
+   "style": "melodic",
+   "key": "C# minor",
+   "bpm": 119,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr020.json",
+   "photographer": "Quan Nguyen",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-yellow-bikini-on-a-boat-RfMW64d7Kl0",
+   "photo_kind": "bikini",
+   "metricool_uuid": "703477231607172043",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-8557518749658185239.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr020.mp3",
+    "top": [
+     [
+      "electronic",
+      0.374
+     ],
+     [
+      "dance",
+      0.198
+     ],
+     [
+      "pop",
+      0.163
+     ],
+     [
+      "House",
+      0.118
+     ],
+     [
+      "electro",
+      0.109
+     ],
+     [
+      "indie",
+      0.104
+     ],
+     [
+      "electronica",
+      0.103
+     ],
+     [
+      "chillout",
+      0.073
+     ],
+     [
+      "female vocalists",
+      0.069
+     ],
+     [
+      "rock",
+      0.046
+     ]
+    ],
+    "house": 0.118,
+    "electronic": 0.374,
+    "dance": 0.198,
+    "genre_fit": 0.783
+   }
   }
  ]
 }

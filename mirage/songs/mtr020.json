@@ -1,0 +1,55 @@
+{
+ "id": "mtr020",
+ "title": "Moonwater Terrace",
+ "artist": "Aurelle Vane",
+ "style": "melodic",
+ "bpm": 119,
+ "key": "C#m",
+ "loops": {
+  "keys": "0362966",
+  "melody": "0398738",
+  "drums_main": "0431204",
+  "drums_alt": "0417884",
+  "drums_tops": "0401974"
+ },
+ "chords": [
+  [56, 61, 64, 69],
+  [56, 59, 64, 69],
+  [56, 61, 64, 71],
+  [54, 59, 61, 66]
+ ],
+ "roots": [33, 33, 37, 35],
+ "bass": {
+  "inst": "upright_bass",
+  "pattern": [
+   [0.0, 0.45, 0, 104],
+   [1.0, 0.25, 12, 72],
+   [1.5, 0.4, 0, 92],
+   [2.5, 0.3, 7, 86],
+   [3.0, 0.25, 12, 74],
+   [3.5, 0.4, 7, 88]
+  ],
+  "last_bar": [
+   [0.0, 0.45, 0, 104],
+   [1.0, 0.25, 12, 72],
+   [1.5, 0.4, 0, 92],
+   [2.5, 0.3, 7, 88],
+   [3.0, 0.3, 5, 86],
+   [3.5, 0.4, 2, 92]
+  ],
+  "release": 0.25
+ },
+ "pad": {
+  "layers": [
+   {"inst": "string_section", "vel": 46}
+  ],
+  "arp": {
+   "inst": "harp",
+   "order": [0, 2, 1, 3, 2, 1, 3, 0],
+   "shift": 12,
+   "gain": 0.45,
+   "vel": 68
+  }
+ },
+ "notes": "Looperman loops (verified key + bar-exact): keys 'Without You', sax melody 'Skink Sax', drums 'Deep House Drumz 120 BPM', 'Sunday Morning Beat', '2025-07-09 Nu-Disco Drum Loop'. Chords/roots, upright bass and string pad with harp arpeggio hand-written to follow the keys loop (Amaj7 - Amaj9 - C#m7 - Bsus2)."
+}
