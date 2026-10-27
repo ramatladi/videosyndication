@@ -1623,6 +1623,74 @@
     "dance": 0.115,
     "genre_fit": 0.788
    }
+  },
+  {
+   "release": "mtr022",
+   "date": "2026-10-28",
+   "slot": "2026-10-28T07:55",
+   "format": "short",
+   "title": "Silver Tideline",
+   "artist": "Northline Arc",
+   "style": "progressive",
+   "key": "B minor",
+   "bpm": 123,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr022.json",
+   "photographer": "Apostolos Vamvouras",
+   "photo_page": "https://unsplash.com/photos/woman-in-bikini-posing-on-seashore-DjIyZU3zF0c",
+   "photo_kind": "bikini",
+   "metricool_uuid": "488599260785363410",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-12805129931801033680.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr022.mp3",
+    "top": [
+     [
+      "electronic",
+      0.473
+     ],
+     [
+      "dance",
+      0.166
+     ],
+     [
+      "electronica",
+      0.136
+     ],
+     [
+      "electro",
+      0.125
+     ],
+     [
+      "House",
+      0.114
+     ],
+     [
+      "chillout",
+      0.089
+     ],
+     [
+      "ambient",
+      0.078
+     ],
+     [
+      "indie",
+      0.071
+     ],
+     [
+      "pop",
+      0.065
+     ],
+     [
+      "female vocalists",
+      0.051
+     ]
+    ],
+    "house": 0.114,
+    "electronic": 0.473,
+    "dance": 0.166,
+    "genre_fit": 0.849
+   }
   }
  ]
 }
