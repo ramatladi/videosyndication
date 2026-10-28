@@ -1,0 +1,37 @@
+{
+ "employer": "Toast",
+ "candidates": [
+  {
+   "page": "https://pos.toasttab.com/",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "page": "https://careers.toasttab.com/",
+   "kind": "og:image",
+   "source": "https://d25wby5c7p9100.cloudfront.net/public/uploads/d698635c92a50a0a70d2c9f23ff0beea/images/files/b4f044174f84ae290e1d1120f3ffa51e/original/career-banner_linkedin-03.png?1660162414",
+   "type": "image/png",
+   "file": "01.png"
+  },
+  {
+   "page": "https://careers.toasttab.com/",
+   "kind": "img",
+   "source": "https://files.clinchtalent.com/48b99a4f2f1d774d691f394a91e59190/8e859745bc490c0067d998c95d3eb5b6/toast-logo_color/toast-logo_color.png",
+   "type": "binary/octet-stream",
+   "file": "02.png"
+  },
+  {
+   "page": "https://careers.toasttab.com/",
+   "kind": "img",
+   "source": "https://d25wby5c7p9100.cloudfront.net/public/uploads/d698635c92a50a0a70d2c9f23ff0beea/images/files/82864484eb6c322bf8e91ba978712c14/medium/Logo_Stack_Color_%281%29.png?1705090585",
+   "type": "image/png",
+   "file": "03.png"
+  },
+  {
+   "page": "https://careers.toasttab.com/",
+   "kind": "img",
+   "source": "https://d25wby5c7p9100.cloudfront.net/public/uploads/d698635c92a50a0a70d2c9f23ff0beea/companies/logos/d698635c92a50a0a70d2c9f23ff0beea/thumb/toastlogo.png?1641234910",
+   "type": "image/png",
+   "file": "04.png"
+  }
+ ]
+}

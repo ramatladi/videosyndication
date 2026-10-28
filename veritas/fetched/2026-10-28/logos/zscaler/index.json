@@ -1,0 +1,138 @@
+{
+ "employer": "Zscaler",
+ "candidates": [
+  {
+   "page": "https://www.zscaler.com/",
+   "kind": "jsonld",
+   "source": "https://www.zscaler.com/assets/images/logo_blue.svg",
+   "type": "image/svg+xml",
+   "file": "01.svg"
+  },
+  {
+   "page": "https://www.zscaler.com/",
+   "kind": "og:image",
+   "source": "https://www.zscaler.com/assets/images/zscaler-og-image.jpg",
+   "type": "image/webp",
+   "file": "02.jpg"
+  },
+  {
+   "page": "https://www.zscaler.com/",
+   "kind": "img",
+   "source": "https://www.zscaler.com/_next/image?url=https%3A%2F%2Fcms.zscaler.com%2Fsites%2Fdefault%2Ffiles%2Fcustomers%2Flogo%2Fair-asia%25402x.png.png&w=768&q=75",
+   "type": "image/webp",
+   "file": "03.img"
+  },
+  {
+   "page": "https://www.zscaler.com/",
+   "kind": "img",
+   "source": "https://www.zscaler.com/_next/image?url=https%3A%2F%2Fcms.zscaler.com%2Fsites%2Fdefault%2Ffiles%2Fcustomers%2Flogo%2Fair-france-klm%25402x.png.png&w=768&q=75",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "page": "https://www.zscaler.com/",
+   "kind": "img",
+   "source": "https://www.zscaler.com/_next/image?url=https%3A%2F%2Fcms.zscaler.com%2Fsites%2Fdefault%2Ffiles%2Fcustomers%2Flogo%2Fasian-paints%25402x.png.png&w=768&q=75",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "page": "https://www.zscaler.com/",
+   "kind": "img",
+   "source": "https://www.zscaler.com/_next/image?url=https%3A%2F%2Fcms.zscaler.com%2Fsites%2Fdefault%2Ffiles%2Fcustomers%2Flogo%2Fblue-diamond.png&w=600&q=75",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "page": "https://www.zscaler.com/",
+   "kind": "img",
+   "source": "https://www.zscaler.com/_next/image?url=https%3A%2F%2Fcms.zscaler.com%2Fsites%2Fdefault%2Ffiles%2Fcustomers%2Flogo%2Fbritish-council%25402x.png.png&w=768&q=75",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "page": "https://www.zscaler.com/",
+   "kind": "img",
+   "source": "https://www.zscaler.com/_next/image?url=https%3A%2F%2Fcms.zscaler.com%2Fsites%2Fdefault%2Ffiles%2Fcustomers%2Flogo%2FBritish-insurance-services%25402x.png&w=600&q=75",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "page": "https://www.zscaler.com/",
+   "kind": "img",
+   "source": "https://www.zscaler.com/_next/image?url=https%3A%2F%2Fcms.zscaler.com%2Fsites%2Fdefault%2Ffiles%2Fcustomers%2Flogo%2Fcable-_-wireless%25402x.png.png&w=768&q=75",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "page": "https://www.zscaler.com/",
+   "kind": "img",
+   "source": "https://www.zscaler.com/_next/image?url=https%3A%2F%2Fcms.zscaler.com%2Fsites%2Fdefault%2Ffiles%2Fcustomers%2Flogo%2Fcenet%25402x.png.png&w=768&q=75",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "page": "https://www.zscaler.com/",
+   "kind": "img",
+   "source": "https://www.zscaler.com/_next/image?url=https%3A%2F%2Fcms.zscaler.com%2Fsites%2Fdefault%2Ffiles%2Fcustomers%2Flogo%2Feramet%25402x.png&w=600&q=75",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "page": "https://www.zscaler.com/",
+   "kind": "img",
+   "source": "https://www.zscaler.com/_next/image?url=https%3A%2F%2Fcms.zscaler.com%2Fsites%2Fdefault%2Ffiles%2Fcustomers%2Flogo%2Fgraphic-packaging-international%25402x.png.png&w=768&q=75",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "page": "https://www.zscaler.com/",
+   "kind": "img",
+   "source": "https://www.zscaler.com/_next/image?url=https%3A%2F%2Fcms.zscaler.com%2Fsites%2Fdefault%2Ffiles%2Fcustomers%2Flogo%2Fgwf%25402x.png.png&w=768&q=75",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "page": "https://www.zscaler.com/",
+   "kind": "img",
+   "source": "https://www.zscaler.com/_next/image?url=https%3A%2F%2Fcms.zscaler.com%2Fsites%2Fdefault%2Ffiles%2Fcustomers%2Flogo%2Fhammill%25402x.png.png&w=768&q=75",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "page": "https://www.zscaler.com/careers",
+   "kind": "jsonld",
+   "source": "https://www.zscaler.com/assets/images/logo_blue.svg",
+   "type": "image/svg+xml",
+   "file": "04.svg"
+  },
+  {
+   "page": "https://www.zscaler.com/careers",
+   "kind": "og:image",
+   "source": "https://www.zscaler.com/assets/images/zscaler-og-image.jpg",
+   "type": "image/webp",
+   "file": "05.jpg"
+  },
+  {
+   "page": "https://www.zscaler.com/careers",
+   "kind": "inline-svg",
+   "source": "https://www.zscaler.com/careers (inline SVG)",
+   "file": "06.svg"
+  },
+  {
+   "page": "https://www.zscaler.com/careers",
+   "kind": "inline-svg",
+   "source": "https://www.zscaler.com/careers (inline SVG)",
+   "file": "07.svg"
+  },
+  {
+   "page": "https://www.zscaler.com/careers",
+   "kind": "inline-svg",
+   "source": "https://www.zscaler.com/careers (inline SVG)",
+   "file": "08.svg"
+  },
+  {
+   "page": "https://www.zscaler.com/careers",
+   "kind": "icon",
+   "source": "https://www.zscaler.com/favicons/apple-touch-icon.png",
+   "type": "image/webp",
+   "file": "09.png"
+  },
+  {
+   "page": "https://www.zscaler.com/careers",
+   "kind": "icon",
+   "source": "https://www.zscaler.com/favicons/safari-pinned-tab.svg",
+   "type": "image/svg+xml",
+   "file": "10.svg"
+  }
+ ]
+}

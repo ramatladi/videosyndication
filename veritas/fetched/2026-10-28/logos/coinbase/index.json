@@ -1,0 +1,143 @@
+{
+ "employer": "Coinbase",
+ "candidates": [
+  {
+   "page": "https://www.coinbase.com/",
+   "kind": "jsonld",
+   "source": "https://www.coinbase.com/images/logo.png",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "page": "https://www.coinbase.com/",
+   "kind": "og:image",
+   "source": "https://images.ctfassets.net/o10es7wu5gm1/6jPp0W7xH2Pe8kwUS79ZSm/6b586189286c46e545329dbe643f74d6/CB_blog_image.png",
+   "type": "image/jpeg",
+   "file": "01.png"
+  },
+  {
+   "page": "https://www.coinbase.com/",
+   "kind": "img",
+   "source": "https://static-assets.coinbase.com/ui-infra/illustration/v1/pictogram/svg/light/coinbaseLogoNavigation-4.svg",
+   "type": "image/svg+xml",
+   "file": "02.svg"
+  },
+  {
+   "page": "https://www.coinbase.com/",
+   "kind": "img",
+   "source": "https://static-assets.coinbase.com/marketing/cdx/x-light.svg",
+   "type": "image/svg+xml",
+   "file": "03.svg"
+  },
+  {
+   "page": "https://www.coinbase.com/",
+   "kind": "img",
+   "source": "https://static-assets.coinbase.com/marketing/cdx/linkedin-light.svg",
+   "type": "image/svg+xml",
+   "file": "04.svg"
+  },
+  {
+   "page": "https://www.coinbase.com/",
+   "kind": "img",
+   "source": "https://static-assets.coinbase.com/marketing/cdx/instagram-light.svg",
+   "type": "image/svg+xml",
+   "file": "05.svg"
+  },
+  {
+   "page": "https://www.coinbase.com/",
+   "kind": "img",
+   "source": "https://static-assets.coinbase.com/marketing/cdx/tiktok-light.svg",
+   "type": "image/svg+xml",
+   "file": "06.svg"
+  },
+  {
+   "page": "https://www.coinbase.com/",
+   "kind": "icon",
+   "source": "https://www.coinbase.com/assets/sw-cache/a_GRKmPJt5.png",
+   "type": "image/png",
+   "file": "07.png"
+  },
+  {
+   "page": "https://www.coinbase.com/",
+   "kind": "icon",
+   "source": "https://www.coinbase.com/assets/sw-cache/a_Ct1dkDsA.png",
+   "type": "image/png",
+   "file": "08.png"
+  },
+  {
+   "page": "https://www.coinbase.com/",
+   "kind": "icon",
+   "source": "https://www.coinbase.com/assets/sw-cache/a_BIaaMV9S.png",
+   "type": "image/png",
+   "file": "09.png"
+  },
+  {
+   "page": "https://www.coinbase.com/careers",
+   "kind": "jsonld",
+   "source": "https://www.coinbase.com/images/logo.png",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "page": "https://www.coinbase.com/careers",
+   "kind": "og:image",
+   "source": "https://images.ctfassets.net/o10es7wu5gm1/31TX2glBScJCwQcqEcHvnK/4eecdc0f4633ce6fff3f856b50c5106c/earth.jpg",
+   "type": "image/jpeg",
+   "file": "10.jpg"
+  },
+  {
+   "page": "https://www.coinbase.com/careers",
+   "kind": "img",
+   "source": "https://static-assets.coinbase.com/ui-infra/illustration/v1/pictogram/svg/dark/coinbaseLogoNavigation-4.svg",
+   "type": "image/svg+xml",
+   "file": "11.svg"
+  },
+  {
+   "page": "https://www.coinbase.com/careers",
+   "kind": "img",
+   "source": "https://static-assets.coinbase.com/marketing/cdx/x-dark.svg",
+   "type": "image/svg+xml",
+   "file": "12.svg"
+  },
+  {
+   "page": "https://www.coinbase.com/careers",
+   "kind": "img",
+   "source": "https://static-assets.coinbase.com/marketing/cdx/linkedin-dark.svg",
+   "type": "image/svg+xml",
+   "file": "13.svg"
+  },
+  {
+   "page": "https://www.coinbase.com/careers",
+   "kind": "img",
+   "source": "https://static-assets.coinbase.com/marketing/cdx/instagram-dark.svg",
+   "type": "image/svg+xml",
+   "file": "14.svg"
+  },
+  {
+   "page": "https://www.coinbase.com/careers",
+   "kind": "img",
+   "source": "https://static-assets.coinbase.com/marketing/cdx/tiktok-dark.svg",
+   "type": "image/svg+xml",
+   "file": "15.svg"
+  },
+  {
+   "page": "https://www.coinbase.com/careers",
+   "kind": "icon",
+   "source": "https://www.coinbase.com/assets/sw-cache/a_GRKmPJt5.png",
+   "type": "image/png",
+   "file": "16.png"
+  },
+  {
+   "page": "https://www.coinbase.com/careers",
+   "kind": "icon",
+   "source": "https://www.coinbase.com/assets/sw-cache/a_Ct1dkDsA.png",
+   "type": "image/png",
+   "file": "17.png"
+  },
+  {
+   "page": "https://www.coinbase.com/careers",
+   "kind": "icon",
+   "source": "https://www.coinbase.com/assets/sw-cache/a_BIaaMV9S.png",
+   "type": "image/png",
+   "file": "18.png"
+  }
+ ]
+}

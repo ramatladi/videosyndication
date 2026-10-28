@@ -1,0 +1,73 @@
+{
+ "employer": "Airbnb",
+ "candidates": [
+  {
+   "page": "https://www.airbnb.com/",
+   "kind": "og:image",
+   "source": "https://a0.muscache.com/im/pictures/fe7217ff-0b24-438d-880d-b94722c75bf5.jpg?im_w=1200",
+   "type": "image/webp",
+   "file": "01.jpg"
+  },
+  {
+   "page": "https://www.airbnb.com/",
+   "kind": "icon",
+   "source": "https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-76x76-3b313d93b1b5823293524b9764352ac9.png",
+   "type": "image/png",
+   "file": "02.png"
+  },
+  {
+   "page": "https://www.airbnb.com/",
+   "kind": "icon",
+   "source": "https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-120x120-52b1adb4fe3a8f825fc4b143de12ea4b.png",
+   "type": "image/png",
+   "file": "03.png"
+  },
+  {
+   "page": "https://www.airbnb.com/",
+   "kind": "icon",
+   "source": "https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-152x152-7b7c6444b63d8b6ebad9dae7169e5ed6.png",
+   "type": "image/png",
+   "file": "04.png"
+  },
+  {
+   "page": "https://www.airbnb.com/",
+   "kind": "icon",
+   "source": "https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-180x180-bcbe0e3960cd084eb8eaf1353cf3c730.png",
+   "type": "image/png",
+   "file": "05.png"
+  },
+  {
+   "page": "https://www.airbnb.com/",
+   "kind": "icon",
+   "source": "https://a0.muscache.com/pictures/airbnb-platform-assets/AirbnbPlatformAssets-Favicons/original/304e8c59-05df-4fab-9846-f69fd7f749b0.svg?im_w=240",
+   "type": "image/svg+xml",
+   "file": "06.svg"
+  },
+  {
+   "page": "https://careers.airbnb.com/",
+   "kind": "jsonld",
+   "source": "https://careers.airbnb.com/\\/\\/careers.airbnb.com\\/wp-content\\/uploads\\/sites\\/7\\/2019\\/01\\/airbnb_vertical_lockup_web-high-res.png?fit=451%2C493",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "page": "https://careers.airbnb.com/",
+   "kind": "og:image",
+   "source": "https://careers.airbnb.com/wp-content/uploads/sites/7/2018/12/Tokyo_021.jpg",
+   "type": "image/jpeg",
+   "file": "07.jpg"
+  },
+  {
+   "page": "https://careers.airbnb.com/",
+   "kind": "img",
+   "source": "https://careers.airbnb.com/wp-content/uploads/sites/7/2024/03/logo-rausch.svg",
+   "type": "image/svg+xml",
+   "file": "08.svg"
+  },
+  {
+   "page": "https://careers.airbnb.com/",
+   "kind": "icon",
+   "source": "https://careers.airbnb.com/wp-content/themes/airbnb-careers/apple-touch-icon.png",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  }
+ ]
+}
