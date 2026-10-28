@@ -1849,6 +1849,74 @@
     "dance": 0.186,
     "genre_fit": 0.799
    }
+  },
+  {
+   "release": "mtr026",
+   "date": "2026-10-29",
+   "slot": "2026-10-29T07:55",
+   "format": "short",
+   "title": "Opaline Harbour",
+   "artist": "Aurelle Vane",
+   "style": "melodic",
+   "key": "A minor",
+   "bpm": 121,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr026.json",
+   "photographer": "Ivan Kazlouskij",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-swimsuit-on-a-beach-mkrfKm1exXc",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-8918235716788010619",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-14006391202740505731.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr026.mp3",
+    "top": [
+     [
+      "electronic",
+      0.376
+     ],
+     [
+      "chillout",
+      0.157
+     ],
+     [
+      "electronica",
+      0.12
+     ],
+     [
+      "jazz",
+      0.119
+     ],
+     [
+      "dance",
+      0.102
+     ],
+     [
+      "House",
+      0.092
+     ],
+     [
+      "ambient",
+      0.084
+     ],
+     [
+      "instrumental",
+      0.076
+     ],
+     [
+      "electro",
+      0.067
+     ],
+     [
+      "indie",
+      0.067
+     ]
+    ],
+    "house": 0.092,
+    "electronic": 0.376,
+    "dance": 0.102,
+    "genre_fit": 0.775
+   }
   }
  ]
 }
