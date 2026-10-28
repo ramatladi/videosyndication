@@ -1781,6 +1781,74 @@
     "dance": 0.163,
     "genre_fit": 0.866
    }
+  },
+  {
+   "release": "mtr025",
+   "date": "2026-10-28",
+   "slot": "2026-10-28T23:55",
+   "format": "video",
+   "title": "Lilac Promenade",
+   "artist": "Les Nuits Pastel",
+   "style": "french",
+   "key": "Bb major",
+   "bpm": 126,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr025.json",
+   "photographer": "Caitlin Venerussi",
+   "photo_page": "https://unsplash.com/photos/woman-in-black-bikini-standing-in-seashore-odyBrpfeKQg",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-1903038366461309418",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-5813937765873258319.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr025.mp3",
+    "top": [
+     [
+      "electronic",
+      0.378
+     ],
+     [
+      "dance",
+      0.186
+     ],
+     [
+      "House",
+      0.132
+     ],
+     [
+      "electro",
+      0.122
+     ],
+     [
+      "electronica",
+      0.104
+     ],
+     [
+      "jazz",
+      0.104
+     ],
+     [
+      "pop",
+      0.071
+     ],
+     [
+      "instrumental",
+      0.067
+     ],
+     [
+      "chillout",
+      0.063
+     ],
+     [
+      "indie",
+      0.052
+     ]
+    ],
+    "house": 0.132,
+    "electronic": 0.378,
+    "dance": 0.186,
+    "genre_fit": 0.799
+   }
   }
  ]
 }
