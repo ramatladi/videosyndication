@@ -1,0 +1,461 @@
+{
+ "engine": "cast",
+ "id": 39,
+ "slug": "what-even-is-christmas-in-october",
+ "title": "What Even Is Christmas In October?",
+ "trend": "Instagram Reels + TikTok 'WTF Is…' format (on-screen text rejects a trend or aesthetic while the b-roll shows the creator fully embracing the opposite; New Engen Instagram trends list, October 2026) + the yearly late-October argument about holiday decorations going up before Halloween (stores and neighbors already decorating, Halloween three days away)",
+ "target_seconds": 180,
+ "length_reason": "Quick one-clip rant-versus-reality format (the originals run well under a minute), so it stays at the short end; 180 s keeps it eligible for TikTok and Instagram too.",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "what even is",
+  "christmas in october?",
+  "a very serious rant"
+ ],
+ "youtube_title": "Dad Hates Christmas In October (He Is Lying)",
+ "description": "Hank cannot believe the neighbors are decorating for Christmas before Halloween. His daughter has some questions. So does the cat named Tinsel, and so does the pumpkin who has been ignored since Tuesday.\nWho has been on the neighbors' roof every night at two in the morning?\n\n#cartoon #animation #funny #comedy #christmas",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "christmas",
+  "halloween",
+  "holiday decorations",
+  "dad jokes",
+  "family comedy"
+ ],
+ "tiktok_caption": "dad says christmas in october is too early. the cat disagrees. #cartoon #animation #funny #comedy #christmas",
+ "cast": [
+  {
+   "id": "hank",
+   "name": "Hank",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "short",
+    "color": "#6d4c41"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#27ae60"
+   },
+   "bottom": "#3b4a6b",
+   "shoes": "#5d4037",
+   "accessories": [
+    "glasses",
+    "scarf:#27ae60"
+   ],
+   "brows": "angry",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "jada",
+   "name": "Jada",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.92,
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#7d3c98",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "headphones:#f1c40f"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "reginald",
+   "name": "Sir Reginald",
+   "kind": "mascot",
+   "shape": "pumpkin",
+   "color": "#e67e22",
+   "scale": 0.9,
+   "accessories": [
+    "glasses",
+    "tie:#2c3e50"
+   ],
+   "brows": "worried",
+   "mouth": "frown",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "tinsel",
+   "name": "Tinsel",
+   "kind": "animal",
+   "ears": "cat",
+   "color": "#9e9e9e",
+   "belly": "#eeeeee",
+   "inner": "#f8bbd0",
+   "scale": 0.88,
+   "top": {
+    "color": "#c0392b",
+    "pattern": "dots",
+    "pattern_color": "#ffffff"
+   },
+   "accessories": [
+    "bow:#27ae60"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "jada",
+   "text": "Dad. The Garcias next door already have Christmas lights up.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hank",
+   "text": "In October? What even is that? Some of us respect the calendar.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "jada",
+   "text": "Okay. Then why is your sweater red and green?",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "hank",
+   "text": "Autumn colors. Red leaf. And a green leaf that has not made up its mind.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "reginald",
+   "text": "Excuse me. Hello. Pumpkin here. On the coffee table.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "reginald",
+   "text": "I have been here since the first. Nobody has looked at me since Tuesday.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hank",
+   "text": "I look at you every day, Reginald.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "reginald",
+   "text": "You put your mug on my head.",
+   "shot": "CU",
+   "pre": 0.6,
+   "after": "rimshot"
+  },
+  {
+   "spk": "jada",
+   "text": "Also, why does the whole house smell like peppermint?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hank",
+   "text": "That is a fall candle. Pumpkin peppermint. Very new.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "reginald",
+   "text": "There is no such thing. I would know. I am the pumpkin.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "jada",
+   "text": "Sure. Tinsel, come here, girl.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "tinsel",
+   "text": "My name was Biscuit in August.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "tinsel",
+   "text": "I got renamed on Labor Day. I was not consulted.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hank",
+   "text": "Tinsel is a fall name. It is shiny. Like a wet leaf.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tinsel",
+   "text": "He also bought me this sweater. It has bells in it. I cannot sneak anymore.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tinsel",
+   "text": "I walk into the kitchen and it sounds like a sleigh.",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "jada",
+   "text": "Dad. Why does your phone say fifty eight days?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hank",
+   "text": "That is a countdown to nothing. Thanksgiving. Probably.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "jada",
+   "text": "Thanksgiving is in four weeks.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "hank",
+   "text": "I like to be early to things I am not counting.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "reginald",
+   "text": "Halloween is in three days. Does anyone have a countdown for me?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tinsel",
+   "text": "No.",
+   "shot": "tinsel",
+   "pre": 0.4
+  },
+  {
+   "spk": "jada",
+   "text": "Okay. Last question. What is in the garage?",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "hank",
+   "text": "Tools. Rakes. Normal October garage things.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tinsel",
+   "text": "Twelve snowmen. Inflatable. Plugged in. Practicing.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "reginald",
+   "text": "They wave at me through the window. Slowly. It feels personal.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jada",
+   "text": "Dad, they have names. They have little name tags.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hank",
+   "text": "A man can label his rakes.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jada",
+   "text": "So you hate Christmas in October.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "hank",
+   "text": "I despise it. It rushes the pumpkin. Reginald deserves his moment.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "reginald",
+   "text": "Thank you. Finally. Someone with values.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "hank",
+   "text": "Which is why I am going to the Garcias tonight to complain about those lights.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tinsel",
+   "text": "You were at the Garcias last night.",
+   "shot": "tinsel",
+   "pre": 0.8
+  },
+  {
+   "spk": "hank",
+   "text": "Complaining. Loudly. With my words.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tinsel",
+   "text": "You were on their roof at two in the morning. With a ladder.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tinsel",
+   "text": "I watch from the window. You sing to the gutters.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "jada",
+   "text": "Wait. Dad. You put up the Garcias' lights?",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "hank",
+   "text": "Our roof was full.",
+   "shot": "CU",
+   "pre": 0.8,
+   "after": "ding"
+  },
+  {
+   "spk": "jada",
+   "text": "The Garcias are in Florida. They left two weeks ago.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hank",
+   "text": "They will come home to a festive house. You are welcome, Garcias.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tinsel",
+   "text": "He did the Parkers too. And the mailbox on the corner.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hank",
+   "text": "The mailbox looked lonely.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jada",
+   "text": "Dad. Just say it.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "hank",
+   "text": "Fine. I love Christmas. It is too many feelings for one month, so I spread them out.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "reginald",
+   "text": "And what about me? What happens to the pumpkin?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hank",
+   "text": "Reginald, you are coming with us. I got you a little hat.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "reginald",
+   "text": "A Christmas pumpkin. I have been promoted.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "tinsel",
+   "text": "Do not get excited. He will keep you until March.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jada",
+   "text": "Okay. Halloween is in three days. Do we take anything down?",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "hank",
+   "text": "Take it down? No. Tomorrow I start on Valentine's Day.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "jada",
+   "text": "Dad. What even is Valentine's Day in October?",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "hank",
+   "text": "Early.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "tinsel",
+   "text": "Please do not rename me Cupid.",
+   "shot": "tinsel",
+   "pre": 0.5
+  }
+ ]
+}
