@@ -1,0 +1,502 @@
+{
+ "engine": "cast",
+ "id": 40,
+ "slug": "outfit-check-then-guess-where-we-work",
+ "title": "Outfit Check, Then Guess Where We Work: Big Game Night",
+ "trend": "TikTok 'Housewife' outfit-and-work reveal (show the outfit, then cut to what you do at work; New Engen TikTok list updated Oct 26 2026) + the baseball championship series (‘who won the world series 2026’ is the biggest US Google Trends search today, 1M+) — ballpark workers do outfit-then-work reveals before the big game; grumpy groundskeeper Gordon refuses, then reveals a tuxedo and that he has secretly been the team's big blue bird mascot for twenty two years, and hands the feathers to hot dog vendor Tee",
+ "target_seconds": 180,
+ "length_reason": "Quick one-clip reveal format (the originals run well under a minute), so it stays at the short end; 180 s keeps it eligible for TikTok and Instagram too.",
+ "scene": "stadium",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "outfit check,",
+  "then see where we work",
+  "big game night"
+ ],
+ "youtube_title": "Outfit Check, Then Guess Where We Work: Big Game Night",
+ "description": "It's big game night at the ballpark, and everybody shows off their outfit before revealing what they really do at work: the hot dog vendor, the bat dog and the kiss camera.\nEveryone except Gordon, the grumpy groundskeeper. He has a secret under that rain jacket.\n\n#cartoon #animation #funny #comedy #baseball",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "baseball",
+  "ballpark",
+  "big game night",
+  "outfit check",
+  "workplace comedy"
+ ],
+ "tiktok_caption": "outfit check, then guess where we work. the grumpy groundskeeper has a secret #cartoon #animation #funny #comedy #baseball",
+ "cast": [
+  {
+   "id": "tee",
+   "name": "Tee",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "curly",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "suit",
+    "pattern_color": "#f1c40f"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#f1c40f",
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "happy",
+   "blush": true,
+   "label_color": "#c39bd3",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "gordon",
+   "name": "Gordon",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.1,
+   "hair": {
+    "style": "bald",
+    "color": "#9e9e9e"
+   },
+   "top": {
+    "color": "#1f6f43",
+    "pattern": "hoodie"
+   },
+   "bottom": "#3e3e3e",
+   "shoes": "#5d4037",
+   "accessories": [
+    "cap:#1a5276",
+    "glasses"
+   ],
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#58d68d",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "slugger",
+   "name": "Slugger",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#a0522d",
+   "belly": "#e8c39e",
+   "scale": 0.9,
+   "top": {
+    "color": "#ecf0f1",
+    "pattern": "suit",
+    "pattern_color": "#c0392b"
+   },
+   "bottom": "#ecf0f1",
+   "accessories": [
+    "cap:#c0392b",
+    "tie:#c0392b"
+   ],
+   "eye": "sleepy",
+   "label_color": "#e59866",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "kisscam",
+   "name": "The Kiss Cam",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#5d6d7e",
+   "scale": 0.9,
+   "accessories": [
+    "glasses",
+    "bow:#e91e63"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f1948a",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "tee",
+   "text": "Outfit check. Big game night. Then you see where I work.",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "gordon",
+   "text": "Nobody needs to see you sell a hot dog, Tee.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tee",
+   "text": "Gordon. The internet needs this. Look at the sparkle.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gordon",
+   "text": "You look like a disco ball that got a job.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tee",
+   "text": "Thank you. Camera, roll it.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kisscam",
+   "text": "I am a kiss camera. I do not roll. I glide.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tee",
+   "text": "Sparkle jacket. Gold boots. And where do I work?",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tee",
+   "text": "Section four hundred and twelve. Hot dogs! Get your hot dogs!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "whoosh",
+   "jump": true
+  },
+  {
+   "spk": "slugger",
+   "text": "She threw a hot dog forty rows.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "tee",
+   "text": "I have an arm. They should sign me.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gordon",
+   "text": "It hit the guy in the bird hat.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "tee",
+   "text": "He caught it with his face. He's happy. Look at him.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kisscam",
+   "text": "He is eating it off his own hat. Very resourceful.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tee",
+   "text": "Slugger. Your turn. Outfit first.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "slugger",
+   "text": "Tie. Cap. A little cologne. Grass flavored.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "gordon",
+   "text": "He rolled in my infield.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "slugger",
+   "text": "I was getting into character, Gordon.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tee",
+   "text": "And the work reveal?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "slugger",
+   "text": "I am the bat dog. I carry the bat back. On television.",
+   "shot": "W",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "kisscam",
+   "text": "Nine million people watch him jog.",
+   "shot": "CU"
+  },
+  {
+   "spk": "slugger",
+   "text": "I jog with purpose. I wink at the dugout. They feel seen.",
+   "shot": "CU",
+   "gesture": "think",
+   "after": "rimshot"
+  },
+  {
+   "spk": "tee",
+   "text": "Kiss Cam. Outfit check.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kisscam",
+   "text": "Lens cap. Freshly cleaned. I feel expensive.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tee",
+   "text": "And the work?",
+   "shot": "CU"
+  },
+  {
+   "spk": "kisscam",
+   "text": "I find two people sitting together and I ruin their evening.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gordon",
+   "text": "Last night it found me and my rake.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kisscam",
+   "text": "The crowd demanded it, Gordon. Forty thousand people chanting.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gordon",
+   "text": "I am married. The rake is a coworker.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "kisscam",
+   "text": "Then it found you and the dog.",
+   "shot": "CU"
+  },
+  {
+   "spk": "slugger",
+   "text": "We shared a moment. He gave me a biscuit.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "gordon",
+   "text": "I gave the crowd a hug. Then I went home and stared at a wall.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "applause"
+  },
+  {
+   "spk": "tee",
+   "text": "Okay, everybody did it except one grumpy man.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "gordon",
+   "text": "I don't do outfit checks. I do dirt.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tee",
+   "text": "Come on. Big game night. One reveal.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "slugger",
+   "text": "Do it, Gordon. I smelled your locker. I know things.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "gordon",
+   "text": "Fine. One outfit check.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.9
+  },
+  {
+   "spk": "gordon",
+   "text": "Rain jacket. Old cap. And under the jacket...",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tee",
+   "text": "Is that a tuxedo?",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "gordon",
+   "text": "I wear it every game night. Nobody ever asks.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tee",
+   "text": "And the work reveal? We know. You rake the dirt.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gordon",
+   "text": "I rake the dirt until the third inning.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gordon",
+   "text": "Then I go in the tunnel. And I put on the head.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "tee",
+   "text": "What head?",
+   "shot": "CU"
+  },
+  {
+   "spk": "gordon",
+   "text": "The bird. The big blue bird who dances on the dugout.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "tee",
+   "text": "You are Captain Feathers?",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "jump": true
+  },
+  {
+   "spk": "gordon",
+   "text": "Do not say his name at work.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "slugger",
+   "text": "I told you. I smelled the feathers.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kisscam",
+   "text": "Twenty two years. He does the splits on the dugout.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tee",
+   "text": "You've been dancing for forty thousand people every night and you won't do one outfit check?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gordon",
+   "text": "The bird is a professional. Gordon is a private person.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tee",
+   "text": "I'm about to cry in a sparkle jacket.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "kisscam",
+   "text": "Seventh inning. The bird is late. The crowd is looking around.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gordon",
+   "text": "Tee. My knees are done. Tonight the feathers are yours.",
+   "shot": "TWO",
+   "gesture": "point",
+   "pre": 0.8
+  },
+  {
+   "spk": "tee",
+   "text": "Me? I sell hot dogs!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gordon",
+   "text": "You threw one forty rows. You're ready.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "slugger",
+   "text": "Outfit check, Tee. You're a bird now.",
+   "shot": "W",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "tee",
+   "text": "Big game night. Work reveal. I'm the bird.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "applause",
+   "jump": true
+  },
+  {
+   "spk": "kisscam",
+   "text": "And here comes the kiss camera. Gordon and his rake.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "gordon",
+   "text": "Fine. One time.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "sting",
+   "pre": 0.8
+  }
+ ]
+}
