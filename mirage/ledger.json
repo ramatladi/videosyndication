@@ -1691,6 +1691,96 @@
     "dance": 0.166,
     "genre_fit": 0.849
    }
+  },
+  {
+   "release": "mtr023",
+   "date": "2026-10-28",
+   "slot": "2026-10-28T11:55",
+   "format": "video",
+   "title": "Static Lagoon",
+   "artist": "Neon Tamarind",
+   "style": "indiedance",
+   "key": "F minor",
+   "bpm": 120,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr023.json",
+   "photographer": "Joseph Kellner",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-white-swimsuit-sitting-on-the-beach-CBMdPg2i7_Y",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-5903222783223315222",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-14952185569054177045.mp4",
+   "reference": null,
+   "ears": {
+    "error": "Command '['/usr/local/bin/python3', '-m', 'pip', 'install', '-q', '--break-system-packages', 'tf_keras']' returned non-zero exit status 1."
+   }
+  },
+  {
+   "release": "mtr024",
+   "date": "2026-10-28",
+   "slot": "2026-10-28T19:55",
+   "format": "short",
+   "title": "Basalt Lantern",
+   "artist": "Saltglass Society",
+   "style": "deep",
+   "key": "C minor",
+   "bpm": 124,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr024.json",
+   "photographer": "vivek",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-bikini-standing-on-the-beach-G9nHhcYTHrM",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-3956848701695898819",
+   "media_url": "https://static.metricool.com/planner/202610/7321327-file-2670975731668344588.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr024.mp3",
+    "top": [
+     [
+      "electronic",
+      0.439
+     ],
+     [
+      "dance",
+      0.163
+     ],
+     [
+      "House",
+      0.159
+     ],
+     [
+      "chillout",
+      0.157
+     ],
+     [
+      "electronica",
+      0.131
+     ],
+     [
+      "electro",
+      0.092
+     ],
+     [
+      "ambient",
+      0.087
+     ],
+     [
+      "jazz",
+      0.062
+     ],
+     [
+      "pop",
+      0.061
+     ],
+     [
+      "instrumental",
+      0.056
+     ]
+    ],
+    "house": 0.159,
+    "electronic": 0.439,
+    "dance": 0.163,
+    "genre_fit": 0.866
+   }
   }
  ]
 }
