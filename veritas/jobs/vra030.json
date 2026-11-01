@@ -1,0 +1,140 @@
+{
+ "id": "vra030",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.05,
+ "source_id": "robinhood:8265786",
+ "job": {
+  "employer": "Robinhood",
+  "logo": "robinhood",
+  "title": "Senior Software Engineer, Observability",
+  "short_title": "Senior Software Engineer, Observability",
+  "location": "Menlo Park, CA",
+  "workplace": "In office at least 3 days a week",
+  "pay": "$196K – $230K a year",
+  "pay_full": "$196,000 – $230,000 a year base pay (Zone 1: Menlo Park, CA; New York, NY; Bellevue, WA; Washington, DC), plus bonus opportunities and equity",
+  "type": "",
+  "posted": "",
+  "ref": "8265786",
+  "apply_url": "https://boards.greenhouse.io/robinhood/jobs/8265786?t=gh_src=&gh_jid=8265786",
+  "apply_site": "Robinhood's Greenhouse job board"
+ },
+ "details": {
+  "about": "Robinhood's mission is to democratize finance for all. Its Observability team builds and owns the company's full-stack observability platform — metrics, logs, distributed tracing and alerting — and works with the Robinhood Command Center to keep those systems at or above 99.9% uptime. As a Senior Software Engineer here you are the technical lead for how Robinhood observes itself at scale, owning the observability control plane end to end and leading a team of six engineers.",
+  "duties": [
+   "Define and execute the full-stack observability roadmap for metrics, logs, traces and alerting",
+   "Own and evolve the observability control plane, including telemetry ingestion pipelines and cost management",
+   "Lead and work with a team of six engineers to build scalable, self-service observability tools",
+   "Set and maintain SLOs so the observability platform meets or exceeds the 99.9% uptime target",
+   "Partner with the Robinhood Command Center and engineering teams on dependency mapping, incident response and observability standards"
+  ],
+  "needs": [
+   "5+ years of software engineering, with a track record of owning large-scale observability or infrastructure platform initiatives",
+   "Deep expertise in Kubernetes and public cloud (AWS preferred), architecting and operating distributed systems at scale",
+   "Strong coding in Go, Python or similar, including integrating observability agents, libraries and instrumentation into production code",
+   "Experience owning an observability control plane or telemetry pipeline, including ingestion cost management, cardinality control and signal routing"
+  ],
+  "nice": [
+   "Experience with the Vector data pipeline or similar log/metrics routing tools, and with Prometheus, Grafana, Honeycomb, Humio or Sentry"
+  ],
+  "benefits": "Base pay $196,000 – $230,000 a year in Zone 1 (Menlo Park, CA; New York, NY; Bellevue, WA; Washington, DC); Zone 2 (Denver, CO; Westlake, TX; Chicago, IL) is $172,000 – $202,000 and Zone 3 (Lake Mary, Clearwater and Gainesville, FL) is $153,000 – $179,000. The role is also eligible for bonus opportunities and equity. Benefits include 401(k) matching, 100% paid health insurance for employees with 90% coverage for dependents, a lifestyle wallet for wellness and learning, employer-paid life and disability insurance, fertility and mental health benefits, company holidays, paid time off, sick time and parental leave, plus catered meals in the office.",
+  "notes": [
+   "Based in the Menlo Park, CA office with in-person attendance at least 3 days a week",
+   "Leads a team of six engineers"
+  ]
+ },
+ "yt_title": "Robinhood Is Hiring: Senior Software Engineer, Observability | Menlo Park, CA | $196K–$230K",
+ "hashtags": [
+  "#TechJobs",
+  "#SoftwareEngineer",
+  "#BayAreaJobs",
+  "#SRE",
+  "#Hiring"
+ ],
+ "tags": [
+  "robinhood jobs",
+  "senior software engineer jobs",
+  "observability jobs",
+  "sre jobs",
+  "kubernetes jobs",
+  "golang jobs",
+  "bay area tech jobs",
+  "menlo park jobs",
+  "tech jobs",
+  "veritas recruitment agency"
+ ],
+ "scenes": [
+  {
+   "head": "The role",
+   "bullets": [
+    "Senior Software Engineer",
+    "Observability · Robinhood",
+    "Menlo Park, CA · 3+ days in office"
+   ],
+   "lines": [
+    "Now hiring in Menlo Park! Robinhood wants a Senior Software Engineer to lead its observability platform: metrics, logs, traces, and alerts.",
+    "It's based in the Menlo Park office at least three days a week."
+   ],
+   "show": [
+    null,
+    "It's based in the Menlo Park office at least 3 days a week."
+   ]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": [
+    "Own the observability roadmap",
+    "Lead a team of six engineers",
+    "Keep the platform at 99.9% uptime"
+   ],
+   "lines": [
+    "You'll own the roadmap and control plane, lead a team of six engineers, and keep the platform at ninety-nine point nine percent uptime.",
+    "You'll also partner with the Robinhood Command Center on incident response."
+   ],
+   "show": [
+    "You'll own the roadmap and control plane, lead a team of six engineers, and keep the platform at 99.9% uptime.",
+    null
+   ]
+  },
+  {
+   "head": "What you need",
+   "bullets": [
+    "5+ yrs software engineering",
+    "Kubernetes & public cloud (AWS preferred)",
+    "Go or Python · telemetry pipelines"
+   ],
+   "lines": [
+    "You'll need five or more years of software engineering, deep Kubernetes and cloud skills, strong Go or Python, and experience running a telemetry pipeline."
+   ],
+   "show": [
+    "You'll need 5 or more years of software engineering, deep Kubernetes and cloud skills, strong Go or Python, and experience running a telemetry pipeline."
+   ]
+  },
+  {
+   "head": "Pay",
+   "bullets": [
+    "$196,000 – $230,000 a year (base)",
+    "Bonus + equity",
+    "Paid health insurance, 401(k) match"
+   ],
+   "lines": [
+    "Base pay in Menlo Park is one hundred ninety-six thousand to two hundred thirty thousand dollars a year, plus bonus, equity, and fully paid health insurance for employees."
+   ],
+   "show": [
+    "Base pay in Menlo Park is $196,000 to $230,000 a year, plus bonus, equity, and fully paid health insurance for employees."
+   ]
+  },
+  {
+   "head": "How to apply",
+   "bullets": [
+    "Application link in the description",
+    "Apply on Robinhood's job board",
+    "Job ID 8265786"
+   ],
+   "lines": [
+    "To apply, find the direct application link in the description.",
+    "Follow Veritas for new tech jobs every day."
+   ]
+  }
+ ]
+}
