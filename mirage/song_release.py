@@ -36,7 +36,19 @@ def ledger(): return json.load(open(LEDGER))
 def key_text(k): return (k[:-1] + ' minor') if k.endswith('m') else (k + ' major')
 
 
-def nxt():
+def slot_source(slot):
+    """'mureka' if the slot (YYYY-MM-DDTHH:MM, SAST) is one of the weekly Creative Claw Mureka slots, else 'hand'."""
+    import datetime as dt
+    if not slot: return None
+    cfg = json.load(open(os.path.join(HERE, 'mureka_slots.json')))
+    d = dt.datetime.strptime(slot[:16], '%Y-%m-%dT%H:%M')
+    for w in cfg['weekly']:
+        if d.strftime('%a') == w['weekday'] and d.strftime('%H:%M') == w['time']:
+            return {'source': 'mureka', 'model': cfg['model'], 'credits': cfg['credits_per_song'], 'vocals': cfg['vocals'], 'format': w['format']}
+    return {'source': 'hand'}
+
+
+def nxt(slot=None):
     L = ledger()['releases']
     n = max(int(r['release'][3:]) for r in L) + 1
     hand = [r for r in L if r.get('written_by_hand') or r.get('generated')]   # rotation counts hand-written and Creative Claw releases
@@ -45,6 +57,7 @@ def nxt():
     act = pick_act(style, L)
     print(json.dumps({'release': f'mtr{n:03d}', 'style': style, 'artist': act['name'], 'artist_line': act['line'],
                       'artist_kind': act['kind'], 'artist_gender': act['gender'], 'artist_heritage': act['heritage'],
+                      'slot': slot, 'make': slot_source(slot),
                       'recent': [(r['release'], r['style'], r.get('key'), r.get('bpm'), r['title']) for r in hand[-8:]]}, indent=1))
 
 
@@ -144,7 +157,7 @@ if __name__ == '__main__':
     ap.add_argument('--format', choices=['video', 'short'], default='video')
     ap.add_argument('--photo-kind', choices=['bikini', 'fashion', 'nature'], default=None)
     a = ap.parse_args()
-    if a.cmd == 'next': nxt()
+    if a.cmd == 'next': nxt(a.slot)
     elif a.cmd == 'check':
         e, w = lint(json.load(open(a.spec))); [print('warning:', x) for x in w]
         if e: print('REFUSED:', *e, sep='\n - '); sys.exit(2)

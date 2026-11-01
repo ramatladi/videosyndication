@@ -1,0 +1,13 @@
+{
+ "note": "Sello, 1 Nov 2026: use Creative Claw Mureka for 5 songs a week, 3 Shorts and 2 videos, every week ($100 of credits spread over 12 months). These slots (Africa/Johannesburg, by publish day and time) are Mureka songs with vocals and original lyrics; every other slot is written by hand. song_release.py next --slot says which applies.",
+ "model": "music/mureka-v9.5",
+ "credits_per_song": 30,
+ "vocals": true,
+ "weekly": [
+  {"weekday": "Mon", "time": "19:55", "format": "short"},
+  {"weekday": "Tue", "time": "23:55", "format": "video"},
+  {"weekday": "Thu", "time": "07:55", "format": "short"},
+  {"weekday": "Fri", "time": "23:55", "format": "video"},
+  {"weekday": "Sun", "time": "19:55", "format": "short"}
+ ]
+}

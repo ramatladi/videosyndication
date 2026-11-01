@@ -92,6 +92,26 @@ from the request) and then runs the same export, blocking QC and video steps. A 
 - First tests: Mureka afro instrumental (job 59ad2f19) and the sung deep house test "Stay Till The Blue" (job 417fb00d,
   build id cctest01, not released).
 
+### Weekly Mureka songs (Sello, 1 Nov 2026): 5 a week, 3 Shorts + 2 videos
+`mureka_slots.json` fixes the slots (SAST, by publish day): **Mon 19:55 Short, Tue 23:55 video, Thu 07:55 Short,
+Fri 23:55 video, Sun 19:55 Short**. `song_release.py next --slot <YYYY-MM-DDTHH:MM>` prints `make.source`: `mureka` or `hand`.
+Budget: $100 of Creative Claw credits over 12 months (5 x 30 credits = 150 a week). For a Mureka slot:
+1. Credits: `get_credits_balance`. Under 30 → write that song by hand instead and notify Sello (top-up needed).
+   Creative Claw tools missing in the run → the same fallback and notification.
+2. Lyrics: write ORIGINAL lyrics for the act and style (verse, pre-chorus, chorus, verse 2, chorus, bridge, final chorus;
+   short singable lines, a clear hook in the chorus title line; nothing borrowed from existing songs, no brand names, no
+   mention of AI). Voice from the act: female act → female lead, male → male lead, mixed duo → duet, group → lead + backing.
+   Title: original 2-4 words, usually from the hook; WebSearch it as for any title.
+3. Prompt (the GUIDE palette for the style): "<Genre> song, about 3.5 minutes, <bpm> BPM, <key>. <mood>. <voice and
+   harmonies>. <3-6 instruments from the palette>. <drum pattern of the style>. Structure: instrumental intro (16 bars),
+   verse, pre-chorus, chorus, short instrumental break, verse 2, chorus, stripped bridge, final chorus, instrumental outro
+   that fades. Clean, wide mix with a tight mono low end." Vary key and tempo from `recent`.
+4. `generate_music` (model music/mureka-v9.5, prompt, lyrics); poll `check_job` (~2-3 min) for the cdn.creativeclaw.co URL.
+5. Spec `songs/mtrNNN.json`: id, title, artist, style, `vocals: true`, `source` {generator "creative-claw", model, job_id,
+   audio_url, prompt, lyrics}. `check`, then `build` (it measures key/BPM into the spec), then the usual video checks,
+   `describe.py ... --vocals` (key/BPM from the spec after the build) and scheduling. A track under 179 s is refused:
+   generate once more (another 30 credits); if that also fails, write the song by hand.
+
 ## Schedule
 - **Four uploads a day (Sello, 26 Oct 2026): 2 videos + 2 Shorts (SAST):** 23:55 **video**, 07:55 Short, 11:55 **video**,
   19:55 Short. (23-26 Oct it was six a day, adding 03:55 and 15:55 Shorts.) Every upload is a different song.
