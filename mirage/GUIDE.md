@@ -78,6 +78,20 @@ download the WAVs one by one (`download_file_content`; files over ~5.5 MB fail),
 - Scheduled runs have no Google Drive access, so they write the whole song by hand (the fallback). Looperman-led songs are
   made in sessions with Sello and scheduled ahead (mtr018, mtr019 were the first).
 
+## Creative Claw tracks (Sello approved Creative Claw, 1 Nov 2026)
+A release can be a full track made by Creative Claw instead of a hand-written spec. Its spec carries `source`
+(`generator: creative-claw`, `model`, `job_id`, completed `audio_url` on cdn.creativeclaw.co, `prompt`, and `lyrics` when sung) and
+`vocals: true|false`. `build` downloads it, `gen_master.py` cuts the first 179 s (bar-aligned 8 s fade), folds the low end to
+mono, sets about -12 LUFS, measures tempo and key from the audio (the description states the measured values, which can differ
+from the request) and then runs the same export, blocking QC and video steps. A track shorter than 179 s is refused.
+- Models: `music/mureka-v9.5` (30 credits; instrumental without lyrics, sung with our own original lyrics),
+  `music/lyria-3.5` (~16, approximate length, may come out under 179 s), `music/minimax-music-3` (~72 for 3 min, lyrics-led).
+- Sung songs (`vocals: true`) drop "Instrumental" from the video's style line, the title, description and tags
+  (`describe.py --vocals`). Lyrics are written fresh for each song (original words, nothing borrowed, no mention of AI).
+- YouTube `isAiGeneratedContent` stays false (Sello, 1 Nov 2026).
+- First tests: Mureka afro instrumental (job 59ad2f19) and the sung deep house test "Stay Till The Blue" (job 417fb00d,
+  build id cctest01, not released).
+
 ## Schedule
 - **Four uploads a day (Sello, 26 Oct 2026): 2 videos + 2 Shorts (SAST):** 23:55 **video**, 07:55 Short, 11:55 **video**,
   19:55 Short. (23-26 Oct it was six a day, adding 03:55 and 15:55 Shorts.) Every upload is a different song.

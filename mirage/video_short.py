@@ -52,6 +52,7 @@ def wrap(draw, text, f, maxw):
     return lines
 
 
+VOCALS = False
 ARTIST = 'DJ Velvet Purple'          # set from --artist (the act song_release.py next picks from mirage/artists.json)
 
 
@@ -109,7 +110,7 @@ def overlay(title, style, credit):
     for i, ln in enumerate(lines):
         d.text((W / 2, y0 + i * lh), ln, font=ft, fill=(255, 255, 255, 255), anchor='mm')
     fl = font('IBMPlexSans-SemiBold.ttf', 36)
-    d.text((W / 2, 1430 + lh * .5 + 40), STYLE_LABEL.get(style, style.replace('_', ' ').title()).replace(' (Instrumental)', '') + '  ·  Instrumental', font=fl, fill=(255, 255, 255, 200), anchor='mm')
+    d.text((W / 2, 1430 + lh * .5 + 40), STYLE_LABEL.get(style, style.replace('_', ' ').title()).replace(' (Instrumental)', '') + ('' if VOCALS else '  ·  Instrumental'), font=fl, fill=(255, 255, 255, 200), anchor='mm')
     fc = font('IBMPlexSans-SemiBold.ttf', 28)
     pass  # photo credit lives in the description only (Sello, 23 Oct)
     # d.text((W / 2, H - 70), credit, font=fc, fill=(255, 255, 255, 190), anchor='mm')
@@ -143,9 +144,10 @@ def main():
     ap = argparse.ArgumentParser()
     for k in ('image', 'audio', 'title', 'style', 'credit', 'out'): ap.add_argument('--' + k, required=True)
     ap.add_argument('--artist', default='DJ Velvet Purple')
+    ap.add_argument('--vocals', action='store_true', help='a sung song: the style line drops "Instrumental"')
     ap.add_argument('--aac', help='final AAC (.m4a) to copy into the MP4 unchanged (the stream QC measures)')
     a = ap.parse_args()
-    global ARTIST; ARTIST = a.artist
+    global ARTIST, VOCALS; ARTIST = a.artist; VOCALS = a.vocals
     sr, x = wavfile.read(a.audio)
     dur = len(x) / sr
     nframes = int(round(dur * FPS))

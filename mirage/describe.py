@@ -32,13 +32,14 @@ USES = {'disco': 'sunset drives, rooftop parties and dancing at home', 'nudisco'
 PHOTO_TAG = {'bikini': 'bikini beach', 'fashion': 'summer fashion', 'nature': 'tropical scenery'}
 
 
-def make(title, style, key, bpm, fmt, mood, photographer, photo_page, photo_kind='bikini', artist='DJ Velvet Purple'):
+def make(title, style, key, bpm, fmt, mood, photographer, photo_page, photo_kind='bikini', artist='DJ Velvet Purple', vocals=False):
     g = GENRE.get(style, style.title()); short = fmt == 'short'
-    yt_title = f'{title} - {artist} | {g} Instrumental' + (' #shorts' if short else '')
+    kind = '' if vocals else ' Instrumental'          # a sung song drops 'Instrumental' everywhere
+    yt_title = f'{title} - {artist} | {g}{kind}' + (' #shorts' if short else '')
     tags = TAGS.get(style, [g.lower().replace(' ', '').replace('-', '')])
-    hashtags = ' '.join('#' + t for t in tags + ['instrumental', 'summermix', re.sub(r'[^A-Za-z0-9]', '', artist), 'MirageTropicalRecords'] + (['shorts'] if short else []))
+    hashtags = ' '.join('#' + t for t in tags + ([] if vocals else ['instrumental']) + ['summermix', re.sub(r'[^A-Za-z0-9]', '', artist), 'MirageTropicalRecords'] + (['shorts'] if short else []))
     text = '\n'.join([
-        f'🎧 {artist} - {title} ({g} Instrumental)',
+        f'🎧 {artist} - {title} ({g}{kind})',
         '',
         mood,
         '',
@@ -48,7 +49,7 @@ def make(title, style, key, bpm, fmt, mood, photographer, photo_page, photo_kind
         f'🎵 Track: {title}',
         f'🎤 Artist: {artist}',
         '💿 Label: Mirage Tropical Records',
-        f'🎚 Genre: {g} (Instrumental)',
+        f'🎚 Genre: {g}' + ('' if vocals else ' (Instrumental)'),
         f'🎹 Key: {key} · {bpm} BPM',
         '',
         f'📸 Photo: {photographer} on Unsplash - {photo_page}',
@@ -57,7 +58,7 @@ def make(title, style, key, bpm, fmt, mood, photographer, photo_page, photo_kind
         f'{g.lower()} {"short" if short else "music"} 2026.',
         '',
         hashtags])
-    tag_list = [g.lower(), f'{g.lower()} instrumental', f'{g.lower()} 2026', 'instrumental', 'house music', 'summer mix', 'beach vibes',
+    tag_list = [g.lower(), f'{g.lower()}{" song" if vocals else " instrumental"}', f'{g.lower()} 2026', 'vocal house' if vocals else 'instrumental', 'house music', 'summer mix', 'beach vibes',
                 artist, 'Mirage Tropical Records', title, f'{artist} {title}', PHOTO_TAG.get(photo_kind, 'summer vibes'), 'summer vibes', key]
     return {'yt_title': yt_title, 'description': text, 'tags': tag_list}
 
@@ -68,5 +69,6 @@ if __name__ == '__main__':
     ap.add_argument('--format', choices=['video', 'short'], default='video')
     ap.add_argument('--artist', default='DJ Velvet Purple')
     ap.add_argument('--photo-kind', choices=['bikini', 'fashion', 'nature'], default='bikini')
+    ap.add_argument('--vocals', action='store_true', help='a sung song (no "Instrumental" in the text)')
     a = ap.parse_args()
-    print(json.dumps(make(a.title, a.style, a.key, a.bpm, a.format, a.mood, a.photographer, a.photo_page, a.photo_kind, a.artist), indent=1, ensure_ascii=False))
+    print(json.dumps(make(a.title, a.style, a.key, a.bpm, a.format, a.mood, a.photographer, a.photo_page, a.photo_kind, a.artist, a.vocals), indent=1, ensure_ascii=False))
