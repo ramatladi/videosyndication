@@ -1985,6 +1985,74 @@
     "dance": 0.213,
     "genre_fit": 0.79
    }
+  },
+  {
+   "release": "mtr028",
+   "date": "2026-11-01",
+   "slot": "2026-11-01T23:55",
+   "format": "video",
+   "title": "Ochre Riverbend",
+   "artist": "Sahel Bloom",
+   "style": "afro",
+   "key": "D minor",
+   "bpm": 122,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr028.json",
+   "photographer": "Derrick Payton",
+   "photo_page": "https://unsplash.com/photos/a-beautiful-woman-in-a-bikini-standing-in-front-of-a-waterfall-Gs1X9bVhUWw",
+   "photo_kind": "bikini",
+   "metricool_uuid": "5495700095546706280",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-2284393166528611136.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr028.mp3",
+    "top": [
+     [
+      "electronic",
+      0.456
+     ],
+     [
+      "dance",
+      0.183
+     ],
+     [
+      "House",
+      0.173
+     ],
+     [
+      "chillout",
+      0.14
+     ],
+     [
+      "electronica",
+      0.135
+     ],
+     [
+      "electro",
+      0.107
+     ],
+     [
+      "ambient",
+      0.073
+     ],
+     [
+      "jazz",
+      0.068
+     ],
+     [
+      "instrumental",
+      0.049
+     ],
+     [
+      "pop",
+      0.044
+     ]
+    ],
+    "house": 0.173,
+    "electronic": 0.456,
+    "dance": 0.183,
+    "genre_fit": 0.872
+   }
   }
  ]
 }
