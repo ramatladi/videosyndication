@@ -1917,6 +1917,74 @@
     "dance": 0.102,
     "genre_fit": 0.775
    }
+  },
+  {
+   "release": "mtr027",
+   "date": "2026-11-01",
+   "slot": "2026-11-01T19:55",
+   "format": "short",
+   "title": "Saffron Updraft",
+   "artist": "Seraphine Tide",
+   "style": "trance",
+   "key": "E minor",
+   "bpm": 136,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr027.json",
+   "photographer": "Daren Inshape",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-bikini-sitting-on-the-beach-UgWeRrbHAYI",
+   "photo_kind": "bikini",
+   "metricool_uuid": "308979432392904577",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-2944275125032967047.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr027.mp3",
+    "top": [
+     [
+      "electronic",
+      0.387
+     ],
+     [
+      "dance",
+      0.213
+     ],
+     [
+      "electro",
+      0.133
+     ],
+     [
+      "House",
+      0.122
+     ],
+     [
+      "pop",
+      0.108
+     ],
+     [
+      "electronica",
+      0.104
+     ],
+     [
+      "indie",
+      0.088
+     ],
+     [
+      "chillout",
+      0.051
+     ],
+     [
+      "female vocalists",
+      0.051
+     ],
+     [
+      "rock",
+      0.045
+     ]
+    ],
+    "house": 0.122,
+    "electronic": 0.387,
+    "dance": 0.213,
+    "genre_fit": 0.79
+   }
   }
  ]
 }
