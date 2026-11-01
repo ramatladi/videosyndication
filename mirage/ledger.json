@@ -2121,6 +2121,81 @@
     "dance": 0.208,
     "genre_fit": 0.905
    }
+  },
+  {
+   "release": "mtr030",
+   "date": "2026-11-02",
+   "slot": "2026-11-02T11:55",
+   "format": "video",
+   "title": "Stay Till The Blue",
+   "artist": "Mia & Felix",
+   "style": "deep",
+   "key": "A minor",
+   "bpm": 122,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "417fb00d-e9aa-4211-9ae8-8091c8be5bac",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/c356f0e7-49bd-4d24-9dc9-b7f2a6c932ca.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr030.json",
+   "photographer": "Nina Elliott",
+   "photo_page": "https://unsplash.com/photos/a-woman-standing-on-top-of-a-beach-next-to-the-ocean-Ac7sL0hcobk",
+   "photo_kind": "bikini",
+   "metricool_uuid": "8996946237893332317",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-18379629051832149498.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr030.mp3",
+    "top": [
+     [
+      "electronic",
+      0.361
+     ],
+     [
+      "chillout",
+      0.262
+     ],
+     [
+      "dance",
+      0.168
+     ],
+     [
+      "female vocalists",
+      0.166
+     ],
+     [
+      "pop",
+      0.154
+     ],
+     [
+      "House",
+      0.146
+     ],
+     [
+      "electronica",
+      0.113
+     ],
+     [
+      "ambient",
+      0.084
+     ],
+     [
+      "jazz",
+      0.07
+     ],
+     [
+      "electro",
+      0.053
+     ]
+    ],
+    "house": 0.146,
+    "electronic": 0.361,
+    "dance": 0.168,
+    "genre_fit": 0.913
+   }
   }
  ]
 }

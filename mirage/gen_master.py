@@ -41,6 +41,25 @@ def limiter(x, ceil_db=-3.0, look=0.005, rel=0.08):
     return np.clip(x * g[:, None], -c, c)
 
 
+def declick(y, bpm, passes=3):
+    """Repair isolated, non-repeating spikes (generator glitches) with a 3 ms low-passed patch: the same detector
+    qc.py blocks on, so a real glitch is fixed here instead of failing QC. Repeating drum hits are left alone."""
+    fixed = []; barN = int(240 / bpm * SR); W = int(.008 * SR)
+    sm = ss.sosfiltfilt(ss.butter(4, 2500, 'low', fs=SR, output='sos'), y, axis=0)
+    for _ in range(passes):
+        lp = ss.sosfilt(ss.butter(4, 6000, 'low', fs=SR, output='sos'), y, axis=0)
+        d2 = np.abs(np.diff(lp, 2, axis=0)).max(1)
+        loc = ss.medfilt(d2[::32], 31).repeat(32)[:len(d2)] + 1e-6
+        sp = np.where(d2 > 40 * loc)[0]; found = 0
+        for i in sp[np.r_[True, np.diff(sp) > SR // 100]] if len(sp) else []:
+            ref = [d2[j - W:j + W].max() for k in (1, 2, 8, 16) for j in (i - k * barN, i + k * barN) if W < j < len(d2) - W]
+            if ref and max(ref) < 0.5 * d2[i]:
+                h = int(.0015 * SR); a, b = max(0, i - h), min(len(y), i + h); win = np.hanning(b - a)[:, None]
+                y[a:b] = y[a:b] * (1 - win) + sm[a:b] * win; fixed.append(round(i / SR, 3)); found += 1
+        if not found: break
+    return y, fixed
+
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('src'); ap.add_argument('wav'); ap.add_argument('meta'); ap.add_argument('--style', required=True)
     a = ap.parse_args()
@@ -63,6 +82,7 @@ def main():
     # mono low end
     sos = ss.butter(4, 110, 'low', fs=SR, output='sos'); lo = ss.sosfiltfilt(sos, y, axis=0)
     y = y - lo + lo.mean(1, keepdims=True)
+    y, fixed = declick(y, bpm)
     meter = pl.Meter(SR)
     for _ in range(3):
         y = limiter(y * 10 ** ((TARGET - meter.integrated_loudness(y)) / 20))
@@ -70,7 +90,7 @@ def main():
     sf.write(a.wav, y.astype(np.float32), SR, subtype='FLOAT')
     meta = {'style': a.style, 'bpm': round(bpm), 'bpm_measured': round(bpm, 2), 'key_measured': key, 'key_confidence': key_conf,
             'source_duration_s': round(dur, 2), 'cut_start_s': round(start, 2), 'sections': [], 'outro_start_s': LENGTH - FADE - 4 * bar,
-            'engine_version': 'creative-claw', 'target_lufs': TARGET, 'length_s': LENGTH, 'lufs': round(meter.integrated_loudness(y), 2)}
+            'engine_version': 'creative-claw', 'declicked_at_s': fixed, 'target_lufs': TARGET, 'length_s': LENGTH, 'lufs': round(meter.integrated_loudness(y), 2)}
     json.dump(meta, open(a.meta, 'w'), indent=1)
     print(json.dumps(meta))
 
