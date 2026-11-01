@@ -23,8 +23,16 @@ except Exception:
 STYLE_LABEL.setdefault('chill', 'Melodic House')
 
 
+FONT_URLS = {'IBMPlexSans-SemiBold.ttf': 'https://raw.githubusercontent.com/IBM/plex/master/packages/plex-sans/fonts/complete/ttf/IBMPlexSans-SemiBold.ttf',
+             'SourceSerif4-Bold.ttf': 'https://raw.githubusercontent.com/adobe-fonts/source-serif/release/TTF/SourceSerif4-Bold.ttf'}
+
+
 def font(name, size):
-    return ImageFont.truetype(os.path.join(FONTS, name), size)
+    p = os.path.join(FONTS, name)
+    if not os.path.exists(p) and name in FONT_URLS:      # fonts are gitignored: fetch on a fresh clone
+        import subprocess; os.makedirs(FONTS, exist_ok=True)
+        subprocess.run(['curl', '-sSLf', '-o', p, FONT_URLS[name]], check=True)
+    return ImageFont.truetype(p, size)
 
 
 def cover(img, w, h):
