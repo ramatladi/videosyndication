@@ -45,7 +45,7 @@ def slot_source(slot):
     for w in cfg['weekly']:
         if d.strftime('%a') == w['weekday'] and d.strftime('%H:%M') == w['time']:
             return {'source': 'mureka', 'model': cfg['model'], 'credits': cfg['credits_per_song'], 'vocals': cfg['vocals'], 'format': w['format']}
-    return {'source': 'hand'}
+    return {'source': 'hand'} if cfg.get('hand_written', True) else {'source': 'none', 'why': 'no upload in this slot (Creative Claw only, one a day)'}
 
 
 def nxt(slot=None):

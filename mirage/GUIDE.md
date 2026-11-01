@@ -92,12 +92,15 @@ from the request) and then runs the same export, blocking QC and video steps. A 
 - First tests: Mureka afro instrumental (job 59ad2f19) and the sung deep house test "Stay Till The Blue" (job 417fb00d,
   build id cctest01, not released).
 
-### Weekly Mureka songs (Sello, 1 Nov 2026): 5 a week, 3 Shorts + 2 videos
-`mureka_slots.json` fixes the slots (SAST, by publish day): **Mon 19:55 Short, Tue 23:55 video, Thu 07:55 Short,
-Fri 23:55 video, Sun 19:55 Short**. `song_release.py next --slot <YYYY-MM-DDTHH:MM>` prints `make.source`: `mureka` or `hand`.
-Budget: $100 of Creative Claw credits over 12 months (5 x 30 credits = 150 a week). For a Mureka slot:
-1. Credits: `get_credits_balance`. Under 30 → write that song by hand instead and notify Sello (top-up needed).
-   Creative Claw tools missing in the run → the same fallback and notification.
+### Creative Claw only, one song a day (Sello, 1 Nov 2026)
+Sello loaded $100 of Creative Claw credits and retired every other way of making songs: **no more hand-written or
+Looperman (free sample) songs**. Every new upload is a Mureka song sung with original lyrics, **one a day for 12 months**:
+Shorts **Mon/Wed/Fri/Sun 19:55**, videos **Tue/Thu/Sat 23:55** (`mureka_slots.json`); the 07:55 and 11:55 slots and the
+other days' 19:55/23:55 stay empty. `song_release.py next --slot <YYYY-MM-DDTHH:MM>` prints `make.source` `mureka` or
+`none`. Budget: 7 x 30 = 210 credits a week, 10,920 a year of the 11,040 loaded (about 4 remakes of slack). The hand-written
+tooling (loopkit, craft rules above) stays in the repo for reference but is not used for new releases. For each song:
+1. Credits: `get_credits_balance`. Under 30, or the Creative Claw tools are missing in the run → do NOT write the song by
+   hand: leave the slot empty and notify Sello (top-up or reconnection needed).
 2. Lyrics: write ORIGINAL lyrics for the act and style (verse, pre-chorus, chorus, verse 2, chorus, bridge, final chorus;
    short singable lines, a clear hook in the chorus title line; nothing borrowed from existing songs, no brand names, no
    mention of AI). Voice from the act: female act → female lead, male → male lead, mixed duo → duet, group → lead + backing.
@@ -110,9 +113,12 @@ Budget: $100 of Creative Claw credits over 12 months (5 x 30 credits = 150 a wee
 5. Spec `songs/mtrNNN.json`: id, title, artist, style, `vocals: true`, `source` {generator "creative-claw", model, job_id,
    audio_url, prompt, lyrics}. `check`, then `build` (it measures key/BPM into the spec), then the usual video checks,
    `describe.py ... --vocals` (key/BPM from the spec after the build) and scheduling. A track under 179 s is refused:
-   generate once more (another 30 credits); if that also fails, write the song by hand.
+   generate once more (another 30 credits); if that also fails, leave the slot empty and notify Sello.
 
 ## Schedule
+- **Since 2 Nov 2026: one Creative Claw song a day** (see "Creative Claw only" above): Shorts Mon/Wed/Fri/Sun 19:55, videos
+  Tue/Thu/Sat 23:55. The 09:37 task makes the 19:55 Shorts (Mon/Wed/Fri/Sun), the 19:37 task the 23:55 videos (Tue/Thu/Sat).
+  The four-a-day schedule below is history.
 - **Four uploads a day (Sello, 26 Oct 2026): 2 videos + 2 Shorts (SAST):** 23:55 **video**, 07:55 Short, 11:55 **video**,
   19:55 Short. (23-26 Oct it was six a day, adding 03:55 and 15:55 Shorts.) Every upload is a different song.
 - Two scheduled tasks share the day: 19:37 → 23:55 video + 07:55 Short (next day); 09:37 → 11:55 video + 19:55 Short.
