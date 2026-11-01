@@ -1,0 +1,464 @@
+{
+ "engine": "cast",
+ "id": 41,
+ "slug": "we-listen-and-we-dont-judge-the-candy-circle",
+ "title": "We Listen And We Don't Judge: The Candy Circle",
+ "trend": "TikTok 'We listen and we don't judge' confession format (peaking; Postdom TikTok trends 26 Oct-1 Nov 2026, top videos about 42 s) + the day after Halloween + clocks falling back last night ('daylight savings' is the #1 US Google Trends search today, 1M+) — the morning after Halloween, Mom calls a family confession circle over the missing peanut butter cups; Theo traded his brother's candy for a rock, Grandpa gave out 1971 pennies, the bucket keeps one hope candy, and Mom ate all twelve in the 'bonus hour' when the clocks went back",
+ "target_seconds": 180,
+ "length_reason": "Quick one-take confession format (the originals run under a minute), so it stays at the short end; 180 s keeps it eligible for TikTok and Instagram too.",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "we listen",
+  "and we don't judge",
+  "the day after halloween"
+ ],
+ "youtube_title": "We Listen And We Don't Judge: Who Ate The Halloween Candy?",
+ "description": "The morning after Halloween, Mom calls a family circle: somebody ate every peanut butter cup in the house.\nThe confessions keep getting worse, the candy bucket saw everything, and the extra hour from the clocks going back might be the real problem.\n\n#cartoon #animation #funny #comedy #halloween",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "halloween candy",
+  "family comedy",
+  "day after halloween",
+  "clocks go back",
+  "family cartoon"
+ ],
+ "tiktok_caption": "we listen and we don't judge... so who ate all the peanut butter cups? #cartoon #animation #funny #comedy #halloween",
+ "cast": [
+  {
+   "id": "nia",
+   "name": "Mom",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "curly",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "suit",
+    "pattern_color": "#f1c40f"
+   },
+   "bottom": "#2c3e50",
+   "accessories": [
+    "glasses"
+   ],
+   "brows": "raised",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "theo",
+   "name": "Theo",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.9,
+   "hair": {
+    "style": "spiky",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "accessories": [
+    "horns:#e74c3c"
+   ],
+   "eye": "big",
+   "voice": {
+    "id": "am_echo",
+    "pitch": 1,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "lou",
+   "name": "Grandpa Lou",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.05,
+   "hair": {
+    "style": "bald",
+    "color": "#bdc3c7"
+   },
+   "top": {
+    "color": "#7f8c8d",
+    "pattern": "stripes",
+    "pattern_color": "#6e4b2a"
+   },
+   "bottom": "#4a3b2a",
+   "accessories": [
+    "glasses",
+    "tie:#2c3e50"
+   ],
+   "brows": "angry",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "bucket",
+   "name": "The Candy Bucket",
+   "kind": "mascot",
+   "shape": "pumpkin",
+   "color": "#e67e22",
+   "accessories": [
+    "tophat:#2c3e50"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "nia",
+   "text": "Okay. Family circle. Somebody ate every peanut butter cup in this house.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "We listen, and we don't judge.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "That is my line, Theo. I made the sign.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "bucket",
+   "text": "I am the candy bucket. I was full at nine last night. Now I am a hat.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "nia",
+   "text": "Theo. You go first. We listen.",
+   "shot": "CU"
+  },
+  {
+   "spk": "theo",
+   "text": "Okay. I traded my little brother's candy.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "nia",
+   "text": "We don't judge. For what?",
+   "shot": "CU"
+  },
+  {
+   "spk": "theo",
+   "text": "For a rock. A good rock. It's smooth on one side.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "lou",
+   "text": "That's a rock.",
+   "shot": "lou"
+  },
+  {
+   "spk": "theo",
+   "text": "He loves it. He sleeps with it. Everybody wins.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bucket",
+   "text": "He traded forty pieces. I counted. I have no hands. I count with my soul.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lou",
+   "text": "I'm judging a little.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "nia",
+   "text": "Grandpa Lou. Your turn.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lou",
+   "text": "Fine. I handed out the candy last night.",
+   "shot": "CU"
+  },
+  {
+   "spk": "theo",
+   "text": "Aw, that's nice.",
+   "shot": "theo"
+  },
+  {
+   "spk": "lou",
+   "text": "I handed out pennies.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "theo",
+   "text": "Grandpa.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "lou",
+   "text": "Shiny pennies. From nineteen seventy one. Those are collectibles.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bucket",
+   "text": "One kid came back to return his. He said, sir, this is money from the past.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lou",
+   "text": "That's an investment. In twenty years, he'll thank me.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "nia",
+   "text": "Then where did the real candy go?",
+   "shot": "CU"
+  },
+  {
+   "spk": "lou",
+   "text": "Freezer. Behind the peas. Nobody looks behind the peas.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "theo",
+   "text": "I looked behind the peas. There were only more peas.",
+   "shot": "TWO",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "lou",
+   "text": "Then the peas are lying.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nia",
+   "text": "Bucket. Anything you want to share?",
+   "shot": "CU"
+  },
+  {
+   "spk": "bucket",
+   "text": "I have something. Every year, I keep one candy at the very bottom.",
+   "shot": "CU"
+  },
+  {
+   "spk": "theo",
+   "text": "Why?",
+   "shot": "theo"
+  },
+  {
+   "spk": "bucket",
+   "text": "So I am never fully empty. A bucket needs a little hope.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bucket",
+   "text": "It's a sour hard candy from two thousand nine. It is part of me now.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lou",
+   "text": "That's the one I'd eat.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "bucket",
+   "text": "Over my rim.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "rimshot"
+  },
+  {
+   "spk": "nia",
+   "text": "Okay. So nobody ate the peanut butter cups.",
+   "shot": "W",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "theo",
+   "text": "Mom. The clocks went back last night. Everybody got an extra hour.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lou",
+   "text": "I slept through mine. Like a professional.",
+   "shot": "CU"
+  },
+  {
+   "spk": "theo",
+   "text": "I spent mine watching a man sort his screws. It was beautiful.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "bucket",
+   "text": "I spent mine on the porch. Alone. At one in the morning.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nia",
+   "text": "Well, I spent mine sleeping. Like a normal person.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "bucket",
+   "text": "Interesting.",
+   "shot": "nia",
+   "pre": 0.6
+  },
+  {
+   "spk": "lou",
+   "text": "Very interesting.",
+   "shot": "nia"
+  },
+  {
+   "spk": "theo",
+   "text": "Mom. Why is there a little gold wrapper in your hair?",
+   "shot": "TWO",
+   "gesture": "point",
+   "after": "whoosh"
+  },
+  {
+   "spk": "nia",
+   "text": "That's a bow.",
+   "shot": "CU"
+  },
+  {
+   "spk": "theo",
+   "text": "It says peanut butter on it.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nia",
+   "text": "We listen. And we don't judge.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "lou",
+   "text": "Oh, we're judging now.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "nia",
+   "text": "Fine! At one fifty nine, the clock went back to one o'clock.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "nia",
+   "text": "And I thought, this hour doesn't count. It isn't even a real hour.",
+   "shot": "CU"
+  },
+  {
+   "spk": "theo",
+   "text": "So you ate them in the fake hour.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "nia",
+   "text": "I ate them in a bonus hour. It's like a coupon.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bucket",
+   "text": "She ate them out of me. In the dark. I heard everything. Crinkle, crinkle, sigh.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lou",
+   "text": "She sighed?",
+   "shot": "lou"
+  },
+  {
+   "spk": "bucket",
+   "text": "Twelve times. One sigh per cup.",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "theo",
+   "text": "So I traded a rock, Grandpa gave out old money, and you ate the whole bonus hour.",
+   "shot": "W"
+  },
+  {
+   "spk": "nia",
+   "text": "We are a beautiful family.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "lou",
+   "text": "We're a family that needs a new sign.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lou",
+   "text": "In March, the clocks go forward. You lose an hour.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "theo",
+   "text": "So you have to give twelve peanut butter cups back.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "nia",
+   "text": "That's not how time works.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bucket",
+   "text": "That is exactly how time works. I will be waiting.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "all",
+   "text": "We listen, and we don't judge.",
+   "shot": "W",
+   "jump": true
+  },
+  {
+   "spk": "lou",
+   "text": "I judge a little.",
+   "shot": "CU",
+   "after": "rimshot"
+  }
+ ]
+}
