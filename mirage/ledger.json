@@ -2053,6 +2053,74 @@
     "dance": 0.183,
     "genre_fit": 0.872
    }
+  },
+  {
+   "release": "mtr029",
+   "date": "2026-11-02",
+   "slot": "2026-11-02T07:55",
+   "format": "short",
+   "title": "Cobalt Carousel",
+   "artist": "Disco Lantern Club",
+   "style": "disco",
+   "key": "Eb major",
+   "bpm": 117,
+   "written_by_hand": true,
+   "spec": "mirage/songs/mtr029.json",
+   "photographer": "Daren Inshape",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-bikini-standing-on-the-beach-QmktCddNtPA",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-2955619576144575622",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-14830766664046884045.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr029.mp3",
+    "top": [
+     [
+      "electronic",
+      0.472
+     ],
+     [
+      "dance",
+      0.208
+     ],
+     [
+      "electronica",
+      0.139
+     ],
+     [
+      "electro",
+      0.138
+     ],
+     [
+      "House",
+      0.113
+     ],
+     [
+      "chillout",
+      0.097
+     ],
+     [
+      "pop",
+      0.086
+     ],
+     [
+      "ambient",
+      0.05
+     ],
+     [
+      "instrumental",
+      0.041
+     ],
+     [
+      "indie",
+      0.041
+     ]
+    ],
+    "house": 0.113,
+    "electronic": 0.472,
+    "dance": 0.208,
+    "genre_fit": 0.905
+   }
   }
  ]
 }
