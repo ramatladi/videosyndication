@@ -52,7 +52,7 @@ def wrap(draw, text, f, maxw):
     return lines
 
 
-ARTIST = 'DJ Velvet Purple'          # set from --artist (one act per sub-genre, mirage/artists.json)
+ARTIST = 'DJ Velvet Purple'          # set from --artist (the act song_release.py next picks from mirage/artists.json)
 
 
 def brand_badge(ov, cx, top, scale=1.0):

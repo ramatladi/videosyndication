@@ -14,7 +14,15 @@ import argparse, json, os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); REPO = os.path.dirname(HERE)
 V2 = os.path.join(REPO, 'djvelvetgrey', 'v2'); OUT = os.path.join(REPO, 'out'); LEDGER = os.path.join(HERE, 'ledger.json')
 sys.path.insert(0, os.path.join(HERE, 'loopkit'))
-ARTISTS = json.load(open(os.path.join(HERE, 'artists.json')))['artists']
+ROSTER = json.load(open(os.path.join(HERE, 'artists.json')))['roster']   # style -> [acts]; 1000 fictional acts (Sello, 1 Nov 2026)
+
+
+def pick_act(style, releases):
+    """Rotate the style's roster: the act (not retired) with the fewest releases; roster order breaks ties."""
+    used = {}
+    for r in releases: used[r.get('artist')] = used.get(r.get('artist'), 0) + 1
+    acts = [a for a in ROSTER[style] if not a.get('retired')]
+    return min(acts, key=lambda a: (used.get(a['name'], 0), ROSTER[style].index(a)))
 # 24-slot style rotation (deep/melodic most often: they are most of Sello's library), no style twice in a row
 CYCLE = ['deep', 'melodic', 'progressive', 'afro', 'house', 'tropical', 'deep', 'nudisco', 'melodic', 'soulful', 'progressive', 'indiedance',
          'deep', 'french', 'melodic', 'trance', 'afro', 'disco', 'deep', 'futurebass', 'melodic', 'tech', 'house', 'vocal']
@@ -34,14 +42,17 @@ def nxt():
     hand = [r for r in L if r.get('written_by_hand')]
     style = CYCLE[len(hand) % len(CYCLE)]
     if hand and hand[-1]['style'] == style: style = CYCLE[(len(hand) + 1) % len(CYCLE)]
-    print(json.dumps({'release': f'mtr{n:03d}', 'style': style, 'artist': ARTISTS[style]['name'], 'artist_line': ARTISTS[style]['line'],
+    act = pick_act(style, L)
+    print(json.dumps({'release': f'mtr{n:03d}', 'style': style, 'artist': act['name'], 'artist_line': act['line'],
+                      'artist_kind': act['kind'], 'artist_gender': act['gender'], 'artist_heritage': act['heritage'],
                       'recent': [(r['release'], r['style'], r.get('key'), r.get('bpm'), r['title']) for r in hand[-8:]]}, indent=1))
 
 
 def lint(spec):
     import song as G
     err, warn = G.check(spec); err += G.unique(spec)
-    if spec['artist'] != ARTISTS[spec['style']]['name']: err.append(f"artist must be {ARTISTS[spec['style']]['name']} for {spec['style']}")
+    names = {a['name'] for a in ROSTER[spec['style']] if not a.get('retired')}
+    if spec['artist'] not in names: err.append(f"artist {spec['artist']!r} is not an active act in the {spec['style']} roster (mirage/artists.json)")
     if any(r['title'].lower() == spec['title'].lower() for r in ledger()['releases'] if r['release'] != spec['id']): err.append('title already in the ledger')
     return err, warn
 

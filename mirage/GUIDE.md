@@ -8,11 +8,22 @@ Sello heard the procedural engine's tracks as "AI-ish" (random melody, fake-soun
 On 26 Oct he approved hand-written songs ("it is better") and asked: **write all the songs by hand, use a different artist
 name per sub-genre (not all DJs), and upload as per the schedule.**
 
-- **Acts:** `artists.json` maps each of the 15 styles to its act (Saltglass Society = deep, Aurelle Vane = melodic,
-  DJ Saltwater = house, Sahel Bloom = afro, Coco Meridian = tropical, Prism Kites = future bass, Glossy Boulevard = nu-disco,
-  Northline Arc = progressive, DJ Concrete Palm = tech, Seraphine Tide = trance, Honey Static = vocal house (instrumental),
-  Ellis Honeywell = soulful, Disco Lantern Club = disco, Les Nuits Pastel = French house, Neon Tamarind = indie dance).
-  The act's name is on the video's brand pill, in the title and in the description. Releases before mtr012 are DJ Velvet Purple.
+- **Acts (since 1 Nov 2026): a roster of 1000 fictional acts.** Sello asked for "more DJs and artists up to 1000,
+  representing male/female and ethnicities". `artists.json` holds `roster`: style -> about 66 acts each (producers and
+  players, DJs, duos, collectives/bands), with `kind`, `gender` (female/male, or female/male/mixed for groups) and `heritage`
+  (the cultural origin of the names used, across 52 heritages from every continent). Every style has the same gender balance
+  and a spread of heritages; no heritage is tied to a style. The 15 original acts (Saltglass Society = deep, Aurelle Vane =
+  melodic, DJ Saltwater = house, Sahel Bloom = afro, Coco Meridian = tropical, Prism Kites = future bass, Glossy Boulevard =
+  nu-disco, Northline Arc = progressive, DJ Concrete Palm = tech, Seraphine Tide = trance, Honey Static = vocal, Ellis
+  Honeywell = soulful, Disco Lantern Club = disco, Les Nuits Pastel = French house, Neon Tamarind = indie dance) are first in
+  their rosters (`original: true`).
+  **Rotation:** `song_release.py next` credits the release to the act in its style with the fewest releases (roster order
+  breaks ties), so every act gets a song before any repeats. `check` accepts only an active act of the spec's style.
+  **Name check at first use:** before an act's first release, a quick WebSearch of the act's name must not show an existing
+  well-known artist; if it does, set `"retired": true` on that act in `artists.json`, commit, and run `next` again.
+  The roster is built by `roster/build_roster.py` (deterministic); edit acts by hand in `artists.json` after that.
+  The act's name is on the video's brand pill (names are at most 20 characters so they fit), in the title and in the
+  description. Releases before mtr012 are DJ Velvet Purple.
 - **Writing a song = writing a spec** `mirage/songs/mtrNNN.json` by hand (format in `loopkit/song.py`'s docstring): 8 bars
   of chord voicings + bass roots, a keys comping rhythm, a bass line (intervals from each root), an 8-bar hook, pad layers
   (+ optional arpeggio) and three drum patterns (main / alt for drop 2 / tops without kick) in 16th-note steps.
@@ -98,6 +109,6 @@ Media is hosted temporarily on the repo's `media` branch (`mtrNNN.mp4`) and remo
 - `songs/` — every hand-written song spec (the uniqueness catalogue).
 - `loopkit/` — `song.py` (lint + performance), `drumkit.py` (909/808 + hand percussion), `arrange.py` (arrangement, mix,
   master), `parts.py` (shared note renderer); `song_lido.py` / `song_sunbird.py` are the first hand-written drafts.
-- `artists.json` — the 15 acts. `video.py` / `video_short.py` (`--artist`), `describe.py` (`--artist`).
+- `artists.json` — the 1000-act roster (`roster/build_roster.py` built it). `video.py` / `video_short.py` (`--artist`), `describe.py` (`--artist`).
 - `ledger.json` — every release (format, slot, title, act, style, key, tempo, photo, Metricool uuid, ears).
 - Legacy (before 26 Oct): `make_release.py` + djvelvetgrey engine v4 studio mode, `catalog.json`, `taste/` research.
