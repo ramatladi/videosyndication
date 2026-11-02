@@ -1,0 +1,481 @@
+{
+ "engine": "cast",
+ "id": 43,
+ "slug": "no-shave-november-so-sorry",
+ "title": "I'm So Sorry: No Shave November",
+ "trend": "TikTok 'I'm So Sorry' story-then-reveal carousel (early slides build a story, last slide reveals what really happened; SocialPilot Oct 27-Nov 10 2026, best posted right after Halloween photos) + Movember/No Shave November starting Nov 1 (SocialPilot cultural moments)",
+ "target_seconds": 180,
+ "length_reason": "Original is a quick one-clip/short carousel format, so this stays at the short end; 180 s also keeps it eligible for Instagram.",
+ "scene": "office",
+ "desk": false,
+ "music": "dramatic",
+ "intro": [
+  "no shave november",
+  "a formal office update",
+  "i'm so sorry"
+ ],
+ "youtube_title": "The Office No Shave November Contest Went Terribly Wrong",
+ "description": "Denise has called a meeting about the office No Shave November contest. There are slides. There is a very suspicious mustache, a very sudden beard, and a very upset razor.\n\n#cartoon #animation #funny #comedy #office",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "office humor",
+  "no shave november",
+  "beard",
+  "mustache",
+  "coworkers"
+ ],
+ "tiktok_caption": "our office no shave november contest needed a formal update. i'm so sorry. #cartoon #animation #funny #comedy #office",
+ "cast": [
+  {
+   "id": "denise",
+   "name": "Denise",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "bun",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#34495e",
+    "pattern": "suit",
+    "pattern_color": "#ecf0f1"
+   },
+   "bottom": "#2c3e50",
+   "accessories": [
+    "glasses"
+   ],
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "rob",
+   "name": "Rob",
+   "kind": "human",
+   "color": "#f8d5b0",
+   "scale": 0.92,
+   "hair": {
+    "style": "short",
+    "color": "#c98f4e"
+   },
+   "top": {
+    "color": "#3498db",
+    "pattern": "plain"
+   },
+   "bottom": "#4a4a5e",
+   "accessories": [
+    "tie:#f39c12",
+    "mustache:#111111"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 1,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "hank",
+   "name": "Hank",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.12,
+   "hair": {
+    "style": "short",
+    "color": "#5a3a22"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#7b241c"
+   },
+   "bottom": "#2c3e50",
+   "accessories": [
+    "beard:#6e4326"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.96
+   }
+  },
+  {
+   "id": "gerald",
+   "name": "Gerald the Razor",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#bcc6cc",
+   "scale": 0.9,
+   "accessories": [
+    "tophat"
+   ],
+   "brows": "worried",
+   "mouth": "frown",
+   "label_color": "#7f8c8d",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "denise",
+   "text": "Thank you for coming. This is a formal update on No Shave November.",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "denise",
+   "text": "Slide one. A fun office contest. Everybody smiling. I'm so sorry.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "rob",
+   "text": "Why are you sorry? That slide looks great.",
+   "shot": "rob",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "denise",
+   "text": "Rob. We will get to you.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "gerald",
+   "text": "Allow me to introduce myself. I am Gerald. I am the razor in Hank's desk drawer.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "gerald",
+   "text": "As of this contest, I am unemployed.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "hank",
+   "text": "It's one month, buddy.",
+   "shot": "hank",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gerald",
+   "text": "You said that about the gym.",
+   "shot": "TWO",
+   "gesture": "point",
+   "after": "rimshot"
+  },
+  {
+   "spk": "denise",
+   "text": "Slide two. Rob's progress photo.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "rob",
+   "text": "Thank you. I have worked very hard on this mustache.",
+   "shot": "rob",
+   "gesture": "hips"
+  },
+  {
+   "spk": "denise",
+   "text": "Rob, that mustache is very dark and very even.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "rob",
+   "text": "It's called genetics.",
+   "shot": "rob",
+   "gesture": "cross"
+  },
+  {
+   "spk": "denise",
+   "text": "It is also on your shirt.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "rob",
+   "text": "Those are also genetics.",
+   "shot": "rob",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gerald",
+   "text": "It says permanent marker on his hand.",
+   "shot": "CU",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "rob",
+   "text": "That's my doctor's name. Doctor Permanent Marker.",
+   "shot": "rob",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "denise",
+   "text": "I'm so sorry.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "denise",
+   "text": "Slide three. Hank.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "hank",
+   "text": "Yep. That's me. Just a natural man, growing naturally.",
+   "shot": "hank",
+   "gesture": "hips"
+  },
+  {
+   "spk": "denise",
+   "text": "Hank, on Friday you had no beard. Today I cannot see your tie.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "hank",
+   "text": "Strong follicles. Runs in the family.",
+   "shot": "hank",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "denise",
+   "text": "Yesterday, the printer jammed. We found the problem.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gerald",
+   "text": "It was in the beard. The stapler was also in the beard.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hank",
+   "text": "That stapler came to me.",
+   "shot": "hank",
+   "gesture": "cross",
+   "after": "boing"
+  },
+  {
+   "spk": "rob",
+   "text": "Hank, how is yours so long already? I have been drawing for two days.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "hank",
+   "text": "Eat protein, Rob. And stop asking questions.",
+   "shot": "hank",
+   "gesture": "point"
+  },
+  {
+   "spk": "denise",
+   "text": "Slide four. The grievance.",
+   "shot": "W",
+   "gesture": "point",
+   "pre": 0.4
+  },
+  {
+   "spk": "gerald",
+   "text": "I have filed a formal complaint. Item one, emotional abandonment.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "denise",
+   "text": "He has also formed a support group.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gerald",
+   "text": "It meets in the drawer. There is me, a nail clipper, and some floss.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "rob",
+   "text": "Floss is there? How is the floss doing?",
+   "shot": "rob",
+   "gesture": "think"
+  },
+  {
+   "spk": "gerald",
+   "text": "Nobody has seen the floss used in years, Rob. It's used to it.",
+   "shot": "TWO",
+   "after": "rimshot"
+  },
+  {
+   "spk": "denise",
+   "text": "I'm so sorry. Slide five. Yes, the prize.",
+   "shot": "CU"
+  },
+  {
+   "spk": "denise",
+   "text": "The winner receives one small gift card for the sandwich place.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "hank",
+   "text": "And it's mine. I'm basically a tree.",
+   "shot": "hank",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "rob",
+   "text": "We have not even judged it yet.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "gerald",
+   "text": "Denise, may I show them the last slide?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "denise",
+   "text": "The last slide is why I booked this room.",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 0.5
+  },
+  {
+   "spk": "denise",
+   "text": "This is a photo from the office Halloween party. Friday night.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "whoosh"
+  },
+  {
+   "spk": "rob",
+   "text": "Hey, that's Hank. Dressed as a lumberjack.",
+   "shot": "rob",
+   "gesture": "point"
+  },
+  {
+   "spk": "gerald",
+   "text": "And what, pray tell, is on the lumberjack's face?",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "hank",
+   "text": "That could be anybody's beard.",
+   "shot": "hank",
+   "gesture": "shrug",
+   "pre": 0.8
+  },
+  {
+   "spk": "denise",
+   "text": "Hank, it has a price tag on it. Nineteen dollars. It is on your ear right now.",
+   "shot": "TWO",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "rob",
+   "text": "You glued on a beard? For a sandwich?",
+   "shot": "rob",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "hank",
+   "text": "You drew yours on with a marker, Rob.",
+   "shot": "hank",
+   "gesture": "point"
+  },
+  {
+   "spk": "hank",
+   "text": "It won't come off, by the way. I tried. It's a very good glue.",
+   "shot": "hank",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "rob",
+   "text": "Mine won't come off either. I have tried soap. And a lawyer.",
+   "shot": "rob",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gerald",
+   "text": "Gentlemen. At last. Somebody needs me.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "denise",
+   "text": "Sit down, Gerald. Contest rules. Nobody shaves until the month is over.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "gerald",
+   "text": "But surely it is nearly over. All of this has been an absolute eternity.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "rob",
+   "text": "Right. We have got to be near the end. What's today?",
+   "shot": "rob",
+   "gesture": "think"
+  },
+  {
+   "spk": "denise",
+   "text": "Today is November second.",
+   "shot": "CU",
+   "pre": 0.9,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "hank",
+   "text": "Second of what?",
+   "shot": "hank",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "denise",
+   "text": "There are twenty eight days left, Hank.",
+   "shot": "W",
+   "gesture": "cross"
+  },
+  {
+   "spk": "denise",
+   "text": "Rob, Hank, thank you all for coming. That was my presentation.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "gerald",
+   "text": "I'll be in the drawer. Tell the floss I'm so sorry.",
+   "shot": "CU",
+   "gesture": "wave",
+   "after": "sting"
+  }
+ ]
+}

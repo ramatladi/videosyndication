@@ -398,6 +398,14 @@ class Character:
             elif name == 'whistle':
                 ctx.move_to(-40, -570); ctx.curve_to(-20, -480, 20, -480, 40, -570); src(ctx, '#f1c40f'); ctx.set_line_width(5); ctx.stroke()
                 rrect(ctx, -18, -500, 36, 26, 8); fs(ctx, '#bdc3c7', lw=4)
+            elif name == 'mustache':
+                c = col or '#3b2a1f'
+                for s in (-1, 1):
+                    ellipse(ctx, s * 44 * sc, cy + 76 * sc, 50 * sc, 17 * sc, s * 0.18); fs(ctx, c, lw=5 * sc)
+            elif name == 'beard':
+                c = col or '#5a3a22'
+                ctx.move_to(-r * 0.98, cy + 10 * sc); ctx.curve_to(-r * 0.95, cy + r + 150 * sc, r * 0.95, cy + r + 150 * sc, r * 0.98, cy + 10 * sc)
+                ctx.curve_to(r * 0.72, cy + 200 * sc, -r * 0.72, cy + 200 * sc, -r * 0.98, cy + 10 * sc); ctx.close_path(); fs(ctx, c, lw=6 * sc)
             elif name == 'halo':
                 ellipse(ctx, 0, cy - r - 60 * sc, 110 * sc, 26 * sc); src(ctx, '#f9e79f'); ctx.set_line_width(14 * sc); ctx.stroke()
             elif name == 'horns':
