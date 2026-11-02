@@ -1,0 +1,453 @@
+{
+ "engine": "cast",
+ "id": 42,
+ "slug": "it-is-time-the-fruitcake",
+ "title": "It Is Time: The Fruitcake",
+ "trend": "TikTok/Instagram 'It's time' yearly defrost moment (posted from Nov 1 as people cut from Halloween decor straight to Christmas; Postdom 26 Oct-1 Nov 2026 named trend) with the 'POV' format and the first week of November holiday argument",
+ "target_seconds": 180,
+ "length_reason": "Quick single-moment clip format; 3:00 fits the guide's 175-240 range and keeps Instagram eligible",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "it is november.",
+  "she has thawed",
+  "and nobody is ready"
+ ],
+ "youtube_title": "The Fruitcake That Comes Out Of The Freezer Every November",
+ "description": "Every November, one fruitcake in a crown climbs out of the garage freezer and declares it Christmas. This year, the frozen turkey has something to say.\n\n#cartoon #animation #funny #comedy #christmas",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "christmas",
+  "thanksgiving",
+  "fruitcake",
+  "holiday humor"
+ ],
+ "tiktok_caption": "every november she climbs out of the freezer and nobody can stop her #cartoon #animation #funny #comedy #christmas",
+ "cast": [
+  {
+   "id": "dee",
+   "name": "Dee",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "curly",
+    "color": "#1f1410"
+   },
+   "top": {
+    "color": "#7d3c98",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "malik",
+   "name": "Malik",
+   "kind": "human",
+   "color": "#a5683f",
+   "scale": 0.92,
+   "hair": {
+    "style": "short",
+    "color": "#1a1210"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "accessories": [
+    "cap:#2e86c1"
+   ],
+   "eye": "big",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 1,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "clem",
+   "name": "Clementine",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#8a5a3c",
+   "accessories": [
+    "crown:#f1c40f",
+    "sunglasses"
+   ],
+   "mouth": "smile",
+   "voice": {
+    "id": "bf_isabella",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "earl",
+   "name": "Earl",
+   "kind": "mascot",
+   "shape": "egg",
+   "color": "#e3bb8e",
+   "accessories": [
+    "beanie:#aee3f5",
+    "scarf:#c0392b"
+   ],
+   "eye": "sleepy",
+   "brows": "angry",
+   "mouth": "frown",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "malik",
+   "text": "Mom. The old freezer in the garage is humming again. Very high. Like it wants attention.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dee",
+   "text": "What is today's date?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "malik",
+   "text": "November second.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dee",
+   "text": "Get the good towels. It is time.",
+   "shot": "W",
+   "after": "sting"
+  },
+  {
+   "spk": "clem",
+   "text": "Darlings. It is time.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "malik",
+   "text": "Mom, that is a fruitcake in a crown.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "clem",
+   "text": "I am the fruitcake. There are others. They are not me.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dee",
+   "text": "This is Clementine. She comes out of the deep freezer every November. Then it is Christmas.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "malik",
+   "text": "Halloween was two days ago. I still have candy in my hoodie.",
+   "shot": "CU"
+  },
+  {
+   "spk": "clem",
+   "text": "Adorable. Burn the hoodie.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "dee",
+   "text": "You're a day late, you know. Everybody else started yesterday.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "clem",
+   "text": "I am never late. The world was early.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dee",
+   "text": "Malik, go take down the skeleton.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "malik",
+   "text": "Why is the skeleton already wearing a Santa hat?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "clem",
+   "text": "He read the room. He has no eyes, and he read the room.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dee",
+   "text": "Oh no. She's going to do the note.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "malik",
+   "text": "What note?",
+   "shot": "clem"
+  },
+  {
+   "spk": "dee",
+   "text": "Cover the dog. Open a window. Hold on to something you love.",
+   "shot": "CU"
+  },
+  {
+   "spk": "clem",
+   "text": "Everyone quiet, please. I require a moment of silence before my moment.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "malik",
+   "text": "Did it start?",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.9
+  },
+  {
+   "spk": "dee",
+   "text": "It started four seconds ago. Only dogs can hear it.",
+   "shot": "CU"
+  },
+  {
+   "spk": "malik",
+   "text": "The whole street is howling.",
+   "shot": "CU"
+  },
+  {
+   "spk": "clem",
+   "text": "That is my audience. They have waited all year.",
+   "shot": "CU",
+   "gesture": "wave",
+   "after": "applause"
+  },
+  {
+   "spk": "earl",
+   "text": "Excuse me.",
+   "shot": "W",
+   "pre": 0.9
+  },
+  {
+   "spk": "malik",
+   "text": "Who said that?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dee",
+   "text": "That came from the kitchen freezer. Oh, not this year. Earl, please.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "malik",
+   "text": "Mom. The turkey is talking.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "earl",
+   "text": "You bet I am. I have a holiday in twenty four days, and nobody asked me anything.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "clem",
+   "text": "Oh. The frozen bird. Earl, darling. You are still here.",
+   "shot": "CU"
+  },
+  {
+   "spk": "earl",
+   "text": "I am the next holiday, Clementine. I am next. You are cutting the line.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "clem",
+   "text": "Thanksgiving is the opening act, darling.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "earl",
+   "text": "I have a parade. A whole parade. Nobody in it is wearing a crown.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "clem",
+   "text": "Nobody watches a parade for the bird.",
+   "shot": "CU"
+  },
+  {
+   "spk": "earl",
+   "text": "There is a giant bird in that parade. That is my cousin.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dee",
+   "text": "Can you two please take this to the pantry?",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "earl",
+   "text": "I cannot. I have been frozen solid since March. I am a brick with opinions.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "malik",
+   "text": "Hang on. Earl has ice all over his beanie. Clementine, you have no ice at all.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "clem",
+   "text": "I am a professional. I do not show it.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "malik",
+   "text": "Mom, the old freezer is warm. There is a note taped on the back.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dee",
+   "text": "That's your grandfather's handwriting. Unplugged it in two thousand eleven. Needed the outlet.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "malik",
+   "text": "Fifteen years. She has not been frozen for fifteen years.",
+   "shot": "W"
+  },
+  {
+   "spk": "earl",
+   "text": "Then what have you been doing in there?",
+   "shot": "CU"
+  },
+  {
+   "spk": "clem",
+   "text": "Standing. In the dark. In character.",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 1.0,
+   "after": "sting"
+  },
+  {
+   "spk": "clem",
+   "text": "Humming, so that you would find me.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dee",
+   "text": "And you never go bad?",
+   "shot": "CU"
+  },
+  {
+   "spk": "clem",
+   "text": "I am a fruitcake. Nothing happens to me. I will be here when the sun goes out.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "malik",
+   "text": "Why is there a gift tag on your back?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dee",
+   "text": "Oh. Sweetheart, do not read that.",
+   "shot": "CU"
+  },
+  {
+   "spk": "malik",
+   "text": "To Dee, from Aunt Ruth. To Aunt Ruth, from Dee. To Dee, from Aunt Ruth. Nineteen ninety eight.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "earl",
+   "text": "You are not a tradition. You are a package nobody will keep.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "clem",
+   "text": "Darling, I have been mailed to Ohio fourteen times. That is called touring.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "applause"
+  },
+  {
+   "spk": "dee",
+   "text": "She's not wrong. It is a tour.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "malik",
+   "text": "Mom, there is a package on the porch. From Aunt Ruth. It is humming.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "ding"
+  },
+  {
+   "spk": "dee",
+   "text": "Higher than the last one.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.6
+  },
+  {
+   "spk": "clem",
+   "text": "Oh no. My understudy.",
+   "shot": "CU"
+  },
+  {
+   "spk": "all",
+   "text": "It is time.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  }
+ ]
+}
