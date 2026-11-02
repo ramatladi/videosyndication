@@ -2196,6 +2196,35 @@
     "dance": 0.168,
     "genre_fit": 0.913
    }
+  },
+  {
+   "release": "mtr031",
+   "date": "2026-11-02",
+   "slot": "2026-11-02T19:55",
+   "format": "short",
+   "title": "Let The Line Go",
+   "artist": "Prism Kites",
+   "style": "futurebass",
+   "key": "A major",
+   "bpm": 100,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "70a3003a-0ca6-40c3-8e20-9681742cec8c",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/21688d5d-4890-41bb-ac9e-a90503e46a7f.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr031.json",
+   "photographer": "Leo_Visions",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-bikini-sitting-on-the-beach-4RXTsl9M9Eg",
+   "photo_kind": "bikini",
+   "metricool_uuid": "1566016716139217764",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-15306379266586155521.mp4",
+   "reference": null,
+   "ears": {
+    "error": "Command '['/usr/local/bin/python3', '-m', 'pip', 'install', '-q', '--break-system-packages', 'tensorflow-cpu', 'tf_keras']' died with <Signals.SIGTERM: 15>."
+   }
   }
  ]
 }
