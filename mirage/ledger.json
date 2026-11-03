@@ -2225,6 +2225,81 @@
    "ears": {
     "error": "Command '['/usr/local/bin/python3', '-m', 'pip', 'install', '-q', '--break-system-packages', 'tensorflow-cpu', 'tf_keras']' died with <Signals.SIGTERM: 15>."
    }
+  },
+  {
+   "release": "mtr032",
+   "date": "2026-11-03",
+   "slot": "2026-11-03T23:55",
+   "format": "video",
+   "title": "Leaning Into Amber",
+   "artist": "DJ Juliette Rousseau",
+   "style": "melodic",
+   "key": "F# minor",
+   "bpm": 120,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "6abee5e9-758a-4d5b-863d-de9c2e556d74",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/dd2f7c0a-5cba-476d-85e0-0544d4e7a29d.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr032.json",
+   "photographer": "Jonathan Borba",
+   "photo_page": "https://unsplash.com/photos/woman-in-swimsuit-stands-in-clear-water-near-waterfall-JYgHqOLOzjU",
+   "photo_kind": "bikini",
+   "metricool_uuid": "4601123980427284388",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-9875829240131490770.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr032.mp3",
+    "top": [
+     [
+      "electronic",
+      0.294
+     ],
+     [
+      "female vocalists",
+      0.185
+     ],
+     [
+      "chillout",
+      0.179
+     ],
+     [
+      "pop",
+      0.15
+     ],
+     [
+      "ambient",
+      0.117
+     ],
+     [
+      "electronica",
+      0.088
+     ],
+     [
+      "dance",
+      0.079
+     ],
+     [
+      "jazz",
+      0.07
+     ],
+     [
+      "instrumental",
+      0.064
+     ],
+     [
+      "indie",
+      0.044
+     ]
+    ],
+    "house": 0.037,
+    "electronic": 0.294,
+    "dance": 0.079,
+    "genre_fit": 0.808
+   }
   }
  ]
 }
