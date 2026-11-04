@@ -1,0 +1,68 @@
+name: Acne Medicine Johannesburg upload
+# Uploads queued videos straight to the Acne Medicine Johannesburg YouTube channel (UCtwhnWNVzoS6MR0SkvZIDHQ) with
+# the YouTube Data API (acnemedicine/upload.py). Runs when a queue file lands on the acne-data branch.
+# The video itself sits temporarily on the media branch and is deleted from it once the upload is verified.
+# Secrets: YT_ACNE_CLIENT_ID, YT_ACNE_CLIENT_SECRET, YT_ACNE_REFRESH_TOKEN (set by acnemedicine/auth_local.py).
+on:
+  push:
+    branches: [acne-data]
+    paths: ["acnemedicine/queue/*.json"]
+  workflow_dispatch:
+    inputs:
+      queue_file:
+        description: "Queue file to upload, e.g. acnemedicine/queue/amj001.json"
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: acne-upload
+  cancel-in-progress: false
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: acne-data
+          fetch-depth: 2
+      - name: Upload queued videos
+        env:
+          YT_ACNE_CLIENT_ID: ${{ secrets.YT_ACNE_CLIENT_ID }}
+          YT_ACNE_CLIENT_SECRET: ${{ secrets.YT_ACNE_CLIENT_SECRET }}
+          YT_ACNE_REFRESH_TOKEN: ${{ secrets.YT_ACNE_REFRESH_TOKEN }}
+          QUEUE_INPUT: ${{ github.event.inputs.queue_file }}
+        run: |
+          set -u
+          if [ -n "${QUEUE_INPUT:-}" ]; then files="$QUEUE_INPUT";
+          else files=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'acnemedicine/queue/*.json' 2>/dev/null || ls acnemedicine/queue/*.json); fi
+          rc=0
+          for q in $files; do [ -f "$q" ] && { python3 acnemedicine/upload.py "$q" || rc=1; }; done
+          echo "rc=$rc" >> "$GITHUB_ENV"
+      - name: Record results and remove uploaded videos from the media branch
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 - <<'EOF' > /tmp/done.txt
+          import glob, json
+          for p in glob.glob('acnemedicine/results/*.json'):
+              r = json.load(open(p))
+              q = json.load(open(f"acnemedicine/queue/{r['id']}.json"))
+              if r.get('status') == 'UPLOADED' and q.get('media_path'):
+                  print(q['media_path'])
+          EOF
+          git add acnemedicine/results
+          if ! git diff --cached --quiet; then
+            git commit -m "Acne Medicine Johannesburg: upload results"
+            for i in 1 2 3; do git push origin HEAD:acne-data && break; git pull --rebase origin acne-data; done
+          fi
+          if [ -s /tmp/done.txt ]; then
+            git clone --depth 1 -b media "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" /tmp/media
+            cd /tmp/media
+            while read -r f; do case "$f" in acnemedicine/*.mp4) [ -f "$f" ] && git rm -q "$f";; esac; done < /tmp/done.txt
+            git diff --cached --quiet || { git commit -m "Acne Medicine Johannesburg: remove uploaded videos"; git push origin HEAD:media; }
+          fi
+      - name: Fail the run if any upload failed
+        if: always()
+        run: test "${rc:-1}" = "0"
