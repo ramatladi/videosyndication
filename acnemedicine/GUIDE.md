@@ -13,7 +13,7 @@ account (YouTube Data API; default quota 100 `videos.insert` calls a day). Other
 | `upload.py` | Uploads / reconciles / re-verifies one queue item. Refuses any token not for `CHANNEL_ID`. |
 | `run_queue.sh` | Processes **every** queue item on `acne-data` (workflow entry point). |
 | `persist.sh` | Commits + pushes one result to `acne-data` and confirms origin holds it; non-zero otherwise. |
-| `auth_local.py` | One-time sign-in on Sello's computer; stores the three Actions secrets with `gh secret set`. |
+| `auth_local.py` | One-time sign-in on Sello's computer; stores the three Actions secrets with `gh secret set`. Never remove the app from Google Account permissions to retry: the GlobalNewsFlix client is shared. |
 | `test_upload.py` | Offline tests: fake Google API, local bare Git origin, auth listener. `python3 acnemedicine/test_upload.py` |
 | `integration/` | Harmless unlisted test card (`make_test_asset.sh`) and its queue item, used once to prove live uploads. |
 
@@ -40,7 +40,7 @@ checks YouTube Studio, then deletes or edits the result file.
 2. Commit `acnemedicine/queue/<id>.json` to `acne-data` and push:
    ```json
    {"id": "amj001", "title": "…", "description": "…", "tags": ["skincare"], "privacy": "public",
-    "short": true, "contains_synthetic_media": false, "publish_at": null}
+    "short": true, "contains_synthetic_media": false, "paid_promotion": true, "publish_at": null}
    ```
    `id`: 3-41 chars of a-z 0-9 - _, equal to the file name. `publish_at` (UTC, `2026-11-06T08:00:00Z`) schedules it
    (YouTube keeps it private until then). `contains_synthetic_media` is required and must describe that video's
@@ -68,6 +68,9 @@ Status (4 Nov 2026): Google Cloud terms accepted (marketing emails off); project
 - Review real products honestly from the maker's own published information (ingredients, skin type, how to use).
   Never invent customer testimonials, ratings or before/after results, and never claim a cosmetic cures or treats acne
   as a medicine would.
-- Every description links https://acnemedicine.co.za/. If Sello earns from sales through that link, the description must
-  say so, and YouTube's paid-promotion box must be ticked for the video (the uploader does not set it yet; tick it in Studio).
+- Every description links https://acnemedicine.co.za/. Sello earns a commission on sales through that link (confirmed
+  4 Nov 2026), so every post: says "We earn a commission if you buy through our link." near the top of the description
+  and on a card (spoken) just before the shop card; sets `"paid_promotion": true` (YouTube's paid product placement flag,
+  sent on upload and checked on read-back: a mismatch is FAILED for a person to fix in Studio). Do not describe this as a
+  sponsorship or a Dermalogica partnership: no such relationship is established.
 - `selfDeclaredMadeForKids: false`. Category 26 (Howto & Style).

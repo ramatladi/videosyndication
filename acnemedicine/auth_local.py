@@ -2,12 +2,16 @@
 
     python3 acnemedicine/auth_local.py path/to/client_secret_XXXX.json            # Desktop app client
     python3 acnemedicine/auth_local.py path/to/client_secret_XXXX.json --port 8765  # Web application client
+    python3 acnemedicine/auth_local.py path/to/client_secret_XXXX.json --port 8765 --redirect-confirmed
+        # Web client whose JSON was downloaded before http://localhost:8765/ was added: use only after confirming in
+        # Google Cloud (Clients > the client > Authorised redirect URIs) that it is saved. The JSON is not edited.
 
 Needs Python 3 and the GitHub CLI (`gh auth login` done) with access to ramatladi/videosyndication.
 Client types:
 - "Desktop app" (JSON has "installed"): loopback redirect http://127.0.0.1:<random port>/.
-- "Web application" (JSON has "web"): pass --port N; http://localhost:N/ must already be one of the client's
-  registered redirect URIs (checked against the JSON's redirect_uris), otherwise nothing happens.
+- "Web application" (JSON has "web"): pass --port N; http://localhost:N/ must be a registered redirect URI. It is
+  checked against the JSON's redirect_uris; an older JSON that predates the registration needs --redirect-confirmed
+  (Google itself still rejects the sign-in with redirect_uri_mismatch if the URI is not really registered).
 Each channel gets its own refresh token; this never reads, replaces or revokes another channel's token.
 
 1. Opens Google's consent page (loopback redirect to 127.0.0.1 on a random port, PKCE, state check).
@@ -56,7 +60,7 @@ def wait_for_code(state, port=0):
     return port, got, done, t
 
 
-def pick_redirect(raw, port):
+def pick_redirect(raw, port, confirmed=False):
     """Return (client, redirect_host, port) or exit. Web clients need an exact pre-registered localhost redirect."""
     if 'installed' in raw:
         return raw['installed'], '127.0.0.1', 0
@@ -66,16 +70,19 @@ def pick_redirect(raw, port):
                      'redirect URI on that client.')
         want = f'http://localhost:{port}/'
         regs = raw['web'].get('redirect_uris', [])
-        if want not in regs and want.rstrip('/') not in regs:
-            sys.exit(f'{want} is not a registered redirect URI on this client. Add it in Google Cloud '
-                     '(Clients > the client > Authorised redirect URIs), download the JSON again, and retry.')
+        if want not in regs and want.rstrip('/') not in regs and not confirmed:
+            sys.exit(f'{want} is not listed in this JSON\'s redirect URIs. If Google Cloud shows it saved on the client '
+                     '(Clients > the client > Authorised redirect URIs), rerun with --redirect-confirmed. '
+                     'Otherwise add it there first. Do not edit the JSON file.')
         return raw['web'], 'localhost', port
     sys.exit('Unrecognised client JSON: expected a "Desktop app" or "Web application" OAuth client.')
 
 
-def main(client_file, port=0):
+def main(client_file, port=0, confirmed=False):
     raw = json.load(open(client_file))
-    c, host, port = pick_redirect(raw, port)
+    c, host, port = pick_redirect(raw, port, confirmed)
+    if not c.get('client_id') or not c.get('client_secret'):
+        sys.exit('This client JSON has no client_secret. Nothing was saved.')
     cid, csec = c['client_id'], c['client_secret']
     verifier = secrets.token_urlsafe(64)
     challenge = base64.urlsafe_b64encode(hashlib.sha256(verifier.encode()).digest()).rstrip(b'=').decode()
@@ -106,7 +113,9 @@ def main(client_file, port=0):
     except urllib.error.HTTPError as e:
         sys.exit(f'Google refused the code exchange (HTTP {e.code}). Nothing was saved.')
     if 'refresh_token' not in tok:
-        sys.exit('Google returned no refresh token; remove the app at myaccount.google.com/permissions and retry.')
+        sys.exit('Google returned no refresh token. Nothing was saved. Run the script again (it always asks Google '
+                 'for fresh consent). Do NOT remove the app from your Google Account permissions: other channels '
+                 'and services may share the same app.')
 
     me = json.loads(urllib.request.urlopen(urllib.request.Request(
         'https://www.googleapis.com/youtube/v3/channels?part=id,snippet&mine=true',
@@ -127,9 +136,11 @@ def main(client_file, port=0):
 
 if __name__ == '__main__':
     a = sys.argv[1:]
-    if len(a) == 1:
+    confirmed = '--redirect-confirmed' in a
+    a = [x for x in a if x != '--redirect-confirmed']
+    if len(a) == 1 and not confirmed:
         main(a[0])
     elif len(a) == 3 and a[1] == '--port' and a[2].isdigit() and 1024 <= int(a[2]) <= 65535:
-        main(a[0], int(a[2]))
+        main(a[0], int(a[2]), confirmed)
     else:
         sys.exit(__doc__)
