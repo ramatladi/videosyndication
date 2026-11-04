@@ -52,17 +52,14 @@ checks YouTube Studio, then deletes or edits the result file.
    pushed there as public.
 
 ## Google Cloud app
-Status (4 Nov 2026): Google Cloud terms accepted (marketing emails off); project created; YouTube Data API v3 enabled; no billing account linked (checked on the Billing page). Auth Platform (consent screen) not yet created: its last step needs agreement to the Google API Services User Data Policy. No OAuth client exists yet.
-- Project: `acne-medicine-uploader` (project number 23501395330), No organization, on ecstacyspiritlifestyle@gmail.com, no billing.
-- Enabled: YouTube Data API v3 only.
-- OAuth consent screen (Google Auth Platform → Branding/Audience): app name "Acne Medicine Uploader"; user support
-  email and developer contact ecstacyspiritlifestyle@gmail.com; no logo (a logo triggers brand verification);
-  audience **External**; publishing status **In production** (Testing-mode refresh tokens expire after 7 days).
-  Not submitted for verification: Google shows an "unverified app" warning on sign-in and caps it at 100 users — fine
-  for a single owner.
-- Data access (scopes): `https://www.googleapis.com/auth/youtube.upload`, `https://www.googleapis.com/auth/youtube.readonly`.
-- Client: type **Desktop app**, name "videosyndication-uploader". Download its JSON once at creation and keep it only on
-  Sello's computer for `auth_local.py`.
+- Used for uploads (chosen 4 Nov 2026): a **Desktop app** OAuth client "Acne Medicine channel uploader" inside the
+  existing production project `globalnewsflix-video` (account ramatladi.mphela@gmail.com; consent app "GlobalNewsFlix",
+  External, In production; YouTube Data API v3 enabled). The project's daily upload allowance is shared with GlobalNewsFlix.
+- Never touch that project's Web client "GitHub video uploader" or its two secrets: GlobalNewsFlix depends on them. Its
+  `globalnewsflix.com/yt/callback` must not be used for this channel: it overwrites the site's single stored token.
+- Sign-in (on Sello's Mac): `python3 acnemedicine/auth_local.py <Desktop client JSON>` (no flags), then pick the
+  Acne Medicine Johannesburg channel. To retry, just run it again; never remove the app from Google Account permissions.
+- Unused: the separate project `acne-medicine-uploader` (no billing, Testing mode) and its Desktop client.
 
 ## Content rules
 - Review real products honestly from the maker's own published information (ingredients, skin type, how to use).
