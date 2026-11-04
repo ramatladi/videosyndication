@@ -2,31 +2,79 @@
 
 Runs in GitHub Actions (.github/workflows/acne-upload.yml). Standard library only.
 
-    python3 acnemedicine/upload.py acnemedicine/queue/<id>.json
+    python3 acnemedicine/upload.py <queue.json> <video.mp4> <results_dir> <persist_cmd>
 
-Credentials come only from environment variables (GitHub Actions secrets) and are never printed:
+<persist_cmd> is run as `<persist_cmd> <result_file>` after every state change and must exit 0 only once the result
+is durably stored (the workflow's persist.sh commits and pushes it to acne-data). If it fails, the run stops.
+
+Credentials come only from environment variables (GitHub Actions secrets) and never appear in output:
     YT_ACNE_CLIENT_ID, YT_ACNE_CLIENT_SECRET, YT_ACNE_REFRESH_TOKEN
 
-Safety rules (fail closed):
-- The token must belong to EXPECTED_CHANNEL_ID, or nothing is uploaded.
-- A queue item with a result file already present is never uploaded twice.
-- After upload the video is read back and its channel, upload status and privacy are checked.
-
-Writes acnemedicine/results/<id>.json (no secrets) and exits non-zero on any failure.
+Result states (results/<id>.json):
+    UPLOADING          upload about to start (persisted first); a rerun reconciles against the channel's uploads
+    UPLOADED           YouTube returned a video ID (persisted at once); not yet verified
+    PENDING            video exists but YouTube has not finished processing; rerun re-verifies
+    VERIFIED           processed, on the expected channel, with the requested privacy/publishAt
+    FAILED_PREUPLOAD   nothing was sent to YouTube; a rerun may try again
+    FAILED             a video exists but is rejected/failed/wrong; needs a person
+    NEEDS_REVIEW       an upload may have happened but its video cannot be found; needs a person
+Exit codes: 0 VERIFIED, 2 PENDING (retry later), 1 anything else.
 """
-import json, os, sys, time, urllib.request, urllib.parse, urllib.error, tempfile, hashlib
+import json, os, re, subprocess, sys, time, urllib.request, urllib.parse, urllib.error
 
-EXPECTED_CHANNEL_ID = (os.environ.get('YT_ACNE_CHANNEL_ID')
-                       or open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'CHANNEL_ID')).read().strip())
-TOKEN_URL = os.environ.get('YT_TOKEN_URL', 'https://oauth2.googleapis.com/token')
-API = os.environ.get('YT_API_BASE', 'https://www.googleapis.com')
+HERE = os.path.dirname(os.path.abspath(__file__))
+EXPECTED_CHANNEL_ID = open(os.path.join(HERE, 'CHANNEL_ID')).read().strip()
+TEST_MODE = os.environ.get('YT_TEST_MODE') == '1'           # only the offline tests set this
+TOKEN_URL = os.environ['YT_TOKEN_URL'] if TEST_MODE else 'https://oauth2.googleapis.com/token'
+API = os.environ['YT_API_BASE'] if TEST_MODE else 'https://www.googleapis.com'
+POLL = float(os.environ.get('YT_POLL_SECONDS', '15')) if TEST_MODE else 15.0
+POLL_TRIES = int(os.environ.get('YT_POLL_TRIES', '40')) if TEST_MODE else 40      # ~10 minutes
 ALLOWED_PRIVACY = {'public', 'unlisted', 'private'}
-ALLOWED_HOSTS = ('raw.githubusercontent.com', 'github.com', 'objects.githubusercontent.com', '127.0.0.1', 'localhost')
-MAX_BYTES = 2 * 1024 ** 3
+ID_RE = re.compile(r'^[a-z0-9][a-z0-9_-]{2,40}$')
+SECRET_ENV = ('YT_ACNE_CLIENT_ID', 'YT_ACNE_CLIENT_SECRET', 'YT_ACNE_REFRESH_TOKEN')
+TOKEN_PATTERNS = re.compile(r'(ya29\.[\w.-]+|1//[\w.-]+|GOCSPX-[\w-]+|Bearer\s+\S+)')
 
 
 class Fail(Exception):
     pass
+
+
+class WrongVideo(Fail):
+    """The uploaded video is on the wrong channel, rejected, or has the wrong privacy/schedule."""
+
+
+class NoSession(Fail):
+    """The resumable session was never opened, so YouTube cannot have created a video."""
+
+
+def sanitize(text):
+    """Strip any secret value or token-looking string from text that may be logged or committed."""
+    text = str(text)
+    for k in SECRET_ENV:
+        v = os.environ.get(k)
+        if v and len(v) >= 4:
+            text = text.replace(v, '[redacted]')
+    for v in list(_seen_tokens):
+        text = text.replace(v, '[redacted]')
+    return TOKEN_PATTERNS.sub('[redacted]', text)[:1500]
+
+
+_seen_tokens = set()
+
+
+def _google_error(raw):
+    """Only Google's short error code/reason, never the raw body (it can echo request values)."""
+    try:
+        d = json.loads(raw)
+    except Exception:  # noqa: BLE001
+        return 'non-JSON error body'
+    e = d.get('error')
+    if isinstance(e, dict):
+        reasons = ','.join(x.get('reason', '') for x in e.get('errors', []) if isinstance(x, dict))
+        return f"{e.get('status', '')} {reasons}".strip() or 'error'
+    if isinstance(e, str):                 # OAuth token endpoint: {"error": "invalid_grant", ...}
+        return e if re.fullmatch(r'[a-z_]{3,40}', e) else 'oauth error'
+    return 'error'
 
 
 def _req(method, url, data=None, headers=None, timeout=120):
@@ -35,212 +83,236 @@ def _req(method, url, data=None, headers=None, timeout=120):
         with urllib.request.urlopen(r, timeout=timeout) as resp:
             return resp.status, dict(resp.headers), resp.read()
     except urllib.error.HTTPError as e:
-        body = e.read()[:2000].decode('utf-8', 'replace')
-        raise Fail(f'{method} {url.split("?")[0]} -> HTTP {e.code}: {body}') from None
+        raise Fail(f'{method} {urllib.parse.urlparse(url).path} -> HTTP {e.code} {_google_error(e.read()[:4000])}') from None
 
 
 def access_token():
-    need = ['YT_ACNE_CLIENT_ID', 'YT_ACNE_CLIENT_SECRET', 'YT_ACNE_REFRESH_TOKEN']
-    missing = [k for k in need if not os.environ.get(k)]
+    missing = [k for k in SECRET_ENV if not os.environ.get(k)]
     if missing:
         raise Fail('missing secrets: ' + ', '.join(missing))
     body = urllib.parse.urlencode({
-        'client_id': os.environ['YT_ACNE_CLIENT_ID'],
-        'client_secret': os.environ['YT_ACNE_CLIENT_SECRET'],
-        'refresh_token': os.environ['YT_ACNE_REFRESH_TOKEN'],
-        'grant_type': 'refresh_token'}).encode()
+        'client_id': os.environ['YT_ACNE_CLIENT_ID'], 'client_secret': os.environ['YT_ACNE_CLIENT_SECRET'],
+        'refresh_token': os.environ['YT_ACNE_REFRESH_TOKEN'], 'grant_type': 'refresh_token'}).encode()
     _, _, raw = _req('POST', TOKEN_URL, body, {'Content-Type': 'application/x-www-form-urlencoded'})
     tok = json.loads(raw).get('access_token')
     if not tok:
         raise Fail('token endpoint returned no access_token')
+    _seen_tokens.add(tok)
     return tok
 
 
-def api_json(method, path, token, payload=None, params=None):
+def api_json(method, path, token, params=None):
     url = API + path + ('?' + urllib.parse.urlencode(params) if params else '')
-    h = {'Authorization': 'Bearer ' + token}
-    data = None
-    if payload is not None:
-        data = json.dumps(payload).encode()
-        h['Content-Type'] = 'application/json; charset=UTF-8'
-    _, headers, raw = _req(method, url, data, h)
-    return headers, (json.loads(raw) if raw else {})
+    _, _, raw = _req(method, url, None, {'Authorization': 'Bearer ' + token})
+    return json.loads(raw) if raw else {}
 
 
 def check_channel(token):
-    _, d = api_json('GET', '/youtube/v3/channels', token, params={'part': 'id,snippet', 'mine': 'true'})
+    d = api_json('GET', '/youtube/v3/channels', token, {'part': 'id,snippet,contentDetails', 'mine': 'true'})
     ids = [c['id'] for c in d.get('items', [])]
     if ids != [EXPECTED_CHANNEL_ID]:
-        raise Fail(f'token is for channel(s) {ids}, expected {EXPECTED_CHANNEL_ID}; refusing to upload')
-    return d['items'][0]['snippet'].get('title', '')
+        raise Fail(f'token is for channel(s) {ids}, expected {EXPECTED_CHANNEL_ID}; refusing')
+    c = d['items'][0]
+    return c['snippet'].get('title', ''), c.get('contentDetails', {}).get('relatedPlaylists', {}).get('uploads')
 
 
-def validate(item):
-    for k in ('id', 'title', 'description', 'media_url'):
+def validate(item, video_path):
+    if not ID_RE.match(str(item.get('id', ''))):
+        raise Fail('id must be 3-41 chars of a-z, 0-9, - or _')
+    for k in ('title', 'description'):
         if not str(item.get(k, '')).strip():
             raise Fail(f'queue item missing "{k}"')
-    if not all(c.isalnum() or c in '-_' for c in item['id']):
-        raise Fail('id may only contain letters, digits, - and _')
-    if len(item['title']) > 100:
-        raise Fail('title longer than 100 characters')
-    if '<' in item['title'] or '>' in item['title']:
-        raise Fail('title may not contain < or >')
+    if len(item['title']) > 100 or '<' in item['title'] or '>' in item['title']:
+        raise Fail('title must be at most 100 characters with no < or >')
     if len(item['description'].encode()) > 5000:
         raise Fail('description longer than 5000 bytes')
     if item.get('privacy', 'public') not in ALLOWED_PRIVACY:
         raise Fail('privacy must be public, unlisted or private')
-    host = urllib.parse.urlparse(item['media_url']).hostname or ''
-    if host not in ALLOWED_HOSTS:
-        raise Fail(f'media_url host {host!r} not allowed (GitHub only)')
+    if not isinstance(item.get('contains_synthetic_media'), bool):
+        raise Fail('contains_synthetic_media must be set true or false for this video\'s actual content')
+    if item.get('publish_at') and not re.fullmatch(r'\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ', item['publish_at']):
+        raise Fail('publish_at must be UTC like 2026-11-06T08:00:00Z')
     tags = item.get('tags', [])
-    if sum(len(t) + 2 for t in tags) > 480:
-        raise Fail('tags too long')
-
-
-def download(url, dest):
-    r = urllib.request.Request(url, headers={'User-Agent': 'videosyndication-uploader'})
-    h = hashlib.sha256(); n = 0
-    with urllib.request.urlopen(r, timeout=300) as resp, open(dest, 'wb') as f:
-        while True:
-            chunk = resp.read(1 << 20)
-            if not chunk:
-                break
-            n += len(chunk)
-            if n > MAX_BYTES:
-                raise Fail('video larger than 2 GB')
-            h.update(chunk); f.write(chunk)
-    with open(dest, 'rb') as f:
+    if not isinstance(tags, list) or sum(len(t) + 2 for t in tags) > 480:
+        raise Fail('tags must be a list under 480 characters')
+    if not os.path.isfile(video_path):
+        raise Fail('video file not found')
+    size = os.path.getsize(video_path)
+    with open(video_path, 'rb') as f:
         head = f.read(12)
-    if n < 10_000 or head[4:8] != b'ftyp':
-        raise Fail(f'downloaded file is not an MP4 ({n} bytes)')
-    return n, h.hexdigest()
+    if size < 10_000 or head[4:8] != b'ftyp' or size > 2 * 1024 ** 3:
+        raise Fail(f'video is not a usable MP4 ({size} bytes)')
+    return size
 
 
 def resource(item):
-    status = {
-        'privacyStatus': item.get('privacy', 'public'),
-        'selfDeclaredMadeForKids': False,
-        'embeddable': True,
-        'license': 'youtube',
-        # Sello's standing choice: no altered/synthetic label on his uploads.
-        'containsSyntheticMedia': bool(item.get('contains_synthetic_media', False)),
-    }
+    status = {'privacyStatus': item.get('privacy', 'public'), 'selfDeclaredMadeForKids': False,
+              'embeddable': True, 'license': 'youtube',
+              'containsSyntheticMedia': item['contains_synthetic_media']}
     if item.get('publish_at'):
         status['privacyStatus'] = 'private'          # YouTube requires private + publishAt for scheduling
         status['publishAt'] = item['publish_at']
-    return {
-        'snippet': {
-            'title': item['title'],
-            'description': item['description'],
-            'tags': item.get('tags', []),
-            'categoryId': str(item.get('category_id', '26')),   # 26 = Howto & Style
-            'defaultLanguage': item.get('language', 'en'),
-            'defaultAudioLanguage': item.get('language', 'en'),
-        },
-        'status': status,
-    }
+    return {'snippet': {'title': item['title'], 'description': item['description'], 'tags': item.get('tags', []),
+                        'categoryId': str(item.get('category_id', '26')),
+                        'defaultLanguage': item.get('language', 'en'),
+                        'defaultAudioLanguage': item.get('language', 'en')},
+            'status': status}
 
 
 def upload(token, path, size, item):
-    meta = json.dumps(resource(item)).encode()
     url = API + '/upload/youtube/v3/videos?' + urllib.parse.urlencode(
         {'uploadType': 'resumable', 'part': 'snippet,status', 'notifySubscribers': 'true'})
-    _, headers, _ = _req('POST', url, meta, {
-        'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json; charset=UTF-8',
-        'X-Upload-Content-Type': 'video/mp4', 'X-Upload-Content-Length': str(size)})
+    try:
+        _, headers, _ = _req('POST', url, json.dumps(resource(item)).encode(), {
+            'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json; charset=UTF-8',
+            'X-Upload-Content-Type': 'video/mp4', 'X-Upload-Content-Length': str(size)})
+    except Fail as e:
+        raise NoSession(str(e)) from None
+    except (urllib.error.URLError, TimeoutError):
+        raise NoSession('could not open upload session (network)') from None
     session = headers.get('Location') or headers.get('location')
     if not session:
-        raise Fail('no resumable upload session returned')
-    chunk = 8 * 1024 * 1024
+        raise NoSession('no resumable upload session returned')
+    chunk, start = 8 * 1024 * 1024, 0
     with open(path, 'rb') as f:
-        start = 0
-        while start < size:
-            f.seek(start)
-            data = f.read(chunk)
-            end = start + len(data) - 1
+        while True:
+            f.seek(start); data = f.read(chunk); end = start + len(data) - 1
             req = urllib.request.Request(session, data=data, method='PUT', headers={
                 'Content-Length': str(len(data)), 'Content-Range': f'bytes {start}-{end}/{size}'})
             for attempt in range(5):
                 try:
                     with urllib.request.urlopen(req, timeout=600) as resp:
-                        return json.loads(resp.read())                     # 200/201: done
+                        return json.loads(resp.read())['id']
                 except urllib.error.HTTPError as e:
-                    if e.code == 308:                                    # chunk accepted, continue
+                    if e.code == 308:
                         rng = e.headers.get('Range')
                         start = int(rng.split('-')[1]) + 1 if rng else end + 1
                         break
                     if e.code in (500, 502, 503, 504) and attempt < 4:
                         time.sleep(2 ** attempt * 3); continue
-                    raise Fail(f'upload chunk -> HTTP {e.code}: {e.read()[:1000].decode("utf-8", "replace")}')
+                    raise Fail(f'upload chunk -> HTTP {e.code} {_google_error(e.read()[:4000])}') from None
                 except (urllib.error.URLError, TimeoutError):
                     if attempt < 4:
                         time.sleep(2 ** attempt * 3); continue
-                    raise
+                    raise Fail('upload chunk: network error after retries') from None
             else:
                 raise Fail('upload chunk failed after retries')
-    raise Fail('upload ended without a video resource')
+            if start >= size:
+                raise Fail('upload ended without a video resource')
 
 
-def verify(token, vid, item, tries=6):
-    last = None
-    for i in range(tries):
-        _, d = api_json('GET', '/youtube/v3/videos', token, params={'part': 'snippet,status', 'id': vid})
-        items = d.get('items', [])
-        if items:
-            v = items[0]
-            last = {'channelId': v['snippet'].get('channelId'), 'uploadStatus': v['status'].get('uploadStatus'),
-                    'privacyStatus': v['status'].get('privacyStatus'), 'publishAt': v['status'].get('publishAt'),
-                    'rejectionReason': v['status'].get('rejectionReason'),
-                    'failureReason': v['status'].get('failureReason')}
-            if last['channelId'] != EXPECTED_CHANNEL_ID:
-                raise Fail(f'video landed on channel {last["channelId"]}, expected {EXPECTED_CHANNEL_ID}')
-            if last['uploadStatus'] in ('rejected', 'failed', 'deleted'):
-                raise Fail(f'YouTube {last["uploadStatus"]} the video: {last}')
-            want = 'private' if item.get('publish_at') else item.get('privacy', 'public')
-            if last['privacyStatus'] != want:
-                raise Fail(f'privacy is {last["privacyStatus"]}, expected {want} (locked by YouTube?)')
-            if last['uploadStatus'] in ('processed', 'uploaded'):
-                return last
-        time.sleep(min(30, 5 * (i + 1)))
-    if last:
-        return last
-    raise Fail('uploaded video not found when reading it back')
+def find_existing(token, uploads_playlist, title, since):
+    """After an interrupted run: look for a video with this title uploaded since the marker was written."""
+    if not uploads_playlist:
+        return None
+    d = api_json('GET', '/youtube/v3/playlistItems', token,
+                 {'part': 'snippet,contentDetails', 'playlistId': uploads_playlist, 'maxResults': '50'})
+    hits = [i['contentDetails']['videoId'] for i in d.get('items', [])
+            if i['snippet'].get('title') == title and i['snippet'].get('publishedAt', '') >= since[:19]]
+    return hits[0] if len(hits) == 1 else ('AMBIGUOUS' if hits else None)
 
 
-def main(qpath):
+def check_video(token, vid, item):
+    """One read-back. Returns ('VERIFIED'|'PENDING', state) or raises Fail for a wrong/failed video."""
+    d = api_json('GET', '/youtube/v3/videos', token, {'part': 'snippet,status,processingDetails', 'id': vid})
+    if not d.get('items'):
+        return 'PENDING', {'note': 'not visible yet'}
+    v = d['items'][0]; st = v.get('status', {})
+    state = {'channelId': v['snippet'].get('channelId'), 'uploadStatus': st.get('uploadStatus'),
+             'privacyStatus': st.get('privacyStatus'), 'publishAt': st.get('publishAt'),
+             'containsSyntheticMedia': st.get('containsSyntheticMedia'),
+             'rejectionReason': st.get('rejectionReason'), 'failureReason': st.get('failureReason')}
+    if state['channelId'] != EXPECTED_CHANNEL_ID:
+        raise WrongVideo(f'video is on channel {state["channelId"]}, expected {EXPECTED_CHANNEL_ID}')
+    if state['uploadStatus'] in ('rejected', 'failed', 'deleted'):
+        raise WrongVideo(f'YouTube {state["uploadStatus"]} the video ({state["rejectionReason"] or state["failureReason"]})')
+    want = 'private' if item.get('publish_at') else item.get('privacy', 'public')
+    if state['privacyStatus'] != want:
+        raise WrongVideo(f'privacy is {state["privacyStatus"]}, expected {want}')
+    if item.get('publish_at') and (state['publishAt'] or '')[:19] != item['publish_at'][:19]:
+        raise WrongVideo(f'publishAt is {state["publishAt"]}, expected {item["publish_at"]}')
+    return ('VERIFIED' if state['uploadStatus'] == 'processed' else 'PENDING'), state
+
+
+def now():
+    return time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+
+
+def main(qpath, video_path, res_dir, persist_cmd):
     item = json.load(open(qpath))
-    if not all(c.isalnum() or c in '-_' for c in str(item.get('id', ''))) or not item.get('id'):
-        raise SystemExit('queue item has no valid id')
-    root = os.path.dirname(os.path.dirname(os.path.abspath(qpath)))
-    res_dir = os.path.join(root, 'results'); os.makedirs(res_dir, exist_ok=True)
+    if not ID_RE.match(str(item.get('id', ''))):
+        print('queue item has no valid id'); return 1
+    os.makedirs(res_dir, exist_ok=True)
     res_path = os.path.join(res_dir, item['id'] + '.json')
-    if os.path.exists(res_path) and json.load(open(res_path)).get('video_id'):
-        print(f'{item["id"]}: already uploaded, skipping'); return 0
-    result = {'id': item['id'], 'title': item['title'], 'channel_id': EXPECTED_CHANNEL_ID,
-              'started': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}
+    r = json.load(open(res_path)) if os.path.exists(res_path) else {}
+    r.update(id=item['id'], title=item.get('title'), channel_id=EXPECTED_CHANNEL_ID)
+
+    def persist(**kw):
+        if 'error' in kw and kw['error'] is not None:
+            kw['error'] = sanitize(kw['error'])
+        before = json.dumps({k: v for k, v in r.items() if k != 'updated'}, sort_keys=True)
+        r.update(kw)
+        if os.path.exists(res_path) and json.dumps({k: v for k, v in r.items() if k != 'updated'}, sort_keys=True) == before:
+            return                                            # nothing changed: no new commit
+        r['updated'] = now()
+        tmp = res_path + '.tmp'
+        json.dump(r, open(tmp, 'w'), indent=2); os.replace(tmp, res_path)
+        p = subprocess.run([persist_cmd, res_path], capture_output=True, text=True)
+        if p.returncode != 0:
+            raise SystemExit(f'{item["id"]}: could not persist result ({r["status"]}); stopping')
+
+    code = 1
     try:
-        validate(item)
+        if r.get('status') in ('FAILED', 'NEEDS_REVIEW'):
+            print(f'{item["id"]}: {r["status"]} needs a person; not touching it'); return 1
         token = access_token()
-        result['channel_title'] = check_channel(token)
-        with tempfile.TemporaryDirectory() as td:
-            path = os.path.join(td, 'v.mp4')
-            size, sha = download(item['media_url'], path)
-            result.update(bytes=size, sha256=sha)
-            v = upload(token, path, size, item)
-        result['video_id'] = v['id']
-        result['url'] = ('https://youtube.com/shorts/' if item.get('short') else 'https://www.youtube.com/watch?v=') + v['id']
-        result['verified'] = verify(token, v['id'], item)
-        result['status'] = 'UPLOADED'
-        code = 0
-    except Exception as e:  # noqa: BLE001 - record any failure, never a secret (none are in messages)
-        result['status'] = 'FAILED'
-        result['error'] = str(e)[:1500]
-        code = 1
-    result['finished'] = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
-    json.dump(result, open(res_path, 'w'), indent=2)
-    print(json.dumps(result, indent=2))
+        title, uploads = check_channel(token)
+        r['channel_title'] = title
+        if r.get('status') == 'UPLOADING' and not r.get('video_id'):
+            found = find_existing(token, uploads, item['title'], r.get('upload_started', ''))
+            if found in (None, 'AMBIGUOUS'):
+                persist(status='NEEDS_REVIEW', error='earlier run may have uploaded; video not found uniquely'
+                        if found is None else 'several matching uploads found')
+                return 1
+            persist(status='UPLOADED', video_id=found, reconciled=True)
+        if not r.get('video_id'):
+            size = validate(item, video_path)
+            persist(status='UPLOADING', upload_started=now(), bytes=size, error=None)
+            try:
+                vid = upload(token, video_path, size, item)
+            except NoSession as e:
+                persist(status='FAILED_PREUPLOAD', error=str(e))
+                return 1
+            except Fail as e:
+                # Bytes were sent: a video may exist. Stay UPLOADING so the next run reconciles instead of re-uploading.
+                persist(error=str(e))
+                return 1
+            persist(status='UPLOADED', video_id=vid,
+                    url=('https://youtube.com/shorts/' if item.get('short') else 'https://www.youtube.com/watch?v=') + vid)
+        status, state = 'PENDING', {}
+        for i in range(POLL_TRIES):
+            status, state = check_video(token, r['video_id'], item)
+            if status == 'VERIFIED':
+                break
+            time.sleep(POLL)
+        persist(status=status, verified=state if status == 'VERIFIED' else None, last_state=state, error=None)
+        code = 0 if status == 'VERIFIED' else 2
+    except Fail as e:
+        if isinstance(e, WrongVideo):
+            persist(status='FAILED', error=str(e))            # the video itself is wrong: a person must look
+        elif r.get('video_id') or r.get('status') == 'UPLOADING':
+            persist(error=str(e))                             # transient (token/network): keep state, retry later
+        else:
+            persist(status='FAILED_PREUPLOAD', error=str(e))
+    except (urllib.error.URLError, TimeoutError) as e:
+        persist(error='network error: ' + type(e).__name__)
+    except SystemExit as e:
+        print(sanitize(e)); return 1
+    print(sanitize(json.dumps(r, indent=2)))
     return code
 
 
 if __name__ == '__main__':
-    sys.exit(main(sys.argv[1]))
+    if len(sys.argv) != 5:
+        sys.exit(__doc__)
+    sys.exit(main(*sys.argv[1:]))

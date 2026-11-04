@@ -6,3 +6,12 @@ wisewords/fonts/
 out/
 djvelvetgrey/fonts/
 djvelvetgrey/photos/
+# OAuth / API credentials: never commit (Acne Medicine Johannesburg uploader and any other Google client)
+client_secret*.json
+**/client_secret*.json
+*oauth*token*.json
+**/credentials*.json
+**/token*.json
+.env
+.env.*
+acnemedicine/secrets/
