@@ -30,7 +30,7 @@ message is scrubbed of secret values and token-shaped strings. `.gitignore` bloc
 `UPLOADING` (persisted before any bytes go out) → `UPLOADED` (video ID persisted the moment YouTube returns it) →
 `PENDING` (still processing; re-checked hourly) → `VERIFIED` (processed, right channel, requested privacy/publishAt).
 `FAILED_PREUPLOAD` = nothing reached YouTube, retried next run. `FAILED` (video wrong/rejected/locked) and
-`NEEDS_REVIEW` (an interrupted upload whose video can't be found uniquely) are never retried automatically: a person
+`NEEDS_REVIEW` (an interrupted upload: each attempt saves a random marker tag, e.g. `amjref3f9c…`, before any bytes and puts it on the video; a rerun adopts only the single recent upload carrying that exact marker, never a title match. This prevents wrong adoption; it is not an exactly-once guarantee) are never retried automatically: a person
 checks YouTube Studio, then deletes or edits the result file.
 
 ## Publishing one video

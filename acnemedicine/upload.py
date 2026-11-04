@@ -11,7 +11,8 @@ Credentials come only from environment variables (GitHub Actions secrets) and ne
     YT_ACNE_CLIENT_ID, YT_ACNE_CLIENT_SECRET, YT_ACNE_REFRESH_TOKEN
 
 Result states (results/<id>.json):
-    UPLOADING          upload about to start (persisted first); a rerun reconciles against the channel's uploads
+    UPLOADING          upload about to start (persisted first, with a unique marker tag that goes on the video);
+                       a rerun adopts the one recent upload carrying that marker, otherwise NEEDS_REVIEW
     UPLOADED           YouTube returned a video ID (persisted at once); not yet verified
     PENDING            video exists but YouTube has not finished processing; rerun re-verifies
     VERIFIED           processed, on the expected channel, with the requested privacy/publishAt
@@ -20,7 +21,7 @@ Result states (results/<id>.json):
     NEEDS_REVIEW       an upload may have happened but its video cannot be found; needs a person
 Exit codes: 0 VERIFIED, 2 PENDING (retry later), 1 anything else.
 """
-import json, os, re, subprocess, sys, time, urllib.request, urllib.parse, urllib.error
+import json, os, re, secrets, subprocess, sys, time, urllib.request, urllib.parse, urllib.error
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 EXPECTED_CHANNEL_ID = open(os.path.join(HERE, 'CHANNEL_ID')).read().strip()
@@ -145,25 +146,26 @@ def validate(item, video_path):
     return size
 
 
-def resource(item):
+def resource(item, marker):
     status = {'privacyStatus': item.get('privacy', 'public'), 'selfDeclaredMadeForKids': False,
               'embeddable': True, 'license': 'youtube',
               'containsSyntheticMedia': item['contains_synthetic_media']}
     if item.get('publish_at'):
         status['privacyStatus'] = 'private'          # YouTube requires private + publishAt for scheduling
         status['publishAt'] = item['publish_at']
-    return {'snippet': {'title': item['title'], 'description': item['description'], 'tags': item.get('tags', []),
+    return {'snippet': {'title': item['title'], 'description': item['description'],
+                        'tags': list(item.get('tags', [])) + [marker],      # unique per attempt, for reconciliation
                         'categoryId': str(item.get('category_id', '26')),
                         'defaultLanguage': item.get('language', 'en'),
                         'defaultAudioLanguage': item.get('language', 'en')},
             'status': status}
 
 
-def upload(token, path, size, item):
+def upload(token, path, size, item, marker):
     url = API + '/upload/youtube/v3/videos?' + urllib.parse.urlencode(
         {'uploadType': 'resumable', 'part': 'snippet,status', 'notifySubscribers': 'true'})
     try:
-        _, headers, _ = _req('POST', url, json.dumps(resource(item)).encode(), {
+        _, headers, _ = _req('POST', url, json.dumps(resource(item, marker)).encode(), {
             'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json; charset=UTF-8',
             'X-Upload-Content-Type': 'video/mp4', 'X-Upload-Content-Length': str(size)})
     except Fail as e:
@@ -201,14 +203,18 @@ def upload(token, path, size, item):
                 raise Fail('upload ended without a video resource')
 
 
-def find_existing(token, uploads_playlist, title, since):
-    """After an interrupted run: look for a video with this title uploaded since the marker was written."""
-    if not uploads_playlist:
+def find_existing(token, uploads_playlist, marker):
+    """After an interrupted run: find the video carrying this attempt's unique marker tag.
+    Returns the video ID only if exactly one upload has the marker; otherwise None (or 'AMBIGUOUS')."""
+    if not uploads_playlist or not marker:
         return None
     d = api_json('GET', '/youtube/v3/playlistItems', token,
-                 {'part': 'snippet,contentDetails', 'playlistId': uploads_playlist, 'maxResults': '50'})
-    hits = [i['contentDetails']['videoId'] for i in d.get('items', [])
-            if i['snippet'].get('title') == title and i['snippet'].get('publishedAt', '') >= since[:19]]
+                 {'part': 'contentDetails', 'playlistId': uploads_playlist, 'maxResults': '50'})
+    ids = [i['contentDetails']['videoId'] for i in d.get('items', [])]
+    if not ids:
+        return None
+    v = api_json('GET', '/youtube/v3/videos', token, {'part': 'snippet', 'id': ','.join(ids)})
+    hits = [x['id'] for x in v.get('items', []) if marker in (x.get('snippet', {}).get('tags') or [])]
     return hits[0] if len(hits) == 1 else ('AMBIGUOUS' if hits else None)
 
 
@@ -269,17 +275,19 @@ def main(qpath, video_path, res_dir, persist_cmd):
         title, uploads = check_channel(token)
         r['channel_title'] = title
         if r.get('status') == 'UPLOADING' and not r.get('video_id'):
-            found = find_existing(token, uploads, item['title'], r.get('upload_started', ''))
+            found = find_existing(token, uploads, r.get('upload_marker'))
             if found in (None, 'AMBIGUOUS'):
-                persist(status='NEEDS_REVIEW', error='earlier run may have uploaded; video not found uniquely'
-                        if found is None else 'several matching uploads found')
+                persist(status='NEEDS_REVIEW', error=('earlier run may have uploaded; no recent upload carries its '
+                        'marker tag' if r.get('upload_marker') else 'earlier run has no marker; cannot reconcile safely')
+                        if found is None else 'several uploads carry the same marker')
                 return 1
             persist(status='UPLOADED', video_id=found, reconciled=True)
         if not r.get('video_id'):
             size = validate(item, video_path)
-            persist(status='UPLOADING', upload_started=now(), bytes=size, error=None)
+            marker = f"amjref{secrets.token_hex(6)}"           # new for every attempt, saved before any bytes
+            persist(status='UPLOADING', upload_started=now(), upload_marker=marker, bytes=size, error=None)
             try:
-                vid = upload(token, video_path, size, item)
+                vid = upload(token, video_path, size, item, marker)
             except NoSession as e:
                 persist(status='FAILED_PREUPLOAD', error=str(e))
                 return 1

@@ -42,10 +42,12 @@ class Fake(http.server.BaseHTTPRequestHandler):
             return self._send(200, {'items': [{'id': S['channel'], 'snippet': {'title': 'Acne Medicine Johannesburg'},
                                                'contentDetails': {'relatedPlaylists': {'uploads': 'UU1'}}}]})
         if u.path == '/youtube/v3/playlistItems':
-            return self._send(200, {'items': [{'snippet': {'title': t, 'publishedAt': at}, 'contentDetails': {'videoId': v}}
-                                              for v, t, at in S['uploads']]})
+            return self._send(200, {'items': [{'contentDetails': {'videoId': v}} for v in S['uploads']]})
         if u.path == '/youtube/v3/videos':
-            v = S['videos'].get(q.get('id', [''])[0])
+            ids = q.get('id', [''])[0].split(',')
+            if len(ids) > 1 or q.get('part') == ['snippet']:     # reconciliation lookup
+                return self._send(200, {'items': [S['videos'][i] for i in ids if i in S['videos']]})
+            v = S['videos'].get(ids[0])
             if v:
                 S['polls'] += 1
                 v['status']['uploadStatus'] = 'processed' if S['polls'] > S['processing_polls'] else 'uploaded'
@@ -76,10 +78,11 @@ class Fake(http.server.BaseHTTPRequestHandler):
             return self._send(308, headers={'Range': f'bytes=0-{len(S["got"]) - 1}'})
         st = S['meta']['status']; S['inserts'] += 1
         vid = f'VID{S["inserts"]}'
-        S['videos'][vid] = {'id': vid, 'snippet': {'channelId': S['channel']},
+        S['videos'][vid] = {'id': vid, 'snippet': {'channelId': S['channel'], 'title': S['meta']['snippet']['title'],
+                                                   'tags': S['meta']['snippet']['tags']},
                             'status': {'uploadStatus': 'uploaded', 'privacyStatus': S['force_privacy'] or st['privacyStatus'],
                                        'publishAt': st.get('publishAt'), 'containsSyntheticMedia': st['containsSyntheticMedia']}}
-        S['uploads'].append((vid, S['meta']['snippet']['title'], time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())))
+        S['uploads'].append(vid)
         if S['fail_last_chunk']:          # YouTube created the video but the response is lost
             self.close_connection = True; self.connection.shutdown(2); return
         self._send(200, {'id': vid})
@@ -174,10 +177,33 @@ def upload_tests():
     check('rerun reconciles to the existing video instead of uploading a duplicate',
           p.returncode == 0 and r2['video_id'] == 'VID1' and r2.get('reconciled') and S['inserts'] == 1, r2)
 
-    reset(port=PORT)
+    check('marker tag saved before upload and sent on the video', r.get('upload_marker', '').startswith('amjref')
+          and r['upload_marker'] in S['videos']['VID1']['snippet']['tags'], r)
+
+    def same_title_decoy():
+        S['inserts'] += 1; vid = f'VID{S["inserts"]}'
+        S['videos'][vid] = {'id': vid, 'snippet': {'channelId': CH, 'title': 'Test review', 'tags': ['other']},
+                            'status': {'uploadStatus': 'processed', 'privacyStatus': 'unlisted'}}
+        S['uploads'].append(vid)
+
+    reset(port=PORT); same_title_decoy()
+    p, r, st = run_upload(base_item(), pre={'id': 'amj001', 'status': 'UPLOADING', 'upload_marker': 'amjref0123456789ab'})
+    check('unrelated same-title upload is NOT adopted -> NEEDS_REVIEW', p.returncode == 1 and r['status'] == 'NEEDS_REVIEW'
+          and not r.get('video_id') and S['inserts'] == 1, r)
+
+    reset(port=PORT); same_title_decoy()
     p, r, st = run_upload(base_item(), pre={'id': 'amj001', 'status': 'UPLOADING', 'upload_started': '2026-01-01T00:00:00Z'})
-    check('UPLOADING with no matching video -> NEEDS_REVIEW, no upload', p.returncode == 1 and r['status'] == 'NEEDS_REVIEW'
-          and S['inserts'] == 0, r)
+    check('UPLOADING without a marker -> NEEDS_REVIEW, no upload', p.returncode == 1 and r['status'] == 'NEEDS_REVIEW'
+          and 'no marker' in r['error'] and S['inserts'] == 1, r)
+
+    reset(port=PORT)
+    for n in (1, 2):
+        S['inserts'] += 1; vid = f'VID{S["inserts"]}'
+        S['videos'][vid] = {'id': vid, 'snippet': {'channelId': CH, 'title': 'x', 'tags': ['amjrefdupdupdupdu']},
+                            'status': {'uploadStatus': 'processed', 'privacyStatus': 'unlisted'}}
+        S['uploads'].append(vid)
+    p, r, st = run_upload(base_item(), pre={'id': 'amj001', 'status': 'UPLOADING', 'upload_marker': 'amjrefdupdupdupdu'})
+    check('two uploads with the same marker -> NEEDS_REVIEW', p.returncode == 1 and r['status'] == 'NEEDS_REVIEW', r)
 
     reset(port=PORT)
     p, r, st = run_upload(base_item(), persist_ok=False)
