@@ -56,7 +56,7 @@ class Character:
         else:
             top, w = {'gumdrop': (-930, 400), 'box': (-880, 430), 'cup': (-900, 400), 'phone': (-1000, 380),
                       'ghost': (-980, 420), 'pumpkin': (-860, 470), 'egg': (-960, 380), 'ball': (-880, 440),
-                      'toast': (-930, 430), 'football': (-820, 470)}.get(sh, (-930, 400))
+                      'toast': (-930, 430), 'football': (-820, 470), 'cake': (-960, 480)}.get(sh, (-930, 400))
             self.top, self.width = top, w
             self.head = (0, top + 330, w / 2)
             self.face_y = top + 330
@@ -161,6 +161,17 @@ class Character:
         if sh == 'gumdrop':
             ctx.move_to(-hw, -90); ctx.curve_to(-hw, top + 120, -hw * 0.7, top, 0, top); ctx.curve_to(hw * 0.7, top, hw, top + 120, hw, -90)
             ctx.curve_to(hw * 0.6, -60, -hw * 0.6, -60, -hw, -90); ctx.close_path(); fs(ctx, c, lw=8)
+        elif sh == 'cake':
+            frost = self.s.get('frosting', '#f7a8c4')
+            for ty, by, f in ((-430, -90, 1.0), (-800, -430, 0.8), (top, -800, 0.52)):
+                x = hw * f
+                rrect(ctx, -x, ty, 2 * x, by - ty, 26); fs(ctx, c, lw=8)
+                ctx.move_to(-x, ty + 10); ctx.line_to(x, ty + 10); ctx.line_to(x, ty + 44)
+                n = 6
+                for i in range(n, 0, -1):
+                    x1 = -x + 2 * x * i / n; x0 = -x + 2 * x * (i - 1) / n
+                    ctx.curve_to(x1, ty + 96, x0, ty + 96, x0, ty + 44)
+                ctx.close_path(); fs(ctx, frost, lw=6)
         elif sh == 'box':
             rrect(ctx, -hw, top, w, -90 - top, 50); fs(ctx, c, lw=8)
             ctx.move_to(-hw + 30, top + 110); ctx.line_to(hw - 30, top + 110); src(ctx, shade(c, 0.8)); ctx.set_line_width(10); ctx.stroke()

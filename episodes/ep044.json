@@ -1,0 +1,436 @@
+{
+ "engine": "cast",
+ "id": 44,
+ "slug": "stop-the-wedding-just-for-a-minute",
+ "title": "Stop The Wedding, Just For A Minute",
+ "trend": "TikTok 'Stop the Wedding' format ('Stop the wedding, but...' + a petty wedding regret; New Engen TikTok list updated Nov 2 2026, US) \u2014 barn wedding where the leaning cake, bride, groom and dog reverend each stop the ceremony over small regrets",
+ "target_seconds": 180,
+ "length_reason": "Quick one-clip regret format that runs well under a minute in the original, so kept to the 175-240 range; 180 also fits Instagram.",
+ "scene": "park_day",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "stop the wedding,",
+  "but only for a minute",
+  "a park. a dog reverend. a leaning cake."
+ ],
+ "youtube_title": "Stop The Wedding, Just For A Minute | Funny Cartoon",
+ "description": "A park wedding keeps getting stopped by a leaning cake, a very tired bride, a groom in the wrong boots and a dog who got ordained on his lunch break.\nNobody objects to the marriage. They object to the napkins.\n\n#cartoon #animation #funny #comedy #wedding",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "wedding",
+  "wedding humor",
+  "park wedding",
+  "talking dog",
+  "cartoons"
+ ],
+ "tiktok_caption": "nobody objects to the marriage. they object to the napkins. #cartoon #animation #funny #comedy #wedding",
+ "cast": [
+  {
+   "id": "june",
+   "name": "June",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "bun",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#fdf6ec",
+    "pattern": "plain"
+   },
+   "bottom": "#fdf6ec",
+   "shoes": "#ffffff",
+   "accessories": [
+    "bow:#e84393"
+   ],
+   "brows": "worried",
+   "blush": true,
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "curtis",
+   "name": "Curtis",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "short",
+    "color": "#a0522d"
+   },
+   "top": {
+    "color": "#2c3e50",
+    "pattern": "suit",
+    "pattern_color": "#e84393"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#6b3f1d",
+   "accessories": [
+    "tie:#e84393"
+   ],
+   "eye": "happy",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "waffles",
+   "name": "Reverend Waffles",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#c9964f",
+   "belly": "#f2dfb8",
+   "top": {
+    "color": "#1c1c24",
+    "pattern": "suit",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#1c1c24",
+   "accessories": [
+    "glasses",
+    "tie:#ffffff"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "cake",
+   "name": "The Cake",
+   "kind": "mascot",
+   "shape": "cake",
+   "color": "#fff6e8",
+   "accessories": [
+    "crown:#f4c542"
+   ],
+   "brows": "raised",
+   "blush": true,
+   "voice": {
+    "id": "af_kore",
+    "pitch": 1,
+    "tempo": 1.0
+   },
+   "frosting": "#f7a8c4"
+  }
+ ],
+ "lines": [
+  {
+   "spk": "waffles",
+   "text": "We are gathered here in this public park, which cost nine thousand dollars, and is free.",
+   "shot": "W"
+  },
+  {
+   "spk": "waffles",
+   "text": "If anyone objects to this union, speak now.",
+   "gesture": "think"
+  },
+  {
+   "spk": "cake",
+   "text": "Stop the wedding.",
+   "shot": "W",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "june",
+   "text": "Who said that?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "cake",
+   "text": "Down here. Table two. I am the cake."
+  },
+  {
+   "spk": "curtis",
+   "text": "June, the cake is talking."
+  },
+  {
+   "spk": "june",
+   "text": "That cake was six hundred dollars, Curtis. It should do something.",
+   "gesture": "hips"
+  },
+  {
+   "spk": "cake",
+   "text": "Stop the wedding, but just for a minute. I am leaning.",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "cake",
+   "text": "My top layer has been sliding toward the door since the first song."
+  },
+  {
+   "spk": "waffles",
+   "text": "Noted. Does the cake object to the marriage?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "cake",
+   "text": "No. I object to this table. It has three good legs."
+  },
+  {
+   "spk": "curtis",
+   "text": "Fine. Somebody put a napkin under it.",
+   "gesture": "point"
+  },
+  {
+   "spk": "june",
+   "text": "Not those napkins. Stop the wedding.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "curtis",
+   "text": "June?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "june",
+   "text": "Stop the wedding, but I should have gone with the ivory napkins."
+  },
+  {
+   "spk": "june",
+   "text": "These are eggshell. I said yes to eggshell because I was tired.",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "waffles",
+   "text": "I have eaten both. There is no difference.",
+   "gesture": "cross"
+  },
+  {
+   "spk": "june",
+   "text": "You ate a napkin?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "waffles",
+   "text": "I ate several. I am a reverend, but I am also a dog."
+  },
+  {
+   "spk": "curtis",
+   "text": "How did we end up hiring a dog?"
+  },
+  {
+   "spk": "waffles",
+   "text": "I got ordained online. They never asked about species.",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "waffles",
+   "text": "It was one form. I pressed the button with my nose."
+  },
+  {
+   "spk": "curtis",
+   "text": "Well, since we stopped. Stop the wedding, but I regret these boots.",
+   "gesture": "think"
+  },
+  {
+   "spk": "curtis",
+   "text": "I rented them. They are a size nine. I am a size eleven."
+  },
+  {
+   "spk": "june",
+   "text": "Why would you rent a nine?",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "curtis",
+   "text": "The man looked at me and said, you look like a nine. It felt nice."
+  },
+  {
+   "spk": "june",
+   "text": "Stop the wedding, but the lights. I hung four thousand twinkle lights.",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "june",
+   "text": "You cannot see a single one. It is two in the afternoon.",
+   "after": "rimshot"
+  },
+  {
+   "spk": "waffles",
+   "text": "Stop the wedding.",
+   "jump": true,
+   "shot": "W",
+   "after": "whoosh"
+  },
+  {
+   "spk": "curtis",
+   "text": "You cannot stop it. You are running it.",
+   "gesture": "point"
+  },
+  {
+   "spk": "waffles",
+   "text": "Stop the wedding, but this suit has no place for a tail."
+  },
+  {
+   "spk": "waffles",
+   "text": "My tail has been wagging inside one leg for an hour. I can no longer feel it."
+  },
+  {
+   "spk": "cake",
+   "text": "Hello. Still leaning. Has anyone looked at my table?"
+  },
+  {
+   "spk": "curtis",
+   "text": "Okay. No more stopping. Nobody regrets anything. Reverend, please.",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "waffles",
+   "text": "Do you, Curtis, take June, knowing what you now know about the napkins?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "curtis",
+   "text": "June, we have to tell them.",
+   "pre": 0.9,
+   "shot": "TWO"
+  },
+  {
+   "spk": "june",
+   "text": "Curtis, no. Not in front of the eggshell.",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "curtis",
+   "text": "Everybody? Nobody can stop this wedding, and I will tell you why.",
+   "shot": "W"
+  },
+  {
+   "spk": "curtis",
+   "text": "We got married in March. At the courthouse. For the dental plan.",
+   "shot": "W",
+   "after": "sting"
+  },
+  {
+   "spk": "waffles",
+   "text": "Then what did I press with my nose?",
+   "pre": 0.8
+  },
+  {
+   "spk": "june",
+   "text": "Your mother put down the deposit in January, Curtis. It was not refundable."
+  },
+  {
+   "spk": "curtis",
+   "text": "So we are getting married again, to not waste the money for getting married.",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "cake",
+   "text": "So I have been leaning for nothing?"
+  },
+  {
+   "spk": "june",
+   "text": "You are not for nothing. You are for after.",
+   "gesture": "point"
+  },
+  {
+   "spk": "cake",
+   "text": "After what?",
+   "pre": 0.9
+  },
+  {
+   "spk": "curtis",
+   "text": "After the toast. We cut you.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "cake",
+   "text": "You cut me?",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "june",
+   "text": "With a big knife. Together. It is very romantic.",
+   "gesture": "hips"
+  },
+  {
+   "spk": "waffles",
+   "text": "And whatever hits the floor is mine. I have waited since Thursday.",
+   "gesture": "think"
+  },
+  {
+   "spk": "cake",
+   "text": "Since Thursday. Reverend, why is there a dent in my back left side?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "waffles",
+   "text": "I licked it. Only a little. Every hour.",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "cake",
+   "text": "It was never the table. I am leaning because of you!",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "june",
+   "text": "Reverend, please. Just finish, so I can sit down and hate these napkins."
+  },
+  {
+   "spk": "waffles",
+   "text": "By the power vested in me by one form and my nose, you are still married.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "curtis",
+   "text": "You may now take off the boots.",
+   "jump": true,
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "june",
+   "text": "Come here, you nine.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "cake",
+   "text": "Stop the wedding.",
+   "shot": "W",
+   "pre": 0.8,
+   "after": "record_scratch"
+  },
+  {
+   "spk": [
+    "june",
+    "curtis",
+    "waffles"
+   ],
+   "text": "What now?",
+   "shot": "W",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "cake",
+   "text": "He has a fork."
+  },
+  {
+   "spk": "waffles",
+   "text": "Let us pray.",
+   "shot": "CU",
+   "gesture": "think",
+   "after": "rimshot"
+  }
+ ]
+}
