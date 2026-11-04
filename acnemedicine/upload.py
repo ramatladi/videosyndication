@@ -129,6 +129,8 @@ def validate(item, video_path):
         raise Fail('description longer than 5000 bytes')
     if item.get('privacy', 'public') not in ALLOWED_PRIVACY:
         raise Fail('privacy must be public, unlisted or private')
+    if not isinstance(item.get('paid_promotion'), bool):
+        raise Fail('paid_promotion must be set true or false (true when we earn from the products shown)')
     if not isinstance(item.get('contains_synthetic_media'), bool):
         raise Fail('contains_synthetic_media must be set true or false for this video\'s actual content')
     if item.get('publish_at') and not re.fullmatch(r'\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ', item['publish_at']):
@@ -153,7 +155,8 @@ def resource(item, marker):
     if item.get('publish_at'):
         status['privacyStatus'] = 'private'          # YouTube requires private + publishAt for scheduling
         status['publishAt'] = item['publish_at']
-    return {'snippet': {'title': item['title'], 'description': item['description'],
+    return {'paidProductPlacementDetails': {'hasPaidProductPlacement': item['paid_promotion']},
+            'snippet': {'title': item['title'], 'description': item['description'],
                         'tags': list(item.get('tags', [])) + [marker],      # unique per attempt, for reconciliation
                         'categoryId': str(item.get('category_id', '26')),
                         'defaultLanguage': item.get('language', 'en'),
@@ -163,7 +166,7 @@ def resource(item, marker):
 
 def upload(token, path, size, item, marker):
     url = API + '/upload/youtube/v3/videos?' + urllib.parse.urlencode(
-        {'uploadType': 'resumable', 'part': 'snippet,status', 'notifySubscribers': 'true'})
+        {'uploadType': 'resumable', 'part': 'snippet,status,paidProductPlacementDetails', 'notifySubscribers': 'true'})
     try:
         _, headers, _ = _req('POST', url, json.dumps(resource(item, marker)).encode(), {
             'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json; charset=UTF-8',
@@ -220,13 +223,14 @@ def find_existing(token, uploads_playlist, marker):
 
 def check_video(token, vid, item):
     """One read-back. Returns ('VERIFIED'|'PENDING', state) or raises Fail for a wrong/failed video."""
-    d = api_json('GET', '/youtube/v3/videos', token, {'part': 'snippet,status,processingDetails', 'id': vid})
+    d = api_json('GET', '/youtube/v3/videos', token, {'part': 'snippet,status,processingDetails,paidProductPlacementDetails', 'id': vid})
     if not d.get('items'):
         return 'PENDING', {'note': 'not visible yet'}
     v = d['items'][0]; st = v.get('status', {})
     state = {'channelId': v['snippet'].get('channelId'), 'uploadStatus': st.get('uploadStatus'),
              'privacyStatus': st.get('privacyStatus'), 'publishAt': st.get('publishAt'),
              'containsSyntheticMedia': st.get('containsSyntheticMedia'),
+             'hasPaidProductPlacement': (v.get('paidProductPlacementDetails') or {}).get('hasPaidProductPlacement', False),
              'rejectionReason': st.get('rejectionReason'), 'failureReason': st.get('failureReason')}
     if state['channelId'] != EXPECTED_CHANNEL_ID:
         raise WrongVideo(f'video is on channel {state["channelId"]}, expected {EXPECTED_CHANNEL_ID}')
@@ -235,6 +239,9 @@ def check_video(token, vid, item):
     want = 'private' if item.get('publish_at') else item.get('privacy', 'public')
     if state['privacyStatus'] != want:
         raise WrongVideo(f'privacy is {state["privacyStatus"]}, expected {want}')
+    if bool(state['hasPaidProductPlacement']) != item['paid_promotion']:
+        raise WrongVideo(f'paid promotion is {state["hasPaidProductPlacement"]}, expected {item["paid_promotion"]}; '
+                         'set it in YouTube Studio')
     if item.get('publish_at') and (state['publishAt'] or '')[:19] != item['publish_at'][:19]:
         raise WrongVideo(f'publishAt is {state["publishAt"]}, expected {item["publish_at"]}')
     return ('VERIFIED' if state['uploadStatus'] == 'processed' else 'PENDING'), state

@@ -18,7 +18,7 @@ S = {}
 def reset(**kw):
     S.clear()
     S.update(dict(channel=CH, processing_polls=0, force_privacy=None, echo_secret=False, fail_last_chunk=False,
-                  session_fail=False, uploads=[], polls=0, puts=0, inserts=0, videos={}), **kw)
+                  session_fail=False, drop_paid=False, uploads=[], polls=0, puts=0, inserts=0, videos={}), **kw)
 
 
 class Fake(http.server.BaseHTTPRequestHandler):
@@ -68,6 +68,7 @@ class Fake(http.server.BaseHTTPRequestHandler):
             if S['session_fail']:
                 return self._send(403, {'error': {'status': 'PERMISSION_DENIED', 'errors': [{'reason': 'forbidden'}],
                                                   'message': 'echo ' + SECRETS['YT_ACNE_CLIENT_SECRET']}})
+            S['part'] = urllib.parse.parse_qs(u.query).get('part', [''])[0]
             S['meta'] = json.loads(body); S['size'] = int(self.headers['X-Upload-Content-Length']); S['got'] = b''
             return self._send(200, headers={'Location': f'http://127.0.0.1:{S["port"]}/session/1'})
         self._send(404, {})
@@ -81,7 +82,9 @@ class Fake(http.server.BaseHTTPRequestHandler):
         S['videos'][vid] = {'id': vid, 'snippet': {'channelId': S['channel'], 'title': S['meta']['snippet']['title'],
                                                    'tags': S['meta']['snippet']['tags']},
                             'status': {'uploadStatus': 'uploaded', 'privacyStatus': S['force_privacy'] or st['privacyStatus'],
-                                       'publishAt': st.get('publishAt'), 'containsSyntheticMedia': st['containsSyntheticMedia']}}
+                                       'publishAt': st.get('publishAt'), 'containsSyntheticMedia': st['containsSyntheticMedia']},
+                            'paidProductPlacementDetails': {'hasPaidProductPlacement': False if S['drop_paid'] else
+                                                            S['meta']['paidProductPlacementDetails']['hasPaidProductPlacement']}}
         S['uploads'].append(vid)
         if S['fail_last_chunk']:          # YouTube created the video but the response is lost
             self.close_connection = True; self.connection.shutdown(2); return
@@ -96,7 +99,7 @@ def env(**over):
 
 def base_item(**kw):
     return {'id': 'amj001', 'title': 'Test review', 'description': 'desc', 'privacy': 'unlisted',
-            'contains_synthetic_media': False, **kw}
+            'contains_synthetic_media': False, 'paid_promotion': False, **kw}
 
 
 def run_upload(item, pre=None, persist_ok=True, **envover):
@@ -148,6 +151,22 @@ def upload_tests():
     p, r, st = run_upload({k: v for k, v in base_item().items() if k != 'contains_synthetic_media'})
     check('missing AI-disclosure choice refuses before upload', p.returncode == 1 and 'contains_synthetic_media' in r['error']
           and 'meta' not in S, r)
+
+    reset(port=PORT)
+    p, r, st = run_upload({k: v for k, v in base_item().items() if k != 'paid_promotion'})
+    check('missing paid-promotion choice refuses before upload', p.returncode == 1 and 'paid_promotion' in r['error']
+          and 'meta' not in S, r)
+
+    reset(port=PORT)
+    p, r, st = run_upload(base_item(paid_promotion=True))
+    check('paid promotion sent with the upload and confirmed on the video', p.returncode == 0
+          and 'paidProductPlacementDetails' in S['part'] and S['meta']['paidProductPlacementDetails']['hasPaidProductPlacement'] is True
+          and r['verified']['hasPaidProductPlacement'] is True, r)
+
+    reset(port=PORT, drop_paid=True)
+    p, r, st = run_upload(base_item(paid_promotion=True))
+    check('paid promotion not applied by YouTube -> FAILED for a person', p.returncode == 1 and r['status'] == 'FAILED'
+          and 'paid promotion' in r['error'], r)
 
     reset(port=PORT, processing_polls=99)
     p, r, st = run_upload(base_item())
@@ -331,8 +350,14 @@ def auth_tests():
     json.dump({'web': {'client_id': 'a', 'client_secret': 'b',
                        'redirect_uris': ['https://developers.google.com/oauthplayground']}}, open(f, 'w'))
     p = subprocess.run([sys.executable, f'{HERE}/auth_local.py', f, '--port', '8765'], capture_output=True, text=True)
-    check('auth: Web client whose redirects lack http://localhost:8765/ refused before any sign-in',
-          p.returncode != 0 and 'not a registered redirect' in p.stderr, p.stderr)
+    check('auth: Web client whose JSON lacks http://localhost:8765/ refused without --redirect-confirmed',
+          p.returncode != 0 and 'redirect-confirmed' in p.stderr, p.stderr)
+    c, host, port = auth_local.pick_redirect({'web': {'client_id': 'a', 'client_secret': 'b',
+                                                      'redirect_uris': ['https://example.org/cb']}}, 8765, True)
+    check('auth: older Web JSON accepted with --redirect-confirmed (JSON not edited)', host == 'localhost' and port == 8765)
+    src = open(f'{HERE}/auth_local.py').read()
+    check('auth: no advice to remove the shared app from account permissions',
+          'remove the app at myaccount' not in src and 'Do NOT remove the app' in src)
     c, host, port = auth_local.pick_redirect({'web': {'client_id': 'a', 'client_secret': 'b',
                                                       'redirect_uris': ['http://localhost:8765/']}}, 8765)
     check('auth: Web client with the registered localhost redirect accepted', host == 'localhost' and port == 8765)
