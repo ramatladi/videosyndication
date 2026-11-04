@@ -51,9 +51,10 @@ checks YouTube Studio, then deletes or edits the result file.
    collection, and because the repo is public anyone could have fetched them while the branch existed. Treat anything
    pushed there as public.
 
-## Google Cloud app (prepared settings; needs Sello's approval of Google's terms first)
-- Project: `acne-medicine-uploader`, on ecstacyspiritlifestyle@gmail.com, no billing account.
-- Enable: YouTube Data API v3 only.
+## Google Cloud app
+Status (4 Nov 2026): Google Cloud terms accepted (marketing emails off); project created; YouTube Data API v3 enabled; no billing account linked (checked on the Billing page). Auth Platform (consent screen) not yet created: its last step needs agreement to the Google API Services User Data Policy. No OAuth client exists yet.
+- Project: `acne-medicine-uploader` (project number 23501395330), No organization, on ecstacyspiritlifestyle@gmail.com, no billing.
+- Enabled: YouTube Data API v3 only.
 - OAuth consent screen (Google Auth Platform → Branding/Audience): app name "Acne Medicine Uploader"; user support
   email and developer contact ecstacyspiritlifestyle@gmail.com; no logo (a logo triggers brand verification);
   audience **External**; publishing status **In production** (Testing-mode refresh tokens expire after 7 days).
