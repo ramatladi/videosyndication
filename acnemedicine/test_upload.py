@@ -327,7 +327,17 @@ def auth_tests():
     check('auth: listener times out and stops on its own', not th.is_alive() and not done.is_set())
     d = tempfile.mkdtemp(); f = f'{d}/c.json'; json.dump({'web': {'client_id': 'a', 'client_secret': 'b'}}, open(f, 'w'))
     p = subprocess.run([sys.executable, f'{HERE}/auth_local.py', f], capture_output=True, text=True)
-    check('auth: non-Desktop (web) client refused', p.returncode != 0 and 'Desktop app' in p.stderr, p.stderr)
+    check('auth: Web client without --port refused', p.returncode != 0 and '--port' in p.stderr, p.stderr)
+    json.dump({'web': {'client_id': 'a', 'client_secret': 'b',
+                       'redirect_uris': ['https://developers.google.com/oauthplayground']}}, open(f, 'w'))
+    p = subprocess.run([sys.executable, f'{HERE}/auth_local.py', f, '--port', '8765'], capture_output=True, text=True)
+    check('auth: Web client whose redirects lack http://localhost:8765/ refused before any sign-in',
+          p.returncode != 0 and 'not a registered redirect' in p.stderr, p.stderr)
+    c, host, port = auth_local.pick_redirect({'web': {'client_id': 'a', 'client_secret': 'b',
+                                                      'redirect_uris': ['http://localhost:8765/']}}, 8765)
+    check('auth: Web client with the registered localhost redirect accepted', host == 'localhost' and port == 8765)
+    c, host, port = auth_local.pick_redirect({'installed': {'client_id': 'a', 'client_secret': 'b'}}, 0)
+    check('auth: Desktop client uses 127.0.0.1 random port', host == '127.0.0.1' and port == 0)
     shutil.rmtree(d)
 
 

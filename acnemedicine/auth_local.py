@@ -1,9 +1,14 @@
 """One-time OAuth sign-in for the Acne Medicine Johannesburg uploader. Run this ON YOUR OWN COMPUTER, not in CI.
 
-    python3 acnemedicine/auth_local.py path/to/client_secret_XXXX.json
+    python3 acnemedicine/auth_local.py path/to/client_secret_XXXX.json            # Desktop app client
+    python3 acnemedicine/auth_local.py path/to/client_secret_XXXX.json --port 8765  # Web application client
 
 Needs Python 3 and the GitHub CLI (`gh auth login` done) with access to ramatladi/videosyndication.
-The client file must be a "Desktop app" OAuth client (the JSON has an "installed" section).
+Client types:
+- "Desktop app" (JSON has "installed"): loopback redirect http://127.0.0.1:<random port>/.
+- "Web application" (JSON has "web"): pass --port N; http://localhost:N/ must already be one of the client's
+  registered redirect URIs (checked against the JSON's redirect_uris), otherwise nothing happens.
+Each channel gets its own refresh token; this never reads, replaces or revokes another channel's token.
 
 1. Opens Google's consent page (loopback redirect to 127.0.0.1 on a random port, PKCE, state check).
    When Google asks which account/channel, pick **Acne Medicine Johannesburg**.
@@ -21,7 +26,7 @@ EXPECTED = open(os.path.join(HERE, 'CHANNEL_ID')).read().strip()
 TIMEOUT = 600
 
 
-def wait_for_code(state):
+def wait_for_code(state, port=0):
     """Serve on 127.0.0.1 until a request with the right state arrives or TIMEOUT passes. Ignores stray requests."""
     got, done = {}, threading.Event()
 
@@ -37,7 +42,7 @@ def wait_for_code(state):
         def log_message(self, *a):
             pass
 
-    srv = http.server.HTTPServer(('127.0.0.1', 0), H)
+    srv = http.server.HTTPServer(('127.0.0.1', port), H)
     srv.timeout = 1
     port = srv.server_port
 
@@ -51,17 +56,32 @@ def wait_for_code(state):
     return port, got, done, t
 
 
-def main(client_file):
+def pick_redirect(raw, port):
+    """Return (client, redirect_host, port) or exit. Web clients need an exact pre-registered localhost redirect."""
+    if 'installed' in raw:
+        return raw['installed'], '127.0.0.1', 0
+    if 'web' in raw:
+        if not port:
+            sys.exit('This is a "Web application" client: pass --port N, with http://localhost:N/ registered as a '
+                     'redirect URI on that client.')
+        want = f'http://localhost:{port}/'
+        regs = raw['web'].get('redirect_uris', [])
+        if want not in regs and want.rstrip('/') not in regs:
+            sys.exit(f'{want} is not a registered redirect URI on this client. Add it in Google Cloud '
+                     '(Clients > the client > Authorised redirect URIs), download the JSON again, and retry.')
+        return raw['web'], 'localhost', port
+    sys.exit('Unrecognised client JSON: expected a "Desktop app" or "Web application" OAuth client.')
+
+
+def main(client_file, port=0):
     raw = json.load(open(client_file))
-    if 'installed' not in raw:
-        sys.exit('This must be a "Desktop app" OAuth client JSON (it has no "installed" section).')
-    c = raw['installed']
+    c, host, port = pick_redirect(raw, port)
     cid, csec = c['client_id'], c['client_secret']
     verifier = secrets.token_urlsafe(64)
     challenge = base64.urlsafe_b64encode(hashlib.sha256(verifier.encode()).digest()).rstrip(b'=').decode()
     state = secrets.token_urlsafe(24)
-    port, got, done, t = wait_for_code(state)
-    redirect = f'http://127.0.0.1:{port}/'
+    port, got, done, t = wait_for_code(state, port)
+    redirect = f'http://{host}:{port}/'
     url = 'https://accounts.google.com/o/oauth2/v2/auth?' + urllib.parse.urlencode({
         'client_id': cid, 'redirect_uri': redirect, 'response_type': 'code', 'scope': SCOPES,
         'access_type': 'offline', 'prompt': 'consent select_account', 'state': state,
@@ -106,6 +126,10 @@ def main(client_file):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 2:
+    a = sys.argv[1:]
+    if len(a) == 1:
+        main(a[0])
+    elif len(a) == 3 and a[1] == '--port' and a[2].isdigit() and 1024 <= int(a[2]) <= 65535:
+        main(a[0], int(a[2]))
+    else:
         sys.exit(__doc__)
-    main(sys.argv[1])
