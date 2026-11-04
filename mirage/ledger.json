@@ -2300,6 +2300,81 @@
     "dance": 0.079,
     "genre_fit": 0.808
    }
+  },
+  {
+   "release": "mtr033",
+   "date": "2026-11-04",
+   "slot": "2026-11-04T19:55",
+   "format": "short",
+   "title": "Under The Static",
+   "artist": "DJ Concrete Palm",
+   "style": "tech",
+   "key": "F# minor",
+   "bpm": 128,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "5194909c-7f05-4d83-b57b-23a2d6215bfe",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/2356cdc2-6857-4038-ae80-0859b381c7ac.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr033.json",
+   "photographer": "Lili Cambalova",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-pool-YOmj69oSR3M",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-8464396755646920857",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-6166024262734097922.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr033.mp3",
+    "top": [
+     [
+      "electronic",
+      0.41
+     ],
+     [
+      "dance",
+      0.372
+     ],
+     [
+      "House",
+      0.285
+     ],
+     [
+      "pop",
+      0.146
+     ],
+     [
+      "electro",
+      0.126
+     ],
+     [
+      "electronica",
+      0.105
+     ],
+     [
+      "female vocalists",
+      0.092
+     ],
+     [
+      "chillout",
+      0.073
+     ],
+     [
+      "indie",
+      0.026
+     ],
+     [
+      "rnb",
+      0.025
+     ]
+    ],
+    "house": 0.285,
+    "electronic": 0.41,
+    "dance": 0.372,
+    "genre_fit": 0.942
+   }
   }
  ]
 }
