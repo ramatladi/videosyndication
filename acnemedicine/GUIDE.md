@@ -70,6 +70,12 @@ checks YouTube Studio, then deletes or edits the result file.
   `photos/pool.json` (`day.py fetch` downloads it; photos are not kept in git). Credit photographers in the description
   only. Adults only, ordinary skincare scenes, no other brands' products, nothing suggestive; check every new photo on a
   contact sheet. Thumbnails: product name + a matching face photo (a free photo can't show the real product).
+- **Publishing path:** Cloudflare worker `acne-manifest-sync` (code in `cloudflare/acne-manifest-sync/`, every 10 min)
+  reads today's and tomorrow's SAST `manifest.json` from the media branch, checks each video's SHA-256, copies it to R2
+  `acne-youtube-media` and queues it in D1 `acne-youtube-automation` (`jobs`, due = publish_at, 2 new per run). The
+  existing uploader worker `acne-youtube-automation` then publishes due jobs (one per 5-minute run) and verifies them.
+  To post something early, stage it under today's date with the same id: the later date's entry is then skipped.
+  Tests: `node cloudflare/acne-manifest-sync/test.mjs <media-branch checkout>`.
 - **Daily run:** scheduled task "Acne Medicine daily videos", 11:33 SAST, follows `DAILY_TASK.md` for the next day.
 - **Words:** state what the product description says, directly (no "Dermalogica says…"). Add nothing beyond it: no
   invented results, testimonials or ratings.

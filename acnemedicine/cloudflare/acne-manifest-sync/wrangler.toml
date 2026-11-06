@@ -1,0 +1,16 @@
+name = "acne-manifest-sync"
+main = "worker.mjs"
+compatibility_date = "2026-11-01"
+workers_dev = false
+
+[triggers]
+crons = ["*/10 * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "acne-youtube-automation"
+database_id = "f06ae47f-8028-4981-ae7f-592844811c4a"
+
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "acne-youtube-media"
