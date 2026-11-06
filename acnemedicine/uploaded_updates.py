@@ -12,8 +12,8 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 ACNE = 'UCtwhnWNVzoS6MR0SkvZIDHQ'
 
 LAUNCH = {   # domain: (video_id, extra tags, topic hashtag)
-    'skincare.joburg': ('au8JAjGHi1s', ['moisturiser', 'skin smoothing cream', 'calm water gel', 'skin soothing hydrating lotion',
-                                        'best moisturiser south africa', 'minimalist skincare', 'rosebank', 'johannesburg'], 'Moisturiser'),
+    'skincare.joburg': ('au8JAjGHi1s', ['moisturizer', 'skin smoothing cream', 'calm water gel', 'skin soothing hydrating lotion',
+                                        'best moisturizer south africa', 'minimalist skincare', 'rosebank', 'johannesburg'], 'Moisturizer'),
     'skincare.durban': ('5A9z0B9Q6hw', ['body wash', 'body cream', 'conditioning body wash', 'body hydrating cream',
                                         'body care routine', 'body care for beginners', 'westville', 'durban'], 'BodyCare'),
     'dermatologist.joburg': ('f8_sTs85ahg', ['travel size skincare', 'skincare travel kit', 'intensive moisture balance',

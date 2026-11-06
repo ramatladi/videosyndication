@@ -29,6 +29,8 @@ Repo: `ramatladi/videosyndication` (clone `--depth 20`). Rules: `acnemedicine/GU
    16:00, 19:00 and videos 14:00, 17:00. Shorts: 5-6 scenes, under 60 s (about 100-120 spoken words). Videos:
    12-16 scenes, more photos, about 2-3 min (300-420 words). Vary photos between items; thumbnail photo = a face photo
    that fits the product. Titles under 100 characters; Shorts end with "#shorts".
+   **American English** (Sello, 7 Nov 2026) for scripts, captions, titles, descriptions, tags and thumbnail text:
+   moisturizer, moisturizing, color, license. Keep exact official product names as the store lists them.
    **Make every post searchable** (Sello, 6 Nov 2026): the title starts with what people type: "How to Use Dermalogica
    <Product> (<key ingredient>)", "Dermalogica <Product>: <what it does, from the product page>" or, for videos,
    "Dermalogica <Product> Review: <key ingredient>, How to Use It"; put the key fact (e.g. "0.5% Salicylic Acid") in

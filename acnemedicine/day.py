@@ -50,7 +50,7 @@ def metadata(plan, it, P, timing=None):
         *(['Chapters:', chap, ''] if chap else []),
         f'Shop: {SHOP}', '',
         'General product information, not medical advice. Acne Medicine Johannesburg, South Africa.', '',
-        'Photos from Pexels (free licence): ' + ', '.join(names), '',
+        'Photos from Pexels (free license): ' + ', '.join(names), '',
         D.hashtags(product) + ' ' + ' '.join('#' + D.camel(t) for t in it['tags'][:3] if t not in ('dermalogica', 'skincare')),
     ] if x is not None)
     h, m = map(int, it['slot'].split(':'))

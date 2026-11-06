@@ -9,12 +9,17 @@ occasional context, never as a channel's identity.
 
 | Channel | Locality | Brand desk |
 |---|---|---|
-| skincare.joburg | Rosebank | Moisturisers and textures |
+| skincare.joburg | Rosebank | Moisturizers and textures |
 | skincare.durban | Westville | Body care |
 | dermatologist.joburg | Midrand | Building a skincare routine |
 | dermatology.joburg | Bedfordview | Product labels and ingredients |
 | dermatology.durban | uMhlanga | Hydration and layering |
 | dermatology.capetown | Cape Town | Daily sun care |
+
+## Language: American English (Sello, 7 Nov 2026; all seven skincare channels incl. Acne Medicine)
+Scripts, narration, captions, titles, descriptions, thumbnail text and channel branding use American English
+(moisturizer, moisturizing, color, license, center, favorite). Exact official product names stay as the store
+lists them, even when they use another spelling. Narration uses American female voices (Kokoro `af_*`).
 
 ## Quality rules for every video (launch rebuild and daily production)
 - One named Dermalogica product per video, verified against its store listing (name, size, claims, directions).

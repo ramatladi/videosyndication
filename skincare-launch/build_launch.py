@@ -26,7 +26,7 @@ CREDITS = {
     '5240623': 'Anete Lusina', '6781117': 'Monstera Production', '7321267': 'Kaboompics',
     '8185803': 'Kindel Media', '20817639': 'Laura Chouette', '8276910': 'Kindel Media', '8093198': 'Kindel Media',
     '30982094': 'Karen Laårk Boshoff', '5202462': 'Kaboompics', '7320730': 'Kaboompics', '7019486': 'Yan Krukau',
-    '3762870': 'Shiny Diamond', '4612160': 'cottonbro studio'}
+    '3762870': 'Shiny Diamond', '4612160': 'cottonbro studio', '7321655': 'Kaboompics'}
 for p in json.load(open(f'{REPO}/acnemedicine/photos/pool.json')):
     CREDITS.setdefault(p['id'], p['by'])
 
@@ -56,7 +56,7 @@ def wrap(d, text, f, width):
 def base(pid, cx=0.5, margin=1.12):
     im = ImageOps.exif_transpose(Image.open(photo(pid))).convert('RGB')
     w, h = int(W * margin), int(H * margin)
-    if im.width / im.height >= 1.2:
+    if H > W or im.width / im.height >= 1.2:
         return ImageOps.fit(im, (w, h), Image.LANCZOS, centering=(cx, 0.4))
     # portrait photo: sharp copy on a soft blurred copy of itself
     bg = ImageOps.fit(im, (w, h), Image.LANCZOS).filter(ImageFilter.GaussianBlur(60))
@@ -72,7 +72,9 @@ def overlay(v, sc, i):
     ov = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(ov)
     pos = st['caption']
     fk, fc = font(30, 'Bold'), font(50, 'SemiBold')
-    box_w = 760 if pos in ('left', 'right') else 1300
+    if H > W:
+        pos = 'short'
+    box_w = 760 if pos in ('left', 'right') else (960 if pos == 'short' else 1300)
     body = wrap(d, sc['caption'], fc, box_w - 80)
     bb = d.multiline_textbbox((0, 0), body, font=fc, spacing=12)
     th = bb[3] - bb[1]
@@ -82,6 +84,8 @@ def overlay(v, sc, i):
         x0, y0 = 70, (H - ch) // 2
     elif pos == 'right':
         x0, y0 = W - 70 - box_w, (H - ch) // 2
+    elif pos == 'short':
+        x0, y0 = (W - box_w) // 2, int(H * 0.62)
     elif pos == 'top':
         x0, y0 = (W - box_w) // 2, 120
     else:
@@ -116,7 +120,7 @@ def overlay(v, sc, i):
     disc = ('Not dermatologists or doctors  ·  Not medical advice' if v['credential_line']
             else 'General product info, not medical advice')
     fs = 26
-    while 40 + d.textlength(v['brand'], font=font(30, 'Bold')) + 60 + d.textlength(disc, font=font(fs, 'Medium')) > W - 40:
+    while fs > 14 and 40 + d.textlength(v['brand'], font=font(30, 'Bold')) + 40 + d.textlength(disc, font=font(fs, 'Medium')) > W - 40:
         fs -= 1
     d.text((W - 40, H - 37), disc, font=font(fs, 'Medium'), fill=(235, 235, 235), anchor='rm')
     return ov
@@ -152,8 +156,10 @@ def music(st, seconds, sr=48000):
 
 
 def build(v, k):
+    global W, H
+    W, H = (1080, 1920) if v.get('format') == 'short' else (1920, 1080)
     out = f'{HERE}/out/{v["slug"]}'; os.makedirs(os.path.dirname(out), exist_ok=True)
-    voice = v['voice']; assert voice[:3] in ('af_', 'bf_'), 'female voices only'
+    voice = v['voice']; assert voice.startswith('af_'), 'American female voices only (af_*)'
     for sc in v['scenes']:   # commission disclosure lives in the description only (Sello, 6 Nov 2026)
         assert not re.search(r'commission|affiliate', sc['say'] + sc['caption'] + sc['kicker'], re.I), sc
     motion = v['style']['motion']
@@ -215,26 +221,41 @@ def description(v):
     for pid in photos:
         if CREDITS[pid] not in names:
             names.append(CREDITS[pid])
-    lines = [v['scenes'][0]['say'], '',
-             f'We earn a commission if you buy through our link at https://{v["domain"]}/.']
+    lines = [v.get('lead') or v['scenes'][0]['say'], '',
+             f'We earn a commission if you buy through our link at https://{v["domain"]}/.',
+             *([''] + [f'• {f}' for f in v['facts']] + [''] if v.get('facts') else [])]
     if v['credential_line']:
         lines.append(f'{v["domain"]} is not run by dermatologists or doctors.')
     lines += ['General product information, not medical advice. Product details are taken from the official '
               f'product pages (checked {SPEC["checked"]}); check the current page and ingredient list before you buy.',
               '', f'Shop: https://{v["domain"]}/', '',
-              'Photos from Pexels (free licence): ' + ', '.join(names) + '.',
-              'Music: original, made for this video. Narration: Kokoro text-to-speech.']
+              'Photos from Pexels (free license): ' + ', '.join(names) + '.',
+              'Music: original, made for this video. Narration: Kokoro text-to-speech.',
+              *(['', v['hashtags']] if v.get('hashtags') else [])]
     return '\n'.join(lines), [{'pexels_id': pid, 'photographer': CREDITS[pid],
-                               'url': f'https://www.pexels.com/photo/{pid}/', 'licence': 'Pexels License'} for pid in photos]
+                               'url': f'https://www.pexels.com/photo/{pid}/', 'license': 'Pexels License'} for pid in photos]
 
 
 SPEC = json.load(open(f'{HERE}/specs.json'))
+
+
+def shorts():
+    """Vertical Shorts (shorts.json): each inherits its channel's domain, brand, voice, colors and music from the
+    channel's long video in specs.json, with its own script, photos, title and description."""
+    par = {v['slug']: v for v in SPEC['videos']}
+    for s in json.load(open(f'{HERE}/shorts.json'))['shorts']:
+        p = par[s['parent']]
+        v = {k: p[k] for k in ('domain', 'brand', 'credential_line', 'voice', 'theme')}
+        v['style'] = {k: p['style'][k] for k in ('accent', 'music', 'motion')}
+        v['style']['caption'] = 'bottom'
+        v.update(s); v['format'] = 'short'
+        yield v
 if __name__ == '__main__':
     from kokoro_onnx import Kokoro
     m = os.path.expanduser('~/.cache/kokoro'); k = Kokoro(f'{m}/kokoro.onnx', f'{m}/voices.bin')
     want = sys.argv[1:]
-    for v in SPEC['videos']:
-        if want and v['slug'] not in want:
+    for v in (list(shorts()) if want[:1] == ['--shorts'] else SPEC['videos']):
+        if want and want != ['--shorts'] and v['slug'] not in want[1 if want[0] == '--shorts' else 0:]:
             continue
         out = build(v, k)
         desc, photos = description(v)
