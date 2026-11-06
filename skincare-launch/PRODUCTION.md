@@ -3,6 +3,29 @@
 Channels: skincare.joburg, skincare.durban, dermatologist.joburg, dermatology.joburg, dermatology.durban,
 dermatology.capetown. Builder: `skincare-launch/build_launch.py` with `specs.json`.
 
+## Channel identity: Dermalogica product and skincare education (Sello, 7 Nov 2026)
+Each channel is named by its locality and has one brand desk. Travel or packing may appear only as an
+occasional context, never as a channel's identity.
+
+| Channel | Locality | Brand desk |
+|---|---|---|
+| skincare.joburg | Rosebank | Moisturisers and textures |
+| skincare.durban | Westville | Body care |
+| dermatologist.joburg | Midrand | Building a skincare routine |
+| dermatology.joburg | Bedfordview | Product labels and ingredients |
+| dermatology.durban | uMhlanga | Hydration and layering |
+| dermatology.capetown | Cape Town | Daily sun care |
+
+## Quality rules for every video (launch rebuild and daily production)
+- One named Dermalogica product per video, verified against its store listing (name, size, claims, directions).
+- The product is named in the title and spoken in the video.
+- Thumbnail = the exact real product photo from the store listing (only once usage is authorised); Shorts embed
+  a clear, selectable product cover frame.
+- Every product, thumbnail photo, script, storyboard and visual sequence is unique: no repeated photographs, stock
+  montages or shared templates between channels or between videos.
+- QA before staging: listing and image URL checked, thumbnail and render match the product, cross-batch visual
+  similarity check, SRT captions from the narration.
+
 ## Commission disclosure (Sello, 6 Nov 2026; supersedes the six-channel launch brief)
 - Same format as Acne Medicine Johannesburg: the affiliate commission disclosure goes **in the YouTube description
   only** ("We earn a commission if you buy through our link…", near the top).
