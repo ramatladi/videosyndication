@@ -61,13 +61,30 @@ checks YouTube Studio, then deletes or edits the result file.
   Acne Medicine Johannesburg channel. To retry, just run it again; never remove the app from Google Account permissions.
 - Unused: the separate project `acne-medicine-uploader` (no billing, Testing mode) and its Desktop client.
 
+## Daily output (Sello, 6 Nov 2026)
+- **4 Shorts + 2 full videos a day.** Short: 1080x1920, under 60 s. Full video: 1920x1080, about 3 min, with more product
+  and face images. Slots (SAST): Shorts 10:00, 13:00, 16:00, 19:00; videos 14:00, 17:00.
+- Built with `build_video.py` (photos with slow zoom, captions, female voice `af_heart`; female voices only) and a
+  1280x720 thumbnail made from the product photo.
+- **Images:** Dermalogica's own product photos and their photos with people's faces (Sello's commission programme allows
+  using them). Where Dermalogica has no face images for a product, use free Unsplash/Pexels photos and credit them in the
+  description only. Never use free photos of anyone who might be under 18.
+- **Words:** state what the product description says, directly (no "Dermalogica says…"). Add nothing beyond it: no
+  invented results, testimonials or ratings.
+- **Commission disclosure in the description only** ("We earn a commission if you buy through our link." near the top);
+  `paid_promotion: true` on every post. Nothing about commission in the video.
+- **Staging for the Cloudflare uploader** (Sello's connection does the YouTube upload; the GitHub uploader stays paused):
+  media branch, `acnemedicine/<YYYY-MM-DD>/` with `<id>.mp4`, `<id>.jpg` (thumbnail), `<id>.json` (title, description,
+  tags, publish_at UTC, short, paid_promotion, contains_synthetic_media, category_id) and `manifest.json`
+  (ids, files, sha256, publish_at).
+
 ## Content rules
 - Review real products honestly from the maker's own published information (ingredients, skin type, how to use).
   Never invent customer testimonials, ratings or before/after results, and never claim a cosmetic cures or treats acne
   as a medicine would.
 - Every description links https://acnemedicine.co.za/. Sello earns a commission on sales through that link (confirmed
   4 Nov 2026), so every post: says "We earn a commission if you buy through our link." near the top of the description
-  and on a card (spoken) just before the shop card; sets `"paid_promotion": true` (YouTube's paid product placement flag,
+  (not in the video, from 6 Nov 2026); sets `"paid_promotion": true` (YouTube's paid product placement flag,
   sent on upload and checked on read-back: a mismatch is FAILED for a person to fix in Studio). Do not describe this as a
   sponsorship or a Dermalogica partnership: no such relationship is established.
 - `selfDeclaredMadeForKids: false`. Category 26 (Howto & Style).
