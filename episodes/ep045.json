@@ -1,0 +1,523 @@
+{
+ "engine": "cast",
+ "id": 45,
+ "slug": "why-would-i-deceive-you-the-apartment-tour",
+ "title": "Why Would I Deceive You? The Apartment Tour",
+ "trend": "TikTok 'Why Would I Deceive You?' deadpan format (deadpan audio + on-screen promise of something that will obviously disappoint; New Engen TikTok list updated Nov 4-5 2026, US) + November heating season / first cold snap \u2014 realtor Vince tours Dana and her trusting brother Kofi through a tiny apartment, answering every flaw with 'why would I deceive you?'; the scratching in the wall is the mouse landlord, Vince lives in the closet, and the heat is the mouse running in a wheel",
+ "target_seconds": 180,
+ "length_reason": "Quick one-clip deadpan format whose originals run well under a minute, so kept to the 175-240 range; 180 also fits Instagram.",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "why would i",
+  "deceive you?",
+  "an apartment tour"
+ ],
+ "youtube_title": "Why Would I Deceive You? The Apartment Tour | Funny Cartoon",
+ "description": "A smooth-talking realtor shows Dana and her brother Kofi a tiny apartment where the hallway is the kitchen and the thermostat is a sticker.\nThe scratching in the wall has a lease, a top hat and opinions about cheese.\n\n#cartoon #animation #funny #comedy #apartment",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "apartment",
+  "apartment hunting",
+  "realtor",
+  "landlord",
+  "talking mouse",
+  "cartoons"
+ ],
+ "tiktok_caption": "the heat works. why would he deceive you? #cartoon #animation #funny #comedy #apartment",
+ "cast": [
+  {
+   "id": "vince",
+   "name": "Vince",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "short",
+    "color": "#1c1c1c"
+   },
+   "top": {
+    "color": "#1f3a5f",
+    "pattern": "suit",
+    "pattern_color": "#f4c542"
+   },
+   "bottom": "#1f3a5f",
+   "shoes": "#2b1a10",
+   "accessories": [
+    "tie:#f4c542"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "scale": 1.05,
+   "voice": {
+    "id": "am_michael",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "dana",
+   "name": "Dana",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "curly",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "glasses"
+   ],
+   "brows": "angry",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "kofi",
+   "name": "Kofi",
+   "kind": "human",
+   "color": "#6b4226",
+   "hair": {
+    "style": "spiky",
+    "color": "#1a1a1a"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "stripes",
+    "pattern_color": "#f1c40f"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#e67e22",
+   "accessories": [
+    "beanie:#e67e22",
+    "scarf:#3498db"
+   ],
+   "eye": "big",
+   "blush": true,
+   "scale": 0.95,
+   "voice": {
+    "id": "am_puck",
+    "pitch": 1,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "whiskers",
+   "name": "Mister Whiskers",
+   "kind": "animal",
+   "ears": "mouse",
+   "color": "#9aa0a6",
+   "belly": "#e6e6e6",
+   "inner": "#f5b7c5",
+   "top": {
+    "color": "#6c3483",
+    "pattern": "suit",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#4a235a",
+   "accessories": [
+    "tophat",
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "scale": 0.85,
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "vince",
+   "text": "Welcome to your new home. Spacious, sunny, and the heat works.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "vince",
+   "text": "Why would I deceive you?",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dana",
+   "text": "I have not even taken my coat off and I already have questions.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kofi",
+   "text": "I have zero questions. I love it. Is there a dishwasher?",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "vince",
+   "text": "There is a dishwasher.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dana",
+   "text": "Where?",
+   "shot": "CU"
+  },
+  {
+   "spk": "vince",
+   "text": "You are looking at him.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "rimshot"
+  },
+  {
+   "spk": "kofi",
+   "text": "I respect that.",
+   "shot": "kofi"
+  },
+  {
+   "spk": "dana",
+   "text": "Okay. The listing said six hundred square feet.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "vince",
+   "text": "And it delivers. Every one of them is right here.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dana",
+   "text": "This is the hallway.",
+   "shot": "CU"
+  },
+  {
+   "spk": "vince",
+   "text": "The hallway is also the kitchen. Open concept.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "kofi",
+   "text": "I love a concept.",
+   "shot": "kofi",
+   "jump": true
+  },
+  {
+   "spk": "vince",
+   "text": "And the bathroom is right next to the stove.",
+   "shot": "CU"
+  },
+  {
+   "spk": "vince",
+   "text": "You can shower and make toast at the same time.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dana",
+   "text": "Why would anyone want that?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "vince",
+   "text": "Busy mornings. Why would I deceive you?",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "kofi",
+   "text": "I am going to be so efficient.",
+   "shot": "kofi"
+  },
+  {
+   "spk": "dana",
+   "text": "Next. The listing said natural light.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "vince",
+   "text": "Look at that window.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dana",
+   "text": "It faces a brick wall.",
+   "shot": "CU"
+  },
+  {
+   "spk": "vince",
+   "text": "That brick gets sun at four fifteen. For nine minutes.",
+   "shot": "CU"
+  },
+  {
+   "spk": "vince",
+   "text": "And then it bounces in here. Golden hour.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "kofi",
+   "text": "Nine minutes of gold. Dana, that is so much gold.",
+   "shot": "kofi",
+   "jump": true,
+   "after": "ding"
+  },
+  {
+   "spk": "dana",
+   "text": "Kofi, you could see that wall with a flashlight.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "kofi",
+   "text": "Then we will bring a flashlight. Problem solved.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dana",
+   "text": "Fine. It is November. Tell me the heat works.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "vince",
+   "text": "The heat works.",
+   "shot": "CU"
+  },
+  {
+   "spk": "vince",
+   "text": "Why would I deceive you?",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "kofi",
+   "text": "Wait. What is that noise?",
+   "shot": "kofi",
+   "gesture": "think"
+  },
+  {
+   "spk": "vince",
+   "text": "That is the radiator saying hello.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "dana",
+   "text": "It has been saying hello for two minutes.",
+   "shot": "CU"
+  },
+  {
+   "spk": "vince",
+   "text": "It is very friendly. It has been saying hello since nineteen ninety.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dana",
+   "text": "And the thermostat?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "vince",
+   "text": "Right there on the wall. Set to seventy two.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dana",
+   "text": "Vince. That is a sticker.",
+   "shot": "CU",
+   "pre": 0.8,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "vince",
+   "text": "It is a very confident sticker.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kofi",
+   "text": "It does make me feel warmer.",
+   "shot": "kofi"
+  },
+  {
+   "spk": "dana",
+   "text": "You are wearing two hats.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "dana",
+   "text": "Last thing. Are the neighbors quiet?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "vince",
+   "text": "Extremely quiet. You will never even see them.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kofi",
+   "text": "What is that scratching in the wall?",
+   "shot": "kofi",
+   "gesture": "think"
+  },
+  {
+   "spk": "vince",
+   "text": "That is the quiet.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "whiskers",
+   "text": "Evening.",
+   "shot": "W",
+   "after": "sting"
+  },
+  {
+   "spk": [
+    "dana",
+    "kofi"
+   ],
+   "text": "There is a mouse.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "whiskers",
+   "text": "There is a landlord. Please wipe your feet.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dana",
+   "text": "Vince. The mouse is the landlord?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "vince",
+   "text": "Technically, yes. I rent from him.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "whiskers",
+   "text": "He lives in the closet. He pays on time. Mostly in crackers.",
+   "shot": "CU"
+  },
+  {
+   "spk": "vince",
+   "text": "The closet is very spacious. I have a lamp.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dana",
+   "text": "So you have been lying this entire tour.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "vince",
+   "text": "Why would I deceive you?",
+   "shot": "CU"
+  },
+  {
+   "spk": "whiskers",
+   "text": "He deceives everyone. It is his only hobby.",
+   "shot": "whiskers"
+  },
+  {
+   "spk": "whiskers",
+   "text": "But the heat does work. I know, because I am the heat.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "kofi",
+   "text": "The mouse is the heat?",
+   "shot": "kofi"
+  },
+  {
+   "spk": "whiskers",
+   "text": "I run in a little wheel behind the radiator. That is the hello.",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "dana",
+   "text": "Okay. How much is the rent?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "whiskers",
+   "text": "Eight hundred dollars a month. And cheese on Sundays.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dana",
+   "text": "Eight hundred dollars. In this city.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "kofi",
+   "text": "With golden hour.",
+   "shot": "kofi"
+  },
+  {
+   "spk": "dana",
+   "text": "We will take it.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "vince",
+   "text": "Welcome home. Spacious, sunny, and the heat works.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "whiskers",
+   "text": "The cheese is not optional.",
+   "shot": "whiskers"
+  },
+  {
+   "spk": "kofi",
+   "text": "Vince, can I see the closet?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "vince",
+   "text": "It has a lamp. Why would I deceive you?",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "whiskers",
+   "text": "He does not have a lamp.",
+   "shot": "whiskers",
+   "after": "rimshot"
+  }
+ ]
+}
