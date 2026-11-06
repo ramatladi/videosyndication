@@ -67,6 +67,7 @@ async function handle(r,env){
   const owner=await session(r,env);if(!owner)throw new SafeError('Open your private access link to sign in',401);
   if(path==='/launch'&&r.method==='GET')return launchPage(env);
   if(path.startsWith('/launch/start/')&&r.method==='POST')return launchStart(env,u.origin,owner,path.slice('/launch/start/'.length));
+  if(path.startsWith('/launch/v2/start/')&&r.method==='POST')return launch2Start(env,u.origin,owner,path.slice('/launch/v2/start/'.length));
   if(path==='/status'&&r.method==='GET'){const c=await readVault(env,'config'),t=await readVault(env,'youtube');const jobs=await env.DB.prepare('SELECT id,status,video_id,note,due,kind FROM jobs ORDER BY created DESC LIMIT 50').all();return json({configured:!!c,connected:!!t,channel:CHANNEL,channelTitle:t?.title,callback:u.origin+'/oauth/callback',jobs:jobs.results});}
   if(path==='/draft'&&r.method==='GET')return json(FIRST_POST);
   if(path==='/config'&&r.method==='POST'){if(await readVault(env,'youtube'))throw new SafeError('A channel is already connected; configuration is locked',409);const c=validateConfig(await boundedJSON(r),u.origin);await writeVault(env,'config',c);return json({ok:true});}
@@ -85,6 +86,7 @@ async function handle(r,env){
     const c=await readVault(env,'config');if(c.client_id!==row.client)throw new SafeError('Configuration changed. Start sign-in again.');
     const token=await google('https://oauth2.googleapis.com/token',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams({...c,grant_type:'authorization_code',code:u.searchParams.get('code')||'',redirect_uri:u.origin+'/oauth/callback',code_verifier:await unseal(env,row.verifier)})});
     if(state.startsWith('launch.'))return scheduleLaunch(env,state,token);
+    if(state.startsWith('launch2.'))return scheduleLaunch2(env,state,token);
     if(!token.refresh_token||!SCOPES.every(s=>(token.scope||'').split(' ').includes(s)))throw new SafeError('Both YouTube permissions and offline access are required. Start sign-in again.');
     const ch=await channel(token.access_token);await writeVault(env,'youtube',{refresh_token:token.refresh_token,title:ch.snippet.title,connected:Date.now()});
     return new Response(null,{status:303,headers:{...headers,Location:'/'}});
@@ -123,6 +125,7 @@ async function launchPage(env) {
     const action = x.status==='READY' ? '<form method="post" action="/launch/start/'+x.domain+'"><button>Connect @'+launchHandles[x.domain]+' and schedule</button></form>' : '';
     return '<section><h2>'+x.domain+'</h2><p>'+time+' SAST · '+x.status+'</p>'+action+'</section>';
   });
+  entries.push(...await launch2Entries(env));
   return new Response('<!doctype html><meta name="viewport" content="width=device-width"><title>Skincare launch schedule</title><style>body{font:16px system-ui;max-width:48rem;margin:3rem auto;padding:1rem;color:#183631}section{border-top:1px solid #ccc;padding:1rem 0}button{padding:.8rem;background:#164e44;color:white;border:0;border-radius:.4rem}</style><h1>Skincare launch schedule</h1><p>Choose the matching YouTube channel at Google to schedule its launch video.</p>'+entries.join(''),{headers:{...headers,'Referrer-Policy':'same-origin','Content-Type':'text/html; charset=utf-8','Content-Security-Policy':"default-src 'none'; style-src 'unsafe-inline'; form-action 'self' https://accounts.google.com; frame-ancestors 'none'"}});
 }
 async function launchStart(env,origin,owner,domain) {
@@ -162,5 +165,87 @@ async function scheduleLaunch(env,state,token) {
     if(itemRead?.snippet.channelId!==ch.id||Date.parse(itemRead?.status.publishAt)!==row.due||itemRead?.status.privacyStatus!=='private'||itemRead?.paidProductPlacementDetails?.hasPaidProductPlacement!==true)throw new SafeError('Review scheduling details in YouTube Studio.');
     await env.DB.prepare("UPDATE skincare_launch SET status='SCHEDULED' WHERE domain=?").bind(domain).run();
   } catch(e) {await env.DB.prepare("UPDATE skincare_launch SET status='REVIEW' WHERE domain=?").bind(domain).run();throw e;}
+  return new Response(null,{status:303,headers:{...headers,Location:'/launch'}});
+}
+
+// ---- Launch v2 (7 Nov 2026): one regular video + one Short per skincare channel, staged on the media branch under
+// skincare-launch/v2/. Rows live in skincare_launch_v2 (one per video). One Google consent per channel schedules both
+// of its rows: the worker fetches each MP4 and thumbnail from GitHub, checks the SHA-256 from the row, uploads it
+// private with publishAt = due, sets the thumbnail, then reads the video back. Nothing is retried automatically.
+const RAW = 'https://raw.githubusercontent.com/ramatladi/videosyndication/media/';
+const hexOf = buf => [...new Uint8Array(buf)].map(b=>b.toString(16).padStart(2,'0')).join('');
+async function rawGet(path, sha, max) {
+  if (!/^skincare-launch\/v2\/[a-z.]+\/[a-z0-9-]+\.(mp4|jpg)$/.test(path)) throw new SafeError('Unexpected media path');
+  const r = await fetch(RAW + path, {redirect:'manual', signal:AbortSignal.timeout(60000)});
+  if (!r.ok) throw new SafeError('Staged file missing (HTTP '+r.status+')');
+  const buf = await r.arrayBuffer();
+  if (buf.byteLength < 1000 || buf.byteLength > max) throw new SafeError('Staged file size out of range');
+  if (hexOf(await crypto.subtle.digest('SHA-256', buf)) !== sha) throw new SafeError('Staged file failed its SHA-256 check');
+  return buf;
+}
+async function launch2Entries(env) {
+  let rows;
+  try { rows = (await env.DB.prepare('SELECT domain,format,due,status,video_id FROM skincare_launch_v2 ORDER BY domain,due').all()).results; }
+  catch { return []; }
+  const by = {};
+  for (const x of rows) if (Object.hasOwn(launchHandles,x.domain)) (by[x.domain] ||= []).push(x);
+  return Object.entries(by).map(([domain,list]) => {
+    const lines = list.map(x => x.format+' · '+new Date(x.due).toLocaleString('en-ZA',{timeZone:'Africa/Johannesburg'})+' SAST · '+x.status).join('<br>');
+    const ready = list.some(x => x.status==='READY');
+    const action = ready ? '<form method="post" action="/launch/v2/start/'+domain+'"><button>Connect @'+launchHandles[domain]+' and schedule its video + Short</button></form>' : '';
+    return '<section><h2>'+domain+' · launch v2</h2><p>'+lines+'</p>'+action+'</section>';
+  });
+}
+async function launch2Start(env,origin,owner,domain) {
+  if (!Object.hasOwn(launchHandles,domain)) throw new SafeError('Unknown channel');
+  const row = await env.DB.prepare("SELECT 1 FROM skincare_launch_v2 WHERE domain=? AND status='READY' LIMIT 1").bind(domain).first();
+  if (!row) throw new SafeError('Nothing ready for this channel');
+  const c=await readVault(env,'config'), state='launch2.'+domain+'.'+random(), verifier=random();
+  await env.DB.prepare('INSERT INTO oauth_states(state,owner,verifier,client,expires) VALUES(?,?,?,?,?)').bind(await hash(state),await hash(owner.id),await seal(env,verifier),c.client_id,Date.now()+600000).run();
+  const p=new URLSearchParams({client_id:c.client_id,redirect_uri:origin+'/oauth/callback',response_type:'code',scope:SCOPES.join(' '),state,code_challenge:await hash(verifier),code_challenge_method:'S256',access_type:'online',prompt:'select_account consent'});
+  return new Response(null,{status:303,headers:{...headers,Location:'https://accounts.google.com/o/oauth2/v2/auth?'+p}});
+}
+export function launch2Resource(item, due) {
+  if (typeof item.title!=='string'||!item.title.trim()||item.title.length>100||/[<>]/.test(item.title)) throw new SafeError('Bad title');
+  if (typeof item.description!=='string'||!/earn a commission/i.test(item.description)||new TextEncoder().encode(item.description).length>5000) throw new SafeError('Bad description');
+  const tags = Array.isArray(item.tags) ? item.tags.filter(t=>typeof t==='string') : [];
+  if (tags.join(',').length > 500) throw new SafeError('Too many tags');
+  return {snippet:{title:item.title,description:item.description,tags,categoryId:'26',defaultLanguage:'en',defaultAudioLanguage:'en'},
+          status:{privacyStatus:'private',publishAt:new Date(due).toISOString(),selfDeclaredMadeForKids:false,containsSyntheticMedia:false},
+          paidProductPlacementDetails:{hasPaidProductPlacement:true}};
+}
+async function scheduleLaunch2(env,state,token) {
+  const domain=state.slice(8,state.lastIndexOf('.'));
+  if(!Object.hasOwn(launchHandles,domain)||!SCOPES.every(s=>(token.scope||'').split(' ').includes(s)))throw new SafeError('Select the requested permissions and try again.');
+  const auth={Authorization:'Bearer '+token.access_token};
+  const channels=await google('https://www.googleapis.com/youtube/v3/channels?part=id,snippet&mine=true',{headers:auth});
+  const ch=channels.items?.[0];
+  if(channels.items?.length!==1||ch?.snippet?.customUrl?.toLowerCase()!=='@'+launchHandles[domain].toLowerCase())throw new SafeError('Select @'+launchHandles[domain]+' for this launch.');
+  const rows=(await env.DB.prepare("SELECT * FROM skincare_launch_v2 WHERE domain=? AND status='READY' ORDER BY due").bind(domain).all()).results;
+  for (const row of rows) {
+    if(row.due<Date.now()+600000){await env.DB.prepare("UPDATE skincare_launch_v2 SET status='REVIEW',note='Slot passed; set a new future due time' WHERE id=?").bind(row.id).run();continue;}
+    const claim=await env.DB.prepare("UPDATE skincare_launch_v2 SET status='UPLOADING' WHERE id=? AND status='READY'").bind(row.id).run();
+    if(!claim.meta.changes)continue;
+    try {
+      const item=JSON.parse(row.metadata), resource=launch2Resource(item,row.due);
+      const video=await rawGet(row.media_path,row.sha256,MAX_MEDIA);
+      const start=await fetch('https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status,paidProductPlacementDetails',{method:'POST',headers:{...auth,'Content-Type':'application/json','X-Upload-Content-Type':'video/mp4','X-Upload-Content-Length':String(video.byteLength)},body:JSON.stringify(resource),redirect:'manual',signal:AbortSignal.timeout(30000)});
+      if(!start.ok)throw new SafeError('YouTube upload setup failed (HTTP '+start.status+')');
+      const dest=new URL(start.headers.get('location')||'https://invalid');if(dest.origin!=='https://www.googleapis.com')throw new SafeError('Unexpected upload destination');
+      const v=await google(dest.href,{method:'PUT',headers:{'Content-Type':'video/mp4','Content-Length':String(video.byteLength)},body:video});
+      if(!/^[\w-]{11}$/.test(v.id))throw new SafeError('Missing video ID');
+      await env.DB.prepare('UPDATE skincare_launch_v2 SET video_id=? WHERE id=?').bind(v.id,row.id).run();
+      let note=null;
+      try{const jpg=await rawGet(row.thumbnail_path,row.thumbnail_sha256,2*1024*1024);
+        await google('https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId='+v.id,{method:'POST',headers:{...auth,'Content-Type':'image/jpeg','Content-Length':String(jpg.byteLength)},body:jpg});}
+      catch{note='Thumbnail not set; upload it in YouTube Studio';}
+      const data=await google('https://www.googleapis.com/youtube/v3/videos?part=snippet,status,paidProductPlacementDetails&id='+v.id,{headers:auth});
+      const got=data.items?.[0];
+      if(got?.snippet.channelId!==ch.id||Date.parse(got?.status.publishAt)!==row.due||got?.status.privacyStatus!=='private'||got?.paidProductPlacementDetails?.hasPaidProductPlacement!==true)throw new SafeError('Review scheduling details in YouTube Studio.');
+      await env.DB.prepare("UPDATE skincare_launch_v2 SET status='SCHEDULED',note=? WHERE id=?").bind(note,row.id).run();
+    } catch(e) {
+      await env.DB.prepare("UPDATE skincare_launch_v2 SET status='REVIEW',note=? WHERE id=?").bind(e instanceof SafeError?e.message:'Upload interrupted; check YouTube Studio before retrying',row.id).run();
+    }
+  }
   return new Response(null,{status:303,headers:{...headers,Location:'/launch'}});
 }

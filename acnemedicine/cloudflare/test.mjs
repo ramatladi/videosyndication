@@ -48,3 +48,12 @@ res=await worker.fetch(new Request(origin+'/oauth/callback?state=fresh&code=one-
 check(()=>assert.equal(res.status,403));check(()=>assert.equal(vaultWrites,0));
 globalThis.fetch=oldFetch;
 console.log(`${checks} checks passed`);
+
+{
+  const { launch2Resource } = await import('./worker.mjs');
+  const r = launch2Resource({ title: 'Dermalogica calm water gel #shorts', description: 'x\n\nWe earn a commission if you buy through our link.', tags: ['a', 'b'] }, Date.parse('2026-11-07T10:00:00Z'));
+  check(() => { assert.equal(r.status.privacyStatus, 'private'); assert.equal(r.status.publishAt, '2026-11-07T10:00:00.000Z');
+    assert.equal(r.status.containsSyntheticMedia, false); assert.equal(r.paidProductPlacementDetails.hasPaidProductPlacement, true); });
+  check(() => assert.throws(() => launch2Resource({ title: 't', description: 'no disclosure' }, 0)));
+  console.log('launch v2 checks passed');
+}

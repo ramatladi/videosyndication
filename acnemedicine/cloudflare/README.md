@@ -50,3 +50,14 @@ Source is a dependency-free ES module deployed through the Cloudflare integratio
 Compatibility date is `2026-11-04` because Cloudflare's UTC date had not advanced to 5 November during deployment. Observability is enabled with query-string redaction and invocation logging disabled. Never replace Worker secrets during a routine code deployment: changing the encryption key makes existing credentials unreadable.
 
 Remaining end-to-end validation: Web client setup, real Google consent, test upload and paid-promotion read-back. No successful public upload is claimed before these checks pass.
+
+## Skincare launch v2 (7 Nov 2026)
+
+`/launch` also lists `skincare_launch_v2` (one row per video; 12 rows = one regular video + one Short for each of the
+six skincare channels, staged on the media branch under `skincare-launch/v2/`). "Connect @<handle> and schedule its
+video + Short" asks Google for that channel (online access only, nothing stored), then for each READY row: fetches the
+MP4 and thumbnail from GitHub, checks both SHA-256 values from the row, uploads private with `publishAt` = due, paid
+promotion on, synthetic-media label off, sets the thumbnail, and reads the video back before marking it SCHEDULED.
+Failures go to REVIEW and are never retried automatically. The table is in `schema.sql`; rows are inserted from
+`skincare-launch/v2/manifest.json`. Captions (`.en.srt`) need the youtube.force-ssl scope, which this worker does not
+request; add them in YouTube Studio.
