@@ -1,0 +1,187 @@
+{
+ "id": "vra044",
+ "format": "video",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "source_id": "cloudflare:8263016:US",
+ "job": {
+  "employer": "Cloudflare",
+  "logo": "cloudflare",
+  "title": "Senior Software Engineer - Kubernetes platform",
+  "short_title": "Senior Software Engineer, Kubernetes",
+  "location": "SF, NYC, Seattle, D.C., Denver, Austin, Atlanta",
+  "workplace": "Hybrid",
+  "pay": "$168K – $266K a year",
+  "pay_full": "Estimated annual salary by hiring location: San Francisco $194,000 – $266,000; New York City, Seattle and Washington D.C. $185,000 – $254,000; Denver $168,000 – $231,000. Eligible for Cloudflare's equity plan.",
+  "type": "",
+  "posted": "",
+  "ref": "8263016",
+  "apply_url": "https://boards.greenhouse.io/cloudflare/jobs/8263016?gh_jid=8263016",
+  "apply_site": "Cloudflare's careers board"
+ },
+ "details": {
+  "about": "Cloudflare runs one of the world's largest networks, protecting and speeding up millions of websites and internet properties. Many of its critical internal services, including its control plane and APIs, data analytics and the tools that manage its global network, run on Kubernetes platforms it built from the ground up on bare-metal Linux in regions around the world, at the scale of tens of thousands of containers and terabits per second of traffic. The Kubernetes platform team builds the tools engineers use to deploy and operate those services; the role mixes software engineering with DevOps operations.",
+  "duties": [
+   "Design scalable, resilient systems that keep up with company growth",
+   "Help application teams architect their systems to run well on Kubernetes",
+   "Harden the platform against security threats, noisy neighbours and accidents",
+   "Improve efficiency of CPU, memory, bandwidth and storage use",
+   "Help respond to, resolve and prevent incidents",
+   "Contribute to open source projects such as Envoy, Contour, Consul, etcd, Calico, Ceph, Rook and KubeVirt"
+  ],
+  "needs": [
+   "Experience managing production Kubernetes clusters",
+   "Experience operating on-premise systems at scale (SRE, systems design or architecture)",
+   "Excellent debugging skills in Linux",
+   "Knowledge of how container runtimes work inside Linux (isolation, storage, networking)",
+   "A firm grasp of IP networking, including routing and iptables/nftables",
+   "Ability to work in Go, TypeScript and Bash/shell",
+   "Ability to break down complex problems, weigh trade-offs and build consensus"
+  ],
+  "nice": [
+   "Building multi-zone, multi-region platforms",
+   "SaltStack or Ansible",
+   "ArgoCD and Argo Rollouts",
+   "Running etcd, Ceph, Rook, KubeVirt, CNIs, ClusterAPI, Envoy or Contour",
+   "Using Prometheus, Elasticsearch/Kibana, Vault, Redis or Consul"
+  ],
+  "benefits": "Estimated annual salary: San Francisco $194,000 – $266,000; New York City, Seattle and Washington D.C. $185,000 – $254,000; Denver $168,000 – $231,000 (may be adjusted by work location). Eligible for Cloudflare's equity plan. US benefits include medical/Rx, dental and vision insurance, flexible and commuter spending accounts, fertility and family-forming benefits, mental health support and an employee assistance program, global travel medical insurance, short and long term disability, life and accident insurance, a 401(k) plan, an employee stock participation plan, flexible paid time off, and parental, pregnancy health, medical and bereavement leave.",
+  "notes": [
+   "Applications will be accepted until December 25, 2026",
+   "Also open in Toronto, Canada",
+   "Candidates who reach the offer stage may be asked to attend an in-person interview at a Cloudflare office or hub",
+   "May require access to technology controlled under U.S. export laws"
+  ]
+ },
+ "yt_title": "Cloudflare Is Hiring: Senior Software Engineer, Kubernetes | SF + 6 US Cities | $168K–$266K",
+ "hashtags": [
+  "#TechJobs",
+  "#Kubernetes",
+  "#SoftwareEngineer",
+  "#CloudflareJobs",
+  "#Hiring"
+ ],
+ "tags": [
+  "cloudflare jobs",
+  "kubernetes jobs",
+  "senior software engineer jobs",
+  "platform engineer jobs",
+  "devops jobs",
+  "sre jobs",
+  "golang jobs",
+  "san francisco tech jobs",
+  "tech jobs",
+  "veritas recruitment agency"
+ ],
+ "scenes": [
+  {
+   "head": "Today's job",
+   "bullets": [
+    "Senior Software Engineer · Kubernetes platform",
+    "Cloudflare",
+    "SF · NYC · Seattle · D.C. · Denver · Austin · Atlanta",
+    "Hybrid"
+   ],
+   "lines": [
+    "Welcome to Veritas Recruitment Agency, where we bring you real tech jobs straight from employers' own careers sites.",
+    "Today, Cloudflare is hiring a Senior Software Engineer for its Kubernetes platform team, open in seven U S cities, including San Francisco, New York, Seattle, and Austin.",
+    "You'll find the direct application link in the description."
+   ],
+   "show": [
+    null,
+    "Today, Cloudflare is hiring a Senior Software Engineer for its Kubernetes platform team, open in seven US cities, including San Francisco, New York, Seattle, and Austin.",
+    null
+   ]
+  },
+  {
+   "head": "About the team",
+   "bullets": [
+    "One of the world's largest networks",
+    "Kubernetes on bare-metal Linux, worldwide",
+    "Tens of thousands of containers"
+   ],
+   "lines": [
+    "Cloudflare runs one of the world's largest networks, protecting and speeding up millions of websites.",
+    "Many of its critical internal services, from its control plane and A P Is to data analytics, run on Kubernetes platforms it built itself on bare-metal Linux, with tens of thousands of containers and terabits per second of traffic.",
+    "This team builds the tools engineers use to deploy and run those services."
+   ],
+   "show": [
+    null,
+    "Many of its critical internal services, from its control plane and APIs to data analytics, run on Kubernetes platforms it built itself on bare-metal Linux, with tens of thousands of containers and terabits per second of traffic.",
+    null
+   ]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": [
+    "Design scalable, resilient systems",
+    "Help teams architect for Kubernetes",
+    "Harden the platform & improve efficiency",
+    "Handle incidents · contribute to open source"
+   ],
+   "lines": [
+    "You'll design scalable, resilient systems and help application teams architect their services to run well on Kubernetes.",
+    "You'll harden the platform against security threats, noisy neighbors, and accidents, and make better use of C P U, memory, bandwidth, and storage.",
+    "You'll also help resolve and prevent incidents, and contribute to open source projects like Envoy, etcd, and Ceph."
+   ],
+   "show": [
+    null,
+    "You'll harden the platform against security threats, noisy neighbors, and accidents, and make better use of CPU, memory, bandwidth, and storage.",
+    null
+   ]
+  },
+  {
+   "head": "What you need",
+   "bullets": [
+    "Production Kubernetes clusters",
+    "Large-scale on-premise operations",
+    "Linux debugging & container runtimes",
+    "IP networking: routing, iptables/nftables",
+    "Go, TypeScript and Bash"
+   ],
+   "lines": [
+    "Cloudflare is looking for experience managing production Kubernetes clusters, and running on-premise systems at scale, in roles like S R E or systems architecture.",
+    "You should be an excellent debugger in Linux, know how container runtimes handle isolation, storage, and networking, and have a firm grasp of I P networking, including routing and I P tables.",
+    "You'll work in Go, TypeScript, and Bash.",
+    "Bonus points for Argo C D, Ansible or SaltStack, and Prometheus."
+   ],
+   "show": [
+    "Cloudflare is looking for experience managing production Kubernetes clusters, and running on-premise systems at scale, in roles like SRE or systems architecture.",
+    "You should be an excellent debugger in Linux, know how container runtimes handle isolation, storage, and networking, and have a firm grasp of IP networking, including routing and iptables.",
+    null,
+    "Bonus points for ArgoCD, Ansible or SaltStack, and Prometheus."
+   ]
+  },
+  {
+   "head": "Pay & benefits",
+   "bullets": [
+    "San Francisco: $194,000 – $266,000",
+    "NYC, Seattle, D.C.: $185,000 – $254,000",
+    "Denver: $168,000 – $231,000",
+    "Equity · 401(k) · health · flexible PTO"
+   ],
+   "lines": [
+    "Estimated salary is one hundred ninety-four thousand to two hundred sixty-six thousand dollars in San Francisco, one hundred eighty-five to two hundred fifty-four thousand in New York, Seattle, and Washington D C, and one hundred sixty-eight to two hundred thirty-one thousand in Denver.",
+    "The role includes equity, plus medical, dental, and vision cover, a four-oh-one-k plan, an employee stock participation plan, and flexible paid time off.",
+    "Applications are accepted until December twenty-fifth, twenty twenty-six."
+   ],
+   "show": [
+    "Estimated salary is $194,000 to $266,000 in San Francisco, $185,000 to $254,000 in New York, Seattle, and Washington DC, and $168,000 to $231,000 in Denver.",
+    "The role includes equity, plus medical, dental, and vision cover, a 401(k) plan, an employee stock participation plan, and flexible paid time off.",
+    "Applications are accepted until December 25, 2026."
+   ]
+  },
+  {
+   "head": "How to apply",
+   "bullets": [
+    "Application link in the description",
+    "Apply on Cloudflare's careers board",
+    "Open until Dec 25, 2026"
+   ],
+   "lines": [
+    "To apply, find the direct application link in the description below. It takes you straight to Cloudflare's careers site.",
+    "Subscribe to Veritas Recruitment Agency for new tech jobs across the United States, every day."
+   ]
+  }
+ ]
+}
