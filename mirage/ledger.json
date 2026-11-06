@@ -2375,6 +2375,81 @@
     "dance": 0.372,
     "genre_fit": 0.942
    }
+  },
+  {
+   "release": "mtr034",
+   "date": "2026-11-06",
+   "slot": "2026-11-06T19:55",
+   "format": "short",
+   "title": "Rooftop Weather",
+   "artist": "Imogen Isle",
+   "style": "house",
+   "key": "G minor",
+   "bpm": 125,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "6545545f-0803-4425-8979-61145d3638ac",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/e881bc50-6cb1-49db-9748-45d916aaf504.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr034.json",
+   "photographer": "Quan Nguyen",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-bikini-sitting-on-a-boat-k0u1uncaEVI",
+   "photo_kind": "bikini",
+   "metricool_uuid": "3248947547260995408",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-3837634635741337498.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr034.mp3",
+    "top": [
+     [
+      "dance",
+      0.421
+     ],
+     [
+      "pop",
+      0.297
+     ],
+     [
+      "House",
+      0.238
+     ],
+     [
+      "electronic",
+      0.199
+     ],
+     [
+      "female vocalists",
+      0.164
+     ],
+     [
+      "soul",
+      0.079
+     ],
+     [
+      "chillout",
+      0.07
+     ],
+     [
+      "electronica",
+      0.05
+     ],
+     [
+      "rnb",
+      0.049
+     ],
+     [
+      "electro",
+      0.041
+     ]
+    ],
+    "house": 0.238,
+    "electronic": 0.199,
+    "dance": 0.421,
+    "genre_fit": 0.922
+   }
   }
  ]
 }
