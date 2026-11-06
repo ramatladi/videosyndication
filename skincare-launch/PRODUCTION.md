@@ -80,3 +80,9 @@ Launch rebuild (7 Nov 2026): 12 product features (one regular video + one Short 
 products) rendered with `feature.py` from `features.json`, staged on the media branch under `skincare-launch/v2/`
 with `manifest.json` and `qa.json`. Not published; Codex uploads and schedules. The first launch renders
 (`skincare-launch/<date>/...` and the unrendered `shorts.json`) are superseded and must not be published.
+
+Publishing path for v2 (7 Nov 2026): the 12 items are rows in D1 `skincare_launch_v2` (status READY; Shorts due
+12:00 SAST and videos 15:00 SAST on 7 Nov 2026). The `acne-youtube-automation` launch page schedules each channel's
+pair after Sello picks that channel at Google (code committed in `acnemedicine/cloudflare/worker.mjs`, needs a
+deploy). Whoever uploads them (this page or Codex) must set the row to SCHEDULED with its video ID, so nothing is
+uploaded twice.
