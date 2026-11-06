@@ -2,11 +2,13 @@
 
     python3 skincare-launch/build_launch.py [slug ...]      -> skincare-launch/out/<slug>.mp4 + .jpg + .json
 
-Each video: free Pexels photos (credited in the description), a female Kokoro voice, an original music bed
-synthesised here (no third-party audio), a commission/disclaimer strip on screen for the whole video, and the
-commission spoken in scene 2 and the closing scene. Not for the Acne Medicine queue.
+Each video: free Pexels photos (credited in the description), a female Kokoro voice and an original music bed
+synthesised here (no third-party audio). Not for the Acne Medicine queue.
+
+Commission disclosure: in the YouTube description ONLY, as on Acne Medicine (Sello, 6 Nov 2026, superseding the
+launch brief). Never in narration, on-screen text, banners or cards; build() refuses a spec that mentions it.
 """
-import json, os, subprocess, sys, tempfile
+import json, os, re, subprocess, sys, tempfile
 import numpy as np, soundfile as sf
 from PIL import Image, ImageDraw, ImageFilter, ImageOps
 
@@ -111,9 +113,8 @@ def overlay(v, sc, i):
     d.rectangle([0, H - 74, W, H], fill=(20, 20, 20, 215))
     d.rectangle([0, 0, W, 10], fill=acc + (255,))
     d.text((40, H - 37), v['brand'], font=font(30, 'Bold'), fill='white', anchor='lm')
-    disc = 'We earn a commission from our links  ·  '
-    disc += ('Not dermatologists or doctors  ·  Not medical advice' if v['credential_line']
-             else 'General product info, not medical advice')
+    disc = ('Not dermatologists or doctors  ·  Not medical advice' if v['credential_line']
+            else 'General product info, not medical advice')
     fs = 26
     while 40 + d.textlength(v['brand'], font=font(30, 'Bold')) + 60 + d.textlength(disc, font=font(fs, 'Medium')) > W - 40:
         fs -= 1
@@ -153,6 +154,8 @@ def music(st, seconds, sr=48000):
 def build(v, k):
     out = f'{HERE}/out/{v["slug"]}'; os.makedirs(os.path.dirname(out), exist_ok=True)
     voice = v['voice']; assert voice[:3] in ('af_', 'bf_'), 'female voices only'
+    for sc in v['scenes']:   # commission disclosure lives in the description only (Sello, 6 Nov 2026)
+        assert not re.search(r'commission|affiliate', sc['say'] + sc['caption'] + sc['kicker'], re.I), sc
     motion = v['style']['motion']
     with tempfile.TemporaryDirectory() as td:
         parts, total = [], 0.0
