@@ -71,7 +71,7 @@ See `jobs/vra001.json` (Short) and `jobs/vra005.json` (video).
   blocks the fetch is not worked around: try the employer's other official pages (careers site, Workday/Lever/Greenhouse
   board), else leave `job.logo` "" and the employer's name is set in type.
 - `python3 veritas/thumb.py veritas/jobs/vraNNN.json out/vraNNN_thumb.jpg` makes the thumbnail (video 1280x720, Short
-  1080x1920 cover): logo, role (`short_title`), city, pay, "Application link in the description". `make.sh` runs it.
+  1080x1920 cover, not uploaded): logo, role (`short_title`), city, pay, "Application link in the description". `make.sh` runs it.
 
 ## Build
 `./veritas/make.sh veritas/jobs/vraNNN.json` → `out/vraNNN.mp4` (installs the voice model and fonts on first use; a
@@ -83,6 +83,9 @@ and captions legible, nothing overlapping or cut off, captions matching the voic
 - Queue and fetched postings live on the `veritas-data` branch (`veritas/queue/YYYY-MM-DD.json` →
   `veritas/fetched/YYYY-MM-DD/*.json` via `.github/workflows/veritas-fetch.yml`); they are working files, not kept.
 - Videos and thumbnails are hosted temporarily on the `media` branch (`vraNNN.mp4`, `vraNNN_thumb.jpg`, without touching
-  other files) and removed once Metricool has copied them (`static.metricool.com`). The thumbnail goes to Metricool as
-  `videoThumbnailUrl` (YouTube shows custom thumbnails only once the channel is verified).
+  other files) and removed once Metricool has copied them (`static.metricool.com`). For **videos only**, the 1280x720
+  thumbnail goes to Metricool as `videoThumbnailUrl` (YouTube accepts custom thumbnails only once the channel is
+  phone-verified; until then every video post shows "Could not upload video thumbnail" and that is expected).
+  For **Shorts, omit `videoThumbnailUrl`** and do not host `vraNNN_thumb.jpg`: YouTube's API does not take custom
+  thumbnails for Shorts, so sending one always fails. The Short's 1080x1920 thumbnail is a local cover image only.
 - `ledger.json` records every upload: id, source_id, employer, title, url, format, slot, Metricool uuid, media URL.
