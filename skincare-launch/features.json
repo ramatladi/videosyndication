@@ -1,0 +1,1364 @@
+{
+ "checked": "2026-11-07",
+ "note": "Launch pair per skincare channel: one regular video and one Short, each a different named Dermalogica product. Product facts from the dermalogica.co.za listings; product images from store/sources.json. Commission disclosure in the description only.",
+ "channels": {
+  "skincare.joburg": {
+   "locality": "Rosebank",
+   "desk": "Moisturizers & textures",
+   "credential_line": false,
+   "voice": "af_heart",
+   "accent": [
+    74,
+    93,
+    78
+   ],
+   "card_side": "left",
+   "radius": 36,
+   "chip": "pill",
+   "title_weight": "Bold",
+   "transition": "fade",
+   "music": {
+    "root": 57,
+    "bpm": 72,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      11
+     ],
+     [
+      5,
+      9,
+      12,
+      16
+     ],
+     [
+      2,
+      5,
+      9,
+      12
+     ],
+     [
+      7,
+      11,
+      14,
+      17
+     ]
+    ]
+   }
+  },
+  "skincare.durban": {
+   "locality": "Westville",
+   "desk": "Body care",
+   "credential_line": false,
+   "voice": "af_bella",
+   "accent": [
+    0,
+    121,
+    125
+   ],
+   "card_side": "right",
+   "radius": 16,
+   "chip": "square",
+   "title_weight": "SemiBold",
+   "transition": "smoothleft",
+   "music": {
+    "root": 60,
+    "bpm": 96,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      12
+     ],
+     [
+      9,
+      12,
+      16,
+      21
+     ],
+     [
+      5,
+      9,
+      12,
+      17
+     ],
+     [
+      7,
+      11,
+      14,
+      19
+     ]
+    ]
+   }
+  },
+  "dermatologist.joburg": {
+   "locality": "Midrand",
+   "desk": "Building a skincare routine",
+   "credential_line": true,
+   "voice": "af_jessica",
+   "accent": [
+    35,
+    59,
+    110
+   ],
+   "card_side": "left",
+   "radius": 8,
+   "chip": "underline",
+   "title_weight": "Bold",
+   "transition": "smoothup",
+   "music": {
+    "root": 55,
+    "bpm": 84,
+    "prog": [
+     [
+      0,
+      3,
+      7,
+      10
+     ],
+     [
+      8,
+      12,
+      15,
+      19
+     ],
+     [
+      3,
+      7,
+      10,
+      14
+     ],
+     [
+      10,
+      14,
+      17,
+      21
+     ]
+    ]
+   }
+  },
+  "dermatology.joburg": {
+   "locality": "Bedfordview",
+   "desk": "Labels & ingredients",
+   "credential_line": true,
+   "voice": "af_nicole",
+   "accent": [
+    96,
+    46,
+    92
+   ],
+   "card_side": "right",
+   "radius": 28,
+   "chip": "pill",
+   "title_weight": "Bold",
+   "transition": "wipeleft",
+   "music": {
+    "root": 50,
+    "bpm": 66,
+    "prog": [
+     [
+      0,
+      3,
+      7,
+      10
+     ],
+     [
+      5,
+      8,
+      12,
+      15
+     ],
+     [
+      7,
+      10,
+      14,
+      17
+     ],
+     [
+      3,
+      7,
+      10,
+      14
+     ]
+    ]
+   }
+  },
+  "dermatology.durban": {
+   "locality": "uMhlanga",
+   "desk": "Hydration & layering",
+   "credential_line": true,
+   "voice": "af_sarah",
+   "accent": [
+    16,
+    96,
+    140
+   ],
+   "card_side": "left",
+   "radius": 44,
+   "chip": "square",
+   "title_weight": "SemiBold",
+   "transition": "dissolve",
+   "music": {
+    "root": 62,
+    "bpm": 104,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      11
+     ],
+     [
+      7,
+      11,
+      14,
+      18
+     ],
+     [
+      9,
+      12,
+      16,
+      19
+     ],
+     [
+      5,
+      9,
+      12,
+      16
+     ]
+    ]
+   }
+  },
+  "dermatology.capetown": {
+   "locality": "Cape Town",
+   "desk": "Daily sun care",
+   "credential_line": true,
+   "voice": "af_aoede",
+   "accent": [
+    196,
+    92,
+    28
+   ],
+   "card_side": "right",
+   "radius": 22,
+   "chip": "underline",
+   "title_weight": "Bold",
+   "transition": "fadeblack",
+   "music": {
+    "root": 53,
+    "bpm": 112,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      12
+     ],
+     [
+      5,
+      9,
+      12,
+      17
+     ],
+     [
+      7,
+      11,
+      14,
+      19
+     ],
+     [
+      4,
+      7,
+      11,
+      16
+     ]
+    ]
+   }
+  }
+ },
+ "videos": [
+  {
+   "slug": "rosebank-skin-smoothing-cream",
+   "domain": "skincare.joburg",
+   "format": "video",
+   "product_name": "skin smoothing cream",
+   "product_url": "https://dermalogica.co.za/products/skin-smoothing-cream-skin-smoothing-cream",
+   "packshot": "skin-smoothing-cream-01.jpg",
+   "title": "Dermalogica Skin Smoothing Cream: 48-Hour Hydration, Texture & How to Use",
+   "lead": "Dermalogica skin smoothing cream, on the Rosebank texture desk: what's in it, how the texture is described, and how to apply it.",
+   "facts": [
+    "48 hours of continuous hydration, powered by Active HydraMesh Technology",
+    "Hyaluronic Acid Complex with mallow, cucumber and arnica; grape seed extract, vitamins C and E",
+    "Rich, creamy texture that smooths without a greasy finish",
+    "After cleansing and toning, apply over face and throat in light, upward strokes, morning and night",
+    "Sizes: 15, 50, 100 and 150 ml"
+   ],
+   "tags": [
+    "dermalogica skin smoothing cream",
+    "skin smoothing cream",
+    "skin smoothing cream review",
+    "how to use skin smoothing cream",
+    "hyaluronic acid moisturizer",
+    "48 hour hydration",
+    "moisturizer texture",
+    "rosebank",
+    "johannesburg skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #SkinSmoothingCream #Moisturizer #SkincareJoburg",
+   "thumb": {
+    "text": "48-hour hydration",
+    "kicker": "ROSEBANK TEXTURE DESK",
+    "layout": "right"
+   },
+   "free_photos": [
+    {
+     "id": "33622126",
+     "by": "K"
+    }
+   ],
+   "scenes": [
+    {
+     "type": "cover",
+     "chapter": "Intro",
+     "sub": "48 hours of continuous hydration",
+     "say": "Rosebank texture desk. Today's moisturizer is Dermalogica skin smoothing cream: what's in it, how it feels, and how to use it."
+    },
+    {
+     "type": "photo",
+     "image": "33622126.jpg",
+     "kicker": "THE DESK",
+     "headline": "Moisturizers, judged by texture",
+     "say": "On this channel, we look at moisturizers through their texture: how they feel, how they finish, and who they suit."
+    },
+    {
+     "type": "stat",
+     "image": "skin-smoothing-cream-04.jpg",
+     "stat": "48h",
+     "label": "continuous hydration",
+     "chapter": "48-hour hydration",
+     "say": "The headline claim on the product listing: forty-eight hours of continuous hydration, powered by Active HydraMesh Technology."
+    },
+    {
+     "type": "photo",
+     "image": "skin-smoothing-cream-04.jpg",
+     "kicker": "TEXTURE",
+     "headline": "Rich and creamy, without a greasy finish",
+     "say": "The texture is described as a rich, creamy moisturizer that hydrates and smooths the skin without a greasy finish."
+    },
+    {
+     "type": "bullets",
+     "image": "skin-smoothing-cream-03.jpg",
+     "kicker": "INSIDE",
+     "headline": "Key ingredients",
+     "items": [
+      "Hyaluronic Acid Complex with mallow, cucumber and arnica",
+      "Grape seed extract",
+      "Vitamins C and E"
+     ],
+     "say": "Inside, a hyaluronic acid complex with mallow, cucumber and arnica helps lock in moisture, alongside antioxidant grape seed extract and vitamins C and E."
+    },
+    {
+     "type": "photo",
+     "image": "skin-smoothing-cream-03.jpg",
+     "kicker": "THE FEEL",
+     "headline": "Hydrates and smooths",
+     "say": "It's made to hydrate and smooth, and to help protect against environmental stress."
+    },
+    {
+     "type": "steps",
+     "image": "skin-smoothing-cream-02.jpg",
+     "kicker": "HOW TO USE",
+     "headline": "Twice a day",
+     "items": [
+      "Cleanse and tone first",
+      "Apply over face and throat",
+      "Light, upward strokes",
+      "Morning and night"
+     ],
+     "say": "To use it, after cleansing and toning, apply it over your face and throat in light, upward strokes, morning and night."
+    },
+    {
+     "type": "photo",
+     "image": "skin-smoothing-cream-02.jpg",
+     "kicker": "SIZES",
+     "headline": "15 · 50 · 100 · 150 ml",
+     "say": "On the store, it comes in four sizes: fifteen, fifty, one hundred and one hundred and fifty milliliters."
+    },
+    {
+     "type": "end",
+     "chapter": "Where to find it",
+     "sub": "Rosebank texture desk",
+     "say": "That's skin smoothing cream from the Rosebank texture desk. The link is in the description. General product information, not medical advice."
+    }
+   ]
+  },
+  {
+   "slug": "rosebank-cooling-aqua-jelly-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product_name": "cooling aqua jelly",
+   "product_url": "https://dermalogica.co.za/products/cooling-aqua-jelly-59ml-111431",
+   "packshot": "cooling-aqua-jelly-01.png",
+   "title": "Dermalogica Cooling Aqua Jelly: Jelly Moisturizer for Oily Skin #shorts",
+   "lead": "Dermalogica cooling aqua jelly in under a minute: a jelly-based moisturizer for oily skin, from the Rosebank texture desk.",
+   "facts": [
+    "Jelly-based, water-like texture with a cooling feel (59 ml)",
+    "Moisturizer for oily skin: the dewy glow, none of the shine",
+    "Retinol-like bioflavonoid complex helps reduce excess oil and refine skin",
+    "Hyaluronic acid; blue tansy flower oil and blueberry extract help calm and soothe"
+   ],
+   "tags": [
+    "dermalogica cooling aqua jelly",
+    "cooling aqua jelly",
+    "moisturizer for oily skin",
+    "gel moisturizer",
+    "jelly moisturizer",
+    "rosebank",
+    "johannesburg skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #CoolingAquaJelly #OilySkin #shorts",
+   "thumb": {
+    "text": "Jelly moisturizer, oily skin",
+    "kicker": "ROSEBANK",
+    "layout": "center"
+   },
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "A jelly moisturizer for oily skin",
+     "say": "Rosebank texture check, in under a minute: Dermalogica cooling aqua jelly."
+    },
+    {
+     "type": "photo",
+     "image": "cooling-aqua-jelly-02.jpg",
+     "kicker": "TEXTURE",
+     "headline": "Jelly-based, water-like, cooling",
+     "say": "It's a jelly-based moisturizer with a water-like texture and a cooling feel, made to leave skin fresh and lightly hydrated."
+    },
+    {
+     "type": "photo",
+     "image": "cooling-aqua-jelly-03.jpg",
+     "kicker": "THE FINISH",
+     "headline": "The dewy glow, none of the shine",
+     "say": "The listing promises the dewy glow without the shine, which is why it's made for oily skin."
+    },
+    {
+     "type": "bullets",
+     "image": "cooling-aqua-jelly-04.jpg",
+     "kicker": "INSIDE",
+     "headline": "Three things doing the work",
+     "items": [
+      "Retinol-like bioflavonoid complex",
+      "Hyaluronic acid",
+      "Blue tansy flower oil + blueberry extract"
+     ],
+     "say": "Inside, a retinol-like bioflavonoid complex helps reduce excess oil and refine skin, hyaluronic acid locks in moisture, and blue tansy flower oil with blueberry extract help calm and soothe."
+    },
+    {
+     "type": "end",
+     "sub": "59 ml",
+     "say": "Fifty-nine milliliters of cooling aqua jelly. The link is in the description."
+    }
+   ]
+  },
+  {
+   "slug": "westville-body-hydrating-cream",
+   "domain": "skincare.durban",
+   "format": "video",
+   "product_name": "body hydrating cream",
+   "product_url": "https://dermalogica.co.za/products/body-hydrating-cream-295ml-111386",
+   "packshot": "body-hydrating-cream-01.png",
+   "title": "Dermalogica Body Hydrating Cream: Lactic Acid Body Moisturizer & How to Use",
+   "lead": "Dermalogica body hydrating cream, on the Westville body care desk: texture, ingredients and when to use it.",
+   "facts": [
+    "Silky, medium-weight cream that absorbs easily (295 ml pump bottle)",
+    "Naturally derived lactic acid and hydroxy acid extracts from cane sugar and apple smooth skin and relieve dryness",
+    "Orange oil and Chinese green tea soothe and soften; French lavender and Indonesian patchouli oils calm the senses",
+    "Smooth onto the body morning and night, after showering or bathing"
+   ],
+   "tags": [
+    "dermalogica body hydrating cream",
+    "body hydrating cream",
+    "body moisturizer",
+    "lactic acid body lotion",
+    "body care routine",
+    "westville",
+    "durban skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #BodyHydratingCream #BodyCare #SkincareDurban",
+   "thumb": {
+    "text": "Body cream, step by step",
+    "kicker": "WESTVILLE BODY CARE",
+    "layout": "left"
+   },
+   "free_photos": [
+    {
+     "id": "3762870",
+     "by": "Shiny Diamond"
+    }
+   ],
+   "scenes": [
+    {
+     "type": "cover",
+     "chapter": "Intro",
+     "sub": "Westville body care desk",
+     "say": "Westville body care desk. This week, Dermalogica body hydrating cream, and how it fits into a simple body routine."
+    },
+    {
+     "type": "photo",
+     "image": "3762870.jpg",
+     "kicker": "THE DESK",
+     "headline": "Body care, one step at a time",
+     "say": "Body care doesn't need a crowded shelf. One good moisturizer, used at the right moment, does a lot of the work."
+    },
+    {
+     "type": "photo",
+     "image": "body-hydrating-cream-03.jpg",
+     "kicker": "TEXTURE",
+     "headline": "Silky, medium-weight, absorbs easily",
+     "say": "The texture is described as silky and medium-weight, absorbing easily for immediate, glowing hydration without heavy residue."
+    },
+    {
+     "type": "bullets",
+     "image": "body-hydrating-cream-04.jpg",
+     "kicker": "INSIDE",
+     "headline": "What smooths, what soothes",
+     "items": [
+      "Naturally derived lactic acid",
+      "Hydroxy acid extracts from cane sugar and apple",
+      "Orange oil + Chinese green tea",
+      "French lavender + Indonesian patchouli oils"
+     ],
+     "say": "Inside, naturally derived lactic acid and hydroxy acid extracts from cane sugar and apple smooth skin and relieve dryness. Orange oil and Chinese green tea soothe and soften, and lavender and patchouli oils calm the senses."
+    },
+    {
+     "type": "stat",
+     "image": "body-hydrating-cream-03.jpg",
+     "stat": "295",
+     "label": "milliliters, pump bottle",
+     "chapter": "Size",
+     "say": "It comes in a two hundred and ninety-five milliliter pump bottle."
+    },
+    {
+     "type": "steps",
+     "image": "body-hydrating-cream-02.jpg",
+     "kicker": "WHEN TO USE IT",
+     "headline": "Morning and night",
+     "items": [
+      "Right after showering or bathing",
+      "Smooth onto the body",
+      "Morning and night"
+     ],
+     "say": "Use it morning and night. It can go on straight after showering or bathing, smoothed over the body."
+    },
+    {
+     "type": "note",
+     "kicker": "GOOD TO KNOW",
+     "headline": "No artificial fragrances. Essential oils may give a natural scent.",
+     "chapter": "Good to know",
+     "say": "No artificial fragrances are used, but the essential oils may give a natural scent. With a known sensitivity to an ingredient, the listing suggests a patch test first."
+    },
+    {
+     "type": "end",
+     "chapter": "Where to find it",
+     "sub": "Westville body care desk",
+     "say": "That's body hydrating cream from the Westville body care desk. The link is in the description. General product information, not medical advice."
+    }
+   ]
+  },
+  {
+   "slug": "westville-conditioning-body-wash-short",
+   "domain": "skincare.durban",
+   "format": "short",
+   "product_name": "conditioning body wash",
+   "product_url": "https://dermalogica.co.za/products/conditioning-body-wash-295ml-111387",
+   "packshot": "conditioning-body-wash-01.png",
+   "title": "Dermalogica Conditioning Body Wash: Soap-Free Body Wash in Under a Minute #shorts",
+   "lead": "Dermalogica conditioning body wash in under a minute: a soap-free body wash from the Westville body care desk.",
+   "facts": [
+    "Soap-free, gently cleansing; helps maintain the skin's lipid barrier (295 ml)",
+    "French rosemary, Chinese eucalyptus, tea tree and lemon oils; sandalwood, lavender and clary sage",
+    "Work into a lather, then rinse; the listing still recommends moisturizing after the shower"
+   ],
+   "tags": [
+    "dermalogica conditioning body wash",
+    "conditioning body wash",
+    "soap free body wash",
+    "body wash",
+    "body care routine",
+    "westville",
+    "durban skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #BodyWash #BodyCare #shorts",
+   "thumb": {
+    "text": "Soap-free body wash",
+    "kicker": "WESTVILLE",
+    "layout": "photo",
+    "photo": "conditioning-body-wash-02.jpg"
+   },
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Soap-free body wash",
+     "say": "Westville body care, in under a minute: Dermalogica conditioning body wash."
+    },
+    {
+     "type": "photo",
+     "image": "conditioning-body-wash-03.jpg",
+     "kicker": "THE FORMULA",
+     "headline": "Soap-free and gently cleansing",
+     "say": "It's a soap-free, gently cleansing body wash, made to cleanse while helping maintain the skin's lipid barrier."
+    },
+    {
+     "type": "photo",
+     "image": "conditioning-body-wash-04.jpg",
+     "kicker": "THE SCENT",
+     "headline": "Inspired by Turkish hammams",
+     "say": "It's inspired by the essential oils of Turkish hammams: French rosemary, Chinese eucalyptus, tea tree and lemon, with sandalwood, lavender and clary sage."
+    },
+    {
+     "type": "photo",
+     "image": "conditioning-body-wash-02.jpg",
+     "kicker": "HOW TO USE",
+     "headline": "Lather, rinse, then moisturize",
+     "say": "Work it into a lather, then rinse. The listing still recommends a moisturizer after the shower."
+    },
+    {
+     "type": "end",
+     "sub": "295 ml",
+     "say": "Two hundred and ninety-five milliliters of conditioning body wash. The link is in the description."
+    }
+   ]
+  },
+  {
+   "slug": "midrand-intensive-moisture-balance",
+   "domain": "dermatologist.joburg",
+   "format": "video",
+   "product_name": "intensive moisture balance",
+   "product_url": "https://dermalogica.co.za/products/intensive-moisture-balance-intensive-moisture-balance",
+   "packshot": "intensive-moisture-balance-01.png",
+   "title": "Dermalogica Intensive Moisture Balance: Where It Fits in Your Skincare Routine",
+   "lead": "Dermalogica intensive moisture balance, on the Midrand routine desk: where moisturizer sits in a routine, what's in this one, and how to apply it.",
+   "facts": [
+    "Ultra-nourishing moisturizer that restores lipid balance to dry, depleted skin",
+    "BioReplenish Complex of barrier lipids; prebiotic chlorella algae complex",
+    "Hyaluronic acid with echinacea, centella asiatica and aloe vera",
+    "After cleansing and toning, apply over face and neck in light, upward strokes, twice daily",
+    "Sizes: 15, 50, 100 and 150 ml; recommended for normal to dry skin"
+   ],
+   "tags": [
+    "dermalogica intensive moisture balance",
+    "intensive moisture balance",
+    "skincare routine order",
+    "moisturizer for dry skin",
+    "how to build a skincare routine",
+    "midrand",
+    "johannesburg skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #IntensiveMoistureBalance #SkincareRoutine #Midrand",
+   "thumb": {
+    "text": "Routine step five: moisturize",
+    "kicker": "MIDRAND ROUTINE DESK",
+    "layout": "left"
+   },
+   "scenes": [
+    {
+     "type": "cover",
+     "chapter": "Intro",
+     "sub": "Midrand routine desk",
+     "say": "Midrand routine desk, where we build a skincare routine one step at a time. Today's step is moisturize, with Dermalogica intensive moisture balance."
+    },
+    {
+     "type": "figure",
+     "image": "intensive-moisture-balance-04.jpg",
+     "kicker": "WHERE IT FITS",
+     "headline": "Step five of six",
+     "chapter": "Where it fits",
+     "say": "In a six-step routine, moisturizer is step five: after cleansing, exfoliating, toning and treating, and before sunscreen in the morning."
+    },
+    {
+     "type": "note",
+     "kicker": "GOOD TO KNOW",
+     "headline": "Not dermatologists or doctors. General product information.",
+     "chapter": "Good to know",
+     "say": "Quick note: dermatologist dot joburg isn't run by dermatologists or doctors. This is general product information from the store listing."
+    },
+    {
+     "type": "photo",
+     "image": "intensive-moisture-balance-03.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Ultra-nourishing, for dry, depleted skin",
+     "say": "Intensive moisture balance is described as an ultra-nourishing moisturizer that restores lipid balance to dry, depleted skin."
+    },
+    {
+     "type": "bullets",
+     "image": "intensive-moisture-balance-03.jpg",
+     "kicker": "INSIDE",
+     "headline": "Barrier lipids and hydration",
+     "items": [
+      "BioReplenish Complex: barrier lipids",
+      "Prebiotic chlorella algae complex",
+      "Hyaluronic acid + echinacea, centella asiatica, aloe vera"
+     ],
+     "say": "Inside, a BioReplenish Complex of barrier lipids, a prebiotic chlorella algae complex to help rebalance the skin's microbiome, and hyaluronic acid with echinacea, centella asiatica and aloe vera."
+    },
+    {
+     "type": "steps",
+     "image": "intensive-moisture-balance-02.jpg",
+     "kicker": "HOW TO APPLY",
+     "headline": "Twice a day",
+     "items": [
+      "After cleansing and toning",
+      "Over face and neck",
+      "Light, upward strokes",
+      "Morning and night"
+     ],
+     "say": "How to apply it: after cleansing and toning, over the face and neck in light, upward strokes, morning and night."
+    },
+    {
+     "type": "figure",
+     "image": "intensive-moisture-balance-05.jpg",
+     "kicker": "SIZES",
+     "headline": "15 · 50 · 100 · 150 ml",
+     "say": "It comes in four sizes, from a fifteen milliliter tube up to one hundred and fifty milliliters."
+    },
+    {
+     "type": "stat",
+     "image": "intensive-moisture-balance-02.jpg",
+     "stat": "Dry",
+     "label": "recommended for normal to dry skin",
+     "chapter": "Who it suits",
+     "say": "The listing recommends it for normal to dry skin, and for concerns like dryness, dehydration and fine lines."
+    },
+    {
+     "type": "end",
+     "chapter": "Where to find it",
+     "sub": "Midrand routine desk",
+     "say": "That's intensive moisture balance, step five of your routine. The link is in the description."
+    }
+   ]
+  },
+  {
+   "slug": "midrand-special-cleansing-gel-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product_name": "special cleansing gel",
+   "product_url": "https://dermalogica.co.za/products/special-cleansing-gel-special-cleansing-gel",
+   "packshot": "special-cleansing-gel-01.png",
+   "title": "Dermalogica Special Cleansing Gel: Routine Step One, How to Use #shorts",
+   "lead": "Dermalogica special cleansing gel, routine step one: a soap-free foaming gel cleanser, from the Midrand routine desk.",
+   "facts": [
+    "Soap-free, foaming gel for all skin conditions; removes impurities without disturbing the skin's natural moisture balance",
+    "Naturally foaming quillaja saponaria; calming balm mint and lavender extracts",
+    "Lather a small amount in wet hands, apply to damp face and throat, rinse with warm water",
+    "Sizes: 50, 250 and 500 ml"
+   ],
+   "tags": [
+    "dermalogica special cleansing gel",
+    "special cleansing gel",
+    "gel cleanser",
+    "soap free cleanser",
+    "skincare routine step one",
+    "how to use special cleansing gel",
+    "midrand",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #SpecialCleansingGel #SkincareRoutine #shorts",
+   "thumb": {
+    "text": "Step one: cleanse",
+    "kicker": "MIDRAND",
+    "layout": "right"
+   },
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Routine step one: cleanse",
+     "say": "Midrand routine desk, step one: cleanse. Meet Dermalogica special cleansing gel."
+    },
+    {
+     "type": "photo",
+     "image": "special-cleansing-gel-04.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "A soap-free foaming gel for all skin",
+     "say": "It's a soap-free foaming gel for all skin conditions, with a lather that removes impurities without disturbing the skin's natural moisture balance."
+    },
+    {
+     "type": "figure",
+     "image": "special-cleansing-gel-05.jpg",
+     "kicker": "INSIDE",
+     "headline": "Quillaja saponaria · balm mint · lavender",
+     "say": "It foams with naturally foaming quillaja saponaria, and calming balm mint and lavender extracts help soothe the skin."
+    },
+    {
+     "type": "photo",
+     "image": "special-cleansing-gel-03.jpg",
+     "kicker": "HOW TO USE",
+     "headline": "Lather, apply to damp skin, rinse",
+     "say": "Lather a small amount in wet hands, apply it to your damp face and throat, and rinse with warm water. We're not dermatologists, just reading the listing."
+    },
+    {
+     "type": "end",
+     "sub": "50 · 250 · 500 ml",
+     "say": "Special cleansing gel comes in fifty, two hundred and fifty and five hundred milliliter sizes. The link is in the description."
+    }
+   ]
+  },
+  {
+   "slug": "bedfordview-age-bright-clearing-serum",
+   "domain": "dermatology.joburg",
+   "format": "video",
+   "product_name": "Age Bright Clearing Serum",
+   "product_url": "https://dermalogica.co.za/products/age-bright-clearing-serum-30ml-111342",
+   "packshot": "age-bright-clearing-serum-01.png",
+   "title": "Dermalogica Age Bright Clearing Serum Label Explained: 2% Salicylic Acid",
+   "lead": "Dermalogica Age Bright Clearing Serum, read line by line on the Bedfordview label desk: the claim, the numbers, the ingredient list and the directions.",
+   "facts": [
+    "Active two-in-one serum that clears and helps prevent breakouts while reducing visible skin aging (30 ml)",
+    "Salicylic acid 2.0%; niacinamide is second on the ingredient list",
+    "AGE Bright Complex; resurrection plant phytoactives; niacinamide with white shiitake mushroom",
+    "Apply a thin layer, allow to dry, use under moisturizer up to twice a day as needed",
+    "Sensitive skin: build up to daily use; sensitive to salicylic acid: patch test first or avoid"
+   ],
+   "tags": [
+    "dermalogica age bright clearing serum",
+    "age bright clearing serum",
+    "salicylic acid serum",
+    "how to read skincare labels",
+    "niacinamide serum",
+    "breakout serum",
+    "bedfordview",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #AgeBrightClearingSerum #SkincareLabels #SalicylicAcid",
+   "thumb": {
+    "text": "2.0% salicylic acid, explained",
+    "kicker": "BEDFORDVIEW LABEL DESK",
+    "layout": "photo",
+    "photo": "age-bright-clearing-serum-04.jpg"
+   },
+   "free_photos": [
+    {
+     "id": "34131816",
+     "by": "Joshua Bull"
+    }
+   ],
+   "scenes": [
+    {
+     "type": "cover",
+     "chapter": "Intro",
+     "sub": "Bedfordview label desk",
+     "say": "Bedfordview label desk. Today we read the label of Dermalogica Age Bright Clearing Serum, line by line."
+    },
+    {
+     "type": "photo",
+     "image": "34131816.jpg",
+     "kicker": "BEFORE WE START",
+     "headline": "Not dermatologists. Not medical advice.",
+     "chapter": "Before we start",
+     "say": "Quick note: dermatology dot joburg isn't run by dermatologists or doctors. Everything here comes from the label and the store listing."
+    },
+    {
+     "type": "photo",
+     "image": "age-bright-clearing-serum-02.jpg",
+     "kicker": "THE CLAIM",
+     "headline": "Clears and helps prevent breakouts",
+     "say": "The claim: an active two-in-one serum that clears and helps prevent breakouts while reducing visible signs of skin aging."
+    },
+    {
+     "type": "stat",
+     "image": "age-bright-clearing-serum-05.jpg",
+     "stat": "2.0%",
+     "label": "salicylic acid",
+     "chapter": "The number",
+     "say": "The headline number: salicylic acid at two point zero percent."
+    },
+    {
+     "type": "photo",
+     "image": "age-bright-clearing-serum-05.jpg",
+     "kicker": "THE INGREDIENT LIST",
+     "headline": "Niacinamide comes second, after water",
+     "say": "On the ingredient list, niacinamide comes second, right after water. The description pairs it with white shiitake mushroom for a brighter, more even-looking tone."
+    },
+    {
+     "type": "bullets",
+     "image": "age-bright-clearing-serum-03.jpg",
+     "kicker": "THE COMPLEXES",
+     "headline": "Two more names to know",
+     "items": [
+      "AGE Bright Complex: works with the skin's natural microbiome",
+      "Resurrection plant phytoactives: hydrate and smooth"
+     ],
+     "say": "Two more names to know: the AGE Bright Complex, described as working with the skin's natural microbiome, and phytoactives from the resurrection plant, to hydrate and smooth."
+    },
+    {
+     "type": "steps",
+     "image": "age-bright-clearing-serum-04.jpg",
+     "kicker": "DIRECTIONS",
+     "headline": "Thin and simple",
+     "items": [
+      "Apply a thin layer",
+      "Allow to dry",
+      "Use under your moisturizer",
+      "Up to twice a day, as needed"
+     ],
+     "say": "The directions: apply a thin layer, allow it to dry, and use it under your moisturizer, up to twice a day, as needed."
+    },
+    {
+     "type": "note",
+     "kicker": "FINE PRINT",
+     "headline": "Sensitive skin? Build up slowly.",
+     "chapter": "Fine print",
+     "say": "And the fine print: sensitive skin may want to build up to daily use, and anyone sensitive to salicylic acid may want to patch test first, or avoid it."
+    },
+    {
+     "type": "end",
+     "chapter": "Where to find it",
+     "sub": "30 ml",
+     "say": "That's the Age Bright Clearing Serum label, decoded. The link is in the description."
+    }
+   ]
+  },
+  {
+   "slug": "bedfordview-calm-water-gel-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product_name": "calm water gel",
+   "product_url": "https://dermalogica.co.za/products/calm-water-gel-50ml-111268",
+   "packshot": "calm-water-gel-01.png",
+   "title": "Dermalogica Calm Water Gel Label: Dual Hyaluronic Acid Explained #shorts",
+   "lead": "Dermalogica calm water gel, label check in under a minute: dual hyaluronic acid, the water-gel texture, and who it's for.",
+   "facts": [
+    "Dual hyaluronic acid: sodium hyaluronate and hydrolyzed sodium hyaluronate, working in different skin surface layers to increase and lock in moisture",
+    "Weightless water-gel that transforms into a skin-quenching fluid",
+    "For dry, sensitive skin; no artificial colors or fragrances (50 ml)"
+   ],
+   "tags": [
+    "dermalogica calm water gel",
+    "calm water gel",
+    "hyaluronic acid moisturizer",
+    "how to read skincare labels",
+    "moisturizer for sensitive skin",
+    "water gel moisturizer",
+    "bedfordview",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #CalmWaterGel #HyaluronicAcid #shorts",
+   "thumb": {
+    "text": "Dual hyaluronic acid",
+    "kicker": "LABEL CHECK",
+    "layout": "left"
+   },
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Label check in under a minute",
+     "say": "Bedfordview label check: Dermalogica calm water gel."
+    },
+    {
+     "type": "photo",
+     "image": "calm-water-gel-04.jpg",
+     "kicker": "KEY INGREDIENT",
+     "headline": "Dual hyaluronic acid",
+     "say": "The key ingredient is dual hyaluronic acid: sodium hyaluronate and hydrolyzed sodium hyaluronate, working in different layers of the skin's surface to increase and lock in moisture."
+    },
+    {
+     "type": "photo",
+     "image": "calm-water-gel-03.jpg",
+     "kicker": "THE TEXTURE",
+     "headline": "A water-gel that turns into a fluid",
+     "say": "The texture is a weightless water-gel that turns into a skin-quenching fluid as you apply it."
+    },
+    {
+     "type": "photo",
+     "image": "calm-water-gel-02.jpg",
+     "kicker": "WHO IT'S FOR",
+     "headline": "Dry, sensitive skin",
+     "say": "It's made for dry, sensitive skin, with no artificial colors or fragrances. And remember, we're not dermatologists or doctors."
+    },
+    {
+     "type": "end",
+     "sub": "50 ml",
+     "say": "Fifty milliliters of calm water gel. The link is in the description."
+    }
+   ]
+  },
+  {
+   "slug": "umhlanga-hyaluronic-ceramide-mist",
+   "domain": "dermatology.durban",
+   "format": "video",
+   "product_name": "hyaluronic ceramide mist",
+   "product_url": "https://dermalogica.co.za/products/hyaluronic-ceramide-mist-150ml-111452",
+   "packshot": "hyaluronic-ceramide-mist-01.png",
+   "title": "Dermalogica Hyaluronic Ceramide Mist: How to Layer a Hydrating Mist",
+   "lead": "Dermalogica hyaluronic ceramide mist, on the uMhlanga hydration desk: what's in it and where it goes in your layers.",
+   "facts": [
+    "Four types of hyaluronic acid help skin hold on to water for long-lasting hydration (150 ml)",
+    "Hyaluronic acid and ceramide help smooth the look of fine lines and strengthen the moisture barrier",
+    "Rose water with polyphenols and flavonoids helps revive and refresh",
+    "After cleansing, spray onto face and neck, avoiding the eyes; also a refreshing spritz during the day"
+   ],
+   "tags": [
+    "dermalogica hyaluronic ceramide mist",
+    "hyaluronic ceramide mist",
+    "hydrating face mist",
+    "how to layer skincare",
+    "hyaluronic acid mist",
+    "ceramide",
+    "umhlanga",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #HyaluronicCeramideMist #Hydration #uMhlanga",
+   "thumb": {
+    "text": "How to layer a mist",
+    "kicker": "UMHLANGA HYDRATION DESK",
+    "layout": "photo",
+    "photo": "hyaluronic-ceramide-mist-02.jpg"
+   },
+   "free_photos": [
+    {
+     "id": "16346861",
+     "by": "Magda Ehlers"
+    }
+   ],
+   "scenes": [
+    {
+     "type": "cover",
+     "chapter": "Intro",
+     "sub": "uMhlanga hydration desk",
+     "say": "uMhlanga hydration desk. Today, how a hydrating mist fits into your layers, with Dermalogica hyaluronic ceramide mist."
+    },
+    {
+     "type": "photo",
+     "image": "16346861.jpg",
+     "kicker": "BEFORE WE START",
+     "headline": "Not dermatologists. Not medical advice.",
+     "chapter": "Before we start",
+     "say": "First, dermatology dot durban isn't run by dermatologists or doctors. This is general product information from the store listing."
+    },
+    {
+     "type": "photo",
+     "image": "hyaluronic-ceramide-mist-04.jpg",
+     "kicker": "THE IDEA",
+     "headline": "Hydrate, then lock it in",
+     "say": "The idea behind this mist: saturate the skin with hydration, then lock in moisture."
+    },
+    {
+     "type": "stat",
+     "image": "hyaluronic-ceramide-mist-04.jpg",
+     "stat": "4",
+     "label": "types of hyaluronic acid",
+     "chapter": "Four hyaluronic acids",
+     "say": "It uses four types of hyaluronic acid, to help skin hold on to water for long-lasting hydration."
+    },
+    {
+     "type": "bullets",
+     "image": "hyaluronic-ceramide-mist-02.jpg",
+     "kicker": "PLUS",
+     "headline": "Barrier and refresh",
+     "items": [
+      "Ceramide: supports the moisture barrier",
+      "Rose water: revives and refreshes"
+     ],
+     "say": "Ceramide helps strengthen the moisture barrier and smooth the look of fine lines, and rose water, rich in polyphenols and flavonoids, helps revive and refresh."
+    },
+    {
+     "type": "steps",
+     "image": "hyaluronic-ceramide-mist-03.jpg",
+     "kicker": "LAYERING IT",
+     "headline": "Right after cleansing",
+     "items": [
+      "Cleanse",
+      "Spray onto face and neck",
+      "Avoid the eyes",
+      "Continue your routine"
+     ],
+     "say": "Layering it: after cleansing, spray it onto your face and neck, avoiding the eyes, then continue with the rest of your routine."
+    },
+    {
+     "type": "photo",
+     "image": "hyaluronic-ceramide-mist-03.jpg",
+     "kicker": "DURING THE DAY",
+     "headline": "A refreshing spritz",
+     "say": "It's also made to work as a refreshing spritz throughout the day."
+    },
+    {
+     "type": "figure",
+     "image": "hyaluronic-ceramide-mist-05.jpg",
+     "kicker": "THE FINISH",
+     "headline": "Smooth, soft, supple",
+     "say": "The finish is described as smooth and soft, for supple skin that bounces back."
+    },
+    {
+     "type": "end",
+     "chapter": "Where to find it",
+     "sub": "150 ml",
+     "say": "One hundred and fifty milliliters of hyaluronic ceramide mist. The link is in the description."
+    }
+   ]
+  },
+  {
+   "slug": "umhlanga-ultracalming-mist-short",
+   "domain": "dermatology.durban",
+   "format": "short",
+   "product_name": "ultracalming mist",
+   "product_url": "https://dermalogica.co.za/products/ultracalming-mist-177ml-110545",
+   "packshot": "ultracalming-mist-01.jpg",
+   "title": "Dermalogica Ultracalming Mist: How to Layer It for Sensitive Skin #shorts",
+   "lead": "Dermalogica ultracalming mist in under a minute: a soothing, hydrating mist and where it goes in your layers.",
+   "facts": [
+    "Soothing, hydrating mist to help calm redness and sensitivity (177 ml)",
+    "UltraCalming Complex with oat and botanicals, plus aloe",
+    "After cleansing, spray over face, neck and chest with eyes closed; let it absorb before serum or moisturizer"
+   ],
+   "tags": [
+    "dermalogica ultracalming mist",
+    "ultracalming mist",
+    "face mist for sensitive skin",
+    "how to layer skincare",
+    "toner mist",
+    "umhlanga",
+    "durban skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #UltracalmingMist #SensitiveSkin #shorts",
+   "thumb": {
+    "text": "Calming mist, layered",
+    "kicker": "UMHLANGA",
+    "layout": "split"
+   },
+   "free_photos": [
+    {
+     "id": "12255485",
+     "by": "Magda Ehlers"
+    }
+   ],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Hydration for sensitive skin",
+     "say": "uMhlanga hydration desk, quick one: Dermalogica ultracalming mist."
+    },
+    {
+     "type": "photo",
+     "image": "12255485.jpg",
+     "kicker": "GOOD TO KNOW",
+     "headline": "Not dermatologists. Not medical advice.",
+     "say": "We're not dermatologists or doctors. This is general product information."
+    },
+    {
+     "type": "photo",
+     "image": "ultracalming-mist-03.jpg",
+     "kicker": "WHAT IT DOES",
+     "headline": "A soothing, hydrating mist",
+     "say": "It's a soothing, hydrating mist made to help calm redness and sensitivity, with oat, botanicals and aloe."
+    },
+    {
+     "type": "photo",
+     "image": "ultracalming-mist-02.jpg",
+     "kicker": "LAYERING",
+     "headline": "After cleansing, before serum or moisturizer",
+     "say": "Layer it after cleansing: spray over the face, neck and chest with eyes closed, let it absorb, then follow with serum or moisturizer."
+    },
+    {
+     "type": "end",
+     "sub": "177 ml",
+     "say": "One hundred and seventy-seven milliliters of ultracalming mist. The link is in the description."
+    }
+   ]
+  },
+  {
+   "slug": "capetown-clearing-defense-spf30",
+   "domain": "dermatology.capetown",
+   "format": "video",
+   "product_name": "clearing defense spf30",
+   "product_url": "https://dermalogica.co.za/products/clearing-defense-spf30-59ml-111356",
+   "packshot": "clearing-defense-spf30-01.jpg",
+   "title": "Dermalogica Clearing Defense SPF30: Matte SPF Moisturizer, Filters & How to Use",
+   "lead": "Dermalogica clearing defense SPF30, on the Cape Town daily sun care desk: what it is, its filters and how to wear it every day.",
+   "facts": [
+    "Shine-reducing SPF moisturizer that helps protect breakout-prone skin from environmental stress (59 ml)",
+    "Broad spectrum; active filters homosalate 8%, octocrylene 8%, octisalate 5%, avobenzone 3%",
+    "Natural tapioca helps reduce shine; willow bark extract, green tea extract and vitamin C",
+    "Apply a generous amount to cleansed face and neck, preferably 30 minutes before sun exposure; reapply as recommended",
+    "Very dry skin may feel drier; the listing suggests layering a hydrating lotion underneath"
+   ],
+   "tags": [
+    "dermalogica clearing defense spf30",
+    "clearing defense spf30",
+    "spf moisturizer",
+    "matte sunscreen",
+    "sunscreen for oily skin",
+    "daily sunscreen",
+    "cape town",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #ClearingDefenseSPF30 #DailySPF #SkincareCapeTown",
+   "thumb": {
+    "text": "Matte SPF30, every day",
+    "kicker": "CAPE TOWN SUN CARE",
+    "layout": "photo",
+    "photo": "clearing-defense-spf30-02.jpg"
+   },
+   "free_photos": [
+    {
+     "id": "32555592",
+     "by": "Magda Ehlers"
+    }
+   ],
+   "scenes": [
+    {
+     "type": "cover",
+     "chapter": "Intro",
+     "sub": "Cape Town daily sun care",
+     "say": "Cape Town daily sun care desk. Today, an SPF moisturizer for breakout-prone skin: Dermalogica clearing defense SPF30."
+    },
+    {
+     "type": "photo",
+     "image": "32555592.jpg",
+     "kicker": "BEFORE WE START",
+     "headline": "Not dermatologists. Not medical advice.",
+     "chapter": "Before we start",
+     "say": "First, dermatology dot capetown isn't run by dermatologists or doctors. This is general product information from the store listing."
+    },
+    {
+     "type": "photo",
+     "image": "clearing-defense-spf30-02.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "A shine-reducing SPF moisturizer",
+     "say": "It's described as a shine-reducing SPF moisturizer that helps protect breakout-prone skin from environmental stress, with a long-lasting matte finish."
+    },
+    {
+     "type": "stat",
+     "image": "clearing-defense-spf30-05.jpg",
+     "stat": "SPF30",
+     "label": "broad spectrum",
+     "chapter": "SPF30",
+     "say": "It's a broad spectrum SPF thirty."
+    },
+    {
+     "type": "bullets",
+     "image": "clearing-defense-spf30-05.jpg",
+     "kicker": "ACTIVE FILTERS",
+     "headline": "Read them on the label",
+     "items": [
+      "Homosalate 8%",
+      "Octocrylene 8%",
+      "Octisalate 5%",
+      "Avobenzone 3%"
+     ],
+     "say": "The active filters: homosalate at eight percent, octocrylene at eight percent, octisalate at five percent, and avobenzone at three percent."
+    },
+    {
+     "type": "photo",
+     "image": "clearing-defense-spf30-03.jpg",
+     "kicker": "SHINE CONTROL",
+     "headline": "Tapioca, plus antioxidants",
+     "say": "Natural tapioca helps reduce shine, while willow bark extract, green tea extract and vitamin C help combat the irritating effects of pollution."
+    },
+    {
+     "type": "steps",
+     "image": "clearing-defense-spf30-03.jpg",
+     "kicker": "EVERY DAY",
+     "headline": "How to wear it",
+     "items": [
+      "A generous amount",
+      "On cleansed face and neck",
+      "About 30 minutes before sun",
+      "Reapply as recommended"
+     ],
+     "say": "Daily directions: a generous amount on cleansed face and neck, preferably thirty minutes before sun exposure, and reapply as recommended."
+    },
+    {
+     "type": "note",
+     "kicker": "GOOD TO KNOW",
+     "headline": "Very dry skin? Layer a hydrating lotion under it.",
+     "chapter": "Good to know",
+     "say": "If your skin is very dry, the listing notes this mattifying formula may feel drying, and suggests layering a hydrating lotion underneath."
+    },
+    {
+     "type": "end",
+     "chapter": "Where to find it",
+     "sub": "59 ml",
+     "say": "That's clearing defense SPF thirty, fifty-nine milliliters. The link is in the description."
+    }
+   ]
+  },
+  {
+   "slug": "capetown-invisible-physical-defense-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product_name": "invisible physical defense spf30",
+   "product_url": "https://dermalogica.co.za/products/invisible-physical-defense-spf30-50ml-111412",
+   "packshot": "invisible-physical-defense-spf30-01.png",
+   "title": "Dermalogica Invisible Physical Defense SPF30: Mineral Zinc Oxide SPF #shorts",
+   "lead": "Dermalogica invisible physical defense SPF30 in under a minute: a mineral SPF with non-nano zinc oxide, from the Cape Town daily sun care desk.",
+   "facts": [
+    "Physical SPF featuring only non-nano zinc oxide; blends without thick white residue (50 ml)",
+    "Helps defend against UVA, UVB and blue light; suitable for all skin types, including sensitive",
+    "Apply liberally to the face, preferably 30 minutes before sun exposure"
+   ],
+   "tags": [
+    "dermalogica invisible physical defense spf30",
+    "invisible physical defense spf30",
+    "mineral sunscreen",
+    "zinc oxide sunscreen",
+    "daily sunscreen",
+    "cape town",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #MineralSPF #DailySPF #shorts",
+   "thumb": {
+    "text": "Mineral SPF30",
+    "kicker": "CAPE TOWN",
+    "layout": "center"
+   },
+   "free_photos": [
+    {
+     "id": "4098987",
+     "by": "Taryn Elliott"
+    }
+   ],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Mineral SPF for daily wear",
+     "say": "Cape Town daily sun care, in under a minute: Dermalogica invisible physical defense SPF30."
+    },
+    {
+     "type": "photo",
+     "image": "invisible-physical-defense-spf30-03.jpg",
+     "kicker": "THE FILTER",
+     "headline": "Only non-nano zinc oxide",
+     "say": "It's a physical SPF featuring only non-nano zinc oxide, made to blend in without a thick white residue."
+    },
+    {
+     "type": "photo",
+     "image": "invisible-physical-defense-spf30-02.jpg",
+     "kicker": "WHAT IT DEFENDS",
+     "headline": "UVA · UVB · blue light",
+     "say": "It helps defend against UVA, UVB and blue light, and it's described as suitable for all skin types, including sensitive."
+    },
+    {
+     "type": "photo",
+     "image": "4098987.jpg",
+     "kicker": "GOOD TO KNOW",
+     "headline": "Apply about 30 minutes before sun",
+     "say": "Apply it liberally to your face, preferably thirty minutes before sun exposure. We're not dermatologists or doctors; this is general product information."
+    },
+    {
+     "type": "end",
+     "sub": "50 ml",
+     "say": "Fifty milliliters of invisible physical defense SPF thirty. The link is in the description."
+    }
+   ]
+  }
+ ]
+}

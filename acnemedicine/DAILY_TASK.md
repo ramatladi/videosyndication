@@ -24,7 +24,7 @@ Repo: `ramatladi/videosyndication` (clone `--depth 20`). Rules: `acnemedicine/GU
    to `acnemedicine/photos/pexels/<id>.jpg`, then build a labelled contact sheet and **look at it**. Keep only
    clearly adult people in ordinary skincare scenes; reject anything showing another brand's products, nudity,
    suggestive or shower/bath body shots, children or teens, or text/watermarks. Add accepted photos to `pool.json`
-   (`{"id","by","tag"}`, plus `"cx"` 0-1 when the subject of a landscape photo is off-centre, so Shorts crop to the face). After building, look at a frame from every scene that uses a landscape photo in a Short. Never use Dermalogica's images.
+   (`{"id","by","tag"}`, plus `"cx"` 0-1 when the subject of a landscape photo is off-centre, so Shorts crop to the face). After building, look at a frame from every scene that uses a landscape photo in a Short. Store images: Sello authorised Dermalogica store images on 7 Nov 2026, but this scheduled run cannot reach the store and `day.py` does not yet place a packshot, so keep these runs on Pexels photos until that support lands (verified store images for 12 products are in `skincare-launch/store/`).
 4. **Plan** `acnemedicine/days/DATE/plan.json` (same shape as `days/2026-11-07/plan.json`): slots Shorts 10:00, 13:00,
    16:00, 19:00 and videos 14:00, 17:00. Shorts: 5-6 scenes, under 60 s (about 100-120 spoken words). Videos:
    12-16 scenes, more photos, about 2-3 min (300-420 words). Vary photos between items; thumbnail photo = a face photo
@@ -40,7 +40,7 @@ Repo: `ramatladi/videosyndication` (clone `--depth 20`). Rules: `acnemedicine/GU
    how-to-use, review and South Africa tags, the three hashtags, chapters for full videos (from the real scene timings)
    and an English caption file from the narration. Scene captions in videos become chapter names, so keep them short
    and specific ("Salicylic acid 0.5%", not "What's inside").
-5. `python3 acnemedicine/day.py build acnemedicine/days/DATE/plan.json` (run in the background and poll; ~2-4 min per
+5. Quality (Sello, 7 Nov 2026, all skincare channels): six different products, each named in its title and spoken; no photo used twice in the day; no commission or affiliate words on screen or in narration (description only); American English. Then `python3 acnemedicine/day.py build acnemedicine/days/DATE/plan.json` (run in the background and poll; ~2-4 min per
    video). Check one frame from each video and each thumbnail by looking at them.
 6. `python3 acnemedicine/day.py stage acnemedicine/days/DATE/plan.json`. Confirm each
    `https://raw.githubusercontent.com/ramatladi/videosyndication/media/acnemedicine/DATE/<file>` returns 200 and

@@ -31,6 +31,30 @@ lists them, even when they use another spelling. Narration uses American female 
 - QA before staging: listing and image URL checked, thumbnail and render match the product, cross-batch visual
   similarity check, SRT captions from the narration.
 
+### Images: store photos + free photos (Sello, 7 Nov 2026)
+- **Sello's confirmation (7 Nov 2026, 01:03 SAST):** Dermalogica images may be used. This covers the Dermalogica
+  store product photos in these skincare videos and in their YouTube thumbnails. Each named product is matched to
+  its exact store image (packshot SHA-256 in `store/sources.json`, template-matched in QA).
+- Store images (dermalogica.co.za listing media, use authorised by Sello) carry the product: packshot on the cover,
+  end card and thumbnail; texture, lifestyle and ingredient images in the body. They live in `store/` with
+  `store/sources.json` (listing URL, image URL, bytes, SHA-256, date retrieved).
+- Free Pexels photos set the locality (skyline, coast, mountain) or a scene; credited in the description.
+- How to get store images: the workspace and device shell cannot reach the store, so open the listing in the
+  built-in browser, read `/products/<handle>.js` for the media URLs, fetch each image same-origin, download it,
+  stage it into the workspace and match its SHA-256 with the in-browser hash. Never use review or customer-quote
+  images, or a size chart that duplicates another product's.
+
+### Renderer and QA (`feature.py`, `qa_feature.py`)
+- `features.json`: per-channel look (accent, card side, corner radius, chip style, title weight, transition,
+  thumbnail layout, music, voice) and per-video scripts. Scene types: cover, photo, stat, bullets, steps, note, end.
+- Every frame carries the locality/desk badge and the fine print ("Not dermatologists or doctors · Not medical
+  advice" on the four dermatology/dermatologist channels). Progress bar in the channel accent; crossfades only
+  between scenes, so a Short's first frame is the clean product cover.
+- `python3 qa_feature.py features.json out/feature` must pass before staging: size/codec, Shorts ≤ 59.5 s,
+  -14 LUFS (±1.5) and true peak ≤ -0.5 dB, one SRT cue per scene, American English, commission text in the
+  description only, product in title and narration, packshot found in the thumbnail and the Short's cover frame,
+  no near-identical thumbnails or frames across the batch, no product or free photo used twice.
+
 ## Commission disclosure (Sello, 6 Nov 2026; supersedes the six-channel launch brief)
 - Same format as Acne Medicine Johannesburg: the affiliate commission disclosure goes **in the YouTube description
   only** ("We earn a commission if you buy through our link…", near the top).
@@ -51,3 +75,8 @@ lists them, even when they use another spelling. Narration uses American female 
 The six launch videos are public (uploaded 6-7 Nov 2026) and are left in place. They were rendered under the
 earlier brief, so they still carry the commission strip and spoken lines; any revised render must come from the
 current `specs.json`, which no longer includes them.
+
+Launch rebuild (7 Nov 2026): 12 product features (one regular video + one Short per channel, 12 different
+products) rendered with `feature.py` from `features.json`, staged on the media branch under `skincare-launch/v2/`
+with `manifest.json` and `qa.json`. Not published; Codex uploads and schedules. The first launch renders
+(`skincare-launch/<date>/...` and the unrendered `shorts.json`) are superseded and must not be published.
