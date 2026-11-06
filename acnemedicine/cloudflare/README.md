@@ -2,7 +2,7 @@
 
 Cloudflare Worker: `acne-youtube-automation`
 
-Production URL: https://acne-youtube-automation.ramatladi-mphela.workers.dev
+Production URL: https://publish.acnemedicine.co.za (custom domain; the workers.dev address is disabled). Search engines are told not to index it via an `X-Robots-Tag: noindex, nofollow` response header rule on the `acnemedicine.co.za` zone.
 
 Expected channel: `UCtwhnWNVzoS6MR0SkvZIDHQ` (Acne Medicine Johannesburg).
 
@@ -10,7 +10,9 @@ Expected channel: `UCtwhnWNVzoS6MR0SkvZIDHQ` (Acne Medicine Johannesburg).
 
 Create a **Web application** OAuth client in the existing `globalnewsflix-video` project. Preserve the existing Web and Desktop clients. Register this exact redirect URI:
 
-`https://acne-youtube-automation.ramatladi-mphela.workers.dev/oauth/callback`
+`https://publish.acnemedicine.co.za/oauth/callback`
+
+The callback is only used when connecting or reconnecting YouTube. Scheduled uploads use the stored refresh token and do not depend on the dashboard address.
 
 Use the private administrator link supplied to the owner, select the Web client JSON on the setup page, then choose Connect YouTube. The Desktop JSON is deliberately rejected. Google consent must be completed as the owner of Acne Medicine Johannesburg. Connection is saved only after the Google API returns exactly the expected channel ID and both requested scopes.
 
