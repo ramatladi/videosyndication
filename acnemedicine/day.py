@@ -14,6 +14,7 @@ Photos come from acnemedicine/photos/pool.json (free Pexels photos, credited in 
 Staged on the media branch under acnemedicine/<date>/: <id>.mp4, <id>.jpg, <id>.json, manifest.json.
 """
 import datetime as dt, hashlib, json, os, shutil, subprocess, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -29,32 +30,47 @@ def photo_path(pid):
     return f'{HERE}/photos/pexels/{pid}.jpg'
 
 
-def metadata(plan, it, P):
+def metadata(plan, it, P, timing=None):
+    """Title, description, tags and caption text for one post. Search-first: the product name and what it does lead
+    the description's first line, the first three hashtags are the ones YouTube shows above the title, full videos get
+    chapters from the real scene timings, and every video gets a caption file from the exact narration."""
+    import discover as D
     ids = [s['photo'] for s in it['scenes']] + [it['thumb']['photo']]
     names = []
     for i in ids:
         if P[i]['by'] not in names:
             names.append(P[i]['by'])
-    desc = '\n'.join([
-        it['hook'], '',
+    product = it['product']
+    lead = it.get('lead') or f"Dermalogica {product}: {it['hook'][0].lower() + it['hook'][1:]}"
+    chap = D.chapters([s['caption'] for s in it['scenes']], timing) if (timing and it['format'] == 'video') else ''
+    desc = '\n'.join(x for x in [
+        lead, '',
         'We earn a commission if you buy through our link.', '',
         *[f'• {f}' for f in it['facts']], '',
+        *(['Chapters:', chap, ''] if chap else []),
         f'Shop: {SHOP}', '',
-        'General product information, not medical advice.', '',
+        'General product information, not medical advice. Acne Medicine Johannesburg, South Africa.', '',
         'Photos from Pexels (free licence): ' + ', '.join(names), '',
-        ' '.join('#' + t.replace(' ', '') for t in it['tags'][:3]),
-    ])
+        D.hashtags(product) + ' ' + ' '.join('#' + D.camel(t) for t in it['tags'][:3] if t not in ('dermalogica', 'skincare')),
+    ] if x is not None)
     h, m = map(int, it['slot'].split(':'))
     local = dt.datetime.fromisoformat(plan['date']).replace(hour=h, minute=m, tzinfo=SAST)
     title = it['title']
     assert len(title) <= 100 and '<' not in title and '>' not in title, title
     assert len(desc.encode()) <= 5000
-    return {'id': it['id'], 'title': title, 'description': desc, 'tags': it['tags'],
+    tg = D.tags(product, [t for t in it['tags'] if t != 'johannesburg'])
+    return {'id': it['id'], 'title': title, 'description': desc, 'tags': tg,
             'publish_at': local.astimezone(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
             'publish_at_sast': local.strftime('%Y-%m-%d %H:%M'), 'short': it['format'] == 'short',
             'privacy': 'public', 'paid_promotion': True, 'contains_synthetic_media': False,
-            'made_for_kids': False, 'category_id': '26', 'language': 'en', 'product': it['product'],
-            'product_source': it['source'], 'video': f"{it['id']}.mp4", 'thumbnail': f"{it['id']}.jpg"}
+            'made_for_kids': False, 'category_id': '26', 'language': 'en', 'audio_language': 'en',
+            'product': product, 'product_source': it['source'], 'video': f"{it['id']}.mp4",
+            'thumbnail': f"{it['id']}.jpg", 'captions': f"{it['id']}.en.srt" if timing else None}
+
+
+def write_captions(it, timing, path):
+    import discover as D
+    open(path, 'w').write(D.srt([s['say'] for s in it['scenes']], timing))
 
 
 def build(plan_path):
@@ -72,7 +88,11 @@ def build(plan_path):
         mp4, jpg = f"{out}/{it['id']}.mp4", f"{out}/{it['id']}.jpg"
         if not os.path.exists(mp4):
             subprocess.run([sys.executable, f'{HERE}/build_video.py', sp, mp4, jpg], check=True)
-        json.dump(metadata(plan, it, P), open(f"{out}/{it['id']}.json", 'w'), indent=1, ensure_ascii=False)
+        import discover as D
+        timing = D.read_timing(f"{out}/{it['id']}.timing.json")
+        if timing:
+            write_captions(it, timing, f"{out}/{it['id']}.en.srt")
+        json.dump(metadata(plan, it, P, timing), open(f"{out}/{it['id']}.json", 'w'), indent=1, ensure_ascii=False)
         dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', mp4],
                                    capture_output=True, text=True).stdout)
         if it['format'] == 'short':
@@ -107,13 +127,14 @@ def stage(plan_path):
     man = {'date': d, 'channel_id': open(f'{HERE}/CHANNEL_ID').read().strip(), 'items': []}
     for it in plan['items']:
         meta = json.load(open(f"{out}/{it['id']}.json"))
-        for f in (meta['video'], meta['thumbnail'], f"{it['id']}.json"):
+        for f in (meta['video'], meta['thumbnail'], f"{it['id']}.json", *([meta['captions']] if meta.get('captions') else [])):
             shutil.copy(f'{out}/{f}', f'{dest}/{f}')
         man['items'].append({'id': it['id'], 'format': it['format'], 'publish_at': meta['publish_at'],
                              'publish_at_sast': meta['publish_at_sast'], 'title': meta['title'],
                              'video': f"acnemedicine/{d}/{meta['video']}", 'video_sha256': sha(f"{out}/{meta['video']}"),
                              'thumbnail': f"acnemedicine/{d}/{meta['thumbnail']}", 'thumbnail_sha256': sha(f"{out}/{meta['thumbnail']}"),
-                             'metadata': f"acnemedicine/{d}/{it['id']}.json"})
+                             'metadata': f"acnemedicine/{d}/{it['id']}.json",
+                             **({'captions': f"acnemedicine/{d}/{meta['captions']}"} if meta.get('captions') else {})})
     json.dump(man, open(f'{dest}/manifest.json', 'w'), indent=1, ensure_ascii=False)
     g = lambda *a: subprocess.run(['git', '-C', tmp, *a], check=True)
     g('add', f'acnemedicine/{d}')

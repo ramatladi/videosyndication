@@ -17,3 +17,7 @@ client_secret*.json
 acnemedicine/secrets/
 # Acne Medicine: downloaded photos stay out of git (pool.json lists them)
 acnemedicine/photos/pexels/
+
+# skincare launch build outputs and photos (media branch holds the finished files)
+skincare-launch/out/
+skincare-launch/photos/

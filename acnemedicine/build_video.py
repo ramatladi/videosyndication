@@ -106,12 +106,12 @@ def main(spec_path, out, thumb_out):
     voice = s.get('voice', 'af_heart')
     assert voice.startswith(('af_', 'bf_')), 'female voices only'
     with tempfile.TemporaryDirectory() as td:
-        parts = []
+        parts, durs = [], []
         for i, sc in enumerate(s['scenes']):
             a, sr = k.create(sc['say'], voice=voice, speed=1.0, lang='en-us' if voice[0] == 'a' else 'en-gb')
             pad = np.zeros(int(sr * 0.35), dtype=a.dtype)
             audio = np.concatenate([pad, a, pad]); sf.write(f'{td}/{i}.wav', audio, sr)
-            dur = len(audio) / sr; n = int(dur * FPS) + 1
+            dur = len(audio) / sr; n = int(dur * FPS) + 1; durs.append(round(dur, 3))
             base_frame(path(sc['image']), sc.get('fit', 'auto'), W, H, cx=sc.get('cx', 0.5)).save(f'{td}/{i}.png')
             caption_overlay(sc.get('caption', ''), W, H).save(f'{td}/{i}c.png')
             zin = i % 2 == 0          # alternate zoom in / out
@@ -129,6 +129,8 @@ def main(spec_path, out, thumb_out):
                         '-af', 'loudnorm=I=-15:TP=-1.5:LRA=11', '-c:a', 'aac', '-b:a', '160k', '-ar', '48000',
                         '-movflags', '+faststart', out], check=True)
     thumbnail(s, thumb_out, path)
+    # scene timings for chapters and caption files (see discover.py)
+    json.dump({'scenes': durs, 'pad': 0.35}, open(os.path.splitext(out)[0] + '.timing.json', 'w'))
     print(out, thumb_out)
 
 

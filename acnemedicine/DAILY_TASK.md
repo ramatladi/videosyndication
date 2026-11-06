@@ -29,6 +29,15 @@ Repo: `ramatladi/videosyndication` (clone `--depth 20`). Rules: `acnemedicine/GU
    16:00, 19:00 and videos 14:00, 17:00. Shorts: 5-6 scenes, under 60 s (about 100-120 spoken words). Videos:
    12-16 scenes, more photos, about 2-3 min (300-420 words). Vary photos between items; thumbnail photo = a face photo
    that fits the product. Titles under 100 characters; Shorts end with "#shorts".
+   **Make every post searchable** (Sello, 6 Nov 2026): the title starts with what people type: "How to Use Dermalogica
+   <Product> (<key ingredient>)", "Dermalogica <Product>: <what it does, from the product page>" or, for videos,
+   "Dermalogica <Product> Review: <key ingredient>, How to Use It"; put the key fact (e.g. "0.5% Salicylic Acid") in
+   the title when the product page states it. Add `"lead"`: one sentence starting "Dermalogica <Product>: …" saying
+   what it is and who it's for, in the product page's words; it becomes the first line of the description. `tags`:
+   3-5 specific phrases (the concern, the product type, the key ingredient); `day.py` adds the product-name,
+   how-to-use, review and South Africa tags, the three hashtags, chapters for full videos (from the real scene timings)
+   and an English caption file from the narration. Scene captions in videos become chapter names, so keep them short
+   and specific ("Salicylic acid 0.5%", not "What's inside").
 5. `python3 acnemedicine/day.py build acnemedicine/days/DATE/plan.json` (run in the background and poll; ~2-4 min per
    video). Check one frame from each video and each thumbnail by looking at them.
 6. `python3 acnemedicine/day.py stage acnemedicine/days/DATE/plan.json`. Confirm each
