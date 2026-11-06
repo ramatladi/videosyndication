@@ -18,7 +18,7 @@ export function sastDates(now = Date.now()) {
 }
 
 async function get(url, as) {
-  const r = await fetch(url, { redirect: 'error', signal: AbortSignal.timeout(60000) });
+  const r = await fetch(url, { redirect: 'manual', signal: AbortSignal.timeout(60000) });
   if (r.status === 404) return null;
   if (!r.ok) throw new Error(`HTTP ${r.status} for ${url.slice(BASE.length)}`);
   return as === 'json' ? r.json() : r.arrayBuffer();
