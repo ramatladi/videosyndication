@@ -66,9 +66,11 @@ checks YouTube Studio, then deletes or edits the result file.
   and face images. Slots (SAST): Shorts 10:00, 13:00, 16:00, 19:00; videos 14:00, 17:00.
 - Built with `build_video.py` (photos with slow zoom, captions, female voice `af_heart`; female voices only) and a
   1280x720 thumbnail made from the product photo.
-- **Images:** Dermalogica's own product photos and their photos with people's faces (Sello's commission programme allows
-  using them). Where Dermalogica has no face images for a product, use free Unsplash/Pexels photos and credit them in the
-  description only. Never use free photos of anyone who might be under 18.
+- **Images: free Pexels photos only** (Sello, 6 Nov 2026: "just use free photos"). No Dermalogica images. The pool is
+  `photos/pool.json` (`day.py fetch` downloads it; photos are not kept in git). Credit photographers in the description
+  only. Adults only, ordinary skincare scenes, no other brands' products, nothing suggestive; check every new photo on a
+  contact sheet. Thumbnails: product name + a matching face photo (a free photo can't show the real product).
+- **Daily run:** scheduled task "Acne Medicine daily videos", 11:33 SAST, follows `DAILY_TASK.md` for the next day.
 - **Words:** state what the product description says, directly (no "Dermalogica says…"). Add nothing beyond it: no
   invented results, testimonials or ratings.
 - **Commission disclosure in the description only** ("We earn a commission if you buy through our link." near the top);

@@ -11,7 +11,8 @@ Spec:
   "thumbnail": {"image": "<product photo path>", "title": "…"},
   "scenes": [ {"image": "<path>", "fit": "contain"|"cover", "caption": "…", "say": "…"}, … ]
 }
-Product packshots (plain backgrounds) use "contain"; people/lifestyle photos use "cover".
+"fit": "auto" (default) picks cover or contain from the photo's shape; force with "cover"/"contain".
+"cx" (0-1, default 0.5): horizontal focus for cover crops, for photos whose subject is off-centre.
 Short = 1080x1920 (keep under 60 s); video = 1920x1080 (about 3 min).
 No commission line in the video: it goes in the description only (Sello, 6 Nov 2026).
 """
@@ -42,16 +43,22 @@ def wrap(d, text, f, width):
     return '\n'.join(lines)
 
 
-def base_frame(img_path, fit, W, H, margin=1.15):
-    """Return an image (W*margin x H*margin) to zoom into: cover-cropped photo, or packshot on a soft backdrop."""
+def base_frame(img_path, fit, W, H, margin=1.15, cx=0.5):
+    """Image (W*margin x H*margin) to zoom into. 'cover' fills the frame; 'contain' puts the photo on a blurred copy
+    of itself; 'auto' uses cover unless the photo's shape differs a lot from the frame (portrait photo in a
+    landscape video or the reverse), where it uses contain so faces aren't cropped away."""
     w, h = int(W * margin), int(H * margin)
     im = ImageOps.exif_transpose(Image.open(img_path)).convert('RGB')
+    if fit == 'auto':
+        r = (im.width / im.height) / (W / H)
+        # Shorts (vertical): always fill the frame; faces in these photos are near the centre.
+        fit = 'cover' if (H > W or 0.6 <= r <= 1.7) else 'contain'
     if fit == 'cover':
-        return ImageOps.fit(im, (w, h), Image.LANCZOS, centering=(0.5, 0.4))
-    bg = ImageOps.fit(im, (w, h), Image.LANCZOS).filter(ImageFilter.GaussianBlur(60))
-    bg = Image.blend(bg, Image.new('RGB', (w, h), BG), 0.75)
-    im.thumbnail((int(w * 0.78), int(h * 0.62)), Image.LANCZOS)
-    bg.paste(im, ((w - im.width) // 2, int(h * 0.42 - im.height / 2)))
+        return ImageOps.fit(im, (w, h), Image.LANCZOS, centering=(cx, 0.35))
+    bg = ImageOps.fit(im, (w, h), Image.LANCZOS).filter(ImageFilter.GaussianBlur(50))
+    bg = Image.blend(bg, Image.new('RGB', (w, h), BG), 0.35)
+    im.thumbnail((int(w * 0.92), int(h * 0.92)), Image.LANCZOS)
+    bg.paste(im, ((w - im.width) // 2, (h - im.height) // 2))
     return bg
 
 
@@ -76,13 +83,16 @@ def caption_overlay(text, W, H):
 
 
 def thumbnail(spec, out, path=lambda p: p):
+    """1280x720: photo filling the right side, product name on the left."""
     t = spec['thumbnail']; W, H = 1280, 720
     im = Image.new('RGB', (W, H), BG); d = ImageDraw.Draw(im)
-    p = ImageOps.exif_transpose(Image.open(path(t['image']))).convert('RGB'); p.thumbnail((560, 640), Image.LANCZOS)
-    im.paste(p, (W - p.width - 70, (H - p.height) // 2))
-    f = font(76, True)
-    txt = wrap(d, t['title'], f, 620)
-    d.multiline_text((70, H // 2), txt, font=f, fill=INK, anchor='lm', spacing=12)
+    p = ImageOps.fit(ImageOps.exif_transpose(Image.open(path(t['image']))).convert('RGB'), (600, H), Image.LANCZOS,
+                     centering=(0.5, 0.35))
+    im.paste(p, (W - 600, 0))
+    f = font(70, True); txt = wrap(d, t['title'], f, 600)
+    d.multiline_text((56, H // 2), txt, font=f, fill=INK, anchor='lm', spacing=12)
+    if t.get('kicker'):
+        d.text((56, 70), t['kicker'], font=font(34, True), fill=ACCENT)
     d.rectangle([0, 0, W, 14], fill=ACCENT)
     im.save(out, quality=90)
 
@@ -102,7 +112,7 @@ def main(spec_path, out, thumb_out):
             pad = np.zeros(int(sr * 0.35), dtype=a.dtype)
             audio = np.concatenate([pad, a, pad]); sf.write(f'{td}/{i}.wav', audio, sr)
             dur = len(audio) / sr; n = int(dur * FPS) + 1
-            base_frame(path(sc['image']), sc.get('fit', 'cover'), W, H).save(f'{td}/{i}.png')
+            base_frame(path(sc['image']), sc.get('fit', 'auto'), W, H, cx=sc.get('cx', 0.5)).save(f'{td}/{i}.png')
             caption_overlay(sc.get('caption', ''), W, H).save(f'{td}/{i}c.png')
             zin = i % 2 == 0          # alternate zoom in / out
             z = f"'1+0.13*on/{n}'" if zin else f"'1.13-0.13*on/{n}'"
@@ -115,7 +125,8 @@ def main(spec_path, out, thumb_out):
             parts.append(f"file '{td}/{i}.mp4'")
         open(f'{td}/l.txt', 'w').write('\n'.join(parts))
         os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
-        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', f'{td}/l.txt', '-c', 'copy',
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', f'{td}/l.txt', '-c:v', 'copy',
+                        '-af', 'loudnorm=I=-15:TP=-1.5:LRA=11', '-c:a', 'aac', '-b:a', '160k', '-ar', '48000',
                         '-movflags', '+faststart', out], check=True)
     thumbnail(s, thumb_out, path)
     print(out, thumb_out)
