@@ -1,0 +1,749 @@
+{
+ "engine": "cast",
+ "id": 46,
+ "slug": "day-one-of-the-outbreak-on-maple-street",
+ "title": "Day One Of The Outbreak On Maple Street",
+ "trend": "TikTok 'Zombie Outbreak Survival Stories' (narrated second-person 'you wake up...' story in familiar places, numbered parts ending on a choice or cliffhanger; New Engen TikTok list updated Nov 5 2026, US) \u2014 told in parts with choices by an emergency radio",
+ "target_seconds": 345,
+ "length_reason": "Numbered-part survival story format with several parts and choices: a story/series format, so 5:45 fits the guide's 300-600 band (kept at the low end); over 180 s so YouTube + TikTok only, no Instagram.",
+ "scene": "street_night",
+ "desk": false,
+ "music": "dramatic",
+ "intro": [
+  "part one:",
+  "the outbreak on maple street",
+  "you wake up. it is very quiet."
+ ],
+ "youtube_title": "Day One Of The Outbreak On Maple Street | Funny Cartoon",
+ "description": "You wake up. The street is silent. Then the groaning starts, and your dad wants to bring the leaf blower.\nA very serious radio, a dad in shorts and one dog with a ham try to survive a Saturday morning on Maple Street.\n\n#cartoon #animation #funny #comedy #zombies",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "zombies",
+  "family comedy",
+  "dad jokes",
+  "neighbors",
+  "animated short film"
+ ],
+ "tiktok_caption": "you wake up. the street is silent. your dad grabs the leaf blower. #cartoon #animation #funny #comedy #zombies",
+ "cast": [
+  {
+   "id": "radio",
+   "name": "The Radio",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#c0392b",
+   "accessories": [
+    "sunglasses"
+   ],
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#e74c3c",
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": -1,
+    "tempo": 0.93
+   }
+  },
+  {
+   "id": "nora",
+   "name": "Nora",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.92,
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#f1c40f",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "headphones:#8e44ad"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "hal",
+   "name": "Hal",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.08,
+   "hair": {
+    "style": "short",
+    "color": "#6b4a2b"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "1"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#e74c3c",
+   "accessories": [
+    "cap:#2980b9",
+    "mustache"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.06
+   }
+  },
+  {
+   "id": "pudding",
+   "name": "Pudding",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#c8a165",
+   "belly": "#f3e0c0",
+   "scale": 0.95,
+   "accessories": [
+    "scarf:#27ae60"
+   ],
+   "eye": "happy",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "radio",
+   "text": "Part one. You wake up. It is Saturday. The street is silent.",
+   "shot": "W"
+  },
+  {
+   "spk": "nora",
+   "text": "Why is the radio talking to me like I'm the main character?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "radio",
+   "text": "Because you are the main character. Sit up slowly.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nora",
+   "text": "I am sitting up slowly because it's six in the morning.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "radio",
+   "text": "Then, outside, you hear it. The groaning.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "hal",
+   "text": "Nora! Nobody panic! I am already panicking for all of us!",
+   "shot": "W",
+   "jump": true,
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "nora",
+   "text": "Dad, why are you wearing shorts in November?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "hal",
+   "text": "No time for questions. The neighbors are moving very slowly.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nora",
+   "text": "The neighbors always move slowly. They're the neighbors.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "Not like this. Mister Delgado is walking with both arms out.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pudding",
+   "text": "He does that when he carries the mail. Good morning, by the way.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nora",
+   "text": "Pudding? You can talk?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "pudding",
+   "text": "Only in emergencies. And at dinner. Dinner is also an emergency.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "radio",
+   "text": "You have two choices. The front door, or the kitchen window.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "Kitchen window. Nobody expects a window.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "nora",
+   "text": "Dad, the kitchen window is the size of a toaster.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "Then we will be very small and very fast.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "radio",
+   "text": "You chose the window. You do not fit. Part one is over.",
+   "shot": "W",
+   "after": "boing"
+  },
+  {
+   "spk": "radio",
+   "text": "Part two. Supplies. Pack only what you need to survive.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "Okay. Leaf blower.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "nora",
+   "text": "Why a leaf blower?",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "hal",
+   "text": "If they get close, I blow them back. Gently. Like leaves.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "nora",
+   "text": "They're people, Dad. They are not leaves.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "Everybody is a leaf if the blower is big enough.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "pudding",
+   "text": "I am packing the ham.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nora",
+   "text": "We don't need a whole ham.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "pudding",
+   "text": "You don't. I do. I have a plan, and the plan is ham.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "radio",
+   "text": "Pack a flashlight. Pack water. Do not pack the ham.",
+   "shot": "CU"
+  },
+  {
+   "spk": "pudding",
+   "text": "Too late. The ham is already packed. Inside me.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "hal",
+   "text": "The flashlight is dead. It has been dead since the Fourth of July.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nora",
+   "text": "Why do we keep a dead flashlight?",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "Emotional support.",
+   "shot": "CU",
+   "pre": 0.5,
+   "gesture": "shrug"
+  },
+  {
+   "spk": "radio",
+   "text": "You have one working light. It is me. I am also the radio. I do a lot.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nora",
+   "text": "Your battery says eleven percent.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "radio",
+   "text": "Then listen carefully. And quickly.",
+   "shot": "CU",
+   "after": "ding"
+  },
+  {
+   "spk": "radio",
+   "text": "Part three. You step outside. The air is cold. Something shuffles past the mailbox.",
+   "shot": "W"
+  },
+  {
+   "spk": "hal",
+   "text": "Get down! Behind the recycling!",
+   "shot": "CU",
+   "jump": true,
+   "gesture": "point"
+  },
+  {
+   "spk": "nora",
+   "text": "Dad, the recycling bin is see-through.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "hal",
+   "text": "Then think solid thoughts.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "pudding",
+   "text": "That is Mrs. Kowalski. She is groaning.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nora",
+   "text": "She's holding her knees. And an empty water bottle.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "That's how it starts. First the knees. Then the water bottle.",
+   "shot": "CU"
+  },
+  {
+   "spk": "radio",
+   "text": "She sees you. She raises one arm. She says one word.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "Here it comes.",
+   "shot": "W",
+   "gesture": "cross"
+  },
+  {
+   "spk": "radio",
+   "text": "Water.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "nora",
+   "text": "Okay, that is not a zombie word. That is a thirsty word.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hal",
+   "text": "Zombies get thirsty. It's in all the movies I fell asleep during.",
+   "shot": "CU"
+  },
+  {
+   "spk": "radio",
+   "text": "More of them appear. They are all wearing matching shirts.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "nora",
+   "text": "Matching shirts? Dad, zombies don't coordinate.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "These ones are organized. That's what makes them so dangerous.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "pudding",
+   "text": "Mister Delgado has a number on his shirt. Forty two.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "He's been counting victims!",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "nora",
+   "text": "He can't count to forty two. I watched him pay for a pizza.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "radio",
+   "text": "You must choose. Run to the garage, or hide inside the inflatable snowman.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "The snowman. Nobody looks inside a snowman.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nora",
+   "text": "Because there's nothing inside a snowman, Dad. It's air.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "Then we will become the air.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "radio",
+   "text": "You chose the snowman. The fan is very loud. Your hair now points straight up.",
+   "shot": "W",
+   "after": "whoosh"
+  },
+  {
+   "spk": "pudding",
+   "text": "I have never looked better in my life.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "nora",
+   "text": "Can we please just pick the garage next time?",
+   "shot": "CU"
+  },
+  {
+   "spk": "radio",
+   "text": "Part four. The garage. You barricade the door with lawn chairs.",
+   "shot": "W"
+  },
+  {
+   "spk": "hal",
+   "text": "Four lawn chairs. The cooler. And the good rake.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nora",
+   "text": "You're protecting the good rake from zombies?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "hal",
+   "text": "I protect the good rake from everybody. Your uncle borrowed it in two thousand twelve.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "pudding",
+   "text": "There is knocking.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "radio",
+   "text": "Knock. Knock. Knock. Then a voice. It says, Hal.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "They know my name! They've learned names!",
+   "shot": "CU",
+   "jump": true,
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "nora",
+   "text": "Your name is on the mailbox in giant gold letters.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "That was for style.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "radio",
+   "text": "The voice says, Hal, you have the water.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "Lies. Zombie lies. I have a leaf blower and a ham.",
+   "shot": "CU"
+  },
+  {
+   "spk": "pudding",
+   "text": "You do not have a ham. I have the ham.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "hal",
+   "text": "Leaf blower, engage!",
+   "shot": "CU",
+   "jump": true,
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "radio",
+   "text": "You pull the cord. It does not start. You pull it again. It does not start.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nora",
+   "text": "Dad. It's electric. It's not plugged in.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "hal",
+   "text": "So I've been pulling a decorative cord.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "radio",
+   "text": "You plug it in. It blows every leaf you raked yesterday back into the garage.",
+   "shot": "W",
+   "after": "whoosh"
+  },
+  {
+   "spk": "pudding",
+   "text": "This is the best morning of my whole life.",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "nora",
+   "text": "We raked for four hours!",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "And now the leaves are home. Safe. With family.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "radio",
+   "text": "Part five. There is a sign taped to the garage door. You read it.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nora",
+   "text": "Maple Street Fall Fun Run. Starts at five thirty. Water station at Hal's garage.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hal",
+   "text": "Oh.",
+   "shot": "CU",
+   "pre": 1.0
+  },
+  {
+   "spk": "nora",
+   "text": "Dad.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "hal",
+   "text": "Oh, no.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "nora",
+   "text": "Are the zombies just our neighbors running a fun run?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "radio",
+   "text": "They are not zombies. They are runners. This is mile two. They have waited for water for forty minutes.",
+   "shot": "W",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "hal",
+   "text": "In my defense, I organized it.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nora",
+   "text": "That is not a defense! That makes it so much worse!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "hal",
+   "text": "I made the shirts. I made the sign. I put the route past our house so I could sleep in.",
+   "shot": "CU"
+  },
+  {
+   "spk": "pudding",
+   "text": "And you did sleep in. You were very good at it.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nora",
+   "text": "So you're wearing shorts because you're running the whole thing.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "hal",
+   "text": "I'm wearing shorts because I'm number one. Look.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "radio",
+   "text": "You look. His shirt says number one. Underneath, it says water guy.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nora",
+   "text": "Water guy, Dad. You had one job and it was printed on your body.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "I thought the water guy was a different guy!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pudding",
+   "text": "There is no different guy. There is never a different guy.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "radio",
+   "text": "You open the door. Twenty neighbors look at you. Slowly. With love, and anger.",
+   "shot": "W"
+  },
+  {
+   "spk": "hal",
+   "text": "Good morning, Maple Street! Who wants a cold water and a warm ham?",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "pudding",
+   "text": "Not the ham.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "nora",
+   "text": "Mrs. Kowalski is drinking straight from the hose.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "Hydration is hydration.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "radio",
+   "text": "Mister Delgado finishes his water. He says, best fun run ever. The leaf blower at mile two was a nice touch.",
+   "shot": "CU",
+   "after": "applause"
+  },
+  {
+   "spk": "hal",
+   "text": "See? Leaf blower. Big hit.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "nora",
+   "text": "You blew leaves into a man's face and he said thank you.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "hal",
+   "text": "That's community.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "radio",
+   "text": "Battery at two percent. Part six, tomorrow. The cooldown.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "Wait. There's a cooldown?",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "nora",
+   "text": "Dad. You organized it.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "hal",
+   "text": "Then who is running the cooldown?",
+   "shot": "CU"
+  },
+  {
+   "spk": "pudding",
+   "text": "Me. I am running the cooldown. With the ham.",
+   "shot": "W",
+   "jump": true,
+   "after": "rimshot"
+  }
+ ]
+}
