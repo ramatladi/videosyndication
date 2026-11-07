@@ -145,13 +145,20 @@ def overlay(L, sc, v, pack):
             fh = F(104, 'Bold'); body = wrap(d, v['product_name'], fh, width)
             d.multiline_text((x, y), body, font=fh, fill=(20, 20, 22), spacing=6)
             y = d.multiline_textbbox((x, y), body, font=fh, spacing=6)[3] + 30
-            d.multiline_text((x, y), wrap(d, sc.get('sub', ''), F(44, 'Medium'), width), font=F(44, 'Medium'), fill=(60, 60, 64), spacing=8)
+            sb = wrap(d, sc.get('sub', ''), F(44, 'Medium'), width)
+            d.multiline_text((x, y), sb, font=F(44, 'Medium'), fill=(60, 60, 64), spacing=8)
+            ylast = d.multiline_textbbox((x, y), sb, font=F(44, 'Medium'), spacing=8)[3]
         if t == 'end':
-            f = F(40, 'Bold'); txt = f"Find it at {v['domain']}  ·  link in the description"
-            tw = d.textlength(txt, font=f); bw = min(W - 2 * m, tw + 70)
-            y0 = ylast + 44 if L.short else H - 190
-            d.rounded_rectangle([(W - bw) // 2, y0, (W + bw) // 2, y0 + 86], 43, fill=acc)
-            d.text((W // 2, y0 + 43), txt if tw + 70 <= W - 2 * m else 'Link in the description', font=f, fill='white', anchor='mm')
+            # site link: pill in the text column, under the product name (never over the product card)
+            px, pw = (m, W - 2 * m) if L.short else (x, width)
+            f = F(44 if L.short else 42, 'Bold'); txt = f"Find it at {v['domain']}"
+            tw = d.textlength(txt, font=f)
+            while tw + 80 > pw and f.size > 28:
+                f = F(f.size - 2, 'Bold'); tw = d.textlength(txt, font=f)
+            y0 = ylast + 48; ph = f.size + 46
+            d.rounded_rectangle([px, y0, px + tw + 80, y0 + ph], ph // 2, fill=acc)
+            d.text((px + 40, y0 + ph // 2), txt, font=f, fill='white', anchor='lm')
+            d.text((px + 4, y0 + ph + 22), 'Link in the description', font=F(34 if L.short else 32, 'SemiBold'), fill=(60, 60, 64))
     elif t == 'photo':
         if L.short:
             scrim(int(H * 0.45), H)

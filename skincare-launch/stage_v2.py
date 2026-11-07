@@ -22,7 +22,7 @@ def sha(p):
 
 
 def main():
-    media = sys.argv[1]; base = 'skincare-launch/v2'; dst = f'{media}/{base}'
+    media = sys.argv[1]; base = sys.argv[2] if len(sys.argv) > 2 else 'skincare-launch/v2'; dst = f'{media}/{base}'
     spec = json.load(open(f'{HERE}/features.json')); out = f'{HERE}/out/feature'
     qa = json.load(open(f'{out}/qa.json')); assert qa['summary']['passed'] == qa['summary']['renders'] == 12 and not qa['summary']['similarity_fails']
     qrow = {r['slug']: r for r in qa['renders']}
