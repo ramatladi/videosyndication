@@ -74,7 +74,7 @@ def main():
         r['srt_ok'] = cues >= len(v['scenes']) and last <= pr['duration'] + 0.05
         say = ' '.join(s['say'] for s in v['scenes'])
         r['product_in_title'] = v['product_name'].lower() in meta['title'].lower()
-        r['product_spoken'] = v['product_name'].lower() in say.lower()
+        r['product_spoken'] = v.get('spoken_name', v['product_name']).lower() in say.lower()
         r['american_english_ok'] = not BANNED.search(meta['title'] + meta['description'] + srt + ' '.join(meta['tags']))
         onscreen = ' '.join(' '.join(str(s.get(k, '')) for k in ('headline', 'sub', 'kicker', 'label', 'stat')) + ' '.join(s.get('items', [])) for s in v['scenes'])
         r['commission_description_only'] = bool(COMM.search(meta['description'])) and not COMM.search(say + onscreen + srt + meta['title'])

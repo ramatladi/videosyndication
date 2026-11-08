@@ -89,7 +89,7 @@ def background(L, sc, pack):
     if sc.get('image') and sc['type'] != 'figure':
         im = img(sc['image'])
         bg = ImageOps.fit(im, (W, H), Image.LANCZOS, centering=(sc.get('cx', 0.5), sc.get('cy', 0.42)))
-        if sc['type'] in ('stat', 'bullets', 'steps') and not sc.get('sharp'):
+        if sc['type'] in ('stat', 'bullets', 'steps', 'note') and not sc.get('sharp'):
             bg = Image.blend(bg.filter(ImageFilter.GaussianBlur(26)), Image.new('RGB', (W, H), L.tint), 0.35)
         return bg
     # gradient in the channel tint
@@ -189,6 +189,8 @@ def overlay(L, sc, v, pack):
         d.rounded_rectangle(panel, L.r, fill=acc + (240,))
         cx = (panel[0] + panel[2]) // 2
         fs = 260 if len(sc['stat']) <= 4 else 190
+        while d.textlength(sc['stat'], font=F(fs, 'Bold')) > panel[2] - panel[0] - 90 and fs > 90:
+            fs -= 10
         d.text((cx, panel[1] + (panel[3] - panel[1]) * 0.42), sc['stat'], font=F(fs, 'Bold'), fill='white', anchor='mm')
         d.multiline_text((cx, panel[1] + (panel[3] - panel[1]) * 0.72), wrap(d, sc['label'], F(46, 'SemiBold'), panel[2] - panel[0] - 80),
                          font=F(46, 'SemiBold'), fill='white', anchor='ma', align='center', spacing=8)
@@ -201,8 +203,6 @@ def overlay(L, sc, v, pack):
     elif t in ('bullets', 'steps', 'note'):
         if L.short:
             bx0, bx1 = m, W - m
-        elif t == 'note':
-            bx0, bx1 = W // 2 - 700, W // 2 + 700
         else:
             bx0, bx1 = (m, W // 2 + 60) if left else (W // 2 - 60, W - m)
         x = bx0 + 60; width = bx1 - bx0 - 120
@@ -228,6 +228,16 @@ def overlay(L, sc, v, pack):
         card, mm = shadow_card((bx1 - bx0, hgt), L.r, fill=(255, 255, 255, 246))
         ov.alpha_composite(card, (bx0 - mm, by0 - mm)); d = ImageDraw.Draw(ov)
         body(d, by0 + 56)
+        # the product itself beside (videos) or below (Shorts) the card, so every text card is anchored to its SKU
+        if L.short:
+            cw = min(480, H - 430 - (by0 + hgt + 60))
+            if cw >= 300:
+                pc, pm = product_card(pack, cw, cw, L.r); ov.alpha_composite(pc, ((W - cw) // 2 - pm, by0 + hgt + 60 - pm))
+        else:
+            cw = 560; pc, pm = product_card(pack, cw, cw, L.r)
+            px = (W // 2 + 60 + (W // 2 - 60 - m - cw) // 2) if left else (m + (W // 2 - 60 - m - cw) // 2)
+            ov.alpha_composite(pc, (px - pm, (H - cw) // 2 - pm))
+        d = ImageDraw.Draw(ov)
     # channel badge + fine print, on every scene
     badge = f"{v['locality'].upper()}  ·  {v['desk'].upper()}"
     fbadge = F(26, 'Bold'); bw = d.textlength(badge, font=fbadge) + 48
@@ -286,7 +296,7 @@ def check_text(v):
     for sc in v['scenes']:
         blob = ' '.join(str(sc.get(k, '')) for k in ('say', 'headline', 'sub', 'kicker', 'label', 'stat')) + ' '.join(sc.get('items', []))
         assert not BANNED.search(blob), (v['slug'], blob[:80])
-    assert v['product_name'].lower() in ' '.join(s['say'].lower() for s in v['scenes']), 'product must be spoken'
+    assert v.get('spoken_name', v['product_name']).lower() in ' '.join(s['say'].lower() for s in v['scenes']), 'product must be spoken'
     assert v['product_name'].lower() in v['title'].lower(), 'product must be in the title'
     assert len(v['title']) <= 100 and v['voice'].startswith('af_')
 
@@ -307,9 +317,11 @@ def master(path):
     m = _lufs(path)
     run(f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"
         f":measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
-    m = _lufs(path); gap = -14.2 - float(m['input_i'])
-    if gap > 0.3:
-        run(f"aresample=192000,volume={gap:.2f}dB,alimiter=limit=0.79:attack=2:release=60:level=false,aresample=48000")
+    for _ in range(3):
+        m = _lufs(path); gap = -14.2 - float(m['input_i'])
+        if gap <= 0.3:
+            break
+        run(f"aresample=192000,volume={gap + 0.2:.2f}dB,alimiter=limit=0.79:attack=2:release=60:level=false,aresample=48000")
 
 
 def build(v, k, outdir):
@@ -380,7 +392,7 @@ def description(v, durs):
 
 if __name__ == '__main__':
     spec = json.load(open(sys.argv[1])); want = sys.argv[2:]
-    out = f'{HERE}/out/feature'; os.makedirs(out, exist_ok=True)
+    out = os.environ.get('FEATURE_OUT', f'{HERE}/out/feature'); os.makedirs(out, exist_ok=True)
     from kokoro_onnx import Kokoro
     m = os.path.expanduser('~/.cache/kokoro'); k = Kokoro(f'{m}/kokoro.onnx', f'{m}/voices.bin')
     for v in spec['videos']:
