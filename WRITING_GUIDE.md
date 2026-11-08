@@ -31,6 +31,17 @@ hashtags such as #cartoon #animation #funny #comedy #cartoons plus topic words l
 rendering, voices, scripts, scheduling or automation. Present every episode simply as an original cartoon. The trend research stays
 internal: only in the episode JSON's "trend" and "length_reason" fields and EPISODES.md.
 
+## 0. Resume an unaired episode first (from 8 Nov 2026)
+
+Runs sometimes die partway through, for example when the cloud machine restarts during a long render. When that happens the episode file and its EPISODES.md row are already committed, but the video was never posted. So before researching or writing anything new, every run of the cartoon tasks (films and Shorts) does this:
+
+1. Look at the EPISODES.md rows from the last 36 hours that match this run's format (non-SHORT rows for the film task, SHORT rows for the Shorts task).
+2. For each, call getScheduledPosts on brand 7615469 for the day of that row through tomorrow, and look for a post whose YouTube title equals the episode's youtube_title.
+3. If an episode has no post, it never aired: do not write a new episode for this slot. Render that episode from its existing episodes/epNNN.json (same shapes as the task normally renders), check it as usual, host it, schedule it in this run's slot with its existing title, description, tags and caption, and remove it from the media branch once Metricool has its copy. Add "(aired late)" to the end of its EPISODES.md title cell.
+4. Only when no unaired episode is found, carry on with step 1 below as normal.
+
+Keep long films quick to finish: write and commit the episode, then render straight away, so most of a run's time is the render and a restart costs as little as possible.
+
 ## 1. Find the trend (every episode)
 Research before writing (WebSearch/WebFetch), US-focused, this week:
 - TikTok trends this month (e.g. newengen.com/insights "<month> <year> TikTok trends"; also "TikTok trending sounds this week")
