@@ -233,6 +233,9 @@ def overlay(L, sc, v, pack):
             cw = min(480, H - 430 - (by0 + hgt + 60))
             if cw >= 300:
                 pc, pm = product_card(pack, cw, cw, L.r); ov.alpha_composite(pc, ((W - cw) // 2 - pm, by0 + hgt + 60 - pm))
+            else:  # tall card: put the product above it instead
+                cw = min(420, by0 - 330)
+                pc, pm = product_card(pack, cw, cw, L.r); ov.alpha_composite(pc, ((W - cw) // 2 - pm, by0 - cw - 40 - pm))
         else:
             cw = 560; pc, pm = product_card(pack, cw, cw, L.r)
             px = (W // 2 + 60 + (W // 2 - 60 - m - cw) // 2) if left else (m + (W // 2 - 60 - m - cw) // 2)
@@ -295,6 +298,8 @@ def thumbnail(v, path):
 def check_text(v):
     for sc in v['scenes']:
         blob = ' '.join(str(sc.get(k, '')) for k in ('say', 'headline', 'sub', 'kicker', 'label', 'stat')) + ' '.join(sc.get('items', []))
+        for nm in (v['product_name'], v.get('spoken_name', '')):  # exact official product names keep their own spelling
+            if nm: blob = re.sub(re.escape(nm), '', blob, flags=re.I)
         assert not BANNED.search(blob), (v['slug'], blob[:80])
     assert v.get('spoken_name', v['product_name']).lower() in ' '.join(s['say'].lower() for s in v['scenes']), 'product must be spoken'
     assert v['product_name'].lower() in v['title'].lower(), 'product must be in the title'

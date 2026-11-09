@@ -75,7 +75,13 @@ def main():
         say = ' '.join(s['say'] for s in v['scenes'])
         r['product_in_title'] = v['product_name'].lower() in meta['title'].lower()
         r['product_spoken'] = v.get('spoken_name', v['product_name']).lower() in say.lower()
-        r['american_english_ok'] = not BANNED.search(meta['title'] + meta['description'] + srt + ' '.join(meta['tags']))
+        blob = meta['title'] + meta['description'] + srt + ' '.join(meta['tags'])
+        blob = re.sub(r'https?://\S+', '', re.sub(r'\s+', ' ', blob))  # store URLs keep the store's spelling
+        names = [v['product_name'], v.get('spoken_name', '')]
+        names += [re.sub(r'\s*spf.*$', '', n, flags=re.I) for n in names]  # caption cues can split a name before "SPF"
+        for nm in names:  # official product names keep their own spelling
+            if nm: blob = re.sub(re.escape(nm), '', blob, flags=re.I)
+        r['american_english_ok'] = not BANNED.search(blob)
         onscreen = ' '.join(' '.join(str(s.get(k, '')) for k in ('headline', 'sub', 'kicker', 'label', 'stat')) + ' '.join(s.get('items', [])) for s in v['scenes'])
         r['commission_description_only'] = bool(COMM.search(meta['description'])) and not COMM.search(say + onscreen + srt + meta['title'])
         r['title_len'] = len(meta['title']); r['desc_bytes'] = len(meta['description'].encode())
