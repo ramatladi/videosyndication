@@ -1,0 +1,462 @@
+{
+ "date": "2026-11-09",
+ "ledger": "skincare-daily/2026-11-09/receipt-ledger.json",
+ "blocked_slots": [
+  {
+   "channel": "@SkincareDurbanWestville",
+   "time": "16:00",
+   "format": "short",
+   "reason": "No unused body-care product with an exact SKU left on dermalogica.co.za: every body product was featured on Nov 7 or Nov 8 (the two remaining body kits list no SKU). Needs Sello's choice: repeat a body product in another size, or use a face product."
+  },
+  {
+   "channel": "@SkincareDurbanWestville",
+   "time": "20:00",
+   "format": "short",
+   "reason": "Same as 16:00."
+  },
+  {
+   "channel": "@DermatologyCapeTown",
+   "time": "16:00",
+   "format": "short",
+   "reason": "No unused sun-care product left on dermalogica.co.za: every SPF product was featured on Nov 7 or Nov 8; the remaining SPF listings are kits or sizes of Dynamic Skin Recovery SPF50 (featured Nov 8). Needs Sello's choice."
+  },
+  {
+   "channel": "@DermatologyCapeTown",
+   "time": "20:00",
+   "format": "short",
+   "reason": "Same as 16:00."
+  }
+ ],
+ "publishing": "Codex publishes; nothing here is uploaded or scheduled by this batch. Nov 7 launch queue untouched.",
+ "commission_disclosure": "description only",
+ "language": "American English",
+ "channels": {
+  "@SkincareJoburgRosebank": {
+   "domain": "skincare.joburg",
+   "shorts": 1,
+   "videos": 0,
+   "all_pass": true,
+   "status": "partial: staged items ready"
+  },
+  "@SkincareDurbanWestville": {
+   "domain": "skincare.durban",
+   "shorts": 1,
+   "videos": 0,
+   "all_pass": true,
+   "status": "partial: staged items ready"
+  },
+  "@DermatologistJoburgMidrand": {
+   "domain": "dermatologist.joburg",
+   "shorts": 1,
+   "videos": 0,
+   "all_pass": true,
+   "status": "partial: staged items ready"
+  },
+  "@DermatologyJoburgBedfordview": {
+   "domain": "dermatology.joburg",
+   "shorts": 1,
+   "videos": 0,
+   "all_pass": true,
+   "status": "partial: staged items ready"
+  },
+  "@DermatologyDurbanUmhlanga": {
+   "domain": "dermatology.durban",
+   "shorts": 1,
+   "videos": 0,
+   "all_pass": true,
+   "status": "partial: staged items ready"
+  },
+  "@DermatologyCapeTown": {
+   "domain": "dermatology.capetown",
+   "shorts": 1,
+   "videos": 0,
+   "all_pass": true,
+   "status": "partial: staged items ready"
+  }
+ },
+ "qa_summary": {
+  "renders": 6,
+  "passed": 6,
+  "fails": [],
+  "unique_products": true,
+  "free_photos_unique": true,
+  "store_images_shared_between_videos": [],
+  "min_thumb_dist": 59,
+  "min_frame_dist": 47,
+  "similarity_fails": []
+ },
+ "items": [
+  {
+   "domain": "dermatologist.joburg",
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-09 08:00",
+   "format": "short",
+   "slug": "midrand-intensive-moisture-cleanser-short",
+   "sku": "111326",
+   "variant": "150ml",
+   "product": {
+    "name": "intensive moisture cleanser",
+    "listing_url": "https://dermalogica.co.za/products/intensive-moisture-cleanser-intensive-moisture-cleanser?variant=45975450681658",
+    "checked": "2026-11-09",
+    "packshot": "skincare-daily/2026-11-09/images/d1109-111326-00.png",
+    "packshot_sha256": "309b923ec386bc34c536c71726829057e9f9ac26b5d57b587708a5612c1c6372",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Larger_8f933ddb-0e7b-4ada-90c2-81cf980ea62d.png?v=1698672075"
+   },
+   "title": "Dermalogica Intensive Moisture Cleanser: Cleanse Step for Dry Skin #shorts",
+   "description": "Dermalogica intensive moisture cleanser, 150 mL, in under a minute: the cleanse step for dry skin, from the Midrand routine desk.\n\nWe earn a commission if you buy through our link at https://dermatologist.joburg/.\n\n• Light, creamy cleanser with BioReplenish Complex that removes impurities while nourishing dry, depleted skin\n• Coconut oil and murumuru seed butter phytoactives help protect barrier lipids\n• Lather a pea-size amount in very wet hands, massage onto damp face and neck, rinse; twice daily\n\ndermatologist.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/intensive-moisture-cleanser-intensive-moisture-cleanser?variant=45975450681658, checked 2026-11-09); check the current listing before you buy.\n\nShop: https://dermatologist.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #IntensiveMoistureCleanser #SkincareRoutine #shorts",
+   "tags": [
+    "dermalogica intensive moisture cleanser",
+    "intensive moisture cleanser",
+    "cleanser for dry skin",
+    "cream cleanser",
+    "skincare routine step one",
+    "midrand",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 34.02,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-09/renders/dermatologist.joburg/midrand-intensive-moisture-cleanser-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatologist.joburg/midrand-intensive-moisture-cleanser-short.mp4",
+   "sha256": "377afd2726bfa1586efb8f396766a8fef974231cd509ba98f82d9d2933f627a1",
+   "thumbnail_path": "skincare-daily/2026-11-09/renders/dermatologist.joburg/midrand-intensive-moisture-cleanser-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatologist.joburg/midrand-intensive-moisture-cleanser-short.jpg",
+   "thumbnail_sha256": "cf86e91d3383fcd05217475da6fdd13f879500488723940834ef2b11a17e5568",
+   "captions_path": "skincare-daily/2026-11-09/renders/dermatologist.joburg/midrand-intensive-moisture-cleanser-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatologist.joburg/midrand-intensive-moisture-cleanser-short.en.srt",
+   "captions_sha256": "48a26105d265dcd69727d2c4e8ec8d3e87d2e1deb778d3cf3ce1acbda6ef9402",
+   "listing_images": [
+    "skincare-daily/2026-11-09/images/d1109-111326-00.png",
+    "skincare-daily/2026-11-09/images/d1109-111326-01.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111326-04.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111326-05.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_jessica (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.48,
+    "true_peak": -1.94,
+    "packshot_match": 0.942,
+    "srt_cues": 11,
+    "pass": true,
+    "cover_packshot_match": 0.973
+   },
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.capetown",
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-09 08:00",
+   "format": "short",
+   "slug": "capetown-powerbright-moisturiser-spf50-short",
+   "sku": "111013-01",
+   "variant": "50ml",
+   "product": {
+    "name": "powerbright moisturiser spf50",
+    "listing_url": "https://dermalogica.co.za/products/powerbright-moisturiser-spf50-50ml-111013-01?variant=46591322784058",
+    "checked": "2026-11-09",
+    "packshot": "skincare-daily/2026-11-09/images/d1109-111013-01-00.png",
+    "packshot_sha256": "bddc016b6138664471e59f101927cc587c889461fcd19b8561045ceed8f73c25",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Smaller_f8cc3d44-6dfb-4134-aba9-4fcf6ef9c2be.png?v=1698675037"
+   },
+   "title": "Dermalogica PowerBright Moisturiser SPF50: Daily SPF for Dark Spots #shorts",
+   "description": "Dermalogica powerbright moisturiser spf50, 50 mL, in under a minute: a daily SPF moisturizer, from the Cape Town daily sun care desk.\n\nWe earn a commission if you buy through our link at https://dermatology.capetown/.\n\n• Daily SPF50 moisturizer that helps shield against dark spots\n• Niacinamide helps balance skin tone; brown algae helps combat oxidative stress from pollution; hyaluronic acid and safflower oil hydrate\n• Apply over face and neck, avoiding the eyes, preferably 30 minutes before sun; best after PowerBright Dark Spot Serum\n\ndermatology.capetown is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/powerbright-moisturiser-spf50-50ml-111013-01?variant=46591322784058, checked 2026-11-09); check the current listing before you buy.\n\nShop: https://dermatology.capetown/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #PowerBright #DailySPF #shorts",
+   "tags": [
+    "dermalogica powerbright moisturiser spf50",
+    "powerbright moisturiser spf50",
+    "spf50 moisturizer",
+    "daily sunscreen",
+    "dark spots sunscreen",
+    "cape town",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 35.81,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-powerbright-moisturiser-spf50-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-powerbright-moisturiser-spf50-short.mp4",
+   "sha256": "5e4531f56b2f6499556bd73ba8ac2fdc17fa713131d4e2d510bed69904009978",
+   "thumbnail_path": "skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-powerbright-moisturiser-spf50-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-powerbright-moisturiser-spf50-short.jpg",
+   "thumbnail_sha256": "d616dc1aa63ab71947dc1a7797db9d4277f7527081907eefd55da803cbe09f81",
+   "captions_path": "skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-powerbright-moisturiser-spf50-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-powerbright-moisturiser-spf50-short.en.srt",
+   "captions_sha256": "bfda7cdc0229198986e1258bf0d675756753cc4c856453b6d2b8d89a85358c4a",
+   "listing_images": [
+    "skincare-daily/2026-11-09/images/d1109-111013-01-00.png",
+    "skincare-daily/2026-11-09/images/d1109-111013-01-01.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111013-01-02.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111013-01-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_aoede (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.35,
+    "true_peak": -1.41,
+    "packshot_match": 0.96,
+    "srt_cues": 10,
+    "pass": true,
+    "cover_packshot_match": 0.954
+   },
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.durban",
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-09 08:00",
+   "format": "short",
+   "slug": "umhlanga-micro-pore-mist-118ml-short",
+   "sku": "111430",
+   "variant": "118ml",
+   "product": {
+    "name": "micro-pore mist 118ml",
+    "listing_url": "https://dermalogica.co.za/products/micro-pore-mist-118ml-111430?variant=46589510025530",
+    "checked": "2026-11-09",
+    "packshot": "skincare-daily/2026-11-09/images/d1109-111430-00.png",
+    "packshot_sha256": "e7484e198e43af9b7815325e8d286b226678bcfcd048725a55bb45f52105f48a",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Medium_6a8f3754-a597-44d4-86d3-f62fd94333fc.png?v=1698673088"
+   },
+   "title": "Dermalogica Micro-Pore Mist 118ml: When to Spritz It in Your Routine #shorts",
+   "description": "Dermalogica micro-pore mist, 118 mL, in under a minute: when to spritz it, from the uMhlanga hydration desk.\n\nWe earn a commission if you buy through our link at https://dermatology.durban/.\n\n• A mist to minimize the look of pores, reduce excess oil and help diminish the appearance of post-breakout marks\n• Niacinamide; wild rose hips flavonoid complex; cucumber extract\n• Spritz on after cleansing morning and night, or throughout the day as needed\n\ndermatology.durban is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/micro-pore-mist-118ml-111430?variant=46589510025530, checked 2026-11-09); check the current listing before you buy.\n\nShop: https://dermatology.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #MicroPoreMist #Layering #shorts",
+   "tags": [
+    "dermalogica micro-pore mist",
+    "micro-pore mist",
+    "pore minimizing mist",
+    "niacinamide mist",
+    "how to layer skincare",
+    "umhlanga",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 29.53,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-09/renders/dermatology.durban/umhlanga-micro-pore-mist-118ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatology.durban/umhlanga-micro-pore-mist-118ml-short.mp4",
+   "sha256": "1513b3aafae58531b3f8a92353fc3532a3928fc8dd07da7f0f7fbdfac0a5f8da",
+   "thumbnail_path": "skincare-daily/2026-11-09/renders/dermatology.durban/umhlanga-micro-pore-mist-118ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatology.durban/umhlanga-micro-pore-mist-118ml-short.jpg",
+   "thumbnail_sha256": "055ffcde2ac192dcf27101906cfac6b753fd4b7b02f50b7fccac0c7a3acd8822",
+   "captions_path": "skincare-daily/2026-11-09/renders/dermatology.durban/umhlanga-micro-pore-mist-118ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatology.durban/umhlanga-micro-pore-mist-118ml-short.en.srt",
+   "captions_sha256": "656e81a5213b2333e7dab16d79533954d750c70bee2a6cc9afd33e6c5025b714",
+   "listing_images": [
+    "skincare-daily/2026-11-09/images/d1109-111430-00.png",
+    "skincare-daily/2026-11-09/images/d1109-111430-01.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111430-03.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111430-05.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111430-06.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_sarah (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.44,
+    "true_peak": -1.48,
+    "packshot_match": 0.951,
+    "srt_cues": 8,
+    "pass": true,
+    "cover_packshot_match": 0.921
+   },
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.joburg",
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-09 08:00",
+   "format": "short",
+   "slug": "bedfordview-post-breakout-fix-short",
+   "sku": "111447",
+   "variant": "15ml",
+   "product": {
+    "name": "post-breakout fix",
+    "listing_url": "https://dermalogica.co.za/products/post-breakout-fix-15ml-111447?variant=46591316132154",
+    "checked": "2026-11-09",
+    "packshot": "skincare-daily/2026-11-09/images/d1109-111447-00.jpg",
+    "packshot_sha256": "9d8538acbedc970ddc3bde587c863fa5d6c3d16ce3bf3cd071e25958178910bc",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/01_316da71c-4afd-44a6-9302-d392a7ad1498.jpg?v=1761903691"
+   },
+   "title": "Dermalogica Post-Breakout Fix Label: Three Ingredients to Find #shorts",
+   "description": "Dermalogica post-breakout fix, 15 mL, label check in under a minute: the ingredients behind a post-breakout mark treatment.\n\nWe earn a commission if you buy through our link at https://dermatology.joburg/.\n\n• Gel-cream spot treatment that helps fade and brighten post-breakout marks (red and dark spots)\n• Hexylresorcinol, salicylic acid, carob seed extract and squalane\n• After cleansing and toning, apply a small amount to the post-breakout spot, twice a day or as needed, until the mark fades\n\ndermatology.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/post-breakout-fix-15ml-111447?variant=46591316132154, checked 2026-11-09); check the current listing before you buy.\n\nShop: https://dermatology.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #PostBreakoutFix #SkincareLabels #shorts",
+   "tags": [
+    "dermalogica post-breakout fix",
+    "post-breakout fix",
+    "post acne marks",
+    "spot treatment",
+    "how to read skincare labels",
+    "bedfordview",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 58.23,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-09/renders/dermatology.joburg/bedfordview-post-breakout-fix-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatology.joburg/bedfordview-post-breakout-fix-short.mp4",
+   "sha256": "9c24e62b37240afbb803ddb606f9b26d862a1a8cc5a428df00d4bbfa0c50fdda",
+   "thumbnail_path": "skincare-daily/2026-11-09/renders/dermatology.joburg/bedfordview-post-breakout-fix-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatology.joburg/bedfordview-post-breakout-fix-short.jpg",
+   "thumbnail_sha256": "b5e42ca711b26b1ecec7b57c7ae0a438d6582a6293632f695331a62261ac48d4",
+   "captions_path": "skincare-daily/2026-11-09/renders/dermatology.joburg/bedfordview-post-breakout-fix-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatology.joburg/bedfordview-post-breakout-fix-short.en.srt",
+   "captions_sha256": "ae83e7ce521c0d630d4bd604c1d0a2b26173330d8155bc00715ef16b2e12867c",
+   "listing_images": [
+    "skincare-daily/2026-11-09/images/d1109-111447-00.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111447-02.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111447-04.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111447-06.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_nicole (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.32,
+    "true_peak": -1.91,
+    "packshot_match": 0.932,
+    "srt_cues": 10,
+    "pass": true,
+    "cover_packshot_match": 0.967
+   },
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.durban",
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-09 08:00",
+   "format": "short",
+   "slug": "westville-clearing-skin-wash-short",
+   "sku": "W101717",
+   "variant": "500ml",
+   "product": {
+    "name": "clearing skin wash",
+    "listing_url": "https://dermalogica.co.za/products/clearing-skin-wash-clearing-skin-wash?variant=45975459332410",
+    "checked": "2026-11-09",
+    "packshot": "skincare-daily/2026-11-09/images/d1109-W101717-00.png",
+    "packshot_sha256": "237901d4acc6fe2a46680132074ca2abfacc817adeeecb01ad19b351b65ad2b8",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Larger_8e69392a-be42-4afb-af0f-5cc755585ecc.png?v=1698720675"
+   },
+   "title": "Dermalogica Clearing Skin Wash: A Foaming Wash for Face, Chest and Back #shorts",
+   "description": "Dermalogica clearing skin wash, 500 mL, in under a minute: a foaming wash the listing says can go beyond the face, from the Westville body care desk.\n\nWe earn a commission if you buy through our link at https://skincare.durban/.\n\n• Foaming cleanser that clears away excess oil without stripping skin and helps prevent future breakouts\n• Encapsulated salicylic acid (0.5%); rice-derived phytic acid; menthol and camphor cool the skin\n• Pea-sized amount lathered in wet hands, massaged onto damp skin, rinse with warm water; the listing FAQ says it can also be used on the chest or back\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/clearing-skin-wash-clearing-skin-wash?variant=45975459332410, checked 2026-11-09); check the current listing before you buy.\n\nShop: https://skincare.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #ClearingSkinWash #BodyCare #shorts",
+   "tags": [
+    "dermalogica clearing skin wash",
+    "clearing skin wash",
+    "body acne wash",
+    "salicylic acid cleanser",
+    "westville",
+    "durban skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 35.46,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-09/renders/skincare.durban/westville-clearing-skin-wash-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/skincare.durban/westville-clearing-skin-wash-short.mp4",
+   "sha256": "008ec94210028681bbb5f50ec48120035699209c2df2d11aeb129e5e2b2eed36",
+   "thumbnail_path": "skincare-daily/2026-11-09/renders/skincare.durban/westville-clearing-skin-wash-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/skincare.durban/westville-clearing-skin-wash-short.jpg",
+   "thumbnail_sha256": "9b8747491a963c828db34933a7caf4c7753c713224149a2e1235fef9e24c5fb0",
+   "captions_path": "skincare-daily/2026-11-09/renders/skincare.durban/westville-clearing-skin-wash-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/skincare.durban/westville-clearing-skin-wash-short.en.srt",
+   "captions_sha256": "2b2716452f2ecf9cb9e86e029f24070652df6992c3879bfd6e9e25c8e9d9e02a",
+   "listing_images": [
+    "skincare-daily/2026-11-09/images/d1109-W101717-00.png",
+    "skincare-daily/2026-11-09/images/d1109-W101717-02.jpg",
+    "skincare-daily/2026-11-09/images/d1109-W101717-04.jpg",
+    "skincare-daily/2026-11-09/images/d1109-W101717-06.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_bella (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.24,
+    "true_peak": -1.36,
+    "packshot_match": 0.953,
+    "srt_cues": 10,
+    "pass": true,
+    "cover_packshot_match": 0.944
+   },
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.joburg",
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-09 08:00",
+   "format": "short",
+   "slug": "rosebank-breakout-biotic-moisturiser-short",
+   "sku": "111506INT",
+   "variant": "Default Title",
+   "product": {
+    "name": "breakout biotic moisturiser",
+    "listing_url": "https://dermalogica.co.za/products/breakout-biotic-moisturiser-50ml?variant=51688998568250",
+    "checked": "2026-11-09",
+    "packshot": "skincare-daily/2026-11-09/images/d1109-111506INT-00.jpg",
+    "packshot_sha256": "401f5c1f692f53903ca86c0489362e41714147054d4e1363b7ce35f67c2d4254",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/BreakoutBioticMoisturizer_PDP_tiles_R6ProductSpotlight.jpg?v=1755681650"
+   },
+   "title": "Dermalogica Breakout Biotic Moisturiser: A Lightweight Gel Texture #shorts",
+   "description": "Dermalogica breakout biotic moisturiser, 50 mL, in under a minute: a lightweight breakout-targeting gel, from the Rosebank texture desk.\n\nWe earn a commission if you buy through our link at https://skincare.joburg/.\n\n• Daily breakout-targeting gel moisturizer that helps prevent breakouts\n• Prebiotic blend (Indian mulberry, glutamic acid, agave) hydrates and supports the skin's microbiome; bioengineered plankton extract and glycerin\n• After cleansing and toning, apply over face and neck in light, upward strokes; follow with SPF in the morning\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/breakout-biotic-moisturiser-50ml?variant=51688998568250, checked 2026-11-09); check the current listing before you buy.\n\nShop: https://skincare.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #BreakoutBiotic #GelMoisturizer #shorts",
+   "tags": [
+    "dermalogica breakout biotic moisturiser",
+    "breakout biotic moisturiser",
+    "gel moisturizer",
+    "moisturizer for breakouts",
+    "rosebank",
+    "johannesburg skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 33.8,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-09/renders/skincare.joburg/rosebank-breakout-biotic-moisturiser-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/skincare.joburg/rosebank-breakout-biotic-moisturiser-short.mp4",
+   "sha256": "82c35717a33f970fa60382a8e3781c2c74b79eda920d5548f3bb6553a0a78678",
+   "thumbnail_path": "skincare-daily/2026-11-09/renders/skincare.joburg/rosebank-breakout-biotic-moisturiser-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/skincare.joburg/rosebank-breakout-biotic-moisturiser-short.jpg",
+   "thumbnail_sha256": "7767e1a105e4d06b21d5db6f6aa7bd4411e0991d665f2b5f5b734742dc90874c",
+   "captions_path": "skincare-daily/2026-11-09/renders/skincare.joburg/rosebank-breakout-biotic-moisturiser-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/skincare.joburg/rosebank-breakout-biotic-moisturiser-short.en.srt",
+   "captions_sha256": "3be308fc5dd6154ee613b8fd689b6d409902c40cd8e9ed9980bec2d6412ff645",
+   "listing_images": [
+    "skincare-daily/2026-11-09/images/d1109-111506INT-00.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111506INT-01.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111506INT-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_heart (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.23,
+    "true_peak": -1.47,
+    "packshot_match": 0.893,
+    "srt_cues": 8,
+    "pass": true,
+    "cover_packshot_match": 0.891
+   },
+   "status": "ready"
+  }
+ ]
+}
