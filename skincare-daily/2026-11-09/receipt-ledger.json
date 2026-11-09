@@ -7,253 +7,424 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "08:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111506INT",
+      "title": "Dermalogica Breakout Biotic Moisturiser: A Lightweight Gel Texture #shorts",
+      "manifest_slug": "rosebank-breakout-biotic-moisturiser-short",
+      "media_sha256": "82c35717a33f970fa60382a8e3781c2c74b79eda920d5548f3bb6553a0a78678",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@SkincareJoburgRosebank",
       "time": "10:00",
       "format": "regular",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111441",
+      "title": "Dermalogica BioLumin-C Gel Moisturiser: A Weightless Vitamin C Gel, Up Close",
+      "manifest_slug": "rosebank-biolumin-c-gel-moisturiser",
+      "media_sha256": "7973bff2f757b1d5dc682a3f341dd31cebd312daf8eb620160e71b0d8cd941c5",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@SkincareJoburgRosebank",
       "time": "12:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111122",
+      "title": "Dermalogica Skin Soothing Hydrating Lotion: A Sheer Lotion Texture #shorts",
+      "manifest_slug": "rosebank-skin-soothing-hydrating-lotion-short",
+      "media_sha256": "1ba4a7ada140e5c4d02b23da3f7a5f5d33c57d477482dad81210fca44c43d1e6",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@SkincareJoburgRosebank",
       "time": "16:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111012-01",
+      "title": "Dermalogica PowerBright Overnight Cream: The Last Step at Night #shorts",
+      "manifest_slug": "rosebank-powerbright-overnight-cream-short",
+      "media_sha256": "ba2fc5e14592e51c4c378af922513c8d012feae901bcf3f564cf78ce9b65e149",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@SkincareJoburgRosebank",
       "time": "18:00",
       "format": "regular",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "110716",
+      "title": "Dermalogica Multivitamin Power Recovery Masque: A Rich Masque Texture, Step by Step",
+      "manifest_slug": "rosebank-multivitamin-power-recovery-masque",
+      "media_sha256": "6cca8ea6d0d1c74de31bec64ea6f7881a59ef92ce595cdcb6fa58fcc38e24140",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@SkincareJoburgRosebank",
       "time": "20:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111515",
+      "title": "Dermalogica NeuroTouch Symmetry Serum: A Silky Facial Oil Texture #shorts",
+      "manifest_slug": "rosebank-neurotouch-symmetry-serum-short",
+      "media_sha256": "7c2dc47d9255054329184532c8afd8676c9b41895a880b5a4b4bacf9eb00184e",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@SkincareDurbanWestville",
       "time": "08:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "W101717",
+      "title": "Dermalogica Clearing Skin Wash: A Foaming Wash for Face, Chest and Back #shorts",
+      "manifest_slug": "westville-clearing-skin-wash-short",
+      "media_sha256": "008ec94210028681bbb5f50ec48120035699209c2df2d11aeb129e5e2b2eed36",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@SkincareDurbanWestville",
       "time": "10:00",
       "format": "regular",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111476",
+      "title": "Dermalogica Stabilizing Repair Cream: A Balmy Cream for Dry, Irritated Patches",
+      "manifest_slug": "westville-stabilizing-repair-cream",
+      "media_sha256": "06c83177aee5722cb82e3f7072d9510d7805d772ae5bdadf537ccf568063704f",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@SkincareDurbanWestville",
       "time": "12:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111246",
+      "title": "Dermalogica Renewal Lip Complex: How Often to Apply It #shorts",
+      "manifest_slug": "westville-renewal-lip-complex-short",
+      "media_sha256": "aa989e6eb2f58475280411e168e05772506c1224c6beda688cca441bd4ebd0ca",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@SkincareDurbanWestville",
       "time": "16:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "missing_render",
+      "youtube_id": null,
+      "reason": "No distinct verified body-care asset selected by producer. See manifest blocked_slots."
     },
     {
       "channel": "@SkincareDurbanWestville",
       "time": "18:00",
       "format": "regular",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "110910",
+      "title": "Dermalogica Breakout Clearing Foaming Wash: Face, Neck, Chest and Back Directions",
+      "manifest_slug": "westville-breakout-clearing-foaming-wash",
+      "media_sha256": "3a24f970ed9b8f4e65ae36fecf2772d2a8a622aa75fed476e33b64098743e092",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@SkincareDurbanWestville",
       "time": "20:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "missing_render",
+      "youtube_id": null,
+      "reason": "No distinct verified body-care asset selected by producer. See manifest blocked_slots."
     },
     {
       "channel": "@DermatologistJoburgMidrand",
       "time": "08:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111326",
+      "title": "Dermalogica Intensive Moisture Cleanser: Cleanse Step for Dry Skin #shorts",
+      "manifest_slug": "midrand-intensive-moisture-cleanser-short",
+      "media_sha256": "377afd2726bfa1586efb8f396766a8fef974231cd509ba98f82d9d2933f627a1",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologistJoburgMidrand",
       "time": "10:00",
       "format": "regular",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "101511",
+      "title": "Dermalogica Skin Resurfacing Cleanser: A Cleanser and Exfoliant in One Routine Step",
+      "manifest_slug": "midrand-skin-resurfacing-cleanser",
+      "media_sha256": "72df882eaa1f84e575e737bb6045381caec18d32fb3359512b150697760562db",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologistJoburgMidrand",
       "time": "12:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "301337INT",
+      "title": "Dermalogica Two Steps to Smooth Skin: Cleanse, Then Exfoliate #shorts",
+      "manifest_slug": "midrand-two-steps-to-smooth-skin-short",
+      "media_sha256": "aac9d9a91a4c6a6900915c7ff49356e1c809c33a297c81691070b22e9f88fbad",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologistJoburgMidrand",
       "time": "16:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111512",
+      "title": "Dermalogica Magnetic[+] AfterGlow Cleanser: A Cream Cleanse Step #shorts",
+      "manifest_slug": "midrand-magnetic-afterglow-cleanser-short",
+      "media_sha256": "25b136d2dcb6327f4a4e8906c3bf76d32f49df1e2bc26e0bacf75812a6ec346c",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologistJoburgMidrand",
       "time": "18:00",
       "format": "regular",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111448INT",
+      "title": "Dermalogica Breakout Clearing Kit: A Three-Step Routine, Step by Step",
+      "manifest_slug": "midrand-breakout-clearing-kit",
+      "media_sha256": "c4a9dbe830fd9d625dfdf779c2705415f25357a9a2fc4bc5ddc8654d5653563e",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologistJoburgMidrand",
       "time": "20:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111450INT",
+      "title": "Dermalogica Daily Brightness Boosters Kit: Three Steps in Order #shorts",
+      "manifest_slug": "midrand-daily-brightness-boosters-kit-short",
+      "media_sha256": "637525e6fede6cc8e1f027973268b8797d6666c82e5bf7b3ae7a5af2a311a587",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
       "time": "08:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111447",
+      "title": "Dermalogica Post-Breakout Fix Label: Three Ingredients to Find #shorts",
+      "manifest_slug": "bedfordview-post-breakout-fix-short",
+      "media_sha256": "9c24e62b37240afbb803ddb606f9b26d862a1a8cc5a428df00d4bbfa0c50fdda",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
       "time": "10:00",
       "format": "regular",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111404",
+      "title": "Dermalogica PowerBright Dark Spot Serum Label Explained: Niacinamide and Hexylresorcinol",
+      "manifest_slug": "bedfordview-powerbright-dark-spot-serum",
+      "media_sha256": "4c2eff2ce030884a4f5e89a9b96741c4ff25886167e71ba323aad15507e7d639",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
       "time": "12:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111295",
+      "title": "Dermalogica Breakout Clearing Booster Label: Salicylic Acid and Niacinamide #shorts",
+      "manifest_slug": "bedfordview-breakout-clearing-booster-short",
+      "media_sha256": "f79c6866982cecb567c5d1e8fe8750126da01a26a7fe808843e691ac7859a6d6",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
       "time": "16:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111293",
+      "title": "Dermalogica Blackhead Clearing Fizz Mask Label: 3% Sulfur and Kaolin Clay #shorts",
+      "manifest_slug": "bedfordview-blackhead-clearing-fizz-mask-short",
+      "media_sha256": "7fa955d3f86c9e273d5f9c13546f3b0c079549429296f2c46beb6b9b05ea8a23",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
       "time": "18:00",
       "format": "regular",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111236",
+      "title": "Dermalogica Age Reversal Eye Complex Label Explained: Retinol Around the Eyes",
+      "manifest_slug": "bedfordview-age-reversal-eye-complex",
+      "media_sha256": "af417c9ba60498ad9f35844f98913847689c914b950ac7d1ec5b098347ebbc3f",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
       "time": "20:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111289",
+      "title": "Dermalogica BioLumin-C Serum Label: Vitamin C, Then the Directions #shorts",
+      "manifest_slug": "bedfordview-biolumin-c-serum-short",
+      "media_sha256": "97ba104ae53feef57ef20813308cc03e604ceb60590edb6a7e32be0d4fe6db0f",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "08:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111430",
+      "title": "Dermalogica Micro-Pore Mist 118ml: When to Spritz It in Your Routine #shorts",
+      "manifest_slug": "umhlanga-micro-pore-mist-118ml-short",
+      "media_sha256": "1513b3aafae58531b3f8a92353fc3532a3928fc8dd07da7f0f7fbdfac0a5f8da",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "10:00",
       "format": "regular",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111508",
+      "title": "Dermalogica Dynamic Skin Strengthening Serum 30ml: Where a Milky Serum Goes in Your Layers",
+      "manifest_slug": "umhlanga-dynamic-skin-strengthening-serum-30ml",
+      "media_sha256": "352628aef37f7659be4dbfe422f9bd64e173b05779cd587d73672825ab814e98",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "12:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111449",
+      "title": "Dermalogica Awaken Peptide Eye Gel: Where the Eye Gel Goes #shorts",
+      "manifest_slug": "umhlanga-awaken-peptide-eye-gel-short",
+      "media_sha256": "60bae03cf68005f8483d91cd6f97e04b23324f4395bf8578329dc552492ef8a0",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "16:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111257",
+      "title": "Dermalogica Stress Positive Eye Lift: A 3-5 Minute Eye Masque #shorts",
+      "manifest_slug": "umhlanga-stress-positive-eye-lift-short",
+      "media_sha256": "4565cbddbcbb3edefca1e640850ff825877175d69242c35ea87e56afa231cc17",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "18:00",
       "format": "regular",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111483",
+      "title": "Dermalogica Pro-Collagen Banking Serum: How Many Pumps and Where It Goes",
+      "manifest_slug": "umhlanga-pro-collagen-banking-serum",
+      "media_sha256": "c2714c8eb70758d4ca698d0fbaa9de58d4861de940018c8c7eb2ca116b64554c",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "20:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111432",
+      "title": "Dermalogica Smart Response Serum: When to Layer It #shorts",
+      "manifest_slug": "umhlanga-smart-response-serum-short",
+      "media_sha256": "3f037c66ae05cd0b4ee63478ce9567498549ab1c05de556f7b9776df683bf317",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyCapeTown",
       "time": "08:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111013-01",
+      "title": "Dermalogica PowerBright Moisturiser SPF50: Daily SPF for Dark Spots #shorts",
+      "manifest_slug": "capetown-powerbright-moisturiser-spf50-short",
+      "media_sha256": "5e4531f56b2f6499556bd73ba8ac2fdc17fa713131d4e2d510bed69904009978",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyCapeTown",
       "time": "10:00",
       "format": "regular",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "W110641",
+      "title": "Dermalogica SkinPerfect Primer SPF30: Primer, SPF and Where It Goes in the Morning",
+      "manifest_slug": "capetown-skinperfect-primer-spf30",
+      "media_sha256": "e2fa79bc8b9edc9d70f4bf5391966bd2c376412551bcb4f4c19baed9a8a62dbc",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyCapeTown",
       "time": "12:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "301339INT",
+      "title": "Dermalogica Get + Keep Your Glow Kit (2 Full-Size): Serum, Then SPF50 #shorts",
+      "manifest_slug": "capetown-get-keep-your-glow-kit-2-full-size-short",
+      "media_sha256": "8a88feebcf2aa85eacaae4a43f64966509cc5811c48bd6b330d50ba5b374fb4f",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyCapeTown",
       "time": "16:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "missing_render",
+      "youtube_id": null,
+      "reason": "No distinct verified sun-care asset selected by producer. See manifest blocked_slots."
     },
     {
       "channel": "@DermatologyCapeTown",
       "time": "18:00",
       "format": "regular",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "301243INT",
+      "title": "Dermalogica Skin Transformation Duo: Exfoliate, Then SPF50 in the Morning",
+      "manifest_slug": "capetown-skin-transformation-duo",
+      "media_sha256": "c0d85de2d4e55c3e4e227640a3edbd93374000db9d8ca8128567b3f78d21f1c8",
+      "asset_checksums_verified": true
     },
     {
       "channel": "@DermatologyCapeTown",
       "time": "20:00",
       "format": "short",
-      "status": "awaiting reconciliation",
-      "youtube_id": null
+      "status": "missing_render",
+      "youtube_id": null,
+      "reason": "No distinct verified sun-care asset selected by producer. See manifest blocked_slots."
     }
-  ]
+  ],
+  "reconciliation": {
+    "staged_files_verified": 32,
+    "missing_renders": 4,
+    "channel_matched_youtube_ids_verified": 0,
+    "destination_check": "No channel-specific publishing authorization verified for this run. Private scheduled uploads could not be inspected. Reconcile Studio before upload.",
+    "first_success_email": "awaiting_first_verified_youtube_id"
+  }
 }
