@@ -1,0 +1,531 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 52,
+ "slug": "and-for-the-lady-perhaps-the-gift-list",
+ "title": "And For The Lady, Perhaps... The Gift List",
+ "trend": "Instagram Reels 'And For the Lady, Perhaps' (text 'And for the [person], perhaps...' then that person's perfect treat; New Engen Instagram list updated Nov 6 2026, US) + nostalgic toys leading US holiday gift searches (toy train sets and roller skates top Google's Holiday 100, Nov 9 2026) — Grandpa Walt presents the family gift list like a fancy waiter and every gift is a toy train; twist: Grandma Odessa found his old train in September, bought him new track, and the roller skates are for both of them",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "lofi",
+ "intro": [
+  "and for the lady, perhaps...",
+  "grandpa's holiday",
+  "gift list"
+ ],
+ "youtube_title": "And for the lady, perhaps... Grandpa's holiday gift list 🚂",
+ "description": "Grandpa Walt presents the family gift list like a fancy waiter. Somehow every gift is a toy train. Grandma Odessa has her own menu.\n\n#cartoon #animation #funny #grandpa #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "grandpa",
+  "toy train",
+  "holiday gifts",
+  "family comedy"
+ ],
+ "tiktok_caption": "and for the lady, perhaps... grandpa's holiday gift list 🚂 #cartoon #animation #funny #grandpa",
+ "cast": [
+  {
+   "id": "walt",
+   "name": "Grandpa Walt",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "bald",
+    "color": "#d5d8dc"
+   },
+   "top": {
+    "color": "#2c3e50",
+    "pattern": "suit",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#1c2833",
+   "shoes": "#000000",
+   "accessories": [
+    "mustache:#d5d8dc",
+    "tie:#8e44ad",
+    "glasses"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#aed6f1",
+   "voice": {
+    "id": "am_michael",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "odessa",
+   "name": "Grandma Odessa",
+   "kind": "human",
+   "color": "#6f4e37",
+   "hair": {
+    "style": "short",
+    "color": "#bdc3c7"
+   },
+   "top": {
+    "color": "#d35400",
+    "pattern": "dots",
+    "pattern_color": "#f9e79f"
+   },
+   "bottom": "#4a235a",
+   "shoes": "#c0392b",
+   "accessories": [
+    "glasses",
+    "scarf:#f1c40f"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#f0b27a",
+   "voice": {
+    "id": "af_heart",
+    "pitch": -2,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "nico",
+   "name": "Nico",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.88,
+   "hair": {
+    "style": "spiky",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#2980b9",
+    "pattern": "hoodie"
+   },
+   "bottom": "#5d6d7e",
+   "shoes": "#ecf0f1",
+   "accessories": [],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#85c1e9",
+   "voice": {
+    "id": "am_adam",
+    "pitch": 2,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "train",
+   "name": "The Toy Train",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#c0392b",
+   "accessories": [
+    "cap:#1f3a93",
+    "scarf:#f4d03f"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#f1948a",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "walt",
+   "text": "Good evening. Tonight I present the family holiday gift list. Like a fine restaurant.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "odessa",
+   "text": "Walter, you have a towel on your arm.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "walt",
+   "text": "Every good waiter has a towel. And for the lady, perhaps...",
+   "shot": "CU",
+   "gesture": "hips",
+   "pre": 0.2
+  },
+  {
+   "spk": "walt",
+   "text": "Roller skates.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "ding"
+  },
+  {
+   "spk": "odessa",
+   "text": "I have not skated since nineteen seventy nine.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "walt",
+   "text": "I remember. You took out a disco ball.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "odessa",
+   "text": "The disco ball took me out. There is a difference.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "walt",
+   "text": "These have brakes. And little lights in the wheels.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "odessa",
+   "text": "Little lights. Hmm. Continue.",
+   "shot": "odessa",
+   "gesture": "think"
+  },
+  {
+   "spk": "nico",
+   "text": "Grandpa, did you make my list too? I wrote it down very clearly.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "walt",
+   "text": "And for the young man, perhaps...",
+   "shot": "CU",
+   "gesture": "hips",
+   "pre": 0.2
+  },
+  {
+   "spk": "walt",
+   "text": "A toy train set.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "ding"
+  },
+  {
+   "spk": "nico",
+   "text": "I asked for a phone.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "walt",
+   "text": "This train has a whistle. It is like a phone, but everybody can hear it.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "nico",
+   "text": "That is the opposite of a phone.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "train",
+   "text": "Good evening. I am the train. Please do not return me.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "nico",
+   "text": "Why is the train talking?",
+   "shot": "nico",
+   "gesture": "point"
+  },
+  {
+   "spk": "train",
+   "text": "I have been in the attic since nineteen eighty seven. I have a lot to say.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "odessa",
+   "text": "Walter. That is your train.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "walt",
+   "text": "It is everybody's train. It is a family train.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "train",
+   "text": "He played with me every night until his mother hid me behind the Christmas tree box.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "walt",
+   "text": "It was a dark time for both of us.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "sting"
+  },
+  {
+   "spk": "nico",
+   "text": "What else is on the menu?",
+   "shot": "CU"
+  },
+  {
+   "spk": "walt",
+   "text": "And for the baby, perhaps...",
+   "shot": "CU",
+   "gesture": "hips",
+   "pre": 0.2
+  },
+  {
+   "spk": "odessa",
+   "text": "We do not have a baby, Walter.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "walt",
+   "text": "For the baby we might have one day. Perhaps... a toy train set.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "nico",
+   "text": "That is the same train.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "walt",
+   "text": "It is a second train. They can be friends.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "train",
+   "text": "I would love a friend. The attic mouse only talks about cheese.",
+   "shot": "train",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "odessa",
+   "text": "And for the dog, perhaps?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "walt",
+   "text": "A train.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "odessa",
+   "text": "And for your cousin Darlene?",
+   "shot": "CU"
+  },
+  {
+   "spk": "walt",
+   "text": "A train. With a card that says I am sorry about the boat.",
+   "shot": "CU",
+   "gesture": "think",
+   "after": "rimshot"
+  },
+  {
+   "spk": "nico",
+   "text": "Grandpa. How many trains are on this list?",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "walt",
+   "text": "Eleven. And a track that goes around the whole house.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "odessa",
+   "text": "Through the kitchen?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "walt",
+   "text": "Through the kitchen, under the couch, past the bathroom. With a little tunnel.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "train",
+   "text": "A tunnel. I have never been in a tunnel. I have only been in a box.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "odessa",
+   "text": "Walter. Sit down. I have a menu too.",
+   "shot": "W",
+   "gesture": "point",
+   "pre": 0.9
+  },
+  {
+   "spk": "walt",
+   "text": "You do?",
+   "shot": "walt",
+   "gesture": "think"
+  },
+  {
+   "spk": "odessa",
+   "text": "I have been planning since September. Towel.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "walt",
+   "text": "Here is my towel.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "odessa",
+   "text": "Thank you. And for the gentleman, perhaps...",
+   "shot": "CU",
+   "gesture": "hips",
+   "pre": 0.2
+  },
+  {
+   "spk": "odessa",
+   "text": "The train set he already has. I found it in the attic in September.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "train",
+   "text": "She cleaned my wheels. Nobody has cleaned my wheels since the eighties.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "walt",
+   "text": "You knew?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "odessa",
+   "text": "I bought you eleven feet of new track. It is in the garage behind the snow shovel.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "nico",
+   "text": "So Grandpa's whole list was for Grandpa.",
+   "shot": "nico",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "odessa",
+   "text": "Of course it was. Look at his face.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "walt",
+   "text": "I am not crying. I have dust in my eye. From nineteen eighty seven.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "odessa",
+   "text": "And for the gentleman, perhaps... knee pads.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "walt",
+   "text": "Why knee pads?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "odessa",
+   "text": "Because the roller skates are for you, too. We are skating to the train.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "nico",
+   "text": "Can I get anything that is not a train?",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "odessa",
+   "text": "And for the young man, perhaps... a phone.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "nico",
+   "text": "Really?",
+   "shot": "nico",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "odessa",
+   "text": "To film your grandfather on skates. It will be a holiday tradition.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "applause"
+  },
+  {
+   "spk": "walt",
+   "text": "I want it noted that I was the waiter.",
+   "shot": "W",
+   "gesture": "cross"
+  },
+  {
+   "spk": "odessa",
+   "text": "You were a lovely waiter. Your tip is a tunnel.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "train",
+   "text": "Excuse me. And for the train, perhaps?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "walt",
+   "text": "For the train, perhaps... the whole house.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "train",
+   "text": "Finally. All aboard. Mind the couch.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "whoosh",
+   "jump": true
+  }
+ ]
+}

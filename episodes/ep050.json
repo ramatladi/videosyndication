@@ -1,0 +1,531 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 50,
+ "slug": "sorry-i-wasnt-listening-halftime",
+ "title": "Sorry, I Wasn't Listening: The Halftime Speech",
+ "trend": "Instagram Reels 'Sorry, I Wasn't Listening' (text admits daydreaming about something specific; New Engen Instagram list updated Nov 6 2026, US) + basketball season tipping off (college basketball among top US Google searches, Nov 9 2026) — a youth basketball coach gives a fiery halftime speech while her players and the basketball admit they were daydreaming; twist: the team is actually up by twenty (she read the wrong side of the scoreboard) and she was daydreaming about the nacho cheese pump too",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "stadium",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "sorry, i wasn't listening",
+  "the halftime speech"
+ ],
+ "youtube_title": "Sorry, I wasn't listening: the halftime speech 🏀",
+ "description": "Coach Rhonda has a big halftime speech ready. Jalen is thinking about nachos, Mia is watching a dog in a hat, and the basketball has feelings for the floor.\n\n#cartoon #animation #funny #basketball #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "basketball",
+  "coach",
+  "halftime",
+  "kids sports"
+ ],
+ "tiktok_caption": "sorry, i wasn't listening: the halftime speech 🏀 #cartoon #animation #funny #basketball",
+ "cast": [
+  {
+   "id": "coach",
+   "name": "Coach Rhonda",
+   "kind": "human",
+   "color": "#a0522d",
+   "hair": {
+    "style": "ponytail",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#1f3a93",
+    "pattern": "jersey",
+    "pattern_color": "#f4d03f",
+    "number": "1"
+   },
+   "bottom": "#1c2833",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "whistle",
+    "cap:#f4d03f"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#5dade2",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": -1,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "jalen",
+   "name": "Jalen",
+   "kind": "human",
+   "color": "#6f4e37",
+   "scale": 0.86,
+   "hair": {
+    "style": "afro",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "7"
+   },
+   "bottom": "#c0392b",
+   "shoes": "#f39c12",
+   "accessories": [],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#ec7063",
+   "voice": {
+    "id": "am_echo",
+    "pitch": 2,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "mia",
+   "name": "Mia",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 0.86,
+   "hair": {
+    "style": "bun",
+    "color": "#5d4037"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "3"
+   },
+   "bottom": "#c0392b",
+   "shoes": "#8e44ad",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#f1948a",
+   "voice": {
+    "id": "af_river",
+    "pitch": 2,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "ball",
+   "name": "The Basketball",
+   "kind": "mascot",
+   "shape": "ball",
+   "color": "#e67e22",
+   "accessories": [
+    "headphones:#2c3e50"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#f0b27a",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "coach",
+   "text": "Halftime. Bring it in. We are down by twenty and I have a speech.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jalen",
+   "text": "Coach, I am so sorry. I was not listening. I was thinking about nachos.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "coach",
+   "text": "I have not started the speech yet, Jalen.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jalen",
+   "text": "I know. I was getting ahead.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "coach",
+   "text": "Okay. Listen. Defense is a feeling. You feel the other guy.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "coach",
+   "text": "You feel his breathing. You become his shadow. Did you hear me?",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jalen",
+   "text": "Sorry. I wasn't listening. The nacho cheese has a pump.",
+   "shot": "jalen",
+   "gesture": "think"
+  },
+  {
+   "spk": "coach",
+   "text": "A pump.",
+   "shot": "coach"
+  },
+  {
+   "spk": "jalen",
+   "text": "You push it and the cheese just comes out. Like a little cheese volcano.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "coach",
+   "text": "Jalen, there is a game.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "jalen",
+   "text": "There is also a volcano.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "coach",
+   "text": "Mia. You are my point guard. You are my brain. Talk to me.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "mia",
+   "text": "Sorry, Coach. I wasn't listening. There is a dog in row three in a little hat.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "coach",
+   "text": "We do not look at the crowd.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "mia",
+   "text": "He is wearing a hat and a tiny jersey. He has better posture than me.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jalen",
+   "text": "He clapped earlier.",
+   "shot": "jalen",
+   "gesture": "wave"
+  },
+  {
+   "spk": "mia",
+   "text": "He did not clap. He wagged. It counts.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "coach",
+   "text": "When I was your age I did not see dogs. I saw the basket.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "mia",
+   "text": "Did the basket have a hat?",
+   "shot": "mia"
+  },
+  {
+   "spk": "coach",
+   "text": "No.",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "coach",
+   "text": "Fine. Ball. You were out there all half. What did you see?",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "ball",
+   "text": "Sorry, I wasn't listening. I was thinking about the floor.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "coach",
+   "text": "The floor.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "ball",
+   "text": "I hit the floor four hundred times a game. At some point it becomes a relationship.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "jalen",
+   "text": "Is it serious?",
+   "shot": "jalen"
+  },
+  {
+   "spk": "ball",
+   "text": "She squeaks when I land. That is how I know she cares.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "mia",
+   "text": "That is the sneakers.",
+   "shot": "mia",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ball",
+   "text": "Do not take this from me.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "coach",
+   "text": "Everybody. Eyes on me. This is the part where I get loud.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "coach",
+   "text": "We pass! We move! We box out! We want it more than them!",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "coach",
+   "text": "Did anybody hear any of that?",
+   "shot": "CU",
+   "gesture": "hips",
+   "pre": 0.8
+  },
+  {
+   "spk": "jalen",
+   "text": "I heard want.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "mia",
+   "text": "I heard box. I thought of the dog in a box.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "ball",
+   "text": "I heard out. I would love to go out. With the floor.",
+   "shot": "CU"
+  },
+  {
+   "spk": "coach",
+   "text": "You are ten years old and a ball. How are we this bad at listening?",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jalen",
+   "text": "Coach, can I ask a question?",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "coach",
+   "text": "Is it about defense?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "jalen",
+   "text": "It is about the score.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "coach",
+   "text": "We are down twenty. I looked at it at the buzzer.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "mia",
+   "text": "Coach, we are home. Home is on the left.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "coach",
+   "text": "I know where home is.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "mia",
+   "text": "You were reading the right. That is the other team.",
+   "shot": "CU"
+  },
+  {
+   "spk": "coach",
+   "text": "Say that again. Slowly.",
+   "shot": "coach",
+   "gesture": "think",
+   "pre": 0.9
+  },
+  {
+   "spk": "mia",
+   "text": "We are up by twenty.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "ball",
+   "text": "I knew that. I was there for every point. I just was not listening.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jalen",
+   "text": "So the speech was for the other team?",
+   "shot": "jalen"
+  },
+  {
+   "spk": "coach",
+   "text": "The speech was for everyone. It was a general speech.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "mia",
+   "text": "Coach. Were you listening to the game?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "coach",
+   "text": "Sorry. I wasn't listening.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "coach",
+   "text": "I was thinking about the nachos.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "jalen",
+   "text": "The pump?",
+   "shot": "jalen",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "coach",
+   "text": "The pump. I pushed it at the start of the half. I have been thinking about it since.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "mia",
+   "text": "That is why you kept looking at the snack stand.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "coach",
+   "text": "I was looking at the defense near the snack stand.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "ball",
+   "text": "Nobody plays defense near the snack stand. I have seen it.",
+   "shot": "ball"
+  },
+  {
+   "spk": "coach",
+   "text": "Okay. New plan. Same as the old plan, but we are winning.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "mia",
+   "text": "And after the game?",
+   "shot": "CU"
+  },
+  {
+   "spk": "coach",
+   "text": "Nachos for everyone. Even the ball.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "ball",
+   "text": "Can the floor come?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "coach",
+   "text": "The floor stays. The floor has a job.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "mia",
+   "text": "Can the dog in the hat come?",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "coach",
+   "text": "Yes. He has better posture than all of us.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "applause"
+  },
+  {
+   "spk": "jalen",
+   "text": "Coach, what was the speech about again?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "coach",
+   "text": "Sorry. I wasn't listening.",
+   "shot": "W",
+   "gesture": "shrug",
+   "after": "rimshot"
+  }
+ ]
+}

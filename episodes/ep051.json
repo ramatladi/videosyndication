@@ -1,0 +1,502 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 51,
+ "slug": "go-go-go-before-the-sun-leaves",
+ "title": "Go, Go, Go! Before The Sun Leaves",
+ "trend": "TikTok 'Go, Go, Go' (frantic 'go' audio over moments that demand immediate action; New Engen TikTok list updated Nov 4-5 2026, US) + early November darkness after the clocks fell back (sunset before 5 pm across much of the US) — Ray sprints his daughter Kiara through raking, hanging lights and grilling before a chatty Sun clocks out at four fifty one; twist: Ray never changed his watch when the clocks went back, so they had an extra hour all along",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "park_day",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "go, go, go!",
+  "when the sun leaves",
+  "at four fifty one"
+ ],
+ "youtube_title": "Go, go, go! The sun leaves at 4:51 ☀️",
+ "description": "It is November and the sun is clocking out early. Ray has a whole Saturday list and thirty six minutes. Kiara has questions about his watch.\n\n#cartoon #animation #funny #comedy #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "november",
+  "dad and daughter",
+  "raking leaves",
+  "family comedy"
+ ],
+ "tiktok_caption": "go, go, go! the sun leaves at 4:51 ☀️ #cartoon #animation #funny #comedy",
+ "cast": [
+  {
+   "id": "ray",
+   "name": "Ray",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "short",
+    "color": "#4a2c17"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "stripes",
+    "pattern_color": "#145a32"
+   },
+   "bottom": "#5d4037",
+   "shoes": "#2c3e50",
+   "accessories": [
+    "beanie:#d35400",
+    "beard:#4a2c17"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#58d68d",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 1.1
+   }
+  },
+  {
+   "id": "kiara",
+   "name": "Kiara",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.94,
+   "hair": {
+    "style": "curly",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#f39c12",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "headphones:#8e44ad"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#f8c471",
+   "voice": {
+    "id": "af_bella",
+    "pitch": 1,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "sun",
+   "name": "The Sun",
+   "kind": "mascot",
+   "shape": "ball",
+   "color": "#f9d71c",
+   "accessories": [
+    "sunglasses",
+    "scarf:#e74c3c"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#f7dc6f",
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "ray",
+   "text": "Kiara, it is four fifteen. The sun leaves at four fifty one. Go, go, go!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "kiara",
+   "text": "Dad, it is a Saturday. Why are we sprinting?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ray",
+   "text": "Because in November the day is a rumor. Rake. Go, go, go!",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "sun",
+   "text": "Good afternoon. Just so everyone knows, I am packing up.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "kiara",
+   "text": "Is the sun talking to us?",
+   "shot": "kiara",
+   "gesture": "point"
+  },
+  {
+   "spk": "sun",
+   "text": "Only in November. I like to give people a heads up.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ray",
+   "text": "How long do we have?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "sun",
+   "text": "Thirty six minutes. Then I go see my other customers.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "sting"
+  },
+  {
+   "spk": "ray",
+   "text": "Leaves. Pile. Bag. Go, go, go!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "kiara",
+   "text": "The wind just took the whole pile into the Hendersons' yard.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ray",
+   "text": "Then we rake the Hendersons' yard. Go!",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kiara",
+   "text": "They are sitting in it, Dad. They are having a picnic in our leaves.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "sun",
+   "text": "They brought a thermos. Lovely people.",
+   "shot": "sun"
+  },
+  {
+   "spk": "ray",
+   "text": "Wave politely and take the leaves back. Go, go, go!",
+   "shot": "CU",
+   "gesture": "wave",
+   "after": "whoosh"
+  },
+  {
+   "spk": "sun",
+   "text": "Twenty nine minutes. I am putting on my coat.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kiara",
+   "text": "You do not have a coat. You are a ball of fire.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "sun",
+   "text": "I have a little cloud. It is very slimming.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ray",
+   "text": "Lights. On the gutter. Ladder. Go, go, go!",
+   "shot": "W",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "kiara",
+   "text": "Dad, it is the tenth of November.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "ray",
+   "text": "And when do you want to hang lights? December? In the dark? In the cold? Like an animal?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "kiara",
+   "text": "The lights are tangled into one big ball.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ray",
+   "text": "That is not a tangle. That is a puzzle with a deadline.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "sun",
+   "text": "Twenty one minutes. I am stretching.",
+   "shot": "sun",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "kiara",
+   "text": "Can you stretch slower?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "sun",
+   "text": "I have done this every day for a very long time. I am not slowing down for a gutter.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "ray",
+   "text": "Plug them in. Go!",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kiara",
+   "text": "Half of them work. They spell out a sad face on the roof.",
+   "shot": "TWO",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "ray",
+   "text": "It is a festive sad face. Next. Grill. Go, go, go!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "kiara",
+   "text": "Why are we grilling?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "ray",
+   "text": "Because a man grills in daylight. After dark I just stand outside with meat.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "sun",
+   "text": "Fourteen minutes. I am saying goodbye to the birds.",
+   "shot": "sun",
+   "gesture": "wave"
+  },
+  {
+   "spk": "kiara",
+   "text": "The birds left in October. You are waving at a bag on a branch.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "sun",
+   "text": "It is a very loyal bag.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ray",
+   "text": "Burgers on. Flip. Go, go, go!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "kiara",
+   "text": "Dad, I have been meaning to ask you something.",
+   "shot": "TWO",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "ray",
+   "text": "Ask while you flip.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kiara",
+   "text": "What time does your watch say?",
+   "shot": "CU"
+  },
+  {
+   "spk": "ray",
+   "text": "Four forty four. Seven minutes. Go!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "kiara",
+   "text": "My phone says three forty four.",
+   "shot": "TWO",
+   "gesture": "hips",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "ray",
+   "text": "Your phone is wrong.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kiara",
+   "text": "My phone changes by itself. Your watch is from the mall in two thousand eleven.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "sun",
+   "text": "She is right. I was just being polite. I have over an hour.",
+   "shot": "sun",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ray",
+   "text": "You said thirty six minutes!",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "sun",
+   "text": "You looked so excited. I did not want to ruin your sprint.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "kiara",
+   "text": "You did not change your watch when the clocks went back.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "ray",
+   "text": "I changed the microwave. That is the important one.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "kiara",
+   "text": "So for ten days you have been leaving work an hour early?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "ray",
+   "text": "I thought everybody was just working very late.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "sun",
+   "text": "They did look surprised every day at three.",
+   "shot": "sun"
+  },
+  {
+   "spk": "ray",
+   "text": "So we have an hour.",
+   "shot": "W",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "kiara",
+   "text": "We have an hour, a sad face on the roof and the Hendersons in our leaves.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "ray",
+   "text": "Okay. Calm. New plan. We do everything again. Slowly.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "sun",
+   "text": "I would love to watch that. I will stay a little.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "kiara",
+   "text": "Can you do that?",
+   "shot": "kiara"
+  },
+  {
+   "spk": "sun",
+   "text": "No. Four fifty one. I have Australia at eight. It is summer there. They need me.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "ray",
+   "text": "What is it like in Australia?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "sun",
+   "text": "Everybody grills in daylight. It is your dream, Ray.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ray",
+   "text": "Kiara. Pack a bag.",
+   "shot": "CU",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "kiara",
+   "text": "Dad, it is a twenty hour flight.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ray",
+   "text": "Then we leave at four fifty one with him. Go, go, go!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "whoosh"
+  },
+  {
+   "spk": "kiara",
+   "text": "Fix your watch first.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "ray",
+   "text": "Fine. Watch fixed. It is three forty six. Nothing to do.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "sun",
+   "text": "Now you know how I feel all of July.",
+   "shot": "W",
+   "gesture": "shrug",
+   "after": "rimshot"
+  }
+ ]
+}
