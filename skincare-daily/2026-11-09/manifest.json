@@ -1,50 +1,10 @@
 {
  "date": "2026-11-09",
  "ledger": "skincare-daily/2026-11-09/receipt-ledger.json",
- "blocked_slots": [
-  {
-   "channel": "@SkincareDurbanWestville",
-   "time": "16:00",
-   "format": "short",
-   "reason": "No unused body-care product with an exact SKU left on dermalogica.co.za: every body product was featured on Nov 7 or Nov 8 (the two remaining body kits list no SKU). Needs Sello's choice: repeat a body product in another size, or use a face product."
-  },
-  {
-   "channel": "@SkincareDurbanWestville",
-   "time": "20:00",
-   "format": "short",
-   "reason": "Same as 16:00."
-  },
-  {
-   "channel": "@DermatologyCapeTown",
-   "time": "16:00",
-   "format": "short",
-   "reason": "No unused sun-care product left on dermalogica.co.za: every SPF product was featured on Nov 7 or Nov 8; the remaining SPF listings are kits or sizes of Dynamic Skin Recovery SPF50 (featured Nov 8). Needs Sello's choice."
-  },
-  {
-   "channel": "@DermatologyCapeTown",
-   "time": "20:00",
-   "format": "short",
-   "reason": "Same as 16:00."
-  }
- ],
  "publishing": "Codex publishes; nothing here is uploaded or scheduled by this batch. Nov 7 launch queue untouched.",
  "commission_disclosure": "description only",
  "language": "American English",
  "channels": {
-  "@SkincareJoburgRosebank": {
-   "domain": "skincare.joburg",
-   "shorts": 4,
-   "videos": 2,
-   "all_pass": true,
-   "status": "ready"
-  },
-  "@SkincareDurbanWestville": {
-   "domain": "skincare.durban",
-   "shorts": 2,
-   "videos": 2,
-   "all_pass": true,
-   "status": "partial: staged items ready"
-  },
   "@DermatologistJoburgMidrand": {
    "domain": "dermatologist.joburg",
    "shorts": 4,
@@ -52,8 +12,8 @@
    "all_pass": true,
    "status": "ready"
   },
-  "@DermatologyJoburgBedfordview": {
-   "domain": "dermatology.joburg",
+  "@DermatologyCapeTown": {
+   "domain": "dermatology.capetown",
    "shorts": 4,
    "videos": 2,
    "all_pass": true,
@@ -66,12 +26,26 @@
    "all_pass": true,
    "status": "ready"
   },
-  "@DermatologyCapeTown": {
-   "domain": "dermatology.capetown",
-   "shorts": 2,
+  "@DermatologyJoburgBedfordview": {
+   "domain": "dermatology.joburg",
+   "shorts": 4,
    "videos": 2,
    "all_pass": true,
-   "status": "partial: staged items ready"
+   "status": "ready"
+  },
+  "@SkincareDurbanWestville": {
+   "domain": "skincare.durban",
+   "shorts": 4,
+   "videos": 2,
+   "all_pass": true,
+   "status": "ready"
+  },
+  "@SkincareJoburgRosebank": {
+   "domain": "skincare.joburg",
+   "shorts": 4,
+   "videos": 2,
+   "all_pass": true,
+   "status": "ready"
   }
  },
  "qa_summary": {
@@ -636,6 +610,75 @@
   {
    "domain": "dermatology.capetown",
    "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-09 16:00",
+   "format": "short",
+   "slug": "capetown-dynamic-skin-recovery-spf50-50ml-short",
+   "sku": "111006",
+   "variant": "50ml",
+   "producer_choice": "option 1: same product as Nov 8, a different size (new SKU) (Sello, 10 Nov 19:00 SAST)",
+   "product": {
+    "name": "dynamic skin recovery spf50",
+    "listing_url": "https://dermalogica.co.za/products/dynamic-skin-recovery-spf50-dynamic-skin-recovery-spf50?variant=45975459234106",
+    "checked": "2026-11-10",
+    "packshot": "skincare-daily/2026-11-09/images/d1109-111006-00.jpg",
+    "packshot_sha256": "3d12d84418e1db8e6b312ece036745832b335fe0efa7f3ba173f8752a2d827ba",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/dynamic-skin-recovery-spf50_1.7oz_main-with-benefits_12adeb5d-930d-4980-89aa-cfdd700f48ee.webp?v=1756132991"
+   },
+   "title": "Dermalogica Dynamic Skin Recovery SPF50, 50 mL: Polypeptides + White Tea #shorts",
+   "description": "Dermalogica dynamic skin recovery spf50 in the 50 mL size, in under a minute: what's inside and where it sits in a routine, from the Cape Town daily sun care desk.\n\nWe earn a commission if you buy through our link at https://dermatology.capetown/.\n\n• 3-in-1 daily moisturizer that visibly firms, hydrates and protects with Broad Spectrum SPF50\n• Polypeptide blend helps improve the appearance of photoaged skin; White Tea gives antioxidant protection against free radicals\n• Non-greasy formula blends into skin for a flawless finish\n• After cleansing and toning, apply a generous amount to face and neck, preferably 30 minutes before sun exposure\n\ndermatology.capetown is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/dynamic-skin-recovery-spf50-dynamic-skin-recovery-spf50?variant=45975459234106, checked 2026-11-10); check the current listing before you buy.\n\nShop: https://dermatology.capetown/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #DynamicSkinRecovery #SPF50 #shorts",
+   "tags": [
+    "dermalogica dynamic skin recovery spf50",
+    "dynamic skin recovery spf50 50ml",
+    "spf50 moisturizer",
+    "daily sunscreen",
+    "cape town",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 39.03,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-dynamic-skin-recovery-spf50-50ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-dynamic-skin-recovery-spf50-50ml-short.mp4",
+   "sha256": "82375b2897efbab6fd8590b6818568966b6853a2c2b9e26e75b95870ed1be695",
+   "thumbnail_path": "skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-dynamic-skin-recovery-spf50-50ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-dynamic-skin-recovery-spf50-50ml-short.jpg",
+   "thumbnail_sha256": "7742189a04d68686aa4d1750380d8eff3138fde70a6312fd20a1a3b8586827d5",
+   "captions_path": "skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-dynamic-skin-recovery-spf50-50ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-dynamic-skin-recovery-spf50-50ml-short.en.srt",
+   "captions_sha256": "2cfe1f4976231ed920cb7167df3b3810164b82722f8a74a448ecd05f46e9ad6e",
+   "listing_images": [
+    "skincare-daily/2026-11-09/images/d1109-111006-00.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111006-01.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111006-02.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111006-03.png"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_aoede (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.37,
+    "true_peak": -1.39,
+    "packshot_match": 0.848,
+    "srt_cues": 9,
+    "pass": true,
+    "cover_packshot_match": 0.906
+   },
+   "crossday": {
+    "min_thumb_dist_vs_nov7_8_9": 47,
+    "sku_new": true,
+    "title_new": true,
+    "store_images_reused": []
+   },
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.capetown",
+   "handle": "@DermatologyCapeTown",
    "slot_sast": "2026-11-09 18:00",
    "format": "video",
    "slug": "capetown-skin-transformation-duo",
@@ -692,6 +735,77 @@
     "packshot_match": 0.922,
     "srt_cues": 15,
     "pass": true
+   },
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.capetown",
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-09 20:00",
+   "format": "short",
+   "slug": "capetown-biolumin-c-night-restore-serum-short",
+   "sku": "111504",
+   "variant": "25ml",
+   "producer_choice": "option 2: face product, body or sun angle (Sello, 10 Nov 19:00 SAST)",
+   "product": {
+    "name": "biolumin-c night restore serum",
+    "listing_url": "https://dermalogica.co.za/products/biolumen-c-night-restore-25ml?variant=49347448865082",
+    "checked": "2026-11-10",
+    "packshot": "skincare-daily/2026-11-09/images/d1109-111504-00.png",
+    "packshot_sha256": "ffcb3009373b36ada9a2b825b78c2340949dd189ecd53f95927aeed338b98e99",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/BioluminCNightRestore_01_28db6f1b-e0a6-46d4-9905-1800e427421a.png?v=1725353719"
+   },
+   "title": "Dermalogica BioLumin-C Night Restore Serum: Sun Care Ends at Sunset? #shorts",
+   "description": "Dermalogica biolumin-c night restore serum, 25 mL, in under a minute: the night step the listing says helps reverse daytime damage, from the Cape Town daily sun care desk.\n\nWe earn a commission if you buy through our link at https://dermatology.capetown/.\n\n• Night serum that helps restore radiance, hydration and tone overnight\n• Ultra-stable vitamin C and a pro-vitamin D complex help repair the moisture barrier during sleep; helps reverse daytime damage\n• After cleansing and toning, apply 3-4 drops over face and neck before bed; keep out of eyes\n• Daytime: broad spectrum SPF\n\ndermatology.capetown is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/biolumen-c-night-restore-25ml?variant=49347448865082, checked 2026-11-10); check the current listing before you buy.\n\nShop: https://dermatology.capetown/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #BioLuminC #NightSerum #shorts",
+   "tags": [
+    "dermalogica biolumin-c night restore serum",
+    "biolumin-c night restore",
+    "vitamin c night serum",
+    "after sun skincare routine",
+    "cape town",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 40.13,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-biolumin-c-night-restore-serum-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-biolumin-c-night-restore-serum-short.mp4",
+   "sha256": "73ef4e2d459bcbde67624a71e332689403e98e2153601b385082c3afc9dbd9d4",
+   "thumbnail_path": "skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-biolumin-c-night-restore-serum-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-biolumin-c-night-restore-serum-short.jpg",
+   "thumbnail_sha256": "d0c00af246524005c8dce7b87e9bdfaccddbdb6c382aece7be77a6b177210057",
+   "captions_path": "skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-biolumin-c-night-restore-serum-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/dermatology.capetown/capetown-biolumin-c-night-restore-serum-short.en.srt",
+   "captions_sha256": "663ac976db13d9f1a656278d701d05c7b539da71935485e9b51cb4d79ed05bb9",
+   "listing_images": [
+    "skincare-daily/2026-11-09/images/d1109-111504-00.png",
+    "skincare-daily/2026-11-09/images/d1109-111504-02.png",
+    "skincare-daily/2026-11-09/images/d1109-111504-05.png",
+    "skincare-daily/2026-11-09/images/d1109-111504-06.png",
+    "skincare-daily/2026-11-09/images/d1109-111504-07.png",
+    "skincare-daily/2026-11-09/images/d1109-111504-09.png"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_aoede (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.32,
+    "true_peak": -1.4,
+    "packshot_match": 0.975,
+    "srt_cues": 11,
+    "pass": true,
+    "cover_packshot_match": 0.966
+   },
+   "crossday": {
+    "min_thumb_dist_vs_nov7_8_9": 71,
+    "sku_new": true,
+    "title_new": true,
+    "store_images_reused": []
    },
    "status": "ready"
   },
@@ -1617,6 +1731,79 @@
   {
    "domain": "skincare.durban",
    "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-09 16:00",
+   "format": "short",
+   "slug": "westville-clarifying-body-spray-295ml-short",
+   "sku": "811478INT",
+   "variant": "295ml",
+   "producer_choice": "option 1: same product as Nov 8, a different size (new SKU) (Sello, 10 Nov 19:00 SAST)",
+   "product": {
+    "name": "clarifying body spray",
+    "listing_url": "https://dermalogica.co.za/products/clarifying-body-spray?variant=67660310806842",
+    "checked": "2026-11-10",
+    "packshot": "skincare-daily/2026-11-09/images/d1109-811478INT-00.jpg",
+    "packshot_sha256": "8425884a74646129affd3a651db6b7f08499abd6060eb736c5abf0bac4ff19b1",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/01_31bb71ee-a7ec-4ba8-aa6c-1f13535c7186.jpg?v=1762345461"
+   },
+   "title": "Dermalogica Clarifying Body Spray, 295 mL: After the Shower or the Gym #shorts",
+   "description": "Dermalogica clarifying body spray in the larger 295 mL size, in under a minute: when to use it and how, from the Westville body care desk.\n\nWe earn a commission if you buy through our link at https://skincare.durban/.\n\n• Blemish-fighting body spray that helps clear clogged pores and minimize future body breakouts\n• Salicylic acid (1.0%) exfoliates; witch hazel, tea tree oil and Moroccan argan oil help balance oil and reduce redness\n• Ideal after the shower, post-workout or on the go; the mist disperses even upside down\n• Spray onto clean, dry skin from about a foot and a half away; let it sink in 30-60 seconds; AM and/or PM\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/clarifying-body-spray?variant=67660310806842, checked 2026-11-10); check the current listing before you buy.\n\nShop: https://skincare.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #ClarifyingBodySpray #BodyCare #shorts",
+   "tags": [
+    "dermalogica clarifying body spray",
+    "clarifying body spray 295ml",
+    "body breakout spray",
+    "salicylic acid body spray",
+    "post workout skincare",
+    "westville",
+    "durban skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 41.4,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-09/renders/skincare.durban/westville-clarifying-body-spray-295ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/skincare.durban/westville-clarifying-body-spray-295ml-short.mp4",
+   "sha256": "55cadc1ab6adf1b6b749849a90ae4eaa51b97485848411af47a52002a96cabac",
+   "thumbnail_path": "skincare-daily/2026-11-09/renders/skincare.durban/westville-clarifying-body-spray-295ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/skincare.durban/westville-clarifying-body-spray-295ml-short.jpg",
+   "thumbnail_sha256": "132701ddcdba4c0fd6b684712469e7cbc7b0a56204e3d851cfe5178f3e9780cd",
+   "captions_path": "skincare-daily/2026-11-09/renders/skincare.durban/westville-clarifying-body-spray-295ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/skincare.durban/westville-clarifying-body-spray-295ml-short.en.srt",
+   "captions_sha256": "675d1007d0beb255f1361cb7fcabc891e6733380ee8602204f8f1903aec00cf6",
+   "listing_images": [
+    "skincare-daily/2026-11-09/images/d1109-811478INT-00.jpg",
+    "skincare-daily/2026-11-09/images/d1109-811478INT-01.jpg",
+    "skincare-daily/2026-11-09/images/d1109-811478INT-04.jpg",
+    "skincare-daily/2026-11-09/images/d1109-811478INT-07.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_bella (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.29,
+    "true_peak": -1.37,
+    "packshot_match": 0.965,
+    "srt_cues": 12,
+    "pass": true,
+    "cover_packshot_match": 0.961
+   },
+   "crossday": {
+    "min_thumb_dist_vs_nov7_8_9": 48,
+    "sku_new": true,
+    "title_new": true,
+    "store_images_reused": [
+     "d1109-811478INT-00.jpg"
+    ],
+    "note": "The store assigns the same packshot to the 177 mL and 295 mL variants; all other images are new."
+   },
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.durban",
+   "handle": "@SkincareDurbanWestville",
    "slot_sast": "2026-11-09 18:00",
    "format": "video",
    "slug": "westville-breakout-clearing-foaming-wash",
@@ -1672,6 +1859,76 @@
     "packshot_match": 0.889,
     "srt_cues": 15,
     "pass": true
+   },
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.durban",
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-09 20:00",
+   "format": "short",
+   "slug": "westville-phyto-nature-firming-serum-short",
+   "sku": "111369",
+   "variant": "40ml",
+   "producer_choice": "option 2: face product, body or sun angle (Sello, 10 Nov 19:00 SAST)",
+   "product": {
+    "name": "phyto nature firming serum",
+    "listing_url": "https://dermalogica.co.za/products/phyto-nature-firming-serum-40ml-111369?variant=46591303483706",
+    "checked": "2026-11-10",
+    "packshot": "skincare-daily/2026-11-09/images/d1109-111369-00.png",
+    "packshot_sha256": "aded071ae0f6cbb021b2fbe6e279e80ff57e851cb959ba3af4acea99862732f2",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Medium_139f9efe-ffe9-486f-9a8b-645861bd49e2.png?v=1698674729"
+   },
+   "title": "Dermalogica Phyto Nature Firming Serum: Don't Skip the Neck #shorts",
+   "description": "Dermalogica phyto nature firming serum, 40 mL, in under a minute: a dual-phase serum the listing says to smooth over the face and neck, from the Westville body care desk.\n\nWe earn a commission if you buy through our link at https://skincare.durban/.\n\n• Dual-phase serum: highly active botanicals with biomimetic technology to reduce visible signs of skin aging\n• Flash-firms, lifts and revitalizes, per the listing\n• Dispense 1-2 pumps, blend the two serums in the palm, smooth over cleansed face and neck; morning and/or evening; follow with moisturizer\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/phyto-nature-firming-serum-40ml-111369?variant=46591303483706, checked 2026-11-10); check the current listing before you buy.\n\nShop: https://skincare.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #PhytoNature #FirmingSerum #shorts",
+   "tags": [
+    "dermalogica phyto nature firming serum",
+    "phyto nature firming serum",
+    "neck serum",
+    "firming serum",
+    "face and neck skincare",
+    "westville",
+    "durban skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 42.73,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-09/renders/skincare.durban/westville-phyto-nature-firming-serum-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/skincare.durban/westville-phyto-nature-firming-serum-short.mp4",
+   "sha256": "d13b74bfd22d8e87ee99d173691a163ebec98cc4e4b8d1766be8dc89d49f645f",
+   "thumbnail_path": "skincare-daily/2026-11-09/renders/skincare.durban/westville-phyto-nature-firming-serum-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/skincare.durban/westville-phyto-nature-firming-serum-short.jpg",
+   "thumbnail_sha256": "d9b45d53ad87d39a08145e83f632e41fcd126474b677dfdc76b6647b290ac285",
+   "captions_path": "skincare-daily/2026-11-09/renders/skincare.durban/westville-phyto-nature-firming-serum-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-09/renders/skincare.durban/westville-phyto-nature-firming-serum-short.en.srt",
+   "captions_sha256": "b324bf57aaadcfec79a50acbc7b4318bf39c5832f1a527cb9c61d1e0e3a50807",
+   "listing_images": [
+    "skincare-daily/2026-11-09/images/d1109-111369-00.png",
+    "skincare-daily/2026-11-09/images/d1109-111369-01.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111369-02.jpg",
+    "skincare-daily/2026-11-09/images/d1109-111369-05.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_bella (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.19,
+    "true_peak": -1.47,
+    "packshot_match": 0.977,
+    "srt_cues": 12,
+    "pass": true,
+    "cover_packshot_match": 0.976
+   },
+   "crossday": {
+    "min_thumb_dist_vs_nov7_8_9": 51,
+    "sku_new": true,
+    "title_new": true,
+    "store_images_reused": []
    },
    "status": "ready"
   },
@@ -2043,5 +2300,47 @@
    },
    "status": "ready"
   }
- ]
+ ],
+ "resolved_slots": [
+  {
+   "channel": "@SkincareDurbanWestville",
+   "time": "16:00",
+   "format": "short",
+   "reason": "No unused body-care product with an exact SKU left on dermalogica.co.za: every body product was featured on Nov 7 or Nov 8 (the two remaining body kits list no SKU). Needs Sello's choice: repeat a body product in another size, or use a face product.",
+   "resolution": "rendered and staged ready 10 Nov 2026 (part C)"
+  },
+  {
+   "channel": "@SkincareDurbanWestville",
+   "time": "20:00",
+   "format": "short",
+   "reason": "Same as 16:00.",
+   "resolution": "rendered and staged ready 10 Nov 2026 (part C)"
+  },
+  {
+   "channel": "@DermatologyCapeTown",
+   "time": "16:00",
+   "format": "short",
+   "reason": "No unused sun-care product left on dermalogica.co.za: every SPF product was featured on Nov 7 or Nov 8; the remaining SPF listings are kits or sizes of Dynamic Skin Recovery SPF50 (featured Nov 8). Needs Sello's choice.",
+   "resolution": "rendered and staged ready 10 Nov 2026 (part C)"
+  },
+  {
+   "channel": "@DermatologyCapeTown",
+   "time": "20:00",
+   "format": "short",
+   "reason": "Same as 16:00.",
+   "resolution": "rendered and staged ready 10 Nov 2026 (part C)"
+  }
+ ],
+ "blocked_slots": [],
+ "qa_summary_partC": {
+  "renders": 4,
+  "passed": 4,
+  "fails": [],
+  "unique_products": true,
+  "free_photos_unique": true,
+  "store_images_shared_between_videos": [],
+  "min_thumb_dist": 63,
+  "min_frame_dist": 45,
+  "similarity_fails": []
+ }
 }
