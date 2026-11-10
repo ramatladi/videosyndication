@@ -2525,6 +2525,35 @@
     "dance": 0.37,
     "genre_fit": 0.89
    }
+  },
+  {
+   "release": "mtr036",
+   "date": "2026-11-10",
+   "slot": "2026-11-10T23:55",
+   "format": "video",
+   "title": "Hold The Quiet",
+   "artist": "Zofia Wren",
+   "style": "deep",
+   "key": "B minor",
+   "bpm": 120,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "15c2e8cd-4690-4fd5-9ee3-5a2294523d5a",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/4a6c857d-4790-4f5b-aa3e-fb80f651e5b9.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr036.json",
+   "photographer": "Toomas Tartes",
+   "photo_page": "https://unsplash.com/photos/smiling-woman-swimming-on-pool-7UvJDRxGgNM",
+   "photo_kind": "bikini",
+   "metricool_uuid": "4512258930854481900",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-13950225337260472981.mp4",
+   "reference": null,
+   "ears": {
+    "error": "Command '['/usr/local/bin/python3', '-m', 'pip', 'install', '-q', '--break-system-packages', 'tensorflow-cpu', 'tf_keras']' died with <Signals.SIGTERM: 15>."
+   }
   }
  ]
 }
