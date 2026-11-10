@@ -1,0 +1,167 @@
+{
+ "id": "vra051",
+ "format": "video",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "source_id": "lyft:8927340002",
+ "job": {
+  "employer": "Lyft",
+  "logo": "lyft",
+  "title": "Senior Software Engineer, Forecasting & Real-Time Optimization",
+  "short_title": "Senior Software Engineer, Forecasting",
+  "location": "Seattle, WA",
+  "workplace": "Hybrid (in office Mon, Wed, Thu)",
+  "pay": "$136.2K – $170.2K a year",
+  "pay_full": "$136,160 – $170,200 a year base pay (Seattle area), not including potential equity, bonus or benefits",
+  "type": "",
+  "posted": "",
+  "ref": "8927340002",
+  "apply_url": "https://app.careerpuck.com/job-board/lyft/job/8927340002?gh_jid=8927340002",
+  "apply_site": "Lyft's job board"
+ },
+ "details": {
+  "about": "The Forecasting and Real-Time Optimization Platform (FORTOP) team sits in Lyft's Rideshare Experience & Marketplace org. It produces reliable, real-time supply and demand signals and forecasts that feed Lyft's automated marketplace decisions, including Dynamic Pricing, Real-Time Supply Management and Fulfillment. The work covers forecasting rider demand and driver supply as they shift with traffic, holidays and major events, and keeping systems correct and fast at peak times.",
+  "duties": [
+   "Lead multi-engineer projects from proposal and technical design through launch, owning milestones, dependencies and estimates",
+   "Design and evolve streaming feature pipelines, training and inference workflows and signal serving; lead design reviews",
+   "Work with scientists to productionize ML models; build rollout tooling (shadow, canary, rollback) and backtesting and experimentation infrastructure",
+   "Own the interfaces, data contracts and SLAs between forecasting signals and consumers such as Dynamic Pricing and Driver Incentives",
+   "Monitor system health and signal quality, prepare for peak events, take part in on-call and lead post-incident work",
+   "Write well-tested code, give strong code reviews and coach teammates",
+   "Work with Product, Science and partner teams on problems, roadmap and trade-offs",
+   "Mentor engineers, help with hiring and onboarding, and share knowledge through docs and tech talks"
+  ],
+  "needs": [
+   "5+ years of software engineering industry experience, including building and operating backend or data systems in production",
+   "BS/MS or equivalent in Computer Engineering, Computer Science or a related field, or relevant work experience",
+   "Experience designing and leading delivery of large-scale distributed systems and owning their reliability (monitoring, on-call, incident response)",
+   "Solid distributed-systems fundamentals: fault tolerance, delivery semantics and consistency trade-offs",
+   "A track record of leading ambiguous, multi-engineer projects and mentoring engineers",
+   "Clear written communication, including design docs"
+  ],
+  "nice": [
+   "Experience building production ML models and infrastructure",
+   "Hands-on stream or large-scale batch processing (Flink, Beam, Spark or similar) and messaging (Kafka, Kinesis or similar)",
+   "Time series forecasting systems, backtesting and forecast evaluation",
+   "Online experimentation or real-time decision systems such as pricing, dispatch or marketplace balancing",
+   "Comfort using AI-assisted development tools without compromising quality"
+  ],
+  "benefits": "Base pay $136,160 – $170,200 a year in the Seattle area, not including potential equity, bonus or benefits. Benefits include medical, dental and vision insurance, mental health benefits, family building benefits, child care and pet benefits, a 401(k) with company match, 12 observed holidays plus discretionary paid time off for salaried team members, 18 weeks of paid parental leave, subsidized commuter benefits, and monthly Lyft credits with a complimentary Lyft Pink membership.",
+  "notes": [
+   "Hybrid: in the office Mondays, Wednesdays and Thursdays",
+   "Hybrid roles can work from anywhere for up to 4 weeks a year"
+  ]
+ },
+ "yt_title": "Lyft Is Hiring: Senior Software Engineer, Forecasting | Seattle, WA | $136K–$170K",
+ "hashtags": [
+  "#TechJobs",
+  "#SoftwareEngineer",
+  "#SeattleJobs",
+  "#MachineLearning",
+  "#Hiring"
+ ],
+ "tags": [
+  "lyft jobs",
+  "senior software engineer jobs",
+  "seattle tech jobs",
+  "machine learning infrastructure",
+  "forecasting engineer",
+  "distributed systems jobs",
+  "kafka jobs",
+  "tech jobs",
+  "jobs in usa",
+  "veritas recruitment agency"
+ ],
+ "scenes": [
+  {
+   "head": "Today's job",
+   "bullets": [
+    "Senior Software Engineer · Lyft",
+    "Forecasting & Real-Time Optimization",
+    "Seattle, WA · hybrid"
+   ],
+   "lines": [
+    "Welcome to Veritas Recruitment Agency, where we bring you real tech jobs straight from employers' own careers sites.",
+    "Today, Lyft is hiring a Senior Software Engineer for forecasting and real-time optimization in Seattle, Washington, on a hybrid schedule.",
+    "You'll find the direct application link in the description."
+   ]
+  },
+  {
+   "head": "About the team",
+   "bullets": [
+    "Rideshare marketplace forecasting",
+    "Real-time supply & demand signals",
+    "Feeds Dynamic Pricing & fulfillment"
+   ],
+   "lines": [
+    "The team builds the Forecasting and Real-Time Optimization Platform, inside Lyft's rideshare marketplace group.",
+    "It turns streaming marketplace data into real-time supply and demand signals and forecasts, which power Dynamic Pricing, real-time supply management, and fulfillment.",
+    "That means predicting rider demand and driver supply as they shift with traffic, holidays, and big events."
+   ]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": [
+    "Lead projects from design to launch",
+    "Streaming pipelines, training & serving",
+    "Ship models with scientists",
+    "Own signal contracts, on-call, mentoring"
+   ],
+   "lines": [
+    "You'll lead multi-engineer projects from technical design through launch.",
+    "You'll design streaming feature pipelines, model training and inference workflows, and the serving layer, and work with scientists to take models from prototype to production, with safe rollout tools like shadow, canary, and rollback.",
+    "You'll own the data contracts and service levels for teams like Dynamic Pricing, keep systems healthy at peak times, join the on-call rotation, and mentor other engineers."
+   ]
+  },
+  {
+   "head": "What you need",
+   "bullets": [
+    "5+ yrs software engineering in industry",
+    "BS/MS in CS or related, or equivalent",
+    "Large-scale distributed systems",
+    "Plus: ML infra, Flink/Spark, Kafka"
+   ],
+   "lines": [
+    "You need five or more years of industry software engineering, including building and running backend or data systems in production, and a bachelor's or master's in computer science or a related field, or relevant work experience.",
+    "You should have led large-scale distributed systems and owned their reliability, with solid fundamentals like fault tolerance and consistency, plus clear design docs.",
+    "It's a plus if you've built production machine learning systems, used Flink, Spark, or Kafka, or worked on forecasting or real-time pricing and dispatch."
+   ],
+   "show": [
+    "You need 5 or more years of industry software engineering, including building and running backend or data systems in production, and a bachelor's or master's in computer science or a related field, or relevant work experience.",
+    null,
+    null
+   ]
+  },
+  {
+   "head": "Pay & benefits",
+   "bullets": [
+    "$136,160 – $170,200 a year (base)",
+    "Medical, dental, vision, mental health",
+    "401(k) match · 18 wks parental leave",
+    "Commuter benefits · Lyft credits"
+   ],
+   "lines": [
+    "The base pay range in the Seattle area is one hundred thirty-six thousand one hundred sixty to one hundred seventy thousand two hundred dollars a year, not including potential equity, bonus, or benefits.",
+    "Benefits include medical, dental, and vision, mental health and family-building support, a four-oh-one-k with company match, eighteen weeks of paid parental leave, commuter benefits, and monthly Lyft credits.",
+    "The office days are Monday, Wednesday, and Thursday, and you can work from anywhere for up to four weeks a year."
+   ],
+   "show": [
+    "The base pay range in the Seattle area is $136,160 to $170,200 a year, not including potential equity, bonus, or benefits.",
+    "Benefits include medical, dental, and vision, mental health and family-building support, a 401(k) with company match, 18 weeks of paid parental leave, commuter benefits, and monthly Lyft credits.",
+    "The office days are Monday, Wednesday, and Thursday, and you can work from anywhere for up to 4 weeks a year."
+   ]
+  },
+  {
+   "head": "How to apply",
+   "bullets": [
+    "Application link in the description",
+    "Apply on Lyft's job board",
+    "Job ID 8927340002"
+   ],
+   "lines": [
+    "To apply, find the direct application link in the description below. It takes you straight to Lyft's careers site.",
+    "Subscribe to Veritas Recruitment Agency for new tech jobs across the United States, every day."
+   ]
+  }
+ ]
+}

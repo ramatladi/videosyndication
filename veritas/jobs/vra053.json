@@ -1,0 +1,140 @@
+{
+ "id": "vra053",
+ "format": "short",
+ "voice": "af_heart",
+ "speed": 1.05,
+ "source_id": "rubrik:8366954",
+ "job": {
+  "employer": "Rubrik",
+  "logo": "",
+  "title": "Application Security Engineer",
+  "short_title": "Application Security Engineer",
+  "location": "Palo Alto, CA",
+  "workplace": "",
+  "pay": "$124.2K – $186.2K a year",
+  "pay_full": "$124,200 – $186,200 a year base salary (U.S. range; set by work location), plus bonus potential, equity and benefits",
+  "type": "",
+  "posted": "",
+  "ref": "8366954",
+  "apply_url": "https://www.rubrik.com/company/careers/departments/job.8366954?gh_jid=8366954",
+  "apply_site": "rubrik.com/careers"
+ },
+ "details": {
+  "about": "Rubrik calls itself the Security and AI Operations Company, with one platform built around data, identity and AI. Its Application Security team sets the security standards everything Rubrik builds must meet and builds the controls that make those standards the default, covering product code, IT tooling, data pipelines, low-code automation and code produced by AI coding agents. The role suits people who have started in this space and want to learn and grow fast, with guidance from senior engineers.",
+  "duties": [
+   "Build and maintain preventative controls in development pipelines: secrets prevention, dependency and artifact policy, scan configuration as code",
+   "With senior engineers, work with development teams on what to scan and make sure scan policies and results can be trusted",
+   "Help write testable security standards and build automated checks for conformance",
+   "Define and implement guardrails so code from AI coding agents meets the same security standards",
+   "Support design reviews and threat modeling for applications, build tooling and internal platforms",
+   "Automate repetitive tasks, standards checks and review support"
+  ],
+  "needs": [
+   "BS or MS in Computer Science, Information Technology or a related field, or equivalent experience",
+   "Can write and maintain tooling in Python and at least one of Go, TypeScript or JavaScript",
+   "Working knowledge of CI/CD pipelines, Buildkite, Jenkins, Git workflows and containers",
+   "Basic grounding in application security: OWASP Top 10, threat modeling, secrets management and software supply chain risk",
+   "Practical experience using AI tools such as Claude or Claude Code to build or automate real work, and checking the output",
+   "Clear writing and speaking, and willingness to learn fast"
+  ],
+  "nice": [
+   "Built an automation or AI-assisted workflow that replaced manual work, and can explain how its output was checked",
+   "Set up or tested controls on an AI coding agent or assistant (permissions, sandboxing, hooks, tool restrictions)",
+   "Written evals, test cases or review checks that caught bad LLM output",
+   "Added a security check to a CI/CD pipeline (secrets scanning, SAST, SCA or dependency and artifact policy)",
+   "Working knowledge of AWS, GCP or Azure"
+  ],
+  "benefits": "U.S. base salary range $124,200 – $186,200 a year; the offer within the range depends on work location, skills, experience and education. The role is also eligible for bonus potential, equity and benefits.",
+  "notes": [
+   "You're not expected to know everything on day one",
+   "Rubrik offers accommodations for applicants with disabilities"
+  ]
+ },
+ "yt_title": "Rubrik Is Hiring: Application Security Engineer | Palo Alto, CA | $124K–$186K",
+ "hashtags": [
+  "#TechJobs",
+  "#CyberSecurity",
+  "#AppSec",
+  "#BayAreaJobs",
+  "#Hiring"
+ ],
+ "tags": [
+  "rubrik jobs",
+  "application security engineer",
+  "cybersecurity jobs",
+  "appsec jobs",
+  "devsecops jobs",
+  "palo alto jobs",
+  "bay area tech jobs",
+  "security engineer jobs",
+  "tech jobs",
+  "veritas recruitment agency"
+ ],
+ "scenes": [
+  {
+   "head": "The role",
+   "bullets": [
+    "Application Security Engineer",
+    "Rubrik · security & AI operations",
+    "Palo Alto, California"
+   ],
+   "lines": [
+    "Now hiring in Palo Alto, California! Rubrik wants an Application Security Engineer, a great fit if you've started in security and want to grow fast."
+   ]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": [
+    "Build security controls into CI/CD pipelines",
+    "Write testable security standards",
+    "Set guardrails for AI coding agents"
+   ],
+   "lines": [
+    "You'll build security controls into development pipelines, like secrets prevention and dependency policy, help write testable security standards, and set guardrails for code from A I coding agents."
+   ],
+   "show": [
+    "You'll build security controls into development pipelines, like secrets prevention and dependency policy, help write testable security standards, and set guardrails for code from AI coding agents."
+   ]
+  },
+  {
+   "head": "What you need",
+   "bullets": [
+    "BS/MS in CS, IT or related, or equivalent",
+    "Python + Go, TypeScript or JavaScript",
+    "CI/CD, Git, containers · OWASP Top 10"
+   ],
+   "lines": [
+    "You need a degree in computer science, I T, or a related field, or equivalent experience, tooling skills in Python plus Go, TypeScript, or JavaScript, and working knowledge of C I C D pipelines, containers, and the Oh-wasp Top Ten."
+   ],
+   "show": [
+    "You need a degree in computer science, IT, or a related field, or equivalent experience, tooling skills in Python plus Go, TypeScript, or JavaScript, and working knowledge of CI/CD pipelines, containers, and the OWASP Top 10."
+   ]
+  },
+  {
+   "head": "Pay",
+   "bullets": [
+    "$124,200 – $186,200 a year (base)",
+    "Bonus potential + equity",
+    "Benefits"
+   ],
+   "lines": [
+    "Base pay is one hundred twenty-four thousand two hundred to one hundred eighty-six thousand two hundred dollars a year, plus bonus potential, equity, and benefits."
+   ],
+   "show": [
+    "Base pay is $124,200 to $186,200 a year, plus bonus potential, equity, and benefits."
+   ]
+  },
+  {
+   "head": "How to apply",
+   "bullets": [
+    "Application link in the description",
+    "Apply on rubrik.com",
+    "Job ID 8366954"
+   ],
+   "lines": [
+    "To apply, find the direct application link in the description.",
+    "Follow Veritas for new tech jobs every day."
+   ]
+  }
+ ]
+}
