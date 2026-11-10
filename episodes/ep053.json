@@ -1,0 +1,466 @@
+{
+ "engine": "cast",
+ "id": 53,
+ "slug": "rock-paper-scissors-pizza-night",
+ "title": "Rock, Paper, Scissors: Pizza Night",
+ "trend": "TikTok 'Rock Paper Scissors Food Challenge' (family/friends play rock paper scissors over a big plate of food, winner takes a big bite; Virlo 'early/rising' list, 54 creators that week up from 2, late Oct-Nov 2026, US) — at family pizza night every slice is decided by rock paper scissors; Mom has thrown rock for twenty seven years, the ranch cup demands to play and throws 'cup', and the bunny referee was eating the pizza every time they looked at their hands",
+ "target_seconds": 180,
+ "length_reason": "Quick one-clip game format whose original clips run well under a minute, so kept to the 175-240 range; 180 also fits Instagram.",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "rock, paper, scissors",
+  "winner takes the bite",
+  "pizza night. one referee. no mercy."
+ ],
+ "youtube_title": "Rock, Paper, Scissors For The Last Slice | Funny Family Cartoon",
+ "description": "At this family's pizza night, nothing is decided by talking. Every slice goes to rock, paper, scissors.\nThen the ranch cup asks to play, and the bunny referee has a secret.\n\n#cartoon #animation #funny #comedy #pizza",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "pizza night",
+  "family humor",
+  "mom and son",
+  "talking bunny",
+  "cartoons"
+ ],
+ "tiktok_caption": "nobody has ever beaten cup. #cartoon #animation #funny #comedy #pizza",
+ "cast": [
+  {
+   "id": "tonya",
+   "name": "Tonya",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "curly",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "plain"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "sunglasses"
+   ],
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": -1,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "dante",
+   "name": "Dante",
+   "kind": "human",
+   "color": "#a0673a",
+   "scale": 0.92,
+   "hair": {
+    "style": "short",
+    "color": "#24170f"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#c0392b",
+   "accessories": [
+    "cap:#2980b9"
+   ],
+   "brows": "worried",
+   "eye": "big",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 1,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "mabel",
+   "name": "Mabel",
+   "kind": "animal",
+   "ears": "bunny",
+   "color": "#dfe6e9",
+   "inner": "#f8a5c2",
+   "belly": "#ffffff",
+   "scale": 0.88,
+   "top": {
+    "color": "#ffffff",
+    "pattern": "stripes",
+    "pattern_color": "#2d3436"
+   },
+   "bottom": "#2d3436",
+   "accessories": [
+    "whistle",
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "bf_isabella",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "ranch",
+   "name": "The Ranch Cup",
+   "kind": "mascot",
+   "shape": "cup",
+   "color": "#fdfdf5",
+   "lid": "#ecf0f1",
+   "sleeve": "#a3cb38",
+   "scale": 0.85,
+   "accessories": [
+    "tie:#c0392b"
+   ],
+   "brows": "worried",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "tonya",
+   "text": "Welcome to pizza night. In this house, nothing is decided by talking.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tonya",
+   "text": "It is decided by rock, paper, scissors. Winner takes the bite.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "mabel",
+   "text": "And I am the referee. I have a whistle and no patience.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "ding"
+  },
+  {
+   "spk": "dante",
+   "text": "Mom. The referee is the bunny from the backyard.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "mabel",
+   "text": "I am a licensed bunny. I ate the license. But I had it.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ranch",
+   "text": "And I am the ranch cup. Please do not dip anything in me yet. I am nervous.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tonya",
+   "text": "Round one. The first slice. Pepperoni. The big one.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "mabel",
+   "text": "Hands up. Eyes on your hands. Rock, paper, scissors, shoot.",
+   "shot": "W"
+  },
+  {
+   "spk": "tonya",
+   "text": "Rock.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dante",
+   "text": "Paper! Paper covers rock! I win!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "tonya",
+   "text": "Rock was a warm up. Rock was stretching.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "mabel",
+   "text": "Paper wins. Take the bite, young man.",
+   "shot": "mabel",
+   "gesture": "point"
+  },
+  {
+   "spk": "dante",
+   "text": "Wait. Where is the pepperoni? This slice is just cheese.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "mabel",
+   "text": "Pizza is a journey. Some leaves early.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "tonya",
+   "text": "Round two. The corner piece. There is only one corner piece.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "dante",
+   "text": "Mom, you always throw rock. Every time. Since I was four.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "tonya",
+   "text": "Rock is not a move, Dante. Rock is a lifestyle.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "mabel",
+   "text": "She threw rock at her own wedding. Your father threw paper. He still talks about it.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tonya",
+   "text": "You could. Or you could think about who raised you.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "mabel",
+   "text": "Eyes on your hands. Rock, paper, scissors, shoot.",
+   "shot": "W"
+  },
+  {
+   "spk": "dante",
+   "text": "Paper!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tonya",
+   "text": "Scissors.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dante",
+   "text": "You have never thrown scissors in your life!",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "tonya",
+   "text": "I have been saving them. For a corner piece. Twenty seven years.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "ranch",
+   "text": "Twenty seven years of rock for one crust. That is a chess player.",
+   "shot": "ranch"
+  },
+  {
+   "spk": "tonya",
+   "text": "Hold on. Who bit my corner?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "mabel",
+   "text": "Corners are crunchy. Crunchy things make noise. I heard nothing.",
+   "shot": "mabel",
+   "gesture": "cross"
+  },
+  {
+   "spk": "ranch",
+   "text": "Excuse me. Can I play? Everybody dips in me. Nobody asks me anything.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "mabel",
+   "text": "You have no hands.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "ranch",
+   "text": "Then I will throw cup.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dante",
+   "text": "Cup is not a thing!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "mabel",
+   "text": "Checking the rules. Cup beats rock. The rock falls in.",
+   "shot": "mabel",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "dante",
+   "text": "What beats cup?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "mabel",
+   "text": "Nothing. Cup has never lost.",
+   "shot": "W",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "ranch",
+   "text": "Round three is mine. The last garlic knot. I would like to dip it in myself.",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "mabel",
+   "text": "Rock, paper, scissors, cup. Cup wins.",
+   "shot": "W"
+  },
+  {
+   "spk": "ranch",
+   "text": "Oh no. The garlic knot is gone. I was looking at my hands. I do not have hands.",
+   "shot": "ranch",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "dante",
+   "text": "Okay. Final round. The last slice. The biggest one in the box.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "mabel",
+   "text": "Eyes on your hands. Really look at them. Longer. Rock, paper, scissors, shoot.",
+   "shot": "W"
+  },
+  {
+   "spk": "dante",
+   "text": "Rock!",
+   "shot": "CU"
+  },
+  {
+   "spk": "tonya",
+   "text": "Scissors. Oh well. You win.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.8
+  },
+  {
+   "spk": "dante",
+   "text": "I won! I finally won! Winner takes the bite!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "dante",
+   "text": "The box is empty.",
+   "shot": "W",
+   "pre": 0.9
+  },
+  {
+   "spk": "tonya",
+   "text": "Mabel. Look at me. Did you eat the pizza?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "mabel",
+   "text": "Every time you looked at your hands, I took a bite.",
+   "shot": "mabel",
+   "gesture": "shrug",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "mabel",
+   "text": "Twelve slices. Nine garlic knots. All the crusts. And the pepperoni, early.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dante",
+   "text": "You are a bunny! Bunnies eat carrots!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "mabel",
+   "text": "I ate the carrots too. Before the game. Referees need energy.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "ranch",
+   "text": "I am the only food left.",
+   "shot": "ranch"
+  },
+  {
+   "spk": "tonya",
+   "text": "Fine. Rock, paper, scissors. Loser orders another pizza.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "mabel",
+   "text": "Eyes on your hands. Shoot.",
+   "shot": "W"
+  },
+  {
+   "spk": "ranch",
+   "text": "Cup.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "mabel",
+   "text": "Cup wins. Cup always wins. So the rest of you order the pizza.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": [
+    "tonya",
+    "dante"
+   ],
+   "text": "Large. No pepperoni. It never makes it anyway.",
+   "shot": "W",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "mabel",
+   "text": "Eyes on your hands.",
+   "shot": "mabel",
+   "pre": 0.6
+  }
+ ]
+}
