@@ -40,6 +40,15 @@ Runs sometimes die partway through, for example when the cloud machine restarts 
 3. If an episode has no post, it never aired: do not write a new episode for this slot. Render that episode from its existing episodes/epNNN.json (same shapes as the task normally renders), check it as usual, host it, schedule it in this run's slot with its existing title, description, tags and caption, and remove it from the media branch once Metricool has its copy. Add "(aired late)" to the end of its EPISODES.md title cell.
 4. Only when no unaired episode is found, carry on with step 1 below as normal.
 
+### Continuity rules (Sello, 10 Nov 2026)
+Same protection as Mirage, Wise Words, Veritas and Beautiful Ladies Only, so a usage-limit outage, a stalled session, a machine restart or a refused step no longer loses a slot. They apply to both cartoon tasks (films and Shorts), in this order, before new work:
+
+1. **Resume first** (step 0 above). If this run's own slot has already passed, schedule the resumed episode at now + 30 minutes. Never make new work for a slot a resumed episode filled.
+2. **Missed slots.** If a slot of this task from the last 6 hours is empty because an earlier run failed, stalled or never ran, fill it with resumed or new work at now + 30 minutes: at most two make-up posts per run, 40 minutes apart. Leave slots older than 6 hours empty: never flood the channel to catch up.
+3. **Record as you go.** Commit and push episodes/epNNN.json and its EPISODES.md row right after writing them, before rendering, so a run that dies during the render leaves the episode behind for step 1 of the next run. Write episodes one at a time: never leave a written episode only on the machine.
+4. **Leftover hosted files.** Remove cartoon files (epNNN.mp4, epNNN_yt.mp4) on the media branch that are older than 24 hours once Metricool has its copy (the post exists) or the episode is logged as aired. Leave anything newer: it may belong to a run in progress. A run that stops before scheduling takes its own just-hosted file back off the media branch.
+5. **Refused or held steps.** If hosting, scheduling or any other step is refused or held for approval, do not retry it and do not look for another route around it. Leave the episode committed but unposted, so step 1 of the next run picks it up, and send ONE PushNotification naming the step and the exact message.
+
 Keep long films quick to finish: write and commit the episode, then render straight away, so most of a run's time is the render and a restart costs as little as possible.
 
 ## 1. Find the trend (every episode)
