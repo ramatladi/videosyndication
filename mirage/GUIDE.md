@@ -115,6 +115,24 @@ tooling (loopkit, craft rules above) stays in the repo for reference but is not 
    `describe.py ... --vocals` (key/BPM from the spec after the build) and scheduling. A track under 179 s is refused:
    generate once more (another 30 credits); if that also fails, leave the slot empty and notify Sello.
 
+### Pending songs, missed slots and the backup check (Sello, 10 Nov 2026)
+On 9 Nov the 09:37 run built mtr035 and then its session was paused for ~20 hours; the 19:55 slot passed with nothing
+posted and the song existed only in the dead workspace (it went out as a make-up Short on 10 Nov 19:55). So:
+1. **Save progress as you go.** As soon as `generate_music` completes, write `songs/mtrNNN.json` with `"status": "pending"`
+   (plus the source block) and commit + push it. After choosing the photo, add `"photo": {"url", "page", "photographer", "kind"}`
+   to the spec and push again; after a passing build (it writes `key`/`bpm`) push again. `record` removes `status` once the
+   post is in the ledger.
+2. **Resume before generating.** `song_release.py next` lists `pending` (generated, never scheduled, oldest first). If it
+   is non-empty, release `pending[0]`: no new generation (no credits), reuse its photo if it has one (re-crop for the
+   format), rebuild, post, record. New release ids skip past pending ones.
+3. **Missed-slot rule.** Check the clock and Metricool right before hosting and again right before `createScheduledPost`.
+   If the run's slot is less than 20 minutes away or has passed, schedule the finished Short at the next free 19:55 SAST
+   (today if still 20+ minutes away, otherwise tomorrow), never in the past and never two Mirage posts within 60 minutes;
+   notify Sello that it went out as a make-up. Never leave a file on the media branch without its post.
+4. **Backup check (16:37 SAST Mon/Wed/Fri/Sun).** If today's 19:55 Short is missing in Metricool and the ledger, it
+   resumes a pending song, or makes the song itself if none exists, following the same steps; if it cannot finish by
+   19:35 it notifies Sello.
+
 ## Schedule
 - **Since 2 Nov 2026: one Creative Claw song a day** (see "Creative Claw only" above): Shorts Mon/Wed/Fri/Sun 19:55, videos
   Tue/Thu/Sat 23:55. The 09:37 task makes the 19:55 Shorts (Mon/Wed/Fri/Sun), the 19:37 task the 23:55 videos (Tue/Thu/Sat).

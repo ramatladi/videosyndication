@@ -1,6 +1,7 @@
 """Mirage release from a hand-written song spec (replaces make_release.py plan/build since 26 Oct 2026).
 
-    python3 mirage/song_release.py next                      -> next release id (mtrNNN), the style + artist this slot should use
+    python3 mirage/song_release.py next                      -> next release id (mtrNNN), the style + artist this slot should use,
+                                                                plus `pending`: generated songs not yet scheduled (resume those first)
     python3 mirage/song_release.py check  --spec mirage/songs/mtrNNN.json
     python3 mirage/song_release.py build  --spec mirage/songs/mtrNNN.json --format video|short --photo out/mtrNNN.jpg \
             --photographer "Name" --photo-page URL [--photo-kind bikini|fashion|nature]
@@ -48,9 +49,27 @@ def slot_source(slot):
     return {'source': 'hand'} if cfg.get('hand_written', True) else {'source': 'none', 'why': 'no upload in this slot (Creative Claw only, one a day)'}
 
 
+def pending_specs(L=None):
+    """Specs saved with "status": "pending" (song generated, not yet scheduled) that have no ledger row, oldest first.
+    A run that is cut off (paused session, missed slot) leaves its song here; the next run resumes it instead of paying for
+    a new one (Sello, 10 Nov 2026)."""
+    L = L if L is not None else ledger()['releases']
+    done = {r['release'] for r in L}; out = []
+    d = os.path.join(HERE, 'songs')
+    for f in sorted(os.listdir(d)):
+        if not f.endswith('.json'): continue
+        try: s = json.load(open(os.path.join(d, f)))
+        except Exception: continue
+        if s.get('status') == 'pending' and s.get('id') not in done:
+            out.append({'spec': f'mirage/songs/{f}', 'id': s['id'], 'title': s.get('title'), 'artist': s.get('artist'),
+                        'style': s.get('style'), 'built': bool(s.get('bpm') and s.get('key')), 'photo': s.get('photo')})
+    return out
+
+
 def nxt(slot=None):
     L = ledger()['releases']
-    n = max(int(r['release'][3:]) for r in L) + 1
+    pend = pending_specs(L)
+    n = max([int(r['release'][3:]) for r in L] + [int(p['id'][3:]) for p in pend]) + 1
     hand = [r for r in L if r.get('written_by_hand') or r.get('generated')]   # rotation counts hand-written and Creative Claw releases
     style = CYCLE[len(hand) % len(CYCLE)]
     if hand and hand[-1]['style'] == style: style = CYCLE[(len(hand) + 1) % len(CYCLE)]
@@ -58,6 +77,7 @@ def nxt(slot=None):
     print(json.dumps({'release': f'mtr{n:03d}', 'style': style, 'artist': act['name'], 'artist_line': act['line'],
                       'artist_kind': act['kind'], 'artist_gender': act['gender'], 'artist_heritage': act['heritage'],
                       'slot': slot, 'make': slot_source(slot),
+                      'pending': pend,   # non-empty: RESUME pending[0] (no new generation); release/style/artist above are for a new song only
                       'recent': [(r['release'], r['style'], r.get('key'), r.get('bpm'), r['title']) for r in hand[-8:]]}, indent=1))
 
 
@@ -148,6 +168,8 @@ def record(a):
         for r in L['releases']:
             if r['release'] == a.replaces: r['replaced_by'] = rid; r['status'] = 'replaced before publishing (old engine)'
     json.dump(L, open(LEDGER, 'w'), indent=1)
+    if spec.pop('status', None) is not None:   # a resumed pending spec is now released
+        json.dump(spec, open(a.spec, 'w'), indent=1, ensure_ascii=False)
     print('recorded', rid)
 
 
