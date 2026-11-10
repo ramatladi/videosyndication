@@ -6,6 +6,16 @@ Post to **YouTube only**. Never add that brand's Facebook, Instagram or TikTok a
 
 Each run builds and schedules the **next day's** batch: **4 Shorts and 2 videos**.
 
+## Continuity rules (Sello, 10 Nov 2026)
+
+Every run works through these steps in order, before starting new work:
+
+1. **Resume first.** Look for work from the last 36 hours that was made but never posted: a day plan (beautifulladies/days_<date>.json) or ledger entry for today or tomorrow whose posts are not all in Metricool. If today's posts are missing because yesterday's batch failed, fill today's remaining slots before building tomorrow's batch. Check Metricool (getScheduledPosts on the brand, from that day to tomorrow) for a post with its title. If there is none, it never aired: render it again if its video file is gone, host it, schedule it in this run's slot (or at now + 30 minutes if this run's slot has passed), and update the ledger. Only then move on to new work, and never make new work for a slot this resumed item filled.
+2. **Missed slots.** If a slot from the last 6 hours is empty because an earlier run failed or never ran, fill it with resumed or new work at now + 30 minutes, at most two make-up posts per run and 40 minutes apart. Leave slots older than 6 hours empty: never flood the channel to catch up.
+3. **Record as you go.** Commit the day plan file right after writing it, and add the ledger or log entry right after createScheduledPost returns, so a run that dies part-way leaves enough behind for step 1 of the next run.
+4. **Leftover hosted files.** Remove files on the media branch belonging to this series that are older than 24 hours, once Metricool has its copy (the post exists) or the item is logged as posted. Leave anything newer: it may belong to a run in progress.
+5. **Refused or held steps.** If hosting, scheduling or any other step is refused or held for approval, do not retry it and do not look for another route around it. Leave the item committed but unposted, so step 1 of the next run picks it up, and send ONE PushNotification naming the step and the exact message.
+
 ## Content rules (Sello's choices, 4 Nov 2026)
 - Photos come from free sites only: Unsplash (free licence, not Unsplash+). Bikini and swimwear photos come first; any photo of a beautiful lady is fine.
 - Present it as swimwear, beach fashion, travel and lifestyle. Titles, captions and thumbnails must not be suggestive.
