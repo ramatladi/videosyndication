@@ -1,0 +1,531 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 49,
+ "slug": "no-no-no-yes-thanksgiving-tryouts",
+ "title": "No, No, No... Yes! Grandma's Thanksgiving Tryouts",
+ "trend": "Instagram Reels 'No, No, No... Yes!' (dull moments each labeled 'no', then a 'yes' payoff; New Engen Instagram list updated Nov 6 2026, US) + Thanksgiving potluck planning season (two weeks out) — Grandma Hattie holds tryouts for Thanksgiving dishes and says no to everything except rolls from a tube; twist: her famous secret stuffing is from a box",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "no, no, no... yes!",
+  "grandma's thanksgiving",
+  "tryouts"
+ ],
+ "youtube_title": "No, no, no... YES! Grandma's Thanksgiving tryouts 🦃",
+ "description": "Grandma Hattie is holding tryouts for Thanksgiving dinner. Devin and Tasha pitch everything they have. The gravy boat has waited all year to talk.\n\n#cartoon #animation #funny #thanksgiving #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "thanksgiving",
+  "grandma",
+  "family comedy",
+  "holiday dinner"
+ ],
+ "tiktok_caption": "no, no, no... yes! grandma's thanksgiving tryouts 🦃 #cartoon #animation #funny #thanksgiving",
+ "cast": [
+  {
+   "id": "hattie",
+   "name": "Grandma Hattie",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.95,
+   "hair": {
+    "style": "bun",
+    "color": "#d5d8dc"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "apron",
+    "pattern_color": "#f5e6ca"
+   },
+   "bottom": "#4a235a",
+   "shoes": "#2c3e50",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#e59866",
+   "voice": {
+    "id": "af_kore",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "dev",
+   "name": "Devin",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "short",
+    "color": "#3b2314"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "cap:#2980b9"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#f5b041",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "tasha",
+   "name": "Tasha",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "dots",
+    "pattern_color": "#f9e79f"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#f1c40f",
+   "accessories": [
+    "bow:#f1c40f"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#48c9b0",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "gravy",
+   "name": "The Gravy Boat",
+   "kind": "mascot",
+   "shape": "cup",
+   "color": "#f5f5f5",
+   "sleeve": "#8b5a2b",
+   "accessories": [
+    "mustache:#5d4037",
+    "tie:#c0392b"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#d7bde2",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "hattie",
+   "text": "Thanksgiving tryouts are open. You pitch a dish. I say yes or no.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "dev",
+   "text": "Grandma, it is a family dinner. Not a talent show.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hattie",
+   "text": "Everything is a talent show, Devin. Pitch.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dev",
+   "text": "Turkey tacos.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "hattie",
+   "text": "No.",
+   "shot": "CU",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "dev",
+   "text": "Turkey sushi.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hattie",
+   "text": "No.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dev",
+   "text": "A turkey shaped like a smaller turkey.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hattie",
+   "text": "No. That is just a chicken, Devin.",
+   "shot": "TWO",
+   "after": "rimshot"
+  },
+  {
+   "spk": "dev",
+   "text": "It is a chicken in a costume. It is festive.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tasha",
+   "text": "Move, amateur. Grandma, I made a tasting board.",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "hattie",
+   "text": "A board. Of what.",
+   "shot": "hattie"
+  },
+  {
+   "spk": "tasha",
+   "text": "Cranberry foam. Deconstructed pie. One green bean on a little cloud.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hattie",
+   "text": "Where is the rest of the pie?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "tasha",
+   "text": "Deconstructed. It is in the car.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hattie",
+   "text": "No.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tasha",
+   "text": "You did not even taste the cloud.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "hattie",
+   "text": "I do not eat weather.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "boing"
+  },
+  {
+   "spk": "gravy",
+   "text": "Hattie. Hattie. Let me pitch.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "dev",
+   "text": "Why is the gravy boat talking?",
+   "shot": "dev",
+   "gesture": "point"
+  },
+  {
+   "spk": "gravy",
+   "text": "I only talk in November. The rest of the year I live behind the blender.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hattie",
+   "text": "Pitch, gravy.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "gravy",
+   "text": "Me. On every plate. On the pie. On Devin.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "hattie",
+   "text": "No.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gravy",
+   "text": "Not on Devin?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hattie",
+   "text": "Not on the pie.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dev",
+   "text": "So he can go on me?",
+   "shot": "dev",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "hattie",
+   "text": "We will see how you behave.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dev",
+   "text": "Okay. Mashed potatoes.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hattie",
+   "text": "Lumpy?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "dev",
+   "text": "Only emotionally.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hattie",
+   "text": "No.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tasha",
+   "text": "Mac and cheese. Five cheeses.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "hattie",
+   "text": "Name them.",
+   "shot": "hattie"
+  },
+  {
+   "spk": "tasha",
+   "text": "Cheddar. Other cheddar. Orange. Yellow. And Gary's.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hattie",
+   "text": "Who is Gary?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "tasha",
+   "text": "He sells cheese out of his truck. He has a great attitude.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "hattie",
+   "text": "No. And stop buying cheese from a truck.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "gravy",
+   "text": "Gary is a legend in the dairy community.",
+   "shot": "gravy"
+  },
+  {
+   "spk": "dev",
+   "text": "Grandma, you said no nineteen times. Do you say yes to anything?",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "hattie",
+   "text": "Rolls. The ones in the tube.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": [
+    "dev",
+    "tasha"
+   ],
+   "text": "The tube?",
+   "shot": "W"
+  },
+  {
+   "spk": "hattie",
+   "text": "You twist it, it pops, everybody screams. That is a holiday.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dev",
+   "text": "Fine. Rolls in a tube.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hattie",
+   "text": "Yes!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "applause",
+   "jump": true
+  },
+  {
+   "spk": "tasha",
+   "text": "He gets rolls? I made a cloud!",
+   "shot": "tasha",
+   "gesture": "hips"
+  },
+  {
+   "spk": "hattie",
+   "text": "Clouds do not pop, sweetheart.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "gravy",
+   "text": "Hattie. Should I tell them about the stuffing?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.9
+  },
+  {
+   "spk": "hattie",
+   "text": "Gravy. Back behind the blender.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tasha",
+   "text": "Your famous stuffing? The secret recipe nobody is allowed to see?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "gravy",
+   "text": "The secret recipe is a box. Red box. Add water. Three minutes.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dev",
+   "text": "Grandma!",
+   "shot": "dev",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "hattie",
+   "text": "It was my mother's box.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gravy",
+   "text": "Thirty one years. She hides it in the oven mitt.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tasha",
+   "text": "You made us try out. I built a cloud.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "hattie",
+   "text": "I never said I cook. I said I decide.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dev",
+   "text": "So who decides what you bring?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hattie",
+   "text": "Nobody. I bring the box and the attitude.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gravy",
+   "text": "Like Gary.",
+   "shot": "gravy"
+  },
+  {
+   "spk": "hattie",
+   "text": "Like Gary.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tasha",
+   "text": "New rule. This year Grandma pitches to us.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "hattie",
+   "text": "Fine. Stuffing. From a box. Made with love and three minutes.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": [
+    "dev",
+    "tasha"
+   ],
+   "text": "No.",
+   "shot": "W",
+   "gesture": "cross",
+   "pre": 0.8
+  },
+  {
+   "spk": "hattie",
+   "text": "Rude. Yes.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "gravy",
+   "text": "Wonderful. I will go on all of it. Especially Devin.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "boing",
+   "jump": true
+  }
+ ]
+}
