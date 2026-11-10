@@ -2450,6 +2450,81 @@
     "dance": 0.421,
     "genre_fit": 0.922
    }
+  },
+  {
+   "release": "mtr035",
+   "date": "2026-11-10",
+   "slot": "2026-11-10T19:55",
+   "format": "short",
+   "title": "Brighter Than The Bassline",
+   "artist": "Honey Static",
+   "style": "vocal",
+   "key": "C# major",
+   "bpm": 125,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "45f7be64-0e21-42a6-a1ff-9c05342f6c68",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/38d4d456-9254-4f17-83e2-919b79b6c1ec.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr035.json",
+   "photographer": "Shalom Ejiofor",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-bikini-in-a-swimming-pool-kTaFDRrbwzI",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-4577788228890639280",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-3921109607138106614.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr035.mp3",
+    "top": [
+     [
+      "dance",
+      0.37
+     ],
+     [
+      "House",
+      0.277
+     ],
+     [
+      "pop",
+      0.214
+     ],
+     [
+      "electronic",
+      0.179
+     ],
+     [
+      "soul",
+      0.139
+     ],
+     [
+      "female vocalists",
+      0.108
+     ],
+     [
+      "chillout",
+      0.076
+     ],
+     [
+      "funk",
+      0.063
+     ],
+     [
+      "rnb",
+      0.061
+     ],
+     [
+      "jazz",
+      0.051
+     ]
+    ],
+    "house": 0.277,
+    "electronic": 0.179,
+    "dance": 0.37,
+    "genre_fit": 0.89
+   }
   }
  ]
 }
