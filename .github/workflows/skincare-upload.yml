@@ -8,10 +8,6 @@ on:
   schedule:
     - cron: "41 * * * *"
   workflow_dispatch:
-    inputs:
-      max_uploads:
-        description: "Most new uploads this run"
-        default: "12"
 permissions:
   contents: write
 concurrency:
@@ -20,7 +16,7 @@ concurrency:
 jobs:
   upload:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
         with:
@@ -50,4 +46,4 @@ jobs:
           YT_SK_CHANNEL_UMHLANGA: ${{ secrets.YT_SK_CHANNEL_UMHLANGA }}
           YT_SK_REFRESH_CAPETOWN: ${{ secrets.YT_SK_REFRESH_CAPETOWN }}
           YT_SK_CHANNEL_CAPETOWN: ${{ secrets.YT_SK_CHANNEL_CAPETOWN }}
-        run: python3 skincare-daily/yt_publish.py media --max-uploads "${{ github.event.inputs.max_uploads || '12' }}"
+        run: python3 skincare-daily/yt_publish.py media --max-uploads 12
