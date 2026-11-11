@@ -389,13 +389,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "WNOJOUHQGMk",
       "sku": "111507",
       "title": "Dermalogica Multivitamin Power Recovery Cream: A Closer Look at the Cream and Label",
       "manifest_slug": "rosebank-multivitamin-power-recovery-cream",
       "media_sha256": "d95abce139eca9c31143e4d8959df373cbc94e3f62a14e719dde1426865c5d53",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T22:56:41Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -452,5 +453,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 11
+  "youtube_ids_recorded": 12
 }
