@@ -488,7 +488,7 @@ def write(date):
                 if b: sc.insert(-1, dict(type='figure', image=x, kicker='ALSO', headline=short_head(b, 52), say=say_units(b + '.')))
         if short:  # keep Shorts under a minute: drop the description scene first, then the benefits scene
             for kick in ('WHAT IT IS', 'BENEFITS'):
-                if sum(len(x['say'].split()) for x in sc) + 14 > 104:
+                if sum(len(x['say'].split()) for x in sc) + 14 > 92:
                     sc = [x for x in sc if x.get('kicker') != kick]
         sc.append(dict(type='end', sub=(size.replace('ml', ' mL') if size else N), say=f"That's Dermalogica {sp}. The link is in the description."))
         # titles: first unused template
@@ -509,6 +509,12 @@ def write(date):
                     hashtags=f"#Dermalogica #{re.sub(r'[^A-Za-z0-9]', '', N)} #{re.sub(r'[^A-Za-z]', '', DESK_TITLE[desk])}" + (' #shorts' if short else ''),
                     thumb=dict(text=thumb_text(tag, ben) or THUMB_FALLBACK[desk], kicker=loc.upper()), free_photos=[], scenes=sc,
                     sku=it['sku'], variant=it['variant'], slot_sast=it['slot'], tier=it['tier'], tier_why=it['why'])
+        # no picture twice in one video: a repeat becomes a text card (product card beside it, blurred photo behind)
+        usedimg = set()
+        for x in item['scenes']:
+            if x['type'] in ('figure', 'photo') and x.get('image'):
+                if x['image'] in usedimg: x['type'] = 'note'
+                usedimg.add(x['image'])
         # text cards keep a listing image of their own product (no plain backgrounds)
         for s in item['scenes']:
             if s['type'] in ('note', 'steps', 'bullets') and not s.get('image'): s['image'] = pic(k); k += 1
@@ -551,6 +557,8 @@ def render(date, only=()):
                 r = subprocess.run(['python3', f'{LAUNCH}/feature.py', f'{w}/features.json', s], env=env, capture_output=True, text=True)
                 open(f'{w}/render-retry-{s}.log', 'w').write(r.stdout + r.stderr)
             todo = [s for s in todo if not os.path.exists(f'{out}/{s}.json')]; break
+    thumbs(date)  # most distinct thumbnail layout per item, before QA
+    spec = json.load(open(f'{w}/features.json'))
     # QA only on what rendered
     ok = [v for v in spec['videos'] if os.path.exists(f"{out}/{v['slug']}.json")]
     json.dump(dict(spec, videos=ok), open(f'{w}/features-rendered.json', 'w'), indent=1, ensure_ascii=False)
@@ -558,6 +566,33 @@ def render(date, only=()):
     crossday(date)
     q = json.load(open(f'{out}/qa.json'))
     print(json.dumps({'rendered': len(ok), 'not_rendered': todo, 'qa_fails': q['summary']['fails'], 'similarity_fails': len(q['summary']['similarity_fails'])}, indent=1))
+
+
+def thumbs(date, only=()):
+    """Per item, pick the thumbnail layout farthest (dHash) from the last 14 days and the rest of this batch."""
+    sys.path.insert(0, LAUNCH); sys.argv = ['x']
+    import feature as Fe, qa_feature as Q
+    from PIL import Image
+    w = f'{WORK}/{date}'; spec = json.load(open(f'{w}/features.json')); media = os.environ.get('SK_MEDIA', '/tmp/launch-media')
+    prev = [Q.dhash(Image.open(h['thumb'])) for h in history(media) if h['thumb'] and os.path.exists(h['thumb']) and h['date'] < date
+            and (dt.date.fromisoformat(date) - dt.date.fromisoformat(h['date'])).days <= 14]
+    done = {}
+    for v in spec['videos']:
+        if only and v['slug'] not in only:
+            if os.path.exists(f"{w}/out/{v['slug']}.jpg"): done[v['slug']] = Q.dhash(Image.open(f"{w}/out/{v['slug']}.jpg"))
+            continue
+        vv = dict(v); vv['channel'] = spec['channels'][v['domain']]; vv.update({x: vv['channel'][x] for x in ('locality', 'desk', 'credential_line', 'voice')})
+        photos = list(dict.fromkeys(x['image'] for x in v['scenes'] if x.get('image') and x['image'] != v['packshot']))
+        best = None
+        for lay in ['right', 'left', 'center', 'split'] + [('photo', p) for p in photos]:
+            th = {'text': v['thumb']['text'], 'kicker': v['thumb']['kicker']}
+            th.update(layout='photo', photo=lay[1]) if isinstance(lay, tuple) else th.update(layout=lay)
+            vv['thumb'] = th; Fe.thumbnail(vv, '/tmp/sk-t.jpg'); h = Q.dhash(Image.open('/tmp/sk-t.jpg'))
+            d = min([Q.ham(h, o) for o in prev + list(done.values())] or [256])
+            if best is None or d > best[0]: best = (d, dict(th), h)
+        v['thumb'] = best[1]; vv['thumb'] = best[1]; done[v['slug']] = best[2]
+        if os.path.exists(f"{w}/out/{v['slug']}.json"): Fe.thumbnail(vv, f"{w}/out/{v['slug']}.jpg")
+    json.dump(spec, open(f'{w}/features.json', 'w'), indent=1, ensure_ascii=False)
 
 
 def crossday(date):
@@ -686,6 +721,7 @@ if __name__ == '__main__':
             if not replan(a[1], os.environ.get('SK_MEDIA', '/tmp/launch-media')): break
             write(a[1])
     elif a[0] == 'render': render(a[1], a[2:])
+    elif a[0] == 'thumbs': thumbs(a[1], a[2:])
     elif a[0] == 'stage': stage(a[1], a[2])
     elif a[0] == 'heal': heal(a[1], a[2] if len(a) > 2 else '9999')
     elif a[0] == 'ledger': ledger(a[1], a[2])
