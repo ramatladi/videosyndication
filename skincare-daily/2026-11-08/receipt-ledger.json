@@ -167,13 +167,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "EdqQ9L6PM40",
       "sku": "411455",
       "title": "Dermalogica Circular Hydration Serum: Where It Sits Between Cleansing and Moisturizer",
       "manifest_slug": "umhlanga-circular-hydration-serum",
       "media_sha256": "803471b140493ceb1c8d500f4dc774713e71c9ba7267b22da3871120ef103649",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T22:56:41Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -449,5 +450,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 8
+  "youtube_ids_recorded": 9
 }
