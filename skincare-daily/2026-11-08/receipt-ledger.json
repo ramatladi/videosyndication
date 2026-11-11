@@ -332,13 +332,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "7JPcNZxf2Vg",
       "sku": "111511",
       "title": "Dermalogica Dynamic Skin Sculptor Body Serum: How to Apply It #shorts",
       "manifest_slug": "westville-dynamic-skin-sculptor-body-serum-short",
       "media_sha256": "ec2238b3b04f0f89594769420d220f354cc31d973d17ee935e571a9af5f6dccf",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T23:56:41Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -457,5 +458,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 16
+  "youtube_ids_recorded": 17
 }
