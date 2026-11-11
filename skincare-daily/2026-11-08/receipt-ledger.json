@@ -425,13 +425,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "1HmRNSdi3Qs",
       "sku": "111466INT",
       "title": "Dermalogica Phyto Nature Oxygen Cream: Read the Package Before You Choose #shorts",
       "manifest_slug": "rosebank-phyto-nature-oxygen-cream-short",
       "media_sha256": "ccad71b94b00cdf056cd04e9f012180e22f4c31c90a0788ac35d5bd3693d017e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T00:56:41Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -464,5 +465,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 23
+  "youtube_ids_recorded": 24
 }
