@@ -6,13 +6,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "9UORiJNqMi8",
       "sku": "110663",
       "title": "Dermalogica Precleanse: The First Step Before a Second Cleanse #shorts",
       "manifest_slug": "midrand-precleanse-short",
       "media_sha256": "cd58ad4773edbcc354ed69b5e64f517eae09a302767970d04ca0c976b01719d7",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T21:56:42Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -440,5 +441,6 @@
     "missing_renders": 0,
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
-  }
+  },
+  "youtube_ids_recorded": 1
 }
