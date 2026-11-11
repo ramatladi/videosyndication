@@ -3,15 +3,23 @@
   "handle": "@DermatologyCapeTown",
   "title": "Dermalogica Prisma Protect SPF30: Find the SPF on the Front of the Pack #shorts",
   "slot_sast": "2026-11-08 08:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref032a4b8ddd40",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-11T21:57:21Z",
   "error": null,
-  "updated": "2026-11-11T21:57:26Z",
+  "updated": "2026-11-11T21:57:57Z",
   "video_id": "RaPqHvIGrj4",
   "published_now": "2026-11-11T21:57:21Z",
   "url": "https://youtube.com/shorts/RaPqHvIGrj4",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UC6IhnhkFRVu8tTc1FJbjb8Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
