@@ -315,13 +315,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "38loPvbB9ik",
       "sku": "301350INT",
       "title": "Dermalogica The Body Reset Set (2 Full-Size): Identify Both Products and Their Order",
       "manifest_slug": "westville-the-body-reset-set-2-full-size",
       "media_sha256": "103fc2e321e4783ac765281ab12c56e31483c65f88b556f9ba7f74914a6cf194",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T22:56:41Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -451,5 +452,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 10
+  "youtube_ids_recorded": 11
 }
