@@ -1,0 +1,526 @@
+{
+ "engine": "cast",
+ "id": 57,
+ "slug": "the-thanksgiving-lineup-just-dropped",
+ "title": "The Thanksgiving Lineup Just Dropped",
+ "trend": "Instagram Reels 'Girl, Zoom In' (pinch-pose cover then detail slides that reward zooming; New Engen Instagram list updated Nov 6 2026, US) + the big desert music festival 2027 lineup announcement ('coachella 2027 lineup' 50K+ on Google Trends US daily, Nov 11 2026) + Thanksgiving planning — Aunt Bev drops a festival-style Thanksgiving lineup poster; the phone keeps saying 'girl, zoom in' and the tiny print reveals Marcus on the kids' table side stage, Uncle Ron's gravy 'reunion tour', a made-up girlfriend as special guest, and the venue: Marcus's apartment",
+ "target_seconds": 180,
+ "length_reason": "Quick zoom-in reveal format whose originals are a short carousel of a few slides, so kept to the 175-240 range; 180 also fits Instagram.",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "girl, zoom in",
+  "the thanksgiving lineup",
+  "just dropped. read the small print."
+ ],
+ "youtube_title": "The Thanksgiving Lineup Just Dropped (Zoom In) | Funny Family Cartoon",
+ "description": "Aunt Bev made a big poster for Thanksgiving, like a music festival. The headliner is the sweet potato casserole.\nThen Marcus zooms in on the small print.\n\n#cartoon #animation #funny #comedy #thanksgiving",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "thanksgiving",
+  "family humor",
+  "aunt",
+  "holiday dinner",
+  "cartoons"
+ ],
+ "tiktok_caption": "always read the small print on the family poster. #cartoon #animation #funny #comedy #thanksgiving",
+ "cast": [
+  {
+   "id": "bev",
+   "name": "Aunt Bev",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.1,
+   "hair": {
+    "style": "bun",
+    "color": "#2b1a10"
+   },
+   "top": {
+    "color": "#f1c40f",
+    "pattern": "suit",
+    "pattern_color": "#8e44ad"
+   },
+   "bottom": "#8e44ad",
+   "shoes": "#f1c40f",
+   "accessories": [
+    "sunglasses",
+    "mic_headset"
+   ],
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_bella",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "marcus",
+   "name": "Marcus",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "short",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "ron",
+   "name": "Uncle Ron",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.05,
+   "hair": {
+    "style": "bald",
+    "color": "#7f8c8d"
+   },
+   "top": {
+    "color": "#d35400",
+    "pattern": "stripes",
+    "pattern_color": "#f5cba7"
+   },
+   "bottom": "#5d4037",
+   "accessories": [
+    "beard:#95a5a6",
+    "beanie:#c0392b"
+   ],
+   "eye": "happy",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "phone",
+   "name": "The Phone",
+   "kind": "mascot",
+   "shape": "phone",
+   "color": "#2c3e50",
+   "case": "#e84393",
+   "accessories": [
+    "glasses"
+   ],
+   "mouth": "flat",
+   "voice": {
+    "id": "bf_alice",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "bev",
+   "text": "Family, gather round. The lineup just dropped.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "whoosh"
+  },
+  {
+   "spk": "marcus",
+   "text": "What lineup? It is November. We have a turkey, not a festival.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bev",
+   "text": "This year Thanksgiving is a festival. I made a poster. It has a font.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "phone",
+   "text": "It is on me. I am the phone. Everyone is looking at me, as usual.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marcus",
+   "text": "Okay. Headliner, giant letters. Grandma's sweet potato casserole. Live.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bev",
+   "text": "With the marshmallows. On the main stage. That is the dining table.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "ron",
+   "text": "Nobody follows the marshmallows. They just stand there and glow.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "marcus",
+   "text": "Second line. The green bean thing. With the crunchy onions on top.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bev",
+   "text": "The crunchy onions are touring separately this year. They have their own fans.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "phone",
+   "text": "Girl, zoom in.",
+   "shot": "CU"
+  },
+  {
+   "spk": "marcus",
+   "text": "Why would I zoom in on a poster about beans?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "phone",
+   "text": "Because the small print is where the family keeps the truth.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "marcus",
+   "text": "Fine. Zooming. Doors open at noon. Turkey goes on at four.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bev",
+   "text": "Set times subject to the turkey. The turkey does not care about your schedule.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "ron",
+   "text": "Last year the turkey went on at nine. We ate cereal and waited like fans.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "marcus",
+   "text": "Main stage is the dining table. Second stage, the kids' table.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bev",
+   "text": "The kids' table is a side stage. It has a great crowd. Very honest.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "marcus",
+   "text": "I am thirty one. Why am I on the kids' table stage?",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "pre": 0.6
+  },
+  {
+   "spk": "bev",
+   "text": "You are a crowd favorite with the five year olds. You do the spoon on your nose.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "One time. I did that one time.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "phone",
+   "text": "There is video. I have it. I bring it up every year.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "marcus",
+   "text": "Wait. Small letters. Reunion tour. Uncle Ron.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.5
+  },
+  {
+   "spk": "ron",
+   "text": "That's right. I'm back.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "marcus",
+   "text": "Uncle Ron was not invited for three years. Because of the gravy.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "ron",
+   "text": "The gravy was an accident. The gravy boat had a loose handle and a lot of confidence.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bev",
+   "text": "The ceiling is clean now. We painted. Everybody gets a second chance.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "ron",
+   "text": "This time I am doing an acoustic set. No gravy. Just me and a spoon.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "phone",
+   "text": "He will be on the side stage. With Marcus. And the spoon.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "marcus",
+   "text": "What about tickets? Who even gets in?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bev",
+   "text": "General admission. Bring a dish. VIP is a paper towel with your name on it.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "ron",
+   "text": "I have been VIP once. I was very moved. I used it on the gravy.",
+   "shot": "CU"
+  },
+  {
+   "spk": "marcus",
+   "text": "There is a merch table?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bev",
+   "text": "Aprons. Twelve dollars. They say I survived the turkey.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marcus",
+   "text": "Nobody survives the turkey. It survives us. It sits in the fridge until December.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "phone",
+   "text": "Zoom in more.",
+   "shot": "CU"
+  },
+  {
+   "spk": "marcus",
+   "text": "Weather. Hot, ninety degrees, near the oven only.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bev",
+   "text": "Stay hydrated. Hug the cranberry sauce. It is cold. It comes out of the can still shaped like a can.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ron",
+   "text": "That is my favorite act. Same show every year. It never misses.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "ding"
+  },
+  {
+   "spk": "marcus",
+   "text": "Lost and found. Uncle Ron's reading glasses. Found in the stuffing, two thousand nineteen.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ron",
+   "text": "I want them back. They were good glasses. They saw a lot.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bev",
+   "text": "Football after dinner on the couch stage. Strictly no talking during the nap.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "phone",
+   "text": "Zoom in. Bottom left. Tiny, tiny letters.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.4
+  },
+  {
+   "spk": "marcus",
+   "text": "Special guest. Marcus's girlfriend.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.5
+  },
+  {
+   "spk": "marcus",
+   "text": "Aunt Bev. I do not have a girlfriend.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "bev",
+   "text": "I booked her anyway. It brings in a crowd. Grandma bought a new blouse.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ron",
+   "text": "It's called marketing, Marcus.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "phone",
+   "text": "There is one more line. It is the smallest one. I needed two fingers.",
+   "shot": "CU",
+   "gesture": "hips",
+   "pre": 0.6
+  },
+  {
+   "spk": "marcus",
+   "text": "Venue.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "marcus",
+   "text": "Marcus's apartment.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "sting"
+  },
+  {
+   "spk": "bev",
+   "text": "My kitchen is getting new floors. Your place has a great sound. And an oven.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marcus",
+   "text": "My apartment has four chairs and one pan!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "ron",
+   "text": "Four chairs is a standing room show. Very exclusive.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "bev",
+   "text": "Twenty six confirmed. Two maybes. One dog. The dog is the maybe.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "When did you even book my apartment?",
+   "shot": "CU"
+  },
+  {
+   "spk": "bev",
+   "text": "In August. You said sure. You were asleep on the side stage.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "phone",
+   "text": "I recorded that too. He said, sure, Aunt Bev, whatever you want. Very clear.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "marcus",
+   "text": "Okay. Fine. But I am not on the side stage in my own apartment.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "bev",
+   "text": "Of course not, baby. In your apartment, you are the headliner.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "marcus",
+   "text": "Really?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "phone",
+   "text": "Zoom in. Headliner. Marcus. Dishes. All night.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "rimshot"
+  },
+  {
+   "spk": "ron",
+   "text": "That's the longest set on the poster. Respect.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marcus",
+   "text": "Can I at least get a VIP paper towel?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bev",
+   "text": "Baby. You are drying with all of them.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  }
+ ]
+}
