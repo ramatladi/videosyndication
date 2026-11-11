@@ -3,15 +3,23 @@
   "handle": "@DermatologyJoburgBedfordview",
   "title": "Dermalogica Daily Superfoliant Label: Spot the Powder Format First #shorts",
   "slot_sast": "2026-11-08 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefafb28b7581c1",
   "publish_at": "2026-11-11T23:56:41Z",
   "overdue": true,
   "upload_started": "2026-11-11T22:54:39Z",
   "error": null,
-  "updated": "2026-11-11T22:54:44Z",
+  "updated": "2026-11-11T22:55:31Z",
   "video_id": "ICCfKcaVv_E",
   "published_now": null,
   "url": "https://youtube.com/shorts/ICCfKcaVv_E",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCs0uxMnSV1INS_Bxn6yqc2Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-11T23:56:41Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
