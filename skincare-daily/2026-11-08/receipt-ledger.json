@@ -371,13 +371,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "g8iFptsb-e0",
       "sku": "111064",
       "title": "Dermalogica Active Moist: How to Spot the 50 mL Oil-Free Moisturizer #shorts",
       "manifest_slug": "rosebank-active-moist-short",
       "media_sha256": "9120d2f4992a4ca8e73319ed60c9a300ff20f6232968e90c3a68a5950c03afa8",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T21:59:43Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -446,5 +447,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 5
+  "youtube_ids_recorded": 6
 }
