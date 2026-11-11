@@ -152,13 +152,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "VgJpBE2O_oM",
       "sku": "110615",
       "title": "Dermalogica Multi Active Toner: The Mist Step Before Moisturizer #shorts",
       "manifest_slug": "umhlanga-multi-active-toner-short",
       "media_sha256": "473382fe08f2b798133dd71130591690e24bd1e819644c3f8599b6df4b5ac652",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T21:58:00Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -443,5 +444,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 2
+  "youtube_ids_recorded": 3
 }
