@@ -3,15 +3,23 @@
   "handle": "@DermatologyCapeTown",
   "title": "Dermalogica Porescreen SPF40: How to Spot This Tinted Sunscreen #shorts",
   "slot_sast": "2026-11-08 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref6de74c9524b6",
   "publish_at": "2026-11-11T23:56:41Z",
   "overdue": true,
   "upload_started": "2026-11-11T22:52:49Z",
   "error": null,
-  "updated": "2026-11-11T22:52:54Z",
+  "updated": "2026-11-11T22:53:56Z",
   "video_id": "ZnSpdgHP6wM",
   "published_now": null,
   "url": "https://youtube.com/shorts/ZnSpdgHP6wM",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UC6IhnhkFRVu8tTc1FJbjb8Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-11T23:56:41Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
