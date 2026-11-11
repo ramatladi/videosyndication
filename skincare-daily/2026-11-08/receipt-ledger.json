@@ -121,13 +121,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "-9TASGSZISs",
       "sku": "W110633",
       "title": "Dermalogica Oil Free Matte SPF30: What \"Matte\" Means on a Sunscreen #shorts",
       "manifest_slug": "capetown-oil-free-matte-spf30-short",
       "media_sha256": "9d6f848becd28ed1ae2d1d7d50608321999023610b5e7f3fcda61de5449d1a80",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T00:56:41Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -460,5 +461,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 19
+  "youtube_ids_recorded": 20
 }
