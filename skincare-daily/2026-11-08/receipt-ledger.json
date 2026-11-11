@@ -182,13 +182,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "j4b-kiDzIzw",
       "sku": "105012",
       "title": "Dermalogica Skin Hydrating Booster: Read the Mixing Directions #shorts",
       "manifest_slug": "umhlanga-skin-hydrating-booster-short",
       "media_sha256": "0d47a3a67136fd78e9245aa0320d2baced754f66767f1e325af55a0de69e0075",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T23:56:41Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -455,5 +456,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 14
+  "youtube_ids_recorded": 15
 }
