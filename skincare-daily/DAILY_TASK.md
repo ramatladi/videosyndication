@@ -60,9 +60,12 @@ whose listing doesn't name its contents. Never take kit contents from another pr
 5. **Look at the images**: build a labelled contact sheet per 6 products from `skwork/DATE/img` and view it. Add any
    before/after, clinical-claim, percentage, review/quote, award or person-of-note image to `skwork/DATE/skip.json`
    (file names). Packshots (index 00) must show the exact product and size.
-6. **Write + render**: `SK_MEDIA=/tmp/launch-media python3 skincare-daily/sk.py write DATE` (prints kit/text problems;
-   a slot with a problem is replanned with the next tier), then `python3 skincare-daily/sk.py render DATE` in the
-   background (nohup; ~30 s per item; poll). It renders, retries failures once one by one, runs QA and the 14-day
+6. **Write + render**: `SK_MEDIA=/tmp/launch-media python3 skincare-daily/sk.py write DATE` (prints kit/text/overlap
+   problems; a slot with a problem is replanned with the next product). If a replanned product has no images yet
+   ("fewer than 2 store images"), run `fetchjs` again (it queues only the missing SKUs), ingest, and `write` again.
+   Then `python3 skincare-daily/sk.py render DATE` as a background job of this session (about 1.5 min per item, so
+   ~55 min for 36) and keep polling until it finishes: a background process dies when the session's reply ends, so
+   never end the turn while it runs. `render` also picks each thumbnail's most distinct layout (14-day + batch dHash). It renders, retries failures once one by one, runs QA and the 14-day
    thumbnail check. Look at one frame of every item on a contact sheet. Fix and re-render anything that fails.
 7. **Stage**: `python3 skincare-daily/sk.py stage DATE /tmp/launch-media` — copies renders/images, writes the manifest
    (hashes, selection tier, QA), verifies every hash and writes the receipt ledger rows Codex expects, so no slot is left
