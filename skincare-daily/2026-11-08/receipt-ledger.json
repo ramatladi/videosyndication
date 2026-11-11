@@ -19,13 +19,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "U3JlK4XlUmI",
       "sku": "111474",
       "title": "Dermalogica Oil to Foam Total Cleanser: How the Texture Changes, Step by Step",
       "manifest_slug": "midrand-oil-to-foam-total-cleanser",
       "media_sha256": "268a54f139682b4665bba7c1dd75beec3109304957c5dd7cd78be4b1c2592b71",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T22:56:41Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -447,5 +448,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 6
+  "youtube_ids_recorded": 7
 }
