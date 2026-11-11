@@ -225,13 +225,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "Y9UfXsyhHEo",
       "sku": "111461",
       "title": "Dermalogica Liquid Peelfoliant: Find How Often to Use It #shorts",
       "manifest_slug": "bedfordview-liquid-peelfoliant-short",
       "media_sha256": "97eb368478298a466ea538490d91b28e1decddb38027bac67c809525a77e8743",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T21:58:40Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -444,5 +445,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 3
+  "youtube_ids_recorded": 4
 }
