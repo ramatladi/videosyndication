@@ -407,13 +407,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "fwah6oD9UP8",
       "sku": "111519",
       "title": "Dermalogica Pro-Collagen Banking Water Cream: What \"Water Cream\" Means #shorts",
       "manifest_slug": "rosebank-pro-collagen-banking-water-cream-short",
       "media_sha256": "06ea8a8d70ed2394d5e5c3384bcb16e05e69b7ba4b2b0b057cf45dcb211064b1",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T23:56:41Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -458,5 +459,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 17
+  "youtube_ids_recorded": 18
 }
