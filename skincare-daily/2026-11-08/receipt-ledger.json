@@ -93,13 +93,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "d_vK7xbUvek",
       "sku": "111505INT",
       "title": "Dermalogica Golden Hour Hydrating SPF30 Stick: How to Apply and Reapply a Sunscreen Stick",
       "manifest_slug": "capetown-golden-hour-hydrating-spf30-stick",
       "media_sha256": "99f3b35ab74eb6aea5a46b05025c0ec4a18fa8681848d4ce8328c5acd7787170",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T22:56:41Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -448,5 +449,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 7
+  "youtube_ids_recorded": 8
 }
