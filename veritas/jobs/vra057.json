@@ -1,0 +1,145 @@
+{
+ "id": "vra057",
+ "format": "short",
+ "voice": "af_heart",
+ "speed": 1.05,
+ "source_id": "dropbox:8328534",
+ "job": {
+  "employer": "Dropbox",
+  "logo": "dropbox",
+  "title": "Security Engineer, IAM",
+  "short_title": "Security Engineer, IAM",
+  "location": "Remote, US (select locations)",
+  "workplace": "Remote",
+  "pay": "$172K – $261.9K a year",
+  "pay_full": "$193,500 – $261,900 a year in US Zone 2; $172,000 – $232,800 a year in US Zone 3 (not available in US Zone 1)",
+  "type": "",
+  "posted": "",
+  "ref": "8328534",
+  "apply_url": "https://jobs.dropbox.com/listing/8328534?gh_jid=8328534",
+  "apply_site": "jobs.dropbox.com"
+ },
+ "details": {
+  "about": "Dropbox's security engineers protect its products and the millions of people who use them. This role builds and runs the identity and access controls that let Dropbox employees, services and AI agents reach what they need securely, working with Infrastructure, Corp Engineering, Developer Platform and Incident Response.",
+  "duties": [
+   "Design, deploy and operate IAM controls across Dropbox's cloud and on-premises infrastructure",
+   "Build identity, authentication and authorization controls for AI agents and other non-human actors",
+   "Enforce least privilege with RBAC, ABAC, permission boundaries, service control policies and just-in-time access",
+   "Design secure integrations with SAML, OAuth 2.1, OpenID Connect, SCIM and SPIFFE/SPIRE",
+   "Automate identity lifecycle processes and build guardrails with infrastructure-as-code and policy-as-code",
+   "Build monitoring and alerting for anomalous logins, privilege escalation and credential misuse, and work with Incident Response on identity incidents",
+   "Run security reviews and threat modeling for new identity designs, and keep IAM services reliable, including on-call support"
+  ],
+  "needs": [
+   "5+ years of security engineering experience, including substantial IAM or identity-security work",
+   "Hands-on experience with Okta, Okta for AI Agents and SailPoint, or comparable technologies",
+   "Strong grasp of authentication, authorization, least privilege, zero trust and identity lifecycle management",
+   "Experience with SAML, OAuth 2.0/2.1, OpenID Connect, SCIM and MFA, and designing RBAC or ABAC models",
+   "Experience securing human and non-human identities (services, workloads, automation, CI/CD)",
+   "Experience with agentic frameworks and MCP tool integration",
+   "Experience with access reviews, privileged-access controls and joiner/mover/leaver workflows",
+   "At least one programming or scripting language such as Python, Go, Java, Ruby or Bash, plus infrastructure-as-code, policy-as-code, APIs and security automation",
+   "Bachelor's in Computer Science, Information Security or a related field, or equivalent practical experience"
+  ],
+  "nice": [
+   "Workload identity (SPIFFE/SPIRE, Kubernetes service accounts, cloud workload identity)",
+   "Just-in-time access, zero-standing-privilege or privileged-access management platforms",
+   "Identity threat detection and response; IAM for multi-account cloud environments",
+   "NIST SP 800-63 and 800-207, CIS benchmarks; SOC 2, ISO 27001 or FedRAMP programs",
+   "Certifications such as CISSP or CCSP"
+  ],
+  "benefits": "Base pay $193,500 – $261,900 a year in US Zone 2 and $172,000 – $232,800 a year in US Zone 3; the role is not available in US Zone 1.",
+  "notes": [
+   "Remote within select US locations",
+   "Engineers on teams with an on-call rotation take part in it, including outside core business hours"
+  ]
+ },
+ "yt_title": "Dropbox Is Hiring: Security Engineer, IAM | Remote US | $172K–$261K",
+ "hashtags": [
+  "#TechJobs",
+  "#CyberSecurity",
+  "#RemoteJobs",
+  "#IAM",
+  "#Hiring"
+ ],
+ "tags": [
+  "dropbox jobs",
+  "security engineer jobs",
+  "iam engineer",
+  "identity and access management",
+  "cybersecurity jobs",
+  "remote tech jobs",
+  "okta jobs",
+  "tech jobs",
+  "hiring now",
+  "veritas recruitment agency"
+ ],
+ "scenes": [
+  {
+   "head": "The role",
+   "bullets": [
+    "Security Engineer, IAM",
+    "Dropbox",
+    "Remote · select US locations"
+   ],
+   "lines": [
+    "Now hiring, fully remote! Dropbox wants a Security Engineer for identity and access management, to protect how people, services, and A I agents get access."
+   ]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": [
+    "Run IAM controls across cloud & on-prem",
+    "Secure identities for AI agents & services",
+    "Least privilege, alerting & threat modeling"
+   ],
+   "lines": [
+    "You'll design and run access controls across cloud and on-premises systems, lock things down to least privilege, and build alerts that catch credential misuse.",
+    "You'll also partner with incident response to quickly shut off compromised access."
+   ]
+  },
+  {
+   "head": "What you need",
+   "bullets": [
+    "5+ yrs security engineering, strong IAM",
+    "Okta, SailPoint or similar",
+    "SAML, OAuth, OpenID Connect, SCIM, MFA",
+    "Python, Go, Java, Ruby or Bash"
+   ],
+   "lines": [
+    "You'll need five years in security engineering with deep identity experience, tools like Okta or SailPoint, and SAML, OAuth, and OpenID Connect.",
+    "Plus coding in a language like Python or Go."
+   ],
+   "show": [
+    "You'll need 5 years in security engineering with deep identity experience, tools like Okta or SailPoint, and SAML, OAuth, and OpenID Connect.",
+    null
+   ]
+  },
+  {
+   "head": "Pay",
+   "bullets": [
+    "$193,500 – $261,900 (US Zone 2)",
+    "$172,000 – $232,800 (US Zone 3)",
+    "Not available in US Zone 1"
+   ],
+   "lines": [
+    "Pay is one hundred ninety-three thousand five hundred to two hundred sixty-one thousand nine hundred dollars a year in Zone two, and a lower range in Zone three."
+   ],
+   "show": [
+    "Pay is $193,500 to $261,900 a year in Zone 2, and a lower range in Zone 3."
+   ]
+  },
+  {
+   "head": "How to apply",
+   "bullets": [
+    "Application link in the description",
+    "Apply on jobs.dropbox.com",
+    "Job ID 8328534"
+   ],
+   "lines": [
+    "To apply, find the direct application link in the description.",
+    "Follow Veritas for new tech jobs every day."
+   ]
+  }
+ ]
+}
