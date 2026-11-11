@@ -197,13 +197,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "0u5wQNcd5I8",
       "sku": "102022",
       "title": "Dermalogica Antioxidant Hydramist: Spray Format and Directions #shorts",
       "manifest_slug": "umhlanga-antioxidant-hydramist-short",
       "media_sha256": "babe83f60c9c76770e6bc2beaf5685d80b71da4b60cd30237edd939a584a5138",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T00:56:41Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -461,5 +462,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 20
+  "youtube_ids_recorded": 21
 }
