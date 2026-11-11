@@ -298,13 +298,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "S2bqpiP6DSY",
       "sku": "111478INT",
       "title": "Dermalogica Clarifying Body Spray: Why the Spray Format Matters #shorts",
       "manifest_slug": "westville-clarifying-body-spray-short",
       "media_sha256": "cd50c5484c20499359b541ea4a06cf11da21d46c8e33730ad2da4fab2c2c9ca0",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T21:59:18Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -445,5 +446,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 4
+  "youtube_ids_recorded": 5
 }
