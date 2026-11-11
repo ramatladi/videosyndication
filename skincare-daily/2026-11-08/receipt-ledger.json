@@ -241,13 +241,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "5LvdreL6aMI",
       "sku": "411465",
       "title": "Dermalogica Dynamic Skin Retinol Serum Label Explained: 3.5% Retinoid Complex",
       "manifest_slug": "bedfordview-dynamic-skin-retinol-serum",
       "media_sha256": "87031b297cdf54de6da1f1a7fd3defd6b09e9552185799d73afad4ba12f3bc8e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T22:56:41Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -450,5 +451,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 9
+  "youtube_ids_recorded": 10
 }
