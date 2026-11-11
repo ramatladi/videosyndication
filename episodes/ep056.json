@@ -10,95 +10,492 @@
  "scene": "bedroom",
  "desk": false,
  "music": "upbeat",
- "intro": ["day twelve of", "the thermostat war", "it's finally over"],
+ "intro": [
+  "day twelve of",
+  "the thermostat war",
+  "it's finally over"
+ ],
  "youtube_title": "Day twelve of the roommate thermostat war... it's finally over ❄️",
  "description": "Bea wants it warm. Hector wants it at sixty four for character building. The thermostat is tired of being touched, and the cat knows something nobody else does.\n\n#cartoon #animation #funny #roommates #shorts",
- "tags": ["cartoon", "animation", "funny", "comedy", "cartoons", "roommates", "thermostat", "cold weather", "talking cat"],
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "roommates",
+  "thermostat",
+  "cold weather",
+  "talking cat"
+ ],
  "tiktok_caption": "day twelve of the roommate thermostat war... it's finally over ❄️ #cartoon #animation #funny #roommates",
  "cast": [
-  {"id": "bea", "name": "Bea", "kind": "human", "color": "#f1c27d",
-   "hair": {"style": "bun", "color": "#a04000"},
-   "top": {"color": "#5dade2", "pattern": "hoodie"}, "bottom": "#7d3c98", "shoes": "#f5cba7",
-   "accessories": ["scarf:#e74c3c", "beanie:#f4d03f"],
-   "eye": "round", "brows": "angry", "mouth": "frown", "label_color": "#85c1e9",
-   "voice": {"id": "af_kore", "pitch": 0, "tempo": 1.02}},
-  {"id": "hector", "name": "Hector", "kind": "human", "color": "#c68642",
-   "hair": {"style": "spiky", "color": "#1b120b"},
-   "top": {"color": "#f5b041", "pattern": "jersey", "pattern_color": "#ffffff", "number": "64"}, "bottom": "#2e86c1", "shoes": "#ffffff",
-   "accessories": ["sunglasses"],
-   "eye": "happy", "brows": "raised", "mouth": "smile", "label_color": "#f8c471",
-   "voice": {"id": "am_puck", "pitch": 0, "tempo": 1.05}},
-  {"id": "thermo", "name": "The Thermostat", "kind": "mascot", "shape": "box", "color": "#d5d8dc",
-   "accessories": ["glasses", "tie:#2e4053"],
-   "eye": "sleepy", "brows": "worried", "mouth": "flat", "label_color": "#d5d8dc",
-   "voice": {"id": "bm_george", "pitch": 0, "tempo": 0.95}},
-  {"id": "noodle", "name": "Noodle", "kind": "animal", "ears": "cat", "color": "#2c2c2c", "belly": "#f2f3f4",
-   "accessories": ["bow:#e91e63"],
-   "eye": "sleepy", "brows": "neutral", "mouth": "flat", "label_color": "#d7bde2",
-   "voice": {"id": "bf_lily", "pitch": -1, "tempo": 0.92}}
+  {
+   "id": "bea",
+   "name": "Bea",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "bun",
+    "color": "#a04000"
+   },
+   "top": {
+    "color": "#5dade2",
+    "pattern": "hoodie"
+   },
+   "bottom": "#7d3c98",
+   "shoes": "#f5cba7",
+   "accessories": [
+    "scarf:#e74c3c",
+    "beanie:#f4d03f"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "frown",
+   "label_color": "#85c1e9",
+   "voice": {
+    "id": "af_kore",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "hector",
+   "name": "Hector",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "spiky",
+    "color": "#1b120b"
+   },
+   "top": {
+    "color": "#f5b041",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "64"
+   },
+   "bottom": "#2e86c1",
+   "shoes": "#ffffff",
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f8c471",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "thermo",
+   "name": "The Thermostat",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#d5d8dc",
+   "accessories": [
+    "glasses",
+    "tie:#2e4053"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#d5d8dc",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "noodle",
+   "name": "Noodle",
+   "kind": "animal",
+   "ears": "cat",
+   "color": "#2c2c2c",
+   "belly": "#f2f3f4",
+   "accessories": [
+    "bow:#e91e63"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#d7bde2",
+   "voice": {
+    "id": "bf_lily",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  }
  ],
  "lines": [
-  {"spk": "bea", "text": "Day twelve of the thermostat war. I can see my breath. Indoors.", "shot": "CU", "gesture": "cross"},
-  {"spk": "hector", "text": "Sixty four degrees. It builds character.", "shot": "TWO", "gesture": "hips"},
-  {"spk": "bea", "text": "You are wearing shorts, Hector. In November.", "shot": "CU", "gesture": "point"},
-  {"spk": "hector", "text": "I am from a cold family. We run warm.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "bea", "text": "Your family is from Arizona.", "shot": "CU", "gesture": "facepalm", "after": "rimshot"},
-  {"spk": "thermo", "text": "Good evening. I am the thermostat. Please stop touching me.", "shot": "CU", "gesture": "wave", "pre": 0.4},
-  {"spk": "thermo", "text": "Today I was seventy one, sixty four, seventy one, and sixty four. I am dizzy.", "shot": "CU", "gesture": "think"},
-  {"spk": "bea", "text": "He turns it down every time I leave the room.", "shot": "TWO", "gesture": "point"},
-  {"spk": "hector", "text": "She turns it up every time I blink.", "shot": "CU", "gesture": "cross"},
-  {"spk": "thermo", "text": "I have been pressed more than an elevator button.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "bea", "text": "Why is the thermostat in your room, anyway?", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "hector", "text": "The lease says whoever has the thermostat has the power.", "shot": "CU", "gesture": "hips"},
-  {"spk": "bea", "text": "The lease does not say that. You wrote that in pencil.", "shot": "CU", "gesture": "point"},
-  {"spk": "hector", "text": "Pencil is a legal font.", "shot": "CU", "gesture": "shrug", "after": "boing"},
-  {"spk": "bea", "text": "I am wearing three coats. I made soup just to hold it.", "shot": "W", "gesture": "arms_up"},
-  {"spk": "hector", "text": "You lit a candle and held your hands over it like a camper.", "shot": "TWO", "gesture": "point"},
-  {"spk": "bea", "text": "That candle smells like cookies. It is the only warm thing I love.", "shot": "CU", "gesture": "think"},
-  {"spk": "thermo", "text": "Last night she put a hair dryer on my sensor. I thought it was summer.", "shot": "CU", "gesture": "facepalm"},
-  {"spk": "hector", "text": "And I put an ice pack on him. He thought it was Canada.", "shot": "CU", "gesture": "arms_up", "jump": true},
-  {"spk": "thermo", "text": "I have been to two countries this week. I never left the wall.", "shot": "CU", "gesture": "shrug", "after": "sting"},
-  {"spk": "thermo", "text": "Please. I am begging. Can we have peace talks?", "shot": "CU", "gesture": "wave"},
-  {"spk": "bea", "text": "Fine. Peace talks. Sit down, Hector.", "shot": "TWO", "gesture": "point"},
-  {"spk": "hector", "text": "My opening offer is sixty four. A strong number.", "shot": "CU", "gesture": "hips"},
-  {"spk": "bea", "text": "Seventy four. I want to wear a T shirt in my own home.", "shot": "CU", "gesture": "cross"},
-  {"spk": "thermo", "text": "What about sixty eight? Right in the middle. Everyone is a little sad.", "shot": "CU", "gesture": "think"},
-  {"spk": "hector", "text": "Sixty eight. And I get the last slice of pizza on Fridays.", "shot": "CU", "gesture": "point"},
-  {"spk": "bea", "text": "Sixty eight. And you wear pants in the kitchen.", "shot": "CU", "gesture": "point"},
-  {"spk": "hector", "text": "That is a big ask. Fine. Deal.", "shot": "TWO", "gesture": "shrug", "pre": 0.6},
-  {"spk": "thermo", "text": "Please sign here. On my little screen. With your finger.", "shot": "CU", "gesture": "wave"},
-  {"spk": "bea", "text": "It is over. The war is over. We won.", "shot": "W", "gesture": "arms_up", "jump": true, "after": "applause"},
-  {"spk": "hector", "text": "Who won?", "shot": "CU", "gesture": "think"},
-  {"spk": "bea", "text": "Everybody. That is how peace works.", "shot": "CU", "gesture": "hips"},
-  {"spk": "thermo", "text": "Sixty eight. I am finally still. I am going to cry a little warm air.", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "bea", "text": "Okay. We wait. Any minute now it gets cozy.", "shot": "TWO", "gesture": "wave", "pre": 0.5},
-  {"spk": "hector", "text": "It has been one hour. Why is it still cold?", "shot": "CU", "gesture": "think", "pre": 0.9},
-  {"spk": "bea", "text": "My soup has a skin on it. My soup is cold.", "shot": "CU", "gesture": "facepalm"},
-  {"spk": "thermo", "text": "I am working very hard. I am heating like I am being paid.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "noodle", "text": "Oh. You two noticed the cold. That is new.", "shot": "CU", "gesture": "think", "pre": 0.6},
-  {"spk": "bea", "text": "Noodle? Why is there a breeze behind the cat?", "shot": "TWO", "gesture": "point"},
-  {"spk": "noodle", "text": "The window. I open it every night. Since September.", "shot": "CU", "gesture": "shrug", "after": "record_scratch"},
-  {"spk": "hector", "text": "You can open windows?", "shot": "CU", "gesture": "arms_up", "jump": true},
-  {"spk": "noodle", "text": "I have thumbs when nobody is looking.", "shot": "CU", "gesture": "hips"},
-  {"spk": "bea", "text": "Why would you open the window in November?", "shot": "CU", "gesture": "cross"},
-  {"spk": "noodle", "text": "To talk to Gerald. He is a pigeon. He has opinions about bread.", "shot": "CU", "gesture": "think"},
-  {"spk": "thermo", "text": "So for two months I have been heating the whole street.", "shot": "CU", "gesture": "facepalm"},
-  {"spk": "noodle", "text": "Missus Patel downstairs grows tomatoes now. In November. On her balcony.", "shot": "CU", "gesture": "point"},
-  {"spk": "hector", "text": "We fought for twelve days. And the cat was the enemy.", "shot": "TWO", "gesture": "arms_up"},
-  {"spk": "noodle", "text": "I am not your enemy. I am a neutral country. With a window.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "bea", "text": "Close the window. Close it right now.", "shot": "CU", "gesture": "point"},
-  {"spk": "noodle", "text": "Fine. Gerald will understand. Gerald always understands.", "shot": "CU", "gesture": "wave"},
-  {"spk": "thermo", "text": "Oh. Oh my. Sixty eight. Real sixty eight. It is beautiful.", "shot": "CU", "gesture": "arms_up", "pre": 0.5},
-  {"spk": "bea", "text": "I can feel my nose. Hector, I can feel my nose.", "shot": "CU", "gesture": "arms_up", "jump": true},
-  {"spk": "hector", "text": "I am wearing pants. And I am happy. Write that down.", "shot": "CU", "gesture": "hips"},
-  {"spk": "bea", "text": "We could have done this in October.", "shot": "TWO", "gesture": "facepalm"},
-  {"spk": "hector", "text": "We needed to grow as people.", "shot": "CU", "gesture": "think"},
-  {"spk": "thermo", "text": "And I would like a lock. A small one. With a tiny key.", "shot": "CU", "gesture": "point"},
-  {"spk": "noodle", "text": "One small thing. Gerald has a cousin. She is coming over.", "shot": "CU", "gesture": "shrug", "pre": 0.6},
-  {"spk": "bea", "text": "Noodle. No birds in the apartment.", "shot": "CU", "gesture": "cross"},
-  {"spk": "noodle", "text": "She is not a bird. She is a guest. Who is a bird.", "shot": "CU", "gesture": "hips"},
-  {"spk": "hector", "text": "Where is she going to sit?", "shot": "CU", "gesture": "think"},
-  {"spk": "noodle", "text": "On the thermostat. She heard it is the warmest spot in town.", "shot": "CU", "gesture": "point"},
-  {"spk": "thermo", "text": "Day one of the pigeon war.", "shot": "W", "gesture": "facepalm", "pre": 0.4, "after": "whoosh"}
+  {
+   "spk": "bea",
+   "text": "Day twelve of the thermostat war. I can see my breath.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "hector",
+   "text": "Sixty four degrees. It builds character.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "bea",
+   "text": "You are wearing shorts, Hector. In November.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hector",
+   "text": "I am from a cold family. We run warm.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bea",
+   "text": "Your family is from Arizona.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "rimshot"
+  },
+  {
+   "spk": "thermo",
+   "text": "I am the thermostat. Please stop touching me.",
+   "shot": "CU",
+   "gesture": "wave",
+   "pre": 0.4
+  },
+  {
+   "spk": "thermo",
+   "text": "Today I was seventy one, then sixty four, then seventy one. I am dizzy.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bea",
+   "text": "He turns it down every time I leave the room.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "hector",
+   "text": "She turns it up every time I blink.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "thermo",
+   "text": "I have been pressed more than an elevator button.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bea",
+   "text": "Why is the thermostat in your room, anyway?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "hector",
+   "text": "The lease says whoever has the thermostat has the power.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "bea",
+   "text": "The lease does not say that. That is pencil.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hector",
+   "text": "Pencil is a legal font.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "bea",
+   "text": "I am wearing three coats. I made soup to hold it.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "thermo",
+   "text": "Last night she put a hair dryer on me. I thought it was summer.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "hector",
+   "text": "And I put an ice pack on him. He thought it was Canada.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "thermo",
+   "text": "Two countries this week. I never left the wall.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "sting"
+  },
+  {
+   "spk": "thermo",
+   "text": "Please. I am begging. Can we have peace talks?",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "bea",
+   "text": "Fine. Peace talks. Sit down, Hector.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "hector",
+   "text": "My opening offer is sixty four. A strong number.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "bea",
+   "text": "Seventy four. I want to wear a T shirt indoors.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "thermo",
+   "text": "What about sixty eight? Everyone is a little sad.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hector",
+   "text": "Deal. If I get the last pizza slice on Fridays.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "bea",
+   "text": "Sixty eight. And you wear pants in the kitchen.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hector",
+   "text": "That is a big ask. Fine. Deal.",
+   "shot": "TWO",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "thermo",
+   "text": "Please sign here. On my little screen. With your finger.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "bea",
+   "text": "It is over. The war is over. We won.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "hector",
+   "text": "Who won?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bea",
+   "text": "Everybody. That is how peace works.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "thermo",
+   "text": "Sixty eight. I am finally still. I could cry warm air.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "bea",
+   "text": "Okay. We wait. Any minute now it gets cozy.",
+   "shot": "TWO",
+   "gesture": "wave",
+   "pre": 0.5
+  },
+  {
+   "spk": "hector",
+   "text": "It has been one hour. Why is it still cold?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.9
+  },
+  {
+   "spk": "bea",
+   "text": "My soup has a skin on it.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "noodle",
+   "text": "Oh. You two noticed the cold. That is new.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "bea",
+   "text": "Noodle? Why is there a breeze behind the cat?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "noodle",
+   "text": "The window. I open it every night. Since September.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "hector",
+   "text": "You can open windows?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "noodle",
+   "text": "I have thumbs when nobody is looking.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "bea",
+   "text": "Why would you open the window in November?",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "noodle",
+   "text": "To talk to Gerald. He is a pigeon. He loves bread.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "thermo",
+   "text": "So for two months I have been heating the whole street.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "noodle",
+   "text": "Missus Patel downstairs grows tomatoes now. In November.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hector",
+   "text": "We fought for twelve days. And the cat was the enemy.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "noodle",
+   "text": "I am not your enemy. I am a neutral country.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bea",
+   "text": "Close the window. Close it right now.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "noodle",
+   "text": "Fine. Gerald will understand. Gerald always understands.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "thermo",
+   "text": "Oh my. Real sixty eight. It is beautiful.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "pre": 0.5
+  },
+  {
+   "spk": "bea",
+   "text": "I can feel my nose, Hector!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "hector",
+   "text": "I am wearing pants. And I am happy.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "bea",
+   "text": "We could have done this in October.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "hector",
+   "text": "We needed to grow as people.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "noodle",
+   "text": "Gerald has a cousin. She is coming over.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "bea",
+   "text": "Noodle. No birds in the apartment.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "noodle",
+   "text": "She is not a bird. She is a guest. Who is a bird.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "hector",
+   "text": "Where is she going to sit?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "noodle",
+   "text": "On the thermostat. She heard it is warm.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "thermo",
+   "text": "Day one of the pigeon war.",
+   "shot": "W",
+   "gesture": "facepalm",
+   "pre": 0.4,
+   "after": "whoosh"
+  }
  ]
 }
