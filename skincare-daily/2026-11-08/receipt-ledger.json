@@ -349,13 +349,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "91qcDH6-9nQ",
       "sku": "111379",
       "title": "Dermalogica Thermafoliant Body Scrub: Where the Rinse Step Belongs #shorts",
       "manifest_slug": "westville-thermafoliant-body-scrub-short",
       "media_sha256": "3a9d9eb1c2f1c67091d44a672f0777c656dd796c45f3efa17633383bc9daadbe",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T00:56:41Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -463,5 +464,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 22
+  "youtube_ids_recorded": 23
 }
