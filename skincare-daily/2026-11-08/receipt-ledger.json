@@ -45,13 +45,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "ZLziSkGAeys",
       "sku": "110541",
       "title": "Dermalogica Ultracalming Cleanser: Rinse It or Tissue It Off #shorts",
       "manifest_slug": "midrand-ultracalming-cleanser-short",
       "media_sha256": "4674ce85996e1864963bb5a4966e3832127cd3133722cc19f672d7f4d60c229e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T00:56:41Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -459,5 +460,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 18
+  "youtube_ids_recorded": 19
 }
