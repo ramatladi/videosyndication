@@ -3,15 +3,23 @@
   "handle": "@DermatologistJoburgMidrand",
   "title": "Dermalogica Daily Milkfoliant: How the Powder Becomes a Paste #shorts",
   "slot_sast": "2026-11-08 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref96a7532ba651",
   "publish_at": "2026-11-11T23:56:41Z",
   "overdue": true,
   "upload_started": "2026-11-11T22:52:09Z",
   "error": null,
-  "updated": "2026-11-11T22:52:15Z",
+  "updated": "2026-11-11T22:52:47Z",
   "video_id": "bO3yCdKUDDw",
   "published_now": null,
   "url": "https://youtube.com/shorts/bO3yCdKUDDw",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCb16q-70MGFin6RfsMGbdnw",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-11T23:56:41Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
