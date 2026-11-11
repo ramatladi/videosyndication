@@ -2554,6 +2554,81 @@
    "ears": {
     "error": "Command '['/usr/local/bin/python3', '-m', 'pip', 'install', '-q', '--break-system-packages', 'tensorflow-cpu', 'tf_keras']' died with <Signals.SIGTERM: 15>."
    }
+  },
+  {
+   "release": "mtr037",
+   "date": "2026-11-11",
+   "slot": "2026-11-11T19:55",
+   "format": "short",
+   "title": "Slow Tide Calling",
+   "artist": "Gabriel Stone",
+   "style": "melodic",
+   "key": "D major",
+   "bpm": 123,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "b056b774-5efa-4e50-b023-95027ff8d755",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/51ff7ef6-4e70-4358-938f-a05a0fc6bef3.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr037.json",
+   "photographer": "Manny Moreno",
+   "photo_page": "https://unsplash.com/photos/woman-in-white-one-piece-swimsuit-standing-on-beach-during-daytime-fTQpCb8LU2E",
+   "photo_kind": "bikini",
+   "metricool_uuid": "783945397259553461",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-15775045119658216851.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr037.mp3",
+    "top": [
+     [
+      "electronic",
+      0.42
+     ],
+     [
+      "chillout",
+      0.146
+     ],
+     [
+      "electronica",
+      0.123
+     ],
+     [
+      "House",
+      0.118
+     ],
+     [
+      "dance",
+      0.114
+     ],
+     [
+      "electro",
+      0.104
+     ],
+     [
+      "jazz",
+      0.073
+     ],
+     [
+      "ambient",
+      0.068
+     ],
+     [
+      "pop",
+      0.062
+     ],
+     [
+      "instrumental",
+      0.057
+     ]
+    ],
+    "house": 0.118,
+    "electronic": 0.42,
+    "dance": 0.114,
+    "genre_fit": 0.847
+   }
   }
  ]
 }
