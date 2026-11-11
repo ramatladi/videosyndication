@@ -107,13 +107,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "ZnSpdgHP6wM",
       "sku": "111473INT",
       "title": "Dermalogica Porescreen SPF40: How to Spot This Tinted Sunscreen #shorts",
       "manifest_slug": "capetown-porescreen-spf40-short",
       "media_sha256": "31d950276d50217d51ada8f921e80845e01d9d3a4096e8c3b045cfbb64e8aba6",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T23:56:41Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -454,5 +455,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 13
+  "youtube_ids_recorded": 14
 }
