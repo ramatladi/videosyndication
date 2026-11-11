@@ -6,7 +6,7 @@
   python3 sk.py ingest  DATE BUNDLE [BUNDLE...]    # decode image bundles (sha256-checked) -> work/DATE/img
   python3 sk.py write   DATE                       # scripts from the listing text -> work/DATE/features.json (+ kit check)
   python3 sk.py render  DATE [slug...]             # feature.py + qa_feature.py + thumbnail/cross-day check, one retry each
-  python3 sk.py stage   DATE MEDIA                 # copy renders, manifest with hashes, ledger rows for Codex
+  python3 sk.py stage   DATE MEDIA                 # copy renders, manifest with hashes, ledger rows for the publisher
   python3 sk.py report  DATE                       # the day's report (also lists failures)
 
 Rules are in DAILY_TASK.md; this file only implements them. Facts come only from the dermalogica.co.za listing text.
@@ -611,7 +611,7 @@ def crossday(date):
     json.dump(res, open(f'{w}/out/crossday.json', 'w'), indent=1)
 
 
-# ---------------------------------------------------------------- stage + ledger for Codex
+# ---------------------------------------------------------------- stage + ledger for the publisher
 def stage(date, media):
     w = f'{WORK}/{date}'; out = f'{w}/out'; base = f'skincare-daily/{date}'; dst = f'{media}/{base}'
     spec = json.load(open(f'{w}/features-rendered.json')); q = {r['slug']: r for r in json.load(open(f'{out}/qa.json'))['renders']}
@@ -659,7 +659,7 @@ def stage(date, media):
         c['status'] = 'ready' if c['all_pass'] and c['shorts'] == 4 and c['videos'] == 2 else 'partial: staged items ready'
     shutil.copy2(f'{out}/qa.json', f'{dst}/qa.json'); shutil.copy2(f'{out}/crossday.json', f'{dst}/crossday.json')
     shutil.copy2(f'{w}/plan.json', f'{dst}/plan.json'); shutil.copy2(f'{w}/features.json', f'{dst}/features.json')
-    json.dump({'date': date, 'ledger': f'{base}/receipt-ledger.json', 'publishing': 'Codex publishes; this batch uploads and schedules nothing.',
+    json.dump({'date': date, 'ledger': f'{base}/receipt-ledger.json', 'publishing': 'skincare-upload.yml (GitHub Action) publishes; this batch uploads and schedules nothing.',
                'commission_disclosure': 'description only', 'language': 'American English', 'channels': chan, 'not_staged': failed, 'items': allit},
               open(f'{dst}/manifest.json', 'w'), indent=1, ensure_ascii=False)
     verify(media, date); ledger(media, date)
@@ -677,7 +677,7 @@ def verify(media, date):
 
 
 def ledger(media, date):
-    """Write/refresh the rows Codex reads. Never touches a row that already has a youtube_id; never invents one."""
+    """Write/refresh the rows the publisher reads. Never touches a row that already has a youtube_id; never invents one."""
     f = f'{media}/skincare-daily/{date}/receipt-ledger.json'; m = json.load(open(f'{media}/skincare-daily/{date}/manifest.json'))
     L = json.load(open(f)) if os.path.exists(f) else {'date': date, 'timezone': 'Africa/Johannesburg', 'items': []}
     rows = {(r['channel'], r['time']): r for r in L['items']}

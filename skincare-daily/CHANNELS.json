@@ -1,0 +1,9 @@
+{
+  "_note": "Six skincare channels published by .github/workflows/skincare-upload.yml. Each key names its GitHub secrets: YT_SK_REFRESH_<KEY> (refresh token) and YT_SK_CHANNEL_<KEY> (channel ID), both written by skincare-daily/yt_auth.py. YT_SK_CLIENT_ID / YT_SK_CLIENT_SECRET (the Google app) are shared.",
+  "@SkincareJoburgRosebank":       {"key": "ROSEBANK",    "domain": "skincare.joburg"},
+  "@SkincareDurbanWestville":      {"key": "WESTVILLE",   "domain": "skincare.durban"},
+  "@DermatologistJoburgMidrand":   {"key": "MIDRAND",     "domain": "dermatologist.joburg"},
+  "@DermatologyJoburgBedfordview": {"key": "BEDFORDVIEW", "domain": "dermatology.joburg"},
+  "@DermatologyDurbanUmhlanga":    {"key": "UMHLANGA",    "domain": "dermatology.durban"},
+  "@DermatologyCapeTown":          {"key": "CAPETOWN",    "domain": "dermatology.capetown"}
+}

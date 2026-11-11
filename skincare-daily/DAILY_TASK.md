@@ -1,9 +1,12 @@
 # Six skincare channels: daily production task
 
 Scheduled run: produce and stage **tomorrow's** batch (4 Shorts + 2 regular videos per channel, 36 items) for the six
-skincare channels below, then hand it to Codex through the media-branch manifest and receipt ledger.
-**Codex publishes**: this run never uploads to YouTube, never schedules posts, never touches Metricool or YouTube Studio,
-and never writes a `youtube_id`. Work unattended; never stop to ask. Sello set these rules on 11 Nov 2026.
+skincare channels below, then hand it to the publisher through the media-branch manifest and receipt ledger.
+**The GitHub Action `.github/workflows/skincare-upload.yml` publishes** (hourly, `skincare-daily/yt_publish.py`, YouTube
+Data API with the Google app; Codex no longer takes part, 11 Nov 2026). This run never uploads to YouTube, never
+schedules posts, never touches Metricool or YouTube Studio, and never writes a `youtube_id`. Channel sign-in is a
+one-time step Sello runs on his own computer: `python3 skincare-daily/yt_auth.py <client_secret.json>`.
+Work unattended; never stop to ask. Sello set these rules on 11 Nov 2026.
 
 | Domain | Handle | Desk | SAST slots |
 |---|---|---|---|
@@ -44,7 +47,7 @@ whose listing doesn't name its contents. Never take kit contents from another pr
    `git clone --filter=blob:none --no-checkout -b media https://github.com/ramatladi/videosyndication /tmp/launch-media && cd /tmp/launch-media && git sparse-checkout set --no-cone '/skincare-daily/*/*.json' '/skincare-daily/*/renders/*/*.jpg' '/skincare-launch/v2.1/*' && git checkout media`.
    DATE = tomorrow (Africa/Johannesburg). If `skincare-daily/DATE/manifest.json` already lists 36 ready items, skip to step 8.
 1. **Heal first** (before any new work): `python3 skincare-daily/sk.py heal /tmp/launch-media DATE`. For every earlier
-   day it refreshes the receipt ledger from the manifest (rows Codex reads: `staged_awaiting_youtube_receipt`, checksums
+   day it refreshes the receipt ledger from the manifest (rows the publisher reads: `staged_awaiting_youtube_receipt`, checksums
    verified; rows with a `youtube_id` are never touched). If a day still lists `missing_render` or a slot with no row,
    produce those items first with steps 2-7 for that day (same tiers, logged), then do DATE.
 2. **Catalog**: open https://dermalogica.co.za/collections/all in the built-in browser (load the built-in-browser skill;
@@ -73,7 +76,7 @@ whose listing doesn't name its contents. Never take kit contents from another pr
    never end the turn while it runs. `render` also picks each thumbnail's most distinct layout (14-day + batch dHash). It renders, retries failures once one by one, runs QA and the 14-day
    thumbnail check. Look at one frame of every item on a contact sheet. Fix and re-render anything that fails.
 7. **Stage**: `python3 skincare-daily/sk.py stage DATE /tmp/launch-media` — copies renders/images, writes the manifest
-   (hashes, selection tier, QA), verifies every hash and writes the receipt ledger rows Codex expects, so no slot is left
+   (hashes, selection tier, QA), verifies every hash and writes the receipt ledger rows the publisher expects, so no slot is left
    as `missing_render`. Commit and push the media branch (pull --rebase and retry if rejected); confirm a few
    raw.githubusercontent.com URLs return 200.
 8. **Clean up the Mac**: delete every hidden bundle this run downloaded:

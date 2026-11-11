@@ -1,0 +1,53 @@
+name: Skincare channels upload
+# Publishes the six skincare channels' staged videos (media branch, skincare-daily/<DATE>/manifest.json) to YouTube
+# with the YouTube Data API: future slots are scheduled for their SAST slot time, overdue ones posted now (spaced an
+# hour apart per channel). Video IDs go back into each day's receipt-ledger.json. All logic: skincare-daily/yt_publish.py.
+# Secrets (written by skincare-daily/yt_auth.py): YT_SK_CLIENT_ID, YT_SK_CLIENT_SECRET, and per channel key
+# (CHANNELS.json) YT_SK_REFRESH_<KEY>, YT_SK_CHANNEL_<KEY>.
+on:
+  schedule:
+    - cron: "41 * * * *"
+  workflow_dispatch:
+    inputs:
+      max_uploads:
+        description: "Most new uploads this run"
+        default: "12"
+permissions:
+  contents: write
+concurrency:
+  group: skincare-upload
+  cancel-in-progress: false
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Check out media (manifests and ledgers only)
+        run: |
+          git clone -q --filter=blob:none --no-checkout -b media \
+            "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" media
+          cd media
+          git sparse-checkout set --no-cone '/skincare-daily/*/*.json' '/skincare-daily/*/yt/*'
+          git checkout -q media
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Publish
+        env:
+          YT_SK_CLIENT_ID: ${{ secrets.YT_SK_CLIENT_ID }}
+          YT_SK_CLIENT_SECRET: ${{ secrets.YT_SK_CLIENT_SECRET }}
+          YT_SK_REFRESH_ROSEBANK: ${{ secrets.YT_SK_REFRESH_ROSEBANK }}
+          YT_SK_CHANNEL_ROSEBANK: ${{ secrets.YT_SK_CHANNEL_ROSEBANK }}
+          YT_SK_REFRESH_WESTVILLE: ${{ secrets.YT_SK_REFRESH_WESTVILLE }}
+          YT_SK_CHANNEL_WESTVILLE: ${{ secrets.YT_SK_CHANNEL_WESTVILLE }}
+          YT_SK_REFRESH_MIDRAND: ${{ secrets.YT_SK_REFRESH_MIDRAND }}
+          YT_SK_CHANNEL_MIDRAND: ${{ secrets.YT_SK_CHANNEL_MIDRAND }}
+          YT_SK_REFRESH_BEDFORDVIEW: ${{ secrets.YT_SK_REFRESH_BEDFORDVIEW }}
+          YT_SK_CHANNEL_BEDFORDVIEW: ${{ secrets.YT_SK_CHANNEL_BEDFORDVIEW }}
+          YT_SK_REFRESH_UMHLANGA: ${{ secrets.YT_SK_REFRESH_UMHLANGA }}
+          YT_SK_CHANNEL_UMHLANGA: ${{ secrets.YT_SK_CHANNEL_UMHLANGA }}
+          YT_SK_REFRESH_CAPETOWN: ${{ secrets.YT_SK_REFRESH_CAPETOWN }}
+          YT_SK_CHANNEL_CAPETOWN: ${{ secrets.YT_SK_CHANNEL_CAPETOWN }}
+        run: python3 skincare-daily/yt_publish.py media --max-uploads "${{ github.event.inputs.max_uploads || '12' }}"
