@@ -3,15 +3,23 @@
   "handle": "@DermatologyDurbanUmhlanga",
   "title": "Dermalogica Multi Active Toner: The Mist Step Before Moisturizer #shorts",
   "slot_sast": "2026-11-08 08:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefab53251e09d9",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-11T21:58:00Z",
   "error": null,
-  "updated": "2026-11-11T21:58:05Z",
+  "updated": "2026-11-11T21:58:37Z",
   "video_id": "VgJpBE2O_oM",
   "published_now": "2026-11-11T21:58:00Z",
   "url": "https://youtube.com/shorts/VgJpBE2O_oM",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCBHecSaBW2iEir_PIp7sJbQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
