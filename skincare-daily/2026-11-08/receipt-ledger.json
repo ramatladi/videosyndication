@@ -32,13 +32,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "bO3yCdKUDDw",
       "sku": "411453",
       "title": "Dermalogica Daily Milkfoliant: How the Powder Becomes a Paste #shorts",
       "manifest_slug": "midrand-daily-milkfoliant-short",
       "media_sha256": "f469995ed10736706a68177bf62e4e5d910a04854e51a73b609e33b53b42a4e2",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T23:56:41Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -453,5 +454,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 12
+  "youtube_ids_recorded": 13
 }
