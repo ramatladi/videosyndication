@@ -86,3 +86,7 @@ Publishing path for v2 (7 Nov 2026): the 12 items are rows in D1 `skincare_launc
 pair after Sello picks that channel at Google (code committed in `acnemedicine/cloudflare/worker.mjs`, needs a
 deploy). Whoever uploads them (this page or Codex) must set the row to SCHEDULED with its video ID, so nothing is
 uploaded twice.
+
+## Daily production (from 10 Nov 2026)
+Daily batches are made with `skincare-daily/sk.py` following `skincare-daily/DAILY_TASK.md` (fallback tiers with a rolling
+7-day window, kit-contents check, self-healing receipt ledger, Downloads clean-up).
