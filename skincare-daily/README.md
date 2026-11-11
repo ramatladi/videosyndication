@@ -16,3 +16,6 @@ out.length+' products'
 ## History
 - 7 Nov: launch (12 items, `skincare-launch/v2.1`). 8-9 Nov: hand-written batches. 10-11 Nov onward: `sk.py`.
 - 11 Nov 2026: fallback tiers + rolling 7-day window, kit-contents check, self-healing ledger, Downloads clean-up (Sello).
+- 12 Nov 2026: catalog exhausted for 5 slots (Cape Town 10:00/12:00/18:00, Rosebank 08:00/20:00): every candidate repeated an
+  earlier script. Known parser gap: when a listing's body starts with "Usage: ..." before "recommended for:", `parse()` keeps
+  only the usage line as the description (pro-collagen banking serum); that item was hand-fixed from its own listing text.

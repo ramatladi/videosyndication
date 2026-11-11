@@ -52,9 +52,11 @@ whose listing doesn't name its contents. Never take kit contents from another pr
    (same-origin `/products.json` plus each product page's text) — it downloads one JSON into ~/Downloads. Find it with
    device_bash (`ls -at ~/mnt/Downloads | head`; it is a hidden `.Q6L2SF6YDW.com.anthropic.claudefordesktop.*` file),
    stage it with device_stage_files and save it as `/home/claude/skwork/catalog-DATE.json`.
+   Note (12 Nov run): the hidden file can later be renamed to a visible name (the catalog became `catalog.json`) or
+   vanish; stage each download as soon as it reaches full size, and run image chunks one at a time (stage, then next).
 3. **Plan**: `SK_WORK=/home/claude/skwork python3 skincare-daily/sk.py plan DATE /home/claude/skwork/catalog-DATE.json /tmp/launch-media`.
 4. **Images**: `python3 skincare-daily/sk.py fetchjs DATE /tmp/launch-media`, commit and push the queue
-   (`skincare-daily/DATE/fetch/`) to media, then run each printed JS in the store tab (one call per chunk; if the call
+   (`skincare-daily/DATE/fetch/`) to media (the media checkout is sparse: always `git add --sparse ...`), then run each printed JS in the store tab (one call per chunk; if the call
    times out it keeps running: poll ~/mnt/Downloads until the bundle appears). Stage the bundles and
    `python3 skincare-daily/sk.py ingest DATE <bundle paths>` (SHA-256 checked per image).
 5. **Look at the images**: build a labelled contact sheet per 6 products from `skwork/DATE/img` and view it. Add any
@@ -63,6 +65,9 @@ whose listing doesn't name its contents. Never take kit contents from another pr
 6. **Write + render**: `SK_MEDIA=/tmp/launch-media python3 skincare-daily/sk.py write DATE` (prints kit/text/overlap
    problems; a slot with a problem is replanned with the next product). If a replanned product has no images yet
    ("fewer than 2 store images"), run `fetchjs` again (it queues only the missing SKUs), ingest, and `write` again.
+   If slots still fail on script overlap after the replans, the catalog is exhausted for those desks: never lower the
+   0.85 overlap guard; leave the slot empty and list it in the manifest under `unfilled_slots` (with the reason) and in
+   the report. (Heal will see it as a `no_row` gap next day and try again.)
    Then `python3 skincare-daily/sk.py render DATE` as a background job of this session (about 1.5 min per item, so
    ~55 min for 36) and keep polling until it finishes: a background process dies when the session's reply ends, so
    never end the turn while it runs. `render` also picks each thumbnail's most distinct layout (14-day + batch dHash). It renders, retries failures once one by one, runs QA and the 14-day
@@ -73,7 +78,7 @@ whose listing doesn't name its contents. Never take kit contents from another pr
    raw.githubusercontent.com URLs return 200.
 8. **Clean up the Mac**: delete every hidden bundle this run downloaded:
    `cd ~/mnt/Downloads && for f in .Q6L2SF6YDW.com.anthropic.claudefordesktop.*; do : > "$f"; rm -f -- "$f"; done`.
-   If rm is refused, call device_request_delete_permission for the Downloads folder once; if that is declined or
+   Also delete the visible `catalog.json` this run downloaded (check its size/time). If rm is refused, call device_request_delete_permission for the Downloads folder once; if that is declined or
    unanswered, the files are already emptied (0 bytes) — list them in the report. Close the browser tab you opened.
    Delete /home/claude/skwork/DATE/img after staging.
 9. **Commit code changes** (main): only sk.py / docs fixes, never media. Commit as user.name "ramatladi",
