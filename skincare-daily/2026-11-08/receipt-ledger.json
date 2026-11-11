@@ -79,13 +79,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "RaPqHvIGrj4",
       "sku": "111331",
       "title": "Dermalogica Prisma Protect SPF30: Find the SPF on the Front of the Pack #shorts",
       "manifest_slug": "capetown-prisma-protect-spf30-short",
       "media_sha256": "f4661ca4292bf5903e621644eadf63cfd1b9612f8f39c996c4afca744434b32c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T21:57:21Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -442,5 +443,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 1
+  "youtube_ids_recorded": 2
 }
