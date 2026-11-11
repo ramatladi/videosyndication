@@ -9,95 +9,478 @@
  "scene": "living_room",
  "desk": false,
  "music": "upbeat",
- "intro": ["it's time.", "the holidays start", "when gloria says they start"],
+ "intro": [
+  "it's time.",
+  "the holidays start",
+  "when gloria says they start"
+ ],
  "youtube_title": "It's Time: The Great Christmas Switch | Funny Family Cartoon",
  "description": "Gloria has waited all year to say two words: it's time. Frank says Thanksgiving comes first. The porch pumpkin refuses to retire, and the snowman keeps losing air.\n\n#cartoon #animation #funny #comedy #christmas",
- "tags": ["cartoon", "animation", "funny cartoon", "comedy", "christmas decorations", "thanksgiving", "husband and wife", "holiday season", "cartoons"],
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "christmas decorations",
+  "thanksgiving",
+  "husband and wife",
+  "holiday season",
+  "cartoons"
+ ],
  "tiktok_caption": "she waited all year to say it. it's time. #cartoon #animation #funny #comedy #christmas",
  "cast": [
-  {"id": "gloria", "name": "Gloria", "kind": "human", "color": "#c68642", "scale": 1.05,
-   "hair": {"style": "curly", "color": "#3b2314"},
-   "top": {"color": "#c0392b", "pattern": "dots", "pattern_color": "#ffffff"}, "bottom": "#1e5631", "shoes": "#c0392b",
-   "accessories": ["scarf:#27ae60"], "eye": "big", "brows": "raised", "mouth": "smile",
-   "voice": {"id": "af_jessica", "pitch": 0, "tempo": 1.05}},
-  {"id": "frank", "name": "Frank", "kind": "human", "color": "#f1c27d",
-   "hair": {"style": "short", "color": "#7f6a55"},
-   "top": {"color": "#8e5a2b", "pattern": "stripes", "pattern_color": "#e67e22"}, "bottom": "#4a3b2a", "shoes": "#2c1e12",
-   "accessories": ["glasses", "mustache:#7f6a55"], "brows": "angry", "mouth": "flat",
-   "voice": {"id": "am_eric", "pitch": -1, "tempo": 0.97}},
-  {"id": "pumpkin", "name": "The Porch Pumpkin", "kind": "mascot", "shape": "pumpkin", "color": "#e67e22", "scale": 0.95,
-   "accessories": ["glasses"], "eye": "sleepy", "brows": "worried", "mouth": "frown",
-   "voice": {"id": "bm_george", "pitch": -1, "tempo": 0.93}},
-  {"id": "blizzard", "name": "Blizzard", "kind": "mascot", "shape": "ghost", "color": "#f4f8fb", "scale": 1.1,
-   "accessories": ["beanie:#c0392b", "scarf:#2980b9"], "eye": "big", "mouth": "smile", "blush": true,
-   "voice": {"id": "am_puck", "pitch": 1, "tempo": 1.05}}
+  {
+   "id": "gloria",
+   "name": "Gloria",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.05,
+   "hair": {
+    "style": "curly",
+    "color": "#3b2314"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "dots",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#1e5631",
+   "shoes": "#c0392b",
+   "accessories": [
+    "scarf:#27ae60"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "frank",
+   "name": "Frank",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "short",
+    "color": "#7f6a55"
+   },
+   "top": {
+    "color": "#8e5a2b",
+    "pattern": "stripes",
+    "pattern_color": "#e67e22"
+   },
+   "bottom": "#4a3b2a",
+   "shoes": "#2c1e12",
+   "accessories": [
+    "glasses",
+    "mustache:#7f6a55"
+   ],
+   "brows": "angry",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_eric",
+    "pitch": -1,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "pumpkin",
+   "name": "The Porch Pumpkin",
+   "kind": "mascot",
+   "shape": "pumpkin",
+   "color": "#e67e22",
+   "scale": 0.95,
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "frown",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.93
+   }
+  },
+  {
+   "id": "blizzard",
+   "name": "Blizzard",
+   "kind": "mascot",
+   "shape": "ghost",
+   "color": "#f4f8fb",
+   "scale": 1.1,
+   "accessories": [
+    "beanie:#c0392b",
+    "scarf:#2980b9"
+   ],
+   "eye": "big",
+   "mouth": "smile",
+   "blush": true,
+   "voice": {
+    "id": "am_puck",
+    "pitch": 1,
+    "tempo": 1.05
+   }
+  }
  ],
  "lines": [
-  {"spk": "gloria", "text": "Frank. Put down the turkey flyer. It's time.", "shot": "CU", "gesture": "point"},
-  {"spk": "frank", "text": "It is not time. It is November eleventh. That is fall.", "shot": "CU", "gesture": "cross", "after": "record_scratch"},
-  {"spk": "gloria", "text": "I have waited three hundred and twenty days. My body is a calendar.", "shot": "CU", "gesture": "hips"},
-  {"spk": "frank", "text": "We have a deal. No Christmas until the turkey is gone.", "shot": "TWO", "gesture": "point"},
-  {"spk": "gloria", "text": "The turkey is fine. The turkey can watch.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "frank", "text": "The turkey can't watch. It's in the freezer. It's frozen and upset.", "shot": "CU", "gesture": "facepalm"},
-  {"spk": "gloria", "text": "Then it will be cold and festive. Like me.", "shot": "CU", "gesture": "arms_up", "jump": true},
-  {"spk": "gloria", "text": "Step one. The wreath goes on the door.", "shot": "W", "gesture": "wave"},
-  {"spk": "frank", "text": "There is already a wreath on the door. It is made of corn.", "shot": "CU", "gesture": "point"},
-  {"spk": "gloria", "text": "The corn wreath has had a good run. It can retire to the garage.", "shot": "TWO", "gesture": "shrug"},
-  {"spk": "frank", "text": "Do not send anything to the garage.", "shot": "CU", "gesture": "cross", "pre": 0.3},
-  {"spk": "gloria", "text": "Why not?", "shot": "CU", "gesture": "think"},
-  {"spk": "frank", "text": "The garage is full. Of feelings. And a lawn mower.", "shot": "CU", "gesture": "shrug", "after": "sting"},
-  {"spk": "pumpkin", "text": "Excuse me. Nobody is retiring anybody.", "shot": "CU", "pre": 0.6},
-  {"spk": "gloria", "text": "Oh no. The porch pumpkin is awake.", "shot": "pumpkin", "gesture": "facepalm"},
-  {"spk": "pumpkin", "text": "I have been on that porch since September. I have seniority.", "shot": "CU", "gesture": "think"},
-  {"spk": "gloria", "text": "You are leaning. You are soft on one side.", "shot": "TWO", "gesture": "point"},
-  {"spk": "pumpkin", "text": "That is called character. I have seen two frosts and a raccoon.", "shot": "CU", "gesture": "hips"},
-  {"spk": "frank", "text": "Thank you. The pumpkin understands Thanksgiving.", "shot": "TWO", "gesture": "point"},
-  {"spk": "pumpkin", "text": "I do not understand it. I fear it. Thanksgiving is when they make the pie.", "shot": "CU", "gesture": "shrug", "after": "boing"},
-  {"spk": "frank", "text": "That is a good point. Please stay on the porch.", "shot": "CU", "gesture": "wave"},
-  {"spk": "gloria", "text": "Step two. The lights.", "shot": "W", "gesture": "arms_up", "jump": true},
-  {"spk": "frank", "text": "Last year you put up so many lights the airplanes waved.", "shot": "CU", "gesture": "cross"},
-  {"spk": "gloria", "text": "One airplane. And it was a very nice pilot.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "frank", "text": "The power company sent us a holiday card. It just said wow.", "shot": "CU", "gesture": "facepalm"},
-  {"spk": "gloria", "text": "Exactly. We are famous at the power company.", "shot": "CU", "gesture": "hips"},
-  {"spk": "pumpkin", "text": "If you light me up I am calling the raccoon.", "shot": "pumpkin", "gesture": "point"},
-  {"spk": "gloria", "text": "Step three. Blizzard. Wake up, buddy.", "shot": "W", "gesture": "wave", "after": "whoosh"},
-  {"spk": "blizzard", "text": "Hi! Hello! Is it time? It's time! I can feel the air!", "shot": "CU", "gesture": "arms_up", "jump": true},
-  {"spk": "frank", "text": "Who plugged in the snowman?", "shot": "TWO", "gesture": "point"},
-  {"spk": "gloria", "text": "He plugs himself in. He has a lot of drive.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "blizzard", "text": "I have been folded in a box since January. I am so happy. I am so round.", "shot": "CU", "gesture": "wave"},
-  {"spk": "pumpkin", "text": "You are a bag with a fan in it.", "shot": "pumpkin", "gesture": "cross"},
-  {"spk": "blizzard", "text": "And you are a vegetable with a porch. We all have stuff.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "frank", "text": "He is twelve feet tall. The neighbors will think we gave up on fall.", "shot": "CU", "gesture": "facepalm"},
-  {"spk": "blizzard", "text": "Oh no. I'm losing air. I get nervous and I lose air.", "shot": "CU", "gesture": "think", "pre": 0.4},
-  {"spk": "gloria", "text": "Breathe, Blizzard. In through the fan.", "shot": "TWO", "gesture": "wave"},
-  {"spk": "blizzard", "text": "I'm on the lawn now. I live on the lawn. This is my life.", "shot": "CU", "gesture": "shrug", "after": "rimshot"},
-  {"spk": "frank", "text": "That is what happens when you rush the season.", "shot": "CU", "gesture": "point"},
-  {"spk": "gloria", "text": "He does that every year. It is part of the magic.", "shot": "CU", "gesture": "hips"},
-  {"spk": "frank", "text": "Gloria, I just want one holiday at a time. Like a normal person.", "shot": "CU", "gesture": "cross"},
-  {"spk": "gloria", "text": "Fine. Fine! I'll put the extra tree in the garage until the turkey is gone.", "shot": "TWO", "gesture": "arms_up"},
-  {"spk": "frank", "text": "No! Not the garage.", "shot": "CU", "gesture": "arms_up", "jump": true},
-  {"spk": "pumpkin", "text": "Interesting.", "shot": "pumpkin", "pre": 0.8},
-  {"spk": "blizzard", "text": "Very interesting. I'm also on the floor, but interesting.", "shot": "CU"},
-  {"spk": "gloria", "text": "Frank. What is in the garage?", "shot": "CU", "gesture": "think", "pre": 0.5},
-  {"spk": "frank", "text": "A lawn mower. And regular garage things.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "pumpkin", "text": "I can see the garage from the porch. It has been blinking since August.", "shot": "CU", "gesture": "point", "after": "sting"},
-  {"spk": "gloria", "text": "Since August?", "shot": "gloria", "gesture": "facepalm"},
-  {"spk": "frank", "text": "Okay. There may be a small tree.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "pumpkin", "text": "Two trees. A train. A sleigh made of lawn chairs.", "shot": "CU", "gesture": "think"},
-  {"spk": "frank", "text": "The sleigh is not finished. Do not judge the sleigh.", "shot": "CU", "gesture": "cross"},
-  {"spk": "gloria", "text": "You made me wait three hundred and twenty days!", "shot": "TWO", "gesture": "point", "jump": true},
-  {"spk": "frank", "text": "I needed one place where it was already time.", "shot": "CU", "gesture": "shrug", "pre": 0.4},
-  {"spk": "frank", "text": "I go out there to get the lawn mower. I sit in the sleigh. I eat a cookie.", "shot": "CU", "gesture": "think"},
-  {"spk": "gloria", "text": "That is the most beautiful thing you have ever said.", "shot": "CU", "gesture": "hips"},
-  {"spk": "blizzard", "text": "Can I live in the garage? It sounds warm. I'm still deflating.", "shot": "CU", "gesture": "wave"},
-  {"spk": "frank", "text": "There is an outlet by the sleigh. You can have it.", "shot": "TWO", "gesture": "point"},
-  {"spk": "blizzard", "text": "Best day of my life! I'm round again!", "shot": "CU", "gesture": "arms_up", "jump": true, "after": "applause"},
-  {"spk": "gloria", "text": "So the deal is off. It's time. Everywhere.", "shot": "W", "gesture": "arms_up"},
-  {"spk": "frank", "text": "It's time. But the turkey still gets Thursday.", "shot": "CU", "gesture": "point"},
-  {"spk": "pumpkin", "text": "And what happens to me?", "shot": "pumpkin", "pre": 0.6},
-  {"spk": "gloria", "text": "You can stay. We'll give you a little scarf. You'll be a Christmas pumpkin.", "shot": "TWO", "gesture": "wave"},
-  {"spk": "pumpkin", "text": "A Christmas pumpkin. Nobody makes pie in December.", "shot": "CU", "gesture": "think"},
-  {"spk": "frank", "text": "Actually, Gloria makes a Christmas pumpkin pie.", "shot": "CU", "gesture": "shrug", "pre": 0.3},
-  {"spk": "pumpkin", "text": "Raccoon. It's time.", "shot": "pumpkin", "gesture": "point", "after": "ding"}
+  {
+   "spk": "gloria",
+   "text": "Frank. Put down the turkey flyer. It's time.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "frank",
+   "text": "It is not time. It is November eleventh. That is fall.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "gloria",
+   "text": "I have waited three hundred and twenty days. My body is a calendar.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "frank",
+   "text": "We have a deal. No Christmas until the turkey is gone.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "gloria",
+   "text": "The turkey is fine. The turkey can watch.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "frank",
+   "text": "The turkey can't watch. It's in the freezer. It's frozen and upset.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "gloria",
+   "text": "Then it will be cold and festive. Like me.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "gloria",
+   "text": "Step one. The wreath goes on the door.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "frank",
+   "text": "There is already a wreath on the door. It is made of corn.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gloria",
+   "text": "The corn wreath has had a good run. It can retire to the garage.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "frank",
+   "text": "Do not send anything to the garage.",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 0.3
+  },
+  {
+   "spk": "gloria",
+   "text": "Why not?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "frank",
+   "text": "The garage is full. Of feelings. And a lawn mower.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "sting"
+  },
+  {
+   "spk": "pumpkin",
+   "text": "Excuse me. Nobody is retiring anybody.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "gloria",
+   "text": "Oh no. The porch pumpkin is awake.",
+   "shot": "pumpkin",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pumpkin",
+   "text": "I have been on that porch since September. I have seniority.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "gloria",
+   "text": "You are leaning. You are soft on one side.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "pumpkin",
+   "text": "That is called character. I have seen two frosts and a raccoon.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "frank",
+   "text": "Thank you. The pumpkin understands Thanksgiving.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "pumpkin",
+   "text": "I do not understand it. I fear it. Thanksgiving is when they make the pie.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "gloria",
+   "text": "Step two. The lights.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "frank",
+   "text": "Last year you put up so many lights the airplanes waved.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gloria",
+   "text": "One airplane. And it was a very nice pilot.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gloria",
+   "text": "Step three. Blizzard. Wake up, buddy.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "whoosh"
+  },
+  {
+   "spk": "blizzard",
+   "text": "Hi! Hello! Is it time? It's time! I can feel the air!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "frank",
+   "text": "Who plugged in the snowman?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "gloria",
+   "text": "He plugs himself in. He has a lot of drive.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "blizzard",
+   "text": "I have been folded in a box since January. I am so happy. I am so round.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pumpkin",
+   "text": "You are a bag with a fan in it.",
+   "shot": "pumpkin",
+   "gesture": "cross"
+  },
+  {
+   "spk": "blizzard",
+   "text": "And you are a vegetable with a porch. We all have stuff.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "frank",
+   "text": "He is twelve feet tall. The neighbors will think we gave up on fall.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "blizzard",
+   "text": "Oh no. I'm losing air. I get nervous and I lose air.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.4
+  },
+  {
+   "spk": "blizzard",
+   "text": "I'm on the lawn now. I live on the lawn. This is my life.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "frank",
+   "text": "Gloria, I just want one holiday at a time. Like a normal person.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gloria",
+   "text": "Fine. Fine! I'll put the extra tree in the garage until the turkey is gone.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "frank",
+   "text": "No! Not the garage.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "pumpkin",
+   "text": "Interesting.",
+   "shot": "pumpkin",
+   "pre": 0.8
+  },
+  {
+   "spk": "gloria",
+   "text": "Frank. What is in the garage?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.5
+  },
+  {
+   "spk": "pumpkin",
+   "text": "I can see the garage from the porch. It has been blinking since August.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "gloria",
+   "text": "Since August?",
+   "shot": "gloria",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "frank",
+   "text": "Okay. There may be a small tree.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pumpkin",
+   "text": "Two trees. A train. A sleigh made of lawn chairs.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "frank",
+   "text": "The sleigh is not finished. Do not judge the sleigh.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gloria",
+   "text": "You made me wait three hundred and twenty days!",
+   "shot": "TWO",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "frank",
+   "text": "I needed one place where it was already time.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.4
+  },
+  {
+   "spk": "frank",
+   "text": "I go out there to get the lawn mower. I sit in the sleigh. I eat a cookie.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "gloria",
+   "text": "That is the most beautiful thing you have ever said.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "blizzard",
+   "text": "Can I live in the garage? It sounds warm. I'm still deflating.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "frank",
+   "text": "There is an outlet by the sleigh. You can have it.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "blizzard",
+   "text": "Best day of my life! I'm round again!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "frank",
+   "text": "It's time. But the turkey still gets Thursday.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "pumpkin",
+   "text": "And what happens to me?",
+   "shot": "pumpkin",
+   "pre": 0.6
+  },
+  {
+   "spk": "gloria",
+   "text": "You can stay. We'll give you a little scarf. You'll be a Christmas pumpkin.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pumpkin",
+   "text": "A Christmas pumpkin. Nobody makes pie in December.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "frank",
+   "text": "Actually, Gloria makes a Christmas pumpkin pie.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.3
+  },
+  {
+   "spk": "pumpkin",
+   "text": "Raccoon. It's time.",
+   "shot": "pumpkin",
+   "gesture": "point",
+   "after": "ding"
+  }
  ]
 }
