@@ -257,13 +257,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "ICCfKcaVv_E",
       "sku": "111251",
       "title": "Dermalogica Daily Superfoliant Label: Spot the Powder Format First #shorts",
       "manifest_slug": "bedfordview-daily-superfoliant-short",
       "media_sha256": "a59abfa364c5cacc633dd4b1fee5cb4ae33db127ca35237303cfd8d22e8664e1",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-11T23:56:41Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -456,5 +457,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 15
+  "youtube_ids_recorded": 16
 }
