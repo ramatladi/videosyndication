@@ -2629,6 +2629,81 @@
     "dance": 0.114,
     "genre_fit": 0.847
    }
+  },
+  {
+   "release": "mtr038",
+   "date": "2026-11-12",
+   "slot": "2026-11-12T23:55",
+   "format": "video",
+   "title": "Further Than The Light",
+   "artist": "Luc\u00eda Dawn",
+   "style": "progressive",
+   "key": "E major",
+   "bpm": 127,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "b70c8b52-bd79-4618-8ccf-c2f006c4dd8d",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/a997a567-9462-4916-a20c-af35b513d0c7.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr038.json",
+   "photographer": "Evgeniy Alyoshin",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-bikini-laying-on-the-beach-MqmRyDclfkc",
+   "photo_kind": "bikini",
+   "metricool_uuid": "8764041277489630999",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-16055719429616473897.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr038.mp3",
+    "top": [
+     [
+      "electronic",
+      0.364
+     ],
+     [
+      "dance",
+      0.334
+     ],
+     [
+      "pop",
+      0.222
+     ],
+     [
+      "female vocalists",
+      0.17
+     ],
+     [
+      "House",
+      0.166
+     ],
+     [
+      "electronica",
+      0.09
+     ],
+     [
+      "electro",
+      0.081
+     ],
+     [
+      "chillout",
+      0.07
+     ],
+     [
+      "ambient",
+      0.046
+     ],
+     [
+      "indie",
+      0.034
+     ]
+    ],
+    "house": 0.166,
+    "electronic": 0.364,
+    "dance": 0.334,
+    "genre_fit": 0.908
+   }
   }
  ]
 }
