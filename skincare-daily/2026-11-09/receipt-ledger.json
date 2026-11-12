@@ -306,13 +306,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "2Txx62p6gsU",
       "sku": "111289",
       "title": "Dermalogica BioLumin-C Serum Label: Vitamin C, Then the Directions #shorts",
       "manifest_slug": "bedfordview-biolumin-c-serum-short",
       "media_sha256": "97ba104ae53feef57ef20813308cc03e604ceb60590edb6a7e32be0d4fe6db0f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T00:52:59Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -478,5 +479,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 33
+  "youtube_ids_recorded": 34
 }
