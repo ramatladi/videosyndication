@@ -290,13 +290,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "pP4iNy7YRww",
       "sku": "111236",
       "title": "Dermalogica Age Reversal Eye Complex Label Explained: Retinol Around the Eyes",
       "manifest_slug": "bedfordview-age-reversal-eye-complex",
       "media_sha256": "af417c9ba60498ad9f35844f98913847689c914b950ac7d1ec5b098347ebbc3f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T23:54:58Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -472,5 +473,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 27
+  "youtube_ids_recorded": 28
 }
