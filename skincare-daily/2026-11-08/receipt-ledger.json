@@ -135,13 +135,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "2whvYpillCY",
       "sku": "411510INT",
       "title": "Dermalogica BioLumin-C Heat Aging Protector SPF50: Find the Application Directions",
       "manifest_slug": "capetown-biolumin-c-heat-aging-protector-spf50",
       "media_sha256": "347bbccaf3a9ad51b97b644d1b91c24182f2694ea4a4f94491ab31265309d640",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T02:00:38Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -466,5 +467,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 25
+  "youtube_ids_recorded": 26
 }
