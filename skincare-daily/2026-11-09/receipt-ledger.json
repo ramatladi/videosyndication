@@ -350,13 +350,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "1cmeUg61YYo",
       "sku": "811478INT",
       "title": "Dermalogica Clarifying Body Spray, 295 mL: After the Shower or the Gym #shorts",
       "manifest_slug": "westville-clarifying-body-spray-295ml-short",
       "media_sha256": "55cadc1ab6adf1b6b749849a90ae4eaa51b97485848411af47a52002a96cabac",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T19:35:31Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -467,5 +468,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 22
+  "youtube_ids_recorded": 23
 }
