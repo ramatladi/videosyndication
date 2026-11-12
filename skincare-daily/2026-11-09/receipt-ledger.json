@@ -20,13 +20,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "eoQ2rSgKwfg",
       "sku": "101511",
       "title": "Dermalogica Skin Resurfacing Cleanser: A Cleanser and Exfoliant in One Routine Step",
       "manifest_slug": "midrand-skin-resurfacing-cleanser",
       "media_sha256": "72df882eaa1f84e575e737bb6045381caec18d32fb3359512b150697760562db",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T11:17:35Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -451,5 +452,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 6
+  "youtube_ids_recorded": 7
 }
