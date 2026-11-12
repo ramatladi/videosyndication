@@ -7,13 +7,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "RWlCWkVSLF4",
       "sku": "111326",
       "title": "Dermalogica Intensive Moisture Cleanser: Cleanse Step for Dry Skin #shorts",
       "manifest_slug": "midrand-intensive-moisture-cleanser-short",
       "media_sha256": "377afd2726bfa1586efb8f396766a8fef974231cd509ba98f82d9d2933f627a1",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T10:17:35Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -444,5 +445,6 @@
     "first_success_email": "awaiting_first_verified_youtube_id",
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
-  }
+  },
+  "youtube_ids_recorded": 1
 }
