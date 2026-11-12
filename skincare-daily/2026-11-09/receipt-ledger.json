@@ -367,13 +367,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "IdTto6MBIvQ",
       "sku": "110910",
       "title": "Dermalogica Breakout Clearing Foaming Wash: Face, Neck, Chest and Back Directions",
       "manifest_slug": "westville-breakout-clearing-foaming-wash",
       "media_sha256": "3a24f970ed9b8f4e65ae36fecf2772d2a8a622aa75fed476e33b64098743e092",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T23:55:36Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -473,5 +474,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 28
+  "youtube_ids_recorded": 29
 }
