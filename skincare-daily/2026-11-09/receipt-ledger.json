@@ -408,13 +408,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "usz_0dDg1Nw",
       "sku": "111122",
       "title": "Dermalogica Skin Soothing Hydrating Lotion: A Sheer Lotion Texture #shorts",
       "manifest_slug": "rosebank-skin-soothing-hydrating-lotion-short",
       "media_sha256": "1ba4a7ada140e5c4d02b23da3f7a5f5d33c57d477482dad81210fca44c43d1e6",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T18:38:43Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -462,5 +463,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 17
+  "youtube_ids_recorded": 18
 }
