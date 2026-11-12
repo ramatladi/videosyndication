@@ -3,15 +3,23 @@
   "handle": "@DermatologyCapeTown",
   "title": "Dermalogica Dynamic Skin Recovery SPF50, 50 mL: Polypeptides + White Tea #shorts",
   "slot_sast": "2026-11-09 16:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref9c9370056c39",
   "publish_at": "2026-11-12T19:35:31Z",
   "overdue": true,
   "upload_started": "2026-11-12T18:39:59Z",
   "error": null,
-  "updated": "2026-11-12T18:40:04Z",
+  "updated": "2026-11-12T18:40:36Z",
   "video_id": "pg6gt699wUo",
   "published_now": null,
   "url": "https://youtube.com/shorts/pg6gt699wUo",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UC6IhnhkFRVu8tTc1FJbjb8Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-12T19:35:31Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
