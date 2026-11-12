@@ -3,15 +3,23 @@
   "handle": "@DermatologyCapeTown",
   "title": "Dermalogica Dynamic Skin Recovery SPF50: Moisturizer and SPF in One #shorts",
   "slot_sast": "2026-11-08 20:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref294bc948b364",
   "publish_at": "2026-11-12T02:59:58Z",
   "overdue": true,
   "upload_started": "2026-11-12T02:04:31Z",
   "error": null,
-  "updated": "2026-11-12T02:04:37Z",
+  "updated": "2026-11-12T02:05:09Z",
   "video_id": "IxbqqRBYLc4",
   "published_now": null,
   "url": "https://youtube.com/shorts/IxbqqRBYLc4",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UC6IhnhkFRVu8tTc1FJbjb8Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-12T02:59:58Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
