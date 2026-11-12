@@ -108,13 +108,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "1EifidhSt1w",
       "sku": "301339INT",
       "title": "Dermalogica Get + Keep Your Glow Kit (2 Full-Size): Serum, Then SPF50 #shorts",
       "manifest_slug": "capetown-get-keep-your-glow-kit-2-full-size-short",
       "media_sha256": "f96972cb876508f1c5c8e107417daaba66d5e1f8a2fefe24345e1106ec194ce2",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T18:36:11Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -458,5 +459,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 13
+  "youtube_ids_recorded": 14
 }
