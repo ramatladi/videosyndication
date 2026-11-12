@@ -444,13 +444,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "U7xA_15oytQ",
       "sku": "110716",
       "title": "Dermalogica Multivitamin Power Recovery Masque: A Rich Masque Texture, Step by Step",
       "manifest_slug": "rosebank-multivitamin-power-recovery-masque",
       "media_sha256": "6cca8ea6d0d1c74de31bec64ea6f7881a59ef92ce595cdcb6fa58fcc38e24140",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T23:56:14Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -474,5 +475,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 29
+  "youtube_ids_recorded": 30
 }
