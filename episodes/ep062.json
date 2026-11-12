@@ -1,0 +1,508 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 62,
+ "slug": "grandpa-bows-for-the-holiday-card",
+ "title": "Grandpa Bows For The Holiday Card",
+ "trend": "TikTok 'Paparazzi Bowing' (pose for the camera, then bow deeply on the beat drop of a sped-up remix; Virlo current TikTok trends, rising, Oct-Nov 2026, US) + holiday card photo season (family matching-sweater photos in November) — Renata tries to take the family holiday card photo on a phone timer, but Grandpa Gus bows deeply at every flash 'for the fans', Duchess the dog demands a solo headshot and teen Eli blinks; twist: Grandpa was the town's TV weatherman who bowed after every forecast for thirty years, he put the shoot in the neighborhood newsletter, and a crowd across the street has been taking pictures the whole time — the best card photo is the neighbors' shot of the whole family bowing",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "the holiday card photo",
+  "grandpa",
+  "has a move"
+ ],
+ "youtube_title": "The holiday card photo, but Grandpa bows after every flash 📸",
+ "description": "Renata has one goal: one nice holiday card photo. Grandpa Gus bows after every flash. The dog wants a solo shot, and the street has questions.\n\n#cartoon #animation #funny #grandpa #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "grandpa",
+  "holiday card",
+  "family photo",
+  "talking dog"
+ ],
+ "tiktok_caption": "the holiday card photo, but Grandpa bows after every flash 📸 #cartoon #animation #funny #grandpa",
+ "cast": [
+  {
+   "id": "renata",
+   "name": "Renata",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "curly",
+    "color": "#4a2c17"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#1e8449",
+   "shoes": "#7b241c",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#f1948a",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "gus",
+   "name": "Grandpa Gus",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.05,
+   "hair": {
+    "style": "short",
+    "color": "#ecf0f1"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#1e8449",
+   "shoes": "#000000",
+   "accessories": [
+    "sunglasses",
+    "mustache:#ecf0f1",
+    "scarf:#f4d03f"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f9e79f",
+   "voice": {
+    "id": "am_adam",
+    "pitch": -1,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "eli",
+   "name": "Eli",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 0.95,
+   "hair": {
+    "style": "spiky",
+    "color": "#4a2c17"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#1e8449",
+   "shoes": "#ffffff",
+   "accessories": [
+    "headphones:#2e86c1"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#aed6f1",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 1,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "duchess",
+   "name": "Duchess",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#f5f5f5",
+   "belly": "#ffffff",
+   "inner": "#f5b7b1",
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "accessories": [
+    "crown:#f4d03f",
+    "bow:#e91e63"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#f5b7b1",
+   "voice": {
+    "id": "bf_isabella",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "renata",
+   "text": "One nice holiday card photo. Matching sweaters. Big smiles. That is all I ask.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "renata",
+   "text": "Three. Two. One.",
+   "shot": "CU",
+   "gesture": "talk",
+   "after": "ding"
+  },
+  {
+   "spk": "gus",
+   "text": "Thank you. Thank you very much.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "renata",
+   "text": "Dad! You bowed! The photo is just the top of your head!",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "gus",
+   "text": "When there is a flash, I bow. It is polite.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "eli",
+   "text": "He bowed at the dentist last week. During the X ray.",
+   "shot": "eli",
+   "gesture": "point",
+   "pre": 0.3
+  },
+  {
+   "spk": "gus",
+   "text": "The hygienist clapped.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "rimshot"
+  },
+  {
+   "spk": "renata",
+   "text": "Okay. Again. No bowing. Just stand there like a grandpa.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "duchess",
+   "text": "Excuse me. Before we go again.",
+   "shot": "duchess",
+   "gesture": "wave",
+   "pre": 0.4
+  },
+  {
+   "spk": "duchess",
+   "text": "I would like a solo photo. A headshot. For my career.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "eli",
+   "text": "She does not have a career. She has a bed shaped like a donut.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "renata",
+   "text": "Fine. Everybody look at the phone. Three. Two. One.",
+   "shot": "W",
+   "gesture": "talk",
+   "after": "ding"
+  },
+  {
+   "spk": "gus",
+   "text": "Thank you! You are too kind!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "renata",
+   "text": "He bowed again! And Duchess is sitting on Eli's head!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "duchess",
+   "text": "It is the best light in the room.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "eli",
+   "text": "My eyes were closed anyway. This sweater is very itchy.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "renata",
+   "text": "It is wool! It was Grandma's!",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "eli",
+   "text": "Grandma was itchy too. You can tell from the pictures.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "renata",
+   "text": "Okay. New idea. A candid. We just laugh at a joke.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "gus",
+   "text": "I know a joke. What does a cloud wear under its coat?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "eli",
+   "text": "What?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "gus",
+   "text": "Thunderwear.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "pre": 0.5
+  },
+  {
+   "spk": "gus",
+   "text": "Thank you. I'll be here all week.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "renata",
+   "text": "Dad. You bowed. At your own joke.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "duchess",
+   "text": "It was a good joke. I would bow too. If I had a waist.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "renata",
+   "text": "Why? Why do you bow every single time?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "pre": 0.4
+  },
+  {
+   "spk": "gus",
+   "text": "Thirty years, Renata. Thirty years.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "gus",
+   "text": "Of the weather. Channel six. Every night at six.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "gus",
+   "text": "Sunny tomorrow. Bow. Light rain. Bow. Snow day. Big bow.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "gus",
+   "text": "Nobody remembers? Then who is that? Across the street?",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.6,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "eli",
+   "text": "Mom. There are forty people on the sidewalk.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "renata",
+   "text": "Why are forty people on the sidewalk?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gus",
+   "text": "I put the photo shoot in the neighborhood newsletter.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gus",
+   "text": "Page one. Under the bake sale. Above the lost cat.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "duchess",
+   "text": "The lost cat is in the garage. He is fine. He is shy.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "eli",
+   "text": "They have phones. They are taking pictures of us.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gus",
+   "text": "Every flash is a fan, Eli. And a fan gets a bow.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "renata",
+   "text": "Missus Delgado brought a folding chair.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "gus",
+   "text": "She has been to every forecast since nineteen ninety. She brings soup.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "eli",
+   "text": "Mom. Look. Missus Delgado sent you her photo.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.4
+  },
+  {
+   "spk": "renata",
+   "text": "Oh. Oh no. It is beautiful.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "eli",
+   "text": "We are all bowing. Even me. I did not know I bowed.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "duchess",
+   "text": "I am bowing too. Very gracefully. I have a waist after all.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "renata",
+   "text": "Everybody is smiling. Under the sweaters. Upside down.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gus",
+   "text": "That is the card, Renata. That is the card.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "renata",
+   "text": "Fine. That is the card. Happy holidays from the top of our heads.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "eli",
+   "text": "Can I take the sweater off now?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "renata",
+   "text": "No. They want an encore.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "duchess",
+   "text": "And my headshot.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "gus",
+   "text": "Okay, everybody. Big finish. On three.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "pre": 0.4
+  },
+  {
+   "spk": "eli",
+   "text": "One more time. For the fans.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "renata",
+   "text": "Three. Two. One.",
+   "shot": "W",
+   "gesture": "talk"
+  },
+  {
+   "spk": "all",
+   "text": "Thank you. Thank you very much.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "applause"
+  },
+  {
+   "spk": "gus",
+   "text": "Tomorrow. Cloudy. Chance of encores.",
+   "shot": "CU",
+   "gesture": "hips",
+   "pre": 0.4
+  },
+  {
+   "spk": "duchess",
+   "text": "And a lost cat. Found. In the garage.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gus",
+   "text": "Bow.",
+   "shot": "W",
+   "gesture": "wave",
+   "pre": 0.4,
+   "after": "rimshot"
+  }
+ ]
+}
