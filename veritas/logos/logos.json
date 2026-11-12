@@ -142,6 +142,17 @@
   ],
   "added": "2026-10-23"
  },
+ "mongodb": {
+  "employer": "MongoDB",
+  "file": "mongodb.png",
+  "bg": "#FFFFFF",
+  "source": "https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress",
+  "size": [
+   1903,
+   480
+  ],
+  "added": "2026-11-12"
+ },
  "okta": {
   "employer": "Okta",
   "file": "okta.png",
@@ -241,6 +252,17 @@
   ],
   "added": "2026-11-02"
  },
+ "samsung": {
+  "employer": "Samsung Electronics",
+  "file": "samsung.png",
+  "bg": "#FFFFFF",
+  "source": "https://images.samsung.com/is/image/samsung/assets/Samsung_Orig_Wordmark_BLUE_RGB.jpg",
+  "size": [
+   628,
+   167
+  ],
+  "added": "2026-11-12"
+ },
  "sofi": {
   "employer": "SoFi",
   "file": "sofi.png",
@@ -295,5 +317,16 @@
    430
   ],
   "added": "2026-10-23"
+ },
+ "zscaler": {
+  "employer": "Zscaler",
+  "file": "zscaler.png",
+  "bg": "#FFFFFF",
+  "source": "https://www.zscaler.com/assets/images/logo_blue.svg",
+  "size": [
+   2316,
+   480
+  ],
+  "added": "2026-11-12"
  }
 }
