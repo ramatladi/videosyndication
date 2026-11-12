@@ -242,13 +242,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "id8FLzah6C8",
       "sku": "111404",
       "title": "Dermalogica PowerBright Dark Spot Serum Label Explained: Niacinamide and Hexylresorcinol",
       "manifest_slug": "bedfordview-powerbright-dark-spot-serum",
       "media_sha256": "4c2eff2ce030884a4f5e89a9b96741c4ff25886167e71ba323aad15507e7d639",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T11:17:35Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -454,5 +455,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 9
+  "youtube_ids_recorded": 10
 }
