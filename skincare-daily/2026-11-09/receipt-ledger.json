@@ -333,13 +333,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "VteYs4dE2Ps",
       "sku": "111246",
       "title": "Dermalogica Renewal Lip Complex: How Often to Apply It #shorts",
       "manifest_slug": "westville-renewal-lip-complex-short",
       "media_sha256": "aa989e6eb2f58475280411e168e05772506c1224c6beda688cca441bd4ebd0ca",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T18:38:05Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -461,5 +462,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 16
+  "youtube_ids_recorded": 17
 }
