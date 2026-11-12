@@ -213,13 +213,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "9nb2g0vqXQU",
       "sku": "111483",
       "title": "Dermalogica Pro-Collagen Banking Serum: How Many Pumps and Where It Goes",
       "manifest_slug": "umhlanga-pro-collagen-banking-serum",
       "media_sha256": "c2714c8eb70758d4ca698d0fbaa9de58d4861de940018c8c7eb2ca116b64554c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T23:54:19Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -471,5 +472,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 26
+  "youtube_ids_recorded": 27
 }
