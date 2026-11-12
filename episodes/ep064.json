@@ -1,0 +1,509 @@
+{
+ "engine": "cast",
+ "id": 64,
+ "slug": "no-that-doesnt-make-any-sense-the-bookshelf",
+ "title": "No, That Doesn't Make Any Sense: The Bookshelf",
+ "trend": "TikTok 'No that doesn't make any sense' (lip-sync a disbelieving look while the caption mocks someone doing something the hard way; Ramdam TikTok trends, Nov 3 2026 section, US) + weekend flat-pack furniture builds — teen Priya watches her dad Hank build her bookshelf with no instructions: screws sorted by vibe, a hammer for every screw, the hex key as a windowsill decoration, built in the hallway so it will not fit through her door; the flat-pack box keeps pointing at its own instructions; twist: the shelf is perfect, but he built it out of two bookshelves (the second became the step stool, coffee table and dog ramp), and page one only said 'call your daughter'",
+ "target_seconds": 180,
+ "length_reason": "The original 'no that doesn't make any sense' clips are quick fifteen to thirty second one-clip lip-syncs, so this stays a quick one-clip skit at the short end (180 s, which also fits Instagram's three-minute limit).",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "no, that doesn't",
+  "make any sense",
+  "dad builds the bookshelf"
+ ],
+ "youtube_title": "No, That Doesn't Make Any Sense... Dad Builds The Bookshelf | Funny Family Cartoon",
+ "description": "Hank is building his daughter's new bookshelf in ninety minutes with no instructions. Priya has questions. The box has the instructions taped to its face, and nobody ever reads its face.\n\n#cartoon #animation #funny #comedy #dadjokes",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "dad and daughter",
+  "furniture",
+  "bookshelf",
+  "family comedy"
+ ],
+ "tiktok_caption": "no, that doesn't make any sense. dad builds the bookshelf with no instructions #cartoon #animation #funny #comedy #dadjokes",
+ "cast": [
+  {
+   "id": "hank",
+   "name": "Hank",
+   "kind": "human",
+   "color": "#d8a47f",
+   "scale": 1.08,
+   "hair": {
+    "style": "short",
+    "color": "#6b4a2b"
+   },
+   "top": {
+    "color": "#b03a2e",
+    "pattern": "stripes",
+    "pattern_color": "#1f2a44"
+   },
+   "bottom": "#34495e",
+   "shoes": "#5d4037",
+   "accessories": [
+    "cap:#1f618d",
+    "mustache:#6b4a2b"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#e67e22",
+   "voice": {
+    "id": "am_michael",
+    "pitch": -1,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "priya",
+   "name": "Priya",
+   "kind": "human",
+   "color": "#a8754f",
+   "scale": 0.95,
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b1210"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#a569bd",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "box",
+   "name": "The Box",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#c8a26b",
+   "scale": 1.0,
+   "accessories": [
+    "tie:#2c3e50"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "frown",
+   "label_color": "#d4ac6e",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "hank",
+   "text": "Okay. One bookshelf. Ninety minutes. No instructions.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "priya",
+   "text": "No. That doesn't make any sense.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "hank",
+   "text": "Instructions are for people who doubt themselves.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "box",
+   "text": "I am the box. The instructions are taped to my face.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hank",
+   "text": "And I respect that, Box. But I will not be reading your face.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "box",
+   "text": "Nobody ever reads my face.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "sting"
+  },
+  {
+   "spk": "priya",
+   "text": "Dad, why are the screws in three little piles?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hank",
+   "text": "I sorted them by vibe. Happy screws, sad screws, and wild cards.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "priya",
+   "text": "No. That doesn't make any sense.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "hank",
+   "text": "The wild cards always find a home.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "box",
+   "text": "Those are numbered bags. Bag A. Bag B. Bag C.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hank",
+   "text": "Letters are just numbers in a costume.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "priya",
+   "text": "Why are you holding a hammer?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hank",
+   "text": "Every screw is a nail if you believe hard enough.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "box",
+   "text": "Please. I am made of particle board and dreams.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "priya",
+   "text": "Okay, what is the little bent metal stick for?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hank",
+   "text": "That is a decoration. I put it on the windowsill.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "box",
+   "text": "That is the only tool you needed.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "priya",
+   "text": "No. That doesn't make any sense.",
+   "shot": "W",
+   "gesture": "cross"
+  },
+  {
+   "spk": "hank",
+   "text": "Step one. Lay out the big pieces.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hank",
+   "text": "Step two. Stare at them like they owe me money.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "priya",
+   "text": "That is not a step. That's just staring.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hank",
+   "text": "Staring is how they learn who is in charge.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "box",
+   "text": "They know who is in charge. It is me. I have the picture.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "hank",
+   "text": "Shelf one is going in sideways. For airflow.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "priya",
+   "text": "Books don't need airflow.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "hank",
+   "text": "Have you ever met a book that could breathe?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "priya",
+   "text": "No.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "hank",
+   "text": "Because nobody gave them airflow.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "rimshot"
+  },
+  {
+   "spk": "priya",
+   "text": "No. That doesn't make any sense.",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "hank",
+   "text": "Now, I need something to stand on.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "box",
+   "text": "Do not stand on me. I am empty. I have been through enough.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hank",
+   "text": "You were born for this, Box.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "box",
+   "text": "I was born in a warehouse in the rain.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "boing"
+  },
+  {
+   "spk": "priya",
+   "text": "Dad, you built it in the hallway.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hank",
+   "text": "The hallway has the best light.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "priya",
+   "text": "It goes in my room. It does not fit through my door.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "hank",
+   "text": "Then we move the room.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "priya",
+   "text": "You can't move a room.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "hank",
+   "text": "Not with that attitude.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "priya",
+   "text": "No. That doesn't make any sense.",
+   "shot": "W",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "hank",
+   "text": "Okay. Fine. I tip it. I pivot. I pivot again.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "priya",
+   "text": "You are just turning in a circle.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hank",
+   "text": "That is what pivoting is, sweetheart.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "box",
+   "text": "It fits if you take the doors off. Page nine.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hank",
+   "text": "I am not reading page nine. Page nine knows what it did.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "hank",
+   "text": "And it's in! One bookshelf. Eighty nine minutes.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "applause",
+   "jump": true
+  },
+  {
+   "spk": "priya",
+   "text": "Wait. It is standing. It is straight. Dad, it's actually good.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hank",
+   "text": "Instinct, kiddo. Pure instinct.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "priya",
+   "text": "Then what are all these leftover screws?",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.8
+  },
+  {
+   "spk": "box",
+   "text": "Those are for the second bookshelf.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hank",
+   "text": "There's a second bookshelf?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "box",
+   "text": "Yes. You used it as the step stool.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "box",
+   "text": "And the coffee table. And the dog's new ramp.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "priya",
+   "text": "So you built one bookshelf out of two bookshelves.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "hank",
+   "text": "I built one strong bookshelf. That is double strength.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "priya",
+   "text": "No. That doesn't make any sense.",
+   "shot": "W",
+   "gesture": "cross"
+  },
+  {
+   "spk": "hank",
+   "text": "Then why does it look so good?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "priya",
+   "text": "It does look good.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "box",
+   "text": "Page one said that. You never read page one.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "hank",
+   "text": "Box. What did page one say?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "box",
+   "text": "Call your daughter. She knows how.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.8
+  },
+  {
+   "spk": [
+    "hank",
+    "priya"
+   ],
+   "text": "Same time next weekend?",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "ding",
+   "jump": true
+  }
+ ]
+}
