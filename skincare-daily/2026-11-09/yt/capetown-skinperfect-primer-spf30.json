@@ -3,15 +3,23 @@
   "handle": "@DermatologyCapeTown",
   "title": "Dermalogica SkinPerfect Primer SPF30: Primer, SPF and Where It Goes in the Morning",
   "slot_sast": "2026-11-09 10:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref1149c4d91bcf",
   "publish_at": "2026-11-12T11:17:35Z",
   "overdue": true,
   "upload_started": "2026-11-12T10:22:02Z",
   "error": null,
-  "updated": "2026-11-12T10:22:06Z",
+  "updated": "2026-11-12T10:22:38Z",
   "video_id": "aEuGJlDBsLk",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=aEuGJlDBsLk",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UC6IhnhkFRVu8tTc1FJbjb8Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-12T11:17:35Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
