@@ -94,13 +94,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "aEuGJlDBsLk",
       "sku": "W110641",
       "title": "Dermalogica SkinPerfect Primer SPF30: Primer, SPF and Where It Goes in the Morning",
       "manifest_slug": "capetown-skinperfect-primer-spf30",
       "media_sha256": "e2fa79bc8b9edc9d70f4bf5391966bd2c376412551bcb4f4c19baed9a8a62dbc",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T11:17:35Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -452,5 +453,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 7
+  "youtube_ids_recorded": 8
 }
