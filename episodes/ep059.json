@@ -1,0 +1,528 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 59,
+ "slug": "the-pet-sitter-report-im-so-sorry",
+ "title": "The Pet Sitter Report: I'm So Sorry",
+ "trend": "TikTok 'I'm So Sorry' reveal (a story built up slide by slide, then the real outcome revealed with 'I'm so sorry'; SocialPilot TikTok formats list, Oct 27 - Nov 10 2026, US) — teen pet sitter Tyler gives Marla his week report as she gets home, every story ending 'I'm so sorry': the fern now lives in the tub, the dog chose the Thanksgiving turkey for dinner, the cat befriended the mail carrier through the doorbell speaker; twist: Marla watched every night on the dog camera with her whole family and popcorn, Tyler is now famous in the family and invited to Thanksgiving — and she is the one who is sorry",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "the pet sitter",
+  "has a report",
+  "i'm so sorry"
+ ],
+ "youtube_title": "The pet sitter's week report... I'm so sorry 🐶",
+ "description": "Marla is finally home. Tyler watched the dog, the cat and the plants all week, and he has a report. Every part of it ends the same way.\n\n#cartoon #animation #funny #petsitter #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "pet sitter",
+  "talking dog",
+  "talking cat",
+  "family comedy"
+ ],
+ "tiktok_caption": "the pet sitter's week report... I'm so sorry 🐶 #cartoon #animation #funny #petsitter",
+ "cast": [
+  {
+   "id": "tyler",
+   "name": "Tyler",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 0.95,
+   "hair": {
+    "style": "curly",
+    "color": "#3b2314"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "beanie:#e67e22"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#82e0aa",
+   "voice": {
+    "id": "am_echo",
+    "pitch": 1,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "marla",
+   "name": "Marla",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "long",
+    "color": "#1a1110"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "plain"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#7b241c",
+   "accessories": [
+    "sunglasses",
+    "scarf:#f5b041"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f1948a",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "pancake",
+   "name": "Pancake",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#d4a373",
+   "belly": "#faedcd",
+   "top": {
+    "color": "#2e86c1",
+    "pattern": "plain"
+   },
+   "accessories": [
+    "tie:#922b21"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#f8c471",
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": -1,
+    "tempo": 0.93
+   }
+  },
+  {
+   "id": "fluff",
+   "name": "Sir Fluff",
+   "kind": "animal",
+   "ears": "cat",
+   "color": "#ecf0f1",
+   "belly": "#ffffff",
+   "inner": "#f5b7b1",
+   "accessories": [
+    "crown:#f4d03f",
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#d2b4de",
+   "voice": {
+    "id": "bf_alice",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "tyler",
+   "text": "Welcome home, Missus Marla. Before you look around, I have a report.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "marla",
+   "text": "Oh no. Why are you holding a clipboard?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "tyler",
+   "text": "Monday. You said water the plants. So I watered the plants.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tyler",
+   "text": "A lot. Like, a lot a lot.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marla",
+   "text": "How much is a lot a lot?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "tyler",
+   "text": "The fern lives in the bathtub now. It has a little boat.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tyler",
+   "text": "I'm so sorry.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.6,
+   "after": "sting"
+  },
+  {
+   "spk": "marla",
+   "text": "Tyler, it's a fern. It's fine. Ferns love water.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "pancake",
+   "text": "The fern is happier than all of us.",
+   "shot": "pancake",
+   "gesture": "shrug",
+   "pre": 0.3
+  },
+  {
+   "spk": "tyler",
+   "text": "Also, he talks. Did you know he talks?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marla",
+   "text": "Only on Sundays. And only about cheese.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pancake",
+   "text": "It is not Sunday. This is an emergency.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tyler",
+   "text": "Okay. Wednesday. You said let Pancake pick his dinner.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marla",
+   "text": "I meant chicken or beef.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tyler",
+   "text": "He walked to the freezer. He looked me in the eye.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "pancake",
+   "text": "I chose the big one.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "marla",
+   "text": "The big one? The Thanksgiving turkey?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tyler",
+   "text": "He ate the whole turkey. I made gravy. It felt rude not to.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tyler",
+   "text": "I'm so sorry.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.6,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "pancake",
+   "text": "I am not sorry. I am full. Since Wednesday.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marla",
+   "text": "That turkey was for twelve people!",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pancake",
+   "text": "I have a big heart. And a big middle.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "fluff",
+   "text": "Is it my turn? I would like a turn.",
+   "shot": "fluff",
+   "gesture": "wave",
+   "pre": 0.4
+  },
+  {
+   "spk": "marla",
+   "text": "Sir Fluff. You have never said one word to me.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "fluff",
+   "text": "You never asked about my day, Marla.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tyler",
+   "text": "Friday. The cat learned the doorbell speaker.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "fluff",
+   "text": "I press the button with my face. People listen.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tyler",
+   "text": "He made friends with the mail carrier. Her name is Denise.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "fluff",
+   "text": "Denise brings me treats. I give her life advice.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marla",
+   "text": "What kind of life advice?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "fluff",
+   "text": "Mostly to quit. She quit. She opened a bakery.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tyler",
+   "text": "So you won't get mail for a while. I'm so sorry.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.4,
+   "after": "boing"
+  },
+  {
+   "spk": "marla",
+   "text": "Who delivers the mail now?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "fluff",
+   "text": "Me. On Tuesdays. I am very slow.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pancake",
+   "text": "He eats the bills. It helps the family.",
+   "shot": "pancake",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tyler",
+   "text": "And Saturday was the big one. Are you sitting down?",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.4
+  },
+  {
+   "spk": "marla",
+   "text": "Tyler, I'm standing. I just got home.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tyler",
+   "text": "The neighbors think you're a very rude British lady.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "fluff",
+   "text": "I spoke on the doorbell all week. As you.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marla",
+   "text": "What did I say?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "fluff",
+   "text": "You told Missus Kowalski her leaf pile was amateur.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pancake",
+   "text": "It was amateur. I have been in it.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tyler",
+   "text": "I'm so, so sorry. Here is your key. I'll go live in the woods.",
+   "shot": "CU",
+   "gesture": "wave",
+   "pre": 0.4
+  },
+  {
+   "spk": "marla",
+   "text": "Tyler. Stop. Sit down. I have to tell you something.",
+   "shot": "W",
+   "gesture": "cross",
+   "pre": 0.8
+  },
+  {
+   "spk": "marla",
+   "text": "See that little camera on the shelf? The dog camera?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tyler",
+   "text": "The one that looks like an egg with a feeling?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marla",
+   "text": "I watched it. Every night. With my whole family.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marla",
+   "text": "My sister made popcorn. Uncle Ray brought a chair from the garage.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tyler",
+   "text": "You saw the boat? In the tub?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marla",
+   "text": "We named it. We cheered for the gravy. Grandma cried.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "applause"
+  },
+  {
+   "spk": "pancake",
+   "text": "I knew it. I winked at the egg every night.",
+   "shot": "pancake",
+   "gesture": "point"
+  },
+  {
+   "spk": "marla",
+   "text": "You're famous in my family now. They want you at Thanksgiving.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "tyler",
+   "text": "But there is no turkey.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pancake",
+   "text": "There is gravy. Where the turkey was.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marla",
+   "text": "And they want a show. Every night until Christmas.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tyler",
+   "text": "So I watch the pets again tomorrow?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marla",
+   "text": "No. I watch you. Watching the pets. On the egg.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "fluff",
+   "text": "I want a bigger part. With a costume.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marla",
+   "text": "I'm so sorry, Tyler. You live in a show now.",
+   "shot": "TWO",
+   "gesture": "facepalm",
+   "pre": 0.4
+  },
+  {
+   "spk": "tyler",
+   "text": "Can the fern be in it?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marla",
+   "text": "The fern has an agent.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pancake",
+   "text": "Who do you think the agent is?",
+   "shot": "W",
+   "gesture": "hips",
+   "pre": 0.5,
+   "after": "rimshot"
+  }
+ ]
+}
