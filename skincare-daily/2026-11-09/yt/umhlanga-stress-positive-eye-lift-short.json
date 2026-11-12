@@ -3,15 +3,23 @@
   "handle": "@DermatologyDurbanUmhlanga",
   "title": "Dermalogica Stress Positive Eye Lift: A 3-5 Minute Eye Masque #shorts",
   "slot_sast": "2026-11-09 16:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefef0ab35259f4",
   "publish_at": "2026-11-12T19:35:31Z",
   "overdue": true,
   "upload_started": "2026-11-12T18:40:39Z",
   "error": null,
-  "updated": "2026-11-12T18:40:45Z",
+  "updated": "2026-11-12T18:41:31Z",
   "video_id": "AKf9nxQek3A",
   "published_now": null,
   "url": "https://youtube.com/shorts/AKf9nxQek3A",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCBHecSaBW2iEir_PIp7sJbQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-12T19:35:31Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
