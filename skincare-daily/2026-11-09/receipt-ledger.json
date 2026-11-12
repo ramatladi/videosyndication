@@ -46,13 +46,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "IeSCK0j-Zu4",
       "sku": "111512",
       "title": "Dermalogica Magnetic[+] AfterGlow Cleanser: A Cream Cleanse Step #shorts",
       "manifest_slug": "midrand-magnetic-afterglow-cleanser-short",
       "media_sha256": "25b136d2dcb6327f4a4e8906c3bf76d32f49df1e2bc26e0bacf75812a6ec346c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T19:35:31Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -463,5 +464,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 18
+  "youtube_ids_recorded": 19
 }
