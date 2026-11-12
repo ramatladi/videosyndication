@@ -366,13 +366,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "RfDMUhkZnfo",
       "sku": "111520INT",
       "title": "Dermalogica Stabilizing Repair Face + Body Serum: One Label for Face and Body",
       "manifest_slug": "westville-stabilizing-repair-face-body-serum",
       "media_sha256": "5acd927c51287bcee4b1fb855bd0b86871bb327961172a49ae6d6b3a3ad487f7",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T02:02:37Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -469,5 +470,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 28
+  "youtube_ids_recorded": 29
 }
