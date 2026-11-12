@@ -316,13 +316,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "n9VKW_FEKs4",
       "sku": "111476",
       "title": "Dermalogica Stabilizing Repair Cream: A Balmy Cream for Dry, Irritated Patches",
       "manifest_slug": "westville-stabilizing-repair-cream",
       "media_sha256": "06c83177aee5722cb82e3f7072d9510d7805d772ae5bdadf537ccf568063704f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T11:17:35Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -455,5 +456,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 10
+  "youtube_ids_recorded": 11
 }
