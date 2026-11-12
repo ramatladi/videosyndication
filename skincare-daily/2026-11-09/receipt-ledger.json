@@ -228,13 +228,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "T8XZ0A486M8",
       "sku": "111432",
       "title": "Dermalogica Smart Response Serum: When to Layer It #shorts",
       "manifest_slug": "umhlanga-smart-response-serum-short",
       "media_sha256": "3f037c66ae05cd0b4ee63478ce9567498549ab1c05de556f7b9776df683bf317",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T00:52:59Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -477,5 +478,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 32
+  "youtube_ids_recorded": 33
 }
