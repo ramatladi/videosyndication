@@ -289,13 +289,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "51hbNzWLYng",
       "sku": "111462INT",
       "title": "Dermalogica Deep Breakout Liquid Patch Explained: What a Liquid Patch Is and How to Use It",
       "manifest_slug": "bedfordview-deep-breakout-liquid-patch",
       "media_sha256": "ba4a468f92197f5e5e6ee139ff5dfab9edca531d61755fd3d2b4578cd32b204d",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T02:01:58Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -468,5 +469,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 27
+  "youtube_ids_recorded": 28
 }
