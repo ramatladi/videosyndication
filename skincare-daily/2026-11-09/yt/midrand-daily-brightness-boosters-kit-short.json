@@ -3,15 +3,23 @@
   "handle": "@DermatologistJoburgMidrand",
   "title": "Dermalogica Daily Brightness Boosters Kit: Three Steps in Order #shorts",
   "slot_sast": "2026-11-09 20:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref46f3cac07a17",
   "publish_at": "2026-11-13T00:52:59Z",
   "overdue": true,
   "upload_started": "2026-11-12T23:56:52Z",
   "error": null,
-  "updated": "2026-11-12T23:56:59Z",
+  "updated": "2026-11-12T23:57:31Z",
   "video_id": "lTrsWhibPr8",
   "published_now": null,
   "url": "https://youtube.com/shorts/lTrsWhibPr8",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCb16q-70MGFin6RfsMGbdnw",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-13T00:52:59Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
