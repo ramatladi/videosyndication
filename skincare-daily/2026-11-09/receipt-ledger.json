@@ -150,13 +150,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "rHrnsIxhftA",
       "sku": "111504",
       "title": "Dermalogica BioLumin-C Night Restore Serum: Sun Care Ends at Sunset? #shorts",
       "manifest_slug": "capetown-biolumin-c-night-restore-serum-short",
       "media_sha256": "73ef4e2d459bcbde67624a71e332689403e98e2153601b385082c3afc9dbd9d4",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T00:52:59Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -476,5 +477,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 31
+  "youtube_ids_recorded": 32
 }
