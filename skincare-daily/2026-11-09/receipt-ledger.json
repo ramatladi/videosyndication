@@ -390,13 +390,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "0Z8OsN2FxRw",
       "sku": "111441",
       "title": "Dermalogica BioLumin-C Gel Moisturiser: A Weightless Vitamin C Gel, Up Close",
       "manifest_slug": "rosebank-biolumin-c-gel-moisturiser",
       "media_sha256": "7973bff2f757b1d5dc682a3f341dd31cebd312daf8eb620160e71b0d8cd941c5",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T11:17:35Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -456,5 +457,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 11
+  "youtube_ids_recorded": 12
 }
