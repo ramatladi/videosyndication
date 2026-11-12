@@ -212,13 +212,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "eUrcIzQrvqM",
       "sku": "111418",
       "title": "Dermalogica Hydro Masque Exfoliant: A Rinse-Off Step in a Hydration Routine",
       "manifest_slug": "umhlanga-hydro-masque-exfoliant",
       "media_sha256": "0948ab1c4cb0e8fd7a3de02589d95f8c0053a1a9ec3fe3e3968449151dccb51c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T02:01:16Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -467,5 +468,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 26
+  "youtube_ids_recorded": 27
 }
