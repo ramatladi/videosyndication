@@ -274,13 +274,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "gDQ4Z_JcgAA",
       "sku": "111293",
       "title": "Dermalogica Blackhead Clearing Fizz Mask Label: 3% Sulfur and Kaolin Clay #shorts",
       "manifest_slug": "bedfordview-blackhead-clearing-fizz-mask-short",
       "media_sha256": "7fa955d3f86c9e273d5f9c13546f3b0c079549429296f2c46beb6b9b05ea8a23",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T19:35:31Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -466,5 +467,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 21
+  "youtube_ids_recorded": 22
 }
