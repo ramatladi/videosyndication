@@ -33,13 +33,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "ARfc4qoCyns",
       "sku": "301337INT",
       "title": "Dermalogica Two Steps to Smooth Skin: Cleanse, Then Exfoliate #shorts",
       "manifest_slug": "midrand-two-steps-to-smooth-skin-short",
       "media_sha256": "aac9d9a91a4c6a6900915c7ff49356e1c809c33a297c81691070b22e9f88fbad",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T18:35:31Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -457,5 +458,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 12
+  "youtube_ids_recorded": 13
 }
