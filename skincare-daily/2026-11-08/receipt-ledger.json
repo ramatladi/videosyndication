@@ -227,13 +227,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "1EMg3vk7qNs",
       "sku": "111247",
       "title": "Dermalogica Phyto Replenish Oil: Two Ways to Layer a Face Oil #shorts",
       "manifest_slug": "umhlanga-phyto-replenish-oil-short",
       "media_sha256": "3a1b6359b144b6975b799544511d6a39d1337e7684198871c57474fae80714c8",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T02:59:58Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -473,5 +474,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 32
+  "youtube_ids_recorded": 33
 }
