@@ -80,13 +80,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "knqVGez8lk4",
       "sku": "111013-01",
       "title": "Dermalogica PowerBright Moisturiser SPF50: Daily SPF for Dark Spots #shorts",
       "manifest_slug": "capetown-powerbright-moisturiser-spf50-short",
       "media_sha256": "5e4531f56b2f6499556bd73ba8ac2fdc17fa713131d4e2d510bed69904009978",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T10:18:14Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -446,5 +447,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 1
+  "youtube_ids_recorded": 2
 }
