@@ -372,13 +372,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "xj6IFAigSvA",
       "sku": "111506INT",
       "title": "Dermalogica Breakout Biotic Moisturiser: A Lightweight Gel Texture #shorts",
       "manifest_slug": "rosebank-breakout-biotic-moisturiser-short",
       "media_sha256": "82c35717a33f970fa60382a8e3781c2c74b79eda920d5548f3bb6553a0a78678",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T10:20:47Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -450,5 +451,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 5
+  "youtube_ids_recorded": 6
 }
