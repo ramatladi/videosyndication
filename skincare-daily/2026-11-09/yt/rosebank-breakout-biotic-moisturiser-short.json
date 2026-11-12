@@ -3,15 +3,23 @@
   "handle": "@SkincareJoburgRosebank",
   "title": "Dermalogica Breakout Biotic Moisturiser: A Lightweight Gel Texture #shorts",
   "slot_sast": "2026-11-09 08:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref31c0082c0d06",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-12T10:20:47Z",
   "error": null,
-  "updated": "2026-11-12T10:20:52Z",
+  "updated": "2026-11-12T10:21:24Z",
   "video_id": "xj6IFAigSvA",
   "published_now": "2026-11-12T10:20:47Z",
   "url": "https://youtube.com/shorts/xj6IFAigSvA",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCeTPU-6Wsq_Ii0A4Uv6DESQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
