@@ -461,13 +461,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "wM8UnNEmuaQ",
       "sku": "411279",
       "title": "Dermalogica Sound Sleep Cocoon: Where a Night Gel-Cream Fits #shorts",
       "manifest_slug": "rosebank-sound-sleep-cocoon-short",
       "media_sha256": "a742dbc9670a960c05d5800303fc3508d01bc83dff9ac95787955ce60dc17bd2",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T02:59:58Z"
     }
   ],
   "reconciliation": {
@@ -476,5 +477,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 35
+  "youtube_ids_recorded": 36
 }
