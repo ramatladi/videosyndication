@@ -72,13 +72,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "lTrsWhibPr8",
       "sku": "111450INT",
       "title": "Dermalogica Daily Brightness Boosters Kit: Three Steps in Order #shorts",
       "manifest_slug": "midrand-daily-brightness-boosters-kit-short",
       "media_sha256": "637525e6fede6cc8e1f027973268b8797d6666c82e5bf7b3ae7a5af2a311a587",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T00:52:59Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -475,5 +476,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 30
+  "youtube_ids_recorded": 31
 }
