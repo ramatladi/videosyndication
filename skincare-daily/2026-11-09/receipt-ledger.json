@@ -59,13 +59,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "oVqLYUSgmbA",
       "sku": "111448INT",
       "title": "Dermalogica Breakout Clearing Kit: A Three-Step Routine, Step by Step",
       "manifest_slug": "midrand-breakout-clearing-kit",
       "media_sha256": "c4a9dbe830fd9d625dfdf779c2705415f25357a9a2fc4bc5ddc8654d5653563e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T23:53:00Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -469,5 +470,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 24
+  "youtube_ids_recorded": 25
 }
