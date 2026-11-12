@@ -48,3 +48,9 @@ Repo: `ramatladi/videosyndication` (clone `--depth 20`). Rules: `acnemedicine/GU
 7. Add DATE to `acnemedicine/ledger.json` (`{"date", "items": [{id, product, format, slot}]}`), commit `ledger.json`,
    `photos/pool.json` and the plan to `main` (fetch + rebase first), push. Do not commit photos or videos to `main`.
 8. Report to Sello in one short message: the six titles with times and any problem.
+
+## Continuity (added 13 Nov 2026)
+The 12 Nov run ended after about 3 minutes and staged nothing, so 13 Nov had no posts until a catch-up run staged them at 01:00. To stop that happening again:
+1. **Heal today first.** Before building tomorrow, check whether the media branch has `acnemedicine/TODAY/manifest.json`. If it is missing, build and stage TODAY first, using only the slots at least 45 minutes away (the uploader takes the manifest's `publish_at` times). Then build tomorrow as usual.
+2. **Thin facts never block a day.** If `WebSearch` limited to dermalogica.co.za is refused or returns no usable page for a product, pick another product that hasn't been used in the last 7 days. If fewer than 6 products work, stage what passed (Shorts first) rather than nothing.
+3. **Never stop silently.** If the run stages fewer than 6 items for tomorrow, or stops early for any reason except "already staged", send ONE PushNotification with the step that failed and the exact error.

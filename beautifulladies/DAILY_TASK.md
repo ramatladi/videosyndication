@@ -16,6 +16,13 @@ Every run works through these steps in order, before starting new work:
 4. **Leftover hosted files.** Remove files on the media branch belonging to this series that are older than 24 hours, once Metricool has its copy (the post exists) or the item is logged as posted. Leave anything newer: it may belong to a run in progress.
 5. **Refused or held steps.** If hosting, scheduling or any other step is refused or held for approval, do not retry it and do not look for another route around it. Leave the item committed but unposted, so step 1 of the next run picks it up, and send ONE PushNotification naming the step and the exact message.
 
+6. **Never end a run with nothing (added 13 Nov 2026).** The 11 and 12 Nov runs stopped at the photo step ("blocked on photo fetch") and the channel posted nothing from 11 to 13 Nov. If fewer than 24 fresh photos turn up, work down this list before giving up:
+   a. Try more of the search queries in step 2 (at least 8 different ones), and other free-search words such as maxi-dress-beach, one-piece-swimsuit, woman-yacht, beach-dress, swimwear-model, sundress, woman-resort, island-woman.
+   b. If WebFetch of the search pages is refused or returns nothing, use WebSearch with `allowed_domains: ["unsplash.com"]` for the same words, WebFetch the individual photo pages it returns (`https://unsplash.com/photos/...`) and read the images.unsplash.com photo ID, photographer and alt text from each page.
+   c. Use the `reserve` list in `ledger.json`: photos already reviewed and accepted but not yet used (move each one into `photos` with today's date when you use it). Top the reserve back up whenever a search gives more good photos than the day needs.
+   d. If there are still not enough, make the Shorts first (5 photos each, then the videos), and schedule whatever is complete. A partial day is better than an empty one.
+   e. Only if not one item can be made, send ONE PushNotification saying which of a–d failed and the exact error messages.
+
 ## Content rules (Sello's choices, 4 Nov 2026)
 - Photos come from free sites only: Unsplash (free licence, not Unsplash+). Bikini and swimwear photos come first; any photo of a beautiful lady is fine.
 - Present it as swimwear, beach fashion, travel and lifestyle. Titles, captions and thumbnails must not be suggestive.
