@@ -71,13 +71,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "Q7Ol5ivQWxE",
       "sku": "111370M",
       "title": "Dermalogica Discover Healthy Skin Kit: Map Each Product to a Routine Step #shorts",
       "manifest_slug": "midrand-discover-healthy-skin-kit-short",
       "media_sha256": "0f5ed1e9727e5564825f4e8cefc867418e42a8afbe97102538cae8d0fdb734d4",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T02:59:58Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -471,5 +472,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 30
+  "youtube_ids_recorded": 31
 }
