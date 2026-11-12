@@ -153,13 +153,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "Tn68lsvkMnI",
       "sku": "111430",
       "title": "Dermalogica Micro-Pore Mist 118ml: When to Spritz It in Your Routine #shorts",
       "manifest_slug": "umhlanga-micro-pore-mist-118ml-short",
       "media_sha256": "1513b3aafae58531b3f8a92353fc3532a3928fc8dd07da7f0f7fbdfac0a5f8da",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T10:18:52Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -447,5 +448,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 2
+  "youtube_ids_recorded": 3
 }
