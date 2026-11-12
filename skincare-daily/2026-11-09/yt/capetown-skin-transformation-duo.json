@@ -3,15 +3,23 @@
   "handle": "@DermatologyCapeTown",
   "title": "Dermalogica Skin Transformation Duo: Exfoliate, Then SPF50 in the Morning",
   "slot_sast": "2026-11-09 18:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref40109bab2666",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-12T23:53:39Z",
   "error": null,
-  "updated": "2026-11-12T23:53:44Z",
+  "updated": "2026-11-12T23:54:16Z",
   "video_id": "qcsqbEEgaBM",
   "published_now": "2026-11-12T23:53:39Z",
   "url": "https://www.youtube.com/watch?v=qcsqbEEgaBM",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UC6IhnhkFRVu8tTc1FJbjb8Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
