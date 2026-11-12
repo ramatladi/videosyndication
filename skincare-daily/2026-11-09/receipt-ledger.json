@@ -299,13 +299,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "-oAEA2e6Lr0",
       "sku": "W101717",
       "title": "Dermalogica Clearing Skin Wash: A Foaming Wash for Face, Chest and Back #shorts",
       "manifest_slug": "westville-clearing-skin-wash-short",
       "media_sha256": "008ec94210028681bbb5f50ec48120035699209c2df2d11aeb129e5e2b2eed36",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T10:20:10Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -449,5 +450,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 4
+  "youtube_ids_recorded": 5
 }
