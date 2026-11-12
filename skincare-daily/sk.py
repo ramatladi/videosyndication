@@ -1,6 +1,7 @@
 """Six skincare channels: one daily pipeline (Sello, 11 Nov 2026). See skincare-daily/DAILY_TASK.md.
 
   python3 sk.py heal    MEDIA                      # fix earlier days first: missing renders / ledger gaps -> report
+  python3 sk.py planheal DATE CATALOG MEDIA        # earlier day with empty slots: keep its staged items, plan only the gaps
   python3 sk.py plan    DATE CATALOG MEDIA         # pick 36 products (fallback tiers, rolling 7-day window) -> work/DATE/plan.json
   python3 sk.py fetchjs DATE MEDIA                 # image queue -> media branch; prints one JS per chunk for the built-in browser
   python3 sk.py ingest  DATE BUNDLE [BUNDLE...]    # decode image bundles (sha256-checked) -> work/DATE/img
@@ -187,7 +188,8 @@ def plan(date, catalog, media, fixed=None, banned=None):
                 elif fit == 1 and fresh_sku: tier = 'b'
                 elif fit == 2 and fresh_prod: tier = 'c'
                 else: tier = 'd'
-                if v['sku'] in banned.get((dom, slot), ()) or name in banned.get((dom, slot), ()): continue
+                bn = set(banned.get((dom, slot), ())) | set(banned.get(('*', '*'), ()))
+                if v['sku'] in bn or name in bn: continue
                 score = ('abcd'.index(tier), fit, -min(last_any.get(name, 99), 99), -min(last_ch.get((dom, name), 99), 99), -min(sku_used.get(v['sku'], 99), 99),
                          0 if (fmt == 'video') == (len(p['images']) >= 5) else 1, p['handle'], v['sku'])
                 if best is None or score < best[0]: best = (score, p, v, tier)
@@ -207,13 +209,24 @@ def plan(date, catalog, media, fixed=None, banned=None):
     return picks
 
 
+def planheal(date, catalog, media):
+    """Heal an earlier day: keep its staged items as they are (existing) and plan only the empty slots."""
+    m = json.load(open(f'{media}/skincare-daily/{date}/manifest.json'))
+    fixed = [{'domain': it['domain'], 'slot': it['slot_sast'][11:16], 'format': it['format'], 'title': it['product']['name'], 'sku': it['sku'],
+              'handle': None, 'tier': it.get('selection', {}).get('tier'), 'why': 'already staged', 'existing': True} for it in m['items']]
+    return plan(date, catalog, media, fixed=fixed)
+
+
 def replan(date, media):
     """Slots that `write` could not fill (kit/text/overlap problems) get the next product; everything else stays."""
     w = f'{WORK}/{date}'; pl = json.load(open(f'{w}/plan.json')); probs = json.load(open(f'{w}/write_problems.json'))
+    probs = [p for p in probs if 'fewer than 2 store images' not in p['problem']]  # missing images: run fetchjs again, don't ban the product
     if not probs: return 0
     bad = {(p['item']['domain'], p['item']['slot']) for p in probs}
     ban = json.load(open(f'{w}/banned.json')) if os.path.exists(f'{w}/banned.json') else {}
-    for p in probs: ban.setdefault(f"{p['item']['domain']}|{p['item']['slot']}", []).extend([p['item']['sku'], clean(p['item']['title']).lower()])
+    for p in probs:  # script overlap and kit problems belong to the product, not the slot: ban it for every slot of the day
+        key = '*|*' if re.search(r'overlap|kit', p['problem']) else f"{p['item']['domain']}|{p['item']['slot']}"
+        ban.setdefault(key, []).extend([p['item']['sku'], clean(p['item']['title']).lower()])
     json.dump(ban, open(f'{w}/banned.json', 'w'), indent=1)
     plan(date, pl['catalog'], media, fixed=[i for i in pl['items'] if (i['domain'], i['slot']) not in bad],
          banned={tuple(k.split('|')): set(v) for k, v in ban.items()})
@@ -239,7 +252,7 @@ def fetchjs(date, media, per=12):
     """Write the image queue to the media branch (raw GitHub allows cross-origin reads) and return one short JS per chunk."""
     pl = json.load(open(f'{WORK}/{date}/plan.json')); cat = {p['handle']: p for p in json.load(open(pl['catalog']))['products']}
     have = json.load(open(f'{WORK}/{date}/images.json')) if os.path.exists(f'{WORK}/{date}/images.json') else {}
-    q = {it['sku']: image_list(cat[it['handle']], it['sku']) for it in pl['items'] if it['sku'] not in have}  # only what's missing
+    q = {it['sku']: image_list(cat[it['handle']], it['sku']) for it in pl['items'] if it['sku'] not in have and not it.get('existing')}  # only what's missing
     keys = list(q); d = f'{media}/skincare-daily/{date}/fetch'; os.makedirs(d, exist_ok=True); js = []
     tag = '' if not have else f'-{len(glob.glob(f"{d}/queue-*.json"))}'
     for n in range(0, len(keys), per):
@@ -430,6 +443,7 @@ def write(date):
     prev_says, prev_urls = prior_scripts(os.environ.get('SK_MEDIA', '/tmp/launch-media'), date)
     vids, problems, k = [], [], 0
     for n, it in enumerate(pl['items']):
+        if it.get('existing'): continue  # heal: already staged on that day
         p = cat[it['handle']]; f = parse(p); desk = CH[it['domain']][1]; loc, deskname = ANGLE[desk]; short = it['format'] == 'short'
         name = clean(p['title']); N = tcase(name); sp = spoken(name)
         L = imgs.get(it['sku'], [])
@@ -657,13 +671,26 @@ def stage(date, media):
         c['shorts' if it['format'] == 'short' else 'videos'] += 1; c['all_pass'] &= it['qa']['pass']
     for c in chan.values():
         c['status'] = 'ready' if c['all_pass'] and c['shorts'] == 4 and c['videos'] == 2 else 'partial: staged items ready'
-    shutil.copy2(f'{out}/qa.json', f'{dst}/qa.json'); shutil.copy2(f'{out}/crossday.json', f'{dst}/crossday.json')
-    shutil.copy2(f'{w}/plan.json', f'{dst}/plan.json'); shutil.copy2(f'{w}/features.json', f'{dst}/features.json')
+    pl = json.load(open(f'{w}/plan.json')); heal_run = any(i.get('existing') for i in pl['items'])
+    sfx = f"-heal-{dt.date.today().isoformat()}" if heal_run else ''  # a heal run never overwrites the day's original plan/features/QA
+    shutil.copy2(f'{out}/qa.json', f'{dst}/qa{sfx}.json'); shutil.copy2(f'{out}/crossday.json', f'{dst}/crossday{sfx}.json')
+    shutil.copy2(f'{w}/plan.json', f'{dst}/plan{sfx}.json'); shutil.copy2(f'{w}/features.json', f'{dst}/features{sfx}.json')
+    probs = json.load(open(f'{w}/write_problems.json')) if os.path.exists(f'{w}/write_problems.json') else []
+    have_slots = {(it['handle'], it['slot_sast'][11:16]) for it in allit}; old_un = {(u['handle'], u['slot_sast'][11:16]): u for u in old.get('unfilled_slots', [])}
+    unfilled = []
+    for dom, (h, _) in CH.items():
+        for s_ in SHORT_SLOTS + VIDEO_SLOTS:
+            if (h, s_) in have_slots: continue
+            why = next((b['problem'] for b in probs if b['item']['domain'] == dom and b['item']['slot'] == s_), None) \
+                or next((f'not staged: {x[3]}' for x in failed if x[0] == dom and x[1] == s_), None) \
+                or (old_un.get((h, s_)) or {}).get('reason') or 'not produced in this run'
+            unfilled.append({'handle': h, 'slot_sast': f'{date} {s_}', 'format': 'short' if s_ in SHORT_SLOTS else 'regular', 'reason': why})
     json.dump({'date': date, 'ledger': f'{base}/receipt-ledger.json', 'publishing': 'skincare-upload.yml (GitHub Action) publishes; this batch uploads and schedules nothing.',
-               'commission_disclosure': 'description only', 'language': 'American English', 'channels': chan, 'not_staged': failed, 'items': allit},
+               'commission_disclosure': 'description only', 'language': 'American English', 'channels': chan, 'not_staged': failed,
+               'unfilled_slots': unfilled, 'items': allit},
               open(f'{dst}/manifest.json', 'w'), indent=1, ensure_ascii=False)
     verify(media, date); ledger(media, date)
-    print(json.dumps({'staged': len(allit), 'not_staged': failed, 'channels': {k: v['status'] for k, v in chan.items()}}, indent=1))
+    print(json.dumps({'staged': len(allit), 'not_staged': failed, 'unfilled': [(u['handle'], u['slot_sast']) for u in unfilled], 'channels': {k: v['status'] for k, v in chan.items()}}, indent=1))
     return failed
 
 
@@ -715,6 +742,7 @@ def heal(media, today):
 if __name__ == '__main__':
     a = sys.argv[1:]
     if a[0] == 'plan': plan(a[1], a[2], a[3])
+    elif a[0] == 'planheal': planheal(a[1], a[2], a[3])
     elif a[0] == 'fetchjs': print('\n\n'.join(fetchjs(a[1], a[2])))
     elif a[0] == 'ingest': ingest(a[1], a[2:])
     elif a[0] == 'write':  # write, then replan any slot write could not fill (at most 3 rounds)

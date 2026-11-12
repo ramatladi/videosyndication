@@ -49,7 +49,10 @@ whose listing doesn't name its contents. Never take kit contents from another pr
 1. **Heal first** (before any new work): `python3 skincare-daily/sk.py heal /tmp/launch-media DATE`. For every earlier
    day it refreshes the receipt ledger from the manifest (rows the publisher reads: `staged_awaiting_youtube_receipt`, checksums
    verified; rows with a `youtube_id` are never touched). If a day still lists `missing_render` or a slot with no row,
-   produce those items first with steps 2-7 for that day (same tiers, logged), then do DATE.
+   produce those items first with steps 2-7 for that day (same tiers, logged), then do DATE. For that day use
+   `sk.py planheal DAY CATALOG MEDIA` instead of `plan`: it keeps the day's staged items (`existing`) and plans only the
+   gaps; `fetchjs`/`write` skip existing items and `stage` writes `plan/features/qa-heal-<run date>.json` beside the
+   originals (never overwrites them) and records still-empty slots under `unfilled_slots`.
 2. **Catalog**: open https://dermalogica.co.za/collections/all in the built-in browser (load the built-in-browser skill;
    the workspace and the device shell cannot reach the store). Run the catalog snapshot JS from `skincare-daily/README.md`
    (same-origin `/products.json` plus each product page's text) — it downloads one JSON into ~/Downloads. Find it with
@@ -70,7 +73,11 @@ whose listing doesn't name its contents. Never take kit contents from another pr
    ("fewer than 2 store images"), run `fetchjs` again (it queues only the missing SKUs), ingest, and `write` again.
    If slots still fail on script overlap after the replans, the catalog is exhausted for those desks: never lower the
    0.85 overlap guard; leave the slot empty and list it in the manifest under `unfilled_slots` (with the reason) and in
-   the report. (Heal will see it as a `no_row` gap next day and try again.)
+   the report. (Heal will see it as a `no_row` gap next day and try again.) `stage` now writes `unfilled_slots` itself.
+   `replan` bans a product with a script-overlap or kit problem for every slot of the day (it's the product, not the
+   slot), and never bans a product only because its images haven't been fetched yet (run `fetchjs` again instead).
+   Tip: to avoid fetching images for products that will fail the overlap guard, dry-run `write` with placeholder images
+   first (13 Nov run) and fetch only the picks that pass.
    Then `python3 skincare-daily/sk.py render DATE` as a background job of this session (about 1.5 min per item, so
    ~55 min for 36) and keep polling until it finishes: a background process dies when the session's reply ends, so
    never end the turn while it runs. `render` also picks each thumbnail's most distinct layout (14-day + batch dHash). It renders, retries failures once one by one, runs QA and the 14-day
