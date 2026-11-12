@@ -58,13 +58,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "2eGT99tFjKY",
       "sku": "111439",
       "title": "Dermalogica Daily Glycolic Cleanser: Read the Directions Before Adding It to Your Routine",
       "manifest_slug": "midrand-daily-glycolic-cleanser",
       "media_sha256": "4912c25964373b8039d4188ad154aa67d5b4d70294e581c7692158c303d4eb2b",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T01:59:59Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -465,5 +466,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 24
+  "youtube_ids_recorded": 25
 }
