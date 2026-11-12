@@ -168,13 +168,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "T5GmCHbXpEQ",
       "sku": "111508",
       "title": "Dermalogica Dynamic Skin Strengthening Serum 30ml: Where a Milky Serum Goes in Your Layers",
       "manifest_slug": "umhlanga-dynamic-skin-strengthening-serum-30ml",
       "media_sha256": "352628aef37f7659be4dbfe422f9bd64e173b05779cd587d73672825ab814e98",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T11:17:35Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -453,5 +454,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 8
+  "youtube_ids_recorded": 9
 }
