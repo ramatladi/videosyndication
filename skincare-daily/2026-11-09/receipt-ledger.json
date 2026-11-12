@@ -136,13 +136,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "qcsqbEEgaBM",
       "sku": "301243INT",
       "title": "Dermalogica Skin Transformation Duo: Exfoliate, Then SPF50 in the Morning",
       "manifest_slug": "capetown-skin-transformation-duo",
       "media_sha256": "028ffba5b456dd3e6cdd07a0d9de93df18000fa7bf90df2b235e368b3d1bf6f6",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T23:53:39Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -470,5 +471,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 25
+  "youtube_ids_recorded": 26
 }
