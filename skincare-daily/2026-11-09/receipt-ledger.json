@@ -183,13 +183,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "aTzdRXZKp4s",
       "sku": "111449",
       "title": "Dermalogica Awaken Peptide Eye Gel: Where the Eye Gel Goes #shorts",
       "manifest_slug": "umhlanga-awaken-peptide-eye-gel-short",
       "media_sha256": "60bae03cf68005f8483d91cd6f97e04b23324f4395bf8578329dc552492ef8a0",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T18:36:49Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -459,5 +460,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 14
+  "youtube_ids_recorded": 15
 }
