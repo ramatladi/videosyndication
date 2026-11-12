@@ -149,13 +149,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "IxbqqRBYLc4",
       "sku": "411485INT",
       "title": "Dermalogica Dynamic Skin Recovery SPF50: Moisturizer and SPF in One #shorts",
       "manifest_slug": "capetown-dynamic-skin-recovery-spf50-short",
       "media_sha256": "ff0332af3fc02ff1aba3d6ee10f1f36fff885fced8e9a6cb15dd702813814960",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T02:59:58Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -472,5 +473,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 31
+  "youtube_ids_recorded": 32
 }
