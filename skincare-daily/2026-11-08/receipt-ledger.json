@@ -383,13 +383,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "Ra1Y5CO_EhA",
       "sku": "111203",
       "title": "Dermalogica Protection 50 Sport SPF50: Find the Reapplication Directions #shorts",
       "manifest_slug": "westville-protection-50-sport-spf50-short",
       "media_sha256": "d2a50c370026834920648de5aefd7dd646acccf2679cb5ae4cded04b62046db4",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T02:59:58Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -475,5 +476,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 34
+  "youtube_ids_recorded": 35
 }
