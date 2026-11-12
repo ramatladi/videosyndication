@@ -443,13 +443,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "px4jn_gUCXQ",
       "sku": "411063",
       "title": "Dermalogica Super Rich Repair 15 mL: A Rich Cream Texture, Compared and Explained",
       "manifest_slug": "rosebank-super-rich-repair",
       "media_sha256": "aea7bda1af1f5402d9cc43a4701836016a2c15c0d586699ddbf54fbc8657da58",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T02:03:15Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -470,5 +471,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 29
+  "youtube_ids_recorded": 30
 }
