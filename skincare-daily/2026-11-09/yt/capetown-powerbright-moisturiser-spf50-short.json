@@ -3,15 +3,23 @@
   "handle": "@DermatologyCapeTown",
   "title": "Dermalogica PowerBright Moisturiser SPF50: Daily SPF for Dark Spots #shorts",
   "slot_sast": "2026-11-09 08:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref544b8a3e77ec",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-12T10:18:14Z",
   "error": null,
-  "updated": "2026-11-12T10:18:18Z",
+  "updated": "2026-11-12T10:18:49Z",
   "video_id": "knqVGez8lk4",
   "published_now": "2026-11-12T10:18:14Z",
   "url": "https://youtube.com/shorts/knqVGez8lk4",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UC6IhnhkFRVu8tTc1FJbjb8Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
