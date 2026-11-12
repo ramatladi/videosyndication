@@ -3,15 +3,23 @@
   "handle": "@DermatologistJoburgMidrand",
   "title": "Dermalogica Skin Resurfacing Cleanser: A Cleanser and Exfoliant in One Routine Step",
   "slot_sast": "2026-11-09 10:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref9db9795946f4",
   "publish_at": "2026-11-12T11:17:35Z",
   "overdue": true,
   "upload_started": "2026-11-12T10:21:25Z",
   "error": null,
-  "updated": "2026-11-12T10:21:29Z",
+  "updated": "2026-11-12T10:22:00Z",
   "video_id": "eoQ2rSgKwfg",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=eoQ2rSgKwfg",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCb16q-70MGFin6RfsMGbdnw",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-12T11:17:35Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
