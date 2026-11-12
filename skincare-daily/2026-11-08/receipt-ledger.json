@@ -305,13 +305,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "tA03AGaOTKo",
       "sku": "111481",
       "title": "Dermalogica PowerBright Dark Spot Peel 50ml: Application and Rinse Times #shorts",
       "manifest_slug": "bedfordview-powerbright-dark-spot-peel-50ml-short",
       "media_sha256": "f00ae28fe44018dcd13fbb64309745a9dd3d7acda0a733d71c14bc293e9f5fb7",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T02:59:58Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -474,5 +475,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-11T19:45+02:00"
   },
-  "youtube_ids_recorded": 33
+  "youtube_ids_recorded": 34
 }
