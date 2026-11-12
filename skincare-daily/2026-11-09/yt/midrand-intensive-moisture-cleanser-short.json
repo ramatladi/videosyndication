@@ -3,15 +3,23 @@
   "handle": "@DermatologistJoburgMidrand",
   "title": "Dermalogica Intensive Moisture Cleanser: Cleanse Step for Dry Skin #shorts",
   "slot_sast": "2026-11-09 08:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefd4fd765c2239",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-12T10:17:35Z",
   "error": null,
-  "updated": "2026-11-12T10:17:40Z",
+  "updated": "2026-11-12T10:18:12Z",
   "video_id": "RWlCWkVSLF4",
   "published_now": "2026-11-12T10:17:35Z",
   "url": "https://youtube.com/shorts/RWlCWkVSLF4",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCb16q-70MGFin6RfsMGbdnw",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
