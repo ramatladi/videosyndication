@@ -1,0 +1,548 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 60,
+ "slug": "the-bedtime-deal",
+ "title": "The Bedtime Deal",
+ "trend": "TikTok 'Clapping Black Cat Handshake' meme (a cat claps, then shakes hands to seal a deal; Virlo current TikTok trends, peaking, Oct-Nov 2026, US) + first snow of the season forecast from the Great Lakes to the Northeast (AccuWeather, week of Nov 9 2026) — Maya negotiates her bedtime with Dad so she can stay up for the first snow, and Rufus the black cat brokers every deal with a clap and a handshake, taking a snack fee each time; twist: Mom arrives at nine and reveals Dad has a bedtime too, brokered by the cat last week in exchange for the big TV",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "bedroom",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "bedtime is at eight",
+  "the cat handles",
+  "all negotiations"
+ ],
+ "youtube_title": "Bedtime is at eight. The cat handles all negotiations 🐈",
+ "description": "Maya wants to stay up for the first snow. Dad says bedtime is at eight. Rufus the cat seals every deal, and he always takes a small fee.\n\n#cartoon #animation #funny #bedtime #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "bedtime",
+  "talking cat",
+  "dad and daughter",
+  "first snow"
+ ],
+ "tiktok_caption": "bedtime is at eight. the cat handles all negotiations 🐈 #cartoon #animation #funny #bedtime",
+ "cast": [
+  {
+   "id": "maya",
+   "name": "Maya",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.86,
+   "hair": {
+    "style": "afro",
+    "color": "#1b120b"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "dots",
+    "pattern_color": "#f9e79f"
+   },
+   "bottom": "#f5b7b1",
+   "shoes": "#f4d03f",
+   "accessories": [
+    "bow:#f4d03f"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "label_color": "#d7bde2",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 2,
+    "tempo": 1.07
+   }
+  },
+  {
+   "id": "omar",
+   "name": "Dad",
+   "kind": "human",
+   "color": "#a0522d",
+   "hair": {
+    "style": "short",
+    "color": "#1b120b"
+   },
+   "top": {
+    "color": "#1f618d",
+    "pattern": "stripes",
+    "pattern_color": "#aed6f1"
+   },
+   "bottom": "#566573",
+   "shoes": "#7b7d7d",
+   "accessories": [
+    "glasses",
+    "beard:#1b120b"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#85c1e9",
+   "voice": {
+    "id": "am_michael",
+    "pitch": -1,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "rufus",
+   "name": "Rufus",
+   "kind": "animal",
+   "ears": "cat",
+   "color": "#1c1c1c",
+   "belly": "#3a3a3a",
+   "inner": "#5d6d7e",
+   "top": {
+    "color": "#2c3e50",
+    "pattern": "suit"
+   },
+   "accessories": [
+    "tie:#c0392b",
+    "sunglasses"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#f7dc6f",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "keisha",
+   "name": "Mom",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "bun",
+    "color": "#2c1a12"
+   },
+   "top": {
+    "color": "#f5f5f5",
+    "pattern": "hoodie"
+   },
+   "bottom": "#5b2c6f",
+   "shoes": "#ffffff",
+   "accessories": [
+    "headphones:#e74c3c"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#f5b7b1",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "omar",
+   "text": "Bedtime is at eight. It is eight. Goodnight, Maya.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "maya",
+   "text": "I would like to speak to my representative.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "rufus",
+   "text": "Good evening. I represent the child.",
+   "shot": "rufus",
+   "gesture": "wave",
+   "pre": 0.4
+  },
+  {
+   "spk": "omar",
+   "text": "Rufus. You are a cat. You sleep twenty hours a day.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "rufus",
+   "text": "And I am rested. Which is more than I can say for you.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "maya",
+   "text": "The first snow is coming tonight. I need to see it fall.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "omar",
+   "text": "Snow falls the same way every time. Down.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rufus",
+   "text": "My client offers to brush her teeth. Both rows.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "omar",
+   "text": "Fine. Eight fifteen.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "rufus",
+   "text": "Deal.",
+   "shot": "CU",
+   "gesture": "talk",
+   "post": 0.2,
+   "after": "applause"
+  },
+  {
+   "spk": "rufus",
+   "text": "We shake. And there is a small fee.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "omar",
+   "text": "What fee?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "rufus",
+   "text": "One cracker. The good kind. With the salt.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "maya",
+   "text": "Round two. I will fold the laundry.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "omar",
+   "text": "You folded it last time. It was a ball.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "maya",
+   "text": "A ball is a shape, Dad.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rufus",
+   "text": "My client is a modern artist. Eight thirty.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "omar",
+   "text": "Eight twenty five. And the socks have to match.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "rufus",
+   "text": "The socks have never matched in this house. Deal.",
+   "shot": "CU",
+   "gesture": "talk",
+   "after": "applause"
+  },
+  {
+   "spk": "rufus",
+   "text": "My fee is one sock.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "omar",
+   "text": "Why do you want a sock?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "rufus",
+   "text": "Where do you think they all go?",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.5,
+   "after": "boing"
+  },
+  {
+   "spk": "maya",
+   "text": "Okay. Final offer. Midnight.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "omar",
+   "text": "Midnight? You are eight!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "maya",
+   "text": "Eight and a half. The half is very responsible.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "rufus",
+   "text": "My client will also eat the broccoli. From Tuesday.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "omar",
+   "text": "The broccoli from Tuesday is still on the plate?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "rufus",
+   "text": "It has been waiting. Like a good dog.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "omar",
+   "text": "Ten o'clock. Not one minute more.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "maya",
+   "text": "Ten o'clock!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "rufus",
+   "text": "Deal.",
+   "shot": "CU",
+   "gesture": "talk",
+   "post": 0.2,
+   "after": "applause"
+  },
+  {
+   "spk": "rufus",
+   "text": "My fee is the big pillow. The one shaped like a cloud.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "omar",
+   "text": "That is my pillow.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "rufus",
+   "text": "It was your pillow.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "omar",
+   "text": "How many fees have you collected in this house?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "rufus",
+   "text": "Four hundred crackers. Thirty socks. Behind the dryer.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "rufus",
+   "text": "I also own the good spot on the couch. Since June.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "maya",
+   "text": "He is a business cat, Dad. Respect it.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "keisha",
+   "text": "Omar. It is nine o'clock.",
+   "shot": "keisha",
+   "gesture": "cross",
+   "pre": 0.8,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "omar",
+   "text": "Yes, honey. I am handling bedtime.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "keisha",
+   "text": "Not hers. Yours.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "maya",
+   "text": "Dad has a bedtime?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "keisha",
+   "text": "Nine o'clock. We made a deal last week.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "rufus",
+   "text": "I represented your mother. It was a very good deal.",
+   "shot": "rufus",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "keisha",
+   "text": "He gets the big TV on Sundays. I get him asleep by nine.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "omar",
+   "text": "He snores in my ear and calls it a fee!",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "rufus",
+   "text": "The fee was your side of the bed.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "maya",
+   "text": "Rufus. I want to represent my dad.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.4
+  },
+  {
+   "spk": "rufus",
+   "text": "You cannot. You are a client.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "maya",
+   "text": "I have crackers.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "rufus",
+   "text": "Welcome to the firm.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "maya",
+   "text": "My client offers to take out the trash. Both cans.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "keisha",
+   "text": "Nine thirty. And he stops singing in the shower.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "omar",
+   "text": "That is my best time of day!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "maya",
+   "text": "Nine fifteen. And he sings quieter.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "keisha",
+   "text": "Deal.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "rufus",
+   "text": "Deal.",
+   "shot": "W",
+   "gesture": "talk",
+   "after": "applause"
+  },
+  {
+   "spk": "omar",
+   "text": "Wait. Look. Out the window. It is snowing!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "pre": 0.5,
+   "jump": true
+  },
+  {
+   "spk": "maya",
+   "text": "The first snow! Everybody stays up!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "keisha",
+   "text": "Ten minutes. Then bed. Both of you.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "rufus",
+   "text": "And my fee is the snow day pancakes.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "omar",
+   "text": "There is school tomorrow.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "rufus",
+   "text": "Not anymore. I called the principal. She owes me a sock.",
+   "shot": "W",
+   "gesture": "hips",
+   "pre": 0.4,
+   "after": "rimshot"
+  }
+ ]
+}
