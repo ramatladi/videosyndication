@@ -1,0 +1,542 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 61,
+ "slug": "the-work-that-funds-my-dream-life",
+ "title": "The Work That Funds My Dream Life",
+ "trend": "'Housewife' outfit and work reveal / 'Be Your Own Housewife' (show the unglamorous work that funds the dream life; New Engen TikTok list updated Nov 5 2026 and Instagram list updated Nov 6 2026, US) + early-season snow from the Great Lakes to the Northeast (AccuWeather, week of Nov 9 2026) — twelve-year-old Jada shows the work behind her dream life: five a.m. snow shoveling for grumpy Mr. Pruitt, a hot cocoa stand run by a nervous cocoa cup CFO, and her little brother Theo as assistant paid in marshmallows; twist: Theo has been running a faster half-price business across the street, bought Mr. Pruitt's contract, and already owns the hot tub Jada was saving for",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "park_day",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "this is the work",
+  "that funds",
+  "my dream life"
+ ],
+ "youtube_title": "This is the work that funds my dream life ❄️ (I am twelve)",
+ "description": "Jada has a dream: a hot tub. She has a plan: shovel every driveway on the street. Her little brother works for marshmallows. For now.\n\n#cartoon #animation #funny #snowday #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "snow day",
+  "kid business",
+  "brother and sister",
+  "hot cocoa"
+ ],
+ "tiktok_caption": "this is the work that funds my dream life ❄️ (I am twelve) #cartoon #animation #funny #snowday",
+ "cast": [
+  {
+   "id": "jada",
+   "name": "Jada",
+   "kind": "human",
+   "color": "#a0522d",
+   "scale": 0.9,
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b120b"
+   },
+   "top": {
+    "color": "#e74c3c",
+    "pattern": "hoodie"
+   },
+   "bottom": "#1f618d",
+   "shoes": "#f4d03f",
+   "accessories": [
+    "beanie:#1abc9c",
+    "scarf:#f4d03f"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f1948a",
+   "voice": {
+    "id": "af_river",
+    "pitch": 1,
+    "tempo": 1.06
+   }
+  },
+  {
+   "id": "theo",
+   "name": "Theo",
+   "kind": "human",
+   "color": "#a0522d",
+   "scale": 0.82,
+   "hair": {
+    "style": "short",
+    "color": "#1b120b"
+   },
+   "top": {
+    "color": "#f39c12",
+    "pattern": "plain"
+   },
+   "bottom": "#5d6d7e",
+   "shoes": "#2e86c1",
+   "accessories": [
+    "cap:#2e86c1",
+    "glasses"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "blush": true,
+   "label_color": "#f8c471",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 2,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "pruitt",
+   "name": "Mr. Pruitt",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.05,
+   "hair": {
+    "style": "bald",
+    "color": "#bdc3c7"
+   },
+   "top": {
+    "color": "#6e2c00",
+    "pattern": "plain"
+   },
+   "bottom": "#212f3d",
+   "shoes": "#000000",
+   "accessories": [
+    "mustache:#ecf0f1",
+    "beanie:#7f8c8d"
+   ],
+   "eye": "sleepy",
+   "brows": "angry",
+   "mouth": "frown",
+   "label_color": "#d5dbdb",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "cocoa",
+   "name": "Cocoa",
+   "kind": "mascot",
+   "shape": "cup",
+   "color": "#ffffff",
+   "sleeve": "#6e2c00",
+   "lid": "#784212",
+   "accessories": [
+    "glasses",
+    "tie:#1e8449"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#dc7633",
+   "voice": {
+    "id": "bm_fable",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "jada",
+   "text": "This is the work that funds my dream life.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jada",
+   "text": "I am twelve. My dream is a hot tub. In my bedroom.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "theo",
+   "text": "Our bedroom. We share.",
+   "shot": "theo",
+   "gesture": "point",
+   "pre": 0.3
+  },
+  {
+   "spk": "jada",
+   "text": "Five in the morning. The first snow. Everybody sleeps. Except me.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jada",
+   "text": "And my assistant, Theo. He is seven. He works for marshmallows.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "Three per driveway. It is a living.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jada",
+   "text": "First client. Mister Pruitt. He is mad at the snow.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "pruitt",
+   "text": "I have been mad at the snow since nineteen eighty one.",
+   "shot": "pruitt",
+   "gesture": "cross"
+  },
+  {
+   "spk": "jada",
+   "text": "Driveway, steps and the little path to the mailbox. Five dollars.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pruitt",
+   "text": "I will pay you in coupons. For soup.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jada",
+   "text": "Coupons are not money, Mister Pruitt.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pruitt",
+   "text": "They are money for soup.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "jada",
+   "text": "Seven in the morning. The hot cocoa stand. This is where the real money is.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "cocoa",
+   "text": "Good morning. I am Cocoa. I am the chief money officer.",
+   "shot": "cocoa",
+   "gesture": "wave",
+   "pre": 0.4
+  },
+  {
+   "spk": "jada",
+   "text": "Cocoa does the math. And he is also the product.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "cocoa",
+   "text": "Which is a lot of pressure. Every customer drinks a little of me.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "theo",
+   "text": "Two dollars a cup. Marshmallows are extra. I eat the extra.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "cocoa",
+   "text": "We have made eleven dollars. And lost four marshmallows. To Theo.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "theo",
+   "text": "Six. I had two in my hat.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "jada",
+   "text": "Nine in the morning. Mister Pruitt is back.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "pruitt",
+   "text": "The snow came back on my driveway. It did it on purpose.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "jada",
+   "text": "That is called weather, Mister Pruitt.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pruitt",
+   "text": "It is called a second job. Same coupons.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "jada",
+   "text": "My hands are cold. My feet are cold. My eyelashes are cold.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jada",
+   "text": "But the dream is warm. The dream has bubbles.",
+   "shot": "CU",
+   "gesture": "think",
+   "after": "ding"
+  },
+  {
+   "spk": "cocoa",
+   "text": "Quick update. We now have twenty two dollars.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jada",
+   "text": "A hot tub costs four thousand dollars.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "cocoa",
+   "text": "So we are almost there. If almost means never.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jada",
+   "text": "Theo. We need more driveways. Go knock on doors.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "I already knocked on all of them. Last week.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jada",
+   "text": "What do you mean, last week?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "theo",
+   "text": "Across the street. I have my own business. Theo Snow.",
+   "shot": "CU",
+   "gesture": "hips",
+   "pre": 0.5,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "jada",
+   "text": "You have a business? You are seven!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "theo",
+   "text": "Seven and a leaf blower. It blows snow too. It is very fast.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "pruitt",
+   "text": "He does my driveway in two minutes. For half price.",
+   "shot": "pruitt",
+   "gesture": "point"
+  },
+  {
+   "spk": "jada",
+   "text": "Then why do you hire me?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "pruitt",
+   "text": "I don't. I hire him. He hires you.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "theo",
+   "text": "You are my subcontractor. I pay you in his coupons.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "jada",
+   "text": "I work for you? In my own business?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "cocoa",
+   "text": "Also, I should mention. I invested in Theo.",
+   "shot": "cocoa",
+   "gesture": "shrug",
+   "pre": 0.5
+  },
+  {
+   "spk": "jada",
+   "text": "Cocoa! You are my chief money officer!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "cocoa",
+   "text": "He offered me a warmer mug. With a lid. I have needs.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "theo",
+   "text": "Theo Snow has nineteen driveways and four thousand dollars.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jada",
+   "text": "Four thousand dollars? That is a whole hot tub!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "theo",
+   "text": "I know. I bought it yesterday. It is in the garage.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jada",
+   "text": "You bought my dream?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "theo",
+   "text": "Our dream. We share.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pruitt",
+   "text": "He let me sit in it. First time I liked snow.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jada",
+   "text": "Mister Pruitt is smiling. I did not know his face did that.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "applause"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Do not get used to it.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "jada",
+   "text": "Okay. Can I use the hot tub?",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.4
+  },
+  {
+   "spk": "theo",
+   "text": "Of course. Two dollars an hour. Marshmallows are extra.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jada",
+   "text": "I will pay you in soup coupons.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "Deal. I love soup.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "cocoa",
+   "text": "Can I come in the hot tub?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "jada",
+   "text": "Cocoa. You are a hot drink. You are already in a hot tub.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "cocoa",
+   "text": "I never thought of it like that. I am living the dream.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jada",
+   "text": "This is the work that funds my dream life.",
+   "shot": "W",
+   "gesture": "talk",
+   "pre": 0.4
+  },
+  {
+   "spk": "theo",
+   "text": "And this is my dream life. Assistant, more snow, please.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pruitt",
+   "text": "I am not your assistant.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "theo",
+   "text": "You are now. I pay in marshmallows.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Three per driveway?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "theo",
+   "text": "Two. It is a tough economy.",
+   "shot": "W",
+   "gesture": "shrug",
+   "pre": 0.4,
+   "after": "rimshot"
+  }
+ ]
+}
