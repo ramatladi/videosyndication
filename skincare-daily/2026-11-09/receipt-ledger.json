@@ -258,13 +258,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "-S2SEUTBbxY",
       "sku": "111295",
       "title": "Dermalogica Breakout Clearing Booster Label: Salicylic Acid and Niacinamide #shorts",
       "manifest_slug": "bedfordview-breakout-clearing-booster-short",
       "media_sha256": "f79c6866982cecb567c5d1e8fe8750126da01a26a7fe808843e691ac7859a6d6",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T18:37:28Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -460,5 +461,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 15
+  "youtube_ids_recorded": 16
 }
