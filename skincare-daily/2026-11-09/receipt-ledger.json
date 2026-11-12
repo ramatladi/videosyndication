@@ -122,13 +122,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "pg6gt699wUo",
       "sku": "111006",
       "title": "Dermalogica Dynamic Skin Recovery SPF50, 50 mL: Polypeptides + White Tea #shorts",
       "manifest_slug": "capetown-dynamic-skin-recovery-spf50-50ml-short",
       "media_sha256": "82375b2897efbab6fd8590b6818568966b6853a2c2b9e26e75b95870ed1be695",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-12T19:35:31Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -464,5 +465,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 19
+  "youtube_ids_recorded": 20
 }
