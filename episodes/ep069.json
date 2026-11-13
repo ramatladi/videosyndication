@@ -144,7 +144,7 @@
   },
   {
    "spk": "speaker",
-   "text": "Good morning. I am unable to connect. I do not know the weather. I do not know anything.",
+   "text": "Good morning. I cannot connect. I do not know the weather. I do not know anything.",
    "shot": "CU",
    "gesture": "shrug"
   },
@@ -156,15 +156,9 @@
   },
   {
    "spk": "delphine",
-   "text": "Walt, the whole city is down. Every computer. Every phone. Every office.",
+   "text": "The whole city is down, Walt. Every computer.",
    "shot": "TWO",
    "gesture": "talk"
-  },
-  {
-   "spk": "walt",
-   "text": "Good. Let them rest. They work very hard.",
-   "shot": "TWO",
-   "gesture": "hips"
   },
   {
    "spk": "delphine",
@@ -186,13 +180,13 @@
   },
   {
    "spk": "speaker",
-   "text": "Would you like me to call your meeting? I cannot. I am so sorry. I am just a ball now.",
+   "text": "I cannot call your meeting. I am just a ball now.",
    "shot": "CU",
    "gesture": "shrug"
   },
   {
    "spk": "delphine",
-   "text": "Ten o'clock. Nothing. My boss is somewhere staring at a sad face too.",
+   "text": "Ten o'clock. Nothing.",
    "shot": "CU",
    "gesture": "think",
    "pre": 0.8
@@ -211,13 +205,13 @@
   },
   {
    "spk": "walt",
-   "text": "I made coffee before there were apps. I made coffee before there were buttons.",
+   "text": "I made coffee before there were buttons.",
    "shot": "CU",
    "gesture": "cross"
   },
   {
    "spk": "delphine",
-   "text": "This is the best coffee I have ever had. And my boss cannot see my ducks.",
+   "text": "Best coffee ever. And my boss cannot see my ducks.",
    "shot": "CU",
    "gesture": "arms_up",
    "after": "ding"
@@ -230,13 +224,13 @@
   },
   {
    "spk": "speaker",
-   "text": "I would love to. I cannot reach the lights. The lights are in the cloud.",
+   "text": "I would love to. The lights are in the cloud.",
    "shot": "CU",
    "gesture": "shrug"
   },
   {
    "spk": "jasper",
-   "text": "The lights are in the cloud? Then we live in the dark now. This is how it ends.",
+   "text": "The lights are in the cloud? We live in the dark now.",
    "shot": "CU",
    "gesture": "arms_up"
   },
@@ -254,7 +248,7 @@
   },
   {
    "spk": "walt",
-   "text": "It's called a switch. It has been there since nineteen eighty six.",
+   "text": "It's a switch. Since nineteen eighty six.",
    "shot": "CU",
    "gesture": "hips"
   },
@@ -267,20 +261,14 @@
   },
   {
    "spk": "jasper",
-   "text": "On. Off. On. Off. I have power. I have so much power.",
+   "text": "On. Off. On. Off. I have so much power.",
    "shot": "CU",
    "gesture": "arms_up",
    "jump": true
   },
   {
-   "spk": "speaker",
-   "text": "I have been turning those lights on for four years. I am learning a lot today.",
-   "shot": "CU",
-   "gesture": "think"
-  },
-  {
    "spk": "delphine",
-   "text": "Okay, but the fridge is locked. It wants a password from the app.",
+   "text": "The fridge is locked. It wants the app.",
    "shot": "W",
    "gesture": "facepalm"
   },
@@ -293,7 +281,7 @@
   },
   {
    "spk": "delphine",
-   "text": "Oh. It opens. Has it always just opened?",
+   "text": "It opens?",
    "shot": "TWO",
    "gesture": "think"
   },
@@ -306,37 +294,31 @@
   },
   {
    "spk": "jasper",
-   "text": "There is nothing to watch. There is nothing to scroll. I am going to look at a wall.",
+   "text": "Nothing to watch. Nothing to scroll.",
    "shot": "CU",
    "gesture": "facepalm"
   },
   {
    "spk": "walt",
-   "text": "Then look at this. A board game. From nineteen seventy eight.",
+   "text": "Then look at this. A board game from nineteen seventy eight.",
    "shot": "W",
    "gesture": "arms_up"
   },
   {
    "spk": "jasper",
-   "text": "Why is the box held together with tape and hope?",
+   "text": "Held together with tape and hope?",
    "shot": "TWO",
    "gesture": "point"
   },
   {
    "spk": "walt",
-   "text": "Half the pieces are missing. This button is a horse. This penny is the bank.",
+   "text": "Half the pieces are gone. This button is a horse.",
    "shot": "CU",
    "gesture": "talk"
   },
   {
-   "spk": "speaker",
-   "text": "Would you like me to look up the rules? I cannot. I will just sit here, being round.",
-   "shot": "CU",
-   "gesture": "shrug"
-  },
-  {
    "spk": "walt",
-   "text": "I know the rules. I make them up as I go. That's why I'm good at it.",
+   "text": "I make up the rules. That's why I'm good.",
    "shot": "CU",
    "gesture": "hips"
   },
@@ -354,34 +336,28 @@
    "after": "sting"
   },
   {
-   "spk": "jasper",
-   "text": "I just landed on the free space. Do I get anything?",
-   "shot": "TWO",
-   "gesture": "think"
-  },
-  {
    "spk": "walt",
-   "text": "You get a cookie. The cookie jar is the bank now. The penny got fired.",
+   "text": "Free space. You win a cookie. The cookie jar is the bank.",
    "shot": "CU",
    "gesture": "wave"
   },
   {
    "spk": "jasper",
-   "text": "I won a cookie from a board game in the dark. I have never been this happy.",
+   "text": "I won a cookie from a board game. I have never been this happy.",
    "shot": "CU",
    "gesture": "arms_up",
    "jump": true
   },
   {
    "spk": "delphine",
-   "text": "Is it weird that this is the most fun we have had all year?",
+   "text": "Is it weird this is our best day all year?",
    "shot": "W",
    "gesture": "think",
    "pre": 0.8
   },
   {
    "spk": "walt",
-   "text": "It's not weird. It's Friday. Everything is down. Nobody needs anything from us.",
+   "text": "It's Friday. Nobody needs anything from us.",
    "shot": "W",
    "gesture": "shrug"
   },
@@ -395,81 +371,69 @@
   },
   {
    "spk": "speaker",
-   "text": "In fact, everything has been back since noon. It is four o'clock.",
+   "text": "Everything came back at noon. It is four.",
    "shot": "CU",
    "gesture": "talk"
   },
   {
    "spk": "jasper",
-   "text": "Noon? It came back at noon?",
+   "text": "Noon?",
    "shot": "TWO",
    "gesture": "arms_up"
   },
   {
    "spk": "delphine",
-   "text": "Yes. I know. My phone buzzed at noon. I put it in the bread drawer.",
+   "text": "I know. My phone buzzed. I put it in the bread drawer.",
    "shot": "CU",
    "gesture": "shrug",
    "pre": 0.8
   },
   {
    "spk": "jasper",
-   "text": "Mom! Mine buzzed too. I put it in the cookie jar. Under the cookies.",
+   "text": "Mine too! It's under the cookies.",
    "shot": "CU",
    "gesture": "facepalm"
   },
   {
-   "spk": "delphine",
-   "text": "You hid your phone under the cookies? I hid mine under the bread.",
-   "shot": "TWO",
-   "gesture": "point"
-  },
-  {
    "spk": "jasper",
-   "text": "You missed your big meeting on purpose?",
+   "text": "You skipped your big meeting?",
    "shot": "TWO",
    "gesture": "think"
   },
   {
    "spk": "delphine",
-   "text": "My boss sent a message at noon. It said, let's just do Monday. I said, sounds great.",
+   "text": "My boss said, let's just do Monday. I said great.",
    "shot": "CU",
    "gesture": "hips"
   },
   {
    "spk": "jasper",
-   "text": "Grandpa, did you know it came back?",
+   "text": "Grandpa, did you know?",
    "shot": "TWO",
    "gesture": "think"
   },
   {
    "spk": "walt",
-   "text": "My phone flips open. It has never been online in its life.",
+   "text": "My phone flips. It has never been online.",
    "shot": "CU",
    "gesture": "cross"
   },
   {
    "spk": "walt",
-   "text": "But the speaker blinked green at noon. I put a tea towel on it.",
+   "text": "But the speaker blinked at noon. I put a tea towel on it.",
    "shot": "CU",
    "gesture": "point",
    "after": "boing"
   },
   {
    "spk": "speaker",
-   "text": "I thought it was nighttime. I was very confused. I said goodnight to the fridge.",
+   "text": "I thought it was night. I said goodnight to the fridge.",
    "shot": "CU",
    "gesture": "shrug"
   },
   {
-   "spk": "delphine",
-   "text": "So everyone knew, and everyone kept playing.",
-   "shot": "W",
-   "gesture": "think"
-  },
-  {
    "spk": "jasper",
-   "text": "Nobody wanted the game to end. That's kind of the nicest thing ever.",
+   "text": "Nobody wanted the game to end.",
    "shot": "W",
    "gesture": "talk"
   },
@@ -481,32 +445,19 @@
   },
   {
    "spk": "delphine",
-   "text": "Speaker. Listen carefully. You are still offline.",
+   "text": "Speaker. You are still offline.",
    "shot": "CU",
    "gesture": "point"
   },
   {
    "spk": "speaker",
-   "text": "Understood. I am offline. I know nothing. It is honestly very relaxing.",
+   "text": "Understood. I know nothing. It is very relaxing.",
    "shot": "CU",
    "gesture": "shrug"
   },
   {
-   "spk": "jasper",
-   "text": "And the lights only work on the wall. Forever.",
-   "shot": "TWO",
-   "gesture": "arms_up",
-   "jump": true
-  },
-  {
-   "spk": "speaker",
-   "text": "Thank goodness. They never liked me.",
-   "shot": "CU",
-   "gesture": "talk"
-  },
-  {
    "spk": "walt",
-   "text": "Then sit down. Jasper, it's your turn. You are the horse.",
+   "text": "Sit down. Jasper, you are the horse.",
    "shot": "W",
    "gesture": "wave"
   },
@@ -521,18 +472,6 @@
    "text": "The button is the horse. Keep up.",
    "shot": "CU",
    "gesture": "cross"
-  },
-  {
-   "spk": "delphine",
-   "text": "What's the prize for winning?",
-   "shot": "TWO",
-   "gesture": "think"
-  },
-  {
-   "spk": "walt",
-   "text": "Same as every day. The last cookie, and nobody looks at a screen till Monday.",
-   "shot": "CU",
-   "gesture": "arms_up"
   },
   {
    "spk": "speaker",
