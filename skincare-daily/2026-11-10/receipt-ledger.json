@@ -425,13 +425,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "6QMA1UTAq1A",
       "sku": "411476",
       "title": "Dermalogica Stabilizing Repair Cream 15 mL: Soothes, Repairs and Strengthens Skin #shorts",
       "manifest_slug": "rosebank-stabilizing-repair-cream-15ml-short",
       "media_sha256": "903a0a61cacc0c07a050da6b338cc07d1c55f988b9e6495f237b8edb5340d5d0",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T16:41:01Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -464,5 +465,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 23
+  "youtube_ids_recorded": 24
 }
