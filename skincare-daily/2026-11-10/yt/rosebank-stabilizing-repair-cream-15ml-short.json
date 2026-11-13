@@ -3,15 +3,23 @@
   "handle": "@SkincareJoburgRosebank",
   "title": "Dermalogica Stabilizing Repair Cream 15 mL: Soothes, Repairs and Strengthens Skin #shorts",
   "slot_sast": "2026-11-10 16:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref3f61b053f7bd",
   "publish_at": "2026-11-13T16:41:01Z",
   "overdue": true,
   "upload_started": "2026-11-13T15:48:45Z",
   "error": null,
-  "updated": "2026-11-13T15:48:52Z",
+  "updated": "2026-11-13T15:49:08Z",
   "video_id": "6QMA1UTAq1A",
   "published_now": null,
   "url": "https://youtube.com/shorts/6QMA1UTAq1A",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCeTPU-6Wsq_Ii0A4Uv6DESQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-13T16:41:01Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
