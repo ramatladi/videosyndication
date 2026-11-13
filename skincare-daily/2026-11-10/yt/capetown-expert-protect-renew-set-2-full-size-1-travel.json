@@ -3,15 +3,23 @@
   "handle": "@DermatologyCapeTown",
   "title": "Dermalogica Expert Protect + Renew Set (2 Full-Size + 1 Travel): What It Does and How to Use It",
   "slot_sast": "2026-11-10 10:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref6208f93a092d",
   "publish_at": "2026-11-13T08:17:40Z",
   "overdue": true,
   "upload_started": "2026-11-13T07:22:12Z",
   "error": null,
-  "updated": "2026-11-13T07:22:17Z",
+  "updated": "2026-11-13T07:22:34Z",
   "video_id": "jLYTouCzgFk",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=jLYTouCzgFk",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UC6IhnhkFRVu8tTc1FJbjb8Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-13T08:17:40Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
