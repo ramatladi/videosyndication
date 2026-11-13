@@ -3,15 +3,23 @@
   "handle": "@DermatologyJoburgBedfordview",
   "title": "Label Read: Dermalogica Daily Milkfoliant 74g #shorts",
   "slot_sast": "2026-11-10 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref429b87864cb8",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-13T15:43:01Z",
   "error": null,
-  "updated": "2026-11-13T15:43:08Z",
+  "updated": "2026-11-13T15:43:46Z",
   "video_id": "Tr_J14hRs9A",
   "published_now": "2026-11-13T15:43:01Z",
   "url": "https://youtube.com/shorts/Tr_J14hRs9A",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCs0uxMnSV1INS_Bxn6yqc2Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
