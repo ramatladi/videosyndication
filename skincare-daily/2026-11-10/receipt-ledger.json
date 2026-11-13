@@ -349,13 +349,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "fBFGbhqbGz0",
       "sku": "301349INT",
       "title": "How to Use Dermalogica The Expert Lift Set (3 Full-Size) #shorts",
       "manifest_slug": "westville-the-expert-lift-set-3-full-size-short",
       "media_sha256": "ffe6e43c908d7811d3b8c80d0a387a73be312b58e1f0929054dc770aa50aba88",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T16:41:01Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -463,5 +464,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 22
+  "youtube_ids_recorded": 23
 }
