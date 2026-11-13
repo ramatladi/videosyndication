@@ -240,24 +240,12 @@
    "text": "I was cool once. I had a jacket with a lot of zippers.",
    "shot": "CU",
    "gesture": "think",
-   "pre": 0.8
-  },
-  {
-   "spk": "milo",
-   "text": "Where are the zippers now, Dad?",
-   "shot": "milo",
-   "gesture": "point"
-  },
-  {
-   "spk": "reggie",
-   "text": "In the garage. Thinking about what they did.",
-   "shot": "CU",
-   "gesture": "shrug",
+   "pre": 0.8,
    "after": "rimshot"
   },
   {
    "spk": "toast",
-   "text": "The sprouts did catch fire twice. I watched from the toaster. I was scared.",
+   "text": "The sprouts caught fire twice. I watched from the toaster.",
    "shot": "toast",
    "gesture": "facepalm"
   },
@@ -266,12 +254,6 @@
    "text": "That is called a char. Fancy places charge extra for a char.",
    "shot": "TWO",
    "gesture": "point"
-  },
-  {
-   "spk": "nia",
-   "text": "Fancy places do not open the window and wave a towel.",
-   "shot": "CU",
-   "gesture": "cross"
   },
   {
    "spk": "reggie",
@@ -301,18 +283,6 @@
    "text": "You cannot W a nibble. A nibble is always an L.",
    "shot": "milo",
    "gesture": "point"
-  },
-  {
-   "spk": "reggie",
-   "text": "What about a chew that is an L?",
-   "shot": "TWO",
-   "gesture": "think"
-  },
-  {
-   "spk": "nia",
-   "text": "Rare. Like a sprout that is not on fire.",
-   "shot": "CU",
-   "gesture": "shrug"
   },
   {
    "spk": "toast",
@@ -373,21 +343,9 @@
   },
   {
    "spk": "nia",
-   "text": "Okay, do not say it at school pickup.",
+   "text": "Okay. Do not say it at school pickup.",
    "shot": "CU",
    "gesture": "cross"
-  },
-  {
-   "spk": "reggie",
-   "text": "I am saying it at school pickup. Every day. With the zipper jacket.",
-   "shot": "CU",
-   "gesture": "point"
-  },
-  {
-   "spk": "nia",
-   "text": "I will walk home. It is three miles. I will be fine.",
-   "shot": "TWO",
-   "gesture": "facepalm"
   },
   {
    "spk": "reggie",
@@ -435,21 +393,9 @@
   },
   {
    "spk": "toast",
-   "text": "So did the pie. It still has the sticker. It says Linda.",
+   "text": "So did the pie. The sticker says, made with love by Linda.",
    "shot": "CU",
    "gesture": "shrug"
-  },
-  {
-   "spk": "milo",
-   "text": "Who is Linda?",
-   "shot": "milo",
-   "gesture": "think"
-  },
-  {
-   "spk": "reggie",
-   "text": "Linda is a very talented woman. She works the night shift.",
-   "shot": "CU",
-   "gesture": "think"
   },
   {
    "spk": "nia",
@@ -496,7 +442,7 @@
   },
   {
    "spk": "nia",
-   "text": "But Dad waving a towel at a fire for us? That is a big W.",
+   "text": "But Dad fighting a sprout fire for us? That is a big W.",
    "shot": "TWO",
    "gesture": "arms_up"
   },
