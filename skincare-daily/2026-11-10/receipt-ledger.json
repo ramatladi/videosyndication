@@ -149,13 +149,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "4WiJOycsSro",
       "sku": "111452",
       "title": "Dermalogica Hyaluronic Ceramide Mist 150 mL, Explained Fast #shorts",
       "manifest_slug": "capetown-hyaluronic-ceramide-mist-150ml-short",
       "media_sha256": "7ea8905aa75ffed8a9a62c233dd46980b5b7419ba4adeee6281ded56baf7c88e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T22:40:11Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -472,5 +473,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 31
+  "youtube_ids_recorded": 32
 }
