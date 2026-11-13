@@ -257,13 +257,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "Tr_J14hRs9A",
       "sku": "111453",
       "title": "Label Read: Dermalogica Daily Milkfoliant 74g #shorts",
       "manifest_slug": "bedfordview-daily-milkfoliant-74g-short",
       "media_sha256": "50e45413cdc55879cfd9ff66019acf80713cc00cfd2d7f4b334fa04f248061d5",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T15:43:01Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -456,5 +457,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 15
+  "youtube_ids_recorded": 16
 }
