@@ -3,15 +3,23 @@
   "handle": "@SkincareDurbanWestville",
   "title": "Body Care: Dermalogica UltraCalming Mist 177 mL #shorts",
   "slot_sast": "2026-11-10 20:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref2dbd259e9b38",
   "publish_at": "2026-11-13T22:40:11Z",
   "overdue": true,
   "upload_started": "2026-11-13T21:46:27Z",
   "error": null,
-  "updated": "2026-11-13T21:46:32Z",
+  "updated": "2026-11-13T21:47:04Z",
   "video_id": "dQLLq-aa5N0",
   "published_now": null,
   "url": "https://youtube.com/shorts/dQLLq-aa5N0",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCh1fAzbqzZRAKMoFpJ9f0_g",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-13T22:40:11Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
