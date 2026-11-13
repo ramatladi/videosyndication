@@ -167,13 +167,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "TK08skezSkU",
       "sku": "110637",
       "title": "Dermalogica Special Cleansing Gel 50 mL: How to Use It",
       "manifest_slug": "umhlanga-special-cleansing-gel-50ml",
       "media_sha256": "63e1bcb42092c56139a88bcedf8df9a4d022aa39e89b9a7c532b00cab0c4c8fa",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T08:17:40Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -449,5 +450,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 8
+  "youtube_ids_recorded": 9
 }
