@@ -182,13 +182,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "2uDhi_BOz3I",
       "sku": "111059",
       "title": "Dermalogica Active Moist 100 mL in Under a Minute: Provides Oil-free Hydration #shorts",
       "manifest_slug": "umhlanga-active-moist-100ml-short",
       "media_sha256": "3d89311808d0ec0f508749b057499512f7b928912e1fa78b5fd7932925196e2e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T15:42:18Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -455,5 +456,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 14
+  "youtube_ids_recorded": 15
 }
