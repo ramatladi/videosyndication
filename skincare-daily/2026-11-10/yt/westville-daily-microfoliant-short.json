@@ -3,15 +3,23 @@
   "handle": "@SkincareDurbanWestville",
   "title": "How to Use Dermalogica Daily Microfoliant #shorts",
   "slot_sast": "2026-11-10 08:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skreffb85feaa3b4d",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-13T07:20:16Z",
   "error": null,
-  "updated": "2026-11-13T07:20:20Z",
+  "updated": "2026-11-13T07:20:52Z",
   "video_id": "fuVKduQTmgs",
   "published_now": "2026-11-13T07:20:16Z",
   "url": "https://youtube.com/shorts/fuVKduQTmgs",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCh1fAzbqzZRAKMoFpJ9f0_g",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
