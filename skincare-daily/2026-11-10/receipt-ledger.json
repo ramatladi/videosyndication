@@ -227,13 +227,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "BdlK9LbofK4",
       "sku": "111465",
       "title": "What Dermalogica Dynamic Skin Retinol Serum 30 mL Does: Retexturizes and Evens Skin Tone #shorts",
       "manifest_slug": "umhlanga-dynamic-skin-retinol-serum-30ml-short",
       "media_sha256": "0cf0fa587b09999d3472721529414bfa1ee76357c011a8c91b05044aa08a2f4a",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T22:40:11Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -473,5 +474,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 32
+  "youtube_ids_recorded": 33
 }
