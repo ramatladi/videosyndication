@@ -107,13 +107,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "tzYji90x46Q",
       "sku": "301338INT",
       "title": "How to Use Dermalogica Hydration You Can Feel Kit (2 Full-Size) #shorts",
       "manifest_slug": "capetown-hydration-you-can-feel-kit-2-full-size-short",
       "media_sha256": "07fb9bbbc67feb35cc0c3fc57a2ccf97087119ee18ba54c78b95050922f4e8a0",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T15:41:46Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -454,5 +455,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 13
+  "youtube_ids_recorded": 14
 }
