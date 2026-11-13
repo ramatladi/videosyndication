@@ -407,13 +407,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "Nag1YHHuyTA",
       "sku": "111327",
       "title": "What Dermalogica Intensive Moisture Balance 100 mL Does: Moisturizes Dry, Depleted Skin #shorts",
       "manifest_slug": "rosebank-intensive-moisture-balance-100ml-short",
       "media_sha256": "8968b0a645a8671ad1256162b7b787f9d0588dfccbbe53f6fc25ed535b305f1a",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T15:44:35Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -458,5 +459,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 17
+  "youtube_ids_recorded": 18
 }
