@@ -93,13 +93,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "jLYTouCzgFk",
       "sku": "301347INT",
       "title": "Dermalogica Expert Protect + Renew Set (2 Full-Size + 1 Travel): What It Does and How to Use It",
       "manifest_slug": "capetown-expert-protect-renew-set-2-full-size-1-travel",
       "media_sha256": "08648c1e93e92bf19aec84e6118d6e6cd9fe4c7cca9e02fc6ad4a634650e1f5e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T08:17:40Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -448,5 +449,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 7
+  "youtube_ids_recorded": 8
 }
