@@ -6,13 +6,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "ouZgERJAJU4",
       "sku": "102321",
       "title": "Routine Builder: Dermalogica MultiVitamin Thermafoliant #shorts",
       "manifest_slug": "midrand-multivitamin-thermafoliant-short",
       "media_sha256": "7312c849565888cc9f1dff80a51d6fb50e8d2868d53e126d128ec1f8759bcc73",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T07:17:41Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -417,7 +418,7 @@
       "status": "staged_awaiting_youtube_receipt",
       "youtube_id": null,
       "sku": "111518",
-      "title": "Dermalogica Phyto Nature E² Regenerating Daily Exosome Leave-On Treatment, Explained",
+      "title": "Dermalogica Phyto Nature E\u00b2 Regenerating Daily Exosome Leave-On Treatment, Explained",
       "manifest_slug": "rosebank-phyto-nature-e-regenerating-daily-exosome-leave-on-treatment",
       "media_sha256": "54b0217e0f62289d9a3d4fcfc1083ff6c9b5e0e774ed555513250e7da91c8580",
       "asset_checksums_verified": true
@@ -440,5 +441,6 @@
     "missing_renders": 0,
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
-  }
+  },
+  "youtube_ids_recorded": 1
 }
