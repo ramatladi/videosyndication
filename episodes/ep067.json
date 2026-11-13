@@ -1,0 +1,420 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 67,
+ "slug": "while-theyre-out-partying",
+ "title": "While They're Out Partying",
+ "trend": "TikTok 'While They're Out Partying' (mundane 'skills' shown off as if from years of hustle while others party; trendhaus.ai TikTok list, first seen Nov 3 2026, US) + Friday night — teen Owen stays home on Friday night mastering the fitted sheet, a one-piece orange peel and a gapless dishwasher while the fitted sheet complains; twist: Mom Carla heads out line dancing on a mechanical bull, and reveals she filmed his skills and posted them on the neighborhood board, so he has a paid folding, dishwasher and orange-peel business booked for tomorrow",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "friday night",
+  "while they're out partying",
+  "i'm in here"
+ ],
+ "youtube_title": "While they're out partying, I'm in here mastering the fitted sheet 🧺",
+ "description": "It is Friday night, and Owen is staying in to master the fitted sheet, the orange peel and the dishwasher. The sheet would like a word. Mom has plans of her own.\n\n#cartoon #animation #funny #fridaynight #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "friday night",
+  "mom and son",
+  "laundry",
+  "teenager"
+ ],
+ "tiktok_caption": "while they're out partying, I'm in here mastering the fitted sheet 🧺 #cartoon #animation #funny #fridaynight",
+ "cast": [
+  {
+   "id": "owen",
+   "name": "Owen",
+   "kind": "human",
+   "color": "#e8b88a",
+   "scale": 0.97,
+   "hair": {
+    "style": "short",
+    "color": "#5d4037"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "beanie:#e67e22"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#a3e4d7",
+   "voice": {
+    "id": "am_echo",
+    "pitch": 1,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "carla",
+   "name": "Carla",
+   "kind": "human",
+   "color": "#d1a074",
+   "scale": 1.0,
+   "hair": {
+    "style": "long",
+    "color": "#7b3f00"
+   },
+   "top": {
+    "color": "#e91e63",
+    "pattern": "dots",
+    "pattern_color": "#f9e79f"
+   },
+   "bottom": "#1a5276",
+   "shoes": "#f4d03f",
+   "accessories": [
+    "cap:#f5f5f5",
+    "scarf:#f4d03f"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f5b7b1",
+   "voice": {
+    "id": "af_heart",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "sheet",
+   "name": "The Fitted Sheet",
+   "kind": "mascot",
+   "shape": "ghost",
+   "color": "#f4f6f7",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#d6eaf8",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "owen",
+   "text": "Friday night. While they're out partying, I'm in here. Mastering the fitted sheet.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "sheet",
+   "text": "Nobody masters me. I have elastic. I have secrets.",
+   "shot": "sheet",
+   "gesture": "cross"
+  },
+  {
+   "spk": "owen",
+   "text": "Step one. Find the corners.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "sheet",
+   "text": "I have four corners. Today they are all in one place, and it is not where you think.",
+   "shot": "sheet",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "carla",
+   "text": "Owen, honey, your friends are at the bowling alley. They texted me.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "owen",
+   "text": "Mom, they are bowling. I am building a future. Corner into corner.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "sheet",
+   "text": "He has been in my corner for forty minutes. I feel like a burrito.",
+   "shot": "sheet",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "owen",
+   "text": "And, fold!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "carla",
+   "text": "That is a ball, sweetie. You made a ball.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "owen",
+   "text": "It is a rectangle with confidence issues.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "owen",
+   "text": "Skill two. While they're out partying, I peel an orange in one piece.",
+   "shot": "W",
+   "gesture": "hips"
+  },
+  {
+   "spk": "owen",
+   "text": "Slowly. Slowly. Thumb under the skin. Breathe with the orange.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.5
+  },
+  {
+   "spk": "carla",
+   "text": "Do not breathe with the orange.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "owen",
+   "text": "And, done. One piece. Look at it. It is a little orange jacket.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "ding",
+   "jump": true
+  },
+  {
+   "spk": "carla",
+   "text": "Okay, that is actually impressive.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "owen",
+   "text": "Skill three. Loading the dishwasher with zero gaps.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "owen",
+   "text": "Bowls in the back. Forks up. Spoons in a little family.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "sheet",
+   "text": "He talks to the spoons. They do not talk back. I do. Nobody asks me anything.",
+   "shot": "sheet",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "owen",
+   "text": "And the big pot? Diagonal. Like a champion.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "carla",
+   "text": "Owen. That is the most beautiful dishwasher I have ever seen.",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "owen",
+   "text": "While they're out partying, I'm in here being the most beautiful dishwasher.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "sheet",
+   "text": "That sentence did not go where he wanted.",
+   "shot": "sheet",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "carla",
+   "text": "Okay. Well. I am heading out, sweetie.",
+   "shot": "CU",
+   "gesture": "wave",
+   "pre": 0.8
+  },
+  {
+   "spk": "owen",
+   "text": "Heading out where? It is nine o'clock. On a Friday.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "carla",
+   "text": "Line dancing. With the ladies from work. There is a mechanical bull.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "owen",
+   "text": "Mom! You are going out partying?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "carla",
+   "text": "I am fifty two, honey. While you're in here peeling oranges, I'm out there partying.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "owen",
+   "text": "Who is going to be home with the sheet?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "carla",
+   "text": "You are. And tomorrow you are going to be very busy.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "owen",
+   "text": "Busy with what?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "carla",
+   "text": "I filmed your skills all week and put them on the neighborhood board.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.5
+  },
+  {
+   "spk": "owen",
+   "text": "You did what?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "carla",
+   "text": "Missus Kowalski wants her fitted sheets folded. Twenty dollars.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "carla",
+   "text": "The Garcias want their dishwasher loaded for Thanksgiving. Forty dollars.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "carla",
+   "text": "And the man on the corner wants one long orange peel. He will not say why.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "sheet",
+   "text": "Probably for a little jacket.",
+   "shot": "sheet",
+   "gesture": "point",
+   "after": "rimshot"
+  },
+  {
+   "spk": "owen",
+   "text": "Wait. So I have a business?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "carla",
+   "text": "Sixty dollars, before lunch. And a mystery orange.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "owen",
+   "text": "While they're out partying, I'm in here making money.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "carla",
+   "text": "And while you are making money, I am on a mechanical bull. Bye, honey!",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "sheet",
+   "text": "Can I come with her? I have never been to a party. I have only been to a bed.",
+   "shot": "sheet",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "carla",
+   "text": "Sure. You can be my cape.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "sheet",
+   "text": "I am a cape! I have a purpose!",
+   "shot": "sheet",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "owen",
+   "text": "Mom, if you lose him, he will come back folded wrong. I will never fix it.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "carla",
+   "text": "That is tomorrow's problem. Tomorrow you are a professional.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "owen",
+   "text": "Fine. While they're out partying, I'll be in here.",
+   "shot": "CU",
+   "gesture": "hips",
+   "pre": 0.6
+  },
+  {
+   "spk": "owen",
+   "text": "Alone. With the spoons. In their little family.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "sheet",
+   "text": "Yee haw.",
+   "shot": "sheet",
+   "gesture": "wave",
+   "after": "ding"
+  }
+ ]
+}
