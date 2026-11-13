@@ -135,13 +135,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "ko03GpitSqA",
       "sku": "111268",
       "title": "Dermalogica Calm Water Gel 50 mL, Explained",
       "manifest_slug": "capetown-calm-water-gel-50ml",
       "media_sha256": "bdbbf51ec36394d749b1fe1f9e5c2ecf01a66300ececb5e0c77ff645d2ae5550",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T21:40:50Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -466,5 +467,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 25
+  "youtube_ids_recorded": 26
 }
