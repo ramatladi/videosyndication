@@ -383,13 +383,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "dQLLq-aa5N0",
       "sku": "110545",
       "title": "Body Care: Dermalogica UltraCalming Mist 177 mL #shorts",
       "manifest_slug": "westville-ultracalming-mist-177ml-short",
       "media_sha256": "54fd1a1b25f1ddd3659f9c286129d08ea511c2b9851af0ad2892c17300540f0f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T22:40:11Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -475,5 +476,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 34
+  "youtube_ids_recorded": 35
 }
