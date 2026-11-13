@@ -389,13 +389,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "quiNEz3lvSc",
       "sku": "111342",
       "title": "Dermalogica Age Bright Clearing Serum 30 mL, Explained",
       "manifest_slug": "rosebank-age-bright-clearing-serum-30ml",
       "media_sha256": "9c0bd3b1848d7dd8b2e7a9425d53a693b653e674092c43ccd29d14c8a3a00a33",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T08:17:40Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -452,5 +453,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 11
+  "youtube_ids_recorded": 12
 }
