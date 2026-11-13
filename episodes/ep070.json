@@ -1,0 +1,539 @@
+{
+ "engine": "cast",
+ "id": 70,
+ "slug": "then-vs-now-first-freeze",
+ "title": "Then vs Now: The First Freeze",
+ "trend": "Instagram Reels 'Then vs. Now' nostalgic memory edits (the 'November Rain' then-vs-now format on SocialPilot's Instagram Reels list, Oct 31 - Nov 10 2026, US) + 'freeze watch' (50K+ on Google Trends US daily, Nov 13 2026; first freeze of the season) \u2014 Tamsin compares getting ready for the first freeze at twenty two (cute hat, hot chocolate) with now (husband Dale in a bathrobe putting socks on the faucet, dripping pipes, forty one plants inside, warming the car seats); twist: her old video shows Dale at twenty three already wrapping the faucet behind her and he made the hot chocolate \u2014 then the freeze watch gets canceled",
+ "target_seconds": 180,
+ "length_reason": "Then-vs-now edits run about fifteen to thirty seconds as one quick comparison clip, so this stays a quick one-clip skit at the short end (180 s, which also fits Instagram's three-minute limit).",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "lofi",
+ "intro": [
+  "then vs now:",
+  "getting ready",
+  "for the first freeze"
+ ],
+ "youtube_title": "Then vs Now: Getting Ready For The First Freeze | Funny Family Cartoon",
+ "description": "Tamsin remembers the first freeze as a cute hat and hot chocolate on the porch. Now her husband runs outside in a bathrobe to put a sock on the faucet, and the lemon tree wants the good window.\n\n#cartoon #animation #funny #comedy #winter",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "winter",
+  "first freeze",
+  "husband and wife",
+  "family comedy",
+  "talking dog"
+ ],
+ "tiktok_caption": "then vs now: getting ready for the first freeze \ud83e\udde6 #cartoon #animation #funny #comedy #winter",
+ "cast": [
+  {
+   "id": "tamsin",
+   "name": "Tamsin",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "long",
+    "color": "#a0522d"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "dots",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#8e5a3c",
+   "accessories": [
+    "beanie:#f1c40f",
+    "scarf:#27ae60"
+   ],
+   "eye": "big",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "dale",
+   "name": "Dale",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.05,
+   "hair": {
+    "style": "short",
+    "color": "#3e2723"
+   },
+   "top": {
+    "color": "#3d6fb6",
+    "pattern": "hoodie"
+   },
+   "bottom": "#7f8c8d",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "glasses",
+    "beard:#3e2723"
+   ],
+   "brows": "worried",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "pepper",
+   "name": "Pepper",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#b5835a",
+   "belly": "#f3e0c8",
+   "scale": 0.9,
+   "top": {
+    "color": "#e67e22",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#b5835a",
+   "shoes": "#c0392b",
+   "accessories": [
+    "scarf:#8e44ad"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.93
+   }
+  },
+  {
+   "id": "lemon",
+   "name": "Lady Lemon",
+   "kind": "mascot",
+   "shape": "ball",
+   "color": "#f4d03f",
+   "scale": 0.85,
+   "accessories": [
+    "sunglasses",
+    "crown:#27ae60"
+   ],
+   "eye": "happy",
+   "voice": {
+    "id": "bf_lily",
+    "pitch": 1,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "tamsin",
+   "text": "Then versus now. Getting ready for the first freeze.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Then. I was twenty two. The first freeze meant a cute hat and hot chocolate on the porch.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Now. My phone screamed freeze watch at six in the morning, and my husband ran outside in a bathrobe.",
+   "shot": "TWO",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "dale",
+   "text": "The pipes, Tamsin. The pipes do not care about your hat.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tamsin",
+   "text": "He is holding a sock.",
+   "shot": "dale"
+  },
+  {
+   "spk": "dale",
+   "text": "It is a faucet sock. The outdoor faucet gets a sock. Everybody gets a sock.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Then, a sock was for feet.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dale",
+   "text": "Now a sock is a lifestyle.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "rimshot"
+  },
+  {
+   "spk": "pepper",
+   "text": "He put socks on me too. Four, actually.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Pepper, you love the cold. You used to eat snow.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "pepper",
+   "text": "Then, I was a puppy. I ate snow. I ate a mitten. I ate a small part of the fence.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "pepper",
+   "text": "Now, I am eleven. I eat dinner at four thirty and I go to bed.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dale",
+   "text": "Same, buddy. Same.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "dale",
+   "text": "Step two. We drip the faucets all night. A little drip keeps the pipes moving.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Then, I left the faucet running because I forgot.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dale",
+   "text": "Now we do it on purpose. Like adults.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tamsin",
+   "text": "He set alarms to check on the drip.",
+   "shot": "dale"
+  },
+  {
+   "spk": "dale",
+   "text": "Two in the morning, four in the morning, and six. The drip needs me.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tamsin",
+   "text": "The drip does not need you.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dale",
+   "text": "It made a little sound at four. Like, thank you, Dale.",
+   "shot": "CU",
+   "gesture": "think",
+   "after": "ding"
+  },
+  {
+   "spk": "pepper",
+   "text": "That was me. I was drinking from the toilet.",
+   "shot": "pepper",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dale",
+   "text": "Okay. Step three. The plants come inside.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Then, I had one cactus. His name was Steve. He lived on the windowsill and asked for nothing.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Now we have forty one plants. And one of them talks.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "lemon",
+   "text": "Excuse me. I am not a plant. I am a lemon tree. There is a difference.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dale",
+   "text": "Lady Lemon gets the good window.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "lemon",
+   "text": "The south window, with the morning light. I am from a warm place, darling.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tamsin",
+   "text": "She is from the garden center by the highway.",
+   "shot": "lemon"
+  },
+  {
+   "spk": "lemon",
+   "text": "A warm garden center.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "pepper",
+   "text": "She took my sunny spot. I have had that spot for eleven years.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "lemon",
+   "text": "And you did nothing with it. I am growing a lemon.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tamsin",
+   "text": "She has been growing that one lemon since two thousand nineteen.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "lemon",
+   "text": "Good things take time. Like my lemon.",
+   "shot": "CU",
+   "gesture": "think",
+   "after": "sting"
+  },
+  {
+   "spk": "dale",
+   "text": "Step four. The car.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Then, I scraped the windshield with my library card and drove to work through a little hole.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dale",
+   "text": "Now, I start the car twenty minutes early, and I sit in it.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Why do you sit in it?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dale",
+   "text": "I warm the seats for the family. It is my job. I am the seat warmer.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "pepper",
+   "text": "Then he was a husband. Now he is a heated seat.",
+   "shot": "pepper",
+   "after": "rimshot"
+  },
+  {
+   "spk": "dale",
+   "text": "And every window gets a blanket. Every door gets a towel snake.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tamsin",
+   "text": "We have a towel snake?",
+   "shot": "dale"
+  },
+  {
+   "spk": "dale",
+   "text": "We have six. They have names. Larry, Barry, Mary, and three Garys.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Of course they do.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "lemon",
+   "text": "I would like a towel snake. As a scarf.",
+   "shot": "lemon"
+  },
+  {
+   "spk": "tamsin",
+   "text": "This is too much. When I was twenty two, I was fun. Winter was fun. We were fun.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dale",
+   "text": "Were we?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "tamsin",
+   "text": "Yes. I have a video from the first freeze, twenty years ago. Watch.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "tamsin",
+   "text": "There I am. Cute hat. Hot chocolate on the porch.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tamsin",
+   "text": "And who is that behind me. In a bathrobe.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dale",
+   "text": "Is that me, wrapping the faucet in a sock?",
+   "shot": "dale"
+  },
+  {
+   "spk": "tamsin",
+   "text": "You were twenty three!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "record_scratch",
+   "jump": true
+  },
+  {
+   "spk": "pepper",
+   "text": "He was never young. He was born forty five.",
+   "shot": "pepper",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dale",
+   "text": "Then, I made you that hot chocolate. With the little marshmallows.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Wait. You made the hot chocolate?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "dale",
+   "text": "Then and now. I just stand behind you with a sock.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Dale. That is kind of beautiful.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lemon",
+   "text": "I am crying. It is lemon juice. It stings.",
+   "shot": "lemon",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Oh. My phone just buzzed. Update. The freeze watch is canceled.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dale",
+   "text": "Canceled?",
+   "shot": "dale",
+   "pre": 0.8
+  },
+  {
+   "spk": "tamsin",
+   "text": "Low of forty one. It is not even going to freeze.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "all",
+   "text": "Oh no.",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "dale",
+   "text": "Forty one plants, six towel snakes, and a sock on the faucet.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "pepper",
+   "text": "And four on me.",
+   "shot": "pepper"
+  },
+  {
+   "spk": "lemon",
+   "text": "I am not going back outside. I have seen the good window. I live here now.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Then, we would put everything back.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "dale",
+   "text": "Now, we leave it all out until the real one.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tamsin",
+   "text": "Next Tuesday.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pepper",
+   "text": "I am going to bed. It is four thirty.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "applause"
+  }
+ ]
+}
