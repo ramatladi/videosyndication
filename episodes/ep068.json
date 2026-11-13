@@ -1,0 +1,437 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 68,
+ "slug": "barefaced-bingo-night",
+ "title": "Barefaced For Bingo Night",
+ "trend": "TikTok 'Barefaced' (creators claim a 'barefaced' look while clearly in full makeup; trendhaus.ai TikTok list, first seen Nov 5 2026, US) + Friday the thirteenth (Nov 13 2026) — Grandma Bernice and her friend Miss Lorraine insist they are going barefaced to bingo night while the front-camera phone exposes every coat; teen grandson Tyrese mocks them until the phone reveals his forty-minute concealer job on one pimple; twist: bingo night is really the bingo hall's 'most natural face' glamour contest where nobody has ever been natural (Edna won in a fake beard), and Tyrese enters for the fifty-dollar prize",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "bedroom",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "bingo night",
+  "grandma says",
+  "she's going barefaced"
+ ],
+ "youtube_title": "Grandma says she's going barefaced to bingo night 💄 (she is not)",
+ "description": "Grandma Bernice and Miss Lorraine are going to bingo night totally natural. The phone camera disagrees, and Tyrese has a secret of his own.\n\n#cartoon #animation #funny #grandma #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "grandma",
+  "bingo night",
+  "makeup",
+  "friday the 13th"
+ ],
+ "tiktok_caption": "grandma says she's going barefaced to bingo night 💄 #cartoon #animation #funny #grandma",
+ "cast": [
+  {
+   "id": "bernice",
+   "name": "Grandma Bernice",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.0,
+   "hair": {
+    "style": "bun",
+    "color": "#d5d8dc"
+   },
+   "top": {
+    "color": "#6c3483",
+    "pattern": "dots",
+    "pattern_color": "#f7dc6f"
+   },
+   "bottom": "#1b2631",
+   "shoes": "#c0392b",
+   "accessories": [
+    "glasses",
+    "scarf:#f1948a"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "label_color": "#d2b4de",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": -2,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "lorraine",
+   "name": "Miss Lorraine",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.02,
+   "hair": {
+    "style": "curly",
+    "color": "#c0392b"
+   },
+   "top": {
+    "color": "#117a65",
+    "pattern": "suit",
+    "pattern_color": "#f4d03f"
+   },
+   "bottom": "#212f3d",
+   "shoes": "#f4d03f",
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "label_color": "#a2d9ce",
+   "voice": {
+    "id": "bf_emma",
+    "pitch": -1,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "tyrese",
+   "name": "Tyrese",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.95,
+   "hair": {
+    "style": "afro",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#2e86c1",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": 13
+   },
+   "bottom": "#424949",
+   "shoes": "#ffffff",
+   "accessories": [],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#aed6f1",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 1,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "phone",
+   "name": "The Phone",
+   "kind": "mascot",
+   "shape": "phone",
+   "color": "#2c3e50",
+   "case": "#f1948a",
+   "accessories": [],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#fadbd8",
+   "voice": {
+    "id": "af_river",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "bernice",
+   "text": "Bingo night, baby. And tonight I'm going barefaced. Totally natural.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tyrese",
+   "text": "Grandma. You have glitter on your eyelids.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "bernice",
+   "text": "That is my natural sparkle. It comes from within.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "phone",
+   "text": "It came from a little jar. I watched her apply it. Four coats.",
+   "shot": "phone",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "phone",
+   "text": "I am the front camera. I have seen things in this house. Terrible, beautiful things.",
+   "shot": "phone",
+   "gesture": "cross"
+  },
+  {
+   "spk": "lorraine",
+   "text": "Bernice! I'm here! Ooh, are we doing barefaced tonight? Me too, darling.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "tyrese",
+   "text": "Miss Lorraine, your eyebrows go all the way to your hairline.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "lorraine",
+   "text": "These are the eyebrows I was born with. Last Tuesday. At the mall.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "bernice",
+   "text": "We are two natural women. We just woke up like this.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "phone",
+   "text": "They woke up at noon. It is nine. That is nine hours of waking up like this.",
+   "shot": "phone",
+   "gesture": "point"
+  },
+  {
+   "spk": "tyrese",
+   "text": "What is under the eyebrows, Miss Lorraine?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "lorraine",
+   "text": "Just a little moisturizer. And a primer. And a foundation. And a second foundation.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tyrese",
+   "text": "That is not barefaced. That is a construction project.",
+   "shot": "TWO",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "bernice",
+   "text": "Tyrese, honey, barefaced is a feeling. It is not a face.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bernice",
+   "text": "It is Friday the thirteenth. Lucky number thirteen on the bingo card. We have to look natural for luck.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "phone",
+   "text": "Her cheeks are so shiny the moon called. It wanted its job back.",
+   "shot": "phone",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tyrese",
+   "text": "Okay. Grandma. What about the lips? Those lips are purple.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "bernice",
+   "text": "I had a grape popsicle.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.7
+  },
+  {
+   "spk": "phone",
+   "text": "She did not have a grape popsicle. The lipstick is called Royal Midnight.",
+   "shot": "phone",
+   "gesture": "cross"
+  },
+  {
+   "spk": "lorraine",
+   "text": "Tyrese, you are being very judgy for a boy who took forty minutes in the bathroom.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tyrese",
+   "text": "I was brushing my teeth.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "phone",
+   "text": "Should I say it?",
+   "shot": "phone",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "tyrese",
+   "text": "No. Do not say it.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "phone",
+   "text": "He used his sister's concealer. On one tiny pimple. Right on the chin.",
+   "shot": "phone",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": [
+    "bernice",
+    "lorraine"
+   ],
+   "text": "Ooh!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "tyrese",
+   "text": "It was huge! It had its own weather!",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "bernice",
+   "text": "Tyrese. Baby. Are you going barefaced tonight?",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tyrese",
+   "text": "I am going barefaced. Mostly. Ninety percent barefaced.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "lorraine",
+   "text": "Welcome to the club, honey. We meet on Fridays.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "bernice",
+   "text": "Lorraine, it is time to tell him the truth about bingo night.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.8
+  },
+  {
+   "spk": "tyrese",
+   "text": "What truth?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bernice",
+   "text": "It is not really bingo. It is the bingo hall's Friday night glamour contest.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "lorraine",
+   "text": "Most natural face wins a fifty dollar gift card. Nobody has ever been natural.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "bernice",
+   "text": "Last year Edna came in with a beard. A fake one. She says it is barefaced.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "phone",
+   "text": "She won. Nobody could prove anything.",
+   "shot": "phone",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "bernice",
+   "text": "It is a very respected tradition. There is cake.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "lorraine",
+   "text": "And a boy with one tiny bit of concealer? That is the most natural face that hall has ever seen.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "bernice",
+   "text": "Tyrese. Get your coat. You are entering.",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "tyrese",
+   "text": "I am not entering a glamour contest at the bingo hall!",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "lorraine",
+   "text": "Fifty dollars, honey.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tyrese",
+   "text": "I am getting my coat.",
+   "shot": "CU",
+   "gesture": "wave",
+   "after": "applause"
+  },
+  {
+   "spk": "phone",
+   "text": "Wait. What about me? Can I enter?",
+   "shot": "phone",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "bernice",
+   "text": "Phone, you do not have a face.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "phone",
+   "text": "Exactly. Totally barefaced. Nothing on it. Not even a face.",
+   "shot": "phone",
+   "gesture": "hips"
+  },
+  {
+   "spk": "lorraine",
+   "text": "He has a point. He has a crack, too.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "phone",
+   "text": "It is a natural crack. I woke up like this.",
+   "shot": "phone",
+   "gesture": "shrug",
+   "after": "ding"
+  }
+ ]
+}
