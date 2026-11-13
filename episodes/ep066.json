@@ -1,0 +1,428 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 66,
+ "slug": "just-did-it-feeling-productive",
+ "title": "Just Opened My Laptop. Feeling Productive.",
+ "trend": "TikTok 'Just Did X, Feeling Productive' (captioned clips framing tiny tasks as big accomplishments; trendhaus.ai TikTok list, first seen Nov 3 2026, US) + Friday afternoon office energy — Doug announces every micro-task as a win while his manager Rosalind chases the quarterly report due at five, the sticky note on his monitor narrates, and Rosalind gets sucked into saying it too; twist: Doug finished the forty-page report on Monday at nine fifteen and has been pacing himself because finishing early gets you more work, so Rosalind gives him three new projects",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "office",
+ "desk": true,
+ "music": "lofi",
+ "intro": [
+  "friday afternoon",
+  "the report is due at five",
+  "doug is feeling productive"
+ ],
+ "youtube_title": "Just opened my laptop. Feeling productive. (the report is due at five) 💼",
+ "description": "Doug counts every tiny task as a big win. His boss Rosalind just wants the report by five. The sticky note on his monitor has seen everything.\n\n#cartoon #animation #funny #office #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "office humor",
+  "work life",
+  "friday",
+  "boss and employee"
+ ],
+ "tiktok_caption": "just opened my laptop. feeling productive. 💼 #cartoon #animation #funny #office",
+ "cast": [
+  {
+   "id": "doug",
+   "name": "Doug",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.0,
+   "hair": {
+    "style": "short",
+    "color": "#8d6e63"
+   },
+   "top": {
+    "color": "#5dade2",
+    "pattern": "plain"
+   },
+   "bottom": "#566573",
+   "shoes": "#4e342e",
+   "accessories": [
+    "tie:#f4d03f",
+    "beard:#8d6e63"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#aed6f1",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "rosalind",
+   "name": "Rosalind",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.02,
+   "hair": {
+    "style": "bun",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#7b241c",
+    "pattern": "suit",
+    "pattern_color": "#f5b041"
+   },
+   "bottom": "#1c2833",
+   "shoes": "#000000",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#f5b7b1",
+   "voice": {
+    "id": "af_kore",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "sticky",
+   "name": "The Sticky Note",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#f7dc6f",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#f9e79f",
+   "voice": {
+    "id": "bf_alice",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "doug",
+   "text": "Just opened my laptop. Feeling productive.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Doug. It is two o'clock. The quarterly report is due at five.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "doug",
+   "text": "And I respect that. Just pushed in my chair. Feeling productive.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "sticky",
+   "text": "He pushed it in. Then he pulled it back out. Then he sat in it.",
+   "shot": "sticky",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Why is the sticky note talking?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "sticky",
+   "text": "I have been on this monitor since March. You pick things up.",
+   "shot": "sticky",
+   "gesture": "cross",
+   "after": "boing"
+  },
+  {
+   "spk": "doug",
+   "text": "Just replied to an email. One word. Thanks. With an exclamation point.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "rosalind",
+   "text": "The exclamation point is doing a lot of work there.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "doug",
+   "text": "It is doing more work than me. I am proud of it.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "rosalind",
+   "text": "Doug. The report. What have you done on the report?",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "doug",
+   "text": "Just renamed the folder. Report, final, final, real one.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "sticky",
+   "text": "Yesterday it was called report, final. He is growing.",
+   "shot": "sticky",
+   "gesture": "point",
+   "after": "rimshot"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Okay. Sticky note. What does it say on you?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "sticky",
+   "text": "It says do the report. In his handwriting. With a little sad face.",
+   "shot": "sticky",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "doug",
+   "text": "Just moved the sticky note to the other side of the monitor.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "sticky",
+   "text": "Now I am facing the wall. I can see the plant. It is not doing well either.",
+   "shot": "sticky",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Doug, you reorganized a piece of paper.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "doug",
+   "text": "I reorganized my priorities. Feeling productive.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "rosalind",
+   "text": "I am not doing this. I am going to sit down and wait.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Ugh. Just sat down. Feeling,",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.7
+  },
+  {
+   "spk": "rosalind",
+   "text": "No. No, no, no. I am not saying it.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "doug",
+   "text": "Say it. It feels so good. Let it out.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Just sat down. Feeling productive.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "doug",
+   "text": "Welcome. You are one of us now.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "sticky",
+   "text": "We have a group chat. It is mostly pictures of lunch.",
+   "shot": "sticky",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Wait. Stop. It is four thirty. The report, Doug. The report!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "doug",
+   "text": "Oh. The report? That's done.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.9
+  },
+  {
+   "spk": "rosalind",
+   "text": "What do you mean done?",
+   "shot": "TWO",
+   "gesture": "think",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "doug",
+   "text": "I finished it Monday. At nine fifteen. In the morning.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "sticky",
+   "text": "It is true. He wrote it so fast I fell off the screen.",
+   "shot": "sticky",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Then why have you been doing this all week?",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "doug",
+   "text": "Because if you finish early, they give you more work.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosalind",
+   "text": "So the folder called final, final, real one?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "doug",
+   "text": "Has a finished report in it. Forty pages. With charts.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "rosalind",
+   "text": "With charts?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "doug",
+   "text": "A pie chart. And a bar chart. The bar chart is my best work.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Doug, this is the best report this office has ever seen.",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "doug",
+   "text": "Thank you. Just accepted a compliment. Feeling productive.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Which is why I am giving you the Henderson account.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.5
+  },
+  {
+   "spk": "doug",
+   "text": "The what?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosalind",
+   "text": "And the Patterson account. And the holiday party.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "doug",
+   "text": "This is exactly what I was afraid of.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Just gave Doug three new projects. Feeling productive.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "doug",
+   "text": "Just put my head on the desk. Feeling,",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.6
+  },
+  {
+   "spk": "sticky",
+   "text": "Say it. It feels so good.",
+   "shot": "sticky",
+   "gesture": "wave"
+  },
+  {
+   "spk": "doug",
+   "text": "Feeling busy.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "rosalind",
+   "text": "That is the worst word in this building.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "sticky",
+   "text": "Can somebody turn me back around? The plant keeps looking at me.",
+   "shot": "sticky",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "doug",
+   "text": "Just turned the sticky note around. Feeling productive.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "sticky",
+   "text": "Hello again. You are doomed. Have a good weekend.",
+   "shot": "sticky",
+   "gesture": "wave",
+   "after": "ding"
+  }
+ ]
+}
