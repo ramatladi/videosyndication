@@ -366,13 +366,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "G7ZYOtMl9Lo",
       "sku": "111388",
       "title": "Dermalogica Sensitive Skin Rescue Kit Review: Calms, Soothes, and Hydrates, How to Use It",
       "manifest_slug": "westville-sensitive-skin-rescue-kit",
       "media_sha256": "53865fe5e35dee22081bd96d3ea9e11f456cbcd958931b4b3e98b35d7bcc5a59",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T21:42:43Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -469,5 +470,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 28
+  "youtube_ids_recorded": 29
 }
