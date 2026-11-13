@@ -305,13 +305,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "Ey5kzXikM40",
       "sku": "111323",
       "title": "Dermalogica Skin Smoothing Cream 100 mL: Provides 48 Hours of Hydration #shorts",
       "manifest_slug": "bedfordview-skin-smoothing-cream-100ml-short",
       "media_sha256": "96e7aaeada55d3af3674e6265f8e8f8ba6f1c05e1610237f881738a1ff3f740a",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T22:40:11Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -474,5 +475,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 33
+  "youtube_ids_recorded": 34
 }
