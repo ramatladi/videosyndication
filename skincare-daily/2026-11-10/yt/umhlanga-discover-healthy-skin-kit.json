@@ -3,15 +3,23 @@
   "handle": "@DermatologyDurbanUmhlanga",
   "title": "Dermalogica Discover Healthy Skin Kit: Benefits, Directions and Who It Suits",
   "slot_sast": "2026-11-10 18:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefbeca18d91f2b",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-13T21:41:27Z",
   "error": null,
-  "updated": "2026-11-13T21:41:32Z",
+  "updated": "2026-11-13T21:42:04Z",
   "video_id": "2bIDNSTNnVM",
   "published_now": "2026-11-13T21:41:27Z",
   "url": "https://www.youtube.com/watch?v=2bIDNSTNnVM",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCBHecSaBW2iEir_PIp7sJbQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
