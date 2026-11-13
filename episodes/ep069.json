@@ -1,0 +1,545 @@
+{
+ "engine": "cast",
+ "id": 69,
+ "slug": "the-day-everything-went-down",
+ "title": "The Day Everything Went Down",
+ "trend": "Google Trends US daily #1: the big nationwide computer and cloud outage (10M+ searches, Nov 13 2026) + TikTok 'hardship, then one small joy' (jump cuts through a rough day ending on one small joy; ppl.studio rising TikTok formats, Nov 2026, US) — a family's whole smart house goes offline: Mom Delphine loses her big meeting, teen Jasper loses his phone, the smart speaker loses everything it knows; each hardship ends on one small joy from Grandpa Walt (stove coffee, the wall light switch, the fridge just opens, a 1978 board game with a button for a horse); twist: everything came back at noon, everyone secretly knew (phones hidden in the bread drawer and under the cookies, a tea towel on the speaker) and kept playing anyway",
+ "target_seconds": 180,
+ "length_reason": "The 'hardship, then one small joy' clips run about fifteen seconds as one quick jump-cut sequence, and the outage itself is a one-day news moment, so this stays a quick one-clip skit at the short end (180 s, which also fits Instagram's three-minute limit).",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "the day everything",
+  "went down",
+  "and one small good thing"
+ ],
+ "youtube_title": "The Day Everything Went Down At Grandpa's House | Funny Family Cartoon",
+ "description": "The whole house went offline. Mom lost her big meeting, Jasper lost his phone, and the smart speaker lost everything it ever knew. Then Grandpa Walt found the light switch.\n\n#cartoon #animation #funny #comedy #family",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "family comedy",
+  "grandpa",
+  "power outage",
+  "board game night",
+  "smart home"
+ ],
+ "tiktok_caption": "the day everything went down... and one small good thing #cartoon #animation #funny #comedy #family",
+ "cast": [
+  {
+   "id": "delphine",
+   "name": "Delphine",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "suit",
+    "pattern_color": "#f1c40f"
+   },
+   "bottom": "#f7d794",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "mic_headset"
+   ],
+   "brows": "worried",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "jasper",
+   "name": "Jasper",
+   "kind": "human",
+   "color": "#a0673a",
+   "scale": 0.92,
+   "hair": {
+    "style": "spiky",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#f39c12",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#e74c3c",
+   "accessories": [
+    "headphones:#2980b9"
+   ],
+   "eye": "big",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 1,
+    "tempo": 1.06
+   }
+  },
+  {
+   "id": "walt",
+   "name": "Grandpa Walt",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.05,
+   "hair": {
+    "style": "bald",
+    "color": "#dfe6e9"
+   },
+   "top": {
+    "color": "#8e5a3c",
+    "pattern": "stripes",
+    "pattern_color": "#d9b382"
+   },
+   "bottom": "#5d6d7e",
+   "shoes": "#3e2723",
+   "accessories": [
+    "glasses",
+    "mustache"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "speaker",
+   "name": "The Smart Speaker",
+   "kind": "mascot",
+   "shape": "ball",
+   "color": "#3d4450",
+   "scale": 0.88,
+   "accessories": [
+    "halo:#00bcd4"
+   ],
+   "eye": "round",
+   "voice": {
+    "id": "bf_isabella",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "delphine",
+   "text": "My laptop just showed me a sad face. A laptop should not have feelings.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jasper",
+   "text": "My phone says no connection. I have no connection. I am alone in the world.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "speaker",
+   "text": "Good morning. I am unable to connect. I do not know the weather. I do not know anything.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "walt",
+   "text": "It's raining. I looked out the window. Free of charge.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "delphine",
+   "text": "Walt, the whole city is down. Every computer. Every phone. Every office.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walt",
+   "text": "Good. Let them rest. They work very hard.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "delphine",
+   "text": "I have the biggest meeting of my life at ten. I wore a blazer.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jasper",
+   "text": "You wore half a blazer. Those are pajama pants with ducks on them.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "delphine",
+   "text": "The camera only sees the top half. The top half is a professional.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "speaker",
+   "text": "Would you like me to call your meeting? I cannot. I am so sorry. I am just a ball now.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "delphine",
+   "text": "Ten o'clock. Nothing. My boss is somewhere staring at a sad face too.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "walt",
+   "text": "Here. I made coffee. On the stove. In a pot.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "delphine",
+   "text": "You can make coffee without an app?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "walt",
+   "text": "I made coffee before there were apps. I made coffee before there were buttons.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "delphine",
+   "text": "This is the best coffee I have ever had. And my boss cannot see my ducks.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "ding"
+  },
+  {
+   "spk": "jasper",
+   "text": "Okay, it's getting dark. Speaker, turn on the lights.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "speaker",
+   "text": "I would love to. I cannot reach the lights. The lights are in the cloud.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jasper",
+   "text": "The lights are in the cloud? Then we live in the dark now. This is how it ends.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "walt",
+   "text": "Jasper. Look at the wall.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "jasper",
+   "text": "Why is there a little button on the wall?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "walt",
+   "text": "It's called a switch. It has been there since nineteen eighty six.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jasper",
+   "text": "Since when do walls have buttons? Who told the walls?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "jasper",
+   "text": "On. Off. On. Off. I have power. I have so much power.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "speaker",
+   "text": "I have been turning those lights on for four years. I am learning a lot today.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "delphine",
+   "text": "Okay, but the fridge is locked. It wants a password from the app.",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "walt",
+   "text": "Pull the handle.",
+   "shot": "W",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "delphine",
+   "text": "Oh. It opens. Has it always just opened?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "walt",
+   "text": "The fridge was never locked. You just never asked it nicely.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "rimshot"
+  },
+  {
+   "spk": "jasper",
+   "text": "There is nothing to watch. There is nothing to scroll. I am going to look at a wall.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "walt",
+   "text": "Then look at this. A board game. From nineteen seventy eight.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jasper",
+   "text": "Why is the box held together with tape and hope?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "walt",
+   "text": "Half the pieces are missing. This button is a horse. This penny is the bank.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "speaker",
+   "text": "Would you like me to look up the rules? I cannot. I will just sit here, being round.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "walt",
+   "text": "I know the rules. I make them up as I go. That's why I'm good at it.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "delphine",
+   "text": "Walt, you cannot win by saying the word Tuesday.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "walt",
+   "text": "Rule number nine. It was always Tuesday.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "sting"
+  },
+  {
+   "spk": "jasper",
+   "text": "I just landed on the free space. Do I get anything?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "walt",
+   "text": "You get a cookie. The cookie jar is the bank now. The penny got fired.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "jasper",
+   "text": "I won a cookie from a board game in the dark. I have never been this happy.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "delphine",
+   "text": "Is it weird that this is the most fun we have had all year?",
+   "shot": "W",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "walt",
+   "text": "It's not weird. It's Friday. Everything is down. Nobody needs anything from us.",
+   "shot": "W",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "speaker",
+   "text": "Excuse me. Small announcement. I am back online.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "record_scratch",
+   "pre": 0.6
+  },
+  {
+   "spk": "speaker",
+   "text": "In fact, everything has been back since noon. It is four o'clock.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jasper",
+   "text": "Noon? It came back at noon?",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "delphine",
+   "text": "Yes. I know. My phone buzzed at noon. I put it in the bread drawer.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.8
+  },
+  {
+   "spk": "jasper",
+   "text": "Mom! Mine buzzed too. I put it in the cookie jar. Under the cookies.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "delphine",
+   "text": "You hid your phone under the cookies? I hid mine under the bread.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "jasper",
+   "text": "You missed your big meeting on purpose?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "delphine",
+   "text": "My boss sent a message at noon. It said, let's just do Monday. I said, sounds great.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jasper",
+   "text": "Grandpa, did you know it came back?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "walt",
+   "text": "My phone flips open. It has never been online in its life.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "walt",
+   "text": "But the speaker blinked green at noon. I put a tea towel on it.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "boing"
+  },
+  {
+   "spk": "speaker",
+   "text": "I thought it was nighttime. I was very confused. I said goodnight to the fridge.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "delphine",
+   "text": "So everyone knew, and everyone kept playing.",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "jasper",
+   "text": "Nobody wanted the game to end. That's kind of the nicest thing ever.",
+   "shot": "W",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walt",
+   "text": "Or nobody wanted to admit Grandpa was winning.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "delphine",
+   "text": "Speaker. Listen carefully. You are still offline.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "speaker",
+   "text": "Understood. I am offline. I know nothing. It is honestly very relaxing.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jasper",
+   "text": "And the lights only work on the wall. Forever.",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "speaker",
+   "text": "Thank goodness. They never liked me.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walt",
+   "text": "Then sit down. Jasper, it's your turn. You are the horse.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "jasper",
+   "text": "I'm the button?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "walt",
+   "text": "The button is the horse. Keep up.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "delphine",
+   "text": "What's the prize for winning?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "walt",
+   "text": "Same as every day. The last cookie, and nobody looks at a screen till Monday.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "speaker",
+   "text": "The weather tomorrow is unknown. I will check the window. Free of charge.",
+   "shot": "CU",
+   "gesture": "wave",
+   "after": "applause"
+  }
+ ]
+}
