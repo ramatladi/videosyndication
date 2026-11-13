@@ -1,0 +1,175 @@
+{
+ "id": "vra077",
+ "format": "video",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "source_id": "mongodb:8348102",
+ "job": {
+  "employer": "MongoDB",
+  "logo": "mongodb",
+  "title": "Software Engineer 3",
+  "short_title": "Software Engineer 3",
+  "location": "New York, NY",
+  "workplace": "Hybrid (candidates based in New York City)",
+  "pay": "$106K – $209K a year",
+  "pay_full": "$106,000 – $209,000 a year base salary (U.S.)",
+  "type": "",
+  "posted": "",
+  "ref": "4273608317",
+  "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=8348102",
+  "apply_site": "mongodb.com/careers"
+ },
+ "details": {
+  "about": "MongoDB's Application Modernization Platform (AMP) helps organizations move legacy applications and their data from relational databases to MongoDB. The Agentic Integrations team builds the interfaces that let AMP capabilities be discovered, invoked and orchestrated from AI agents and development environments: consistent tool and API surfaces, correct authentication and execution context, and integrations that are observable and safe to operate.",
+  "duties": [
+   "Design and implement agent- and developer-facing integrations for AMP services, including tool definitions, API clients and adapters",
+   "Define clear input and output contracts, with validation, error semantics and behavior for malformed or partly successful calls",
+   "Carry authentication, authorization and tenant context across integration boundaries so agent calls never exceed the user's privileges",
+   "Build instrumentation for agent-driven traffic: structured logs, traces, latency and failure metrics, and diagnostics",
+   "Write production-quality code with unit, integration and end-to-end tests, including tests for nondeterministic model behavior",
+   "Diagnose failures across service, tool and model boundaries to root cause",
+   "Contribute to shared SDKs, command-line tools and agent frameworks used by other teams",
+   "Join code and design reviews, interview candidates and mentor engineers and interns"
+  ],
+  "needs": [
+   "At least four years building and operating production software services",
+   "Proficiency in a backend language such as Python, Go, Java or TypeScript, and the judgment to work in more than one",
+   "Experience designing APIs or service interfaces, including versioning, error handling and backward compatibility",
+   "Practical experience with authentication and authorization such as OAuth, API keys or service-to-service identity",
+   "Experience with automated testing, continuous delivery and debugging distributed systems",
+   "Strong written and verbal technical communication",
+   "A collaborative approach and realistic judgment of project complexity and delivery risk"
+  ],
+  "nice": [
+   "Building tool or integration surfaces for AI agents or large language models",
+   "Experience with the Model Context Protocol or a similar agent-to-tool standard",
+   "Shipping developer tooling such as CLIs, SDKs or local servers in customer-managed environments",
+   "Familiarity with application modernization, relational databases, MongoDB or automated code transformation",
+   "Working with customers or field teams on integration and deployment issues",
+   "Mentoring engineers or interns and helping with technical hiring"
+  ],
+  "benefits": "Base salary $106,000 – $209,000 a year in the U.S.; offers depend on skills, experience, qualifications and work location. Other benefits for eligible U.S. employees may include equity, an employee stock purchase program, flexible paid time off, 20 weeks of fully paid gender-neutral parental leave, fertility and adoption assistance, a 401(k) plan, mental health counseling and health benefits.",
+  "notes": [
+   "Looking for candidates based in New York City for MongoDB's hybrid working model",
+   "Candidates with more relevant experience may be considered for more senior roles",
+   "Accommodations for candidates with disabilities: tell your recruiter"
+  ]
+ },
+ "yt_title": "MongoDB Is Hiring: Software Engineer 3 | New York, NY | $106K–$209K",
+ "hashtags": [
+  "#TechJobs",
+  "#SoftwareEngineer",
+  "#NYCJobs",
+  "#MongoDB",
+  "#Hiring"
+ ],
+ "tags": [
+  "mongodb jobs",
+  "software engineer jobs",
+  "nyc tech jobs",
+  "new york jobs",
+  "backend engineer jobs",
+  "api engineer",
+  "ai agents jobs",
+  "python jobs",
+  "tech jobs",
+  "veritas recruitment agency"
+ ],
+ "scenes": [
+  {
+   "head": "Today's job",
+   "bullets": [
+    "Software Engineer 3 · MongoDB",
+    "Agentic Integrations team",
+    "New York City · hybrid"
+   ],
+   "lines": [
+    "Welcome to Veritas Recruitment Agency, where we bring you real tech jobs straight from employers' own careers sites.",
+    "Today, MongoDB is hiring a Software Engineer 3 for its Agentic Integrations team in New York City, on a hybrid schedule.",
+    "You'll find the direct application link in the description."
+   ]
+  },
+  {
+   "head": "About the team",
+   "bullets": [
+    "Application Modernization Platform (AMP)",
+    "Moves legacy apps off relational databases",
+    "Makes AMP usable from AI agents & dev tools"
+   ],
+   "lines": [
+    "MongoDB's Application Modernization Platform helps companies move legacy applications and their data from relational databases to MongoDB.",
+    "This team builds the tools and A P I surfaces that let A I agents and coding assistants use the platform, safely and reliably."
+   ],
+   "show": [
+    null,
+    "This team builds the tools and API surfaces that let AI agents and coding assistants use the platform, safely and reliably."
+   ]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": [
+    "Design agent & developer integrations",
+    "Clear API contracts & error handling",
+    "Carry auth & tenant context safely",
+    "Logs, traces & metrics",
+    "Tests, code reviews, mentoring"
+   ],
+   "lines": [
+    "You'll design and build integrations for agents and developers, with clear input and output contracts and solid error handling.",
+    "You'll make sure authentication and tenant context carry across every boundary, so an agent never has more access than the user it acts for.",
+    "You'll add logs, traces, and metrics, write thorough tests, track failures to their root cause, and help review code and mentor engineers and interns."
+   ]
+  },
+  {
+   "head": "What you need",
+   "bullets": [
+    "4+ yrs production software services",
+    "Python, Go, Java or TypeScript",
+    "API design: versioning & compatibility",
+    "OAuth, API keys, service identity",
+    "Testing, CD & distributed debugging"
+   ],
+   "lines": [
+    "You'll need at least four years building and running production software services, and strong skills in a backend language like Python, Go, Java, or TypeScript.",
+    "You should have experience designing A P Is, with versioning and backward compatibility, and working with authentication like O Auth or A P I keys.",
+    "Plus automated testing, continuous delivery, and debugging distributed systems.",
+    "Experience building tools for A I agents, or with the Model Context Protocol, is a plus."
+   ],
+   "show": [
+    "You'll need at least 4 years building and running production software services, and strong skills in a backend language like Python, Go, Java, or TypeScript.",
+    "You should have experience designing APIs, with versioning and backward compatibility, and working with authentication like OAuth or API keys.",
+    null,
+    "Experience building tools for AI agents, or with the Model Context Protocol, is a plus."
+   ]
+  },
+  {
+   "head": "Pay & benefits",
+   "bullets": [
+    "$106,000 – $209,000 a year (base)",
+    "Equity & stock purchase program",
+    "20 weeks fully paid parental leave",
+    "401(k), flexible PTO, health benefits"
+   ],
+   "lines": [
+    "The base salary is one hundred six thousand to two hundred nine thousand dollars a year.",
+    "Benefits can include equity, an employee stock purchase program, flexible paid time off, twenty weeks of fully paid parental leave, fertility and adoption assistance, a four-oh-one-k plan, and health benefits."
+   ],
+   "show": [
+    "The base salary is $106,000 to $209,000 a year.",
+    "Benefits can include equity, an employee stock purchase program, flexible paid time off, 20 weeks of fully paid parental leave, fertility and adoption assistance, a 401(k) plan, and health benefits."
+   ]
+  },
+  {
+   "head": "How to apply",
+   "bullets": [
+    "Application link in the description",
+    "Apply on mongodb.com/careers",
+    "Req ID 4273608317"
+   ],
+   "lines": [
+    "To apply, find the direct application link in the description below. It takes you straight to MongoDB's careers site.",
+    "Subscribe to Veritas Recruitment Agency for new tech jobs across the United States, every day."
+   ]
+  }
+ ]
+}
