@@ -3,15 +3,23 @@
   "handle": "@DermatologyCapeTown",
   "title": "Dermalogica MultiVitamin Power Firm: Firms and Improves Resilience #shorts",
   "slot_sast": "2026-11-10 08:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref10a861991a80",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-13T07:18:20Z",
   "error": null,
-  "updated": "2026-11-13T07:18:25Z",
+  "updated": "2026-11-13T07:18:56Z",
   "video_id": "ZjC9T5aHjLg",
   "published_now": "2026-11-13T07:18:20Z",
   "url": "https://youtube.com/shorts/ZjC9T5aHjLg",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UC6IhnhkFRVu8tTc1FJbjb8Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
