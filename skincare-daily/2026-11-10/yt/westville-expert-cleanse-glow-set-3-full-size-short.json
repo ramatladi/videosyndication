@@ -3,15 +3,23 @@
   "handle": "@SkincareDurbanWestville",
   "title": "Dermalogica Expert Cleanse + Glow Set (3 Full-Size): 3-step Cleansing Essentials #shorts",
   "slot_sast": "2026-11-10 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref9660e69aac40",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-13T15:43:49Z",
   "error": null,
-  "updated": "2026-11-13T15:43:55Z",
+  "updated": "2026-11-13T15:44:29Z",
   "video_id": "cCQI8G6ISx0",
   "published_now": "2026-11-13T15:43:49Z",
   "url": "https://youtube.com/shorts/cCQI8G6ISx0",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCh1fAzbqzZRAKMoFpJ9f0_g",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
