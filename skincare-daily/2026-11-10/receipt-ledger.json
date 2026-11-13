@@ -241,13 +241,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "bdkHW0C-rqk",
       "sku": "111455",
       "title": "Label Read: Dermalogica Circular Hydration Serum 30 mL, Step by Step",
       "manifest_slug": "bedfordview-circular-hydration-serum-30ml",
       "media_sha256": "bd12646bd3f03c129253db977454ee3e06703d8c8d00e03b78580a42cfba2d80",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T08:17:40Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -450,5 +451,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 9
+  "youtube_ids_recorded": 10
 }
