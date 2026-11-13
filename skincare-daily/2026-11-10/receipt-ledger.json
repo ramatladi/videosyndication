@@ -315,13 +315,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "Ux0RRpQIKfE",
       "sku": "301351INT",
       "title": "Dermalogica Expert Barrier Repair Set (3 Travel-Size) Explained: Comfort, Calm + Barrier Support",
       "manifest_slug": "westville-expert-barrier-repair-set-3-travel-size",
       "media_sha256": "0a723798d4913e6a22b607dd29e47a328a7b570df923c44c3aa3338e9db909f1",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T08:17:40Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -451,5 +452,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 10
+  "youtube_ids_recorded": 11
 }
