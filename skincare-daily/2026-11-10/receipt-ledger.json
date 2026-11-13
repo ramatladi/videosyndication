@@ -197,13 +197,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "-dnF50dsoO4",
       "sku": "811439",
       "title": "Layering Guide: Dermalogica Daily Glycolic Cleanser 295 mL #shorts",
       "manifest_slug": "umhlanga-daily-glycolic-cleanser-295ml-short",
       "media_sha256": "e35a148f2c1730d9e1b2508e1801d04b12e89c551b76c5884c6c4045b05014e9",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T16:41:01Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -461,5 +462,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 20
+  "youtube_ids_recorded": 21
 }
