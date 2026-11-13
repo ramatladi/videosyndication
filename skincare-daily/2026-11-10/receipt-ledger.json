@@ -371,13 +371,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "ni_-_yUweQQ",
       "sku": "111487",
       "title": "Moisturizer Desk: Dermalogica Phyto Nature Lifting Eye Cream 15ml #shorts",
       "manifest_slug": "rosebank-phyto-nature-lifting-eye-cream-15ml-short",
       "media_sha256": "e23215f797f88ad9a5b6f23a54a6de6defcda6adfc182cdb914997e2dce60d34",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T07:20:54Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -446,5 +447,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 5
+  "youtube_ids_recorded": 6
 }
