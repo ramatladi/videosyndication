@@ -289,13 +289,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "tmi-82MmW3A",
       "sku": "111431",
       "title": "Dermalogica Cooling Aqua Jelly 59 mL: What It Does and How to Use It",
       "manifest_slug": "bedfordview-cooling-aqua-jelly-59ml",
       "media_sha256": "3b3146e94d48ea4dacb620a1468b170f87910db8834634a8625857c5f467f9f0",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T21:42:06Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -468,5 +469,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 27
+  "youtube_ids_recorded": 28
 }
