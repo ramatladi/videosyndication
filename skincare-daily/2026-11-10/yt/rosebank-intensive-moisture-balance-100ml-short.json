@@ -3,15 +3,23 @@
   "handle": "@SkincareJoburgRosebank",
   "title": "What Dermalogica Intensive Moisture Balance 100 mL Does: Moisturizes Dry, Depleted Skin #shorts",
   "slot_sast": "2026-11-10 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref94c6c0b9c599",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-13T15:44:35Z",
   "error": null,
-  "updated": "2026-11-13T15:44:42Z",
+  "updated": "2026-11-13T15:45:20Z",
   "video_id": "Nag1YHHuyTA",
   "published_now": "2026-11-13T15:44:35Z",
   "url": "https://youtube.com/shorts/Nag1YHHuyTA",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCeTPU-6Wsq_Ii0A4Uv6DESQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
