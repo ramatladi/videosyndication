@@ -58,13 +58,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "Z3xc3Gqx2q8",
       "sku": "111419",
       "title": "Dermalogica Breakout Clearing Foaming Wash 295 mL: How to Use It",
       "manifest_slug": "midrand-breakout-clearing-foaming-wash-295ml",
       "media_sha256": "b9670a650f4f493ed09dc76a2c4a63db2fdfc86b7b77b7e7f8be29752fc20564",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T21:40:12Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -465,5 +466,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 24
+  "youtube_ids_recorded": 25
 }
