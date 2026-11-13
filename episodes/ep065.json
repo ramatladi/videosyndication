@@ -1,0 +1,543 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 65,
+ "slug": "w-chews-l-nibbles-chez-reggie",
+ "title": "W Chew, L Nibble: Chez Reggie",
+ "trend": "TikTok 'W Chews / L Nibbles' (new slang rating food as a W chew or an L nibble, with a confused waiter reacting; trendhaus.ai TikTok list, first seen Nov 10 2026, US) — dad Reggie plays fancy waiter at a home dinner while his kids rate every course in slang he doesn't understand; twist: the toast reveals the meatloaf, potatoes and pie all came from the diner on Fifth Street (made by Linda), and the only thing Dad cooked was the sprouts that got an L nibble",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "chez dad",
+  "tonight's critics",
+  "speak a whole new language"
+ ],
+ "youtube_title": "Dad plays fancy waiter. The kids only speak in W chews and L nibbles 🍽️",
+ "description": "Reggie opens a fancy restaurant in the kitchen for one night. His kids rate every course in words he has never heard, and the toast knows where dinner really came from.\n\n#cartoon #animation #funny #dinner #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "dad jokes",
+  "family dinner",
+  "kids",
+  "talking toast"
+ ],
+ "tiktok_caption": "dad plays fancy waiter, the kids only speak in W chews and L nibbles 🍽️ #cartoon #animation #funny #dinner",
+ "cast": [
+  {
+   "id": "reggie",
+   "name": "Reggie",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.05,
+   "hair": {
+    "style": "short",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#ffffff",
+    "pattern": "apron",
+    "pattern_color": "#2c3e50"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#000000",
+   "accessories": [
+    "tie:#c0392b",
+    "mustache:#1b1b1b"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f5b041",
+   "voice": {
+    "id": "am_michael",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "nia",
+   "name": "Nia",
+   "kind": "human",
+   "color": "#a0522d",
+   "scale": 0.95,
+   "hair": {
+    "style": "afro",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ffffff",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#d2b4de",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 1,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "milo",
+   "name": "Milo",
+   "kind": "human",
+   "color": "#a0522d",
+   "scale": 0.86,
+   "hair": {
+    "style": "curly",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "stripes",
+    "pattern_color": "#f4d03f"
+   },
+   "bottom": "#2e86c1",
+   "shoes": "#e74c3c",
+   "accessories": [
+    "cap:#e67e22"
+   ],
+   "eye": "big",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#abebc6",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 2,
+    "tempo": 1.08
+   }
+  },
+  {
+   "id": "toast",
+   "name": "The Toast",
+   "kind": "mascot",
+   "shape": "toast",
+   "color": "#f0c27b",
+   "crust": "#b9770e",
+   "accessories": [
+    "glasses",
+    "tie:#1e8449"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#f9e79f",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 0,
+    "tempo": 0.96
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "reggie",
+   "text": "Good evening, and welcome to Chez Reggie. Table for two critics.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "reggie",
+   "text": "Our first course tonight. Grandma's meatloaf, with a little glaze.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "nia",
+   "text": "Mm. W chew.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "milo",
+   "text": "Big W chew. Clean chew.",
+   "shot": "milo",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "reggie",
+   "text": "Is that good? Is that a grade? Is that a vitamin?",
+   "shot": "TWO",
+   "gesture": "shrug",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "nia",
+   "text": "It's new lingo, Dad. You wouldn't get it.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "reggie",
+   "text": "I will write it down. Meatloaf. One W. Two chews.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "toast",
+   "text": "He has been writing on a napkin since five o'clock.",
+   "shot": "toast",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "Why is the toast in the restaurant?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "toast",
+   "text": "I am the bread service. I have been here the whole time. Warmly.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "reggie",
+   "text": "Second course. Brussels sprouts, roasted with love and a lot of smoke.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "milo",
+   "text": "L nibble.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "nia",
+   "text": "Big L nibble. The sprout is giving cafeteria.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "reggie",
+   "text": "Giving what? Who is the sprout giving it to?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "It's new lingo. You wouldn't get it.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "reggie",
+   "text": "I was cool once. I had a jacket with a lot of zippers.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "milo",
+   "text": "Where are the zippers now, Dad?",
+   "shot": "milo",
+   "gesture": "point"
+  },
+  {
+   "spk": "reggie",
+   "text": "In the garage. Thinking about what they did.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "toast",
+   "text": "The sprouts did catch fire twice. I watched from the toaster. I was scared.",
+   "shot": "toast",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "reggie",
+   "text": "That is called a char. Fancy places charge extra for a char.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "nia",
+   "text": "Fancy places do not open the window and wave a towel.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "reggie",
+   "text": "Fine. Let me try the lingo. Ahem.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "reggie",
+   "text": "This bread service is a big W nibble.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": [
+    "nia",
+    "milo"
+   ],
+   "text": "No.",
+   "shot": "W",
+   "gesture": "facepalm",
+   "after": "boing"
+  },
+  {
+   "spk": "milo",
+   "text": "You cannot W a nibble. A nibble is always an L.",
+   "shot": "milo",
+   "gesture": "point"
+  },
+  {
+   "spk": "reggie",
+   "text": "What about a chew that is an L?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "nia",
+   "text": "Rare. Like a sprout that is not on fire.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "toast",
+   "text": "Please do not call me a nibble. I have a crust and a family.",
+   "shot": "toast",
+   "gesture": "cross"
+  },
+  {
+   "spk": "reggie",
+   "text": "Third course. Mashed potatoes. Very smooth. Zero chew.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "milo",
+   "text": "Then how do we rate it?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "nia",
+   "text": "Hmm. No chew. No nibble. It's a W slurp.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "reggie",
+   "text": "You are making these up now.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "nia",
+   "text": "Dad. All words are made up. That is what words are.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "reggie",
+   "text": "I raised a philosopher. That is an L for my wallet.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "rimshot"
+  },
+  {
+   "spk": "milo",
+   "text": "See? He gets it now. That one was clean.",
+   "shot": "milo",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "reggie",
+   "text": "I get it! I am in! W chew, L nibble, big W slurp!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "nia",
+   "text": "Okay, do not say it at school pickup.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "reggie",
+   "text": "I am saying it at school pickup. Every day. With the zipper jacket.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "nia",
+   "text": "I will walk home. It is three miles. I will be fine.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "reggie",
+   "text": "And for dessert, my famous homemade apple pie.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "milo",
+   "text": "Homemade? The meatloaf was really good, Dad.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "nia",
+   "text": "Yeah. Like, restaurant good. Suspicious good.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "toast",
+   "text": "Should I tell them, or should you?",
+   "shot": "toast",
+   "gesture": "shrug",
+   "pre": 0.9
+  },
+  {
+   "spk": "reggie",
+   "text": "Tell them what? There is nothing to tell. Eat your pie.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "toast",
+   "text": "The meatloaf came from the diner on Fifth Street. So did the potatoes.",
+   "shot": "toast",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "nia",
+   "text": "Dad!",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "toast",
+   "text": "So did the pie. It still has the sticker. It says Linda.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "milo",
+   "text": "Who is Linda?",
+   "shot": "milo",
+   "gesture": "think"
+  },
+  {
+   "spk": "reggie",
+   "text": "Linda is a very talented woman. She works the night shift.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "nia",
+   "text": "So the only thing you actually cooked was the sprouts.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "reggie",
+   "text": "And the sprouts got an L nibble. From my own children.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "toast",
+   "text": "Not the only thing. He also made me. I am homemade.",
+   "shot": "toast",
+   "gesture": "hips"
+  },
+  {
+   "spk": "milo",
+   "text": "You came out of a bag, toast.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "toast",
+   "text": "Every one of us came out of a bag, Milo.",
+   "shot": "toast",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "nia",
+   "text": "Okay. Honest review. The meatloaf is a W chew for Linda.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "milo",
+   "text": "The sprouts are an L nibble for Dad.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "nia",
+   "text": "But Dad waving a towel at a fire for us? That is a big W.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "reggie",
+   "text": "A W what? A chew? A slurp?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "Just a W, Dad. Plain W.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "reggie",
+   "text": "I will frame the napkin.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "applause",
+   "jump": true
+  },
+  {
+   "spk": "toast",
+   "text": "Tomorrow on the menu, cereal. Made by Linda.",
+   "shot": "toast",
+   "gesture": "point"
+  },
+  {
+   "spk": "reggie",
+   "text": "Linda does not make cereal.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "toast",
+   "text": "Not yet. I left her a note. On a napkin.",
+   "shot": "toast",
+   "gesture": "hips",
+   "after": "ding"
+  }
+ ]
+}
