@@ -152,13 +152,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "ntqh56NZ9HU",
       "sku": "111524",
       "title": "How to Use Dermalogica Futurecode Booster Damage-Correcting Longevity Serum #shorts",
       "manifest_slug": "umhlanga-futurecode-booster-damage-correcting-longevity-serum-short",
       "media_sha256": "a339cbc55db0a6260773ea1a06a87333911754e66ad1e97e5a06bb8f5b3bed5d",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T07:18:58Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -443,5 +444,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 2
+  "youtube_ids_recorded": 3
 }
