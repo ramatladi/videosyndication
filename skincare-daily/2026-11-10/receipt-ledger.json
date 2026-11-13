@@ -45,13 +45,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "gzt9S1J_S2E",
       "sku": "110616",
       "title": "What Dermalogica Multi Active Toner 250 mL Does: Preps, Hydrates, and Refreshes #shorts",
       "manifest_slug": "midrand-multi-active-toner-250ml-short",
       "media_sha256": "8af0cd05e9b4c3c662f51eee76904d5a7ec6c0def494daab6cc1d98aa2cb1eda",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T16:41:01Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -459,5 +460,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 18
+  "youtube_ids_recorded": 19
 }
