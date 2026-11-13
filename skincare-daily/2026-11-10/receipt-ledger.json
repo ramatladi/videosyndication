@@ -298,13 +298,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "fuVKduQTmgs",
       "sku": "111248",
       "title": "How to Use Dermalogica Daily Microfoliant #shorts",
       "manifest_slug": "westville-daily-microfoliant-short",
       "media_sha256": "ff6ecdd701413b04ba6885e22fc4cee618ca54906d497416afc79bb369fae7b4",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T07:20:16Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -445,5 +446,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 4
+  "youtube_ids_recorded": 5
 }
