@@ -19,13 +19,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "79LfbtreFHU",
       "sku": "102021",
       "title": "Dermalogica Antioxidant Hydramist 150 mL Review: Reduces Fine Lines and Hydrates, How to Use It",
       "manifest_slug": "midrand-antioxidant-hydramist-150ml",
       "media_sha256": "cbde7fcc24048710430464d9de2c0c7a3f146d588c9a6efc6ab9fe9a269a1830",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T08:17:40Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -447,5 +448,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 6
+  "youtube_ids_recorded": 7
 }
