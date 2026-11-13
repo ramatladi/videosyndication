@@ -332,13 +332,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "cCQI8G6ISx0",
       "sku": "301346INT",
       "title": "Dermalogica Expert Cleanse + Glow Set (3 Full-Size): 3-step Cleansing Essentials #shorts",
       "manifest_slug": "westville-expert-cleanse-glow-set-3-full-size-short",
       "media_sha256": "28d402865b54ba4e01e3eb90ffd356ed712b715d60ebffd0902377cd5ffbdd42",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T15:43:49Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -457,5 +458,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 16
+  "youtube_ids_recorded": 17
 }
