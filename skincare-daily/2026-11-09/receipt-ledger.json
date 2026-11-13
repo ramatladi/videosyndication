@@ -462,13 +462,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "LXOtTiuaDfY",
       "sku": "111515",
       "title": "Dermalogica NeuroTouch Symmetry Serum: A Silky Facial Oil Texture #shorts",
       "manifest_slug": "rosebank-neurotouch-symmetry-serum-short",
       "media_sha256": "7c2dc47d9255054329184532c8afd8676c9b41895a880b5a4b4bacf9eb00184e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T00:52:59Z"
     }
   ],
   "reconciliation": {
@@ -480,5 +481,5 @@
     "youtube_ids_recorded": 12,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 35
+  "youtube_ids_recorded": 36
 }
