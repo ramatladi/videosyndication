@@ -212,13 +212,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "2bIDNSTNnVM",
       "sku": "111370",
       "title": "Dermalogica Discover Healthy Skin Kit: Benefits, Directions and Who It Suits",
       "manifest_slug": "umhlanga-discover-healthy-skin-kit",
       "media_sha256": "5577ecd8f312a475a34219202e48b874ad6c3d409135ee770c6776122c9837fb",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T21:41:27Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -467,5 +468,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 26
+  "youtube_ids_recorded": 27
 }
