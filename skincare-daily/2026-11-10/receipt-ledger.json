@@ -79,13 +79,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "ZjC9T5aHjLg",
       "sku": "106053",
       "title": "Dermalogica MultiVitamin Power Firm: Firms and Improves Resilience #shorts",
       "manifest_slug": "capetown-multivitamin-power-firm-short",
       "media_sha256": "9317354b57c012acdf78b99da9c57ba2b526a9d0c17fced06471b7b1467fad63",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T07:18:20Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -442,5 +443,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 1
+  "youtube_ids_recorded": 2
 }
