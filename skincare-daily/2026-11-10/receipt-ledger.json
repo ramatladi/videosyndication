@@ -71,13 +71,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "-a64I2M4GWU",
       "sku": "111356",
       "title": "How to Use Dermalogica Clearing Defense SPF30 59 mL #shorts",
       "manifest_slug": "midrand-clearing-defense-spf30-59ml-short",
       "media_sha256": "38dead9f7a18544b8df68ef9f7453b73e4315ffbae0f8ccdbc9ea0076ad4af8d",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T22:40:11Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -471,5 +472,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 30
+  "youtube_ids_recorded": 31
 }
