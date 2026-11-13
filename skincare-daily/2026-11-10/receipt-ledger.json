@@ -32,13 +32,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "pOim_y_JZwA",
       "sku": "111252",
       "title": "Dermalogica Daily Superfoliant 57g, Explained Fast #shorts",
       "manifest_slug": "midrand-daily-superfoliant-57g-short",
       "media_sha256": "dc7144e8341a378de0975481c66a518aca7d83c9427788655ed5aee245a28c62",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-13T15:41:03Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -453,5 +454,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-12T19:44+02:00"
   },
-  "youtube_ids_recorded": 12
+  "youtube_ids_recorded": 13
 }
