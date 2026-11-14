@@ -66,10 +66,22 @@ def pending_specs(L=None):
     return out
 
 
+def drop(spec_path, reason):
+    """Retire a generated song that failed QC on both takes, so `next` stops offering it and the run makes an entirely new
+    song instead (Sello, 14 Nov 2026). The spec is kept (with its id) as a record; it is never released."""
+    import datetime as dt
+    s = json.load(open(spec_path))
+    if s.get('id') in {r['release'] for r in ledger()['releases']}: sys.exit('refused: this song is already released')
+    s['status'] = 'dropped'; s['dropped'] = {'on': dt.date.today().isoformat(), 'reason': reason or 'failed QC on both takes'}
+    json.dump(s, open(spec_path, 'w'), indent=1, ensure_ascii=False); open(spec_path, 'a').write('\n')
+    print(json.dumps({'dropped': s['id'], 'title': s.get('title'), 'reason': s['dropped']['reason']}))
+
+
 def nxt(slot=None):
     L = ledger()['releases']
     pend = pending_specs(L)
-    n = max([int(r['release'][3:]) for r in L] + [int(p['id'][3:]) for p in pend]) + 1
+    used = [int(f[3:6]) for f in os.listdir(os.path.join(HERE, 'songs')) if re.fullmatch(r'mtr\d{3}\.json', f)]
+    n = max([int(r['release'][3:]) for r in L] + [int(p['id'][3:]) for p in pend] + used) + 1   # dropped specs keep their id
     hand = [r for r in L if r.get('written_by_hand') or r.get('generated')]   # rotation counts hand-written and Creative Claw releases
     style = CYCLE[len(hand) % len(CYCLE)]
     if hand and hand[-1]['style'] == style: style = CYCLE[(len(hand) + 1) % len(CYCLE)]
@@ -78,6 +90,7 @@ def nxt(slot=None):
                       'artist_kind': act['kind'], 'artist_gender': act['gender'], 'artist_heritage': act['heritage'],
                       'slot': slot, 'make': slot_source(slot),
                       'pending': pend,   # non-empty: RESUME pending[0] (no new generation); release/style/artist above are for a new song only
+                      'rule': 'A song gets at most 2 takes. If take 2 also fails QC, run `drop --spec <file> --reason ...` and make an ENTIRELY NEW song (new title, lyrics and prompt) for the same slot (Sello, 14 Nov 2026).',
                       'recent': [(r['release'], r['style'], r.get('key'), r.get('bpm'), r['title']) for r in hand[-8:]]}, indent=1))
 
 
@@ -174,8 +187,8 @@ def record(a):
 
 
 if __name__ == '__main__':
-    ap = argparse.ArgumentParser(); ap.add_argument('cmd', choices=['next', 'check', 'build', 'record'])
-    for k in ('spec', 'photo', 'photographer', 'photo-page', 'date', 'slot', 'uuid', 'media', 'replaces'): ap.add_argument('--' + k)
+    ap = argparse.ArgumentParser(); ap.add_argument('cmd', choices=['next', 'check', 'build', 'record', 'drop'])
+    for k in ('spec', 'reason', 'photo', 'photographer', 'photo-page', 'date', 'slot', 'uuid', 'media', 'replaces'): ap.add_argument('--' + k)
     ap.add_argument('--format', choices=['video', 'short'], default='video')
     ap.add_argument('--photo-kind', choices=['bikini', 'fashion', 'nature'], default=None)
     a = ap.parse_args()
@@ -184,5 +197,6 @@ if __name__ == '__main__':
         e, w = lint(json.load(open(a.spec))); [print('warning:', x) for x in w]
         if e: print('REFUSED:', *e, sep='\n - '); sys.exit(2)
         print('check ok')
+    elif a.cmd == 'drop': drop(a.spec, a.reason)
     elif a.cmd == 'build': a.photo_kind = a.photo_kind or 'bikini'; build(a)
     else: record(a)

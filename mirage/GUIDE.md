@@ -133,6 +133,24 @@ posted and the song existed only in the dead workspace (it went out as a make-up
    resumes a pending song, or makes the song itself if none exists, following the same steps; if it cannot finish by
    19:35 it notifies Sello.
 
+5. **Failed songs are replaced, never retried forever (Sello, 14 Nov 2026).** "Lanterns On The River" (mtr039) failed
+   the QC click check on every take from 13 to 14 Nov, and because it stayed `pending` every Short and video run resumed
+   it, failed again and posted nothing (13 Nov 19:55 Short and 14 Nov 23:55 video missed). So:
+   - A song gets at most **two takes** (the first generation and one regeneration with the same lyrics). If take 2 also
+     fails QC (or the track is refused as too short), run
+     `python3 mirage/song_release.py drop --spec mirage/songs/mtrNNN.json --reason "<what failed>"`, commit and push.
+     A dropped spec keeps its id as a record and `next` never offers it again.
+   - Then make an **entirely new song** for the same slot in the same run: run `next` again (it gives a new id), and write
+     a new title, new lyrics and a new prompt, with a different key and tempo and a different lead sound from the dropped
+     one (a click is often a hard percussive or plucked transient, so lean on pads, keys and smoother leads for the new
+     take). It still gets the normal two takes.
+   - A resumed pending song counts its earlier takes: if its spec already says it was regenerated (commit message or
+     `source.regenerated`), resume means one build attempt only; if that fails, drop it and make a new song.
+   - At most **one** new song per run after a drop (so no more than 4 generations, 120 credits, in a run). If the new song
+     also fails twice, drop it too, leave the slot empty and notify Sello with both titles and the QC messages.
+   - Never weaken QC, never post a song that failed it, and never hand-write a fallback.
+   - Notify Sello (one PushNotification) whenever a song is dropped, so a run of bad takes is visible early.
+
 ## Schedule
 - **Since 2 Nov 2026: one Creative Claw song a day** (see "Creative Claw only" above): Shorts Mon/Wed/Fri/Sun 19:55, videos
   Tue/Thu/Sat 23:55. The 09:37 task makes the 19:55 Shorts (Mon/Wed/Fri/Sun), the 19:37 task the 23:55 videos (Tue/Thu/Sat).

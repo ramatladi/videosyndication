@@ -4,7 +4,7 @@
  "artist": "Solomiya Marina",
  "style": "afro",
  "vocals": true,
- "status": "pending",
+ "status": "dropped",
  "source": {
   "generator": "creative-claw",
   "model": "music/mureka-v9.5",
@@ -18,5 +18,9 @@
   "page": "https://unsplash.com/photos/a-woman-in-a-bikini-standing-on-the-beach-c79DX0Wii9U",
   "photographer": "Kristijan Arsov",
   "kind": "bikini"
+ },
+ "dropped": {
+  "on": "2026-11-14",
+  "reason": "click artefact failed QC on 3 takes (13-14 Nov)"
  }
 }
