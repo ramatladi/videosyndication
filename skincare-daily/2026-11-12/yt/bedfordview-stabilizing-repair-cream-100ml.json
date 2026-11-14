@@ -3,15 +3,23 @@
   "handle": "@DermatologyJoburgBedfordview",
   "title": "Label Read: Dermalogica Stabilizing Repair Cream 100 mL, Step by Step",
   "slot_sast": "2026-11-12 10:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref56638397629c",
   "publish_at": "2026-11-14T21:55:42Z",
   "overdue": true,
   "upload_started": "2026-11-14T21:00:25Z",
   "error": null,
-  "updated": "2026-11-14T21:00:31Z",
+  "updated": "2026-11-14T21:01:03Z",
   "video_id": "UZ7Pme-bWLk",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=UZ7Pme-bWLk",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCs0uxMnSV1INS_Bxn6yqc2Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-14T21:55:42Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
