@@ -3,15 +3,23 @@
   "handle": "@SkincareJoburgRosebank",
   "title": "Dermalogica Blackhead Clearing Fizz Mask 50 mL, Explained",
   "slot_sast": "2026-11-11 10:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref695e7b76e017",
   "publish_at": "2026-11-14T02:50:04Z",
   "overdue": true,
   "upload_started": "2026-11-14T01:57:54Z",
   "error": null,
-  "updated": "2026-11-14T01:58:00Z",
+  "updated": "2026-11-14T01:58:32Z",
   "video_id": "KukeQv80E34",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=KukeQv80E34",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCeTPU-6Wsq_Ii0A4Uv6DESQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-14T02:50:04Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
