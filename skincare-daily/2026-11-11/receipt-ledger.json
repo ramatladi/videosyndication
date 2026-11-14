@@ -298,13 +298,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "WoJS3h8X6Pw",
       "sku": "111279",
       "title": "How to Use Dermalogica Sound Sleep Cocoon 50 mL #shorts",
       "manifest_slug": "westville-sound-sleep-cocoon-50ml-short",
       "media_sha256": "813b49509652ac43e2b72195338ee7be68dd99e7ef0a3bcdb786d68d046c93e3",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T01:52:40Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -445,5 +446,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 4
+  "youtube_ids_recorded": 5
 }
