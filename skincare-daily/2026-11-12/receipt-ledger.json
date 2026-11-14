@@ -204,13 +204,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "UZ7Pme-bWLk",
       "sku": "811476",
       "title": "Label Read: Dermalogica Stabilizing Repair Cream 100 mL, Step by Step",
       "manifest_slug": "bedfordview-stabilizing-repair-cream-100ml",
       "media_sha256": "27d2a2298f11434c74260087bf859a166bef5be7371cee2c2544471efd0bbfab",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T21:55:42Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -388,5 +389,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 7
+  "youtube_ids_recorded": 8
 }
