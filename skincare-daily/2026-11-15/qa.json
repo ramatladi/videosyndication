@@ -1,0 +1,1769 @@
+{
+ "summary": {
+  "renders": 19,
+  "passed": 19,
+  "fails": [],
+  "unique_products": true,
+  "free_photos_unique": true,
+  "store_images_shared_between_videos": [],
+  "min_thumb_dist": 50,
+  "min_frame_dist": 33,
+  "similarity_fails": []
+ },
+ "renders": [
+  {
+   "slug": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product": "biolumin-c heat aging protector spf50",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 28.77,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.46,
+   "true_peak": -1.47,
+   "loudness_ok": true,
+   "srt_cues": 7,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 74,
+   "desc_bytes": 1105,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.813,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.802,
+   "cover_ok": true,
+   "mp4_sha256": "da75a883b7e0c56e2cba3b3a8bbd26de55db6b1657ad439fb778ca06b17dcea3",
+   "jpg_sha256": "2e6d638a8d539cb8ed54651d1d707390bd8856c47bced83b42f95d6a434603e6",
+   "srt_sha256": "69b09e5f2dfe725248baf57e5c581dea7ee3d057658329d9dcfc511dbde4a7f1",
+   "pass": true
+  },
+  {
+   "slug": "westville-body-hydrating-cream-short",
+   "domain": "skincare.durban",
+   "format": "short",
+   "product": "body hydrating cream",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 27.03,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.16,
+   "true_peak": -1.39,
+   "loudness_ok": true,
+   "srt_cues": 7,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 51,
+   "desc_bytes": 879,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.986,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.986,
+   "cover_ok": true,
+   "mp4_sha256": "faae314ac8f09eb481cd8914f84b50c2cf344988184e51cc3442c8d6b7b24799",
+   "jpg_sha256": "caf91ba43655315d1385898c368394c532dc462d1953f40db61c343b6cb7194e",
+   "srt_sha256": "56af9f6c154bfeb985233c9ccda5aa5d13c3e6d6b024244d809b46f3ba348b3e",
+   "pass": true
+  },
+  {
+   "slug": "capetown-prisma-protect-spf30-50ml-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product": "prisma protect spf30",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 26.73,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.29,
+   "true_peak": -1.4,
+   "loudness_ok": true,
+   "srt_cues": 8,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 98,
+   "desc_bytes": 1055,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.932,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.97,
+   "cover_ok": true,
+   "mp4_sha256": "f07460eea7115ca5f760281fd6c92956edc6e86ed88418d75a02aa511e614b51",
+   "jpg_sha256": "82fe55024d523e433c80ebd0ad4cd41fa0b892d1e38131302ab3a491e9c78493",
+   "srt_sha256": "e1b2c1752efa10924457b85edda1e99c87bacd43027d2143164cbc35ed6fa7d1",
+   "pass": true
+  },
+  {
+   "slug": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product": "golden hour hydrating spf30 stick",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 29.64,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.37,
+   "true_peak": -1.46,
+   "loudness_ok": true,
+   "srt_cues": 8,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 64,
+   "desc_bytes": 1176,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.957,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.948,
+   "cover_ok": true,
+   "mp4_sha256": "f1be6a0a0ec5ff969bf9be4a10dd6f142b0d1484c878bc9262afd00f51298777",
+   "jpg_sha256": "4d9d182367bd9936d490bd76b97ab3461df17d318f5dba5b60a08d4d5c4ba1bd",
+   "srt_sha256": "68d045a53f6e46f5200042635b1b9bb8f1dc5a83d9c3c9ea39e2f3f5e81b62b7",
+   "pass": true
+  },
+  {
+   "slug": "westville-conditioning-body-wash",
+   "domain": "skincare.durban",
+   "format": "video",
+   "product": "conditioning body wash",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 53.24,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.24,
+   "true_peak": -1.44,
+   "loudness_ok": true,
+   "srt_cues": 14,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 69,
+   "desc_bytes": 845,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.961,
+   "packshot_ok": true,
+   "mp4_sha256": "7f487a0f84350798945c0f896d94f35792666920ca32e39bb9b3a845bc66b910",
+   "jpg_sha256": "c1dbceec85ff7e0013581f08a641192821fdc678505b9c403c28c6114fcb02bf",
+   "srt_sha256": "6f29aba6b07e0834f26a1882de47b2e21f161f12746d1b468b5d0396c5579449",
+   "pass": true
+  },
+  {
+   "slug": "westville-dynamic-skin-sculptor-body-serum-short",
+   "domain": "skincare.durban",
+   "format": "short",
+   "product": "dynamic skin sculptor body serum",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 32.93,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.27,
+   "true_peak": -1.44,
+   "loudness_ok": true,
+   "srt_cues": 10,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 94,
+   "desc_bytes": 1049,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.9,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.905,
+   "cover_ok": true,
+   "mp4_sha256": "dfee02f5bd3875f5a97a0b342384472dae0ee699b07e1da3e612307409145f68",
+   "jpg_sha256": "a568e7a341849a5e5545be3798b10801825cbd007d9653e13f5a056cdcc2f3c4",
+   "srt_sha256": "c72c5546ecadb6707b75ed71deae29e3d9a89f83d901fbfbf20e48e31c451843",
+   "pass": true
+  },
+  {
+   "slug": "westville-the-body-reset-set-2-full-size",
+   "domain": "skincare.durban",
+   "format": "video",
+   "product": "the body reset set (2 full-size)",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 80.25,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.18,
+   "true_peak": -1.46,
+   "loudness_ok": true,
+   "srt_cues": 21,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 83,
+   "desc_bytes": 1370,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.873,
+   "packshot_ok": true,
+   "mp4_sha256": "15046f5e90933a9b52f95655b3b64d3b07d5df574e36734e0b2a4d80345251bf",
+   "jpg_sha256": "e3357c004a5bf2b7666d94c76b2e300f212185e3e2d57a412f45b13465852b67",
+   "srt_sha256": "418d5ba8ec15daf0e8eb241dc545623bebaff8ec40d704601697205d8fe022ae",
+   "pass": true
+  },
+  {
+   "slug": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "domain": "dermatology.joburg",
+   "format": "video",
+   "product": "deep breakout liquid patch",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 109.03,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.36,
+   "true_peak": -1.91,
+   "loudness_ok": true,
+   "srt_cues": 21,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 100,
+   "desc_bytes": 1351,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.988,
+   "packshot_ok": true,
+   "mp4_sha256": "436c8e44b32b3cd7b259938c8f0f33734cbd8686c0ee0665b1548b6c427a9ed4",
+   "jpg_sha256": "7235683d30d820c5f57e983dd752621d0e4dcf260308bd6202d2c5052a89ed2e",
+   "srt_sha256": "370b13160d41c3620127e1c63562cdb6f2fb5e86793718b3e45d74a87f43def8",
+   "pass": true
+  },
+  {
+   "slug": "rosebank-sound-sleep-cocoon-50ml-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product": "sound sleep cocoon",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 28.67,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.24,
+   "true_peak": -1.48,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 94,
+   "desc_bytes": 1031,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.951,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.896,
+   "cover_ok": true,
+   "mp4_sha256": "0f223b384c27084ab08b0f4105b1e45a809bf9e06ee4d1ddd0b72b51a2411cca",
+   "jpg_sha256": "ce67097efaa48056539b63119e61fd227b2870b161fa81ae0f65321c387e7a17",
+   "srt_sha256": "1691d223ee740f6bd2c5f7ecf61d60e405c1e78762b78e59bc5b5e3260e86d88",
+   "pass": true
+  },
+  {
+   "slug": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product": "dynamic skin retinol serum",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 30.64,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.3,
+   "true_peak": -1.83,
+   "loudness_ok": true,
+   "srt_cues": 6,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 64,
+   "desc_bytes": 1228,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.94,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.965,
+   "cover_ok": true,
+   "mp4_sha256": "61c06d3cfafbef8832e94c9ba1bee711ff0c3911509710e8463921a4b8ac8621",
+   "jpg_sha256": "6a480f304c12e55b03c08ca3d68c554d5ed9ea4d562f213f014c276460638215",
+   "srt_sha256": "8e3896cc1d5e7a71bb44f00a2fcb864959e1d7b547cda99eb2c05b8ec2aaf804",
+   "pass": true
+  },
+  {
+   "slug": "umhlanga-smart-eye-density-undereye-serum-short",
+   "domain": "dermatology.durban",
+   "format": "short",
+   "product": "smart eye density undereye serum",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 32.01,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.43,
+   "true_peak": -1.42,
+   "loudness_ok": true,
+   "srt_cues": 7,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 89,
+   "desc_bytes": 1127,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.954,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.946,
+   "cover_ok": true,
+   "mp4_sha256": "a428447f9429cf11ae7bc5b3fa256de5945b9d92b70fe49c9737a5ae54b05d87",
+   "jpg_sha256": "ae7f2fd1b1ce25340e8d4dbf0dbb54fa8381eef9e372eca6b5638b43d8164868",
+   "srt_sha256": "1182a262bac9bcda09ecf49fde807bcd5b9b93dd362ce5d7b7b52ea4bc571db9",
+   "pass": true
+  },
+  {
+   "slug": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "domain": "skincare.joburg",
+   "format": "video",
+   "product": "multivitamin power recovery cream",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 66.63,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.29,
+   "true_peak": -1.45,
+   "loudness_ok": true,
+   "srt_cues": 16,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 99,
+   "desc_bytes": 1064,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.97,
+   "packshot_ok": true,
+   "mp4_sha256": "17da99755c41558cdfc2ec5090f04e17eb7a8ee1c860527b5cab45bb43cb8392",
+   "jpg_sha256": "dd1d0f863951f5f1355f308a1e18218187e1ed5400f9ce9d3340220fb2ffb163",
+   "srt_sha256": "591a7f26618b9511c936efa6e48b426a4c34d6e9d0a353b60a6111aa38675446",
+   "pass": true
+  },
+  {
+   "slug": "bedfordview-daily-superfoliant-57grefill-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product": "daily superfoliant",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 48.31,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.31,
+   "true_peak": -1.9,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 82,
+   "desc_bytes": 1268,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.943,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.937,
+   "cover_ok": true,
+   "mp4_sha256": "3d5b61171252786ea59bbdc2643f1ca92e1769bc9efa77f79af2beece81cfb0a",
+   "jpg_sha256": "098c38875c5234d18e403093a82eaab71340b6bd570a26f100702d71a353a117",
+   "srt_sha256": "1306201da4300d127aa9de290eb52a92927ca791eb1548312012778b252422b6",
+   "pass": true
+  },
+  {
+   "slug": "umhlanga-neurotouch-symmetry-serum-short",
+   "domain": "dermatology.durban",
+   "format": "short",
+   "product": "neurotouch symmetry serum",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 30.52,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.44,
+   "true_peak": -1.48,
+   "loudness_ok": true,
+   "srt_cues": 10,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 56,
+   "desc_bytes": 1131,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.958,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.955,
+   "cover_ok": true,
+   "mp4_sha256": "6526cbb2d020250b0f63906a0c7a0516d2102230dc478380d9932a5541636dfa",
+   "jpg_sha256": "7a5c0050f7959c128af83a5c5c97458bacf596b6d79b22c475d880d5c4c50309",
+   "srt_sha256": "7a0214f6076b28b30acfd1fdda612fcb7ace912a2fd09036985c69f1fc6f091b",
+   "pass": true
+  },
+  {
+   "slug": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "domain": "dermatology.durban",
+   "format": "short",
+   "product": "get + keep your glow kit (2 full-size)",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 33.93,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.46,
+   "true_peak": -1.45,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 74,
+   "desc_bytes": 1335,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.91,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.904,
+   "cover_ok": true,
+   "mp4_sha256": "84ad9f8194d7d10d52852dd6f1747b551fd76ed6762f1971ccea96cc09b089b3",
+   "jpg_sha256": "321ad210e5ffac04538428305f4098f4c922ae60472ce9a1539c71562c860dbf",
+   "srt_sha256": "32b28c495e36954f5424ac939a641eb56b826ee8e8adf272abf2c4708851a6df",
+   "pass": true
+  },
+  {
+   "slug": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product": "hydration you can feel kit (2 full-size)",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 29.13,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.43,
+   "true_peak": -1.96,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 77,
+   "desc_bytes": 1330,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.923,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.913,
+   "cover_ok": true,
+   "mp4_sha256": "d9c0065b568f59004a97b066bf24986750064069690431ee5a535cb8c520f340",
+   "jpg_sha256": "4014b5181a70f3138d4461b34c797b17262df51b22c74a7a6dee3e1164e54c58",
+   "srt_sha256": "336e7398a4b979c10699fecdde8323eb51c6c1879aa2132fc5d35dc47331c8d0",
+   "pass": true
+  },
+  {
+   "slug": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product": "awaken peptide eye gel",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 20.61,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.47,
+   "true_peak": -1.93,
+   "loudness_ok": true,
+   "srt_cues": 7,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 88,
+   "desc_bytes": 1000,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.904,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.953,
+   "cover_ok": true,
+   "mp4_sha256": "c071f77a8f7c361f38f1c3ed5b382c8d0202c572bb5d6c2c7b6de696f7cd234a",
+   "jpg_sha256": "71c94e339b26378f0458ed785684ecb10f7b2144a6c67937dcc3b909ad270268",
+   "srt_sha256": "b634e321fe1855363a99523881092b56aad2aeab3ec1b0bac85af2d6bab1b2cd",
+   "pass": true
+  },
+  {
+   "slug": "midrand-multivitamin-power-firm-15ml-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product": "multivitamin power firm",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 21.7,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.22,
+   "true_peak": -1.96,
+   "loudness_ok": true,
+   "srt_cues": 6,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 90,
+   "desc_bytes": 1027,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.996,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.979,
+   "cover_ok": true,
+   "mp4_sha256": "75029db65416082bec0dbf8ba2e4f339464812cb8c8872e97192f08265d65ae8",
+   "jpg_sha256": "d982167d2c8753997c94bb8be250c3ca639a7a95ef5cf0c0c005180950d7915a",
+   "srt_sha256": "314a812595265dcc7b62f7d2fcd4006e4ef91fb8f935f4027c7d4ee353eb5364",
+   "pass": true
+  },
+  {
+   "slug": "umhlanga-skin-transformation-duo",
+   "domain": "dermatology.durban",
+   "format": "video",
+   "product": "skin transformation duo",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 80.83,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.46,
+   "true_peak": -1.41,
+   "loudness_ok": true,
+   "srt_cues": 20,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 80,
+   "desc_bytes": 1497,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.922,
+   "packshot_ok": true,
+   "mp4_sha256": "a8aac04831f67587ef24a4004c00822947121ae05f7a520d972f56f7cdab3df5",
+   "jpg_sha256": "0b47da96f3d94b6fb741c6a59a9280919fe6b48d578c9ddaa52a2a6e551f8977",
+   "srt_sha256": "e18075adb4d94aac374c59d42d012b1f400e0a1fbfed214ec4bd83a34d6d2f9d",
+   "pass": true
+  }
+ ],
+ "pairs": [
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "westville-body-hydrating-cream-short",
+   "thumb_dist": 78,
+   "frame_dist": 72
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "capetown-prisma-protect-spf30-50ml-short",
+   "thumb_dist": 124,
+   "frame_dist": 100
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "thumb_dist": 84,
+   "frame_dist": 72
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "westville-conditioning-body-wash",
+   "thumb_dist": 85,
+   "frame_dist": 100
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "westville-dynamic-skin-sculptor-body-serum-short",
+   "thumb_dist": 156,
+   "frame_dist": 105
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "westville-the-body-reset-set-2-full-size",
+   "thumb_dist": 139,
+   "frame_dist": 105
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "thumb_dist": 123,
+   "frame_dist": 108
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "rosebank-sound-sleep-cocoon-50ml-short",
+   "thumb_dist": 119,
+   "frame_dist": 102
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "thumb_dist": 108,
+   "frame_dist": 89
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "umhlanga-smart-eye-density-undereye-serum-short",
+   "thumb_dist": 88,
+   "frame_dist": 84
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "thumb_dist": 76,
+   "frame_dist": 110
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "bedfordview-daily-superfoliant-57grefill-short",
+   "thumb_dist": 82,
+   "frame_dist": 75
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "umhlanga-neurotouch-symmetry-serum-short",
+   "thumb_dist": 79,
+   "frame_dist": 72
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "thumb_dist": 97,
+   "frame_dist": 74
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 91,
+   "frame_dist": 84
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 142,
+   "frame_dist": 83
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 139,
+   "frame_dist": 99
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 97,
+   "frame_dist": 110
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "capetown-prisma-protect-spf30-50ml-short",
+   "thumb_dist": 126,
+   "frame_dist": 54
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "thumb_dist": 72,
+   "frame_dist": 88
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "westville-conditioning-body-wash",
+   "thumb_dist": 79,
+   "frame_dist": 94
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "westville-dynamic-skin-sculptor-body-serum-short",
+   "thumb_dist": 160,
+   "frame_dist": 105
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "westville-the-body-reset-set-2-full-size",
+   "thumb_dist": 137,
+   "frame_dist": 99
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "thumb_dist": 139,
+   "frame_dist": 91
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "rosebank-sound-sleep-cocoon-50ml-short",
+   "thumb_dist": 131,
+   "frame_dist": 90
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "thumb_dist": 124,
+   "frame_dist": 56
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "umhlanga-smart-eye-density-undereye-serum-short",
+   "thumb_dist": 104,
+   "frame_dist": 53
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "thumb_dist": 80,
+   "frame_dist": 112
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "bedfordview-daily-superfoliant-57grefill-short",
+   "thumb_dist": 76,
+   "frame_dist": 85
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "umhlanga-neurotouch-symmetry-serum-short",
+   "thumb_dist": 67,
+   "frame_dist": 80
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "thumb_dist": 91,
+   "frame_dist": 86
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 77,
+   "frame_dist": 85
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 144,
+   "frame_dist": 55
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 151,
+   "frame_dist": 97
+  },
+  {
+   "a": "westville-body-hydrating-cream-short",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 99,
+   "frame_dist": 108
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "thumb_dist": 126,
+   "frame_dist": 88
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "westville-conditioning-body-wash",
+   "thumb_dist": 143,
+   "frame_dist": 109
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "westville-dynamic-skin-sculptor-body-serum-short",
+   "thumb_dist": 122,
+   "frame_dist": 101
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "westville-the-body-reset-set-2-full-size",
+   "thumb_dist": 121,
+   "frame_dist": 108
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "thumb_dist": 125,
+   "frame_dist": 108
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "rosebank-sound-sleep-cocoon-50ml-short",
+   "thumb_dist": 63,
+   "frame_dist": 82
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "thumb_dist": 54,
+   "frame_dist": 66
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "umhlanga-smart-eye-density-undereye-serum-short",
+   "thumb_dist": 134,
+   "frame_dist": 59
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "thumb_dist": 124,
+   "frame_dist": 92
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "bedfordview-daily-superfoliant-57grefill-short",
+   "thumb_dist": 130,
+   "frame_dist": 89
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "umhlanga-neurotouch-symmetry-serum-short",
+   "thumb_dist": 131,
+   "frame_dist": 102
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "thumb_dist": 131,
+   "frame_dist": 108
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 117,
+   "frame_dist": 100
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 126,
+   "frame_dist": 60
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 123,
+   "frame_dist": 98
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-50ml-short",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 123,
+   "frame_dist": 104
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "b": "westville-conditioning-body-wash",
+   "thumb_dist": 89,
+   "frame_dist": 102
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "b": "westville-dynamic-skin-sculptor-body-serum-short",
+   "thumb_dist": 150,
+   "frame_dist": 100
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "b": "westville-the-body-reset-set-2-full-size",
+   "thumb_dist": 155,
+   "frame_dist": 112
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "b": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "thumb_dist": 139,
+   "frame_dist": 111
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "b": "rosebank-sound-sleep-cocoon-50ml-short",
+   "thumb_dist": 121,
+   "frame_dist": 99
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "b": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "thumb_dist": 134,
+   "frame_dist": 83
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "b": "umhlanga-smart-eye-density-undereye-serum-short",
+   "thumb_dist": 100,
+   "frame_dist": 96
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "b": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "thumb_dist": 96,
+   "frame_dist": 104
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "b": "bedfordview-daily-superfoliant-57grefill-short",
+   "thumb_dist": 84,
+   "frame_dist": 95
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "b": "umhlanga-neurotouch-symmetry-serum-short",
+   "thumb_dist": 59,
+   "frame_dist": 70
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "b": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "thumb_dist": 71,
+   "frame_dist": 88
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "b": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 79,
+   "frame_dist": 78
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 138,
+   "frame_dist": 85
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 149,
+   "frame_dist": 111
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick-short",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 89,
+   "frame_dist": 108
+  },
+  {
+   "a": "westville-conditioning-body-wash",
+   "b": "westville-dynamic-skin-sculptor-body-serum-short",
+   "thumb_dist": 153,
+   "frame_dist": 111
+  },
+  {
+   "a": "westville-conditioning-body-wash",
+   "b": "westville-the-body-reset-set-2-full-size",
+   "thumb_dist": 144,
+   "frame_dist": 67
+  },
+  {
+   "a": "westville-conditioning-body-wash",
+   "b": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "thumb_dist": 134,
+   "frame_dist": 33
+  },
+  {
+   "a": "westville-conditioning-body-wash",
+   "b": "rosebank-sound-sleep-cocoon-50ml-short",
+   "thumb_dist": 134,
+   "frame_dist": 102
+  },
+  {
+   "a": "westville-conditioning-body-wash",
+   "b": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "thumb_dist": 143,
+   "frame_dist": 98
+  },
+  {
+   "a": "westville-conditioning-body-wash",
+   "b": "umhlanga-smart-eye-density-undereye-serum-short",
+   "thumb_dist": 107,
+   "frame_dist": 95
+  },
+  {
+   "a": "westville-conditioning-body-wash",
+   "b": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "thumb_dist": 87,
+   "frame_dist": 110
+  },
+  {
+   "a": "westville-conditioning-body-wash",
+   "b": "bedfordview-daily-superfoliant-57grefill-short",
+   "thumb_dist": 85,
+   "frame_dist": 108
+  },
+  {
+   "a": "westville-conditioning-body-wash",
+   "b": "umhlanga-neurotouch-symmetry-serum-short",
+   "thumb_dist": 64,
+   "frame_dist": 102
+  },
+  {
+   "a": "westville-conditioning-body-wash",
+   "b": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "thumb_dist": 74,
+   "frame_dist": 104
+  },
+  {
+   "a": "westville-conditioning-body-wash",
+   "b": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 90,
+   "frame_dist": 105
+  },
+  {
+   "a": "westville-conditioning-body-wash",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 149,
+   "frame_dist": 101
+  },
+  {
+   "a": "westville-conditioning-body-wash",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 148,
+   "frame_dist": 104
+  },
+  {
+   "a": "westville-conditioning-body-wash",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 92,
+   "frame_dist": 110
+  },
+  {
+   "a": "westville-dynamic-skin-sculptor-body-serum-short",
+   "b": "westville-the-body-reset-set-2-full-size",
+   "thumb_dist": 85,
+   "frame_dist": 110
+  },
+  {
+   "a": "westville-dynamic-skin-sculptor-body-serum-short",
+   "b": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "thumb_dist": 131,
+   "frame_dist": 101
+  },
+  {
+   "a": "westville-dynamic-skin-sculptor-body-serum-short",
+   "b": "rosebank-sound-sleep-cocoon-50ml-short",
+   "thumb_dist": 115,
+   "frame_dist": 96
+  },
+  {
+   "a": "westville-dynamic-skin-sculptor-body-serum-short",
+   "b": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "thumb_dist": 136,
+   "frame_dist": 89
+  },
+  {
+   "a": "westville-dynamic-skin-sculptor-body-serum-short",
+   "b": "umhlanga-smart-eye-density-undereye-serum-short",
+   "thumb_dist": 144,
+   "frame_dist": 106
+  },
+  {
+   "a": "westville-dynamic-skin-sculptor-body-serum-short",
+   "b": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "thumb_dist": 156,
+   "frame_dist": 109
+  },
+  {
+   "a": "westville-dynamic-skin-sculptor-body-serum-short",
+   "b": "bedfordview-daily-superfoliant-57grefill-short",
+   "thumb_dist": 156,
+   "frame_dist": 85
+  },
+  {
+   "a": "westville-dynamic-skin-sculptor-body-serum-short",
+   "b": "umhlanga-neurotouch-symmetry-serum-short",
+   "thumb_dist": 171,
+   "frame_dist": 88
+  },
+  {
+   "a": "westville-dynamic-skin-sculptor-body-serum-short",
+   "b": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "thumb_dist": 151,
+   "frame_dist": 81
+  },
+  {
+   "a": "westville-dynamic-skin-sculptor-body-serum-short",
+   "b": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 161,
+   "frame_dist": 95
+  },
+  {
+   "a": "westville-dynamic-skin-sculptor-body-serum-short",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 108,
+   "frame_dist": 91
+  },
+  {
+   "a": "westville-dynamic-skin-sculptor-body-serum-short",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 123,
+   "frame_dist": 107
+  },
+  {
+   "a": "westville-dynamic-skin-sculptor-body-serum-short",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 155,
+   "frame_dist": 110
+  },
+  {
+   "a": "westville-the-body-reset-set-2-full-size",
+   "b": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "thumb_dist": 124,
+   "frame_dist": 63
+  },
+  {
+   "a": "westville-the-body-reset-set-2-full-size",
+   "b": "rosebank-sound-sleep-cocoon-50ml-short",
+   "thumb_dist": 118,
+   "frame_dist": 108
+  },
+  {
+   "a": "westville-the-body-reset-set-2-full-size",
+   "b": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "thumb_dist": 111,
+   "frame_dist": 102
+  },
+  {
+   "a": "westville-the-body-reset-set-2-full-size",
+   "b": "umhlanga-smart-eye-density-undereye-serum-short",
+   "thumb_dist": 155,
+   "frame_dist": 96
+  },
+  {
+   "a": "westville-the-body-reset-set-2-full-size",
+   "b": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "thumb_dist": 141,
+   "frame_dist": 106
+  },
+  {
+   "a": "westville-the-body-reset-set-2-full-size",
+   "b": "bedfordview-daily-superfoliant-57grefill-short",
+   "thumb_dist": 143,
+   "frame_dist": 103
+  },
+  {
+   "a": "westville-the-body-reset-set-2-full-size",
+   "b": "umhlanga-neurotouch-symmetry-serum-short",
+   "thumb_dist": 146,
+   "frame_dist": 110
+  },
+  {
+   "a": "westville-the-body-reset-set-2-full-size",
+   "b": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "thumb_dist": 144,
+   "frame_dist": 108
+  },
+  {
+   "a": "westville-the-body-reset-set-2-full-size",
+   "b": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 148,
+   "frame_dist": 98
+  },
+  {
+   "a": "westville-the-body-reset-set-2-full-size",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 83,
+   "frame_dist": 101
+  },
+  {
+   "a": "westville-the-body-reset-set-2-full-size",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 120,
+   "frame_dist": 108
+  },
+  {
+   "a": "westville-the-body-reset-set-2-full-size",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 156,
+   "frame_dist": 110
+  },
+  {
+   "a": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "b": "rosebank-sound-sleep-cocoon-50ml-short",
+   "thumb_dist": 122,
+   "frame_dist": 103
+  },
+  {
+   "a": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "b": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "thumb_dist": 113,
+   "frame_dist": 100
+  },
+  {
+   "a": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "b": "umhlanga-smart-eye-density-undereye-serum-short",
+   "thumb_dist": 135,
+   "frame_dist": 92
+  },
+  {
+   "a": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "b": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "thumb_dist": 157,
+   "frame_dist": 93
+  },
+  {
+   "a": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "b": "bedfordview-daily-superfoliant-57grefill-short",
+   "thumb_dist": 139,
+   "frame_dist": 107
+  },
+  {
+   "a": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "b": "umhlanga-neurotouch-symmetry-serum-short",
+   "thumb_dist": 136,
+   "frame_dist": 105
+  },
+  {
+   "a": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "b": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "thumb_dist": 126,
+   "frame_dist": 112
+  },
+  {
+   "a": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "b": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 130,
+   "frame_dist": 108
+  },
+  {
+   "a": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 103,
+   "frame_dist": 99
+  },
+  {
+   "a": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 50,
+   "frame_dist": 110
+  },
+  {
+   "a": "bedfordview-deep-breakout-liquid-patch-14ml",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 126,
+   "frame_dist": 116
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-50ml-short",
+   "b": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "thumb_dist": 79,
+   "frame_dist": 88
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-50ml-short",
+   "b": "umhlanga-smart-eye-density-undereye-serum-short",
+   "thumb_dist": 135,
+   "frame_dist": 96
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-50ml-short",
+   "b": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "thumb_dist": 121,
+   "frame_dist": 122
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-50ml-short",
+   "b": "bedfordview-daily-superfoliant-57grefill-short",
+   "thumb_dist": 125,
+   "frame_dist": 87
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-50ml-short",
+   "b": "umhlanga-neurotouch-symmetry-serum-short",
+   "thumb_dist": 128,
+   "frame_dist": 91
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-50ml-short",
+   "b": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "thumb_dist": 126,
+   "frame_dist": 96
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-50ml-short",
+   "b": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 126,
+   "frame_dist": 97
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-50ml-short",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 133,
+   "frame_dist": 80
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-50ml-short",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 122,
+   "frame_dist": 107
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-50ml-short",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 120,
+   "frame_dist": 121
+  },
+  {
+   "a": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "b": "umhlanga-smart-eye-density-undereye-serum-short",
+   "thumb_dist": 120,
+   "frame_dist": 33
+  },
+  {
+   "a": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "b": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "thumb_dist": 128,
+   "frame_dist": 102
+  },
+  {
+   "a": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "b": "bedfordview-daily-superfoliant-57grefill-short",
+   "thumb_dist": 130,
+   "frame_dist": 75
+  },
+  {
+   "a": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "b": "umhlanga-neurotouch-symmetry-serum-short",
+   "thumb_dist": 123,
+   "frame_dist": 91
+  },
+  {
+   "a": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "b": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "thumb_dist": 119,
+   "frame_dist": 97
+  },
+  {
+   "a": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "b": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 127,
+   "frame_dist": 91
+  },
+  {
+   "a": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 126,
+   "frame_dist": 63
+  },
+  {
+   "a": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 117,
+   "frame_dist": 102
+  },
+  {
+   "a": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 123,
+   "frame_dist": 105
+  },
+  {
+   "a": "umhlanga-smart-eye-density-undereye-serum-short",
+   "b": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "thumb_dist": 112,
+   "frame_dist": 107
+  },
+  {
+   "a": "umhlanga-smart-eye-density-undereye-serum-short",
+   "b": "bedfordview-daily-superfoliant-57grefill-short",
+   "thumb_dist": 106,
+   "frame_dist": 92
+  },
+  {
+   "a": "umhlanga-smart-eye-density-undereye-serum-short",
+   "b": "umhlanga-neurotouch-symmetry-serum-short",
+   "thumb_dist": 95,
+   "frame_dist": 78
+  },
+  {
+   "a": "umhlanga-smart-eye-density-undereye-serum-short",
+   "b": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "thumb_dist": 99,
+   "frame_dist": 84
+  },
+  {
+   "a": "umhlanga-smart-eye-density-undereye-serum-short",
+   "b": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 95,
+   "frame_dist": 88
+  },
+  {
+   "a": "umhlanga-smart-eye-density-undereye-serum-short",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 180,
+   "frame_dist": 66
+  },
+  {
+   "a": "umhlanga-smart-eye-density-undereye-serum-short",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 141,
+   "frame_dist": 96
+  },
+  {
+   "a": "umhlanga-smart-eye-density-undereye-serum-short",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 91,
+   "frame_dist": 115
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "b": "bedfordview-daily-superfoliant-57grefill-short",
+   "thumb_dist": 92,
+   "frame_dist": 101
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "b": "umhlanga-neurotouch-symmetry-serum-short",
+   "thumb_dist": 93,
+   "frame_dist": 98
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "b": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "thumb_dist": 107,
+   "frame_dist": 112
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "b": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 107,
+   "frame_dist": 106
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 156,
+   "frame_dist": 103
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 169,
+   "frame_dist": 115
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-cream-50ml",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 113,
+   "frame_dist": 90
+  },
+  {
+   "a": "bedfordview-daily-superfoliant-57grefill-short",
+   "b": "umhlanga-neurotouch-symmetry-serum-short",
+   "thumb_dist": 63,
+   "frame_dist": 83
+  },
+  {
+   "a": "bedfordview-daily-superfoliant-57grefill-short",
+   "b": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "thumb_dist": 89,
+   "frame_dist": 92
+  },
+  {
+   "a": "bedfordview-daily-superfoliant-57grefill-short",
+   "b": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 81,
+   "frame_dist": 91
+  },
+  {
+   "a": "bedfordview-daily-superfoliant-57grefill-short",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 150,
+   "frame_dist": 88
+  },
+  {
+   "a": "bedfordview-daily-superfoliant-57grefill-short",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 141,
+   "frame_dist": 102
+  },
+  {
+   "a": "bedfordview-daily-superfoliant-57grefill-short",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 83,
+   "frame_dist": 99
+  },
+  {
+   "a": "umhlanga-neurotouch-symmetry-serum-short",
+   "b": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "thumb_dist": 72,
+   "frame_dist": 82
+  },
+  {
+   "a": "umhlanga-neurotouch-symmetry-serum-short",
+   "b": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 70,
+   "frame_dist": 92
+  },
+  {
+   "a": "umhlanga-neurotouch-symmetry-serum-short",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 155,
+   "frame_dist": 67
+  },
+  {
+   "a": "umhlanga-neurotouch-symmetry-serum-short",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 144,
+   "frame_dist": 107
+  },
+  {
+   "a": "umhlanga-neurotouch-symmetry-serum-short",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 78,
+   "frame_dist": 110
+  },
+  {
+   "a": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "b": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 70,
+   "frame_dist": 50
+  },
+  {
+   "a": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 149,
+   "frame_dist": 85
+  },
+  {
+   "a": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 134,
+   "frame_dist": 117
+  },
+  {
+   "a": "umhlanga-get-keep-your-glow-kit-2-full-size-short",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 94,
+   "frame_dist": 110
+  },
+  {
+   "a": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "b": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "thumb_dist": 153,
+   "frame_dist": 87
+  },
+  {
+   "a": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 140,
+   "frame_dist": 103
+  },
+  {
+   "a": "midrand-hydration-you-can-feel-kit-2-full-size-short",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 78,
+   "frame_dist": 109
+  },
+  {
+   "a": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "b": "midrand-multivitamin-power-firm-15ml-short",
+   "thumb_dist": 101,
+   "frame_dist": 94
+  },
+  {
+   "a": "midrand-awaken-peptide-eye-gel-15ml-short",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 157,
+   "frame_dist": 114
+  },
+  {
+   "a": "midrand-multivitamin-power-firm-15ml-short",
+   "b": "umhlanga-skin-transformation-duo",
+   "thumb_dist": 124,
+   "frame_dist": 117
+  }
+ ]
+}
