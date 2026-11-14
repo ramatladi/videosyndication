@@ -6,13 +6,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "RYY3NSxhEGg",
       "sku": "111513INT",
       "title": "Dermalogica Stressed Skin Recovery System (2 Full-Size), Explained Fast #shorts",
       "manifest_slug": "midrand-stressed-skin-recovery-system-2-full-size-short",
       "media_sha256": "3554957b3ca254de65f4288bfbb367de3a8854511b2ee89577bf40c0f8cbcdf9",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T20:55:43Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -380,5 +381,6 @@
     "missing_renders": 0,
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
-  }
+  },
+  "youtube_ids_recorded": 1
 }
