@@ -45,13 +45,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "tUCD0Az8J_8",
       "sku": "301339INT",
       "title": "Dermalogica Get + Keep Your Glow Kit (2 Full-Size), Explained Fast #shorts",
       "manifest_slug": "midrand-get-keep-your-glow-kit-2-full-size-short",
       "media_sha256": "c75424881dd6b1001f7cda5cb05e25c98be9cb4b5bab2b1c0e50f618ab4698cc",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T10:24:05Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -459,5 +460,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 18
+  "youtube_ids_recorded": 19
 }
