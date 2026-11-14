@@ -107,13 +107,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "SqMjtwOI_fA",
       "sku": "111393",
       "title": "How to Use Dermalogica BioLumin-C Eye Serum 15 mL #shorts",
       "manifest_slug": "capetown-biolumin-c-eye-serum-15ml-short",
       "media_sha256": "ff09ec99cf848553bfe816e2cb3afa2b161107f6d8ca150c8c986db91a819681",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T09:25:01Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -454,5 +455,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 13
+  "youtube_ids_recorded": 14
 }
