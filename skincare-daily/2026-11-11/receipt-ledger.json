@@ -6,13 +6,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "e-jST6XO7ME",
       "sku": "111249",
       "title": "Routine Builder: Dermalogica Daily Microfoliant 74g #shorts",
       "manifest_slug": "midrand-daily-microfoliant-74g-short",
       "media_sha256": "fb44b1d17967efe198b2790e3d1dc4c238860cfda1e9bd7b88a6e062672fdda5",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T01:50:05Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -440,5 +441,6 @@
     "missing_renders": 0,
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
-  }
+  },
+  "youtube_ids_recorded": 1
 }
