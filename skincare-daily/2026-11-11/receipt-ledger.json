@@ -212,13 +212,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "9vfhDERmBqI",
       "sku": "111506INT",
       "title": "Dermalogica Breakout Biotic Moisturiser Review: Treats + Prevents Breakouts, How to Use It",
       "manifest_slug": "umhlanga-breakout-biotic-moisturiser",
       "media_sha256": "2730cc26020616da7c2958fa25f5b0d13e92ea6d594b51d14e5fb3a4246589ca",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T16:07:25Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -467,5 +468,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 26
+  "youtube_ids_recorded": 27
 }
