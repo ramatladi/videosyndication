@@ -93,13 +93,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "vZMP7qD3ICc",
       "sku": "103605",
       "title": "Dermalogica Super Rich Repair 50 mL: Benefits, Directions and Who It Suits",
       "manifest_slug": "capetown-super-rich-repair-50ml",
       "media_sha256": "f485a8f9659fd430af53bcb07fce2cd3b4ca8ec9a9f98e1dbe1d561591d7f927",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T02:50:04Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -448,5 +449,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 7
+  "youtube_ids_recorded": 8
 }
