@@ -289,13 +289,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "So3VrnlTvkk",
       "sku": "111369",
       "title": "Dermalogica Phyto Nature Firming Serum 40 mL Review: Flash-firms, Lifts, Revitalizes, How to Use It",
       "manifest_slug": "bedfordview-phyto-nature-firming-serum-40ml",
       "media_sha256": "86bc6bf45b6b312ac5a81b4b466a94bb5f9d790282e4c6413e9df254c6f080e5",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T16:08:04Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -468,5 +469,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 27
+  "youtube_ids_recorded": 28
 }
