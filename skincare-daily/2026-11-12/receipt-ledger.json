@@ -130,13 +130,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "xWqpRRYh1Wk",
       "sku": "811511",
       "title": "Dermalogica Skin Resurfacing Cleanser 295 mL Review: Retexturizes Aging Skin, How to Use It",
       "manifest_slug": "umhlanga-skin-resurfacing-cleanser-295ml",
       "media_sha256": "3d742a94c037210b1eb71f5fc7c2eb4e899b854113bb6da069aa3d920bb8d11c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T21:55:42Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -387,5 +388,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 6
+  "youtube_ids_recorded": 7
 }
