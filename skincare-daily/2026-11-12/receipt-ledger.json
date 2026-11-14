@@ -116,13 +116,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "70zRX_CcJ4c",
       "sku": "811033",
       "title": "Layering Guide: Dermalogica MultiVitamin Power Firm 30 mL #shorts",
       "manifest_slug": "umhlanga-multivitamin-power-firm-30ml-short",
       "media_sha256": "9386af367cd1368ce003bbb2fc61b567a85782afed3a214e6f12b98f2b8b4d51",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T20:57:00Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -383,5 +384,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 2
+  "youtube_ids_recorded": 3
 }
