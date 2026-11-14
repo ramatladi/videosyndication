@@ -332,13 +332,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "3dPXCu6EM2w",
       "sku": "111334",
       "title": "Dermalogica Intensive Moisture Cleanser 295 mL: Nourishes Dry, Depleted Skin #shorts",
       "manifest_slug": "westville-intensive-moisture-cleanser-295ml-short",
       "media_sha256": "5ba2d37cab2b8300e0e8f158487413b17050225def29f2574db91aa449d9c393",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T09:26:59Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -457,5 +458,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 16
+  "youtube_ids_recorded": 17
 }
