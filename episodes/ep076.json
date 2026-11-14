@@ -9,97 +9,457 @@
  "scene": "office",
  "desk": true,
  "music": "dramatic",
- "intro": ["pray for us.", "we're walking into the dmv", "on a saturday"],
+ "intro": [
+  "pray for us.",
+  "we're walking into the dmv",
+  "on a saturday"
+ ],
  "youtube_title": "We Walked Into The DMV In Slow Motion On A Saturday | Funny Cartoon",
  "description": "Terrence and Luz walk into the license office on a Saturday morning like movie heroes, very, very slowly. The number machine has seen this before, and the clerk at window three has a secret.\n\n#cartoon #animation #funny #comedy #saturday",
- "tags": ["cartoon", "animation", "funny cartoon", "comedy", "cartoons", "dmv", "brother and sister", "saturday errands", "waiting in line", "family comedy"],
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "dmv",
+  "brother and sister",
+  "saturday errands",
+  "waiting in line",
+  "family comedy"
+ ],
  "tiktok_caption": "pray for us. we're walking into the dmv on a saturday 🕶️ #cartoon #animation #funny #comedy #dmv",
  "cast": [
-  {"id": "terrence", "name": "Terrence", "kind": "human", "color": "#8d5524", "scale": 1.05,
-   "hair": {"style": "short", "color": "#1b120b"},
-   "top": {"color": "#2c3e50", "pattern": "suit", "pattern_color": "#f1c40f"}, "bottom": "#1c2833", "shoes": "#ecf0f1",
-   "accessories": ["sunglasses", "scarf:#f1c40f"], "eye": "happy", "brows": "raised", "mouth": "smile",
-   "voice": {"id": "am_michael", "pitch": 0, "tempo": 1.0}},
-  {"id": "luz", "name": "Luz", "kind": "human", "color": "#e0ac69",
-   "hair": {"style": "long", "color": "#2d1b0e"},
-   "top": {"color": "#e74c3c", "pattern": "hoodie"}, "bottom": "#34495e", "shoes": "#f39c12",
-   "accessories": ["sunglasses:#8e44ad"], "eye": "round", "brows": "worried", "mouth": "flat",
-   "voice": {"id": "af_nova", "pitch": 0, "tempo": 1.05}},
-  {"id": "gloria", "name": "Gloria", "kind": "human", "color": "#f1c27d", "scale": 0.95,
-   "hair": {"style": "bun", "color": "#bdc3c7"},
-   "top": {"color": "#8e44ad", "pattern": "plain"}, "bottom": "#4a235a",
-   "accessories": ["glasses", "scarf:#16a085"], "eye": "sleepy", "brows": "raised", "mouth": "flat",
-   "voice": {"id": "af_river", "pitch": -1, "tempo": 0.95}},
-  {"id": "machine", "name": "The Number Machine", "kind": "mascot", "shape": "box", "color": "#c0392b",
-   "accessories": ["glasses", "tie:#2c3e50"], "eye": "sleepy", "mouth": "flat",
-   "voice": {"id": "bm_george", "pitch": -1, "tempo": 0.95}}
+  {
+   "id": "terrence",
+   "name": "Terrence",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.05,
+   "hair": {
+    "style": "short",
+    "color": "#1b120b"
+   },
+   "top": {
+    "color": "#2c3e50",
+    "pattern": "suit",
+    "pattern_color": "#f1c40f"
+   },
+   "bottom": "#1c2833",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "sunglasses",
+    "scarf:#f1c40f"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "am_michael",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "luz",
+   "name": "Luz",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "long",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#e74c3c",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#f39c12",
+   "accessories": [
+    "sunglasses:#8e44ad"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "gloria",
+   "name": "Gloria",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 0.95,
+   "hair": {
+    "style": "bun",
+    "color": "#bdc3c7"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "plain"
+   },
+   "bottom": "#4a235a",
+   "accessories": [
+    "glasses",
+    "scarf:#16a085"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "voice": {
+    "id": "af_river",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "machine",
+   "name": "The Number Machine",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#c0392b",
+   "accessories": [
+    "glasses",
+    "tie:#2c3e50"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
  ],
  "lines": [
-  {"spk": "terrence", "text": "Luz. Sunglasses on. Today we walk in like heroes.", "shot": "CU", "gesture": "point"},
-  {"spk": "luz", "text": "Terrence, it is the license office.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "terrence", "text": "Saturday. Eight fifty nine. The doors open at nine. Pray for us.", "shot": "W", "gesture": "arms_up", "after": "sting"},
-  {"spk": "luz", "text": "Why are we walking so slowly?", "shot": "TWO"},
-  {"spk": "terrence", "text": "Because this is a slow motion entrance. Nobody runs into a legend.", "shot": "CU"},
-  {"spk": "luz", "text": "A man just ran past us.", "shot": "CU", "gesture": "point"},
-  {"spk": "terrence", "text": "He is not a legend. He is in a hurry.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "machine", "text": "Welcome. Please take a number. And please do not walk like that in front of me.", "shot": "CU", "after": "ding"},
-  {"spk": "terrence", "text": "Who said that?", "shot": "W", "jump": true},
-  {"spk": "machine", "text": "I am the number machine. I have been here since nineteen ninety one. I have seen everything.", "shot": "CU"},
-  {"spk": "luz", "text": "Even a slow motion entrance?", "shot": "TWO"},
-  {"spk": "machine", "text": "Every Saturday. You are the fourth one today, and it is two minutes past nine.", "shot": "CU"},
-  {"spk": "terrence", "text": "Hit me with a number, machine. A good one.", "shot": "CU", "gesture": "point"},
-  {"spk": "machine", "text": "Number ninety four.", "shot": "CU"},
-  {"spk": "gloria", "text": "Now serving number eleven.", "shot": "CU"},
-  {"spk": "luz", "text": "Eleven. Terrence, we are ninety four.", "shot": "CU", "gesture": "facepalm", "after": "record_scratch"},
-  {"spk": "terrence", "text": "Then we walk to the chairs. Slowly. With purpose.", "shot": "CU"},
-  {"spk": "luz", "text": "The chairs are six feet away.", "shot": "TWO", "gesture": "point"},
-  {"spk": "terrence", "text": "Six feet of glory.", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "luz", "text": "Why is my hair blowing? There is no wind in here.", "shot": "CU", "gesture": "think"},
-  {"spk": "terrence", "text": "I brought a little fan. Every hero needs wind.", "shot": "CU", "gesture": "hips", "jump": true},
-  {"spk": "machine", "text": "That is a battery fan from the gas station.", "shot": "CU"},
-  {"spk": "terrence", "text": "It was the expensive one. Four dollars.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "gloria", "text": "Now serving number twelve.", "shot": "CU"},
-  {"spk": "luz", "text": "Twelve. At this speed I will renew my license when I am a grandma.", "shot": "CU", "gesture": "facepalm"},
-  {"spk": "terrence", "text": "Patience. Legends wait. Now watch me sit down.", "shot": "CU"},
-  {"spk": "luz", "text": "Why does sitting down take this long?", "shot": "TWO", "gesture": "think"},
-  {"spk": "terrence", "text": "I am lowering myself like a movie.", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "machine", "text": "He has been sitting down for forty seconds.", "shot": "CU", "after": "boing"},
-  {"spk": "terrence", "text": "And I am almost there.", "shot": "CU"},
-  {"spk": "gloria", "text": "Number ninety four? Oh, sorry. Number thirteen.", "shot": "CU"},
-  {"spk": "luz", "text": "She almost said ninety four. My heart did a slow motion jump.", "shot": "CU", "jump": true},
-  {"spk": "terrence", "text": "Luz. Did you fill out the form?", "shot": "TWO"},
-  {"spk": "luz", "text": "Which form?", "shot": "CU", "gesture": "shrug"},
-  {"spk": "machine", "text": "The blue one. Not the green one. The green one is for boats.", "shot": "CU"},
-  {"spk": "luz", "text": "Why is there a boat form at the license office?", "shot": "CU", "gesture": "think"},
-  {"spk": "machine", "text": "Nobody knows. It came with the building.", "shot": "CU"},
-  {"spk": "terrence", "text": "I filled out the green one. I think I own a boat now.", "shot": "CU", "gesture": "arms_up", "after": "sting"},
-  {"spk": "luz", "text": "Terrence, you do not have a boat.", "shot": "TWO", "gesture": "cross"},
-  {"spk": "terrence", "text": "Not yet. But the paperwork is ready.", "shot": "CU", "gesture": "point"},
-  {"spk": "gloria", "text": "Now serving number fourteen.", "shot": "CU"},
-  {"spk": "machine", "text": "At this speed, sir, your number comes up in March.", "shot": "CU", "after": "rimshot"},
-  {"spk": "terrence", "text": "Then March gets a slow motion entrance too.", "shot": "CU", "gesture": "point"},
-  {"spk": "gloria", "text": "Excuse me. You two. The sunglasses. Come here.", "shot": "CU", "gesture": "point", "pre": 0.6},
-  {"spk": "luz", "text": "Is it us? Is it ninety four?", "shot": "TWO", "jump": true},
-  {"spk": "gloria", "text": "No. I just want to know. That walk. Where did you learn that walk?", "shot": "CU", "gesture": "cross"},
-  {"spk": "terrence", "text": "Everybody does it now. Grocery stores, weddings, the dentist.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "gloria", "text": "Everybody does it because of me.", "shot": "CU", "gesture": "hips", "after": "sting"},
-  {"spk": "machine", "text": "It is true. I was there.", "shot": "CU"},
-  {"spk": "gloria", "text": "Thirty years at window three. Every morning I walk in slow. Coffee in one hand, stamp in the other.", "shot": "CU"},
-  {"spk": "gloria", "text": "A kid with a camera saw me once. Now the whole world walks like me.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "luz", "text": "You are the original legend.", "shot": "TWO", "gesture": "arms_up"},
-  {"spk": "gloria", "text": "I am. And legends get a shortcut.", "shot": "CU"},
-  {"spk": "terrence", "text": "A shortcut?", "shot": "CU", "jump": true},
-  {"spk": "gloria", "text": "Ninety four. Right now. But you have to walk to my window.", "shot": "CU", "gesture": "point"},
-  {"spk": "terrence", "text": "Luz. This is our moment.", "shot": "CU"},
-  {"spk": "luz", "text": "Terrence. Walk normally. Please. Just walk normally.", "shot": "TWO", "gesture": "facepalm"},
-  {"spk": "terrence", "text": "I cannot. My legs only know glory.", "shot": "CU", "jump": true, "after": "whoosh"},
-  {"spk": "machine", "text": "Now serving number fifteen. They are still walking.", "shot": "CU"},
-  {"spk": "gloria", "text": "Smile for the license photo, honey.", "shot": "CU"},
-  {"spk": "luz", "text": "Wait. I was mid slow motion. My face was doing a thing.", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "machine", "text": "Too late. It is printed. It is good for eight years.", "shot": "CU", "after": "ding"},
-  {"spk": "luz", "text": "My license looks like I am sneezing in a wind tunnel.", "shot": "CU", "gesture": "facepalm"},
-  {"spk": "terrence", "text": "It looks like a legend.", "shot": "W", "jump": true, "after": "applause"},
-  {"spk": "gloria", "text": "Next. And walk out fast, baby. I have a line.", "shot": "CU", "gesture": "point"},
-  {"spk": "terrence", "text": "Fast? Luz. Pray for me.", "shot": "W", "gesture": "arms_up"}
+  {
+   "spk": "terrence",
+   "text": "Luz. Sunglasses on. Today we walk in like heroes.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "luz",
+   "text": "Terrence, it is the license office.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "terrence",
+   "text": "Saturday. Eight fifty nine. The doors open at nine. Pray for us.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "luz",
+   "text": "Why are we walking so slowly?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "terrence",
+   "text": "Because this is a slow motion entrance. Nobody runs into a legend.",
+   "shot": "CU"
+  },
+  {
+   "spk": "luz",
+   "text": "A man just ran past us.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "terrence",
+   "text": "He is not a legend. He is in a hurry.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "machine",
+   "text": "Welcome. Please take a number. And please do not walk like that in front of me.",
+   "shot": "CU",
+   "after": "ding"
+  },
+  {
+   "spk": "machine",
+   "text": "I am the number machine. I have been here since nineteen ninety one. I have seen everything.",
+   "shot": "CU"
+  },
+  {
+   "spk": "luz",
+   "text": "Even a slow motion entrance?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "machine",
+   "text": "Every Saturday. You are the fourth one today, and it is two minutes past nine.",
+   "shot": "CU"
+  },
+  {
+   "spk": "machine",
+   "text": "Number ninety four.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gloria",
+   "text": "Now serving number eleven.",
+   "shot": "CU"
+  },
+  {
+   "spk": "luz",
+   "text": "Eleven. Terrence, we are ninety four.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "terrence",
+   "text": "Then we walk to the chairs. Slowly. With purpose.",
+   "shot": "CU"
+  },
+  {
+   "spk": "luz",
+   "text": "The chairs are six feet away.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "terrence",
+   "text": "Six feet of glory.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "luz",
+   "text": "Why is my hair blowing? There is no wind in here.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "terrence",
+   "text": "I brought a little fan. Every hero needs wind.",
+   "shot": "CU",
+   "gesture": "hips",
+   "jump": true
+  },
+  {
+   "spk": "machine",
+   "text": "That is a battery fan from the gas station.",
+   "shot": "CU"
+  },
+  {
+   "spk": "terrence",
+   "text": "It was the expensive one. Four dollars.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "terrence",
+   "text": "Legends wait. Now watch me sit down.",
+   "shot": "CU"
+  },
+  {
+   "spk": "luz",
+   "text": "Why does sitting down take this long?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "terrence",
+   "text": "I am lowering myself like a movie.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "machine",
+   "text": "He has been sitting down for forty seconds.",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "terrence",
+   "text": "Luz. Did you fill out the form?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "luz",
+   "text": "Which form?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "machine",
+   "text": "The blue one. Not the green one. The green one is for boats.",
+   "shot": "CU"
+  },
+  {
+   "spk": "luz",
+   "text": "Why is there a boat form at the license office?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "machine",
+   "text": "Nobody knows. It came with the building.",
+   "shot": "CU"
+  },
+  {
+   "spk": "terrence",
+   "text": "I filled out the green one. I think I own a boat now.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "luz",
+   "text": "Terrence, you do not have a boat.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "machine",
+   "text": "At this speed, sir, your number comes up in March.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "terrence",
+   "text": "Then March gets a slow motion entrance too.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gloria",
+   "text": "Excuse me. You two. The sunglasses. Come here.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "luz",
+   "text": "Is it us? Is it ninety four?",
+   "shot": "TWO",
+   "jump": true
+  },
+  {
+   "spk": "gloria",
+   "text": "No. I just want to know. That walk. Where did you learn that walk?",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "terrence",
+   "text": "Everybody does it now. Grocery stores, weddings, the dentist.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gloria",
+   "text": "Everybody does it because of me.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "sting"
+  },
+  {
+   "spk": "gloria",
+   "text": "Thirty years at window three. Every morning I walk in slow, coffee in one hand.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gloria",
+   "text": "A kid with a camera saw me once. Now the whole world walks like me.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "luz",
+   "text": "You are the original legend.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gloria",
+   "text": "I am. And legends get a shortcut.",
+   "shot": "CU"
+  },
+  {
+   "spk": "terrence",
+   "text": "A shortcut?",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "gloria",
+   "text": "Ninety four. Right now. But you have to walk to my window.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "terrence",
+   "text": "Luz. This is our moment.",
+   "shot": "CU"
+  },
+  {
+   "spk": "luz",
+   "text": "Terrence. Walk normally. Please. Just walk normally.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "terrence",
+   "text": "I cannot. My legs only know glory.",
+   "shot": "CU",
+   "jump": true,
+   "after": "whoosh"
+  },
+  {
+   "spk": "machine",
+   "text": "Now serving number fifteen. They are still walking.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gloria",
+   "text": "Smile for the license photo, honey.",
+   "shot": "CU"
+  },
+  {
+   "spk": "luz",
+   "text": "Wait. I was mid slow motion. My face was doing a thing.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "machine",
+   "text": "Too late. It is printed. It is good for eight years.",
+   "shot": "CU",
+   "after": "ding"
+  },
+  {
+   "spk": "luz",
+   "text": "My license looks like I am sneezing in a wind tunnel.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "terrence",
+   "text": "It looks like a legend.",
+   "shot": "W",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "gloria",
+   "text": "Next. And walk out fast, baby. I have a line.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "terrence",
+   "text": "Fast? Luz. Pray for me.",
+   "shot": "W",
+   "gesture": "arms_up"
+  }
  ]
 }
