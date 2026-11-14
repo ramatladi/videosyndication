@@ -79,13 +79,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "UqG3kgnpKyA",
       "sku": "111404",
       "title": "Dermalogica PowerBright Dark Spot Serum 30 mL: Fades Appearance of Dark Spots #shorts",
       "manifest_slug": "capetown-powerbright-dark-spot-serum-30ml-short",
       "media_sha256": "231edc46dc0d6eaae3ad399438bfa90ea035df5f71fe65d979fd01d2ce456309",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T20:56:21Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -382,5 +383,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 1
+  "youtube_ids_recorded": 2
 }
