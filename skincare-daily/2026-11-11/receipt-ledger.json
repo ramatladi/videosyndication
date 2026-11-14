@@ -58,13 +58,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "3JhnfgXg6yE",
       "sku": "111430",
       "title": "Dermalogica Micro-Pore Mist 118ml, Explained",
       "manifest_slug": "midrand-micro-pore-mist-118ml-118ml",
       "media_sha256": "f6e6fa284fa78d01ff7487e7091c8e9a9586377c3b477edad38988eff05ebb67",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T16:06:09Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -465,5 +466,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 24
+  "youtube_ids_recorded": 25
 }
