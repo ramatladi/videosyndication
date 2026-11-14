@@ -144,13 +144,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "dtKn2P0AO9I",
       "sku": "111519",
       "title": "What Dermalogica Pro-Collagen Banking Water Cream Does: Plumping + Preserving #shorts",
       "manifest_slug": "umhlanga-pro-collagen-banking-water-cream-short",
       "media_sha256": "8024a32f6ea8cc03eddbb602a2e90b46f3955d8b1423713efb38aeb79259b3d9",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T22:55:42Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -392,5 +393,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 11
+  "youtube_ids_recorded": 12
 }
