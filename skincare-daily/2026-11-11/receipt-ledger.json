@@ -71,13 +71,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "EkwzO5CYEEU",
       "sku": "301243INT",
       "title": "Dermalogica Skin Transformation Duo: Exfoliates and Combats Skin Aging #shorts",
       "manifest_slug": "midrand-skin-transformation-duo-short",
       "media_sha256": "8397b0bf596a01f372e87d1d9645bed2c7a321992aa125b811c5d7c32df88ce6",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T17:06:08Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -471,5 +472,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 30
+  "youtube_ids_recorded": 31
 }
