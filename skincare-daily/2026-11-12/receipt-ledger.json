@@ -32,13 +32,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "LRxBhDtkLug",
       "sku": "111505INT",
       "title": "Dermalogica Golden Hour Hydrating SPF30 Stick, Explained Fast #shorts",
       "manifest_slug": "midrand-golden-hour-hydrating-spf30-stick-short",
       "media_sha256": "3e9e6868554489e83f11799342b93266274dec7766967ec7e18b492cd4fbe0c5",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T22:55:42Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -391,5 +392,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 10
+  "youtube_ids_recorded": 11
 }
