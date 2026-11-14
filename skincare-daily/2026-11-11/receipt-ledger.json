@@ -241,13 +241,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "8Jfh_N5qlmo",
       "sku": "111450INT",
       "title": "Dermalogica Daily Brightness Boosters Kit Explained: Brightens, Conditions, Hydrates",
       "manifest_slug": "bedfordview-daily-brightness-boosters-kit",
       "media_sha256": "42123919b025e338b8b6c55f1922409f384ff4382c50aef9d299d4fd2bcb5b8c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T02:50:04Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -450,5 +451,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 9
+  "youtube_ids_recorded": 10
 }
