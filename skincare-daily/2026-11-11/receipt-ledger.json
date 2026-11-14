@@ -349,13 +349,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "xUS1jGww2dE",
       "sku": "811512",
       "title": "How to Use Dermalogica Magnetic[+] Afterglow Cleanser 295 mL #shorts",
       "manifest_slug": "westville-magnetic-afterglow-cleanser-295ml-short",
       "media_sha256": "be204aceb54b453dad3bd5058a51ba4721dc99b079bceafdedb37a5f41395310",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T10:24:05Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -463,5 +464,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 22
+  "youtube_ids_recorded": 23
 }
