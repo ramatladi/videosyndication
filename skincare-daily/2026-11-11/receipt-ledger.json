@@ -167,13 +167,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "MwWh_ricB84",
       "sku": "111474",
       "title": "Dermalogica Oil to Foam Total Cleanser 250 mL, Explained",
       "manifest_slug": "umhlanga-oil-to-foam-total-cleanser-250ml",
       "media_sha256": "64f7d8b7ce409758673385821855d24cd91835cb151137da82e24237fd71a2f0",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T02:50:04Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -449,5 +450,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 8
+  "youtube_ids_recorded": 9
 }
