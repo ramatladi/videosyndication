@@ -278,13 +278,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "nHoKZuGnccE",
       "sku": "301338INT",
       "title": "Dermalogica Hydration You Can Feel Kit (2 Full-Size): How to Use It",
       "manifest_slug": "westville-hydration-you-can-feel-kit-2-full-size",
       "media_sha256": "7739122de7ba5966487056c598fb0f54f9c17c30a4bef3e909862425b0a6d97d",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T21:55:42Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -389,5 +390,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 8
+  "youtube_ids_recorded": 9
 }
