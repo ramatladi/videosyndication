@@ -19,13 +19,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "k00ri6RDM1M",
       "sku": "111461",
       "title": "Dermalogica Liquid Peelfoliant 59 mL: Benefits, Directions and Who It Suits",
       "manifest_slug": "midrand-liquid-peelfoliant-59ml",
       "media_sha256": "131908400c1360a891a53ee58b9845e4abc842e93fcbef1c5e822dd2f8b52472",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T02:50:04Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -447,5 +448,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 6
+  "youtube_ids_recorded": 7
 }
