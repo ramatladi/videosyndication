@@ -1,0 +1,526 @@
+{
+ "engine": "cast",
+ "id": 75,
+ "slug": "the-bear-cup",
+ "title": "The Bear Cup",
+ "trend": "TikTok #bearista (unboxings, line-ups and hauls of the limited glass bear-shaped holiday cup; TikTok Creative Center US trending hashtag on New Engen's TikTok list updated Nov 13 2026) + holiday cup launch season \u2014 Rhonda camps in line at five a.m. as number thirteen for one of twelve limited glass bear cups; number twelve, asleep in a 'brown coat', is Kevin, an actual bear living behind the dumpster; the cup talks on launch day; twist: Kevin is the bear the cup was drawn from and never got one, the cup calls him Dad, and Rhonda lets him take it home",
+ "target_seconds": 180,
+ "length_reason": "Cup line-up and unboxing clips are quick one-clip videos, so this stays a quick one-clip skit: 3:00.",
+ "scene": "street_night",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "pov: it's 5 a.m.",
+  "and you're number thirteen",
+  "in line for a cup"
+ ],
+ "youtube_title": "Number Thirteen In Line For The Bear Cup | Funny Family Cartoon",
+ "description": "It is five in the morning and Rhonda is number thirteen in line for one of twelve limited bear cups. The guy in the brown coat at number twelve will not trade, and the last cup has opinions of its own.\n\n#cartoon #animation #funny #comedy #holidays",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "holiday cup",
+  "mom and son",
+  "talking bear",
+  "coffee line",
+  "family comedy"
+ ],
+ "tiktok_caption": "pov: it's 5 a.m. and you're number thirteen in line for the bear cup \u2615\ud83d\udc3b #cartoon #animation #funny #comedy #holidays",
+ "cast": [
+  {
+   "id": "rhonda",
+   "name": "Rhonda",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "curly",
+    "color": "#3b2314"
+   },
+   "top": {
+    "color": "#e74c3c",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#f4d03f",
+   "accessories": [
+    "beanie:#f39c12",
+    "scarf:#27ae60"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "marcus",
+   "name": "Marcus",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.95,
+   "hair": {
+    "style": "short",
+    "color": "#1b120b"
+   },
+   "top": {
+    "color": "#5d6d7e",
+    "pattern": "hoodie"
+   },
+   "bottom": "#1c2833",
+   "accessories": [
+    "headphones:#3498db"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "kevin",
+   "name": "Kevin",
+   "kind": "animal",
+   "ears": "bear",
+   "color": "#7b4a2a",
+   "belly": "#c49a6c",
+   "scale": 1.15,
+   "top": {
+    "color": "#7b4a2a",
+    "pattern": "plain"
+   },
+   "accessories": [
+    "beanie:#2e86c1"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.9
+   }
+  },
+  {
+   "id": "bruno",
+   "name": "The Bear Cup",
+   "kind": "mascot",
+   "shape": "cup",
+   "color": "#d6eaf8",
+   "sleeve": "#a0522d",
+   "lid": "#ecf0f1",
+   "scale": 0.9,
+   "accessories": [
+    "bow:#c0392b"
+   ],
+   "eye": "happy",
+   "blush": true,
+   "voice": {
+    "id": "bm_fable",
+    "pitch": 1,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "rhonda",
+   "text": "It is four fifty eight in the morning. We are number thirteen in line.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "For a cup.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rhonda",
+   "text": "Not a cup, Marcus. The bear cup. Glass. Shaped like a bear. Twelve per store.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "sting"
+  },
+  {
+   "spk": "marcus",
+   "text": "And we are number thirteen.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "rhonda",
+   "text": "Which is why we came prepared.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marcus",
+   "text": "You brought a folding chair, a thermos, and a blanket shaped like a burrito.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "rhonda",
+   "text": "And you. You are my backup chair.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "marcus",
+   "text": "I am a person.",
+   "shot": "CU"
+  },
+  {
+   "spk": "rhonda",
+   "text": "You are a person who can sit very still. That is a chair skill.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marcus",
+   "text": "Mom, we have cups. We have a whole cabinet of cups.",
+   "shot": "CU"
+  },
+  {
+   "spk": "rhonda",
+   "text": "That is not a cabinet. That is a museum.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "rhonda",
+   "text": "The snowman cup. The reindeer cup. The cup that changes color when it is sad.",
+   "shot": "CU"
+  },
+  {
+   "spk": "marcus",
+   "text": "It changes color when it is hot.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "rhonda",
+   "text": "Same thing. Look at the line. Who is number twelve?",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "whoosh"
+  },
+  {
+   "spk": "marcus",
+   "text": "A big guy in a brown coat and a beanie. He is asleep. He has been asleep since we got here.",
+   "shot": "W"
+  },
+  {
+   "spk": "rhonda",
+   "text": "I can work with that. Everybody has a price.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "rhonda",
+   "text": "Excuse me, sir. Good morning. Would you trade your spot for a muffin?",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "kevin",
+   "text": "Hmm.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "kevin",
+   "text": "What kind of muffin.",
+   "shot": "CU"
+  },
+  {
+   "spk": "rhonda",
+   "text": "Blueberry.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "kevin",
+   "text": "I am more of a whole bush of blueberries guy.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rhonda",
+   "text": "Okay. A muffin and my thermos.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "kevin",
+   "text": "What is in the thermos.",
+   "shot": "CU"
+  },
+  {
+   "spk": "rhonda",
+   "text": "Hot cocoa. Little marshmallows.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kevin",
+   "text": "Tempting. I am going to say no. I have been here since Tuesday.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "marcus",
+   "text": "Since Tuesday?",
+   "shot": "CU"
+  },
+  {
+   "spk": "kevin",
+   "text": "I live behind the dumpster. It is a short commute.",
+   "shot": "CU"
+  },
+  {
+   "spk": "marcus",
+   "text": "Mom. Mom. That is not a coat.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "rhonda",
+   "text": "Of course it is a coat. It is a very good coat. Very warm. Very fuzzy.",
+   "shot": "CU"
+  },
+  {
+   "spk": "marcus",
+   "text": "It has claws, Mom. That is a bear.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "kevin",
+   "text": "Hello.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "rhonda",
+   "text": "Well. I am not giving up my spot in line to a bear.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marcus",
+   "text": "You are number thirteen. He is number twelve. You do not have a spot.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "rhonda",
+   "text": "Okay. Then I will give him you.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "What?",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "rhonda",
+   "text": "One teenager for one spot. He is house trained. He mostly sleeps.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "kevin",
+   "text": "I already have one of those. It is me.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "rhonda",
+   "text": "Fine. The doors are opening. Everybody stay calm.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "ding"
+  },
+  {
+   "spk": "marcus",
+   "text": "You are the only one not calm. You are doing stretches.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "rhonda",
+   "text": "Marcus, a lady in a puffy vest just got cup number eleven. Look at her. She is so happy.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kevin",
+   "text": "My turn. Number twelve. The last bear cup.",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "bruno",
+   "text": "Good morning. Please. Hold me by the base. I am limited.",
+   "shot": "CU",
+   "pre": 0.6,
+   "after": "sting"
+  },
+  {
+   "spk": "marcus",
+   "text": "The cup is talking.",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "bruno",
+   "text": "I only speak on launch day. The rest of the year I just sparkle.",
+   "shot": "CU"
+  },
+  {
+   "spk": "rhonda",
+   "text": "He is perfect. Look at his little ears.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "bruno",
+   "text": "Thank you. I have demands. No dishwasher. Hand wash only. A shelf with a view.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "rhonda",
+   "text": "I have a shelf with a view. It faces the snowman cup. He is very nice.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "bruno",
+   "text": "I am sure he is. But I am going with the bear. He was here first. Since Tuesday.",
+   "shot": "CU"
+  },
+  {
+   "spk": "rhonda",
+   "text": "Sir. Why do you even want a cup? You do not have thumbs.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "kevin",
+   "text": "Because it is me.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "kevin",
+   "text": "Last spring a man drew me behind the dumpster. Four hours. He said hold still, big guy.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "kevin",
+   "text": "Then my face went on every cup in America. Nobody asked me. Nobody gave me one.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bruno",
+   "text": "Wait. You are the bear?",
+   "shot": "TWO",
+   "jump": true
+  },
+  {
+   "spk": "kevin",
+   "text": "I am the bear.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bruno",
+   "text": "Dad?",
+   "shot": "CU",
+   "pre": 0.7,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "marcus",
+   "text": "Mom. You are crying in a coffee line.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "rhonda",
+   "text": "I am not crying. It is the cold. And the father and son reunion.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "rhonda",
+   "text": "Take him home, sir. He belongs with you.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "kevin",
+   "text": "Thank you. You can visit. Behind the dumpster. Bring the thermos.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bruno",
+   "text": "Do you have a shelf with a view?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "kevin",
+   "text": "I have a log. It faces the parking lot.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bruno",
+   "text": "Perfect. I have always wanted to see a parking lot.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "marcus",
+   "text": "So we got nothing. We sat outside since four in the morning for nothing.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "rhonda",
+   "text": "Nothing? Marcus. We met the bear.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "rhonda",
+   "text": "And next Saturday is the reindeer cup.",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "kevin",
+   "text": "My cousin is a reindeer. Bring two chairs.",
+   "shot": "W"
+  },
+  {
+   "spk": "marcus",
+   "text": "It is a cup.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "rhonda",
+   "text": "It is a lifestyle.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "ding"
+  }
+ ]
+}
