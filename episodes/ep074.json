@@ -1,0 +1,497 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 74,
+ "slug": "grandma-soft-launched-someone",
+ "title": "Grandma Soft Launched Someone",
+ "trend": "TikTok \"'My Moon My Man' Soft Launch\" (subtle or full-reveal couple clips that show only a hand, a shadow or two cups; New Engen TikTok list, updated Nov 13 2026, US) + the run-up to the holiday season — Grandma Opal starts posting a mystery man piece by piece (a big hand by two coffee cups, a white glove, black boots, a jingle, a red sleeve) and her grandkids Kiki and Dev investigate while the digital photo frame on the shelf shows every post; twist: he is Nick, the man who plays Santa at the mall every December, and the hard launch is Thanksgiving dinner",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "grandma just posted",
+  "two coffee cups",
+  "and a mystery hand"
+ ],
+ "youtube_title": "Grandma posted two coffee cups and a mystery hand. We had to investigate ☕",
+ "description": "Grandma Opal keeps posting little pieces of a mystery man: a big hand, a white glove, shiny black boots. Kiki and Dev are on the case, and the answer is the last person they expected.\n\n#cartoon #animation #funny #grandma #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "grandma",
+  "grandkids",
+  "dating",
+  "holidays",
+  "family"
+ ],
+ "tiktok_caption": "grandma posted two coffee cups and a mystery hand ☕ #cartoon #animation #funny #grandma",
+ "cast": [
+  {
+   "id": "opal",
+   "name": "Grandma Opal",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 0.98,
+   "hair": {
+    "style": "curly",
+    "color": "#e5e7e9"
+   },
+   "top": {
+    "color": "#e91e63",
+    "pattern": "suit",
+    "pattern_color": "#f8f9f9"
+   },
+   "bottom": "#1a237e",
+   "shoes": "#f4d03f",
+   "accessories": [
+    "sunglasses",
+    "scarf:#76d7c4"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "label_color": "#f8bbd0",
+   "voice": {
+    "id": "af_heart",
+    "pitch": -1,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "kiki",
+   "name": "Kiki",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.94,
+   "hair": {
+    "style": "afro",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "glasses",
+    "bow:#f1c40f"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#a3e4d7",
+   "voice": {
+    "id": "af_river",
+    "pitch": 1,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "dev",
+   "name": "Dev",
+   "kind": "human",
+   "color": "#d1a074",
+   "scale": 0.96,
+   "hair": {
+    "style": "mohawk",
+    "color": "#4a2c2a"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "stripes",
+    "pattern_color": "#f9e79f"
+   },
+   "bottom": "#34495e",
+   "shoes": "#c0392b",
+   "accessories": [
+    "headphones:#8e44ad"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "frown",
+   "label_color": "#f5cba7",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 1,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "frame",
+   "name": "The Photo Frame",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#5d6d7e",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#d5dbdb",
+   "voice": {
+    "id": "bf_emma",
+    "pitch": 0,
+    "tempo": 0.96
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "kiki",
+   "text": "Dev. Grandma just posted a picture. Two coffee cups. And a hand.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "dev",
+   "text": "Whose hand?",
+   "shot": "TWO",
+   "gesture": "think",
+   "after": "sting"
+  },
+  {
+   "spk": "frame",
+   "text": "I am the photo frame. Grandma sends me every picture. I see it all first.",
+   "shot": "frame"
+  },
+  {
+   "spk": "frame",
+   "text": "It is a large hand. A very warm, very large hand.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kiki",
+   "text": "Grandma is soft launching someone.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dev",
+   "text": "What does that mean?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kiki",
+   "text": "You show a little piece of the person. A hand. A shadow. A shoe. Then one day, boom.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dev",
+   "text": "Grandma is seventy six. She can't soft launch. She calls the internet the computer place.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "opal",
+   "text": "Hello, my angels. Did you see my little post?",
+   "shot": "opal",
+   "gesture": "wave"
+  },
+  {
+   "spk": "kiki",
+   "text": "Grandma. Who is the hand?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "opal",
+   "text": "Oh, that's just a friend. A friend with a hand.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dev",
+   "text": "Everybody has a hand, Grandma.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "opal",
+   "text": "Not like this one, baby.",
+   "shot": "opal",
+   "gesture": "hips",
+   "after": "boing"
+  },
+  {
+   "spk": "frame",
+   "text": "New post. Same hand. This time, a white glove.",
+   "shot": "frame",
+   "pre": 0.4
+  },
+  {
+   "spk": "kiki",
+   "text": "A white glove. At breakfast?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dev",
+   "text": "He's a magician. Grandma is dating a magician.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "kiki",
+   "text": "Or a butler. Or a man who directs traffic.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "opal",
+   "text": "He's very good with traffic. Very calm in a crowd.",
+   "shot": "opal",
+   "gesture": "think"
+  },
+  {
+   "spk": "dev",
+   "text": "That is not helping, Grandma.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "frame",
+   "text": "New post. Black boots by the door. Very shiny. Very large.",
+   "shot": "frame"
+  },
+  {
+   "spk": "kiki",
+   "text": "Big hands. Big boots. Calm in a crowd.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dev",
+   "text": "He's a firefighter. Or a very tall mail carrier.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "frame",
+   "text": "There is also a sound in this one. Listen.",
+   "shot": "frame"
+  },
+  {
+   "spk": "frame",
+   "text": "Jingle. Jingle.",
+   "shot": "CU",
+   "after": "ding"
+  },
+  {
+   "spk": "dev",
+   "text": "Why do his boots jingle?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "opal",
+   "text": "He likes to be heard coming. It's polite.",
+   "shot": "opal",
+   "gesture": "hips"
+  },
+  {
+   "spk": "kiki",
+   "text": "Grandma, how did you meet him?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "opal",
+   "text": "At the mall. Last December. I waited in his line for forty minutes.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dev",
+   "text": "There was a line? For him?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "opal",
+   "text": "Everybody wants a picture with him. He is very popular.",
+   "shot": "opal"
+  },
+  {
+   "spk": "frame",
+   "text": "Last post. A red sleeve. With fluffy white trim.",
+   "shot": "frame",
+   "pre": 0.5
+  },
+  {
+   "spk": "kiki",
+   "text": "Red sleeve. White trim. White gloves. Jingly boots.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "kiki",
+   "text": "Grandma. Is your boyfriend who I think he is?",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "opal",
+   "text": "His name is Nick. And yes. He plays Santa at the mall every December.",
+   "shot": "opal",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "record_scratch"
+  },
+  {
+   "spk": [
+    "kiki",
+    "dev"
+   ],
+   "text": "Grandma is dating Santa.",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "opal",
+   "text": "The mall Santa, sweetie. He sells insurance in the summer.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dev",
+   "text": "Is the beard real?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "opal",
+   "text": "The beard is real. I have checked. Many times.",
+   "shot": "opal",
+   "gesture": "hips"
+  },
+  {
+   "spk": "kiki",
+   "text": "Grandma!",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "frame",
+   "text": "I have seen the beard up close. It is a very honest beard.",
+   "shot": "frame"
+  },
+  {
+   "spk": "dev",
+   "text": "Wait. Does this mean we're on the nice list now?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "opal",
+   "text": "Kiki is on the nice list. Dev, he saw you at the mall last year.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "dev",
+   "text": "What did he see?",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "opal",
+   "text": "You licked the pretzel and put it back.",
+   "shot": "opal",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dev",
+   "text": "It was a test pretzel.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "frame",
+   "text": "He is on probation. It is in the post. The caption says probation.",
+   "shot": "frame",
+   "after": "rimshot"
+  },
+  {
+   "spk": "kiki",
+   "text": "So when do we meet him?",
+   "shot": "CU"
+  },
+  {
+   "spk": "opal",
+   "text": "Thanksgiving. That's the hard launch. Full face, full beard.",
+   "shot": "opal",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dev",
+   "text": "He's coming to Thanksgiving? In the suit?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "opal",
+   "text": "In a sweater. But he will bring the boots. He can't help it.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kiki",
+   "text": "Grandma, I'm happy for you.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "dev",
+   "text": "Me too. Can you ask him about the pretzel thing?",
+   "shot": "CU"
+  },
+  {
+   "spk": "opal",
+   "text": "Write him a letter, baby. That is how it works.",
+   "shot": "opal",
+   "gesture": "point"
+  },
+  {
+   "spk": "frame",
+   "text": "New post. Grandma and a big shadow. Caption: he's coming to dinner.",
+   "shot": "frame",
+   "pre": 0.4
+  },
+  {
+   "spk": "kiki",
+   "text": "Two hundred likes. Grandma, you're famous.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "opal",
+   "text": "I've always been famous, sweetie. Now I'm famous with a hand.",
+   "shot": "opal",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dev",
+   "text": "Dear Santa. It was a test pretzel.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "frame",
+   "text": "Jingle. Jingle.",
+   "shot": "frame",
+   "after": "whoosh"
+  }
+ ]
+}
