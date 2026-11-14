@@ -366,13 +366,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "89Zlw5fvcpg",
       "sku": "111504",
       "title": "Dermalogica BioLumin-C Night Restore Serum 25 mL: What It Does and How to Use It",
       "manifest_slug": "westville-biolumin-c-night-restore-serum-25ml",
       "media_sha256": "153191af6d8b422d7e92fa3ee34282869456864007917030539f02abc9cc5039",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T16:08:42Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -469,5 +470,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 28
+  "youtube_ids_recorded": 29
 }
