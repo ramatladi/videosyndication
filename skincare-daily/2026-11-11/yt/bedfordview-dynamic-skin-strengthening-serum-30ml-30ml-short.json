@@ -3,15 +3,23 @@
   "handle": "@DermatologyJoburgBedfordview",
   "title": "Label Read: Dermalogica Dynamic Skin Strengthening Serum 30ml #shorts",
   "slot_sast": "2026-11-11 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefded61317c7a2",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-14T09:26:21Z",
   "error": null,
-  "updated": "2026-11-14T09:26:25Z",
+  "updated": "2026-11-14T09:26:57Z",
   "video_id": "ikDH1eMFsJo",
   "published_now": "2026-11-14T09:26:21Z",
   "url": "https://youtube.com/shorts/ikDH1eMFsJo",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCs0uxMnSV1INS_Bxn6yqc2Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
