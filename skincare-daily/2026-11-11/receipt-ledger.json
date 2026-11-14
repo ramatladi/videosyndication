@@ -425,13 +425,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "QrkRQdoUEgo",
       "sku": "111510INT",
       "title": "How to Use Dermalogica BioLumin-C Heat Aging Protector SPF50 50 mL #shorts",
       "manifest_slug": "rosebank-biolumin-c-heat-aging-protector-spf50-50ml-short",
       "media_sha256": "70b097957cb07a624f5bc2815e908013524a6472b92bd27ddbf6bb356b167655",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T10:24:05Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -464,5 +465,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 23
+  "youtube_ids_recorded": 24
 }
