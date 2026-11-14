@@ -383,13 +383,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "WCVieBh_KfE",
       "sku": "111441",
       "title": "Body Care: Dermalogica BioLumin-C Gel Moisturiser 50 mL #shorts",
       "manifest_slug": "westville-biolumin-c-gel-moisturiser-50ml-short",
       "media_sha256": "e0e5f826aa97063794ef6b26c9b1cdc51dbaf5cc39868f8c95dd0c5946d7cfd0",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T17:06:08Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -475,5 +476,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 34
+  "youtube_ids_recorded": 35
 }
