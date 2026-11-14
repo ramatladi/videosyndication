@@ -262,13 +262,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "EcgxUjERXrI",
       "sku": "111012-01",
       "title": "How to Use Dermalogica PowerBright Overnight Cream 50 mL #shorts",
       "manifest_slug": "westville-powerbright-overnight-cream-50ml-short",
       "media_sha256": "1098e32af3d3192868bc191fc94a74d6b8050ac027d0830e85e6d79ab46c2241",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T20:58:16Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -385,5 +386,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 4
+  "youtube_ids_recorded": 5
 }
