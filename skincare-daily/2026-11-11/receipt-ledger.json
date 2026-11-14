@@ -227,13 +227,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "-PZk8FHMtLs",
       "sku": "301338INT",
       "title": "Layering Guide: Dermalogica Hydration You Can Feel Kit (2 Full-Size) #shorts",
       "manifest_slug": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
       "media_sha256": "fb7fe43815d306fd5b6b77f464bbd376d4c5ee80cef4bb8435289d23fe3cebe7",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T17:06:08Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -473,5 +474,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 32
+  "youtube_ids_recorded": 33
 }
