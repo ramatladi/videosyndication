@@ -197,13 +197,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "HqCKyJ4-Zgw",
       "sku": "111122",
       "title": "Layering Guide: Dermalogica Skin Soothing Hydrating Lotion 60 mL #shorts",
       "manifest_slug": "umhlanga-skin-soothing-hydrating-lotion-60ml-short",
       "media_sha256": "2e80ef03af60d09fa599f0244f15ec72084a2189a245e435aaa6fcacac96f3a5",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T10:24:05Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -461,5 +462,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 20
+  "youtube_ids_recorded": 21
 }
