@@ -164,7 +164,7 @@
   },
   {
    "spk": "marcus",
-   "text": "You brought a folding chair, a thermos, and a blanket shaped like a burrito.",
+   "text": "You brought a chair, a thermos and a burrito blanket.",
    "shot": "CU",
    "gesture": "point"
   },
@@ -172,17 +172,6 @@
    "spk": "rhonda",
    "text": "And you. You are my backup chair.",
    "shot": "TWO"
-  },
-  {
-   "spk": "marcus",
-   "text": "I am a person.",
-   "shot": "CU"
-  },
-  {
-   "spk": "rhonda",
-   "text": "You are a person who can sit very still. That is a chair skill.",
-   "shot": "CU",
-   "gesture": "think"
   },
   {
    "spk": "marcus",
@@ -226,7 +215,7 @@
   },
   {
    "spk": "rhonda",
-   "text": "Excuse me, sir. Good morning. Would you trade your spot for a muffin?",
+   "text": "Excuse me, sir. Would you trade your spot for a blueberry muffin?",
    "shot": "TWO",
    "gesture": "wave"
   },
@@ -238,13 +227,8 @@
   },
   {
    "spk": "kevin",
-   "text": "What kind of muffin.",
+   "text": "Just one muffin.",
    "shot": "CU"
-  },
-  {
-   "spk": "rhonda",
-   "text": "Blueberry.",
-   "shot": "TWO"
   },
   {
    "spk": "kevin",
@@ -254,18 +238,8 @@
   },
   {
    "spk": "rhonda",
-   "text": "Okay. A muffin and my thermos.",
+   "text": "Okay. A muffin and my hot cocoa.",
    "shot": "TWO"
-  },
-  {
-   "spk": "kevin",
-   "text": "What is in the thermos.",
-   "shot": "CU"
-  },
-  {
-   "spk": "rhonda",
-   "text": "Hot cocoa. Little marshmallows.",
-   "shot": "CU"
   },
   {
    "spk": "kevin",
@@ -292,7 +266,7 @@
   },
   {
    "spk": "rhonda",
-   "text": "Of course it is a coat. It is a very good coat. Very warm. Very fuzzy.",
+   "text": "It is a very good coat.",
    "shot": "CU"
   },
   {
@@ -351,17 +325,6 @@
    "after": "ding"
   },
   {
-   "spk": "marcus",
-   "text": "You are the only one not calm. You are doing stretches.",
-   "shot": "TWO"
-  },
-  {
-   "spk": "rhonda",
-   "text": "Marcus, a lady in a puffy vest just got cup number eleven. Look at her. She is so happy.",
-   "shot": "CU",
-   "gesture": "point"
-  },
-  {
    "spk": "kevin",
    "text": "My turn. Number twelve. The last bear cup.",
    "shot": "CU",
@@ -404,7 +367,7 @@
   },
   {
    "spk": "bruno",
-   "text": "I am sure he is. But I am going with the bear. He was here first. Since Tuesday.",
+   "text": "I am going with the bear. He was here first.",
    "shot": "CU"
   },
   {
@@ -427,7 +390,7 @@
   },
   {
    "spk": "kevin",
-   "text": "Then my face went on every cup in America. Nobody asked me. Nobody gave me one.",
+   "text": "Then my face went on every cup. Nobody gave me one.",
    "shot": "CU",
    "gesture": "shrug"
   },
