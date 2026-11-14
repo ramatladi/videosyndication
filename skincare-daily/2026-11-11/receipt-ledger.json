@@ -315,13 +315,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "W5BhIUdTp9g",
       "sku": "111466INT",
       "title": "Dermalogica Phyto Nature Oxygen Cream 50 mL Explained: Firms, Lifts, and Plumps",
       "manifest_slug": "westville-phyto-nature-oxygen-cream-50ml",
       "media_sha256": "fee7d4bdb57600683e9ec6df04911b675eaa59360d319a82c1583edf47e6103c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T02:50:04Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -451,5 +452,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 10
+  "youtube_ids_recorded": 11
 }
