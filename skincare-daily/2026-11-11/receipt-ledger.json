@@ -305,13 +305,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "y0y4qsvUv3E",
       "sku": "111432",
       "title": "What Dermalogica Smart Response Serum 30 mL Does: Hydrates, Brightens, Soothes #shorts",
       "manifest_slug": "bedfordview-smart-response-serum-30ml-short",
       "media_sha256": "fd47d8b27191f6755716b2d3995ed86d931717e52baff65674da0d8f6d917695",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T17:06:08Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -474,5 +475,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 33
+  "youtube_ids_recorded": 34
 }
