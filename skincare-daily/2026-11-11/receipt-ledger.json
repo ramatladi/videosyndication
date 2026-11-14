@@ -273,13 +273,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "BIyEaaHQf9w",
       "sku": "111515",
       "title": "Label Read: Dermalogica NeuroTouch Symmetry Serum #shorts",
       "manifest_slug": "bedfordview-neurotouch-symmetry-serum-short",
       "media_sha256": "0115ee50e9ef4276a2876271d3a2a4d96c95af01dee2e1c0ff9cceef5d4c834e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T10:24:05Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -462,5 +463,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 21
+  "youtube_ids_recorded": 22
 }
