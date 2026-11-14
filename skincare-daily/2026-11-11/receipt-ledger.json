@@ -389,13 +389,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "KukeQv80E34",
       "sku": "111293",
       "title": "Dermalogica Blackhead Clearing Fizz Mask 50 mL, Explained",
       "manifest_slug": "rosebank-blackhead-clearing-fizz-mask-50ml",
       "media_sha256": "357fdc0e311ed77225019eeb72857a59ece36b9ddae8c2980e5f370e9e1bc31e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T02:50:04Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -452,5 +453,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 11
+  "youtube_ids_recorded": 12
 }
