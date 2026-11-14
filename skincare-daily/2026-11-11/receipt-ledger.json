@@ -257,13 +257,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "ikDH1eMFsJo",
       "sku": "111508",
       "title": "Label Read: Dermalogica Dynamic Skin Strengthening Serum 30ml #shorts",
       "manifest_slug": "bedfordview-dynamic-skin-strengthening-serum-30ml-30ml-short",
       "media_sha256": "303cdc81f1ff6655a5b4f4ee8a6d1f294357e70effd28601b9bd9c4c2c22a0c8",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T09:26:21Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -456,5 +457,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 15
+  "youtube_ids_recorded": 16
 }
