@@ -9,8 +9,9 @@
   "overdue": true,
   "upload_started": "2026-11-14T20:57:38Z",
   "error": null,
-  "updated": "2026-11-14T20:57:41Z",
+  "updated": "2026-11-14T20:57:42Z",
   "video_id": "kgRab-ioDos",
   "published_now": "2026-11-14T20:57:38Z",
-  "url": "https://youtube.com/shorts/kgRab-ioDos"
+  "url": "https://youtube.com/shorts/kgRab-ioDos",
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
 }
