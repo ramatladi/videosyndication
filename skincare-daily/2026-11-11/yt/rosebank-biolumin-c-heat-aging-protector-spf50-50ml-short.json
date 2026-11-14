@@ -9,8 +9,9 @@
   "overdue": true,
   "upload_started": "2026-11-14T09:31:30Z",
   "error": null,
-  "updated": "2026-11-14T09:31:34Z",
+  "updated": "2026-11-14T09:31:36Z",
   "video_id": "QrkRQdoUEgo",
   "published_now": null,
-  "url": "https://youtube.com/shorts/QrkRQdoUEgo"
+  "url": "https://youtube.com/shorts/QrkRQdoUEgo",
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
 }
