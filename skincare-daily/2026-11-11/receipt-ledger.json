@@ -407,13 +407,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "5TX465I1BYQ",
       "sku": "111449",
       "title": "Dermalogica Awaken Peptide Eye Gel 15 mL, Explained Fast #shorts",
       "manifest_slug": "rosebank-awaken-peptide-eye-gel-15ml-short",
       "media_sha256": "da685788d8ec83dd1a0c6d886ec662663c724af7451fe2797d3f5ba5b0f8ad39",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T09:27:38Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -458,5 +459,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 17
+  "youtube_ids_recorded": 18
 }
