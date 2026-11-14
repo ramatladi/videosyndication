@@ -19,13 +19,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "VH2lGZv0Q5k",
       "sku": "111412",
       "title": "Dermalogica Invisible Physical Defense SPF30 50 mL: What It Does and How to Use It",
       "manifest_slug": "midrand-invisible-physical-defense-spf30-50ml",
       "media_sha256": "9b5d311f1bcb110f8b40a96a06223d926dd0e57e1c33dbd42ca9dbf74d484b2e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T21:55:42Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -386,5 +387,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 5
+  "youtube_ids_recorded": 6
 }
