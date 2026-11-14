@@ -121,13 +121,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "eXSlUO5Sit4",
       "sku": "111507",
       "title": "Daily SPF: Dermalogica MultiVitamin Power Recovery Cream 50 mL #shorts",
       "manifest_slug": "capetown-multivitamin-power-recovery-cream-50ml-short",
       "media_sha256": "72de4cca93f7772addd6a4f27c78ab099053f80fc347e0c38b373efb0088505c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T10:24:05Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -460,5 +461,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 19
+  "youtube_ids_recorded": 20
 }
