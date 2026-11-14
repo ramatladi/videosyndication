@@ -339,13 +339,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "77p-RCqj8ac",
       "sku": "111013-01",
       "title": "Dermalogica PowerBright Moisturiser SPF50 50 mL: Benefits, Directions and Who It Suits",
       "manifest_slug": "rosebank-powerbright-moisturiser-spf50-50ml",
       "media_sha256": "c7f1321691719d86f20bcb93edba6ba11d8904a18ccfd9dcc85ef0f4c7a53099",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T21:01:43Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -390,5 +391,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 9
+  "youtube_ids_recorded": 10
 }
