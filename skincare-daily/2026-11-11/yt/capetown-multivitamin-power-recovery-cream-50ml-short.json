@@ -3,15 +3,23 @@
   "handle": "@DermatologyCapeTown",
   "title": "Daily SPF: Dermalogica MultiVitamin Power Recovery Cream 50 mL #shorts",
   "slot_sast": "2026-11-11 16:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefb70ebdbb3cce",
   "publish_at": "2026-11-14T10:24:05Z",
   "overdue": true,
   "upload_started": "2026-11-14T09:28:55Z",
   "error": null,
-  "updated": "2026-11-14T09:29:00Z",
+  "updated": "2026-11-14T09:29:31Z",
   "video_id": "eXSlUO5Sit4",
   "published_now": null,
   "url": "https://youtube.com/shorts/eXSlUO5Sit4",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UC6IhnhkFRVu8tTc1FJbjb8Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-14T10:24:05Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
