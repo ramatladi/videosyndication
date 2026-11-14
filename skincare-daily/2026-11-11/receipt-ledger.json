@@ -461,13 +461,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "sacvE-E4FHs",
       "sku": "111331",
       "title": "How to Use Dermalogica Prisma Protect SPF30 50 mL #shorts",
       "manifest_slug": "rosebank-prisma-protect-spf30-50ml-short",
       "media_sha256": "de04055fc6387340a333e2b3f554b7294497e83c91de5542126c8256c398800f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T17:06:08Z"
     }
   ],
   "reconciliation": {
@@ -476,5 +477,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 35
+  "youtube_ids_recorded": 36
 }
