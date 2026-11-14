@@ -32,13 +32,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "cCCRsT8nKb4",
       "sku": "W101717",
       "title": "Routine Builder: Dermalogica Clearing Skin Wash 500 mL #shorts",
       "manifest_slug": "midrand-clearing-skin-wash-500ml-short",
       "media_sha256": "57af88cdc3337ad42542fe70cacce96fcb37cfc1375f769f2767c2157cdabc27",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T09:24:06Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -453,5 +454,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 12
+  "youtube_ids_recorded": 13
 }
