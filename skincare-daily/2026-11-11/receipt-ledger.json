@@ -79,13 +79,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "iuSwr015YBM",
       "sku": "111203",
       "title": "Dermalogica Protection 50 Sport SPF50 150 mL: Defends Against Skin Damage #shorts",
       "manifest_slug": "capetown-protection-50-sport-spf50-150ml-short",
       "media_sha256": "c24b150b5a7666aa382eaf1021bbf8d1bba94e54de0a67a143109646e47c2862",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T01:50:44Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -442,5 +443,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 1
+  "youtube_ids_recorded": 2
 }
