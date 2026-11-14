@@ -152,13 +152,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "b0o2P20N43c",
       "sku": "111257",
       "title": "Dermalogica Stress Positive Eye Lift 25 mL: Firms, Depuffs, and Brightens #shorts",
       "manifest_slug": "umhlanga-stress-positive-eye-lift-25ml-short",
       "media_sha256": "d49ab2078c4ad339e50338366ffa0c6edbe6d0285d1a713d3347193e35cea22f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T01:51:22Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -443,5 +444,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 2
+  "youtube_ids_recorded": 3
 }
