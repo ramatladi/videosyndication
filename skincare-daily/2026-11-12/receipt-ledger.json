@@ -189,13 +189,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "kgRab-ioDos",
       "sku": "111524",
       "title": "Label Read: Dermalogica Futurecode Booster Damage-Correcting Longevity Serum #shorts",
       "manifest_slug": "bedfordview-futurecode-booster-damage-correcting-longevity-serum-short",
       "media_sha256": "00a046c88a2cd47ebc39e62da52b2df3a5e0f71506646a3fbe2a8a4358256b79",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T20:57:38Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -384,5 +385,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 3
+  "youtube_ids_recorded": 4
 }
