@@ -3,15 +3,23 @@
   "handle": "@SkincareDurbanWestville",
   "title": "Dermalogica Intensive Moisture Cleanser 295 mL: Nourishes Dry, Depleted Skin #shorts",
   "slot_sast": "2026-11-11 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref5183ce37a3a0",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-14T09:26:59Z",
   "error": null,
-  "updated": "2026-11-14T09:27:04Z",
+  "updated": "2026-11-14T09:27:36Z",
   "video_id": "3dPXCu6EM2w",
   "published_now": "2026-11-14T09:26:59Z",
   "url": "https://youtube.com/shorts/3dPXCu6EM2w",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCh1fAzbqzZRAKMoFpJ9f0_g",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
