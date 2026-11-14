@@ -3,15 +3,23 @@
   "handle": "@DermatologyCapeTown",
   "title": "How to Use Dermalogica BioLumin-C Eye Serum 15 mL #shorts",
   "slot_sast": "2026-11-11 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref83cf5ea1810e",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-14T09:25:01Z",
   "error": null,
-  "updated": "2026-11-14T09:25:06Z",
+  "updated": "2026-11-14T09:25:38Z",
   "video_id": "SqMjtwOI_fA",
   "published_now": "2026-11-14T09:25:01Z",
   "url": "https://youtube.com/shorts/SqMjtwOI_fA",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UC6IhnhkFRVu8tTc1FJbjb8Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
