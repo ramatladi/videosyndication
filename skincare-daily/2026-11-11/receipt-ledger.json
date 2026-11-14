@@ -371,13 +371,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "E2yxXpRC-D4",
       "sku": "111462INT",
       "title": "Moisturizer Desk: Dermalogica Deep Breakout Liquid Patch 14 mL #shorts",
       "manifest_slug": "rosebank-deep-breakout-liquid-patch-14ml-short",
       "media_sha256": "9b3f4b4a91e568a79c614bc8cc89ab5c925b8da136591c8bbcaade95e55c8724",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T01:53:18Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -446,5 +447,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 5
+  "youtube_ids_recorded": 6
 }
