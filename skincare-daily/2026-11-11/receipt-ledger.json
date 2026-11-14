@@ -443,13 +443,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "HvXckNGS_54",
       "sku": "111473INT",
       "title": "Dermalogica PoreScreen SPF40 30 mL Explained: Protects, Preps, Enhances",
       "manifest_slug": "rosebank-porescreen-spf40-30ml",
       "media_sha256": "81cef921c47bf2021a0e32637f7d91b61f3507cf5f80dc1f0c0cb2f8f06d6818",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T16:09:35Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -470,5 +471,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 29
+  "youtube_ids_recorded": 30
 }
