@@ -2704,6 +2704,81 @@
     "dance": 0.334,
     "genre_fit": 0.908
    }
+  },
+  {
+   "release": "mtr040",
+   "date": "2026-11-14",
+   "slot": "2026-11-14T23:55",
+   "format": "video",
+   "title": "Amber Over Water",
+   "artist": "Solomiya Marina",
+   "style": "afro",
+   "key": "D minor",
+   "bpm": 122,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "f5342617-8e1c-4ca1-82b2-c519195e4e5d",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/9dbac9d2-a865-4ba0-9d37-ac4fe8db6328.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr040.json",
+   "photographer": "Briona Baker",
+   "photo_page": "https://unsplash.com/photos/wuEF6nn8PAY",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-8420108342066918560",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-923922965595993279.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr040.mp3",
+    "top": [
+     [
+      "electronic",
+      0.411
+     ],
+     [
+      "chillout",
+      0.207
+     ],
+     [
+      "female vocalists",
+      0.156
+     ],
+     [
+      "electronica",
+      0.125
+     ],
+     [
+      "ambient",
+      0.125
+     ],
+     [
+      "pop",
+      0.12
+     ],
+     [
+      "dance",
+      0.079
+     ],
+     [
+      "electro",
+      0.074
+     ],
+     [
+      "jazz",
+      0.07
+     ],
+     [
+      "House",
+      0.066
+     ]
+    ],
+    "house": 0.066,
+    "electronic": 0.411,
+    "dance": 0.079,
+    "genre_fit": 0.885
+   }
   }
  ]
 }
