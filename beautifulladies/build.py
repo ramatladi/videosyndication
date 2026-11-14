@@ -38,8 +38,18 @@ def fetch(url, path):
 
 
 def photo(slug):
-    return fetch(f"https://images.unsplash.com/{LEDGER[slug]['image']}?w=1440&q=85&fm=jpg",
-                 os.path.join(WORK, "img", slug + ".jpg"))
+    p = os.path.join(WORK, "img", slug + ".jpg")
+    e = LEDGER[slug]
+    if e.get("source", "unsplash") == "pixabay":
+        # Pixabay largeImageURL links expire: the run downloads them into work/img/ when it finds them
+        if not os.path.exists(p):
+            sys.exit(f"missing {p}: download the Pixabay image before building")
+        return p
+    return fetch(f"https://images.unsplash.com/{e['image']}?w=1440&q=85&fm=jpg", p)
+
+
+def site(slug):
+    return "Pixabay" if LEDGER[slug].get("source") == "pixabay" else "Unsplash"
 
 
 def seg(name, slug, caption, W, H, secs, idx):
@@ -50,7 +60,7 @@ def seg(name, slug, caption, W, H, secs, idx):
     fw, fh = int(iw * s) // 2 * 2, int(ih * s) // 2 * 2
     cap_f, cr_f = f"{WORK}/{name}_c{idx}.txt", f"{WORK}/{name}_r{idx}.txt"
     open(cap_f, "w").write(caption)
-    open(cr_f, "w").write(f"Photo: {LEDGER[slug]['photographer']} / Unsplash")
+    open(cr_f, "w").write(f"Photo: {LEDGER[slug]['photographer']} / {site(slug)}")
     vert = H > W
     big, small = (64, 30) if vert else (54, 26)
     ytop = int(H * (0.11 if vert else 0.07))
