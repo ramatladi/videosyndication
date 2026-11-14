@@ -182,13 +182,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "Rd36-63JbsA",
       "sku": "111295",
       "title": "How to Use Dermalogica Breakout Clearing Booster 30 mL #shorts",
       "manifest_slug": "umhlanga-breakout-clearing-booster-30ml-short",
       "media_sha256": "6594faf2aa356c874a585124647f6b99b3255e02da654f5c2100a5a9db1b3e73",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T09:25:40Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -455,5 +456,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 14
+  "youtube_ids_recorded": 15
 }
