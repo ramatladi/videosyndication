@@ -135,13 +135,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "5aaYyXbdDhk",
       "sku": "111362",
       "title": "Dermalogica BioLumin-C Serum 59 mL, Explained",
       "manifest_slug": "capetown-biolumin-c-serum-59ml",
       "media_sha256": "7af575c1339b376d8af828d2eb969faf49ac30cede899c7d33aa38d0bdaf7a0f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-14T16:06:48Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -466,5 +467,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T02:33+02:00"
   },
-  "youtube_ids_recorded": 25
+  "youtube_ids_recorded": 26
 }
