@@ -108,13 +108,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "o6SHQW3lJNQ",
       "sku": "111515",
       "title": "How to Use Dermalogica NeuroTouch Symmetry Serum #shorts",
       "manifest_slug": "umhlanga-neurotouch-symmetry-serum-short",
       "media_sha256": "6526cbb2d020250b0f63906a0c7a0516d2102230dc478380d9932a5541636dfa",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T17:52:46Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -248,5 +249,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T20:26+02:00"
   },
-  "youtube_ids_recorded": 11
+  "youtube_ids_recorded": 12
 }
