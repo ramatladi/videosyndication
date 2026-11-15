@@ -57,13 +57,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "e0AbBDsoYsY",
       "sku": "111331",
       "title": "Dermalogica Prisma Protect SPF30 50 mL in Under a Minute: Boosts Skin's Natural Luminosity #shorts",
       "manifest_slug": "capetown-prisma-protect-spf30-50ml-short",
       "media_sha256": "f07460eea7115ca5f760281fd6c92956edc6e86ed88418d75a02aa511e614b51",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T15:57:54Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -247,5 +248,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T20:26+02:00"
   },
-  "youtube_ids_recorded": 10
+  "youtube_ids_recorded": 11
 }
