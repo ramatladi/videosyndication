@@ -1,0 +1,515 @@
+{
+ "engine": "cast",
+ "id": 82,
+ "slug": "the-fast-spin-dance",
+ "title": "The Fast Spin Dance",
+ "trend": "TikTok 'Chipmunks Dance' (groups of three do a quick goofy routine to a sped-up, high-pitched 80s club track; New Engen TikTok list 'top trends this week', updated Nov 13 2026, US) + office holiday-party video season — three accountants (eager Priya, stiff boss Gary, silent giant Doug) must film the fast spin dance for the office holiday video by five while the copy machine judges; beats: the copier can only beep, Doug's deep 'squirrel', the spin left that does not exist in accounting and Gary's tie gets printed forty times; twist: Priya's phone has been on three times speed for four years, the real song is slow and beautiful and Gary is a natural slow dancer (prom 1991, with a chair); button: due at 4:59 so they send the fast version with forty copies of the tie",
+ "target_seconds": 180,
+ "length_reason": "Three-person sped-up dance clips are quick one-clip videos (about 15-30 s), so this stays a quick one-clip skit at the shortest film length: 3:00.",
+ "scene": "office",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "the three of us",
+  "doing the fast spin dance",
+  "(accounting department)"
+ ],
+ "youtube_title": "Accounting Has To Do The Fast Spin Dance (The Copier Ate His Tie) | Funny Office Cartoon",
+ "description": "The accounting team has until five o'clock to film a dance for the office holiday video. Gary does not spin, Doug does not talk, and the copy machine has strong opinions about ties.\n\n#cartoon #animation #funny #comedy #office",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "office comedy",
+  "coworkers",
+  "dance",
+  "holiday party",
+  "copy machine"
+ ],
+ "tiktok_caption": "accounting has to do the dance by five. the copier ate his tie 👔 #cartoon #animation #funny #comedy #office",
+ "cast": [
+  {
+   "id": "priya",
+   "name": "Priya",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b120b"
+   },
+   "top": {
+    "color": "#e84393",
+    "pattern": "plain"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#f1c40f",
+   "accessories": [
+    "headphones:#16a085"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 1,
+    "tempo": 1.08
+   }
+  },
+  {
+   "id": "gary",
+   "name": "Gary",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.02,
+   "hair": {
+    "style": "bald",
+    "color": "#8a7a6a"
+   },
+   "top": {
+    "color": "#34495e",
+    "pattern": "suit",
+    "pattern_color": "#c0392b"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#3b2a1a",
+   "accessories": [
+    "glasses",
+    "tie:#c0392b",
+    "mustache:#6d5a4a"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "doug",
+   "name": "Doug",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.14,
+   "hair": {
+    "style": "short",
+    "color": "#1b120b"
+   },
+   "top": {
+    "color": "#7f8c8d",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "beard"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.9
+   }
+  },
+  {
+   "id": "copier",
+   "name": "The Copy Machine",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#dfe6e9",
+   "scale": 1.05,
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "voice": {
+    "id": "bf_alice",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "priya",
+   "text": "Okay, accounting. The holiday video is due at five. We are doing the fast spin dance.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "gary",
+   "text": "Priya, I am the head of accounting. I do not spin. I reconcile.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "doug",
+   "text": "I spin.",
+   "shot": "CU",
+   "jump": true,
+   "after": "boing"
+  },
+  {
+   "spk": "copier",
+   "text": "I am the copy machine. I have seen every office party since two thousand four. Nobody should spin near me.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "priya",
+   "text": "Three people. One line. A very fast song. Very small steps. Arms go like little wheels.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "gary",
+   "text": "Little wheels. In a tie.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "priya",
+   "text": "Especially in a tie. The tie is the whole joke.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "copier",
+   "text": "That tie is going to end up in my paper tray. I am calling it now.",
+   "shot": "copier"
+  },
+  {
+   "spk": "priya",
+   "text": "Music! Copy machine, play the song.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "copier",
+   "text": "I am a copy machine. I do not play songs. I make one loud beep.",
+   "shot": "CU"
+  },
+  {
+   "spk": "priya",
+   "text": "Then beep fast.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "copier",
+   "text": "Beep. Beep beep beep beep beep.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gary",
+   "text": "I lost the count on the second beep.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "doug",
+   "text": "I am still on the first beep.",
+   "shot": "CU"
+  },
+  {
+   "spk": "priya",
+   "text": "Again! Small steps, big face, little wheels. Go!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "whoosh"
+  },
+  {
+   "spk": "gary",
+   "text": "My knee just made a noise like a stapler.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "copier",
+   "text": "That was me. I staple things on my own when I am nervous.",
+   "shot": "CU"
+  },
+  {
+   "spk": "priya",
+   "text": "Okay, step two. The song is sped up, so we mouth the words like tiny squirrels.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "gary",
+   "text": "Priya, I have a mortgage.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "priya",
+   "text": "Tiny squirrels have mortgages too. Little ones. Paid in acorns.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "doug",
+   "text": "I can do a squirrel.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "doug",
+   "text": "Hello. I am a squirrel.",
+   "shot": "CU",
+   "gesture": "wave",
+   "after": "rimshot"
+  },
+  {
+   "spk": "copier",
+   "text": "That is the deepest squirrel I have ever heard.",
+   "shot": "W"
+  },
+  {
+   "spk": "gary",
+   "text": "Doug has not said this many words since the fax machine left.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "doug",
+   "text": "I miss her.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "copier",
+   "text": "We all miss her. She retired to a dentist office in Ohio.",
+   "shot": "copier",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "priya",
+   "text": "Final move. Everybody spins once, to the left, and lands facing the camera.",
+   "shot": "W",
+   "gesture": "talk"
+  },
+  {
+   "spk": "gary",
+   "text": "Which left? My left or the camera's left?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "priya",
+   "text": "The left that makes us all face the same way.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "gary",
+   "text": "That left does not exist in accounting.",
+   "shot": "CU"
+  },
+  {
+   "spk": "priya",
+   "text": "Ready? Spin!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "doug",
+   "text": "I am facing the camera.",
+   "shot": "CU"
+  },
+  {
+   "spk": "priya",
+   "text": "I am facing the camera.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gary",
+   "text": "I am facing the copy machine.",
+   "shot": "TWO",
+   "pre": 0.6
+  },
+  {
+   "spk": "copier",
+   "text": "Hello, Gary. Your tie is in my tray. I told you.",
+   "shot": "W",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "gary",
+   "text": "It is pulling me in. Priya, it is printing my tie!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "copier",
+   "text": "Forty copies of one tie. Double sided.",
+   "shot": "CU"
+  },
+  {
+   "spk": "priya",
+   "text": "Keep going! That is content!",
+   "shot": "CU",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "doug",
+   "text": "Very good tie.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gary",
+   "text": "This tie was a gift from my mother!",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "copier",
+   "text": "She will get a copy.",
+   "shot": "copier"
+  },
+  {
+   "spk": "doug",
+   "text": "Priya. Your phone says three times speed.",
+   "shot": "CU",
+   "pre": 0.9,
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "priya",
+   "text": "What? No. That is just how songs sound.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "doug",
+   "text": "Not for the rest of us.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gary",
+   "text": "Priya, how long has your phone been on that setting?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "priya",
+   "text": "Since I got it. Four years.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "copier",
+   "text": "That explains why you talk so fast at the printer.",
+   "shot": "CU"
+  },
+  {
+   "spk": "priya",
+   "text": "That explains my audiobooks. I finished a whole mystery in one elevator ride.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "doug",
+   "text": "Normal speed.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "copier",
+   "text": "Oh. It is slow. It is a little bit beautiful.",
+   "shot": "W"
+  },
+  {
+   "spk": "gary",
+   "text": "Wait. This is my speed. This is accounting speed.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "gary",
+   "text": "Small step. Small step. One slow little wheel.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "priya",
+   "text": "Gary. You are really good at this.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gary",
+   "text": "Senior prom, nineteen ninety one. I slow danced all night. With a chair, but I danced.",
+   "shot": "CU"
+  },
+  {
+   "spk": "doug",
+   "text": "Beautiful.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "copier",
+   "text": "I printed a copy of that feeling.",
+   "shot": "copier"
+  },
+  {
+   "spk": "priya",
+   "text": "New plan. We send the slow version. With feelings.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "copier",
+   "text": "The video is due at five. It is four fifty nine.",
+   "shot": "W"
+  },
+  {
+   "spk": "priya",
+   "text": "Fast version! Everybody spin!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "gary",
+   "text": "Which left?",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "boing"
+  },
+  {
+   "spk": "doug",
+   "text": "All of them.",
+   "shot": "W",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "copier",
+   "text": "Sent. I attached forty copies of a tie.",
+   "shot": "copier"
+  },
+  {
+   "spk": "gary",
+   "text": "Of course you did.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.5
+  }
+ ]
+}
