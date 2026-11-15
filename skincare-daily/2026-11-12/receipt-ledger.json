@@ -311,13 +311,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "K3wx--siydU",
       "sku": "301339INT",
       "title": "Dermalogica Get + Keep Your Glow Kit (2 Full-Size): Brightens and Combats Skin Aging #shorts",
       "manifest_slug": "westville-get-keep-your-glow-kit-2-full-size-short",
       "media_sha256": "ebc62df4924d3923f1d4e9e21cd33cad0dcaf4fa7fc64be5281fdea06281aaf8",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T02:18:54Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -400,5 +401,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 19
+  "youtube_ids_recorded": 20
 }
