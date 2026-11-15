@@ -166,13 +166,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "bOlO0z3hSTA",
       "sku": "111386",
       "title": "How to Use Dermalogica Body Hydrating Cream #shorts",
       "manifest_slug": "westville-body-hydrating-cream-short",
       "media_sha256": "faae314ac8f09eb481cd8914f84b50c2cf344988184e51cc3442c8d6b7b24799",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T15:54:04Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -241,5 +242,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T20:26+02:00"
   },
-  "youtube_ids_recorded": 4
+  "youtube_ids_recorded": 5
 }
