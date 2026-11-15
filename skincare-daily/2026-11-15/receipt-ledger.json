@@ -6,13 +6,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "dq4PxXN0tBw",
       "sku": "301338INT",
       "title": "Routine Builder: Dermalogica Hydration You Can Feel Kit (2 Full-Size) #shorts",
       "manifest_slug": "midrand-hydration-you-can-feel-kit-2-full-size-short",
       "media_sha256": "d9c0065b568f59004a97b066bf24986750064069690431ee5a535cb8c520f340",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T10:27:04Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -236,5 +237,6 @@
     "missing_renders": 0,
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T20:26+02:00"
-  }
+  },
+  "youtube_ids_recorded": 1
 }
