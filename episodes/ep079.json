@@ -1,0 +1,448 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 79,
+ "slug": "the-cat-who-makes-the-deals",
+ "title": "The Cat Who Makes The Deals",
+ "trend": "TikTok 'Clapping Black Cat Handshake' meme (a cat claps, then shakes hands to show a deal being made; Virlo current TikTok trends, peaking, US) + Sunday chores negotiations — teen Zoe trades chores with Dad for rides, phone time and the comfy chair while Mister Biscuit, a black cat in a suit, claps twice and shakes on every deal and takes ten percent; twist: Dad sold the comfy chair to the cat in March ('I would give anything for five minutes of quiet'), the cat also owns the sunny window, the top of the fridge and half the neighbor's porch, and now rents the chair back",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "lofi",
+ "intro": [
+  "every deal in this house",
+  "goes through",
+  "the cat"
+ ],
+ "youtube_title": "Every deal in this house goes through the cat. He takes ten percent 🐈‍⬛",
+ "description": "Zoe wants rides, phone time and the comfy chair, so she starts making deals with Dad. Mister Biscuit claps twice, shakes on every one and takes his fee. Dad is about to find out what he already sold.\n\n#cartoon #animation #funny #cats #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "cat",
+  "black cat",
+  "dad and daughter",
+  "chores",
+  "family"
+ ],
+ "tiktok_caption": "every deal in this house goes through the cat 🐈‍⬛ #cartoon #animation #funny #cats",
+ "cast": [
+  {
+   "id": "zoe",
+   "name": "Zoe",
+   "kind": "human",
+   "color": "#a0522d",
+   "scale": 0.94,
+   "hair": {
+    "style": "long",
+    "color": "#2b1a10"
+   },
+   "top": {
+    "color": "#f5b041",
+    "pattern": "hoodie"
+   },
+   "bottom": "#1b4f72",
+   "shoes": "#f8f9f9",
+   "accessories": [
+    "glasses",
+    "bow:#8e44ad"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#fad7a0",
+   "voice": {
+    "id": "af_river",
+    "pitch": 1,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "leon",
+   "name": "Dad",
+   "kind": "human",
+   "color": "#d1a17a",
+   "scale": 1.06,
+   "hair": {
+    "style": "short",
+    "color": "#5d4037"
+   },
+   "top": {
+    "color": "#7f8c8d",
+    "pattern": "stripes",
+    "pattern_color": "#ecf0f1"
+   },
+   "bottom": "#283747",
+   "shoes": "#6e2c00",
+   "accessories": [
+    "glasses",
+    "mustache"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#d5dbdb",
+   "voice": {
+    "id": "am_adam",
+    "pitch": -1,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "biscuit",
+   "name": "Mister Biscuit",
+   "kind": "animal",
+   "ears": "cat",
+   "color": "#1c1c1c",
+   "inner": "#f1948a",
+   "belly": "#2e2e2e",
+   "scale": 0.9,
+   "top": {
+    "color": "#17202a",
+    "pattern": "suit",
+    "pattern_color": "#fdfefe"
+   },
+   "accessories": [
+    "tie:#c0392b",
+    "sunglasses"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f9e79f",
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": 0,
+    "tempo": 0.96
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "zoe",
+   "text": "Dad, I would like to make a deal. I do the dishes, you drive me to the mall.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "leon",
+   "text": "Deal.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Clap. Clap. And we shake.",
+   "shot": "biscuit",
+   "gesture": "arms_up",
+   "after": "ding"
+  },
+  {
+   "spk": "leon",
+   "text": "Why is the cat shaking my hand?",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.4
+  },
+  {
+   "spk": "biscuit",
+   "text": "Good evening. I am Mister Biscuit. Every deal in this house goes through me.",
+   "shot": "biscuit",
+   "gesture": "hips"
+  },
+  {
+   "spk": "zoe",
+   "text": "He has done this since he was a kitten. He just shows up.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "biscuit",
+   "text": "I hear the word deal, I clap, we shake. It is binding. It is the paw.",
+   "shot": "biscuit",
+   "gesture": "point"
+  },
+  {
+   "spk": "leon",
+   "text": "It is a cat.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "biscuit",
+   "text": "It is a cat in a suit, sir. Show some respect.",
+   "shot": "biscuit",
+   "gesture": "cross",
+   "after": "sting"
+  },
+  {
+   "spk": "zoe",
+   "text": "Okay. Second deal. I take out the trash, I get one extra hour of phone tonight.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "leon",
+   "text": "Thirty minutes.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "zoe",
+   "text": "Forty five.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "leon",
+   "text": "Fine. Forty five.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Clap. Clap. Deal. My fee is ten percent.",
+   "shot": "biscuit",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "leon",
+   "text": "Ten percent of what?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Ten percent of everything, sir. Ten percent of the dishes. One spoon.",
+   "shot": "biscuit"
+  },
+  {
+   "spk": "zoe",
+   "text": "He wants a spoon?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "biscuit",
+   "text": "And ten percent of the trash. I will be taking the good box. I live in it now.",
+   "shot": "biscuit",
+   "gesture": "hips",
+   "after": "boing"
+  },
+  {
+   "spk": "leon",
+   "text": "Okay. My turn. Zoe, you never change the toilet paper roll.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.5
+  },
+  {
+   "spk": "zoe",
+   "text": "I change it emotionally.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "leon",
+   "text": "You change the roll for a month, I let you pick the music in the car.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "zoe",
+   "text": "All the music? Even in the morning?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "leon",
+   "text": "Even in the morning.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Clap. Clap. Deal. Sir, you have made a terrible mistake, and it is binding.",
+   "shot": "biscuit",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "leon",
+   "text": "Why do you sound so happy about it?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "biscuit",
+   "text": "I get ten percent of the car music. I choose one song a week. It is whale sounds.",
+   "shot": "biscuit",
+   "gesture": "hips",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "zoe",
+   "text": "Okay, last deal. The big one. I want the comfy chair on movie night.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "leon",
+   "text": "Nobody gets the comfy chair. The comfy chair is mine.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "zoe",
+   "text": "I will clean the garage.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "leon",
+   "text": "The whole garage?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "zoe",
+   "text": "The whole garage. Even the box that says do not open.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "leon",
+   "text": "Deal.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Ah. Unfortunately, sir, you cannot give her the comfy chair.",
+   "shot": "biscuit",
+   "gesture": "shrug",
+   "pre": 0.4
+  },
+  {
+   "spk": "leon",
+   "text": "Why not?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Because you do not own it. You sold it to me in March.",
+   "shot": "biscuit",
+   "gesture": "hips",
+   "after": "sting"
+  },
+  {
+   "spk": "leon",
+   "text": "I did not sell a chair to a cat.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "biscuit",
+   "text": "You said, I would give anything for five minutes of quiet. I clapped. We shook.",
+   "shot": "biscuit",
+   "gesture": "point"
+  },
+  {
+   "spk": "leon",
+   "text": "What else do you own in this house?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "biscuit",
+   "text": "The comfy chair. The sunny window. The top of the fridge. And half of the neighbor's porch.",
+   "shot": "biscuit",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "zoe",
+   "text": "How do you own the neighbor's porch?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Missus Patel said, that cat can have the porch if he stops yelling at night. Clap. Clap.",
+   "shot": "biscuit",
+   "gesture": "hips"
+  },
+  {
+   "spk": "biscuit",
+   "text": "I have stopped yelling. A deal is a deal.",
+   "shot": "CU"
+  },
+  {
+   "spk": "leon",
+   "text": "Mister Biscuit. What would it take to get my chair back?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Now we are talking business. Three things.",
+   "shot": "biscuit",
+   "gesture": "point"
+  },
+  {
+   "spk": "biscuit",
+   "text": "The fancy fish every Sunday. The heated blanket. And you clean the garage.",
+   "shot": "biscuit",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "zoe",
+   "text": "Wait. I was cleaning the garage.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Now you both clean the garage. Teamwork.",
+   "shot": "biscuit",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "leon",
+   "text": "And then I get the chair back?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Then you may rent the chair. Forty five minutes. Like the phone.",
+   "shot": "biscuit",
+   "gesture": "hips"
+  },
+  {
+   "spk": "zoe",
+   "text": "He took my number.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "leon",
+   "text": "Deal.",
+   "shot": "CU",
+   "gesture": "wave",
+   "pre": 0.5
+  },
+  {
+   "spk": "biscuit",
+   "text": "Clap. Clap. Pleasure doing business. Please wipe your feet on my porch.",
+   "shot": "biscuit",
+   "gesture": "wave",
+   "after": "applause"
+  }
+ ]
+}
