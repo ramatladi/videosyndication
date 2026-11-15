@@ -159,13 +159,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "8zO0ZMgG5FQ",
       "sku": "111521",
       "title": "Dermalogica Daily Milkfoliant 74g refill: Oat-based Exfoliant Polishes Away Dead Skin #shorts",
       "manifest_slug": "umhlanga-daily-milkfoliant-74grefill-short",
       "media_sha256": "8f90cdaff9d34abce3f4478a6d803243f58f3316aab91bdd9e0280e7faa16316",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T01:22:03Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -398,5 +399,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 17
+  "youtube_ids_recorded": 18
 }
