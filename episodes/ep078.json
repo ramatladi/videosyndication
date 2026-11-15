@@ -1,0 +1,521 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 78,
+ "slug": "rock-paper-scissors-for-the-wings",
+ "title": "Rock Paper Scissors For The Wings",
+ "trend": "TikTok 'Rock Paper Scissors Food Challenge' (players settle rock paper scissors over one big plate and the winner takes the first big bite; Virlo current TikTok trends, rising, US) + Sunday football (big weekend of games on Google Trends US daily, Nov 14-15 2026) — brothers-in-law Hector and Wes play for the first wing while Grandma Pearl referees with a whistle and the game ball on the coffee table narrates; they tie forever, invent a well, a bucket and a dragon, and miss the big play; twist: Grandma ate every warm-up wing, is the undefeated senior center champion 'the Paper Lady', the real wings are in the oven, and she throws her first rock ever to beat them both",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "one plate of wings",
+  "two grown men",
+  "rock paper scissors"
+ ],
+ "youtube_title": "One plate of wings. Two grown men. Rock paper scissors. Grandma is the referee 🏈",
+ "description": "Hector and Wes need to settle who gets the first wing during the big game, so it comes down to rock paper scissors. Grandma Pearl is the referee, the game ball is the only one watching the game, and nobody should ever play Grandma.\n\n#cartoon #animation #funny #football #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "rock paper scissors",
+  "football sunday",
+  "wings",
+  "grandma",
+  "family"
+ ],
+ "tiktok_caption": "one plate of wings. two grown men. grandma is the referee 🏈 #cartoon #animation #funny #football",
+ "cast": [
+  {
+   "id": "hector",
+   "name": "Hector",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.05,
+   "hair": {
+    "style": "short",
+    "color": "#1c1c1c"
+   },
+   "top": {
+    "color": "#1f618d",
+    "pattern": "jersey",
+    "pattern_color": "#fdfefe",
+    "number": "7"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#e74c3c",
+   "accessories": [
+    "mustache"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "smile",
+   "label_color": "#aed6f1",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "wes",
+   "name": "Wes",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.02,
+   "hair": {
+    "style": "short",
+    "color": "#b7950b"
+   },
+   "top": {
+    "color": "#b03a2e",
+    "pattern": "jersey",
+    "pattern_color": "#fdfefe",
+    "number": "12"
+   },
+   "bottom": "#566573",
+   "shoes": "#f4f6f7",
+   "accessories": [
+    "cap:#17202a",
+    "beard"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "smile",
+   "label_color": "#f5b7b1",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "pearl",
+   "name": "Grandma Pearl",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 0.92,
+   "hair": {
+    "style": "bun",
+    "color": "#ecf0f1"
+   },
+   "top": {
+    "color": "#f8f9f9",
+    "pattern": "stripes",
+    "pattern_color": "#17202a"
+   },
+   "bottom": "#17202a",
+   "shoes": "#f1c40f",
+   "accessories": [
+    "whistle",
+    "glasses"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "label_color": "#f9e79f",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": -2,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "ball",
+   "name": "The Football",
+   "kind": "mascot",
+   "shape": "football",
+   "color": "#8b4513",
+   "scale": 0.85,
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#e59866",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "hector",
+   "text": "One plate of wings. Two grown men. Rock paper scissors. Winner takes the first bite.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "wes",
+   "text": "Let's go. I have been training for this my whole life.",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "whoosh"
+  },
+  {
+   "spk": "ball",
+   "text": "I am the game ball on the coffee table. Nobody has looked at me in an hour.",
+   "shot": "ball"
+  },
+  {
+   "spk": "ball",
+   "text": "There is a football game on the television. Nobody is watching that either.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pearl",
+   "text": "Okay, boys. I am the referee. Clean throws. No elbows. No feelings.",
+   "shot": "pearl",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": [
+    "hector",
+    "wes"
+   ],
+   "text": "Rock. Paper. Scissors.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pearl",
+   "text": "Rock and rock. Tie.",
+   "shot": "pearl"
+  },
+  {
+   "spk": "hector",
+   "text": "Again.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": [
+    "hector",
+    "wes"
+   ],
+   "text": "Rock. Paper. Scissors.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pearl",
+   "text": "Rock and rock. Tie again.",
+   "shot": "pearl",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "wes",
+   "text": "You always throw rock, Hector.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hector",
+   "text": "You always throw rock too, Wes.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ball",
+   "text": "They married sisters. They are the same man in two jerseys.",
+   "shot": "ball"
+  },
+  {
+   "spk": "pearl",
+   "text": "Seven ties in a row. The wings are getting cold.",
+   "shot": "pearl",
+   "gesture": "think",
+   "after": "boing"
+  },
+  {
+   "spk": "wes",
+   "text": "New strategy. I am going to throw a well.",
+   "shot": "CU",
+   "gesture": "hips",
+   "pre": 0.4
+  },
+  {
+   "spk": "hector",
+   "text": "There is no well.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "wes",
+   "text": "A well beats rock. The rock falls in the well. Everybody knows that.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "hector",
+   "text": "Then I throw a bucket. A bucket takes the water out of the well.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "wes",
+   "text": "Then I throw a dragon.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "pearl",
+   "text": "No dragons. No wells. No buckets. Three things only. Rock, paper, scissors.",
+   "shot": "pearl",
+   "gesture": "cross"
+  },
+  {
+   "spk": "ball",
+   "text": "Last year they threw a submarine. We do not talk about last year.",
+   "shot": "ball",
+   "after": "record_scratch"
+  },
+  {
+   "spk": [
+    "hector",
+    "wes"
+   ],
+   "text": "Rock. Paper. Scissors.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pearl",
+   "text": "Rock and rock. Ten ties. I am getting a snack.",
+   "shot": "pearl",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hector",
+   "text": "Okay, best of three.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "wes",
+   "text": "Best of seven.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hector",
+   "text": "Best of seventy.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "ball",
+   "text": "Behind them on the television, a man just ran the whole field. Nobody saw it.",
+   "shot": "ball",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ball",
+   "text": "He is doing a little dance. He is very proud. He is alone.",
+   "shot": "CU"
+  },
+  {
+   "spk": "wes",
+   "text": "Wait. What is the score?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "hector",
+   "text": "Who cares. Focus. Look me in the eyes.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": [
+    "hector",
+    "wes"
+   ],
+   "text": "Rock. Paper. Scissors.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "hector",
+   "text": "Paper. I threw paper. Paper beats rock.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "wes",
+   "text": "I threw paper too.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pearl",
+   "text": "Paper and paper. Tie.",
+   "shot": "pearl",
+   "after": "ding"
+  },
+  {
+   "spk": "hector",
+   "text": "We changed at the same time. That is beautiful and terrible.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "wes",
+   "text": "Okay, hold on. Why does the plate look smaller?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "hector",
+   "text": "It does look smaller.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "ball",
+   "text": "The plate is not smaller. The plate is empty.",
+   "shot": "ball"
+  },
+  {
+   "spk": "pearl",
+   "text": "Hm?",
+   "shot": "pearl",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "wes",
+   "text": "Grandma Pearl. There is sauce on your whistle.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "pearl",
+   "text": "Every ten ties, the referee takes a wing. It is in the rules, baby.",
+   "shot": "pearl",
+   "gesture": "hips"
+  },
+  {
+   "spk": "hector",
+   "text": "What rules?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pearl",
+   "text": "My rules. I was the rock paper scissors champion of the senior center. Nineteen seventy two to now.",
+   "shot": "pearl",
+   "gesture": "point"
+  },
+  {
+   "spk": "ball",
+   "text": "Undefeated. They call her the Paper Lady. She has never thrown a rock in her life.",
+   "shot": "ball"
+  },
+  {
+   "spk": "wes",
+   "text": "So the wings are gone. All of them.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pearl",
+   "text": "Oh, those were just the warm-up wings. The real wings are in the oven.",
+   "shot": "pearl",
+   "gesture": "wave",
+   "after": "sting"
+  },
+  {
+   "spk": "hector",
+   "text": "There are more wings?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "pearl",
+   "text": "Forty wings. Extra crispy. One of you has to beat me first.",
+   "shot": "pearl",
+   "gesture": "hips"
+  },
+  {
+   "spk": "ball",
+   "text": "Nobody has ever beaten her. A man from the bowling league tried once. He still thinks about it.",
+   "shot": "ball"
+  },
+  {
+   "spk": "wes",
+   "text": "Together, Hector. We throw scissors. Scissors beats paper.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hector",
+   "text": "Brothers.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": [
+    "hector",
+    "wes",
+    "pearl"
+   ],
+   "text": "Rock. Paper. Scissors.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pearl",
+   "text": "Rock.",
+   "shot": "pearl",
+   "gesture": "hips",
+   "pre": 0.5
+  },
+  {
+   "spk": "hector",
+   "text": "You threw a rock.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pearl",
+   "text": "First rock of my life. For my boys. I knew you would finally change.",
+   "shot": "pearl",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "wes",
+   "text": "She has been studying us since the wedding.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pearl",
+   "text": "Wings for the referee. You two can share the celery.",
+   "shot": "pearl",
+   "gesture": "wave"
+  },
+  {
+   "spk": "ball",
+   "text": "Touchdown.",
+   "shot": "ball",
+   "after": "applause",
+   "pre": 0.4
+  }
+ ]
+}
