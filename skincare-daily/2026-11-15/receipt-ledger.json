@@ -194,13 +194,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "PGWpST_pYAU",
       "sku": "111511",
       "title": "What Dermalogica Dynamic Skin Sculptor Body Serum Does: Toning + Tightening Body Serum #shorts",
       "manifest_slug": "westville-dynamic-skin-sculptor-body-serum-short",
       "media_sha256": "dfee02f5bd3875f5a97a0b342384472dae0ee699b07e1da3e612307409145f68",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T17:52:46Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -246,5 +247,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T20:26+02:00"
   },
-  "youtube_ids_recorded": 9
+  "youtube_ids_recorded": 10
 }
