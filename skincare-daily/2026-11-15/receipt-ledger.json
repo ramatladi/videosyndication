@@ -71,13 +71,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "7uau9nNT4Bs",
       "sku": "111505INT",
       "title": "Daily SPF: Dermalogica Golden Hour Hydrating SPF30 Stick #shorts",
       "manifest_slug": "capetown-golden-hour-hydrating-spf30-stick-short",
       "media_sha256": "f1be6a0a0ec5ff969bf9be4a10dd6f142b0d1484c878bc9262afd00f51298777",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T21:20:17Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -266,5 +267,5 @@
     "youtube_ids_recorded": 14,
     "producer_refreshed": "2026-11-15T19:53+02:00"
   },
-  "youtube_ids_recorded": 17
+  "youtube_ids_recorded": 18
 }
