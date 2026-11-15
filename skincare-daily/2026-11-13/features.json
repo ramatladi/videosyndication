@@ -1,0 +1,538 @@
+{
+ "checked": "2026-11-13",
+ "note": "2026-11-13 daily batch (skincare-daily/sk.py)",
+ "channels": {
+  "skincare.joburg": {
+   "locality": "Rosebank",
+   "desk": "Moisturizers & textures",
+   "credential_line": false,
+   "voice": "af_heart",
+   "accent": [
+    74,
+    93,
+    78
+   ],
+   "card_side": "left",
+   "radius": 36,
+   "chip": "pill",
+   "title_weight": "Bold",
+   "transition": "fade",
+   "music": {
+    "root": 57,
+    "bpm": 72,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      11
+     ],
+     [
+      5,
+      9,
+      12,
+      16
+     ],
+     [
+      2,
+      5,
+      9,
+      12
+     ],
+     [
+      7,
+      11,
+      14,
+      17
+     ]
+    ]
+   }
+  },
+  "skincare.durban": {
+   "locality": "Westville",
+   "desk": "Body care",
+   "credential_line": false,
+   "voice": "af_bella",
+   "accent": [
+    0,
+    121,
+    125
+   ],
+   "card_side": "right",
+   "radius": 16,
+   "chip": "square",
+   "title_weight": "SemiBold",
+   "transition": "smoothleft",
+   "music": {
+    "root": 60,
+    "bpm": 96,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      12
+     ],
+     [
+      9,
+      12,
+      16,
+      21
+     ],
+     [
+      5,
+      9,
+      12,
+      17
+     ],
+     [
+      7,
+      11,
+      14,
+      19
+     ]
+    ]
+   }
+  },
+  "dermatologist.joburg": {
+   "locality": "Midrand",
+   "desk": "Building a skincare routine",
+   "credential_line": true,
+   "voice": "af_jessica",
+   "accent": [
+    35,
+    59,
+    110
+   ],
+   "card_side": "left",
+   "radius": 8,
+   "chip": "underline",
+   "title_weight": "Bold",
+   "transition": "smoothup",
+   "music": {
+    "root": 55,
+    "bpm": 84,
+    "prog": [
+     [
+      0,
+      3,
+      7,
+      10
+     ],
+     [
+      8,
+      12,
+      15,
+      19
+     ],
+     [
+      3,
+      7,
+      10,
+      14
+     ],
+     [
+      10,
+      14,
+      17,
+      21
+     ]
+    ]
+   }
+  },
+  "dermatology.joburg": {
+   "locality": "Bedfordview",
+   "desk": "Labels & ingredients",
+   "credential_line": true,
+   "voice": "af_nicole",
+   "accent": [
+    96,
+    46,
+    92
+   ],
+   "card_side": "right",
+   "radius": 28,
+   "chip": "pill",
+   "title_weight": "Bold",
+   "transition": "wipeleft",
+   "music": {
+    "root": 50,
+    "bpm": 66,
+    "prog": [
+     [
+      0,
+      3,
+      7,
+      10
+     ],
+     [
+      5,
+      8,
+      12,
+      15
+     ],
+     [
+      7,
+      10,
+      14,
+      17
+     ],
+     [
+      3,
+      7,
+      10,
+      14
+     ]
+    ]
+   }
+  },
+  "dermatology.durban": {
+   "locality": "uMhlanga",
+   "desk": "Hydration & layering",
+   "credential_line": true,
+   "voice": "af_sarah",
+   "accent": [
+    16,
+    96,
+    140
+   ],
+   "card_side": "left",
+   "radius": 44,
+   "chip": "square",
+   "title_weight": "SemiBold",
+   "transition": "dissolve",
+   "music": {
+    "root": 62,
+    "bpm": 104,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      11
+     ],
+     [
+      7,
+      11,
+      14,
+      18
+     ],
+     [
+      9,
+      12,
+      16,
+      19
+     ],
+     [
+      5,
+      9,
+      12,
+      16
+     ]
+    ]
+   }
+  },
+  "dermatology.capetown": {
+   "locality": "Cape Town",
+   "desk": "Daily sun care",
+   "credential_line": true,
+   "voice": "af_aoede",
+   "accent": [
+    196,
+    92,
+    28
+   ],
+   "card_side": "right",
+   "radius": 22,
+   "chip": "underline",
+   "title_weight": "Bold",
+   "transition": "fadeblack",
+   "music": {
+    "root": 53,
+    "bpm": 112,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      12
+     ],
+     [
+      5,
+      9,
+      12,
+      17
+     ],
+     [
+      7,
+      11,
+      14,
+      19
+     ],
+     [
+      4,
+      7,
+      11,
+      16
+     ]
+    ]
+   }
+  }
+ },
+ "videos": [
+  {
+   "slug": "westville-stressed-skin-recovery-system-2-full-size",
+   "domain": "skincare.durban",
+   "format": "video",
+   "product_name": "stressed skin recovery system (2 full-size)",
+   "spoken_name": "stressed skin recovery system",
+   "product_url": "https://dermalogica.co.za/products/stressed-skin-recovery-system?variant=51118900937018",
+   "packshot": "d1113-111513INT-00.png",
+   "title": "Dermalogica Stressed Skin Recovery System (2 Full-Size): What It Does and How to Use It",
+   "lead": "Dermalogica stressed skin recovery system (2 full-size): Multivitamin Power Recovery Cream, from the Westville body care desk.",
+   "facts": [
+    "Multivitamin Power Recovery Cream",
+    "What's inside: multivitamin power recovery cream (50ml); multivitamin power recovery masque (75ml)",
+    "Recovery cream boosts skin resilience to prevent premature signs of skin aging; recovery masque is a restorative masque for skin exposed to stress",
+    "Repairs daily damage triggered by free radicals",
+    "Increases elasticity, boosts collagen synthesis",
+    "Fights environmental stressors with powerful multivitamins",
+    "How to use: Cream: after cleansing and toning, apply over face and neck with light, upward strokes, morning and night. Masque: apply generously to cleansed face and throat, avoiding the eye area; after 10 to 15 minutes rinse with warm water; once per week or whenever skin requires a soothing remedy."
+   ],
+   "tags": [
+    "stressed skin recovery system (2 full-size)",
+    "dermalogica stressed skin recovery system (2 full-size)",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #StressedSkinRecoverySystem2FullSize #BodyCare",
+   "thumb": {
+    "text": "Body care pick",
+    "kicker": "WESTVILLE",
+    "layout": "photo",
+    "photo": "d1113-111513INT-02.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Multivitamin Power Recovery Cream",
+     "say": "Westville body care desk: Dermalogica stressed skin recovery system."
+    },
+    {
+     "type": "bullets",
+     "kicker": "WHAT'S INSIDE",
+     "headline": "2 products in one kit",
+     "items": [
+      "MultiVitamin Power Recovery Cream (50 mL)",
+      "MultiVitamin Power Recovery Masque (75 mL)"
+     ],
+     "say": "Inside the kit: multivitamin power recovery cream, fifty milliliters; multivitamin power recovery masque, 75 milliliters.",
+     "image": "d1113-111513INT-02.jpg"
+    },
+    {
+     "type": "figure",
+     "image": "d1113-111513INT-02.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Restore stressed skin",
+     "say": "Together, they work to restore stressed skin and also help prevent future signs of aging."
+    },
+    {
+     "type": "figure",
+     "image": "d1113-111513INT-05.jpg",
+     "kicker": "BENEFIT 1",
+     "headline": "Cream + masque",
+     "say": "The recovery cream boosts skin resilience to prevent premature signs of skin aging, and the recovery masque is a restorative masque for skin exposed to stress."
+    },
+    {
+     "type": "note",
+     "image": "d1113-111513INT-02.jpg",
+     "kicker": "BENEFIT 2",
+     "headline": "Repairs daily damage triggered by free radicals",
+     "say": "Repairs daily damage triggered by free radicals."
+    },
+    {
+     "type": "note",
+     "image": "d1113-111513INT-05.jpg",
+     "kicker": "BENEFIT 3",
+     "headline": "Increases elasticity, boosts collagen synthesis",
+     "say": "Increases elasticity, boosts collagen synthesis."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Cream: face and neck, morning and night",
+      "Masque: 10 to 15 minutes, then rinse",
+      "Masque once a week or as needed"
+     ],
+     "say": "After cleansing and toning, smooth the cream over face and neck with light, upward strokes, morning and night. Apply the masque generously to cleansed face and throat, avoiding the eye area, and rinse with warm water after ten to fifteen minutes. Use the masque once a week, or whenever skin needs a soothing remedy.",
+     "image": "d1113-111513INT-05.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "Stressed Skin Recovery System (2 Full-Size)",
+     "say": "That's Dermalogica stressed skin recovery system. The link is in the description."
+    }
+   ],
+   "sku": "111513INT",
+   "variant": "Default Title",
+   "slot_sast": "18:00",
+   "tier": "d",
+   "tier_why": "least recently used product (catalog thin; new script and visuals)",
+   "script_overlap_max": 0.77
+  },
+  {
+   "slug": "bedfordview-awaken-peptide-eye-gel-15ml-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product_name": "awaken peptide eye gel",
+   "spoken_name": "awaken peptide eye gel",
+   "product_url": "https://dermalogica.co.za/products/awaken-peptide-eye-gel-15ml-111449?variant=46583518626106",
+   "packshot": "d1113-111449-00.png",
+   "title": "How to Use Dermalogica Awaken Peptide Eye Gel 15 mL #shorts",
+   "lead": "Dermalogica awaken peptide eye gel: firms, hydrates, and depuffs, from the Bedfordview labels and ingredients desk.",
+   "facts": [
+    "Firms, hydrates, and depuffs",
+    "Visibly firms and smooths skin texture",
+    "Minimizes the appearance of fine lines and wrinkles",
+    "Reduces the appearance of puffiness around the eye area",
+    "How to use: Apply under the eye and along the orbital bone. Keep out of eyes."
+   ],
+   "tags": [
+    "awaken peptide eye gel",
+    "dermalogica awaken peptide eye gel",
+    "labels and ingredients",
+    "bedfordview skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #AwakenPeptideEyeGel #LabelRead #shorts",
+   "thumb": {
+    "text": "Label read",
+    "kicker": "BEDFORDVIEW",
+    "layout": "photo",
+    "photo": "d1113-111449-03.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "15 mL · Firms, hydrates, and depuffs",
+     "say": "Bedfordview labels and ingredients desk: Dermalogica awaken peptide eye gel, fifteen milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1113-111449-02.jpg",
+     "kicker": "BENEFITS",
+     "headline": "Visibly firms and smooths skin texture",
+     "say": "It visibly firms and smooths skin texture, and minimizes the appearance of fine lines and wrinkles."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Apply under the eye",
+      "Keep out of eyes"
+     ],
+     "say": "Apply under the eye and along the orbital bone. Keep out of eyes.",
+     "image": "d1113-111449-03.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "15 mL",
+     "say": "That's Dermalogica awaken peptide eye gel. The link is in the description."
+    }
+   ],
+   "sku": "111449",
+   "variant": "15ml",
+   "slot_sast": "12:00",
+   "tier": "d",
+   "tier_why": "least recently used product (catalog thin; new script and visuals)",
+   "script_overlap_max": 0.79
+  },
+  {
+   "slug": "bedfordview-get-keep-your-glow-kit-2-full-size-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product_name": "get + keep your glow kit (2 full-size)",
+   "spoken_name": "get plus keep your glow kit",
+   "product_url": "https://dermalogica.co.za/products/get-keep-your-glow-set-2026?variant=53577187655994",
+   "packshot": "d1113-301339INT-00.png",
+   "title": "Label Read: Dermalogica Get + Keep Your Glow Kit (2 Full-Size) #shorts",
+   "lead": "Dermalogica get + keep your glow kit (2 full-size): brightens and combats skin aging, from the Bedfordview labels and ingredients desk.",
+   "facts": [
+    "Brightens and combats skin aging",
+    "What's inside: BioLumin-C Serum (30ml); Dynamic Skin Recovery SPF 50 (50ml)",
+    "Provides long-lasting hydration and critical protection against UV light",
+    "Helps control the triggers that lead to skin aging",
+    "BioLumin-C",
+    "Exfoliates and reduces unbalanced pigmentation",
+    "How to use: Dispense a full dropper of BioLumin-C Serum and smooth over cleansed face and neck, after toning and before moisturizing. Follow with Dynamic Skin Recovery SPF50 and apply a generous amount to face and neck, preferably 30 minutes prior to sun exposure."
+   ],
+   "tags": [
+    "get + keep your glow kit (2 full-size)",
+    "dermalogica get + keep your glow kit (2 full-size)",
+    "labels and ingredients",
+    "bedfordview skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #GetKeepYourGlowKit2FullSize #LabelRead #shorts",
+   "thumb": {
+    "text": "Label read",
+    "kicker": "BEDFORDVIEW",
+    "layout": "left"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Brightens and combats skin aging",
+     "say": "Bedfordview labels and ingredients desk: Dermalogica get plus keep your glow kit."
+    },
+    {
+     "type": "bullets",
+     "kicker": "WHAT'S INSIDE",
+     "headline": "2 products in one kit",
+     "items": [
+      "BioLumin-C Serum (30 mL)",
+      "Dynamic Skin Recovery SPF 50 (50 mL)"
+     ],
+     "say": "Inside the kit: BioLumin-C Serum, thirty milliliters; Dynamic Skin Recovery SPF fifty, fifty milliliters.",
+     "image": "d1113-301339INT-01.jpg"
+    },
+    {
+     "type": "figure",
+     "image": "d1113-301339INT-02.jpg",
+     "kicker": "BENEFITS",
+     "headline": "Provides long-lasting hydration",
+     "say": "It provides long-lasting hydration and critical protection against UV light, and helps control the triggers that lead to skin aging."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Dispense a full dropper",
+      "Follow with Dynamic Skin Recovery SPF50"
+     ],
+     "say": "Dispense a full dropper of BioLumin-C Serum and smooth over cleansed face and neck, after toning and before moisturizing.",
+     "image": "d1113-301339INT-02.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "Get + Keep Your Glow Kit (2 Full-Size)",
+     "say": "That's Dermalogica get plus keep your glow kit. The link is in the description."
+    }
+   ],
+   "sku": "301339INT",
+   "variant": "Default Title",
+   "slot_sast": "16:00",
+   "tier": "d",
+   "tier_why": "least recently used product (catalog thin; new script and visuals)",
+   "script_overlap_max": 0.83
+  }
+ ]
+}
