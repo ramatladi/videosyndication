@@ -32,13 +32,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "8GjshzF5kzE",
       "sku": "106053",
       "title": "What Dermalogica MultiVitamin Power Firm 15 mL Does: Firms and Improves Resilience #shorts",
       "manifest_slug": "midrand-multivitamin-power-firm-15ml-short",
       "media_sha256": "75029db65416082bec0dbf8ba2e4f339464812cb8c8872e97192f08265d65ae8",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T21:19:40Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -265,5 +266,5 @@
     "youtube_ids_recorded": 14,
     "producer_refreshed": "2026-11-15T19:53+02:00"
   },
-  "youtube_ids_recorded": 16
+  "youtube_ids_recorded": 17
 }
