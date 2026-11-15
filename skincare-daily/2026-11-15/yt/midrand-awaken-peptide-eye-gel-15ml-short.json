@@ -3,15 +3,23 @@
   "handle": "@DermatologistJoburgMidrand",
   "title": "What Dermalogica Awaken Peptide Eye Gel 15 mL Does: Firms, Hydrates, and Depuffs #shorts",
   "slot_sast": "2026-11-15 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefc0c7698e0d72",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-15T15:56:38Z",
   "error": null,
-  "updated": "2026-11-15T15:56:43Z",
+  "updated": "2026-11-15T15:57:14Z",
   "video_id": "4MTKNzJxBIE",
   "published_now": "2026-11-15T15:56:38Z",
   "url": "https://youtube.com/shorts/4MTKNzJxBIE",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCb16q-70MGFin6RfsMGbdnw",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
