@@ -93,13 +93,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "DqsQlHuWi1E",
       "sku": "301243INT",
       "title": "Dermalogica Skin Transformation Duo Explained: Exfoliates and Combats Skin Aging",
       "manifest_slug": "umhlanga-skin-transformation-duo",
       "media_sha256": "a8aac04831f67587ef24a4004c00822947121ae05f7a520d972f56f7cdab3df5",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T16:52:46Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -242,5 +243,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T20:26+02:00"
   },
-  "youtube_ids_recorded": 5
+  "youtube_ids_recorded": 6
 }
