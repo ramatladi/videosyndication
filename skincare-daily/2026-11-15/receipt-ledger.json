@@ -129,13 +129,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "xWk1F-hBIow",
       "sku": "111465",
       "title": "Label Read: Dermalogica Dynamic Skin Retinol Serum 30 mL #shorts",
       "manifest_slug": "bedfordview-dynamic-skin-retinol-serum-30ml-short",
       "media_sha256": "61c06d3cfafbef8832e94c9ba1bee711ff0c3911509710e8463921a4b8ac8621",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T15:53:25Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -240,5 +241,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T20:26+02:00"
   },
-  "youtube_ids_recorded": 3
+  "youtube_ids_recorded": 4
 }
