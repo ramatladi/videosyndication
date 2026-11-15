@@ -3,15 +3,23 @@
   "handle": "@DermatologyCapeTown",
   "title": "Daily SPF: Dermalogica Golden Hour Hydrating SPF30 Stick #shorts",
   "slot_sast": "2026-11-15 20:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefe9a9aff9697c",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-15T21:20:17Z",
   "error": null,
-  "updated": "2026-11-15T21:20:21Z",
+  "updated": "2026-11-15T21:20:52Z",
   "video_id": "7uau9nNT4Bs",
   "published_now": "2026-11-15T21:20:17Z",
   "url": "https://youtube.com/shorts/7uau9nNT4Bs",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UC6IhnhkFRVu8tTc1FJbjb8Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
