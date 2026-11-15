@@ -235,13 +235,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "Nc2wQRRKwo8",
       "sku": "411279",
       "title": "Label Read: Dermalogica Sound Sleep Cocoon 10 mL #shorts",
       "manifest_slug": "bedfordview-sound-sleep-cocoon-10ml-short",
       "media_sha256": "2013d46bc7b80fb932e86cb110353c79584b5eaa1068b66c24627157164e1836",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T02:18:54Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -399,5 +400,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 18
+  "youtube_ids_recorded": 19
 }
