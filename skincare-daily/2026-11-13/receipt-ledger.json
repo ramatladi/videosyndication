@@ -32,13 +32,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "DqNaLc1wtwM",
       "sku": "111513INT",
       "title": "Dermalogica Stressed Skin Recovery System (2 Full-Size): What It Does and How to Use It",
       "manifest_slug": "westville-stressed-skin-recovery-system-2-full-size",
       "media_sha256": "0a350b8c6896736f1da21885a1582aebd0f369575b5ddb415bf7e42ede460b15",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T21:17:47Z"
     }
   ],
   "reconciliation": {
@@ -47,5 +48,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-15T20:10+02:00"
   },
-  "youtube_ids_recorded": 2
+  "youtube_ids_recorded": 3
 }
