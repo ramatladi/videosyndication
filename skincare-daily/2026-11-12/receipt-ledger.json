@@ -45,13 +45,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "6YHXNOpPS5I",
       "sku": "111481",
       "title": "What Dermalogica PowerBright Dark Spot Peel 50ml Does: Visibly Lifts Dark Spots #shorts",
       "manifest_slug": "midrand-powerbright-dark-spot-peel-50ml-50ml-short",
       "media_sha256": "12838560238d603c4d324caf22bc4ab3c853aba1cc14091e5ef91db3dc43d0ca",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T01:20:48Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -396,5 +397,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 15
+  "youtube_ids_recorded": 16
 }
