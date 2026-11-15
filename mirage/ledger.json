@@ -2779,6 +2779,81 @@
     "dance": 0.079,
     "genre_fit": 0.885
    }
+  },
+  {
+   "release": "mtr041",
+   "date": "2026-11-15",
+   "slot": "2026-11-15T19:55",
+   "format": "short",
+   "title": "Gold In The Heatwave",
+   "artist": "Cascade Two",
+   "style": "house",
+   "key": "A major",
+   "bpm": 125,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "0fade623-fee4-4df3-a923-523c6a243066",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/b76aac67-0d9f-43eb-b274-9b8880868bdc.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr041.json",
+   "photographer": "Carol Magalh\u00e3es",
+   "photo_page": "https://unsplash.com/photos/woman-in-yellow-bikini-standing-on-beach-during-daytime-zxUgUc0bG8k",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-4053618471888009735",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-17613009088471079376.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr041.mp3",
+    "top": [
+     [
+      "electronic",
+      0.278
+     ],
+     [
+      "dance",
+      0.265
+     ],
+     [
+      "pop",
+      0.212
+     ],
+     [
+      "House",
+      0.211
+     ],
+     [
+      "chillout",
+      0.079
+     ],
+     [
+      "female vocalists",
+      0.069
+     ],
+     [
+      "electronica",
+      0.068
+     ],
+     [
+      "electro",
+      0.065
+     ],
+     [
+      "soul",
+      0.056
+     ],
+     [
+      "80s",
+      0.045
+     ]
+    ],
+    "house": 0.211,
+    "electronic": 0.278,
+    "dance": 0.265,
+    "genre_fit": 0.858
+   }
   }
  ]
 }
