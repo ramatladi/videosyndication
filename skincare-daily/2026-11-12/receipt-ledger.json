@@ -71,13 +71,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "4QRgQyxUYoY",
       "sku": "111447",
       "title": "How to Use Dermalogica Post-Breakout Fix 15 mL #shorts",
       "manifest_slug": "midrand-post-breakout-fix-15ml-short",
       "media_sha256": "c8e0a58017b76369e6f5645530d4bde56181a865cdb5971eb1b3dba2efb7ea00",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T09:27:04Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -407,5 +408,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 26
+  "youtube_ids_recorded": 27
 }
