@@ -219,13 +219,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "MBq_pqbBfCg",
       "sku": "111525",
       "title": "Dermalogica Smart Eye Density Undereye Serum, Explained Fast #shorts",
       "manifest_slug": "bedfordview-smart-eye-density-undereye-serum-short",
       "media_sha256": "1523a708f24291ce624f81e01b48c9b321b402f947bdaec69dbaf80909fa4f2e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T01:18:55Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -393,5 +394,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 12
+  "youtube_ids_recorded": 13
 }
