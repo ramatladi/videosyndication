@@ -58,13 +58,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "J2XJMJ_rao4",
       "sku": "811049",
       "title": "Dermalogica Dynamic Skin Recovery SPF50 100 mL: How to Use It",
       "manifest_slug": "midrand-dynamic-skin-recovery-spf50-100ml",
       "media_sha256": "661b1c3efa5d4b26a0235153b185aef921525364ca34615dbb2db63da5ab9841",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T08:27:05Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -402,5 +403,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 21
+  "youtube_ids_recorded": 22
 }
