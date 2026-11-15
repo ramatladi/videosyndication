@@ -391,13 +391,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "Zwv6LPyucPE",
       "sku": "111483",
       "title": "Dermalogica Pro-Collagen Banking Serum 30 mL, Explained",
       "manifest_slug": "rosebank-pro-collagen-banking-serum-30ml",
       "media_sha256": "2c1a8538b6126fbfe565b268987601104b33c1b69b708f83d9258c56e9b4bd70",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T08:29:35Z"
     }
   ],
   "reconciliation": {
@@ -406,5 +407,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 25
+  "youtube_ids_recorded": 26
 }
