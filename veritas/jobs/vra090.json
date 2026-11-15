@@ -1,0 +1,137 @@
+{
+ "id": "vra090",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.05,
+ "source_id": "elastic:8378070",
+ "job": {
+  "employer": "Elastic",
+  "logo": "elastic",
+  "title": "Senior Java Engineer - Distributed Systems, Serverless - Elasticsearch",
+  "short_title": "Senior Java Engineer",
+  "location": "United States",
+  "workplace": "",
+  "pay": "$133.1K – $210.6K a year",
+  "pay_full": "$133,100 – $210,600 a year typical starting base salary ($159,900 – $252,900 in Seattle, Los Angeles, the San Francisco Bay Area and the New York City metro area), plus eligibility for Elastic's stock program",
+  "type": "",
+  "posted": "",
+  "ref": "",
+  "apply_url": "https://jobs.elastic.co/jobs?gh_jid=8378070&gh_jid=8378070",
+  "apply_site": "jobs.elastic.co"
+ },
+ "details": {
+  "about": "Elastic makes the Elastic Search AI Platform, used by more than half of the Fortune 500 for search, security and observability. This Senior Software Engineer joins the Elasticsearch Distributed Systems team, focused on how Elasticsearch delivers scale, performance and resilience, especially in its Serverless offering: how cluster nodes communicate, and how data is indexed, allocated and managed across nodes.",
+  "duties": [
+   "Build and operate core pieces of the next-generation Serverless Elasticsearch offering",
+   "Improve the components behind concurrent, consistent indexing across many machines",
+   "Maintain the cluster coordination system so performance stays high as nodes come and go and data moves, while keeping the system safe and live",
+   "Push the limits on how many shards, nodes and petabytes Elasticsearch can handle",
+   "Investigate performance and concurrency issues and propose fixes, owning investigations end to end",
+   "Help support engineers with the hardest problems"
+  ],
+  "needs": [
+   "Deep background in distributed systems and consensus algorithms",
+   "Strong core Java skills, including the standard library's data structures and concurrency constructs and newer language features",
+   "Deep proficiency in algorithms",
+   "Proven work on complex, highly distributed systems, beyond using off-the-shelf services",
+   "Ability to build and debug broad-impact features running on multiple machines, and own projects from design to delivery",
+   "A track record of using AI to speed up development, debug complex systems and optimize code, while owning the outcome",
+   "Ability to collaborate across teams and work autonomously in a distributed team with asynchronous, direct communication"
+  ],
+  "nice": [
+   "Data stores",
+   "Search, analytics, Lucene",
+   "Strong knowledge of the JDK",
+   "Asynchronous event-driven network frameworks such as Netty"
+  ],
+  "benefits": "Typical starting base salary $133,100 – $210,600 a year; in select locations (Seattle WA, Los Angeles CA, the San Francisco Bay Area CA and the New York City metro area) the range is $159,900 – $252,900. Pay is base salary only, with no variable component. The role is eligible for Elastic's stock program, and benefits include a company-matched 401(k) with dollar-for-dollar matching up to 6% of eligible earnings.",
+  "notes": [
+   "Elastic describes itself as a distributed company"
+  ]
+ },
+ "yt_title": "Elastic Is Hiring: Senior Java Engineer | United States | $133K–$210K",
+ "hashtags": [
+  "#TechJobs",
+  "#JavaDeveloper",
+  "#DistributedSystems",
+  "#Elasticsearch",
+  "#Hiring"
+ ],
+ "tags": [
+  "elastic jobs",
+  "java developer jobs",
+  "senior java engineer",
+  "distributed systems jobs",
+  "elasticsearch jobs",
+  "backend engineer jobs",
+  "software engineer jobs",
+  "tech jobs",
+  "jobs in usa",
+  "veritas recruitment agency"
+ ],
+ "scenes": [
+  {
+   "head": "The role",
+   "bullets": [
+    "Senior Java Engineer",
+    "Elastic · Elasticsearch Distributed Systems",
+    "United States"
+   ],
+   "lines": [
+    "Now hiring in the U S! Elastic wants a Senior Java Engineer for its Elasticsearch distributed systems team, working on its serverless offering."
+   ],
+   "show": [
+    "Now hiring in the US! Elastic wants a Senior Java Engineer for its Elasticsearch distributed systems team, working on its serverless offering."
+   ]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": [
+    "Build core Serverless Elasticsearch",
+    "Cluster coordination & indexing",
+    "Scale shards, nodes & petabytes"
+   ],
+   "lines": [
+    "You'll build core pieces of serverless Elasticsearch, improve indexing and cluster coordination, and push how many nodes and petabytes it can handle.",
+    "You'll also chase down tough performance and concurrency issues from start to finish."
+   ]
+  },
+  {
+   "head": "What you need",
+   "bullets": [
+    "Distributed systems & consensus",
+    "Strong core Java & concurrency",
+    "Deep algorithms skills"
+   ],
+   "lines": [
+    "You'll need deep distributed systems and consensus experience, strong core Java including concurrency, and real depth in algorithms.",
+    "Experience with Lucene, Netty, or data stores is a bonus."
+   ]
+  },
+  {
+   "head": "Pay",
+   "bullets": [
+    "$133,100 – $210,600 a year (base)",
+    "$159,900 – $252,900 in select metros",
+    "Stock program · 401(k) match up to 6%"
+   ],
+   "lines": [
+    "Starting base pay is one hundred thirty-three thousand one hundred to two hundred ten thousand six hundred dollars a year, higher in select big cities, plus stock."
+   ],
+   "show": [
+    "Starting base pay is $133,100 to $210,600 a year, higher in select big cities, plus stock."
+   ]
+  },
+  {
+   "head": "How to apply",
+   "bullets": [
+    "Application link in the description",
+    "Apply on jobs.elastic.co"
+   ],
+   "lines": [
+    "To apply, find the direct application link in the description.",
+    "Follow Veritas for new tech jobs every day."
+   ]
+  }
+ ]
+}
