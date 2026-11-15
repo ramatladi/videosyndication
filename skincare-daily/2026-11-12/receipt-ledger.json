@@ -95,13 +95,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "kRglpyo4lt4",
       "sku": "111370M",
       "title": "Dermalogica Discover Healthy Skin Kit, Explained Fast #shorts",
       "manifest_slug": "capetown-discover-healthy-skin-kit-short",
       "media_sha256": "d3f31ce5f60732ef0fca41616a2a77ebdd580daae3a308dd0facec901d8f57a7",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T01:21:25Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -397,5 +398,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 16
+  "youtube_ids_recorded": 17
 }
