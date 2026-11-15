@@ -1,0 +1,510 @@
+{
+ "engine": "cast",
+ "id": 81,
+ "slug": "grab-your-favorite-thing",
+ "title": "Grab Your Favorite Thing",
+ "trend": "TikTok 'Pick Your Favorite Thing' couple challenge (couple stands behind a table of items and both grab their favorite thing on three; Virlo current TikTok trends, rising, US) + Sunday football and the run-up to Thanksgiving pie season — Dana and Marcus do the challenge live for the family: round one he grabs the TV remote, round two she grabs the pumpkin pie, Pickles the dog keeps putting himself on the table; twist: final round Marcus sets a ring box, Dana grabs it and it is empty because Pickles hid the ring on his tail so someone would finally grab him; she says yes and the dog becomes ring bearer",
+ "target_seconds": 180,
+ "length_reason": "Pick-your-favorite-thing challenge clips are quick one-clip videos, so this stays a quick one-clip skit: 3:00.",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "on three,",
+  "grab your favorite thing",
+  "(it should be me)"
+ ],
+ "youtube_title": "On Three, Grab Your Favorite Thing (He Grabbed The Remote) | Funny Couple Cartoon",
+ "description": "Dana and Marcus stand behind a table and promise to grab each other on three. Then there is a remote, a pumpkin pie and a dog who refuses to be ignored, and the last round has a little box on it.\n\n#cartoon #animation #funny #comedy #couples",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "couple",
+  "proposal",
+  "talking dog",
+  "husband and wife",
+  "family comedy"
+ ],
+ "tiktok_caption": "on three, grab your favorite thing. he grabbed the remote 📺 #cartoon #animation #funny #comedy #couples",
+ "cast": [
+  {
+   "id": "dana",
+   "name": "Dana",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "curly",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "plain"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "bow:#c0392b"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "marcus",
+   "name": "Marcus",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.08,
+   "hair": {
+    "style": "short",
+    "color": "#1b120b"
+   },
+   "top": {
+    "color": "#2980b9",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "12"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#e74c3c",
+   "accessories": [
+    "beard",
+    "cap:#2c3e50"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "smile",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "pickles",
+   "name": "Pickles",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#c49a6c",
+   "belly": "#f5e6d3",
+   "scale": 0.9,
+   "top": {
+    "color": "#27ae60",
+    "pattern": "plain"
+   },
+   "accessories": [
+    "bow:#f1c40f"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "phone",
+   "name": "The Phone",
+   "kind": "mascot",
+   "shape": "phone",
+   "color": "#2c3e50",
+   "case": "#e84393",
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_kore",
+    "pitch": 1,
+    "tempo": 1.05
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "phone",
+   "text": "Recording. Okay. Couple challenge. On three, you both grab your favorite thing on the table.",
+   "shot": "W"
+  },
+  {
+   "spk": "dana",
+   "text": "Easy. Everybody knows the answer is supposed to be your partner.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marcus",
+   "text": "Babe. I know the rules. I have seen these videos.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "pickles",
+   "text": "For the record, I am also on the table. Lying here. Being adorable.",
+   "shot": "pickles"
+  },
+  {
+   "spk": "phone",
+   "text": "Round one. On the table: a slice of pie, the TV remote, a heated blanket, and Marcus.",
+   "shot": "W"
+  },
+  {
+   "spk": "dana",
+   "text": "Why is Marcus on the table?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marcus",
+   "text": "I am leaning on the table. It counts.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "phone",
+   "text": "One. Two. Three.",
+   "shot": "W"
+  },
+  {
+   "spk": "dana",
+   "text": "Got you, baby!",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "marcus",
+   "text": "Got the remote!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "dana",
+   "text": "You grabbed the remote.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.8
+  },
+  {
+   "spk": "marcus",
+   "text": "It is fourth quarter. I panicked.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pickles",
+   "text": "Nobody grabbed me. I want that noted in the video.",
+   "shot": "pickles",
+   "gesture": "cross"
+  },
+  {
+   "spk": "phone",
+   "text": "Comments are already coming in. Your aunt Bev says, oh no, Marcus.",
+   "shot": "W"
+  },
+  {
+   "spk": "marcus",
+   "text": "Aunt Bev is watching this?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "phone",
+   "text": "Everyone is watching this. I went live.",
+   "shot": "W",
+   "gesture": "shrug",
+   "after": "sting"
+  },
+  {
+   "spk": "dana",
+   "text": "Round two. Remove the remote. Hide it somewhere he cannot reach.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "That is fair. That is very fair.",
+   "shot": "CU"
+  },
+  {
+   "spk": "phone",
+   "text": "Round two. On the table: the pie, the heated blanket, Pickles, and Marcus.",
+   "shot": "W"
+  },
+  {
+   "spk": "pickles",
+   "text": "Finally. My moment.",
+   "shot": "pickles",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "dana",
+   "text": "Marcus, look at me. You are grabbing me. Say it.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "I am grabbing you. I promise.",
+   "shot": "CU"
+  },
+  {
+   "spk": "phone",
+   "text": "One. Two. Three.",
+   "shot": "W"
+  },
+  {
+   "spk": "marcus",
+   "text": "Got you!",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "dana",
+   "text": "Got the pie!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "marcus",
+   "text": "Dana!",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.8
+  },
+  {
+   "spk": "dana",
+   "text": "It is pumpkin. It is November. I am only human.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marcus",
+   "text": "I trained for this. I stretched.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "pickles",
+   "text": "I would like to file a complaint. I was right next to the pie.",
+   "shot": "pickles",
+   "gesture": "hips"
+  },
+  {
+   "spk": "phone",
+   "text": "Aunt Bev says, oh no, Dana. Grandpa says, put the dog in it.",
+   "shot": "W"
+  },
+  {
+   "spk": "pickles",
+   "text": "Grandpa gets it. Grandpa has always gotten it.",
+   "shot": "pickles",
+   "gesture": "point"
+  },
+  {
+   "spk": "dana",
+   "text": "Okay. Tie game. One to one. Final round decides who loves who more.",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "marcus",
+   "text": "Final round. I set the table this time. Close your eyes.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "dana",
+   "text": "If there is a remote on that table, I am moving back in with my mom.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "marcus",
+   "text": "No remote. Just one little box. And me.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "pickles",
+   "text": "And me. I put myself back on the table. Nobody asked me to.",
+   "shot": "pickles"
+  },
+  {
+   "spk": "phone",
+   "text": "Small velvet box. Wait. Marcus. Is that what I think it is?",
+   "shot": "phone",
+   "after": "sting"
+  },
+  {
+   "spk": "marcus",
+   "text": "Shh. Stay focused. You are a camera.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "phone",
+   "text": "I am shaking. My battery just went up by ten percent.",
+   "shot": "phone",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "dana",
+   "text": "Open your eyes? Okay. What is that box?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marcus",
+   "text": "On three, grab your favorite thing.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "phone",
+   "text": "One. Two. Three!",
+   "shot": "W"
+  },
+  {
+   "spk": "dana",
+   "text": "I grabbed the box! I grabbed the box! Is this what I think it is?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "marcus",
+   "text": "I grabbed you. I always grab you. Open it.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "dana",
+   "text": "It is empty.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "record_scratch",
+   "pre": 1.0
+  },
+  {
+   "spk": "marcus",
+   "text": "It is what?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "pre": 0.6
+  },
+  {
+   "spk": "phone",
+   "text": "Aunt Bev says, oh no, everyone.",
+   "shot": "phone"
+  },
+  {
+   "spk": "marcus",
+   "text": "There was a ring in there. I checked it four times this morning.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dana",
+   "text": "Pickles. Look at me.",
+   "shot": "pickles",
+   "gesture": "point"
+  },
+  {
+   "spk": "pickles",
+   "text": "I would never.",
+   "shot": "pickles",
+   "gesture": "shrug",
+   "pre": 0.8
+  },
+  {
+   "spk": "dana",
+   "text": "Pickles. Why is your tail sparkling?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "pickles",
+   "text": "Fine. I took it. You always grab the pie and the remote. I wanted to be grabbed for once.",
+   "shot": "pickles",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marcus",
+   "text": "So the ring is on the dog.",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pickles",
+   "text": "It is on my tail. It looks better on my tail.",
+   "shot": "pickles",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dana",
+   "text": "Then I guess I am grabbing my favorite thing.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marcus",
+   "text": "Me?",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "dana",
+   "text": "The dog. The ring is on the dog. But yes. Also you. Yes!",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "after": "applause",
+   "jump": true
+  },
+  {
+   "spk": "marcus",
+   "text": "She said yes!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "phone",
+   "text": "Aunt Bev says, finally. Grandpa says, told you, put the dog in it.",
+   "shot": "W"
+  },
+  {
+   "spk": "pickles",
+   "text": "Best day of my life. I was grabbed. And I am the ring bearer now. I did not apply.",
+   "shot": "pickles",
+   "gesture": "wave"
+  },
+  {
+   "spk": "marcus",
+   "text": "Can I have the remote back now?",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.8
+  },
+  {
+   "spk": "dana",
+   "text": "Marcus.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "rimshot"
+  }
+ ]
+}
