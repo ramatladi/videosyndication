@@ -162,13 +162,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "BgDJ6IyrYnU",
       "sku": "111522",
       "title": "Dermalogica Daily Superfoliant 57g refill: Exfoliates, Resurfaces, Detoxes #shorts",
       "manifest_slug": "bedfordview-daily-superfoliant-57grefill-short",
       "media_sha256": "3d5b61171252786ea59bbdc2643f1ca92e1769bc9efa77f79af2beece81cfb0a",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T23:16:30Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -268,5 +269,5 @@
     "youtube_ids_recorded": 14,
     "producer_refreshed": "2026-11-15T19:53+02:00"
   },
-  "youtube_ids_recorded": 19
+  "youtube_ids_recorded": 20
 }
