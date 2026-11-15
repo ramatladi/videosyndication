@@ -1,0 +1,596 @@
+{
+ "date": "2026-11-16",
+ "ledger": "skincare-daily/2026-11-16/receipt-ledger.json",
+ "publishing": "skincare-upload.yml (GitHub Action) publishes; this batch uploads and schedules nothing.",
+ "commission_disclosure": "description only",
+ "language": "American English",
+ "channels": {
+  "@DermatologistJoburgMidrand": {
+   "domain": "dermatologist.joburg",
+   "shorts": 3,
+   "videos": 0,
+   "all_pass": true,
+   "status": "partial: staged items ready"
+  },
+  "@DermatologyCapeTown": {
+   "domain": "dermatology.capetown",
+   "shorts": 2,
+   "videos": 0,
+   "all_pass": true,
+   "status": "partial: staged items ready"
+  },
+  "@SkincareDurbanWestville": {
+   "domain": "skincare.durban",
+   "shorts": 0,
+   "videos": 1,
+   "all_pass": true,
+   "status": "partial: staged items ready"
+  }
+ },
+ "not_staged": [],
+ "unfilled_slots": [
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-16 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-16 12:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-16 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-16 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-16 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-16 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-16 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-16 12:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-16 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-16 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-16 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-16 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-16 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-16 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-16 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-16 12:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-16 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-16 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-16 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-16 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-16 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-16 12:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-16 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-16 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-16 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-16 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-16 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-16 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-16 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-16 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard (every remaining desk/angle candidate repeats an earlier script)"
+  }
+ ],
+ "items": [
+  {
+   "domain": "dermatologist.joburg",
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-16 08:00",
+   "format": "short",
+   "slug": "midrand-prisma-protect-spf30-50ml-short",
+   "sku": "111331",
+   "variant": "50ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "prisma protect spf30",
+    "listing_url": "https://dermalogica.co.za/products/prisma-protect-spf30-prisma-protect-spf30?variant=45975459725626",
+    "checked": "2026-11-16",
+    "packshot": "skincare-daily/2026-11-16/images/d1116-111331-00.png",
+    "packshot_sha256": "269e7e9ef6778cd9d6676c27afe6ad3a1792a8cc76e0435cb6e5d50791bc4a3c",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Medium_e34607d5-3232-415d-877d-3b5df93f36fb.png?v=1698723206"
+   },
+   "title": "What Dermalogica Prisma Protect SPF30 50 mL Does: Boosts Skin's Natural Luminosity #shorts",
+   "description": "Dermalogica prisma protect spf30: boosts skin's natural luminosity, from the Midrand routine desk.\n\nWe earn a commission if you buy through our link at https://dermatologist.joburg/.\n\n• Boosts skin's natural luminosity\n• Defends against UV rays, free radical damage and pollution\n• Hydrates for visibly smooth skin all day long\n• Boosts skin's natural luminosity\n• How to use: After cleansing and toning, apply a generous amount to face and neck, preferably 30 minutes prior to sun exposure.\n\ndermatologist.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/prisma-protect-spf30-prisma-protect-spf30?variant=45975459725626, checked 2026-11-16); check the current listing before you buy.\n\nShop: https://dermatologist.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #PrismaProtectSPF30 #RoutineBuilder #shorts",
+   "tags": [
+    "prisma protect spf30",
+    "dermalogica prisma protect spf30",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 24.82,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-prisma-protect-spf30-50ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-prisma-protect-spf30-50ml-short.mp4",
+   "sha256": "2dd377b3775d40d6753595f0924521c148d98848a9e88dc554919dc1abfe03b0",
+   "thumbnail_path": "skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-prisma-protect-spf30-50ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-prisma-protect-spf30-50ml-short.jpg",
+   "thumbnail_sha256": "66228ff447dde86c20cba4c47375dd808932ff8b5941f3df65c834d9568aaacc",
+   "captions_path": "skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-prisma-protect-spf30-50ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-prisma-protect-spf30-50ml-short.en.srt",
+   "captions_sha256": "7ed413f7405a22fe83eff6b0d2c0506322ac804739e773e30c3ef7e616a6fa9d",
+   "listing_images": [
+    "skincare-daily/2026-11-16/images/d1116-111331-00.png",
+    "skincare-daily/2026-11-16/images/d1116-111331-02.jpg",
+    "skincare-daily/2026-11-16/images/d1116-111331-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_jessica (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.44,
+    "true_peak": -1.97,
+    "packshot_match": 0.971,
+    "srt_cues": 7,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 41,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatologist.joburg",
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-16 12:00",
+   "format": "short",
+   "slug": "midrand-magnetic-afterglow-cleanser-150ml-short",
+   "sku": "111512",
+   "variant": "150ml",
+   "selection": {
+    "tier": "b",
+    "why": "different size/kit of a desk product, SKU never used before"
+   },
+   "product": {
+    "name": "magnetic[+] afterglow cleanser",
+    "listing_url": "https://dermalogica.co.za/products/magnetic-afterglow-cleanser-150ml?variant=51541833515322",
+    "checked": "2026-11-16",
+    "packshot": "skincare-daily/2026-11-16/images/d1116-111512-00.jpg",
+    "packshot_sha256": "ca021520f53421f649a55c3494c602d4f66df4cae3f2c08bdf2f812de7f566de",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/MAGC_Benefits.webp?v=1751550197"
+   },
+   "title": "How to Use Dermalogica Magnetic[+] Afterglow Cleanser 150 mL #shorts",
+   "description": "Dermalogica magnetic[+] afterglow cleanser: cleanse, magnetize, glow, from the Midrand routine desk.\n\nWe earn a commission if you buy through our link at https://dermatologist.joburg/.\n\n• Cleanse, magnetize, glow\n• Refreshing cleanse leaves a lasting glow\n• Renews + revitalizes skin daily\n• Deposits long-lasting hydration + nutrients\n• How to use: Massage onto dampened face and neck. Rinse with warm water. Keep out of eyes. Stop using if you experience redness or itching.\n\ndermatologist.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/magnetic-afterglow-cleanser-150ml?variant=51541833515322, checked 2026-11-16); check the current listing before you buy.\n\nShop: https://dermatologist.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #MagneticAfterglowCleanser #RoutineBuilder #shorts",
+   "tags": [
+    "magnetic[+] afterglow cleanser",
+    "dermalogica magnetic[+] afterglow cleanser",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 25.11,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-magnetic-afterglow-cleanser-150ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-magnetic-afterglow-cleanser-150ml-short.mp4",
+   "sha256": "60f00e0c384c22c7ba0071dbd688f5e87b47d64c11a984f6ab36e5109077baba",
+   "thumbnail_path": "skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-magnetic-afterglow-cleanser-150ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-magnetic-afterglow-cleanser-150ml-short.jpg",
+   "thumbnail_sha256": "0e9c4c7b3619c85c12160887ed4065a1e64d95a511bd8e6e0cc6499f361d446f",
+   "captions_path": "skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-magnetic-afterglow-cleanser-150ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-magnetic-afterglow-cleanser-150ml-short.en.srt",
+   "captions_sha256": "90f2471e87eea815486b78e3f4b3b902291cb49fb443029c93fba8e3711430a4",
+   "listing_images": [
+    "skincare-daily/2026-11-16/images/d1116-111512-00.jpg",
+    "skincare-daily/2026-11-16/images/d1116-111512-04.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_jessica (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.45,
+    "true_peak": -1.9,
+    "packshot_match": 0.862,
+    "srt_cues": 10,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 51,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatologist.joburg",
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-16 16:00",
+   "format": "short",
+   "slug": "midrand-biolumin-c-heat-aging-protector-spf50-50ml-short",
+   "sku": "111510INT",
+   "variant": "50ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "biolumin-c heat aging protector spf50",
+    "listing_url": "https://dermalogica.co.za/products/biolumin-c-heat-aging-protector-spf50?variant=50747696513338",
+    "checked": "2026-11-16",
+    "packshot": "skincare-daily/2026-11-16/images/d1116-111510INT-00.jpg",
+    "packshot_sha256": "bf6dce58de6110f587c0a13ae41a0f615c837f8799530392958f2366dc0eff08",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/BioLuminCHeatAgingProtector_Benefits.webp?v=1748528761"
+   },
+   "title": "Dermalogica BioLumin-C Heat Aging Protector SPF50 50 mL, Explained Fast #shorts",
+   "description": "Dermalogica biolumin-c heat aging protector spf50: turn down heat aging, turn up radiance, from the Midrand routine desk.\n\nWe earn a commission if you buy through our link at https://dermatologist.joburg/.\n\n• Turn down heat aging, turn up radiance\n• Immediately brightens, hydrates, and soothes skin\n• Helps defend against heat aging and improves the look of skin texture + tone\n• Helps protect against UV rays to prevent early skin aging\n• How to use: Apply liberally to face and neck, preferably 15 minutes prior to sun exposure.\n\ndermatologist.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/biolumin-c-heat-aging-protector-spf50?variant=50747696513338, checked 2026-11-16); check the current listing before you buy.\n\nShop: https://dermatologist.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #BioLuminCHeatAgingProtectorSPF50 #RoutineBuilder #shorts",
+   "tags": [
+    "biolumin-c heat aging protector spf50",
+    "dermalogica biolumin-c heat aging protector spf50",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 26.42,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-biolumin-c-heat-aging-protector-spf50-50ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-biolumin-c-heat-aging-protector-spf50-50ml-short.mp4",
+   "sha256": "e332b488387876a5d9d75d94758c5f43d2cb60206a3ba36bf4490c41f2a7c33c",
+   "thumbnail_path": "skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-biolumin-c-heat-aging-protector-spf50-50ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-biolumin-c-heat-aging-protector-spf50-50ml-short.jpg",
+   "thumbnail_sha256": "d2eeacce6ddab60edfcc74fe785365802798706311c1be26382ea0275df6dff2",
+   "captions_path": "skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-biolumin-c-heat-aging-protector-spf50-50ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/dermatologist.joburg/midrand-biolumin-c-heat-aging-protector-spf50-50ml-short.en.srt",
+   "captions_sha256": "87ac1b95759c1f7ebd6f5097f0519781032b2cd7327c2b9b7eec484f7bef0251",
+   "listing_images": [
+    "skincare-daily/2026-11-16/images/d1116-111510INT-00.jpg",
+    "skincare-daily/2026-11-16/images/d1116-111510INT-03.jpg",
+    "skincare-daily/2026-11-16/images/d1116-111510INT-09.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_jessica (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.43,
+    "true_peak": -1.82,
+    "packshot_match": 0.798,
+    "srt_cues": 7,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 50,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.capetown",
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-16 12:00",
+   "format": "short",
+   "slug": "capetown-futurecode-booster-damage-correcting-longevity-serum-short",
+   "sku": "111524",
+   "variant": "Default Title",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "futurecode booster damage-correcting longevity serum",
+    "listing_url": "https://dermalogica.co.za/products/futurecode-booster-damage-correcting-longevity-serum?variant=53552025567546",
+    "checked": "2026-11-16",
+    "packshot": "skincare-daily/2026-11-16/images/d1116-111524-00.jpg",
+    "packshot_sha256": "94bbe633c84674fa1cef3198a1d1c4b7694731d5557401f7d02cd93375acdded",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Futurecode_Booster_Retail_1.0_oz_FRONT_2.jpg?v=1780663956"
+   },
+   "title": "Cape Town Sun Care Desk: Dermalogica Futurecode Booster Damage-Correcting Longevity Serum #shorts",
+   "description": "Dermalogica futurecode booster damage-correcting longevity serum: Supports skin’s natural repair functions for firmer-looking, more even-toned skin, from the Cape Town daily sun care desk.\n\nWe earn a commission if you buy through our link at https://dermatology.capetown/.\n\n• Supports skin’s natural repair functions for firmer-looking, more even-toned skin\n• Rebuilds the skin barrier to defend against environmental aggressors\n• Replaces visible DNA-related damage with a revitalized, healthy-looking glow\n• An omni-antioxidant blend neutralizes free radicals, helping defend against visible skin aging\n• How to use: Unscrew the dropper top slowly, allowing 5 seconds for the product to fill the auto-dropper. Smooth 1 dose over clean face and neck morning and night, alone or mixed with another skin care product.\n\ndermatology.capetown is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/futurecode-booster-damage-correcting-longevity-serum?variant=53552025567546, checked 2026-11-16); check the current listing before you buy.\n\nShop: https://dermatology.capetown/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #FuturecodeBoosterDamageCorrectingLongevitySerum #DailySunCare #shorts",
+   "tags": [
+    "futurecode booster damage-correcting longevity serum",
+    "dermalogica futurecode booster damage-correcting longevity serum",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 44.23,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-16/renders/dermatology.capetown/capetown-futurecode-booster-damage-correcting-longevity-serum-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/dermatology.capetown/capetown-futurecode-booster-damage-correcting-longevity-serum-short.mp4",
+   "sha256": "0a17bf387adba639eef8252d5f552e022c7d44c271bf88b84e79d7162852cd5b",
+   "thumbnail_path": "skincare-daily/2026-11-16/renders/dermatology.capetown/capetown-futurecode-booster-damage-correcting-longevity-serum-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/dermatology.capetown/capetown-futurecode-booster-damage-correcting-longevity-serum-short.jpg",
+   "thumbnail_sha256": "51ad6af8ec3a6920ac3f9e1dda4904ee4d581365e24ea38651a1b91b8918f2ab",
+   "captions_path": "skincare-daily/2026-11-16/renders/dermatology.capetown/capetown-futurecode-booster-damage-correcting-longevity-serum-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/dermatology.capetown/capetown-futurecode-booster-damage-correcting-longevity-serum-short.en.srt",
+   "captions_sha256": "d13d01ef04447835ac78b3c63ad0049862a9b6a4d5fde01ad0055ac4d9d757a3",
+   "listing_images": [
+    "skincare-daily/2026-11-16/images/d1116-111524-00.jpg",
+    "skincare-daily/2026-11-16/images/d1116-111524-01.jpg",
+    "skincare-daily/2026-11-16/images/d1116-111524-04.jpg",
+    "skincare-daily/2026-11-16/images/d1116-111524-07.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_aoede (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.32,
+    "true_peak": -1.44,
+    "packshot_match": 0.925,
+    "srt_cues": 12,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 52,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.capetown",
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-16 20:00",
+   "format": "short",
+   "slug": "capetown-skin-transformation-duo-short",
+   "sku": "301243INT",
+   "variant": "Default Title",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "skin transformation duo",
+    "listing_url": "https://dermalogica.co.za/products/skin-transformation-duo-set-dmf-40g?variant=52077701759290",
+    "checked": "2026-11-16",
+    "packshot": "skincare-daily/2026-11-16/images/d1116-301243INT-00.png",
+    "packshot_sha256": "f1d747b0665887f1afc3abb635523eacb727a9abe547bae9456197914c8f8da1",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Untitleddesign_2.png?v=1762409325"
+   },
+   "title": "Daily SPF: Dermalogica Skin Transformation Duo #shorts",
+   "description": "Dermalogica skin transformation duo: exfoliates and combats skin aging, from the Cape Town daily sun care desk.\n\nWe earn a commission if you buy through our link at https://dermatology.capetown/.\n\n• Exfoliates and combats skin aging\n• What's inside: Daily Microfoliant (40g); Dynamic Skin Recovery SPF50 (15ml)\n• Helps control the triggers that lead to skin aging\n• Blends smoothly into skin for a perfected finish\n• Removes dulling surface debris and evens skin tone\n• Reveals brighter, smoother skin\n• How to use: Dispense about a half-teaspoon of Daily Microfoliant® into very wet hands and create a creamy paste by rubbing hands together. Apply to face in circular motions, avoiding the eye area. Massage gently for one minute, then rinse thoroughly. After cleansing and toning, apply a generous amou\n\ndermatology.capetown is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/skin-transformation-duo-set-dmf-40g?variant=52077701759290, checked 2026-11-16); check the current listing before you buy.\n\nShop: https://dermatology.capetown/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #SkinTransformationDuo #DailySPF #shorts",
+   "tags": [
+    "skin transformation duo",
+    "dermalogica skin transformation duo",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 36.92,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-16/renders/dermatology.capetown/capetown-skin-transformation-duo-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/dermatology.capetown/capetown-skin-transformation-duo-short.mp4",
+   "sha256": "6aad29bb474ca4ef2837e28444a218ebe83b708b0554244a0c4f0e054017fc43",
+   "thumbnail_path": "skincare-daily/2026-11-16/renders/dermatology.capetown/capetown-skin-transformation-duo-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/dermatology.capetown/capetown-skin-transformation-duo-short.jpg",
+   "thumbnail_sha256": "313eb3e6b78b61c8e8e27a66430b04328f445de32bf716843b82b7dbac31db99",
+   "captions_path": "skincare-daily/2026-11-16/renders/dermatology.capetown/capetown-skin-transformation-duo-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/dermatology.capetown/capetown-skin-transformation-duo-short.en.srt",
+   "captions_sha256": "c6a56175c272efe78a95540344c9fc884b6bdc25be4f23910cefebbbb6272e80",
+   "listing_images": [
+    "skincare-daily/2026-11-16/images/d1116-301243INT-00.png",
+    "skincare-daily/2026-11-16/images/d1116-301243INT-01.jpg",
+    "skincare-daily/2026-11-16/images/d1116-301243INT-02.jpg",
+    "skincare-daily/2026-11-16/images/d1116-301243INT-04.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_aoede (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.29,
+    "true_peak": -1.37,
+    "packshot_match": 0.936,
+    "srt_cues": 10,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 52,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.durban",
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-16 10:00",
+   "format": "video",
+   "slug": "westville-clarifying-body-spray",
+   "sku": "111478INT",
+   "variant": "177ml",
+   "selection": {
+    "tier": "a",
+    "why": "unused SKU in the desk (7-day window)"
+   },
+   "product": {
+    "name": "clarifying body spray",
+    "listing_url": "https://dermalogica.co.za/products/clarifying-body-spray?variant=47072733102394",
+    "checked": "2026-11-16",
+    "packshot": "skincare-daily/2026-11-16/images/d1116-111478INT-00.jpg",
+    "packshot_sha256": "8425884a74646129affd3a651db6b7f08499abd6060eb736c5abf0bac4ff19b1",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/01_31bb71ee-a7ec-4ba8-aa6c-1f13535c7186.jpg?v=1762345461"
+   },
+   "title": "Dermalogica Clarifying Body Spray: Clears Pores and Minimizes Breakouts, How to Use It",
+   "description": "Dermalogica clarifying body spray: clears pores and minimizes breakouts, from the Westville body care desk.\n\nWe earn a commission if you buy through our link at https://skincare.durban/.\n\n• Clears pores and minimizes breakouts\n• Helps balance excess oil and reduce redness\n• Combats active body breakouts and minimizes future breakouts\n• Soothes, cools, and revives the skin with gentle botanicals\n• How to use: Cleanse skin thoroughly before applying product. Hold the spray about a foot and a half away from your body and spray onto clean, dry skin. Let it sink in for 30-60 seconds before getting dressed. Use AM and/or PM.\n\nChapters:\n0:00 Overview\n0:34 Soothes, cools,\n0:47 Directions from the listing\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/clarifying-body-spray?variant=47072733102394, checked 2026-11-16); check the current listing before you buy.\n\nShop: https://skincare.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #ClarifyingBodySpray #BodyCare",
+   "tags": [
+    "clarifying body spray",
+    "dermalogica clarifying body spray",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 68.9,
+   "resolution": "1920x1080",
+   "media_path": "skincare-daily/2026-11-16/renders/skincare.durban/westville-clarifying-body-spray.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/skincare.durban/westville-clarifying-body-spray.mp4",
+   "sha256": "bf3ba4cd4a18ae1c825ebfb3aa61bbe2b5b3e4e82f1c3e698716d5738286916d",
+   "thumbnail_path": "skincare-daily/2026-11-16/renders/skincare.durban/westville-clarifying-body-spray.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/skincare.durban/westville-clarifying-body-spray.jpg",
+   "thumbnail_sha256": "d89548ea5590e3e06e88e26ca89842b0567353df7f6c46fa1107b7177fe305d1",
+   "captions_path": "skincare-daily/2026-11-16/renders/skincare.durban/westville-clarifying-body-spray.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-16/renders/skincare.durban/westville-clarifying-body-spray.en.srt",
+   "captions_sha256": "6ab3dea257401137ff7d867730e4081f1a2a6cf9e16497ba4fe62349a50298a7",
+   "listing_images": [
+    "skincare-daily/2026-11-16/images/d1116-111478INT-00.jpg",
+    "skincare-daily/2026-11-16/images/d1116-111478INT-01.jpg",
+    "skincare-daily/2026-11-16/images/d1116-111478INT-03.jpg",
+    "skincare-daily/2026-11-16/images/d1116-111478INT-04.jpg",
+    "skincare-daily/2026-11-16/images/d1116-111478INT-08.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_bella (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.11,
+    "true_peak": -1.44,
+    "packshot_match": 0.965,
+    "srt_cues": 17,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 69,
+   "status": "ready"
+  }
+ ]
+}

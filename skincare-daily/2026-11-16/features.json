@@ -1,0 +1,740 @@
+{
+ "checked": "2026-11-16",
+ "note": "2026-11-16 daily batch (skincare-daily/sk.py)",
+ "channels": {
+  "skincare.joburg": {
+   "locality": "Rosebank",
+   "desk": "Moisturizers & textures",
+   "credential_line": false,
+   "voice": "af_heart",
+   "accent": [
+    74,
+    93,
+    78
+   ],
+   "card_side": "left",
+   "radius": 36,
+   "chip": "pill",
+   "title_weight": "Bold",
+   "transition": "fade",
+   "music": {
+    "root": 57,
+    "bpm": 72,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      11
+     ],
+     [
+      5,
+      9,
+      12,
+      16
+     ],
+     [
+      2,
+      5,
+      9,
+      12
+     ],
+     [
+      7,
+      11,
+      14,
+      17
+     ]
+    ]
+   }
+  },
+  "skincare.durban": {
+   "locality": "Westville",
+   "desk": "Body care",
+   "credential_line": false,
+   "voice": "af_bella",
+   "accent": [
+    0,
+    121,
+    125
+   ],
+   "card_side": "right",
+   "radius": 16,
+   "chip": "square",
+   "title_weight": "SemiBold",
+   "transition": "smoothleft",
+   "music": {
+    "root": 60,
+    "bpm": 96,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      12
+     ],
+     [
+      9,
+      12,
+      16,
+      21
+     ],
+     [
+      5,
+      9,
+      12,
+      17
+     ],
+     [
+      7,
+      11,
+      14,
+      19
+     ]
+    ]
+   }
+  },
+  "dermatologist.joburg": {
+   "locality": "Midrand",
+   "desk": "Building a skincare routine",
+   "credential_line": true,
+   "voice": "af_jessica",
+   "accent": [
+    35,
+    59,
+    110
+   ],
+   "card_side": "left",
+   "radius": 8,
+   "chip": "underline",
+   "title_weight": "Bold",
+   "transition": "smoothup",
+   "music": {
+    "root": 55,
+    "bpm": 84,
+    "prog": [
+     [
+      0,
+      3,
+      7,
+      10
+     ],
+     [
+      8,
+      12,
+      15,
+      19
+     ],
+     [
+      3,
+      7,
+      10,
+      14
+     ],
+     [
+      10,
+      14,
+      17,
+      21
+     ]
+    ]
+   }
+  },
+  "dermatology.joburg": {
+   "locality": "Bedfordview",
+   "desk": "Labels & ingredients",
+   "credential_line": true,
+   "voice": "af_nicole",
+   "accent": [
+    96,
+    46,
+    92
+   ],
+   "card_side": "right",
+   "radius": 28,
+   "chip": "pill",
+   "title_weight": "Bold",
+   "transition": "wipeleft",
+   "music": {
+    "root": 50,
+    "bpm": 66,
+    "prog": [
+     [
+      0,
+      3,
+      7,
+      10
+     ],
+     [
+      5,
+      8,
+      12,
+      15
+     ],
+     [
+      7,
+      10,
+      14,
+      17
+     ],
+     [
+      3,
+      7,
+      10,
+      14
+     ]
+    ]
+   }
+  },
+  "dermatology.durban": {
+   "locality": "uMhlanga",
+   "desk": "Hydration & layering",
+   "credential_line": true,
+   "voice": "af_sarah",
+   "accent": [
+    16,
+    96,
+    140
+   ],
+   "card_side": "left",
+   "radius": 44,
+   "chip": "square",
+   "title_weight": "SemiBold",
+   "transition": "dissolve",
+   "music": {
+    "root": 62,
+    "bpm": 104,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      11
+     ],
+     [
+      7,
+      11,
+      14,
+      18
+     ],
+     [
+      9,
+      12,
+      16,
+      19
+     ],
+     [
+      5,
+      9,
+      12,
+      16
+     ]
+    ]
+   }
+  },
+  "dermatology.capetown": {
+   "locality": "Cape Town",
+   "desk": "Daily sun care",
+   "credential_line": true,
+   "voice": "af_aoede",
+   "accent": [
+    196,
+    92,
+    28
+   ],
+   "card_side": "right",
+   "radius": 22,
+   "chip": "underline",
+   "title_weight": "Bold",
+   "transition": "fadeblack",
+   "music": {
+    "root": 53,
+    "bpm": 112,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      12
+     ],
+     [
+      5,
+      9,
+      12,
+      17
+     ],
+     [
+      7,
+      11,
+      14,
+      19
+     ],
+     [
+      4,
+      7,
+      11,
+      16
+     ]
+    ]
+   }
+  }
+ },
+ "videos": [
+  {
+   "slug": "westville-clarifying-body-spray",
+   "domain": "skincare.durban",
+   "format": "video",
+   "product_name": "clarifying body spray",
+   "spoken_name": "clarifying body spray",
+   "product_url": "https://dermalogica.co.za/products/clarifying-body-spray?variant=47072733102394",
+   "packshot": "d1116-111478INT-00.jpg",
+   "title": "Dermalogica Clarifying Body Spray Review: Clears Pores and Minimizes Breakouts, How to Use It",
+   "lead": "Dermalogica clarifying body spray: clears pores and minimizes breakouts, from the Westville body care desk.",
+   "facts": [
+    "Clears pores and minimizes breakouts",
+    "Helps balance excess oil and reduce redness",
+    "Combats active body breakouts and minimizes future breakouts",
+    "Soothes, cools, and revives the skin with gentle botanicals",
+    "How to use: Cleanse skin thoroughly before applying product. Hold the spray about a foot and a half away from your body and spray onto clean, dry skin. Let it sink in for 30-60 seconds before getting dressed. Use AM and/or PM."
+   ],
+   "tags": [
+    "clarifying body spray",
+    "dermalogica clarifying body spray",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #ClarifyingBodySpray #BodyCare",
+   "thumb": {
+    "text": "Clears pores",
+    "kicker": "WESTVILLE",
+    "layout": "photo",
+    "photo": "d1116-111478INT-04.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "177 mL · Clears pores and minimizes breakouts",
+     "say": "Westville body care desk: Dermalogica clarifying body spray, 177 milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1116-111478INT-01.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Clears pores and minimizes breakouts",
+     "say": "Exfoliating Salicylic Acid helps to remove dead skin cells, while soothing Witch Hazel, Tea Tree Oil and Moroccan Argan Oil balance oil and reduce redness. Ideal for use after the shower, post-workout or even on the go. This blemish-fighting body spray acts fast on those hard-to-reach areas to help clear clogged pores and minimize future body breakouts. The refreshing mist even disperses upside down so you’ll never miss a spot."
+    },
+    {
+     "type": "figure",
+     "image": "d1116-111478INT-03.jpg",
+     "kicker": "BENEFIT 1",
+     "headline": "Helps balance excess oil and reduce redness",
+     "say": "Helps balance excess oil and reduce redness."
+    },
+    {
+     "type": "figure",
+     "image": "d1116-111478INT-04.jpg",
+     "kicker": "BENEFIT 2",
+     "headline": "Combats active body breakouts",
+     "say": "Combats active body breakouts and minimizes future breakouts."
+    },
+    {
+     "type": "figure",
+     "image": "d1116-111478INT-08.jpg",
+     "kicker": "BENEFIT 3",
+     "headline": "Soothes, cools,",
+     "say": "Soothes, cools, and revives the skin with gentle botanicals."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Cleanse skin thoroughly before applying",
+      "Hold the spray about a foot",
+      "Let it sink in for 30-60 seconds before"
+     ],
+     "say": "Cleanse skin thoroughly before applying product. Hold the spray about a foot and a half away from your body and spray onto clean, dry skin. Let it sink in for 30-60 seconds before getting dressed. Use AM and/or PM.",
+     "image": "d1116-111478INT-01.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "177 mL",
+     "say": "That's Dermalogica clarifying body spray. The link is in the description."
+    }
+   ],
+   "sku": "111478INT",
+   "variant": "177ml",
+   "slot_sast": "10:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "script_overlap_max": 0.57
+  },
+  {
+   "slug": "midrand-magnetic-afterglow-cleanser-150ml-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product_name": "magnetic[+] afterglow cleanser",
+   "spoken_name": "magnetic[plus] afterglow cleanser",
+   "product_url": "https://dermalogica.co.za/products/magnetic-afterglow-cleanser-150ml?variant=51541833515322",
+   "packshot": "d1116-111512-00.jpg",
+   "title": "How to Use Dermalogica Magnetic[+] Afterglow Cleanser 150 mL #shorts",
+   "lead": "Dermalogica magnetic[+] afterglow cleanser: cleanse, magnetize, glow, from the Midrand routine desk.",
+   "facts": [
+    "Cleanse, magnetize, glow",
+    "Refreshing cleanse leaves a lasting glow",
+    "Renews + revitalizes skin daily",
+    "Deposits long-lasting hydration + nutrients",
+    "How to use: Massage onto dampened face and neck. Rinse with warm water. Keep out of eyes. Stop using if you experience redness or itching."
+   ],
+   "tags": [
+    "magnetic[+] afterglow cleanser",
+    "dermalogica magnetic[+] afterglow cleanser",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #MagneticAfterglowCleanser #RoutineBuilder #shorts",
+   "thumb": {
+    "text": "Cleanse, magnetize, glow",
+    "kicker": "MIDRAND",
+    "layout": "photo",
+    "photo": "d1116-111512-04.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "150 mL · Cleanse, magnetize, glow",
+     "say": "Midrand routine desk: Dermalogica magnetic[plus] afterglow cleanser, 150 milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1116-111512-04.jpg",
+     "kicker": "BENEFITS",
+     "headline": "Refreshing cleanse leaves a lasting glow",
+     "say": "Its refreshing cleanse leaves a lasting glow, and it renews plus revitalizes skin daily."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Massage onto dampened face and neck",
+      "Rinse with warm water",
+      "Keep out of eyes"
+     ],
+     "say": "Massage onto dampened face and neck. Rinse with warm water. Keep out of eyes. Stop using if you experience redness or itching.",
+     "image": "d1116-111512-04.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "150 mL",
+     "say": "That's Dermalogica magnetic[plus] afterglow cleanser. The link is in the description."
+    }
+   ],
+   "sku": "111512",
+   "variant": "150ml",
+   "slot_sast": "12:00",
+   "tier": "b",
+   "tier_why": "different size/kit of a desk product, SKU never used before",
+   "script_overlap_max": 0.84
+  },
+  {
+   "slug": "capetown-futurecode-booster-damage-correcting-longevity-serum-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product_name": "futurecode booster damage-correcting longevity serum",
+   "spoken_name": "futurecode booster damage-correcting longevity serum",
+   "product_url": "https://dermalogica.co.za/products/futurecode-booster-damage-correcting-longevity-serum?variant=53552025567546",
+   "packshot": "d1116-111524-00.jpg",
+   "title": "Cape Town Sun Care Desk: Dermalogica Futurecode Booster Damage-Correcting Longevity Serum #shorts",
+   "lead": "Dermalogica futurecode booster damage-correcting longevity serum: Supports skin’s natural repair functions for firmer-looking, more even-toned skin, from the Cape Town daily sun care desk.",
+   "facts": [
+    "Supports skin’s natural repair functions for firmer-looking, more even-toned skin",
+    "Rebuilds the skin barrier to defend against environmental aggressors",
+    "Replaces visible DNA-related damage with a revitalized, healthy-looking glow",
+    "An omni-antioxidant blend neutralizes free radicals, helping defend against visible skin aging",
+    "How to use: Unscrew the dropper top slowly, allowing 5 seconds for the product to fill the auto-dropper. Smooth 1 dose over clean face and neck morning and night, alone or mixed with another skin care product."
+   ],
+   "tags": [
+    "futurecode booster damage-correcting longevity serum",
+    "dermalogica futurecode booster damage-correcting longevity serum",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #FuturecodeBoosterDamageCorrectingLongevitySerum #DailySunCare #shorts",
+   "thumb": {
+    "text": "Daily sun care pick",
+    "kicker": "CAPE TOWN",
+    "layout": "photo",
+    "photo": "d1116-111524-07.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Supports skin’s natural repair functions",
+     "say": "Cape Town daily sun care desk: Dermalogica futurecode booster damage-correcting longevity serum."
+    },
+    {
+     "type": "figure",
+     "image": "d1116-111524-04.jpg",
+     "kicker": "BENEFITS",
+     "headline": "Rebuilds the skin barrier to defend against",
+     "say": "It rebuilds the skin barrier to defend against environmental aggressors, and supports skin’s natural repair functions for firmer-looking, more even-toned skin."
+    },
+    {
+     "type": "figure",
+     "image": "d1116-111524-01.jpg",
+     "kicker": "ANTIOXIDANTS",
+     "headline": "Neutralizes free radicals",
+     "say": "An omni-antioxidant blend neutralizes free radicals, helping defend against visible skin aging."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Unscrew the dropper top slowly",
+      "Smooth one dose over clean face and neck",
+      "Use morning and night"
+     ],
+     "say": "Unscrew the dropper top slowly, allowing five seconds for the product to fill the auto-dropper. Smooth one dose over clean face and neck, morning and night, alone or mixed with another skin care product.",
+     "image": "d1116-111524-07.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "Futurecode Booster Damage-Correcting Longevity Serum",
+     "say": "That's Dermalogica futurecode booster damage-correcting longevity serum. The link is in the description."
+    }
+   ],
+   "sku": "111524",
+   "variant": "Default Title",
+   "slot_sast": "12:00",
+   "tier": "d",
+   "tier_why": "least recently used product (catalog thin; new script and visuals)",
+   "script_overlap_max": 0.67
+  },
+  {
+   "slug": "capetown-skin-transformation-duo-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product_name": "skin transformation duo",
+   "spoken_name": "skin transformation duo",
+   "product_url": "https://dermalogica.co.za/products/skin-transformation-duo-set-dmf-40g?variant=52077701759290",
+   "packshot": "d1116-301243INT-00.png",
+   "title": "Daily SPF: Dermalogica Skin Transformation Duo #shorts",
+   "lead": "Dermalogica skin transformation duo: exfoliates and combats skin aging, from the Cape Town daily sun care desk.",
+   "facts": [
+    "Exfoliates and combats skin aging",
+    "What's inside: Daily Microfoliant (40g); Dynamic Skin Recovery SPF50 (15ml)",
+    "Helps control the triggers that lead to skin aging",
+    "Blends smoothly into skin for a perfected finish",
+    "Removes dulling surface debris and evens skin tone",
+    "Reveals brighter, smoother skin",
+    "How to use: Dispense about a half-teaspoon of Daily Microfoliant® into very wet hands and create a creamy paste by rubbing hands together. Apply to face in circular motions, avoiding the eye area. Massage gently for one minute, then rinse thoroughly. After cleansing and toning, apply a generous amou"
+   ],
+   "tags": [
+    "skin transformation duo",
+    "dermalogica skin transformation duo",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #SkinTransformationDuo #DailySPF #shorts",
+   "thumb": {
+    "text": "Daily sun care pick",
+    "kicker": "CAPE TOWN",
+    "layout": "split"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Exfoliates and combats skin aging",
+     "say": "Cape Town daily sun care desk: Dermalogica skin transformation duo."
+    },
+    {
+     "type": "bullets",
+     "kicker": "WHAT'S INSIDE",
+     "headline": "2 products in one kit",
+     "items": [
+      "Daily Microfoliant (40g)",
+      "Dynamic Skin Recovery SPF50 (15 mL)"
+     ],
+     "say": "Inside the kit: Daily Microfoliant, forty grams; Dynamic Skin Recovery SPF fifty, fifteen milliliters.",
+     "image": "d1116-301243INT-04.jpg"
+    },
+    {
+     "type": "figure",
+     "image": "d1116-301243INT-02.jpg",
+     "kicker": "BENEFITS",
+     "headline": "Helps control the triggers that lead to skin",
+     "say": "It helps control the triggers that lead to skin aging, and blends smoothly into skin for a perfected finish."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Dispense about a half-teaspoon",
+      "Apply to face in circular motions",
+      "Massage gently for one minute"
+     ],
+     "say": "Dispense about a half-teaspoon of Daily Microfoliant into very wet hands and create a creamy paste by rubbing hands together. Apply to face in circular motions, avoiding the eye area.",
+     "image": "d1116-301243INT-01.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "Skin Transformation Duo",
+     "say": "That's Dermalogica skin transformation duo. The link is in the description."
+    }
+   ],
+   "sku": "301243INT",
+   "variant": "Default Title",
+   "slot_sast": "20:00",
+   "tier": "d",
+   "tier_why": "least recently used product (catalog thin; new script and visuals)",
+   "script_overlap_max": 0.85
+  },
+  {
+   "slug": "midrand-biolumin-c-heat-aging-protector-spf50-50ml-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product_name": "biolumin-c heat aging protector spf50",
+   "spoken_name": "biolumin-c heat aging protector SPF fifty",
+   "product_url": "https://dermalogica.co.za/products/biolumin-c-heat-aging-protector-spf50?variant=50747696513338",
+   "packshot": "d1116-111510INT-00.jpg",
+   "title": "Dermalogica BioLumin-C Heat Aging Protector SPF50 50 mL, Explained Fast #shorts",
+   "lead": "Dermalogica biolumin-c heat aging protector spf50: turn down heat aging, turn up radiance, from the Midrand routine desk.",
+   "facts": [
+    "Turn down heat aging, turn up radiance",
+    "Immediately brightens, hydrates, and soothes skin",
+    "Helps defend against heat aging and improves the look of skin texture + tone",
+    "Helps protect against UV rays to prevent early skin aging",
+    "How to use: Apply liberally to face and neck, preferably 15 minutes prior to sun exposure."
+   ],
+   "tags": [
+    "biolumin-c heat aging protector spf50",
+    "dermalogica biolumin-c heat aging protector spf50",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #BioLuminCHeatAgingProtectorSPF50 #RoutineBuilder #shorts",
+   "thumb": {
+    "text": "Where it fits",
+    "kicker": "MIDRAND",
+    "layout": "photo",
+    "photo": "d1116-111510INT-09.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "50 mL · Turn down heat aging, turn up radiance",
+     "say": "Midrand routine desk: Dermalogica biolumin-c heat aging protector SPF fifty, fifty milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1116-111510INT-03.jpg",
+     "kicker": "BENEFITS",
+     "headline": "Immediately brightens",
+     "say": "It immediately brightens, hydrates, and soothes skin, and helps defend against heat aging and improves the look of skin texture plus tone."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Apply liberally to face and neck",
+     "items": [
+      "Apply liberally to face and neck"
+     ],
+     "say": "Apply liberally to face and neck, preferably 15 minutes prior to sun exposure.",
+     "image": "d1116-111510INT-09.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "50 mL",
+     "say": "That's Dermalogica biolumin-c heat aging protector SPF fifty. The link is in the description."
+    }
+   ],
+   "sku": "111510INT",
+   "variant": "50ml",
+   "slot_sast": "16:00",
+   "tier": "d",
+   "tier_why": "least recently used product (catalog thin; new script and visuals)",
+   "script_overlap_max": 0.71
+  },
+  {
+   "slug": "midrand-prisma-protect-spf30-50ml-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product_name": "prisma protect spf30",
+   "spoken_name": "prisma protect SPF thirty",
+   "product_url": "https://dermalogica.co.za/products/prisma-protect-spf30-prisma-protect-spf30?variant=45975459725626",
+   "packshot": "d1116-111331-00.png",
+   "title": "What Dermalogica Prisma Protect SPF30 50 mL Does: Boosts Skin's Natural Luminosity #shorts",
+   "lead": "Dermalogica prisma protect spf30: boosts skin's natural luminosity, from the Midrand routine desk.",
+   "facts": [
+    "Boosts skin's natural luminosity",
+    "Defends against UV rays, free radical damage and pollution",
+    "Hydrates for visibly smooth skin all day long",
+    "Boosts skin's natural luminosity",
+    "How to use: After cleansing and toning, apply a generous amount to face and neck, preferably 30 minutes prior to sun exposure."
+   ],
+   "tags": [
+    "prisma protect spf30",
+    "dermalogica prisma protect spf30",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #PrismaProtectSPF30 #RoutineBuilder #shorts",
+   "thumb": {
+    "text": "Defends against UV rays",
+    "kicker": "MIDRAND",
+    "layout": "photo",
+    "photo": "d1116-111331-02.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "50 mL · Boosts skin's natural luminosity",
+     "say": "Midrand routine desk: Dermalogica prisma protect SPF thirty, fifty milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1116-111331-02.jpg",
+     "kicker": "BENEFITS",
+     "headline": "Defends against UV rays",
+     "say": "It defends against UV rays, free radical damage and pollution, and hydrates for visibly smooth skin all day long."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "After cleansing and toning",
+     "items": [
+      "Apply a generous amount to face and neck"
+     ],
+     "say": "After cleansing and toning, apply a generous amount to face and neck, preferably 30 minutes prior to sun exposure.",
+     "image": "d1116-111331-03.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "50 mL",
+     "say": "That's Dermalogica prisma protect SPF thirty. The link is in the description."
+    }
+   ],
+   "sku": "111331",
+   "variant": "50ml",
+   "slot_sast": "08:00",
+   "tier": "d",
+   "tier_why": "least recently used product (catalog thin; new script and visuals)",
+   "script_overlap_max": 0.82
+  }
+ ]
+}
