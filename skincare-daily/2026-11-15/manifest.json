@@ -43,7 +43,7 @@
   "@SkincareJoburgRosebank": {
    "domain": "skincare.joburg",
    "shorts": 1,
-   "videos": 1,
+   "videos": 2,
    "all_pass": true,
    "status": "partial: staged items ready"
   }
@@ -66,12 +66,6 @@
    "handle": "@SkincareJoburgRosebank",
    "slot_sast": "2026-11-15 20:00",
    "format": "short",
-   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
-  },
-  {
-   "handle": "@SkincareJoburgRosebank",
-   "slot_sast": "2026-11-15 18:00",
-   "format": "regular",
    "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
   },
   {
@@ -1353,6 +1347,70 @@
     "pass": true
    },
    "crossday_min_thumb_dist": 49,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.joburg",
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-15 18:00",
+   "format": "video",
+   "slug": "rosebank-pro-collagen-banking-water-cream",
+   "sku": "111519",
+   "variant": "Default Title",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "pro-collagen banking water cream",
+    "listing_url": "https://dermalogica.co.za/products/pro-collagen-banking-water-cream-50ml?variant=53115654537530",
+    "checked": "2026-11-15",
+    "packshot": "skincare-daily/2026-11-15/images/d1115-111519-00.jpg",
+    "packshot_sha256": "59c0e2fc13ad4f59803e783a36653c48eb96899e69de9e69100769e98e094275",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Pro-CollagenBankingWaterCream_Retail1.7oz_PrimaryFront.jpg?v=1775379909"
+   },
+   "title": "Moisturizer Desk: Dermalogica Pro-Collagen Banking Water Cream, Step by Step",
+   "description": "Dermalogica pro-collagen banking water cream: plumping + preserving, from the Rosebank moisturizer and texture desk.\n\nWe earn a commission if you buy through our link at https://skincare.joburg/.\n\n• Plumping + preserving\n• Fights oxidative stress to help preserve collagen and elastin\n• Water-burst technology delivers deep hydration to plump skin\n• Supports skin barrier for visible bounce, now and into the future\n• How to use: Smooth 1-2 pumps onto skin. If using after a serum, apply while the skin is still damp. Use once or twice daily.\n\nChapters:\n0:00 Overview\n0:20 Prematurely-aging skin\n0:36 Directions from the listing\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/pro-collagen-banking-water-cream-50ml?variant=53115654537530, checked 2026-11-15); check the current listing before you buy.\n\nShop: https://skincare.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #ProCollagenBankingWaterCream #MoisturizerDesk",
+   "tags": [
+    "pro-collagen banking water cream",
+    "dermalogica pro-collagen banking water cream",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 51.13,
+   "resolution": "1920x1080",
+   "media_path": "skincare-daily/2026-11-15/renders/skincare.joburg/rosebank-pro-collagen-banking-water-cream.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-15/renders/skincare.joburg/rosebank-pro-collagen-banking-water-cream.mp4",
+   "sha256": "5092364c6eb899764809389d8507dd5813f9ecd3bfa0d3c6aad0e3baaca97f4b",
+   "thumbnail_path": "skincare-daily/2026-11-15/renders/skincare.joburg/rosebank-pro-collagen-banking-water-cream.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-15/renders/skincare.joburg/rosebank-pro-collagen-banking-water-cream.jpg",
+   "thumbnail_sha256": "675a63cea3745b34a4f33428b718f4acc45678ec70417a2efea49538ef217be5",
+   "captions_path": "skincare-daily/2026-11-15/renders/skincare.joburg/rosebank-pro-collagen-banking-water-cream.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-15/renders/skincare.joburg/rosebank-pro-collagen-banking-water-cream.en.srt",
+   "captions_sha256": "d0b5e13ff4d4dda63abadfe697c46e0b1f2167d682eb1c6650e518cc0f9f8c8c",
+   "listing_images": [
+    "skincare-daily/2026-11-15/images/d1115-111519-00.jpg",
+    "skincare-daily/2026-11-15/images/d1115-111519-01.jpg",
+    "skincare-daily/2026-11-15/images/d1115-111519-05.jpg",
+    "skincare-daily/2026-11-15/images/d1115-111519-06.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_heart (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.28,
+    "true_peak": -1.45,
+    "packshot_match": 0.937,
+    "srt_cues": 13,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 51,
    "status": "ready"
   }
  ]

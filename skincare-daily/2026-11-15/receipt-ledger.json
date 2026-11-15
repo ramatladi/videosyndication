@@ -243,13 +243,25 @@
       "media_sha256": "0f223b384c27084ab08b0f4105b1e45a809bf9e06ee4d1ddd0b72b51a2411cca",
       "asset_checksums_verified": true,
       "publish_at": "2026-11-15T16:52:46Z"
+    },
+    {
+      "channel": "@SkincareJoburgRosebank",
+      "time": "18:00",
+      "format": "regular",
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111519",
+      "title": "Moisturizer Desk: Dermalogica Pro-Collagen Banking Water Cream, Step by Step",
+      "manifest_slug": "rosebank-pro-collagen-banking-water-cream",
+      "media_sha256": "5092364c6eb899764809389d8507dd5813f9ecd3bfa0d3c6aad0e3baaca97f4b",
+      "asset_checksums_verified": true
     }
   ],
   "reconciliation": {
-    "staged_files_verified": 19,
+    "staged_files_verified": 20,
     "missing_renders": 0,
     "youtube_ids_recorded": 14,
-    "producer_refreshed": "2026-11-15T19:44+02:00"
+    "producer_refreshed": "2026-11-15T19:53+02:00"
   },
   "youtube_ids_recorded": 14
 }
