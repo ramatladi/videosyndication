@@ -327,13 +327,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "nl2FGPDOgts",
       "sku": "111507",
       "title": "Body Care: Dermalogica MultiVitamin Power Recovery Cream 50 mL, Step by Step",
       "manifest_slug": "westville-multivitamin-power-recovery-cream-50ml",
       "media_sha256": "508d72a91a5d2ef837030c6b25cc3b0e7ce06f198104e89b089d9292d7dcbe2b",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T08:28:58Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -405,5 +406,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 24
+  "youtube_ids_recorded": 25
 }
