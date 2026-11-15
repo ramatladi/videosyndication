@@ -1,0 +1,438 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 80,
+ "slug": "is-it-time-yet",
+ "title": "Is It Time Yet",
+ "trend": "TikTok 'It's Time' (videos marking the start of the holiday season timed to the annual mid-November holiday audio; New Engen TikTok list, updated Nov 13 2026, US) + the 'too early for holiday decorations?' debate in mid November — Clint begs to start decorating while Marisol enforces the after-Thanksgiving rule and Gladys, the inflatable snowman in the garage box, pleads to be plugged in; twist: Marisol has secretly been building a winter village in the attic since Halloween because she wants to be the one who says 'it is time'",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "it's the middle of november",
+  "and somebody wants",
+  "to put up the lights"
+ ],
+ "youtube_title": "Middle of November. He wants the lights up. She says it is NOT time yet 🎄",
+ "description": "Clint has been waiting all year to start decorating. Marisol says nothing goes up until after Thanksgiving, and Gladys the snowman has been in a box since January. Then the attic starts humming.\n\n#cartoon #animation #funny #holidays #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "holidays",
+  "christmas lights",
+  "husband and wife",
+  "snowman",
+  "decorating"
+ ],
+ "tiktok_caption": "middle of november. he wants the lights up. she says not yet 🎄 #cartoon #animation #funny #holidays",
+ "cast": [
+  {
+   "id": "clint",
+   "name": "Clint",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.06,
+   "hair": {
+    "style": "short",
+    "color": "#784212"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#1e8449"
+   },
+   "bottom": "#1b2631",
+   "shoes": "#f4d03f",
+   "accessories": [
+    "party_hat:#27ae60",
+    "scarf:#f8f9f9"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f5b7b1",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "marisol",
+   "name": "Marisol",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.0,
+   "hair": {
+    "style": "ponytail",
+    "color": "#922b21"
+   },
+   "top": {
+    "color": "#2e86c1",
+    "pattern": "plain"
+   },
+   "bottom": "#f8f9f9",
+   "shoes": "#6c3483",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#aed6f1",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "gladys",
+   "name": "Gladys The Snowman",
+   "kind": "mascot",
+   "shape": "ghost",
+   "color": "#fdfefe",
+   "scale": 1.1,
+   "accessories": [
+    "tophat",
+    "scarf:#e74c3c"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "label_color": "#ebf5fb",
+   "voice": {
+    "id": "bf_alice",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "clint",
+   "text": "Marisol. It is the middle of November. You know what that means.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "marisol",
+   "text": "No.",
+   "shot": "TWO",
+   "gesture": "cross",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "clint",
+   "text": "I have not even said it yet.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marisol",
+   "text": "You were going to say it is time. It is not time.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gladys",
+   "text": "Hello. I am Gladys. A blow up snowman. In a box in the garage since January.",
+   "shot": "gladys",
+   "gesture": "wave"
+  },
+  {
+   "spk": "gladys",
+   "text": "Is it time? Somebody please tell me it is time.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "clint",
+   "text": "Gladys says it is time.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "marisol",
+   "text": "Gladys is a bag of air, Clint.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "gladys",
+   "text": "A bag of air with feelings.",
+   "shot": "gladys",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "clint",
+   "text": "Okay. Hear me out. Just the lights. Just one string. On the porch.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marisol",
+   "text": "The rule is after Thanksgiving. That is the rule. Your mother made the rule.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "clint",
+   "text": "My mother put up her tree in October. She just tells people it is a fall tree.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gladys",
+   "text": "A fall tree with a star on it. Very sneaky. I respect her.",
+   "shot": "gladys"
+  },
+  {
+   "spk": "marisol",
+   "text": "We are not doing a fall tree.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "clint",
+   "text": "Fine. No tree. What about one tiny snow globe?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.4
+  },
+  {
+   "spk": "marisol",
+   "text": "Where is the snow globe, Clint?",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "clint",
+   "text": "In my pocket.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marisol",
+   "text": "Why is there a snow globe in your pocket?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "clint",
+   "text": "It is always in my pocket. I shake it when I am sad.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gladys",
+   "text": "He shook it all through September. It was a hard month.",
+   "shot": "gladys",
+   "after": "sting"
+  },
+  {
+   "spk": "clint",
+   "text": "Okay, new plan. I go outside. I do not decorate. I just stand there. Being festive.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gladys",
+   "text": "Take me with you. Plug me in. I will stand next to you. Very quietly. Like a neighbor.",
+   "shot": "gladys",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marisol",
+   "text": "A twelve foot snowman is not quiet.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gladys",
+   "text": "I am nine feet. The other three are confidence.",
+   "shot": "gladys",
+   "gesture": "hips",
+   "after": "boing"
+  },
+  {
+   "spk": "clint",
+   "text": "Marisol. The Hendersons put up their lights yesterday. Blinking ones.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.5
+  },
+  {
+   "spk": "marisol",
+   "text": "The Hendersons are not my problem.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "clint",
+   "text": "They have a reindeer that moves its head. It looked at me. It looked right at me.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marisol",
+   "text": "Okay. I will say this one time. We wait until after Thanksgiving.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "clint",
+   "text": "That is twelve days.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "marisol",
+   "text": "Twelve days.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "gladys",
+   "text": "Twelve days in a box. I will not survive. I will go flat.",
+   "shot": "gladys",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "clint",
+   "text": "Why are you so against it? You love the holidays.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "marisol",
+   "text": "I do not want to talk about it.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "clint",
+   "text": "Marisol. What is in the attic?",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.8
+  },
+  {
+   "spk": "marisol",
+   "text": "Nothing is in the attic.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gladys",
+   "text": "The attic is humming. Attics do not hum.",
+   "shot": "gladys",
+   "gesture": "think"
+  },
+  {
+   "spk": "clint",
+   "text": "Is that music? In the attic?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marisol",
+   "text": "Okay. Fine. Yes. I have been decorating the attic since Halloween.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "clint",
+   "text": "You what?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "marisol",
+   "text": "A whole winter village. Tiny houses. A tiny train. A tiny skating pond made from a mirror.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marisol",
+   "text": "I just wanted to be the one who says it, every year. You always say it first.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "clint",
+   "text": "So say it.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "marisol",
+   "text": "No. It is not time.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "clint",
+   "text": "Marisol.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marisol",
+   "text": "Fine. Get the ladder. Get the lights. Get the bag of air.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gladys",
+   "text": "I am being plugged in. I am filling up. I am so full. I am so happy.",
+   "shot": "gladys",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "clint",
+   "text": "Say it, honey.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "marisol",
+   "text": "It is time.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "applause",
+   "pre": 0.6
+  },
+  {
+   "spk": "gladys",
+   "text": "Eleven months in a box for this. Worth it.",
+   "shot": "gladys",
+   "gesture": "hips"
+  },
+  {
+   "spk": "clint",
+   "text": "Now we just have to tell my mother about her fall tree.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gladys",
+   "text": "She knows. She has a winter village too. In her car.",
+   "shot": "gladys",
+   "gesture": "wave",
+   "after": "ding"
+  }
+ ]
+}
