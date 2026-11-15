@@ -6,13 +6,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "XWTTHsY78SE",
       "sku": "111449",
       "title": "How to Use Dermalogica Awaken Peptide Eye Gel 15 mL #shorts",
       "manifest_slug": "bedfordview-awaken-peptide-eye-gel-15ml-short",
       "media_sha256": "653633fe91ea7ec4b0e15cce7ee7246b73b4f91743553868945c6553289d8ef0",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T21:16:31Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -44,5 +45,6 @@
     "missing_renders": 0,
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-15T20:10+02:00"
-  }
+  },
+  "youtube_ids_recorded": 1
 }
