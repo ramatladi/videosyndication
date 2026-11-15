@@ -374,13 +374,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "FL-5Zz8xD2E",
       "sku": "411465",
       "title": "Moisturizer Desk: Dermalogica Dynamic Skin Retinol Serum 10 mL #shorts",
       "manifest_slug": "rosebank-dynamic-skin-retinol-serum-10ml-short",
       "media_sha256": "b368697b4acd8f357a3a4923cf7ecf2e378593449bfa94eeec2f150325508c99",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T02:18:54Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -401,5 +402,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 20
+  "youtube_ids_recorded": 21
 }
