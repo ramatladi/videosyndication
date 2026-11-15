@@ -356,13 +356,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "C2q1EVMYuyE",
       "sku": "W110641",
       "title": "How to Use Dermalogica SkinPerfect Primer SPF30 22 mL #shorts",
       "manifest_slug": "rosebank-skinperfect-primer-spf30-22ml-short",
       "media_sha256": "4fc1f46b47d42d1081ca03f590ae1de0021f50637a8d1ce44ba1decd5df61ee1",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T01:20:11Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -395,5 +396,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 14
+  "youtube_ids_recorded": 15
 }
