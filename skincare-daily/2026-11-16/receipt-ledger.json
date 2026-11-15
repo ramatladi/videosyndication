@@ -19,13 +19,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "7WqFXFdLV5M",
       "sku": "111512",
       "title": "How to Use Dermalogica Magnetic[+] Afterglow Cleanser 150 mL #shorts",
       "manifest_slug": "midrand-magnetic-afterglow-cleanser-150ml-short",
       "media_sha256": "60f00e0c384c22c7ba0071dbd688f5e87b47d64c11a984f6ab36e5109077baba",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-16T10:00:00Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -83,5 +84,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-15T20:01+02:00"
   },
-  "youtube_ids_recorded": 2
+  "youtube_ids_recorded": 3
 }
