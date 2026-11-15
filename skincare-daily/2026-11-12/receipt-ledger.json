@@ -173,13 +173,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "Uj-OSU1WbEc",
       "sku": "111236",
       "title": "Dermalogica Age Reversal Eye Complex 15 mL: What It Does and How to Use It",
       "manifest_slug": "umhlanga-age-reversal-eye-complex-15ml",
       "media_sha256": "5cb7f172dd6ee35d3a14fd22216b08f4e0ccc1a0559b793b9c332bfcc3e68df8",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T08:27:42Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -403,5 +404,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 22
+  "youtube_ids_recorded": 23
 }
