@@ -146,13 +146,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "ZwFYtMHVC9s",
       "sku": "111462INT",
       "title": "Dermalogica Deep Breakout Liquid Patch 14 mL Explained: Soothes and Clears on Contact, How to Use It",
       "manifest_slug": "bedfordview-deep-breakout-liquid-patch-14ml",
       "media_sha256": "436c8e44b32b3cd7b259938c8f0f33734cbd8686c0ee0665b1548b6c427a9ed4",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T16:52:46Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -250,5 +251,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T20:26+02:00"
   },
-  "youtube_ids_recorded": 13
+  "youtube_ids_recorded": 14
 }
