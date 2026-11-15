@@ -43,13 +43,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "YoMRW97op-U",
       "sku": "411510INT",
       "title": "How to Use Dermalogica BioLumin-C Heat Aging Protector SPF50 15 mL #shorts",
       "manifest_slug": "capetown-biolumin-c-heat-aging-protector-spf50-15ml-short",
       "media_sha256": "da75a883b7e0c56e2cba3b3a8bbd26de55db6b1657ad439fb778ca06b17dcea3",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T09:27:04Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -238,5 +239,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T20:26+02:00"
   },
-  "youtube_ids_recorded": 1
+  "youtube_ids_recorded": 2
 }
