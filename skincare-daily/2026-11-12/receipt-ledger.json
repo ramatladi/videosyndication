@@ -188,13 +188,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "c1dNbDd6VZ0",
       "sku": "410716",
       "title": "How to Use Dermalogica MultiVitamin Power Recovery Masque 15 mL #shorts",
       "manifest_slug": "umhlanga-multivitamin-power-recovery-masque-15ml-short",
       "media_sha256": "c26db0e84be0f42754d428a9eb45306197f9edb78a352d35bc83267d0a5d2628",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T09:27:04Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -409,5 +410,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 28
+  "youtube_ids_recorded": 29
 }
