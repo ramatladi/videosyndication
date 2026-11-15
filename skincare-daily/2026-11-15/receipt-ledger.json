@@ -217,13 +217,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "OW6l_aHUpb4",
       "sku": "111507",
       "title": "Dermalogica MultiVitamin Power Recovery Cream 50 mL Explained: Treats + Helps Prevent Stressed Skin",
       "manifest_slug": "rosebank-multivitamin-power-recovery-cream-50ml",
       "media_sha256": "17da99755c41558cdfc2ec5090f04e17eb7a8ee1c860527b5cab45bb43cb8392",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T15:56:00Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -244,5 +245,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T20:26+02:00"
   },
-  "youtube_ids_recorded": 7
+  "youtube_ids_recorded": 8
 }
