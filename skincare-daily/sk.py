@@ -151,7 +151,11 @@ def history(media):
     staged = {r['date'] for r in rows}
     for f in sorted(glob.glob(f'{WORK}/*/plan.json')):  # planned but not yet staged days count too
         pl = json.load(open(f))
-        if pl['date'] in staged: continue
+        if pl['date'] in staged:  # heal day: its new (not yet staged) picks still count for the 7-day window
+            have = {(r['domain'], r['product']) for r in rows if r['date'] == pl['date']}
+            rows += [{'date': pl['date'], 'domain': i['domain'], 'sku': i['sku'], 'product': clean(i['title']).lower(), 'title': '', 'thumb': None}
+                     for i in pl['items'] if not i.get('existing') and (i['domain'], clean(i['title']).lower()) not in have]
+            continue
         rows += [{'date': pl['date'], 'domain': i['domain'], 'sku': i['sku'], 'product': clean(i['title']).lower(), 'title': '', 'thumb': None} for i in pl['items']]
     return rows
 
@@ -727,9 +731,16 @@ def ledger(media, date):
 def heal(media, today):
     """Earlier days: report items still missing a render or not in the ledger; refresh ledger rows from manifests."""
     out = []
-    for d in sorted(glob.glob(f'{media}/skincare-daily/2026-*')):
-        date = os.path.basename(d)
-        if date >= today or not os.path.exists(f'{d}/manifest.json'): continue
+    days = sorted(os.path.basename(d) for d in glob.glob(f'{media}/skincare-daily/2026-*'))
+    if days and today != '9999':  # also days with no folder at all (sparse checkout or never produced)
+        a, b = dt.date.fromisoformat(days[0]), dt.date.fromisoformat(today)
+        days = sorted(set(days) | {str(a + dt.timedelta(n)) for n in range((b - a).days)})
+    for date in days:
+        d = f'{media}/skincare-daily/{date}'
+        if date >= today: continue
+        if not os.path.exists(f'{d}/manifest.json'):  # the day's run never reached `stage`: every slot is a gap
+            out.append({'date': date, 'never_staged': True, 'missing_render': [], 'no_row': [(h, s) for dom, (h, _) in CH.items() for s in SHORT_SLOTS + VIDEO_SLOTS],
+                        'awaiting_youtube_id': 0}); continue
         ledger(media, date)
         L = json.load(open(f'{d}/receipt-ledger.json'))
         miss = [(r['channel'], r['time']) for r in L['items'] if r.get('status') == 'missing_render']

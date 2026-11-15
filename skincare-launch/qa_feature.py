@@ -118,7 +118,7 @@ def main():
     summary = {'renders': len(rows), 'passed': sum(r['pass'] for r in rows), 'fails': fails,
                'unique_products': len(set(products)) == len(products),
                'free_photos_unique': len(set(free)) == len(free), 'store_images_shared_between_videos': shared_store,
-               'min_thumb_dist': min(p['thumb_dist'] for p in pairs), 'min_frame_dist': min(p['frame_dist'] for p in pairs),
+               'min_thumb_dist': min((p['thumb_dist'] for p in pairs), default=None), 'min_frame_dist': min((p['frame_dist'] for p in pairs), default=None),
                'similarity_fails': sim_fail}
     json.dump({'summary': summary, 'renders': rows, 'pairs': pairs}, open(f'{out}/qa.json', 'w'), indent=1, default=str)
     print(json.dumps(summary, indent=1, default=str))

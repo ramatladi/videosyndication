@@ -19,3 +19,7 @@ out.length+' products'
 - 12 Nov 2026: catalog exhausted for 5 slots (Cape Town 10:00/12:00/18:00, Rosebank 08:00/20:00): every candidate repeated an
   earlier script. Known parser gap: when a listing's body starts with "Usage: ..." before "recommended for:", `parse()` keeps
   only the usage line as the description (pro-collagen banking serum); that item was hand-fixed from its own listing text.
+- 15 Nov 2026: 13 and 14 Nov were never staged (only `fetch/` queues on media), so `heal` did not see them; it now lists such
+  days as `never_staged` with all 36 slots as gaps. `history()` now counts a heal day's new (not yet staged) picks in the 7-day
+  window, so tomorrow's plan can't reuse them on the same channel. Catalog still exhausted under the 0.85 guard: 15 Nov heal
+  filled 1 of 17 gaps, 12 Nov heal 0 of 5, 16 Nov only 6 of 36 slots.
