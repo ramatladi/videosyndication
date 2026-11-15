@@ -3,15 +3,23 @@
   "handle": "@DermatologyDurbanUmhlanga",
   "title": "Dermalogica Age Reversal Eye Complex 15 mL: What It Does and How to Use It",
   "slot_sast": "2026-11-12 18:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefa463a386f8c4",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-15T08:27:42Z",
   "error": null,
-  "updated": "2026-11-15T08:27:48Z",
+  "updated": "2026-11-15T08:28:19Z",
   "video_id": "Uj-OSU1WbEc",
   "published_now": "2026-11-15T08:27:42Z",
   "url": "https://www.youtube.com/watch?v=Uj-OSU1WbEc",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCBHecSaBW2iEir_PIp7sJbQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
