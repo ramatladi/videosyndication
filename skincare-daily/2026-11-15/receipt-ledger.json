@@ -80,13 +80,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "LUcQVUArfaQ",
       "sku": "111525",
       "title": "What Dermalogica Smart Eye Density Undereye Serum Does: Rebuilds Undereye Density #shorts",
       "manifest_slug": "umhlanga-smart-eye-density-undereye-serum-short",
       "media_sha256": "a428447f9429cf11ae7bc5b3fa256de5945b9d92b70fe49c9737a5ae54b05d87",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T15:52:47Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -239,5 +240,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T20:26+02:00"
   },
-  "youtube_ids_recorded": 2
+  "youtube_ids_recorded": 3
 }
