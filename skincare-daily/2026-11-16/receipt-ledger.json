@@ -6,13 +6,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "-Q16pfxpIxQ",
       "sku": "111331",
       "title": "What Dermalogica Prisma Protect SPF30 50 mL Does: Boosts Skin's Natural Luminosity #shorts",
       "manifest_slug": "midrand-prisma-protect-spf30-50ml-short",
       "media_sha256": "2dd377b3775d40d6753595f0924521c148d98848a9e88dc554919dc1abfe03b0",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-16T06:00:00Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -80,5 +81,6 @@
     "missing_renders": 0,
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-15T20:01+02:00"
-  }
+  },
+  "youtube_ids_recorded": 1
 }
