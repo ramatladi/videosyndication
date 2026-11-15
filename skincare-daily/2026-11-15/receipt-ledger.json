@@ -234,13 +234,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "JxJooCx4xtE",
       "sku": "111279",
       "title": "Dermalogica Sound Sleep Cocoon 50 mL in Under a Minute: Revitalizes and Soothes Senses #shorts",
       "manifest_slug": "rosebank-sound-sleep-cocoon-50ml-short",
       "media_sha256": "0f223b384c27084ab08b0f4105b1e45a809bf9e06ee4d1ddd0b72b51a2411cca",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T16:52:46Z"
     }
   ],
   "reconciliation": {
@@ -249,5 +250,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T20:26+02:00"
   },
-  "youtube_ids_recorded": 12
+  "youtube_ids_recorded": 13
 }
