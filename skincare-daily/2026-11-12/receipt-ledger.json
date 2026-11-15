@@ -294,13 +294,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "OBBza2QV9hE",
       "sku": "811455",
       "title": "Body Care: Dermalogica Circular Hydration Serum 59 mL #shorts",
       "manifest_slug": "westville-circular-hydration-serum-59ml-short",
       "media_sha256": "466fec6e03b99a80d49d406c3f812e404cbb81348be2f2e96988804554515c73",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T01:19:33Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -394,5 +395,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 13
+  "youtube_ids_recorded": 14
 }
