@@ -250,13 +250,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "5EQRPDrvo2c",
       "sku": "111051",
       "title": "Dermalogica Precleanse 150 mL Explained: Melts Make-up and Impurities",
       "manifest_slug": "bedfordview-precleanse-150ml",
       "media_sha256": "8cb057750da839b5c078846fcbf7048f607c4e15ce9e43783c9f6a652a27974e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T08:28:21Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -404,5 +405,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 23
+  "youtube_ids_recorded": 24
 }
