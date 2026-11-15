@@ -159,7 +159,7 @@
   },
   {
    "spk": "copier",
-   "text": "I am the copy machine. I have seen every office party since two thousand four. Nobody should spin near me.",
+   "text": "I am the copy machine. Nobody should spin near me.",
    "shot": "CU",
    "gesture": "shrug"
   },
@@ -357,18 +357,6 @@
    "shot": "CU"
   },
   {
-   "spk": "priya",
-   "text": "Keep going! That is content!",
-   "shot": "CU",
-   "gesture": "point",
-   "jump": true
-  },
-  {
-   "spk": "doug",
-   "text": "Very good tie.",
-   "shot": "CU"
-  },
-  {
    "spk": "gary",
    "text": "This tie was a gift from my mother!",
    "shot": "CU",
@@ -409,11 +397,6 @@
    "text": "Since I got it. Four years.",
    "shot": "CU",
    "pre": 0.5
-  },
-  {
-   "spk": "copier",
-   "text": "That explains why you talk so fast at the printer.",
-   "shot": "CU"
   },
   {
    "spk": "priya",
