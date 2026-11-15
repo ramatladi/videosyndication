@@ -344,13 +344,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "1UVCrTIMehE",
       "sku": "301243INT",
       "title": "Dermalogica Skin Transformation Duo in Under a Minute: Exfoliates and Combats Skin Aging #shorts",
       "manifest_slug": "westville-skin-transformation-duo-short",
       "media_sha256": "f95fb17a342ea80a801f77a91039600d4a7a8c99f32263e8217fbd82dc878f6d",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T09:27:04Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -411,5 +412,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 30
+  "youtube_ids_recorded": 31
 }
