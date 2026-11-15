@@ -19,13 +19,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "4MTKNzJxBIE",
       "sku": "111449",
       "title": "What Dermalogica Awaken Peptide Eye Gel 15 mL Does: Firms, Hydrates, and Depuffs #shorts",
       "manifest_slug": "midrand-awaken-peptide-eye-gel-15ml-short",
       "media_sha256": "c071f77a8f7c361f38f1c3ed5b382c8d0202c572bb5d6c2c7b6de696f7cd234a",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T15:56:38Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -245,5 +246,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T20:26+02:00"
   },
-  "youtube_ids_recorded": 8
+  "youtube_ids_recorded": 9
 }
