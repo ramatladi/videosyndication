@@ -266,13 +266,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "RUIQuqD2OUE",
       "sku": "110542",
       "title": "Dermalogica UltraCalming Cleanser 500 mL: Calms and Cools Sensitized Skin #shorts",
       "manifest_slug": "bedfordview-ultracalming-cleanser-500ml-short",
       "media_sha256": "86c8f8b6091244d44a9d492ee06bf192106b1f78964ce54ae008f6326950f88b",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T09:27:04Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -410,5 +411,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T19:46+02:00"
   },
-  "youtube_ids_recorded": 29
+  "youtube_ids_recorded": 30
 }
