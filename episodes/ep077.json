@@ -1,0 +1,531 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 77,
+ "slug": "the-sunday-morning-outbreak",
+ "title": "The Sunday Morning Outbreak",
+ "trend": "TikTok 'Zombie Outbreak Survival Stories' (animated second-person zombie serials set in everyday places, with cliffhangers in each part; New Engen TikTok list, updated Nov 13 2026, US) + Sunday morning — teen Tasha narrates 'part one' of an outbreak in the kitchen as slow shuffling Uncle Rudy and Mom can only say 'coffee' while the coffee pot begs to be switched on; twist: Tasha has been up all night filming parts one to forty and turns herself, the grown-ups are cured by coffee and kids get juice",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "spooky",
+ "intro": [
+  "pov: it's sunday morning",
+  "and the outbreak",
+  "has reached the kitchen"
+ ],
+ "youtube_title": "Day one of the outbreak. Do not make eye contact with Uncle Rudy ☕",
+ "description": "It is Sunday morning and the kitchen is full of slow, shuffling grown-ups who can only say one word. Tasha has survival rules, the coffee pot has a button, and somebody has not slept.\n\n#cartoon #animation #funny #sundaymorning #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "zombies",
+  "coffee",
+  "sunday morning",
+  "family",
+  "uncle"
+ ],
+ "tiktok_caption": "day one of the outbreak. do not make eye contact with uncle rudy ☕ #cartoon #animation #funny #coffee",
+ "cast": [
+  {
+   "id": "tasha",
+   "name": "Tasha",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.95,
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#4a7a3a",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#f39c12",
+   "accessories": [
+    "mic_headset",
+    "beanie:#2c3e50"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#a9dfbf",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "rudy",
+   "name": "Uncle Rudy",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.08,
+   "hair": {
+    "style": "spiky",
+    "color": "#7f8c8d"
+   },
+   "top": {
+    "color": "#8e5a3c",
+    "pattern": "stripes",
+    "pattern_color": "#c49a6c"
+   },
+   "bottom": "#5d6d7e",
+   "shoes": "#2e86c1",
+   "accessories": [
+    "beard"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#f5cba7",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "darlene",
+   "name": "Mom",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.0,
+   "hair": {
+    "style": "curly",
+    "color": "#4a2c17"
+   },
+   "top": {
+    "color": "#d98880",
+    "pattern": "dots",
+    "pattern_color": "#fdfefe"
+   },
+   "bottom": "#7d3c98",
+   "shoes": "#f8f9f9",
+   "accessories": [
+    "sunglasses",
+    "scarf:#f7dc6f"
+   ],
+   "eye": "sleepy",
+   "brows": "angry",
+   "mouth": "frown",
+   "label_color": "#fadbd8",
+   "voice": {
+    "id": "af_kore",
+    "pitch": -1,
+    "tempo": 0.94
+   }
+  },
+  {
+   "id": "pot",
+   "name": "The Coffee Pot",
+   "kind": "mascot",
+   "shape": "cup",
+   "color": "#2c3e50",
+   "sleeve": "#a04000",
+   "lid": "#17202a",
+   "scale": 0.9,
+   "accessories": [
+    "glasses",
+    "tie:#c0392b"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#d5d8dc",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "tasha",
+   "text": "Part one. Day one of the outbreak. If you are watching this, you are already in the kitchen.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "tasha",
+   "text": "Stay low. Stay quiet. And whatever you do, do not make eye contact with Uncle Rudy.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "rudy",
+   "text": "Uhhh. Coffee.",
+   "shot": "rudy",
+   "gesture": "arms_up",
+   "pre": 0.5
+  },
+  {
+   "spk": "tasha",
+   "text": "You hear that? That is a stage one. He can only say one word.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "pot",
+   "text": "I am the coffee pot. I have seen many Sundays. This is the worst one.",
+   "shot": "pot"
+  },
+  {
+   "spk": "pot",
+   "text": "Nobody has pressed my button. The house is in danger.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tasha",
+   "text": "Rule one of survival. Never stand between a Rudy and the counter.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "rudy",
+   "text": "Coffee.",
+   "shot": "rudy",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tasha",
+   "text": "He is moving. Slowly. Very slowly. He is wearing one slipper. That means it is bad.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "rudy",
+   "text": "Where. Other. Slipper.",
+   "shot": "rudy",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tasha",
+   "text": "Okay, he said three words. That is actually progress.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pot",
+   "text": "Press my button, child. End this.",
+   "shot": "pot"
+  },
+  {
+   "spk": "tasha",
+   "text": "I can't. If I press the button, the beep will bring the others.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pot",
+   "text": "I beep because I love. I have always beeped because I love.",
+   "shot": "pot",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rudy",
+   "text": "Uhhh.",
+   "shot": "rudy",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "tasha",
+   "text": "He opened the fridge. He is just looking at it. This could take twenty minutes.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "pot",
+   "text": "Last Sunday he stared at a jar of pickles until lunch.",
+   "shot": "pot"
+  },
+  {
+   "spk": "rudy",
+   "text": "Pickle.",
+   "shot": "rudy",
+   "gesture": "point"
+  },
+  {
+   "spk": "tasha",
+   "text": "Do not give him the pickle. A pickle is not coffee. A pickle makes it worse.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "tasha",
+   "text": "Oh no. Footsteps on the stairs. A second one.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.4
+  },
+  {
+   "spk": "darlene",
+   "text": "Who. Is. Talking. So. Loud.",
+   "shot": "darlene",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tasha",
+   "text": "That is my mom. Stage two. Full sentences, but very slow, and angry at the sun.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "darlene",
+   "text": "Close. The. Blinds. The sun is. Yelling.",
+   "shot": "darlene",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pot",
+   "text": "Darlene. My oldest friend. She bought me at a yard sale for four dollars.",
+   "shot": "pot",
+   "gesture": "wave"
+  },
+  {
+   "spk": "darlene",
+   "text": "Best. Four dollars. Of my life.",
+   "shot": "darlene",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tasha",
+   "text": "They are forming a group at the counter. This is how it starts.",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": [
+    "rudy",
+    "darlene"
+   ],
+   "text": "Coffee.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "tasha",
+   "text": "Rule three. When they say it together, you have about one minute.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "pot",
+   "text": "Press. My. Button.",
+   "shot": "pot"
+  },
+  {
+   "spk": "tasha",
+   "text": "Now you are doing it too.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pot",
+   "text": "I have been sitting next to them for eleven years. It rubs off.",
+   "shot": "pot",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tasha",
+   "text": "Time for the decoy. A glass of orange juice, sliding down the counter.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "rudy",
+   "text": "This. Is. Orange.",
+   "shot": "rudy",
+   "gesture": "think"
+  },
+  {
+   "spk": "darlene",
+   "text": "Why. Is it. Orange.",
+   "shot": "darlene",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tasha",
+   "text": "It didn't work. They know. They always know.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "tasha",
+   "text": "Emergency plan. Pancakes. Nobody can resist pancakes.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "darlene",
+   "text": "Pancakes. Are. Step. Two.",
+   "shot": "darlene",
+   "gesture": "cross"
+  },
+  {
+   "spk": "pot",
+   "text": "She is right, child. Nothing comes before me. I am step one.",
+   "shot": "pot",
+   "gesture": "hips"
+  },
+  {
+   "spk": "rudy",
+   "text": "Step. One.",
+   "shot": "rudy",
+   "gesture": "point",
+   "after": "boing"
+  },
+  {
+   "spk": "tasha",
+   "text": "Fine. I am pressing the button. If this is my last video, tell everyone I tried.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pot",
+   "text": "Beep.",
+   "shot": "pot",
+   "after": "ding",
+   "pre": 0.5
+  },
+  {
+   "spk": "pot",
+   "text": "Five minutes. Do not rush me. I am a craftsman.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": [
+    "rudy",
+    "darlene"
+   ],
+   "text": "Five. Minutes.",
+   "shot": "W"
+  },
+  {
+   "spk": "tasha",
+   "text": "They are just standing there, staring at the pot. This is the scariest part.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "tasha",
+   "text": "Wait. My phone says I have been filming for nine hours.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.8
+  },
+  {
+   "spk": "pot",
+   "text": "Child. When did you last sleep?",
+   "shot": "pot"
+  },
+  {
+   "spk": "tasha",
+   "text": "I filmed parts one through forty all night. The outbreak has a lot of parts.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "darlene",
+   "text": "You were up. All. Night?",
+   "shot": "darlene",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tasha",
+   "text": "Maybe. A little. Most of it.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rudy",
+   "text": "She is. Turning.",
+   "shot": "rudy",
+   "gesture": "point"
+  },
+  {
+   "spk": "tasha",
+   "text": "I am not turning. I am a survivor. I am very. Very. Uhhh.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pot",
+   "text": "It is happening. Her eyes are going small.",
+   "shot": "pot"
+  },
+  {
+   "spk": "tasha",
+   "text": "Coffee.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "pot",
+   "text": "Ding. I am ready. Form a line. Oldest first.",
+   "shot": "pot",
+   "gesture": "wave",
+   "pre": 0.4
+  },
+  {
+   "spk": "rudy",
+   "text": "Ahh. Good morning, everybody. What a beautiful Sunday.",
+   "shot": "rudy",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "darlene",
+   "text": "Oh, that is so much better. Who closed the blinds? The sun is lovely.",
+   "shot": "darlene",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tasha",
+   "text": "Coffee. Coffee. Coffee.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "rudy",
+   "text": "Sorry, kiddo. Kids get juice. Those are the rules.",
+   "shot": "rudy",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "tasha",
+   "text": "This. Is. Orange.",
+   "shot": "tasha",
+   "gesture": "cross",
+   "pre": 0.6
+  },
+  {
+   "spk": "pot",
+   "text": "Part two tomorrow. Monday. Nobody survives Monday.",
+   "shot": "pot",
+   "after": "sting"
+  },
+  {
+   "spk": "tasha",
+   "text": "Uhhh.",
+   "shot": "tasha",
+   "gesture": "facepalm"
+  }
+ ]
+}
