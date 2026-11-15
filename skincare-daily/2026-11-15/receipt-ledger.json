@@ -180,13 +180,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "1tMTjedKTJA",
       "sku": "111387",
       "title": "Dermalogica Conditioning Body Wash Explained: Cleanses and Conditions",
       "manifest_slug": "westville-conditioning-body-wash",
       "media_sha256": "7f487a0f84350798945c0f896d94f35792666920ca32e39bb9b3a845bc66b910",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-15T16:52:46Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -243,5 +244,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-14T20:26+02:00"
   },
-  "youtube_ids_recorded": 6
+  "youtube_ids_recorded": 7
 }
