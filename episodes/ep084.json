@@ -1,0 +1,514 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 84,
+ "slug": "do-not-touch-the-cat",
+ "title": "Do Not Touch The Cat",
+ "trend": "TikTok 'Reaching out to touch a stranger cat' (a slow reach toward the camera, then a cut to petting someone else's cat; Virlo TikTok formats, Fresh, 127 creators in the last 7 days, Nov 15 2026, US) + Monday morning commute — Theo cannot walk past a cat on the way to the bus for his job interview while his friend Ray counts down the minutes and Duchess the cat narrates her rules; the owner Ophelia is hurt the cat purrs for a stranger; twist: Duchess is not her cat at all, she has five names and five dinners on the block, and at the bakery where Theo's interview is she is Doctor Whiskers, who does the hiring",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "park_day",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "pov:",
+  "you have four minutes to catch the bus",
+  "and there is a cat"
+ ],
+ "youtube_title": "Four minutes to catch the bus. Then he saw a cat. 🐈",
+ "description": "Theo has a job interview and four minutes to catch the bus. Ray has one rule: do not look at the cat. Duchess has rules too, and a lot of names.\n\n#cartoon #animation #funny #cats #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "cat",
+  "cat lover",
+  "best friends",
+  "monday morning",
+  "neighbors"
+ ],
+ "tiktok_caption": "four minutes to catch the bus. then he saw a cat 🐈 #cartoon #animation #funny #cats",
+ "cast": [
+  {
+   "id": "theo",
+   "name": "Theo",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.04,
+   "hair": {
+    "style": "short",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#1f3a5f",
+    "pattern": "suit",
+    "pattern_color": "#f4d03f"
+   },
+   "bottom": "#1c2833",
+   "shoes": "#5d4037",
+   "accessories": [
+    "tie:#f4d03f"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#aed6f1",
+   "voice": {
+    "id": "am_echo",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "ray",
+   "name": "Ray",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.0,
+   "hair": {
+    "style": "afro",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "headphones:#e74c3c"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "frown",
+   "label_color": "#abebc6",
+   "voice": {
+    "id": "am_michael",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "duchess",
+   "name": "Duchess",
+   "kind": "animal",
+   "ears": "cat",
+   "color": "#f0b27a",
+   "scale": 0.9,
+   "belly": "#fdebd0",
+   "inner": "#f5b7b1",
+   "accessories": [
+    "crown:#f1c40f"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f9e79f",
+   "voice": {
+    "id": "bf_emma",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "ophelia",
+   "name": "Mrs. Ophelia",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 0.98,
+   "hair": {
+    "style": "bun",
+    "color": "#d5d8dc"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "dots",
+    "pattern_color": "#f8f9f9"
+   },
+   "bottom": "#4a235a",
+   "shoes": "#1b2631",
+   "accessories": [
+    "glasses",
+    "scarf:#f39c12"
+   ],
+   "eye": "round",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#d7bde2",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "ray",
+   "text": "Theo. Four minutes to the bus. Do not look at the cat.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "What cat?",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.3
+  },
+  {
+   "spk": "ray",
+   "text": "That cat.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ray",
+   "text": "You are already reaching. I can see the arm.",
+   "shot": "TWO",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "duchess",
+   "text": "Here comes the hand. They always come with the hand.",
+   "shot": "duchess",
+   "gesture": "think"
+  },
+  {
+   "spk": "duchess",
+   "text": "I am Duchess. I sit on this wall and judge the hands.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "theo",
+   "text": "Hello, your majesty. May I?",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "duchess",
+   "text": "He asked. Nobody asks. Fine. Slowly. From the side.",
+   "shot": "duchess",
+   "gesture": "hips"
+  },
+  {
+   "spk": "theo",
+   "text": "She said yes. She did a slow blink.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "ray",
+   "text": "That is not a yes. That is a nap.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "duchess",
+   "text": "Rule one. Behind the ears. Rule two. Never the belly. The belly is a trap.",
+   "shot": "duchess",
+   "gesture": "point",
+   "after": "boing"
+  },
+  {
+   "spk": "ray",
+   "text": "Three minutes, Theo.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "One more scratch.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "duchess",
+   "text": "They always say one more. It is never one more.",
+   "shot": "duchess",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ophelia",
+   "text": "Excuse me. That is my cat. She does not like strangers.",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 0.4
+  },
+  {
+   "spk": "duchess",
+   "text": "Purr.",
+   "shot": "duchess",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ophelia",
+   "text": "She is purring. She has never purred for me. Eleven years.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "theo",
+   "text": "I am so sorry, ma'am. I just have a face cats trust.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ray",
+   "text": "He has a face cats sit on. It is different.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ophelia",
+   "text": "I feed her fresh salmon. And she purrs for a man in a tie.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "duchess",
+   "text": "It is a nice tie. It is the color of a sunbeam.",
+   "shot": "duchess",
+   "gesture": "think"
+  },
+  {
+   "spk": "ray",
+   "text": "The bus. The bus is here. Theo, the bus.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "theo",
+   "text": "Go without me. Tell them I was brave.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "ray",
+   "text": "And there goes the bus.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "whoosh"
+  },
+  {
+   "spk": "ray",
+   "text": "Your suit is orange now. You are wearing half a cat.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "It is fine. My interview is at the bakery on the corner.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "duchess",
+   "text": "The bakery? On the corner?",
+   "shot": "duchess",
+   "gesture": "think",
+   "pre": 0.5
+  },
+  {
+   "spk": "ophelia",
+   "text": "Why is my cat interested in the bakery?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "duchess",
+   "text": "Ophelia. Darling. We need to talk. I am not your cat.",
+   "shot": "duchess",
+   "gesture": "hips",
+   "pre": 0.6
+  },
+  {
+   "spk": "ophelia",
+   "text": "Excuse me?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "theo",
+   "text": "Oh no.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "duchess",
+   "text": "I have five houses on this street. Five names. Five dinners.",
+   "shot": "duchess",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "duchess",
+   "text": "Here, I am Duchess. At the yellow house, I am Meatball.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "duchess",
+   "text": "At the fire station, I am Chief.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ophelia",
+   "text": "Eleven years of salmon.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "duchess",
+   "text": "And it was lovely salmon. Second best on the street.",
+   "shot": "duchess",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "theo",
+   "text": "What are you at the bakery?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "duchess",
+   "text": "At the bakery, I am Doctor Whiskers. I do the hiring.",
+   "shot": "duchess",
+   "gesture": "cross",
+   "pre": 0.5
+  },
+  {
+   "spk": "ray",
+   "text": "The cat does the hiring?",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "duchess",
+   "text": "If I like a hand, the hand gets the job.",
+   "shot": "duchess",
+   "gesture": "talk"
+  },
+  {
+   "spk": "duchess",
+   "text": "That was your interview, Theo. Behind the ears. Never the belly. You passed.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "I got the job? I got the job.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "ray",
+   "text": "He missed the bus and still got the job. Because of a cat.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ophelia",
+   "text": "That explains why you are never home on Tuesdays.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "duchess",
+   "text": "Tuesday is the fire station. They have chili.",
+   "shot": "duchess",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ophelia",
+   "text": "Well. I am not making salmon tonight.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "duchess",
+   "text": "Purr.",
+   "shot": "duchess",
+   "gesture": "talk",
+   "pre": 0.4
+  },
+  {
+   "spk": "ophelia",
+   "text": "Okay, I am making salmon tonight.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "theo",
+   "text": "Doctor Whiskers, when do I start?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "duchess",
+   "text": "Tomorrow at six. Bring the tie.",
+   "shot": "duchess",
+   "gesture": "wave"
+  },
+  {
+   "spk": "ray",
+   "text": "Can I pet the boss too? Just once?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.3
+  },
+  {
+   "spk": "duchess",
+   "text": "Appointment only.",
+   "shot": "duchess",
+   "gesture": "cross"
+  },
+  {
+   "spk": "ray",
+   "text": "When is the next appointment?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "duchess",
+   "text": "March.",
+   "shot": "duchess",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ray",
+   "text": "Then I am reaching anyway.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "duchess",
+   "text": "Here comes the hand. Rule two, Raymond. The belly is a trap.",
+   "shot": "duchess",
+   "gesture": "hips"
+  },
+  {
+   "spk": "ray",
+   "text": "Why does she know my whole name?",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "duchess",
+   "text": "At your house, I am Pickles.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "ding"
+  }
+ ]
+}
