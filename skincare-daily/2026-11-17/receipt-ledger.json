@@ -31,13 +31,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "bH5QAyOuBY8",
       "sku": "110910",
       "title": "How to Use Dermalogica Breakout Clearing Foaming Wash #shorts",
       "manifest_slug": "westville-breakout-clearing-foaming-wash-short",
       "media_sha256": "293ae4a9a023f9cf85c139c8fb436b4c82a238d2a1fbc0623209153ff1732bf3",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-17T14:00:00Z"
     }
   ],
   "reconciliation": {
@@ -46,5 +47,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-16T20:00+02:00"
   },
-  "youtube_ids_recorded": 1
+  "youtube_ids_recorded": 2
 }
