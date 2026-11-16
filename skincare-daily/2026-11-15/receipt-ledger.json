@@ -214,13 +214,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "k8jTFCS0AZM",
       "sku": "111520INT",
       "title": "Body Care: Dermalogica Stabilizing Repair Face + Body Serum #shorts",
       "manifest_slug": "westville-stabilizing-repair-face-body-serum-short",
       "media_sha256": "58389d7a0977cb6eeefa6289ce9573c59cc67ffa5cde7a082d8f2c389b48dd9b",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-16T18:54:17Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -281,5 +282,5 @@
     "youtube_ids_recorded": 20,
     "producer_refreshed": "2026-11-16T20:00+02:00"
   },
-  "youtube_ids_recorded": 20
+  "youtube_ids_recorded": 21
 }
