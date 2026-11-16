@@ -35,7 +35,7 @@
   },
   "@SkincareDurbanWestville": {
    "domain": "skincare.durban",
-   "shorts": 2,
+   "shorts": 3,
    "videos": 2,
    "all_pass": true,
    "status": "partial: staged items ready"
@@ -70,12 +70,6 @@
   },
   {
    "handle": "@SkincareDurbanWestville",
-   "slot_sast": "2026-11-15 16:00",
-   "format": "short",
-   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
-  },
-  {
-   "handle": "@SkincareDurbanWestville",
    "slot_sast": "2026-11-15 20:00",
    "format": "short",
    "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
@@ -84,7 +78,7 @@
    "handle": "@DermatologistJoburgMidrand",
    "slot_sast": "2026-11-15 16:00",
    "format": "short",
-   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+   "reason": "store packshot for the 13g variant carries a beauty-award badge (no award images); dropped, no other candidate passed the 0.85 script-overlap guard"
   },
   {
    "handle": "@DermatologistJoburgMidrand",
@@ -1158,6 +1152,69 @@
     "pass": true
    },
    "crossday_min_thumb_dist": 76,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.durban",
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-15 16:00",
+   "format": "short",
+   "slug": "westville-stabilizing-repair-face-body-serum-short",
+   "sku": "111520INT",
+   "variant": "Default Title",
+   "selection": {
+    "tier": "a",
+    "why": "unused SKU in the desk (7-day window)"
+   },
+   "product": {
+    "name": "stabilizing repair face + body serum",
+    "listing_url": "https://dermalogica.co.za/products/stabilizing-repair-serum-50ml?variant=53928291074362",
+    "checked": "2026-11-15",
+    "packshot": "skincare-daily/2026-11-15/images/d1115-111520INT-00.png",
+    "packshot_sha256": "350e7b725adbcb55aa49d5974d37719347ecc536f4f2df05455f2f524b45c83a",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Stabilizing_Repair_Serum_-_Retail_FRONT_INT_01e21c69-a6cb-42f6-94b3-f687e62864bb.png?v=1789041784"
+   },
+   "title": "Body Care: Dermalogica Stabilizing Repair Face + Body Serum #shorts",
+   "description": "Dermalogica stabilizing repair face + body serum: calms + comforts reactive skin, from the Westville body care desk.\n\nWe earn a commission if you buy through our link at https://skincare.durban/.\n\n• Calms + comforts reactive skin\n• Relieves sensory irritation, including itching, stinging + tightness\n• Immediately calms and comforts reactive skin\n• Builds a hydration reservoir to help fortify dry, flaky skin\n• How to use: Apply to clean skin. Allow to absorb, then follow with the rest of your skin care routine. Use twice daily.\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/stabilizing-repair-serum-50ml?variant=53928291074362, checked 2026-11-15); check the current listing before you buy.\n\nShop: https://skincare.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #StabilizingRepairFaceBodySerum #BodyCare #shorts",
+   "tags": [
+    "stabilizing repair face + body serum",
+    "dermalogica stabilizing repair face + body serum",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 40.5,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-15/renders/skincare.durban/westville-stabilizing-repair-face-body-serum-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-15/renders/skincare.durban/westville-stabilizing-repair-face-body-serum-short.mp4",
+   "sha256": "58389d7a0977cb6eeefa6289ce9573c59cc67ffa5cde7a082d8f2c389b48dd9b",
+   "thumbnail_path": "skincare-daily/2026-11-15/renders/skincare.durban/westville-stabilizing-repair-face-body-serum-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-15/renders/skincare.durban/westville-stabilizing-repair-face-body-serum-short.jpg",
+   "thumbnail_sha256": "f00adfa6cd94bf87c0af71d77ca13666ef7b43d85f1078b9a7173b0415eb78a7",
+   "captions_path": "skincare-daily/2026-11-15/renders/skincare.durban/westville-stabilizing-repair-face-body-serum-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-15/renders/skincare.durban/westville-stabilizing-repair-face-body-serum-short.en.srt",
+   "captions_sha256": "2c9ee45109ca674f4933b71efebbcc839127212bd4ff4b38be6baeb39daab7cb",
+   "listing_images": [
+    "skincare-daily/2026-11-15/images/d1115-111520INT-00.png",
+    "skincare-daily/2026-11-15/images/d1115-111520INT-01.jpg",
+    "skincare-daily/2026-11-15/images/d1115-111520INT-02.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_bella (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.15,
+    "true_peak": -1.45,
+    "packshot_match": 0.994,
+    "srt_cues": 10,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 52,
    "status": "ready"
   },
   {
