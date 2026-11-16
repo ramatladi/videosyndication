@@ -18,13 +18,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "4ckkPN1YJgo",
       "sku": "111324",
       "title": "Dermalogica Skin Smoothing Cream: Provides 48 Hours of Hydration #shorts",
       "manifest_slug": "capetown-skin-smoothing-cream-short",
       "media_sha256": "f32b0a6e9fffd9ce40f526ea826fdfd4ba71437b3bb479bab7af89a0b0cde229",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-17T10:00:00Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -44,5 +45,6 @@
     "missing_renders": 0,
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-16T20:00+02:00"
-  }
+  },
+  "youtube_ids_recorded": 1
 }
