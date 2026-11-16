@@ -44,13 +44,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "1ct2ncUypGE",
       "sku": "111524",
       "title": "Cape Town Sun Care Desk: Dermalogica Futurecode Booster Damage-Correcting Longevity Serum #shorts",
       "manifest_slug": "capetown-futurecode-booster-damage-correcting-longevity-serum-short",
       "media_sha256": "0a17bf387adba639eef8252d5f552e022c7d44c271bf88b84e79d7162852cd5b",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-16T10:00:00Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -84,5 +85,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-15T20:01+02:00"
   },
-  "youtube_ids_recorded": 3
+  "youtube_ids_recorded": 4
 }
