@@ -6,13 +6,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "JQ3PzY1oVek",
       "sku": "111251",
       "title": "Dermalogica Daily Superfoliant 13g in Under a Minute: Exfoliates, Resurfaces, Detoxes #shorts",
       "manifest_slug": "midrand-daily-superfoliant-13g-short",
       "media_sha256": "81c62e98701047f9cad5d35aa026d39c669a2d0dbdabb2964682dc220248488f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-17T18:00:00Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -47,5 +48,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-16T20:00+02:00"
   },
-  "youtube_ids_recorded": 2
+  "youtube_ids_recorded": 3
 }
