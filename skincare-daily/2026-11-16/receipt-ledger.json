@@ -32,13 +32,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "nktJLe8RFrc",
       "sku": "111510INT",
       "title": "Dermalogica BioLumin-C Heat Aging Protector SPF50 50 mL, Explained Fast #shorts",
       "manifest_slug": "midrand-biolumin-c-heat-aging-protector-spf50-50ml-short",
       "media_sha256": "e332b488387876a5d9d75d94758c5f43d2cb60206a3ba36bf4490c41f2a7c33c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-16T14:00:00Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -85,5 +86,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-15T20:01+02:00"
   },
-  "youtube_ids_recorded": 4
+  "youtube_ids_recorded": 5
 }
