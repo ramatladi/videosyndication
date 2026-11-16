@@ -2854,6 +2854,81 @@
     "dance": 0.265,
     "genre_fit": 0.858
    }
+  },
+  {
+   "release": "mtr042",
+   "date": "2026-11-16",
+   "slot": "2026-11-16T19:55",
+   "format": "short",
+   "title": "Coral Sky Dancing",
+   "artist": "Nok Flamingo",
+   "style": "tropical",
+   "key": "A major",
+   "bpm": 108,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "e5126557-fa18-4470-95f2-96214dc30d49",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/0a19415e-1de1-49ad-8925-494fd2fda51f.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr042.json",
+   "photographer": "Vitalii Khodzinskyi",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-bikini-sitting-in-a-pool-MDTHdiso6Wo",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-1770222188147880722",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-9101952716724062809.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr042.mp3",
+    "top": [
+     [
+      "electronic",
+      0.257
+     ],
+     [
+      "chillout",
+      0.203
+     ],
+     [
+      "pop",
+      0.196
+     ],
+     [
+      "female vocalists",
+      0.18
+     ],
+     [
+      "dance",
+      0.102
+     ],
+     [
+      "ambient",
+      0.091
+     ],
+     [
+      "jazz",
+      0.089
+     ],
+     [
+      "electronica",
+      0.079
+     ],
+     [
+      "instrumental",
+      0.058
+     ],
+     [
+      "House",
+      0.039
+     ]
+    ],
+    "house": 0.039,
+    "electronic": 0.257,
+    "dance": 0.102,
+    "genre_fit": 0.833
+   }
   }
  ]
 }
