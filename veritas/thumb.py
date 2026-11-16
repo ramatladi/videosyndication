@@ -67,7 +67,9 @@ if SHORT:
     tf, tl = fit(d, role, BOLD, 112, W - 140, 4, 60)
     for s in tl: d.text(((W - d.textlength(s, font=tf)) / 2, y), s, font=tf, fill=WHITE); y += int(tf.size * 1.12)
     y += 34
-    lf = font(MED, 60); d.text(((W - d.textlength(place, font=lf)) / 2, y), place, font=lf, fill=MUTED); y += 130
+    ps = 60
+    while ps > 34 and d.textlength(place, font=font(MED, ps)) > W - 100: ps -= 2
+    lf = font(MED, ps); d.text(((W - d.textlength(place, font=lf)) / 2, y), place, font=lf, fill=MUTED); y += 130
     cf, _ = fit(d, pay, BOLD, 84, W - 220, 1, 50); cw = d.textlength(pay, font=cf) + 80
     d.rounded_rectangle(((W - cw) / 2, y, (W + cw) / 2, y + cf.size + 56), radius=30, fill=(31, 50, 84), outline=GOLD, width=5)
     d.text(((W - cw) / 2 + 40, y + 22), pay, font=cf, fill=WHITE); y += cf.size + 56
