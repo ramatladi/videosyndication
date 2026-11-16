@@ -1,0 +1,511 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 86,
+ "slug": "texting-dad-about-blaze",
+ "title": "Texting Dad About Blaze",
+ "trend": "TikTok 'Texting my dad prank with a fake boyfriend' (daughters text dad about an outrageous new boyfriend and film his replies; ppl.studio TikTok formats, Strong, November 2026, US) + college kids coming home for Thanksgiving break — Jada and her best friend Kendall text her dad Curtis about Blaze, a thirty-one-year-old DJ who lives in a van, while the phone reads Dad's replies aloud; Dad stays alarmingly calm and keeps inviting Blaze to Thanksgiving; twist: Dad knew from the first text because Kendall's mom is in his group chat, he pulled the same prank on his own father in nineteen ninety four with a fake girlfriend named Starla, and Grandpa still sets a plate for Starla every year",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "bedroom",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "texting my dad",
+  "that i have a new boyfriend",
+  "his name is blaze"
+ ],
+ "youtube_title": "She told Dad about her new boyfriend Blaze. Dad was way too calm 📱",
+ "description": "Jada and Kendall text Jada's dad about Blaze, a DJ who lives in a van. Dad does not panic. Dad asks if Blaze likes brisket. That is when the girls start to panic.\n\n#cartoon #animation #funny #dadjokes #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "dad",
+  "texting",
+  "prank",
+  "best friends",
+  "thanksgiving"
+ ],
+ "tiktok_caption": "told dad about my new boyfriend blaze. dad was way too calm 📱 #cartoon #animation #funny #dad",
+ "cast": [
+  {
+   "id": "jada",
+   "name": "Jada",
+   "kind": "human",
+   "color": "#6f4e37",
+   "scale": 0.98,
+   "hair": {
+    "style": "long",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#e84393",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "accessories": [
+    "bow:#fdcb6e"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "af_bella",
+    "pitch": 0,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "kendall",
+   "name": "Kendall",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 0.96,
+   "hair": {
+    "style": "curly",
+    "color": "#d35400"
+   },
+   "top": {
+    "color": "#0984e3",
+    "pattern": "dots",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#636e72",
+   "shoes": "#fdcb6e",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#74b9ff",
+   "voice": {
+    "id": "af_river",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "phone",
+   "name": "The Phone",
+   "kind": "mascot",
+   "shape": "phone",
+   "color": "#2d3436",
+   "case": "#00b894",
+   "scale": 0.92,
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "bm_fable",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "curtis",
+   "name": "Dad Curtis",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.06,
+   "hair": {
+    "style": "short",
+    "color": "#4d4d4d"
+   },
+   "top": {
+    "color": "#6c5ce7",
+    "pattern": "stripes",
+    "pattern_color": "#dfe6e9"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#636e72",
+   "accessories": [
+    "beard:#4d4d4d"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#a29bfe",
+   "voice": {
+    "id": "am_eric",
+    "pitch": -1,
+    "tempo": 0.98
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "jada",
+   "text": "Texting my dad that I have a new boyfriend. Ready?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kendall",
+   "text": "His name is Blaze. He has to be named Blaze.",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "jada",
+   "text": "Sending. Dad, I met someone. His name is Blaze.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "phone",
+   "text": "I am the phone. I read the replies. Dramatically.",
+   "shot": "phone",
+   "gesture": "wave"
+  },
+  {
+   "spk": "phone",
+   "text": "New message from Dad. Cool.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.5
+  },
+  {
+   "spk": "jada",
+   "text": "Cool? Just cool?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "kendall",
+   "text": "He is playing it calm. Hit him harder.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "jada",
+   "text": "He is thirty one. He is a DJ. He lives in a van.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "phone",
+   "text": "New message from Dad. Does he like brisket?",
+   "shot": "phone",
+   "gesture": "talk",
+   "pre": 0.5
+  },
+  {
+   "spk": "kendall",
+   "text": "Why is your dad asking about brisket?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jada",
+   "text": "That is the brisket he only makes for Thanksgiving.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "phone",
+   "text": "Dad says. I will save him the end piece.",
+   "shot": "phone",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jada",
+   "text": "The end piece? I have never been offered the end piece!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "kendall",
+   "text": "Tell him about the tattoo.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "jada",
+   "text": "Blaze has a tattoo of a dolphin. On his face.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "phone",
+   "text": "Dad says. Respect. Dolphins are very smart.",
+   "shot": "phone",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kendall",
+   "text": "He respects the face dolphin, Jada.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jada",
+   "text": "Fine. Blaze wants to move in. With the van. In the driveway.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.4
+  },
+  {
+   "spk": "phone",
+   "text": "Dad says. Great. Does the van need an outlet?",
+   "shot": "phone",
+   "gesture": "talk"
+  },
+  {
+   "spk": "kendall",
+   "text": "He is offering the van electricity.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "phone",
+   "text": "Another one. I told your grandmother. She is knitting him a stocking.",
+   "shot": "phone",
+   "gesture": "talk",
+   "after": "boing"
+  },
+  {
+   "spk": "jada",
+   "text": "No. Grandma cannot be involved. Grandma tells the whole street.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "kendall",
+   "text": "Abort. Tell him it is a joke.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "jada",
+   "text": "Dad, okay, I need to tell you something.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "phone",
+   "text": "Dad says. Me too. Blaze is here.",
+   "shot": "phone",
+   "gesture": "hips",
+   "pre": 0.6
+  },
+  {
+   "spk": "kendall",
+   "text": "Blaze is not real! We made Blaze up ten minutes ago!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "curtis",
+   "text": "Knock knock.",
+   "shot": "CU",
+   "gesture": "wave",
+   "pre": 0.6
+  },
+  {
+   "spk": "jada",
+   "text": "Dad! Where is Blaze?",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "curtis",
+   "text": "Where indeed, sweetheart.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "curtis",
+   "text": "Kendall, your mother says hello. She is in my group chat.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "kendall",
+   "text": "My mom told on us?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "curtis",
+   "text": "She told on you before the first text. You practiced it in her car.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jada",
+   "text": "So the brisket, the van outlet, the stocking. All fake?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "curtis",
+   "text": "The brisket is real. The end piece was never on the table.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jada",
+   "text": "I knew it.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "curtis",
+   "text": "Also. I did this exact prank on your grandpa in nineteen ninety four.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.4
+  },
+  {
+   "spk": "kendall",
+   "text": "With a fake boyfriend?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "curtis",
+   "text": "Fake girlfriend. Her name was Starla. She did magic on a boat.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jada",
+   "text": "What did Grandpa say?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "curtis",
+   "text": "Nothing. He just set a plate for Starla at Thanksgiving.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "curtis",
+   "text": "He still does. Every year. Starla has her own chair.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "phone",
+   "text": "I have seen the chair. It has a little name card.",
+   "shot": "phone",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jada",
+   "text": "So Grandpa feeds Starla, and you feed Blaze.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "curtis",
+   "text": "That is how it works in this family. You make them up, you feed them.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "kendall",
+   "text": "That is the most beautiful thing I have ever heard.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jada",
+   "text": "That is the most embarrassing thing I have ever heard.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "curtis",
+   "text": "Blaze gets the end piece, by the way.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "jada",
+   "text": "He does not exist!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "curtis",
+   "text": "And yet. He is very polite. He likes brisket.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "phone",
+   "text": "New message from Grandma.",
+   "shot": "phone",
+   "gesture": "talk",
+   "pre": 0.5
+  },
+  {
+   "spk": "jada",
+   "text": "Oh no. Read it.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "phone",
+   "text": "Grandma says. Does Blaze know Starla? They should sit together.",
+   "shot": "phone",
+   "gesture": "talk",
+   "after": "rimshot"
+  },
+  {
+   "spk": "kendall",
+   "text": "Now they are a couple.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "curtis",
+   "text": "A DJ and a magician. On a boat. In a van.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "jada",
+   "text": "Dad. Please. Let me have the end piece.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "curtis",
+   "text": "Bring Blaze, and we will talk.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "jada",
+   "text": "Kendall. Get the van.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "applause"
+  },
+  {
+   "spk": "phone",
+   "text": "Typing.",
+   "shot": "W",
+   "gesture": "shrug"
+  }
+ ]
+}
