@@ -1,0 +1,514 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 83,
+ "slug": "my-best",
+ "title": "My Best",
+ "trend": "TikTok 'And Angel, what do you do? My best' (interviewer audio over on-screen text about barely getting by; Virlo TikTok formats, Fresh, 229 creators in the last 7 days, Nov 15 2026, US) + pie-shop holiday hiring before Thanksgiving week — teen Angel interviews for her first job at a pie shop and answers every question with 'my best' while the grumpy interviewer Mr. Delgado loses his mind and Patrice the pumpkin sweats through pie season; twist: Mr. Delgado is also only applying, the pumpkin has secretly owned the shop since nineteen ninety nine, asks him the same question, he answers 'my best' too and both are hired",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "office",
+ "desk": true,
+ "music": "upbeat",
+ "intro": [
+  "pov:",
+  "your first job interview",
+  "and you only have one answer"
+ ],
+ "youtube_title": "First job interview. Every question. One answer. 🥧",
+ "description": "Angel wants a job at the pie shop before the holiday rush. Mr. Delgado has a lot of questions. She has one answer, and the pumpkin on the desk is sweating.\n\n#cartoon #animation #funny #firstjob #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "job interview",
+  "first job",
+  "pie shop",
+  "pumpkin",
+  "thanksgiving"
+ ],
+ "tiktok_caption": "first job interview. every question. one answer 🥧 #cartoon #animation #funny #firstjob",
+ "cast": [
+  {
+   "id": "angel",
+   "name": "Angel",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.95,
+   "hair": {
+    "style": "curly",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#f39c12",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2e4053",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "bow:#e74c3c"
+   ],
+   "eye": "big",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#f8c471",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 1,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "delgado",
+   "name": "Mr. Delgado",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.08,
+   "hair": {
+    "style": "bald",
+    "color": "#5d4037"
+   },
+   "top": {
+    "color": "#f5f5f5",
+    "pattern": "apron",
+    "pattern_color": "#922b21"
+   },
+   "bottom": "#212f3d",
+   "shoes": "#4e342e",
+   "accessories": [
+    "mustache:#4e342e",
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "frown",
+   "label_color": "#f5b7b1",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "patrice",
+   "name": "Patrice The Pumpkin",
+   "kind": "mascot",
+   "shape": "pumpkin",
+   "color": "#e67e22",
+   "scale": 0.9,
+   "accessories": [
+    "tie:#1f618d",
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#fad7a0",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "delgado",
+   "text": "Okay. Pie shop job. Holiday rush. Let's begin.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "delgado",
+   "text": "And Angel, what do you do?",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.3
+  },
+  {
+   "spk": "angel",
+   "text": "My best.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "delgado",
+   "text": "No. Like, what are your skills?",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "angel",
+   "text": "My best.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "delgado",
+   "text": "That is the same answer. You cannot use the same answer twice.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "angel",
+   "text": "Watch me. It is my best answer.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "patrice",
+   "text": "Hello. I am the pumpkin. I sit on the desk. I see every interview.",
+   "shot": "patrice",
+   "gesture": "wave"
+  },
+  {
+   "spk": "patrice",
+   "text": "This is the best one so far.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "delgado",
+   "text": "Nobody asked the pumpkin.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "delgado",
+   "text": "Can you roll out a crust?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.4
+  },
+  {
+   "spk": "angel",
+   "text": "I can try my best.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "delgado",
+   "text": "Have you ever rolled out a crust?",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "angel",
+   "text": "I have rolled out of bed.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "patrice",
+   "text": "That is basically the same move.",
+   "shot": "patrice",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "delgado",
+   "text": "Next question. Where do you see yourself in five years?",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "angel",
+   "text": "Doing my best. But taller.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "delgado",
+   "text": "Do you have any experience with customers?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "angel",
+   "text": "I have been a customer. Many times.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "angel",
+   "text": "I bought a pie once. I ate it in the car.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "patrice",
+   "text": "The whole pie?",
+   "shot": "patrice",
+   "gesture": "talk"
+  },
+  {
+   "spk": "angel",
+   "text": "I did my best.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "patrice",
+   "text": "She is a natural.",
+   "shot": "patrice",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "delgado",
+   "text": "Okay. Biggest weakness. Go.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.4
+  },
+  {
+   "spk": "angel",
+   "text": "Whipped cream.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "delgado",
+   "text": "That is not a weakness. That is a topping.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "angel",
+   "text": "Not the way I do it.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "rimshot"
+  },
+  {
+   "spk": "delgado",
+   "text": "Thursday after next, we sell four hundred pies. Four hundred.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "patrice",
+   "text": "Please do not say the number. I get nervous.",
+   "shot": "patrice",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "delgado",
+   "text": "The line goes out the door, around the parking lot and into the car wash.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "delgado",
+   "text": "A lady screams about crust. A man cries about cranberries.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "delgado",
+   "text": "So I ask you again. Angel. What do you do?",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.5
+  },
+  {
+   "spk": "angel",
+   "text": "My best.",
+   "shot": "CU",
+   "gesture": "hips",
+   "pre": 0.6
+  },
+  {
+   "spk": "patrice",
+   "text": "Chills. I have chills. Pumpkins do not get chills.",
+   "shot": "patrice",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "delgado",
+   "text": "Every person today said they were a perfectionist.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "angel",
+   "text": "And?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "delgado",
+   "text": "They burned the pies. Perfectly. In a perfect little line.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "patrice",
+   "text": "The smoke alarm also did its best. It was very loud about it.",
+   "shot": "patrice",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "angel",
+   "text": "So, do I get the job?",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "delgado",
+   "text": "That is not up to me.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "angel",
+   "text": "You are the one asking the questions.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "delgado",
+   "text": "I am also here for the interview. They told me to sit on this side.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "angel",
+   "text": "Then who owns the pie shop?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "patrice",
+   "text": "I do.",
+   "shot": "patrice",
+   "gesture": "hips",
+   "pre": 0.8,
+   "after": "sting"
+  },
+  {
+   "spk": "delgado",
+   "text": "The pumpkin?",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "patrice",
+   "text": "I bought the shop in nineteen ninety nine. Nobody suspects a pumpkin.",
+   "shot": "patrice",
+   "gesture": "talk"
+  },
+  {
+   "spk": "patrice",
+   "text": "Every November, someone looks at me and says pie. So I bought the place.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "angel",
+   "text": "That is a power move.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "patrice",
+   "text": "Now. Mister Delgado. My turn.",
+   "shot": "patrice",
+   "gesture": "think"
+  },
+  {
+   "spk": "patrice",
+   "text": "And Mister Delgado, what do you do?",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.4
+  },
+  {
+   "spk": "delgado",
+   "text": "I have twenty years of experience. I manage, I bake, I",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "angel",
+   "text": "Psst. Say it.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "delgado",
+   "text": "My best.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "patrice",
+   "text": "You are both hired.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "angel",
+   "text": "What is my job title?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "patrice",
+   "text": "Crust roller. You have already rolled out of bed. It is the same move.",
+   "shot": "patrice",
+   "gesture": "point"
+  },
+  {
+   "spk": "delgado",
+   "text": "And me?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "patrice",
+   "text": "You keep asking questions. Customers love that.",
+   "shot": "patrice",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "delgado",
+   "text": "Thank you, sir. Ma'am. Pumpkin.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "angel",
+   "text": "One more question. What do we bake first?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.3
+  },
+  {
+   "spk": "patrice",
+   "text": "Anything. Anything at all. Just not pumpkin.",
+   "shot": "patrice",
+   "gesture": "facepalm",
+   "after": "ding"
+  },
+  {
+   "spk": "delgado",
+   "text": "We are a pie shop in November.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "patrice",
+   "text": "And I am doing my best.",
+   "shot": "W",
+   "gesture": "hips"
+  }
+ ]
+}
