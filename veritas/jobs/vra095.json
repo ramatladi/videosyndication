@@ -1,0 +1,180 @@
+{
+ "id": "vra095",
+ "format": "video",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "source_id": "doordash:8384127",
+ "job": {
+  "employer": "DoorDash",
+  "logo": "",
+  "title": "Senior Software Engineer, ML Serving Platform",
+  "short_title": "Senior Software Engineer, ML Serving",
+  "location": "San Francisco, CA · Sunnyvale, CA · Seattle, WA",
+  "workplace": "",
+  "pay": "$167.8K – $246.8K a year",
+  "pay_full": "$167,800 – $246,800 a year national US base pay range (base salary is localized to work location), plus opportunities for equity grants",
+  "type": "",
+  "posted": "",
+  "ref": "",
+  "apply_url": "https://job-boards.greenhouse.io/doordashusa/jobs/8384127",
+  "apply_site": "DoorDash's job board"
+ },
+ "details": {
+  "about": "DoorDash's ML Serving Platform delivers tens of millions of predictions per second across DoorDash, Wolt and Deliveroo, powering search, recommendations, advertising and logistics. The team builds request routing, online feature retrieval and CPU/GPU inference so ML and product teams can deploy and run models on their own. This hands-on senior role leads core serving investments; the first 6–12 months focus on getting new ranking and recommendation models, including generative approaches, into online production and turning those solutions into reusable platform capabilities.",
+  "duties": [
+   "Lead projects from customer problem through design, implementation and rollout; coordinate delivery, mentor peers and help shape the roadmap",
+   "Improve inference performance with production traces, load tests and CPU/GPU profiling, balancing model quality, tail latency, throughput and cost with model owners",
+   "Partner with the Compute team on capacity, placement and scaling",
+   "Build self-serve APIs and deployment workflows for models, runtime dependencies, features and versioned state, with validation, safe rollout and rollback",
+   "Evaluate, integrate and extend open-source tools and vendor capabilities for model serving, deciding when to build or adopt",
+   "Own production reliability through service objectives, observability, on-call and incident response, and automate away recurring operational work"
+  ],
+  "needs": [
+   "6+ years of software engineering experience designing, building and operating production infrastructure or distributed systems",
+   "Hands-on experience serving large or complex neural models online, accountable for latency, availability and resource efficiency",
+   "Strong distributed systems fundamentals and a backend or systems language such as Python, Go, Java, Kotlin or C++",
+   "Understanding of inference trade-offs across batching, concurrency, caching, memory and CPU/GPU utilization, and the ability to diagnose production bottlenecks",
+   "Experience operating services on Kubernetes or comparable infrastructure, including resource configuration, autoscaling and failure recovery",
+   "Experience leading substantial projects through ambiguity, partnering with fast-moving ML or product teams and helping engineers grow",
+   "A degree in Computer Science or a related field, or equivalent practical experience"
+  ],
+  "nice": [
+   "Integrating or extending inference tools such as Triton Inference Server or PyTorch",
+   "Multi-GPU inference, model parallelism, model-aware caching or accelerator scheduling",
+   "Building model workflows, deployment tooling or instrumentation with Metaflow, Helm or OpenTelemetry"
+  ],
+  "benefits": "National US base pay range $167,800 – $246,800 a year; base salary is localized to the work location and depends on skills, experience, qualifications and market conditions. Compensation also includes opportunities for equity grants. Benefits for regular employees include a 401(k) plan with employer matching, 16 weeks of paid parental leave, wellness benefits, a commuter benefits match, medical, dental and vision benefits, 11 paid holidays, disability and basic life insurance, family-forming assistance and a mental health program; salaried roles get flexible paid time off plus 80 hours of paid sick time a year.",
+  "notes": [
+   "Locations: San Francisco, CA; Sunnyvale, CA; or Seattle, WA",
+   "Includes on-call and incident response",
+   "DoorDash says experience with every listed technology is not required"
+  ]
+ },
+ "yt_title": "DoorDash Is Hiring: Senior Software Engineer, ML Serving | SF, Sunnyvale, Seattle | $167K–$246K",
+ "hashtags": [
+  "#TechJobs",
+  "#MachineLearning",
+  "#SoftwareEngineer",
+  "#BayAreaJobs",
+  "#Hiring"
+ ],
+ "tags": [
+  "doordash jobs",
+  "ml engineer jobs",
+  "machine learning infrastructure",
+  "software engineer jobs",
+  "model serving",
+  "san francisco tech jobs",
+  "seattle tech jobs",
+  "kubernetes jobs",
+  "tech jobs",
+  "veritas recruitment agency"
+ ],
+ "scenes": [
+  {
+   "head": "Today's job",
+   "bullets": [
+    "Senior Software Engineer · DoorDash",
+    "ML Serving Platform",
+    "San Francisco, Sunnyvale or Seattle"
+   ],
+   "lines": [
+    "Welcome to Veritas Recruitment Agency, where we bring you real tech jobs straight from employers' own careers sites.",
+    "Today, DoorDash is hiring a Senior Software Engineer for its M L Serving Platform, based in San Francisco, Sunnyvale, or Seattle.",
+    "You'll find the direct application link in the description."
+   ],
+   "show": [
+    null,
+    "Today, DoorDash is hiring a Senior Software Engineer for its ML Serving Platform, based in San Francisco, Sunnyvale, or Seattle.",
+    null
+   ]
+  },
+  {
+   "head": "About the team",
+   "bullets": [
+    "Tens of millions of predictions per second",
+    "DoorDash, Wolt & Deliveroo",
+    "Routing, feature retrieval, CPU/GPU inference"
+   ],
+   "lines": [
+    "DoorDash's M L Serving Platform delivers tens of millions of predictions every second across DoorDash, Wolt, and Deliveroo, powering search, recommendations, advertising, and logistics.",
+    "The team builds request routing, online feature retrieval, and C P U and G P U inference, so other teams can deploy and run their own models."
+   ],
+   "show": [
+    "DoorDash's ML Serving Platform delivers tens of millions of predictions every second across DoorDash, Wolt, and Deliveroo, powering search, recommendations, advertising, and logistics.",
+    "The team builds request routing, online feature retrieval, and CPU and GPU inference, so other teams can deploy and run their own models."
+   ]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": [
+    "Bring new ranking & recommendation models live",
+    "Lead projects from design to rollout",
+    "Tune inference: traces, load tests, profiling",
+    "Self-serve APIs, safe rollout & rollback",
+    "Own reliability · on-call"
+   ],
+   "lines": [
+    "In your first six to twelve months, you'll help bring new ranking and recommendation models, including generative ones, into live production.",
+    "You'll lead projects from design to rollout, tune inference performance with traces, load tests, and profiling, and work with the compute team on capacity and scaling.",
+    "You'll build self-serve A P Is and deployment workflows with safe rollout and rollback, and own reliability through on-call and incident response."
+   ],
+   "show": [
+    "In your first 6 to 12 months, you'll help bring new ranking and recommendation models, including generative ones, into live production.",
+    null,
+    "You'll build self-serve APIs and deployment workflows with safe rollout and rollback, and own reliability through on-call and incident response."
+   ]
+  },
+  {
+   "head": "What you need",
+   "bullets": [
+    "6+ yrs production infrastructure or distributed systems",
+    "Online serving of large neural models",
+    "Python, Go, Java, Kotlin or C++",
+    "Inference trade-offs · Kubernetes",
+    "CS degree or equivalent experience"
+   ],
+   "lines": [
+    "You'll need six or more years of software engineering, building and running production infrastructure or distributed systems.",
+    "You'll need hands-on experience serving large neural models online, strong distributed systems skills, and a language like Python, Go, Java, Kotlin, or C plus plus.",
+    "You should understand inference trade-offs like batching, caching, memory, and G P U use, and have run services on Kubernetes or similar.",
+    "A computer science degree or equivalent practical experience is expected, and Triton, PyTorch, or multi-G P U inference experience is a bonus."
+   ],
+   "show": [
+    "You'll need 6 or more years of software engineering, building and running production infrastructure or distributed systems.",
+    "You'll need hands-on experience serving large neural models online, strong distributed systems skills, and a language like Python, Go, Java, Kotlin, or C++.",
+    "You should understand inference trade-offs like batching, caching, memory, and GPU use, and have run services on Kubernetes or similar.",
+    "A computer science degree or equivalent practical experience is expected, and Triton, PyTorch, or multi-GPU inference experience is a bonus."
+   ]
+  },
+  {
+   "head": "Pay & benefits",
+   "bullets": [
+    "$167,800 – $246,800 a year (US base range)",
+    "Equity grants",
+    "401(k) match · 16 weeks paid parental leave",
+    "Medical, dental, vision · 11 paid holidays"
+   ],
+   "lines": [
+    "The national base pay range is one hundred sixty-seven thousand eight hundred to two hundred forty-six thousand eight hundred dollars a year, plus equity grants.",
+    "Benefits include a four-oh-one-k with matching, sixteen weeks of paid parental leave, medical, dental, and vision cover, eleven paid holidays, and flexible paid time off."
+   ],
+   "show": [
+    "The national base pay range is $167,800 to $246,800 a year, plus equity grants.",
+    "Benefits include a 401(k) with matching, 16 weeks of paid parental leave, medical, dental, and vision cover, 11 paid holidays, and flexible paid time off."
+   ]
+  },
+  {
+   "head": "How to apply",
+   "bullets": [
+    "Application link in the description",
+    "Apply on DoorDash's job board",
+    "Senior Software Engineer, ML Serving Platform"
+   ],
+   "lines": [
+    "To apply, find the direct application link in the description below. It takes you straight to DoorDash's careers site.",
+    "Subscribe to Veritas Recruitment Agency for new tech jobs across the United States, every day."
+   ]
+  }
+ ]
+}
