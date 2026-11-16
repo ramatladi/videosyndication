@@ -23,3 +23,10 @@ out.length+' products'
   days as `never_staged` with all 36 slots as gaps. `history()` now counts a heal day's new (not yet staged) picks in the 7-day
   window, so tomorrow's plan can't reuse them on the same channel. Catalog still exhausted under the 0.85 guard: 15 Nov heal
   filled 1 of 17 gaps, 12 Nov heal 0 of 5, 16 Nov only 6 of 36 slots.
+- 16 Nov 2026 run (for 17 Nov): fixes in `sk.py`: (1) the 7-day window and the script/visual no-repeat check now look both ways
+  (a heal day may not reuse a product or script from a *later* day); (2) a Short whose repeated description was dropped and
+  that is left with only the cover and end card is rejected (it "passed" the overlap guard at 0.0 with no content);
+  (3) `parse()` drops sentences with percentages or clinical-study/consumer-perception wording from descriptions and
+  benefits, and skips a leading "Usage: ..." line before "recommended for:". Placeholder dry-run of `write` across all
+  heal days and 17 Nov: the catalog is exhausted under the 0.85 guard (17 Nov: 3 of 36; heals: 15 Nov 1, others 0).
+  Daily milkfoliant 13g dropped: its store packshot carries a beauty-award badge.

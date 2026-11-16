@@ -82,6 +82,8 @@ def parse(p):
             for name, size in re.findall(r"([a-z][a-z0-9+\-' ]{2,40}?)\s*\(\s*([\d.,]+\s*(?:ml|g))\s*\)", mi.group(1), re.I):
                 inside.append({'name': clean(name), 'size': clean(size).replace(' ', '').lower()})
     desc = body
+    if re.match(r'(?i)\s*usage:', desc) and 'recommended for' in desc.lower():  # "Usage: ... recommended for: ..." (pro-collagen banking serum)
+        desc = desc[desc.lower().find('recommended for'):]
     for cut in ("What's inside", 'This kit helps', 'about the kit', 'Skin concerns:', 'recommended for:'):
         k = desc.lower().find(cut.lower())
         if k > 0: desc = desc[:k]
@@ -92,7 +94,9 @@ def parse(p):
     bl = split_list(ben) or split_list(helps.group(1) if helps else '')
     bl = [re.sub(r'^(?:[A-Z][\w\-]*(?: [\w\-+]+){0,5}):\s*', '', re.sub(r'\s+[A-Z][\w\-]*(?: [\w\-+]+){0,5}:$', '', b)) for b in bl]
     bl = [b for b in bl if b and not b.endswith(':') and len(b) > 8]
-    return {'tagline': tagline, 'description': sentences(desc)[:4], 'benefits': bl[:6],
+    claim = re.compile(r'(?i)%|clinical|\bstud(?:y|ies)\b|subjects|in vitro|\btested\b|untreated|results (?:at|after)|consumer|survey|perception|\*')
+    bl = [b for b in bl if not claim.search(b)]  # no clinical-study or percentage claims (Sello's standing rule)
+    return {'tagline': tagline, 'description': [x for x in sentences(desc) if not claim.search(x)][:4], 'benefits': bl[:6],
             'how': sentences(how)[:5], 'inside': inside, 'recommended': clean(rec.group(1)) if rec else '',
             'kit': bool(inside) or bool(re.search(r'\b(kit|set|duo|trio|system|pair)\b', p['title'], re.I))}
 
@@ -165,8 +169,8 @@ def plan(date, catalog, media, fixed=None, banned=None):
     """fixed: picks to keep as they are (replanning only some slots); banned: {(domain, slot): {sku or product name}}."""
     fixed = fixed or []; banned = banned or {}
     D = dt.date.fromisoformat(date); P = [p for p in json.load(open(catalog))['products'] if eligible(p)]
-    H = [h for h in history(media) if h['date'] < date]
-    since = lambda h: (D - dt.date.fromisoformat(h['date'])).days
+    H = [h for h in history(media) if h['date'] != date]  # heal days: later days' picks count too (window runs both ways)
+    since = lambda h: abs((D - dt.date.fromisoformat(h['date'])).days)
     last_any = {}; last_ch = {}; sku_used = {}
     for h in H:
         last_any[h['product']] = min(last_any.get(h['product'], 99), since(h))
@@ -411,13 +415,13 @@ def prior_scripts(media, date):
     files = glob.glob(f'{media}/skincare-daily/*/features*.json') + glob.glob(f'{WORK}/*/features.json') + [f'{LAUNCH}/features.json']
     for f in files:
         d = os.path.basename(os.path.dirname(f)) if 'skincare-launch' not in f else '2026-11-07'
-        if d >= date: continue
+        if d == date: continue  # every other day, earlier or later (heal days must not repeat a later day's script)
         try: vids = json.load(open(f)).get('videos', [])
         except Exception: continue
         for v in vids:
             says.setdefault(clean(v['product_name']).lower(), []).append(' '.join(s['say'] for s in v['scenes']))
     for f in glob.glob(f'{media}/skincare-daily/*/images/sources.json'):
-        if os.path.basename(os.path.dirname(os.path.dirname(f))) >= date: continue
+        if os.path.basename(os.path.dirname(os.path.dirname(f))) == date: continue
         for x in json.load(open(f)): urls.setdefault(x.get('sku'), set()).add(x['source'].split('?')[0])
     return says, urls
 
@@ -542,6 +546,8 @@ def write(date):
             item['scenes'] = [x for x in item['scenes'] if x.get('kicker') != 'WHAT IT IS']
             narr = ' '.join(x['say'] for x in item['scenes'])
             item['script_overlap_max'] = round(max((overlap(narr, q, name) for q in prev_says.get(clean(name).lower(), [])), default=0), 2)
+        if not any(x['type'] in ('figure', 'steps', 'bullets', 'photo') or x.get('kicker') == 'RECOMMENDED FOR' for x in item['scenes']):
+            problems.append((it, 'script overlap: no listing content left after dropping the repeated description (cover and end card only)')); continue
         if item['script_overlap_max'] > 0.85:
             problems.append((it, f"script overlaps an earlier video of this product ({item['script_overlap_max']})")); continue
         ke = kit_check(f, item)
@@ -687,7 +693,9 @@ def stage(date, media):
             if (h, s_) in have_slots: continue
             why = next((b['problem'] for b in probs if b['item']['domain'] == dom and b['item']['slot'] == s_), None) \
                 or next((f'not staged: {x[3]}' for x in failed if x[0] == dom and x[1] == s_), None) \
-                or (old_un.get((h, s_)) or {}).get('reason') or 'not produced in this run'
+                or (old_un.get((h, s_)) or {}).get('reason') \
+                or ('catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard'
+                    if (dom, s_) not in {(i['domain'], i['slot']) for i in pl['items']} else 'not produced in this run')
             unfilled.append({'handle': h, 'slot_sast': f'{date} {s_}', 'format': 'short' if s_ in SHORT_SLOTS else 'regular', 'reason': why})
     json.dump({'date': date, 'ledger': f'{base}/receipt-ledger.json', 'publishing': 'skincare-upload.yml (GitHub Action) publishes; this batch uploads and schedules nothing.',
                'commission_disclosure': 'description only', 'language': 'American English', 'channels': chan, 'not_staged': failed,
