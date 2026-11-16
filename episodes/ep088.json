@@ -1,0 +1,550 @@
+{
+ "engine": "cast",
+ "id": 88,
+ "slug": "the-forty-cent-latte",
+ "title": "The Forty Cent Latte",
+ "trend": "TikTok #sugarcookielatte (returning holiday sugar cookie latte: taste tests, favorite orders and homemade copycat recipes; TikTok Creative Center US hashtag on New Engen's TikTok list, updated Nov 16 2026, US) + the classic blind taste test 'copycat vs the real one' format, holiday coffee season — Renee says she can copy Omar's eight-dollar holiday cookie latte at home for forty cents, Grandma Dolores judges a blind taste test and the coffee-shop cup narrates; beats: the recipe (dented big can, microwave milk, a crumbled cookie, lawnmower blender), round one (Omar picks Renee's as the coffee-shop one — 'notes of the drive through window'), round two (listening to the cups, the cup whispers Omarr); twist: the cup reveals Renee has gone to the coffee shop every morning at six forty five for research — forty three large lattes, three hundred forty four dollars — and the barista spells her name right; button: Grandma keeps the blender, the couple make a coffee-shop date",
+ "target_seconds": 180,
+ "length_reason": "Holiday latte taste tests and copycat recipe clips are quick one-clip videos (about 30-90 s), so this stays a quick one-clip skit at the shortest film length: 3:00.",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "blind taste test:",
+  "my forty cent latte",
+  "vs his eight dollar one"
+ ],
+ "youtube_title": "She Made His $8 Holiday Latte For 40 Cents. Grandma Judged The Taste Test | Funny Cartoon",
+ "description": "Omar buys the fancy holiday cookie latte every single morning. Renee says she can make it at home for forty cents, and Grandma Dolores brings her own whistle to judge. The paper cup has something to confess.\n\n#cartoon #animation #funny #comedy #coffee",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "coffee",
+  "holiday latte",
+  "taste test",
+  "husband and wife",
+  "family comedy"
+ ],
+ "tiktok_caption": "blind taste test: my forty cent latte vs his eight dollar one ☕ #cartoon #animation #funny #comedy #coffee",
+ "cast": [
+  {
+   "id": "renee",
+   "name": "Renee",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "curly",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#f5f5f5"
+   },
+   "bottom": "#34495e",
+   "shoes": "#222222",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "omar",
+   "name": "Omar",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "short",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "hoodie"
+   },
+   "bottom": "#5d4037",
+   "shoes": "#3e2723",
+   "accessories": [
+    "beard:#1b1b1b",
+    "beanie:#2c3e50"
+   ],
+   "eye": "round",
+   "brows": "neutral",
+   "mouth": "smile",
+   "voice": {
+    "id": "am_michael",
+    "pitch": -1,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "dolores",
+   "name": "Grandma Dolores",
+   "kind": "human",
+   "color": "#d4a373",
+   "scale": 0.92,
+   "hair": {
+    "style": "bun",
+    "color": "#dcdcdc"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "dots",
+    "pattern_color": "#f1c40f"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#4a2c2a",
+   "accessories": [
+    "glasses",
+    "whistle",
+    "scarf:#16a085"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_kore",
+    "pitch": -1,
+    "tempo": 0.94
+   }
+  },
+  {
+   "id": "cup",
+   "name": "The Paper Cup",
+   "kind": "mascot",
+   "shape": "cup",
+   "color": "#ffffff",
+   "sleeve": "#b03a2e",
+   "lid": "#f5f5f5",
+   "accessories": [
+    "tie:#1f618d"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 1,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "omar",
+   "text": "Eight dollars. Every morning since November first. Worth every penny.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "renee",
+   "text": "I can make that exact latte at home. For forty cents.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "cup",
+   "text": "Forty cents. She said it out loud. In front of me.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "sting"
+  },
+  {
+   "spk": "omar",
+   "text": "Babe. Nobody makes it like the coffee shop.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "renee",
+   "text": "Blind taste test. Right now. Your mother is the judge.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "dolores",
+   "text": "I brought my own whistle. I have waited years for this.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "cup",
+   "text": "Good morning. I am the real one. I have a sleeve.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "renee",
+   "text": "You are a paper cup.",
+   "shot": "dolores"
+  },
+  {
+   "spk": "cup",
+   "text": "A paper cup with a name on me. Spelled wrong. Like a celebrity.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "omar",
+   "text": "They spell it with two r's. Omarr. It is our thing.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dolores",
+   "text": "Round one. Renee, show the court your recipe.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "ding"
+  },
+  {
+   "spk": "renee",
+   "text": "Step one. Regular coffee from the big can.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "cup",
+   "text": "The big can. The one with the dent in it. I need to sit down.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "renee",
+   "text": "Step two. Warm milk. In the microwave.",
+   "shot": "CU"
+  },
+  {
+   "spk": "omar",
+   "text": "The coffee shop has a machine that hisses at you.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "renee",
+   "text": "Our microwave beeps at you. Same energy.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "renee",
+   "text": "Step three. The secret ingredient.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dolores",
+   "text": "Is it love?",
+   "shot": "dolores"
+  },
+  {
+   "spk": "renee",
+   "text": "It is one sugar cookie. Crumbled in. With my hands.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "cup",
+   "text": "She is putting a cookie in coffee. Is that allowed?",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "dolores",
+   "text": "In this house it is. I did it in nineteen seventy eight.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "renee",
+   "text": "Step four. Blend it.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "whoosh"
+  },
+  {
+   "spk": "omar",
+   "text": "That blender sounds like a lawnmower having a bad day.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dolores",
+   "text": "Okay. Blindfold on, Omar. Two cups. No peeking.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "omar",
+   "text": "I do not need to peek. I have a trained mouth.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dolores",
+   "text": "Cup number one.",
+   "shot": "dolores"
+  },
+  {
+   "spk": "omar",
+   "text": "Smooth. Notes of vanilla. A little bit of the drive through window.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "renee",
+   "text": "The drive through window is a flavor now?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "omar",
+   "text": "It is the taste of being in a hurry. It is beautiful.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dolores",
+   "text": "Cup number two.",
+   "shot": "dolores"
+  },
+  {
+   "spk": "omar",
+   "text": "Oh. Warm. Buttery. It tastes like a hug from a grandma.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dolores",
+   "text": "Thank you, baby.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "omar",
+   "text": "Not you, Mom. A general grandma.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dolores",
+   "text": "I am the only grandma in this room. Take the compliment.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "cup",
+   "text": "I am very nervous and I am made of paper.",
+   "shot": "cup"
+  },
+  {
+   "spk": "dolores",
+   "text": "Final answer. Which one came from the coffee shop?",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "omar",
+   "text": "Cup number one. The hurry one. Obviously.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dolores",
+   "text": "Cup number one was the forty cent one.",
+   "shot": "CU",
+   "gesture": "talk",
+   "after": "sting",
+   "pre": 0.9
+  },
+  {
+   "spk": "renee",
+   "text": "You picked my cookie latte. With the dent can.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "omar",
+   "text": "Best of three. The blindfold is itchy. I was distracted.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dolores",
+   "text": "That blindfold is your father's tie.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "omar",
+   "text": "That explains a lot.",
+   "shot": "omar"
+  },
+  {
+   "spk": "omar",
+   "text": "Round two. This time I listen to the cups.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "renee",
+   "text": "You are listening to coffee?",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "cup",
+   "text": "Omarr. Omarr. It is me. Pick me.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "renee",
+   "text": "The cup is cheating! The cup is talking!",
+   "shot": "W",
+   "gesture": "point",
+   "after": "boing"
+  },
+  {
+   "spk": "cup",
+   "text": "Can I say something? I have been holding it in all month.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.8
+  },
+  {
+   "spk": "cup",
+   "text": "Renee comes to my coffee shop every morning. Six forty five. Before you wake up.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "omar",
+   "text": "What?",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "cup",
+   "text": "Same latte. Same corner table. She takes notes in a little book.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "renee",
+   "text": "It is called research.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "omar",
+   "text": "How many lattes of research?",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "cup",
+   "text": "Forty three. Large. Extra sprinkles.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dolores",
+   "text": "That is three hundred and forty four dollars of research.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "omar",
+   "text": "My eight dollars is a problem, but you spent three hundred on a forty cent latte?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "renee",
+   "text": "You cannot copy what you have not studied. I am a scientist.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "cup",
+   "text": "And the barista spells her name right. First try.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "omar",
+   "text": "Two years I have been Omarr, and she gets it right on day one?",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "renee",
+   "text": "I tip.",
+   "shot": "renee"
+  },
+  {
+   "spk": "dolores",
+   "text": "Here is the ruling of the court.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "ding"
+  },
+  {
+   "spk": "dolores",
+   "text": "No more lattes for Omar. No more research for Renee.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dolores",
+   "text": "Grandma keeps the blender, the cookies and the whistle.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "cup",
+   "text": "And me?",
+   "shot": "cup"
+  },
+  {
+   "spk": "dolores",
+   "text": "You go in the recycling. With love.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "renee",
+   "text": "So. Same time tomorrow? Six forty five?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "omar",
+   "text": "Corner table. I will bring my own notebook.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "cup",
+   "text": "See you tomorrow, Omarr.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "applause"
+  }
+ ]
+}
