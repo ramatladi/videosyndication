@@ -1,0 +1,483 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 85,
+ "slug": "how-many-taps",
+ "title": "How Many Taps",
+ "trend": "TikTok 'How many taps until my pet gets mad' (owners count gentle head taps until the pet reacts; ppl.studio TikTok formats, Proven, November 2026, US) — teen Nia films herself counting taps on the family bunny Sir Reginald, who narrates his calm, while Grandpa Earl brags he is the most patient man on the street; twist: one tap from the bunny and Grandpa explodes, and Reginald reveals he has tapped Grandpa's bald head every night at three in the morning for two years while Grandpa blamed a leak in the roof",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "lofi",
+ "intro": [
+  "how many taps",
+  "until the bunny gets mad?",
+  "let's find out"
+ ],
+ "youtube_title": "How many taps until the bunny gets mad? Grandpa wanted a turn 🐰",
+ "description": "Nia wants to know how many taps it takes to make Sir Reginald mad. Grandpa Earl says patience runs in the family. Sir Reginald has been keeping count too.\n\n#cartoon #animation #funny #bunny #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "bunny",
+  "pet rabbit",
+  "grandpa",
+  "pets",
+  "family"
+ ],
+ "tiktok_caption": "how many taps until the bunny gets mad? grandpa wanted a turn 🐰 #cartoon #animation #funny #bunny",
+ "cast": [
+  {
+   "id": "nia",
+   "name": "Nia",
+   "kind": "human",
+   "color": "#a0522d",
+   "scale": 0.93,
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "stripes",
+    "pattern_color": "#f8f9f9"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#f1948a",
+   "accessories": [
+    "beanie:#f1c40f"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#a3e4d7",
+   "voice": {
+    "id": "af_kore",
+    "pitch": 1,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "earl",
+   "name": "Grandpa Earl",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.05,
+   "hair": {
+    "style": "bald",
+    "color": "#bdc3c7"
+   },
+   "top": {
+    "color": "#784212",
+    "pattern": "plain"
+   },
+   "bottom": "#5d6d7e",
+   "shoes": "#1b2631",
+   "accessories": [
+    "glasses",
+    "mustache:#ecf0f1"
+   ],
+   "eye": "round",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#f0b27a",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.93
+   }
+  },
+  {
+   "id": "reginald",
+   "name": "Sir Reginald",
+   "kind": "animal",
+   "ears": "bunny",
+   "color": "#f2f3f4",
+   "scale": 0.88,
+   "inner": "#f5b7b1",
+   "belly": "#fdfefe",
+   "accessories": [
+    "tie:#8e44ad"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#e8daef",
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": 0,
+    "tempo": 0.93
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "nia",
+   "text": "Okay. How many taps until my bunny gets mad? Let's find out.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "nia",
+   "text": "Tap one.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.3
+  },
+  {
+   "spk": "reginald",
+   "text": "Good evening. I am Sir Reginald. I have been tapped before.",
+   "shot": "reginald",
+   "gesture": "wave"
+  },
+  {
+   "spk": "nia",
+   "text": "Tap two. Tap three.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "reginald",
+   "text": "I am a rabbit. I am at peace. I am a small fluffy lake.",
+   "shot": "reginald",
+   "gesture": "think",
+   "after": "ding"
+  },
+  {
+   "spk": "nia",
+   "text": "Tap four. Tap five. Nothing. Not even an ear.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "reginald",
+   "text": "The ears move for carrots only. That is the arrangement.",
+   "shot": "reginald",
+   "gesture": "hips"
+  },
+  {
+   "spk": "earl",
+   "text": "What are you doing to that rabbit?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.4
+  },
+  {
+   "spk": "nia",
+   "text": "Science, Grandpa. How many taps until he gets mad.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "earl",
+   "text": "In my day we did not tap animals. We tapped maple trees.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "reginald",
+   "text": "I make no syrup. Please do not get ideas.",
+   "shot": "reginald",
+   "gesture": "facepalm",
+   "after": "boing"
+  },
+  {
+   "spk": "nia",
+   "text": "Tap ten. Tap eleven. Tap twelve.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "reginald",
+   "text": "Twelve. A dozen. Like eggs. I know about eggs. Seasonal work.",
+   "shot": "reginald",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "earl",
+   "text": "He will never get mad. He gets it from me.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "nia",
+   "text": "Grandpa, you yelled at the toaster this morning.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "earl",
+   "text": "The toaster knew what it did.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "reginald",
+   "text": "It made toast. That is all it has ever done.",
+   "shot": "reginald",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "Tap twenty. Tap twenty one. Still nothing.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "earl",
+   "text": "Let me try. Patience recognizes patience.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "earl",
+   "text": "Tap. Tap. Tap.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.3
+  },
+  {
+   "spk": "reginald",
+   "text": "His tap is very heavy. Like being knighted by a sandwich.",
+   "shot": "reginald",
+   "gesture": "think"
+  },
+  {
+   "spk": "earl",
+   "text": "See? Calm. He respects me.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "reginald",
+   "text": "I respect the hand. The hand has a cookie in it.",
+   "shot": "reginald",
+   "gesture": "point"
+  },
+  {
+   "spk": "earl",
+   "text": "That is my cookie.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "reginald",
+   "text": "It was.",
+   "shot": "reginald",
+   "gesture": "talk",
+   "pre": 0.4,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "nia",
+   "text": "Tap fifty. This is my longest video ever.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "earl",
+   "text": "Some of us were born calm, Nia. Thirty years at the post office.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "reginald",
+   "text": "May I try something?",
+   "shot": "reginald",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "nia",
+   "text": "Wait. You want a turn?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "reginald",
+   "text": "One tap. On the grandpa.",
+   "shot": "reginald",
+   "gesture": "point"
+  },
+  {
+   "spk": "earl",
+   "text": "Go ahead. Nothing gets to me.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "Oh no.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "reginald",
+   "text": "Tap.",
+   "shot": "reginald",
+   "gesture": "talk",
+   "pre": 0.5
+  },
+  {
+   "spk": "earl",
+   "text": "Hey! Who taps a man on the head? Who does that? In my own house!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "sting"
+  },
+  {
+   "spk": "nia",
+   "text": "One tap. One. Grandpa got mad in one tap.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "reginald",
+   "text": "One tap. That is all it takes for a grandpa. I have tested this.",
+   "shot": "reginald",
+   "gesture": "hips"
+  },
+  {
+   "spk": "earl",
+   "text": "Tested it? When?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "reginald",
+   "text": "Every night. Three in the morning. For two years.",
+   "shot": "reginald",
+   "gesture": "talk",
+   "pre": 0.6
+  },
+  {
+   "spk": "earl",
+   "text": "That was you?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "reginald",
+   "text": "One tap. You say, who is there. I hop away.",
+   "shot": "reginald",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "earl",
+   "text": "I called a man about the roof. I thought it was a leak!",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "nia",
+   "text": "Grandpa paid a man four hundred dollars to look at a dry roof.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "reginald",
+   "text": "Lovely man. I watched him from the window. Very thorough.",
+   "shot": "reginald",
+   "gesture": "wave"
+  },
+  {
+   "spk": "earl",
+   "text": "Why? Why would you do this?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "reginald",
+   "text": "You took my spot on the couch two years ago. I remember everything.",
+   "shot": "reginald",
+   "gesture": "cross",
+   "after": "rimshot"
+  },
+  {
+   "spk": "nia",
+   "text": "So he is not patient. He is just waiting.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "reginald",
+   "text": "Rabbits do not get mad. Rabbits get even.",
+   "shot": "reginald",
+   "gesture": "hips"
+  },
+  {
+   "spk": "earl",
+   "text": "Okay. Okay. You can have the couch spot.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.4
+  },
+  {
+   "spk": "reginald",
+   "text": "And the cookies.",
+   "shot": "reginald",
+   "gesture": "point"
+  },
+  {
+   "spk": "earl",
+   "text": "And the cookies.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "reginald",
+   "text": "And Thursday nights. I watch the cooking show.",
+   "shot": "reginald",
+   "gesture": "talk"
+  },
+  {
+   "spk": "earl",
+   "text": "Fine! Fine. Thursday is yours.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "nia",
+   "text": "This is the best video I have ever made.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "nia",
+   "text": "Next one. How many taps until Grandpa gets mad.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "earl",
+   "text": "One.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "reginald",
+   "text": "Zero, actually. I checked. He is mad right now.",
+   "shot": "reginald",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "earl",
+   "text": "I am not mad. I am just loud.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "reginald",
+   "text": "Goodnight, Earl. See you at three.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "ding"
+  }
+ ]
+}
