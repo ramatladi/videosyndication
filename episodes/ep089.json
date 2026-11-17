@@ -1,0 +1,524 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 89,
+ "slug": "four-hundred-potatoes",
+ "title": "Four Hundred Potatoes",
+ "trend": "TikTok 'While they're out partying btw' (film yourself doing a repetitive task with on-screen text while everyone else is out; Virlo TikTok formats, Rising #1, +367%, Nov 16 2026, US) + Thanksgiving week cooking prep — college kid Nate peels four hundred potatoes for Grandma Bea's church dinner while his group chat says his friends are at the bowling alley, a rooftop party and a concert, and potato number one narrates; twist: the friends are all home peeling for their own grandmas, the grandmas planned it at bingo since August, and the grandmas are the ones going out partying at the rec center dance",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "lofi",
+ "intro": [
+  "while they're out tonight",
+  "i am here",
+  "peeling potato number one"
+ ],
+ "youtube_title": "Everyone went out tonight. I got four hundred potatoes 🥔",
+ "description": "Nate is stuck peeling four hundred potatoes for Grandma Bea's church dinner while all his friends are out tonight. Potato number one has opinions. Then the group chat tells the truth.\n\n#cartoon #animation #funny #thanksgiving #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "grandma",
+  "potatoes",
+  "thanksgiving",
+  "family",
+  "cooking"
+ ],
+ "tiktok_caption": "everyone went out tonight. i got four hundred potatoes 🥔 #cartoon #animation #funny #grandma",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "cast": [
+  {
+   "id": "nate",
+   "name": "Nate",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.0,
+   "hair": {
+    "style": "short",
+    "color": "#2d1b10"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "headphones:#e17055"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "bea",
+   "name": "Grandma Bea",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.94,
+   "hair": {
+    "style": "bun",
+    "color": "#dfe6e9"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "dots",
+    "pattern_color": "#fdcb6e"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#e84393",
+   "accessories": [
+    "glasses",
+    "scarf:#e84393"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#d6a2e8",
+   "voice": {
+    "id": "af_kore",
+    "pitch": -1,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "spud",
+   "name": "Potato Number One",
+   "kind": "mascot",
+   "shape": "egg",
+   "color": "#c49a6c",
+   "scale": 0.86,
+   "accessories": [
+    "tophat:#2d3436",
+    "mustache:#6d4c41"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 0.96
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "nate",
+   "text": "While everyone is out tonight, I am peeling potato number one.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "spud",
+   "text": "Hello. I am potato number one. Please be gentle.",
+   "shot": "spud",
+   "gesture": "wave"
+  },
+  {
+   "spk": "nate",
+   "text": "Grandma, why does the church dinner need four hundred potatoes?",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "Because last year we made three hundred, and Pastor Gene cried.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "nate",
+   "text": "Cried happy or cried hungry?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "Both, baby. Peel.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "ding"
+  },
+  {
+   "spk": "spud",
+   "text": "I have been in that bag since Saturday. I have seen things.",
+   "shot": "spud",
+   "gesture": "talk"
+  },
+  {
+   "spk": "nate",
+   "text": "My phone just buzzed. Tyler is at the bowling alley.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "Tyler peels like a raccoon. Let him bowl.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "spud",
+   "text": "Number two is next to me. He is nervous. He has eyes everywhere.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "nate",
+   "text": "Potatoes have eyes?",
+   "shot": "nate",
+   "gesture": "think"
+  },
+  {
+   "spk": "spud",
+   "text": "We have many eyes. We see everything, Nathan.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.4
+  },
+  {
+   "spk": "nate",
+   "text": "Please do not call me Nathan.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "bea",
+   "text": "Everybody calls you Nathan when you peel this slow.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "boing"
+  },
+  {
+   "spk": "nate",
+   "text": "Another buzz. Destiny is at a rooftop party.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "In November? She will freeze up there like a popsicle.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "nate",
+   "text": "They have a heater shaped like a mushroom.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "We had a heater shaped like a stove. It was the stove.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "spud",
+   "text": "Speaking of the stove. I would like a window seat in the pot.",
+   "shot": "spud",
+   "gesture": "talk"
+  },
+  {
+   "spk": "nate",
+   "text": "There are no seats in the pot.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "spud",
+   "text": "Then I would like to speak to the manager.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "bea",
+   "text": "I am the manager, sugar. Into the bucket.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "rimshot"
+  },
+  {
+   "spk": "nate",
+   "text": "Grandma, I have peeled for two hours. How many is that?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "Thirty one.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.6
+  },
+  {
+   "spk": "nate",
+   "text": "Thirty one? My hands look like raisins.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "spud",
+   "text": "Your hands look like potato number nine. He was a hard worker.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "Use long strokes, like your grandpa did. One peel, no breaks.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "nate",
+   "text": "Grandpa peeled a potato in one piece?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "One long curl. He hung it on the tree every Christmas.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "nate",
+   "text": "That is the strangest family tradition I have ever heard.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "bea",
+   "text": "It lasted three days. Then the dog found it.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.5,
+   "after": "whoosh"
+  },
+  {
+   "spk": "nate",
+   "text": "Buzz. Marcus is at a concert. He sent a video.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "spud",
+   "text": "Show me. I have never seen a concert. I have seen a cellar.",
+   "shot": "spud",
+   "gesture": "talk",
+   "jump": true
+  },
+  {
+   "spk": "nate",
+   "text": "It is just loud lights and a guy in a big jacket.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "spud",
+   "text": "Sounds like the inside of a dryer. I fell in one once.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "That is how you got clean, honey. Be grateful.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "Okay. Keep going, baby. I have to get ready.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "nate",
+   "text": "Ready for what? It is nine at night.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "Tuesday night dance at the rec center. Line dancing until midnight.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "nate",
+   "text": "You are going out? While I peel?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "Somebody in this family has to have a social life.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "spud",
+   "text": "She has a social life. You have a bucket.",
+   "shot": "spud",
+   "gesture": "talk"
+  },
+  {
+   "spk": "nate",
+   "text": "Who even goes to the rec center dance?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "Everybody's grandma, sugar. Tyler's grandma drives.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "nate",
+   "text": "Tyler's grandma has a car?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bea",
+   "text": "A red one. Very loud. She calls it The Beast.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "nate",
+   "text": "Wait. Buzz. The group chat. Tyler is not at the bowling alley.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.6
+  },
+  {
+   "spk": "spud",
+   "text": "The plot thickens. Like gravy.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "nate",
+   "text": "He is at his grandma's house. Peeling sweet potatoes. Two hundred of them.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "nate",
+   "text": "Destiny sent a photo. That is not a rooftop. That is a porch. With a bucket.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "Her grandma is Loretta. Loretta does the green beans.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nate",
+   "text": "And Marcus? The concert?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "Marcus is stirring cranberries. That video was from last year.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "nate",
+   "text": "So everybody is home peeling?",
+   "shot": "nate",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "Every single one of you. We planned it at bingo.",
+   "shot": "W",
+   "gesture": "talk",
+   "after": "sting"
+  },
+  {
+   "spk": "spud",
+   "text": "The grandmas are out dancing. The grandkids are peeling. Beautiful.",
+   "shot": "spud",
+   "gesture": "talk"
+  },
+  {
+   "spk": "nate",
+   "text": "This was a plan?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "bea",
+   "text": "Since August, baby. We are going dancing. You are going nowhere.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "nate",
+   "text": "Then at least tell me how many are left.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bea",
+   "text": "Three hundred sixty nine. Love you.",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "spud",
+   "text": "She is gone. She did a little slide out the door.",
+   "shot": "spud",
+   "gesture": "talk"
+  },
+  {
+   "spk": "nate",
+   "text": "Fine. Number thirty two. What is your name?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "spud",
+   "text": "I am still number one. I have been hiding.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.5
+  },
+  {
+   "spk": "nate",
+   "text": "You are going in the pot.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "spud",
+   "text": "Window seat, please.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "applause"
+  }
+ ]
+}
