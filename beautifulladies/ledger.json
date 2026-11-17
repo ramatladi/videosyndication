@@ -1338,13 +1338,6 @@
    "source": "pixabay",
    "page": "https://pixabay.com/photos/leap-pleasure-laugh-woman-beach-657717/"
   },
-  "pixabay-6342951": {
-   "image": "pixabay-6342951",
-   "photographer": "irockerpaddleboardau",
-   "date": "2026-11-18",
-   "source": "pixabay",
-   "page": "https://pixabay.com/photos/standup-paddleboarding-paddle-board-6342951/"
-  },
   "pixabay-5085908": {
    "image": "pixabay-5085908",
    "photographer": "innamykytas",
@@ -1477,6 +1470,13 @@
    "date": "2026-11-18",
    "source": "unsplash",
    "page": "https://unsplash.com/photos/a-woman-in-a-yellow-and-blue-floral-dress-xzhOOtNCIWk"
+  },
+  "pixabay-3960624": {
+   "image": "pixabay-3960624",
+   "photographer": "wndj",
+   "date": "2026-11-18",
+   "source": "pixabay",
+   "page": "https://pixabay.com/photos/woman-beach-bali-wave-shores-sea-3960624/"
   }
  },
  "rejected": [
@@ -1776,7 +1776,8 @@
   "pixabay-5536080",
   "pixabay-2607017",
   "pixabay-6960111",
-  "pixabay-5502837"
+  "pixabay-5502837",
+  "pixabay-6342951"
  ],
  "posts": [
   {
@@ -1963,6 +1964,26 @@
     430517134
    ],
    "note": "photos via APIs: 8 Unsplash, 16 Pixabay (4 from reserve); Unsplash capped at 15 API requests incl. download pings"
+  },
+  {
+   "date": "2026-11-18",
+   "files": [
+    "blo-20261118-short1.mp4",
+    "blo-20261118-short2.mp4",
+    "blo-20261118-short3.mp4",
+    "blo-20261118-short4.mp4",
+    "blo-20261118-video1.mp4",
+    "blo-20261118-video2.mp4"
+   ],
+   "metricool_ids": [
+    431887794,
+    431888177,
+    431888321,
+    431888891,
+    431888919,
+    431888966
+   ],
+   "note": "photos via APIs: 8 Unsplash (from reserve, 8 download pings), 12 Pixabay (fresh API search); pixabay-6342951 swapped out for brand logos"
   }
  ],
  "reserve": [
@@ -2157,14 +2178,6 @@
    "photographer": "innamykytas",
    "page": "https://pixabay.com/photos/model-face-artwork-photography-5075952/",
    "reviewed": "2026-11-17"
-  },
-  {
-   "id": "pixabay-3960624",
-   "source": "pixabay",
-   "image": "pixabay-3960624",
-   "photographer": "wndj",
-   "page": "https://pixabay.com/photos/woman-beach-bali-wave-shores-sea-3960624/",
-   "reviewed": "2026-11-18"
   },
   {
    "id": "pixabay-7892497",
