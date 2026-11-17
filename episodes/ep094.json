@@ -1,0 +1,543 @@
+{
+ "engine": "cast",
+ "id": 94,
+ "slug": "uncle-ricky-objects",
+ "title": "Uncle Ricky Objects",
+ "trend": "Instagram Reels audio 'Stop The Wedding!' (dramatic 'stop the wedding' hook, then reveal something small or funny; SocialPilot Instagram Reels trending audio, week of Nov 17-25 2026, US) — at Tasha and Wendell's backyard wedding Uncle Ricky keeps shouting 'stop the wedding' for tiny reasons (a tag sticking out, his lawn chair taken, the dog eating the ring pillow, a cloud like a boat) while the wedding cake narrates and leans; twist: groom Wendell pays Ricky twenty dollars a stop because he forgot to write his vows and writes one line on a napkin each time, each vow built from an interruption; button: he paid for seven — the last stop is Ricky wanting the first piece of cake",
+ "target_seconds": 180,
+ "length_reason": "The 'stop the wedding' hook-and-reveal clips are quick one-clip videos (about 15-30 s), so this stays a quick one-clip skit at the shortest film length: 3:00 (also fits Instagram's 3-minute limit).",
+ "scene": "park_day",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "pov:",
+  "your uncle has",
+  "one job at the wedding"
+ ],
+ "youtube_title": "Uncle Ricky Kept Yelling Stop The Wedding. The Groom Was Paying Him | Funny Cartoon",
+ "description": "Tasha and Wendell are getting married in the backyard, and Uncle Ricky keeps yelling stop the wedding over a dress tag, a lawn chair and a dog with a pillow. The wedding cake is leaning. Then Tasha finds out who is paying Ricky.\n\n#cartoon #animation #funny #comedy #wedding",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "wedding",
+  "uncle",
+  "bride and groom",
+  "wedding vows",
+  "family comedy"
+ ],
+ "tiktok_caption": "pov: your uncle has one job at the wedding 💍 #cartoon #animation #funny #comedy #wedding",
+ "cast": [
+  {
+   "id": "tasha",
+   "name": "Tasha",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "long",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#fdfefe",
+    "pattern": "plain"
+   },
+   "bottom": "#fdfefe",
+   "shoes": "#f5f5f5",
+   "accessories": [
+    "bow:#ffffff"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "wendell",
+   "name": "Wendell",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "short",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#1c2833",
+    "pattern": "suit",
+    "pattern_color": "#ecf0f1"
+   },
+   "bottom": "#1c2833",
+   "shoes": "#111111",
+   "accessories": [
+    "tie:#d4ac0d"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "smile",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "ricky",
+   "name": "Uncle Ricky",
+   "kind": "human",
+   "color": "#a0522d",
+   "hair": {
+    "style": "bald",
+    "color": "#3b2a1a"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "dots",
+    "pattern_color": "#f9e79f"
+   },
+   "bottom": "#5d6d7e",
+   "shoes": "#7b4a2a",
+   "accessories": [
+    "sunglasses",
+    "mustache"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "scale": 1.1,
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "cake",
+   "name": "The Wedding Cake",
+   "kind": "mascot",
+   "shape": "gumdrop",
+   "color": "#fdf2e9",
+   "accessories": [
+    "crown:#f1c40f"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "flat",
+   "scale": 0.95,
+   "voice": {
+    "id": "bf_alice",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "cake",
+   "text": "Welcome to the wedding of Tasha and Wendell. I am the cake. I have one job. Stay standing.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "tasha",
+   "text": "Wendell. This is it. Sun is out, flowers are up, nobody is late.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "wendell",
+   "text": "I love you so much. Let us get married before anything happens.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "ricky",
+   "text": "Stop the wedding!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "tasha",
+   "text": "Uncle Ricky. Why.",
+   "shot": "CU",
+   "pre": 0.8,
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ricky",
+   "text": "Your tag is sticking out. The back of the dress. Big tag. Says dry clean only.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "cake",
+   "text": "He is not wrong. I can read it from the table.",
+   "shot": "cake"
+  },
+  {
+   "spk": "tasha",
+   "text": "You stopped my wedding for a tag?",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "ricky",
+   "text": "A bride should not be wearing instructions.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "wendell",
+   "text": "Got it. Tucked. Tag is gone. We are back.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "cake",
+   "text": "Beat one. The tag. Everybody breathe. I am sweating frosting.",
+   "shot": "cake",
+   "after": "ding"
+  },
+  {
+   "spk": "tasha",
+   "text": "Okay. Wendell, do you take me...",
+   "shot": "TWO"
+  },
+  {
+   "spk": "ricky",
+   "text": "Stop the wedding!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "wendell",
+   "text": "Ricky, buddy. Pal. Uncle of my future wife. What now?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ricky",
+   "text": "Somebody is in my chair. Front row. Aisle seat. That is the Ricky seat.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tasha",
+   "text": "That is a lawn chair you brought from home.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "ricky",
+   "text": "And it has my name on it. In marker. On the back.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "cake",
+   "text": "It says Rick. He ran out of marker.",
+   "shot": "cake"
+  },
+  {
+   "spk": "ricky",
+   "text": "I ran out of chair, too. Cousin Dee is sitting in it eating a roll.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tasha",
+   "text": "The dinner rolls are for after!",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "cake",
+   "text": "Rolls before vows. This family moves fast.",
+   "shot": "cake",
+   "after": "rimshot"
+  },
+  {
+   "spk": "wendell",
+   "text": "Dee, can you please move one seat over? Thank you. Love you, Dee.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "tasha",
+   "text": "From the top. Wendell, do you take me to be your wife, in good times and...",
+   "shot": "TWO"
+  },
+  {
+   "spk": "ricky",
+   "text": "Stop the wedding!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "tasha",
+   "text": "Uncle Ricky, I swear on Grandma's potato salad.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "ricky",
+   "text": "The dog is eating the ring pillow.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "wendell",
+   "text": "Biscuit? Biscuit, no. Biscuit, that pillow is velvet.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "cake",
+   "text": "The pillow is gone. The dog looks proud. The rings are on the grass.",
+   "shot": "cake"
+  },
+  {
+   "spk": "ricky",
+   "text": "See? Ricky saves the day. Again. You are welcome.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tasha",
+   "text": "You also stopped it for a sneeze, a bird, and a cloud that looked like a boat.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ricky",
+   "text": "That cloud looked exactly like a boat.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "cake",
+   "text": "It did look like a boat. I will give him the boat.",
+   "shot": "cake",
+   "after": "boing"
+  },
+  {
+   "spk": "tasha",
+   "text": "That is six times, Ricky. Six. The pastor is checking his watch.",
+   "shot": "CU"
+  },
+  {
+   "spk": "wendell",
+   "text": "The pastor parked at a meter.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "cake",
+   "text": "My bottom layer is leaning. I was built for one hour. This is hour two.",
+   "shot": "cake"
+  },
+  {
+   "spk": "wendell",
+   "text": "Nobody stops anything else. Ricky, I am looking at you. With love.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ricky",
+   "text": "I would never. Unless there is a reason.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "cake",
+   "text": "There is always a reason. Last spring he stopped a parade.",
+   "shot": "cake"
+  },
+  {
+   "spk": "tasha",
+   "text": "He did. For a balloon that looked like his landlord.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "tasha",
+   "text": "Why do you keep doing this? Do you not like Wendell?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "ricky",
+   "text": "I love Wendell. Wendell is a great guy. Wendell pays me twenty dollars a stop.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "tasha",
+   "text": "He pays you what?",
+   "shot": "CU",
+   "jump": true,
+   "after": "sting"
+  },
+  {
+   "spk": "cake",
+   "text": "Plot twist. And I was not even told, and I am in the middle of the table.",
+   "shot": "cake"
+  },
+  {
+   "spk": "wendell",
+   "text": "Okay. Okay. I can explain. I forgot to write my vows.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "tasha",
+   "text": "You had eight months!",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "wendell",
+   "text": "I had eight months and one fantasy football league.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ricky",
+   "text": "Every time I yell, he writes one line. On a napkin. Under the table.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "cake",
+   "text": "The napkins match the flowers. At least the crime is pretty.",
+   "shot": "cake"
+  },
+  {
+   "spk": "tasha",
+   "text": "Show me the napkins. Right now.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "wendell",
+   "text": "Napkin one. Tasha, you are the tag I always want sticking out.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "tasha",
+   "text": "Oh no. That is kind of sweet.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "wendell",
+   "text": "Napkin two. I will always save you the best seat, even if it is Ricky's.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ricky",
+   "text": "It is not available. But nice.",
+   "shot": "ricky",
+   "gesture": "cross"
+  },
+  {
+   "spk": "wendell",
+   "text": "Napkin three. You are worth more than a velvet pillow to a dog.",
+   "shot": "CU"
+  },
+  {
+   "spk": "cake",
+   "text": "Biscuit is crying. Or he has pillow in his throat. Hard to say.",
+   "shot": "cake"
+  },
+  {
+   "spk": "wendell",
+   "text": "Napkin four. When I look at you, every cloud looks like a boat.",
+   "shot": "CU",
+   "pre": 0.4
+  },
+  {
+   "spk": "tasha",
+   "text": "Wendell. That was the best vow I have ever heard.",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "ricky",
+   "text": "You are welcome. Hundred and twenty dollars, please. Cash or casserole.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tasha",
+   "text": "Wait. If you paid him for six stops, why did he only stop it six times?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "wendell",
+   "text": "I paid for seven.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "cake",
+   "text": "Oh no. There is one stop left. And everyone is looking at me.",
+   "shot": "cake"
+  },
+  {
+   "spk": "tasha",
+   "text": "I do. I do. Fast. Before he can...",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "wendell",
+   "text": "I do! You may kiss... me. I kiss you. Done!",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "ricky",
+   "text": "Stop the wedding!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "record_scratch"
+  },
+  {
+   "spk": [
+    "tasha",
+    "wendell"
+   ],
+   "text": "What?",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "ricky",
+   "text": "I want the first piece of cake.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.5
+  },
+  {
+   "spk": "cake",
+   "text": "Absolutely not. I stood here for two hours. I am cutting myself.",
+   "shot": "cake",
+   "after": "rimshot"
+  }
+ ]
+}
