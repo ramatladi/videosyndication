@@ -1,0 +1,139 @@
+{
+ "id": "vra100",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.05,
+ "source_id": "braze:8380968",
+ "job": {
+  "employer": "Braze",
+  "logo": "braze",
+  "title": "Senior Database Administrator",
+  "short_title": "Senior Database Administrator (MongoDB)",
+  "location": "New York, NY",
+  "workplace": "",
+  "pay": "$128.8K – $232.2K a year",
+  "pay_full": "$128,842 – $232,200 a year starting pay range (US), with expected on-target earnings of $144,000 – $258,000 including bonus or commission, plus RSU equity grants",
+  "type": "",
+  "posted": "",
+  "ref": "8380968",
+  "apply_url": "https://job-boards.greenhouse.io/braze/jobs/8380968",
+  "apply_site": "Braze's job board"
+ },
+ "details": {
+  "about": "Braze is a customer engagement platform headquartered in New York. This MongoDB Database Administrator role sits in Platform Engineering within Infrastructure and operates, scales and secures Braze's internal MongoDB platform: a growing fleet of clusters running on Kubernetes across multiple regions and clouds, managed with GitOps and infrastructure-as-code.",
+  "duties": [
+   "Operate production MongoDB clusters on Kubernetes across multiple regions and clouds; monitor health, performance, replication and storage",
+   "Debug availability, latency and data consistency issues with SREs and join on-call rotations as the MongoDB expert",
+   "Automate user management, cluster scaling, version upgrades and backup restores, and improve internal MongoDB tooling",
+   "Run point-in-time recovery, daily snapshots and cross-region backups; validate restores and take part in disaster recovery planning",
+   "Help engineering teams with schema design, indexing, performance tuning and shard key design, and document runbooks and standards"
+  ],
+  "needs": [
+   "3–5+ years managing MongoDB in production at scale",
+   "Strong knowledge of replica sets, sharding, the WiredTiger storage engine, oplogs and journaling",
+   "Experience running MongoDB in cloud or containerized environments (Kubernetes preferred)",
+   "Automation and scripting in Bash, Python or Go",
+   "MongoDB CLI tools, Atlas APIs and backup/restore tooling (mongodump, mongorestore, mongosh, Ops Manager)",
+   "Familiarity with observability stacks such as Datadog, Prometheus and Grafana, and alerting"
+  ],
+  "nice": [
+   "GitOps and infrastructure-as-code tools (Terraform, Helm, ArgoCD)",
+   "Other databases such as PostgreSQL, MySQL or DynamoDB",
+   "Security best practices and compliance frameworks like SOX or SOC 2",
+   "Contributions to open-source MongoDB tooling or community forums"
+  ],
+  "benefits": "US starting pay range $128,842 – $232,200 a year, with expected on-target earnings of $144,000 – $258,000 a year including bonus or commission; the role also includes equity grants of restricted stock (RSUs). Benefits vary by location and include retirement and employee stock purchase plans, flexible paid time off, medical, dental, vision, life and disability cover, fertility benefits and equal paid parental leave, a yearly learning stipend and career pathing.",
+  "notes": [
+   "Hybrid role",
+   "Includes on-call rotations"
+  ]
+ },
+ "yt_title": "Braze Is Hiring: Senior Database Administrator (MongoDB) | New York, NY | $128K–$232K",
+ "hashtags": [
+  "#TechJobs",
+  "#MongoDB",
+  "#NYCJobs",
+  "#DatabaseJobs",
+  "#Hiring"
+ ],
+ "tags": [
+  "database administrator jobs",
+  "mongodb jobs",
+  "dba jobs",
+  "braze jobs",
+  "new york tech jobs",
+  "nyc jobs",
+  "kubernetes jobs",
+  "hiring now",
+  "jobs in usa",
+  "veritas recruitment agency"
+ ],
+ "scenes": [
+  {
+   "head": "The role",
+   "bullets": [
+    "Senior Database Administrator",
+    "MongoDB · Platform Engineering",
+    "New York, NY · Hybrid"
+   ],
+   "lines": [
+    "Now hiring in New York! Braze wants a Senior Database Administrator to run its MongoDB platform, in a hybrid role."
+   ]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": [
+    "Run MongoDB clusters on Kubernetes",
+    "Automate scaling, upgrades & restores",
+    "Own backups & disaster recovery"
+   ],
+   "lines": [
+    "You'll run production MongoDB clusters on Kubernetes across several regions and clouds, and automate scaling, upgrades, and restores.",
+    "You'll also own backups and disaster recovery, and join the on-call rotation."
+   ]
+  },
+  {
+   "head": "What you need",
+   "bullets": [
+    "3–5+ yrs MongoDB in production",
+    "Replica sets, sharding, WiredTiger",
+    "Bash, Python or Go scripting",
+    "Datadog, Prometheus or Grafana"
+   ],
+   "lines": [
+    "You'll need three to five or more years managing MongoDB in production, with deep knowledge of replica sets and sharding.",
+    "Plus scripting in Bash, Python, or Go, and tools like Datadog or Grafana."
+   ],
+   "show": [
+    "You'll need 3 to 5+ years managing MongoDB in production, with deep knowledge of replica sets and sharding.",
+    null
+   ]
+  },
+  {
+   "head": "Pay",
+   "bullets": [
+    "$128,842 – $232,200 a year (base)",
+    "On-target $144K – $258K with bonus",
+    "Stock (RSUs) + full benefits"
+   ],
+   "lines": [
+    "Starting pay is about one hundred twenty-nine thousand to two hundred thirty-two thousand dollars a year, plus bonus or commission and stock."
+   ],
+   "show": [
+    "Starting pay is about $129,000 to $232,000 a year, plus bonus or commission and stock."
+   ]
+  },
+  {
+   "head": "How to apply",
+   "bullets": [
+    "Application link in the description",
+    "Apply on Braze's job board",
+    "Job ID 8380968"
+   ],
+   "lines": [
+    "To apply, find the direct application link in the description.",
+    "Follow Veritas for new tech jobs every day."
+   ]
+  }
+ ]
+}
