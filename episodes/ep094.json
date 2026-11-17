@@ -139,19 +139,19 @@
  "lines": [
   {
    "spk": "cake",
-   "text": "Welcome to the wedding of Tasha and Wendell. I am the cake. I have one job. Stay standing.",
+   "text": "Welcome to the wedding. I am the cake. My one job is to stay standing.",
    "shot": "CU",
    "gesture": "wave"
   },
   {
    "spk": "tasha",
-   "text": "Wendell. This is it. Sun is out, flowers are up, nobody is late.",
+   "text": "This is it. Sun is out. Nobody is late.",
    "shot": "TWO",
    "gesture": "arms_up"
   },
   {
    "spk": "wendell",
-   "text": "I love you so much. Let us get married before anything happens.",
+   "text": "Let us get married before anything happens.",
    "shot": "TWO"
   },
   {
@@ -171,7 +171,7 @@
   },
   {
    "spk": "ricky",
-   "text": "Your tag is sticking out. The back of the dress. Big tag. Says dry clean only.",
+   "text": "Your tag is sticking out. Big tag. Says dry clean only.",
    "shot": "CU",
    "gesture": "point"
   },
@@ -194,7 +194,7 @@
   },
   {
    "spk": "wendell",
-   "text": "Got it. Tucked. Tag is gone. We are back.",
+   "text": "Tucked. We are back.",
    "shot": "CU",
    "gesture": "talk"
   },
@@ -219,7 +219,7 @@
   },
   {
    "spk": "wendell",
-   "text": "Ricky, buddy. Pal. Uncle of my future wife. What now?",
+   "text": "Ricky, buddy. What now?",
    "shot": "CU",
    "gesture": "facepalm"
   },
@@ -245,30 +245,6 @@
    "spk": "cake",
    "text": "It says Rick. He ran out of marker.",
    "shot": "cake"
-  },
-  {
-   "spk": "ricky",
-   "text": "I ran out of chair, too. Cousin Dee is sitting in it eating a roll.",
-   "shot": "CU",
-   "gesture": "arms_up"
-  },
-  {
-   "spk": "tasha",
-   "text": "The dinner rolls are for after!",
-   "shot": "CU",
-   "jump": true
-  },
-  {
-   "spk": "cake",
-   "text": "Rolls before vows. This family moves fast.",
-   "shot": "cake",
-   "after": "rimshot"
-  },
-  {
-   "spk": "wendell",
-   "text": "Dee, can you please move one seat over? Thank you. Love you, Dee.",
-   "shot": "CU",
-   "gesture": "wave"
   },
   {
    "spk": "tasha",
@@ -314,7 +290,7 @@
   },
   {
    "spk": "tasha",
-   "text": "You also stopped it for a sneeze, a bird, and a cloud that looked like a boat.",
+   "text": "You also stopped it for a sneeze, a bird and a cloud like a boat.",
    "shot": "TWO",
    "gesture": "facepalm"
   },
@@ -334,12 +310,6 @@
    "spk": "tasha",
    "text": "That is six times, Ricky. Six. The pastor is checking his watch.",
    "shot": "CU"
-  },
-  {
-   "spk": "wendell",
-   "text": "The pastor parked at a meter.",
-   "shot": "TWO",
-   "gesture": "shrug"
   },
   {
    "spk": "cake",
@@ -377,7 +347,7 @@
   },
   {
    "spk": "ricky",
-   "text": "I love Wendell. Wendell is a great guy. Wendell pays me twenty dollars a stop.",
+   "text": "I love Wendell. Wendell pays me twenty dollars a stop.",
    "shot": "CU",
    "pre": 0.6
   },
@@ -390,37 +360,20 @@
   },
   {
    "spk": "cake",
-   "text": "Plot twist. And I was not even told, and I am in the middle of the table.",
+   "text": "Plot twist. And nobody told the cake.",
    "shot": "cake"
   },
   {
    "spk": "wendell",
-   "text": "Okay. Okay. I can explain. I forgot to write my vows.",
+   "text": "Okay. I can explain. I forgot to write my vows.",
    "shot": "CU",
    "gesture": "facepalm"
-  },
-  {
-   "spk": "tasha",
-   "text": "You had eight months!",
-   "shot": "CU",
-   "gesture": "hips"
-  },
-  {
-   "spk": "wendell",
-   "text": "I had eight months and one fantasy football league.",
-   "shot": "CU",
-   "gesture": "shrug"
   },
   {
    "spk": "ricky",
    "text": "Every time I yell, he writes one line. On a napkin. Under the table.",
    "shot": "CU",
    "gesture": "point"
-  },
-  {
-   "spk": "cake",
-   "text": "The napkins match the flowers. At least the crime is pretty.",
-   "shot": "cake"
   },
   {
    "spk": "tasha",
@@ -446,20 +399,9 @@
    "shot": "CU"
   },
   {
-   "spk": "ricky",
-   "text": "It is not available. But nice.",
-   "shot": "ricky",
-   "gesture": "cross"
-  },
-  {
    "spk": "wendell",
    "text": "Napkin three. You are worth more than a velvet pillow to a dog.",
    "shot": "CU"
-  },
-  {
-   "spk": "cake",
-   "text": "Biscuit is crying. Or he has pillow in his throat. Hard to say.",
-   "shot": "cake"
   },
   {
    "spk": "wendell",
