@@ -4,7 +4,7 @@
  "artist": "Oksana Petrauskas",
  "style": "deep",
  "vocals": true,
- "status": "pending",
+ "status": "dropped",
  "source": {
   "generator": "creative-claw",
   "model": "music/mureka-v9.5",
@@ -23,5 +23,11 @@
   "page": "https://unsplash.com/photos/woman-in-bikini-sitting-on-rocks-by-the-sea-f4D_FiC04po",
   "photographer": "Margo Evardson",
   "kind": "bikini"
+ },
+ "bpm": 118,
+ "key": "Cm",
+ "dropped": {
+  "on": "2026-11-17",
+  "reason": "QC click check failed on both takes (take 1: 37.8 s, take 2: 168.3 s)"
  }
 }
