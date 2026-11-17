@@ -1,0 +1,572 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 90,
+ "slug": "one-letter-from-grandma",
+ "title": "One Letter From Grandma",
+ "trend": "TikTok '\"Paid Me No Mind\" Overthinking' (lip-sync one dramatic line again and again with a different emphasis and face each time to mock overanalyzing; New Engen TikTok list, updated Nov 16 2026, US) + Thanksgiving dish planning in family group chats — Brianna tells the family chat she is bringing her mac and cheese and Grandma Ida answers 'K.'; she, roommate Jules and Waffles the dog read the one letter every possible way, dig up old replies and draft a three-paragraph apology; twist: Grandma shows up — K is a kiss she types with one knuckle because her nails are done, and her famous forty-year mac and cheese comes from a cheap box in her good pan, so she is thrilled",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "grandma replied",
+  "k.",
+  "with a period"
+ ],
+ "youtube_title": "Grandma replied with one letter. K. With a period. 😳",
+ "description": "Brianna tells the family chat she is bringing her mac and cheese to Thanksgiving. Grandma answers with one letter. Brianna, her roommate and the dog read it every possible way.\n\n#cartoon #animation #funny #grandma #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "grandma",
+  "texting",
+  "mac and cheese",
+  "thanksgiving",
+  "roommates"
+ ],
+ "tiktok_caption": "grandma replied with one letter. k. with a period. 😳 #cartoon #animation #funny #grandma",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "cast": [
+  {
+   "id": "bri",
+   "name": "Brianna",
+   "kind": "human",
+   "color": "#a0522d",
+   "scale": 0.98,
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#fdcb6e",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "accessories": [
+    "bow:#e84393"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "frown",
+   "label_color": "#ffeaa7",
+   "voice": {
+    "id": "af_heart",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "jules",
+   "name": "Jules",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.0,
+   "hair": {
+    "style": "curly",
+    "color": "#6c3483"
+   },
+   "top": {
+    "color": "#00b894",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#636e72",
+   "shoes": "#d63031",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "waffles",
+   "name": "Waffles",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#d4a373",
+   "belly": "#faedcd",
+   "scale": 0.88,
+   "top": {
+    "color": "#0984e3",
+    "pattern": "plain"
+   },
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#74b9ff",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "ida",
+   "name": "Grandma Ida",
+   "kind": "human",
+   "color": "#6f4e37",
+   "scale": 0.95,
+   "hair": {
+    "style": "short",
+    "color": "#f5f6fa"
+   },
+   "top": {
+    "color": "#d63031",
+    "pattern": "plain"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#fdcb6e",
+   "accessories": [
+    "sunglasses",
+    "scarf:#fdcb6e"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#ff7675",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": -2,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "bri",
+   "text": "Grandma just texted me one letter. K. With a period.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jules",
+   "text": "Oh no. That period is doing a lot of work.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bri",
+   "text": "I told the family chat I am bringing my mac and cheese to Thanksgiving.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bri",
+   "text": "A whole paragraph. Little hearts. A tiny cheese drawing.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jules",
+   "text": "And she sent back?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bri",
+   "text": "K.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.8
+  },
+  {
+   "spk": "waffles",
+   "text": "I have read it too. It is chilling.",
+   "shot": "waffles",
+   "gesture": "talk",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "bri",
+   "text": "Okay. Read it like she is happy.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "jules",
+   "text": "K!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "bri",
+   "text": "Now like she is disappointed.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jules",
+   "text": "K.",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 0.8
+  },
+  {
+   "spk": "waffles",
+   "text": "Now like a detective who already knows what you did.",
+   "shot": "waffles",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jules",
+   "text": "K.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "bri",
+   "text": "That one. That one is the real one.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "ding"
+  },
+  {
+   "spk": "bri",
+   "text": "Grandma has made the mac and cheese for forty years.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jules",
+   "text": "So you stepped right onto her territory.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "waffles",
+   "text": "In my world, that is sitting in another dog's sunny spot.",
+   "shot": "waffles",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bri",
+   "text": "Waffles, you sit in everybody's sunny spot.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "waffles",
+   "text": "And I live with the consequences.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jules",
+   "text": "Okay. What did she send you last time?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bri",
+   "text": "Last Easter I said I was bringing deviled eggs. She sent a thumbs up.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jules",
+   "text": "A thumbs up is warm. A thumbs up is a hug from far away.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "bri",
+   "text": "And the year I dyed my hair green, she sent Hmm.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "waffles",
+   "text": "Hmm with two m's or three?",
+   "shot": "waffles",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bri",
+   "text": "Four.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.6
+  },
+  {
+   "spk": "jules",
+   "text": "Four m's is a family meeting.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "boing"
+  },
+  {
+   "spk": "bri",
+   "text": "What if she brings hers too? Two pans. One table.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jules",
+   "text": "Then the whole family has to choose.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "waffles",
+   "text": "Like a custody battle, but with cheese.",
+   "shot": "waffles",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bri",
+   "text": "Uncle Rodney will pick hers. He picks her side on everything.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jules",
+   "text": "He picked her side on the weather once.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bri",
+   "text": "Should I text back? What do I even say?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "jules",
+   "text": "Say okay. Match her energy.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bri",
+   "text": "I cannot send K back to my grandmother. That is war.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "waffles",
+   "text": "Send her a picture of me. Nobody stays mad at this face.",
+   "shot": "waffles",
+   "gesture": "talk",
+   "jump": true
+  },
+  {
+   "spk": "bri",
+   "text": "Waffles, last time you ate her pie.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "waffles",
+   "text": "The pie was on the floor. Briefly. Because of me.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.4
+  },
+  {
+   "spk": "bri",
+   "text": "Okay. I am writing a reply. Dear Grandma.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jules",
+   "text": "Dear? Like a letter? From a war?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "bri",
+   "text": "Dear Grandma, I respect your mac and cheese. It is the queen of the table.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jules",
+   "text": "Add that yours is just a humble side dish.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "bri",
+   "text": "A humble side dish. A sidekick. A little cheese intern.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "waffles",
+   "text": "Cheese intern is a strong ending.",
+   "shot": "waffles",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bri",
+   "text": "Sending. Oh no. It is three paragraphs.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jules",
+   "text": "She is typing. The dots are moving.",
+   "shot": "CU",
+   "gesture": "talk",
+   "after": "whoosh"
+  },
+  {
+   "spk": "waffles",
+   "text": "The dots stopped. The dots are thinking.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.8
+  },
+  {
+   "spk": "bri",
+   "text": "The dots are judging me. I can feel it.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ida",
+   "text": "Knock knock. I was in the neighborhood.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "sting"
+  },
+  {
+   "spk": "bri",
+   "text": "Grandma! Are you here about the K?",
+   "shot": "CU",
+   "gesture": "talk",
+   "jump": true
+  },
+  {
+   "spk": "ida",
+   "text": "What K, baby? I sent you a kiss.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bri",
+   "text": "A kiss?",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.5
+  },
+  {
+   "spk": "ida",
+   "text": "K is a kiss. My nails are done, so I type with one knuckle.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "jules",
+   "text": "So K was love the whole time?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ida",
+   "text": "K is always love. K with a period means I love you and I am done typing.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "waffles",
+   "text": "I stared at that period for an hour.",
+   "shot": "waffles",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ida",
+   "text": "And sugar, I am so glad you are bringing the mac and cheese.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bri",
+   "text": "You are? But it is your dish.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ida",
+   "text": "Baby, mine comes from a box. The cheap one with the powder. In my good pan.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bri",
+   "text": "Your famous mac and cheese is from a box?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "ida",
+   "text": "Forty years. Rodney still thinks I grate the cheese.",
+   "shot": "CU",
+   "gesture": "talk",
+   "after": "rimshot"
+  },
+  {
+   "spk": "jules",
+   "text": "So you are not mad at all.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ida",
+   "text": "Mad? I am retired. Bring two pans.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "waffles",
+   "text": "And the pie? Are we good on the pie?",
+   "shot": "waffles",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ida",
+   "text": "Who let the dog talk?",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.5
+  },
+  {
+   "spk": "bri",
+   "text": "Grandma, can I text you back now?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ida",
+   "text": "Just send a K, baby.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "bri",
+   "text": "K.",
+   "shot": "W",
+   "gesture": "talk",
+   "jump": true,
+   "after": "applause"
+  }
+ ]
+}
