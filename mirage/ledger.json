@@ -2929,6 +2929,81 @@
     "dance": 0.102,
     "genre_fit": 0.833
    }
+  },
+  {
+   "release": "mtr044",
+   "date": "2026-11-17",
+   "slot": "2026-11-17T23:55",
+   "format": "video",
+   "title": "Linger Like The Moon",
+   "artist": "Oksana Petrauskas",
+   "style": "deep",
+   "key": "C minor",
+   "bpm": 121,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "b74d1fd5-37e3-40eb-b47f-59308025b899",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/cb53d0de-86b0-4030-94a2-1c900fdc9e62.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr044.json",
+   "photographer": "Margo Evardson",
+   "photo_page": "https://unsplash.com/photos/woman-in-bikini-sitting-on-rocks-by-the-sea-f4D_FiC04po",
+   "photo_kind": "bikini",
+   "metricool_uuid": "6645580785545266830",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-683033889322438278.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr044.mp3",
+    "top": [
+     [
+      "electronic",
+      0.289
+     ],
+     [
+      "chillout",
+      0.236
+     ],
+     [
+      "female vocalists",
+      0.195
+     ],
+     [
+      "pop",
+      0.176
+     ],
+     [
+      "dance",
+      0.134
+     ],
+     [
+      "House",
+      0.107
+     ],
+     [
+      "jazz",
+      0.099
+     ],
+     [
+      "ambient",
+      0.087
+     ],
+     [
+      "electronica",
+      0.086
+     ],
+     [
+      "soul",
+      0.045
+     ]
+    ],
+    "house": 0.107,
+    "electronic": 0.289,
+    "dance": 0.134,
+    "genre_fit": 0.851
+   }
   }
  ]
 }
