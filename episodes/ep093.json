@@ -1,0 +1,468 @@
+{
+ "engine": "cast",
+ "id": 93,
+ "slug": "the-ballet-of-the-clean-house",
+ "title": "The Ballet Of The Clean House",
+ "trend": "Instagram Reels audio 'The Blue Danube Waltz' (filming ordinary tasks with grand, ballet-style elegance; SocialPilot Instagram Reels trending audio, week of Nov 17 2026, US) + pre-Thanksgiving house cleaning before relatives arrive — Dad Bernard turns the big clean into a grand ballet in three acts (the dust cloth, the swan of the vacuum, the leap of the laundry) while teen Maya does every step and the tired laundry basket plays the orchestra; twist: Grandma Lorraine arrives two days early and reveals Bernard took one ballet class at six, cried about itchy tights and sat on a bench pointing at the other kids, and has 'conducted' chores ever since; button: Grandma hands him the toilet brush for his solo",
+ "target_seconds": 180,
+ "length_reason": "Elegant ballet-style chore clips are quick one-clip videos (about 15-60 s), so this stays a quick one-clip skit at the shortest film length: 3:00 (also fits Instagram's 3-minute limit).",
+ "scene": "living_room",
+ "desk": false,
+ "music": "dramatic",
+ "intro": [
+  "pov:",
+  "dad cleans the house",
+  "like it's the ballet"
+ ],
+ "youtube_title": "Dad Turned Thanksgiving Cleaning Into A Ballet. Then Grandma Came Early | Funny Cartoon",
+ "description": "Grandma arrives for Thanksgiving in two days, so Dad turns the big clean into a grand ballet: the dance of the dust cloth, the swan of the vacuum and the great leap of the laundry. Maya does every single step. The laundry basket has noticed something about Dad.\n\n#cartoon #animation #funny #comedy #thanksgiving",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "thanksgiving",
+  "cleaning",
+  "ballet",
+  "dad jokes",
+  "family comedy"
+ ],
+ "tiktok_caption": "pov: dad cleans the house like it's the ballet 🩰 #cartoon #animation #funny #comedy #thanksgiving",
+ "cast": [
+  {
+   "id": "bernard",
+   "name": "Dad Bernard",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "short",
+    "color": "#3b2a1a"
+   },
+   "top": {
+    "color": "#2c3e50",
+    "pattern": "suit",
+    "pattern_color": "#ecf0f1"
+   },
+   "bottom": "#1c2833",
+   "shoes": "#111111",
+   "accessories": [
+    "tie:#8e44ad",
+    "mustache"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "scale": 1.08,
+   "voice": {
+    "id": "am_michael",
+    "pitch": -1,
+    "tempo": 0.96
+   }
+  },
+  {
+   "id": "maya",
+   "name": "Maya",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "bun",
+    "color": "#1b120b"
+   },
+   "top": {
+    "color": "#e91e63",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ffffff",
+   "accessories": [
+    "headphones:#16a085"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "flat",
+   "scale": 0.95,
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "basket",
+   "name": "The Laundry Basket",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#c8a165",
+   "accessories": [
+    "beanie:#7f8c8d"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "scale": 0.9,
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "lorraine",
+   "name": "Grandma Lorraine",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "bun",
+    "color": "#d5d8dc"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "dots",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#5d4037",
+   "shoes": "#6d4c41",
+   "accessories": [
+    "glasses",
+    "scarf:#c0392b"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": -2,
+    "tempo": 0.93
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "bernard",
+   "text": "Family. In two days, Grandma walks through that door.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "maya",
+   "text": "So we clean the house like normal people?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bernard",
+   "text": "No. We clean it like the ballet.",
+   "shot": "CU",
+   "jump": true,
+   "after": "sting"
+  },
+  {
+   "spk": "basket",
+   "text": "Here we go. I have been full since Tuesday.",
+   "shot": "W"
+  },
+  {
+   "spk": "maya",
+   "text": "Dad, the laundry basket is talking again.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "bernard",
+   "text": "The basket is the orchestra. Listen to him.",
+   "shot": "CU"
+  },
+  {
+   "spk": "basket",
+   "text": "Da da da da dum. Please pick me up.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bernard",
+   "text": "Act one. The dance of the dust cloth.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "bernard",
+   "text": "You float to the shelf. You whisper to the dust.",
+   "shot": "CU"
+  },
+  {
+   "spk": "maya",
+   "text": "What do I whisper?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bernard",
+   "text": "Goodbye, my love.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "maya",
+   "text": "Goodbye, my love.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "basket",
+   "text": "The dust did not leave. The dust moved to the lamp.",
+   "shot": "basket"
+  },
+  {
+   "spk": "maya",
+   "text": "I am on my toes. My legs are on fire.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bernard",
+   "text": "That is called art, Maya.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "ding"
+  },
+  {
+   "spk": "maya",
+   "text": "And what are you doing?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "bernard",
+   "text": "I am conducting. Someone has to hold the vision.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "basket",
+   "text": "He is holding a spoon.",
+   "shot": "basket"
+  },
+  {
+   "spk": "bernard",
+   "text": "It is a baton that also eats soup.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "bernard",
+   "text": "Act two. The swan of the vacuum.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "maya",
+   "text": "The vacuum does not want to be a swan. It wants to eat a sock.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bernard",
+   "text": "Then glide with the sock. Spin. Spin!",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "maya",
+   "text": "I spun into the coffee table.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "basket",
+   "text": "The coffee table was not in the program.",
+   "shot": "basket"
+  },
+  {
+   "spk": "bernard",
+   "text": "Beautiful. The audience will weep.",
+   "shot": "CU"
+  },
+  {
+   "spk": "maya",
+   "text": "The audience is Grandma. She weeps at soup commercials.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bernard",
+   "text": "Then we are already halfway there.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "whoosh"
+  },
+  {
+   "spk": "maya",
+   "text": "Dad, have you touched anything yet?",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "bernard",
+   "text": "I touched the light switch. Dramatically.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bernard",
+   "text": "Act three. The great leap of the laundry.",
+   "shot": "CU"
+  },
+  {
+   "spk": "basket",
+   "text": "Finally. Someone remembers me.",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "maya",
+   "text": "Why does folding a towel need a leap?",
+   "shot": "CU"
+  },
+  {
+   "spk": "bernard",
+   "text": "Because towels fold. Swans soar.",
+   "shot": "CU"
+  },
+  {
+   "spk": "maya",
+   "text": "I leaped. The towel is on the ceiling fan now.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "basket",
+   "text": "That towel has been trying to leave for years.",
+   "shot": "basket"
+  },
+  {
+   "spk": "bernard",
+   "text": "Leave it. It is a chandelier now. Very French.",
+   "shot": "CU"
+  },
+  {
+   "spk": "maya",
+   "text": "And what are you folding?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "bernard",
+   "text": "My arms. With feeling.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "basket",
+   "text": "Nine folded arms today. A personal best.",
+   "shot": "basket",
+   "post": 0.6
+  },
+  {
+   "spk": "lorraine",
+   "text": "Hello? The door was open. Why is there a towel on the fan?",
+   "shot": "W",
+   "pre": 0.6,
+   "gesture": "wave",
+   "after": "ding"
+  },
+  {
+   "spk": "maya",
+   "text": "Grandma! You are two days early!",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "lorraine",
+   "text": "I always come early. That is how I see the real house.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bernard",
+   "text": "Mother. We were performing the ballet of the clean house.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "lorraine",
+   "text": "The ballet? Bernard. You took one ballet class.",
+   "shot": "TWO",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "maya",
+   "text": "One?",
+   "shot": "maya",
+   "pre": 0.3
+  },
+  {
+   "spk": "lorraine",
+   "text": "He was six. The tights were itchy. He sat on a bench and pointed at the other kids.",
+   "shot": "CU"
+  },
+  {
+   "spk": "basket",
+   "text": "He has been on that bench for forty years.",
+   "shot": "basket"
+  },
+  {
+   "spk": "maya",
+   "text": "So the whole ballet is you pointing at us?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "bernard",
+   "text": "Pointing is the hardest part. It is all in the finger.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "lorraine",
+   "text": "At nine it was the ballet of the dishes. I did the dishes.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "maya",
+   "text": "Grandma, he called the vacuum a swan.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lorraine",
+   "text": "Back then it was a goose.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lorraine",
+   "text": "Bernard. Here is the toilet brush. Your solo.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bernard",
+   "text": "Mother, I am the conductor.",
+   "shot": "CU"
+  },
+  {
+   "spk": "lorraine",
+   "text": "Then conduct it into the toilet.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "maya",
+   "text": "Bravo! Encore!",
+   "shot": "W",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "bernard",
+   "text": "Fine. But I am doing it on my toes.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "basket",
+   "text": "And somebody please empty me.",
+   "shot": "basket"
+  }
+ ]
+}
