@@ -1,0 +1,513 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 92,
+ "slug": "chester-and-little-steve",
+ "title": "Chester And Little Steve",
+ "trend": "November mustache grow-offs (Movember, starting Nov 1: clean-shave photos, grow-offs and weekly progress posts; SocialPilot TikTok trends for November 2026, Oct 27 to Nov 10 window, US) — on day seventeen Dad Ray shows off his mustache Chester while teen son Jaylen has three hairs named Little Steve; the family trophy judges side by side and Jaylen pulls out Mom's eyebrow pencil for a lightning-bolt mustache; twist: Grandpa Walt drives four hours to reclaim the trophy he won in nineteen seventy one, Ray only won it because Walt shaved for a wedding, and Walt's fifty-five-year mustache has a pocket for his reading glasses and a mint",
+ "scene": "living_room",
+ "desk": false,
+ "music": "dramatic",
+ "intro": [
+  "mustache contest",
+  "day seventeen",
+  "dad vs me"
+ ],
+ "youtube_title": "Day 17 of the family mustache contest. Then Grandpa walked in 🥸",
+ "description": "Ray has been growing his mustache all month and he named it Chester. His son Jaylen has three hairs and an eyebrow pencil. The family trophy has to choose, until somebody walks in the front door.\n\n#cartoon #animation #funny #mustache #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "mustache",
+  "dad",
+  "grandpa",
+  "family",
+  "november"
+ ],
+ "tiktok_caption": "day 17 of the family mustache contest. then grandpa walked in 🥸 #cartoon #animation #funny #mustache",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "cast": [
+  {
+   "id": "ray",
+   "name": "Dad Ray",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.05,
+   "hair": {
+    "style": "bald",
+    "color": "#5d4037"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#2d3436"
+   },
+   "bottom": "#34495e",
+   "shoes": "#6d4c41",
+   "accessories": [
+    "mustache:#5d4037"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#ff7675",
+   "voice": {
+    "id": "am_michael",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "jaylen",
+   "name": "Jaylen",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.95,
+   "hair": {
+    "style": "afro",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#6c5ce7",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "accessories": [
+    "mustache:#3e2723",
+    "cap:#fdcb6e"
+   ],
+   "eye": "big",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#a29bfe",
+   "voice": {
+    "id": "am_echo",
+    "pitch": 1,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "trophy",
+   "name": "The Trophy",
+   "kind": "mascot",
+   "shape": "cup",
+   "color": "#f1c40f",
+   "sleeve": "#d4ac0d",
+   "lid": "#f9e79f",
+   "scale": 0.88,
+   "accessories": [
+    "glasses",
+    "tie:#2d3436"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#ffeaa7",
+   "voice": {
+    "id": "bm_fable",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "walt",
+   "name": "Grandpa Walt",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.08,
+   "hair": {
+    "style": "short",
+    "color": "#f5f6fa"
+   },
+   "top": {
+    "color": "#2d3436",
+    "pattern": "suit"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#6d4c41",
+   "accessories": [
+    "mustache:#ffffff",
+    "glasses",
+    "cap:#27ae60"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.94
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "ray",
+   "text": "Day seventeen of the mustache contest. Look at this. Look at it.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jaylen",
+   "text": "It looks like a caterpillar that gave up.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ray",
+   "text": "It is a caterpillar that is winning.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "trophy",
+   "text": "Good evening. I am the family trophy. I go to the best mustache.",
+   "shot": "trophy",
+   "gesture": "wave"
+  },
+  {
+   "spk": "jaylen",
+   "text": "Dad has had you since before I was born.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "trophy",
+   "text": "Twenty seven years. He dusts me with a sock.",
+   "shot": "trophy",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ray",
+   "text": "A clean sock.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.4
+  },
+  {
+   "spk": "trophy",
+   "text": "Mostly clean.",
+   "shot": "trophy",
+   "gesture": "talk",
+   "after": "ding"
+  },
+  {
+   "spk": "jaylen",
+   "text": "Well, this year I am growing one too.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "ray",
+   "text": "Where? Show me where.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jaylen",
+   "text": "Right here. Above the lip. Look closer.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "trophy",
+   "text": "I see three hairs. And a dream.",
+   "shot": "trophy",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ray",
+   "text": "That is not a mustache. That is a rumor.",
+   "shot": "CU",
+   "gesture": "talk",
+   "after": "boing"
+  },
+  {
+   "spk": "ray",
+   "text": "I comb mine every morning. Forty strokes.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jaylen",
+   "text": "You comb it longer than you used to comb your hair.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ray",
+   "text": "My hair left years ago. The mustache stayed. That is loyalty.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "trophy",
+   "text": "He talks to it in the mirror. He calls it Chester.",
+   "shot": "trophy",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jaylen",
+   "text": "You named your mustache?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ray",
+   "text": "Chester is family. Chester has seen the Grand Canyon.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jaylen",
+   "text": "Fine. Mine is called Little Steve.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "trophy",
+   "text": "Little Steve is shy. Little Steve needs time.",
+   "shot": "trophy",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ray",
+   "text": "Trophy. Judge us. Right now. Side by side.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "trophy",
+   "text": "Very well. Stand in the light, gentlemen.",
+   "shot": "trophy",
+   "gesture": "talk"
+  },
+  {
+   "spk": "trophy",
+   "text": "Mister Ray. Thick. Proud. A little bit of soup in it.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ray",
+   "text": "That is tomato from lunch. It adds color.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "trophy",
+   "text": "Young Jaylen. Thin. Brave. I can see your lip through it.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jaylen",
+   "text": "It is see through on purpose. It is modern.",
+   "shot": "CU",
+   "gesture": "talk",
+   "after": "rimshot"
+  },
+  {
+   "spk": "trophy",
+   "text": "A hard choice. One man has a mustache. The other has hope.",
+   "shot": "trophy",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ray",
+   "text": "The mustache wins. The mustache always wins.",
+   "shot": "CU",
+   "gesture": "talk",
+   "jump": true
+  },
+  {
+   "spk": "jaylen",
+   "text": "Wait. Before you decide. I have one more thing.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "jaylen",
+   "text": "Mom's eyebrow pencil.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "pre": 0.6
+  },
+  {
+   "spk": "ray",
+   "text": "That is cheating. That is art, not hair.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "trophy",
+   "text": "He drew it in the shape of a lightning bolt.",
+   "shot": "trophy",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ray",
+   "text": "Who has a lightning bolt mustache?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jaylen",
+   "text": "Winners, Dad. Winners do.",
+   "shot": "CU",
+   "gesture": "talk",
+   "jump": true,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "walt",
+   "text": "Evening, boys. The front door was open.",
+   "shot": "W",
+   "gesture": "wave",
+   "pre": 0.6
+  },
+  {
+   "spk": "ray",
+   "text": "Dad? You drove four hours?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walt",
+   "text": "I heard there was a contest. I came to collect my trophy.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "trophy",
+   "text": "Oh my. It is the original owner.",
+   "shot": "trophy",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jaylen",
+   "text": "Your trophy, Grandpa?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walt",
+   "text": "I won it in nineteen seventy one. Your father took it in ninety nine.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ray",
+   "text": "I won it, Dad. Fair and square.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "walt",
+   "text": "You won because I shaved for your sister's wedding photos.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "trophy",
+   "text": "That is true. I was there. I wore a ribbon.",
+   "shot": "trophy",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walt",
+   "text": "Fifty five years. Never trimmed. Only negotiated.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jaylen",
+   "text": "Grandpa, your mustache has a pocket.",
+   "shot": "jaylen",
+   "gesture": "point"
+  },
+  {
+   "spk": "walt",
+   "text": "Keeps my reading glasses. And a mint.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.4
+  },
+  {
+   "spk": "trophy",
+   "text": "Gentlemen. This is not a contest. This is a mountain.",
+   "shot": "W",
+   "gesture": "talk",
+   "after": "sting"
+  },
+  {
+   "spk": "ray",
+   "text": "But Chester has been trying so hard.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "walt",
+   "text": "Chester is a good start, son. Chester is a puppy.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "ray",
+   "text": "A puppy?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "pre": 0.4
+  },
+  {
+   "spk": "jaylen",
+   "text": "And Little Steve?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walt",
+   "text": "Little Steve is pencil, kid. Wash your face.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "trophy",
+   "text": "Welcome home, Mister Walt. No more socks, please.",
+   "shot": "trophy",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walt",
+   "text": "I dust you with the mustache.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "trophy",
+   "text": "Finally. Luxury.",
+   "shot": "trophy",
+   "gesture": "talk",
+   "pre": 0.4
+  },
+  {
+   "spk": "ray",
+   "text": "Same time next November?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walt",
+   "text": "Bring a bigger Chester.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "applause"
+  }
+ ]
+}
