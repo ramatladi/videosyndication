@@ -152,10 +152,10 @@
    "after": "ding"
   },
   {
-   "spk": "spud",
-   "text": "I have been in that bag since Saturday. I have seen things.",
-   "shot": "spud",
-   "gesture": "talk"
+   "spk": "nate",
+   "text": "Peeling.",
+   "gesture": "shrug",
+   "shot": "CU"
   },
   {
    "spk": "nate",
@@ -168,6 +168,12 @@
    "text": "Tyler peels like a raccoon. Let him bowl.",
    "shot": "CU",
    "gesture": "shrug"
+  },
+  {
+   "spk": "spud",
+   "text": "Raccoons are wonderful peelers.",
+   "shot": "spud",
+   "gesture": "talk"
   },
   {
    "spk": "spud",
@@ -208,26 +214,8 @@
    "gesture": "talk"
   },
   {
-   "spk": "bea",
-   "text": "In November? She will freeze up there like a popsicle.",
-   "shot": "CU",
-   "gesture": "arms_up"
-  },
-  {
-   "spk": "nate",
-   "text": "They have a heater shaped like a mushroom.",
-   "shot": "CU",
-   "gesture": "talk"
-  },
-  {
-   "spk": "bea",
-   "text": "We had a heater shaped like a stove. It was the stove.",
-   "shot": "CU",
-   "gesture": "point"
-  },
-  {
    "spk": "spud",
-   "text": "Speaking of the stove. I would like a window seat in the pot.",
+   "text": "I would like a window seat in the pot, please.",
    "shot": "spud",
    "gesture": "talk"
   },
@@ -271,12 +259,6 @@
    "jump": true
   },
   {
-   "spk": "spud",
-   "text": "Your hands look like potato number nine. He was a hard worker.",
-   "shot": "CU",
-   "gesture": "talk"
-  },
-  {
    "spk": "bea",
    "text": "Use long strokes, like your grandpa did. One peel, no breaks.",
    "shot": "CU",
@@ -311,31 +293,6 @@
   {
    "spk": "nate",
    "text": "Buzz. Marcus is at a concert. He sent a video.",
-   "shot": "CU",
-   "gesture": "talk"
-  },
-  {
-   "spk": "spud",
-   "text": "Show me. I have never seen a concert. I have seen a cellar.",
-   "shot": "spud",
-   "gesture": "talk",
-   "jump": true
-  },
-  {
-   "spk": "nate",
-   "text": "It is just loud lights and a guy in a big jacket.",
-   "shot": "CU",
-   "gesture": "shrug"
-  },
-  {
-   "spk": "spud",
-   "text": "Sounds like the inside of a dryer. I fell in one once.",
-   "shot": "CU",
-   "gesture": "talk"
-  },
-  {
-   "spk": "bea",
-   "text": "That is how you got clean, honey. Be grateful.",
    "shot": "CU",
    "gesture": "talk"
   },
@@ -388,18 +345,6 @@
    "text": "Everybody's grandma, sugar. Tyler's grandma drives.",
    "shot": "CU",
    "gesture": "talk"
-  },
-  {
-   "spk": "nate",
-   "text": "Tyler's grandma has a car?",
-   "shot": "CU",
-   "gesture": "think"
-  },
-  {
-   "spk": "bea",
-   "text": "A red one. Very loud. She calls it The Beast.",
-   "shot": "CU",
-   "gesture": "point"
   },
   {
    "spk": "nate",
@@ -458,6 +403,13 @@
    "after": "sting"
   },
   {
+   "spk": "nate",
+   "text": "Bingo?",
+   "pre": 0.5,
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
    "spk": "spud",
    "text": "The grandmas are out dancing. The grandkids are peeling. Beautiful.",
    "shot": "spud",
@@ -474,6 +426,12 @@
    "text": "Since August, baby. We are going dancing. You are going nowhere.",
    "shot": "CU",
    "gesture": "wave"
+  },
+  {
+   "spk": "spud",
+   "text": "Legendary.",
+   "shot": "spud",
+   "gesture": "talk"
   },
   {
    "spk": "nate",

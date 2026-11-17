@@ -1,0 +1,510 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 91,
+ "slug": "free-donuts-go-go-go",
+ "title": "Free Donuts, Go Go Go",
+ "trend": "TikTok 'Go, Go, Go' (lip-syncs to an urgent 'go' audio for moments that demand immediate action; New Engen TikTok list, updated Nov 16 2026, US) + free-food office emails before the holidays — on new intern Kevin's first day, Big Lou from IT teaches him the free-food sprint rules while office manager Marjorie rolls her eyes; a 'free donuts' email sends everyone to the break room, where the donut box holds only three donuts; twist: the email was Kevin's text to his mom sent reply-all to the whole building, so four hundred people, the bike messenger and the boss from the ninth floor are coming",
+ "scene": "office",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "the email says free donuts",
+  "you have ninety seconds",
+  "go"
+ ],
+ "youtube_title": "The email said free donuts. The whole office ran. The new guy sent it 🍩",
+ "description": "It is Kevin's first day, and Big Lou has one rule: when the email says free food, you go. Then the email comes. The donut box has three donuts and some bad news about who sent it.\n\n#cartoon #animation #funny #office #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "office",
+  "coworkers",
+  "donuts",
+  "first day",
+  "intern"
+ ],
+ "tiktok_caption": "the email said free donuts. the whole office ran 🍩 #cartoon #animation #funny #office",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "cast": [
+  {
+   "id": "lou",
+   "name": "Big Lou",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.12,
+   "hair": {
+    "style": "bald",
+    "color": "#2d1b10"
+   },
+   "top": {
+    "color": "#636e72",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#e17055",
+   "accessories": [
+    "beard:#2d1b10",
+    "headphones:#0984e3"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#b2bec3",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "kevin",
+   "name": "Kevin",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 0.95,
+   "hair": {
+    "style": "spiky",
+    "color": "#e1b12c"
+   },
+   "top": {
+    "color": "#ffffff",
+    "pattern": "plain"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#2d3436",
+   "accessories": [
+    "tie:#d63031"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#ff7675",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "marj",
+   "name": "Marjorie",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.0,
+   "hair": {
+    "style": "bun",
+    "color": "#6d4c41"
+   },
+   "top": {
+    "color": "#00cec9",
+    "pattern": "plain"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#6c5ce7",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#81ecec",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": -1,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "box",
+   "name": "The Donut Box",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#fd79a8",
+   "scale": 0.9,
+   "accessories": [
+    "glasses",
+    "tie:#2d3436"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": 0,
+    "tempo": 0.96
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "lou",
+   "text": "New guy. Rule number one. When the email says free food, you go.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kevin",
+   "text": "Go where?",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "lou",
+   "text": "Go, go, go. Ninety seconds. After that it is crumbs and regret.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marj",
+   "text": "Lou, it is his first day. Let him find the bathroom first.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "lou",
+   "text": "The bathroom will be there tomorrow. The donuts will not.",
+   "shot": "CU",
+   "gesture": "talk",
+   "after": "ding"
+  },
+  {
+   "spk": "kevin",
+   "text": "Has this happened before?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marj",
+   "text": "Last March. Free pizza. Gary from sales went over the copy machine.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "lou",
+   "text": "Not around it. Over it.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.4
+  },
+  {
+   "spk": "kevin",
+   "text": "Is Gary okay?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marj",
+   "text": "Gary is a legend now. He works in accounting.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "lou",
+   "text": "Rule two. No socks on the carpet. Too much speed. No control.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "lou",
+   "text": "Rule three. Elevators are for amateurs. Take the stairs.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kevin",
+   "text": "We are on the first floor.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.5
+  },
+  {
+   "spk": "lou",
+   "text": "Then take the stairs up and come back down. For training.",
+   "shot": "CU",
+   "gesture": "talk",
+   "after": "boing"
+  },
+  {
+   "spk": "kevin",
+   "text": "What if I get there and it is gone?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "lou",
+   "text": "You smile. You say congratulations. And you remember their face.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marj",
+   "text": "Wait. New email. Free donuts. Break room.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "lou",
+   "text": "Go, go, go!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "whoosh"
+  },
+  {
+   "spk": "kevin",
+   "text": "Which way is the break room?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marj",
+   "text": "Follow Lou. Follow the wind.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "box",
+   "text": "Hello. I am the donut box. Please form a line.",
+   "shot": "box",
+   "gesture": "wave"
+  },
+  {
+   "spk": "lou",
+   "text": "First! I touched the box. I touched it first.",
+   "shot": "CU",
+   "gesture": "talk",
+   "jump": true
+  },
+  {
+   "spk": "kevin",
+   "text": "I made it. I think I lost a shoe.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marj",
+   "text": "You lost both shoes. They are in the hallway making friends.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "box",
+   "text": "I must be honest with all of you. I hold three donuts.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.5
+  },
+  {
+   "spk": "lou",
+   "text": "Three? For the whole floor?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "box",
+   "text": "One sprinkle. One jelly. And one plain one that nobody loves.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marj",
+   "text": "I love the plain one.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "box",
+   "text": "That is beautiful, ma'am. He has been waiting since seven.",
+   "shot": "box",
+   "gesture": "talk",
+   "after": "rimshot"
+  },
+  {
+   "spk": "lou",
+   "text": "The sprinkle one is mine. Ten years.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kevin",
+   "text": "Can I have the jelly? I ran very hard.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "box",
+   "text": "The jelly is very full. Hold him like a baby bird.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "lou",
+   "text": "Wait. I hear footsteps. The second floor is coming.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "box",
+   "text": "Was it? Let me check the little label on my lid.",
+   "shot": "box",
+   "gesture": "talk"
+  },
+  {
+   "spk": "lou",
+   "text": "Who sent it, box? Who sent the email?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "box",
+   "text": "It says here. Sent by Kevin. Reply all. To the whole building.",
+   "shot": "W",
+   "gesture": "talk",
+   "pre": 0.6,
+   "after": "sting"
+  },
+  {
+   "spk": "lou",
+   "text": "Kevin.",
+   "pre": 0.5,
+   "shot": "lou",
+   "gesture": "talk"
+  },
+  {
+   "spk": "kevin",
+   "text": "No. No, no, no. I was texting my mom.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "marj",
+   "text": "Read it, box. Read the whole thing.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "box",
+   "text": "Mom, free donuts at work. I love this job. Bring me a coat.",
+   "shot": "box",
+   "gesture": "talk"
+  },
+  {
+   "spk": "lou",
+   "text": "You sent your mom a message through four hundred people.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "box",
+   "text": "The elevator is open. The third floor is here. They brought plates.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "lou",
+   "text": "And the bike messenger. He is still on the bike.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "box",
+   "text": "And now the big boss. From the ninth floor.",
+   "shot": "box",
+   "gesture": "talk"
+  },
+  {
+   "spk": "kevin",
+   "text": "What do we do?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "lou",
+   "text": "We do what we trained for, Kevin.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kevin",
+   "text": "The stairs?",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.4
+  },
+  {
+   "spk": "lou",
+   "text": "The stairs.",
+   "gesture": "point",
+   "shot": "CU"
+  },
+  {
+   "spk": "lou",
+   "text": "Go, go, go!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "box",
+   "text": "They are gone. It is just me and the ninth floor.",
+   "shot": "box",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marj",
+   "text": "I stayed. Plain one, please.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "box",
+   "text": "Finally. Somebody who sees me.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "lou",
+   "text": "From the stairwell, Kevin. Rule four. Never reply all.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "kevin",
+   "text": "Why was that not rule one?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "lou",
+   "text": "Rule one is go. Rule one is always go.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marj",
+   "text": "Welcome to the team, Kevin.",
+   "shot": "marj",
+   "gesture": "talk"
+  },
+  {
+   "spk": "kevin",
+   "text": "Do I get my shoes back?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "box",
+   "text": "Your shoes joined the second floor. They are very happy.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "applause"
+  }
+ ]
+}
