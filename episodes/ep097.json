@@ -10,87 +10,465 @@
  "scene": "bedroom",
  "desk": false,
  "music": "upbeat",
- "intro": ["my hamster", "will not dance", "on camera"],
+ "intro": [
+  "my hamster",
+  "will not dance",
+  "on camera"
+ ],
  "youtube_title": "My hamster refuses to dance on camera. The doorbell camera says otherwise 🐹",
  "description": "Becca just wants one little clip of Mr. Biscuit dancing. Mr. Biscuit says no, very calmly, every time. Then the camera on the front porch shows what he does at three in the morning.\n\n#cartoon #animation #funny #hamster #shorts",
- "tags": ["cartoon", "animation", "funny", "comedy", "cartoons", "hamster", "pets", "dancing", "brother and sister", "doorbell camera"],
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "hamster",
+  "pets",
+  "dancing",
+  "brother and sister",
+  "doorbell camera"
+ ],
  "tiktok_caption": "my hamster refuses to dance on camera. the doorbell camera says otherwise 🐹 #cartoon #animation #funny #hamster",
  "cast": [
-  {"id": "becca", "name": "Becca", "kind": "human", "color": "#ffdbac", "scale": 1.0,
-   "hair": {"style": "ponytail", "color": "#e17055"}, "top": {"color": "#fd79a8", "pattern": "hoodie"}, "bottom": "#2d3436", "shoes": "#ffffff",
-   "accessories": ["headphones:#6c5ce7"], "eye": "big", "brows": "worried", "mouth": "smile", "label_color": "#fd79a8",
-   "voice": {"id": "af_river", "pitch": 0, "tempo": 1.04}},
-  {"id": "biscuit", "name": "Mr. Biscuit", "kind": "animal", "ears": "mouse", "color": "#e1a95f", "belly": "#fff3e0", "inner": "#f8a5c2", "scale": 0.86,
-   "top": {"color": "#2d3436", "pattern": "suit"}, "accessories": ["tie:#d63031"], "eye": "sleepy", "brows": "neutral", "mouth": "flat", "label_color": "#fab1a0",
-   "voice": {"id": "am_adam", "pitch": 0, "tempo": 0.92}},
-  {"id": "owen", "name": "Owen", "kind": "human", "color": "#ffdbac", "scale": 0.86,
-   "hair": {"style": "short", "color": "#e17055"}, "top": {"color": "#0984e3", "pattern": "jersey", "pattern_color": "#ffffff", "number": "7"}, "bottom": "#636e72", "shoes": "#d63031",
-   "accessories": ["cap:#00b894"], "eye": "round", "brows": "raised", "mouth": "smile", "label_color": "#74b9ff",
-   "voice": {"id": "am_echo", "pitch": 2, "tempo": 1.08}},
-  {"id": "doorcam", "name": "The Doorbell Camera", "kind": "mascot", "shape": "phone", "case": "#2d3436", "color": "#636e72", "scale": 0.9,
-   "accessories": ["sunglasses"], "eye": "round", "brows": "raised", "mouth": "flat", "label_color": "#b2bec3",
-   "voice": {"id": "bf_isabella", "pitch": 0, "tempo": 0.98}}
+  {
+   "id": "becca",
+   "name": "Becca",
+   "kind": "human",
+   "color": "#ffdbac",
+   "scale": 1.0,
+   "hair": {
+    "style": "ponytail",
+    "color": "#e17055"
+   },
+   "top": {
+    "color": "#fd79a8",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "accessories": [
+    "headphones:#6c5ce7"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#fd79a8",
+   "voice": {
+    "id": "af_river",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "biscuit",
+   "name": "Mr. Biscuit",
+   "kind": "animal",
+   "ears": "mouse",
+   "color": "#e1a95f",
+   "belly": "#fff3e0",
+   "inner": "#f8a5c2",
+   "scale": 0.86,
+   "top": {
+    "color": "#2d3436",
+    "pattern": "suit"
+   },
+   "accessories": [
+    "tie:#d63031"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "am_adam",
+    "pitch": 0,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "owen",
+   "name": "Owen",
+   "kind": "human",
+   "color": "#ffdbac",
+   "scale": 0.86,
+   "hair": {
+    "style": "short",
+    "color": "#e17055"
+   },
+   "top": {
+    "color": "#0984e3",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "7"
+   },
+   "bottom": "#636e72",
+   "shoes": "#d63031",
+   "accessories": [
+    "cap:#00b894"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#74b9ff",
+   "voice": {
+    "id": "am_echo",
+    "pitch": 2,
+    "tempo": 1.08
+   }
+  },
+  {
+   "id": "doorcam",
+   "name": "The Doorbell Camera",
+   "kind": "mascot",
+   "shape": "phone",
+   "case": "#2d3436",
+   "color": "#636e72",
+   "scale": 0.9,
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#b2bec3",
+   "voice": {
+    "id": "bf_isabella",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  }
  ],
  "lines": [
-  {"spk": "becca", "text": "Okay, Biscuit. Phone is up. Do the little dance. Just once.", "shot": "TWO", "gesture": "point"},
-  {"spk": "biscuit", "text": "No.", "shot": "CU", "gesture": "cross", "pre": 0.6},
-  {"spk": "becca", "text": "You did not even think about it.", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "biscuit", "text": "I thought about it very fast. The answer was no.", "shot": "CU", "gesture": "shrug", "after": "rimshot"},
-  {"spk": "becca", "text": "Every pet in my class has a dancing clip. Kayla's lizard does the splits.", "shot": "CU", "gesture": "talk"},
-  {"spk": "biscuit", "text": "Kayla's lizard has no shame. I have a tie.", "shot": "CU", "gesture": "talk"},
-  {"spk": "owen", "text": "Let me try. I am good with animals. A fish followed me once.", "shot": "CU", "gesture": "wave"},
-  {"spk": "becca", "text": "The fish was in a bag, Owen. You were carrying it.", "shot": "TWO", "gesture": "facepalm"},
-  {"spk": "owen", "text": "Biscuit, buddy. Look. A sunflower seed. Dance for the seed.", "shot": "CU", "gesture": "point"},
-  {"spk": "biscuit", "text": "I will take the seed. I will not dance for the seed. Those are two different things.", "shot": "CU", "gesture": "think"},
-  {"spk": "owen", "text": "He took the seed. He put it in his cheek. He is looking at me.", "shot": "CU", "gesture": "arms_up", "jump": true},
-  {"spk": "biscuit", "text": "I keep things in my cheeks. Seeds. Secrets. A button from your coat.", "shot": "CU", "gesture": "talk", "after": "boing"},
-  {"spk": "becca", "text": "Plan two. I play the bouncy song. Nobody can resist the bouncy song.", "shot": "CU", "gesture": "talk"},
-  {"spk": "owen", "text": "I cannot resist it. I am dancing. Is this helping?", "shot": "CU", "gesture": "arms_up", "jump": true},
-  {"spk": "biscuit", "text": "It is not. I am embarrassed for the whole room.", "shot": "biscuit", "gesture": "facepalm"},
-  {"spk": "becca", "text": "His foot tapped. Owen, his foot tapped.", "shot": "CU", "gesture": "point"},
-  {"spk": "biscuit", "text": "That was a cramp. I sleep in a toilet paper tube.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "becca", "text": "Plan three. A tiny costume. A cowboy hat made from a bottle cap.", "shot": "CU", "gesture": "talk"},
-  {"spk": "biscuit", "text": "I look like a sheriff who lost a bet.", "shot": "CU", "gesture": "cross", "after": "record_scratch"},
-  {"spk": "owen", "text": "You look amazing. Say yeehaw.", "shot": "TWO", "gesture": "talk"},
-  {"spk": "biscuit", "text": "I will say a lot of things. Not that.", "shot": "CU", "gesture": "talk"},
-  {"spk": "becca", "text": "Why are you like this? You are a hamster. You run on a wheel all night.", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "biscuit", "text": "Do I? Has anyone seen me do that?", "shot": "CU", "gesture": "think", "pre": 0.8},
-  {"spk": "owen", "text": "Now that he says it, the wheel never moves.", "shot": "CU", "gesture": "think"},
-  {"spk": "becca", "text": "The wheel is covered in dust. Biscuit. Where do you go at night?", "shot": "TWO", "gesture": "point"},
-  {"spk": "biscuit", "text": "I sleep. Like a normal hamster. Next question.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "owen", "text": "Mom said the porch camera keeps waking her up with alerts at three in the morning.", "shot": "CU", "gesture": "talk"},
-  {"spk": "biscuit", "text": "Raccoons. Very bad neighborhood.", "shot": "CU", "gesture": "talk"},
-  {"spk": "becca", "text": "I am checking the porch camera. Right now.", "shot": "CU", "gesture": "point", "after": "whoosh"},
-  {"spk": "doorcam", "text": "Good evening. I am the doorbell camera. I watch the porch. I see everything.", "shot": "doorcam", "gesture": "wave"},
-  {"spk": "doorcam", "text": "Three in the morning. Last night. Motion detected.", "shot": "doorcam", "gesture": "talk"},
-  {"spk": "becca", "text": "That is Biscuit. That is Biscuit on the welcome mat.", "shot": "CU", "gesture": "arms_up", "jump": true},
-  {"spk": "owen", "text": "He is dancing. He is spinning. He is doing the little arm thing!", "shot": "CU", "gesture": "arms_up", "jump": true, "after": "sting"},
-  {"spk": "doorcam", "text": "Every night for six weeks. Three to three fifteen. He is very punctual.", "shot": "doorcam", "gesture": "talk"},
-  {"spk": "biscuit", "text": "That hamster has a tie. Many hamsters have ties.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "doorcam", "text": "Here is the mail carrier at six. She leaves him seeds in a little dish.", "shot": "doorcam", "gesture": "talk"},
-  {"spk": "becca", "text": "The mail lady knows?", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "doorcam", "text": "The whole street knows. The neighbors watch my feed together. They call it the show.", "shot": "doorcam", "gesture": "talk"},
-  {"spk": "owen", "text": "Mister Patel across the street made a little sign. It says Biscuit, you are a star.", "shot": "CU", "gesture": "point"},
-  {"spk": "biscuit", "text": "His spelling is wrong. He put two t's in star. I let it go.", "shot": "CU", "gesture": "talk"},
-  {"spk": "becca", "text": "So you dance for the whole street, but not for me?", "shot": "TWO", "gesture": "talk"},
-  {"spk": "biscuit", "text": "The street does not hold a phone two inches from my face and say do it, do it.", "shot": "CU", "gesture": "point"},
-  {"spk": "biscuit", "text": "The street gives me space. The street gives me seeds.", "shot": "CU", "gesture": "talk"},
-  {"spk": "owen", "text": "He has a point. You do say do it, do it.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "becca", "text": "Fine. You win. No phone. I am putting it face down on the bed.", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "becca", "text": "I am not looking. I am just a girl, sitting near a hamster.", "shot": "CU", "gesture": "think"},
-  {"spk": "biscuit", "text": "Okay. Space. Seeds. I can work with this.", "shot": "biscuit", "gesture": "talk", "pre": 0.8},
-  {"spk": "owen", "text": "He is moving. He is spinning. Becca, he is doing the arm thing!", "shot": "W", "gesture": "arms_up", "jump": true, "after": "applause"},
-  {"spk": "biscuit", "text": "And a spin. And a spin. And the big finish. The cheek pop.", "shot": "CU", "gesture": "arms_up", "jump": true},
-  {"spk": "becca", "text": "That was the best thing I have ever seen in my life.", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "owen", "text": "Your phone screen is face down but it is glowing red.", "shot": "CU", "gesture": "point", "pre": 0.6},
-  {"spk": "becca", "text": "Oh. It might have been recording the whole time. By accident.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "owen", "text": "By accident? You said that out loud like a liar.", "shot": "TWO", "gesture": "point"},
-  {"spk": "becca", "text": "Biscuit, I am so sorry. I can delete it.", "shot": "CU", "gesture": "facepalm"},
-  {"spk": "biscuit", "text": "Do not delete it. I saw the red light before I started.", "shot": "CU", "gesture": "talk"},
-  {"spk": "becca", "text": "You knew?", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "biscuit", "text": "I always know. I just needed you to ask nicely. And give me space.", "shot": "CU", "gesture": "talk"},
-  {"spk": "doorcam", "text": "And the mail carrier needs a new clip by six. She has a group chat.", "shot": "doorcam", "gesture": "talk"},
-  {"spk": "owen", "text": "Can I be in the next one?", "shot": "TWO", "gesture": "wave"},
-  {"spk": "biscuit", "text": "No.", "shot": "CU", "gesture": "cross", "pre": 0.6, "after": "ding"}
+  {
+   "spk": "becca",
+   "text": "Okay, Biscuit. Phone is up. Do the little dance. Just once.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "biscuit",
+   "text": "No.",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 0.6
+  },
+  {
+   "spk": "becca",
+   "text": "You did not even think about it.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "biscuit",
+   "text": "I thought about it very fast. The answer was no.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "becca",
+   "text": "Every pet in my class has a dancing clip. Kayla's lizard does the splits.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Kayla's lizard has no shame. I have a tie.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "owen",
+   "text": "Let me try. I am good with animals. A fish followed me once.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "becca",
+   "text": "The fish was in a bag, Owen. You were carrying it.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "owen",
+   "text": "Biscuit, buddy. Look. A sunflower seed. Dance for the seed.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "biscuit",
+   "text": "I will take the seed. I will not dance for the seed. Those are two different things.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "owen",
+   "text": "He took the seed. He put it in his cheek. He is looking at me.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "biscuit",
+   "text": "I keep things in my cheeks. Seeds. Secrets. A button from your coat.",
+   "shot": "CU",
+   "gesture": "talk",
+   "after": "boing"
+  },
+  {
+   "spk": "becca",
+   "text": "Plan two. I play the bouncy song. Nobody can resist the bouncy song.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "owen",
+   "text": "I cannot resist it. I am dancing. Is this helping?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "biscuit",
+   "text": "It is not. I am embarrassed for the whole room.",
+   "shot": "biscuit",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "becca",
+   "text": "His foot tapped. Owen, his foot tapped.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "biscuit",
+   "text": "That was a cramp. I sleep in a toilet paper tube.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "becca",
+   "text": "Plan three. A tiny costume. A cowboy hat made from a bottle cap.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "biscuit",
+   "text": "I look like a sheriff who lost a bet.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "becca",
+   "text": "Why are you like this? You are a hamster. You run on a wheel all night.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Do I? Has anyone seen me do that?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "becca",
+   "text": "The wheel is covered in dust. Biscuit. Where do you go at night?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "biscuit",
+   "text": "I sleep. Like a normal hamster. Next question.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "owen",
+   "text": "Mom said the porch camera keeps waking her up with alerts at three in the morning.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Raccoons. Very bad neighborhood.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "becca",
+   "text": "I am checking the porch camera. Right now.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "whoosh"
+  },
+  {
+   "spk": "doorcam",
+   "text": "Good evening. I am the doorbell camera. I watch the porch. I see everything.",
+   "shot": "doorcam",
+   "gesture": "wave"
+  },
+  {
+   "spk": "becca",
+   "text": "That is Biscuit. That is Biscuit on the welcome mat.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "owen",
+   "text": "He is dancing. He is spinning. He is doing the little arm thing!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "sting"
+  },
+  {
+   "spk": "doorcam",
+   "text": "Every night for six weeks. Three to three fifteen. He is very punctual.",
+   "shot": "doorcam",
+   "gesture": "talk"
+  },
+  {
+   "spk": "biscuit",
+   "text": "That hamster has a tie. Many hamsters have ties.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "doorcam",
+   "text": "Here is the mail carrier at six. She leaves him seeds in a little dish.",
+   "shot": "doorcam",
+   "gesture": "talk"
+  },
+  {
+   "spk": "doorcam",
+   "text": "The whole street knows. The neighbors watch my feed together. They call it the show.",
+   "shot": "doorcam",
+   "gesture": "talk"
+  },
+  {
+   "spk": "owen",
+   "text": "Mister Patel across the street made a little sign. It says Biscuit, you are a star.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "biscuit",
+   "text": "His spelling is wrong. He put two t's in star. I let it go.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "becca",
+   "text": "So you dance for the whole street, but not for me?",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "biscuit",
+   "text": "The street does not hold a phone two inches from my face and say do it, do it.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "biscuit",
+   "text": "The street gives me space. The street gives me seeds.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "becca",
+   "text": "Fine. You win. No phone. I am putting it face down on the bed.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "becca",
+   "text": "I am not looking. I am just a girl, sitting near a hamster.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Okay. Space. Seeds. I can work with this.",
+   "shot": "biscuit",
+   "gesture": "talk",
+   "pre": 0.8
+  },
+  {
+   "spk": "owen",
+   "text": "He is moving. He is spinning. Becca, he is doing the arm thing!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "biscuit",
+   "text": "And a spin. And a spin. And the big finish. The cheek pop.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "owen",
+   "text": "Your phone screen is face down but it is glowing red.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "becca",
+   "text": "Oh. It might have been recording the whole time. By accident.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "owen",
+   "text": "By accident? You said that out loud like a liar.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Do not delete it. I saw the red light before I started.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "becca",
+   "text": "You knew?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "biscuit",
+   "text": "I always know. I just needed you to ask nicely. And give me space.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "doorcam",
+   "text": "And the mail carrier needs a new clip by six. She has a group chat.",
+   "shot": "doorcam",
+   "gesture": "talk"
+  },
+  {
+   "spk": "owen",
+   "text": "Can I be in the next one?",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "biscuit",
+   "text": "No.",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 0.6,
+   "after": "ding"
+  }
  ]
 }
