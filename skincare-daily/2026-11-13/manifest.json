@@ -1,0 +1,415 @@
+{
+ "date": "2026-11-13",
+ "ledger": "skincare-daily/2026-11-13/receipt-ledger.json",
+ "publishing": "skincare-upload.yml (GitHub Action) publishes; this batch uploads and schedules nothing.",
+ "commission_disclosure": "description only",
+ "language": "American English",
+ "channels": {
+  "@DermatologyJoburgBedfordview": {
+   "domain": "dermatology.joburg",
+   "shorts": 2,
+   "videos": 0,
+   "all_pass": true,
+   "status": "partial: staged items ready"
+  },
+  "@SkincareDurbanWestville": {
+   "domain": "skincare.durban",
+   "shorts": 0,
+   "videos": 1,
+   "all_pass": true,
+   "status": "partial: staged items ready"
+  }
+ },
+ "not_staged": [],
+ "unfilled_slots": [
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-13 08:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-13 12:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-13 16:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-13 20:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-13 10:00",
+   "format": "regular",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-13 18:00",
+   "format": "regular",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-13 08:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-13 12:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-13 16:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-13 20:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-13 10:00",
+   "format": "regular",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-13 08:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-13 12:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-13 16:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-13 20:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-13 10:00",
+   "format": "regular",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-13 18:00",
+   "format": "regular",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-13 08:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-13 20:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-13 10:00",
+   "format": "regular",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-13 18:00",
+   "format": "regular",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-13 08:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-13 12:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-13 16:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-13 20:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-13 10:00",
+   "format": "regular",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-13 18:00",
+   "format": "regular",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-13 08:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-13 12:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-13 16:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-13 20:00",
+   "format": "short",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-13 10:00",
+   "format": "regular",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-13 18:00",
+   "format": "regular",
+   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
+  }
+ ],
+ "items": [
+  {
+   "domain": "dermatology.joburg",
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-13 12:00",
+   "format": "short",
+   "slug": "bedfordview-awaken-peptide-eye-gel-15ml-short",
+   "sku": "111449",
+   "variant": "15ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "awaken peptide eye gel",
+    "listing_url": "https://dermalogica.co.za/products/awaken-peptide-eye-gel-15ml-111449?variant=46583518626106",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111449-00.png",
+    "packshot_sha256": "dd634dfe6734bcd957606c10c8aa9b764f8e78d0482c74bfa41e37ee9b398edb",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Smaller_fc3aba85-7272-478c-bdc2-dddcf9b62edf.png?v=1698666431"
+   },
+   "title": "How to Use Dermalogica Awaken Peptide Eye Gel 15 mL #shorts",
+   "description": "Dermalogica awaken peptide eye gel: firms, hydrates, and depuffs, from the Bedfordview labels and ingredients desk.\n\nWe earn a commission if you buy through our link at https://dermatology.joburg/.\n\n• Firms, hydrates, and depuffs\n• Visibly firms and smooths skin texture\n• Minimizes the appearance of fine lines and wrinkles\n• Reduces the appearance of puffiness around the eye area\n• How to use: Apply under the eye and along the orbital bone. Keep out of eyes.\n\ndermatology.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/awaken-peptide-eye-gel-15ml-111449?variant=46583518626106, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatology.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #AwakenPeptideEyeGel #LabelRead #shorts",
+   "tags": [
+    "awaken peptide eye gel",
+    "dermalogica awaken peptide eye gel",
+    "labels and ingredients",
+    "bedfordview skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 35.14,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-awaken-peptide-eye-gel-15ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-awaken-peptide-eye-gel-15ml-short.mp4",
+   "sha256": "653633fe91ea7ec4b0e15cce7ee7246b73b4f91743553868945c6553289d8ef0",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-awaken-peptide-eye-gel-15ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-awaken-peptide-eye-gel-15ml-short.jpg",
+   "thumbnail_sha256": "dea0f51a2e239ab6c6bac2f673b06ff66138267e67576d8998e86af54f29b29a",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-awaken-peptide-eye-gel-15ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-awaken-peptide-eye-gel-15ml-short.en.srt",
+   "captions_sha256": "099c0b8abb1ca16deeea5e73bbd2a65d314d103a106a8fadeb6a626811b88a37",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111449-00.png",
+    "skincare-daily/2026-11-13/images/d1113-111449-02.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111449-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_nicole (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.38,
+    "true_peak": -1.94,
+    "packshot_match": 0.962,
+    "srt_cues": 8,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 46,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.joburg",
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-13 16:00",
+   "format": "short",
+   "slug": "bedfordview-get-keep-your-glow-kit-2-full-size-short",
+   "sku": "301339INT",
+   "variant": "Default Title",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "get + keep your glow kit (2 full-size)",
+    "listing_url": "https://dermalogica.co.za/products/get-keep-your-glow-set-2026?variant=53577187655994",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-301339INT-00.png",
+    "packshot_sha256": "d4aa8d82abdc7c9eab0c9548e18dc06b2a91351e321b47bb640bfe9d05bbf72c",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/ChatGPTImageJun12_2026_11_33_18AM.png?v=1781256823"
+   },
+   "title": "Label Read: Dermalogica Get + Keep Your Glow Kit (2 Full-Size) #shorts",
+   "description": "Dermalogica get + keep your glow kit (2 full-size): brightens and combats skin aging, from the Bedfordview labels and ingredients desk.\n\nWe earn a commission if you buy through our link at https://dermatology.joburg/.\n\n• Brightens and combats skin aging\n• What's inside: BioLumin-C Serum (30ml); Dynamic Skin Recovery SPF 50 (50ml)\n• Provides long-lasting hydration and critical protection against UV light\n• Helps control the triggers that lead to skin aging\n• BioLumin-C\n• Exfoliates and reduces unbalanced pigmentation\n• How to use: Dispense a full dropper of BioLumin-C Serum and smooth over cleansed face and neck, after toning and before moisturizing. Follow with Dynamic Skin Recovery SPF50 and apply a generous amount to face and neck, preferably 30 minutes prior to sun exposure.\n\ndermatology.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/get-keep-your-glow-set-2026?variant=53577187655994, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatology.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #GetKeepYourGlowKit2FullSize #LabelRead #shorts",
+   "tags": [
+    "get + keep your glow kit (2 full-size)",
+    "dermalogica get + keep your glow kit (2 full-size)",
+    "labels and ingredients",
+    "bedfordview skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 55.66,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-get-keep-your-glow-kit-2-full-size-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-get-keep-your-glow-kit-2-full-size-short.mp4",
+   "sha256": "692334d88fa6742094c2d5b7c19c4c9edbcf9bff558959f0f9a2b0e077e4e9ba",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-get-keep-your-glow-kit-2-full-size-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-get-keep-your-glow-kit-2-full-size-short.jpg",
+   "thumbnail_sha256": "ccfec3f9e7b2b7c817970c5ef479e72c048a709d36657f564b1d37a2c3ae710b",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-get-keep-your-glow-kit-2-full-size-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-get-keep-your-glow-kit-2-full-size-short.en.srt",
+   "captions_sha256": "63bcfdfa0196e52c8ff1b3460bb746f41edc834e56d2c12f182e048814a6685b",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-301339INT-00.png",
+    "skincare-daily/2026-11-13/images/d1113-301339INT-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-301339INT-02.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_nicole (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.33,
+    "true_peak": -1.97,
+    "packshot_match": 0.845,
+    "srt_cues": 9,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 48,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.durban",
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-13 18:00",
+   "format": "video",
+   "slug": "westville-stressed-skin-recovery-system-2-full-size",
+   "sku": "111513INT",
+   "variant": "Default Title",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "stressed skin recovery system (2 full-size)",
+    "listing_url": "https://dermalogica.co.za/products/stressed-skin-recovery-system?variant=51118900937018",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111513INT-00.png",
+    "packshot_sha256": "07e175fc1083f297dd17379c89e7e3ef45cba9898a76f06bf36984c423793c2a",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Stressed_Skin_Kit_SLEEVE_ANGLED_0b264ddb-51cb-4614-9cad-e8f71f47f54b.png?v=1745504002"
+   },
+   "title": "Dermalogica Stressed Skin Recovery System (2 Full-Size): What It Does and How to Use It",
+   "description": "Dermalogica stressed skin recovery system (2 full-size): Multivitamin Power Recovery Cream, from the Westville body care desk.\n\nWe earn a commission if you buy through our link at https://skincare.durban/.\n\n• Multivitamin Power Recovery Cream\n• What's inside: multivitamin power recovery cream (50ml); multivitamin power recovery masque (75ml)\n• Recovery cream boosts skin resilience to prevent premature signs of skin aging; recovery masque is a restorative masque for skin exposed to stress\n• Repairs daily damage triggered by free radicals\n• Increases elasticity, boosts collagen synthesis\n• Fights environmental stressors with powerful multivitamins\n• How to use: Cream: after cleansing and toning, apply over face and neck with light, upward strokes, morning and night. Masque: apply generously to cleansed face and throat, avoiding the eye area; after 10 to 15 minutes rinse with warm water; once per week or whenever skin requires a soothing remedy.\n\nChapters:\n0:00 Overview\n0:14 Cream + masque\n0:31 Directions from the listing\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/stressed-skin-recovery-system?variant=51118900937018, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://skincare.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #StressedSkinRecoverySystem2FullSize #BodyCare",
+   "tags": [
+    "stressed skin recovery system (2 full-size)",
+    "dermalogica stressed skin recovery system (2 full-size)",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 64.74,
+   "resolution": "1920x1080",
+   "media_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-stressed-skin-recovery-system-2-full-size.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-stressed-skin-recovery-system-2-full-size.mp4",
+   "sha256": "0a350b8c6896736f1da21885a1582aebd0f369575b5ddb415bf7e42ede460b15",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-stressed-skin-recovery-system-2-full-size.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-stressed-skin-recovery-system-2-full-size.jpg",
+   "thumbnail_sha256": "2a8b7ed98af31bb6ff1f6469e4e7736dda626a7b85c93f12ffb68fc6b943f043",
+   "captions_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-stressed-skin-recovery-system-2-full-size.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-stressed-skin-recovery-system-2-full-size.en.srt",
+   "captions_sha256": "ec24bc45c5bf8a3c6af7eeb601e3639ce73c2758784c5fb2df5fc1278ab6a2aa",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111513INT-00.png",
+    "skincare-daily/2026-11-13/images/d1113-111513INT-02.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111513INT-05.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_bella (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.21,
+    "true_peak": -1.25,
+    "packshot_match": 0.9,
+    "srt_cues": 16,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 57,
+   "status": "ready"
+  }
+ ]
+}

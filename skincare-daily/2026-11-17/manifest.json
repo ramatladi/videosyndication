@@ -1,0 +1,421 @@
+{
+ "date": "2026-11-17",
+ "ledger": "skincare-daily/2026-11-17/receipt-ledger.json",
+ "publishing": "skincare-upload.yml (GitHub Action) publishes; this batch uploads and schedules nothing.",
+ "commission_disclosure": "description only",
+ "language": "American English",
+ "channels": {
+  "@DermatologistJoburgMidrand": {
+   "domain": "dermatologist.joburg",
+   "shorts": 1,
+   "videos": 0,
+   "all_pass": true,
+   "status": "partial: staged items ready"
+  },
+  "@DermatologyCapeTown": {
+   "domain": "dermatology.capetown",
+   "shorts": 1,
+   "videos": 0,
+   "all_pass": true,
+   "status": "partial: staged items ready"
+  },
+  "@SkincareDurbanWestville": {
+   "domain": "skincare.durban",
+   "shorts": 1,
+   "videos": 0,
+   "all_pass": true,
+   "status": "partial: staged items ready"
+  }
+ },
+ "not_staged": [],
+ "unfilled_slots": [
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-17 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-17 12:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-17 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-17 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-17 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-17 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-17 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-17 12:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-17 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-17 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-17 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-17 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-17 12:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-17 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-17 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-17 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-17 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-17 12:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-17 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-17 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-17 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-17 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-17 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-17 12:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-17 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-17 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-17 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-17 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-17 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-17 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-17 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-17 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-17 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  }
+ ],
+ "items": [
+  {
+   "domain": "dermatologist.joburg",
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-17 20:00",
+   "format": "short",
+   "slug": "midrand-daily-superfoliant-13g-short",
+   "sku": "111251",
+   "variant": "13g",
+   "selection": {
+    "tier": "b",
+    "why": "different size/kit of a desk product, SKU never used before"
+   },
+   "product": {
+    "name": "daily superfoliant",
+    "listing_url": "https://dermalogica.co.za/products/daily-superfoliant-daily-superfoliant?variant=45975458218298",
+    "checked": "2026-11-17",
+    "packshot": "skincare-daily/2026-11-17/images/d1117-111251-00.png",
+    "packshot_sha256": "f59e0617eacd24008814c3d542be535d6b48173a565157bd92f7f5b9bd594015",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Smaller_5_272f5056-bcd8-4e49-a4b5-5cdd079d2d68.png?v=1713509451"
+   },
+   "title": "Dermalogica Daily Superfoliant 13g in Under a Minute: Exfoliates, Resurfaces, Detoxes #shorts",
+   "description": "Dermalogica daily superfoliant: exfoliates, resurfaces, detoxes, from the Midrand routine desk.\n\nWe earn a commission if you buy through our link at https://dermatologist.joburg/.\n\n• Exfoliates, resurfaces, detoxes\n• Resurfaces and deep cleanses for your smoothest skin ever\n• Adsorbs environmental pollutants and helps detoxify pores\n• Helps fight pollution triggers that lead to premature skin aging\n• How to use: After cleansing, dispense about a half-teaspoon into very wet hands and create a creamy paste by rubbing hands together. Apply to face in circular motions, avoiding the eye area. Massage gently for one minute, then rinse thoroughly with warm water. Use daily. For more sensitive skin, app\n\ndermatologist.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/daily-superfoliant-daily-superfoliant?variant=45975458218298, checked 2026-11-17); check the current listing before you buy.\n\nShop: https://dermatologist.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #DailySuperfoliant #RoutineBuilder #shorts",
+   "tags": [
+    "daily superfoliant",
+    "dermalogica daily superfoliant",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 27.5,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-17/renders/dermatologist.joburg/midrand-daily-superfoliant-13g-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-17/renders/dermatologist.joburg/midrand-daily-superfoliant-13g-short.mp4",
+   "sha256": "81c62e98701047f9cad5d35aa026d39c669a2d0dbdabb2964682dc220248488f",
+   "thumbnail_path": "skincare-daily/2026-11-17/renders/dermatologist.joburg/midrand-daily-superfoliant-13g-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-17/renders/dermatologist.joburg/midrand-daily-superfoliant-13g-short.jpg",
+   "thumbnail_sha256": "2c53479463bee8f87f512c5a005f72722462d7ae63d6c4073f7deb7a61ead7a0",
+   "captions_path": "skincare-daily/2026-11-17/renders/dermatologist.joburg/midrand-daily-superfoliant-13g-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-17/renders/dermatologist.joburg/midrand-daily-superfoliant-13g-short.en.srt",
+   "captions_sha256": "07d6bc541fb49ed68cab497ee9c3cbcbf816a1720317a57193cdc697cc3ed218",
+   "listing_images": [
+    "skincare-daily/2026-11-17/images/d1117-111251-00.png",
+    "skincare-daily/2026-11-17/images/d1117-111251-02.jpg",
+    "skincare-daily/2026-11-17/images/d1117-111251-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_jessica (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.43,
+    "true_peak": -1.89,
+    "packshot_match": 0.954,
+    "srt_cues": 8,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 59,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.capetown",
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-17 12:00",
+   "format": "short",
+   "slug": "capetown-skin-smoothing-cream-short",
+   "sku": "111324",
+   "variant": "50ml",
+   "selection": {
+    "tier": "c",
+    "why": "face product covered from the sun angle"
+   },
+   "product": {
+    "name": "skin smoothing cream",
+    "listing_url": "https://dermalogica.co.za/products/skin-smoothing-cream-skin-smoothing-cream?variant=45975454908730",
+    "checked": "2026-11-17",
+    "packshot": "skincare-daily/2026-11-17/images/d1117-111324-00.jpg",
+    "packshot_sha256": "a0ac2faea67e7f715e86577d2b46eac11f5c7847907aaf052b4ddf80709a66e2",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Skin_Smoothing_Cream_1.7oz_Primary_FRONT_ac448f94-1518-4080-9639-c8b09fd13c01.jpg?v=1778851913"
+   },
+   "title": "Dermalogica Skin Smoothing Cream: Provides 48 Hours of Hydration #shorts",
+   "description": "Dermalogica skin smoothing cream: provides 48 hours of hydration, from the Cape Town daily sun care desk.\n\nWe earn a commission if you buy through our link at https://dermatology.capetown/.\n\n• Provides 48 hours of hydration\n• Provides 48 hours of continuous hydration Powered by Active HydraMesh Technology\n• Protects against environmental stress\n• How to use: After cleansing and toning, apply over face and throat in light, upward strokes. Use twice daily, morning and night.\n\ndermatology.capetown is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/skin-smoothing-cream-skin-smoothing-cream?variant=45975454908730, checked 2026-11-17); check the current listing before you buy.\n\nShop: https://dermatology.capetown/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #SkinSmoothingCream #DailySPF #shorts",
+   "tags": [
+    "skin smoothing cream",
+    "dermalogica skin smoothing cream",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 32.52,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-17/renders/dermatology.capetown/capetown-skin-smoothing-cream-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-17/renders/dermatology.capetown/capetown-skin-smoothing-cream-short.mp4",
+   "sha256": "f32b0a6e9fffd9ce40f526ea826fdfd4ba71437b3bb479bab7af89a0b0cde229",
+   "thumbnail_path": "skincare-daily/2026-11-17/renders/dermatology.capetown/capetown-skin-smoothing-cream-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-17/renders/dermatology.capetown/capetown-skin-smoothing-cream-short.jpg",
+   "thumbnail_sha256": "d73f459a00dbc85a3185ad5623d0f11301a12815c9c98ae912c5ce29e35f030a",
+   "captions_path": "skincare-daily/2026-11-17/renders/dermatology.capetown/capetown-skin-smoothing-cream-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-17/renders/dermatology.capetown/capetown-skin-smoothing-cream-short.en.srt",
+   "captions_sha256": "75556351afcaf8bb303195220b3b2263c5793d564a1d6f8dc7c4d8a819786693",
+   "listing_images": [
+    "skincare-daily/2026-11-17/images/d1117-111324-00.jpg",
+    "skincare-daily/2026-11-17/images/d1117-111324-01.jpg",
+    "skincare-daily/2026-11-17/images/d1117-111324-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_aoede (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.4,
+    "true_peak": -1.39,
+    "packshot_match": 0.966,
+    "srt_cues": 8,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 48,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.durban",
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-17 16:00",
+   "format": "short",
+   "slug": "westville-breakout-clearing-foaming-wash-short",
+   "sku": "110910",
+   "variant": "177ml",
+   "selection": {
+    "tier": "c",
+    "why": "face product covered from the body angle"
+   },
+   "product": {
+    "name": "breakout clearing foaming wash",
+    "listing_url": "https://dermalogica.co.za/products/breakout-clearing-foaming-wash-breakout-clearing-foaming-wash?variant=45975458316602",
+    "checked": "2026-11-17",
+    "packshot": "skincare-daily/2026-11-17/images/d1117-110910-00.jpg",
+    "packshot_sha256": "8f1c5000536481045412287485683f6408d6bc2c2bd9d9c0dedfeca9ca0343e1",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/6ozproductimage_f9de28b5-4e6e-49f8-b705-a9948c0b918c.jpg?v=1761902713"
+   },
+   "title": "How to Use Dermalogica Breakout Clearing Foaming Wash #shorts",
+   "description": "Dermalogica breakout clearing foaming wash: fights breakouts and deep cleans, from the Westville body care desk.\n\nWe earn a commission if you buy through our link at https://skincare.durban/.\n\n• Fights breakouts and deep cleans\n• Sinensis, known to gently soothe and calm irritated skin Orange Peel Extract revives, energizes, and refreshes\n• Salicylic Acid dives deep into pores, clearing dead skin cells and trapped oils to help wipe out existing and future breakouts\n• Formulated with 8 botanicals including Tea Tree, Lavender and Camellia\n• How to use: Morning and night, lather a small amount in damp hands, then rub over face, neck, chest ... anywhere you want to wipe out dirt and breakouts. Keep out of your eyes. Rinse thoroughly with warm water.\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/breakout-clearing-foaming-wash-breakout-clearing-foaming-wash?variant=45975458316602, checked 2026-11-17); check the current listing before you buy.\n\nShop: https://skincare.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #BreakoutClearingFoamingWash #BodyCare #shorts",
+   "tags": [
+    "breakout clearing foaming wash",
+    "dermalogica breakout clearing foaming wash",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 27.13,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-17/renders/skincare.durban/westville-breakout-clearing-foaming-wash-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-17/renders/skincare.durban/westville-breakout-clearing-foaming-wash-short.mp4",
+   "sha256": "293ae4a9a023f9cf85c139c8fb436b4c82a238d2a1fbc0623209153ff1732bf3",
+   "thumbnail_path": "skincare-daily/2026-11-17/renders/skincare.durban/westville-breakout-clearing-foaming-wash-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-17/renders/skincare.durban/westville-breakout-clearing-foaming-wash-short.jpg",
+   "thumbnail_sha256": "4a00d164ac26fc501c80256144579c378eb39034f96019afd1c7c1a367d06c86",
+   "captions_path": "skincare-daily/2026-11-17/renders/skincare.durban/westville-breakout-clearing-foaming-wash-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-17/renders/skincare.durban/westville-breakout-clearing-foaming-wash-short.en.srt",
+   "captions_sha256": "d5c4bfb63704aa69ebf019c83130e559f599176d8c4f97c53975b90bf5e23e2e",
+   "listing_images": [
+    "skincare-daily/2026-11-17/images/d1117-110910-00.jpg",
+    "skincare-daily/2026-11-17/images/d1117-110910-02.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_bella (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.23,
+    "true_peak": -1.44,
+    "packshot_match": 0.89,
+    "srt_cues": 8,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 48,
+   "status": "ready"
+  }
+ ]
+}

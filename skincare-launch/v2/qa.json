@@ -1,0 +1,863 @@
+{
+ "summary": {
+  "renders": 12,
+  "passed": 12,
+  "fails": [],
+  "unique_products": true,
+  "free_photos_unique": true,
+  "store_images_shared_between_videos": [],
+  "min_thumb_dist": 45,
+  "min_frame_dist": 75,
+  "similarity_fails": []
+ },
+ "renders": [
+  {
+   "slug": "rosebank-skin-smoothing-cream",
+   "domain": "skincare.joburg",
+   "format": "video",
+   "product": "skin smoothing cream",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 73.21,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.23,
+   "true_peak": -1.41,
+   "loudness_ok": true,
+   "srt_cues": 19,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 73,
+   "desc_bytes": 1192,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.925,
+   "packshot_ok": true,
+   "mp4_sha256": "627633166cfcc28e41ac7030959391165a1d550fbacf786060b8c9091c733cb6",
+   "jpg_sha256": "cfdadbcea114628e568970d017d1e3c880b7f72ffc5b87134e9631c440da8a64",
+   "srt_sha256": "a2e39937986fcc686f04f6f5e16ccd24bd02258a6a25e8bcddd0f4cbd5f95603",
+   "pass": true
+  },
+  {
+   "slug": "rosebank-cooling-aqua-jelly-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product": "cooling aqua jelly",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 38.63,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.2,
+   "true_peak": -1.44,
+   "loudness_ok": true,
+   "srt_cues": 10,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 71,
+   "desc_bytes": 936,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.931,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.901,
+   "cover_ok": true,
+   "mp4_sha256": "e36808225c79ee1d656b0c6d52ad1bbbec3ad03756df68d1cb31168f2e7151d2",
+   "jpg_sha256": "7aa597c717af72808be9185e5a6df084961c97812f08c3c746d8fc001b94dd1c",
+   "srt_sha256": "e4a853bfdfab62d7e696db1fdf363b8cc1a809c2f3c877a7350ad75b8582cd6d",
+   "pass": true
+  },
+  {
+   "slug": "westville-body-hydrating-cream",
+   "domain": "skincare.durban",
+   "format": "video",
+   "product": "body hydrating cream",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 72.73,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.11,
+   "true_peak": -1.33,
+   "loudness_ok": true,
+   "srt_cues": 19,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 75,
+   "desc_bytes": 1166,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.972,
+   "packshot_ok": true,
+   "mp4_sha256": "a985728e997c57aa47740b030109d0574e6df549500e7b540adb2a9316994fa1",
+   "jpg_sha256": "cf01602586f5c571923c278c9a10821cc989da76ccb718a0c9d6c2493e9ac6ee",
+   "srt_sha256": "46eb1b40c068842ebb2fa543355cc2058bd4676ad21b2d49af46a7356cbf8953",
+   "pass": true
+  },
+  {
+   "slug": "westville-conditioning-body-wash-short",
+   "domain": "skincare.durban",
+   "format": "short",
+   "product": "conditioning body wash",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 37.91,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.21,
+   "true_peak": -1.41,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 81,
+   "desc_bytes": 908,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.961,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.964,
+   "cover_ok": true,
+   "mp4_sha256": "40b36d0388505c505352e83d64c3574189d575ae33062eaf0419c798b385fd12",
+   "jpg_sha256": "8708473fe80c6e92a4a5f3270ba1904c9ea498ddb81fe5509cc90bc2af715685",
+   "srt_sha256": "6c5c1f6b0f294876e859d603ea620ff3252faefeb194bb7f5d52eef339a2dc7f",
+   "pass": true
+  },
+  {
+   "slug": "midrand-intensive-moisture-balance",
+   "domain": "dermatologist.joburg",
+   "format": "video",
+   "product": "intensive moisture balance",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 70.53,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.52,
+   "true_peak": -1.96,
+   "loudness_ok": true,
+   "srt_cues": 19,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 78,
+   "desc_bytes": 1282,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.95,
+   "packshot_ok": true,
+   "mp4_sha256": "2e736a45a7a9c60a2a493650cd16393a3ad9d0bcb19c671d9424495c1e785084",
+   "jpg_sha256": "710cee7ba8e6dbb0bb0a4203a129f46ca8d658f7d288240d632e3ff0837a1c9a",
+   "srt_sha256": "952c0402cd341e48cffc1523d9cc65c1bb35d41f5d7f799bf351d666926ae6ea",
+   "pass": true
+  },
+  {
+   "slug": "midrand-special-cleansing-gel-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product": "special cleansing gel",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 37.03,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.59,
+   "true_peak": -1.92,
+   "loudness_ok": true,
+   "srt_cues": 12,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 71,
+   "desc_bytes": 1065,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.775,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.884,
+   "cover_ok": true,
+   "mp4_sha256": "57e0f5feee190c813af3a8c24d12e6a9b8abfd70140f9ad4c185d9eda9ad1b97",
+   "jpg_sha256": "51abd54e7b0b05297c785cc80f86b948b4679fdd4cf9fe392d0ccf18d193ee0d",
+   "srt_sha256": "f4246b158590b4fa0a5c69d73923e95e2d6395badac3fda9c8782d867c5a4f5a",
+   "pass": true
+  },
+  {
+   "slug": "bedfordview-age-bright-clearing-serum",
+   "domain": "dermatology.joburg",
+   "format": "video",
+   "product": "Age Bright Clearing Serum",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 115.2,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.65,
+   "true_peak": -1.88,
+   "loudness_ok": true,
+   "srt_cues": 19,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 72,
+   "desc_bytes": 1468,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.982,
+   "packshot_ok": true,
+   "mp4_sha256": "cee17e53e7fdde09f309d295ad36c08ca236c9fbb4c917469f4cea42cb94c1e4",
+   "jpg_sha256": "9b89cb18ba9b1a03cd88c9a126b4f11a6b33c2592d24978b740f5b5307e77be5",
+   "srt_sha256": "a11eeb139ce37b5c85469775c00778ce56737e32d3edf5563153ed65414993ac",
+   "pass": true
+  },
+  {
+   "slug": "bedfordview-calm-water-gel-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product": "calm water gel",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 55.63,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.6,
+   "true_peak": -1.94,
+   "loudness_ok": true,
+   "srt_cues": 10,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 72,
+   "desc_bytes": 1002,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.941,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.969,
+   "cover_ok": true,
+   "mp4_sha256": "9bd74a1cb9049ad6c8edce7b00cdc0618d55547a8ca49a70a2addcb06125d8f5",
+   "jpg_sha256": "ad83236ffebb69275f606de0522e0597a23e755e83318ca55721d1bbaeb6ba8a",
+   "srt_sha256": "62edddec5d12073a6c4347e584ecb4e4b0fdc448bb84aa857af9053503eee683",
+   "pass": true
+  },
+  {
+   "slug": "umhlanga-hyaluronic-ceramide-mist",
+   "domain": "dermatology.durban",
+   "format": "video",
+   "product": "hyaluronic ceramide mist",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 64.23,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.47,
+   "true_peak": -1.39,
+   "loudness_ok": true,
+   "srt_cues": 16,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 67,
+   "desc_bytes": 1271,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.964,
+   "packshot_ok": true,
+   "mp4_sha256": "c5c4b65ae3ce791d99f5c564dc6f235569ce75c9b8f06eec759d178b00d37a19",
+   "jpg_sha256": "5695299173043f8d428bf73df8b73dab34fce88cee74d09a7b474781001c8a2f",
+   "srt_sha256": "766c1d98d77267a9b6e667de1223b05917f6702f29873007e12ad504ad5e7844",
+   "pass": true
+  },
+  {
+   "slug": "umhlanga-ultracalming-mist-short",
+   "domain": "dermatology.durban",
+   "format": "short",
+   "product": "ultracalming mist",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 32.82,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.59,
+   "true_peak": -1.45,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 73,
+   "desc_bytes": 999,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.98,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.978,
+   "cover_ok": true,
+   "mp4_sha256": "151290d10314f067dfdb437318870931090fa956ce967905058e97eace6ace88",
+   "jpg_sha256": "795b699d134f5e58036a0c14d9d21ac06337317d0659661f0909c61c4caa7163",
+   "srt_sha256": "ed9be92d51554349d64041da3a539740505ab4a9e82ef837955894e84dc9759f",
+   "pass": true
+  },
+  {
+   "slug": "capetown-clearing-defense-spf30",
+   "domain": "dermatology.capetown",
+   "format": "video",
+   "product": "clearing defense spf30",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 75.15,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.25,
+   "true_peak": -1.37,
+   "loudness_ok": true,
+   "srt_cues": 18,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 79,
+   "desc_bytes": 1437,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.931,
+   "packshot_ok": true,
+   "mp4_sha256": "715038ee08a710ed056633aecb5c52a720627a725453414701eef6540d93b7f6",
+   "jpg_sha256": "e371b1e827f95cef3d868b3637162d02e82b19baa64e2572acd9621973e88027",
+   "srt_sha256": "2e2d45eda7a89bab70994f395b38bf6e1685b0838073b1f640b0e7934a923aea",
+   "pass": true
+  },
+  {
+   "slug": "capetown-invisible-physical-defense-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product": "invisible physical defense spf30",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 40.01,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.34,
+   "true_peak": -1.44,
+   "loudness_ok": true,
+   "srt_cues": 10,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 76,
+   "desc_bytes": 1065,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.983,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.955,
+   "cover_ok": true,
+   "mp4_sha256": "c1c6a9ab520636df204fc22f69c87a1d208b29a1f33297846b30de5a8208d206",
+   "jpg_sha256": "95bdd69feff7af203ca91d6b869ebad197399b8b8d0f08e597308c8a9794145a",
+   "srt_sha256": "bf81d8d39457988124c46c34a627f44b0c6dbf5f91780cb63af036537029e40e",
+   "pass": true
+  }
+ ],
+ "pairs": [
+  {
+   "a": "rosebank-skin-smoothing-cream",
+   "b": "rosebank-cooling-aqua-jelly-short",
+   "thumb_dist": 97,
+   "frame_dist": 105
+  },
+  {
+   "a": "rosebank-skin-smoothing-cream",
+   "b": "westville-body-hydrating-cream",
+   "thumb_dist": 126,
+   "frame_dist": 106
+  },
+  {
+   "a": "rosebank-skin-smoothing-cream",
+   "b": "westville-conditioning-body-wash-short",
+   "thumb_dist": 151,
+   "frame_dist": 113
+  },
+  {
+   "a": "rosebank-skin-smoothing-cream",
+   "b": "midrand-intensive-moisture-balance",
+   "thumb_dist": 119,
+   "frame_dist": 95
+  },
+  {
+   "a": "rosebank-skin-smoothing-cream",
+   "b": "midrand-special-cleansing-gel-short",
+   "thumb_dist": 68,
+   "frame_dist": 113
+  },
+  {
+   "a": "rosebank-skin-smoothing-cream",
+   "b": "bedfordview-age-bright-clearing-serum",
+   "thumb_dist": 157,
+   "frame_dist": 102
+  },
+  {
+   "a": "rosebank-skin-smoothing-cream",
+   "b": "bedfordview-calm-water-gel-short",
+   "thumb_dist": 123,
+   "frame_dist": 117
+  },
+  {
+   "a": "rosebank-skin-smoothing-cream",
+   "b": "umhlanga-hyaluronic-ceramide-mist",
+   "thumb_dist": 144,
+   "frame_dist": 110
+  },
+  {
+   "a": "rosebank-skin-smoothing-cream",
+   "b": "umhlanga-ultracalming-mist-short",
+   "thumb_dist": 104,
+   "frame_dist": 114
+  },
+  {
+   "a": "rosebank-skin-smoothing-cream",
+   "b": "capetown-clearing-defense-spf30",
+   "thumb_dist": 142,
+   "frame_dist": 102
+  },
+  {
+   "a": "rosebank-skin-smoothing-cream",
+   "b": "capetown-invisible-physical-defense-short",
+   "thumb_dist": 90,
+   "frame_dist": 111
+  },
+  {
+   "a": "rosebank-cooling-aqua-jelly-short",
+   "b": "westville-body-hydrating-cream",
+   "thumb_dist": 115,
+   "frame_dist": 109
+  },
+  {
+   "a": "rosebank-cooling-aqua-jelly-short",
+   "b": "westville-conditioning-body-wash-short",
+   "thumb_dist": 136,
+   "frame_dist": 99
+  },
+  {
+   "a": "rosebank-cooling-aqua-jelly-short",
+   "b": "midrand-intensive-moisture-balance",
+   "thumb_dist": 126,
+   "frame_dist": 103
+  },
+  {
+   "a": "rosebank-cooling-aqua-jelly-short",
+   "b": "midrand-special-cleansing-gel-short",
+   "thumb_dist": 93,
+   "frame_dist": 115
+  },
+  {
+   "a": "rosebank-cooling-aqua-jelly-short",
+   "b": "bedfordview-age-bright-clearing-serum",
+   "thumb_dist": 148,
+   "frame_dist": 114
+  },
+  {
+   "a": "rosebank-cooling-aqua-jelly-short",
+   "b": "bedfordview-calm-water-gel-short",
+   "thumb_dist": 122,
+   "frame_dist": 118
+  },
+  {
+   "a": "rosebank-cooling-aqua-jelly-short",
+   "b": "umhlanga-hyaluronic-ceramide-mist",
+   "thumb_dist": 135,
+   "frame_dist": 97
+  },
+  {
+   "a": "rosebank-cooling-aqua-jelly-short",
+   "b": "umhlanga-ultracalming-mist-short",
+   "thumb_dist": 107,
+   "frame_dist": 115
+  },
+  {
+   "a": "rosebank-cooling-aqua-jelly-short",
+   "b": "capetown-clearing-defense-spf30",
+   "thumb_dist": 143,
+   "frame_dist": 122
+  },
+  {
+   "a": "rosebank-cooling-aqua-jelly-short",
+   "b": "capetown-invisible-physical-defense-short",
+   "thumb_dist": 45,
+   "frame_dist": 107
+  },
+  {
+   "a": "westville-body-hydrating-cream",
+   "b": "westville-conditioning-body-wash-short",
+   "thumb_dist": 143,
+   "frame_dist": 112
+  },
+  {
+   "a": "westville-body-hydrating-cream",
+   "b": "midrand-intensive-moisture-balance",
+   "thumb_dist": 55,
+   "frame_dist": 105
+  },
+  {
+   "a": "westville-body-hydrating-cream",
+   "b": "midrand-special-cleansing-gel-short",
+   "thumb_dist": 110,
+   "frame_dist": 116
+  },
+  {
+   "a": "westville-body-hydrating-cream",
+   "b": "bedfordview-age-bright-clearing-serum",
+   "thumb_dist": 121,
+   "frame_dist": 96
+  },
+  {
+   "a": "westville-body-hydrating-cream",
+   "b": "bedfordview-calm-water-gel-short",
+   "thumb_dist": 63,
+   "frame_dist": 102
+  },
+  {
+   "a": "westville-body-hydrating-cream",
+   "b": "umhlanga-hyaluronic-ceramide-mist",
+   "thumb_dist": 126,
+   "frame_dist": 104
+  },
+  {
+   "a": "westville-body-hydrating-cream",
+   "b": "umhlanga-ultracalming-mist-short",
+   "thumb_dist": 124,
+   "frame_dist": 104
+  },
+  {
+   "a": "westville-body-hydrating-cream",
+   "b": "capetown-clearing-defense-spf30",
+   "thumb_dist": 146,
+   "frame_dist": 109
+  },
+  {
+   "a": "westville-body-hydrating-cream",
+   "b": "capetown-invisible-physical-defense-short",
+   "thumb_dist": 118,
+   "frame_dist": 98
+  },
+  {
+   "a": "westville-conditioning-body-wash-short",
+   "b": "midrand-intensive-moisture-balance",
+   "thumb_dist": 134,
+   "frame_dist": 101
+  },
+  {
+   "a": "westville-conditioning-body-wash-short",
+   "b": "midrand-special-cleansing-gel-short",
+   "thumb_dist": 151,
+   "frame_dist": 118
+  },
+  {
+   "a": "westville-conditioning-body-wash-short",
+   "b": "bedfordview-age-bright-clearing-serum",
+   "thumb_dist": 62,
+   "frame_dist": 104
+  },
+  {
+   "a": "westville-conditioning-body-wash-short",
+   "b": "bedfordview-calm-water-gel-short",
+   "thumb_dist": 116,
+   "frame_dist": 106
+  },
+  {
+   "a": "westville-conditioning-body-wash-short",
+   "b": "umhlanga-hyaluronic-ceramide-mist",
+   "thumb_dist": 55,
+   "frame_dist": 106
+  },
+  {
+   "a": "westville-conditioning-body-wash-short",
+   "b": "umhlanga-ultracalming-mist-short",
+   "thumb_dist": 101,
+   "frame_dist": 107
+  },
+  {
+   "a": "westville-conditioning-body-wash-short",
+   "b": "capetown-clearing-defense-spf30",
+   "thumb_dist": 63,
+   "frame_dist": 109
+  },
+  {
+   "a": "westville-conditioning-body-wash-short",
+   "b": "capetown-invisible-physical-defense-short",
+   "thumb_dist": 129,
+   "frame_dist": 116
+  },
+  {
+   "a": "midrand-intensive-moisture-balance",
+   "b": "midrand-special-cleansing-gel-short",
+   "thumb_dist": 109,
+   "frame_dist": 105
+  },
+  {
+   "a": "midrand-intensive-moisture-balance",
+   "b": "bedfordview-age-bright-clearing-serum",
+   "thumb_dist": 114,
+   "frame_dist": 75
+  },
+  {
+   "a": "midrand-intensive-moisture-balance",
+   "b": "bedfordview-calm-water-gel-short",
+   "thumb_dist": 58,
+   "frame_dist": 105
+  },
+  {
+   "a": "midrand-intensive-moisture-balance",
+   "b": "umhlanga-hyaluronic-ceramide-mist",
+   "thumb_dist": 113,
+   "frame_dist": 93
+  },
+  {
+   "a": "midrand-intensive-moisture-balance",
+   "b": "umhlanga-ultracalming-mist-short",
+   "thumb_dist": 125,
+   "frame_dist": 104
+  },
+  {
+   "a": "midrand-intensive-moisture-balance",
+   "b": "capetown-clearing-defense-spf30",
+   "thumb_dist": 131,
+   "frame_dist": 113
+  },
+  {
+   "a": "midrand-intensive-moisture-balance",
+   "b": "capetown-invisible-physical-defense-short",
+   "thumb_dist": 121,
+   "frame_dist": 107
+  },
+  {
+   "a": "midrand-special-cleansing-gel-short",
+   "b": "bedfordview-age-bright-clearing-serum",
+   "thumb_dist": 141,
+   "frame_dist": 110
+  },
+  {
+   "a": "midrand-special-cleansing-gel-short",
+   "b": "bedfordview-calm-water-gel-short",
+   "thumb_dist": 113,
+   "frame_dist": 108
+  },
+  {
+   "a": "midrand-special-cleansing-gel-short",
+   "b": "umhlanga-hyaluronic-ceramide-mist",
+   "thumb_dist": 150,
+   "frame_dist": 121
+  },
+  {
+   "a": "midrand-special-cleansing-gel-short",
+   "b": "umhlanga-ultracalming-mist-short",
+   "thumb_dist": 128,
+   "frame_dist": 107
+  },
+  {
+   "a": "midrand-special-cleansing-gel-short",
+   "b": "capetown-clearing-defense-spf30",
+   "thumb_dist": 126,
+   "frame_dist": 113
+  },
+  {
+   "a": "midrand-special-cleansing-gel-short",
+   "b": "capetown-invisible-physical-defense-short",
+   "thumb_dist": 84,
+   "frame_dist": 114
+  },
+  {
+   "a": "bedfordview-age-bright-clearing-serum",
+   "b": "bedfordview-calm-water-gel-short",
+   "thumb_dist": 114,
+   "frame_dist": 106
+  },
+  {
+   "a": "bedfordview-age-bright-clearing-serum",
+   "b": "umhlanga-hyaluronic-ceramide-mist",
+   "thumb_dist": 61,
+   "frame_dist": 94
+  },
+  {
+   "a": "bedfordview-age-bright-clearing-serum",
+   "b": "umhlanga-ultracalming-mist-short",
+   "thumb_dist": 109,
+   "frame_dist": 96
+  },
+  {
+   "a": "bedfordview-age-bright-clearing-serum",
+   "b": "capetown-clearing-defense-spf30",
+   "thumb_dist": 89,
+   "frame_dist": 108
+  },
+  {
+   "a": "bedfordview-age-bright-clearing-serum",
+   "b": "capetown-invisible-physical-defense-short",
+   "thumb_dist": 145,
+   "frame_dist": 97
+  },
+  {
+   "a": "bedfordview-calm-water-gel-short",
+   "b": "umhlanga-hyaluronic-ceramide-mist",
+   "thumb_dist": 105,
+   "frame_dist": 114
+  },
+  {
+   "a": "bedfordview-calm-water-gel-short",
+   "b": "umhlanga-ultracalming-mist-short",
+   "thumb_dist": 123,
+   "frame_dist": 110
+  },
+  {
+   "a": "bedfordview-calm-water-gel-short",
+   "b": "capetown-clearing-defense-spf30",
+   "thumb_dist": 117,
+   "frame_dist": 110
+  },
+  {
+   "a": "bedfordview-calm-water-gel-short",
+   "b": "capetown-invisible-physical-defense-short",
+   "thumb_dist": 111,
+   "frame_dist": 118
+  },
+  {
+   "a": "umhlanga-hyaluronic-ceramide-mist",
+   "b": "umhlanga-ultracalming-mist-short",
+   "thumb_dist": 114,
+   "frame_dist": 105
+  },
+  {
+   "a": "umhlanga-hyaluronic-ceramide-mist",
+   "b": "capetown-clearing-defense-spf30",
+   "thumb_dist": 84,
+   "frame_dist": 109
+  },
+  {
+   "a": "umhlanga-hyaluronic-ceramide-mist",
+   "b": "capetown-invisible-physical-defense-short",
+   "thumb_dist": 128,
+   "frame_dist": 107
+  },
+  {
+   "a": "umhlanga-ultracalming-mist-short",
+   "b": "capetown-clearing-defense-spf30",
+   "thumb_dist": 108,
+   "frame_dist": 109
+  },
+  {
+   "a": "umhlanga-ultracalming-mist-short",
+   "b": "capetown-invisible-physical-defense-short",
+   "thumb_dist": 106,
+   "frame_dist": 94
+  },
+  {
+   "a": "capetown-clearing-defense-spf30",
+   "b": "capetown-invisible-physical-defense-short",
+   "thumb_dist": 132,
+   "frame_dist": 117
+  }
+ ]
+}

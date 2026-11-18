@@ -1,0 +1,85 @@
+{
+ "date": "2026-11-16",
+ "catalog": "/home/claude/skwork/catalog-2026-11-16.json",
+ "window_days": 7,
+ "items": [
+  {
+   "domain": "skincare.durban",
+   "slot": "10:00",
+   "format": "video",
+   "handle": "clarifying-body-spray",
+   "title": "clarifying body spray",
+   "sku": "111478INT",
+   "variant": "177ml",
+   "variant_id": 47072733102394,
+   "tier": "a",
+   "why": "unused SKU in the desk (7-day window)",
+   "last_used_days_ago": 7
+  },
+  {
+   "domain": "dermatologist.joburg",
+   "slot": "12:00",
+   "format": "short",
+   "handle": "magnetic-afterglow-cleanser-150ml",
+   "title": "magnetic[+] afterglow cleanser",
+   "sku": "111512",
+   "variant": "150ml",
+   "variant_id": 51541833515322,
+   "tier": "b",
+   "why": "different size/kit of a desk product, SKU never used before",
+   "last_used_days_ago": 5
+  },
+  {
+   "domain": "dermatology.capetown",
+   "slot": "12:00",
+   "format": "short",
+   "handle": "futurecode-booster-damage-correcting-longevity-serum",
+   "title": "futurecode booster damage-correcting   longevity serum",
+   "sku": "111524",
+   "variant": "Default Title",
+   "variant_id": 53552025567546,
+   "tier": "d",
+   "why": "least recently used product (catalog thin; new script and visuals)",
+   "last_used_days_ago": 4
+  },
+  {
+   "domain": "dermatology.capetown",
+   "slot": "20:00",
+   "format": "short",
+   "handle": "skin-transformation-duo-set-dmf-40g",
+   "title": "skin transformation duo",
+   "sku": "301243INT",
+   "variant": "Default Title",
+   "variant_id": 52077701759290,
+   "tier": "d",
+   "why": "least recently used product (catalog thin; new script and visuals)",
+   "last_used_days_ago": 1
+  },
+  {
+   "domain": "dermatologist.joburg",
+   "slot": "16:00",
+   "format": "short",
+   "handle": "biolumin-c-heat-aging-protector-spf50",
+   "title": "biolumin-c heat aging protector spf50",
+   "sku": "111510INT",
+   "variant": "50ml",
+   "variant_id": 50747696513338,
+   "tier": "d",
+   "why": "least recently used product (catalog thin; new script and visuals)",
+   "last_used_days_ago": 1
+  },
+  {
+   "domain": "dermatologist.joburg",
+   "slot": "08:00",
+   "format": "short",
+   "handle": "prisma-protect-spf30-prisma-protect-spf30",
+   "title": "prisma protect spf30",
+   "sku": "111331",
+   "variant": "50ml",
+   "variant_id": 45975459725626,
+   "tier": "d",
+   "why": "least recently used product (catalog thin; new script and visuals)",
+   "last_used_days_ago": 1
+  }
+ ]
+}

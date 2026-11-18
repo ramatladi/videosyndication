@@ -1,0 +1,599 @@
+{
+ "checked": "2026-11-10",
+ "note": "Nov 9 2026 production batch, part C (4 unblocked slots)",
+ "channels": {
+  "skincare.joburg": {
+   "locality": "Rosebank",
+   "desk": "Moisturizers & textures",
+   "credential_line": false,
+   "voice": "af_heart",
+   "accent": [
+    74,
+    93,
+    78
+   ],
+   "card_side": "left",
+   "radius": 36,
+   "chip": "pill",
+   "title_weight": "Bold",
+   "transition": "fade",
+   "music": {
+    "root": 57,
+    "bpm": 72,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      11
+     ],
+     [
+      5,
+      9,
+      12,
+      16
+     ],
+     [
+      2,
+      5,
+      9,
+      12
+     ],
+     [
+      7,
+      11,
+      14,
+      17
+     ]
+    ]
+   }
+  },
+  "skincare.durban": {
+   "locality": "Westville",
+   "desk": "Body care",
+   "credential_line": false,
+   "voice": "af_bella",
+   "accent": [
+    0,
+    121,
+    125
+   ],
+   "card_side": "right",
+   "radius": 16,
+   "chip": "square",
+   "title_weight": "SemiBold",
+   "transition": "smoothleft",
+   "music": {
+    "root": 60,
+    "bpm": 96,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      12
+     ],
+     [
+      9,
+      12,
+      16,
+      21
+     ],
+     [
+      5,
+      9,
+      12,
+      17
+     ],
+     [
+      7,
+      11,
+      14,
+      19
+     ]
+    ]
+   }
+  },
+  "dermatologist.joburg": {
+   "locality": "Midrand",
+   "desk": "Building a skincare routine",
+   "credential_line": true,
+   "voice": "af_jessica",
+   "accent": [
+    35,
+    59,
+    110
+   ],
+   "card_side": "left",
+   "radius": 8,
+   "chip": "underline",
+   "title_weight": "Bold",
+   "transition": "smoothup",
+   "music": {
+    "root": 55,
+    "bpm": 84,
+    "prog": [
+     [
+      0,
+      3,
+      7,
+      10
+     ],
+     [
+      8,
+      12,
+      15,
+      19
+     ],
+     [
+      3,
+      7,
+      10,
+      14
+     ],
+     [
+      10,
+      14,
+      17,
+      21
+     ]
+    ]
+   }
+  },
+  "dermatology.joburg": {
+   "locality": "Bedfordview",
+   "desk": "Labels & ingredients",
+   "credential_line": true,
+   "voice": "af_nicole",
+   "accent": [
+    96,
+    46,
+    92
+   ],
+   "card_side": "right",
+   "radius": 28,
+   "chip": "pill",
+   "title_weight": "Bold",
+   "transition": "wipeleft",
+   "music": {
+    "root": 50,
+    "bpm": 66,
+    "prog": [
+     [
+      0,
+      3,
+      7,
+      10
+     ],
+     [
+      5,
+      8,
+      12,
+      15
+     ],
+     [
+      7,
+      10,
+      14,
+      17
+     ],
+     [
+      3,
+      7,
+      10,
+      14
+     ]
+    ]
+   }
+  },
+  "dermatology.durban": {
+   "locality": "uMhlanga",
+   "desk": "Hydration & layering",
+   "credential_line": true,
+   "voice": "af_sarah",
+   "accent": [
+    16,
+    96,
+    140
+   ],
+   "card_side": "left",
+   "radius": 44,
+   "chip": "square",
+   "title_weight": "SemiBold",
+   "transition": "dissolve",
+   "music": {
+    "root": 62,
+    "bpm": 104,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      11
+     ],
+     [
+      7,
+      11,
+      14,
+      18
+     ],
+     [
+      9,
+      12,
+      16,
+      19
+     ],
+     [
+      5,
+      9,
+      12,
+      16
+     ]
+    ]
+   }
+  },
+  "dermatology.capetown": {
+   "locality": "Cape Town",
+   "desk": "Daily sun care",
+   "credential_line": true,
+   "voice": "af_aoede",
+   "accent": [
+    196,
+    92,
+    28
+   ],
+   "card_side": "right",
+   "radius": 22,
+   "chip": "underline",
+   "title_weight": "Bold",
+   "transition": "fadeblack",
+   "music": {
+    "root": 53,
+    "bpm": 112,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      12
+     ],
+     [
+      5,
+      9,
+      12,
+      17
+     ],
+     [
+      7,
+      11,
+      14,
+      19
+     ],
+     [
+      4,
+      7,
+      11,
+      16
+     ]
+    ]
+   }
+  }
+ },
+ "videos": [
+  {
+   "slug": "westville-clarifying-body-spray-295ml-short",
+   "domain": "skincare.durban",
+   "format": "short",
+   "product_name": "clarifying body spray",
+   "product_url": "https://dermalogica.co.za/products/clarifying-body-spray?variant=67660310806842",
+   "packshot": "d1109-811478INT-00.jpg",
+   "title": "Dermalogica Clarifying Body Spray, 295 mL: After the Shower or the Gym #shorts",
+   "lead": "Dermalogica clarifying body spray in the larger 295 mL size, in under a minute: when to use it and how, from the Westville body care desk.",
+   "facts": [
+    "Blemish-fighting body spray that helps clear clogged pores and minimize future body breakouts",
+    "Salicylic acid (1.0%) exfoliates; witch hazel, tea tree oil and Moroccan argan oil help balance oil and reduce redness",
+    "Ideal after the shower, post-workout or on the go; the mist disperses even upside down",
+    "Spray onto clean, dry skin from about a foot and a half away; let it sink in 30-60 seconds; AM and/or PM"
+   ],
+   "tags": [
+    "dermalogica clarifying body spray",
+    "clarifying body spray 295ml",
+    "body breakout spray",
+    "salicylic acid body spray",
+    "post workout skincare",
+    "westville",
+    "durban skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #ClarifyingBodySpray #BodyCare #shorts",
+   "thumb": {
+    "text": "After the gym",
+    "kicker": "WESTVILLE",
+    "layout": "photo",
+    "photo": "d1109-811478INT-04.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "295 mL size",
+     "say": "Westville body care: the bigger bottle. Dermalogica clarifying body spray, two hundred ninety-five milliliters."
+    },
+    {
+     "type": "photo",
+     "image": "d1109-811478INT-04.jpg",
+     "kicker": "WHEN",
+     "headline": "After the shower or the gym",
+     "say": "The listing names three moments for it: after the shower, after a workout, or on the go."
+    },
+    {
+     "type": "figure",
+     "image": "d1109-811478INT-07.jpg",
+     "kicker": "THE FORMAT",
+     "headline": "Sprays even upside down",
+     "say": "The mist even disperses upside down, so hard-to-reach spots like the back are covered."
+    },
+    {
+     "type": "figure",
+     "image": "d1109-811478INT-01.jpg",
+     "kicker": "INSIDE",
+     "headline": "Salicylic acid + botanicals",
+     "say": "Salicylic acid exfoliates, while witch hazel, tea tree oil and argan oil help balance oil and reduce redness."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Morning, night, or both",
+     "items": [
+      "Cleanse first",
+      "Clean, dry skin",
+      "30-60 seconds to dry"
+     ],
+     "say": "Cleanse first, spray onto clean, dry skin, and give it thirty to sixty seconds before getting dressed.",
+     "image": "d1109-811478INT-04.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "295 mL",
+     "say": "Clarifying body spray, the two hundred ninety-five milliliter size. The link is in the description."
+    }
+   ],
+   "sku": "811478INT",
+   "variant": "295ml",
+   "slot_sast": "16:00"
+  },
+  {
+   "slug": "westville-phyto-nature-firming-serum-short",
+   "domain": "skincare.durban",
+   "format": "short",
+   "product_name": "phyto nature firming serum",
+   "product_url": "https://dermalogica.co.za/products/phyto-nature-firming-serum-40ml-111369?variant=46591303483706",
+   "packshot": "d1109-111369-00.png",
+   "title": "Dermalogica Phyto Nature Firming Serum: Don't Skip the Neck #shorts",
+   "lead": "Dermalogica phyto nature firming serum, 40 mL, in under a minute: a dual-phase serum the listing says to smooth over the face and neck, from the Westville body care desk.",
+   "facts": [
+    "Dual-phase serum: highly active botanicals with biomimetic technology to reduce visible signs of skin aging",
+    "Flash-firms, lifts and revitalizes, per the listing",
+    "Dispense 1-2 pumps, blend the two serums in the palm, smooth over cleansed face and neck; morning and/or evening; follow with moisturizer"
+   ],
+   "tags": [
+    "dermalogica phyto nature firming serum",
+    "phyto nature firming serum",
+    "neck serum",
+    "firming serum",
+    "face and neck skincare",
+    "westville",
+    "durban skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #PhytoNature #FirmingSerum #shorts",
+   "thumb": {
+    "text": "Don't skip the neck",
+    "kicker": "WESTVILLE",
+    "layout": "photo",
+    "photo": "d1109-111369-05.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "40 mL",
+     "say": "Westville body care usually starts below the neck. Tonight, a serum that goes right there: Dermalogica phyto nature firming serum."
+    },
+    {
+     "type": "figure",
+     "image": "d1109-111369-01.jpg",
+     "kicker": "WHAT IT DOES",
+     "headline": "Flash-firms, lifts, revitalizes",
+     "say": "The listing calls it a dual-phase serum that flash-firms, lifts and revitalizes, to reduce visible signs of aging."
+    },
+    {
+     "type": "photo",
+     "image": "d1109-111369-05.jpg",
+     "kicker": "TWO PHASES",
+     "headline": "Blend in your palm",
+     "say": "There are two serums in one bottle. Dispense one to two pumps and blend them in your palm."
+    },
+    {
+     "type": "figure",
+     "image": "d1109-111369-02.jpg",
+     "kicker": "INSIDE",
+     "headline": "Botanicals at work",
+     "say": "Inside are botanicals, including camu camu, Moroccan rockrose and Madagascar green coffee bean."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Face and neck",
+     "items": [
+      "1-2 pumps, blended",
+      "Over face and neck",
+      "Moisturizer on top"
+     ],
+     "say": "Smooth it over a cleansed face and neck, morning or evening, then follow with your moisturizer.",
+     "image": "d1109-111369-01.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "40 mL",
+     "say": "Phyto nature firming serum, forty milliliters. The link is in the description."
+    }
+   ],
+   "sku": "111369",
+   "variant": "40ml",
+   "slot_sast": "20:00"
+  },
+  {
+   "slug": "capetown-dynamic-skin-recovery-spf50-50ml-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product_name": "dynamic skin recovery spf50",
+   "product_url": "https://dermalogica.co.za/products/dynamic-skin-recovery-spf50-dynamic-skin-recovery-spf50?variant=45975459234106",
+   "packshot": "d1109-111006-00.jpg",
+   "title": "Dermalogica Dynamic Skin Recovery SPF50, 50 mL: Polypeptides + White Tea #shorts",
+   "lead": "Dermalogica dynamic skin recovery spf50 in the 50 mL size, in under a minute: what's inside and where it sits in a routine, from the Cape Town daily sun care desk.",
+   "facts": [
+    "3-in-1 daily moisturizer that visibly firms, hydrates and protects with Broad Spectrum SPF50",
+    "Polypeptide blend helps improve the appearance of photoaged skin; White Tea gives antioxidant protection against free radicals",
+    "Non-greasy formula blends into skin for a flawless finish",
+    "After cleansing and toning, apply a generous amount to face and neck, preferably 30 minutes before sun exposure"
+   ],
+   "tags": [
+    "dermalogica dynamic skin recovery spf50",
+    "dynamic skin recovery spf50 50ml",
+    "spf50 moisturizer",
+    "daily sunscreen",
+    "cape town",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #DynamicSkinRecovery #SPF50 #shorts",
+   "thumb": {
+    "text": "SPF50 + white tea",
+    "kicker": "CAPE TOWN",
+    "layout": "right"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "50 mL size",
+     "say": "Cape Town daily sun care: the full-size bottle of Dermalogica dynamic skin recovery SPF fifty, fifty milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1109-111006-03.png",
+     "kicker": "INSIDE",
+     "headline": "Polypeptides + white tea",
+     "say": "A polypeptide blend helps improve the look of photoaged skin, and white tea gives antioxidant protection against free radicals."
+    },
+    {
+     "type": "figure",
+     "image": "d1109-111006-01.jpg",
+     "kicker": "THE FEEL",
+     "headline": "Non-greasy, sheer finish",
+     "say": "The formula is non-greasy and blends into the skin for a flawless finish."
+    },
+    {
+     "type": "figure",
+     "image": "d1109-111006-02.jpg",
+     "kicker": "IN A ROUTINE",
+     "headline": "The final morning step",
+     "say": "It goes on after cleansing and toning, a generous amount over the face and neck."
+    },
+    {
+     "type": "note",
+     "kicker": "TIMING",
+     "headline": "About 30 minutes before the sun",
+     "say": "The listing says to apply it, preferably, thirty minutes before sun exposure.",
+     "image": "d1109-111006-03.png"
+    },
+    {
+     "type": "end",
+     "sub": "50 mL",
+     "say": "Dynamic skin recovery SPF fifty, the fifty milliliter size. The link is in the description."
+    }
+   ],
+   "sku": "111006",
+   "variant": "50ml",
+   "slot_sast": "16:00",
+   "spoken_name": "dynamic skin recovery spf fifty"
+  },
+  {
+   "slug": "capetown-biolumin-c-night-restore-serum-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product_name": "biolumin-c night restore serum",
+   "product_url": "https://dermalogica.co.za/products/biolumen-c-night-restore-25ml?variant=49347448865082",
+   "packshot": "d1109-111504-00.png",
+   "title": "Dermalogica BioLumin-C Night Restore Serum: Sun Care Ends at Sunset? #shorts",
+   "lead": "Dermalogica biolumin-c night restore serum, 25 mL, in under a minute: the night step the listing says helps reverse daytime damage, from the Cape Town daily sun care desk.",
+   "facts": [
+    "Night serum that helps restore radiance, hydration and tone overnight",
+    "Ultra-stable vitamin C and a pro-vitamin D complex help repair the moisture barrier during sleep; helps reverse daytime damage",
+    "After cleansing and toning, apply 3-4 drops over face and neck before bed; keep out of eyes",
+    "Daytime: broad spectrum SPF"
+   ],
+   "tags": [
+    "dermalogica biolumin-c night restore serum",
+    "biolumin-c night restore",
+    "vitamin c night serum",
+    "after sun skincare routine",
+    "cape town",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #BioLuminC #NightSerum #shorts",
+   "thumb": {
+    "text": "After a sunny day",
+    "kicker": "CAPE TOWN",
+    "layout": "photo",
+    "photo": "d1109-111504-02.png"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "25 mL",
+     "say": "Cape Town daily sun care, after dark: Dermalogica biolumin-c night restore serum."
+    },
+    {
+     "type": "figure",
+     "image": "d1109-111504-06.png",
+     "kicker": "AFTER THE DAY",
+     "headline": "Helps reverse daytime damage",
+     "say": "SPF is the daytime job. At night, the listing says, skin enters a regenerative phase, and this serum helps reverse daytime damage."
+    },
+    {
+     "type": "figure",
+     "image": "d1109-111504-05.png",
+     "kicker": "INSIDE",
+     "headline": "Vitamin C + pro-vitamin D",
+     "say": "Inside: ultra-stable vitamin C and a pro-vitamin D complex, to help repair the moisture barrier while you sleep."
+    },
+    {
+     "type": "figure",
+     "image": "d1109-111504-07.png",
+     "kicker": "HOW TO USE",
+     "headline": "3-4 drops before bed",
+     "say": "After cleansing and toning, apply three to four drops over the face and neck before bed, keeping it out of the eyes."
+    },
+    {
+     "type": "figure",
+     "image": "d1109-111504-09.png",
+     "kicker": "NEXT MORNING",
+     "headline": "Back to SPF",
+     "say": "Then in the morning, it's back to a broad spectrum SPF."
+    },
+    {
+     "type": "end",
+     "sub": "25 mL",
+     "say": "Biolumin-c night restore serum, twenty-five milliliters. The link is in the description."
+    }
+   ],
+   "sku": "111504",
+   "variant": "25ml",
+   "slot_sast": "20:00"
+  }
+ ]
+}

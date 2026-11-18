@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-17",
+  "timezone": "Africa/Johannesburg",
+  "items": [
+    {
+      "channel": "@DermatologistJoburgMidrand",
+      "time": "20:00",
+      "format": "short",
+      "status": "youtube_scheduled",
+      "youtube_id": "JQ3PzY1oVek",
+      "sku": "111251",
+      "title": "Dermalogica Daily Superfoliant 13g in Under a Minute: Exfoliates, Resurfaces, Detoxes #shorts",
+      "manifest_slug": "midrand-daily-superfoliant-13g-short",
+      "media_sha256": "81c62e98701047f9cad5d35aa026d39c669a2d0dbdabb2964682dc220248488f",
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-17T18:00:00Z"
+    },
+    {
+      "channel": "@DermatologyCapeTown",
+      "time": "12:00",
+      "format": "short",
+      "status": "youtube_scheduled",
+      "youtube_id": "4ckkPN1YJgo",
+      "sku": "111324",
+      "title": "Dermalogica Skin Smoothing Cream: Provides 48 Hours of Hydration #shorts",
+      "manifest_slug": "capetown-skin-smoothing-cream-short",
+      "media_sha256": "f32b0a6e9fffd9ce40f526ea826fdfd4ba71437b3bb479bab7af89a0b0cde229",
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-17T10:00:00Z"
+    },
+    {
+      "channel": "@SkincareDurbanWestville",
+      "time": "16:00",
+      "format": "short",
+      "status": "youtube_scheduled",
+      "youtube_id": "bH5QAyOuBY8",
+      "sku": "110910",
+      "title": "How to Use Dermalogica Breakout Clearing Foaming Wash #shorts",
+      "manifest_slug": "westville-breakout-clearing-foaming-wash-short",
+      "media_sha256": "293ae4a9a023f9cf85c139c8fb436b4c82a238d2a1fbc0623209153ff1732bf3",
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-17T14:00:00Z"
+    }
+  ],
+  "reconciliation": {
+    "staged_files_verified": 3,
+    "missing_renders": 0,
+    "youtube_ids_recorded": 3,
+    "producer_refreshed": "2026-11-17T19:44+02:00"
+  },
+  "youtube_ids_recorded": 3
+}
