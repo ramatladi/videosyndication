@@ -6,13 +6,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "b1JmcWLHQIM",
       "sku": "111012-01",
       "title": "Dermalogica PowerBright Overnight Cream: Nourishes and Fades Dark Spots #shorts",
       "manifest_slug": "capetown-powerbright-overnight-cream-short",
       "media_sha256": "c2a88cd60186d28b404dddbae0990fc5bf7af2d47eee0b7e74272a3d5fd6bb9f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-19T10:00:00Z"
     }
   ],
   "reconciliation": {
@@ -20,5 +21,6 @@
     "missing_renders": 0,
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-18T19:53+02:00"
-  }
+  },
+  "youtube_ids_recorded": 1
 }
