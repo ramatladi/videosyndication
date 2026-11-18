@@ -3004,6 +3004,81 @@
     "dance": 0.134,
     "genre_fit": 0.851
    }
+  },
+  {
+   "release": "mtr045",
+   "date": "2026-11-18",
+   "slot": "2026-11-18T19:55",
+   "format": "short",
+   "title": "Chasing Silver Hours",
+   "artist": "Mariam & Kl\u00e1ra",
+   "style": "nudisco",
+   "key": "F major",
+   "bpm": 117,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "ac6ed5dd-2e1f-4724-8b79-936798c8dc6b",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/e9a77dac-9fd8-444c-84cc-2e07afd83e39.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr045.json",
+   "photographer": "Alonso Reyes",
+   "photo_page": "https://unsplash.com/photos/woman-in-white-bikini-top-on-water-zQCcag3pvzk",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-7496174788256316116",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-17110561608008288023.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr045.mp3",
+    "top": [
+     [
+      "pop",
+      0.278
+     ],
+     [
+      "80s",
+      0.193
+     ],
+     [
+      "dance",
+      0.192
+     ],
+     [
+      "female vocalists",
+      0.142
+     ],
+     [
+      "electronic",
+      0.13
+     ],
+     [
+      "soul",
+      0.113
+     ],
+     [
+      "funk",
+      0.108
+     ],
+     [
+      "jazz",
+      0.064
+     ],
+     [
+      "House",
+      0.052
+     ],
+     [
+      "70s",
+      0.045
+     ]
+    ],
+    "house": 0.052,
+    "electronic": 0.13,
+    "dance": 0.192,
+    "genre_fit": 0.727
+   }
   }
  ]
 }
