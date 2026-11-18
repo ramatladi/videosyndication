@@ -1,0 +1,189 @@
+{
+ "id": "vra104",
+ "format": "video",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "source_id": "okta:8385706",
+ "job": {
+  "employer": "Okta",
+  "logo": "okta",
+  "title": "Staff Site Reliability Engineer",
+  "short_title": "Staff Site Reliability Engineer",
+  "location": "Bellevue, WA",
+  "workplace": "Hybrid – in the office 2 days a week",
+  "pay": "$180K – $247.5K a year",
+  "pay_full": "$180,000 – $247,500 a year base salary (California outside the SF Bay Area, Colorado, Illinois, New York and Washington), plus equity where applicable and bonus",
+  "type": "",
+  "posted": "",
+  "ref": "8385706",
+  "apply_url": "https://www.okta.com/company/careers/opportunity/8385706?gh_jid=8385706",
+  "apply_site": "okta.com"
+ },
+ "details": {
+  "about": "Okta is an identity company that secures access for people and AI. This role joins Okta's ISPM team, which builds highly reliable, scalable and secure cloud services with an automation-first mindset and steady investment in platform engineering, observability and operational excellence. As a Staff SRE you'll be a technical leader in the ISPM SRE organization, working closely with software engineers, architects and product teams.",
+  "duties": [
+   "Architect, build and operate mission-critical cloud infrastructure and production services at scale",
+   "Lead frontline incident response in a 24/7 on-call rotation and own post-incident reviews end to end, fixing root causes",
+   "Define and improve SLIs, SLOs and error budgets",
+   "Influence architecture to improve availability, scalability, performance and resilience",
+   "Build observability: metrics, logging, tracing, dashboards and alerting",
+   "Develop software, automation and infrastructure with Go, Python and Terraform, and cut operational toil",
+   "Improve deployment safety with CI/CD and GitOps, and build self-service platforms and guardrails",
+   "Lead reliability initiatives across multiple teams and mentor engineers through design reviews and incident analysis",
+   "Explore AI-assisted engineering to improve incident response, troubleshooting and automation"
+  ],
+  "needs": [
+   "Strong experience operating large-scale production services in AWS and/or GCP",
+   "Deep production expertise with Kubernetes, including troubleshooting networking, storage, scheduling, scaling and workload lifecycle issues",
+   "Extensive Infrastructure as Code experience with tools such as Terraform and Helm",
+   "Strong software engineering skills in Go and/or Python, and experience building automation and internal platforms",
+   "Experience operating distributed data platforms such as PostgreSQL, Redis, OpenSearch, MySQL or MongoDB",
+   "Strong grasp of cloud networking: DNS, load balancing, ingress, TLS, service networking and traffic management",
+   "Experience with observability platforms and production telemetry",
+   "Experience leading incident response; deep understanding of SLIs, SLOs, error budgets and capacity planning; CI/CD and deployment strategies",
+   "Understanding of cloud security fundamentals, IAM, secrets management and secure infrastructure design",
+   "A track record of leading complex initiatives across teams, mentoring engineers and working in globally distributed organizations",
+   "Experience with, or strong interest in, AI-assisted engineering and operational automation"
+  ],
+  "nice": [
+   "Operating SaaS platforms with large-scale customer workloads",
+   "Kubernetes-based microservices environments",
+   "Supporting globally distributed production environments",
+   "GitOps and ArgoCD",
+   "Implementing AI-assisted operational tooling or automation workflows",
+   "Operational controls in regulated or security-sensitive environments"
+  ],
+  "benefits": "Base salary $180,000 – $247,500 a year for candidates in California (excluding the San Francisco Bay Area), Colorado, Illinois, New York and Washington; actual pay depends on skills, qualifications, experience and work location. Okta also offers equity (where applicable), bonus, and benefits including health, dental and vision insurance, 401(k), a flexible spending account and paid leave, including PTO and parental leave.",
+  "notes": [
+   "Hybrid: in the office 2 days a week",
+   "In-person onboarding in San Francisco, CA during the first week",
+   "Includes a 24/7 on-call rotation",
+   "Tech stack includes Kubernetes (EKS), Terraform, Helm, AWS, Airflow, GitHub Actions, CircleCI, Grafana, Splunk, PagerDuty, PostgreSQL, Snowflake and MongoDB Atlas"
+  ]
+ },
+ "yt_title": "Okta Is Hiring a Staff Site Reliability Engineer in Bellevue, WA ($180K–$247K) – Full Job Details",
+ "hashtags": [
+  "#TechJobs",
+  "#SRE",
+  "#SeattleJobs",
+  "#DevOps",
+  "#Hiring"
+ ],
+ "tags": [
+  "okta jobs",
+  "site reliability engineer jobs",
+  "sre jobs",
+  "bellevue jobs",
+  "seattle tech jobs",
+  "kubernetes jobs",
+  "devops jobs",
+  "terraform jobs",
+  "tech jobs",
+  "veritas recruitment agency"
+ ],
+ "scenes": [
+  {
+   "head": "Today's job",
+   "bullets": [
+    "Staff Site Reliability Engineer · Okta",
+    "Bellevue, Washington",
+    "Hybrid · 2 office days a week",
+    "ISPM team"
+   ],
+   "lines": [
+    "Welcome to Veritas Recruitment Agency, where we bring you real tech jobs straight from employers' own careers sites.",
+    "Today, Okta is hiring a Staff Site Reliability Engineer in Bellevue, Washington, working in the office two days a week.",
+    "You'll find the direct application link in the description."
+   ]
+  },
+  {
+   "head": "About the team",
+   "bullets": [
+    "Okta secures identity, for people and AI",
+    "ISPM team: reliable, secure cloud services",
+    "Automation-first mindset"
+   ],
+   "lines": [
+    "Okta builds identity security for both people and A I.",
+    "This role joins its I S P M team, which runs highly reliable, secure cloud services with an automation-first mindset. If you have to do it twice, you automate it."
+   ],
+   "show": [
+    "Okta builds identity security for both people and AI.",
+    "This role joins its ISPM team, which runs highly reliable, secure cloud services with an automation-first mindset. If you have to do it twice, you automate it."
+   ]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": [
+    "Build & run production cloud services at scale",
+    "Lead 24/7 on-call incident response",
+    "Own SLIs, SLOs & error budgets",
+    "Go, Python & Terraform automation",
+    "Mentor & lead cross-team initiatives"
+   ],
+   "lines": [
+    "You'll architect, build, and operate mission-critical cloud infrastructure, and lead incident response as part of a twenty-four seven on-call rotation, owning post-incident reviews and root-cause fixes.",
+    "You'll define service level objectives and error budgets, and build metrics, logging, tracing, and alerting.",
+    "You'll write automation in Go, Python, and Terraform, improve deployments with C I C D and GitOps, and mentor engineers across teams."
+   ],
+   "show": [
+    "You'll architect, build, and operate mission-critical cloud infrastructure, and lead incident response as part of a 24/7 on-call rotation, owning post-incident reviews and root-cause fixes.",
+    "You'll define SLOs and error budgets, and build metrics, logging, tracing, and alerting.",
+    "You'll write automation in Go, Python, and Terraform, improve deployments with CI/CD and GitOps, and mentor engineers across teams."
+   ]
+  },
+  {
+   "head": "What you need",
+   "bullets": [
+    "Large-scale production on AWS and/or GCP",
+    "Deep Kubernetes in production",
+    "Terraform & Helm · Go and/or Python",
+    "Databases, cloud networking & observability",
+    "Incident leadership & cloud security basics"
+   ],
+   "lines": [
+    "You'll need strong experience running large-scale production services on A W S or Google Cloud, and deep production expertise with Kubernetes.",
+    "Plus extensive infrastructure as code with tools like Terraform and Helm, and strong Go or Python skills.",
+    "You should know data platforms like PostgreSQL, Redis, or MongoDB, cloud networking from D N S to T L S, observability, and cloud security basics.",
+    "And a track record of leading incident response and cross-team projects, and mentoring engineers."
+   ],
+   "show": [
+    "You'll need strong experience running large-scale production services on AWS or Google Cloud, and deep production expertise with Kubernetes.",
+    null,
+    "You should know data platforms like PostgreSQL, Redis, or MongoDB, cloud networking from DNS to TLS, observability, and cloud security basics.",
+    null
+   ]
+  },
+  {
+   "head": "Pay & benefits",
+   "bullets": [
+    "$180,000 – $247,500 a year (base)",
+    "Equity (where applicable) + bonus",
+    "Health, dental, vision & 401(k)",
+    "FSA, PTO & parental leave"
+   ],
+   "lines": [
+    "The base salary is one hundred eighty thousand to two hundred forty-seven thousand five hundred dollars a year, for candidates in Washington, New York, Colorado, Illinois, and California outside the Bay Area.",
+    "Okta adds equity where applicable, a bonus, health, dental, and vision insurance, a four-oh-one-k, a flexible spending account, and paid time off and parental leave.",
+    "Note that onboarding is in person in San Francisco during your first week."
+   ],
+   "show": [
+    "The base salary is $180,000 to $247,500 a year, for candidates in Washington, New York, Colorado, Illinois, and California outside the Bay Area.",
+    "Okta adds equity where applicable, a bonus, health, dental, and vision insurance, a 401(k), a flexible spending account, and paid time off and parental leave.",
+    null
+   ]
+  },
+  {
+   "head": "How to apply",
+   "bullets": [
+    "Application link in the description",
+    "Apply on okta.com/company/careers",
+    "Job ID 8385706"
+   ],
+   "lines": [
+    "To apply, find the direct application link in the description below. It takes you straight to Okta's careers site.",
+    "Subscribe to Veritas Recruitment Agency for new tech jobs across the United States, every day."
+   ]
+  }
+ ]
+}

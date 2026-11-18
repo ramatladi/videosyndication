@@ -1,0 +1,139 @@
+{
+ "id": "vra106",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.05,
+ "source_id": "zscaler:5263590007",
+ "job": {
+  "employer": "Zscaler",
+  "logo": "zscaler",
+  "title": "Staff Security Engineer (Identity & Access Systems)",
+  "short_title": "Staff Security Engineer, Identity",
+  "location": "Santa Clara, CA",
+  "workplace": "Hybrid – San Jose, CA office 3 days a week",
+  "pay": "$156.8K – $196K a year",
+  "pay_full": "$156,800 – $196,000 a year base salary (excludes commission, bonus, equity if applicable, and benefits)",
+  "type": "Full time",
+  "posted": "",
+  "ref": "5263590007",
+  "apply_url": "https://job-boards.greenhouse.io/zscaler/jobs/5263590007",
+  "apply_site": "Zscaler's careers board"
+ },
+ "details": {
+  "about": "Zscaler runs the Zero Trust Exchange, a large in-line cloud security platform that protects thousands of customers from cyberattacks and data loss. This Staff Security Engineer reports to the Senior Director, Security Compliance, and leads the technical strategy for workload trust and access systems, including non-human identity (NHI) lifecycle management, telemetry and automated service-to-service access controls.",
+  "duties": [
+   "Architect and scale authentication and authorization for distributed services, microservices, API clients and cloud workloads",
+   "Run end-to-end non-human identity governance: automated onboarding, secret rotation, dependency tracking and decommissioning for server-to-server clients",
+   "Design real-time observability pipelines, dashboards (e.g. Grafana) and alerting for authentication health, rate limits and access anomalies",
+   "Automate infrastructure and secrets by building OAuth 2.0, mTLS and SPIFFE/SPIRE into CI/CD and developer self-service tooling",
+   "Lead cross-functionally with platform infrastructure, IT and software engineering teams"
+  ],
+  "needs": [
+   "Demonstrated curiosity about AI tools and a history of using new technology to improve workflows",
+   "8+ years of engineering experience in security engineering, cloud security, distributed systems, infrastructure/SRE or identity & access management",
+   "Deep understanding of AuthN vs AuthZ, token lifecycles (OAuth 2.0 client credentials, OIDC, JWT) and access models (RBAC/ABAC)",
+   "Hands-on experience governing machine, workload or service-to-service identities and credentials in cloud environments",
+   "Experience designing operational metrics, log aggregation and real-time dashboards (e.g. Grafana, Prometheus, Datadog)",
+   "A track record of aligning security, IT and platform engineering teams"
+  ],
+  "nice": [
+   "Using AI technologies to drive measurable operational efficiency",
+   "SPIFFE/SPIRE and mTLS/private PKI certificate lifecycles",
+   "Secrets platforms such as HashiCorp Vault, AWS Secrets Manager or Azure Key Vault",
+   "Python, Go or Bash for automating identity workflows and REST APIs"
+  ],
+  "benefits": "Base salary $156,800 – $196,000 a year, the target range for new hires across all US locations; it excludes commission, bonus, equity (if applicable) and benefits. Benefits include various health plans, vacation and sick time, parental leave options, retirement options, education reimbursement and in-office perks.",
+  "notes": [
+   "Hybrid: in the San Jose, CA office 3 days a week",
+   "Reports to the Senior Director, Security Compliance"
+  ]
+ },
+ "yt_title": "Zscaler Is Hiring: Staff Security Engineer, Identity | Santa Clara, CA | $156K–$196K",
+ "hashtags": [
+  "#TechJobs",
+  "#CyberSecurity",
+  "#BayAreaJobs",
+  "#SecurityEngineer",
+  "#Hiring"
+ ],
+ "tags": [
+  "zscaler jobs",
+  "security engineer jobs",
+  "identity and access management",
+  "iam jobs",
+  "cybersecurity jobs",
+  "zero trust",
+  "santa clara jobs",
+  "bay area tech jobs",
+  "tech jobs",
+  "veritas recruitment agency"
+ ],
+ "scenes": [
+  {
+   "head": "The role",
+   "bullets": [
+    "Staff Security Engineer",
+    "Identity & Access Systems · Zscaler",
+    "Hybrid · San Jose office 3 days/week"
+   ],
+   "lines": [
+    "Zscaler is hiring a Staff Security Engineer for identity and access systems, listed in Santa Clara, California, and hybrid three days a week in its San Jose office."
+   ]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": [
+    "Secure service-to-service access",
+    "Govern non-human identities & secrets",
+    "OAuth 2.0, mTLS & SPIFFE in CI/CD"
+   ],
+   "lines": [
+    "You'll secure how services and workloads authenticate, govern machine identities from onboarding to secret rotation, and build security into C I C D pipelines. You'll also build real-time dashboards that watch authentication health."
+   ],
+   "show": [
+    "You'll secure how services and workloads authenticate, govern machine identities from onboarding to secret rotation, and build security into CI/CD pipelines. You'll also build real-time dashboards that watch authentication health."
+   ]
+  },
+  {
+   "head": "What you need",
+   "bullets": [
+    "8+ yrs security, cloud, SRE or IAM",
+    "OAuth 2.0, OIDC, JWT · RBAC/ABAC",
+    "Workload identity in the cloud",
+    "Observability dashboards"
+   ],
+   "lines": [
+    "You'll need eight years in security, cloud, infrastructure, or identity engineering, deep knowledge of O Auth, O I D C, and J W T tokens, and hands-on workload identity experience."
+   ],
+   "show": [
+    "You'll need 8 years in security, cloud, infrastructure, or identity engineering, deep knowledge of OAuth, OIDC, and JWT tokens, and hands-on workload identity experience."
+   ]
+  },
+  {
+   "head": "Pay",
+   "bullets": [
+    "$156,800 – $196,000 a year (base)",
+    "Health, retirement & parental leave",
+    "Education reimbursement"
+   ],
+   "lines": [
+    "Base pay is one hundred fifty-six thousand eight hundred to one hundred ninety-six thousand dollars a year, plus benefits."
+   ],
+   "show": [
+    "Base pay is $156,800 to $196,000 a year, plus benefits."
+   ]
+  },
+  {
+   "head": "How to apply",
+   "bullets": [
+    "Application link in the description",
+    "Apply on Zscaler's careers board",
+    "Job ID 5263590007"
+   ],
+   "lines": [
+    "To apply, find the direct application link in the description.",
+    "Follow Veritas for new tech jobs every day."
+   ]
+  }
+ ]
+}
