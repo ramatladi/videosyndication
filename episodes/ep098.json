@@ -1,0 +1,472 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 98,
+ "slug": "the-sick-call",
+ "title": "The Sick Call",
+ "trend": "Big video game launch week (a hugely awaited open-world game releases Nov 19 2026; SocialPilot TikTok cultural moments Nov 17-25 2026 list launch-night setups, 'calling in sick' skits and first-hour reactions, US) — never named — in the midnight launch line outside the game store, Devon rehearses the perfect sick call to his boss while roommate Luz coaches his cough levels and the game box he is waiting for narrates; twist: when he finally calls, the boss's phone rings three people behind him — Ms. Hargrove is in the same line in a hoodie, calling in sick to her own boss; button: they agree to be sick together and become online teammates",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "street_night",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "me practicing",
+  "my sick cough",
+  "in the midnight line"
+ ],
+ "youtube_title": "Practicing my sick cough in the midnight game line. Then my boss's phone rang 🎮",
+ "description": "The new game comes out at midnight and Devon has one job: call in sick tomorrow without laughing. His roommate Luz is his cough coach. Then a phone rings right behind him.\n\n#cartoon #animation #funny #gaming #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "gaming",
+  "video games",
+  "roommates",
+  "boss",
+  "sick day"
+ ],
+ "tiktok_caption": "practicing my sick cough in the midnight game line. then my boss's phone rang 🎮 #cartoon #animation #funny #gaming",
+ "cast": [
+  {
+   "id": "devon",
+   "name": "Devon",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.02,
+   "hair": {
+    "style": "short",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#2d3436",
+    "pattern": "hoodie"
+   },
+   "bottom": "#636e72",
+   "shoes": "#00cec9",
+   "accessories": [
+    "headphones:#00cec9"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#81ecec",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "luz",
+   "name": "Luz",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 0.96,
+   "hair": {
+    "style": "long",
+    "color": "#4a2c2a"
+   },
+   "top": {
+    "color": "#fdcb6e",
+    "pattern": "stripes",
+    "pattern_color": "#e17055"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "accessories": [
+    "beanie:#e17055"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "smile",
+   "label_color": "#ffeaa7",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "gamebox",
+   "name": "The Game Box",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#6c5ce7",
+   "scale": 0.88,
+   "accessories": [
+    "crown:#fdcb6e"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#a29bfe",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "hargrove",
+   "name": "Ms. Hargrove",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.0,
+   "hair": {
+    "style": "bun",
+    "color": "#636e72"
+   },
+   "top": {
+    "color": "#d63031",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#2d3436",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#ff7675",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": -1,
+    "tempo": 0.96
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "devon",
+   "text": "Eleven fifty. Ten minutes until the new game. Nine hours until I call in sick.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "luz",
+   "text": "And you still sound healthy. Too healthy. You sound like a jogger.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "gamebox",
+   "text": "Good evening. I am the game. Everyone in this line is about to be very sick.",
+   "shot": "gamebox",
+   "gesture": "wave",
+   "after": "sting"
+  },
+  {
+   "spk": "devon",
+   "text": "Okay. Practice. Hello, Ms. Hargrove. It is Devon. I am not feeling well.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "luz",
+   "text": "Stop. You said that like you won a boat.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "luz",
+   "text": "Sick people do not have joy. Remove the joy.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "devon",
+   "text": "Hello. It is Devon. I am. Not. Feeling. Well.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "luz",
+   "text": "Now you sound like a robot who lost a boat. Better. Now the cough.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "devon",
+   "text": "Cough. Cough.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "luz",
+   "text": "Did you just say the word cough?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "gamebox",
+   "text": "He said it twice. With confidence.",
+   "shot": "gamebox",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "luz",
+   "text": "There are three levels of cough. Level one, the tickle. A little throat clear.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "luz",
+   "text": "Level two, the bark. Like a small dog in a big house.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "luz",
+   "text": "Level three, the grandpa. You lose your breath and find it again.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "devon",
+   "text": "Give me the grandpa. I want the day off, not a warning.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gamebox",
+   "text": "He did the grandpa. A pigeon flew away. The pigeon was concerned.",
+   "shot": "gamebox",
+   "gesture": "talk"
+  },
+  {
+   "spk": "luz",
+   "text": "What are you sick with? She is going to ask.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "devon",
+   "text": "A stomach thing. A head thing. A full body situation.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "luz",
+   "text": "Too many things. Pick one thing. Say it was the shrimp.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "devon",
+   "text": "I do not eat shrimp.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "luz",
+   "text": "That is why it went so bad. Your body did not know what a shrimp was.",
+   "shot": "CU",
+   "gesture": "talk",
+   "after": "rimshot"
+  },
+  {
+   "spk": "gamebox",
+   "text": "Midnight. The doors are open. Line, please move forward.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "devon",
+   "text": "It is in my hands. It is so heavy. It smells like plastic and freedom.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "gamebox",
+   "text": "Hello, Devon. I have three hundred hours of side quests. You have a job.",
+   "shot": "gamebox",
+   "gesture": "talk"
+  },
+  {
+   "spk": "luz",
+   "text": "Call her now. Leave a message at midnight. Sick people are up at midnight.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "devon",
+   "text": "Okay. Grandpa cough ready. Shrimp ready. Calling.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "gamebox",
+   "text": "Ring. Ring. That is not one of my sounds.",
+   "shot": "gamebox",
+   "gesture": "talk"
+  },
+  {
+   "spk": "luz",
+   "text": "Why is a phone ringing right behind us?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "devon",
+   "text": "Three people back. Red hoodie. Glasses. Holding the game.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "hargrove",
+   "text": "Devon?",
+   "shot": "hargrove",
+   "gesture": "talk",
+   "pre": 0.8
+  },
+  {
+   "spk": "devon",
+   "text": "Ms. Hargrove?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "gamebox",
+   "text": "Oh, this is better than my opening scene.",
+   "shot": "gamebox",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hargrove",
+   "text": "Why are you calling me at midnight, Devon?",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "devon",
+   "text": "To tell you I am sick. Very sick. It was the shrimp.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "hargrove",
+   "text": "You do not eat shrimp. You told the whole office at the potluck.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "luz",
+   "text": "That is why it went so bad. His body did not know what a shrimp was.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "devon",
+   "text": "Wait. Why are you here? You said tomorrow is the big meeting with the regional boss.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "hargrove",
+   "text": "I am also calling in sick. To the regional boss.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "hargrove",
+   "text": "I have practiced for a week. I do the grandpa.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "luz",
+   "text": "Everybody does the grandpa. It is a classic.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "devon",
+   "text": "So if we are both sick, who runs the office tomorrow?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hargrove",
+   "text": "Gary.",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.6
+  },
+  {
+   "spk": "devon",
+   "text": "Gary microwaves fish. Gary once lost the stapler and called a meeting about it.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "hargrove",
+   "text": "Gary will be fine. Gary will be in charge. Gary will finally be happy.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "gamebox",
+   "text": "The regional boss is fourth in line. In a cape. He is also coughing.",
+   "shot": "gamebox",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "hargrove",
+   "text": "Do not make eye contact. Walk to the car like you have a fever.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "devon",
+   "text": "Ms. Hargrove, what is your gamer name? We should team up.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "hargrove",
+   "text": "Office Queen Seventy Two. I lead raids. Do not be late.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "luz",
+   "text": "This is the best night of my life. Can I be on the team?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "hargrove",
+   "text": "Do you have a sick cough?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "luz",
+   "text": "I have the grandpa.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hargrove",
+   "text": "Hired.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "ding"
+  }
+ ]
+}
