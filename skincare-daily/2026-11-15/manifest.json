@@ -7,7 +7,7 @@
  "channels": {
   "@DermatologistJoburgMidrand": {
    "domain": "dermatologist.joburg",
-   "shorts": 3,
+   "shorts": 4,
    "videos": 0,
    "all_pass": true,
    "status": "partial: staged items ready"
@@ -73,12 +73,6 @@
    "slot_sast": "2026-11-15 20:00",
    "format": "short",
    "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
-  },
-  {
-   "handle": "@DermatologistJoburgMidrand",
-   "slot_sast": "2026-11-15 16:00",
-   "format": "short",
-   "reason": "store packshot for the 13g variant carries a beauty-award badge (no award images); dropped, no other candidate passed the 0.85 script-overlap guard"
   },
   {
    "handle": "@DermatologistJoburgMidrand",
@@ -267,6 +261,69 @@
     "pass": true
    },
    "crossday_min_thumb_dist": 40,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatologist.joburg",
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-15 16:00",
+   "format": "short",
+   "slug": "midrand-daily-milkfoliant-74g-short",
+   "sku": "111453",
+   "variant": "74g",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "daily milkfoliant",
+    "listing_url": "https://dermalogica.co.za/products/daily-milkfoliant-daily-milkfoliant?variant=45975460053306",
+    "checked": "2026-11-15",
+    "packshot": "skincare-daily/2026-11-15/images/d1115-111453-00.jpg",
+    "packshot_sha256": "00e58b27065ae59ad9ec3ff6d12780fd70948e8b2bd433d65fbfb20254630920",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/RetailFrontofBottle-2.jpg?v=1713509738"
+   },
+   "title": "Routine Builder: Dermalogica Daily Milkfoliant 74g #shorts",
+   "description": "Dermalogica daily milkfoliant: oat-based exfoliant polishes away dead skin cells while supporting the skin’s moisture barrier, from the Midrand routine desk.\n\nWe earn a commission if you buy through our link at https://dermatologist.joburg/.\n\n• Oat-based exfoliant polishes away dead skin cells while supporting the skin’s moisture barrier\n• Gently polishes to reveal smoother, more vibrant skin\n• Replenishes and supports skin’s moisture barrier\n• Relieves skin with calming and soothing ingredients\n• How to use: Dispense into wet hands and create a creamy lather. Massage onto clean face. Rinse. Avoid eye area.\n\ndermatologist.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/daily-milkfoliant-daily-milkfoliant?variant=45975460053306, checked 2026-11-15); check the current listing before you buy.\n\nShop: https://dermatologist.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #DailyMilkfoliant #RoutineBuilder #shorts",
+   "tags": [
+    "daily milkfoliant",
+    "dermalogica daily milkfoliant",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 22.83,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-15/renders/dermatologist.joburg/midrand-daily-milkfoliant-74g-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-15/renders/dermatologist.joburg/midrand-daily-milkfoliant-74g-short.mp4",
+   "sha256": "eb2a89073d5f893d581221c3c8a3884e1346d26bf4dcf277e6fed811a13d453f",
+   "thumbnail_path": "skincare-daily/2026-11-15/renders/dermatologist.joburg/midrand-daily-milkfoliant-74g-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-15/renders/dermatologist.joburg/midrand-daily-milkfoliant-74g-short.jpg",
+   "thumbnail_sha256": "210dc2429a396122bf20db83e8058691fb58c8b7669c81c04aff281f4c89fec8",
+   "captions_path": "skincare-daily/2026-11-15/renders/dermatologist.joburg/midrand-daily-milkfoliant-74g-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-15/renders/dermatologist.joburg/midrand-daily-milkfoliant-74g-short.en.srt",
+   "captions_sha256": "c6466e9cedffd9fe494fe5561abb0729f3e8ec855e1cb9513406c0b8ff65c9b5",
+   "listing_images": [
+    "skincare-daily/2026-11-15/images/d1115-111453-00.jpg",
+    "skincare-daily/2026-11-15/images/d1115-111453-02.jpg",
+    "skincare-daily/2026-11-15/images/d1115-111453-04.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_jessica (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.45,
+    "true_peak": -1.9,
+    "packshot_match": 0.935,
+    "srt_cues": 9,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 43,
    "status": "ready"
   },
   {

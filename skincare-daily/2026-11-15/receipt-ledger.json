@@ -30,6 +30,18 @@
     },
     {
       "channel": "@DermatologistJoburgMidrand",
+      "time": "16:00",
+      "format": "short",
+      "status": "staged_awaiting_youtube_receipt",
+      "youtube_id": null,
+      "sku": "111453",
+      "title": "Routine Builder: Dermalogica Daily Milkfoliant 74g #shorts",
+      "manifest_slug": "midrand-daily-milkfoliant-74g-short",
+      "media_sha256": "eb2a89073d5f893d581221c3c8a3884e1346d26bf4dcf277e6fed811a13d453f",
+      "asset_checksums_verified": true
+    },
+    {
+      "channel": "@DermatologistJoburgMidrand",
       "time": "20:00",
       "format": "short",
       "status": "youtube_published",
@@ -277,10 +289,10 @@
     }
   ],
   "reconciliation": {
-    "staged_files_verified": 21,
+    "staged_files_verified": 22,
     "missing_renders": 0,
     "youtube_ids_recorded": 21,
-    "producer_refreshed": "2026-11-17T19:44+02:00"
+    "producer_refreshed": "2026-11-18T19:53+02:00"
   },
   "youtube_ids_recorded": 21
 }

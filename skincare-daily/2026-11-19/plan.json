@@ -1,0 +1,21 @@
+{
+ "date": "2026-11-19",
+ "catalog": "/home/claude/skwork/catalog-2026-11-19.json",
+ "window_days": 7,
+ "items": [
+  {
+   "domain": "dermatology.capetown",
+   "slot": "12:00",
+   "format": "short",
+   "handle": "powerbright-overnight-cream-50ml-111012-01",
+   "title": "powerbright overnight cream",
+   "sku": "111012-01",
+   "variant": "50ml",
+   "variant_id": 46591325700410,
+   "tier": "c",
+   "why": "face product covered from the sun angle",
+   "last_used_days_ago": 7
+  }
+ ],
+ "note": "picks limited to the slots that passed a placeholder dry run of write (13 Nov tip); all other gaps: catalog exhausted under the 0.85 script-overlap guard"
+}
