@@ -1,0 +1,507 @@
+{
+ "engine": "cast",
+ "id": 99,
+ "slug": "it-is-time",
+ "title": "It Is Time",
+ "trend": "Mariah's 'It's Time' holiday kickoff (creators use the 'it's time' holiday audio to mark the start of Christmas season with decorations; New Engen TikTok list updated Nov 16 2026; 'All I Want for Christmas Is You' at Peak 16.4M videos and 'It's Beginning to Look a Lot like Christmas' decorating reveals at Peak 1.8M on Instagram Reels, SocialPilot Nov 17-25 2026, US) + the yearly 'Christmas decorations before Thanksgiving?' debate — at six a.m. on November eighteenth Mom Carla declares 'it is time' and hauls in the eager Christmas box while teen Theo and Harvey the soft porch pumpkin defend Thanksgiving; twist: Theo's closet is glowing — he has had a secret tree with nine ornaments and a train since Halloween night and fought her only because he wanted to be the one to say 'it is time' first; button: Harvey goes on top of the tree",
+ "target_seconds": 185,
+ "length_reason": "The 'it's time' holiday kickoff clips are short one-clip videos (about 10-30 s), so this is a quick one-clip skit at the short end of the film range: 3:05 (fits TikTok; just over Instagram's 3-minute limit, so YouTube and TikTok only).",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "pov:",
+  "mom wakes everyone at six",
+  "because it's november 18th"
+ ],
+ "youtube_title": "Mom Says It's Time For Christmas. The Pumpkin Says No | Funny Cartoon",
+ "description": "It is six in the morning on November eighteenth and Mom has the Christmas box out. Theo and Harvey the porch pumpkin are fighting for one more week of Thanksgiving. Then somebody notices Theo's closet is glowing.\n\n#cartoon #animation #funny #comedy #christmas",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "christmas",
+  "thanksgiving",
+  "christmas decorations",
+  "mom",
+  "family comedy"
+ ],
+ "tiktok_caption": "pov: mom wakes everyone at six because it's november 18th 🎄 #cartoon #animation #funny #comedy #christmas",
+ "cast": [
+  {
+   "id": "carla",
+   "name": "Mom Carla",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "curly",
+    "color": "#5a3825"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2e4053",
+   "shoes": "#f5f5f5",
+   "accessories": [
+    "party_hat:#27ae60"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "voice": {
+    "id": "af_kore",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "theo",
+   "name": "Theo",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "afro",
+    "color": "#1b1b1b"
+   },
+   "scale": 0.95,
+   "top": {
+    "color": "#d35400",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "headphones:#2c3e50"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 1,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "harvey",
+   "name": "Harvey The Porch Pumpkin",
+   "kind": "mascot",
+   "shape": "pumpkin",
+   "color": "#e67e22",
+   "scale": 1.05,
+   "accessories": [
+    "scarf:#6d4c41"
+   ],
+   "eye": "sleepy",
+   "brows": "angry",
+   "mouth": "frown",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "box",
+   "name": "The Christmas Box",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#c8a165",
+   "scale": 0.95,
+   "accessories": [
+    "bow:#c0392b"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "voice": {
+    "id": "bf_lily",
+    "pitch": 1,
+    "tempo": 1.05
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "carla",
+   "text": "It is November eighteenth. Six in the morning. Everybody wake up.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "theo",
+   "text": "Mom. It is still dark. The birds are still asleep.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "carla",
+   "text": "You know what today is.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "A Wednesday. It is a regular Wednesday.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "carla",
+   "text": "It is time.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "pre": 0.6,
+   "after": "ding"
+  },
+  {
+   "spk": "box",
+   "text": "Did somebody say it is time? I have been in the garage since January!",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "theo",
+   "text": "Why is the Christmas box in the living room?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "box",
+   "text": "I walked. Well, she carried me. But in my heart, I walked.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "harvey",
+   "text": "Stop right there. Nobody opens that box.",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 0.5,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "carla",
+   "text": "Harvey, go back to the porch.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "harvey",
+   "text": "I have one week left. One. Thanksgiving is my big game.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "box",
+   "text": "With respect, you have been on the porch since September.",
+   "shot": "CU"
+  },
+  {
+   "spk": "harvey",
+   "text": "I am seasonal decor. I have a contract.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "box",
+   "text": "You are mostly soft now. A squirrel lives in your left side.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "harvey",
+   "text": "His name is Doug. He pays rent in acorns.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "theo",
+   "text": "I am with the pumpkin. Thanksgiving gets its own month.",
+   "shot": "W",
+   "gesture": "hips"
+  },
+  {
+   "spk": "carla",
+   "text": "Thanksgiving gets one Thursday. Christmas gets a whole feeling.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "theo",
+   "text": "The turkey has not even been cooked yet.",
+   "shot": "CU"
+  },
+  {
+   "spk": "carla",
+   "text": "The turkey does not mind.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "harvey",
+   "text": "The turkey cannot mind. That is the whole problem with the turkey.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "rimshot"
+  },
+  {
+   "spk": "carla",
+   "text": "Mister Delgado next door put up four thousand lights on Sunday.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "Mister Delgado's house can be seen from space. That is not a goal.",
+   "shot": "CU"
+  },
+  {
+   "spk": "carla",
+   "text": "He has a reindeer that waves. Our house has a pumpkin that complains.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "harvey",
+   "text": "I do not complain. I give feedback.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "box",
+   "text": "The stores have had candy canes since August, Harvey.",
+   "shot": "CU"
+  },
+  {
+   "spk": "harvey",
+   "text": "The stores also sell swimsuits in February. The stores are not okay.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "theo",
+   "text": "Mom, last year you put the tree up in October and it was bald by December.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "carla",
+   "text": "It was a minimalist tree.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "post": 0.7
+  },
+  {
+   "spk": "theo",
+   "text": "It had three needles. The cat took one.",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "carla",
+   "text": "Fine. A compromise. We decorate for both.",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "box",
+   "text": "Ooh. I love a compromise. I have a reindeer with a pilgrim hat.",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "theo",
+   "text": "Why do you have that?",
+   "shot": "CU"
+  },
+  {
+   "spk": "box",
+   "text": "Nineteen ninety eight. Your grandma had a very confusing year.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "carla",
+   "text": "Harvey, you can wear the lights. Just one string.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "harvey",
+   "text": "I look like a traffic cone at a party.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.6
+  },
+  {
+   "spk": "box",
+   "text": "You look festive. Doug looks festive.",
+   "shot": "CU"
+  },
+  {
+   "spk": "harvey",
+   "text": "Doug is blinking. Doug did not agree to blinking.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "carla",
+   "text": "And the twelve foot inflatable snowman goes on the front lawn.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "theo",
+   "text": "Absolutely not. He blocks the mailbox.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "carla",
+   "text": "The mail carrier loves him.",
+   "shot": "CU"
+  },
+  {
+   "spk": "theo",
+   "text": "The mail carrier filed a complaint.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "box",
+   "text": "Um. Should I tell them about the closet?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "theo",
+   "text": "No. There is no closet. What closet?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "carla",
+   "text": "Why is your closet glowing, Theo?",
+   "shot": "TWO",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "theo",
+   "text": "It is a night light. A very big, very green night light.",
+   "shot": "CU"
+  },
+  {
+   "spk": "box",
+   "text": "It is a tree. Nine ornaments. A little train. He took them from me on Halloween night.",
+   "shot": "CU"
+  },
+  {
+   "spk": "harvey",
+   "text": "Halloween? I was right there on the porch. You walked past me with a train.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "carla",
+   "text": "You have had Christmas in your closet since October?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "theo",
+   "text": "Every year you say it is time first. Since before I was born.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "theo",
+   "text": "I just wanted to say it first. Once.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "carla",
+   "text": "So you fought me all morning for the pumpkin?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "theo",
+   "text": "I fought you for the timing. The pumpkin was a cover story.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "harvey",
+   "text": "I have been used. By a teenager. Before breakfast.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "sting"
+  },
+  {
+   "spk": "carla",
+   "text": "That is the most Christmas thing anyone has ever done in this house.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "carla",
+   "text": "Okay. You say it this year. Go ahead.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "It is time.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "box",
+   "text": "Finally! Somebody get the snowman!",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "carla",
+   "text": "And Harvey goes on top of the tree.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "harvey",
+   "text": "Thanksgiving. On top. Where it belongs.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "box",
+   "text": "That is going to be very heavy for a tree that small.",
+   "shot": "CU",
+   "pre": 0.4
+  },
+  {
+   "spk": "harvey",
+   "text": "It is time somebody carried me. I cannot feel my stem.",
+   "shot": "W",
+   "gesture": "shrug",
+   "after": "rimshot"
+  }
+ ]
+}
