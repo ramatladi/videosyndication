@@ -1,0 +1,520 @@
+{
+ "engine": "cast",
+ "id": 105,
+ "slug": "do-you-have-a-minute",
+ "title": "Do You Have A Minute?",
+ "trend": "TikTok 'You Paid Me No Mind' overthinking (lip-sync one dramatic line with shifting emphasis to mock overanalyzing; SocialPilot TikTok trends Nov 17-25 2026, Peaking; New Engen TikTok list updated Nov 16 2026, US) \u2014 at four fifty five on a Friday Terrence's boss Linda messages 'Do you have a minute?' and he and coworker Bea reread it with a new emphasis each time while his phone narrates; he replies 'Sure.' with a period; twist: Linda was overthinking too (typed it eleven times, thought he was quitting) and forty coworkers have been crouching in conference room B for his five-year anniversary surprise; button: he asks her 'Do you have a minute?' and she panics",
+ "target_seconds": 180,
+ "length_reason": "The overthinking clips are quick one-line lip-syncs (about 10-30 s), so this is a quick one-clip skit at the short end of the film range: 3:00, which also fits Instagram's 3-minute limit.",
+ "scene": "office",
+ "desk": false,
+ "music": "dramatic",
+ "intro": [
+  "my boss at 4:55 on a friday:",
+  "do you have a minute?",
+  "(five words. no context.)"
+ ],
+ "youtube_title": "My Boss Asked 'Do You Have A Minute?' At 4:55 On A Friday | Funny Cartoon",
+ "description": "It is four fifty five on a Friday and Terrence's boss sends five words: do you have a minute? He and Bea read it every possible way. Then he answers with a period.\n\n#cartoon #animation #funny #comedy #office",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "office",
+  "boss",
+  "coworkers",
+  "work humor",
+  "overthinking"
+ ],
+ "tiktok_caption": "my boss at 4:55 on a friday: do you have a minute? \ud83d\ude33 #cartoon #animation #funny #comedy #office",
+ "cast": [
+  {
+   "id": "terrence",
+   "name": "Terrence",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "short",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#5dade2",
+    "pattern": "plain"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#4e342e",
+   "accessories": [
+    "tie:#c0392b",
+    "glasses"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "bea",
+   "name": "Bea",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "curly",
+    "color": "#a0522d"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "stripes",
+    "pattern_color": "#d5f5e3"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "headphones:#f39c12"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.06
+   }
+  },
+  {
+   "id": "phone",
+   "name": "The Phone",
+   "kind": "mascot",
+   "shape": "phone",
+   "color": "#2c3e50",
+   "case": "#e67e22",
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "linda",
+   "name": "Linda",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.05,
+   "hair": {
+    "style": "bun",
+    "color": "#5d4037"
+   },
+   "top": {
+    "color": "#7d3c98",
+    "pattern": "suit",
+    "pattern_color": "#f5eef8"
+   },
+   "bottom": "#4a235a",
+   "shoes": "#1b1b1b",
+   "accessories": [
+    "glasses",
+    "scarf:#f1c40f"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_kore",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "terrence",
+   "text": "It is four fifty five on a Friday. My boss just sent me a message.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "phone",
+   "text": "Do you have a minute?",
+   "shot": "CU",
+   "pre": 0.3,
+   "after": "sting"
+  },
+  {
+   "spk": "bea",
+   "text": "Oh no. Oh, Terrence. No.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "terrence",
+   "text": "It is five words, Bea. Five normal words.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bea",
+   "text": "Nothing good has ever started with do you have a minute.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "phone",
+   "text": "I am just the phone. I deliver the words. I do not choose the words.",
+   "shot": "CU"
+  },
+  {
+   "spk": "terrence",
+   "text": "Okay. Let's read it slowly. Do you have a minute.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bea",
+   "text": "Read it like she wrote it. Do you have a minute.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "terrence",
+   "text": "Do. You have a minute. Like she is double checking.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bea",
+   "text": "Like she already asked once and you ignored her.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "terrence",
+   "text": "I did not ignore her. I was at lunch for an hour and forty minutes.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "phone",
+   "text": "He had the soup. Twice.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bea",
+   "text": "Now try it this way. Do you have a minute.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "terrence",
+   "text": "Do you. Me. Not you, not Gary. Me, specifically.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "bea",
+   "text": "Why would she skip Gary? Gary microwaves fish on purpose.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "terrence",
+   "text": "Gary is family to this office. I am a man with a stapler.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "phone",
+   "text": "It is not even his stapler. It says Linda on the bottom.",
+   "shot": "CU",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "terrence",
+   "text": "It came with the desk!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "bea",
+   "text": "Okay, calm down. There is one more way to read it.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "terrence",
+   "text": "Do you have a minute.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "bea",
+   "text": "Have. Like, do you own any minutes. Like she has been counting yours.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "terrence",
+   "text": "She knows about the lunch.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "phone",
+   "text": "She knows about the soup.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bea",
+   "text": "And then there is the scariest one. Do you have a minute.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "terrence",
+   "text": "A minute. Just one. My last one.",
+   "shot": "CU",
+   "pre": 0.4
+  },
+  {
+   "spk": "bea",
+   "text": "Sixty seconds to put your plant in a box and say goodbye to the printer.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "terrence",
+   "text": "The printer never liked me anyway.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "phone",
+   "text": "Also, the little dots just showed up. She is typing.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bea",
+   "text": "Everybody be quiet. The dots are thinking.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "phone",
+   "text": "The dots went away.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "terrence",
+   "text": "Why would the dots go away? What did the dots decide?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "bea",
+   "text": "She wrote a paragraph and deleted it. That is a paragraph about you.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "terrence",
+   "text": "Okay. I have to answer her. What do I say?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "bea",
+   "text": "Keep it short. Keep it brave. Say sure.",
+   "shot": "CU"
+  },
+  {
+   "spk": "terrence",
+   "text": "Sure.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "phone",
+   "text": "Sent. With a period.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "bea",
+   "text": "You put a period on it? A period is a door closing, Terrence.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "terrence",
+   "text": "It is a dot! It is the smallest thing on the keyboard!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "phone",
+   "text": "It is the loudest dot I have ever sent. And I sent a lot of dots.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bea",
+   "text": "Now she thinks you are quitting. Or you are angry. Or you are a pirate.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "terrence",
+   "text": "Why a pirate?",
+   "shot": "CU",
+   "pre": 0.4
+  },
+  {
+   "spk": "bea",
+   "text": "I do not know, I panic in pirates.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "phone",
+   "text": "Incoming. She is walking over here. She has her face on.",
+   "shot": "W"
+  },
+  {
+   "spk": "linda",
+   "text": "Terrence. Hi. Do you have a minute?",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "terrence",
+   "text": "I said sure. With the smallest dot.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "linda",
+   "text": "I know. I saw the dot. Are you quitting? Please tell me you are not quitting.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "terrence",
+   "text": "Me? I thought you were letting me go.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "linda",
+   "text": "Letting you go? Terrence, there are forty people hiding in conference room B.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "bea",
+   "text": "Why are there forty people in conference room B?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "linda",
+   "text": "It is your five year anniversary. We have a cake. It has your face on it.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "linda",
+   "text": "Everyone has been crouching under the table for twenty five minutes.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "phone",
+   "text": "Gary texted. His knees are gone. He says hurry.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "terrence",
+   "text": "You wanted a minute to walk me to my own party?",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "linda",
+   "text": "I typed that message eleven times. I deleted a paragraph. It had a joke in it.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bea",
+   "text": "So the dots were nervous too.",
+   "shot": "CU"
+  },
+  {
+   "spk": "linda",
+   "text": "The dots were terrified. Then you sent sure with a period and I sat in my car.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "terrence",
+   "text": "Linda. You are my boss. You overthink too?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "linda",
+   "text": "Terrence, I am a boss. I overthink professionally.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "phone",
+   "text": "Also, the stapler. She would like it back. It says Linda on the bottom.",
+   "shot": "CU"
+  },
+  {
+   "spk": "linda",
+   "text": "Keep the stapler. Happy five years.",
+   "shot": "CU",
+   "gesture": "wave",
+   "after": "applause"
+  },
+  {
+   "spk": "terrence",
+   "text": "Thank you. Really. Before we go in, can I ask you something?",
+   "shot": "TWO",
+   "pre": 0.3
+  },
+  {
+   "spk": "linda",
+   "text": "Of course.",
+   "shot": "CU"
+  },
+  {
+   "spk": "terrence",
+   "text": "Do you have a minute?",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "linda",
+   "text": "Why. What does that mean. Bea, what does that mean?",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "sting"
+  }
+ ]
+}
