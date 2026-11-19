@@ -1,0 +1,470 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 103,
+ "slug": "the-last-cart",
+ "title": "The Last Cart",
+ "trend": "TikTok Zombie Outbreak Survival Stories (animated second-person apocalypse serials set in everyday places, each ending on a cliffhanger; New Engen TikTok list, updated Nov 16 2026, US) + Thanksgiving-week grocery runs — the last shopping cart narrates in second person as Dana, who only came for whipped cream, hides behind a minivan with neighbor Hector from tired shoppers shuffling and moaning 'cart'; twist: the slow 'zombie' is her third-grade teacher Mrs. Pruitt who came for one onion at noon, and Dana has been circling the lot saying 'cart' since lunch — she was the outbreak; cliffhanger: the sign says self checkout only",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "street_night",
+ "desk": false,
+ "music": "spooky",
+ "intro": [
+  "pov:",
+  "you only went out",
+  "for whipped cream"
+ ],
+ "youtube_title": "POV: you only went out for whipped cream. Everyone in the parking lot says one word 🛒",
+ "description": "Dana only needs whipped cream. Her neighbor Hector says everyone in the store has been shopping since six in the morning, and now they only say one word. There is one cart left in the whole lot.\n\n#cartoon #animation #funny #thanksgiving #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "thanksgiving",
+  "grocery store",
+  "neighbors",
+  "zombies",
+  "holiday shopping"
+ ],
+ "tiktok_caption": "pov: you only went out for whipped cream. everyone in the parking lot says one word 🛒 #cartoon #animation #funny #thanksgiving",
+ "cast": [
+  {
+   "id": "dana",
+   "name": "Dana",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 0.98,
+   "hair": {
+    "style": "ponytail",
+    "color": "#7b4a2a"
+   },
+   "top": {
+    "color": "#d63031",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "accessories": [
+    "scarf:#fdcb6e"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#ff7675",
+   "voice": {
+    "id": "af_kore",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "hector",
+   "name": "Hector",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.04,
+   "hair": {
+    "style": "spiky",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#556b2f",
+    "pattern": "plain"
+   },
+   "bottom": "#4a3b2a",
+   "shoes": "#2d3436",
+   "accessories": [
+    "mic_headset",
+    "beard:#1b1b1b"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#badc58",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 1.06
+   }
+  },
+  {
+   "id": "cart",
+   "name": "The Last Cart",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#b2bec3",
+   "scale": 0.9,
+   "accessories": [
+    "tophat:#2d3436"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#dfe6e9",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "pruitt",
+   "name": "Mrs. Pruitt",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 0.94,
+   "hair": {
+    "style": "bun",
+    "color": "#b2bec3"
+   },
+   "top": {
+    "color": "#6c5ce7",
+    "pattern": "dots",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#636e72",
+   "accessories": [
+    "glasses",
+    "scarf:#00b894"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#a29bfe",
+   "voice": {
+    "id": "af_bella",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "cart",
+   "text": "Day one. You only came for whipped cream. That was your first mistake.",
+   "shot": "cart",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dana",
+   "text": "Why is the parking lot so quiet? It is a week before Thanksgiving.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hector",
+   "text": "Get down. Behind the minivan. Now.",
+   "shot": "TWO",
+   "gesture": "point",
+   "jump": true,
+   "after": "sting"
+  },
+  {
+   "spk": "dana",
+   "text": "Hector? Why are you wearing a headset at the grocery store?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "hector",
+   "text": "Because it started, Dana. Everybody in there has been shopping since six in the morning.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "cart",
+   "text": "You look at the doors. They are shuffling. Slowly. With lists.",
+   "shot": "cart",
+   "gesture": "point"
+  },
+  {
+   "spk": "dana",
+   "text": "They are just people.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hector",
+   "text": "They were people. Now they only say one word. Listen.",
+   "shot": "CU",
+   "gesture": "think",
+   "post": 0.9
+  },
+  {
+   "spk": "pruitt",
+   "text": "Cart.",
+   "shot": "pruitt",
+   "gesture": "arms_up",
+   "pre": 0.4
+  },
+  {
+   "spk": "dana",
+   "text": "Okay. That is a little scary.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "cart",
+   "text": "You turn around. There I am. The last shopping cart in the whole lot.",
+   "shot": "cart",
+   "gesture": "wave"
+  },
+  {
+   "spk": "hector",
+   "text": "Do not make eye contact with the cart. They can smell a free cart from the bakery.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dana",
+   "text": "It is ten feet away. I can just walk over and take it.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hector",
+   "text": "Walk over and take it. That is what Gary said. Gary is in aisle four now. Forever.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "cart",
+   "text": "You step forward. My front wheel squeaks. Everyone hears it.",
+   "shot": "cart",
+   "gesture": "talk",
+   "after": "boing"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Cart. Cart. Wheel.",
+   "shot": "pruitt",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dana",
+   "text": "She is coming this way. Why is she so slow?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "hector",
+   "text": "She has been carrying a twenty pound turkey for three hours. It is part of her now.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dana",
+   "text": "Okay. Plan. You distract her. I grab the cart.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "hector",
+   "text": "Distract her with what?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dana",
+   "text": "Coupons. Everybody stops for coupons.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hector",
+   "text": "I have one for cranberry sauce. Expired. Two years ago.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dana",
+   "text": "Throw it. Throw it far.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "whoosh"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Coupon.",
+   "shot": "pruitt",
+   "gesture": "think",
+   "pre": 0.5
+  },
+  {
+   "spk": "pruitt",
+   "text": "Expired.",
+   "shot": "pruitt",
+   "gesture": "cross",
+   "pre": 0.8
+  },
+  {
+   "spk": "cart",
+   "text": "She did not even pick it up. She is a professional.",
+   "shot": "cart",
+   "gesture": "talk"
+  },
+  {
+   "spk": "hector",
+   "text": "Run. Run to the cart. Do not let the wheel see your fear.",
+   "shot": "W",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "dana",
+   "text": "I have it. I have the cart. I am the luckiest woman in this parking lot.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "pruitt",
+   "text": "Dana.",
+   "shot": "pruitt",
+   "gesture": "talk",
+   "pre": 0.9,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "dana",
+   "text": "Wait. She knows my name.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Dana Marie. It is me. Mrs. Pruitt. I taught you third grade.",
+   "shot": "pruitt",
+   "gesture": "wave"
+  },
+  {
+   "spk": "dana",
+   "text": "Mrs. Pruitt? I thought you were one of them.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pruitt",
+   "text": "I am just tired, sweetie. I came for one onion at noon.",
+   "shot": "pruitt",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hector",
+   "text": "Noon? It is nine at night.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pruitt",
+   "text": "The line at the deli has its own weather now.",
+   "shot": "pruitt",
+   "gesture": "talk"
+  },
+  {
+   "spk": "cart",
+   "text": "Then you look down at your hands. You are holding a list. When did you get a list?",
+   "shot": "cart",
+   "gesture": "point"
+  },
+  {
+   "spk": "dana",
+   "text": "Hector. What time did I get here?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hector",
+   "text": "Dana. You got here before me. You have been circling the lot since lunch.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dana",
+   "text": "No. I just came for whipped cream.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "cart",
+   "text": "That is what you said at one o'clock. And at three. And at five.",
+   "shot": "cart",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dana",
+   "text": "Oh no. I have been saying cart this whole time. Out loud.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pruitt",
+   "text": "You said it very nicely. You always had good manners.",
+   "shot": "pruitt",
+   "gesture": "talk"
+  },
+  {
+   "spk": "cart",
+   "text": "You did not survive the outbreak, Dana. You were the outbreak.",
+   "shot": "cart",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "hector",
+   "text": "So I hid behind a minivan for six hours from my own neighbor.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "pruitt",
+   "text": "And a very nice cart. Take it, sweetie. I am going home with my onion.",
+   "shot": "pruitt",
+   "gesture": "wave"
+  },
+  {
+   "spk": "dana",
+   "text": "Okay. Whipped cream. In and out. Five minutes.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hector",
+   "text": "That is what everyone in there said.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "cart",
+   "text": "You push me through the doors. It is warm. It smells like rotisserie chicken and regret.",
+   "shot": "cart",
+   "gesture": "talk",
+   "after": "whoosh"
+  },
+  {
+   "spk": "cart",
+   "text": "And then you see it. The sign over the door says, self checkout only.",
+   "shot": "cart",
+   "gesture": "talk",
+   "pre": 0.6
+  },
+  {
+   "spk": "dana",
+   "text": "No. No, no, no.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "cart",
+   "text": "Next time. The self checkout.",
+   "shot": "cart",
+   "gesture": "wave",
+   "after": "ding"
+  }
+ ]
+}
