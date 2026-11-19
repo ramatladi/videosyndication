@@ -157,12 +157,6 @@
    "gesture": "facepalm"
   },
   {
-   "spk": "terrence",
-   "text": "It is five words, Bea. Five normal words.",
-   "shot": "CU",
-   "gesture": "shrug"
-  },
-  {
    "spk": "bea",
    "text": "Nothing good has ever started with do you have a minute.",
    "shot": "CU",
@@ -174,12 +168,6 @@
    "shot": "CU"
   },
   {
-   "spk": "terrence",
-   "text": "Okay. Let's read it slowly. Do you have a minute.",
-   "shot": "CU",
-   "gesture": "think"
-  },
-  {
    "spk": "bea",
    "text": "Read it like she wrote it. Do you have a minute.",
    "shot": "CU",
@@ -187,14 +175,8 @@
   },
   {
    "spk": "terrence",
-   "text": "Do. You have a minute. Like she is double checking.",
+   "text": "Do. You have a minute. Like she already asked once.",
    "shot": "CU"
-  },
-  {
-   "spk": "bea",
-   "text": "Like she already asked once and you ignored her.",
-   "shot": "TWO",
-   "gesture": "point"
   },
   {
    "spk": "terrence",
@@ -244,11 +226,6 @@
    "shot": "CU",
    "gesture": "arms_up",
    "jump": true
-  },
-  {
-   "spk": "bea",
-   "text": "Okay, calm down. There is one more way to read it.",
-   "shot": "TWO"
   },
   {
    "spk": "terrence",
@@ -312,14 +289,8 @@
    "spk": "phone",
    "text": "The dots went away.",
    "shot": "CU",
-   "pre": 0.8
-  },
-  {
-   "spk": "terrence",
-   "text": "Why would the dots go away? What did the dots decide?",
-   "shot": "CU",
-   "gesture": "arms_up",
-   "jump": true
+   "pre": 0.8,
+   "jump": false
   },
   {
    "spk": "bea",
@@ -361,11 +332,6 @@
    "text": "It is a dot! It is the smallest thing on the keyboard!",
    "shot": "CU",
    "gesture": "arms_up"
-  },
-  {
-   "spk": "phone",
-   "text": "It is the loudest dot I have ever sent. And I sent a lot of dots.",
-   "shot": "CU"
   },
   {
    "spk": "bea",
@@ -421,12 +387,6 @@
    "gesture": "hips"
   },
   {
-   "spk": "bea",
-   "text": "Why are there forty people in conference room B?",
-   "shot": "CU",
-   "gesture": "think"
-  },
-  {
    "spk": "linda",
    "text": "It is your five year anniversary. We have a cake. It has your face on it.",
    "shot": "CU",
@@ -457,11 +417,6 @@
    "gesture": "shrug"
   },
   {
-   "spk": "bea",
-   "text": "So the dots were nervous too.",
-   "shot": "CU"
-  },
-  {
    "spk": "linda",
    "text": "The dots were terrified. Then you sent sure with a period and I sat in my car.",
    "shot": "CU",
@@ -490,12 +445,6 @@
    "shot": "CU",
    "gesture": "wave",
    "after": "applause"
-  },
-  {
-   "spk": "terrence",
-   "text": "Thank you. Really. Before we go in, can I ask you something?",
-   "shot": "TWO",
-   "pre": 0.3
   },
   {
    "spk": "linda",
