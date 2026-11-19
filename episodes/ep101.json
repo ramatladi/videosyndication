@@ -1,0 +1,481 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 101,
+ "slug": "the-four-minute-hallway",
+ "title": "The Four Minute Hallway",
+ "trend": "TikTok 'Pray For Me' Slow Mo (friends take turns making cinematic slow-motion entrances; New Engen TikTok list, updated Nov 16 2026, US) — roommates Priya and Marcus try to film the perfect slow-motion entrance in their apartment while Pickles the dog keeps walking through the shot and a borrowed leaf blower turns it into a weather report; twist: landlord Mr. Halvorsen catches them with his leaf blower and reveals he did a no-camera slow entrance down this hallway every night in 1987 (four minutes for twelve steps) to win his wife; button: he exits like a legend, Pickles promises his will take a week",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "slow motion entrances",
+  "at our apartment",
+  "with a dog in the way"
+ ],
+ "youtube_title": "We tried slow motion entrances at home. The landlord did it better in 1987 🎬",
+ "description": "Priya and Marcus want one perfect slow motion entrance. Pickles the dog keeps stealing the shot, and the borrowed leaf blower does not help. Then the landlord shows up and shows them how it was done in 1987.\n\n#cartoon #animation #funny #roommates #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "roommates",
+  "slow motion",
+  "landlord",
+  "dog",
+  "apartment"
+ ],
+ "tiktok_caption": "we tried slow motion entrances at home. the landlord did it better in 1987 🎬 #cartoon #animation #funny #roommates",
+ "cast": [
+  {
+   "id": "priya",
+   "name": "Priya",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.97,
+   "hair": {
+    "style": "long",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#e84393",
+    "pattern": "plain"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#fdcb6e",
+   "accessories": [
+    "bow:#fdcb6e"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#fd79a8",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "marcus",
+   "name": "Marcus",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.04,
+   "hair": {
+    "style": "bald",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#2d3436",
+    "pattern": "suit",
+    "pattern_color": "#00b894"
+   },
+   "bottom": "#636e72",
+   "shoes": "#ffffff",
+   "accessories": [
+    "sunglasses",
+    "beard:#2d1b0e"
+   ],
+   "eye": "round",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "am_adam",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "pickles",
+   "name": "Pickles",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#c8a165",
+   "belly": "#f5e6ca",
+   "scale": 0.86,
+   "top": {
+    "color": "#0984e3",
+    "pattern": "plain"
+   },
+   "bottom": "#c8a165",
+   "accessories": [
+    "scarf:#d63031"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#74b9ff",
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": 0,
+    "tempo": 0.96
+   }
+  },
+  {
+   "id": "halvorsen",
+   "name": "Mr. Halvorsen",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.0,
+   "hair": {
+    "style": "short",
+    "color": "#dfe6e9"
+   },
+   "top": {
+    "color": "#6c5ce7",
+    "pattern": "plain"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#5d4037",
+   "accessories": [
+    "glasses",
+    "mustache:#dfe6e9"
+   ],
+   "eye": "sleepy",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#a29bfe",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.94
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "priya",
+   "text": "Okay. Slow motion entrance. I walk in, my hair flips, the whole room gasps.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "marcus",
+   "text": "The whole room is me and a dog. But yes. I will gasp.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pickles",
+   "text": "I will not gasp. I have watched you eat cereal out of a pot.",
+   "shot": "pickles",
+   "gesture": "cross",
+   "after": "sting"
+  },
+  {
+   "spk": "marcus",
+   "text": "Phone on the shelf. Slow motion on. Fan on high. Action.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "priya",
+   "text": "Here I come. Looking mysterious. Looking expensive.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "priya",
+   "text": "Ow. The door. Nobody told me the door was closed.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.6,
+   "after": "boing"
+  },
+  {
+   "spk": "marcus",
+   "text": "In slow motion that took eleven seconds. Eleven very sad seconds.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "priya",
+   "text": "Fine. Your turn, mister director.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "Watch and learn. I have been practicing my walk in the shower.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "priya",
+   "text": "Why would anybody practice walking in the shower?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marcus",
+   "text": "Confidence starts wet. Then it dries.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marcus",
+   "text": "Rolling. Jacket over the shoulder. Sunglasses. Wind in my hair.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "priya",
+   "text": "Marcus. You do not have hair on top.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "Wind in my memories, then.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marcus",
+   "text": "And I am walking. Slowly. Like a movie about a bank.",
+   "shot": "W",
+   "gesture": "talk"
+  },
+  {
+   "spk": "pickles",
+   "text": "I am going to walk in front of him now. For art.",
+   "shot": "pickles",
+   "gesture": "talk",
+   "jump": true
+  },
+  {
+   "spk": "marcus",
+   "text": "No. No. Pickles. Out of the shot.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "priya",
+   "text": "He stopped in the middle and scratched his ear. In slow motion. It is beautiful.",
+   "shot": "pickles",
+   "gesture": "talk"
+  },
+  {
+   "spk": "pickles",
+   "text": "My leg went up like a flag. Nobody will ever look at you again.",
+   "shot": "pickles",
+   "gesture": "wave"
+  },
+  {
+   "spk": "marcus",
+   "text": "That was my whole entrance. Now it is a dog documentary.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "priya",
+   "text": "We need real wind. The fan is too polite.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marcus",
+   "text": "Mister Halvorsen keeps a leaf blower in the hallway closet.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "pickles",
+   "text": "You are going to blow leaves at yourselves. Inside. On purpose.",
+   "shot": "pickles",
+   "gesture": "cross"
+  },
+  {
+   "spk": "marcus",
+   "text": "Leaf blower on three. One. Two. Three.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "whoosh"
+  },
+  {
+   "spk": "priya",
+   "text": "My face is flapping. Is my face flapping?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marcus",
+   "text": "Your face is having a parade.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "pickles",
+   "text": "My ears are behind me now. I am a jet.",
+   "shot": "pickles",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "priya",
+   "text": "Keep walking. I cannot see. There is a sock in my mouth.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marcus",
+   "text": "Where did a sock even come from?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pickles",
+   "text": "Under the couch. Since March. It is free now.",
+   "shot": "pickles"
+  },
+  {
+   "spk": "priya",
+   "text": "Cut. Cut. That was not an entrance. That was a weather report.",
+   "shot": "W",
+   "gesture": "cross"
+  },
+  {
+   "spk": "halvorsen",
+   "text": "Who took my leaf blower out of my closet?",
+   "shot": "W",
+   "gesture": "hips",
+   "pre": 0.9,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "marcus",
+   "text": "Mister Halvorsen. Hello. We were just borrowing some wind.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "halvorsen",
+   "text": "Borrowing wind. In my building. Without asking.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "priya",
+   "text": "We are so sorry. We were trying to do slow motion entrances.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "halvorsen",
+   "text": "Slow motion entrances.",
+   "shot": "CU",
+   "gesture": "think",
+   "post": 0.9
+  },
+  {
+   "spk": "halvorsen",
+   "text": "Amateurs.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "halvorsen",
+   "text": "Nineteen eighty seven. This hallway. I walked in every night for my wife.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "halvorsen",
+   "text": "No phone. No slow motion button. I just walked very, very slowly.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "priya",
+   "text": "You just walked slow? That is the whole trick?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "halvorsen",
+   "text": "Four minutes from the stairs to the door. She married me anyway.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marcus",
+   "text": "Four minutes? The hallway is twelve steps.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "halvorsen",
+   "text": "Exactly. You must commit. You must believe the air is very thick.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "halvorsen",
+   "text": "And the secret is not wind. The secret is a dramatic look at a lamp.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "priya",
+   "text": "A lamp?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "halvorsen",
+   "text": "Any lamp. Look at it like it owes you money.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "Will you show us? Please. Just one time.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "halvorsen",
+   "text": "Turn on the phone. Turn off the slow motion. I do not need it.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pickles",
+   "text": "He is moving. I think. It is very hard to tell.",
+   "shot": "pickles"
+  },
+  {
+   "spk": "priya",
+   "text": "He is looking at the lamp. Oh, he is really looking at the lamp.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marcus",
+   "text": "I have chills. The lamp has chills.",
+   "shot": "CU",
+   "gesture": "talk",
+   "after": "applause"
+  },
+  {
+   "spk": "halvorsen",
+   "text": "Rent is due Friday. Put my leaf blower back.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pickles",
+   "text": "My turn now. Get comfortable. Mine will take a week.",
+   "shot": "pickles",
+   "gesture": "hips",
+   "after": "ding"
+  }
+ ]
+}
