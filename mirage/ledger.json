@@ -3079,6 +3079,81 @@
     "dance": 0.192,
     "genre_fit": 0.727
    }
+  },
+  {
+   "release": "mtr046",
+   "date": "2026-11-19",
+   "slot": "2026-11-19T23:55",
+   "format": "video",
+   "title": "Where The Reef Glows",
+   "artist": "Ana Canyon",
+   "style": "melodic",
+   "key": "F# minor",
+   "bpm": 125,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "e44aa7f1-f5a8-4ca1-8ac4-9487c7b760b6",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/bec645f7-8746-4bc3-99e1-8e5819deb72a.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr046.json",
+   "photographer": "Jadon Johnson",
+   "photo_page": "https://unsplash.com/photos/a-woman-in-a-bikini-standing-in-the-water-DlJLe8X4-Ss",
+   "photo_kind": "bikini",
+   "metricool_uuid": "4437832236560370495",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-9125301087597841426.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr046.mp3",
+    "top": [
+     [
+      "electronic",
+      0.332
+     ],
+     [
+      "dance",
+      0.224
+     ],
+     [
+      "pop",
+      0.161
+     ],
+     [
+      "female vocalists",
+      0.157
+     ],
+     [
+      "House",
+      0.15
+     ],
+     [
+      "chillout",
+      0.142
+     ],
+     [
+      "electronica",
+      0.09
+     ],
+     [
+      "ambient",
+      0.075
+     ],
+     [
+      "electro",
+      0.052
+     ],
+     [
+      "instrumental",
+      0.045
+     ]
+    ],
+    "house": 0.15,
+    "electronic": 0.332,
+    "dance": 0.224,
+    "genre_fit": 0.886
+   }
   }
  ]
 }
