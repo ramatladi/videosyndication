@@ -10,7 +10,8 @@ Plan: {"date": "2026-11-07", "items": [ {
     "title": "…", "hook": "…", "facts": ["…"], "tags": ["…"],
     "thumb": {"photo": "<pexels id>", "title": "…", "kicker": "…"},
     "scenes": [ {"photo": "<pexels id>", "caption": "…", "say": "…"} ] } ]}
-Photos come from acnemedicine/photos/pool.json (free Pexels photos, credited in the description only).
+Photos come from acnemedicine/photos/pool.json (free Pexels photos, plus Unsplash/Pixabay entries with "src", "page"
+and "img"; each credited to its own site in the description only).
 Staged on the media branch under acnemedicine/<date>/: <id>.mp4, <id>.jpg, <id>.json, manifest.json.
 """
 import datetime as dt, hashlib, json, os, shutil, subprocess, sys
@@ -36,10 +37,14 @@ def metadata(plan, it, P, timing=None):
     chapters from the real scene timings, and every video gets a caption file from the exact narration."""
     import discover as D
     ids = [s['photo'] for s in it['scenes']] + [it['thumb']['photo']]
-    names = []
+    SITES = {'pexels': 'Pexels', 'unsplash': 'Unsplash', 'pixabay': 'Pixabay'}
+    credits = {}
     for i in ids:
-        if P[i]['by'] not in names:
-            names.append(P[i]['by'])
+        site = SITES[P[i].get('src', 'pexels')]
+        credits.setdefault(site, [])
+        if P[i]['by'] not in credits[site]:
+            credits[site].append(P[i]['by'])
+    credit_lines = [f'Photos from {site} (free license): ' + ', '.join(n) for site, n in credits.items()]
     product = it['product']
     lead = it.get('lead') or f"Dermalogica {product}: {it['hook'][0].lower() + it['hook'][1:]}"
     chap = D.chapters([s['caption'] for s in it['scenes']], timing) if (timing and it['format'] == 'video') else ''
@@ -50,7 +55,7 @@ def metadata(plan, it, P, timing=None):
         *(['Chapters:', chap, ''] if chap else []),
         f'Shop: {SHOP}', '',
         'General product information, not medical advice. Acne Medicine Johannesburg, South Africa.', '',
-        'Photos from Pexels (free license): ' + ', '.join(names), '',
+        *credit_lines, '',
         D.hashtags(product) + ' ' + ' '.join('#' + D.camel(t) for t in it['tags'][:3] if t not in ('dermalogica', 'skincare')),
     ] if x is not None)
     h, m = map(int, it['slot'].split(':'))
@@ -114,8 +119,9 @@ def fetch(_=None):
     for pid in pool():
         f = photo_path(pid)
         if not os.path.exists(f):
-            subprocess.run(['curl', '-sS', '-m', '60', '-o', f,
-                            f'https://images.pexels.com/photos/{pid}/pexels-photo-{pid}.jpeg?auto=compress&cs=tinysrgb&w=1600'], check=True)
+            p = pool()[pid]
+            url = p.get('img') or f'https://images.pexels.com/photos/{pid}/pexels-photo-{pid}.jpeg?auto=compress&cs=tinysrgb&w=1600'
+            subprocess.run(['curl', '-sS', '-m', '60', '-o', f, url], check=True)
     print('photos ready:', len(pool()))
 
 
