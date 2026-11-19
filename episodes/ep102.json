@@ -1,0 +1,479 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 102,
+ "slug": "referee-bite",
+ "title": "Referee Bite",
+ "trend": "Rock paper scissors food challenge (friends or family play rock paper scissors over a plate of food and the winner takes a big bite; Virlo current TikTok trends, Early/Rising, US) + Thanksgiving-week desserts — siblings Tamika and Rashad play for the last of Aunt June's peach cobbler with little cousin Benny as referee; they overthink and tie every round, and on every tie the referee takes a bite while the cobbler narrates its own end; twist: Aunt June's rule card says Benny is always the referee and these two have always tied since they were babies (forty ties over one meatball at Grandpa's birthday); button: a second cobbler, another tie, another referee bite",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "rock paper scissors",
+  "for the last",
+  "of the cobbler"
+ ],
+ "youtube_title": "Rock paper scissors for the last of the cobbler. The referee kept eating it 🥧",
+ "description": "Tamika and Rashad play rock paper scissors for the last of Aunt June's peach cobbler. Little cousin Benny is the referee, and on every tie, the referee takes a bite. Then they read the rule card.\n\n#cartoon #animation #funny #siblings #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "siblings",
+  "rock paper scissors",
+  "dessert",
+  "cousins",
+  "family"
+ ],
+ "tiktok_caption": "rock paper scissors for the last of the cobbler. the referee kept eating it 🥧 #cartoon #animation #funny #siblings",
+ "cast": [
+  {
+   "id": "tamika",
+   "name": "Tamika",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.98,
+   "hair": {
+    "style": "afro",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#fdcb6e",
+    "pattern": "stripes",
+    "pattern_color": "#e17055"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "accessories": [
+    "bow:#e84393"
+   ],
+   "eye": "big",
+   "brows": "angry",
+   "mouth": "smile",
+   "label_color": "#ffeaa7",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "rashad",
+   "name": "Rashad",
+   "kind": "human",
+   "color": "#7a4a2a",
+   "scale": 1.05,
+   "hair": {
+    "style": "short",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#0984e3",
+    "pattern": "hoodie"
+   },
+   "bottom": "#636e72",
+   "shoes": "#d63031",
+   "accessories": [
+    "cap:#d63031"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#74b9ff",
+   "voice": {
+    "id": "am_michael",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "benny",
+   "name": "Benny",
+   "kind": "human",
+   "color": "#a0663b",
+   "scale": 0.85,
+   "hair": {
+    "style": "curly",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#00b894",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "1"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#fdcb6e",
+   "accessories": [
+    "whistle"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 2,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "cobbler",
+   "name": "The Cobbler",
+   "kind": "mascot",
+   "shape": "toast",
+   "color": "#f0a04b",
+   "crust": "#a0522d",
+   "scale": 0.88,
+   "accessories": [
+    "chef_hat"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "bf_alice",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "tamika",
+   "text": "Last piece of Aunt June's peach cobbler. Rock paper scissors. Winner takes a bite.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "rashad",
+   "text": "Winner takes a big bite. Then we go again. Until it is gone.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "cobbler",
+   "text": "Hello. I am the cobbler. I would like a fair fight, please.",
+   "shot": "cobbler",
+   "gesture": "wave",
+   "after": "sting"
+  },
+  {
+   "spk": "benny",
+   "text": "I am the referee. Aunt June said so. I have a whistle in my heart.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tamika",
+   "text": "Okay. Ready. Rock, paper, scissors, shoot.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "benny",
+   "text": "Rock and rock. Tie.",
+   "shot": "benny",
+   "gesture": "talk"
+  },
+  {
+   "spk": "rashad",
+   "text": "She always throws rock first. I knew it. So I threw rock. Why did I do that?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "tamika",
+   "text": "Because you think I think you think I will throw paper.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "rashad",
+   "text": "Stop thinking in my head. It is crowded in there.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "benny",
+   "text": "Rule one. On a tie, the referee takes a bite.",
+   "shot": "benny",
+   "gesture": "point"
+  },
+  {
+   "spk": "tamika",
+   "text": "What? Since when is there a rule one?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "pre": 0.6
+  },
+  {
+   "spk": "benny",
+   "text": "Since Aunt June wrote it on this card.",
+   "shot": "benny",
+   "gesture": "wave"
+  },
+  {
+   "spk": "cobbler",
+   "text": "He took a big bite. A very confident bite.",
+   "shot": "cobbler",
+   "gesture": "talk",
+   "after": "boing"
+  },
+  {
+   "spk": "rashad",
+   "text": "Fine. Again. Rock, paper, scissors, shoot.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "benny",
+   "text": "Scissors and scissors. Tie.",
+   "shot": "benny",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tamika",
+   "text": "Why would you throw scissors? You never throw scissors.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "rashad",
+   "text": "Exactly. It was a surprise. For both of us, apparently.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "benny",
+   "text": "Referee bite.",
+   "shot": "benny",
+   "gesture": "talk",
+   "after": "boing"
+  },
+  {
+   "spk": "cobbler",
+   "text": "I am mostly crust now. I feel very exposed.",
+   "shot": "cobbler",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tamika",
+   "text": "New plan. We look into each other's eyes. We read the soul.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "rashad",
+   "text": "Your soul says paper. Your soul has always said paper.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "tamika",
+   "text": "My soul says you are about to lose.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "benny",
+   "text": "Shoot.",
+   "shot": "benny",
+   "gesture": "point"
+  },
+  {
+   "spk": "benny",
+   "text": "Paper and paper. That is three ties. Referee bite.",
+   "shot": "benny",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "cobbler",
+   "text": "He is chewing with his whole face. I have never felt so appreciated.",
+   "shot": "cobbler",
+   "gesture": "talk"
+  },
+  {
+   "spk": "rashad",
+   "text": "I am closing my eyes. If I do not know, you cannot know.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "tamika",
+   "text": "Then I am closing mine. Now nobody knows anything.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "benny",
+   "text": "Rock and rock. Your eyes were closed and you still tied.",
+   "shot": "benny",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "benny",
+   "text": "That is not luck. That is family.",
+   "shot": "benny",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tamika",
+   "text": "Benny. How much cobbler is left?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "cobbler",
+   "text": "One bite. I am one bite of a cobbler. I have lived a full life.",
+   "shot": "cobbler",
+   "gesture": "talk"
+  },
+  {
+   "spk": "rashad",
+   "text": "Final round. No thinking. Pure instinct.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tamika",
+   "text": "Pure instinct. Rock, paper, scissors.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": [
+    "tamika",
+    "rashad"
+   ],
+   "text": "Shoot.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "whoosh"
+  },
+  {
+   "spk": "benny",
+   "text": "Scissors and scissors.",
+   "shot": "benny",
+   "gesture": "talk",
+   "pre": 0.8
+  },
+  {
+   "spk": "benny",
+   "text": "Referee bite.",
+   "shot": "benny",
+   "gesture": "talk",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "cobbler",
+   "text": "And I am gone. Tell the pie I said goodbye.",
+   "shot": "cobbler",
+   "gesture": "wave"
+  },
+  {
+   "spk": "tamika",
+   "text": "Benny. Give me that card.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tamika",
+   "text": "Rule two. Benny is always the referee. Rule three. These two always tie.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "rashad",
+   "text": "Since they were babies. Enjoy, sweetie. Love, Aunt June.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "benny",
+   "text": "She said you tied forty times at Grandpa's birthday. Over one meatball.",
+   "shot": "benny",
+   "gesture": "talk"
+  },
+  {
+   "spk": "rashad",
+   "text": "That meatball was never found.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "benny",
+   "text": "Aunt June found it.",
+   "shot": "benny",
+   "gesture": "talk",
+   "pre": 0.6
+  },
+  {
+   "spk": "cobbler",
+   "text": "One brain in two bodies. And a little boy who is very full.",
+   "shot": "cobbler",
+   "gesture": "talk"
+  },
+  {
+   "spk": "tamika",
+   "text": "Wait. If we always tie, we just had to play against Benny.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "rashad",
+   "text": "Benny. Rock paper scissors. Right now. For our dignity.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "benny",
+   "text": "Too late. The cobbler is gone. And I am getting sleepy.",
+   "shot": "benny",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "benny",
+   "text": "Also, Aunt June made a second cobbler. It is in the oven.",
+   "shot": "benny",
+   "gesture": "talk",
+   "after": "ding"
+  },
+  {
+   "spk": "tamika",
+   "text": "Then we play for that one. Rashad. Ready.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": [
+    "tamika",
+    "rashad"
+   ],
+   "text": "Rock, paper, scissors, shoot.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "benny",
+   "text": "Rock and rock. Referee bite.",
+   "shot": "benny",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "cobbler",
+   "text": "I have a brother in the oven. Run, brother. Run.",
+   "shot": "cobbler",
+   "gesture": "wave"
+  }
+ ]
+}
