@@ -1,0 +1,493 @@
+{
+ "engine": "cast",
+ "id": 106,
+ "slug": "wheels-up-at-five",
+ "title": "Wheels Up At Five",
+ "trend": "TikTok 'Go, Go, Go' (frantic lip-syncs to a 'go go go' audio for moments that demand immediate action; New Engen TikTok list updated Nov 16 2026, US) + Thanksgiving-week road trips to family (SocialPilot cultural moments Nov 21-25 2026, US) — at four fifty five a.m. Dad Gordon runs a 'wheels up at five' drive to Grandma's like a pit crew yelling go go go while teen Ava hunts her shoe (in the fridge), the dog Waffles refuses the dark and the phone charger stays in the kitchen; the sleepy thermos narrates; twist: at five exactly headlights pull in — Grandma Rosalind drove all night to beat him (she taught him go go go on Christmas morning in nineteen eighty six); button: pie for breakfast, back to bed",
+ "target_seconds": 230,
+ "length_reason": "The 'Go, Go, Go' clips are quick one-moment lip-syncs (about 10-30 s), so this is a quick one-clip skit in the 175-240 s range; 3:50 fits the full countdown, the twist and the button, so it goes to YouTube and TikTok (over Instagram's 3-minute limit).",
+ "scene": "street_night",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "4:55 a.m.",
+  "wheels up at five",
+  "(go. go. go.)"
+ ],
+ "cast": [
+  {
+   "id": "gordon",
+   "name": "Dad Gordon",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.05,
+   "hair": {
+    "style": "short",
+    "color": "#3e2723"
+   },
+   "top": {
+    "color": "#e74c3c",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "cap:#2c3e50",
+    "whistle"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "am_michael",
+    "pitch": 0,
+    "tempo": 1.08
+   }
+  },
+  {
+   "id": "ava",
+   "name": "Ava",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 0.92,
+   "hair": {
+    "style": "ponytail",
+    "color": "#5d4037"
+   },
+   "top": {
+    "color": "#9b59b6",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#f1c40f",
+   "accessories": [
+    "headphones:#1abc9c"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "voice": {
+    "id": "af_bella",
+    "pitch": 1,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "thermos",
+   "name": "The Thermos",
+   "kind": "mascot",
+   "shape": "cup",
+   "color": "#16a085",
+   "sleeve": "#7f8c8d",
+   "lid": "#2c3e50",
+   "accessories": [
+    "beanie:#e67e22"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.94
+   }
+  },
+  {
+   "id": "rosalind",
+   "name": "Grandma Rosalind",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "curly",
+    "color": "#d5d8dc"
+   },
+   "top": {
+    "color": "#f39c12",
+    "pattern": "dots",
+    "pattern_color": "#fdebd0"
+   },
+   "bottom": "#6e2c00",
+   "shoes": "#4e342e",
+   "accessories": [
+    "glasses",
+    "scarf:#c0392b"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "voice": {
+    "id": "af_sarah",
+    "pitch": -1,
+    "tempo": 1.05
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "gordon",
+   "text": "It is four fifty five in the morning. Wheels up at five. Go, go, go!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "whoosh",
+   "jump": true
+  },
+  {
+   "spk": "ava",
+   "text": "Dad. It is dark. The birds are not even up. The moon is still at work.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "thermos",
+   "text": "I am the thermos. I have been full of coffee since three. I am the only one who is ready.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gordon",
+   "text": "Grandma is four hundred miles away. Every minute we stand here is a mile of traffic.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gordon",
+   "text": "Bags in the van. Snacks in the van. Feelings can come later. Go, go, go!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "ava",
+   "text": "I have one shoe. I cannot find the other shoe. I have looked in both of my feet.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gordon",
+   "text": "Then you wear one shoe and you think about what you did.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "thermos",
+   "text": "He timed the bathroom break last year. Six minutes. He still talks about it.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ava",
+   "text": "Found it! It was in the fridge. Next to the cranberry sauce.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "ding",
+   "jump": true
+  },
+  {
+   "spk": "gordon",
+   "text": "Why was your shoe in the fridge?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "ava",
+   "text": "I do not ask my shoes questions. I just wear them.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gordon",
+   "text": "Four fifty seven. Three minutes. Seatbelts. Go, go, go!",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "thermos",
+   "text": "I have to say, he is very good at saying go. He is not very good at going.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gordon",
+   "text": "I heard that, thermos.",
+   "shot": "thermos",
+   "gesture": "hips"
+  },
+  {
+   "spk": "thermos",
+   "text": "You hear everything at five in the morning. That is your problem.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ava",
+   "text": "Dad, where is Waffles?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.4
+  },
+  {
+   "spk": "gordon",
+   "text": "The dog is in the van. I put the dog in the van first. The dog is my best employee.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ava",
+   "text": "The dog is on the porch. In your chair. Eating your granola bar.",
+   "shot": "TWO",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "gordon",
+   "text": "Waffles! Into the van. Go, go, go!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "thermos",
+   "text": "He will not go. He has never gone anywhere in the dark. He thinks the dark is a trick.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ava",
+   "text": "He is lying down. He is doing the heavy thing. He weighs four hundred pounds now.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "gordon",
+   "text": "I will carry him. I carry this family every year.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "ava",
+   "text": "You carried the cooler last year and you made a noise like a door.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "gordon",
+   "text": "That was a happy noise.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "thermos",
+   "text": "The dog is in. The girl is in. The man is breathing like a tea kettle.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gordon",
+   "text": "Four fifty nine. One minute. Did anybody leave the stove on?",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "ava",
+   "text": "We did not use the stove. You ate cereal standing up in the dark like a raccoon.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gordon",
+   "text": "A raccoon with a plan. Phone chargers?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ava",
+   "text": "Mine is in. Yours is plugged into the wall in the kitchen. Where it lives.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gordon",
+   "text": "No, no, no. Inside. Go, go, go!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "whoosh",
+   "jump": true
+  },
+  {
+   "spk": "thermos",
+   "text": "He runs inside like a man who left a baby. It is a phone charger.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ava",
+   "text": "Do you think Grandma is up yet?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "thermos",
+   "text": "Grandma has been up since the year nineteen sixty. She does not sleep. She waits.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gordon",
+   "text": "Got it! Five o clock exactly. Everybody in. Mirrors. Seatbelts. Go, go...",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "ava",
+   "text": "Dad. Lights. Somebody is pulling into our driveway.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "sting",
+   "pre": 0.8
+  },
+  {
+   "spk": "gordon",
+   "text": "At five in the morning? Who does that?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "thermos",
+   "text": "A person like you. There are two of you. I am so tired.",
+   "shot": "CU"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Surprise! I drove all night! I am here for Thanksgiving!",
+   "shot": "CU",
+   "gesture": "wave",
+   "after": "applause",
+   "jump": true
+  },
+  {
+   "spk": "gordon",
+   "text": "Mom? You are supposed to be four hundred miles away! We are driving to you!",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "rosalind",
+   "text": "I know. That is why I left at nine last night. I said, Gordon will leave at five. I will beat him.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ava",
+   "text": "Grandma, you drove eight hours to win?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "rosalind",
+   "text": "I drove eight hours to see your face. Winning was a little bonus.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "thermos",
+   "text": "So we would have passed each other on the highway. Two vans. Both yelling go.",
+   "shot": "CU"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Who do you think taught him go, go, go?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gordon",
+   "text": "You did. Every Christmas morning. Nineteen eighty six. The stairs.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosalind",
+   "text": "You were four. You went down the stairs on your bottom. Very fast. Very proud.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "ava",
+   "text": "Wait. So is Thanksgiving here now?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "rosalind",
+   "text": "It is wherever the pie is. And the pie is in my trunk.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "ding"
+  },
+  {
+   "spk": "thermos",
+   "text": "Can I say something? I have been full for two hours. Somebody please drink me.",
+   "shot": "CU"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Oh, I will. I love a thermos.",
+   "shot": "thermos",
+   "gesture": "wave"
+  },
+  {
+   "spk": "thermos",
+   "text": "Finally. Somebody who appreciates me.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ava",
+   "text": "Dad. My shoe. The one from the fridge. Grandma, it is cold.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Why was your shoe in the fridge?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "ava",
+   "text": "I do not ask my shoes questions.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosalind",
+   "text": "Smart girl. Gordon, get the dog out. Get the bags out. Go, go, go!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gordon",
+   "text": "I just put everything in!",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "thermos",
+   "text": "He has been going for one hour and he has not left the driveway.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gordon",
+   "text": "Fine. Everybody inside. Pie for breakfast. Then back to bed. Go, go, go.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "rimshot"
+  }
+ ],
+ "youtube_title": "Dad Says Wheels Up At Five For Thanksgiving | Funny Family Cartoon",
+ "description": "It is four fifty five in the morning and Dad wants the family in the van by five to drive to Grandma's. One shoe is missing, the dog will not move, and the thermos has had enough. Then headlights pull into the driveway.\n\n#cartoon #animation #funny #comedy #thanksgiving",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "thanksgiving",
+  "road trip",
+  "family",
+  "dad jokes",
+  "grandma"
+ ],
+ "tiktok_caption": "dad at 4:55 a.m.: wheels up at five. go go go 🚐 #cartoon #animation #funny #comedy #thanksgiving"
+}
