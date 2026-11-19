@@ -1,0 +1,459 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 104,
+ "slug": "the-gravy-boat",
+ "title": "The Gravy Boat",
+ "trend": "TikTok Chipmunks Dance (groups of three doing a short goofy routine to a sped-up, high-pitched remix; New Engen TikTok list, updated Nov 16 2026, US) + family holiday videos — teen Zoe drags her dad Lionel and Uncle Pete into the three-person dance while the speaker plays the song fast and high; they fail at bouncing, spinning and the silly face; twist: slowed down, it is the old record from Cousin Rhonda's wedding in nineteen ninety one — the dance is the one Grandma invented and they danced in matching vests (the gravy boat), and they have been warming up, not failing; button: Grandma arrives with her spoon and someone is getting cut from the group of three",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "teaching my dad",
+  "and my uncle",
+  "a three person dance"
+ ],
+ "youtube_title": "I taught my dad and uncle the new three person dance. Then I slowed down the song 🕺",
+ "description": "Zoe needs her dad and Uncle Pete for a three person dance before tonight. Their shoulders do not go up and their silly faces look like they are waiting for a plumber. Then somebody slows the song down.\n\n#cartoon #animation #funny #dance #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "dance",
+  "dad",
+  "uncle",
+  "family",
+  "grandma"
+ ],
+ "tiktok_caption": "i taught my dad and uncle the new three person dance. then i slowed down the song 🕺 #cartoon #animation #funny #dance",
+ "cast": [
+  {
+   "id": "zoe",
+   "name": "Zoe",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 0.94,
+   "hair": {
+    "style": "bun",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#a29bfe",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#fd79a8",
+   "accessories": [
+    "headphones:#fd79a8"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#d6a2e8",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "lionel",
+   "name": "Dad Lionel",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.03,
+   "hair": {
+    "style": "short",
+    "color": "#4a3b2a"
+   },
+   "top": {
+    "color": "#e17055",
+    "pattern": "stripes",
+    "pattern_color": "#fdcb6e"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#636e72",
+   "accessories": [
+    "glasses",
+    "mustache:#4a3b2a"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "am_echo",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "pete",
+   "name": "Uncle Pete",
+   "kind": "human",
+   "color": "#b97a4a",
+   "scale": 1.1,
+   "hair": {
+    "style": "bald",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#00b894",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "9"
+   },
+   "bottom": "#636e72",
+   "shoes": "#ffffff",
+   "accessories": [
+    "beard:#1b1b1b",
+    "cap:#0984e3"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "speaker",
+   "name": "The Speaker",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#2d3436",
+   "scale": 0.85,
+   "accessories": [
+    "headphones:#00cec9"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#81ecec",
+   "voice": {
+    "id": "bm_fable",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "zoe",
+   "text": "Okay, old men. Three people, one dance, forty seconds. We post it tonight.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "lionel",
+   "text": "Old men? I am forty nine. That is basically a teenager with a mortgage.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "speaker",
+   "text": "Hello. I am the speaker. I play the song very fast and very high. It is my gift.",
+   "shot": "speaker",
+   "gesture": "wave",
+   "after": "sting"
+  },
+  {
+   "spk": "pete",
+   "text": "Why is it so high? It sounds like three hamsters won a car.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "zoe",
+   "text": "That is the point, Uncle Pete. Everybody does it in groups of three.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "zoe",
+   "text": "Step one. Shoulders up, shoulders down. Little bounce.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "lionel",
+   "text": "My shoulders do not go up anymore. They go up once a year. At tax time.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "speaker",
+   "text": "Starting the song now. Please hold on to something.",
+   "shot": "speaker",
+   "gesture": "talk",
+   "after": "whoosh"
+  },
+  {
+   "spk": "zoe",
+   "text": "Bounce, bounce, point, point, spin.",
+   "shot": "CU",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "pete",
+   "text": "I spun. The room did not stop spinning. Is that part of it?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "speaker",
+   "text": "It is now. Everyone is part of it.",
+   "shot": "speaker",
+   "gesture": "talk"
+  },
+  {
+   "spk": "zoe",
+   "text": "Uncle Pete. You went left. Everybody went right.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "pete",
+   "text": "I went left with confidence. That is called a solo.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "zoe",
+   "text": "Step two. The silly face. Puff your cheeks like a little animal.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "lionel",
+   "text": "Like this?",
+   "shot": "CU",
+   "gesture": "talk",
+   "pre": 0.4
+  },
+  {
+   "spk": "zoe",
+   "text": "Dad, that is not a little animal. That is a man waiting for a plumber.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "speaker",
+   "text": "I have seen many faces. That one called the plumber twice.",
+   "shot": "speaker",
+   "gesture": "talk",
+   "after": "boing"
+  },
+  {
+   "spk": "lionel",
+   "text": "I am trying. My cheeks are not in the group chat.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "zoe",
+   "text": "Okay. Full run. Phone is recording. Do not be weird.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "speaker",
+   "text": "Song starting. The tiny singers are ready.",
+   "shot": "speaker",
+   "gesture": "wave"
+  },
+  {
+   "spk": "lionel",
+   "text": "Bounce, point, wait. Wait. Pete. Do you hear that?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.3
+  },
+  {
+   "spk": "pete",
+   "text": "Oh no. Lionel. I know this song.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "pre": 0.6,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "zoe",
+   "text": "You do not know this song. It came out this month.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "lionel",
+   "text": "Speaker. Play it slower. Much slower. Like a Sunday.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "speaker",
+   "text": "Slowing down. Slower. Oh. Oh my. That is a grown man singing.",
+   "shot": "speaker",
+   "gesture": "talk"
+  },
+  {
+   "spk": "pete",
+   "text": "That is the song from Cousin Rhonda's wedding. Nineteen ninety one.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "lionel",
+   "text": "We danced to it with Grandma. The three of us. In matching vests.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "zoe",
+   "text": "No. No, it is new. It is a new fast song.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "speaker",
+   "text": "It is an old slow song in a hurry. Like your father on a Monday.",
+   "shot": "speaker",
+   "gesture": "talk"
+  },
+  {
+   "spk": "pete",
+   "text": "Somebody found our old record and played it too fast. That is all this is.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "lionel",
+   "text": "And the dance. Shoulders up, little bounce, point, spin.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "pete",
+   "text": "That was our dance. Grandma made it up. She called it the gravy boat.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "zoe",
+   "text": "You have been pretending you could not do it for ten minutes?",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "lionel",
+   "text": "We were not pretending. We were warming up. We are forty nine.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "zoe",
+   "text": "Okay. Then show me. The real way. At the real speed.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "speaker",
+   "text": "Playing at wedding speed.",
+   "shot": "speaker",
+   "gesture": "wave",
+   "after": "whoosh"
+  },
+  {
+   "spk": "pete",
+   "text": "Shoulders up. Shoulders down. Slow bounce. Point to Grandma.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "lionel",
+   "text": "And the spin. And the dip. Nobody dips anymore. Shame.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "zoe",
+   "text": "Wait. That is actually good. Why is that actually good?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "pete",
+   "text": "Because we practiced in the garage for a whole summer. No phone. Just Grandma with a spoon.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "speaker",
+   "text": "Three people. One dance. It was always three people.",
+   "shot": "speaker",
+   "gesture": "talk",
+   "after": "applause"
+  },
+  {
+   "spk": "zoe",
+   "text": "Okay. We post it. The three of us. Matching vests.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "lionel",
+   "text": "The vests do not fit, Zoe. Nothing from nineteen ninety one fits.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pete",
+   "text": "Mine fits. As a hat.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "speaker",
+   "text": "Recording. Three, two, one.",
+   "shot": "speaker",
+   "gesture": "point"
+  },
+  {
+   "spk": "zoe",
+   "text": "Wait. Who is that at the door?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.5
+  },
+  {
+   "spk": "lionel",
+   "text": "Oh no. Grandma heard the song.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pete",
+   "text": "She has her spoon. Somebody is getting kicked out of the group of three.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "speaker",
+   "text": "It is you, Lionel. It was always going to be you.",
+   "shot": "speaker",
+   "gesture": "wave",
+   "after": "ding"
+  }
+ ]
+}
