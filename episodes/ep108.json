@@ -1,0 +1,472 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 108,
+ "slug": "my-silly-little-life",
+ "title": "My Silly Little Life",
+ "trend": "Instagram Reels 'Coming Up Roses' silly-little-life montages (celebrating tiny everyday wins; Rising 116K Reels, SocialPilot Instagram Reels trends week of Nov 17-25 2026, US) — narrated small-wins montage: roommate Omar narrates three weeks of perfect toast, paired socks, a new leaf on his plastic plant, a handwritten toast coupon and a coned parking spot while Jess plays it cool and the toaster leaks clues; twist: Jess broke his favorite mug in October (soup, microwave, goose sound) and has staged one small win a day as an apology; button: they glue the mug — win number forty — and she cannot stop doing the cones",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "lofi",
+ "intro": [
+  "my silly little life",
+  "day twenty one",
+  "of nothing going wrong"
+ ],
+ "youtube_title": "Three weeks of perfect little days. My roommate knows exactly why 🍞",
+ "description": "Omar is having the best three weeks of his life: perfect toast, paired socks and a parking spot with a cone on it. His roommate Jess is very quiet about it. The toaster is not.\n\n#cartoon #animation #funny #roommates #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "roommates",
+  "small wins",
+  "apology",
+  "toaster",
+  "friends"
+ ],
+ "tiktok_caption": "my silly little life, day twenty one of nothing going wrong 🍞 #cartoon #animation #funny #roommates",
+ "cast": [
+  {
+   "id": "omar",
+   "name": "Omar",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.02,
+   "hair": {
+    "style": "curly",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#fdcb6e",
+    "pattern": "stripes",
+    "pattern_color": "#e17055"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "accessories": [
+    "beard:#1b1b1b"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#ffeaa7",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "jess",
+   "name": "Jess",
+   "kind": "human",
+   "color": "#ffdbac",
+   "scale": 0.97,
+   "hair": {
+    "style": "ponytail",
+    "color": "#6c3483"
+   },
+   "top": {
+    "color": "#6c5ce7",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#a29bfe",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#a29bfe",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "toaster",
+   "name": "The Toaster",
+   "kind": "mascot",
+   "shape": "toast",
+   "color": "#b2bec3",
+   "crust": "#636e72",
+   "scale": 0.88,
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#dfe6e9",
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "omar",
+   "text": "Welcome to my silly little life. Today the toast came out perfect.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "jess",
+   "text": "It is toast, Omar. It is bread that got warm.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "toaster",
+   "text": "I am the toaster. I do not usually do perfect. I do mostly black.",
+   "shot": "toaster",
+   "gesture": "wave",
+   "after": "sting"
+  },
+  {
+   "spk": "omar",
+   "text": "Golden. Both sides. Like a little sunset you can butter.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "jess",
+   "text": "Please do not narrate breakfast.",
+   "shot": "jess",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "omar",
+   "text": "Win number two. Every sock in my drawer has a partner.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "omar",
+   "text": "For the first time since college. Nobody is single.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "toaster",
+   "text": "He cried a little. The socks were not ready for that.",
+   "shot": "toaster"
+  },
+  {
+   "spk": "jess",
+   "text": "Maybe the laundry fairy did it.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "omar",
+   "text": "There is no laundry fairy. There is only the universe, and it loves me.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "boing"
+  },
+  {
+   "spk": "omar",
+   "text": "Win number three. My plant has a new leaf.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "jess",
+   "text": "Your plant is plastic.",
+   "shot": "jess",
+   "pre": 0.8
+  },
+  {
+   "spk": "omar",
+   "text": "And yet. A new leaf.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "toaster",
+   "text": "Someone glued it on. I saw a hand. I did not see a face.",
+   "shot": "toaster",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "omar",
+   "text": "Win number four. The mail came, and it was not a bill.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "jess",
+   "text": "What was it?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "omar",
+   "text": "A coupon. For one free toast.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "toaster",
+   "text": "That coupon was handwritten. In purple pen.",
+   "shot": "toaster",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "jess",
+   "text": "Lots of people have purple pens.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "omar",
+   "text": "Win number five. The parking spot right in front of the building.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "omar",
+   "text": "It had a little cone on it. Like it was saving it for me.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jess",
+   "text": "Huh. Weird. Cones. Out in the world.",
+   "shot": "jess",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "omar",
+   "text": "Jess, there are three weeks of little wins. Every single day.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "omar",
+   "text": "Green lights. Clean mirror. My favorite song on the radio when I start the car.",
+   "shot": "CU"
+  },
+  {
+   "spk": "toaster",
+   "text": "Someone tunes his radio at night. I hear the car door.",
+   "shot": "toaster"
+  },
+  {
+   "spk": "omar",
+   "text": "I think I am finally the main character.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jess",
+   "text": "Or. Hear me out. Someone feels very, very guilty.",
+   "shot": "TWO",
+   "gesture": "hips",
+   "pre": 0.8
+  },
+  {
+   "spk": "omar",
+   "text": "Guilty about what?",
+   "shot": "omar"
+  },
+  {
+   "spk": "toaster",
+   "text": "Here it comes. I am going to pop.",
+   "shot": "toaster",
+   "gesture": "arms_up",
+   "after": "whoosh"
+  },
+  {
+   "spk": "jess",
+   "text": "Omar. In October, I broke your mug.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "omar",
+   "text": "My mug? The one that says world's okayest roommate?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "jess",
+   "text": "I was making soup in it. It went in the microwave. It made a sound like a goose.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "omar",
+   "text": "You hid my mug for three weeks?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "jess",
+   "text": "I could not tell you. You talk to that mug.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "omar",
+   "text": "I say good morning to it. That is manners.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jess",
+   "text": "So I started making you little wins. One a day. As an apology.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "omar",
+   "text": "You paired my socks?",
+   "shot": "omar"
+  },
+  {
+   "spk": "jess",
+   "text": "Two hours. One sock was in the freezer. I do not want to know.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "omar",
+   "text": "You glued a leaf on my plastic plant?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "jess",
+   "text": "With craft glue. It was a very real leaf. From the park.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "omar",
+   "text": "The cone?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "jess",
+   "text": "I stood in that spot for forty minutes. A man yelled at me.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "toaster",
+   "text": "And the toast. She cleaned me with a toothbrush. I feel brand new.",
+   "shot": "toaster",
+   "gesture": "arms_up",
+   "after": "ding",
+   "jump": true
+  },
+  {
+   "spk": "omar",
+   "text": "So my silly little life is just you. Doing stuff.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "jess",
+   "text": "Your silly little life was always you being weird and happy. I just added cones.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "omar",
+   "text": "Jess, this is the nicest apology anyone has ever given me.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jess",
+   "text": "It was supposed to be one day. It got out of hand.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "toaster",
+   "text": "She bought a second toaster. As a backup. I am not okay with that.",
+   "shot": "toaster",
+   "gesture": "cross"
+  },
+  {
+   "spk": "omar",
+   "text": "Where is the mug now?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "jess",
+   "text": "In a shoebox. In nine pieces. With a little card.",
+   "shot": "CU"
+  },
+  {
+   "spk": "omar",
+   "text": "Get the glue.",
+   "shot": "CU",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "jess",
+   "text": "Omar, it is nine pieces.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "omar",
+   "text": "Nine pieces is a puzzle. Puzzles are a win.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "toaster",
+   "text": "Twenty minutes later.",
+   "shot": "toaster",
+   "gesture": "wave",
+   "after": "whoosh"
+  },
+  {
+   "spk": "omar",
+   "text": "Look at him. A little crooked. A little leaky. Still okayest.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jess",
+   "text": "It leaks out of the word world.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "omar",
+   "text": "Win number forty. My mug came home.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "jess",
+   "text": "Can I stop doing the cones now?",
+   "shot": "jess"
+  },
+  {
+   "spk": "omar",
+   "text": "Absolutely not.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "applause"
+  }
+ ]
+}
