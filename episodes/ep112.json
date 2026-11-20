@@ -1,0 +1,518 @@
+{
+ "engine": "cast",
+ "id": 112,
+ "slug": "the-big-light-up",
+ "title": "The Big Light Up",
+ "trend": "Holiday light and decor reveals on Instagram Reels and TikTok ('It's Beginning to Look a Lot like Christmas' Peak 1.8M Reels and 'Last Christmas' Peak 944K Reels, used for build-up then flip-the-switch reveals; SocialPilot Instagram Reels list, week of Nov 17-25 2026) + the weekend before Thanksgiving, when US neighbors put the lights up — Hector films his first big light-up reveal to finally beat neighbor Mrs. Pruitt, twelve years block champion, while daughter Zoe counts down and the lawn snowman refuses to inflate; twist: when he flips the switch, Mrs. Pruitt's house goes dark — an orange cord through the hedge shows her whole display has run off his garage outlet for twelve years, his December bill was hers; button: they share the outlet, the snowman finally stands up",
+ "target_seconds": 180,
+ "length_reason": "Light-up reveal clips are quick one-clip videos (about 15-30 s of build-up then the switch), so this stays a quick one-clip skit at the shortest film length: 3:00 (also fits Instagram's 3-minute limit).",
+ "scene": "street_night",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "pov:",
+  "dad's first big",
+  "light up reveal"
+ ],
+ "youtube_title": "Dad Flipped The Switch On His Christmas Lights. The Neighbor Went Dark | Funny Cartoon",
+ "description": "Hector has spent three days on the lights. Tonight he flips the switch and finally beats Mrs. Pruitt, the block champion twelve years running. The lawn snowman has concerns. Then somebody's house goes dark.\n\n#cartoon #animation #funny #comedy #christmaslights",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "christmas lights",
+  "neighbors",
+  "holiday decorations",
+  "dad",
+  "family comedy"
+ ],
+ "tiktok_caption": "pov: dad's first big light up reveal 🎄 #cartoon #animation #funny #comedy #christmaslights",
+ "cast": [
+  {
+   "id": "hector",
+   "name": "Hector",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "short",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#5d4037",
+   "accessories": [
+    "beanie:#27ae60",
+    "mustache"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "scale": 1.05,
+   "voice": {
+    "id": "am_michael",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "ruby",
+   "name": "Ruby",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "curly",
+    "color": "#3b2416"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "headphones:#f1c40f"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "scale": 0.9,
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 1,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "pruitt",
+   "name": "Mrs. Pruitt",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "bun",
+    "color": "#d5d8dc"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "dots",
+    "pattern_color": "#f9e79f"
+   },
+   "bottom": "#4a235a",
+   "shoes": "#2c3e50",
+   "accessories": [
+    "glasses",
+    "scarf:#e74c3c"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": -1,
+    "tempo": 0.96
+   }
+  },
+  {
+   "id": "snowman",
+   "name": "The Lawn Snowman",
+   "kind": "mascot",
+   "shape": "egg",
+   "color": "#fbfcfc",
+   "accessories": [
+    "tophat",
+    "scarf:#2e86c1"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "frown",
+   "scale": 0.92,
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "hector",
+   "text": "Three days. Four ladders. Six thousand lights. Tonight, I win the block.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "ruby",
+   "text": "Dad, you fell off two of the ladders.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "hector",
+   "text": "The ladders fell. I stayed exactly where I was, which was the bush.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "snowman",
+   "text": "Hi. I am the lawn snowman. I am supposed to be eight feet tall.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "snowman",
+   "text": "Right now I am a puddle with a hat.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hector",
+   "text": "He inflates when the power comes on. Then he is magnificent.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "snowman",
+   "text": "I have not been magnificent since two thousand nineteen.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ruby",
+   "text": "Okay, I am filming. Say what this is about.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hector",
+   "text": "Twelve years. Twelve years, Mrs. Pruitt wins best house on the block.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "hector",
+   "text": "Her lights blink in time to music. Her reindeer move their heads.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ruby",
+   "text": "One of her reindeer waved at me once.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hector",
+   "text": "That reindeer is a show off. This year, it ends.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Good evening, Hector. I heard ladders falling. I came to see.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "hector",
+   "text": "Mrs. Pruitt. Welcome to your last night as champion.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pruitt",
+   "text": "That is so cute. Is the snowman supposed to be lying down?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "snowman",
+   "text": "Thank you for noticing me.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "pruitt",
+   "text": "My display has nine hundred moving parts and a choir.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ruby",
+   "text": "A real choir?",
+   "shot": "CU"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Speakers in the gnomes. The gnomes sing. The gnomes are very good.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hector",
+   "text": "My display has six thousand lights and a dad who did not sleep.",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "pruitt",
+   "text": "Where did you plug all of it in?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hector",
+   "text": "The garage. One outlet. Thirty extension cords. It is a family tree of cords.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "pruitt",
+   "text": "One outlet.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "hector",
+   "text": "Is that a problem?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "pruitt",
+   "text": "No. No. Why would that be a problem. Merry early Christmas.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "whoosh"
+  },
+  {
+   "spk": "ruby",
+   "text": "She said no three times, Dad.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hector",
+   "text": "She is nervous. Champions get nervous. Snowman, are you ready?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "snowman",
+   "text": "I have been ready for five years. My fan is ready. My dignity is not.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ruby",
+   "text": "Rehearsal. I count from ten, you flip the switch, I scream.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hector",
+   "text": "Scream like you are proud. Not like you saw a spider.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "ruby",
+   "text": "I can do a little of both.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "snowman",
+   "text": "While we wait, I should say. There is an orange cord in the hedge.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hector",
+   "text": "We do not talk about the hedge. The hedge took my good glove.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "snowman",
+   "text": "The cord is not yours. It goes into your garage. It comes out the other side.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ruby",
+   "text": "The other side of the hedge is Mrs. Pruitt.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "hector",
+   "text": "Snowman. You are full of air. Nobody listens to the air.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "snowman",
+   "text": "Right now I am not even full of air. That is the problem.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Hector. Before you flip that switch. Have you ever considered not flipping it?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hector",
+   "text": "Too late. The neighborhood is watching. Ruby. Go.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "ruby",
+   "text": "Ten. Nine. Eight. Seven. Six.",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "ruby",
+   "text": "Five. Four. Three. Two. One.",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "hector",
+   "text": "Let there be light!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "ruby",
+   "text": "Dad. Our house is still dark.",
+   "shot": "CU",
+   "pre": 1.0
+  },
+  {
+   "spk": "snowman",
+   "text": "Her house just went dark. The gnomes stopped singing in the middle of a word.",
+   "shot": "CU",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "hector",
+   "text": "Mrs. Pruitt. Why did your gnomes stop singing when I flipped my switch?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Hector. You have a very generous garage.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "pruitt",
+   "text": "The man who lived here before you let me borrow one outlet. In twenty fourteen.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pruitt",
+   "text": "He moved away. The cord did not.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ruby",
+   "text": "So for twelve years, the champion house ran on our garage.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "hector",
+   "text": "My December electric bill is three hundred dollars. I thought the house was just cold.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pruitt",
+   "text": "The reindeer heads use a lot. They have opinions.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hector",
+   "text": "I have been paying for the reindeer. The show off reindeer.",
+   "shot": "CU",
+   "pre": 0.6,
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ruby",
+   "text": "Dad, she sent us cookies every Christmas.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Thank you cookies. I thought you knew. I thought you were being polite.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "hector",
+   "text": "Okay. New plan. One outlet. Two houses. One very long cord.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "pruitt",
+   "text": "The gnomes can sing at your house too. They travel.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "ruby",
+   "text": "One more time. Three. Two. One.",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "hector",
+   "text": "Both houses are on. Look at it. The whole block can see it from space.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Co champions. I will make a little sign.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "hector",
+   "text": "You will also pay half the bill.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "pruitt",
+   "text": "I will make a very big sign.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "snowman",
+   "text": "Hello. I am up. I am eight feet tall. What did I miss?",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "all",
+   "text": "Everything.",
+   "shot": "W",
+   "after": "ding"
+  }
+ ]
+}
