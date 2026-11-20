@@ -1,0 +1,473 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 109,
+ "slug": "how-well-does-he-know-me",
+ "title": "How Well Does He Know Me",
+ "trend": "Couple quiz skits ('how well does my boyfriend/husband know me'; #bf couple skits Rising, SocialPilot TikTok hashtag table Nov 17-25 2026, US) — quiz/game-show format: Renee quizzes husband Darnell with ten cards and a gleeful buzzer; he scores zero for four (chili not spaghetti, the cooking show not the boat movie, a cabin not Paris, green not pink); twist: the cards are from her two thousand nine dating profile — he knows the woman she became (chili since their second date, the mint bathroom, crying at the cabin brochure), so he got them all right; button: he writes the new cards, they both snore, and chili is a question and an order",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "kitchen",
+ "desk": true,
+ "music": "upbeat",
+ "intro": [
+  "how well does",
+  "my husband know me?",
+  "ten questions"
+ ],
+ "youtube_title": "I quizzed my husband on me. He got zero. Then he read the cards 💍",
+ "description": "Renee has ten questions and a very excited buzzer. Darnell has been married to her for fifteen years and gets every answer wrong. Then he asks where the answers came from.\n\n#cartoon #animation #funny #marriage #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "marriage",
+  "couple",
+  "husband and wife",
+  "quiz",
+  "love"
+ ],
+ "tiktok_caption": "how well does my husband know me? ten questions 💍 #cartoon #animation #funny #marriage",
+ "cast": [
+  {
+   "id": "renee",
+   "name": "Renee",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.97,
+   "hair": {
+    "style": "afro",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#00b894",
+    "pattern": "plain"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#55efc4",
+   "accessories": [
+    "bow:#fd79a8"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "darnell",
+   "name": "Darnell",
+   "kind": "human",
+   "color": "#6b4226",
+   "scale": 1.08,
+   "hair": {
+    "style": "short",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "apron",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#34495e",
+   "shoes": "#2d3436",
+   "accessories": [
+    "mustache:#1b1b1b",
+    "chef_hat"
+   ],
+   "eye": "round",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#ff7675",
+   "voice": {
+    "id": "am_michael",
+    "pitch": -1,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "buzzer",
+   "name": "The Buzzer",
+   "kind": "mascot",
+   "shape": "ball",
+   "color": "#e74c3c",
+   "scale": 0.85,
+   "accessories": [
+    "party_hat:#f1c40f"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#ffeaa7",
+   "voice": {
+    "id": "bf_alice",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "renee",
+   "text": "How well does my husband know me? Ten questions. Let us find out.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "darnell",
+   "text": "Fifteen years married. I could do this asleep. I have done this asleep.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "buzzer",
+   "text": "I am the buzzer. I have been waiting all day to be loud.",
+   "shot": "buzzer",
+   "gesture": "wave",
+   "after": "sting"
+  },
+  {
+   "spk": "renee",
+   "text": "Question one. What is my favorite food?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "darnell",
+   "text": "Easy. My chili.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "renee",
+   "text": "The card says spaghetti.",
+   "shot": "renee",
+   "pre": 0.8
+  },
+  {
+   "spk": "buzzer",
+   "text": "Wrong. Very wrong. Wrong like socks with sandals.",
+   "shot": "buzzer",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "darnell",
+   "text": "Who wrote that card?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "renee",
+   "text": "Me. Question two. What is my favorite movie?",
+   "shot": "CU"
+  },
+  {
+   "spk": "darnell",
+   "text": "That cooking show where the old man cries over bread.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "renee",
+   "text": "Card says the one with the boat and the ice.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "buzzer",
+   "text": "Wrong again. I love my job.",
+   "shot": "buzzer",
+   "gesture": "arms_up",
+  "jump": true
+  },
+  {
+   "spk": "darnell",
+   "text": "You fall asleep in that movie. Every time. Before the ice.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "renee",
+   "text": "Question three. What is my dream vacation?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "darnell",
+   "text": "A cabin. No phone. Me making chili.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "renee",
+   "text": "Paris.",
+   "shot": "renee"
+  },
+  {
+   "spk": "darnell",
+   "text": "You got lost in a mall once and called me crying from the pretzel place.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "buzzer",
+   "text": "Wrong. But I believe him about the pretzel place.",
+   "shot": "buzzer",
+   "after": "boing"
+  },
+  {
+   "spk": "renee",
+   "text": "Zero for three, Darnell. Zero.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "darnell",
+   "text": "Zero. In my own kitchen. In front of a buzzer.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "renee",
+   "text": "Question four. Favorite color?",
+   "shot": "CU"
+  },
+  {
+   "spk": "darnell",
+   "text": "Green. Your whole closet is green.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "renee",
+   "text": "Card says pink.",
+   "shot": "renee",
+   "pre": 0.8
+  },
+  {
+   "spk": "buzzer",
+   "text": "Wrong. I am starting to feel bad. No. I am not.",
+   "shot": "buzzer",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "darnell",
+   "text": "Renee. Where did you get these answers?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "renee",
+   "text": "From my old dating profile. Two thousand nine. To be accurate.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "darnell",
+   "text": "Two thousand nine?",
+   "shot": "darnell",
+   "after": "whoosh"
+  },
+  {
+   "spk": "renee",
+   "text": "That is the real me. In writing. Signed.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "darnell",
+   "text": "Baby, that is the you from before. I married the you from after.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "darnell",
+   "text": "Spaghetti? You have not had spaghetti since I made chili on our second date.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "renee",
+   "text": "That is true. I said it was the best thing I ever ate.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "darnell",
+   "text": "You still say it. Every Sunday. With your mouth full.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "darnell",
+   "text": "Pink? You painted the bathroom green and told the neighbors it was mint.",
+   "shot": "CU"
+  },
+  {
+   "spk": "renee",
+   "text": "It is mint.",
+   "shot": "renee"
+  },
+  {
+   "spk": "darnell",
+   "text": "Paris? You wanted to go to a cabin last year. You cried at the brochure.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "buzzer",
+   "text": "Hold on. Am I wrong? Have I been wrong this whole time?",
+   "shot": "buzzer",
+   "gesture": "facepalm",
+   "after": "sting"
+  },
+  {
+   "spk": "renee",
+   "text": "So you got them all right.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "darnell",
+   "text": "I got them all right. The card got them all wrong.",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "renee",
+   "text": "The card is fifteen years old.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "darnell",
+   "text": "So am I, in husband years.",
+   "shot": "CU"
+  },
+  {
+   "spk": "buzzer",
+   "text": "Correct. All of it. Correct, correct, correct.",
+   "shot": "buzzer",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "ding"
+  },
+  {
+   "spk": "renee",
+   "text": "Okay. New rule. You write the answers now.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "darnell",
+   "text": "Question five. Who is your favorite person?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "renee",
+   "text": "You.",
+   "shot": "renee"
+  },
+  {
+   "spk": "buzzer",
+   "text": "Correct. Finally, a happy buzz.",
+   "shot": "buzzer"
+  },
+  {
+   "spk": "darnell",
+   "text": "Question six. Who snores?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "renee",
+   "text": "You.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "darnell",
+   "text": "Wrong. It is you.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "buzzer",
+   "text": "I have been in the bedroom. It is both of you.",
+   "shot": "buzzer",
+   "gesture": "facepalm",
+   "after": "rimshot"
+  },
+  {
+   "spk": "renee",
+   "text": "Question seven. What is my favorite thing about you?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "darnell",
+   "text": "My chili.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "renee",
+   "text": "Your laugh. When you burn the chili.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "darnell",
+   "text": "I never burn the chili.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "buzzer",
+   "text": "Wrong. Tuesday. The smoke alarm and I are friends now.",
+   "shot": "buzzer",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "renee",
+   "text": "Final question. Will you make chili tonight?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "darnell",
+   "text": "Is that a question or an order?",
+   "shot": "darnell"
+  },
+  {
+   "spk": "renee",
+   "text": "Both.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "darnell",
+   "text": "Then yes. Correct answer.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "buzzer",
+   "text": "Perfect score. I have never been so proud of a marriage.",
+   "shot": "buzzer",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  }
+ ]
+}
