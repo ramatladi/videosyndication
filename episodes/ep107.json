@@ -1,0 +1,467 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 107,
+ "slug": "the-cup-lady",
+ "title": "The Cup Lady",
+ "trend": "Holiday red cup day at coffee shops (#redcupday Peaking; SocialPilot TikTok cultural moments Nov 17-25 2026, US; brand never named) — reaction/bait-and-switch: retiree Gloria arrives for the free holiday cup thirteen minutes after they ran out; new barista Kyle hides the last one for his mom; twist: Gloria never drinks coffee (hot water for twenty two years) — the cups become the famous lit cup tree on Maple where Kyle's family takes its photo every year; button: bring your own cup",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "kitchen",
+ "desk": true,
+ "music": "upbeat",
+ "intro": [
+  "pov:",
+  "you got to the coffee shop",
+  "thirteen minutes late"
+ ],
+ "youtube_title": "She came for the free holiday cup. She does not even drink coffee ☕",
+ "description": "Gloria shows up for the free holiday cup thirteen minutes after they ran out. New barista Kyle has one hidden under the register for his mom. Then Gloria orders her usual.\n\n#cartoon #animation #funny #coffee #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "coffee shop",
+  "barista",
+  "holiday cup",
+  "christmas",
+  "grandma"
+ ],
+ "tiktok_caption": "pov: you got to the coffee shop thirteen minutes late ☕ #cartoon #animation #funny #coffee",
+ "cast": [
+  {
+   "id": "gloria",
+   "name": "Gloria",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 0.95,
+   "hair": {
+    "style": "curly",
+    "color": "#d5d8dc"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "dots",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#7f8c8d",
+   "accessories": [
+    "glasses",
+    "scarf:#27ae60"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#ff7675",
+   "voice": {
+    "id": "af_kore",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "kyle",
+   "name": "Kyle",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.0,
+   "hair": {
+    "style": "short",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "apron",
+    "pattern_color": "#ecf0f1"
+   },
+   "bottom": "#34495e",
+   "shoes": "#2d3436",
+   "accessories": [
+    "beanie:#2c3e50"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "cup",
+   "name": "The Last Cup",
+   "kind": "mascot",
+   "shape": "cup",
+   "color": "#e74c3c",
+   "sleeve": "#ffffff",
+   "lid": "#ecf0f1",
+   "scale": 0.85,
+   "accessories": [
+    "bow:#27ae60"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "gloria",
+   "text": "Good morning, young man. I am here for the cup.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "kyle",
+   "text": "The holiday cup? Ma'am, it is six fifteen. We ran out at six oh two.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gloria",
+   "text": "Six oh two.",
+   "shot": "gloria",
+   "pre": 0.8
+  },
+  {
+   "spk": "kyle",
+   "text": "A man bought forty. He had a wagon.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "cup",
+   "text": "Hello. I am the last red holiday cup in this building.",
+   "shot": "cup",
+   "gesture": "wave",
+   "after": "sting"
+  },
+  {
+   "spk": "cup",
+   "text": "He hid me under the register. It is dark and it smells like cinnamon.",
+   "shot": "cup"
+  },
+  {
+   "spk": "gloria",
+   "text": "Kyle. Your name tag says Kyle.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "kyle",
+   "text": "It is my first week. Please do not learn my name.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gloria",
+   "text": "I have collected every holiday cup for twenty two years.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "gloria",
+   "text": "I have a binder.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "kyle",
+   "text": "A binder for cups.",
+   "shot": "kyle"
+  },
+  {
+   "spk": "gloria",
+   "text": "Two thousand four. The year with the snowman. He looks surprised.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gloria",
+   "text": "Two thousand eleven. The year they made it green. We do not talk about green.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "cup",
+   "text": "I do not want to be in a binder. I want to see the world.",
+   "shot": "cup",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kyle",
+   "text": "I can give you a regular cup. It is white. It is very calm.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gloria",
+   "text": "A white cup is a cup with no hope, Kyle.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "kyle",
+   "text": "I can draw a snowman on it.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "gloria",
+   "text": "Draw him surprised.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kyle",
+   "text": "He looks like a potato that saw a bill.",
+   "shot": "kyle",
+   "gesture": "facepalm",
+   "after": "rimshot"
+  },
+  {
+   "spk": "gloria",
+   "text": "Fine. I will trade. I have a coupon from two thousand nine.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "kyle",
+   "text": "That coupon is older than my car.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "gloria",
+   "text": "I have a peppermint. It has been in my purse since spring.",
+   "shot": "CU"
+  },
+  {
+   "spk": "cup",
+   "text": "Do not take the peppermint. It has seen things.",
+   "shot": "cup"
+  },
+  {
+   "spk": "kyle",
+   "text": "Ma'am, there is a line behind you.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "gloria",
+   "text": "They can wait. Their cups are not going in a binder.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kyle",
+   "text": "Okay. Here is the truth. There is one cup.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.8
+  },
+  {
+   "spk": "cup",
+   "text": "He said it. He said the thing.",
+   "shot": "cup",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "kyle",
+   "text": "I was saving it for my mom. She loves these cups.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gloria",
+   "text": "Your mom can have one next year.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "kyle",
+   "text": "My mom says that about you every year.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gloria",
+   "text": "She knows about me?",
+   "shot": "gloria"
+  },
+  {
+   "spk": "kyle",
+   "text": "Everybody knows about you. You are the cup lady.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "whoosh"
+  },
+  {
+   "spk": "kyle",
+   "text": "At least let me make you a drink. What do you usually get?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "gloria",
+   "text": "Hot water.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kyle",
+   "text": "Hot water. With coffee.",
+   "shot": "kyle"
+  },
+  {
+   "spk": "gloria",
+   "text": "No. Just the water.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "cup",
+   "text": "Wait. She does not drink coffee?",
+   "shot": "cup",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "gloria",
+   "text": "Never had a sip. It tastes like a wet sweater.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kyle",
+   "text": "You have come here twenty two years for free water?",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "gloria",
+   "text": "For the cups, Kyle. Not the coffee. The cups.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kyle",
+   "text": "What do you do with them?",
+   "shot": "CU"
+  },
+  {
+   "spk": "gloria",
+   "text": "Three hundred red cups, stacked in my front yard. Lights inside every one.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gloria",
+   "text": "It is a tree. The whole street visits.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kyle",
+   "text": "Wait. The cup tree on Maple? That is you?",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "gloria",
+   "text": "That is me.",
+   "shot": "gloria"
+  },
+  {
+   "spk": "kyle",
+   "text": "My mom takes our family photo in front of that tree every year!",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gloria",
+   "text": "Then your mom has been waiting for this cup too.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "cup",
+   "text": "So I am going on a tree? With lights? On Maple?",
+   "shot": "cup",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "gloria",
+   "text": "Top of the tree, sweetheart. The star spot.",
+   "shot": "CU"
+  },
+  {
+   "spk": "cup",
+   "text": "I have never been a star. I have only been under a register.",
+   "shot": "cup"
+  },
+  {
+   "spk": "kyle",
+   "text": "Okay. Take it. For the tree. And for my mom.",
+   "shot": "TWO",
+   "gesture": "shrug",
+   "after": "ding"
+  },
+  {
+   "spk": "gloria",
+   "text": "Thank you, Kyle. I will learn your name after all.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "kyle",
+   "text": "One question. Why not just buy the cup?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "gloria",
+   "text": "You cannot buy them. You have to earn them.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kyle",
+   "text": "With a two thousand nine coupon?",
+   "shot": "kyle"
+  },
+  {
+   "spk": "gloria",
+   "text": "With patience. And the coupon.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "cup",
+   "text": "Goodbye, register. Goodbye, cinnamon. Hello, Maple.",
+   "shot": "cup",
+   "gesture": "wave"
+  },
+  {
+   "spk": "kyle",
+   "text": "Can my mom and I come see it tonight?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "gloria",
+   "text": "Of course. Bring your own cup.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "applause"
+  }
+ ]
+}
