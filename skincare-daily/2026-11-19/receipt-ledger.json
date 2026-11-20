@@ -19,13 +19,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "GDHSollits8",
       "sku": "811483",
       "title": "How to Use Dermalogica Pro-Collagen Banking Serum #shorts",
       "manifest_slug": "capetown-pro-collagen-banking-serum-short",
       "media_sha256": "99320b321e0b47999882d7299e14653b250780e314ada29c3a4a47ca2a6fa58a",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-20T18:00:08Z"
     }
   ],
   "reconciliation": {
@@ -34,5 +35,5 @@
     "youtube_ids_recorded": 1,
     "producer_refreshed": "2026-11-20T19:50+02:00"
   },
-  "youtube_ids_recorded": 1
+  "youtube_ids_recorded": 2
 }
