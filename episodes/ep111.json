@@ -1,0 +1,530 @@
+{
+ "engine": "cast",
+ "id": 111,
+ "slug": "the-elbow-is-coming",
+ "title": "The Elbow Is Coming To Thanksgiving",
+ "trend": "TikTok 'My Moon My Man' soft launch (hide a new partner in posts \u2014 two cups, a hand on the wheel, an elbow \u2014 then reveal on the chorus; Finneas cover sound Peak 547K videos, SocialPilot TikTok trends Nov 17-25 2026; Virlo 'my moon my man couple montage' Fresh Nov 12, US) + bringing someone home for Thanksgiving (Nov 26) \u2014 Grandma Bev soft-launches a mystery man six days before Thanksgiving and granddaughter Nia investigates the clues while the family group chat panics; twist: the man is Nia's own secret boyfriend Darius \u2014 Bev tracked him down from Nia's eight months of two-cup posts and has had coffee with him every Tuesday since August; button: Darius arrives with a pie and the dog wants to be launched",
+ "target_seconds": 210,
+ "length_reason": "Soft-launch clips are quick 10-30 s reveal posts, so this is a quick one-clip skit in the 175-240 s range; 3:30 gives room for four clue beats, the twist and the reveal. Over Instagram's 3-minute limit, so YouTube and TikTok only.",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "pov:",
+  "grandma just posted",
+  "two coffee cups and a heart"
+ ],
+ "youtube_title": "Grandma Is Hiding A New Man Before Thanksgiving | Funny Family Cartoon",
+ "description": "Six days before Thanksgiving, Grandma Bev posts two coffee cups with a heart, a hand on a steering wheel and a blurry elbow. Her granddaughter Nia goes full detective, the family group chat panics, and the dog knows more than he is saying.\n\n#cartoon #animation #funny #comedy #thanksgiving",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "thanksgiving",
+  "grandma",
+  "family",
+  "dating",
+  "boyfriend"
+ ],
+ "tiktok_caption": "grandma posted two coffee cups and a heart. six days before thanksgiving \ud83d\udc40\u2615 #cartoon #animation #funny #comedy #thanksgiving",
+ "cast": [
+  {
+   "id": "nia",
+   "name": "Nia",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "curly",
+    "color": "#1b0f08"
+   },
+   "top": {
+    "color": "#f1c40f",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "accessories": [
+    "beanie:#e67e22"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "bev",
+   "name": "Grandma Bev",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "bun",
+    "color": "#d5d8dc"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "dots",
+    "pattern_color": "#f5b7b1"
+   },
+   "bottom": "#5d4e75",
+   "accessories": [
+    "glasses",
+    "scarf:#e74c3c"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "scale": 0.95,
+   "voice": {
+    "id": "af_kore",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "sarge",
+   "name": "Sergeant",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#c8a26b",
+   "belly": "#efe0c4",
+   "inner": "#5b3a1e",
+   "top": {
+    "color": "#1f3a5f",
+    "pattern": "suit",
+    "pattern_color": "#c0392b"
+   },
+   "accessories": [
+    "tie:#c0392b"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "scale": 0.88,
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "darius",
+   "name": "Darius",
+   "kind": "human",
+   "color": "#5c3a21",
+   "hair": {
+    "style": "short",
+    "color": "#111111"
+   },
+   "top": {
+    "color": "#7f8c8d",
+    "pattern": "suit",
+    "pattern_color": "#a04000"
+   },
+   "bottom": "#2c3e50",
+   "accessories": [
+    "glasses",
+    "beard:#111111"
+   ],
+   "eye": "round",
+   "mouth": "smile",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "nia",
+   "text": "Grandma just posted a picture of two coffee cups. Two. With a heart.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "bev",
+   "text": "Good morning, sweetheart. I do not know what you are talking about.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "You put a heart on a cup, Grandma. You have never put a heart on anything. Not even me.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "sarge",
+   "text": "I am Sergeant. I am the dog. I was there. It was a very nice cup.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bev",
+   "text": "I am seventy four. I am allowed to drink coffee across from somebody.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "nia",
+   "text": "Across from who?",
+   "shot": "TWO",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "bev",
+   "text": "Somebody.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "rimshot"
+  },
+  {
+   "spk": "nia",
+   "text": "Okay. Detective mode. Picture number two. A hand on a steering wheel.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "nia",
+   "text": "That is a man's hand. That hand has a watch. Grandpa never wore a watch.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bev",
+   "text": "Grandpa said time was a suggestion. He was late to our wedding.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "sarge",
+   "text": "The hand smells like peppermint and good decisions.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nia",
+   "text": "Whose car is that, Grandma? Your car has a fuzzy pink wheel cover.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "bev",
+   "text": "Maybe I changed. People change. Wheel covers change.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "nia",
+   "text": "You have had that wheel cover since nineteen ninety eight. It has seen things.",
+   "shot": "CU"
+  },
+  {
+   "spk": "sarge",
+   "text": "It has. Mostly the drive thru.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nia",
+   "text": "Picture number three. A blurry elbow. At the bowling alley. Wearing a sweater.",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "bev",
+   "text": "That could be anybody's elbow.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "It has a patch on it, Grandma. Only two kinds of people have elbow patches. Professors and men who say 'well actually'.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "bev",
+   "text": "He does not say 'well actually'. He says 'interesting'.",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "nia",
+   "text": "Ha! He! You said he!",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "bev",
+   "text": "I said he like a pronoun. Like a normal person.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "sarge",
+   "text": "She said it like a teenager on the phone.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nia",
+   "text": "Grandma. Thanksgiving is in six days. Is the elbow coming to Thanksgiving?",
+   "shot": "CU"
+  },
+  {
+   "spk": "bev",
+   "text": "The elbow will be seated by the window. The elbow likes natural light.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "rimshot"
+  },
+  {
+   "spk": "nia",
+   "text": "I am texting the family group chat.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "bev",
+   "text": "Do not text the group chat. Your uncle Ray types with one finger. It takes him a week to panic.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "nia",
+   "text": "Too late. Uncle Ray says, quote, who is the elbow, question mark, question mark, little turkey.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bev",
+   "text": "He sends the little turkey to everybody. He sent it to his dentist. The dentist sent one back.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "sarge",
+   "text": "Aunt Denise replied with a picture of a lawyer.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nia",
+   "text": "Mom wants to know if he has a pension.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bev",
+   "text": "He has a pension, a boat and a very good knee. One knee. The other knee is fine.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "nia",
+   "text": "A boat? Grandma, you get seasick in the bathtub.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "bev",
+   "text": "That is why I sit at the front of the bath.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "Why the mystery? Why not just post his face like a normal grandma?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bev",
+   "text": "Because that is how you do it, baby. You hide them for a while. Two cups. A hand. An elbow.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "bev",
+   "text": "I learned it from somebody.",
+   "shot": "TWO",
+   "pre": 0.8
+  },
+  {
+   "spk": "nia",
+   "text": "From who?",
+   "shot": "CU"
+  },
+  {
+   "spk": "sarge",
+   "text": "She learned it from you.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "bev",
+   "text": "Eight months, Nia. Eight months of two cups on your page. A hand on your steering wheel.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "nia",
+   "text": "That is my friend's hand.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "bev",
+   "text": "Your friend has a watch. Your friend smells like peppermint.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "nia",
+   "text": "How do you know what my friend smells like?",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "bev",
+   "text": "Because I have been having coffee with your friend every Tuesday since August.",
+   "shot": "W",
+   "gesture": "shrug",
+   "after": "sting"
+  },
+  {
+   "spk": "nia",
+   "text": "What?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "bev",
+   "text": "I found the coffee shop from the cups. Same chipped saucer. I sat down at the next table and said, interesting.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "nia",
+   "text": "Grandma, you staked out my boyfriend?",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "sarge",
+   "text": "She brought me. I was the undercover dog.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bev",
+   "text": "He does the crossword in pen. He drove me to bowling when my wheel cover fell off. He is a good boy.",
+   "shot": "CU"
+  },
+  {
+   "spk": "sarge",
+   "text": "I am the good boy. He is a good man.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "nia",
+   "text": "So the hand, the elbow, the boat...",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bev",
+   "text": "The boat is his uncle's. It is a canoe. I said boat to scare your mother.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "Why would you soft post my boyfriend before I did?",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "bev",
+   "text": "Because you were never going to bring him. And I am seventy four. I do not buy green bananas.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "darius",
+   "text": "Hi. Sorry. Is this a bad time? Bev said to come in at the elbow part.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "ding"
+  },
+  {
+   "spk": "nia",
+   "text": "Darius!",
+   "shot": "CU",
+   "jump": true
+  },
+  {
+   "spk": "darius",
+   "text": "Hi, Nia. Hi, Bev. Hello, Sergeant.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "sarge",
+   "text": "Peppermint. Called it.",
+   "shot": "CU"
+  },
+  {
+   "spk": "darius",
+   "text": "I brought a pie. Bev said if I brought a pie I could sit by the window.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "bev",
+   "text": "Natural light. Very important for an elbow.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "nia",
+   "text": "I cannot believe my grandma introduced my boyfriend to my family before I did.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "darius",
+   "text": "Your uncle Ray just texted me a little turkey.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bev",
+   "text": "That is his highest honor. Even the dentist only got one.",
+   "shot": "W",
+   "gesture": "hips",
+   "after": "rimshot"
+  },
+  {
+   "spk": "nia",
+   "text": "Fine. Grandma, take a picture of us. Our faces. No elbows.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "bev",
+   "text": "Absolutely not. Hold up two cups and look at the window.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "sarge",
+   "text": "Somebody post the dog. I am ready to be launched.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "applause",
+   "jump": true
+  }
+ ]
+}
