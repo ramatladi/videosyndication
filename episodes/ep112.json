@@ -182,11 +182,6 @@
    "gesture": "shrug"
   },
   {
-   "spk": "ruby",
-   "text": "Okay, I am filming. Say what this is about.",
-   "shot": "CU"
-  },
-  {
    "spk": "hector",
    "text": "Twelve years. Twelve years, Mrs. Pruitt wins best house on the block.",
    "shot": "CU",
@@ -235,19 +230,8 @@
   },
   {
    "spk": "pruitt",
-   "text": "My display has nine hundred moving parts and a choir.",
+   "text": "My display has a choir. Speakers in the gnomes. The gnomes are very good.",
    "shot": "CU"
-  },
-  {
-   "spk": "ruby",
-   "text": "A real choir?",
-   "shot": "CU"
-  },
-  {
-   "spk": "pruitt",
-   "text": "Speakers in the gnomes. The gnomes sing. The gnomes are very good.",
-   "shot": "CU",
-   "gesture": "think"
   },
   {
    "spk": "hector",
@@ -275,11 +259,6 @@
    "pre": 0.8
   },
   {
-   "spk": "hector",
-   "text": "Is that a problem?",
-   "shot": "TWO"
-  },
-  {
    "spk": "pruitt",
    "text": "No. No. Why would that be a problem. Merry early Christmas.",
    "shot": "CU",
@@ -291,34 +270,6 @@
    "text": "She said no three times, Dad.",
    "shot": "CU",
    "gesture": "point"
-  },
-  {
-   "spk": "hector",
-   "text": "She is nervous. Champions get nervous. Snowman, are you ready?",
-   "shot": "TWO"
-  },
-  {
-   "spk": "snowman",
-   "text": "I have been ready for five years. My fan is ready. My dignity is not.",
-   "shot": "CU",
-   "gesture": "shrug"
-  },
-  {
-   "spk": "ruby",
-   "text": "Rehearsal. I count from ten, you flip the switch, I scream.",
-   "shot": "CU"
-  },
-  {
-   "spk": "hector",
-   "text": "Scream like you are proud. Not like you saw a spider.",
-   "shot": "TWO",
-   "gesture": "point"
-  },
-  {
-   "spk": "ruby",
-   "text": "I can do a little of both.",
-   "shot": "CU",
-   "gesture": "shrug"
   },
   {
    "spk": "snowman",
@@ -366,12 +317,6 @@
    "text": "Too late. The neighborhood is watching. Ruby. Go.",
    "shot": "W",
    "gesture": "arms_up"
-  },
-  {
-   "spk": "ruby",
-   "text": "Ten. Nine. Eight. Seven. Six.",
-   "shot": "CU",
-   "jump": true
   },
   {
    "spk": "ruby",
@@ -447,27 +392,10 @@
    "gesture": "facepalm"
   },
   {
-   "spk": "ruby",
-   "text": "Dad, she sent us cookies every Christmas.",
-   "shot": "TWO"
-  },
-  {
-   "spk": "pruitt",
-   "text": "Thank you cookies. I thought you knew. I thought you were being polite.",
-   "shot": "CU",
-   "gesture": "wave"
-  },
-  {
    "spk": "hector",
    "text": "Okay. New plan. One outlet. Two houses. One very long cord.",
    "shot": "W",
    "gesture": "point"
-  },
-  {
-   "spk": "pruitt",
-   "text": "The gnomes can sing at your house too. They travel.",
-   "shot": "TWO",
-   "gesture": "arms_up"
   },
   {
    "spk": "ruby",
@@ -477,7 +405,7 @@
   },
   {
    "spk": "hector",
-   "text": "Both houses are on. Look at it. The whole block can see it from space.",
+   "text": "Both houses are on. Look at it. You can see it from space.",
    "shot": "W",
    "gesture": "arms_up",
    "jump": true,
