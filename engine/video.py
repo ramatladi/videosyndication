@@ -126,6 +126,9 @@ def draw_captions(ctx, t):
             body = wrap(ctx, l['text'], 52 if LANDSCAPE else 56, 1500 if LANDSCAPE else 900)
             name = ' & '.join(SPEC[c].get('name', c).upper() for c in l['spk'])
             fs_ = 52 if LANDSCAPE else 56
+            ctx.set_font_size(34 if LANDSCAPE else 36)
+            if len(l['spk']) > 1 and ctx.text_extents(name).x_advance > (1500 if LANDSCAPE else 900):
+                name = 'EVERYONE' if len(l['spk']) == len(IDS) else ' & '.join(SPEC[c].get('name', c).split()[-1].upper() for c in l['spk'])
             text_box(ctx, [name] + body, H - 70 - 34 * len(body) if LANDSCAPE else 1360, [34 if LANDSCAPE else 36] + [fs_] * len(body), [label_color(l['spk'][0])] + [(1, 1, 1)] * len(body))
             return
 
