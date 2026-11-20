@@ -1,0 +1,31 @@
+{
+ "date": "2026-11-19",
+ "catalog": "/home/claude/skwork/catalog-2026-11-21.json",
+ "window_days": 7,
+ "items": [
+  {
+   "domain": "dermatology.capetown",
+   "slot": "12:00",
+   "format": "short",
+   "title": "powerbright overnight cream",
+   "sku": "111012-01",
+   "handle": null,
+   "tier": "c",
+   "why": "already staged",
+   "existing": true
+  },
+  {
+   "domain": "dermatology.capetown",
+   "slot": "16:00",
+   "format": "short",
+   "handle": "pro-collagen-banking-serum-30ml",
+   "title": "pro-collagen banking serum",
+   "sku": "811483",
+   "variant": "59ml Jumbo",
+   "variant_id": 52306386878778,
+   "tier": "c",
+   "why": "face product covered from the sun angle",
+   "last_used_days_ago": 7
+  }
+ ]
+}

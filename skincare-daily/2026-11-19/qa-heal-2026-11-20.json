@@ -1,0 +1,55 @@
+{
+ "summary": {
+  "renders": 1,
+  "passed": 1,
+  "fails": [],
+  "unique_products": true,
+  "free_photos_unique": true,
+  "store_images_shared_between_videos": [],
+  "min_thumb_dist": null,
+  "min_frame_dist": null,
+  "similarity_fails": []
+ },
+ "renders": [
+  {
+   "slug": "capetown-pro-collagen-banking-serum-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product": "pro-collagen banking serum",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 30.77,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.44,
+   "true_peak": -1.34,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 57,
+   "desc_bytes": 1022,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.924,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.955,
+   "cover_ok": true,
+   "mp4_sha256": "99320b321e0b47999882d7299e14653b250780e314ada29c3a4a47ca2a6fa58a",
+   "jpg_sha256": "75b6331468c1a820fd213c52a19d8e99988566a67a39a1dd79a53de3e526d996",
+   "srt_sha256": "d6345cc63f0ae16b19ad58ec3942c965e1af2ae2cd6def7102aca30edbc0819b",
+   "pass": true
+  }
+ ],
+ "pairs": []
+}

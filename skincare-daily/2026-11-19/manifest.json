@@ -7,7 +7,7 @@
  "channels": {
   "@DermatologyCapeTown": {
    "domain": "dermatology.capetown",
-   "shorts": 1,
+   "shorts": 2,
    "videos": 0,
    "all_pass": true,
    "status": "partial: staged items ready"
@@ -203,12 +203,6 @@
   },
   {
    "handle": "@DermatologyCapeTown",
-   "slot_sast": "2026-11-19 16:00",
-   "format": "short",
-   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
-  },
-  {
-   "handle": "@DermatologyCapeTown",
    "slot_sast": "2026-11-19 20:00",
    "format": "short",
    "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
@@ -288,6 +282,69 @@
     "pass": true
    },
    "crossday_min_thumb_dist": 41,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.capetown",
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-19 16:00",
+   "format": "short",
+   "slug": "capetown-pro-collagen-banking-serum-short",
+   "sku": "811483",
+   "variant": "59ml Jumbo",
+   "selection": {
+    "tier": "c",
+    "why": "face product covered from the sun angle"
+   },
+   "product": {
+    "name": "pro-collagen banking serum",
+    "listing_url": "https://dermalogica.co.za/products/pro-collagen-banking-serum-30ml?variant=52306386878778",
+    "checked": "2026-11-19",
+    "packshot": "skincare-daily/2026-11-19/images/d1119-811483-00.jpg",
+    "packshot_sha256": "56831e4dc88702f9f7cfffd6a3df560540b846134414fc8bca4206ff91b5ab29",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Pro-Collagen_Banking_Serum_FRONT_2.0_1.jpg?v=1765364414"
+   },
+   "title": "How to Use Dermalogica Pro-Collagen Banking Serum #shorts",
+   "description": "Dermalogica pro-collagen banking serum: plump skin + preserve collagen, from the Cape Town daily sun care desk.\n\nWe earn a commission if you buy through our link at https://dermatology.capetown/.\n\n• Plump skin + preserve collagen\n• Helps preserve collagen\n• Plumps and hydrates for a firmer appearance\n• Helps minimize the look of fine lines and wrinkles\n• How to use: Apply 2-3 pumps to clean, dry skin. Use once or twice daily, followed by moisturizer. Keep out of eyes.\n\ndermatology.capetown is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/pro-collagen-banking-serum-30ml?variant=52306386878778, checked 2026-11-19); check the current listing before you buy.\n\nShop: https://dermatology.capetown/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #ProCollagenBankingSerum #DailySPF #shorts",
+   "tags": [
+    "pro-collagen banking serum",
+    "dermalogica pro-collagen banking serum",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 30.77,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-19/renders/dermatology.capetown/capetown-pro-collagen-banking-serum-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-19/renders/dermatology.capetown/capetown-pro-collagen-banking-serum-short.mp4",
+   "sha256": "99320b321e0b47999882d7299e14653b250780e314ada29c3a4a47ca2a6fa58a",
+   "thumbnail_path": "skincare-daily/2026-11-19/renders/dermatology.capetown/capetown-pro-collagen-banking-serum-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-19/renders/dermatology.capetown/capetown-pro-collagen-banking-serum-short.jpg",
+   "thumbnail_sha256": "75b6331468c1a820fd213c52a19d8e99988566a67a39a1dd79a53de3e526d996",
+   "captions_path": "skincare-daily/2026-11-19/renders/dermatology.capetown/capetown-pro-collagen-banking-serum-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-19/renders/dermatology.capetown/capetown-pro-collagen-banking-serum-short.en.srt",
+   "captions_sha256": "d6345cc63f0ae16b19ad58ec3942c965e1af2ae2cd6def7102aca30edbc0819b",
+   "listing_images": [
+    "skincare-daily/2026-11-19/images/d1119-811483-00.jpg",
+    "skincare-daily/2026-11-19/images/d1119-811483-01.jpg",
+    "skincare-daily/2026-11-19/images/d1119-811483-02.png"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_aoede (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.44,
+    "true_peak": -1.34,
+    "packshot_match": 0.924,
+    "srt_cues": 9,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 42,
    "status": "ready"
   }
  ]
