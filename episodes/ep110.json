@@ -1,0 +1,476 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 110,
+ "slug": "the-thermostat-rule",
+ "title": "The Thermostat Rule",
+ "trend": "First cold snap of November (Instagram Reels 'November' cold-weather clips Rising 142K, SocialPilot Instagram Reels trends Nov 17-25 2026, US) + the yearly 'no heat until December' household rule — absurd-rule skit: Dad Frank in shorts enforces 'no heat until December first' while teen Lena wears three hoodies, Mom reads in oven mitts and the dog sleeps in the dryer; twist: the hallway thermostat is a fake (tape and a sticky note, 'Do not tell Lena') he put up in twenty fifteen to end arguments, and the real one heats the garage to seventy six where he sits in a recliner with pudding — Mom has the other recliner; button: everyone moves to the garage, Lena gets a beanbag, and the fake thermostat finally gets a job",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "house rule:",
+  "no heat until december",
+  "it is thirty one degrees"
+ ],
+ "youtube_title": "My dad says no heat until December. Then I found out where he goes every night 🥶",
+ "description": "It is thirty one degrees and Dad says the heat stays off until December first. Lena is in three hoodies and the dog sleeps in the dryer. Then the thermostat starts talking.\n\n#cartoon #animation #funny #winter #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "dad",
+  "thermostat",
+  "winter",
+  "cold weather",
+  "family"
+ ],
+ "tiktok_caption": "house rule: no heat until december. it is thirty one degrees 🥶 #cartoon #animation #funny #winter",
+ "cast": [
+  {
+   "id": "lena",
+   "name": "Lena",
+   "kind": "human",
+   "color": "#ffdbac",
+   "scale": 0.93,
+   "hair": {
+    "style": "long",
+    "color": "#e67e22"
+   },
+   "top": {
+    "color": "#74b9ff",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#dfe6e9",
+   "accessories": [
+    "beanie:#e84393",
+    "scarf:#fdcb6e"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "frown",
+   "label_color": "#74b9ff",
+   "voice": {
+    "id": "af_river",
+    "pitch": 1,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "frank",
+   "name": "Dad Frank",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.08,
+   "hair": {
+    "style": "short",
+    "color": "#7f8c8d"
+   },
+   "top": {
+    "color": "#ffffff",
+    "pattern": "jersey",
+    "pattern_color": "#d63031",
+    "number": "1"
+   },
+   "bottom": "#f39c12",
+   "shoes": "#2d3436",
+   "accessories": [
+    "glasses",
+    "beard:#7f8c8d"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "thermo",
+   "name": "The Thermostat",
+   "kind": "mascot",
+   "shape": "phone",
+   "color": "#dfe6e9",
+   "case": "#636e72",
+   "scale": 0.85,
+   "accessories": [
+    "tie:#0984e3"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#dfe6e9",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "lena",
+   "text": "Dad. It is thirty one degrees outside. I can see my breath. Indoors.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "frank",
+   "text": "House rule number one. The heat does not go on until December first.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "thermo",
+   "text": "Hello. I am the thermostat. Nobody has touched me since March.",
+   "shot": "thermo",
+   "gesture": "wave",
+   "after": "sting"
+  },
+  {
+   "spk": "lena",
+   "text": "I am wearing three hoodies. The third one is yours.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "frank",
+   "text": "Then you are warm. And I am cold. That is called parenting.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "lena",
+   "text": "Why are you wearing shorts?",
+   "shot": "lena"
+  },
+  {
+   "spk": "frank",
+   "text": "Because I am built different. I am a furnace with feet.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "boing"
+  },
+  {
+   "spk": "thermo",
+   "text": "His knees are blue. I can see them from the wall.",
+   "shot": "thermo"
+  },
+  {
+   "spk": "lena",
+   "text": "Mom is wearing oven mitts to read a book.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "frank",
+   "text": "Your mother loves mitts.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "lena",
+   "text": "The dog is sleeping inside the dryer.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "frank",
+   "text": "He is a smart dog. He found the warm spot.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "lena",
+   "text": "That is the problem. There is only one warm spot. And it is the dryer.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "frank",
+   "text": "House rule number two. If you are cold, do jumping jacks.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "lena",
+   "text": "I did forty. Now I am sweaty and cold. Like a soup that gave up.",
+   "shot": "CU",
+   "gesture": "arms_up",
+  "jump": true
+  },
+  {
+   "spk": "thermo",
+   "text": "Can I just say, I would love to work. I have been on vacation since spring.",
+   "shot": "thermo",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "lena",
+   "text": "Okay. I am turning it up. Two degrees. Just two.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.8
+  },
+  {
+   "spk": "frank",
+   "text": "Step away from the thermostat.",
+   "shot": "frank",
+   "gesture": "cross",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "lena",
+   "text": "I am pressing the button.",
+   "shot": "CU"
+  },
+  {
+   "spk": "thermo",
+   "text": "Ooh. That tickles. Again.",
+   "shot": "thermo",
+   "gesture": "arms_up",
+  "jump": true
+  },
+  {
+   "spk": "lena",
+   "text": "It says seventy. I hear nothing. No whoosh. No heat.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "frank",
+   "text": "Huh. Must be broken. Guess we wait until December.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "lena",
+   "text": "Dad. Why are you smiling?",
+   "shot": "lena"
+  },
+  {
+   "spk": "frank",
+   "text": "I always smile. I am a happy, cold man.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "thermo",
+   "text": "Lena. I have to tell you something. I am not connected to anything.",
+   "shot": "thermo",
+   "gesture": "facepalm",
+   "after": "whoosh"
+  },
+  {
+   "spk": "lena",
+   "text": "What?",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "thermo",
+   "text": "There are no wires behind me. Just tape. And one sticky note.",
+   "shot": "thermo",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "lena",
+   "text": "What does the sticky note say?",
+   "shot": "CU"
+  },
+  {
+   "spk": "thermo",
+   "text": "Do not tell Lena.",
+   "shot": "thermo"
+  },
+  {
+   "spk": "lena",
+   "text": "Dad!",
+   "shot": "CU",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "frank",
+   "text": "Okay. Okay. In twenty fifteen, your mother and I fought over that thing every day.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "frank",
+   "text": "She wanted seventy four. I wanted sixty two. So I bought a fake one.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "lena",
+   "text": "You put up a fake thermostat?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "frank",
+   "text": "For peace. Everybody presses it. Everybody feels heard. Nobody wins.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "lena",
+   "text": "Then where is the real one?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "frank",
+   "text": "In the garage.",
+   "shot": "frank",
+   "pre": 0.8
+  },
+  {
+   "spk": "lena",
+   "text": "The garage. Where you go every night to fix the lawn mower.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "frank",
+   "text": "It is a very complicated lawn mower.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "thermo",
+   "text": "There is no lawn mower. There is a recliner. And a blanket with sleeves.",
+   "shot": "thermo",
+   "gesture": "arms_up",
+   "after": "ding"
+  },
+  {
+   "spk": "lena",
+   "text": "You have a heated garage?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "frank",
+   "text": "Seventy six degrees. And a little fridge with pudding.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "lena",
+   "text": "We are freezing in here, and you are out there in a recliner eating pudding?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "frank",
+   "text": "I wear shorts in here so you think I am tough.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "frank",
+   "text": "Then I go out there and I am a different man.",
+   "shot": "CU"
+  },
+  {
+   "spk": "thermo",
+   "text": "His knees turn pink again. It is beautiful. It is like spring.",
+   "shot": "thermo"
+  },
+  {
+   "spk": "lena",
+   "text": "I am telling Mom.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "frank",
+   "text": "Your mother knows.",
+   "shot": "TWO",
+   "pre": 0.8
+  },
+  {
+   "spk": "lena",
+   "text": "She knows?",
+   "shot": "lena"
+  },
+  {
+   "spk": "frank",
+   "text": "She has the other recliner. The oven mitts are a cover story.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "lena",
+   "text": "So the only people freezing in this house are me and the dog.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "thermo",
+   "text": "The dog found out last week. That is why he lives in the dryer. He is protesting.",
+   "shot": "thermo"
+  },
+  {
+   "spk": "frank",
+   "text": "Okay. New house rule. Everybody goes to the garage.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "lena",
+   "text": "Do I get a recliner?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "frank",
+   "text": "You get a beanbag. You earn the recliner.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "lena",
+   "text": "And the pudding?",
+   "shot": "CU"
+  },
+  {
+   "spk": "frank",
+   "text": "Pudding is for people who kept the secret.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "thermo",
+   "text": "So I have to stay in here? Alone? Being pressed?",
+   "shot": "thermo",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "lena",
+   "text": "Don't worry. Somebody will press you tomorrow.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "thermo",
+   "text": "Finally. A job.",
+   "shot": "thermo",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  }
+ ]
+}
