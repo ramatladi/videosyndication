@@ -171,12 +171,6 @@
    "gesture": "point"
   },
   {
-   "spk": "frank",
-   "text": "Your mother loves mitts.",
-   "shot": "CU",
-   "gesture": "shrug"
-  },
-  {
    "spk": "lena",
    "text": "The dog is sleeping inside the dryer.",
    "shot": "CU",
@@ -205,7 +199,7 @@
    "text": "I did forty. Now I am sweaty and cold. Like a soup that gave up.",
    "shot": "CU",
    "gesture": "arms_up",
-  "jump": true
+   "jump": true
   },
   {
    "spk": "thermo",
@@ -233,13 +227,6 @@
    "shot": "CU"
   },
   {
-   "spk": "thermo",
-   "text": "Ooh. That tickles. Again.",
-   "shot": "thermo",
-   "gesture": "arms_up",
-  "jump": true
-  },
-  {
    "spk": "lena",
    "text": "It says seventy. I hear nothing. No whoosh. No heat.",
    "shot": "CU",
@@ -250,17 +237,6 @@
    "text": "Huh. Must be broken. Guess we wait until December.",
    "shot": "TWO",
    "gesture": "shrug"
-  },
-  {
-   "spk": "lena",
-   "text": "Dad. Why are you smiling?",
-   "shot": "lena"
-  },
-  {
-   "spk": "frank",
-   "text": "I always smile. I am a happy, cold man.",
-   "shot": "CU",
-   "gesture": "hips"
   },
   {
    "spk": "thermo",
