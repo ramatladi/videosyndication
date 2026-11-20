@@ -41,13 +41,14 @@
   "nice": [],
   "benefits": "Estimated annual salary for NYC-based hires: $185,000 – $231,000 (compensation may be adjusted by work location). The role is eligible for Cloudflare's equity plan. US benefits include medical/Rx, dental and vision insurance, flexible and commuter spending accounts, fertility and family-forming benefits, on-demand mental health support and an employee assistance program, global travel medical insurance, short- and long-term disability, life and accident insurance, a 401(k) retirement savings plan, an employee stock participation plan, flexible paid time off for vacation and sick leave, and leave programs including parental, pregnancy health, medical and bereavement leave.",
   "notes": [
+   "The posting lists its skills and experience as desirable examples rather than strict requirements",
    "Hybrid role; US locations listed are New York City and Austin (the posting publishes a US salary range for NYC-based hires)",
    "Candidates who reach the offer stage may be asked to attend an in-person interview at a Cloudflare office or hub",
    "The position may require access to information covered by US export control laws; an offer may depend on authorization to receive it without an export licence",
    "Reasonable accommodations are available for applicants with disabilities"
   ]
  },
- "yt_title": "Cloudflare Is Hiring: Senior Software Engineer, Data Primitives | NYC or Austin | $185K–$231K",
+ "yt_title": "Cloudflare Is Hiring: Senior Software Engineer, Data Primitives | NYC or Austin | $185K–$231K (NYC)",
  "hashtags": [
   "#TechJobs",
   "#SoftwareEngineer",
@@ -91,12 +92,12 @@
    "lines": [
     "Cloudflare runs one of the world's largest networks, protecting and speeding up millions of websites.",
     "Its Workers platform lets developers run code at the edge, handling trillions of requests a month.",
-    "The Data Primitives group brings data to the edge. It runs D one, a managed SQLite database, Queues for messaging, and Workers K V, a global key-value store."
+    "The Data Primitives group brings state to the edge. It runs D one, a managed SQLite database, Queues for messaging, and Workers K V, a global key-value store."
    ],
    "show": [
     null,
     null,
-    "The Data Primitives group brings data to the edge. It runs D1, a managed SQLite database, Queues for messaging, and Workers KV, a global key-value store."
+    "The Data Primitives group brings state to the edge. It runs D1, a managed SQLite database, Queues for messaging, and Workers KV, a global key-value store."
    ]
   },
   {
@@ -121,7 +122,7 @@
    ]
   },
   {
-   "head": "What you need",
+   "head": "What they're looking for",
    "bullets": [
     "5+ yrs distributed systems & data",
     "TypeScript & Go, incl. async",
@@ -130,12 +131,12 @@
     "Git, CI, Linux, logs, APIs"
    ],
    "lines": [
-    "You'll need five or more years working with distributed systems and data, and a solid grasp of TypeScript and Go, including asynchronous programming in both.",
-    "Strong systems-level programming, an understanding of security, and experience monitoring and debugging high-volume production systems.",
+    "Cloudflare is looking for five or more years working with distributed systems and data, and a solid grasp of TypeScript and Go, including asynchronous programming in both.",
+    "Also strong systems-level programming, an understanding of security, and experience monitoring and debugging high-volume production systems.",
     "Plus continuous integration with git, solid Linux skills, analysing data like logs, designing APIs, and clear communication."
    ],
    "show": [
-    "You'll need 5+ years working with distributed systems and data, and a solid grasp of TypeScript and Go, including asynchronous programming in both.",
+    "Cloudflare is looking for 5+ years working with distributed systems and data, and a solid grasp of TypeScript and Go, including asynchronous programming in both.",
     null,
     null
    ]
