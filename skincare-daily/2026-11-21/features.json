@@ -1,0 +1,361 @@
+{
+ "checked": "2026-11-21",
+ "note": "2026-11-21 daily batch (skincare-daily/sk.py)",
+ "channels": {
+  "skincare.joburg": {
+   "locality": "Rosebank",
+   "desk": "Moisturizers & textures",
+   "credential_line": false,
+   "voice": "af_heart",
+   "accent": [
+    74,
+    93,
+    78
+   ],
+   "card_side": "left",
+   "radius": 36,
+   "chip": "pill",
+   "title_weight": "Bold",
+   "transition": "fade",
+   "music": {
+    "root": 57,
+    "bpm": 72,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      11
+     ],
+     [
+      5,
+      9,
+      12,
+      16
+     ],
+     [
+      2,
+      5,
+      9,
+      12
+     ],
+     [
+      7,
+      11,
+      14,
+      17
+     ]
+    ]
+   }
+  },
+  "skincare.durban": {
+   "locality": "Westville",
+   "desk": "Body care",
+   "credential_line": false,
+   "voice": "af_bella",
+   "accent": [
+    0,
+    121,
+    125
+   ],
+   "card_side": "right",
+   "radius": 16,
+   "chip": "square",
+   "title_weight": "SemiBold",
+   "transition": "smoothleft",
+   "music": {
+    "root": 60,
+    "bpm": 96,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      12
+     ],
+     [
+      9,
+      12,
+      16,
+      21
+     ],
+     [
+      5,
+      9,
+      12,
+      17
+     ],
+     [
+      7,
+      11,
+      14,
+      19
+     ]
+    ]
+   }
+  },
+  "dermatologist.joburg": {
+   "locality": "Midrand",
+   "desk": "Building a skincare routine",
+   "credential_line": true,
+   "voice": "af_jessica",
+   "accent": [
+    35,
+    59,
+    110
+   ],
+   "card_side": "left",
+   "radius": 8,
+   "chip": "underline",
+   "title_weight": "Bold",
+   "transition": "smoothup",
+   "music": {
+    "root": 55,
+    "bpm": 84,
+    "prog": [
+     [
+      0,
+      3,
+      7,
+      10
+     ],
+     [
+      8,
+      12,
+      15,
+      19
+     ],
+     [
+      3,
+      7,
+      10,
+      14
+     ],
+     [
+      10,
+      14,
+      17,
+      21
+     ]
+    ]
+   }
+  },
+  "dermatology.joburg": {
+   "locality": "Bedfordview",
+   "desk": "Labels & ingredients",
+   "credential_line": true,
+   "voice": "af_nicole",
+   "accent": [
+    96,
+    46,
+    92
+   ],
+   "card_side": "right",
+   "radius": 28,
+   "chip": "pill",
+   "title_weight": "Bold",
+   "transition": "wipeleft",
+   "music": {
+    "root": 50,
+    "bpm": 66,
+    "prog": [
+     [
+      0,
+      3,
+      7,
+      10
+     ],
+     [
+      5,
+      8,
+      12,
+      15
+     ],
+     [
+      7,
+      10,
+      14,
+      17
+     ],
+     [
+      3,
+      7,
+      10,
+      14
+     ]
+    ]
+   }
+  },
+  "dermatology.durban": {
+   "locality": "uMhlanga",
+   "desk": "Hydration & layering",
+   "credential_line": true,
+   "voice": "af_sarah",
+   "accent": [
+    16,
+    96,
+    140
+   ],
+   "card_side": "left",
+   "radius": 44,
+   "chip": "square",
+   "title_weight": "SemiBold",
+   "transition": "dissolve",
+   "music": {
+    "root": 62,
+    "bpm": 104,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      11
+     ],
+     [
+      7,
+      11,
+      14,
+      18
+     ],
+     [
+      9,
+      12,
+      16,
+      19
+     ],
+     [
+      5,
+      9,
+      12,
+      16
+     ]
+    ]
+   }
+  },
+  "dermatology.capetown": {
+   "locality": "Cape Town",
+   "desk": "Daily sun care",
+   "credential_line": true,
+   "voice": "af_aoede",
+   "accent": [
+    196,
+    92,
+    28
+   ],
+   "card_side": "right",
+   "radius": 22,
+   "chip": "underline",
+   "title_weight": "Bold",
+   "transition": "fadeblack",
+   "music": {
+    "root": 53,
+    "bpm": 112,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      12
+     ],
+     [
+      5,
+      9,
+      12,
+      17
+     ],
+     [
+      7,
+      11,
+      14,
+      19
+     ],
+     [
+      4,
+      7,
+      11,
+      16
+     ]
+    ]
+   }
+  }
+ },
+ "videos": [
+  {
+   "slug": "capetown-discover-healthy-skin-kit-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product_name": "discover healthy skin kit",
+   "spoken_name": "discover healthy skin kit",
+   "product_url": "https://dermalogica.co.za/products/discover-healthy-skin-kit-male-111370m?variant=67681401798970",
+   "packshot": "d1121-111370-00.jpg",
+   "title": "Dermalogica Discover Healthy Skin Kit: Polishes, Cleanses, Moisturizes #shorts",
+   "lead": "Dermalogica discover healthy skin kit: polishes, cleanses, moisturizes, from the Cape Town daily sun care desk.",
+   "facts": [
+    "Polishes, cleanses, moisturizes",
+    "What's inside: Precleanse (1oz); Special Cleansing Gel (0.5oz); Daily Microfoliant (0.45oz); Skin Smoothing Cream (0.5oz)",
+    "Gentle enough for daily use Skin Smoothing Cream: Smooths fine lines and promotes elasticity",
+    "Shields against dehydration and pollution",
+    "Antioxidants help fight skin-aging free radicals",
+    "Removes oils without clogging pores Conditioning essential fatty acids nourish skin",
+    "How to use: Double cleanse morning and night by lathering a pea-size amount of Precleanse to melt away impurities and make-up from skin. Wet hands and continue massaging to create a light, milky emulsion. Rinse with lukewarm water. Gently lather a small amount of Special Cleansing Gel in moistened h"
+   ],
+   "tags": [
+    "discover healthy skin kit",
+    "dermalogica discover healthy skin kit",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #DiscoverHealthySkinKit #DailySPF #shorts",
+   "thumb": {
+    "text": "Shields against dehydration",
+    "kicker": "CAPE TOWN",
+    "layout": "left"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Polishes, cleanses, moisturizes",
+     "say": "Cape Town daily sun care desk: Dermalogica discover healthy skin kit. Sun care runs all day, so today it is a product that sits next to your SPF."
+    },
+    {
+     "type": "bullets",
+     "kicker": "WHAT'S INSIDE",
+     "headline": "4 products in one kit",
+     "items": [
+      "Precleanse (1oz)",
+      "Special Cleansing Gel (0.5oz)",
+      "Daily Microfoliant (0.45oz)",
+      "Skin Smoothing Cream (0.5oz)"
+     ],
+     "say": "Inside the kit: Precleanse, 1oz; Special Cleansing Gel, 0.5oz; Daily Microfoliant, 0.45oz; Skin Smoothing Cream, 0.5oz.",
+     "image": "d1121-111370-01.png"
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Double cleanse morning",
+      "Rinse with lukewarm water",
+      "Gently lather a small amount"
+     ],
+     "say": "Double cleanse morning and night by lathering a pea-size amount of Precleanse to melt away impurities and make-up from skin.",
+     "image": "d1121-111370-03.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "Discover Healthy Skin Kit",
+     "say": "That's Dermalogica discover healthy skin kit. The link is in the description."
+    }
+   ],
+   "sku": "111370",
+   "variant": "female",
+   "slot_sast": "12:00",
+   "tier": "c",
+   "tier_why": "face product covered from the sun angle",
+   "script_overlap_max": 0.84
+  }
+ ]
+}

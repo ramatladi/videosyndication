@@ -1,0 +1,294 @@
+{
+ "date": "2026-11-21",
+ "ledger": "skincare-daily/2026-11-21/receipt-ledger.json",
+ "publishing": "skincare-upload.yml (GitHub Action) publishes; this batch uploads and schedules nothing.",
+ "commission_disclosure": "description only",
+ "language": "American English",
+ "channels": {
+  "@DermatologyCapeTown": {
+   "domain": "dermatology.capetown",
+   "shorts": 1,
+   "videos": 0,
+   "all_pass": true,
+   "status": "partial: staged items ready"
+  }
+ },
+ "not_staged": [],
+ "unfilled_slots": [
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-21 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-21 12:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-21 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-21 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-21 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-21 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-21 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-21 12:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-21 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-21 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-21 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-21 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-21 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-21 12:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-21 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-21 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-21 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-21 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-21 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-21 12:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-21 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-21 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-21 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-21 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-21 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-21 12:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-21 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-21 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-21 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-21 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-21 08:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-21 16:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-21 20:00",
+   "format": "short",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-21 10:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  },
+  {
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-21 18:00",
+   "format": "regular",
+   "reason": "catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard"
+  }
+ ],
+ "items": [
+  {
+   "domain": "dermatology.capetown",
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-21 12:00",
+   "format": "short",
+   "slug": "capetown-discover-healthy-skin-kit-short",
+   "sku": "111370",
+   "variant": "female",
+   "selection": {
+    "tier": "c",
+    "why": "face product covered from the sun angle"
+   },
+   "product": {
+    "name": "discover healthy skin kit",
+    "listing_url": "https://dermalogica.co.za/products/discover-healthy-skin-kit-male-111370m?variant=67681401798970",
+    "checked": "2026-11-21",
+    "packshot": "skincare-daily/2026-11-21/images/d1121-111370-00.jpg",
+    "packshot_sha256": "4d7697c7ad10a16482762b13c615ca4538a75bdc0b0b1fef0c69a5b4a88a6dbe",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/discover-healthy-skin-pdp-cover-1.jpg?v=1721216039"
+   },
+   "title": "Dermalogica Discover Healthy Skin Kit: Polishes, Cleanses, Moisturizes #shorts",
+   "description": "Dermalogica discover healthy skin kit: polishes, cleanses, moisturizes, from the Cape Town daily sun care desk.\n\nWe earn a commission if you buy through our link at https://dermatology.capetown/.\n\n• Polishes, cleanses, moisturizes\n• What's inside: Precleanse (1oz); Special Cleansing Gel (0.5oz); Daily Microfoliant (0.45oz); Skin Smoothing Cream (0.5oz)\n• Gentle enough for daily use Skin Smoothing Cream: Smooths fine lines and promotes elasticity\n• Shields against dehydration and pollution\n• Antioxidants help fight skin-aging free radicals\n• Removes oils without clogging pores Conditioning essential fatty acids nourish skin\n• How to use: Double cleanse morning and night by lathering a pea-size amount of Precleanse to melt away impurities and make-up from skin. Wet hands and continue massaging to create a light, milky emulsion. Rinse with lukewarm water. Gently lather a small amount of Special Cleansing Gel in moistened h\n\ndermatology.capetown is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/discover-healthy-skin-kit-male-111370m?variant=67681401798970, checked 2026-11-21); check the current listing before you buy.\n\nShop: https://dermatology.capetown/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #DiscoverHealthySkinKit #DailySPF #shorts",
+   "tags": [
+    "discover healthy skin kit",
+    "dermalogica discover healthy skin kit",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 35.33,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-21/renders/dermatology.capetown/capetown-discover-healthy-skin-kit-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-21/renders/dermatology.capetown/capetown-discover-healthy-skin-kit-short.mp4",
+   "sha256": "496ee767eaf6ef09690ec984360ae4508a3817e5b74e20e9cbbcc6000b07acff",
+   "thumbnail_path": "skincare-daily/2026-11-21/renders/dermatology.capetown/capetown-discover-healthy-skin-kit-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-21/renders/dermatology.capetown/capetown-discover-healthy-skin-kit-short.jpg",
+   "thumbnail_sha256": "17cb616a0c40c007f98ac5761811b881ccfe87138d816016c2afe5dab2c30cc9",
+   "captions_path": "skincare-daily/2026-11-21/renders/dermatology.capetown/capetown-discover-healthy-skin-kit-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-21/renders/dermatology.capetown/capetown-discover-healthy-skin-kit-short.en.srt",
+   "captions_sha256": "102ec5e7aa64ef17552b5e1faf337381630cfb796e5e1e1fb5535ba983fbea9e",
+   "listing_images": [
+    "skincare-daily/2026-11-21/images/d1121-111370-00.jpg",
+    "skincare-daily/2026-11-21/images/d1121-111370-01.png",
+    "skincare-daily/2026-11-21/images/d1121-111370-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_aoede (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.39,
+    "true_peak": -1.46,
+    "packshot_match": 0.859,
+    "srt_cues": 8,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 53,
+   "status": "ready"
+  }
+ ]
+}
