@@ -3154,6 +3154,81 @@
     "dance": 0.224,
     "genre_fit": 0.886
    }
+  },
+  {
+   "release": "mtr047",
+   "date": "2026-11-20",
+   "slot": "2026-11-20T19:55",
+   "format": "short",
+   "title": "Sweeter Than Sunday",
+   "artist": "DJ Paige Coral",
+   "style": "soulful",
+   "key": "G major",
+   "bpm": 120,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "67019751-6d2e-4215-9015-0f1a0df72d03",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/4ac4d38f-c6d9-4e95-8969-0ec4d0cca9dc.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr047.json",
+   "photographer": "Ocho Artex Media",
+   "photo_page": "https://unsplash.com/photos/smiling-woman-in-black-bikini-and-white-shirt-on-beach-Id5zATrvbpc",
+   "photo_kind": "bikini",
+   "metricool_uuid": "9041862748312915657",
+   "media_url": "https://static.metricool.com/planner/202611/7321327-file-860023219484348527.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr047.mp3",
+    "top": [
+     [
+      "pop",
+      0.363
+     ],
+     [
+      "dance",
+      0.277
+     ],
+     [
+      "female vocalists",
+      0.237
+     ],
+     [
+      "electronic",
+      0.113
+     ],
+     [
+      "soul",
+      0.096
+     ],
+     [
+      "House",
+      0.085
+     ],
+     [
+      "rnb",
+      0.074
+     ],
+     [
+      "jazz",
+      0.069
+     ],
+     [
+      "chillout",
+      0.055
+     ],
+     [
+      "80s",
+      0.036
+     ]
+    ],
+    "house": 0.085,
+    "electronic": 0.113,
+    "dance": 0.277,
+    "genre_fit": 0.829
+   }
   }
  ]
 }
