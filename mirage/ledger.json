@@ -3229,6 +3229,81 @@
     "dance": 0.277,
     "genre_fit": 0.829
    }
+  },
+  {
+   "release": "mtr048",
+   "date": "2026-11-22",
+   "slot": "2026-11-22T19:55",
+   "format": "short",
+   "title": "Hold The Horizon",
+   "artist": "Mert Coast",
+   "style": "progressive",
+   "key": "D major",
+   "bpm": 124,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "6cac9e39-4f0c-4c19-bdb3-5ac160c172ea",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/a1a03680-9f0b-4f88-9e25-c520dc97d283.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr048.json",
+   "photographer": "Jonathan Borba",
+   "photo_page": "https://unsplash.com/photos/woman-in-bikini-laughing-with-surfboard-on-beach-jUhpI6QAs3w",
+   "photo_kind": "bikini",
+   "metricool_uuid": "6260199199101243258",
+   "media_url": "https://static.metricool.com/planner/202611/7593699-file-4927871788115628802.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr048.mp3",
+    "top": [
+     [
+      "electronic",
+      0.404
+     ],
+     [
+      "dance",
+      0.207
+     ],
+     [
+      "House",
+      0.173
+     ],
+     [
+      "pop",
+      0.148
+     ],
+     [
+      "electronica",
+      0.105
+     ],
+     [
+      "chillout",
+      0.1
+     ],
+     [
+      "electro",
+      0.095
+     ],
+     [
+      "indie",
+      0.059
+     ],
+     [
+      "ambient",
+      0.056
+     ],
+     [
+      "rock",
+      0.049
+     ]
+    ],
+    "house": 0.173,
+    "electronic": 0.404,
+    "dance": 0.207,
+    "genre_fit": 0.855
+   }
   }
  ]
 }
