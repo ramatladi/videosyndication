@@ -1,0 +1,491 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 115,
+ "slug": "ninety-nine-percent",
+ "title": "Ninety Nine Percent",
+ "trend": "Loading-percentage get-ready transitions (Virlo November 2026 list, 'Makeup loading percentage transition' Peaking, 664 videos, updated Nov 22 2026; Buffer Instagram audio Nov 2026: get-ready-with-me shown as a loading screen from zero to one hundred percent, US) — loading-screen get-ready skit: roommate Brooke announces Kayla's first-date prep as a loading bar while the long-retired hair dryer narrates (freezer sock, half cloud half wet cat, lamp outfits, two cat eyes, potato shoes), stuck at ninety nine; twist: the date is Friday and it is Sunday; Theo shows up also one hundred percent six days early; button: they go now and the hair dryer retires to the drawer",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "bedroom",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "getting ready for a first date",
+  "loading...",
+  "zero percent"
+ ],
+ "youtube_title": "Getting ready for a first date: loading zero percent to one hundred percent 💄",
+ "description": "Kayla has three hours to get ready for her first date with Theo. Her roommate counts every percent and the hair dryer has opinions. Then they read the text again.\n\n#cartoon #animation #funny #roommates #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "roommates",
+  "first date",
+  "getting ready",
+  "dating"
+ ],
+ "tiktok_caption": "getting ready for a first date... loading zero percent 💄 #cartoon #animation #funny #roommates",
+ "cast": [
+  {
+   "id": "kayla",
+   "name": "Kayla",
+   "kind": "human",
+   "color": "#ffdbac",
+   "hair": {
+    "style": "curly",
+    "color": "#c0392b"
+   },
+   "top": {
+    "color": "#a29bfe",
+    "pattern": "dots",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#6c5ce7",
+   "shoes": "#fdcb6e",
+   "accessories": [
+    "bow:#fd79a8"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#fd79a8",
+   "voice": {
+    "id": "af_bella",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "brooke",
+   "name": "Brooke",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "bun",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#00cec9",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "accessories": [
+    "glasses",
+    "mic_headset"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#81ecec",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": -1,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "dryer",
+   "name": "The Hair Dryer",
+   "kind": "mascot",
+   "shape": "egg",
+   "color": "#ff7675",
+   "scale": 0.85,
+   "accessories": [
+    "tophat:#2d3436"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#ff7675",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "theo",
+   "name": "Theo",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.05,
+   "hair": {
+    "style": "short",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#2d3436",
+    "pattern": "suit",
+    "pattern_color": "#d63031"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#636e72",
+   "accessories": [
+    "tie:#d63031",
+    "beard:#2d1b0e"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "am_liam",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "brooke",
+   "text": "Getting ready for a first date. Loading. Zero percent.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kayla",
+   "text": "I am in pajamas. I have one sock on. I have never been more beautiful.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dryer",
+   "text": "Hello. I am the hair dryer. I have not been plugged in since the wedding in June.",
+   "shot": "dryer",
+   "gesture": "wave",
+   "after": "sting"
+  },
+  {
+   "spk": "kayla",
+   "text": "He picks me up at seven. That is three hours. That is plenty of time.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "brooke",
+   "text": "Last time you said plenty of time, you missed a whole birthday.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kayla",
+   "text": "I did not miss it. I arrived for the cake. The cake is the birthday.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "brooke",
+   "text": "Loading. Four percent. She found the other sock. It was in the freezer.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "dryer",
+   "text": "Why is it always the freezer.",
+   "shot": "dryer"
+  },
+  {
+   "spk": "kayla",
+   "text": "Okay. Hair. Today the hair is going to be big. Like a cloud with confidence.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dryer",
+   "text": "I am ready. I have been ready for five months. Turn me on.",
+   "shot": "dryer",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "brooke",
+   "text": "Loading. Eleven percent. The power went out in the bathroom.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "dryer",
+   "text": "That was me. I am sorry. I am very strong.",
+   "shot": "dryer",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kayla",
+   "text": "Half of my hair is a cloud. The other half is a wet cat.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "brooke",
+   "text": "Loading. Twenty percent. Restarting the hair.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kayla",
+   "text": "Brooke, stop saying loading. I am a person, not a phone.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "brooke",
+   "text": "Your phone gets ready faster than you. Your phone has never tried on nine shirts.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kayla",
+   "text": "Outfit number one. Casual. Like I did not try.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "brooke",
+   "text": "You look like you are going to return a lamp.",
+   "shot": "CU",
+   "post": 0.7
+  },
+  {
+   "spk": "kayla",
+   "text": "Outfit number two. Fancy.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dryer",
+   "text": "She looks like a fancy lamp.",
+   "shot": "dryer",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "kayla",
+   "text": "Outfit number three. Mysterious. All black. Sunglasses inside.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "brooke",
+   "text": "Loading. Forty percent. She walked into the door.",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "kayla",
+   "text": "The door moved. I am fine. My mystery is fine.",
+   "shot": "CU"
+  },
+  {
+   "spk": "brooke",
+   "text": "Forty one. Forty two. She is doing eyeliner. Nobody breathe.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.5
+  },
+  {
+   "spk": "dryer",
+   "text": "I am holding my breath. I do not even have lungs.",
+   "shot": "dryer"
+  },
+  {
+   "spk": "kayla",
+   "text": "One eye is a cat. The other eye is a different cat.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "brooke",
+   "text": "Sixty percent. Two cats. We continue.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kayla",
+   "text": "Perfume. Just a little.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "dryer",
+   "text": "That was not a little. I can taste it. I am a hair dryer and I can taste it.",
+   "shot": "dryer",
+   "gesture": "arms_up",
+   "after": "rimshot"
+  },
+  {
+   "spk": "brooke",
+   "text": "Eighty five percent. Shoes. The hard part.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kayla",
+   "text": "The cute shoes hurt. The comfy shoes look like two potatoes.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "brooke",
+   "text": "Wear the potatoes. Nobody looks at feet on a first date.",
+   "shot": "CU"
+  },
+  {
+   "spk": "kayla",
+   "text": "He might. He might be a foot guy. I do not know his life.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "brooke",
+   "text": "Ninety nine percent.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "kayla",
+   "text": "Ninety nine. Why am I stuck at ninety nine?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dryer",
+   "text": "Everyone gets stuck at ninety nine. It is the hardest one.",
+   "shot": "dryer",
+   "gesture": "think"
+  },
+  {
+   "spk": "kayla",
+   "text": "One more look in the mirror. One more. One more. One more.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "brooke",
+   "text": "Still ninety nine. It has been eleven minutes.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kayla",
+   "text": "Okay. Text him. Tell him I am ready. Tell him casually.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "brooke",
+   "text": "Opening your messages. Oh. Oh, Kayla.",
+   "shot": "CU",
+   "pre": 0.8,
+   "post": 0.9
+  },
+  {
+   "spk": "kayla",
+   "text": "What. What oh.",
+   "shot": "CU"
+  },
+  {
+   "spk": "brooke",
+   "text": "He says, see you Friday at seven. It is Sunday.",
+   "shot": "CU",
+   "post": 1.0,
+   "after": "sting"
+  },
+  {
+   "spk": "dryer",
+   "text": "She is six days early. That is the most ready anyone has ever been.",
+   "shot": "dryer",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "kayla",
+   "text": "No. No no no. I did two cats for nothing.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "brooke",
+   "text": "One hundred percent. With nowhere to go.",
+   "shot": "W",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kayla",
+   "text": "Then I will stay like this until Friday. I will sleep standing up.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dryer",
+   "text": "Please do not. I cannot do this again on Friday. I am retired.",
+   "shot": "dryer"
+  },
+  {
+   "spk": "theo",
+   "text": "Hi. Sorry. Is Kayla here? I know it is not Friday.",
+   "shot": "theo",
+   "gesture": "wave",
+   "pre": 0.6
+  },
+  {
+   "spk": "kayla",
+   "text": "Theo? Why are you all dressed up?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "I got ready for Friday. I finished early. Like, six days early.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "theo",
+   "text": "I have been one hundred percent since lunch. My cat is tired of looking at me.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "brooke",
+   "text": "Two people at one hundred percent. This has never happened in history.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "kayla",
+   "text": "So, do you want to go right now? It is Sunday. Places are open.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "theo",
+   "text": "Yes. Please. My shoes hurt. These are not potatoes.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kayla",
+   "text": "Mine are potatoes. Do you look at feet?",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "theo",
+   "text": "Only to see if they are potatoes.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dryer",
+   "text": "Friday is cancelled. I am going back in the drawer. Good night forever.",
+   "shot": "dryer",
+   "gesture": "wave",
+   "after": "boing"
+  }
+ ]
+}
