@@ -149,7 +149,7 @@
   },
   {
    "spk": "carl",
-   "text": "Okay team. Dad is cooking the whole dinner this year. No help. No notes.",
+   "text": "Okay team. Dad is cooking the whole dinner this year. No help.",
    "shot": "W",
    "gesture": "arms_up",
    "jump": true
@@ -161,33 +161,15 @@
    "gesture": "cross"
   },
   {
-   "spk": "carl",
-   "text": "Cereal is tricky. Turkey is easy. You just put it in the hot box.",
-   "shot": "CU",
-   "gesture": "point"
-  },
-  {
    "spk": "gus",
-   "text": "He calls the oven the hot box. I am already nervous.",
+   "text": "He has never cooked a turkey in his life. I am already nervous.",
    "shot": "gus",
    "gesture": "think"
   },
   {
    "spk": "carl",
-   "text": "Step one. A whole stick of butter in a very hot pan.",
+   "text": "Step one. A whole stick of butter in a very hot pan. Flavor smoke!",
    "shot": "CU"
-  },
-  {
-   "spk": "maya",
-   "text": "Is it supposed to smoke like that?",
-   "shot": "TWO",
-   "gesture": "point"
-  },
-  {
-   "spk": "carl",
-   "text": "That is flavor smoke. Totally normal.",
-   "shot": "CU",
-   "gesture": "shrug"
   },
   {
    "spk": "gus",
@@ -226,47 +208,13 @@
    "shot": "CU"
   },
   {
-   "spk": "maya",
-   "text": "He has a point, Dad.",
-   "shot": "CU",
-   "gesture": "shrug"
-  },
-  {
-   "spk": "carl",
-   "text": "Whose side are you on?",
-   "shot": "TWO",
-   "gesture": "point"
-  },
-  {
-   "spk": "maya",
-   "text": "The side that wants to eat today.",
-   "shot": "CU"
-  },
-  {
-   "spk": "gus",
-   "text": "Round one goes to me. The butter did not survive.",
-   "shot": "gus",
-   "gesture": "think"
-  },
-  {
    "spk": "carl",
    "text": "Step two. Rolls. Grandma's famous rolls. Ten minutes.",
    "shot": "W"
   },
   {
-   "spk": "maya",
-   "text": "You set a timer, right?",
-   "shot": "TWO"
-  },
-  {
-   "spk": "carl",
-   "text": "I don't need a timer. I have instincts.",
-   "shot": "CU",
-   "gesture": "cross"
-  },
-  {
    "spk": "gus",
-   "text": "His instincts went to watch the big game in the other room.",
+   "text": "He forgot the timer. He went to watch the big game.",
    "shot": "gus",
    "pre": 0.8
   },
@@ -293,7 +241,7 @@
   },
   {
    "spk": "gus",
-   "text": "You cannot reach me. You are five foot seven and I am on a very tall ceiling.",
+   "text": "You cannot reach me. I am on a very tall ceiling.",
    "shot": "CU",
    "gesture": "hips"
   },
@@ -304,21 +252,9 @@
    "gesture": "think"
   },
   {
-   "spk": "gus",
-   "text": "Sir, put the broom down. We can talk about this.",
-   "shot": "gus",
-   "gesture": "shrug"
-  },
-  {
    "spk": "maya",
-   "text": "Dad, if you take the battery out, we will forget to put it back. Like last year.",
+   "text": "Dad, if you take the battery out, we forget to put it back. Like last year.",
    "shot": "TWO"
-  },
-  {
-   "spk": "carl",
-   "text": "Fine. You live. For now.",
-   "shot": "CU",
-   "gesture": "cross"
   },
   {
    "spk": "gus",
@@ -327,21 +263,9 @@
   },
   {
    "spk": "june",
-   "text": "Hello, family! I let myself in. Why does the house smell like a campfire?",
+   "text": "Hello, family! Why does the house smell like a campfire?",
    "shot": "W",
    "gesture": "wave"
-  },
-  {
-   "spk": "maya",
-   "text": "Grandma! Dad is cooking.",
-   "shot": "TWO",
-   "gesture": "point"
-  },
-  {
-   "spk": "june",
-   "text": "Oh, sweetheart. Again?",
-   "shot": "CU",
-   "gesture": "facepalm"
   },
   {
    "spk": "carl",
@@ -373,20 +297,8 @@
   },
   {
    "spk": "maya",
-   "text": "The family group chat calls him the villain of Thanksgiving.",
+   "text": "The family group chat calls him the villain. His name in there is Beep Face.",
    "shot": "W"
-  },
-  {
-   "spk": "gus",
-   "text": "I have a name in the group chat? What is it?",
-   "shot": "gus",
-   "gesture": "think"
-  },
-  {
-   "spk": "maya",
-   "text": "Beep Face.",
-   "shot": "TWO",
-   "pre": 0.8
   },
   {
    "spk": "gus",
@@ -413,12 +325,6 @@
    "pre": 0.6
   },
   {
-   "spk": "june",
-   "text": "No reason. Just old people things.",
-   "shot": "june",
-   "gesture": "shrug"
-  },
-  {
    "spk": "gus",
    "text": "Beep. Beep. Beep.",
    "shot": "gus",
@@ -427,22 +333,10 @@
    "after": "ding"
   },
   {
-   "spk": "carl",
-   "text": "What? I didn't even touch the stove!",
-   "shot": "W",
-   "gesture": "arms_up"
-  },
-  {
    "spk": "june",
    "text": "Oh no. Carl, go open every window in the house. Take your time. All of them.",
    "shot": "june",
    "gesture": "point"
-  },
-  {
-   "spk": "carl",
-   "text": "On it!",
-   "shot": "W",
-   "jump": true
   },
   {
    "spk": "gus",
@@ -487,12 +381,6 @@
    "shot": "W",
    "gesture": "arms_up",
    "jump": true
-  },
-  {
-   "spk": "maya",
-   "text": "Yeah, Dad. A total natural.",
-   "shot": "TWO",
-   "gesture": "shrug"
   },
   {
    "spk": "gus",
