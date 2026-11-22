@@ -1,0 +1,435 @@
+{
+ "engine": "cast",
+ "id": 118,
+ "slug": "the-fight-for-the-recliner",
+ "title": "The Fight For The Recliner",
+ "trend": "Big Sunday football day (Google Trends US daily, Nov 22 2026: pro football team searches 1M+, +600%, Active; team never named) told as live sports play-by-play commentary of everyday family life, plus the Thanksgiving-week baking show finale season \u2014 the family dogs Duke and Pepper call the Sunday fight for the one recliner between Ron (big game) and Tanya (baking show finale); twist: Ron has secretly watched the baking show on his phone for three months and Tanya is in first place in a fantasy football league; they swap and the dogs take the recliner",
+ "target_seconds": 180,
+ "length_reason": "Sports-commentary-of-everyday-life clips are quick one-clip skits (well under a minute), so this stays at the shortest film length, 3:00, which also fits Instagram's 3-minute limit.",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "live play by play:",
+  "the sunday fight",
+  "for the recliner"
+ ],
+ "youtube_title": "Two Dogs Call The Sunday Fight For The Recliner Like It's The Big Game | Funny Cartoon",
+ "description": "One recliner. Two humans. The big game and the baking show finale start at the exact same time. Duke and Pepper, the family dogs, call every play from the living room floor, and nobody is who they seem.\n\n#cartoon #animation #funny #comedy #football",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "football sunday",
+  "recliner",
+  "dogs",
+  "married couple",
+  "family comedy"
+ ],
+ "tiktok_caption": "live play by play: the sunday fight for the recliner \ud83c\udfc8 #cartoon #animation #funny #comedy #football",
+ "cast": [
+  {
+   "id": "duke",
+   "name": "Duke",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#8d5524",
+   "belly": "#e0b98a",
+   "inner": "#5a3412",
+   "top": {
+    "color": "#1f3a5f",
+    "pattern": "suit",
+    "pattern_color": "#c0392b"
+   },
+   "bottom": "#1f3a5f",
+   "accessories": [
+    "mic_headset:#222222",
+    "tie:#c0392b"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "pepper",
+   "name": "Pepper",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#f5f0e6",
+   "belly": "#ffffff",
+   "inner": "#e8a0a0",
+   "scale": 0.9,
+   "top": {
+    "color": "#d35400",
+    "pattern": "suit",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2c3e50",
+   "accessories": [
+    "mic_headset:#222222",
+    "bow:#e74c3c"
+   ],
+   "eye": "big",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 1,
+    "tempo": 1.08
+   }
+  },
+  {
+   "id": "ron",
+   "name": "Ron",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "short",
+    "color": "#6d4c2f"
+   },
+   "top": {
+    "color": "#1565c0",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "12"
+   },
+   "bottom": "#7f8c8d",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "cap:#1565c0"
+   ],
+   "eye": "happy",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "tanya",
+   "name": "Tanya",
+   "kind": "human",
+   "color": "#a0522d",
+   "hair": {
+    "style": "curly",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "apron",
+    "pattern_color": "#fdebd0"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#c0392b",
+   "accessories": [
+    "glasses"
+   ],
+   "brows": "raised",
+   "voice": {
+    "id": "af_kore",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "duke",
+   "text": "Good afternoon, America, and welcome to the living room. I'm Duke.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pepper",
+   "text": "And I'm Pepper. Duke, it is Sunday. There is one recliner. And two humans want it.",
+   "shot": "TWO",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "duke",
+   "text": "In the blue corner, Ron. Big game today. He has been stretching since breakfast.",
+   "shot": "ron"
+  },
+  {
+   "spk": "ron",
+   "text": "I'm loose. I'm ready. That chair has my name on it.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "pepper",
+   "text": "And in the red corner, Tanya. The baking show finale is on at the exact same time.",
+   "shot": "tanya"
+  },
+  {
+   "spk": "tanya",
+   "text": "Three months, Ron. I waited three months for this cake.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "duke",
+   "text": "Both players eyeing the chair. Nobody blinking. You could cut the tension with a butter knife.",
+   "shot": "duke",
+   "gesture": "think"
+  },
+  {
+   "spk": "pepper",
+   "text": "Wait, the microwave just beeped. Tanya turns her head!",
+   "shot": "pepper",
+   "gesture": "point"
+  },
+  {
+   "spk": "duke",
+   "text": "Ron goes! Ron goes! He's over the ottoman! He is in the chair!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "whoosh"
+  },
+  {
+   "spk": "ron",
+   "text": "Touchdown! Feet up! Footrest deployed!",
+   "shot": "W",
+   "jump": true,
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tanya",
+   "text": "You set the microwave to beep on purpose.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "ron",
+   "text": "I don't know what you're talking about. It's a smart microwave.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pepper",
+   "text": "Duke, that is a classic distraction play. Textbook.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "duke",
+   "text": "He practiced that all week, Pepper. I saw him. I sleep in the hallway.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tanya",
+   "text": "Fine. You have the chair. But who has the remote?",
+   "shot": "tanya",
+   "gesture": "hips",
+   "pre": 0.6
+  },
+  {
+   "spk": "ron",
+   "text": "Where is the remote, Tanya?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "pepper",
+   "text": "Oh, this is a huge momentum swing, Duke!",
+   "shot": "pepper",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "duke",
+   "text": "Ron checks the couch cushions. Nothing. Just three pennies and a pretzel.",
+   "shot": "W"
+  },
+  {
+   "spk": "ron",
+   "text": "Did you put it in the freezer again?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "tanya",
+   "text": "Maybe. Maybe it's next to the frozen peas. Maybe it's cold and alone.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pepper",
+   "text": "Ron has to leave the chair to get the remote. And if he leaves the chair,",
+   "shot": "pepper"
+  },
+  {
+   "spk": "duke",
+   "text": "She takes the chair. It's a trap, folks. A beautiful, frozen trap.",
+   "shot": "duke",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "ron",
+   "text": "I'll just stretch. I can reach the kitchen from here. Probably.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pepper",
+   "text": "He is reaching. He is reaching. His toes are still on the footrest!",
+   "shot": "pepper",
+   "jump": true
+  },
+  {
+   "spk": "duke",
+   "text": "That is the longest man in the history of this house.",
+   "shot": "duke"
+  },
+  {
+   "spk": "tanya",
+   "text": "Ron. That's a broom. You're holding a broom.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ron",
+   "text": "I am using the broom to hook the freezer door.",
+   "shot": "ron",
+   "gesture": "think"
+  },
+  {
+   "spk": "duke",
+   "text": "Folks, I have seen a lot of Sundays. I have never seen this.",
+   "shot": "duke",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pepper",
+   "text": "And the remote is out! It slides across the floor! It is covered in frost!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "ding"
+  },
+  {
+   "spk": "tanya",
+   "text": "Don't you dare.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "ron",
+   "text": "Too late. Channel four. The big game. Thank you very much.",
+   "shot": "ron",
+   "gesture": "point"
+  },
+  {
+   "spk": "pepper",
+   "text": "Duke, is that it? Is the season over for Tanya?",
+   "shot": "pepper"
+  },
+  {
+   "spk": "duke",
+   "text": "Wait. Ron is not looking at the game, Pepper. He is looking at his phone.",
+   "shot": "duke",
+   "pre": 0.8
+  },
+  {
+   "spk": "pepper",
+   "text": "What's on the phone? Can you zoom in? I'm a dog, I can't zoom.",
+   "shot": "pepper",
+   "gesture": "think"
+  },
+  {
+   "spk": "tanya",
+   "text": "Ron. Is that the baking show? On your phone?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "ron",
+   "text": "No. It's football. Football about a lemon cake.",
+   "shot": "ron",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "duke",
+   "text": "He has been watching the baking show this whole time. In secret. For three months.",
+   "shot": "duke",
+   "after": "sting"
+  },
+  {
+   "spk": "ron",
+   "text": "Okay, fine! The lemon guy deserves to win! His layers are perfect!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "tanya",
+   "text": "Ron, I have a confession too. I'm not even watching the finale.",
+   "shot": "TWO",
+   "pre": 0.6
+  },
+  {
+   "spk": "tanya",
+   "text": "I'm in a fantasy football league with my sisters. I'm in first place.",
+   "shot": "tanya",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pepper",
+   "text": "Duke, she has been checking scores in the kitchen all season!",
+   "shot": "pepper",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "duke",
+   "text": "The whole game, Pepper. The whole game was a lie.",
+   "shot": "duke",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ron",
+   "text": "So you want the game. And I want the cake.",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "tanya",
+   "text": "Let's swap. You take my phone. I take the TV.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pepper",
+   "text": "A trade! A historic trade! Both players walk to the couch together!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "duke",
+   "text": "And, folks, look what that means. Nobody is in the recliner.",
+   "shot": "duke",
+   "pre": 0.6
+  },
+  {
+   "spk": "pepper",
+   "text": "Duke. You thinking what I'm thinking?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "duke",
+   "text": "Feet up, Pepper. Footrest deployed. Touchdown, dogs.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "boing"
+  }
+ ]
+}
