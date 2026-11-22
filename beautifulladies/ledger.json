@@ -2010,13 +2010,6 @@
    "source": "pixabay",
    "page": "https://pixabay.com/photos/girls-jumping-beach-pair-together-5895385/"
   },
-  "pixabay-1013246": {
-   "image": "pixabay-1013246",
-   "photographer": "xmattmcleodx",
-   "date": "2026-11-22",
-   "source": "pixabay",
-   "page": "https://pixabay.com/photos/beach-girls-surf-bikini-surfboard-1013246/"
-  },
   "pixabay-2090133": {
    "image": "pixabay-2090133",
    "photographer": "qimono",
@@ -2310,6 +2303,13 @@
    "date": "2026-11-23",
    "source": "pixabay",
    "page": "https://pixabay.com/photos/yoga-pose-stretch-health-fitness-2607013/"
+  },
+  "shfXTqC4LhY": {
+   "image": "photo-1783698153136-35a654f08e57",
+   "photographer": "Zulfugar Karimov",
+   "date": "2026-11-22",
+   "source": "unsplash",
+   "page": "https://unsplash.com/photos/a-smiling-woman-in-sunglasses-sits-on-a-grassy-hill-shfXTqC4LhY"
   }
  },
  "rejected": [
@@ -2753,7 +2753,8 @@
   "pixabay-5029018",
   "pixabay-575101",
   "pixabay-2685292",
-  "pixabay-4057951"
+  "pixabay-4057951",
+  "pixabay-1013246"
  ],
  "posts": [
   {
@@ -3020,6 +3021,19 @@
     435962680
    ],
    "note": "photos via APIs: 11 Unsplash (fresh API search; 4 searches + 11 download pings = 15 requests), 9 Pixabay (4 from reserve re-fetched by id, 5 fresh API search); reserve topped up with 7 Unsplash + 3 Pixabay; new track mtr047 added to pool"
+  },
+  {
+   "date": "2026-11-22",
+   "files": [
+    "blo-20261122-short1.mp4"
+   ],
+   "metricool_ids": [
+    437534409
+   ],
+   "times": [
+    "15:20"
+   ],
+   "note": ""
   }
  ],
  "reserve": [
@@ -3030,14 +3044,6 @@
    "photographer": "Peyman Farmani",
    "page": "https://unsplash.com/photos/woman-in-floral-dress-by-ocean-PiFmJZzoB1M",
    "reviewed": "2026-11-16"
-  },
-  {
-   "id": "shfXTqC4LhY",
-   "source": "unsplash",
-   "image": "photo-1783698153136-35a654f08e57",
-   "photographer": "Zulfugar Karimov",
-   "page": "https://unsplash.com/photos/a-smiling-woman-in-sunglasses-sits-on-a-grassy-hill-shfXTqC4LhY",
-   "reviewed": "2026-11-17"
   },
   {
    "id": "FmQ18cPGZyI",
