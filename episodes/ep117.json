@@ -1,0 +1,465 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 117,
+ "slug": "first-to-react",
+ "title": "First To React",
+ "trend": "TikTok 'First to React Loses Challenge' (Virlo November 2026 trend list, updated Nov 22 2026; two people hold straight faces while someone tries to make them react, US) + Thanksgiving week — challenge skit: brothers Andre and Malik play first to react loses, loser tells Grandma the truth about her green bean casserole, while the casserole narrates and Grandma Pearl unknowingly escalates (a big scoop, a hair comment, a dropped pan, a video call from Mom, the game sold for a sandwich); twist: Pearl makes the casserole terrible on purpose so the family cooks and she watches the parade with her feet up — twenty years of perfect poker face; button: both reacted, so they make the casserole and it will still be terrible",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "first to react loses",
+  "the loser tells grandma",
+  "the truth about her casserole"
+ ],
+ "youtube_title": "First to react has to tell Grandma the truth about her casserole 🥘",
+ "description": "Andre and Malik make a deal: first to react has to tell Grandma what everybody really thinks of her green bean casserole. Grandma has no idea. Or does she?\n\n#cartoon #animation #funny #thanksgiving #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "thanksgiving",
+  "grandma",
+  "brothers",
+  "casserole",
+  "family"
+ ],
+ "tiktok_caption": "first to react has to tell Grandma the truth about her casserole 🥘 #cartoon #animation #funny #thanksgiving",
+ "cast": [
+  {
+   "id": "andre",
+   "name": "Andre",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.02,
+   "hair": {
+    "style": "short",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#0984e3",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "7"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "accessories": [
+    "beard:#1e130c"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#74b9ff",
+   "voice": {
+    "id": "am_michael",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "malik",
+   "name": "Malik",
+   "kind": "human",
+   "color": "#a0522d",
+   "hair": {
+    "style": "spiky",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#fdcb6e",
+    "pattern": "hoodie"
+   },
+   "bottom": "#636e72",
+   "shoes": "#d63031",
+   "accessories": [
+    "beanie:#d63031"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#ffeaa7",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "pearl",
+   "name": "Grandma Pearl",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.95,
+   "hair": {
+    "style": "curly",
+    "color": "#dfe6e9"
+   },
+   "top": {
+    "color": "#00b894",
+    "pattern": "apron",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#6c5ce7",
+   "accessories": [
+    "glasses",
+    "scarf:#e84393"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "af_heart",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "dish",
+   "name": "The Casserole",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#6ab04c",
+   "scale": 0.82,
+   "accessories": [
+    "chef_hat"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "frown",
+   "label_color": "#badc58",
+   "voice": {
+    "id": "bf_emma",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "andre",
+   "text": "First to react loses. Loser tells Grandma the truth about her casserole.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "malik",
+   "text": "Deal. Nobody blinks. Nobody laughs. Nobody moves.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dish",
+   "text": "Hello. I am the green bean casserole. Nobody has eaten me since two thousand six.",
+   "shot": "dish",
+   "gesture": "wave",
+   "after": "sting"
+  },
+  {
+   "spk": "andre",
+   "text": "Three. Two. One. Go.",
+   "shot": "W",
+   "post": 0.8
+  },
+  {
+   "spk": "dish",
+   "text": "They are just staring. Two grown men staring at a kitchen table.",
+   "shot": "dish",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pearl",
+   "text": "Boys, do you want some of my casserole?",
+   "shot": "pearl",
+   "gesture": "wave",
+   "pre": 0.6
+  },
+  {
+   "spk": "dish",
+   "text": "Oh no. She is holding me. They cannot even say no with their faces.",
+   "shot": "dish",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pearl",
+   "text": "I will take that as a yes. A big scoop for each of you.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dish",
+   "text": "I am on their plates now. They are not moving. I am a little hurt.",
+   "shot": "dish"
+  },
+  {
+   "spk": "malik",
+   "text": "Not reacting.",
+   "shot": "CU",
+   "post": 0.6
+  },
+  {
+   "spk": "andre",
+   "text": "Also not reacting. This is delicious. I feel nothing.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dish",
+   "text": "He said delicious with no face. That is the meanest thing ever said to me.",
+   "shot": "dish",
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "pearl",
+   "text": "Andre, your hair looks different. Did you lose some?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "andre",
+   "text": "No comment. Not reacting.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "malik",
+   "text": "He did lose some. In the back. Like a little landing spot.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "andre",
+   "text": "You reacted to my hair. That counts.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "malik",
+   "text": "That was not a reaction. That was a report.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dish",
+   "text": "Grandma just dropped a pan on purpose.",
+   "shot": "dish",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "malik",
+   "text": "Nothing. My soul jumped. My face stayed home.",
+   "shot": "CU",
+   "pre": 0.4
+  },
+  {
+   "spk": "pearl",
+   "text": "Oh, look. Your mother is calling. On video. She is in her robe.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "andre",
+   "text": "Mom, we cannot talk. We are in a very serious game.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dish",
+   "text": "Their mother is now staring too. On a phone. From Florida. Everyone is staring.",
+   "shot": "dish"
+  },
+  {
+   "spk": "pearl",
+   "text": "Malik, did you ever tell your brother about his old video game?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "malik",
+   "text": "Grandma. No.",
+   "shot": "CU"
+  },
+  {
+   "spk": "pearl",
+   "text": "He sold it. Two thousand nine. For a sandwich.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "andre",
+   "text": "You sold my game for a sandwich?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "pre": 0.3
+  },
+  {
+   "spk": "malik",
+   "text": "Not reacting. But it was a good sandwich.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "rimshot"
+  },
+  {
+   "spk": "dish",
+   "text": "The big brother's eye is moving. Just one eye. Like a little volcano.",
+   "shot": "dish",
+   "gesture": "point"
+  },
+  {
+   "spk": "andre",
+   "text": "My eye has its own opinions. My face is calm.",
+   "shot": "CU",
+   "post": 0.6
+  },
+  {
+   "spk": "pearl",
+   "text": "Boys, it is time for the most important thing. Tell me. Do you like my casserole?",
+   "shot": "W",
+   "gesture": "hips",
+   "pre": 0.8
+  },
+  {
+   "spk": "dish",
+   "text": "Here it is. The question. Nobody has ever answered it. Not in twenty years.",
+   "shot": "dish",
+   "gesture": "think"
+  },
+  {
+   "spk": "andre",
+   "text": "Grandma. We love you so much.",
+   "shot": "TWO",
+   "pre": 0.6
+  },
+  {
+   "spk": "malik",
+   "text": "So much. More than food. Which is good. Because of the casserole.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pearl",
+   "text": "Oh, thank goodness. Finally.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "post": 1.0,
+   "after": "sting"
+  },
+  {
+   "spk": "andre",
+   "text": "Wait. You are happy?",
+   "shot": "CU"
+  },
+  {
+   "spk": "pearl",
+   "text": "Baby, I know it is terrible. I make it terrible on purpose.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dish",
+   "text": "What. I am terrible on purpose? I am a plan?",
+   "shot": "dish",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pearl",
+   "text": "Twenty years ago I was the one cooking the whole dinner. I wanted to watch the parade.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "pearl",
+   "text": "So I made one terrible casserole. And everybody said, Pearl, you sit down, we will cook.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "malik",
+   "text": "You have been doing this for twenty years?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "pearl",
+   "text": "I have watched twenty parades. With my feet up. While you cook.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dish",
+   "text": "She has been playing first to react loses since before these boys had teeth.",
+   "shot": "dish",
+   "gesture": "point",
+   "after": "applause"
+  },
+  {
+   "spk": "andre",
+   "text": "Grandma, you have the best poker face in this family.",
+   "shot": "CU"
+  },
+  {
+   "spk": "pearl",
+   "text": "I tasted that casserole every year and smiled. That is training.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "malik",
+   "text": "So who lost the game? We both reacted.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pearl",
+   "text": "You both lost. So this year, you two make the casserole.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dish",
+   "text": "Please make me better. I want to be loved. I want to be finished.",
+   "shot": "dish",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "andre",
+   "text": "We cannot cook. I can only make toast. And sometimes not toast.",
+   "shot": "CU"
+  },
+  {
+   "spk": "pearl",
+   "text": "Good. Then it will still be terrible. And I still get the parade.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "malik",
+   "text": "Grandma. You just won Thanksgiving.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "pearl",
+   "text": "Baby, I win it every year. First to react loses.",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 0.5
+  },
+  {
+   "spk": "dish",
+   "text": "She did not even blink. Not once. Not in twenty years.",
+   "shot": "dish",
+   "gesture": "shrug",
+   "after": "boing"
+  }
+ ]
+}
