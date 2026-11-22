@@ -1,0 +1,484 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 116,
+ "slug": "full-price",
+ "title": "Full Price",
+ "trend": "'He wanna pay full price' haggling meme (Virlo week of Nov 16: New, 482 posts, +995%, fastest riser; Virlo November list Fresh, 558, first seen Nov 8, updated Nov 22 2026, US; source sketch never named) + Black Friday week deal hunting — bait-and-switch haggle skit: Uncle Bernard, who has never paid full price, haggles with niece Penny's five-dollar hot cocoa stand (compliments, an Ohio gas-station coupon from two thousand eleven, the uphill sad story, the walk away) while the cocoa pot narrates; Aunt Celeste pays full price and gets a cookie; he 'wins' at two dollars; twist: the back of the sign says one dollar — she raised the price only for him, a trick she learned when he sold Grandma her own lamp; button: full price for him is now seven",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "park_day",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "my uncle",
+  "has never paid full price",
+  "for anything"
+ ],
+ "youtube_title": "My uncle has never paid full price for anything. Then he met my hot cocoa stand ☕",
+ "description": "Uncle Bernard has never paid full price in his life, and Penny's hot cocoa costs five dollars. Coupons, sad stories and a very slow walk away. Penny was ready for all of it.\n\n#cartoon #animation #funny #family #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "uncle",
+  "hot cocoa",
+  "haggling",
+  "family",
+  "deals"
+ ],
+ "tiktok_caption": "my uncle has never paid full price for anything ☕ #cartoon #animation #funny #family",
+ "cast": [
+  {
+   "id": "penny",
+   "name": "Penny",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.84,
+   "hair": {
+    "style": "afro",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#e84393",
+    "pattern": "plain"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "accessories": [
+    "beanie:#fdcb6e",
+    "scarf:#00b894"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#fd79a8",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 2,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "bernard",
+   "name": "Uncle Bernard",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.1,
+   "hair": {
+    "style": "short",
+    "color": "#636e72"
+   },
+   "top": {
+    "color": "#e17055",
+    "pattern": "stripes",
+    "pattern_color": "#ffeaa7"
+   },
+   "bottom": "#3b4a6b",
+   "shoes": "#2d3436",
+   "accessories": [
+    "cap:#2d3436",
+    "mustache:#636e72"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "celeste",
+   "name": "Aunt Celeste",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "long",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#6c5ce7",
+    "pattern": "plain"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#d63031",
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#a29bfe",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "pot",
+   "name": "The Cocoa Pot",
+   "kind": "mascot",
+   "shape": "cup",
+   "color": "#ffffff",
+   "sleeve": "#8b5a2b",
+   "lid": "#6d4c41",
+   "scale": 0.85,
+   "accessories": [
+    "glasses",
+    "tie:#d63031"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#dfe6e9",
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "bernard",
+   "text": "Hot cocoa, five dollars? Sweetheart. I have never paid full price for anything.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "penny",
+   "text": "Hi, Uncle Bernard. It is five dollars.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pot",
+   "text": "Hello. I am the cocoa pot. This man once haggled with a parking meter.",
+   "shot": "pot",
+   "gesture": "wave",
+   "after": "sting"
+  },
+  {
+   "spk": "bernard",
+   "text": "And I won. It gave me four extra minutes because it was scared.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "penny",
+   "text": "The cocoa is five dollars. The marshmallows are free.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "bernard",
+   "text": "Free is my favorite price. Give me only the marshmallows.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pot",
+   "text": "He wants a cup of marshmallows. That is not a drink. That is a pillow.",
+   "shot": "pot",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bernard",
+   "text": "Okay. Opening offer. One dollar and a very nice compliment.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "penny",
+   "text": "No.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "bernard",
+   "text": "You did not even hear the compliment.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "penny",
+   "text": "Is it about my hat?",
+   "shot": "CU"
+  },
+  {
+   "spk": "bernard",
+   "text": "It was about your hat. That is a beautiful hat.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "penny",
+   "text": "Five dollars.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "boing"
+  },
+  {
+   "spk": "pot",
+   "text": "She is nine years old and made of stone.",
+   "shot": "pot"
+  },
+  {
+   "spk": "bernard",
+   "text": "Fine. I have coupons. I always have coupons.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pot",
+   "text": "He pulled a binder out of his vest. The binder has a binder inside it.",
+   "shot": "pot",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "bernard",
+   "text": "This coupon is for one free cocoa.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "penny",
+   "text": "That coupon is for a gas station. In Ohio. From two thousand eleven.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bernard",
+   "text": "Cocoa is cocoa. Ohio is very close if you believe.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "penny",
+   "text": "Five dollars.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "bernard",
+   "text": "Okay. A sad story. I walked here. In the cold. Uphill.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pot",
+   "text": "He drove. His car is right there. It is still running.",
+   "shot": "pot",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "bernard",
+   "text": "Uphill in my heart, Cocoa Pot.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "penny",
+   "text": "Your heart can pay five dollars.",
+   "shot": "CU"
+  },
+  {
+   "spk": "bernard",
+   "text": "Last move. The walk away. Watch me walk away.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pot",
+   "text": "He is walking away. Very slowly. Like a man who wants to be called back.",
+   "shot": "pot"
+  },
+  {
+   "spk": "pot",
+   "text": "He is looking over his shoulder. He tripped on the curb. Nobody called him.",
+   "shot": "pot",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "bernard",
+   "text": "I am back. I have decided to give you another chance.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "celeste",
+   "text": "Hi, Penny. One hot cocoa, please. Here is five dollars.",
+   "shot": "celeste",
+   "gesture": "wave",
+   "pre": 0.5
+  },
+  {
+   "spk": "penny",
+   "text": "Thank you, Aunt Celeste. Here are extra marshmallows. And a cookie.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "bernard",
+   "text": "A cookie? She paid full price and got a cookie?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "celeste",
+   "text": "Bernard, you are haggling with a child again.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "bernard",
+   "text": "She started it. She has a sign. Signs are basically haggling.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "penny",
+   "text": "Okay, Uncle Bernard. Final offer. Two dollars.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "bernard",
+   "text": "Two dollars! I did it! I beat the system! Write it down, Cocoa Pot!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "pot",
+   "text": "I do not have hands. But I will remember it forever.",
+   "shot": "pot"
+  },
+  {
+   "spk": "penny",
+   "text": "Two dollars. Thank you for your business.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "celeste",
+   "text": "Penny, sweetie, why is the price on the back of the sign different?",
+   "shot": "celeste",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "penny",
+   "text": "Oh. That is the real price.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "post": 0.9
+  },
+  {
+   "spk": "pot",
+   "text": "Flip the sign. The back says, cocoa, one dollar.",
+   "shot": "pot",
+   "post": 1.0,
+   "after": "sting"
+  },
+  {
+   "spk": "bernard",
+   "text": "One dollar. The real price was one dollar.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "penny",
+   "text": "The front says five because I knew you were coming.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "pot",
+   "text": "She did not raise the price for the town. She raised it for one uncle.",
+   "shot": "pot",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "bernard",
+   "text": "I paid double. I have never paid double in my life.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "celeste",
+   "text": "You paid five times more than a coupon from Ohio.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "penny",
+   "text": "Uncle Bernard, you are my best customer. You always come back.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "bernard",
+   "text": "I am so proud of you. And I feel terrible. Mostly proud.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "bernard",
+   "text": "Where did you even learn this?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "penny",
+   "text": "From you. At the yard sale. You sold Grandma her own lamp.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "celeste",
+   "text": "He did. She paid twenty dollars for her own lamp.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pot",
+   "text": "It is a nice lamp. She still has it. She still does not know.",
+   "shot": "pot"
+  },
+  {
+   "spk": "bernard",
+   "text": "Penny. For the first time in my life, I want to pay full price.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "penny",
+   "text": "Great. Full price for you is now seven dollars.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "bernard",
+   "text": "Five fifty and a compliment.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "penny",
+   "text": "Seven.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "boing"
+  }
+ ]
+}
