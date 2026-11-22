@@ -1,0 +1,531 @@
+{
+ "engine": "cast",
+ "id": 113,
+ "slug": "the-villain-of-thanksgiving",
+ "title": "The Villain Of Thanksgiving",
+ "trend": "TikTok 'POV: you're the villain but...' (sympathetic villain POV \u2014 the 'bad guy' explains their side; New on Virlo week of Nov 16 2026, +424% posts, US) + Thanksgiving prep week (SocialPilot TikTok cultural moments Nov 21-25 2026, US) \u2014 the kitchen smoke alarm narrates why the family thinks he is the villain while Dad Carl cooks his first Thanksgiving dinner alone; twist: Grandma June has burned one slice of toast on purpose every year to send the men to open windows so she can secretly fix the gravy; button: low battery chirp at three a.m.",
+ "target_seconds": 180,
+ "length_reason": "Villain-POV clips are quick one-clip skits (well under a minute), so this stays a quick one-clip skit at the shortest film length, 3:00, which also fits Instagram's 3-minute limit.",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "pov:",
+  "you're the villain",
+  "but you're the smoke alarm"
+ ],
+ "youtube_title": "The Smoke Alarm Is Not The Bad Guy This Thanksgiving | Funny Cartoon",
+ "description": "Dad is cooking the whole Thanksgiving dinner by himself this year, and the smoke alarm is having the worst day of his life. Everyone blames the alarm. But Grandma has a secret she has kept for fifty years.\n\n#cartoon #animation #funny #comedy #thanksgiving",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "thanksgiving",
+  "smoke alarm",
+  "family comedy",
+  "grandma",
+  "cooking fail"
+ ],
+ "tiktok_caption": "pov: you're the villain but you're the smoke alarm \ud83e\udd83 #cartoon #animation #funny #comedy #thanksgiving",
+ "cast": [
+  {
+   "id": "gus",
+   "name": "Gus the Smoke Alarm",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#f2f2ee",
+   "accessories": [
+    "glasses",
+    "mustache:#7a7a7a",
+    "tie:#c0392b"
+   ],
+   "brows": "worried",
+   "eye": "round",
+   "mouth": "flat",
+   "label_color": "#e74c3c",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "carl",
+   "name": "Carl",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "short",
+    "color": "#4a3020"
+   },
+   "top": {
+    "color": "#2e86c1",
+    "pattern": "apron",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#34495e",
+   "shoes": "#222222",
+   "accessories": [
+    "chef_hat"
+   ],
+   "eye": "happy",
+   "voice": {
+    "id": "am_michael",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "maya",
+   "name": "Maya",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.9,
+   "hair": {
+    "style": "ponytail",
+    "color": "#1d1d1d"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#ffffff",
+   "accessories": [
+    "headphones:#f1c40f"
+   ],
+   "brows": "raised",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 1,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "june",
+   "name": "Grandma June",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 0.92,
+   "hair": {
+    "style": "bun",
+    "color": "#d5d8dc"
+   },
+   "top": {
+    "color": "#a93226",
+    "pattern": "dots",
+    "pattern_color": "#f5cba7"
+   },
+   "bottom": "#5d4037",
+   "shoes": "#3e2723",
+   "accessories": [
+    "glasses",
+    "scarf:#f39c12"
+   ],
+   "eye": "happy",
+   "blush": true,
+   "voice": {
+    "id": "af_sarah",
+    "pitch": -1,
+    "tempo": 0.93
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "gus",
+   "text": "Hello. I am the smoke alarm. Everyone in this house thinks I am the bad guy.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "gus",
+   "text": "Today is Thanksgiving. Today they will hate me the most.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "sting"
+  },
+  {
+   "spk": "carl",
+   "text": "Okay team. Dad is cooking the whole dinner this year. No help. No notes.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "maya",
+   "text": "Dad, you burned cereal last week.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "carl",
+   "text": "Cereal is tricky. Turkey is easy. You just put it in the hot box.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gus",
+   "text": "He calls the oven the hot box. I am already nervous.",
+   "shot": "gus",
+   "gesture": "think"
+  },
+  {
+   "spk": "carl",
+   "text": "Step one. A whole stick of butter in a very hot pan.",
+   "shot": "CU"
+  },
+  {
+   "spk": "maya",
+   "text": "Is it supposed to smoke like that?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "carl",
+   "text": "That is flavor smoke. Totally normal.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gus",
+   "text": "Beep. Beep. Beep.",
+   "shot": "gus",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "ding"
+  },
+  {
+   "spk": "carl",
+   "text": "No! Not now! I'm in the zone!",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "maya",
+   "text": "Grab a towel! Wave it! Wave it at the ceiling!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gus",
+   "text": "Please stop waving the towel at me. I am not a bull. I am a safety device.",
+   "shot": "gus"
+  },
+  {
+   "spk": "carl",
+   "text": "Why are you so loud? Can't you just send a text?",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "gus",
+   "text": "I did send a text. It was the smoke.",
+   "shot": "CU"
+  },
+  {
+   "spk": "maya",
+   "text": "He has a point, Dad.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "carl",
+   "text": "Whose side are you on?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "maya",
+   "text": "The side that wants to eat today.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gus",
+   "text": "Round one goes to me. The butter did not survive.",
+   "shot": "gus",
+   "gesture": "think"
+  },
+  {
+   "spk": "carl",
+   "text": "Step two. Rolls. Grandma's famous rolls. Ten minutes.",
+   "shot": "W"
+  },
+  {
+   "spk": "maya",
+   "text": "You set a timer, right?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "carl",
+   "text": "I don't need a timer. I have instincts.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gus",
+   "text": "His instincts went to watch the big game in the other room.",
+   "shot": "gus",
+   "pre": 0.8
+  },
+  {
+   "spk": "maya",
+   "text": "Dad! The rolls!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "gus",
+   "text": "Beep. Beep. Beep. Beep.",
+   "shot": "gus",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "ding"
+  },
+  {
+   "spk": "carl",
+   "text": "That's it. I'm taking your battery out.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "gus",
+   "text": "You cannot reach me. You are five foot seven and I am on a very tall ceiling.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "carl",
+   "text": "I have a broom.",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "gus",
+   "text": "Sir, put the broom down. We can talk about this.",
+   "shot": "gus",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "maya",
+   "text": "Dad, if you take the battery out, we will forget to put it back. Like last year.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "carl",
+   "text": "Fine. You live. For now.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gus",
+   "text": "Thank you. Also, the rolls are now hockey pucks.",
+   "shot": "CU"
+  },
+  {
+   "spk": "june",
+   "text": "Hello, family! I let myself in. Why does the house smell like a campfire?",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "maya",
+   "text": "Grandma! Dad is cooking.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "june",
+   "text": "Oh, sweetheart. Again?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "carl",
+   "text": "Mom, it's under control. The alarm is just being dramatic.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "june",
+   "text": "That alarm has been dramatic since nineteen ninety eight.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gus",
+   "text": "I was installed in two thousand twelve. Ma'am, I have a sticker.",
+   "shot": "gus",
+   "gesture": "point"
+  },
+  {
+   "spk": "june",
+   "text": "Every year your father cooked, that thing went off. Every single year.",
+   "shot": "june"
+  },
+  {
+   "spk": "gus",
+   "text": "Every year, someone gets mad at me. Nobody ever gets mad at the butter.",
+   "shot": "gus",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "maya",
+   "text": "The family group chat calls him the villain of Thanksgiving.",
+   "shot": "W"
+  },
+  {
+   "spk": "gus",
+   "text": "I have a name in the group chat? What is it?",
+   "shot": "gus",
+   "gesture": "think"
+  },
+  {
+   "spk": "maya",
+   "text": "Beep Face.",
+   "shot": "TWO",
+   "pre": 0.8
+  },
+  {
+   "spk": "gus",
+   "text": "Hurtful. Accurate. But hurtful.",
+   "shot": "gus",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "carl",
+   "text": "Step three. The gravy. Mom, step back. I have a video.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "june",
+   "text": "Of course, dear. I'll just make some toast. For the stuffing.",
+   "shot": "june",
+   "gesture": "think"
+  },
+  {
+   "spk": "gus",
+   "text": "Wait. Why is Grandma holding toast so close to the toaster's highest setting?",
+   "shot": "gus",
+   "pre": 0.6
+  },
+  {
+   "spk": "june",
+   "text": "No reason. Just old people things.",
+   "shot": "june",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gus",
+   "text": "Beep. Beep. Beep.",
+   "shot": "gus",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "ding"
+  },
+  {
+   "spk": "carl",
+   "text": "What? I didn't even touch the stove!",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "june",
+   "text": "Oh no. Carl, go open every window in the house. Take your time. All of them.",
+   "shot": "june",
+   "gesture": "point"
+  },
+  {
+   "spk": "carl",
+   "text": "On it!",
+   "shot": "W",
+   "jump": true
+  },
+  {
+   "spk": "gus",
+   "text": "Ma'am. I saw that. You burned that toast on purpose.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "june",
+   "text": "Shh. Every year I burn one slice. The men run off to open windows.",
+   "shot": "june"
+  },
+  {
+   "spk": "june",
+   "text": "And while they're gone, I fix the gravy. Fifty years. Nobody knows.",
+   "shot": "june",
+   "gesture": "hips"
+  },
+  {
+   "spk": "maya",
+   "text": "Grandma! You are the villain!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "gus",
+   "text": "Twelve years I took the blame. Twelve years of towels in my face.",
+   "shot": "gus",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "june",
+   "text": "And twelve years of perfect gravy. You're welcome, Beep Face.",
+   "shot": "june",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "carl",
+   "text": "All the windows are open! Wow, the gravy looks amazing. I'm a natural!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "maya",
+   "text": "Yeah, Dad. A total natural.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gus",
+   "text": "Should I tell him?",
+   "shot": "gus",
+   "gesture": "think"
+  },
+  {
+   "spk": "june",
+   "text": "Tell him and I'll find that broom.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "carl",
+   "text": "Everyone, a toast! To family. And to the smoke alarm, for keeping us safe.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "applause"
+  },
+  {
+   "spk": "gus",
+   "text": "Thank you. Finally, some respect.",
+   "shot": "gus",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "gus",
+   "text": "Happy Thanksgiving. Also, my battery is low. I will tell you about it at three a.m.",
+   "shot": "gus",
+   "gesture": "wave",
+   "after": "boing"
+  }
+ ]
+}
