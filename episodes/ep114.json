@@ -1,0 +1,481 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 114,
+ "slug": "call-your-grandpa",
+ "title": "Call Your Grandpa",
+ "trend": "Thanksgiving-week visits to grandparents (Thanksgiving/Friendsgiving week moment Nov 21-25 on SocialPilot TikTok cultural moments, US) told as an absurd-house-rule guessing skit (POV-style setup hooks top Virlo hook type, week of Nov 16 2026) — Grandpa Walt changes the wifi password and will not tell grandkids Nadia and Jonah while the router narrates; they guess, sneak and flatter; twist: the password is call your grandpa because nobody has called him since his birthday in July; button: on Sunday it becomes visit your grandpa. (Renumbered from 113 and re-angled away from the villain-POV format because the 08:00 film ep113 used it.)",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "grandpa's house rule:",
+  "new wifi password",
+  "and he will not say it"
+ ],
+ "youtube_title": "Grandpa changed the wifi password and will not tell anyone the new one 📶",
+ "description": "Grandpa Walt changed the wifi password and he is not saying what it is. Nadia and Jonah try everything, even compliments. The new password says it all.\n\n#cartoon #animation #funny #grandpa #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "grandpa",
+  "wifi",
+  "family",
+  "grandkids",
+  "sunday"
+ ],
+ "tiktok_caption": "grandpa's house rule: new wifi password and he will not say it 📶 #cartoon #animation #funny #grandpa",
+ "cast": [
+  {
+   "id": "nadia",
+   "name": "Nadia",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.95,
+   "hair": {
+    "style": "ponytail",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#00b894",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "accessories": [
+    "headphones:#e84393"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "frown",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 1,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "jonah",
+   "name": "Jonah",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.86,
+   "hair": {
+    "style": "curly",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#fdcb6e",
+    "pattern": "stripes",
+    "pattern_color": "#e17055"
+   },
+   "bottom": "#0984e3",
+   "shoes": "#d63031",
+   "accessories": [
+    "cap:#0984e3"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#ffeaa7",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 1,
+    "tempo": 1.06
+   }
+  },
+  {
+   "id": "walt",
+   "name": "Grandpa Walt",
+   "kind": "human",
+   "color": "#a0522d",
+   "scale": 1.05,
+   "hair": {
+    "style": "bald",
+    "color": "#dfe6e9"
+   },
+   "top": {
+    "color": "#b5651d",
+    "pattern": "plain"
+   },
+   "bottom": "#636e72",
+   "shoes": "#2d3436",
+   "accessories": [
+    "glasses",
+    "mustache:#dfe6e9"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.92
+   }
+  },
+  {
+   "id": "router",
+   "name": "The Router",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#2d3436",
+   "scale": 0.85,
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#74b9ff",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "nadia",
+   "text": "Grandpa. The wifi stopped working nine minutes ago. I am counting.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "walt",
+   "text": "I changed the password.",
+   "shot": "TWO",
+   "gesture": "shrug",
+   "post": 0.8
+  },
+  {
+   "spk": "router",
+   "text": "Hello. I am the router. Today I am the most important person in this house.",
+   "shot": "router",
+   "gesture": "wave",
+   "after": "sting"
+  },
+  {
+   "spk": "jonah",
+   "text": "Grandpa, what is the new password?",
+   "shot": "CU"
+  },
+  {
+   "spk": "walt",
+   "text": "Guess.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "nadia",
+   "text": "That is exactly what a bad guy in a movie says.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "walt",
+   "text": "Then I am the bad guy. Pass the crackers.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "router",
+   "text": "He has been the bad guy since breakfast. He unplugged me twice just to feel something.",
+   "shot": "router"
+  },
+  {
+   "spk": "nadia",
+   "text": "I have a group chat with forty people in it. They think I moved to the woods.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "router",
+   "text": "She has been staring at me like I owe her money.",
+   "shot": "router",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "nadia",
+   "text": "Okay. Password one. Grandpa one two three.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "router",
+   "text": "Wrong. And honestly, a little insulting.",
+   "shot": "router",
+   "gesture": "cross"
+  },
+  {
+   "spk": "jonah",
+   "text": "Password two. Big Walt the legend.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "walt",
+   "text": "Nobody has called me that since the bowling league.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "router",
+   "text": "Also wrong. But he smiled. Write that down.",
+   "shot": "router"
+  },
+  {
+   "spk": "nadia",
+   "text": "He smiled? Is it bowling? Is the password bowling?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "jonah",
+   "text": "I tried meatloaf. I tried pudding. I tried the name of his truck.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "walt",
+   "text": "Her name is Doris and she is not online.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "nadia",
+   "text": "Grandpa, this is an emergency. My phone is just a flashlight now.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "walt",
+   "text": "Your phone is fine. It is just bored. Like a teenager.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jonah",
+   "text": "Plan B. I crawl behind the couch and read the back of the router.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "router",
+   "text": "Please do not read my back. I am a private box.",
+   "shot": "router",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jonah",
+   "text": "It says the old password. Then a sticky note says, nice try, Jonah.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "nadia",
+   "text": "Plan C. I will be very nice to you.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "walt",
+   "text": "Oh no.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "nadia",
+   "text": "Grandpa, you look so handsome in that sweater.",
+   "shot": "CU"
+  },
+  {
+   "spk": "walt",
+   "text": "Your grandmother knitted this. It is three sizes too big. I love it.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "nadia",
+   "text": "And you smell like a very expensive pine tree.",
+   "shot": "CU"
+  },
+  {
+   "spk": "walt",
+   "text": "That is the soup.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "post": 0.8
+  },
+  {
+   "spk": "router",
+   "text": "She is losing. She is complimenting soup.",
+   "shot": "router",
+   "gesture": "facepalm",
+   "after": "rimshot"
+  },
+  {
+   "spk": "jonah",
+   "text": "Plan D. We cry.",
+   "shot": "CU"
+  },
+  {
+   "spk": [
+    "nadia",
+    "jonah"
+   ],
+   "text": "Please, Grandpa. Please.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "nadia",
+   "text": "Fine. We give up. What do you even want?",
+   "shot": "TWO",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "walt",
+   "text": "Sit down. Both of you. On the actual couch.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "router",
+   "text": "Something is happening. My little lights are blinking with feelings.",
+   "shot": "router"
+  },
+  {
+   "spk": "walt",
+   "text": "When did either of you last call me?",
+   "shot": "CU",
+   "pre": 0.9,
+   "post": 0.8
+  },
+  {
+   "spk": "jonah",
+   "text": "We text you.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "walt",
+   "text": "You send me a little thumbs up. I thought it was a sandwich.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nadia",
+   "text": "The summer. We called you in the summer. For your birthday.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "walt",
+   "text": "July. It is November. I counted too.",
+   "shot": "CU",
+   "post": 0.8
+  },
+  {
+   "spk": "router",
+   "text": "Okay. He wins the counting.",
+   "shot": "router"
+  },
+  {
+   "spk": "walt",
+   "text": "So I changed it. The new password is three words. No spaces.",
+   "shot": "CU"
+  },
+  {
+   "spk": "nadia",
+   "text": "What are the words?",
+   "shot": "CU"
+  },
+  {
+   "spk": "walt",
+   "text": "Call. Your. Grandpa.",
+   "shot": "CU",
+   "post": 1.0,
+   "after": "sting"
+  },
+  {
+   "spk": "jonah",
+   "text": "Call your grandpa.",
+   "shot": "jonah"
+  },
+  {
+   "spk": "router",
+   "text": "Connected. Everyone is connected. Even me. I am crying in blue.",
+   "shot": "router",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "nadia",
+   "text": "That is the most evil thing I have ever heard. And also very sweet.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "walt",
+   "text": "I know. I had a lot of time to think. Nobody called.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jonah",
+   "text": "I will call you every Sunday. With my face.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "walt",
+   "text": "With your face. Good. I will wear the sweater.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "nadia",
+   "text": "I am calling you right now. You are sitting right there.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "walt",
+   "text": "Hello? Who is this? I am a very busy man.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "nadia",
+   "text": "Can I go back to my group chat now?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "walt",
+   "text": "Yes. But I am changing it again on Sunday.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "jonah",
+   "text": "To what?",
+   "shot": "CU"
+  },
+  {
+   "spk": "walt",
+   "text": "Visit. Your. Grandpa.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "boing"
+  }
+ ]
+}
