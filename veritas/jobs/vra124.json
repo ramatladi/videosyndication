@@ -1,0 +1,86 @@
+{
+ "id": "vra124",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.05,
+ "source_id": "zscaler:5283494007",
+ "job": {
+  "employer": "Zscaler",
+  "logo": "zscaler",
+  "title": "Software Development Engineer",
+  "short_title": "Software Development Engineer",
+  "location": "Santa Clara, CA",
+  "workplace": "Hybrid",
+  "pay": "$101.5K – $145K a year",
+  "pay_full": "$101,500 – $145,000 a year base salary (excludes commission, bonus, equity and benefits)",
+  "type": "Full time",
+  "posted": "",
+  "ref": "5283494007",
+  "apply_url": "https://job-boards.greenhouse.io/zscaler/jobs/5283494007",
+  "apply_site": "job-boards.greenhouse.io/zscaler"
+ },
+ "details": {
+  "about": "Zscaler's Zero Trust Exchange is a cloud security platform that protects thousands of customers from cyberattacks and data loss, running across more than 200 public data centers and thousands of private edge sites. This hybrid Santa Clara role is on the Data & APIs team, which builds large-scale data pipelines and real-time streaming systems for Zscaler's security telemetry and the APIs that expose it. You report to the Sr Manager, Software Development Engineering, and own features end to end.",
+  "duties": [
+   "Build and maintain backend services and REST/gRPC APIs that expose Zscaler's security data to internal teams and customers",
+   "Contribute to large-scale streaming and batch pipelines (Kafka, Spark/Flink) and the SQL, NoSQL and columnar storage behind them",
+   "Write and review design docs and contribute to AI/ML-enabled anomaly-detection and signal-correlation logic over streaming telemetry",
+   "Instrument, monitor and operate your services, including on-call rotation and incident response",
+   "Find pain points such as bugs, slow queries and flaky tests and ship improvements, working with senior engineers, Product and consuming teams"
+  ],
+  "needs": [
+   "Daily, hands-on use of modern AI coding assistants, code-review tools and agentic workflows",
+   "0–2 years of professional software engineering building backend services, with Java, Python or Go",
+   "Hands-on experience designing and building REST and/or gRPC APIs, including schema definition, versioning and auth",
+   "Working experience with streaming/batch data technologies (Kafka, Spark, Flink, Airflow or equivalent) and relational and/or NoSQL databases, including basic pipeline performance analysis",
+   "Exposure to Azure and/or GCP and to Docker/Kubernetes, with basic observability and debugging skills",
+   "Strong fundamentals in data structures, algorithms and distributed systems, and a track record of shipping production features end to end"
+  ],
+  "nice": [
+   "Using AI technologies and workflows to drive measurable operational efficiency",
+   "Anomaly detection, signal triangulation or correlation over large-scale telemetry, logs or security/networking data",
+   "Azure or GCP managed streaming and data services, and warehouse/lakehouse tech such as Snowflake, Databricks, ClickHouse or Elasticsearch",
+   "API-first development: OpenAPI/protobuf, contract testing and API lifecycle management"
+  ],
+  "benefits": "Base pay range $101,500 – $145,000 a year, the new-hire target across all US locations; it excludes any commission, bonus or equity and benefits. Benefits include various health plans, vacation and sick time, parental leave options, retirement options, education reimbursement and in-office perks.",
+  "notes": [
+   "Hybrid role in Santa Clara, CA",
+   "Includes an on-call rotation",
+   "Zscaler offers accommodations in its recruiting process"
+  ]
+ },
+ "yt_title": "Zscaler Is Hiring: Software Development Engineer | Santa Clara, CA | $101K–$145K",
+ "hashtags": ["#TechJobs", "#SoftwareEngineer", "#BayAreaJobs", "#EntryLevelJobs", "#Hiring"],
+ "tags": ["zscaler jobs", "software development engineer", "entry level software engineer", "backend engineer jobs", "santa clara jobs", "bay area tech jobs", "kafka jobs", "cybersecurity jobs", "jobs in usa", "veritas recruitment agency"],
+ "scenes": [
+  {
+   "head": "The role",
+   "bullets": ["Software Development Engineer", "Data & APIs team", "Santa Clara, CA · Hybrid"],
+   "lines": ["Now hiring in Santa Clara, California! Zscaler wants a Software Development Engineer for its Data and A P Is team, in a hybrid role."],
+   "show": ["Now hiring in Santa Clara, California! Zscaler wants a Software Development Engineer for its Data & APIs team, in a hybrid role."]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": ["Build backend services & APIs", "Streaming pipelines: Kafka, Spark, Flink", "Run what you build, incl. on-call"],
+   "lines": ["You'll build the backend services, A P Is, and streaming pipelines behind Zscaler's security data, and help run them, including on-call."],
+   "show": ["You'll build the backend services, APIs, and streaming pipelines behind Zscaler's security data, and help run them, including on-call."]
+  },
+  {
+   "head": "What you need",
+   "bullets": ["0–2 yrs backend engineering", "Java, Python or Go", "REST/gRPC APIs · Kafka, Spark…", "Daily use of AI coding tools"],
+   "lines": ["You'll need zero to two years building backend services in Java, Python, or Go, plus hands-on A P I design and streaming tools like Kafka or Spark.", "Daily use of A I coding assistants is also required."],
+   "show": ["You'll need 0 to 2 years building backend services in Java, Python, or Go, plus hands-on API design and streaming tools like Kafka or Spark.", "Daily use of AI coding assistants is also required."]
+  },
+  {
+   "head": "Pay",
+   "bullets": ["$101,500 – $145,000 a year (base)", "Health, retirement, parental leave", "Education reimbursement"],
+   "lines": ["Base pay is one hundred one thousand five hundred to one hundred forty-five thousand dollars a year, with health plans, retirement options, and education reimbursement."],
+   "show": ["Base pay is $101,500 to $145,000 a year, with health plans, retirement options, and education reimbursement."]
+  },
+  {
+   "head": "How to apply",
+   "bullets": ["Application link in the description", "Apply on Zscaler's Greenhouse board", "Job ID 5283494007"],
+   "lines": ["To apply, find the direct application link in the description.", "Follow Veritas for new tech jobs every day."]
+  }
+ ]
+}

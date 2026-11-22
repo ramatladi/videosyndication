@@ -1,0 +1,81 @@
+{
+ "id": "vra126",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.05,
+ "source_id": "braze:8399184",
+ "job": {
+  "employer": "Braze",
+  "logo": "braze",
+  "title": "Platform Infrastructure Engineer II",
+  "short_title": "Platform Infrastructure Engineer II",
+  "location": "New York, NY",
+  "workplace": "Hybrid",
+  "pay": "$118.5K – $196.4K a year",
+  "pay_full": "$118,545 – $196,364 a year starting pay (US), with expected On Target Earnings of $130,400 – $216,000 a year including bonus or commission, plus restricted stock units",
+  "type": "",
+  "posted": "",
+  "ref": "8399184",
+  "apply_url": "https://job-boards.greenhouse.io/braze/jobs/8399184",
+  "apply_site": "job-boards.greenhouse.io/braze"
+ },
+ "details": {
+  "about": "Braze is a customer engagement platform headquartered in New York. Its Platform Infrastructure Engineers manage and evolve the foundational infrastructure behind Braze's internal Infrastructure-as-a-Service platform, including Kubernetes clusters, Kafka ecosystems and cloud environments, so every other engineering team can build on it. Braze runs at massive scale: over 3.3 billion monthly active users across its customers, hundreds of billions of data points a month and billions of messages a day, on a stack including Ruby on Rails, MongoDB, Redis, Kafka and Kubernetes.",
+  "duties": [
+   "Build, optimize and manage Kubernetes clusters, Kafka ecosystems and cloud resources such as EC2 and S3",
+   "Develop automation frameworks to provision and maintain infrastructure at scale",
+   "Implement high-availability, fault-tolerant infrastructure and help set and meet SLOs",
+   "Join a PagerDuty rotation for infrastructure incidents; build failover, backup and disaster recovery plans; run root cause analyses",
+   "Partner with Platform Software Engineers, document processes and mentor teammates",
+   "Automate away manual work in provisioning, scaling and maintenance"
+  ],
+  "needs": [
+   "4+ years managing and scaling large-scale infrastructure systems in production",
+   "Proven expertise with Kubernetes, Kafka, cloud services (AWS/GCP/Azure) and configuration management tools",
+   "Proficiency in infrastructure-as-code tools such as Terraform or Ansible",
+   "Strong understanding of network architecture, security and performance tuning",
+   "Familiarity with containerization, service discovery and load balancing",
+   "Comfort collaborating asynchronously across global remote teams and documenting your work"
+  ],
+  "nice": [],
+  "benefits": "Starting pay for US-based candidates $118,545 – $196,364 a year, with expected On Target Earnings (OTE) of $130,400 – $216,000 a year including bonus or commission; the offer depends on location, knowledge, skills and experience. The Total Rewards package includes restricted stock units (RSUs). Benefits include retirement and employee stock purchase plans, flexible paid time off, medical, dental, vision, life and disability cover, fertility benefits and equal paid parental leave, a yearly learning stipend, and volunteer and donation-matching programs.",
+  "notes": [
+   "Hybrid role in New York City",
+   "Includes a PagerDuty on-call rotation",
+   "Benefits vary by location"
+  ]
+ },
+ "yt_title": "Braze Is Hiring: Platform Infrastructure Engineer II | New York, NY | $118K–$196K",
+ "hashtags": ["#TechJobs", "#DevOps", "#Kubernetes", "#NYCJobs", "#Hiring"],
+ "tags": ["braze jobs", "platform engineer jobs", "infrastructure engineer jobs", "devops jobs", "kubernetes jobs", "kafka jobs", "terraform jobs", "new york tech jobs", "jobs in usa", "veritas recruitment agency"],
+ "scenes": [
+  {
+   "head": "The role",
+   "bullets": ["Platform Infrastructure Engineer II", "Braze · Infrastructure platform", "New York, NY · Hybrid"],
+   "lines": ["Now hiring in New York City! Braze wants a Platform Infrastructure Engineer Two, in a hybrid role."],
+   "show": ["Now hiring in New York City! Braze wants a Platform Infrastructure Engineer II, in a hybrid role."]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": ["Run Kubernetes, Kafka & cloud resources", "Automate provisioning at scale", "On-call · failover & recovery plans"],
+   "lines": ["You'll build and run the Kubernetes clusters, Kafka systems, and cloud resources every Braze team depends on, at billions of messages a day.", "You'll also join the on-call rotation."]
+  },
+  {
+   "head": "What you need",
+   "bullets": ["4+ yrs large-scale production infrastructure", "Kubernetes, Kafka, AWS/GCP/Azure", "Terraform, Ansible or similar", "Networking, security & tuning"],
+   "lines": ["You'll need four years running large-scale production infrastructure, with Kubernetes, Kafka, and a major cloud.", "Plus infrastructure as code like Terraform or Ansible, and strong networking and security skills."],
+   "show": ["You'll need 4 years running large-scale production infrastructure, with Kubernetes, Kafka, and a major cloud.", null]
+  },
+  {
+   "head": "Pay",
+   "bullets": ["$118,545 – $196,364 a year (start)", "OTE $130,400 – $216,000", "Stock units · flexible time off"],
+   "lines": ["Starting pay is one hundred eighteen thousand five hundred forty-five to one hundred ninety-six thousand three hundred sixty-four dollars a year, plus bonus or commission and stock."],
+   "show": ["Starting pay is $118,545 to $196,364 a year, plus bonus or commission and stock."]
+  },
+  {
+   "head": "How to apply",
+   "bullets": ["Application link in the description", "Apply on Braze's Greenhouse board", "Job ID 8399184"],
+   "lines": ["To apply, find the direct application link in the description.", "Follow Veritas for new tech jobs every day."]
+  }
+ ]
+}
