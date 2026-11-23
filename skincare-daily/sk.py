@@ -388,7 +388,7 @@ TIER_C_LINE = {'body': 'Body care reaches the neck, and the directions for this 
                'labels': 'Today, a close read of this listing.', 'hydra': 'Today, how this one layers.'}
 SHORT_TITLES = ['Dermalogica {N}: {T} #shorts', 'How to Use Dermalogica {N} #shorts', 'Dermalogica {N} in Under a Minute: {T} #shorts',
                 '{A}: Dermalogica {N} #shorts', 'Dermalogica {N}, Explained Fast #shorts', 'What Dermalogica {N} Does: {T} #shorts']
-VIDEO_TITLES = ['Dermalogica {N} Review: {T}, How to Use It', 'Dermalogica {N}: What It Does and How to Use It', 'Dermalogica {N}, Explained', 'Dermalogica {N}: How to Use It',
+VIDEO_TITLES = ['Dermalogica {N}: {T}, and How to Use It', 'Dermalogica {N}: What It Does and How to Use It', 'Dermalogica {N}, Explained', 'Dermalogica {N}: How to Use It',
                 'Dermalogica {N} Explained: {T}', '{A}: Dermalogica {N}, Step by Step', 'Dermalogica {N}: Benefits, Directions and Who It Suits']
 DESK_TITLE = {'moist': 'Moisturizer Desk', 'body': 'Body Care', 'routine': 'Routine Builder', 'labels': 'Label Read', 'hydra': 'Layering Guide', 'sun': 'Daily SPF'}
 
