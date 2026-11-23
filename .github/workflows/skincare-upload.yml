@@ -1,7 +1,8 @@
 name: Skincare channels upload
 # Publishes the six skincare channels' staged videos (media branch, skincare-daily/<DATE>/manifest.json) to YouTube
 # with the YouTube Data API: future slots are scheduled for their SAST slot time, overdue ones posted now (spaced an
-# hour apart per channel). Video IDs go back into each day's receipt-ledger.json. All logic: skincare-daily/yt_publish.py.
+# hour apart per channel). Up to 36 per run (a whole day; the API allowance is about 45 uploads a day, seen 15 Nov 2026), so
+# the first run after the evening production run schedules all of tomorrow. Video IDs go back into each day's receipt-ledger.json. All logic: skincare-daily/yt_publish.py.
 # Secrets (written by skincare-daily/yt_auth.py): YT_SK_CLIENT_ID, YT_SK_CLIENT_SECRET, and per channel key
 # (CHANNELS.json) YT_SK_REFRESH_<KEY>, YT_SK_CHANNEL_<KEY>.
 on:
@@ -16,7 +17,7 @@ concurrency:
 jobs:
   upload:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
         with:
@@ -46,4 +47,4 @@ jobs:
           YT_SK_CHANNEL_UMHLANGA: ${{ secrets.YT_SK_CHANNEL_UMHLANGA }}
           YT_SK_REFRESH_CAPETOWN: ${{ secrets.YT_SK_REFRESH_CAPETOWN }}
           YT_SK_CHANNEL_CAPETOWN: ${{ secrets.YT_SK_CHANNEL_CAPETOWN }}
-        run: python3 skincare-daily/yt_publish.py media --max-uploads 12
+        run: python3 skincare-daily/yt_publish.py media --max-uploads 36
