@@ -79,13 +79,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "RUMMWH5R-yY",
       "sku": "W110641",
       "title": "Reading the Label: Dermalogica SkinPerfect Primer SPF30 #shorts",
       "manifest_slug": "capetown-skinperfect-primer-spf30-short",
       "media_sha256": "c577e1db615475f0e53aac44a11e9c3e01a33586383d04c2d28819efd3ee67ba",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T06:00:00Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -442,5 +443,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T21:04+02:00"
   },
-  "youtube_ids_recorded": 1
+  "youtube_ids_recorded": 2
 }
