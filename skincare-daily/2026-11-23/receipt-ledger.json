@@ -135,13 +135,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "Vy0-nLwbJiM",
       "sku": "411485INT",
       "title": "Dermalogica Dynamic Skin Recovery SPF50 Ingredients, Read From the Label",
       "manifest_slug": "capetown-dynamic-skin-recovery-spf50",
       "media_sha256": "140753df62cbe440c15d15a3b1c6874e403069d324c968e9d43628e107642d15",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T16:00:00Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -466,5 +467,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 25
+  "youtube_ids_recorded": 26
 }
