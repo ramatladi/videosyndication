@@ -107,7 +107,7 @@ def parse(p):
                 label.append(x[:1].upper() + x[1:])
             if len(label) >= 6: break
     keyw = re.compile(r'(?i)\b(acid|vitamin|extract|oil|peptide|ceramide|niacinamide|retin|zinc|complex|enzyme|clay|charcoal|butter|squalane|tea|botanical|probiotic|hyaluronic|glycolic|lactic|salicylic|ferment|algae|oat|aloe|licorice|kojic|exosome|silica)')
-    keysent = [x for x in sentences(body) + bl if keyw.search(x) and not claim.search(x)][:4]
+    keysent = [x for x in sentences(body) + bl if keyw.search(x) and not claim.search(x) and not re.match(r'(?i)\s*recommended', x)][:4]
     return {'label': label, 'key_sentences': keysent,
             'tagline': tagline, 'description': [x for x in sentences(desc) if not claim.search(x)][:4], 'benefits': bl[:6],
             'how': sentences(how)[:5], 'inside': inside, 'recommended': clean(rec.group(1)) if rec else '',
@@ -511,7 +511,20 @@ def angle_scenes(ang, f, p, it, sp, intro, how, ben, desc, pics, short, size):
         if desc: sc.append(dict(type='figure', image=pic(1), kicker='WHAT IT IS', headline=short_head(desc[0], 52), say=say_units(words(30 if short else 70, *desc))))
         if how: sc.append(dict(type='steps', image=pic(2), kicker='HOW TO USE', headline='Directions from the listing', items=[short_head(h, 40) for h in how[:3]], say=say_units(words(28 if short else 80, *how))))
     if short:
-        while len(sc) > (3 if f['inside'] else 2) and sum(len(x['say']) for x in sc) + 80 > 560: sc.pop()
+        budget = 560 - 2 * max(0, len(sp) - 30)  # long names are read twice (cover and end card)
+        while len(sc) > (3 if f['inside'] else 2) and sum(len(x['say']) for x in sc) + 80 > budget: sc.pop()
+    else:  # regular videos need at least ~45 s: add the listing's own description and benefits until ~130 words
+        extra = [dict(type='figure', image=pic(4), kicker='WHAT IT IS', headline=short_head(d_, 52), say=say_units(d_)) for d_ in desc[:2]] + \
+                [dict(type='figure', image=pic(5 + j), kicker='BENEFIT', headline=short_head(b_, 52), say=say_units(b_.rstrip('.') + '.')) for j, b_ in enumerate(ben[:4])]
+        extra += [dict(type='figure', image=pic(6 + j), kicker='KEY INGREDIENTS', headline=short_head(american(x_), 52), say=say_units(american(x_))) for j, x_ in enumerate(f['key_sentences'][:3])]
+        if how and not any(x.get('kicker') in ('HOW TO USE', 'IN YOUR ROUTINE') for x in sc):
+            extra.append(dict(type='steps', image=pic(7), kicker='HOW TO USE', headline='Directions from the listing', items=[short_head(h, 40) for h in how[:3]], say=say_units(words(90, *how))))
+        if f['recommended'] and not any(x.get('kicker') == 'RECOMMENDED FOR' for x in sc):
+            extra.append(dict(type='note', image=pic(9), kicker='RECOMMENDED FOR', headline=short_head(american(f['recommended']), 70), say=say_units('The listing recommends it for ' + american(f['recommended']).rstrip('.') + '.')))
+        have_ = ' '.join(x['say'] for x in sc)
+        for e_ in extra:
+            if sum(len(x['say'].split()) for x in sc) >= 130: break
+            if e_['say'][:50] not in have_: sc.append(e_); have_ += ' ' + e_['say']
     if len(sc) < 2: return None
     sc.append(dict(type='end', sub=(size.replace('ml', ' mL') if size else tcase(clean(p['title']))), say=f"That's Dermalogica {sp}. The link is in the description."))
     used = set()
@@ -707,7 +720,7 @@ def thumbs(date, only=()):
         vv = dict(v); vv['channel'] = spec['channels'][v['domain']]; vv.update({x: vv['channel'][x] for x in ('locality', 'desk', 'credential_line', 'voice')})
         photos = list(dict.fromkeys(x['image'] for x in v['scenes'] if x.get('image') and x['image'] != v['packshot']))
         best = None
-        texts = list(dict.fromkeys([v['thumb']['text'], THUMB_FALLBACK[CH[v['domain']][1]], 'How to use it']))
+        texts = list(dict.fromkeys([v['thumb']['text'], THUMB_FALLBACK[CH[v['domain']][1]], 'How to use it'] + [t for L in ANGLE_THUMB.values() for t in L]))
         for lay, txt in [(l, t) for t in texts for l in ['right', 'left', 'center', 'split'] + [('photo', p) for p in photos]]:
             if best and best[0] >= 48: break
             th = {'text': txt, 'kicker': v['thumb']['kicker']}
