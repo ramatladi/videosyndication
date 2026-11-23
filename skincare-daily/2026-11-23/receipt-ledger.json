@@ -389,13 +389,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "eRK6uNITkjI",
       "sku": "811059",
       "title": "Dermalogica Active Moist, Explained",
       "manifest_slug": "rosebank-active-moist",
       "media_sha256": "96f9992fd18dc8329ddc4e82beb131a55d4a38913e2fcd6fe1aa16c356f69748",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T08:00:00Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -452,5 +453,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 11
+  "youtube_ids_recorded": 12
 }
