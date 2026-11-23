@@ -28,10 +28,10 @@
   },
   "@DermatologyJoburgBedfordview": {
    "domain": "dermatology.joburg",
-   "shorts": 3,
+   "shorts": 4,
    "videos": 2,
    "all_pass": true,
-   "status": "partial: staged items ready"
+   "status": "ready"
   },
   "@SkincareDurbanWestville": {
    "domain": "skincare.durban",
@@ -48,22 +48,8 @@
    "status": "ready"
   }
  },
- "not_staged": [
-  [
-   "dermatology.joburg",
-   "20:00",
-   "bedfordview-breakout-clearing-booster-short",
-   "too similar to an earlier thumbnail"
-  ]
- ],
- "unfilled_slots": [
-  {
-   "handle": "@DermatologyJoburgBedfordview",
-   "slot_sast": "2026-11-23 20:00",
-   "format": "short",
-   "reason": "not staged: too similar to an earlier thumbnail"
-  }
- ],
+ "not_staged": [],
+ "unfilled_slots": [],
  "items": [
   {
    "domain": "dermatologist.joburg",
@@ -1524,6 +1510,69 @@
     "pass": true
    },
    "crossday_min_thumb_dist": 44,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.joburg",
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-23 20:00",
+   "format": "short",
+   "slug": "bedfordview-breakout-clearing-booster-short",
+   "sku": "111295",
+   "variant": "30ml",
+   "selection": {
+    "tier": "a",
+    "why": "unused SKU in the desk (7-day window)"
+   },
+   "product": {
+    "name": "breakout clearing booster",
+    "listing_url": "https://dermalogica.co.za/products/breakout-clearing-booster-30ml-111295?variant=46583581442362",
+    "checked": "2026-11-23",
+    "packshot": "skincare-daily/2026-11-23/images/d1123-111295-00.jpg",
+    "packshot_sha256": "52929c3d5e2400f2de7ecf8918e745f25a98a3ea1a90385b1885348431c4e818",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/01-Packaging.jpg?v=1761904222"
+   },
+   "title": "Reading the Label: Dermalogica Breakout Clearing Booster #shorts",
+   "description": "Dermalogica breakout clearing booster: soothes and rapidly clears skin, from the Bedfordview labels and ingredients desk.\n\nWe earn a commission if you buy through our link at https://dermatology.joburg/.\n\n• Soothes and rapidly clears skin\n• Crispus Extract locks in moisture to help, soothe irritated skin Cruelty-free, gluten-free and vegan\n• Niacinamide reinforces skin’s defensive barrier and helps to even skin tone Seaweed-derived\n• How to use: Apply directly to blemish or breakout area, or apply a thin layer all over the face under moisturizer for breakout prevention.\n\ndermatology.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/breakout-clearing-booster-30ml-111295?variant=46583581442362, checked 2026-11-23); check the current listing before you buy.\n\nShop: https://dermatology.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #BreakoutClearingBooster #LabelRead #shorts",
+   "tags": [
+    "breakout clearing booster",
+    "dermalogica breakout clearing booster",
+    "labels and ingredients",
+    "bedfordview skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 45.0,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-23/renders/dermatology.joburg/bedfordview-breakout-clearing-booster-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-23/renders/dermatology.joburg/bedfordview-breakout-clearing-booster-short.mp4",
+   "sha256": "79bc560cfa869adc7d4a726f7f2e907ad90d326b9788c381e95d5e5d069d651e",
+   "thumbnail_path": "skincare-daily/2026-11-23/renders/dermatology.joburg/bedfordview-breakout-clearing-booster-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-23/renders/dermatology.joburg/bedfordview-breakout-clearing-booster-short.jpg",
+   "thumbnail_sha256": "5496d660d39906f61eed186e28d2470a4067cac65896923e4ae0c3b8fe7d81fd",
+   "captions_path": "skincare-daily/2026-11-23/renders/dermatology.joburg/bedfordview-breakout-clearing-booster-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-23/renders/dermatology.joburg/bedfordview-breakout-clearing-booster-short.en.srt",
+   "captions_sha256": "f9fbd1559d46c146f113db90d2da273e4108ce39ab15f6fe55e30f3068a85e24",
+   "listing_images": [
+    "skincare-daily/2026-11-23/images/d1123-111295-00.jpg",
+    "skincare-daily/2026-11-23/images/d1123-111295-02.jpg",
+    "skincare-daily/2026-11-23/images/d1123-111295-07.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_nicole (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.37,
+    "true_peak": -1.94,
+    "packshot_match": 0.911,
+    "srt_cues": 9,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 48,
    "status": "ready"
   },
   {
