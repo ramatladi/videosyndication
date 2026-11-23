@@ -136,13 +136,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "3iNVDlsMjpU",
       "sku": "111508",
       "title": "Dermalogica Dynamic Skin Strengthening Serum 30ml: Benefits, Directions and Who It Suits",
       "manifest_slug": "capetown-dynamic-skin-strengthening-serum-30ml-30ml",
       "media_sha256": "a34e4e2f91b095f390d2301513ca9d697cb5c263448917edbcbeab34c6d60404",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T22:32:26Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -475,5 +476,5 @@
     "youtube_ids_recorded": 31,
     "producer_refreshed": "2026-11-23T21:10+02:00"
   },
-  "youtube_ids_recorded": 34
+  "youtube_ids_recorded": 35
 }
