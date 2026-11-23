@@ -3,15 +3,23 @@
   "handle": "@DermatologyDurbanUmhlanga",
   "title": "Dermalogica Multi Active Toner: Every Size in Under a Minute #shorts",
   "slot_sast": "2026-11-23 16:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref0cf7fab02286",
   "publish_at": "2026-11-23T14:00:00Z",
   "overdue": false,
   "upload_started": "2026-11-23T08:17:34Z",
   "error": null,
-  "updated": "2026-11-23T08:17:38Z",
+  "updated": "2026-11-23T08:18:25Z",
   "video_id": "gBbaf7W6QXc",
   "published_now": null,
   "url": "https://youtube.com/shorts/gBbaf7W6QXc",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCBHecSaBW2iEir_PIp7sJbQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-23T14:00:00Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
