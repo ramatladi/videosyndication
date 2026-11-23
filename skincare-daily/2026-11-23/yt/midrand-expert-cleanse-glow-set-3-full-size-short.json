@@ -9,8 +9,9 @@
   "overdue": false,
   "upload_started": "2026-11-23T08:16:20Z",
   "error": null,
-  "updated": "2026-11-23T08:16:23Z",
+  "updated": "2026-11-23T08:16:24Z",
   "video_id": "GiYOQfuiPvc",
   "published_now": null,
-  "url": "https://youtube.com/shorts/GiYOQfuiPvc"
+  "url": "https://youtube.com/shorts/GiYOQfuiPvc",
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
 }
