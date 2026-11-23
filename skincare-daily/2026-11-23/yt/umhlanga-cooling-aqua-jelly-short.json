@@ -3,15 +3,23 @@
   "handle": "@DermatologyDurbanUmhlanga",
   "title": "Dermalogica Cooling Aqua Jelly Ingredients: What's on the Label #shorts",
   "slot_sast": "2026-11-23 08:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefac6fc240d9fc",
   "publish_at": "2026-11-23T06:00:00Z",
   "overdue": false,
   "upload_started": "2026-11-23T05:39:03Z",
   "error": null,
-  "updated": "2026-11-23T05:39:08Z",
+  "updated": "2026-11-23T05:39:40Z",
   "video_id": "aCFSDhEwamA",
   "published_now": null,
   "url": "https://youtube.com/shorts/aCFSDhEwamA",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCBHecSaBW2iEir_PIp7sJbQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-23T06:00:00Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
