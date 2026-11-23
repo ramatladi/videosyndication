@@ -3,15 +3,23 @@
   "handle": "@DermatologyJoburgBedfordview",
   "title": "Dermalogica BioLumin-C Night Restore Serum Ingredients, Read From the Label",
   "slot_sast": "2026-11-23 10:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref80fca7491593",
   "publish_at": "2026-11-23T08:00:00Z",
   "overdue": false,
   "upload_started": "2026-11-23T05:43:12Z",
   "error": null,
-  "updated": "2026-11-23T05:43:17Z",
+  "updated": "2026-11-23T05:43:48Z",
   "video_id": "yN2jZ_YPjxA",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=yN2jZ_YPjxA",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCs0uxMnSV1INS_Bxn6yqc2Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-23T08:00:00Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
