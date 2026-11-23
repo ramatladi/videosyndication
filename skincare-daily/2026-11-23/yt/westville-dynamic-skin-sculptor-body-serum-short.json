@@ -3,15 +3,23 @@
   "handle": "@SkincareDurbanWestville",
   "title": "What Goes Into Dermalogica Dynamic Skin Sculptor Body Serum? #shorts",
   "slot_sast": "2026-11-23 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefebc6b99c878e",
   "publish_at": "2026-11-23T10:00:00Z",
   "overdue": false,
   "upload_started": "2026-11-23T08:15:04Z",
   "error": null,
-  "updated": "2026-11-23T08:15:08Z",
+  "updated": "2026-11-23T08:15:40Z",
   "video_id": "JJEOqOe5zaY",
   "published_now": null,
   "url": "https://youtube.com/shorts/JJEOqOe5zaY",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCh1fAzbqzZRAKMoFpJ9f0_g",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-23T10:00:00Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
