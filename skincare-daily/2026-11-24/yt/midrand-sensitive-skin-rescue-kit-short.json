@@ -3,15 +3,23 @@
   "handle": "@DermatologistJoburgMidrand",
   "title": "Dermalogica Sensitive Skin Rescue Kit: Which Step Is It? #shorts",
   "slot_sast": "2026-11-24 08:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref3a923d1fa386",
   "publish_at": "2026-11-24T06:00:00Z",
   "overdue": false,
   "upload_started": "2026-11-23T20:35:43Z",
   "error": null,
-  "updated": "2026-11-23T20:35:49Z",
+  "updated": "2026-11-23T20:36:21Z",
   "video_id": "T8bfVw3LZ_0",
   "published_now": null,
   "url": "https://youtube.com/shorts/T8bfVw3LZ_0",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCb16q-70MGFin6RfsMGbdnw",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-24T06:00:00Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
