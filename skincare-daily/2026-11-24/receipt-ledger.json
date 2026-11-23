@@ -371,13 +371,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "_nNfkVkRaIY",
       "sku": "111466INT",
       "title": "Dermalogica Phyto Nature Oxygen Cream Ingredient Check #shorts",
       "manifest_slug": "rosebank-phyto-nature-oxygen-cream-short",
       "media_sha256": "35afe9075b43919b7ce5c6709ee7b665fcf34e332878ec50442173ec4d96916f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T06:00:00Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -446,5 +447,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T21:04+02:00"
   },
-  "youtube_ids_recorded": 5
+  "youtube_ids_recorded": 6
 }
