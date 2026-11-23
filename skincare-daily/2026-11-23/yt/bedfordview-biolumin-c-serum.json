@@ -3,15 +3,23 @@
   "handle": "@DermatologyJoburgBedfordview",
   "title": "Dermalogica BioLumin-C Serum: What It Does and How to Use It",
   "slot_sast": "2026-11-23 18:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefda4939993e9f",
   "publish_at": "2026-11-23T16:00:00Z",
   "overdue": false,
   "upload_started": "2026-11-23T08:22:45Z",
   "error": null,
-  "updated": "2026-11-23T08:22:49Z",
+  "updated": "2026-11-23T08:23:20Z",
   "video_id": "uTafX9oKz78",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=uTafX9oKz78",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCs0uxMnSV1INS_Bxn6yqc2Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-23T16:00:00Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
