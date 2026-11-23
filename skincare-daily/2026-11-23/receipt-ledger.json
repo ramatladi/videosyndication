@@ -407,13 +407,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "_u5A_laV5aQ",
       "sku": "111328",
       "title": "Dermalogica Intensive Moisture Balance Sizes at a Glance #shorts",
       "manifest_slug": "rosebank-intensive-moisture-balance-short",
       "media_sha256": "711e2cfbf6af2ed61d49935ff943709688ee509c792d0967f28e0354d036af5e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T10:00:00Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -458,5 +459,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 17
+  "youtube_ids_recorded": 18
 }
