@@ -107,13 +107,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "fhb-VT6DX0E",
       "sku": "111203",
       "title": "Dermalogica Protection 50 Sport SPF50: Which Step Is It? #shorts",
       "manifest_slug": "capetown-protection-50-sport-spf50-short",
       "media_sha256": "a8ddb14caaae074c5f1a0ac16e1850255df6026bb907f046c99f19125c31f159",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T10:00:00Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -454,5 +455,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 13
+  "youtube_ids_recorded": 14
 }
