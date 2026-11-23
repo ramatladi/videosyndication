@@ -1,0 +1,463 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 120,
+ "slug": "camera-shy-cat",
+ "title": "Camera Shy",
+ "trend": "TikTok tsundere 'Camera Shy' pets (a pet acts shy or grumpy at the camera, then gives in and dances; #tsundere Rising, Niki sound Rising 196.6K videos, SocialPilot TikTok trends Nov 17-25 2026, US) + holiday-card photo season before Thanksgiving — tsundere pet skit: Rosa tries to film grumpy cat Biscuit for the family holiday card and he refuses every take (no photos, bad side, union break) while her dad Hal bribes him; twist: Biscuit only hates the reindeer sweater — and the doorbell camera shows him dancing every morning for the mail carrier; button: Biscuit dances, Rosa wears the sweater",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "my cat when",
+  "i point the camera",
+  "at him"
+ ],
+ "youtube_title": "My cat refuses to be in the holiday card. Then we checked the doorbell camera 🐈",
+ "description": "Rosa needs one nice video of Biscuit for the family holiday card. Biscuit says no photos. Grandpa Hal tries treats. Then the doorbell camera shows what Biscuit really does at nine every morning.\n\n#cartoon #animation #funny #cats #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "cat",
+  "grumpy cat",
+  "holiday card",
+  "pets",
+  "family"
+ ],
+ "tiktok_caption": "my cat when I point the camera at him 🐈 #cartoon #animation #funny #cats",
+ "cast": [
+  {
+   "id": "rosa",
+   "name": "Rosa",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "long",
+    "color": "#3b2314"
+   },
+   "top": {
+    "color": "#00b894",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#e17055",
+   "accessories": [
+    "bow:#d63031"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": 0,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "biscuit",
+   "name": "Biscuit",
+   "kind": "animal",
+   "ears": "cat",
+   "color": "#e67e22",
+   "belly": "#fbe5c8",
+   "inner": "#f8a5c2",
+   "scale": 0.9,
+   "top": {
+    "color": "#2d3436",
+    "pattern": "suit"
+   },
+   "accessories": [
+    "sunglasses",
+    "tie:#c0392b"
+   ],
+   "eye": "sleepy",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#fdcb6e",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.96
+   }
+  },
+  {
+   "id": "hal",
+   "name": "Grandpa Hal",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.05,
+   "hair": {
+    "style": "bald",
+    "color": "#b2bec3"
+   },
+   "top": {
+    "color": "#d63031",
+    "pattern": "plain"
+   },
+   "bottom": "#636e72",
+   "shoes": "#2d3436",
+   "accessories": [
+    "glasses",
+    "mustache:#dfe6e9",
+    "cap:#0984e3"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#ff7675",
+   "voice": {
+    "id": "am_adam",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "rosa",
+   "text": "Okay Biscuit. One nice video for the holiday card. Look at Mommy.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "biscuit",
+   "text": "No photos.",
+   "shot": "biscuit",
+   "gesture": "cross",
+   "pre": 0.3,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "rosa",
+   "text": "It is one video. Everyone in the family sends one.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "biscuit",
+   "text": "I do not do families. I do naps.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "rosa",
+   "text": "Recording. Three, two, one. Hi Biscuit!",
+   "shot": "rosa",
+   "gesture": "wave"
+  },
+  {
+   "spk": "biscuit",
+   "text": "He has turned around. He is showing the camera his back. On purpose.",
+   "shot": "biscuit",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosa",
+   "text": "Why are you narrating yourself?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Someone has to. You keep filming the wrong side.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "hal",
+   "text": "Let me try. I have a gift with animals.",
+   "shot": "hal",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "rosa",
+   "text": "Dad, the goldfish moved out.",
+   "shot": "TWO",
+   "pre": 0.4
+  },
+  {
+   "spk": "hal",
+   "text": "The goldfish had other plans. Biscuit, look. A treat.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "biscuit",
+   "text": "I would like the treat. I would not like the camera. Put the treat down and leave.",
+   "shot": "biscuit",
+   "gesture": "think"
+  },
+  {
+   "spk": "hal",
+   "text": "Smart cat. Very smart cat.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Thank you. Now stop.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "boing"
+  },
+  {
+   "spk": "rosa",
+   "text": "Take two. Biscuit, do the little head tilt. The one you do for the fridge.",
+   "shot": "rosa"
+  },
+  {
+   "spk": "biscuit",
+   "text": "The fridge earned it. You have not.",
+   "shot": "CU",
+   "pre": 0.4
+  },
+  {
+   "spk": "rosa",
+   "text": "Aunt Carmen sent a video of her dog wearing antlers and smiling.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "biscuit",
+   "text": "That dog would smile at a sock. He has no standards.",
+   "shot": "biscuit",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hal",
+   "text": "Carmen's dog ate a remote once.",
+   "shot": "hal"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Exactly. A remote. In public.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "rimshot"
+  },
+  {
+   "spk": "rosa",
+   "text": "Okay. Take three. I got you the sweater. With the little reindeer.",
+   "shot": "rosa",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "biscuit",
+   "text": "No.",
+   "shot": "biscuit",
+   "pre": 0.8,
+   "post": 0.8
+  },
+  {
+   "spk": "rosa",
+   "text": "You did not even look at it.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "biscuit",
+   "text": "I can hear it. It has bells on it. I can hear the bells.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "hal",
+   "text": "I will wear it. Show him it is fine.",
+   "shot": "hal",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "rosa",
+   "text": "Dad, it is a cat sweater. It will not go past your elbow.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "It is past my elbow. I cannot feel my elbow.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Look at him. That is why I said no.",
+   "shot": "biscuit",
+   "gesture": "point"
+  },
+  {
+   "spk": "rosa",
+   "text": "Take four. Biscuit. Please. Just one dance. Everyone in this family dances.",
+   "shot": "rosa",
+   "gesture": "think"
+  },
+  {
+   "spk": "biscuit",
+   "text": "I do not dance. I am a serious cat. I own a tie.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "hal",
+   "text": "He does own a tie. I do not know who bought it.",
+   "shot": "hal",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosa",
+   "text": "Fine. I give up. No card this year. Just a picture of the couch.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Good. The couch is very photogenic.",
+   "shot": "biscuit"
+  },
+  {
+   "spk": "hal",
+   "text": "Rosa. Come look at this. The doorbell camera from this morning.",
+   "shot": "hal",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "rosa",
+   "text": "Why are you watching the doorbell camera?",
+   "shot": "CU"
+  },
+  {
+   "spk": "hal",
+   "text": "I watch it every day. It is better than television.",
+   "shot": "hal",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosa",
+   "text": "Wait. Is that Biscuit? In the window?",
+   "shot": "rosa",
+   "gesture": "think",
+   "after": "sting"
+  },
+  {
+   "spk": "hal",
+   "text": "Nine in the morning. The mail lady walks up. And look.",
+   "shot": "hal",
+   "gesture": "point"
+  },
+  {
+   "spk": "rosa",
+   "text": "He is dancing. He is doing a whole dance. Is that a spin?",
+   "shot": "rosa",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "biscuit",
+   "text": "That is not a dance. That is stretching. In rhythm.",
+   "shot": "biscuit",
+   "gesture": "cross",
+   "pre": 0.5
+  },
+  {
+   "spk": "hal",
+   "text": "He does it every day. Tuesday he did it twice. She waved.",
+   "shot": "hal"
+  },
+  {
+   "spk": "rosa",
+   "text": "You are not camera shy. You just like the mail lady.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "biscuit",
+   "text": "She brings boxes. Boxes are the best thing in this house. Do not tell the couch.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosa",
+   "text": "So why not dance for me?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Because you bring the sweater with the bells. The mail lady never brings the bells.",
+   "shot": "biscuit",
+   "gesture": "point"
+  },
+  {
+   "spk": "rosa",
+   "text": "Okay. No sweater. I promise. It is gone.",
+   "shot": "rosa",
+   "gesture": "wave"
+  },
+  {
+   "spk": "hal",
+   "text": "I am still wearing it. I cannot get it off.",
+   "shot": "hal",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Then put the camera on me. One take. I am not doing it twice.",
+   "shot": "biscuit",
+   "gesture": "cross"
+  },
+  {
+   "spk": "rosa",
+   "text": "Recording.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "biscuit",
+   "text": "Fine. One little spin. Because it is the holidays.",
+   "shot": "biscuit",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "rosa",
+   "text": "He did it! He did the little spin! Biscuit, you are a star!",
+   "shot": "rosa",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "biscuit",
+   "text": "I am a cat who stretched. Delete it after the holidays.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "hal",
+   "text": "Now we need one of you, Rosa. In the sweater.",
+   "shot": "hal",
+   "gesture": "point"
+  },
+  {
+   "spk": "rosa",
+   "text": "No photos.",
+   "shot": "rosa",
+   "gesture": "cross",
+   "pre": 0.6
+  },
+  {
+   "spk": "biscuit",
+   "text": "She learned that from me.",
+   "shot": "biscuit",
+   "gesture": "shrug",
+   "after": "ding"
+  }
+ ]
+}
