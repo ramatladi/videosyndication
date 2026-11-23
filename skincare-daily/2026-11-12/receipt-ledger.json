@@ -97,13 +97,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "WZNQS2MsowQ",
       "sku": "811021",
       "title": "Dermalogica Antioxidant Hydramist Sizes and How to Use It",
       "manifest_slug": "capetown-antioxidant-hydramist-250ml",
       "media_sha256": "d2c1ab2fb01636f4007826dca2f5ab2253d9fe324d79b754a35a1913366581f0",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T20:33:07Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -473,5 +474,5 @@
     "youtube_ids_recorded": 31,
     "producer_refreshed": "2026-11-23T21:10+02:00"
   },
-  "youtube_ids_recorded": 32
+  "youtube_ids_recorded": 33
 }
