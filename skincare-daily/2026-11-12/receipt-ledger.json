@@ -461,13 +461,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "rjHHjKaSvSc",
       "sku": "110545",
       "title": "Dermalogica UltraCalming Mist 177 mL in Your Routine #shorts",
       "manifest_slug": "rosebank-ultracalming-mist-177ml-short",
       "media_sha256": "5f0b13bacb12afc660fe6dcd4a06f9abc7693f51c508d82a71cb75f3cfd04e1c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T21:32:26Z"
     }
   ],
   "reconciliation": {
@@ -476,5 +477,5 @@
     "youtube_ids_recorded": 31,
     "producer_refreshed": "2026-11-23T21:10+02:00"
   },
-  "youtube_ids_recorded": 35
+  "youtube_ids_recorded": 36
 }
