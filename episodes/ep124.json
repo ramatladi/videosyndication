@@ -139,13 +139,13 @@
  "lines": [
   {
    "spk": "walter",
-   "text": "Twelve years. For twelve years, I was the only dog in this house.",
+   "text": "Twelve years. I was the only dog in this house for twelve years.",
    "shot": "CU",
    "gesture": "think"
   },
   {
    "spk": "noodle",
-   "text": "Hi! I am Noodle! I live here now! Is that your bed? That is my bed now!",
+   "text": "Hi! I am Noodle! I live here now! Is that your bed? It is mine now!",
    "shot": "TWO",
    "gesture": "arms_up",
    "jump": true,
@@ -171,12 +171,6 @@
    "gesture": "arms_up"
   },
   {
-   "spk": "walter",
-   "text": "I also have ears. I have had these ears since two thousand fourteen.",
-   "shot": "CU",
-   "gesture": "shrug"
-  },
-  {
    "spk": "kim",
    "text": "Walter, buddy, not now. Noodle is trying on his little sweater.",
    "shot": "CU",
@@ -184,22 +178,10 @@
   },
   {
    "spk": "walter",
-   "text": "He has a sweater. I have a scarf from a yard sale. Nobody asked about the scarf.",
-   "shot": "CU",
-   "gesture": "hips"
-  },
-  {
-   "spk": "walter",
    "text": "Fine. Step one. The leash. Nobody ignores the leash.",
    "shot": "W",
    "gesture": "think",
    "pre": 0.6
-  },
-  {
-   "spk": "noodle",
-   "text": "What is a leash? Is it food? I think it is food.",
-   "shot": "CU",
-   "gesture": "shrug"
   },
   {
    "spk": "walter",
@@ -215,49 +197,17 @@
   },
   {
    "spk": "walter",
-   "text": "She stepped over the leash. She stepped over me. Then she stepped over the leash again.",
+   "text": "She stepped over the leash. Then over me. Then over the leash again.",
    "shot": "CU",
    "gesture": "facepalm",
    "after": "record_scratch"
   },
   {
-   "spk": "walter",
-   "text": "So I brought her slipper. Then the other slipper. Then the entire laundry basket.",
-   "shot": "CU",
-   "gesture": "arms_up"
-  },
-  {
    "spk": "noodle",
-   "text": "He carried the basket up the stairs! With his face! I clapped with my feet!",
+   "text": "Then he brought her slippers! And the whole laundry basket! With his face!",
    "shot": "CU",
    "gesture": "arms_up",
    "jump": true
-  },
-  {
-   "spk": "kim",
-   "text": "Who keeps putting socks on the stairs? Noodle, did you do that? So clever!",
-   "shot": "W",
-   "gesture": "think"
-  },
-  {
-   "spk": "walter",
-   "text": "Clever. He has never carried anything in his life. He cannot carry a tune.",
-   "shot": "CU",
-   "gesture": "cross"
-  },
-  {
-   "spk": "noodle",
-   "text": "I can carry a tune! Bark bark, bark bark bark!",
-   "shot": "CU",
-   "gesture": "arms_up",
-   "jump": true
-  },
-  {
-   "spk": "walter",
-   "text": "That is not a tune. That is a complaint.",
-   "shot": "CU",
-   "gesture": "talk",
-   "after": "rimshot"
   },
   {
    "spk": "walter",
@@ -274,13 +224,13 @@
   },
   {
    "spk": "walter",
-   "text": "For twelve years I have barked at this man. For twelve years, he has been terrified.",
+   "text": "Twelve years I have barked at this man. Twelve years, he has been terrified.",
    "shot": "CU",
    "gesture": "hips"
   },
   {
    "spk": "walter",
-   "text": "Woof. Woof. Wooof. Ruff. That last one was in a deep voice.",
+   "text": "Woof. Woof. Wooof. Ruff. That last one was the deep one.",
    "shot": "CU",
    "gesture": "arms_up",
    "jump": true
@@ -298,24 +248,11 @@
    "gesture": "facepalm"
   },
   {
-   "spk": "dale",
-   "text": "Oh, hey Walter. Love the singing today. Very relaxing.",
-   "shot": "TWO",
-   "gesture": "talk"
-  },
-  {
    "spk": "walter",
-   "text": "Singing. Twelve years of protecting this house, and he thinks I am a radio.",
+   "text": "He said he loves my singing. Twelve years of guarding this house, and I am a radio.",
    "shot": "CU",
    "gesture": "shrug",
    "after": "sting"
-  },
-  {
-   "spk": "noodle",
-   "text": "I got the biscuit! It tasted like the mailbox! I love the mailbox!",
-   "shot": "CU",
-   "gesture": "arms_up",
-   "jump": true
   },
   {
    "spk": "walter",
@@ -331,12 +268,6 @@
    "gesture": "point"
   },
   {
-   "spk": "walter",
-   "text": "Do not sit on me. I am being tragic.",
-   "shot": "CU",
-   "gesture": "cross"
-  },
-  {
    "spk": "kim",
    "text": "Noodle! Treat time! Come here, sweet boy!",
    "shot": "W",
@@ -344,7 +275,7 @@
   },
   {
    "spk": "walter",
-   "text": "She walked over me to give him a treat. I was tragic for eleven minutes. Nobody came.",
+   "text": "She walked over me to give him a treat. I was tragic for eleven minutes.",
    "shot": "CU",
    "gesture": "facepalm"
   },
@@ -355,25 +286,6 @@
    "gesture": "arms_up",
    "jump": true,
    "after": "boing"
-  },
-  {
-   "spk": "walter",
-   "text": "Even the cat came over. She looked at me. She shook her head. She left.",
-   "shot": "CU",
-   "gesture": "shrug"
-  },
-  {
-   "spk": "noodle",
-   "text": "We have a cat?",
-   "shot": "CU",
-   "gesture": "think",
-   "pre": 0.8
-  },
-  {
-   "spk": "walter",
-   "text": "We have had a cat for nine years. She also pays me no mind.",
-   "shot": "CU",
-   "gesture": "talk"
   },
   {
    "spk": "walter",
@@ -409,22 +321,10 @@
    "pre": 0.6
   },
   {
-   "spk": "walter",
-   "text": "Oh, now she notices. Now that I have a sock in a bag.",
-   "shot": "CU",
-   "gesture": "cross"
-  },
-  {
    "spk": "dale",
    "text": "Kim! They are all here! Should I open the gate?",
    "shot": "W",
    "gesture": "wave"
-  },
-  {
-   "spk": "walter",
-   "text": "Open the gate? Who is here? Why is the mail man still here?",
-   "shot": "CU",
-   "gesture": "think"
   },
   {
    "spk": "kim",
@@ -436,7 +336,7 @@
   },
   {
    "spk": "walter",
-   "text": "The whole yard was full of dogs. Every dog on the street. And a cake shaped like a slipper.",
+   "text": "Every dog on the street was in the yard. And a cake shaped like a slipper.",
    "shot": "CU",
    "gesture": "arms_up"
   },
@@ -454,19 +354,6 @@
    "jump": true
   },
   {
-   "spk": "walter",
-   "text": "You ate my treat. Was that undercover too?",
-   "shot": "CU",
-   "gesture": "point"
-  },
-  {
-   "spk": "noodle",
-   "text": "No. That was just me.",
-   "shot": "CU",
-   "gesture": "shrug",
-   "pre": 0.6
-  },
-  {
    "spk": "dale",
    "text": "And I was undercover too. The box is your party hat.",
    "shot": "TWO",
@@ -474,23 +361,16 @@
   },
   {
    "spk": "walter",
-   "text": "So you were never relaxed by my singing.",
+   "text": "So you never liked my singing.",
    "shot": "CU",
    "gesture": "think"
   },
   {
    "spk": "dale",
-   "text": "Honestly? I have been scared of you for twelve years. Great job, Walter.",
+   "text": "I have been scared of you for twelve years. Great job, Walter.",
    "shot": "CU",
    "gesture": "shrug",
    "after": "rimshot"
-  },
-  {
-   "spk": "walter",
-   "text": "I knew it. Twelve years of hard work, finally paid off.",
-   "shot": "CU",
-   "gesture": "hips",
-   "jump": true
   },
   {
    "spk": "kim",
@@ -540,7 +420,7 @@
   },
   {
    "spk": "walter",
-   "text": "Then I am sleeping in the sweater.",
+   "text": "Then I am sleeping in your sweater.",
    "shot": "W",
    "gesture": "cross",
    "post": 1.0
