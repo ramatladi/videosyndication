@@ -1,0 +1,445 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 122,
+ "slug": "one-word-friendsgiving",
+ "title": "One Word Friendsgiving",
+ "trend": "Friendsgiving prep week (#friendsgiving Rising, SocialPilot TikTok cultural moments Nov 21-25 2026; Thanksgiving Nov 26, US) as an 'answer in one word' interview skit — host Priya bans long answers at her Friendsgiving because Ben's toast last year lasted forty minutes; she quizzes guests in one word (turkey, store-bought pie, the broken gravy boat) while Ben cannot do it and quiet Wes is perfect; twist: her last question, what are you thankful for, gets Wes's one word: Priya — with a ring in the pie; button: she answers yes, Ben asks to give a toast — no",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "kitchen",
+ "desk": true,
+ "music": "upbeat",
+ "intro": [
+  "friendsgiving rule:",
+  "answer in one word",
+  "only one"
+ ],
+ "youtube_title": "At my Friendsgiving you can only answer in one word 🦃",
+ "description": "Priya has one rule at Friendsgiving this year: answer in one word. Ben has never said one word in his life. Wes has never said two. Then comes the last question.\n\n#cartoon #animation #funny #friendsgiving #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "friendsgiving",
+  "thanksgiving",
+  "friends",
+  "one word",
+  "dinner party"
+ ],
+ "tiktok_caption": "at my Friendsgiving you can only answer in one word 🦃 #cartoon #animation #funny #friendsgiving",
+ "cast": [
+  {
+   "id": "priya",
+   "name": "Priya",
+   "kind": "human",
+   "color": "#b5764a",
+   "hair": {
+    "style": "long",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#fdcb6e",
+    "pattern": "apron",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#d63031",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#ffeaa7",
+   "voice": {
+    "id": "af_river",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "ben",
+   "name": "Ben",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.04,
+   "hair": {
+    "style": "curly",
+    "color": "#d35400"
+   },
+   "top": {
+    "color": "#e84393",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#0984e3",
+   "accessories": [
+    "party_hat:#00cec9"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#fd79a8",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 1,
+    "tempo": 1.08
+   }
+  },
+  {
+   "id": "wes",
+   "name": "Wes",
+   "kind": "human",
+   "color": "#6f4e37",
+   "scale": 1.06,
+   "hair": {
+    "style": "short",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#636e72",
+    "pattern": "suit"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#2d3436",
+   "accessories": [
+    "tie:#00b894",
+    "beard:#1e130c"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#b2bec3",
+   "voice": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "priya",
+   "text": "Welcome to Friendsgiving. One rule this year. You can only answer in one word.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ben",
+   "text": "Okay but quick question, does a word with a dash count as one word?",
+   "shot": "ben",
+   "gesture": "think"
+  },
+  {
+   "spk": "priya",
+   "text": "That was fourteen words, Ben.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "ding"
+  },
+  {
+   "spk": "ben",
+   "text": "Sorry.",
+   "shot": "ben",
+   "pre": 0.5
+  },
+  {
+   "spk": "priya",
+   "text": "Last year your toast was forty minutes. The turkey got cold. The candles went out.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ben",
+   "text": "It was a good toast.",
+   "shot": "CU",
+   "pre": 0.4
+  },
+  {
+   "spk": "priya",
+   "text": "Four words. Wes, show him how it is done. Wes, how was the drive?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "wes",
+   "text": "Fine.",
+   "shot": "wes",
+   "pre": 0.5
+  },
+  {
+   "spk": "priya",
+   "text": "Beautiful. Ben, how was your drive?",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "ben",
+   "text": "Long. Traffic. Okay that was two. Long.",
+   "shot": "ben",
+   "gesture": "facepalm",
+   "after": "boing"
+  },
+  {
+   "spk": "priya",
+   "text": "Question one. The turkey. One word.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "wes",
+   "text": "Juicy.",
+   "shot": "wes",
+   "pre": 0.4
+  },
+  {
+   "spk": "ben",
+   "text": "Juicy-ish.",
+   "shot": "ben",
+   "pre": 0.5
+  },
+  {
+   "spk": "priya",
+   "text": "Ish is not a word.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "ben",
+   "text": "It is a feeling. The middle was juicy. The leg was a little bit like a shoe.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "priya",
+   "text": "You just told me my turkey was a shoe in seventeen words.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "rimshot"
+  },
+  {
+   "spk": "ben",
+   "text": "A nice shoe.",
+   "shot": "ben",
+   "pre": 0.4
+  },
+  {
+   "spk": "priya",
+   "text": "Question two. Who brought a pie from the store and put it in my good dish?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "wes",
+   "text": "Ben.",
+   "shot": "wes",
+   "pre": 0.5
+  },
+  {
+   "spk": "ben",
+   "text": "Wes! You are supposed to be on my side.",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "wes",
+   "text": "One.",
+   "shot": "wes",
+   "pre": 0.4
+  },
+  {
+   "spk": "ben",
+   "text": "One what?",
+   "shot": "CU"
+  },
+  {
+   "spk": "wes",
+   "text": "Word.",
+   "shot": "wes",
+   "pre": 0.4
+  },
+  {
+   "spk": "priya",
+   "text": "The pie still had the sticker on it, Ben. Half off.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "ben",
+   "text": "It was half off because it was a half. It was a very expensive half.",
+   "shot": "ben",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "priya",
+   "text": "Question three. Who broke my gravy boat?",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 0.4
+  },
+  {
+   "spk": "ben",
+   "text": "Nobody broke it. It is resting. In two pieces. Near the sink.",
+   "shot": "ben",
+   "gesture": "think"
+  },
+  {
+   "spk": "priya",
+   "text": "That is a broken gravy boat.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ben",
+   "text": "It is a gravy canoe now. It is smaller. More personal.",
+   "shot": "ben",
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "priya",
+   "text": "Wes, what happened to the gravy boat?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "wes",
+   "text": "Ben.",
+   "shot": "wes",
+   "pre": 0.6
+  },
+  {
+   "spk": "ben",
+   "text": "Every single answer is Ben. That is so unfair. I am a guest.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "priya",
+   "text": "Last question. And it is the important one. What are you thankful for?",
+   "shot": "CU",
+   "gesture": "wave",
+   "pre": 0.4
+  },
+  {
+   "spk": "ben",
+   "text": "Okay. Here is the thing. I am thankful for friends, and the turkey, and also.",
+   "shot": "ben",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "priya",
+   "text": "Ben.",
+   "shot": "CU",
+   "pre": 0.3
+  },
+  {
+   "spk": "ben",
+   "text": "Pie.",
+   "shot": "ben",
+   "pre": 0.6
+  },
+  {
+   "spk": "priya",
+   "text": "Good. Wes. What are you thankful for?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "wes",
+   "text": "Priya.",
+   "shot": "wes",
+   "pre": 1.0,
+   "after": "sting"
+  },
+  {
+   "spk": "priya",
+   "text": "Oh. That is a very good word.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "ben",
+   "text": "Wait. Why is there something shiny in the store pie?",
+   "shot": "ben",
+   "gesture": "point"
+  },
+  {
+   "spk": "priya",
+   "text": "Wes. Is that a ring? In the half off pie?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "wes",
+   "text": "Surprise.",
+   "shot": "wes",
+   "pre": 0.6
+  },
+  {
+   "spk": "ben",
+   "text": "That is why you said I brought the pie! You hid it in my pie!",
+   "shot": "ben",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "wes",
+   "text": "Yes.",
+   "shot": "wes",
+   "pre": 0.4
+  },
+  {
+   "spk": "ben",
+   "text": "He said Ben every time to protect the ring. That is the nicest thing anyone has done with my name.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "wes",
+   "text": "Priya. Will you?",
+   "shot": "wes",
+   "pre": 0.6
+  },
+  {
+   "spk": "priya",
+   "text": "Yes.",
+   "shot": "CU",
+   "jump": true,
+   "pre": 0.8,
+   "after": "applause"
+  },
+  {
+   "spk": "ben",
+   "text": "One word. She did it in one word. I am going to cry for forty minutes.",
+   "shot": "ben",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "ben",
+   "text": "Can I give a toast?",
+   "shot": "ben",
+   "gesture": "arms_up",
+   "pre": 0.4
+  },
+  {
+   "spk": "priya",
+   "text": "No.",
+   "shot": "TWO",
+   "gesture": "cross",
+   "pre": 0.4
+  },
+  {
+   "spk": "wes",
+   "text": "No.",
+   "shot": "wes",
+   "gesture": "cross",
+   "pre": 0.3
+  }
+ ]
+}
