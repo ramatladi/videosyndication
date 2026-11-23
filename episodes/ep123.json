@@ -1,0 +1,518 @@
+{
+ "engine": "cast",
+ "id": 123,
+ "slug": "kitchen-patrol",
+ "title": "Kitchen Patrol",
+ "trend": "TikTok 'You're Under Arrest' (an 'under arrest' hook passed from partner to partner, each 'arrested' person passing it on; SocialPilot TikTok trends Nov 17-25 2026, Rising, sound Rising 109.8K videos, US) + Thanksgiving prep week (Thanksgiving Nov 26; #friendsgiving26, SocialPilot cultural moments Nov 21-25 2026) — playful pass-it-on 'arrests' for kitchen snacking; never names the sound, song or artist",
+ "target_seconds": 180,
+ "length_reason": "The 'under arrest' pass-it-on clips are quick one-clip skits well under a minute, so this stays at the shortest film length, 3:00, which also fits Instagram's 3-minute limit.",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "three days to thanksgiving",
+  "nobody touches the pie",
+  "grandma made me the kitchen patrol"
+ ],
+ "youtube_title": "Grandma Made Me The Kitchen Patrol Before Thanksgiving | Funny Cartoon",
+ "description": "Three days before Thanksgiving, Grandma Inez gives Mia a whistle and one job: nobody touches the pie. Every snacker she catches has to catch the next one, and the oven timer has seen everything.\n\n#cartoon #animation #funny #comedy #thanksgiving",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "thanksgiving",
+  "grandma",
+  "pie",
+  "family comedy",
+  "kitchen"
+ ],
+ "tiktok_caption": "grandma made me the kitchen patrol. nobody touches the pie 🥧 #cartoon #animation #funny #comedy #thanksgiving",
+ "cast": [
+  {
+   "id": "mia",
+   "name": "Mia",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.85,
+   "hair": {
+    "style": "ponytail",
+    "color": "#2b1a10"
+   },
+   "top": {
+    "color": "#1f3a93",
+    "pattern": "suit",
+    "pattern_color": "#f1c40f"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#f1c40f",
+   "accessories": [
+    "cap:#1f3a93",
+    "whistle:#f1c40f"
+   ],
+   "eye": "big",
+   "brows": "angry",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 2,
+    "tempo": 1.08
+   }
+  },
+  {
+   "id": "inez",
+   "name": "Grandma Inez",
+   "kind": "human",
+   "color": "#a0673c",
+   "hair": {
+    "style": "bun",
+    "color": "#c9c9c9"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "apron",
+    "pattern_color": "#f5e6c8"
+   },
+   "bottom": "#5b2c6f",
+   "shoes": "#f8c8dc",
+   "accessories": [
+    "glasses:#333333",
+    "scarf:#e67e22"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": -2,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "terrence",
+   "name": "Uncle Terrence",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.12,
+   "hair": {
+    "style": "bald",
+    "color": "#3b2414"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "hoodie",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "mustache:#3b2414"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "voice": {
+    "id": "am_adam",
+    "pitch": -1,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "timer",
+   "name": "The Oven Timer",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#bdc3c7",
+   "accessories": [
+    "glasses:#222222",
+    "tie:#16a085"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "inez",
+   "text": "Mia, raise your right hand. As of today, you are the Kitchen Patrol.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "mia",
+   "text": "Yes, Grandma. What are the rules?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "inez",
+   "text": "Three days to Thanksgiving. Nobody touches the pie. Nobody touches the stuffing. Nobody touches anything.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "mia",
+   "text": "What if somebody touches something?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "inez",
+   "text": "Then you point, you blow that whistle, and you say the words.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "mia",
+   "text": "You're under arrest!",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "sting",
+   "jump": true
+  },
+  {
+   "spk": "timer",
+   "text": "Lovely. I have been on this counter for nine years. Finally, some law and order.",
+   "shot": "timer"
+  },
+  {
+   "spk": "mia",
+   "text": "Who said that?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "timer",
+   "text": "The oven timer, madam. I only count. I do not judge. Mostly.",
+   "shot": "timer"
+  },
+  {
+   "spk": "inez",
+   "text": "Ignore the timer. He beeps when he's nervous. Patrol starts now.",
+   "shot": "W",
+   "gesture": "hips"
+  },
+  {
+   "spk": "terrence",
+   "text": "Good morning, ladies. Just walking by. Just a man, walking, near some marshmallows.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "mia",
+   "text": "Uncle Terrence. Why is there a marshmallow in your mustache?",
+   "shot": "terrence",
+   "gesture": "point"
+  },
+  {
+   "spk": "terrence",
+   "text": "That is not a marshmallow. That is a very small cloud. It's weather.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "timer",
+   "text": "It has been in there for forty seconds. I counted.",
+   "shot": "timer"
+  },
+  {
+   "spk": "mia",
+   "text": "You're under arrest!",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "boing",
+   "jump": true
+  },
+  {
+   "spk": "terrence",
+   "text": "On what charge?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "mia",
+   "text": "Sweet potato topping. First degree.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "terrence",
+   "text": "I want a lawyer. Or a cracker. Whatever is closer.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "inez",
+   "text": "Rules are rules, Terrence. Now you're on patrol too. That's how it works.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "terrence",
+   "text": "Wait, so if I get arrested, I get a badge?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "mia",
+   "text": "Everybody you catch has to catch somebody else.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "terrence",
+   "text": "Oh, this is a pyramid scheme. I love it.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "terrence",
+   "text": "Timer. You beeped at six this morning and woke up the entire house.",
+   "shot": "timer",
+   "gesture": "point"
+  },
+  {
+   "spk": "timer",
+   "text": "The rolls were done, sir. I am a professional.",
+   "shot": "timer"
+  },
+  {
+   "spk": "terrence",
+   "text": "There were no rolls. You beeped at an empty oven.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "timer",
+   "text": "I was practicing. Thursday is a big day for me.",
+   "shot": "timer",
+   "pre": 0.8
+  },
+  {
+   "spk": "terrence",
+   "text": "You're under arrest!",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "whoosh"
+  },
+  {
+   "spk": "timer",
+   "text": "Fine. But I have no hands. You will have to carry me to jail. Mind the cord.",
+   "shot": "timer"
+  },
+  {
+   "spk": "mia",
+   "text": "Grandma, where is jail?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "inez",
+   "text": "The jail is the kids' table. Everybody hates it there.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "terrence",
+   "text": "I'm forty six. I'm not sitting at the kids' table.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "inez",
+   "text": "You put a marshmallow in your face, baby. You made your choice.",
+   "shot": "TWO",
+   "gesture": "hips",
+   "after": "rimshot"
+  },
+  {
+   "spk": "timer",
+   "text": "My turn. I have seen things on this counter. Terrible things.",
+   "shot": "timer"
+  },
+  {
+   "spk": "mia",
+   "text": "Like what?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "timer",
+   "text": "Every night at midnight, somebody eats one bite of crust off the edge of the pie. Then turns the pie around.",
+   "shot": "timer"
+  },
+  {
+   "spk": "terrence",
+   "text": "The pie gets smaller every day. I thought it was shy.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "mia",
+   "text": "Somebody is turning the pie so we don't see the bite!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "timer",
+   "text": "Seven nights. Seven bites. A very round crime.",
+   "shot": "timer",
+   "after": "ding"
+  },
+  {
+   "spk": "mia",
+   "text": "Who is it? I need a name!",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "timer",
+   "text": "I am a timer, madam. I do not see faces. I only hear slippers. Fuzzy ones.",
+   "shot": "timer"
+  },
+  {
+   "spk": "terrence",
+   "text": "Everybody here wears fuzzy slippers.",
+   "shot": "W",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "mia",
+   "text": "Then everybody take off your slippers. Right now.",
+   "shot": "W",
+   "gesture": "cross"
+  },
+  {
+   "spk": "inez",
+   "text": "Well. Would you look at the time. I should go check on the yams.",
+   "shot": "CU",
+   "gesture": "wave",
+   "pre": 0.8
+  },
+  {
+   "spk": "mia",
+   "text": "Grandma. Your slippers have crumbs on them.",
+   "shot": "inez",
+   "gesture": "point"
+  },
+  {
+   "spk": "inez",
+   "text": "Those are decorative crumbs. They came with the slippers.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "timer",
+   "text": "Also, there is a pie tin in her purse. It says store bought. Aisle nine.",
+   "shot": "timer",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "terrence",
+   "text": "Store bought? Mama, your famous homemade pie?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "inez",
+   "text": "I have made that pie from scratch for thirty years. The scratch is aisle nine.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "mia",
+   "text": "You made me the patrol so nobody would check your purse!",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "inez",
+   "text": "I made you the patrol because you're seven and you love a whistle. The purse was a bonus.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "terrence",
+   "text": "Thirty years. I told my wife your crust was a family secret.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "inez",
+   "text": "It is a secret. It's a family secret now. Nobody tells your aunties.",
+   "shot": "W",
+   "gesture": "cross"
+  },
+  {
+   "spk": "timer",
+   "text": "I have known since two thousand ten. Nobody asks the timer anything.",
+   "shot": "timer"
+  },
+  {
+   "spk": "mia",
+   "text": "Grandma Inez. You're under arrest.",
+   "shot": "inez",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "inez",
+   "text": "Fine. But the jail is the kids' table, and I'm bringing the pie.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "terrence",
+   "text": "Wait, if she's in jail, who's cooking Thanksgiving?",
+   "shot": "W",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "inez",
+   "text": "The Kitchen Patrol. Congratulations, baby. You're the chef now.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "mia",
+   "text": "I'm seven! I can only make cereal!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "terrence",
+   "text": "Cereal Thanksgiving. I would eat that every year.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "timer",
+   "text": "Excellent. I will start counting. Do not beep at me.",
+   "shot": "timer",
+   "after": "applause"
+  },
+  {
+   "spk": "mia",
+   "text": "Uncle Terrence. Why is there a pie crust in your mustache?",
+   "shot": "terrence",
+   "gesture": "point"
+  },
+  {
+   "spk": "terrence",
+   "text": "That is weather.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.5
+  }
+ ]
+}
