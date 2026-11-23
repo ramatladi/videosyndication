@@ -383,13 +383,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "WAUKGO9WYu8",
       "sku": "811478INT",
       "title": "Dermalogica Clarifying Body Spray, Ingredient by Ingredient #shorts",
       "manifest_slug": "westville-clarifying-body-spray-short",
       "media_sha256": "d0f11d7d3de9e4ea09db66bd4e76014a2ecc25964729709eeff805f6fdef8a12",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T18:00:00Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -475,5 +476,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 34
+  "youtube_ids_recorded": 35
 }
