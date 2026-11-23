@@ -6,13 +6,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "T8bfVw3LZ_0",
       "sku": "111388",
       "title": "Dermalogica Sensitive Skin Rescue Kit: Which Step Is It? #shorts",
       "manifest_slug": "midrand-sensitive-skin-rescue-kit-short",
       "media_sha256": "12fc3c210fc264ca753a072bf9ddb6961c589c32cb6884dfe35543477afce556",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T06:00:00Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -440,5 +441,6 @@
     "missing_renders": 0,
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T21:04+02:00"
-  }
+  },
+  "youtube_ids_recorded": 1
 }
