@@ -315,13 +315,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "ionSqAKjf4c",
       "sku": "111387",
       "title": "Body Care: Dermalogica Conditioning Body Wash, Step by Step",
       "manifest_slug": "westville-conditioning-body-wash",
       "media_sha256": "d0ede674ab84bbcb20b0cebe15cfbc86a4b312a6a648290436b3ba16ff2271b1",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T08:00:00Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -451,5 +452,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 10
+  "youtube_ids_recorded": 11
 }
