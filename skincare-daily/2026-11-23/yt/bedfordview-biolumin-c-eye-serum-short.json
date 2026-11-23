@@ -3,15 +3,23 @@
   "handle": "@DermatologyJoburgBedfordview",
   "title": "Dermalogica BioLumin-C Eye Serum, Ingredient by Ingredient #shorts",
   "slot_sast": "2026-11-23 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefdb772d80d192",
   "publish_at": "2026-11-23T10:00:00Z",
   "overdue": false,
   "upload_started": "2026-11-23T08:14:26Z",
   "error": null,
-  "updated": "2026-11-23T08:14:30Z",
+  "updated": "2026-11-23T08:15:02Z",
   "video_id": "nfktRY8uSQA",
   "published_now": null,
   "url": "https://youtube.com/shorts/nfktRY8uSQA",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCs0uxMnSV1INS_Bxn6yqc2Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-23T10:00:00Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
