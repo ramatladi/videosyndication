@@ -152,13 +152,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "aCFSDhEwamA",
       "sku": "111431",
       "title": "Dermalogica Cooling Aqua Jelly Ingredients: What's on the Label #shorts",
       "manifest_slug": "umhlanga-cooling-aqua-jelly-short",
       "media_sha256": "321a4f81de3f75a901e0ff4d3965d5f59a3412a412f17488e16914e36465dbdc",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T06:00:00Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -443,5 +444,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 2
+  "youtube_ids_recorded": 3
 }
