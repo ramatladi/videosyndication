@@ -332,13 +332,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "JJEOqOe5zaY",
       "sku": "111511",
       "title": "What Goes Into Dermalogica Dynamic Skin Sculptor Body Serum? #shorts",
       "manifest_slug": "westville-dynamic-skin-sculptor-body-serum-short",
       "media_sha256": "8bde1927b8d2b244425e467ab78de1e2cc6f5e0e1c7a1da609227043ec4bfafe",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T10:00:00Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -457,5 +458,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 16
+  "youtube_ids_recorded": 17
 }
