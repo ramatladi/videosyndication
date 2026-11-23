@@ -3304,6 +3304,81 @@
     "dance": 0.207,
     "genre_fit": 0.855
    }
+  },
+  {
+   "release": "mtr050",
+   "date": "2026-11-23",
+   "slot": "2026-11-23T19:55",
+   "format": "short",
+   "title": "Ride The Afterglow",
+   "artist": "DJ Ioanna Ivory",
+   "style": "indiedance",
+   "key": "A major",
+   "bpm": 113,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "b0e13b49-7f4e-4a2d-9221-0b9e3eaa9157",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/39092eea-faaa-43cd-9438-2ca67f1d1af5.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr050.json",
+   "photographer": "Tetiana Stepanets",
+   "photo_page": "https://unsplash.com/photos/woman-in-bikini-against-rocky-cliff-Z8tqUF9sJnI",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-2814488923892004223",
+   "media_url": "https://static.metricool.com/planner/202611/7593699-file-14362771692766229229.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr050.mp3",
+    "top": [
+     [
+      "electronic",
+      0.339
+     ],
+     [
+      "pop",
+      0.198
+     ],
+     [
+      "female vocalists",
+      0.185
+     ],
+     [
+      "chillout",
+      0.183
+     ],
+     [
+      "dance",
+      0.151
+     ],
+     [
+      "House",
+      0.099
+     ],
+     [
+      "electronica",
+      0.094
+     ],
+     [
+      "ambient",
+      0.058
+     ],
+     [
+      "electro",
+      0.052
+     ],
+     [
+      "indie",
+      0.042
+     ]
+    ],
+    "house": 0.099,
+    "electronic": 0.339,
+    "dance": 0.151,
+    "genre_fit": 0.88
+   }
   }
  ]
 }
