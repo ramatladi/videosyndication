@@ -182,13 +182,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "mkrfROL4_fA",
       "sku": "811021",
       "title": "Dermalogica Antioxidant Hydramist Ingredient Check #shorts",
       "manifest_slug": "umhlanga-antioxidant-hydramist-short",
       "media_sha256": "91f73eac7aeead219eef103ba85e3b6ea78320b255f53c7a7d990541454ac222",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T10:00:00Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -455,5 +456,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 14
+  "youtube_ids_recorded": 15
 }
