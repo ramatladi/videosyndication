@@ -393,13 +393,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "Fh2i_Fs3cLg",
       "sku": "111268",
       "title": "Dermalogica Calm Water Gel 50 mL: Which Step Is It? #shorts",
       "manifest_slug": "rosebank-calm-water-gel-50ml-short",
       "media_sha256": "cfa8cfcbf7be933ce729da3143d78049fbea36de25f6ba6ba62a38a4ae38667c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T20:32:27Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -472,5 +473,5 @@
     "youtube_ids_recorded": 31,
     "producer_refreshed": "2026-11-23T21:10+02:00"
   },
-  "youtube_ids_recorded": 31
+  "youtube_ids_recorded": 32
 }
