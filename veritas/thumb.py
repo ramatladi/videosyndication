@@ -90,7 +90,7 @@ else:
     pf = font(BOLD, 28); pt = "NOW HIRING · USA"; pw = d.textlength(pt, font=pf) + 44
     d.rounded_rectangle((colx, y, colx + pw, y + 54), radius=27, fill=GOLD); d.text((colx + 22, y + 10), pt, font=pf, fill=NAVY)
     y += 84
-    tf, tl = fit(d, role, BOLD, 68, W - colx - 50, 3, 40)
+    tf, tl = fit(d, role, BOLD, 68, W - colx - 50, 2, 40)
     for s in tl: d.text((colx, y), s, font=tf, fill=WHITE); y += int(tf.size * 1.1)
     y += 18
     lf, ll = fit(d, place, MED, 36, W - colx - 50, 1, 26); d.text((colx, y), ll[0], font=lf, fill=MUTED); y += int(lf.size * 1.5)
