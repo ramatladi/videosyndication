@@ -1,0 +1,424 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 121,
+ "slug": "same-spot-years-apart",
+ "title": "Same Spot, Years Apart",
+ "trend": "TikTok 'Same Spot, Years Apart' (recreate an old photo at the same spot and cut between then and now; #nostalgia Rising, sound Peak 556.4K videos, SocialPilot TikTok trends Nov 17-25 2026, US) + Thanksgiving-week family visits — then-and-now recreation skit: Mom Denise makes grown siblings Jada and Owen recreate their two thousand six photo by the front yard tree (Owen in a laundry basket, Jada with a missing tooth, the dog) while they fail every detail; twist: the two thousand six photo was itself a recreation of Denise and her brother in nineteen seventy nine — same basket, and Grandma started it in nineteen fifty five; button: Denise gets in the basket",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "park_day",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "same spot",
+  "twenty years apart",
+  "it did not go well"
+ ],
+ "youtube_title": "Mom made us recreate our childhood photo. Same spot, twenty years later 📸",
+ "description": "Mom wants the same photo by the same tree, twenty years later. Owen does not fit in the laundry basket anymore. Then Jada finds out the old photo had a secret of its own.\n\n#cartoon #animation #funny #family #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "family photo",
+  "siblings",
+  "mom",
+  "thanksgiving",
+  "then and now"
+ ],
+ "tiktok_caption": "same spot, twenty years apart 📸 #cartoon #animation #funny #family",
+ "cast": [
+  {
+   "id": "denise",
+   "name": "Mom Denise",
+   "kind": "human",
+   "color": "#a0522d",
+   "hair": {
+    "style": "bun",
+    "color": "#4a3020"
+   },
+   "top": {
+    "color": "#e17055",
+    "pattern": "dots",
+    "pattern_color": "#ffeaa7"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#6c5ce7",
+   "accessories": [
+    "glasses",
+    "scarf:#00cec9"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": -1,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "jada",
+   "name": "Jada",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "curly",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#6c5ce7",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "accessories": [
+    "headphones:#fdcb6e"
+   ],
+   "eye": "round",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#a29bfe",
+   "voice": {
+    "id": "af_kore",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "owen",
+   "name": "Owen",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.12,
+   "hair": {
+    "style": "short",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#00b894",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "3"
+   },
+   "bottom": "#636e72",
+   "shoes": "#d63031",
+   "accessories": [
+    "beard:#1e130c"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "frown",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "am_liam",
+    "pitch": -1,
+    "tempo": 0.98
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "denise",
+   "text": "Same spot. Same tree. Twenty years later. Get in position.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "owen",
+   "text": "Mom, I am six foot two. I am not getting in a laundry basket.",
+   "shot": "owen",
+   "gesture": "cross"
+  },
+  {
+   "spk": "denise",
+   "text": "You got in it in two thousand six. You loved that basket.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "owen",
+   "text": "I was two. I loved everything. I loved a spoon.",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "jada",
+   "text": "What am I doing in the picture?",
+   "shot": "jada",
+   "gesture": "think"
+  },
+  {
+   "spk": "denise",
+   "text": "You are smiling with no front tooth. Holding the dog.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jada",
+   "text": "I have all my teeth now. Braces were four thousand dollars.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "denise",
+   "text": "Then smile like you lost one. Use your heart.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "jada",
+   "text": "And the dog? Pickles lives with Aunt Bev now.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "denise",
+   "text": "Pickles has a pool now. He is doing better than all of us.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "jada",
+   "text": "He really is.",
+   "shot": "jada",
+   "pre": 0.4,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "denise",
+   "text": "I brought a stuffed dog from the gift shop. It is basically Pickles.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "owen",
+   "text": "That is a moose.",
+   "shot": "owen",
+   "pre": 0.6
+  },
+  {
+   "spk": "denise",
+   "text": "He is a dog in his heart. Owen. Basket.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "owen",
+   "text": "Okay. One leg is in. The other leg is in the neighbor's yard.",
+   "shot": "owen",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jada",
+   "text": "He looks like a giraffe in a cereal bowl.",
+   "shot": "jada"
+  },
+  {
+   "spk": "denise",
+   "text": "Perfect. Now Jada, hold the moose. Tilt your head. Squint at the sun.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "jada",
+   "text": "It is cloudy. There is no sun.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "denise",
+   "text": "There was sun in two thousand six. Squint at the memory.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "owen",
+   "text": "The basket is making a noise. Is it supposed to make a noise?",
+   "shot": "owen",
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "denise",
+   "text": "It is just happy to see you.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jada",
+   "text": "Why is the tree so big? The tree was tiny.",
+   "shot": "jada",
+   "gesture": "point"
+  },
+  {
+   "spk": "denise",
+   "text": "The tree grew. Like you. Except the tree calls me.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "rimshot"
+  },
+  {
+   "spk": "owen",
+   "text": "I call you. I called you in March.",
+   "shot": "CU",
+   "pre": 0.4
+  },
+  {
+   "spk": "denise",
+   "text": "About your car insurance.",
+   "shot": "TWO",
+   "pre": 0.5
+  },
+  {
+   "spk": "jada",
+   "text": "Okay. Let me see the old photo. So we get it exactly right.",
+   "shot": "jada",
+   "gesture": "think"
+  },
+  {
+   "spk": "denise",
+   "text": "No. You do not need the old photo. Just feel it.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "jada",
+   "text": "Why are you hiding it behind your back?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "jada",
+   "text": "Mom. This photo is not from two thousand six. The colors are orange.",
+   "shot": "jada",
+   "gesture": "think",
+   "after": "sting"
+  },
+  {
+   "spk": "denise",
+   "text": "Give that back.",
+   "shot": "CU",
+   "pre": 0.4
+  },
+  {
+   "spk": "owen",
+   "text": "Who is that baby in my basket? With the giant glasses?",
+   "shot": "owen",
+   "gesture": "point"
+  },
+  {
+   "spk": "denise",
+   "text": "That is me. And my brother. Nineteen seventy nine. Same tree. Same basket.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jada",
+   "text": "Our picture was a recreation? Of your picture?",
+   "shot": "jada",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "denise",
+   "text": "And mine was a recreation of Grandma's. Nineteen fifty five. The tree was a stick.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "owen",
+   "text": "This basket is seventy years old? I am sitting on history.",
+   "shot": "owen",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "denise",
+   "text": "You are sitting on four generations of babies. Please be gentle.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jada",
+   "text": "So the moose. Was there a moose in yours?",
+   "shot": "jada",
+   "gesture": "think"
+  },
+  {
+   "spk": "denise",
+   "text": "There was a dog in Grandma's, a cat in mine, and Pickles in yours.",
+   "shot": "CU"
+  },
+  {
+   "spk": "owen",
+   "text": "So it is fine that it is a moose. The animal changes every time.",
+   "shot": "owen",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "denise",
+   "text": "Yes. Every time. Now smile. And squint at the memory.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "jada",
+   "text": "Wait. Mom. Where is your spot? Who held the camera in seventy nine?",
+   "shot": "jada",
+   "gesture": "point"
+  },
+  {
+   "spk": "denise",
+   "text": "Grandma did. And in two thousand six I held it. So I am never in it.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.4
+  },
+  {
+   "spk": "owen",
+   "text": "Then get in. I will hold the camera.",
+   "shot": "owen",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "denise",
+   "text": "Where do I go? There is no spot for me.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "jada",
+   "text": "There is one spot. Owen, get out of the basket.",
+   "shot": "jada",
+   "gesture": "point"
+  },
+  {
+   "spk": "owen",
+   "text": "I cannot get out of the basket. I live here now.",
+   "shot": "owen",
+   "gesture": "facepalm",
+   "after": "boing"
+  },
+  {
+   "spk": "denise",
+   "text": "Fine. I will sit on his lap. In the basket. Holding the moose.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "jada",
+   "text": "Same spot. Twenty years apart. And somehow worse.",
+   "shot": "jada",
+   "gesture": "wave"
+  },
+  {
+   "spk": "denise",
+   "text": "Perfect. Do it again next year.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "applause"
+  }
+ ]
+}
