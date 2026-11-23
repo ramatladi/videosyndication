@@ -3,15 +3,23 @@
   "handle": "@DermatologyCapeTown",
   "title": "Dermalogica Antioxidant Hydramist Sizes and How to Use It",
   "slot_sast": "2026-11-12 10:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefab1643ee96f8",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-23T20:33:07Z",
   "error": null,
-  "updated": "2026-11-23T20:33:12Z",
+  "updated": "2026-11-23T20:33:44Z",
   "video_id": "WZNQS2MsowQ",
   "published_now": "2026-11-23T20:33:07Z",
   "url": "https://www.youtube.com/watch?v=WZNQS2MsowQ",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UC6IhnhkFRVu8tTc1FJbjb8Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
