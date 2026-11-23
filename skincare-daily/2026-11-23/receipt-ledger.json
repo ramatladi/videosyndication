@@ -443,13 +443,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "5i0Vg3msLNY",
       "sku": "111487",
       "title": "What Goes Into Dermalogica Phyto Nature Lifting Eye Cream 15ml: Ingredients and Directions",
       "manifest_slug": "rosebank-phyto-nature-lifting-eye-cream-15ml",
       "media_sha256": "75f803cf4afd2cc1e9cd7665df1a20d4bc00b5a20304ad31db5327642157d094",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T16:00:00Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -470,5 +471,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 29
+  "youtube_ids_recorded": 30
 }
