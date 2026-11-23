@@ -298,13 +298,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "5aeV3QXZmVc",
       "sku": "111439",
       "title": "Dermalogica Daily Glycolic Cleanser: Key Ingredients in Under a Minute #shorts",
       "manifest_slug": "westville-daily-glycolic-cleanser-short",
       "media_sha256": "03b52d9fcdeae8e86b688118c2d0c539dbec06bfafc5d89e519f36943f5def81",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T06:00:00Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -445,5 +446,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T21:04+02:00"
   },
-  "youtube_ids_recorded": 4
+  "youtube_ids_recorded": 5
 }
