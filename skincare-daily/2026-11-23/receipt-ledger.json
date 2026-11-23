@@ -349,13 +349,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "1Ht4quueZGw",
       "sku": "111520INT",
       "title": "How to Use Dermalogica Stabilizing Repair Face + Body Serum #shorts",
       "manifest_slug": "westville-stabilizing-repair-face-body-serum-short",
       "media_sha256": "754c2da8a730996552cb864138434efada0bb826ecafdfbae2e6e6bf51f1b034",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T14:00:00Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -463,5 +464,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 22
+  "youtube_ids_recorded": 23
 }
