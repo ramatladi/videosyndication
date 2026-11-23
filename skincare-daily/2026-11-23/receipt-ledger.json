@@ -257,13 +257,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "nfktRY8uSQA",
       "sku": "111393",
       "title": "Dermalogica BioLumin-C Eye Serum, Ingredient by Ingredient #shorts",
       "manifest_slug": "bedfordview-biolumin-c-eye-serum-short",
       "media_sha256": "f45b956b74bee939245783e63caf5fdcae5dd9ac694c04979d4cdd2e5d776d7f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T10:00:00Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -456,5 +457,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 15
+  "youtube_ids_recorded": 16
 }
