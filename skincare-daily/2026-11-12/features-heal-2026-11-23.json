@@ -1,0 +1,680 @@
+{
+ "checked": "2026-11-12",
+ "note": "2026-11-12 daily batch (skincare-daily/sk.py)",
+ "channels": {
+  "skincare.joburg": {
+   "locality": "Rosebank",
+   "desk": "Moisturizers & textures",
+   "credential_line": false,
+   "voice": "af_heart",
+   "accent": [
+    74,
+    93,
+    78
+   ],
+   "card_side": "left",
+   "radius": 36,
+   "chip": "pill",
+   "title_weight": "Bold",
+   "transition": "fade",
+   "music": {
+    "root": 57,
+    "bpm": 72,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      11
+     ],
+     [
+      5,
+      9,
+      12,
+      16
+     ],
+     [
+      2,
+      5,
+      9,
+      12
+     ],
+     [
+      7,
+      11,
+      14,
+      17
+     ]
+    ]
+   }
+  },
+  "skincare.durban": {
+   "locality": "Westville",
+   "desk": "Body care",
+   "credential_line": false,
+   "voice": "af_bella",
+   "accent": [
+    0,
+    121,
+    125
+   ],
+   "card_side": "right",
+   "radius": 16,
+   "chip": "square",
+   "title_weight": "SemiBold",
+   "transition": "smoothleft",
+   "music": {
+    "root": 60,
+    "bpm": 96,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      12
+     ],
+     [
+      9,
+      12,
+      16,
+      21
+     ],
+     [
+      5,
+      9,
+      12,
+      17
+     ],
+     [
+      7,
+      11,
+      14,
+      19
+     ]
+    ]
+   }
+  },
+  "dermatologist.joburg": {
+   "locality": "Midrand",
+   "desk": "Building a skincare routine",
+   "credential_line": true,
+   "voice": "af_jessica",
+   "accent": [
+    35,
+    59,
+    110
+   ],
+   "card_side": "left",
+   "radius": 8,
+   "chip": "underline",
+   "title_weight": "Bold",
+   "transition": "smoothup",
+   "music": {
+    "root": 55,
+    "bpm": 84,
+    "prog": [
+     [
+      0,
+      3,
+      7,
+      10
+     ],
+     [
+      8,
+      12,
+      15,
+      19
+     ],
+     [
+      3,
+      7,
+      10,
+      14
+     ],
+     [
+      10,
+      14,
+      17,
+      21
+     ]
+    ]
+   }
+  },
+  "dermatology.joburg": {
+   "locality": "Bedfordview",
+   "desk": "Labels & ingredients",
+   "credential_line": true,
+   "voice": "af_nicole",
+   "accent": [
+    96,
+    46,
+    92
+   ],
+   "card_side": "right",
+   "radius": 28,
+   "chip": "pill",
+   "title_weight": "Bold",
+   "transition": "wipeleft",
+   "music": {
+    "root": 50,
+    "bpm": 66,
+    "prog": [
+     [
+      0,
+      3,
+      7,
+      10
+     ],
+     [
+      5,
+      8,
+      12,
+      15
+     ],
+     [
+      7,
+      10,
+      14,
+      17
+     ],
+     [
+      3,
+      7,
+      10,
+      14
+     ]
+    ]
+   }
+  },
+  "dermatology.durban": {
+   "locality": "uMhlanga",
+   "desk": "Hydration & layering",
+   "credential_line": true,
+   "voice": "af_sarah",
+   "accent": [
+    16,
+    96,
+    140
+   ],
+   "card_side": "left",
+   "radius": 44,
+   "chip": "square",
+   "title_weight": "SemiBold",
+   "transition": "dissolve",
+   "music": {
+    "root": 62,
+    "bpm": 104,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      11
+     ],
+     [
+      7,
+      11,
+      14,
+      18
+     ],
+     [
+      9,
+      12,
+      16,
+      19
+     ],
+     [
+      5,
+      9,
+      12,
+      16
+     ]
+    ]
+   }
+  },
+  "dermatology.capetown": {
+   "locality": "Cape Town",
+   "desk": "Daily sun care",
+   "credential_line": true,
+   "voice": "af_aoede",
+   "accent": [
+    196,
+    92,
+    28
+   ],
+   "card_side": "right",
+   "radius": 22,
+   "chip": "underline",
+   "title_weight": "Bold",
+   "transition": "fadeblack",
+   "music": {
+    "root": 53,
+    "bpm": 112,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      12
+     ],
+     [
+      5,
+      9,
+      12,
+      17
+     ],
+     [
+      7,
+      11,
+      14,
+      19
+     ],
+     [
+      4,
+      7,
+      11,
+      16
+     ]
+    ]
+   }
+  }
+ },
+ "videos": [
+  {
+   "slug": "rosebank-calm-water-gel-50ml-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product_name": "calm water gel",
+   "spoken_name": "calm water gel",
+   "product_url": "https://dermalogica.co.za/products/calm-water-gel-50ml-111268?variant=46583617126714",
+   "packshot": "d1112-111268-00.png",
+   "title": "Dermalogica Calm Water Gel 50 mL: Which Step Is It? #shorts",
+   "lead": "Dermalogica calm water gel: calms and hydrates sensitive skin, from the Rosebank moisturizer and texture desk.",
+   "facts": [
+    "Calms and hydrates sensitive skin",
+    "Provides immediate hydration to dry, irritated skin",
+    "Softens, soothes and calms",
+    "Locks in moisture and defends skin against dryness",
+    "How to use: Squeeze a small amount into palm and rub hands together to activate. Pat gently onto face and neck. Use twice a day for continuous relief."
+   ],
+   "tags": [
+    "calm water gel",
+    "dermalogica calm water gel",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #CalmWaterGel #MoisturizerDesk #shorts",
+   "thumb": {
+    "text": "On the label",
+    "kicker": "ROSEBANK",
+    "layout": "photo",
+    "photo": "d1112-111268-03.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "In a routine",
+     "say": "Rosebank moisturizer and texture desk: Dermalogica calm water gel, fifty milliliters. Today: where it goes in a routine."
+    },
+    {
+     "type": "steps",
+     "image": "d1112-111268-01.jpg",
+     "kicker": "IN YOUR ROUTINE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Squeeze a small amount into palm",
+      "Pat gently onto face and neck",
+      "Use twice a day for continuous relief"
+     ],
+     "say": "Squeeze a small amount into palm and rub hands together to activate. Pat gently onto face and neck. Use twice a day for continuous relief."
+    },
+    {
+     "type": "figure",
+     "image": "d1112-111268-03.jpg",
+     "kicker": "WHY IT IS THERE",
+     "headline": "Locks in moisture and defends skin against dryness",
+     "say": "Locks in moisture and defends skin against dryness."
+    },
+    {
+     "type": "end",
+     "sub": "50 mL",
+     "say": "That's Dermalogica calm water gel. The link is in the description."
+    }
+   ],
+   "sku": "111268",
+   "variant": "50ml",
+   "slot_sast": "08:00",
+   "tier": "d",
+   "tier_why": "least recently used product (catalog thin; new script and visuals)",
+   "angle": "routine",
+   "script_overlap_max": 0.88,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "capetown-antioxidant-hydramist-250ml",
+   "domain": "dermatology.capetown",
+   "format": "video",
+   "product_name": "antioxidant hydramist",
+   "spoken_name": "antioxidant hydramist",
+   "product_url": "https://dermalogica.co.za/products/antioxidant-hydramist-antioxidant-hydramist?variant=54065292083514",
+   "packshot": "d1112-811021-00.png",
+   "title": "Dermalogica Antioxidant Hydramist Sizes and How to Use It",
+   "lead": "Dermalogica antioxidant hydramist: reduces fine lines and hydrates, from the Cape Town daily sun care desk.",
+   "facts": [
+    "Reduces fine lines and hydrates",
+    "Creates an antioxidant shield against free radicals Refreshing mist can be spritzed on skin throughout the day",
+    "Hydrates to reduce fine lines associated with dryness",
+    "How to use: After cleansing, spritz directly onto face and neck, avoiding the eyes. Also ideal as a refreshing spritz over make-up throughout the day."
+   ],
+   "tags": [
+    "antioxidant hydramist",
+    "dermalogica antioxidant hydramist",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #AntioxidantHydramist #DailySPF",
+   "thumb": {
+    "text": "Sizes at a glance",
+    "kicker": "CAPE TOWN",
+    "layout": "center"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Sizes",
+     "say": "Cape Town daily sun care desk: Dermalogica antioxidant hydramist, 250 milliliters. Today: the sizes it comes in."
+    },
+    {
+     "type": "bullets",
+     "image": "d1112-811021-01.jpg",
+     "kicker": "SIZES",
+     "headline": "3 sizes in store",
+     "items": [
+      "30 mL",
+      "150 mL",
+      "250 mL"
+     ],
+     "say": "It comes in thirty milliliters, 150 milliliters and 250 milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1112-811021-02.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Refreshing antioxidant toner that helps firm",
+     "say": "Refreshing antioxidant toner that helps firm and hydrate. Convenient mist-on formula supplements skin’s protective barrier by creating an active antioxidant shield to help fight free radical damage, and help prevent the signs of aging caused by Advanced Glycation End-products (AGEs) – a damaging by-product of sugar/protein reactions on the skin."
+    },
+    {
+     "type": "steps",
+     "image": "d1112-811021-03.jpg",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "After cleansing",
+      "Also ideal as a refreshing spritz"
+     ],
+     "say": "After cleansing, spritz directly onto face and neck, avoiding the eyes. Also ideal as a refreshing spritz over make-up throughout the day."
+    },
+    {
+     "type": "figure",
+     "image": "d1112-811021-06.jpg",
+     "kicker": "BENEFIT",
+     "headline": "Creates an antioxidant shield against free radicals",
+     "say": "Creates an antioxidant shield against free radicals Refreshing mist can be spritzed on skin throughout the day."
+    },
+    {
+     "type": "figure",
+     "image": "d1112-811021-07.jpg",
+     "kicker": "BENEFIT",
+     "headline": "Hydrates to reduce fine lines associated",
+     "say": "Hydrates to reduce fine lines associated with dryness."
+    },
+    {
+     "type": "note",
+     "image": "d1112-811021-07.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Pea Extract helps firm skin",
+     "say": "Pea Extract helps firm skin, while Rose and Clove extracts comfort and refresh, making this mist ideal for use after cleansing or throughout the day."
+    },
+    {
+     "type": "end",
+     "sub": "250 mL",
+     "say": "That's Dermalogica antioxidant hydramist. The link is in the description."
+    }
+   ],
+   "sku": "811021",
+   "variant": "250ml",
+   "slot_sast": "10:00",
+   "tier": "d",
+   "tier_why": "least recently used product (catalog thin; new script and visuals)",
+   "angle": "sizes",
+   "script_overlap_max": 0.98,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "capetown-dark-spot-solutions-kit-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product_name": "dark spot solutions kit",
+   "spoken_name": "dark spot solutions kit",
+   "product_url": "https://dermalogica.co.za/products/dark-spot-solutions-kit-111403int?variant=46588883927354",
+   "packshot": "d1112-111403INT-00.png",
+   "title": "Reading the Label: Dermalogica Dark Spot Solutions Kit #shorts",
+   "lead": "Dermalogica dark spot solutions kit: fades and prevents dark spots, from the Cape Town daily sun care desk.",
+   "facts": [
+    "Fades and prevents dark spots",
+    "What's inside: PowerBright Dark Spot Serum (10ml); PowerBright Moisturizer (12ml); PowerBright Overnight Cream (15ml)",
+    "start fading the appearance of dark spots within days. Defend: daily moisturizer helps shield against dark spots. Restore: nourishing nighttime cream optimizes skin moisture recovery and helps restore luminosity",
+    "How to use: powerbright dark spot serum: Each morning after cleansing and toning, apply one pump over face and neck in light, upward strokes. Allow one minute for product absorption. powerbright moisturizer spf 50: Apply over face and neck, avoiding the eye area, preferably 30 minutes prior to sun e"
+   ],
+   "tags": [
+    "dark spot solutions kit",
+    "dermalogica dark spot solutions kit",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #DarkSpotSolutionsKit #DailySPF #shorts",
+   "thumb": {
+    "text": "Key ingredients",
+    "kicker": "CAPE TOWN",
+    "layout": "left"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Cape Town daily sun care desk: Dermalogica dark spot solutions kit. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "kicker": "WHAT'S INSIDE",
+     "headline": "3 products in one kit",
+     "items": [
+      "PowerBright Dark Spot Serum (10 mL)",
+      "PowerBright Moisturizer (12 mL)",
+      "PowerBright Overnight Cream (15 mL)"
+     ],
+     "say": "Inside the kit: PowerBright Dark Spot Serum, 10 milliliters; PowerBright Moisturizer, 12 milliliters; PowerBright Overnight Cream, fifteen milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1112-111403INT-02.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Starts working fast to visibly fade + help prevent",
+     "say": "Starts working fast to visibly fade plus help prevent What's inside: PowerBright Dark Spot Serum (10 milliliters travel size) - brightening serum PowerBright Moisturizer (12 milliliters travel size) - balancing, daily moisturizer PowerBright Overnight Cream (fifteen milliliters travel size) - nourishing nighttime cream Skin concerns: Oiliness Uneven skin tone Dryness and dehydration."
+    },
+    {
+     "type": "end",
+     "sub": "Dark Spot Solutions Kit",
+     "say": "That's Dermalogica dark spot solutions kit. The link is in the description."
+    }
+   ],
+   "sku": "111403INT",
+   "variant": "Skin Kits",
+   "slot_sast": "12:00",
+   "tier": "d",
+   "tier_why": "least recently used product (catalog thin; new script and visuals)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.54,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "capetown-dynamic-skin-strengthening-serum-30ml-30ml",
+   "domain": "dermatology.capetown",
+   "format": "video",
+   "product_name": "dynamic skin strengthening serum 30ml",
+   "spoken_name": "dynamic skin strengthening serum thirty milliliters",
+   "product_url": "https://dermalogica.co.za/products/dynamic-skin-strengthening-serum-30ml?variant=50681821135162",
+   "packshot": "d1112-111508-00.jpg",
+   "title": "Dermalogica Dynamic Skin Strengthening Serum 30ml: Benefits, Directions and Who It Suits",
+   "lead": "Dermalogica dynamic skin strengthening serum 30ml: builds barrier resilience, from the Cape Town daily sun care desk.",
+   "facts": [
+    "Builds barrier resilience",
+    "barrier resilience age resistance",
+    "How to use: After cleansing, apply over face and neck in light, upward strokes. Follow with broad spectrum SPF for daytime use."
+   ],
+   "tags": [
+    "dynamic skin strengthening serum 30ml",
+    "dermalogica dynamic skin strengthening serum 30ml",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #DynamicSkinStrengtheningSerum30ml #DailySPF",
+   "thumb": {
+    "text": "Builds barrier resilience",
+    "kicker": "CAPE TOWN",
+    "layout": "left"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "30 mL · Builds barrier resilience",
+     "say": "Cape Town daily sun care desk: Dermalogica dynamic skin strengthening serum thirty milliliters."
+    },
+    {
+     "type": "note",
+     "image": "d1112-111508-05.jpg",
+     "kicker": "FIRST",
+     "headline": "Not dermatologists or doctors. General product information.",
+     "say": "First, dermatology dot capetown isn't run by dermatologists or doctors. This is general product information from the store listing."
+    },
+    {
+     "type": "figure",
+     "image": "d1112-111508-01.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Builds barrier resilience",
+     "say": "Barrier-restoring Cotton Thistle and upcycled Tangerine Extract help skin recover and resist signs of aging. Age stronger: nourishing multi-defense serum builds barrier resilience to enhance endurance against skin-aging triggers. Evergreen Extract from a climate-resilient tree helps improve skin’s bounce-back and delivers a redensified look. Milky serum powered by BioShield utilizes a biomimetic peptide, antioxidants and Squalane to help fortify barrier defenses."
+    },
+    {
+     "type": "figure",
+     "image": "d1112-111508-03.jpg",
+     "kicker": "BENEFIT 1",
+     "headline": "Barrier resilience age resistance",
+     "say": "barrier resilience age resistance."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Apply over face and neck in light",
+      "Follow with broad spectrum SPF"
+     ],
+     "say": "After cleansing, apply over face and neck in light, upward strokes. Follow with broad spectrum SPF for daytime use.",
+     "image": "d1112-111508-07.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "30 mL",
+     "say": "That's Dermalogica dynamic skin strengthening serum thirty milliliters. The link is in the description."
+    }
+   ],
+   "sku": "111508",
+   "variant": "30ml",
+   "slot_sast": "18:00",
+   "tier": "d",
+   "tier_why": "least recently used product (catalog thin; new script and visuals)",
+   "angle": "standard",
+   "script_overlap_max": 1.0,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "rosebank-ultracalming-mist-177ml-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product_name": "ultracalming mist",
+   "spoken_name": "ultracalming mist",
+   "product_url": "https://dermalogica.co.za/products/ultracalming-mist-177ml-110545?variant=46592473956666",
+   "packshot": "d1112-110545-00.jpg",
+   "title": "Dermalogica UltraCalming Mist 177 mL in Your Routine #shorts",
+   "lead": "Dermalogica ultracalming mist: soothes and relieves inflammation, from the Rosebank moisturizer and texture desk.",
+   "facts": [
+    "Soothes and relieves inflammation",
+    "Helps condition skin Can be used after waxing or exfoliation for soothing benefits",
+    "Quickly relieves inflammation and discomfort",
+    "How to use: After cleansing, spray over face, neck and chest with eyes closed. For added benefits, press into skin. May also be sprayed onto fingertips or dampened cotton pad and applied to the skin with light, upward strokes. Follow with UltraCalming Serum Concentrate."
+   ],
+   "tags": [
+    "ultracalming mist",
+    "dermalogica ultracalming mist",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #UltraCalmingMist #MoisturizerDesk #shorts",
+   "thumb": {
+    "text": "Ingredient check",
+    "kicker": "ROSEBANK",
+    "layout": "photo",
+    "photo": "d1112-110545-01.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "In a routine",
+     "say": "Rosebank moisturizer and texture desk: Dermalogica ultracalming mist, 177 milliliters. Today: where it goes in a routine."
+    },
+    {
+     "type": "steps",
+     "image": "d1112-110545-01.jpg",
+     "kicker": "IN YOUR ROUTINE",
+     "headline": "Directions from the listing",
+     "items": [
+      "After cleansing",
+      "For added benefits, press into skin",
+      "May also be sprayed onto fingertips"
+     ],
+     "say": "After cleansing, spray over face, neck and chest with eyes closed. For added benefits, press into skin. May also be sprayed onto fingertips or dampened cotton pad and applied to the skin with light, upward strokes. Follow with UltraCalming Serum Concentrate."
+    },
+    {
+     "type": "figure",
+     "image": "d1112-110545-03.jpg",
+     "kicker": "WHY IT IS THERE",
+     "headline": "Quickly relieves inflammation and discomfort",
+     "say": "Quickly relieves inflammation and discomfort."
+    },
+    {
+     "type": "end",
+     "sub": "177 mL",
+     "say": "That's Dermalogica ultracalming mist. The link is in the description."
+    }
+   ],
+   "sku": "110545",
+   "variant": "177ml",
+   "slot_sast": "20:00",
+   "tier": "d",
+   "tier_why": "least recently used product (catalog thin; new script and visuals)",
+   "angle": "routine",
+   "script_overlap_max": 0.75,
+   "script_overlap_channel_7d": 0
+  }
+ ]
+}

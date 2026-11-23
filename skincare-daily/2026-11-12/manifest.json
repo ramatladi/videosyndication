@@ -1,7 +1,7 @@
 {
  "date": "2026-11-12",
  "ledger": "skincare-daily/2026-11-12/receipt-ledger.json",
- "publishing": "Codex publishes; this batch uploads and schedules nothing.",
+ "publishing": "skincare-upload.yml (GitHub Action) publishes; this batch uploads and schedules nothing.",
  "commission_disclosure": "description only",
  "language": "American English",
  "channels": {
@@ -14,10 +14,10 @@
   },
   "@DermatologyCapeTown": {
    "domain": "dermatology.capetown",
-   "shorts": 3,
-   "videos": 0,
+   "shorts": 4,
+   "videos": 2,
    "all_pass": true,
-   "status": "partial: staged items ready"
+   "status": "ready"
   },
   "@DermatologyDurbanUmhlanga": {
    "domain": "dermatology.durban",
@@ -42,13 +42,14 @@
   },
   "@SkincareJoburgRosebank": {
    "domain": "skincare.joburg",
-   "shorts": 2,
+   "shorts": 4,
    "videos": 2,
    "all_pass": true,
-   "status": "partial: staged items ready"
+   "status": "ready"
   }
  },
  "not_staged": [],
+ "unfilled_slots": [],
  "items": [
   {
    "domain": "dermatologist.joburg",
@@ -498,6 +499,134 @@
   {
    "domain": "dermatology.capetown",
    "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-12 10:00",
+   "format": "video",
+   "slug": "capetown-antioxidant-hydramist-250ml",
+   "sku": "811021",
+   "variant": "250ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "antioxidant hydramist",
+    "listing_url": "https://dermalogica.co.za/products/antioxidant-hydramist-antioxidant-hydramist?variant=54065292083514",
+    "checked": "2026-11-12",
+    "packshot": "skincare-daily/2026-11-12/images/d1112-811021-00.png",
+    "packshot_sha256": "90af384e8c5163da9dbebc35e9b5a2e9153f8990ae0b434cd3d37c67cf8b0923",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Antioxidant_Hydramist_-_8.4oz_-_BTL_-_FRONT.png?v=1789456229"
+   },
+   "title": "Dermalogica Antioxidant Hydramist Sizes and How to Use It",
+   "description": "Dermalogica antioxidant hydramist: reduces fine lines and hydrates, from the Cape Town daily sun care desk.\n\nWe earn a commission if you buy through our link at https://dermatology.capetown/.\n\n• Reduces fine lines and hydrates\n• Creates an antioxidant shield against free radicals Refreshing mist can be spritzed on skin throughout the day\n• Hydrates to reduce fine lines associated with dryness\n• How to use: After cleansing, spritz directly onto face and neck, avoiding the eyes. Also ideal as a refreshing spritz over make-up throughout the day.\n\nChapters:\n0:00 Overview\n0:15 Refreshing antioxidant toner that helps firm\n0:37 Directions from the listing\n0:53 Pea Extract helps firm skin\n\ndermatology.capetown is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/antioxidant-hydramist-antioxidant-hydramist?variant=54065292083514, checked 2026-11-12); check the current listing before you buy.\n\nShop: https://dermatology.capetown/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #AntioxidantHydramist #DailySPF",
+   "tags": [
+    "antioxidant hydramist",
+    "dermalogica antioxidant hydramist",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 72.55,
+   "resolution": "1920x1080",
+   "media_path": "skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-antioxidant-hydramist-250ml.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-antioxidant-hydramist-250ml.mp4",
+   "sha256": "d2c1ab2fb01636f4007826dca2f5ab2253d9fe324d79b754a35a1913366581f0",
+   "thumbnail_path": "skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-antioxidant-hydramist-250ml.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-antioxidant-hydramist-250ml.jpg",
+   "thumbnail_sha256": "530c5d6395056934755f857da8770ebb22d1988542fc4a21c0a7471aefef74c4",
+   "captions_path": "skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-antioxidant-hydramist-250ml.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-antioxidant-hydramist-250ml.en.srt",
+   "captions_sha256": "e0b37d519632de1fafac834cdf12ca6afde69739579abb59c8c34b369a856ed5",
+   "listing_images": [
+    "skincare-daily/2026-11-12/images/d1112-811021-00.png",
+    "skincare-daily/2026-11-12/images/d1112-811021-01.jpg",
+    "skincare-daily/2026-11-12/images/d1112-811021-02.jpg",
+    "skincare-daily/2026-11-12/images/d1112-811021-03.jpg",
+    "skincare-daily/2026-11-12/images/d1112-811021-06.jpg",
+    "skincare-daily/2026-11-12/images/d1112-811021-07.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_aoede (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.31,
+    "true_peak": -1.41,
+    "packshot_match": 0.994,
+    "srt_cues": 17,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 70,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.capetown",
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-12 12:00",
+   "format": "short",
+   "slug": "capetown-dark-spot-solutions-kit-short",
+   "sku": "111403INT",
+   "variant": "Skin Kits",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "dark spot solutions kit",
+    "listing_url": "https://dermalogica.co.za/products/dark-spot-solutions-kit-111403int?variant=46588883927354",
+    "checked": "2026-11-12",
+    "packshot": "skincare-daily/2026-11-12/images/d1112-111403INT-00.png",
+    "packshot_sha256": "a78b9f5a5f4ab57c15d4b8acd31bcc60a65b31dab54542f99042eb908d0a9b1f",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Medium_827d309a-6ab7-464f-af96-46d37968d59f.png?v=1698907246"
+   },
+   "title": "Reading the Label: Dermalogica Dark Spot Solutions Kit #shorts",
+   "description": "Dermalogica dark spot solutions kit: fades and prevents dark spots, from the Cape Town daily sun care desk.\n\nWe earn a commission if you buy through our link at https://dermatology.capetown/.\n\n• Fades and prevents dark spots\n• What's inside: PowerBright Dark Spot Serum (10ml); PowerBright Moisturizer (12ml); PowerBright Overnight Cream (15ml)\n• start fading the appearance of dark spots within days. Defend: daily moisturizer helps shield against dark spots. Restore: nourishing nighttime cream optimizes skin moisture recovery and helps restore luminosity\n• How to use: powerbright dark spot serum: Each morning after cleansing and toning, apply one pump over face and neck in light, upward strokes. Allow one minute for product absorption. powerbright moisturizer spf 50: Apply over face and neck, avoiding the eye area, preferably 30 minutes prior to sun e\n\ndermatology.capetown is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/dark-spot-solutions-kit-111403int?variant=46588883927354, checked 2026-11-12); check the current listing before you buy.\n\nShop: https://dermatology.capetown/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #DarkSpotSolutionsKit #DailySPF #shorts",
+   "tags": [
+    "dark spot solutions kit",
+    "dermalogica dark spot solutions kit",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 45.77,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-dark-spot-solutions-kit-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-dark-spot-solutions-kit-short.mp4",
+   "sha256": "0ac02bd97e9bcdbdbda7ffbb8cf985a87f6c17d5ddb2c6f129eaf73bfb93ced0",
+   "thumbnail_path": "skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-dark-spot-solutions-kit-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-dark-spot-solutions-kit-short.jpg",
+   "thumbnail_sha256": "619bb35388e9ea54906d8391ba09803cabd8e46cbd514923f94a3f23d9b41580",
+   "captions_path": "skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-dark-spot-solutions-kit-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-dark-spot-solutions-kit-short.en.srt",
+   "captions_sha256": "d805ed2c0a68b372851ab8144bbc74aea3af7ac44ac47efa5c9abde75cb3ae0c",
+   "listing_images": [
+    "skincare-daily/2026-11-12/images/d1112-111403INT-00.png",
+    "skincare-daily/2026-11-12/images/d1112-111403INT-02.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_aoede (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.37,
+    "true_peak": -1.37,
+    "packshot_match": 0.83,
+    "srt_cues": 11,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 56,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.capetown",
+   "handle": "@DermatologyCapeTown",
    "slot_sast": "2026-11-12 16:00",
    "format": "short",
    "slug": "capetown-discover-healthy-skin-kit-short",
@@ -556,6 +685,71 @@
     "pass": true
    },
    "crossday_min_thumb_dist": 52,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.capetown",
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-12 18:00",
+   "format": "video",
+   "slug": "capetown-dynamic-skin-strengthening-serum-30ml-30ml",
+   "sku": "111508",
+   "variant": "30ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "dynamic skin strengthening serum 30ml",
+    "listing_url": "https://dermalogica.co.za/products/dynamic-skin-strengthening-serum-30ml?variant=50681821135162",
+    "checked": "2026-11-12",
+    "packshot": "skincare-daily/2026-11-12/images/d1112-111508-00.jpg",
+    "packshot_sha256": "ba5740e5c6ed5c8f72d3ecf89f7da882cd6227eab32b59243d95f65d1fe7c85f",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/DSSS_PDP_tiles_FinalProductSpotlight.jpg?v=1755175456"
+   },
+   "title": "Dermalogica Dynamic Skin Strengthening Serum 30ml: Benefits, Directions and Who It Suits",
+   "description": "Dermalogica dynamic skin strengthening serum 30ml: builds barrier resilience, from the Cape Town daily sun care desk.\n\nWe earn a commission if you buy through our link at https://dermatology.capetown/.\n\n• Builds barrier resilience\n• barrier resilience age resistance\n• How to use: After cleansing, apply over face and neck in light, upward strokes. Follow with broad spectrum SPF for daytime use.\n\nChapters:\n0:00 Overview\n0:15 Builds barrier resilience\n0:47 Directions from the listing\n\ndermatology.capetown is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/dynamic-skin-strengthening-serum-30ml?variant=50681821135162, checked 2026-11-12); check the current listing before you buy.\n\nShop: https://dermatology.capetown/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #DynamicSkinStrengtheningSerum30ml #DailySPF",
+   "tags": [
+    "dynamic skin strengthening serum 30ml",
+    "dermalogica dynamic skin strengthening serum 30ml",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 64.63,
+   "resolution": "1920x1080",
+   "media_path": "skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-dynamic-skin-strengthening-serum-30ml-30ml.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-dynamic-skin-strengthening-serum-30ml-30ml.mp4",
+   "sha256": "a34e4e2f91b095f390d2301513ca9d697cb5c263448917edbcbeab34c6d60404",
+   "thumbnail_path": "skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-dynamic-skin-strengthening-serum-30ml-30ml.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-dynamic-skin-strengthening-serum-30ml-30ml.jpg",
+   "thumbnail_sha256": "3364c02e6dca0a45741da309da6b782ce398d4aafde498d420ef4b3b208ea080",
+   "captions_path": "skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-dynamic-skin-strengthening-serum-30ml-30ml.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-12/renders/dermatology.capetown/capetown-dynamic-skin-strengthening-serum-30ml-30ml.en.srt",
+   "captions_sha256": "0e53b213953797e702e2bd8325b44c041166c587b065254910e879e89699ab45",
+   "listing_images": [
+    "skincare-daily/2026-11-12/images/d1112-111508-00.jpg",
+    "skincare-daily/2026-11-12/images/d1112-111508-01.jpg",
+    "skincare-daily/2026-11-12/images/d1112-111508-03.jpg",
+    "skincare-daily/2026-11-12/images/d1112-111508-05.jpg",
+    "skincare-daily/2026-11-12/images/d1112-111508-07.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_aoede (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.31,
+    "true_peak": -1.38,
+    "packshot_match": 0.801,
+    "srt_cues": 17,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 49,
    "status": "ready"
   },
   {
@@ -1765,6 +1959,69 @@
   {
    "domain": "skincare.joburg",
    "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-12 08:00",
+   "format": "short",
+   "slug": "rosebank-calm-water-gel-50ml-short",
+   "sku": "111268",
+   "variant": "50ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "calm water gel",
+    "listing_url": "https://dermalogica.co.za/products/calm-water-gel-50ml-111268?variant=46583617126714",
+    "checked": "2026-11-12",
+    "packshot": "skincare-daily/2026-11-12/images/d1112-111268-00.png",
+    "packshot_sha256": "a9a9127c23237cb7db38d9d4e84d2d12a6efe70b703804d18211bcdbfb1e8af6",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Medium_024357fe-bbd2-4453-95b6-3d6459de8279.png?v=1698668507"
+   },
+   "title": "Dermalogica Calm Water Gel 50 mL: Which Step Is It? #shorts",
+   "description": "Dermalogica calm water gel: calms and hydrates sensitive skin, from the Rosebank moisturizer and texture desk.\n\nWe earn a commission if you buy through our link at https://skincare.joburg/.\n\n• Calms and hydrates sensitive skin\n• Provides immediate hydration to dry, irritated skin\n• Softens, soothes and calms\n• Locks in moisture and defends skin against dryness\n• How to use: Squeeze a small amount into palm and rub hands together to activate. Pat gently onto face and neck. Use twice a day for continuous relief.\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/calm-water-gel-50ml-111268?variant=46583617126714, checked 2026-11-12); check the current listing before you buy.\n\nShop: https://skincare.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #CalmWaterGel #MoisturizerDesk #shorts",
+   "tags": [
+    "calm water gel",
+    "dermalogica calm water gel",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 26.71,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-12/renders/skincare.joburg/rosebank-calm-water-gel-50ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-12/renders/skincare.joburg/rosebank-calm-water-gel-50ml-short.mp4",
+   "sha256": "cfa8cfcbf7be933ce729da3143d78049fbea36de25f6ba6ba62a38a4ae38667c",
+   "thumbnail_path": "skincare-daily/2026-11-12/renders/skincare.joburg/rosebank-calm-water-gel-50ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-12/renders/skincare.joburg/rosebank-calm-water-gel-50ml-short.jpg",
+   "thumbnail_sha256": "ee320f879b286189592cf53736f61a2eea0ee7f7efa3df895a54199bd8e6bbd9",
+   "captions_path": "skincare-daily/2026-11-12/renders/skincare.joburg/rosebank-calm-water-gel-50ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-12/renders/skincare.joburg/rosebank-calm-water-gel-50ml-short.en.srt",
+   "captions_sha256": "e22c68725c36232e771fd35b0883a7693d22d2d483ec888d07700d4ed9912c52",
+   "listing_images": [
+    "skincare-daily/2026-11-12/images/d1112-111268-00.png",
+    "skincare-daily/2026-11-12/images/d1112-111268-01.jpg",
+    "skincare-daily/2026-11-12/images/d1112-111268-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_heart (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.22,
+    "true_peak": -1.43,
+    "packshot_match": 0.972,
+    "srt_cues": 9,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 40,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.joburg",
+   "handle": "@SkincareJoburgRosebank",
    "slot_sast": "2026-11-12 10:00",
    "format": "video",
    "slug": "rosebank-powerbright-moisturiser-spf50-50ml",
@@ -2017,38 +2274,69 @@
    },
    "crossday_min_thumb_dist": 51,
    "status": "ready"
-  }
- ],
- "unfilled_slots": [
-  {
-   "handle": "@DermatologyCapeTown",
-   "slot_sast": "2026-11-12 10:00",
-   "format": "regular",
-   "reason": "no eligible product left: every desk/angle candidate outside the 7-day channel window either repeats an earlier script (>0.85 word overlap; listing-only facts) or is already used today"
   },
   {
-   "handle": "@DermatologyCapeTown",
-   "slot_sast": "2026-11-12 12:00",
-   "format": "short",
-   "reason": "no eligible product left: every desk/angle candidate outside the 7-day channel window either repeats an earlier script (>0.85 word overlap; listing-only facts) or is already used today"
-  },
-  {
-   "handle": "@DermatologyCapeTown",
-   "slot_sast": "2026-11-12 18:00",
-   "format": "regular",
-   "reason": "no eligible product left: every desk/angle candidate outside the 7-day channel window either repeats an earlier script (>0.85 word overlap; listing-only facts) or is already used today"
-  },
-  {
-   "handle": "@SkincareJoburgRosebank",
-   "slot_sast": "2026-11-12 08:00",
-   "format": "short",
-   "reason": "no eligible product left: every desk/angle candidate outside the 7-day channel window either repeats an earlier script (>0.85 word overlap; listing-only facts) or is already used today"
-  },
-  {
+   "domain": "skincare.joburg",
    "handle": "@SkincareJoburgRosebank",
    "slot_sast": "2026-11-12 20:00",
    "format": "short",
-   "reason": "no eligible product left: every desk/angle candidate outside the 7-day channel window either repeats an earlier script (>0.85 word overlap; listing-only facts) or is already used today"
+   "slug": "rosebank-ultracalming-mist-177ml-short",
+   "sku": "110545",
+   "variant": "177ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "ultracalming mist",
+    "listing_url": "https://dermalogica.co.za/products/ultracalming-mist-177ml-110545?variant=46592473956666",
+    "checked": "2026-11-12",
+    "packshot": "skincare-daily/2026-11-12/images/d1112-110545-00.jpg",
+    "packshot_sha256": "cb5abe4025198e5615fd79eae9bc41b62b61305e29b2a6382e136503f9a89d12",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/UltraCalming-Mist_6oz.jpg?v=1696578733"
+   },
+   "title": "Dermalogica UltraCalming Mist 177 mL in Your Routine #shorts",
+   "description": "Dermalogica ultracalming mist: soothes and relieves inflammation, from the Rosebank moisturizer and texture desk.\n\nWe earn a commission if you buy through our link at https://skincare.joburg/.\n\n• Soothes and relieves inflammation\n• Helps condition skin Can be used after waxing or exfoliation for soothing benefits\n• Quickly relieves inflammation and discomfort\n• How to use: After cleansing, spray over face, neck and chest with eyes closed. For added benefits, press into skin. May also be sprayed onto fingertips or dampened cotton pad and applied to the skin with light, upward strokes. Follow with UltraCalming Serum Concentrate.\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/ultracalming-mist-177ml-110545?variant=46592473956666, checked 2026-11-12); check the current listing before you buy.\n\nShop: https://skincare.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #UltraCalmingMist #MoisturizerDesk #shorts",
+   "tags": [
+    "ultracalming mist",
+    "dermalogica ultracalming mist",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 35.4,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-12/renders/skincare.joburg/rosebank-ultracalming-mist-177ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-12/renders/skincare.joburg/rosebank-ultracalming-mist-177ml-short.mp4",
+   "sha256": "5f0b13bacb12afc660fe6dcd4a06f9abc7693f51c508d82a71cb75f3cfd04e1c",
+   "thumbnail_path": "skincare-daily/2026-11-12/renders/skincare.joburg/rosebank-ultracalming-mist-177ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-12/renders/skincare.joburg/rosebank-ultracalming-mist-177ml-short.jpg",
+   "thumbnail_sha256": "d4c6e8766bcb53e0979d4c39c530869c989fc04f6fab067a2875df42f9d9dcba",
+   "captions_path": "skincare-daily/2026-11-12/renders/skincare.joburg/rosebank-ultracalming-mist-177ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-12/renders/skincare.joburg/rosebank-ultracalming-mist-177ml-short.en.srt",
+   "captions_sha256": "5f4f42d602b62f9721e57876d30ba2a14549129a0952e5c25744337ff383f668",
+   "listing_images": [
+    "skincare-daily/2026-11-12/images/d1112-110545-00.jpg",
+    "skincare-daily/2026-11-12/images/d1112-110545-01.jpg",
+    "skincare-daily/2026-11-12/images/d1112-110545-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_heart (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.21,
+    "true_peak": -1.48,
+    "packshot_match": 0.976,
+    "srt_cues": 11,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 45,
+   "status": "ready"
   }
  ]
 }
