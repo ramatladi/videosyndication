@@ -197,13 +197,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "gBbaf7W6QXc",
       "sku": "110615",
       "title": "Dermalogica Multi Active Toner: Every Size in Under a Minute #shorts",
       "manifest_slug": "umhlanga-multi-active-toner-short",
       "media_sha256": "28465f7678739a4579f2bb5c306a859971d17a0988ccc323bace84b79cc5446e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T14:00:00Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -461,5 +462,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 20
+  "youtube_ids_recorded": 21
 }
