@@ -1,0 +1,549 @@
+{
+ "engine": "cast",
+ "id": 124,
+ "slug": "pay-me-no-mind",
+ "title": "Pay Me No Mind",
+ "trend": "TikTok 'You Paid Me No Mind' (act out a moment someone ignores you; #8thavenue and #youpayedmenomind both Peaking, SocialPilot TikTok trends Nov 17-25 2026, US) \u2014 POV ignored-and-dramatic format, here an old dog ignored after a new puppy arrives; never names the sound, song or hashtag",
+ "target_seconds": 180,
+ "length_reason": "The 'paid me no mind' clips are quick one-clip skits under a minute, so this stays at the shortest film length, 3:00, which also fits Instagram's 3-minute limit.",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "pov:",
+  "you were the only dog",
+  "for twelve years"
+ ],
+ "youtube_title": "My Old Dog Thinks Nobody Notices Him Since The Puppy Came | Funny Cartoon",
+ "description": "For twelve years Walter was the only dog in the house. Then Noodle arrived in a box with a bow, and suddenly nobody notices the leash, the slippers or his best bark at the mail carrier. Walter has a plan. So does everybody else.\n\n#cartoon #animation #funny #comedy #dogs",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "dogs",
+  "puppy",
+  "old dog",
+  "pets",
+  "family comedy"
+ ],
+ "tiktok_caption": "pov: you were the only dog for twelve years \ud83d\udc36 #cartoon #animation #funny #comedy #dogs",
+ "cast": [
+  {
+   "id": "walter",
+   "name": "Walter",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#a8733f",
+   "belly": "#e8c99b",
+   "inner": "#7a4f2a",
+   "scale": 1.12,
+   "top": {
+    "color": "#7f8c8d",
+    "pattern": "plain"
+   },
+   "accessories": [
+    "glasses:#333333",
+    "scarf:#2e86c1"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "frown",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "noodle",
+   "name": "Noodle",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#f2dcae",
+   "belly": "#fff6e3",
+   "inner": "#e9a8a0",
+   "scale": 0.85,
+   "top": {
+    "color": "#e74c3c",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "accessories": [
+    "bow:#f1c40f"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "blush": true,
+   "voice": {
+    "id": "am_puck",
+    "pitch": 1,
+    "tempo": 1.1
+   }
+  },
+  {
+   "id": "kim",
+   "name": "Kim",
+   "kind": "human",
+   "color": "#e0ac69",
+   "hair": {
+    "style": "long",
+    "color": "#5a3218"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "headphones:#f39c12"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "dale",
+   "name": "Dale",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "short",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#1f3a93",
+    "pattern": "plain"
+   },
+   "bottom": "#1f3a93",
+   "shoes": "#222222",
+   "accessories": [
+    "cap:#1f3a93",
+    "mustache:#2d1b0e"
+   ],
+   "eye": "round",
+   "brows": "neutral",
+   "voice": {
+    "id": "am_eric",
+    "pitch": -1,
+    "tempo": 0.98
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "walter",
+   "text": "Twelve years. For twelve years, I was the only dog in this house.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "noodle",
+   "text": "Hi! I am Noodle! I live here now! Is that your bed? That is my bed now!",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "boing"
+  },
+  {
+   "spk": "walter",
+   "text": "It arrived on Tuesday. In a box. With a bow on it.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "noodle",
+   "text": "I was the present! You were not the present. I checked.",
+   "shot": "CU",
+   "gesture": "point",
+   "jump": true
+  },
+  {
+   "spk": "kim",
+   "text": "Oh my goodness, look at his little ears! Look at his little everything!",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "walter",
+   "text": "I also have ears. I have had these ears since two thousand fourteen.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kim",
+   "text": "Walter, buddy, not now. Noodle is trying on his little sweater.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walter",
+   "text": "He has a sweater. I have a scarf from a yard sale. Nobody asked about the scarf.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "walter",
+   "text": "Fine. Step one. The leash. Nobody ignores the leash.",
+   "shot": "W",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "noodle",
+   "text": "What is a leash? Is it food? I think it is food.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "walter",
+   "text": "I dropped it at her feet. Very gently. Like a gift.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "kim",
+   "text": "Thank you, Walter. Noodle, who is a good boy? You are!",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "walter",
+   "text": "She stepped over the leash. She stepped over me. Then she stepped over the leash again.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "walter",
+   "text": "So I brought her slipper. Then the other slipper. Then the entire laundry basket.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "noodle",
+   "text": "He carried the basket up the stairs! With his face! I clapped with my feet!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "kim",
+   "text": "Who keeps putting socks on the stairs? Noodle, did you do that? So clever!",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "walter",
+   "text": "Clever. He has never carried anything in his life. He cannot carry a tune.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "noodle",
+   "text": "I can carry a tune! Bark bark, bark bark bark!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "walter",
+   "text": "That is not a tune. That is a complaint.",
+   "shot": "CU",
+   "gesture": "talk",
+   "after": "rimshot"
+  },
+  {
+   "spk": "walter",
+   "text": "Step two. The mail carrier. Twelve o'clock. My greatest performance.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.7
+  },
+  {
+   "spk": "dale",
+   "text": "Afternoon, folks. Got a big box here for Kim.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "walter",
+   "text": "For twelve years I have barked at this man. For twelve years, he has been terrified.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "walter",
+   "text": "Woof. Woof. Wooof. Ruff. That last one was in a deep voice.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "dale",
+   "text": "Well hello, little guy! Look at that tiny sweater!",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "walter",
+   "text": "He walked right past me. To the puppy. With a biscuit.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "dale",
+   "text": "Oh, hey Walter. Love the singing today. Very relaxing.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walter",
+   "text": "Singing. Twelve years of protecting this house, and he thinks I am a radio.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "sting"
+  },
+  {
+   "spk": "noodle",
+   "text": "I got the biscuit! It tasted like the mailbox! I love the mailbox!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "walter",
+   "text": "Step three. The big one. I lay down on the rug. Very still. Very dramatic.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "noodle",
+   "text": "Is he sleeping? Is he a rug now? Can I sit on him?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "walter",
+   "text": "Do not sit on me. I am being tragic.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kim",
+   "text": "Noodle! Treat time! Come here, sweet boy!",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "walter",
+   "text": "She walked over me to give him a treat. I was tragic for eleven minutes. Nobody came.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "noodle",
+   "text": "I came! I came back for your treat too! I ate it! You are welcome!",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "boing"
+  },
+  {
+   "spk": "walter",
+   "text": "Even the cat came over. She looked at me. She shook her head. She left.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "noodle",
+   "text": "We have a cat?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "walter",
+   "text": "We have had a cat for nine years. She also pays me no mind.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walter",
+   "text": "Fine. You want to ignore Walter? Walter will ignore all of you.",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 0.5
+  },
+  {
+   "spk": "walter",
+   "text": "I packed a bag. One sock, one tennis ball, and a picture of me as a puppy.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "noodle",
+   "text": "You were a puppy? You were cute! What happened?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "walter",
+   "text": "Twelve years happened. I am moving to the porch. Forever. Or until dinner.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "whoosh"
+  },
+  {
+   "spk": "kim",
+   "text": "Walter? Walter, where are you going? Wait! Not yet!",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "pre": 0.6
+  },
+  {
+   "spk": "walter",
+   "text": "Oh, now she notices. Now that I have a sock in a bag.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dale",
+   "text": "Kim! They are all here! Should I open the gate?",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "walter",
+   "text": "Open the gate? Who is here? Why is the mail man still here?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "kim",
+   "text": "Surprise! Happy twelve years, Walter!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "walter",
+   "text": "The whole yard was full of dogs. Every dog on the street. And a cake shaped like a slipper.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "kim",
+   "text": "We had to keep you busy all week, buddy. Noodle was the distraction.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "noodle",
+   "text": "I was undercover! I do not even like sweaters. It itches in the armpits.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "jump": true
+  },
+  {
+   "spk": "walter",
+   "text": "You ate my treat. Was that undercover too?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "noodle",
+   "text": "No. That was just me.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "dale",
+   "text": "And I was undercover too. The box is your party hat.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walter",
+   "text": "So you were never relaxed by my singing.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dale",
+   "text": "Honestly? I have been scared of you for twelve years. Great job, Walter.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "walter",
+   "text": "I knew it. Twelve years of hard work, finally paid off.",
+   "shot": "CU",
+   "gesture": "hips",
+   "jump": true
+  },
+  {
+   "spk": "kim",
+   "text": "You are the best boy in this house. You always were.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "noodle",
+   "text": "I am the second best boy! I just found out! I am so happy about it!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "walter",
+   "text": "So all week, you paid me no mind. On purpose.",
+   "shot": "W",
+   "gesture": "think",
+   "pre": 0.5
+  },
+  {
+   "spk": "kim",
+   "text": "Every single second. It was the hardest week of my life.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "noodle",
+   "text": "Walter? Now that we are friends, can I have your bed?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "walter",
+   "text": "You can have half.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.8
+  },
+  {
+   "spk": "noodle",
+   "text": "I already ate half.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "ding"
+  },
+  {
+   "spk": "walter",
+   "text": "Then I am sleeping in the sweater.",
+   "shot": "W",
+   "gesture": "cross",
+   "post": 1.0
+  }
+ ]
+}
