@@ -461,13 +461,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "GcSzYl0VoPY",
       "sku": "811063",
       "title": "Dermalogica Super Rich Repair: Key Ingredients in Under a Minute #shorts",
       "manifest_slug": "rosebank-super-rich-repair-short",
       "media_sha256": "b905f5cb1efb67df7795164d0cfc2b94b9c816b694a9006cad298f2d128945cf",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T18:00:00Z"
     }
   ],
   "reconciliation": {
@@ -476,5 +477,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 35
+  "youtube_ids_recorded": 36
 }
