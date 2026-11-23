@@ -45,13 +45,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "GiYOQfuiPvc",
       "sku": "301346INT",
       "title": "Dermalogica Expert Cleanse + Glow Set (3 Full-Size) Ingredient Check #shorts",
       "manifest_slug": "midrand-expert-cleanse-glow-set-3-full-size-short",
       "media_sha256": "5edd52fefc214f390412875158ef72603a82804e0241d29160fc6322085feffd",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T14:00:00Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -459,5 +460,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 18
+  "youtube_ids_recorded": 19
 }
