@@ -121,13 +121,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "kCwrFzCsicc",
       "sku": "111412",
       "title": "Reading the Label: Dermalogica Invisible Physical Defense SPF30 #shorts",
       "manifest_slug": "capetown-invisible-physical-defense-spf30-short",
       "media_sha256": "eefb61b62b687ccbd3bc68be0fb02e4979639eae3b3fd8fc9ec781ff2d2e159f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T14:00:00Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -460,5 +461,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 19
+  "youtube_ids_recorded": 20
 }
