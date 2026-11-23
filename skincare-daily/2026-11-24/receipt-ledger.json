@@ -19,13 +19,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "o3DPXwXMxP8",
       "sku": "110638",
       "title": "Dermalogica Special Cleansing Gel: Key Ingredients and How to Use It",
       "manifest_slug": "midrand-special-cleansing-gel",
       "media_sha256": "ace277e202aec37892ef921f071a9de749bf3f802b7b00d02feabded9a87f26d",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T08:00:00Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -447,5 +448,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T21:04+02:00"
   },
-  "youtube_ids_recorded": 6
+  "youtube_ids_recorded": 7
 }
