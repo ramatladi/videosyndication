@@ -212,13 +212,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "45jnceyNFFo",
       "sku": "111430",
       "title": "Dermalogica Micro-Pore Mist 118ml: Key Ingredients and How to Use It",
       "manifest_slug": "umhlanga-micro-pore-mist-118ml",
       "media_sha256": "8a77f8ae899b66195d5c21dc0089a953db79688c06d9567996824cbbe1a0e412",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T16:00:00Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -467,5 +468,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 26
+  "youtube_ids_recorded": 27
 }
