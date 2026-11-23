@@ -152,13 +152,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "RzPmVzQv-1U",
       "sku": "111122",
       "title": "Dermalogica Skin Soothing Hydrating Lotion, Ingredient by Ingredient #shorts",
       "manifest_slug": "umhlanga-skin-soothing-hydrating-lotion-short",
       "media_sha256": "6d1de5bcfe31415137fe7c422d8b88f3629ab7f945b5b7f214dec4e37447b13f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T06:00:00Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -443,5 +444,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T21:04+02:00"
   },
-  "youtube_ids_recorded": 2
+  "youtube_ids_recorded": 3
 }
