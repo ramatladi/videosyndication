@@ -1,0 +1,5202 @@
+{
+ "summary": {
+  "renders": 36,
+  "passed": 36,
+  "fails": [],
+  "unique_products": true,
+  "free_photos_unique": true,
+  "store_images_shared_between_videos": [],
+  "min_thumb_dist": 43,
+  "min_frame_dist": 25,
+  "similarity_fails": [
+   {
+    "a": "westville-daily-glycolic-cleanser-short",
+    "b": "westville-biolumin-c-gel-moisturiser-short",
+    "thumb_dist": 123,
+    "frame_dist": 28
+   },
+   {
+    "a": "midrand-sensitive-skin-rescue-kit-short",
+    "b": "capetown-daily-brightness-boosters-kit-short",
+    "thumb_dist": 128,
+    "frame_dist": 25
+   },
+   {
+    "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+    "b": "bedfordview-circular-hydration-serum-short",
+    "thumb_dist": 156,
+    "frame_dist": 26
+   },
+   {
+    "a": "capetown-golden-hour-hydrating-spf30-stick",
+    "b": "bedfordview-smart-response-serum",
+    "thumb_dist": 107,
+    "frame_dist": 27
+   },
+   {
+    "a": "westville-intensive-moisture-cleanser",
+    "b": "bedfordview-smart-response-serum",
+    "thumb_dist": 106,
+    "frame_dist": 25
+   },
+   {
+    "a": "bedfordview-smart-response-serum",
+    "b": "bedfordview-powerbright-dark-spot-serum",
+    "thumb_dist": 101,
+    "frame_dist": 27
+   }
+  ]
+ },
+ "renders": [
+  {
+   "slug": "capetown-skinperfect-primer-spf30-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product": "skinperfect primer spf30",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 32.33,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.39,
+   "true_peak": -1.46,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 63,
+   "desc_bytes": 1082,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.933,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.966,
+   "cover_ok": true,
+   "mp4_sha256": "c577e1db615475f0e53aac44a11e9c3e01a33586383d04c2d28819efd3ee67ba",
+   "jpg_sha256": "6970f8ac09989bc663535494c7f2bc8452ac17fbd43b4f8b55de91c2b83259a3",
+   "srt_sha256": "e7317905b7a116a1d1f96725b1f582418f805cefd0e77b98e3a3621ce8b7edbb",
+   "pass": true
+  },
+  {
+   "slug": "westville-daily-glycolic-cleanser-short",
+   "domain": "skincare.durban",
+   "format": "short",
+   "product": "daily glycolic cleanser",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 28.23,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.18,
+   "true_peak": -1.46,
+   "loudness_ok": true,
+   "srt_cues": 7,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 78,
+   "desc_bytes": 882,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.905,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.947,
+   "cover_ok": true,
+   "mp4_sha256": "03b52d9fcdeae8e86b688118c2d0c539dbec06bfafc5d89e519f36943f5def81",
+   "jpg_sha256": "34caa4237482d5e45f5af24ae5f8ecc81e3eec7050508b196e87ae9ad1cf8abb",
+   "srt_sha256": "d3b87ded4cf088e675c0df932977887906f98a9daaab76a4f07bbf93e71cbbb2",
+   "pass": true
+  },
+  {
+   "slug": "rosebank-phyto-nature-oxygen-cream-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product": "phyto nature oxygen cream",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 37.73,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.27,
+   "true_peak": -1.49,
+   "loudness_ok": true,
+   "srt_cues": 10,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 62,
+   "desc_bytes": 1024,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.977,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.972,
+   "cover_ok": true,
+   "mp4_sha256": "35afe9075b43919b7ce5c6709ee7b665fcf34e332878ec50442173ec4d96916f",
+   "jpg_sha256": "cefa8c4301b2fbaaa0752e077887798296a74d03dbcdeb0b2961f43dd455c69d",
+   "srt_sha256": "2176f5873751624aba2096deee7e26c1a498fbd191e5f4455c25a775ccdd8a51",
+   "pass": true
+  },
+  {
+   "slug": "midrand-sensitive-skin-rescue-kit-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product": "sensitive skin rescue kit",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 36.41,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.43,
+   "true_peak": -1.94,
+   "loudness_ok": true,
+   "srt_cues": 11,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 64,
+   "desc_bytes": 1345,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.985,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.958,
+   "cover_ok": true,
+   "mp4_sha256": "12fc3c210fc264ca753a072bf9ddb6961c589c32cb6884dfe35543477afce556",
+   "jpg_sha256": "01de3b38e31f16411926bb15b2b1f582aa746b69234292f6927966aa374a86c2",
+   "srt_sha256": "3ead2a198fde5d4643bd161293854e5c034cab844b9ec4141f4faac03107d17a",
+   "pass": true
+  },
+  {
+   "slug": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product": "dynamic skin strengthening serum 30ml",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 49.54,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.37,
+   "true_peak": -1.93,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 73,
+   "desc_bytes": 963,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.871,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.874,
+   "cover_ok": true,
+   "mp4_sha256": "f28f60f0830eb92298253c145d6ae280530f8546b3bb504550915dfb5b8a6e80",
+   "jpg_sha256": "fe7000159d04581436d0aded6a9a05b97a3ea362670b4c2ffc4260a9d4759619",
+   "srt_sha256": "c1ec261d6f692c634c56cfb5dc87f872f15816d1ccd23909c1daac855780e6bc",
+   "pass": true
+  },
+  {
+   "slug": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "domain": "dermatology.durban",
+   "format": "short",
+   "product": "skin soothing hydrating lotion",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 30.33,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.47,
+   "true_peak": -1.44,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 76,
+   "desc_bytes": 1063,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.942,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.93,
+   "cover_ok": true,
+   "mp4_sha256": "6d1de5bcfe31415137fe7c422d8b88f3629ab7f945b5b7f214dec4e37447b13f",
+   "jpg_sha256": "bf13970e4f058d707e4f1810c6622f12d9a3db95d52813245ca64d2dbe870807",
+   "srt_sha256": "3f932e13abaaf15e3b20305638841e36104da7f86cd7f5c0d9d5b0730e23eb93",
+   "pass": true
+  },
+  {
+   "slug": "capetown-golden-hour-hydrating-spf30-stick",
+   "domain": "dermatology.capetown",
+   "format": "video",
+   "product": "golden hour hydrating spf30 stick",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 75.73,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.25,
+   "true_peak": -1.38,
+   "loudness_ok": true,
+   "srt_cues": 20,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 84,
+   "desc_bytes": 1290,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.957,
+   "packshot_ok": true,
+   "mp4_sha256": "c0851109f8f6e7ec68b2e8ff8f2edb6d4ebde7bbc56f0c62f7b86168b6aed4a1",
+   "jpg_sha256": "e231861046756f480ba37c5670def9ef0bf632abcf775ea93cc510c592a6ae9e",
+   "srt_sha256": "3e1069535d044d21e23463318139b9b2999e094521b14d679dc7d64f64be90d9",
+   "pass": true
+  },
+  {
+   "slug": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product": "biolumin-c heat aging protector spf50",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 34.86,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.43,
+   "true_peak": -1.39,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 75,
+   "desc_bytes": 1105,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.813,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.802,
+   "cover_ok": true,
+   "mp4_sha256": "7d0ae060618eb9455986c8fda3c4a7d4cd645c0d415e848ab2277eb07e438ef0",
+   "jpg_sha256": "130c6be9f9e5dcb821d7870fbb062865a4df8353017cfa892a501b2aa7c0d0cc",
+   "srt_sha256": "3cdd1c2ab8438787d723b9a5fc3bbb9b29b21396157ed8658ae36470ad8fb27e",
+   "pass": true
+  },
+  {
+   "slug": "capetown-prisma-protect-spf30-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product": "prisma protect spf30",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 32.24,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.31,
+   "true_peak": -1.43,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 73,
+   "desc_bytes": 1055,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.981,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.97,
+   "cover_ok": true,
+   "mp4_sha256": "a59241e816546c171afb588f4fa878b029252382b7c734ee264dd367aaa89223",
+   "jpg_sha256": "f2cd5802189477cc0e17b3200694bcb34a82701c9695c49ff5932daf58ed2ba4",
+   "srt_sha256": "7d8d8d0a2d83ef35713b0f36d01de326b7087f0e25df6e07b68541fc5adc3751",
+   "pass": true
+  },
+  {
+   "slug": "capetown-age-reversal-eye-complex",
+   "domain": "dermatology.capetown",
+   "format": "video",
+   "product": "age reversal eye complex",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 73.33,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.28,
+   "true_peak": -1.44,
+   "loudness_ok": true,
+   "srt_cues": 20,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 68,
+   "desc_bytes": 1346,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.972,
+   "packshot_ok": true,
+   "mp4_sha256": "ee56476d8887e6893ccb9ba76c2c821dbe369e467ead2199e3819a7739ae9bd2",
+   "jpg_sha256": "8f4218d73c58417099c34be8cc9f20e4735e43b546ca8eca2f47255ce392ac63",
+   "srt_sha256": "9b7e40dc62d82c5ea35ce3e23f0567a405a2883a8df2e912948c4bbf52b67ce8",
+   "pass": true
+  },
+  {
+   "slug": "capetown-daily-brightness-boosters-kit-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product": "daily brightness boosters kit",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 53.23,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.42,
+   "true_peak": -1.41,
+   "loudness_ok": true,
+   "srt_cues": 13,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 84,
+   "desc_bytes": 1474,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.949,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.948,
+   "cover_ok": true,
+   "mp4_sha256": "dda69ccba5dc482feedd71232abf4f715ab8f618efd1851a26ea23befb373dd9",
+   "jpg_sha256": "3afc453fa13067de0d30a6edcfdd003625e4d4ba4081206a1ecc463af896c145",
+   "srt_sha256": "be73a63af48fd26d26164281c24f2617ff7f83acda61f52500a8e2c230728e14",
+   "pass": true
+  },
+  {
+   "slug": "westville-breakout-biotic-moisturiser",
+   "domain": "skincare.durban",
+   "format": "video",
+   "product": "breakout biotic moisturiser",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 65.53,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.19,
+   "true_peak": -1.44,
+   "loudness_ok": true,
+   "srt_cues": 16,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 81,
+   "desc_bytes": 1108,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.823,
+   "packshot_ok": true,
+   "mp4_sha256": "a2a627824aa7c8d6404289a92832fb89069c363d42708afd6fa1e27be1fe03b5",
+   "jpg_sha256": "3b602e758a43a83f047dac5b83226ba18ad35b6ab25570a65963795f6bb72cdb",
+   "srt_sha256": "2e81fb7a0dcd461fe1dd3e5ef02a7017d55f591ec40d3bad1c2a043acb28be60",
+   "pass": true
+  },
+  {
+   "slug": "westville-clearing-skin-wash-short",
+   "domain": "skincare.durban",
+   "format": "short",
+   "product": "clearing skin wash",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 34.03,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.26,
+   "true_peak": -1.47,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 55,
+   "desc_bytes": 1059,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.902,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.944,
+   "cover_ok": true,
+   "mp4_sha256": "b92f7667c0ff5d2885b56e1baaebfd24ec40d6f7e73439ac05dac6de0dd94304",
+   "jpg_sha256": "111c97b5fb479d81382baa7b9604673df972315889dea153448645abc1f9b9fd",
+   "srt_sha256": "2588370796533066e356b417e6b7ddb3ff3f7d1664d9956eb5b5cac6a19b8781",
+   "pass": true
+  },
+  {
+   "slug": "westville-phyto-nature-firming-serum-short",
+   "domain": "skincare.durban",
+   "format": "short",
+   "product": "phyto nature firming serum",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 27.63,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.28,
+   "true_peak": -1.39,
+   "loudness_ok": true,
+   "srt_cues": 7,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 62,
+   "desc_bytes": 1060,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.947,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.976,
+   "cover_ok": true,
+   "mp4_sha256": "04223715c135c7bc9732fff7646ce80644964280d24ef0c9936baec1031292f2",
+   "jpg_sha256": "43bc357bae6cee952c909092e3a0c1c99a38e914733c703950dba0d07e349dd4",
+   "srt_sha256": "4baa3afa3d9ef5d62b10845c12cbda6885cdec256fd2346921a8572c3497a730",
+   "pass": true
+  },
+  {
+   "slug": "westville-intensive-moisture-cleanser",
+   "domain": "skincare.durban",
+   "format": "video",
+   "product": "intensive moisture cleanser",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 72.53,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.17,
+   "true_peak": -1.38,
+   "loudness_ok": true,
+   "srt_cues": 18,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 75,
+   "desc_bytes": 1154,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.971,
+   "packshot_ok": true,
+   "mp4_sha256": "52070192cc5536cc60139e7eb471b88fbb2553c3110234422b4b151796f822a0",
+   "jpg_sha256": "d7a92caeb7b3ab89e64c6041cbcdb40e4194d1dee2406af31d73968b57572ab9",
+   "srt_sha256": "75f23d96489bca89da86d1dae5ef9ea4b59189ec141a5f2030f5585ff229f4e0",
+   "pass": true
+  },
+  {
+   "slug": "westville-biolumin-c-gel-moisturiser-short",
+   "domain": "skincare.durban",
+   "format": "short",
+   "product": "biolumin-c gel moisturiser",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 26.57,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.27,
+   "true_peak": -1.47,
+   "loudness_ok": true,
+   "srt_cues": 7,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 72,
+   "desc_bytes": 953,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.968,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.966,
+   "cover_ok": true,
+   "mp4_sha256": "92a87fc3dfbde96a89da89aecf67bd6f9c3db18f31d6676a0c4418efb15dcabb",
+   "jpg_sha256": "7606d151ec56ad2999eae2ddf246ea837e820c71386d0c711bb25336daba3073",
+   "srt_sha256": "d21e4a684f61ada58c65d70b28fd3ce175ef65a5caffaa418843af875a4f36ad",
+   "pass": true
+  },
+  {
+   "slug": "rosebank-blackhead-clearing-fizz-mask",
+   "domain": "skincare.joburg",
+   "format": "video",
+   "product": "blackhead clearing fizz mask",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 51.3,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.35,
+   "true_peak": -1.45,
+   "loudness_ok": true,
+   "srt_cues": 14,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 73,
+   "desc_bytes": 1069,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.909,
+   "packshot_ok": true,
+   "mp4_sha256": "d150fe313352cbeec86c0e1d36799d1049fcc074d11e60c505ab422624e6d542",
+   "jpg_sha256": "58b6d08146f3ce9faf836b720d9f2f272e37ab467da8fc0fdb49ffad076dcff6",
+   "srt_sha256": "8890124b6e30afae37fd31b15795c9c8404e9361e4063c10c10cf1b3588e5b62",
+   "pass": true
+  },
+  {
+   "slug": "rosebank-multivitamin-power-recovery-masque-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product": "multivitamin power recovery masque",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 40.73,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.28,
+   "true_peak": -1.48,
+   "loudness_ok": true,
+   "srt_cues": 10,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 72,
+   "desc_bytes": 1180,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.975,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.972,
+   "cover_ok": true,
+   "mp4_sha256": "37887a360ce4d1b79d2a63e2a423d2fc5b71ddaf05e9d761b0d3ec348b374788",
+   "jpg_sha256": "9de588e4ab8bd991c5e16ce01dac3e2a75453605916a5f987ba262bcb843c1e4",
+   "srt_sha256": "efce7d319c962b4621cefa16ab7e7a61988d11a0fb2e3e3e7f2cb47fa0f7355f",
+   "pass": true
+  },
+  {
+   "slug": "rosebank-stabilizing-repair-cream-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product": "stabilizing repair cream",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 28.73,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.25,
+   "true_peak": -1.46,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 74,
+   "desc_bytes": 718,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.938,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.924,
+   "cover_ok": true,
+   "mp4_sha256": "67b5611a473d082ea8d1f348d93af72a99f6600b24e588a71952c2064d41a1f1",
+   "jpg_sha256": "ff281fd4ecb412c46f005d33c3bdeafa4fcb881a65e7d8ebb1481a50f4f95a0b",
+   "srt_sha256": "8f31b38a39872ced630299bfe8d82daabf488b7e13118d6e70b99a5a2b019c86",
+   "pass": true
+  },
+  {
+   "slug": "rosebank-deep-breakout-liquid-patch",
+   "domain": "skincare.joburg",
+   "format": "video",
+   "product": "deep breakout liquid patch",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 61.93,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.23,
+   "true_peak": -1.48,
+   "loudness_ok": true,
+   "srt_cues": 18,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 81,
+   "desc_bytes": 1287,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.925,
+   "packshot_ok": true,
+   "mp4_sha256": "cd35b82e61f46948b72fa6909bddd263a4b3aacb79c08f31251695e6b72e42ae",
+   "jpg_sha256": "17b63786153f378bf3194853ea7648369358ed39b96af14a708ca7f4810c2d84",
+   "srt_sha256": "ca3231db1d4f4871b36bb64497e82ea92df3b4d7186a43cb270451ad419cec2b",
+   "pass": true
+  },
+  {
+   "slug": "rosebank-sound-sleep-cocoon-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product": "sound sleep cocoon",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 34.33,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.24,
+   "true_peak": -1.41,
+   "loudness_ok": true,
+   "srt_cues": 11,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 56,
+   "desc_bytes": 1031,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.981,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.976,
+   "cover_ok": true,
+   "mp4_sha256": "2da20fb6c4b6687884a0a02a74b0b147fec8403a92ac10e862b5dafe9a00af6a",
+   "jpg_sha256": "7ca4bd396659a50add218618c20d105f3aed735d6ef9b9088066d130fc4e3ab2",
+   "srt_sha256": "097b747a0acd563c9a24492611dba97c3e34e0c4be66296b06707b80fa148780",
+   "pass": true
+  },
+  {
+   "slug": "midrand-special-cleansing-gel",
+   "domain": "dermatologist.joburg",
+   "format": "video",
+   "product": "special cleansing gel",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 56.97,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.4,
+   "true_peak": -1.91,
+   "loudness_ok": true,
+   "srt_cues": 16,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 68,
+   "desc_bytes": 1174,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.895,
+   "packshot_ok": true,
+   "mp4_sha256": "ace277e202aec37892ef921f071a9de749bf3f802b7b00d02feabded9a87f26d",
+   "jpg_sha256": "daf722ced3c850e99d42d63ed077b88aa6fcab047c3d7961a20802bfaf81328d",
+   "srt_sha256": "de8016c3acf57571d2a3484c0ac1e2f15a7175d14419611a91d78c5b226c5a44",
+   "pass": true
+  },
+  {
+   "slug": "midrand-multivitamin-thermafoliant-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product": "multivitamin thermafoliant",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 33.63,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.42,
+   "true_peak": -1.92,
+   "loudness_ok": true,
+   "srt_cues": 11,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 70,
+   "desc_bytes": 1147,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.949,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.972,
+   "cover_ok": true,
+   "mp4_sha256": "eb39505643bcb7ca776c95bcb89022ecdb4fc03e99e9d7f721b17c8fe0eff548",
+   "jpg_sha256": "166bb7313cd1d5aa2114b3d92b347c261ffafb571915f3ddbdc7e953f0e27b01",
+   "srt_sha256": "e88b79c76852c41595f8f80850e0ffdf74b02a13c65400069807acf81f0a225b",
+   "pass": true
+  },
+  {
+   "slug": "midrand-precleanse",
+   "domain": "dermatologist.joburg",
+   "format": "video",
+   "product": "precleanse",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 63.43,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.44,
+   "true_peak": -1.94,
+   "loudness_ok": true,
+   "srt_cues": 18,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 54,
+   "desc_bytes": 1292,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.929,
+   "packshot_ok": true,
+   "mp4_sha256": "817b470ae0302c4695d56d66a781e2c99ee84fe47998a3f590acaf94a7973044",
+   "jpg_sha256": "853f50f87efd3659525bd86f792f748dbc66a56e534dbcc4fc85c43c3a3cf838",
+   "srt_sha256": "368c7e6783f2aadb219530bcaeafb229e101057c439b1c0464f37c94cf12e586",
+   "pass": true
+  },
+  {
+   "slug": "midrand-ultracalming-cleanser-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product": "ultracalming cleanser",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 35.44,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.44,
+   "true_peak": -1.96,
+   "loudness_ok": true,
+   "srt_cues": 10,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 71,
+   "desc_bytes": 1118,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.921,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.912,
+   "cover_ok": true,
+   "mp4_sha256": "51c41d6ff1fed5fa88d3bef4e96d61677f815dead15ca3321ea48abcbcec764f",
+   "jpg_sha256": "89fa02833df5d907ae652eb24c84f1e90397156a367dae0696a5023bbca0b9b3",
+   "srt_sha256": "9f219928de29e281ed14c9e8ff790df6439dc18fdf312398739ffea2ab96fdab",
+   "pass": true
+  },
+  {
+   "slug": "bedfordview-smart-response-serum",
+   "domain": "dermatology.joburg",
+   "format": "video",
+   "product": "smart response serum",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 119.83,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.34,
+   "true_peak": -1.91,
+   "loudness_ok": true,
+   "srt_cues": 19,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 72,
+   "desc_bytes": 1227,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.945,
+   "packshot_ok": true,
+   "mp4_sha256": "e3ca61c12ebb4360a22195c995646efec70eff808db5d180cf93beffc279ef68",
+   "jpg_sha256": "0a8725df2e7c544f651a72643802930ac991ba5a9ad66f2af3550e14b3fc435c",
+   "srt_sha256": "91f32107b96e6f39a66c928afc3045ae574b1b70ab191ed68236136ccac37c59",
+   "pass": true
+  },
+  {
+   "slug": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product": "powerbright dark spot peel 50ml",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 57.53,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.37,
+   "true_peak": -1.95,
+   "loudness_ok": true,
+   "srt_cues": 10,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 67,
+   "desc_bytes": 1096,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.946,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.938,
+   "cover_ok": true,
+   "mp4_sha256": "2a355a98ad653a8bd34082570e7f7eb19c16e6bab6911525432e07e8707a51c8",
+   "jpg_sha256": "eec2883b23489fcefc0b63eb6fadc26e737546984fae02ee9c16d2efd35fbc28",
+   "srt_sha256": "b1e9243e9a2b6b8a21038b78462375ba22706d269f45aac66f88b91005114ac7",
+   "pass": true
+  },
+  {
+   "slug": "bedfordview-post-breakout-fix-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product": "post-breakout fix",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 35.01,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.41,
+   "true_peak": -1.98,
+   "loudness_ok": true,
+   "srt_cues": 7,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 63,
+   "desc_bytes": 1243,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.968,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.967,
+   "cover_ok": true,
+   "mp4_sha256": "6bda7a4b98d8e678f491bdf2a88689c37dbe08c17cccf060121b1abedfa1ada9",
+   "jpg_sha256": "28b10a090cc1a927e0f9c2a7bb34c9d59ee0e95feb69e43fc9fe2ef170861f52",
+   "srt_sha256": "5c7ad2bf76490ced1fad0e9d143471348131fdb0069455f10586e32d7b8eca7c",
+   "pass": true
+  },
+  {
+   "slug": "bedfordview-powerbright-dark-spot-serum",
+   "domain": "dermatology.joburg",
+   "format": "video",
+   "product": "powerbright dark spot serum",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 121.93,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.33,
+   "true_peak": -1.95,
+   "loudness_ok": true,
+   "srt_cues": 20,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 90,
+   "desc_bytes": 1214,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.966,
+   "packshot_ok": true,
+   "mp4_sha256": "f8be13401feace9fe869d3f80e9db51d82588f7b760596cb0831a82baf55e117",
+   "jpg_sha256": "3160a116cc256f5ba4d1fcd7767deb5b4cdbf2dda4931715265f621a6e3c038a",
+   "srt_sha256": "1c3335fc2f68cf546b623da0c3b5febcad3b543a97b3b08f8e30d04bf19a1f24",
+   "pass": true
+  },
+  {
+   "slug": "bedfordview-circular-hydration-serum-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product": "circular hydration serum",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 49.03,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.29,
+   "true_peak": -1.96,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 77,
+   "desc_bytes": 1035,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.916,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.96,
+   "cover_ok": true,
+   "mp4_sha256": "9273d67d9177ef54a503d7c57327f55957b5ea48a36a30a3ee8de308dbc99dc7",
+   "jpg_sha256": "4e94565e9c411c59727132d3327aa6205e40eef7ae22858f0b37c9a00e85fbb9",
+   "srt_sha256": "ddef13aad27094833e6b82ad524abe79c5741cd862b4355d075c0c5e6d02870c",
+   "pass": true
+  },
+  {
+   "slug": "umhlanga-stress-positive-eye-lift",
+   "domain": "dermatology.durban",
+   "format": "video",
+   "product": "stress positive eye lift",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 69.12,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.38,
+   "true_peak": -1.45,
+   "loudness_ok": true,
+   "srt_cues": 18,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 47,
+   "desc_bytes": 1259,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.97,
+   "packshot_ok": true,
+   "mp4_sha256": "4695c6c077ba3971fdd78e7289b9f04acd71f99494fb397df374efc3b6e2bd12",
+   "jpg_sha256": "104e63a7f4b910458eb8e8f5814948744043df9af4a9503f67671ac9d1a7bdd2",
+   "srt_sha256": "4c3d769c5ffa3c489d946532ee1dd88bbc4227ec6a5494fbaca25e48b525d1c1",
+   "pass": true
+  },
+  {
+   "slug": "umhlanga-awaken-peptide-eye-gel-short",
+   "domain": "dermatology.durban",
+   "format": "short",
+   "product": "awaken peptide eye gel",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 33.8,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.4,
+   "true_peak": -1.49,
+   "loudness_ok": true,
+   "srt_cues": 10,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 61,
+   "desc_bytes": 1009,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.904,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.953,
+   "cover_ok": true,
+   "mp4_sha256": "bf620a2ac606a6eed84dbccd749500c120e2a2f166d5ad5e6b1b616ed48a6566",
+   "jpg_sha256": "758816b192d17bbcf3c9d0623e26bf1b8d4ad4218fbda63aadf678814f819240",
+   "srt_sha256": "7847d07f21a431b87dc12f18ee674616c9d8fba010f14934f9bab46cd92975ff",
+   "pass": true
+  },
+  {
+   "slug": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "domain": "dermatology.durban",
+   "format": "short",
+   "product": "hydration you can feel kit (2 full-size)",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 28.4,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.42,
+   "true_peak": -1.46,
+   "loudness_ok": true,
+   "srt_cues": 8,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 95,
+   "desc_bytes": 1334,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.923,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.914,
+   "cover_ok": true,
+   "mp4_sha256": "519c4c2157888d5b6b2369dfa276eac7885a0832ca7e950971f3d08bde1c37e7",
+   "jpg_sha256": "929c2e2b2a08924cc8fd8e08036940aeca71e2ae0a3912dead90bd733f7d12ed",
+   "srt_sha256": "7703301aae2512ba58b480397b0d114b3e8072ff9e25dc960e542b6d9a00f532",
+   "pass": true
+  },
+  {
+   "slug": "umhlanga-multivitamin-power-firm",
+   "domain": "dermatology.durban",
+   "format": "video",
+   "product": "multivitamin power firm",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 57.43,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.43,
+   "true_peak": -1.44,
+   "loudness_ok": true,
+   "srt_cues": 15,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 65,
+   "desc_bytes": 1102,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.982,
+   "packshot_ok": true,
+   "mp4_sha256": "1557a04f7a8458f50a4d9189e297c75c5ac764ba2ba09f6cc1f2d5c741fc4d2f",
+   "jpg_sha256": "97cf5ee62bd23c0f41d04c72b6025f0e428fab04b52cc68820077d1672765648",
+   "srt_sha256": "3e09394390ec9c6ebc0544299a5ae4ddadc471062503693c08ab39183e2fe063",
+   "pass": true
+  },
+  {
+   "slug": "umhlanga-pro-collagen-banking-water-cream-short",
+   "domain": "dermatology.durban",
+   "format": "short",
+   "product": "pro-collagen banking water cream",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 34.03,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.41,
+   "true_peak": -1.37,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 69,
+   "desc_bytes": 1106,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.931,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.931,
+   "cover_ok": true,
+   "mp4_sha256": "a0519fbbc0dff297484d9b114d0198066c2d8771f47d1da0934ba925111a2a59",
+   "jpg_sha256": "423396de105202d3128284705835c5d625b7cbf5326d9759ca23249a46a7a937",
+   "srt_sha256": "f8ae193317b287f001c23f74f1e489d28c100d3932077fa9da4a66e6c2b5d949",
+   "pass": true
+  },
+  {
+   "slug": "midrand-skin-resurfacing-cleanser-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product": "skin resurfacing cleanser",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 30.6,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.41,
+   "true_peak": -1.96,
+   "loudness_ok": true,
+   "srt_cues": 8,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 61,
+   "desc_bytes": 1215,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.984,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.932,
+   "cover_ok": true,
+   "mp4_sha256": "c83bcfdc3ba4222bdf876efbce84c1918aa1053e8432246ee6e31bbf6f75e0c4",
+   "jpg_sha256": "18a8e3c4fa336af54813914dd840bde157cce0295b4d73f243924f67a13b4c35",
+   "srt_sha256": "6972d550584035e727f20f69d239427c7b70a1124b37f4e436a1035f277452e1",
+   "pass": true
+  }
+ ],
+ "pairs": [
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "westville-daily-glycolic-cleanser-short",
+   "thumb_dist": 128,
+   "frame_dist": 82
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "rosebank-phyto-nature-oxygen-cream-short",
+   "thumb_dist": 65,
+   "frame_dist": 95
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "midrand-sensitive-skin-rescue-kit-short",
+   "thumb_dist": 140,
+   "frame_dist": 97
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "thumb_dist": 57,
+   "frame_dist": 88
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "thumb_dist": 53,
+   "frame_dist": 80
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "capetown-golden-hour-hydrating-spf30-stick",
+   "thumb_dist": 85,
+   "frame_dist": 111
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "thumb_dist": 63,
+   "frame_dist": 108
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "capetown-prisma-protect-spf30-short",
+   "thumb_dist": 145,
+   "frame_dist": 81
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "capetown-age-reversal-eye-complex",
+   "thumb_dist": 67,
+   "frame_dist": 122
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "capetown-daily-brightness-boosters-kit-short",
+   "thumb_dist": 90,
+   "frame_dist": 92
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "westville-breakout-biotic-moisturiser",
+   "thumb_dist": 159,
+   "frame_dist": 126
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "westville-clearing-skin-wash-short",
+   "thumb_dist": 148,
+   "frame_dist": 96
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "westville-phyto-nature-firming-serum-short",
+   "thumb_dist": 130,
+   "frame_dist": 104
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "westville-intensive-moisture-cleanser",
+   "thumb_dist": 68,
+   "frame_dist": 106
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "westville-biolumin-c-gel-moisturiser-short",
+   "thumb_dist": 63,
+   "frame_dist": 88
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 62,
+   "frame_dist": 126
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 52,
+   "frame_dist": 101
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 67,
+   "frame_dist": 108
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 166,
+   "frame_dist": 129
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 79,
+   "frame_dist": 90
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 75,
+   "frame_dist": 124
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 137,
+   "frame_dist": 92
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 100,
+   "frame_dist": 127
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 74,
+   "frame_dist": 107
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 100,
+   "frame_dist": 112
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 62,
+   "frame_dist": 86
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 60,
+   "frame_dist": 89
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 63,
+   "frame_dist": 112
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 157,
+   "frame_dist": 92
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 72,
+   "frame_dist": 121
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 135,
+   "frame_dist": 88
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 75,
+   "frame_dist": 91
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 52,
+   "frame_dist": 121
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 70,
+   "frame_dist": 90
+  },
+  {
+   "a": "capetown-skinperfect-primer-spf30-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 141,
+   "frame_dist": 86
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "rosebank-phyto-nature-oxygen-cream-short",
+   "thumb_dist": 135,
+   "frame_dist": 79
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "midrand-sensitive-skin-rescue-kit-short",
+   "thumb_dist": 106,
+   "frame_dist": 74
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "thumb_dist": 119,
+   "frame_dist": 37
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "thumb_dist": 125,
+   "frame_dist": 42
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "capetown-golden-hour-hydrating-spf30-stick",
+   "thumb_dist": 125,
+   "frame_dist": 85
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "thumb_dist": 125,
+   "frame_dist": 51
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "capetown-prisma-protect-spf30-short",
+   "thumb_dist": 111,
+   "frame_dist": 56
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "capetown-age-reversal-eye-complex",
+   "thumb_dist": 117,
+   "frame_dist": 95
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "capetown-daily-brightness-boosters-kit-short",
+   "thumb_dist": 126,
+   "frame_dist": 77
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "westville-breakout-biotic-moisturiser",
+   "thumb_dist": 119,
+   "frame_dist": 130
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "westville-clearing-skin-wash-short",
+   "thumb_dist": 126,
+   "frame_dist": 34
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "westville-phyto-nature-firming-serum-short",
+   "thumb_dist": 70,
+   "frame_dist": 51
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "westville-intensive-moisture-cleanser",
+   "thumb_dist": 120,
+   "frame_dist": 101
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "westville-biolumin-c-gel-moisturiser-short",
+   "thumb_dist": 123,
+   "frame_dist": 28
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 130,
+   "frame_dist": 108
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 130,
+   "frame_dist": 83
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 139,
+   "frame_dist": 51
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 114,
+   "frame_dist": 99
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 127,
+   "frame_dist": 80
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 137,
+   "frame_dist": 102
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 45,
+   "frame_dist": 85
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 132,
+   "frame_dist": 112
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 120,
+   "frame_dist": 91
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 132,
+   "frame_dist": 98
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 130,
+   "frame_dist": 41
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 112,
+   "frame_dist": 44
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 129,
+   "frame_dist": 95
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 113,
+   "frame_dist": 45
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 134,
+   "frame_dist": 110
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 43,
+   "frame_dist": 56
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 133,
+   "frame_dist": 64
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 118,
+   "frame_dist": 96
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 120,
+   "frame_dist": 65
+  },
+  {
+   "a": "westville-daily-glycolic-cleanser-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 107,
+   "frame_dist": 34
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "midrand-sensitive-skin-rescue-kit-short",
+   "thumb_dist": 153,
+   "frame_dist": 103
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "thumb_dist": 68,
+   "frame_dist": 84
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "thumb_dist": 68,
+   "frame_dist": 89
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "capetown-golden-hour-hydrating-spf30-stick",
+   "thumb_dist": 86,
+   "frame_dist": 99
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "thumb_dist": 72,
+   "frame_dist": 114
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "capetown-prisma-protect-spf30-short",
+   "thumb_dist": 136,
+   "frame_dist": 80
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "capetown-age-reversal-eye-complex",
+   "thumb_dist": 84,
+   "frame_dist": 93
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "capetown-daily-brightness-boosters-kit-short",
+   "thumb_dist": 91,
+   "frame_dist": 95
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "westville-breakout-biotic-moisturiser",
+   "thumb_dist": 144,
+   "frame_dist": 112
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "westville-clearing-skin-wash-short",
+   "thumb_dist": 145,
+   "frame_dist": 77
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "westville-phyto-nature-firming-serum-short",
+   "thumb_dist": 129,
+   "frame_dist": 89
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "westville-intensive-moisture-cleanser",
+   "thumb_dist": 69,
+   "frame_dist": 101
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "westville-biolumin-c-gel-moisturiser-short",
+   "thumb_dist": 66,
+   "frame_dist": 74
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 63,
+   "frame_dist": 109
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 67,
+   "frame_dist": 96
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 62,
+   "frame_dist": 88
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 149,
+   "frame_dist": 121
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 78,
+   "frame_dist": 92
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 90,
+   "frame_dist": 114
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 140,
+   "frame_dist": 91
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 119,
+   "frame_dist": 124
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 91,
+   "frame_dist": 97
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 117,
+   "frame_dist": 101
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 61,
+   "frame_dist": 90
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 79,
+   "frame_dist": 94
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 84,
+   "frame_dist": 111
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 146,
+   "frame_dist": 84
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 81,
+   "frame_dist": 113
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 138,
+   "frame_dist": 80
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 82,
+   "frame_dist": 91
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 71,
+   "frame_dist": 112
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 75,
+   "frame_dist": 80
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 148,
+   "frame_dist": 78
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "thumb_dist": 131,
+   "frame_dist": 77
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "thumb_dist": 127,
+   "frame_dist": 82
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "capetown-golden-hour-hydrating-spf30-stick",
+   "thumb_dist": 121,
+   "frame_dist": 98
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "thumb_dist": 119,
+   "frame_dist": 88
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "capetown-prisma-protect-spf30-short",
+   "thumb_dist": 83,
+   "frame_dist": 70
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "capetown-age-reversal-eye-complex",
+   "thumb_dist": 115,
+   "frame_dist": 94
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "capetown-daily-brightness-boosters-kit-short",
+   "thumb_dist": 128,
+   "frame_dist": 25
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "westville-breakout-biotic-moisturiser",
+   "thumb_dist": 121,
+   "frame_dist": 122
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "westville-clearing-skin-wash-short",
+   "thumb_dist": 114,
+   "frame_dist": 82
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "westville-phyto-nature-firming-serum-short",
+   "thumb_dist": 122,
+   "frame_dist": 92
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "westville-intensive-moisture-cleanser",
+   "thumb_dist": 140,
+   "frame_dist": 96
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "westville-biolumin-c-gel-moisturiser-short",
+   "thumb_dist": 141,
+   "frame_dist": 83
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 134,
+   "frame_dist": 106
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 132,
+   "frame_dist": 86
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 155,
+   "frame_dist": 94
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 108,
+   "frame_dist": 102
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 137,
+   "frame_dist": 81
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 127,
+   "frame_dist": 104
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 119,
+   "frame_dist": 83
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 116,
+   "frame_dist": 119
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 128,
+   "frame_dist": 84
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 128,
+   "frame_dist": 94
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 130,
+   "frame_dist": 79
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 130,
+   "frame_dist": 89
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 137,
+   "frame_dist": 99
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 105,
+   "frame_dist": 81
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 140,
+   "frame_dist": 107
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 115,
+   "frame_dist": 87
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 131,
+   "frame_dist": 38
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 126,
+   "frame_dist": 98
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 124,
+   "frame_dist": 71
+  },
+  {
+   "a": "midrand-sensitive-skin-rescue-kit-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 71,
+   "frame_dist": 74
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "thumb_dist": 60,
+   "frame_dist": 69
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "capetown-golden-hour-hydrating-spf30-stick",
+   "thumb_dist": 86,
+   "frame_dist": 113
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "thumb_dist": 70,
+   "frame_dist": 99
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "capetown-prisma-protect-spf30-short",
+   "thumb_dist": 128,
+   "frame_dist": 54
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "capetown-age-reversal-eye-complex",
+   "thumb_dist": 64,
+   "frame_dist": 99
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "capetown-daily-brightness-boosters-kit-short",
+   "thumb_dist": 85,
+   "frame_dist": 80
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "westville-breakout-biotic-moisturiser",
+   "thumb_dist": 146,
+   "frame_dist": 137
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "westville-clearing-skin-wash-short",
+   "thumb_dist": 147,
+   "frame_dist": 51
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "westville-phyto-nature-firming-serum-short",
+   "thumb_dist": 135,
+   "frame_dist": 57
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "westville-intensive-moisture-cleanser",
+   "thumb_dist": 73,
+   "frame_dist": 111
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "westville-biolumin-c-gel-moisturiser-short",
+   "thumb_dist": 50,
+   "frame_dist": 48
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 61,
+   "frame_dist": 108
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 69,
+   "frame_dist": 76
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 80,
+   "frame_dist": 78
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 153,
+   "frame_dist": 110
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 90,
+   "frame_dist": 80
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 80,
+   "frame_dist": 104
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 122,
+   "frame_dist": 92
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 97,
+   "frame_dist": 107
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 75,
+   "frame_dist": 83
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 95,
+   "frame_dist": 108
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 53,
+   "frame_dist": 44
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 53,
+   "frame_dist": 84
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 56,
+   "frame_dist": 105
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 156,
+   "frame_dist": 26
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 87,
+   "frame_dist": 104
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 122,
+   "frame_dist": 50
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 82,
+   "frame_dist": 67
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 57,
+   "frame_dist": 102
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 67,
+   "frame_dist": 58
+  },
+  {
+   "a": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 130,
+   "frame_dist": 45
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "capetown-golden-hour-hydrating-spf30-stick",
+   "thumb_dist": 78,
+   "frame_dist": 89
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "thumb_dist": 70,
+   "frame_dist": 55
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "capetown-prisma-protect-spf30-short",
+   "thumb_dist": 126,
+   "frame_dist": 86
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "capetown-age-reversal-eye-complex",
+   "thumb_dist": 58,
+   "frame_dist": 100
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "capetown-daily-brightness-boosters-kit-short",
+   "thumb_dist": 81,
+   "frame_dist": 83
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "westville-breakout-biotic-moisturiser",
+   "thumb_dist": 154,
+   "frame_dist": 123
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "westville-clearing-skin-wash-short",
+   "thumb_dist": 143,
+   "frame_dist": 48
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "westville-phyto-nature-firming-serum-short",
+   "thumb_dist": 133,
+   "frame_dist": 66
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "westville-intensive-moisture-cleanser",
+   "thumb_dist": 71,
+   "frame_dist": 102
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "westville-biolumin-c-gel-moisturiser-short",
+   "thumb_dist": 62,
+   "frame_dist": 37
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 71,
+   "frame_dist": 108
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 67,
+   "frame_dist": 91
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 66,
+   "frame_dist": 55
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 153,
+   "frame_dist": 103
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 84,
+   "frame_dist": 93
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 72,
+   "frame_dist": 102
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 138,
+   "frame_dist": 97
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 103,
+   "frame_dist": 107
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 65,
+   "frame_dist": 89
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 107,
+   "frame_dist": 106
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 63,
+   "frame_dist": 67
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 59,
+   "frame_dist": 42
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 62,
+   "frame_dist": 103
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 144,
+   "frame_dist": 71
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 75,
+   "frame_dist": 114
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 130,
+   "frame_dist": 69
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 72,
+   "frame_dist": 76
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 69,
+   "frame_dist": 104
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 59,
+   "frame_dist": 75
+  },
+  {
+   "a": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 126,
+   "frame_dist": 77
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "thumb_dist": 82,
+   "frame_dist": 101
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "capetown-prisma-protect-spf30-short",
+   "thumb_dist": 144,
+   "frame_dist": 97
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "capetown-age-reversal-eye-complex",
+   "thumb_dist": 64,
+   "frame_dist": 71
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "capetown-daily-brightness-boosters-kit-short",
+   "thumb_dist": 91,
+   "frame_dist": 97
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "westville-breakout-biotic-moisturiser",
+   "thumb_dist": 136,
+   "frame_dist": 98
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "westville-clearing-skin-wash-short",
+   "thumb_dist": 137,
+   "frame_dist": 87
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "westville-phyto-nature-firming-serum-short",
+   "thumb_dist": 125,
+   "frame_dist": 99
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "westville-intensive-moisture-cleanser",
+   "thumb_dist": 83,
+   "frame_dist": 30
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "westville-biolumin-c-gel-moisturiser-short",
+   "thumb_dist": 78,
+   "frame_dist": 88
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 79,
+   "frame_dist": 104
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 77,
+   "frame_dist": 99
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 92,
+   "frame_dist": 96
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 147,
+   "frame_dist": 104
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 78,
+   "frame_dist": 99
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 96,
+   "frame_dist": 105
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 132,
+   "frame_dist": 101
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "midrand-precleanse",
+   "thumb_dist": 113,
+   "frame_dist": 103
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 93,
+   "frame_dist": 118
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 107,
+   "frame_dist": 27
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 79,
+   "frame_dist": 97
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 91,
+   "frame_dist": 95
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 84,
+   "frame_dist": 39
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 138,
+   "frame_dist": 98
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 77,
+   "frame_dist": 98
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 128,
+   "frame_dist": 101
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 98,
+   "frame_dist": 98
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 77,
+   "frame_dist": 87
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 87,
+   "frame_dist": 101
+  },
+  {
+   "a": "capetown-golden-hour-hydrating-spf30-stick",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 138,
+   "frame_dist": 101
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "capetown-prisma-protect-spf30-short",
+   "thumb_dist": 122,
+   "frame_dist": 99
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "capetown-age-reversal-eye-complex",
+   "thumb_dist": 58,
+   "frame_dist": 107
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "capetown-daily-brightness-boosters-kit-short",
+   "thumb_dist": 85,
+   "frame_dist": 79
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "westville-breakout-biotic-moisturiser",
+   "thumb_dist": 152,
+   "frame_dist": 126
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "westville-clearing-skin-wash-short",
+   "thumb_dist": 147,
+   "frame_dist": 53
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "westville-phyto-nature-firming-serum-short",
+   "thumb_dist": 123,
+   "frame_dist": 83
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "westville-intensive-moisture-cleanser",
+   "thumb_dist": 71,
+   "frame_dist": 118
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "westville-biolumin-c-gel-moisturiser-short",
+   "thumb_dist": 76,
+   "frame_dist": 44
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 65,
+   "frame_dist": 119
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 55,
+   "frame_dist": 93
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 78,
+   "frame_dist": 60
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 159,
+   "frame_dist": 112
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 66,
+   "frame_dist": 99
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 72,
+   "frame_dist": 115
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 136,
+   "frame_dist": 100
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 97,
+   "frame_dist": 117
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 65,
+   "frame_dist": 77
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 107,
+   "frame_dist": 115
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 67,
+   "frame_dist": 100
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 69,
+   "frame_dist": 53
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 68,
+   "frame_dist": 96
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 156,
+   "frame_dist": 87
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 75,
+   "frame_dist": 118
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 128,
+   "frame_dist": 101
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 72,
+   "frame_dist": 80
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 75,
+   "frame_dist": 107
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 63,
+   "frame_dist": 70
+  },
+  {
+   "a": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 132,
+   "frame_dist": 92
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "capetown-age-reversal-eye-complex",
+   "thumb_dist": 122,
+   "frame_dist": 107
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "capetown-daily-brightness-boosters-kit-short",
+   "thumb_dist": 133,
+   "frame_dist": 68
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "westville-breakout-biotic-moisturiser",
+   "thumb_dist": 124,
+   "frame_dist": 120
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "westville-clearing-skin-wash-short",
+   "thumb_dist": 93,
+   "frame_dist": 60
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "westville-phyto-nature-firming-serum-short",
+   "thumb_dist": 129,
+   "frame_dist": 70
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "westville-intensive-moisture-cleanser",
+   "thumb_dist": 139,
+   "frame_dist": 95
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "westville-biolumin-c-gel-moisturiser-short",
+   "thumb_dist": 128,
+   "frame_dist": 54
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 127,
+   "frame_dist": 111
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 115,
+   "frame_dist": 78
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 144,
+   "frame_dist": 93
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 97,
+   "frame_dist": 110
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 134,
+   "frame_dist": 76
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 122,
+   "frame_dist": 110
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 124,
+   "frame_dist": 81
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 125,
+   "frame_dist": 116
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 131,
+   "frame_dist": 84
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 139,
+   "frame_dist": 91
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 127,
+   "frame_dist": 45
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 125,
+   "frame_dist": 95
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 138,
+   "frame_dist": 96
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 92,
+   "frame_dist": 60
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 153,
+   "frame_dist": 108
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 124,
+   "frame_dist": 52
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 142,
+   "frame_dist": 70
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 117,
+   "frame_dist": 110
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 123,
+   "frame_dist": 77
+  },
+  {
+   "a": "capetown-prisma-protect-spf30-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 50,
+   "frame_dist": 44
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "capetown-daily-brightness-boosters-kit-short",
+   "thumb_dist": 81,
+   "frame_dist": 99
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "westville-breakout-biotic-moisturiser",
+   "thumb_dist": 140,
+   "frame_dist": 98
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "westville-clearing-skin-wash-short",
+   "thumb_dist": 139,
+   "frame_dist": 100
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "westville-phyto-nature-firming-serum-short",
+   "thumb_dist": 123,
+   "frame_dist": 103
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "westville-intensive-moisture-cleanser",
+   "thumb_dist": 69,
+   "frame_dist": 79
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "westville-biolumin-c-gel-moisturiser-short",
+   "thumb_dist": 72,
+   "frame_dist": 100
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 59,
+   "frame_dist": 96
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 61,
+   "frame_dist": 98
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 86,
+   "frame_dist": 97
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 141,
+   "frame_dist": 89
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 84,
+   "frame_dist": 103
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 84,
+   "frame_dist": 91
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 126,
+   "frame_dist": 107
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "midrand-precleanse",
+   "thumb_dist": 113,
+   "frame_dist": 97
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 77,
+   "frame_dist": 114
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 113,
+   "frame_dist": 73
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 51,
+   "frame_dist": 103
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 63,
+   "frame_dist": 95
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 64,
+   "frame_dist": 78
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 144,
+   "frame_dist": 99
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 67,
+   "frame_dist": 101
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 124,
+   "frame_dist": 108
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 78,
+   "frame_dist": 84
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 59,
+   "frame_dist": 85
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 73,
+   "frame_dist": 99
+  },
+  {
+   "a": "capetown-age-reversal-eye-complex",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 130,
+   "frame_dist": 104
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "westville-breakout-biotic-moisturiser",
+   "thumb_dist": 143,
+   "frame_dist": 118
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "westville-clearing-skin-wash-short",
+   "thumb_dist": 146,
+   "frame_dist": 77
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "westville-phyto-nature-firming-serum-short",
+   "thumb_dist": 128,
+   "frame_dist": 93
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "westville-intensive-moisture-cleanser",
+   "thumb_dist": 96,
+   "frame_dist": 101
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "westville-biolumin-c-gel-moisturiser-short",
+   "thumb_dist": 81,
+   "frame_dist": 87
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 86,
+   "frame_dist": 109
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 78,
+   "frame_dist": 78
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 91,
+   "frame_dist": 97
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 142,
+   "frame_dist": 105
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 99,
+   "frame_dist": 82
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 93,
+   "frame_dist": 110
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 123,
+   "frame_dist": 86
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 98,
+   "frame_dist": 118
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 84,
+   "frame_dist": 93
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 108,
+   "frame_dist": 95
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 86,
+   "frame_dist": 84
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 90,
+   "frame_dist": 88
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 87,
+   "frame_dist": 97
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 137,
+   "frame_dist": 82
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 98,
+   "frame_dist": 111
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 123,
+   "frame_dist": 84
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 85,
+   "frame_dist": 43
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 96,
+   "frame_dist": 99
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 72,
+   "frame_dist": 74
+  },
+  {
+   "a": "capetown-daily-brightness-boosters-kit-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 125,
+   "frame_dist": 81
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "westville-clearing-skin-wash-short",
+   "thumb_dist": 71,
+   "frame_dist": 118
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "westville-phyto-nature-firming-serum-short",
+   "thumb_dist": 131,
+   "frame_dist": 125
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "westville-intensive-moisture-cleanser",
+   "thumb_dist": 141,
+   "frame_dist": 82
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "westville-biolumin-c-gel-moisturiser-short",
+   "thumb_dist": 150,
+   "frame_dist": 125
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 155,
+   "frame_dist": 128
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 151,
+   "frame_dist": 112
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 148,
+   "frame_dist": 122
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 57,
+   "frame_dist": 134
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 162,
+   "frame_dist": 108
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 152,
+   "frame_dist": 116
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 124,
+   "frame_dist": 123
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "midrand-precleanse",
+   "thumb_dist": 149,
+   "frame_dist": 120
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 159,
+   "frame_dist": 121
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 159,
+   "frame_dist": 115
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 143,
+   "frame_dist": 126
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 153,
+   "frame_dist": 122
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 144,
+   "frame_dist": 119
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 84,
+   "frame_dist": 136
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 151,
+   "frame_dist": 119
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 116,
+   "frame_dist": 117
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 144,
+   "frame_dist": 131
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 149,
+   "frame_dist": 122
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 159,
+   "frame_dist": 130
+  },
+  {
+   "a": "westville-breakout-biotic-moisturiser",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 116,
+   "frame_dist": 130
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "westville-phyto-nature-firming-serum-short",
+   "thumb_dist": 136,
+   "frame_dist": 50
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "westville-intensive-moisture-cleanser",
+   "thumb_dist": 150,
+   "frame_dist": 105
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "westville-biolumin-c-gel-moisturiser-short",
+   "thumb_dist": 155,
+   "frame_dist": 32
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 152,
+   "frame_dist": 104
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 152,
+   "frame_dist": 85
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 163,
+   "frame_dist": 55
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 46,
+   "frame_dist": 103
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 159,
+   "frame_dist": 79
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 153,
+   "frame_dist": 96
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 133,
+   "frame_dist": 87
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 142,
+   "frame_dist": 102
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 164,
+   "frame_dist": 96
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 130,
+   "frame_dist": 97
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 140,
+   "frame_dist": 57
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 154,
+   "frame_dist": 42
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 147,
+   "frame_dist": 91
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 45,
+   "frame_dist": 59
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 160,
+   "frame_dist": 108
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 127,
+   "frame_dist": 67
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 155,
+   "frame_dist": 66
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 156,
+   "frame_dist": 94
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 150,
+   "frame_dist": 69
+  },
+  {
+   "a": "westville-clearing-skin-wash-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 95,
+   "frame_dist": 60
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "westville-intensive-moisture-cleanser",
+   "thumb_dist": 128,
+   "frame_dist": 112
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "westville-biolumin-c-gel-moisturiser-short",
+   "thumb_dist": 133,
+   "frame_dist": 56
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 140,
+   "frame_dist": 105
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 136,
+   "frame_dist": 91
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 141,
+   "frame_dist": 61
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 128,
+   "frame_dist": 101
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 133,
+   "frame_dist": 97
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 141,
+   "frame_dist": 106
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 71,
+   "frame_dist": 105
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 126,
+   "frame_dist": 106
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 134,
+   "frame_dist": 97
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 124,
+   "frame_dist": 114
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 144,
+   "frame_dist": 57
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 128,
+   "frame_dist": 68
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 145,
+   "frame_dist": 108
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 117,
+   "frame_dist": 61
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 132,
+   "frame_dist": 101
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 77,
+   "frame_dist": 67
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 133,
+   "frame_dist": 82
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 124,
+   "frame_dist": 108
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 126,
+   "frame_dist": 81
+  },
+  {
+   "a": "westville-phyto-nature-firming-serum-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 133,
+   "frame_dist": 62
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "westville-biolumin-c-gel-moisturiser-short",
+   "thumb_dist": 67,
+   "frame_dist": 101
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 64,
+   "frame_dist": 105
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 66,
+   "frame_dist": 95
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 59,
+   "frame_dist": 108
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 150,
+   "frame_dist": 102
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 75,
+   "frame_dist": 99
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 81,
+   "frame_dist": 96
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 127,
+   "frame_dist": 95
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "midrand-precleanse",
+   "thumb_dist": 104,
+   "frame_dist": 112
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 82,
+   "frame_dist": 121
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 106,
+   "frame_dist": 25
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 66,
+   "frame_dist": 97
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 68,
+   "frame_dist": 111
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 69,
+   "frame_dist": 45
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 155,
+   "frame_dist": 113
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 80,
+   "frame_dist": 99
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 125,
+   "frame_dist": 103
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 91,
+   "frame_dist": 92
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 74,
+   "frame_dist": 94
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 76,
+   "frame_dist": 111
+  },
+  {
+   "a": "westville-intensive-moisture-cleanser",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 139,
+   "frame_dist": 105
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "rosebank-blackhead-clearing-fizz-mask",
+   "thumb_dist": 61,
+   "frame_dist": 116
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 73,
+   "frame_dist": 88
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 62,
+   "frame_dist": 41
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 157,
+   "frame_dist": 110
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 70,
+   "frame_dist": 76
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 76,
+   "frame_dist": 106
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 128,
+   "frame_dist": 86
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 89,
+   "frame_dist": 110
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 63,
+   "frame_dist": 94
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 115,
+   "frame_dist": 102
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 63,
+   "frame_dist": 46
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 65,
+   "frame_dist": 45
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 56,
+   "frame_dist": 99
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 144,
+   "frame_dist": 42
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 67,
+   "frame_dist": 111
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 130,
+   "frame_dist": 46
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 76,
+   "frame_dist": 69
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 63,
+   "frame_dist": 94
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 61,
+   "frame_dist": 62
+  },
+  {
+   "a": "westville-biolumin-c-gel-moisturiser-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 132,
+   "frame_dist": 45
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "rosebank-multivitamin-power-recovery-masque-short",
+   "thumb_dist": 48,
+   "frame_dist": 118
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 65,
+   "frame_dist": 106
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 152,
+   "frame_dist": 82
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 61,
+   "frame_dist": 129
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 73,
+   "frame_dist": 83
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 133,
+   "frame_dist": 121
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "midrand-precleanse",
+   "thumb_dist": 108,
+   "frame_dist": 79
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 76,
+   "frame_dist": 124
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 112,
+   "frame_dist": 101
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 60,
+   "frame_dist": 122
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 72,
+   "frame_dist": 109
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 67,
+   "frame_dist": 106
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 151,
+   "frame_dist": 113
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 74,
+   "frame_dist": 86
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 139,
+   "frame_dist": 112
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 75,
+   "frame_dist": 108
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 72,
+   "frame_dist": 77
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 76,
+   "frame_dist": 117
+  },
+  {
+   "a": "rosebank-blackhead-clearing-fizz-mask",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 135,
+   "frame_dist": 111
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "rosebank-stabilizing-repair-cream-short",
+   "thumb_dist": 63,
+   "frame_dist": 83
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 152,
+   "frame_dist": 113
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 63,
+   "frame_dist": 80
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 71,
+   "frame_dist": 98
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 141,
+   "frame_dist": 70
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 110,
+   "frame_dist": 114
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 78,
+   "frame_dist": 82
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 108,
+   "frame_dist": 95
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 60,
+   "frame_dist": 88
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 72,
+   "frame_dist": 85
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 73,
+   "frame_dist": 100
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 153,
+   "frame_dist": 78
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 78,
+   "frame_dist": 93
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 137,
+   "frame_dist": 94
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 83,
+   "frame_dist": 80
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 60,
+   "frame_dist": 103
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 80,
+   "frame_dist": 79
+  },
+  {
+   "a": "rosebank-multivitamin-power-recovery-masque-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 123,
+   "frame_dist": 86
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "rosebank-deep-breakout-liquid-patch",
+   "thumb_dist": 163,
+   "frame_dist": 106
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 64,
+   "frame_dist": 97
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 72,
+   "frame_dist": 107
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 142,
+   "frame_dist": 98
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 105,
+   "frame_dist": 109
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 73,
+   "frame_dist": 81
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 117,
+   "frame_dist": 103
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 73,
+   "frame_dist": 105
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 79,
+   "frame_dist": 65
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 60,
+   "frame_dist": 94
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 160,
+   "frame_dist": 95
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 63,
+   "frame_dist": 112
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 144,
+   "frame_dist": 101
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 72,
+   "frame_dist": 88
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 79,
+   "frame_dist": 95
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 79,
+   "frame_dist": 85
+  },
+  {
+   "a": "rosebank-stabilizing-repair-cream-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 150,
+   "frame_dist": 67
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "rosebank-sound-sleep-cocoon-short",
+   "thumb_dist": 165,
+   "frame_dist": 117
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 155,
+   "frame_dist": 55
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 119,
+   "frame_dist": 121
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "midrand-precleanse",
+   "thumb_dist": 136,
+   "frame_dist": 83
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 170,
+   "frame_dist": 116
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 144,
+   "frame_dist": 96
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 146,
+   "frame_dist": 121
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 154,
+   "frame_dist": 101
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 151,
+   "frame_dist": 99
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 53,
+   "frame_dist": 117
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 160,
+   "frame_dist": 88
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 115,
+   "frame_dist": 109
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 143,
+   "frame_dist": 100
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 160,
+   "frame_dist": 96
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 158,
+   "frame_dist": 113
+  },
+  {
+   "a": "rosebank-deep-breakout-liquid-patch",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 99,
+   "frame_dist": 112
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-short",
+   "b": "midrand-special-cleansing-gel",
+   "thumb_dist": 82,
+   "frame_dist": 112
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-short",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 138,
+   "frame_dist": 88
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 119,
+   "frame_dist": 114
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 75,
+   "frame_dist": 99
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 117,
+   "frame_dist": 100
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 69,
+   "frame_dist": 80
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 81,
+   "frame_dist": 96
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 80,
+   "frame_dist": 102
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 154,
+   "frame_dist": 78
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 69,
+   "frame_dist": 111
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 136,
+   "frame_dist": 90
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 88,
+   "frame_dist": 75
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 89,
+   "frame_dist": 108
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 77,
+   "frame_dist": 80
+  },
+  {
+   "a": "rosebank-sound-sleep-cocoon-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 140,
+   "frame_dist": 79
+  },
+  {
+   "a": "midrand-special-cleansing-gel",
+   "b": "midrand-multivitamin-thermafoliant-short",
+   "thumb_dist": 148,
+   "frame_dist": 110
+  },
+  {
+   "a": "midrand-special-cleansing-gel",
+   "b": "midrand-precleanse",
+   "thumb_dist": 103,
+   "frame_dist": 85
+  },
+  {
+   "a": "midrand-special-cleansing-gel",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 83,
+   "frame_dist": 120
+  },
+  {
+   "a": "midrand-special-cleansing-gel",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 125,
+   "frame_dist": 101
+  },
+  {
+   "a": "midrand-special-cleansing-gel",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 87,
+   "frame_dist": 107
+  },
+  {
+   "a": "midrand-special-cleansing-gel",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 85,
+   "frame_dist": 108
+  },
+  {
+   "a": "midrand-special-cleansing-gel",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 72,
+   "frame_dist": 106
+  },
+  {
+   "a": "midrand-special-cleansing-gel",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 158,
+   "frame_dist": 111
+  },
+  {
+   "a": "midrand-special-cleansing-gel",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 93,
+   "frame_dist": 51
+  },
+  {
+   "a": "midrand-special-cleansing-gel",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 144,
+   "frame_dist": 105
+  },
+  {
+   "a": "midrand-special-cleansing-gel",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 72,
+   "frame_dist": 103
+  },
+  {
+   "a": "midrand-special-cleansing-gel",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 77,
+   "frame_dist": 52
+  },
+  {
+   "a": "midrand-special-cleansing-gel",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 79,
+   "frame_dist": 111
+  },
+  {
+   "a": "midrand-special-cleansing-gel",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 132,
+   "frame_dist": 112
+  },
+  {
+   "a": "midrand-multivitamin-thermafoliant-short",
+   "b": "midrand-precleanse",
+   "thumb_dist": 131,
+   "frame_dist": 123
+  },
+  {
+   "a": "midrand-multivitamin-thermafoliant-short",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 125,
+   "frame_dist": 89
+  },
+  {
+   "a": "midrand-multivitamin-thermafoliant-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 127,
+   "frame_dist": 93
+  },
+  {
+   "a": "midrand-multivitamin-thermafoliant-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 135,
+   "frame_dist": 92
+  },
+  {
+   "a": "midrand-multivitamin-thermafoliant-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 121,
+   "frame_dist": 100
+  },
+  {
+   "a": "midrand-multivitamin-thermafoliant-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 134,
+   "frame_dist": 95
+  },
+  {
+   "a": "midrand-multivitamin-thermafoliant-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 124,
+   "frame_dist": 90
+  },
+  {
+   "a": "midrand-multivitamin-thermafoliant-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 135,
+   "frame_dist": 123
+  },
+  {
+   "a": "midrand-multivitamin-thermafoliant-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 44,
+   "frame_dist": 92
+  },
+  {
+   "a": "midrand-multivitamin-thermafoliant-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 144,
+   "frame_dist": 85
+  },
+  {
+   "a": "midrand-multivitamin-thermafoliant-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 131,
+   "frame_dist": 109
+  },
+  {
+   "a": "midrand-multivitamin-thermafoliant-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 129,
+   "frame_dist": 92
+  },
+  {
+   "a": "midrand-multivitamin-thermafoliant-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 116,
+   "frame_dist": 93
+  },
+  {
+   "a": "midrand-precleanse",
+   "b": "midrand-ultracalming-cleanser-short",
+   "thumb_dist": 82,
+   "frame_dist": 109
+  },
+  {
+   "a": "midrand-precleanse",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 90,
+   "frame_dist": 109
+  },
+  {
+   "a": "midrand-precleanse",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 110,
+   "frame_dist": 114
+  },
+  {
+   "a": "midrand-precleanse",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 108,
+   "frame_dist": 116
+  },
+  {
+   "a": "midrand-precleanse",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 113,
+   "frame_dist": 109
+  },
+  {
+   "a": "midrand-precleanse",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 125,
+   "frame_dist": 106
+  },
+  {
+   "a": "midrand-precleanse",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 114,
+   "frame_dist": 81
+  },
+  {
+   "a": "midrand-precleanse",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 117,
+   "frame_dist": 117
+  },
+  {
+   "a": "midrand-precleanse",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 85,
+   "frame_dist": 113
+  },
+  {
+   "a": "midrand-precleanse",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 104,
+   "frame_dist": 86
+  },
+  {
+   "a": "midrand-precleanse",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 80,
+   "frame_dist": 106
+  },
+  {
+   "a": "midrand-precleanse",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 115,
+   "frame_dist": 109
+  },
+  {
+   "a": "midrand-ultracalming-cleanser-short",
+   "b": "bedfordview-smart-response-serum",
+   "thumb_dist": 114,
+   "frame_dist": 114
+  },
+  {
+   "a": "midrand-ultracalming-cleanser-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 78,
+   "frame_dist": 97
+  },
+  {
+   "a": "midrand-ultracalming-cleanser-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 58,
+   "frame_dist": 95
+  },
+  {
+   "a": "midrand-ultracalming-cleanser-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 67,
+   "frame_dist": 112
+  },
+  {
+   "a": "midrand-ultracalming-cleanser-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 159,
+   "frame_dist": 88
+  },
+  {
+   "a": "midrand-ultracalming-cleanser-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 78,
+   "frame_dist": 110
+  },
+  {
+   "a": "midrand-ultracalming-cleanser-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 123,
+   "frame_dist": 107
+  },
+  {
+   "a": "midrand-ultracalming-cleanser-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 79,
+   "frame_dist": 77
+  },
+  {
+   "a": "midrand-ultracalming-cleanser-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 88,
+   "frame_dist": 106
+  },
+  {
+   "a": "midrand-ultracalming-cleanser-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 60,
+   "frame_dist": 79
+  },
+  {
+   "a": "midrand-ultracalming-cleanser-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 125,
+   "frame_dist": 84
+  },
+  {
+   "a": "bedfordview-smart-response-serum",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "thumb_dist": 108,
+   "frame_dist": 90
+  },
+  {
+   "a": "bedfordview-smart-response-serum",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 108,
+   "frame_dist": 109
+  },
+  {
+   "a": "bedfordview-smart-response-serum",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 101,
+   "frame_dist": 27
+  },
+  {
+   "a": "bedfordview-smart-response-serum",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 147,
+   "frame_dist": 115
+  },
+  {
+   "a": "bedfordview-smart-response-serum",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 126,
+   "frame_dist": 104
+  },
+  {
+   "a": "bedfordview-smart-response-serum",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 127,
+   "frame_dist": 99
+  },
+  {
+   "a": "bedfordview-smart-response-serum",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 113,
+   "frame_dist": 97
+  },
+  {
+   "a": "bedfordview-smart-response-serum",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 124,
+   "frame_dist": 95
+  },
+  {
+   "a": "bedfordview-smart-response-serum",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 114,
+   "frame_dist": 110
+  },
+  {
+   "a": "bedfordview-smart-response-serum",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 125,
+   "frame_dist": 99
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "b": "bedfordview-post-breakout-fix-short",
+   "thumb_dist": 60,
+   "frame_dist": 82
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 67,
+   "frame_dist": 97
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 153,
+   "frame_dist": 46
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 74,
+   "frame_dist": 109
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 129,
+   "frame_dist": 42
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 89,
+   "frame_dist": 65
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 60,
+   "frame_dist": 110
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 66,
+   "frame_dist": 70
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 127,
+   "frame_dist": 42
+  },
+  {
+   "a": "bedfordview-post-breakout-fix-short",
+   "b": "bedfordview-powerbright-dark-spot-serum",
+   "thumb_dist": 59,
+   "frame_dist": 103
+  },
+  {
+   "a": "bedfordview-post-breakout-fix-short",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 159,
+   "frame_dist": 78
+  },
+  {
+   "a": "bedfordview-post-breakout-fix-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 80,
+   "frame_dist": 109
+  },
+  {
+   "a": "bedfordview-post-breakout-fix-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 129,
+   "frame_dist": 90
+  },
+  {
+   "a": "bedfordview-post-breakout-fix-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 81,
+   "frame_dist": 77
+  },
+  {
+   "a": "bedfordview-post-breakout-fix-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 66,
+   "frame_dist": 100
+  },
+  {
+   "a": "bedfordview-post-breakout-fix-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 70,
+   "frame_dist": 80
+  },
+  {
+   "a": "bedfordview-post-breakout-fix-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 131,
+   "frame_dist": 90
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-serum",
+   "b": "bedfordview-circular-hydration-serum-short",
+   "thumb_dist": 162,
+   "frame_dist": 111
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-serum",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 73,
+   "frame_dist": 108
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-serum",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 138,
+   "frame_dist": 104
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-serum",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 82,
+   "frame_dist": 99
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-serum",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 79,
+   "frame_dist": 98
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-serum",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 75,
+   "frame_dist": 104
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-serum",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 136,
+   "frame_dist": 100
+  },
+  {
+   "a": "bedfordview-circular-hydration-serum-short",
+   "b": "umhlanga-stress-positive-eye-lift",
+   "thumb_dist": 153,
+   "frame_dist": 109
+  },
+  {
+   "a": "bedfordview-circular-hydration-serum-short",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 114,
+   "frame_dist": 52
+  },
+  {
+   "a": "bedfordview-circular-hydration-serum-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 152,
+   "frame_dist": 71
+  },
+  {
+   "a": "bedfordview-circular-hydration-serum-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 153,
+   "frame_dist": 115
+  },
+  {
+   "a": "bedfordview-circular-hydration-serum-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 147,
+   "frame_dist": 56
+  },
+  {
+   "a": "bedfordview-circular-hydration-serum-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 102,
+   "frame_dist": 49
+  },
+  {
+   "a": "umhlanga-stress-positive-eye-lift",
+   "b": "umhlanga-awaken-peptide-eye-gel-short",
+   "thumb_dist": 137,
+   "frame_dist": 111
+  },
+  {
+   "a": "umhlanga-stress-positive-eye-lift",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 69,
+   "frame_dist": 109
+  },
+  {
+   "a": "umhlanga-stress-positive-eye-lift",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 68,
+   "frame_dist": 55
+  },
+  {
+   "a": "umhlanga-stress-positive-eye-lift",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 84,
+   "frame_dist": 109
+  },
+  {
+   "a": "umhlanga-stress-positive-eye-lift",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 151,
+   "frame_dist": 107
+  },
+  {
+   "a": "umhlanga-awaken-peptide-eye-gel-short",
+   "b": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "thumb_dist": 140,
+   "frame_dist": 69
+  },
+  {
+   "a": "umhlanga-awaken-peptide-eye-gel-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 129,
+   "frame_dist": 112
+  },
+  {
+   "a": "umhlanga-awaken-peptide-eye-gel-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 123,
+   "frame_dist": 64
+  },
+  {
+   "a": "umhlanga-awaken-peptide-eye-gel-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 110,
+   "frame_dist": 60
+  },
+  {
+   "a": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "b": "umhlanga-multivitamin-power-firm",
+   "thumb_dist": 83,
+   "frame_dist": 94
+  },
+  {
+   "a": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 69,
+   "frame_dist": 61
+  },
+  {
+   "a": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 136,
+   "frame_dist": 72
+  },
+  {
+   "a": "umhlanga-multivitamin-power-firm",
+   "b": "umhlanga-pro-collagen-banking-water-cream-short",
+   "thumb_dist": 66,
+   "frame_dist": 117
+  },
+  {
+   "a": "umhlanga-multivitamin-power-firm",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 133,
+   "frame_dist": 110
+  },
+  {
+   "a": "umhlanga-pro-collagen-banking-water-cream-short",
+   "b": "midrand-skin-resurfacing-cleanser-short",
+   "thumb_dist": 121,
+   "frame_dist": 75
+  }
+ ]
+}

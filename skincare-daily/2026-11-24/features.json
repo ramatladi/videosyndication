@@ -1,0 +1,3173 @@
+{
+ "checked": "2026-11-24",
+ "note": "2026-11-24 daily batch (skincare-daily/sk.py)",
+ "channels": {
+  "skincare.joburg": {
+   "locality": "Rosebank",
+   "desk": "Moisturizers & textures",
+   "credential_line": false,
+   "voice": "af_heart",
+   "accent": [
+    74,
+    93,
+    78
+   ],
+   "card_side": "left",
+   "radius": 36,
+   "chip": "pill",
+   "title_weight": "Bold",
+   "transition": "fade",
+   "music": {
+    "root": 57,
+    "bpm": 72,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      11
+     ],
+     [
+      5,
+      9,
+      12,
+      16
+     ],
+     [
+      2,
+      5,
+      9,
+      12
+     ],
+     [
+      7,
+      11,
+      14,
+      17
+     ]
+    ]
+   }
+  },
+  "skincare.durban": {
+   "locality": "Westville",
+   "desk": "Body care",
+   "credential_line": false,
+   "voice": "af_bella",
+   "accent": [
+    0,
+    121,
+    125
+   ],
+   "card_side": "right",
+   "radius": 16,
+   "chip": "square",
+   "title_weight": "SemiBold",
+   "transition": "smoothleft",
+   "music": {
+    "root": 60,
+    "bpm": 96,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      12
+     ],
+     [
+      9,
+      12,
+      16,
+      21
+     ],
+     [
+      5,
+      9,
+      12,
+      17
+     ],
+     [
+      7,
+      11,
+      14,
+      19
+     ]
+    ]
+   }
+  },
+  "dermatologist.joburg": {
+   "locality": "Midrand",
+   "desk": "Building a skincare routine",
+   "credential_line": true,
+   "voice": "af_jessica",
+   "accent": [
+    35,
+    59,
+    110
+   ],
+   "card_side": "left",
+   "radius": 8,
+   "chip": "underline",
+   "title_weight": "Bold",
+   "transition": "smoothup",
+   "music": {
+    "root": 55,
+    "bpm": 84,
+    "prog": [
+     [
+      0,
+      3,
+      7,
+      10
+     ],
+     [
+      8,
+      12,
+      15,
+      19
+     ],
+     [
+      3,
+      7,
+      10,
+      14
+     ],
+     [
+      10,
+      14,
+      17,
+      21
+     ]
+    ]
+   }
+  },
+  "dermatology.joburg": {
+   "locality": "Bedfordview",
+   "desk": "Labels & ingredients",
+   "credential_line": true,
+   "voice": "af_nicole",
+   "accent": [
+    96,
+    46,
+    92
+   ],
+   "card_side": "right",
+   "radius": 28,
+   "chip": "pill",
+   "title_weight": "Bold",
+   "transition": "wipeleft",
+   "music": {
+    "root": 50,
+    "bpm": 66,
+    "prog": [
+     [
+      0,
+      3,
+      7,
+      10
+     ],
+     [
+      5,
+      8,
+      12,
+      15
+     ],
+     [
+      7,
+      10,
+      14,
+      17
+     ],
+     [
+      3,
+      7,
+      10,
+      14
+     ]
+    ]
+   }
+  },
+  "dermatology.durban": {
+   "locality": "uMhlanga",
+   "desk": "Hydration & layering",
+   "credential_line": true,
+   "voice": "af_sarah",
+   "accent": [
+    16,
+    96,
+    140
+   ],
+   "card_side": "left",
+   "radius": 44,
+   "chip": "square",
+   "title_weight": "SemiBold",
+   "transition": "dissolve",
+   "music": {
+    "root": 62,
+    "bpm": 104,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      11
+     ],
+     [
+      7,
+      11,
+      14,
+      18
+     ],
+     [
+      9,
+      12,
+      16,
+      19
+     ],
+     [
+      5,
+      9,
+      12,
+      16
+     ]
+    ]
+   }
+  },
+  "dermatology.capetown": {
+   "locality": "Cape Town",
+   "desk": "Daily sun care",
+   "credential_line": true,
+   "voice": "af_aoede",
+   "accent": [
+    196,
+    92,
+    28
+   ],
+   "card_side": "right",
+   "radius": 22,
+   "chip": "underline",
+   "title_weight": "Bold",
+   "transition": "fadeblack",
+   "music": {
+    "root": 53,
+    "bpm": 112,
+    "prog": [
+     [
+      0,
+      4,
+      7,
+      12
+     ],
+     [
+      5,
+      9,
+      12,
+      17
+     ],
+     [
+      7,
+      11,
+      14,
+      19
+     ],
+     [
+      4,
+      7,
+      11,
+      16
+     ]
+    ]
+   }
+  }
+ },
+ "videos": [
+  {
+   "slug": "capetown-skinperfect-primer-spf30-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product_name": "skinperfect primer spf30",
+   "spoken_name": "skinperfect primer SPF thirty",
+   "product_url": "https://dermalogica.co.za/products/skinperfect-primer-spf30-22ml-w110641?variant=46591382847802",
+   "packshot": "d1124-W110641-00.png",
+   "title": "Reading the Label: Dermalogica SkinPerfect Primer SPF30 #shorts",
+   "lead": "Dermalogica skinperfect primer spf30: smooths, brightens, and primes, from the Cape Town daily sun care desk.",
+   "facts": [
+    "Smooths, brightens, and primes",
+    "A make-up primer, sunscreen and treatment for skin aging in one",
+    "Has a silky feel and provides a smooth surface for a \"soft focus\" effect",
+    "How to use: After applying your Dermalogica Moisturizer, smooth and blend over entire face and throat. Can be worn alone or underneath make-up to extend wear."
+   ],
+   "tags": [
+    "skinperfect primer spf30",
+    "dermalogica skinperfect primer spf30",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #SkinPerfectPrimerSPF30 #DailySPF #shorts",
+   "thumb": {
+    "text": "Key ingredients",
+    "kicker": "CAPE TOWN",
+    "layout": "photo",
+    "photo": "d1124-W110641-01.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Cape Town daily sun care desk: Dermalogica skinperfect primer SPF thirty, 22 milliliters. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-W110641-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Titanium Dioxide",
+      "Caprylic/Capric Triglyceride",
+      "Dimethicone Crosspolymer",
+      "Diisopropyl Adipate"
+     ],
+     "say": "The ingredient list starts with Titanium Dioxide, Caprylic Capric Triglyceride, Dimethicone Crosspolymer, Diisopropyl Adipate, Silica."
+    },
+    {
+     "type": "note",
+     "image": "d1124-W110641-01.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "A potent peptide helps support skin firmness as",
+     "say": "A potent peptide helps support skin firmness as Broad Spectrum sunscreens help shield against sun damage triggered by UV light."
+    },
+    {
+     "type": "end",
+     "sub": "22 mL",
+     "say": "That's Dermalogica skinperfect primer SPF thirty. The link is in the description."
+    }
+   ],
+   "sku": "W110641",
+   "variant": "22ml",
+   "slot_sast": "08:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.19,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "westville-daily-glycolic-cleanser-short",
+   "domain": "skincare.durban",
+   "format": "short",
+   "product_name": "daily glycolic cleanser",
+   "spoken_name": "daily glycolic cleanser",
+   "product_url": "https://dermalogica.co.za/products/daily-glycolic-cleanser-daily-glycolic-cleanser?variant=45975459365178",
+   "packshot": "d1124-111439-00.jpg",
+   "title": "Dermalogica Daily Glycolic Cleanser: Key Ingredients in Under a Minute #shorts",
+   "lead": "Dermalogica daily glycolic cleanser: brightens dull, uneven skin tone, from the Westville body care desk.",
+   "facts": [
+    "Brightens dull, uneven skin tone",
+    "Cleanses and removes buildup, Brightens and evens skin tone, Conditions and replenishes skin",
+    "How to use: Massage onto dampened face and neck. Rinse with warm water."
+   ],
+   "tags": [
+    "daily glycolic cleanser",
+    "dermalogica daily glycolic cleanser",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #DailyGlycolicCleanser #BodyCare #shorts",
+   "thumb": {
+    "text": "Sizes at a glance",
+    "kicker": "WESTVILLE",
+    "layout": "left"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Westville body care desk: Dermalogica daily glycolic cleanser, 150 milliliters. Body care reaches the neck, and the directions for this one go there too. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111439-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Water",
+      "Cocamidopropyl Hydroxysultaine",
+      "Glycolic Acid",
+      "Glycerin"
+     ],
+     "say": "The ingredient list starts with Water, Cocamidopropyl Hydroxysultaine, Glycolic Acid, Glycerin, PEG-6 Cocamide."
+    },
+    {
+     "type": "end",
+     "sub": "150 mL",
+     "say": "That's Dermalogica daily glycolic cleanser. The link is in the description."
+    }
+   ],
+   "sku": "111439",
+   "variant": "150ml",
+   "slot_sast": "08:00",
+   "tier": "c",
+   "tier_why": "face product covered from the body angle",
+   "angle": "ingredients",
+   "script_overlap_max": 0.31,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "rosebank-phyto-nature-oxygen-cream-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product_name": "phyto nature oxygen cream",
+   "spoken_name": "phyto nature oxygen cream",
+   "product_url": "https://dermalogica.co.za/products/phyto-nature-oxygen-cream-111466int?variant=46591263342906",
+   "packshot": "d1124-111466INT-00.png",
+   "title": "Dermalogica Phyto Nature Oxygen Cream Ingredient Check #shorts",
+   "lead": "Dermalogica phyto nature oxygen cream: firms, lifts, and plumps, from the Rosebank moisturizer and texture desk.",
+   "facts": [
+    "Firms, lifts, and plumps",
+    "Plumps and hydrates for ultra-smooth skin",
+    "Firms and lifts to reduce the appearance of skin aging",
+    "Revitalizes with oxygen-optimizing phytoactives for brighter, more radiant skin",
+    "How to use: After cleansing and toning, apply over face and neck in light, upward strokes. Use twice daily, morning and night."
+   ],
+   "tags": [
+    "phyto nature oxygen cream",
+    "dermalogica phyto nature oxygen cream",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #PhytoNatureOxygenCream #MoisturizerDesk #shorts",
+   "thumb": {
+    "text": "Ingredient check",
+    "kicker": "ROSEBANK",
+    "layout": "photo",
+    "photo": "d1124-111466INT-01.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Rosebank moisturizer and texture desk: Dermalogica phyto nature oxygen cream, fifty milliliters. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111466INT-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Water",
+      "Simmondsia Chinensis Seed Oil",
+      "Glycerin",
+      "Neopentyl Glycol Diheptanoate"
+     ],
+     "say": "The ingredient list starts with Water, Simmondsia Chinensis Seed Oil, Glycerin, Neopentyl Glycol Diheptanoate, Squalane."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111466INT-02.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Featuring a botanical extract",
+     "say": "Featuring a botanical extract from Ligustrum Lucidum Seed together with Glycogen and Nasturtium Flower helps to oxygenate skin’s surface by hydrating its upper layers for a smooth, energized appearance."
+    },
+    {
+     "type": "end",
+     "sub": "50 mL",
+     "say": "That's Dermalogica phyto nature oxygen cream. The link is in the description."
+    }
+   ],
+   "sku": "111466INT",
+   "variant": "50ml",
+   "slot_sast": "08:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.58,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "midrand-sensitive-skin-rescue-kit-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product_name": "sensitive skin rescue kit",
+   "spoken_name": "sensitive skin rescue kit",
+   "product_url": "https://dermalogica.co.za/products/sensitive-skin-rescue-kit-111388?variant=46591370854714",
+   "packshot": "d1124-111388-00.jpg",
+   "title": "Dermalogica Sensitive Skin Rescue Kit: Which Step Is It? #shorts",
+   "lead": "Dermalogica sensitive skin rescue kit: calms, soothes, and hydrates, from the Midrand routine desk.",
+   "facts": [
+    "Calms, soothes, and hydrates",
+    "What's inside: UltraCalming Cleanser (1.7oz); UltraCalming Mist (1.7oz); Calm Water Gel (0.5oz)",
+    "Helps calm, soothe and minimize irritation",
+    "Helps fortify skin's protective barrier for healthier skin",
+    "Helps manage the internal and external influences that trigger sensitization",
+    "How to use: Apply UltraCalming Cleanser to dry or damp face and neck, and over closed eyes with circular motions. Rinse thoroughly or tissue off. Spritz Ultracalming Mist all over face and neck, with eyes closed. Finish by applying a liberal amount of Calm Water gel over face and neck."
+   ],
+   "tags": [
+    "sensitive skin rescue kit",
+    "dermalogica sensitive skin rescue kit",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #SensitiveSkinRescueKit #RoutineBuilder #shorts",
+   "thumb": {
+    "text": "Which step?",
+    "kicker": "MIDRAND",
+    "layout": "center"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "In a routine",
+     "say": "Midrand routine desk: Dermalogica sensitive skin rescue kit. Today: where it goes in a routine."
+    },
+    {
+     "type": "bullets",
+     "kicker": "WHAT'S INSIDE",
+     "headline": "3 products in one kit",
+     "items": [
+      "UltraCalming Cleanser (1.7oz)",
+      "UltraCalming Mist (1.7oz)",
+      "Calm Water Gel (0.5oz)"
+     ],
+     "say": "Inside the kit: UltraCalming Cleanser, 1.7oz; UltraCalming Mist, 1.7oz; Calm Water Gel, 0.5oz."
+    },
+    {
+     "type": "steps",
+     "image": "d1124-111388-01.jpg",
+     "kicker": "IN YOUR ROUTINE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Apply UltraCalming Cleanser to dry",
+      "Rinse thoroughly or tissue off",
+      "Spritz Ultracalming Mist all over face"
+     ],
+     "say": "Apply UltraCalming Cleanser to dry or damp face and neck, and over closed eyes with circular motions. Rinse thoroughly or tissue off. Spritz Ultracalming Mist all over face and neck, with eyes closed."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111388-03.jpg",
+     "kicker": "WHY IT IS THERE",
+     "headline": "Helps manage the internal",
+     "say": "Helps manage the internal and external influences that trigger sensitization."
+    },
+    {
+     "type": "end",
+     "sub": "Sensitive Skin Rescue Kit",
+     "say": "That's Dermalogica sensitive skin rescue kit. The link is in the description."
+    }
+   ],
+   "sku": "111388",
+   "variant": "Skin Kits",
+   "slot_sast": "08:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "routine",
+   "script_overlap_max": 0.91,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product_name": "dynamic skin strengthening serum 30ml",
+   "spoken_name": "dynamic skin strengthening serum thirty milliliters",
+   "product_url": "https://dermalogica.co.za/products/dynamic-skin-strengthening-serum-30ml?variant=50681821135162",
+   "packshot": "d1124-111508-00.jpg",
+   "title": "What Goes Into Dermalogica Dynamic Skin Strengthening Serum 30ml? #shorts",
+   "lead": "Dermalogica dynamic skin strengthening serum 30ml: builds barrier resilience, from the Bedfordview labels and ingredients desk.",
+   "facts": [
+    "Builds barrier resilience",
+    "barrier resilience age resistance",
+    "How to use: After cleansing, apply over face and neck in light, upward strokes. Follow with broad spectrum SPF for daytime use."
+   ],
+   "tags": [
+    "dynamic skin strengthening serum 30ml",
+    "dermalogica dynamic skin strengthening serum 30ml",
+    "labels and ingredients",
+    "bedfordview skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #DynamicSkinStrengtheningSerum30ml #LabelRead #shorts",
+   "thumb": {
+    "text": "What's in it",
+    "kicker": "BEDFORDVIEW",
+    "layout": "photo",
+    "photo": "d1124-111508-01.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Bedfordview labels and ingredients desk: Dermalogica dynamic skin strengthening serum thirty milliliters. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111508-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Water",
+      "Propanediol",
+      "Squalane",
+      "Glycerin"
+     ],
+     "say": "The ingredient list starts with Water, Propanediol, Squalane, Glycerin, Butylene Glycol."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111508-03.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Milky serum powered by BioShield utilizes",
+     "say": "Milky serum powered by BioShield utilizes a biomimetic peptide, antioxidants and Squalane to help fortify barrier defenses."
+    },
+    {
+     "type": "end",
+     "sub": "30 mL",
+     "say": "That's Dermalogica dynamic skin strengthening serum thirty milliliters. The link is in the description."
+    }
+   ],
+   "sku": "111508",
+   "variant": "30ml",
+   "slot_sast": "08:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.38,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "umhlanga-skin-soothing-hydrating-lotion-short",
+   "domain": "dermatology.durban",
+   "format": "short",
+   "product_name": "skin soothing hydrating lotion",
+   "spoken_name": "skin soothing hydrating lotion",
+   "product_url": "https://dermalogica.co.za/products/skin-soothing-hydrating-lotion-60ml-111122?variant=46591381209402",
+   "packshot": "d1124-111122-00.jpg",
+   "title": "Dermalogica Skin Soothing Hydrating Lotion, Ingredient by Ingredient #shorts",
+   "lead": "Dermalogica skin soothing hydrating lotion: soothes discomfort and hydrates, from the uMhlanga hydration and layering desk.",
+   "facts": [
+    "Soothes discomfort and hydrates",
+    "moisturizing, plant-based Squalane softens and nourishes Hyaluronic Acid provides instant relief from skin dehydration",
+    "Gentle botanicals including Ginger, Orange and Grapefruit soothe the skin",
+    "How to use: Apply over entire face and neck, day and night."
+   ],
+   "tags": [
+    "skin soothing hydrating lotion",
+    "dermalogica skin soothing hydrating lotion",
+    "hydration and layering",
+    "umhlanga skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #SkinSoothingHydratingLotion #LayeringGuide #shorts",
+   "thumb": {
+    "text": "In your routine",
+    "kicker": "UMHLANGA",
+    "layout": "photo",
+    "photo": "d1124-111122-02.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "uMhlanga hydration and layering desk: Dermalogica skin soothing hydrating lotion, sixty milliliters. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111122-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Water",
+      "Squalane",
+      "Butylene Glycol",
+      "Naringenin"
+     ],
+     "say": "The ingredient list starts with Water, Squalane, Butylene Glycol, Naringenin, Saccharide Isomerate."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111122-02.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Moisturizing",
+     "say": "moisturizing, plant-based Squalane softens and nourishes Hyaluronic Acid provides instant relief from skin dehydration"
+    },
+    {
+     "type": "end",
+     "sub": "60 mL",
+     "say": "That's Dermalogica skin soothing hydrating lotion. The link is in the description."
+    }
+   ],
+   "sku": "111122",
+   "variant": "60ml",
+   "slot_sast": "08:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.62,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "capetown-golden-hour-hydrating-spf30-stick",
+   "domain": "dermatology.capetown",
+   "format": "video",
+   "product_name": "golden hour hydrating spf30 stick",
+   "spoken_name": "golden hour hydrating SPF thirty stick",
+   "product_url": "https://dermalogica.co.za/products/golden-hour-hydrating-spf30-stick-20ml?variant=51971084190010",
+   "packshot": "d1124-111505INT-00.png",
+   "title": "Dermalogica Golden Hour Hydrating SPF30 Stick: Benefits, Directions and Who It Suits",
+   "lead": "Dermalogica golden hour hydrating spf30 stick: protect, clarify, hydrate & glow, from the Cape Town daily sun care desk.",
+   "facts": [
+    "Protect, clarify, hydrate & glow",
+    "SPF30 broad spectrum UV protection",
+    "Non-comedogenic formula won't clog pores",
+    "Portable for glow on the go",
+    "Shimmering & hydrating golden glow for all skin tones",
+    "How to use: Apply liberally 15 minutes before sun exposure. Glide onto face and body (anywhere where you want to glow!) and gently rub in with hands. Reapply every two hours."
+   ],
+   "tags": [
+    "golden hour hydrating spf30 stick",
+    "dermalogica golden hour hydrating spf30 stick",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #GoldenHourHydratingSPF30Stick #DailySPF",
+   "thumb": {
+    "text": "Daily sun care pick",
+    "kicker": "CAPE TOWN",
+    "layout": "photo",
+    "photo": "d1124-111505INT-03.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Protect, clarify, hydrate & glow",
+     "say": "Cape Town daily sun care desk: Dermalogica golden hour hydrating SPF thirty stick."
+    },
+    {
+     "type": "note",
+     "image": "d1124-111505INT-03.jpg",
+     "kicker": "FIRST",
+     "headline": "Not dermatologists or doctors. General product information.",
+     "say": "First, dermatology dot capetown isn't run by dermatologists or doctors. This is general product information from the store listing."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111505INT-01.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Protect, clarify, hydrate & glow",
+     "say": "Throw it in your bag for a glow on the go!. Hour is Golden Hour with Clear Start's Hydrating SPF stick. Protect with SPF thirty; Clarify with Willow Bark Extract, a natural form of Salicylic Acid; Hydrate with Squalene plus Jojoba Seed Oil; and Glow with a golden shimmer for all skin tones. Non-comedogenic formula means it won’t clog your pores."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111505INT-02.jpg",
+     "kicker": "BENEFIT 1",
+     "headline": "SPF30 broad spectrum UV protection",
+     "say": "SPF thirty broad spectrum UV protection."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111505INT-03.jpg",
+     "kicker": "BENEFIT 2",
+     "headline": "Non-comedogenic formula won't clog pores",
+     "say": "Non-comedogenic formula won't clog pores."
+    },
+    {
+     "type": "note",
+     "kicker": "RECOMMENDED FOR",
+     "headline": "All skin types anyone looking for a glow dryness",
+     "say": "The listing recommends it for all skin types anyone looking for a glow dryness and dehydration oily/breakout-prone skin.",
+     "image": "d1124-111505INT-09.jpg"
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111505INT-05.jpg",
+     "kicker": "ALSO",
+     "headline": "Helps keep pores clear with willow bark extract",
+     "say": "Helps keep pores clear with willow bark extract, a natural form of salicylic acid."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Apply liberally 15 minutes before sun",
+      "Glide onto face",
+      "Reapply every two hours"
+     ],
+     "say": "Apply liberally 15 minutes before sun exposure. Glide onto face and body (anywhere where you want to glow!) and gently rub in with hands. Reapply every two hours.",
+     "image": "d1124-111505INT-01.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "Golden Hour Hydrating SPF30 Stick",
+     "say": "That's Dermalogica golden hour hydrating SPF thirty stick. The link is in the description."
+    }
+   ],
+   "sku": "111505INT",
+   "variant": "Default Title",
+   "slot_sast": "10:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "standard",
+   "script_overlap_max": 0.96,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "capetown-biolumin-c-heat-aging-protector-spf50-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product_name": "biolumin-c heat aging protector spf50",
+   "spoken_name": "biolumin-c heat aging protector SPF fifty",
+   "product_url": "https://dermalogica.co.za/products/biolumin-c-heat-aging-protector-spf50?variant=50747696480570",
+   "packshot": "d1124-411510INT-00.jpg",
+   "title": "Dermalogica BioLumin-C Heat Aging Protector SPF50 Sizes at a Glance #shorts",
+   "lead": "Dermalogica biolumin-c heat aging protector spf50: turn down heat aging, turn up radiance, from the Cape Town daily sun care desk.",
+   "facts": [
+    "Turn down heat aging, turn up radiance",
+    "Helps defend against heat aging and improves the look of skin texture + tone",
+    "Helps protect against UV rays to prevent early skin aging",
+    "Immediately brightens, hydrates, and soothes skin",
+    "How to use: Apply liberally to face and neck, preferably 15 minutes prior to sun exposure."
+   ],
+   "tags": [
+    "biolumin-c heat aging protector spf50",
+    "dermalogica biolumin-c heat aging protector spf50",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #BioLuminCHeatAgingProtectorSPF50 #DailySPF #shorts",
+   "thumb": {
+    "text": "Sizes at a glance",
+    "kicker": "CAPE TOWN",
+    "layout": "photo",
+    "photo": "d1124-411510INT-06.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Sizes",
+     "say": "Cape Town daily sun care desk: Dermalogica biolumin-c heat aging protector SPF fifty, fifteen milliliters. Today: the sizes it comes in."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-411510INT-01.jpg",
+     "kicker": "SIZES",
+     "headline": "2 sizes in store",
+     "items": [
+      "15 mL",
+      "50 mL"
+     ],
+     "say": "It comes in fifteen milliliters and fifty milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-411510INT-03.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Daily moisturizer with SPF 50 helps defend against",
+     "say": "Daily moisturizer with SPF fifty helps defend against signs of skin aging from UVA/UVB rays."
+    },
+    {
+     "type": "steps",
+     "image": "d1124-411510INT-06.jpg",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Apply liberally to face and neck"
+     ],
+     "say": "Apply liberally to face and neck, preferably 15 minutes prior to sun exposure."
+    },
+    {
+     "type": "end",
+     "sub": "15 mL",
+     "say": "That's Dermalogica biolumin-c heat aging protector SPF fifty. The link is in the description."
+    }
+   ],
+   "sku": "411510INT",
+   "variant": "15ml",
+   "slot_sast": "12:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "sizes",
+   "script_overlap_max": 0.7,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "capetown-prisma-protect-spf30-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product_name": "prisma protect spf30",
+   "spoken_name": "prisma protect SPF thirty",
+   "product_url": "https://dermalogica.co.za/products/prisma-protect-spf30-prisma-protect-spf30?variant=45975459725626",
+   "packshot": "d1124-111331-00.png",
+   "title": "Dermalogica Prisma Protect SPF30 Ingredients: What's on the Label #shorts",
+   "lead": "Dermalogica prisma protect spf30: boosts skin's natural luminosity, from the Cape Town daily sun care desk.",
+   "facts": [
+    "Boosts skin's natural luminosity",
+    "Hydrates for visibly smooth skin all day long",
+    "Boosts skin's natural luminosity",
+    "Defends against UV rays, free radical damage and pollution",
+    "How to use: After cleansing and toning, apply a generous amount to face and neck, preferably 30 minutes prior to sun exposure."
+   ],
+   "tags": [
+    "prisma protect spf30",
+    "dermalogica prisma protect spf30",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #PrismaProtectSPF30 #DailySPF #shorts",
+   "thumb": {
+    "text": "Daily sun care pick",
+    "kicker": "CAPE TOWN",
+    "layout": "center"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Cape Town daily sun care desk: Dermalogica prisma protect SPF thirty, fifty milliliters. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111331-01.png",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Water",
+      "Zinc Oxide",
+      "Caprylic/Capric Triglyceride",
+      "Dimethicone"
+     ],
+     "say": "The ingredient list starts with Water, Zinc Oxide, Caprylic Capric Triglyceride, Dimethicone, Butyloctyl Salicylate."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111331-02.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Specialized Dual Defense SPF30 Complex",
+     "say": "Specialized Dual Defense SPF thirty Complex with fermented Sage provides protection from UV damage and the appearance of uneven skin tone."
+    },
+    {
+     "type": "end",
+     "sub": "50 mL",
+     "say": "That's Dermalogica prisma protect SPF thirty. The link is in the description."
+    }
+   ],
+   "sku": "111331",
+   "variant": "50ml",
+   "slot_sast": "16:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.06,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "capetown-age-reversal-eye-complex",
+   "domain": "dermatology.capetown",
+   "format": "video",
+   "product_name": "age reversal eye complex",
+   "spoken_name": "age reversal eye complex",
+   "product_url": "https://dermalogica.co.za/products/age-reversal-eye-complex-15ml-111236?variant=46583491428666",
+   "packshot": "d1124-111236-00.png",
+   "title": "Dermalogica Age Reversal Eye Complex Label Read: The Ingredient List",
+   "lead": "Dermalogica age reversal eye complex: smooths away signs of skin aging, from the Cape Town daily sun care desk.",
+   "facts": [
+    "Smooths away signs of skin aging",
+    "Microspheres target the signs of skin aging",
+    "Reverses multiple signs of skin aging around the delicate eye area",
+    "Delivers potent age-fighting actives deep into the skin",
+    "How to use: Start using alternate nights, for the first two weeks. As skin responds, build up to using nightly. After cleansing, smooth and pat around the eye area working from the outer corner, inward."
+   ],
+   "tags": [
+    "age reversal eye complex",
+    "dermalogica age reversal eye complex",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #AgeReversalEyeComplex #DailySPF",
+   "thumb": {
+    "text": "Daily sun care pick",
+    "kicker": "CAPE TOWN",
+    "layout": "photo",
+    "photo": "d1124-111236-03.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Cape Town daily sun care desk: Dermalogica age reversal eye complex, fifteen milliliters. Sun care runs all day, so today it is a product that sits next to your SPF. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111236-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Water",
+      "Methylheptyl Isostearate",
+      "Cyclopentasiloxane",
+      "Cetyl Alcohol"
+     ],
+     "say": "The ingredient list starts with Water, Methylheptyl Isostearate, Cyclopentasiloxane, Cetyl Alcohol, Diglycerin."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111236-02.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Advanced",
+     "say": "Advanced, microencapsulated Retinol helps smooth away the signs of skin aging around the eyes."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111236-03.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Microencapsulation technology optimizes Retinol",
+     "say": "Microencapsulation technology optimizes Retinol potency and absorption to help reduce the appearance of fine lines."
+    },
+    {
+     "type": "note",
+     "image": "d1124-111236-01.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Microencapsulated Niacinamide",
+     "say": "Microencapsulated Niacinamide and Ash Tree Bark Extract maintain hydration and reduce visible dark circles."
+    },
+    {
+     "type": "steps",
+     "image": "d1124-111236-01.jpg",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Start using alternate nights",
+      "As skin responds",
+      "After cleansing"
+     ],
+     "say": "Start using alternate nights, for the first two weeks. As skin responds, build up to using nightly. After cleansing, smooth and pat around the eye area working from the outer corner, inward."
+    },
+    {
+     "type": "note",
+     "image": "d1124-111236-02.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "A powerful Age Reversal Firming Complex works",
+     "say": "A powerful Age Reversal Firming Complex works synergistically with antioxidant Vitamin C, powerful peptides and botanical extracts to fortify and smooth skin."
+    },
+    {
+     "type": "end",
+     "sub": "15 mL",
+     "say": "That's Dermalogica age reversal eye complex. The link is in the description."
+    }
+   ],
+   "sku": "111236",
+   "variant": "15ml",
+   "slot_sast": "18:00",
+   "tier": "c",
+   "tier_why": "face product covered from the sun angle",
+   "angle": "ingredients",
+   "script_overlap_max": 0.88,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "capetown-daily-brightness-boosters-kit-short",
+   "domain": "dermatology.capetown",
+   "format": "short",
+   "product_name": "daily brightness boosters kit",
+   "spoken_name": "daily brightness boosters kit",
+   "product_url": "https://dermalogica.co.za/products/daily-brightness-boosters-kit-111450int?variant=46588824224058",
+   "packshot": "d1124-111450INT-00.jpg",
+   "title": "Dermalogica Daily Brightness Boosters Kit: Key Ingredients in Under a Minute #shorts",
+   "lead": "Dermalogica daily brightness boosters kit: brightens, conditions, hydrates, from the Cape Town daily sun care desk.",
+   "facts": [
+    "Brightens, conditions, hydrates",
+    "What's inside: Daily Glycolic Cleanser (30ml); BioLumin-C Serum (9ml); BioLumin-C Gel Moisturizer (15ml)",
+    "Firms and helps reduce the appearance of fine lines and wrinkles Help prevent and correct free radical damage BioLumin-C Gel Moisturizer: Provides weightless hydration",
+    "Gives skin a radiance boost",
+    "Brightens the appearance of skin immediately and over time",
+    "Cleanses and removes buildup",
+    "How to use: Massage Daily Glycolic Cleanser onto dampened face and neck. Rinse with warm water. Dispense a full dropper of Biolumin-C Serum and smooth over cleansed face and neck. Follow with BioLumin-C Gel Moisturizer and apply over face and neck in light, upward strokes."
+   ],
+   "tags": [
+    "daily brightness boosters kit",
+    "dermalogica daily brightness boosters kit",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #DailyBrightnessBoostersKit #DailySPF #shorts",
+   "thumb": {
+    "text": "Read the label",
+    "kicker": "CAPE TOWN",
+    "layout": "photo",
+    "photo": "d1124-111450INT-02.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Cape Town daily sun care desk: Dermalogica daily brightness boosters kit. Sun care runs all day, so today it is a product that sits next to your SPF. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "kicker": "WHAT'S INSIDE",
+     "headline": "3 products in one kit",
+     "items": [
+      "Daily Glycolic Cleanser (30 mL)",
+      "BioLumin-C Serum (9 mL)",
+      "BioLumin-C Gel Moisturizer (15 mL)"
+     ],
+     "say": "Inside the kit: Daily Glycolic Cleanser, thirty milliliters; BioLumin-C Serum, 9 milliliters; BioLumin-C Gel Moisturizer, fifteen milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111450INT-02.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Cleanse and remove buildup Brighten and reduce",
+     "say": "This kit helps to: Cleanse and remove buildup Brighten and reduce unbalanced pigmentation Provide weightless hydration What's inside: Daily Glycolic Cleanser (thirty milliliters) - brightening, conditioning cleanser BioLumin-C Serum (9 milliliters)- brightening vitamin c serum BioLumin-C Gel Moisturizer (fifteen milliliters) - hydrating vitamin c moisturizer Skin concerns: Signs of skin aging Dull and lackluster skin Dryness and dehydration."
+    },
+    {
+     "type": "end",
+     "sub": "Daily Brightness Boosters Kit",
+     "say": "That's Dermalogica daily brightness boosters kit. The link is in the description."
+    }
+   ],
+   "sku": "111450INT",
+   "variant": "Skin Kits",
+   "slot_sast": "20:00",
+   "tier": "c",
+   "tier_why": "face product covered from the sun angle",
+   "angle": "ingredients",
+   "script_overlap_max": 0.36,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "westville-breakout-biotic-moisturiser",
+   "domain": "skincare.durban",
+   "format": "video",
+   "product_name": "breakout biotic moisturiser",
+   "spoken_name": "breakout biotic moisturiser",
+   "product_url": "https://dermalogica.co.za/products/breakout-biotic-moisturiser-50ml?variant=51688998568250",
+   "packshot": "d1124-111506INT-00.jpg",
+   "title": "Dermalogica Breakout Biotic Moisturiser: Where It Fits in a Routine, Step by Step",
+   "lead": "Dermalogica breakout biotic moisturiser: treats + prevents breakouts, from the Westville body care desk.",
+   "facts": [
+    "Treats + prevents breakouts",
+    "Treats + prevents breakouts daily. Hydrates + supports skin's microbiome. Helps aging skin look healthier, now and in the future",
+    "How to use: After cleansing and toning, apply over face and neck in light, upward strokes. Follow with SPF in the morning."
+   ],
+   "tags": [
+    "breakout biotic moisturiser",
+    "dermalogica breakout biotic moisturiser",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #BreakoutBioticmoisturizer #BodyCare",
+   "thumb": {
+    "text": "In your routine",
+    "kicker": "WESTVILLE",
+    "layout": "right"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "In a routine",
+     "say": "Westville body care desk: Dermalogica breakout biotic moisturiser. Body care reaches the neck, and the directions for this one go there too. Today: where it goes in a routine."
+    },
+    {
+     "type": "steps",
+     "image": "d1124-111506INT-01.jpg",
+     "kicker": "IN YOUR ROUTINE",
+     "headline": "Directions from the listing",
+     "items": [
+      "After cleansing and toning",
+      "Follow with SPF in the morning"
+     ],
+     "say": "After cleansing and toning, apply over face and neck in light, upward strokes. Follow with SPF in the morning."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111506INT-06.jpg",
+     "kicker": "WHY IT IS THERE",
+     "headline": "Treats + prevents breakouts daily. Hydrates +",
+     "say": "Treats plus prevents breakouts daily. Hydrates plus supports skin's microbiome. Helps aging skin look healthier, now and in the future."
+    },
+    {
+     "type": "note",
+     "image": "d1124-111506INT-01.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Bioengineered Plankton Extract",
+     "say": "Bioengineered Plankton Extract and Glycerin hydrate skin’s barrier, helping to defend against signs of premature aging and soothe skin."
+    },
+    {
+     "type": "note",
+     "image": "d1124-111506INT-01.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "A prebiotic blend with Indian Mulberry",
+     "say": "A prebiotic blend with Indian Mulberry, Glutamic Acid, and Agave-derived Inulin hydrates a nd helps balance skin’s microbiome."
+    },
+    {
+     "type": "note",
+     "image": "d1124-111506INT-01.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Salicylic Acid reduces acne by exfoliating away dead",
+     "say": "Salicylic Acid reduces acne by exfoliating away dead skin cells, helping to keep pores clear and prevent future breakouts."
+    },
+    {
+     "type": "end",
+     "sub": "Breakout Biotic Moisturiser",
+     "say": "That's Dermalogica breakout biotic moisturiser. The link is in the description."
+    }
+   ],
+   "sku": "111506INT",
+   "variant": "Default Title",
+   "slot_sast": "10:00",
+   "tier": "c",
+   "tier_why": "face product covered from the body angle",
+   "angle": "routine",
+   "script_overlap_max": 0.95,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "westville-clearing-skin-wash-short",
+   "domain": "skincare.durban",
+   "format": "short",
+   "product_name": "clearing skin wash",
+   "spoken_name": "clearing skin wash",
+   "product_url": "https://dermalogica.co.za/products/clearing-skin-wash-clearing-skin-wash?variant=45975459332410",
+   "packshot": "d1124-W101717-00.png",
+   "title": "Dermalogica Clearing Skin Wash Ingredient Check #shorts",
+   "lead": "Dermalogica clearing skin wash: clearing oil and prevents breakouts, from the Westville body care desk.",
+   "facts": [
+    "Clearing oil and prevents breakouts",
+    "Clears away excess oil without stripping skin",
+    "Helps prevent future breakouts Soothing botanicals help calm irritation",
+    "How to use: Work a pea-sized amount into a lather in wet hands. Apply to dampened face and neck, massaging in circular motions while concentrating on areas of congestion and oiliness. Avoid eye area. Rinse thoroughly with warm water."
+   ],
+   "tags": [
+    "clearing skin wash",
+    "dermalogica clearing skin wash",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #ClearingSkinWash #BodyCare #shorts",
+   "thumb": {
+    "text": "On the label",
+    "kicker": "WESTVILLE",
+    "layout": "right"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Westville body care desk: Dermalogica clearing skin wash, 500 milliliters. Body care reaches the neck, and the directions for this one go there too. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-W101717-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Water",
+      "Glycerin",
+      "Sodium Methyl Cocoyl Taurate",
+      "Cocamidopropyl Betaine"
+     ],
+     "say": "The ingredient list starts with Water, Glycerin, Sodium Methyl Cocoyl Taurate, Cocamidopropyl Betaine, Butylene Glycol."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-W101717-02.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Encapsulated Salicylic Acid helps stimulate to clear",
+     "say": "Encapsulated Salicylic Acid helps stimulate to clear clogged follicles and smooth away dullness."
+    },
+    {
+     "type": "end",
+     "sub": "500 mL",
+     "say": "That's Dermalogica clearing skin wash. The link is in the description."
+    }
+   ],
+   "sku": "W101717",
+   "variant": "500ml",
+   "slot_sast": "12:00",
+   "tier": "c",
+   "tier_why": "face product covered from the body angle",
+   "angle": "ingredients",
+   "script_overlap_max": 0.19,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "westville-phyto-nature-firming-serum-short",
+   "domain": "skincare.durban",
+   "format": "short",
+   "product_name": "phyto nature firming serum",
+   "spoken_name": "phyto nature firming serum",
+   "product_url": "https://dermalogica.co.za/products/phyto-nature-firming-serum-40ml-111369?variant=46591303483706",
+   "packshot": "d1124-111369-00.png",
+   "title": "What Goes Into Dermalogica Phyto Nature Firming Serum? #shorts",
+   "lead": "Dermalogica phyto nature firming serum: flash-firms, lifts, revitalizes, from the Westville body care desk.",
+   "facts": [
+    "Flash-firms, lifts, revitalizes",
+    "Double skin's luminosity after just 1 application",
+    "Minimizes the appearance of fine lines after just 1 application",
+    "Reduces visible wrinkles in just 4 weeks",
+    "How to use: Dispense 1-2 pumps into the palm of your hand. Blend the two serums and smooth over cleansed face and neck. Can be used morning and/or evening. Follow with your moisturizer."
+   ],
+   "tags": [
+    "phyto nature firming serum",
+    "dermalogica phyto nature firming serum",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #PhytoNatureFirmingSerum #BodyCare #shorts",
+   "thumb": {
+    "text": "On the label",
+    "kicker": "WESTVILLE",
+    "layout": "left"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Westville body care desk: Dermalogica phyto nature firming serum, forty milliliters. Body care reaches the neck, and the directions for this one go there too. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111369-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Isoamyl Laurate",
+      "Octyldodecanol",
+      "Isohexadecane",
+      "Diheptyl Succinate"
+     ],
+     "say": "The ingredient list starts with Isoamyl Laurate, Octyldodecanol, Isohexadecane, Diheptyl Succinate, Silica Silylate."
+    },
+    {
+     "type": "end",
+     "sub": "40 mL",
+     "say": "That's Dermalogica phyto nature firming serum. The link is in the description."
+    }
+   ],
+   "sku": "111369",
+   "variant": "40ml",
+   "slot_sast": "16:00",
+   "tier": "c",
+   "tier_why": "face product covered from the body angle",
+   "angle": "ingredients",
+   "script_overlap_max": 0.12,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "westville-intensive-moisture-cleanser",
+   "domain": "skincare.durban",
+   "format": "video",
+   "product_name": "intensive moisture cleanser",
+   "spoken_name": "intensive moisture cleanser",
+   "product_url": "https://dermalogica.co.za/products/intensive-moisture-cleanser-intensive-moisture-cleanser?variant=45975450681658",
+   "packshot": "d1124-111326-00.png",
+   "title": "Dermalogica Intensive Moisture Cleanser: Sizes, Directions and What It Does",
+   "lead": "Dermalogica intensive moisture cleanser: nourishes dry, depleted skin, from the Westville body care desk.",
+   "facts": [
+    "Nourishes dry, depleted skin",
+    "Defends against dryness",
+    "Delivers a smoother feel after cleansing. Rinses away easily and leaves skin cleaner, softer and more luminous",
+    "How to use: Lather a pea-size amount into very wet hands. Massage onto dampened face and neck and rinse thoroughly with warm water. Use twice daily, morning and night."
+   ],
+   "tags": [
+    "intensive moisture cleanser",
+    "dermalogica intensive moisture cleanser",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #IntensiveMoistureCleanser #BodyCare",
+   "thumb": {
+    "text": "Every size",
+    "kicker": "WESTVILLE",
+    "layout": "photo",
+    "photo": "d1124-111326-03.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Sizes",
+     "say": "Westville body care desk: Dermalogica intensive moisture cleanser, 150 milliliters. Body care reaches the neck, and the directions for this one go there too. Today: the sizes it comes in."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111326-01.jpg",
+     "kicker": "SIZES",
+     "headline": "2 sizes in store",
+     "items": [
+      "150 mL",
+      "295 mL"
+     ],
+     "say": "It comes in 150 milliliters and 295 milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111326-02.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "BioReplenish Complex",
+     "say": "BioReplenish Complex, combined with phytoactives from Coconut Oil and Murumuru Seed Butter, help protect barrier lipids and preserve the skin's natural resilience for a smoother feel after cleansing. Invigorating extracts of Citrus, Palmarosa and Jasmine refresh tired skin. Light, creamy cleanser enhanced with BioReplenish Complex removes impurities while actively nourishing dry, depleted skin."
+    },
+    {
+     "type": "steps",
+     "image": "d1124-111326-03.jpg",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Lather a pea-size amount into very wet",
+      "Massage onto dampened face",
+      "Use twice daily, morning and night"
+     ],
+     "say": "Lather a pea-size amount into very wet hands. Massage onto dampened face and neck and rinse thoroughly with warm water. Use twice daily, morning and night."
+    },
+    {
+     "type": "note",
+     "image": "d1124-111326-02.jpg",
+     "kicker": "BENEFIT",
+     "headline": "Defends against dryness",
+     "say": "Defends against dryness."
+    },
+    {
+     "type": "note",
+     "image": "d1124-111326-03.jpg",
+     "kicker": "BENEFIT",
+     "headline": "Delivers a smoother feel after cleansing. Rinses",
+     "say": "Delivers a smoother feel after cleansing. Rinses away easily and leaves skin cleaner, softer and more luminous."
+    },
+    {
+     "type": "end",
+     "sub": "150 mL",
+     "say": "That's Dermalogica intensive moisture cleanser. The link is in the description."
+    }
+   ],
+   "sku": "111326",
+   "variant": "150ml",
+   "slot_sast": "18:00",
+   "tier": "c",
+   "tier_why": "face product covered from the body angle",
+   "angle": "sizes",
+   "script_overlap_max": 0.7,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "westville-biolumin-c-gel-moisturiser-short",
+   "domain": "skincare.durban",
+   "format": "short",
+   "product_name": "biolumin-c gel moisturiser",
+   "spoken_name": "biolumin-c gel moisturiser",
+   "product_url": "https://dermalogica.co.za/products/biolumin-c-gel-moisturiser-50ml-111441?variant=46583563682106",
+   "packshot": "d1124-111441-00.png",
+   "title": "Dermalogica BioLumin-C Gel Moisturiser, Ingredient by Ingredient #shorts",
+   "lead": "Dermalogica biolumin-c gel moisturiser: brightens and boosts radiance, from the Westville body care desk.",
+   "facts": [
+    "Brightens and boosts radiance",
+    "Provides weightless hydration, Gives skin a radiance boost, Brightens the appearance of skin immediately and over time",
+    "How to use: After cleansing and toning, apply over face and neck in light, upward strokes. Use twice daily, morning and night."
+   ],
+   "tags": [
+    "biolumin-c gel moisturiser",
+    "dermalogica biolumin-c gel moisturiser",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #BioLuminCGelmoisturizer #BodyCare #shorts",
+   "thumb": {
+    "text": "How to use it",
+    "kicker": "WESTVILLE",
+    "layout": "photo",
+    "photo": "d1124-111441-01.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Westville body care desk: Dermalogica biolumin-c gel moisturiser, fifty milliliters. Body care reaches the neck, and the directions for this one go there too. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111441-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Water",
+      "Glycerin",
+      "Squalane",
+      "Propanediol"
+     ],
+     "say": "The ingredient list starts with Water, Glycerin, Squalane, Propanediol, Butylene Glycol."
+    },
+    {
+     "type": "end",
+     "sub": "50 mL",
+     "say": "That's Dermalogica biolumin-c gel moisturiser. The link is in the description."
+    }
+   ],
+   "sku": "111441",
+   "variant": "50ml",
+   "slot_sast": "20:00",
+   "tier": "c",
+   "tier_why": "face product covered from the body angle",
+   "angle": "ingredients",
+   "script_overlap_max": 0.15,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "rosebank-blackhead-clearing-fizz-mask",
+   "domain": "skincare.joburg",
+   "format": "video",
+   "product_name": "blackhead clearing fizz mask",
+   "spoken_name": "blackhead clearing fizz mask",
+   "product_url": "https://dermalogica.co.za/products/blackhead-clearing-fizz-mask-50ml-111293?variant=46583575609658",
+   "packshot": "d1124-111293-00.jpg",
+   "title": "Dermalogica Blackhead Clearing Fizz Mask Ingredients, Read From the Label",
+   "lead": "Dermalogica blackhead clearing fizz mask: clears pores and blackheads, from the Rosebank moisturizer and texture desk.",
+   "facts": [
+    "Clears pores and blackheads",
+    "Sulfur helps keep skin clear Kaolin Clay absorbs excess oil and purifies the skin",
+    "How to use: Apply to areas of congestion, and allow 3-5 minutes to fully activate. Rinse thoroughly and follow with your recommended Clear Start product."
+   ],
+   "tags": [
+    "blackhead clearing fizz mask",
+    "dermalogica blackhead clearing fizz mask",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #BlackheadClearingFizzMask #MoisturizerDesk",
+   "thumb": {
+    "text": "Ingredient check",
+    "kicker": "ROSEBANK",
+    "layout": "photo",
+    "photo": "d1124-111293-05.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Rosebank moisturizer and texture desk: Dermalogica blackhead clearing fizz mask, fifty milliliters. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111293-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Water",
+      "Disiloxane",
+      "Sulfur",
+      "Cocamidopropyl Betaine"
+     ],
+     "say": "The ingredient list starts with Water, Disiloxane, Sulfur, Cocamidopropyl Betaine, Kaolin."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111293-03.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Kaolin Clay absorbs excess oil and purifies the skin",
+     "say": "Kaolin Clay absorbs excess oil and purifies the skin."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111293-05.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Sulfur helps keep skin clear Kaolin Clay absorbs",
+     "say": "Sulfur helps keep skin clear Kaolin Clay absorbs excess oil and purifies the skin"
+    },
+    {
+     "type": "steps",
+     "image": "d1124-111293-06.jpg",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Apply to areas of congestion",
+      "Rinse thoroughly"
+     ],
+     "say": "Apply to areas of congestion, and allow 3-5 minutes to fully activate. Rinse thoroughly and follow with your recommended Clear Start product."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111293-07.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Technology activates upon application",
+     "say": "Technology activates upon application, helping to open pores, decongest skin and facilitate blackhead clearing."
+    },
+    {
+     "type": "note",
+     "image": "d1124-111293-07.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Sulfur helps keep skin clear",
+     "say": "Sulfur helps keep skin clear."
+    },
+    {
+     "type": "end",
+     "sub": "50 mL",
+     "say": "That's Dermalogica blackhead clearing fizz mask. The link is in the description."
+    }
+   ],
+   "sku": "111293",
+   "variant": "50ml",
+   "slot_sast": "10:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.77,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "rosebank-multivitamin-power-recovery-masque-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product_name": "multivitamin power recovery masque",
+   "spoken_name": "multivitamin power recovery masque",
+   "product_url": "https://dermalogica.co.za/products/multivitamin-power-recovery-masque-multivitamin-power-recovery-masque?variant=45975450779962",
+   "packshot": "d1124-110716-00.jpg",
+   "title": "Dermalogica MultiVitamin Power Recovery Masque Sizes at a Glance #shorts",
+   "lead": "Dermalogica multivitamin power recovery masque: repairs and rescues aging skin, from the Rosebank moisturizer and texture desk.",
+   "facts": [
+    "Repairs and rescues aging skin",
+    "A great restorative masque for skin exposed to stress",
+    "Repairs daily damage triggered by free radicals",
+    "How to use: Apply generously to cleansed face and throat, avoiding the eye area. After 10 to 15 minutes, gently yet thoroughly rinse with warm water. Apply once per week or whenever the skin requires a soothing remedy. Follow with Dynamic Skin Recovery SPF50 or prescribed Dermalogica moisturizer."
+   ],
+   "tags": [
+    "multivitamin power recovery masque",
+    "dermalogica multivitamin power recovery masque",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #MultiVitaminPowerRecoveryMasque #MoisturizerDesk #shorts",
+   "thumb": {
+    "text": "Sizes at a glance",
+    "kicker": "ROSEBANK",
+    "layout": "photo",
+    "photo": "d1124-110716-03.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Sizes",
+     "say": "Rosebank moisturizer and texture desk: Dermalogica multivitamin power recovery masque, 75 milliliters. Today: the sizes it comes in."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-110716-01.jpg",
+     "kicker": "SIZES",
+     "headline": "2 sizes in store",
+     "items": [
+      "15 mL",
+      "75 mL"
+     ],
+     "say": "It comes in fifteen milliliters and 75 milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-110716-02.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Powerful",
+     "say": "Powerful, concentrated vitamins A, C and E, and Linoleic Acid help restore skin showing signs of damage and aging while enhancing barrier properties."
+    },
+    {
+     "type": "steps",
+     "image": "d1124-110716-03.jpg",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Apply generously to cleansed face",
+      "After 10 to 15 minutes",
+      "Apply once per week or whenever the skin"
+     ],
+     "say": "Apply generously to cleansed face and throat, avoiding the eye area. After 10 to 15 minutes, gently yet thoroughly rinse with warm water."
+    },
+    {
+     "type": "end",
+     "sub": "75 mL",
+     "say": "That's Dermalogica multivitamin power recovery masque. The link is in the description."
+    }
+   ],
+   "sku": "110716",
+   "variant": "75ml",
+   "slot_sast": "12:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "sizes",
+   "script_overlap_max": 0.6,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "rosebank-stabilizing-repair-cream-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product_name": "stabilizing repair cream",
+   "spoken_name": "stabilizing repair cream",
+   "product_url": "https://dermalogica.co.za/products/stabilising-repair-cream?variant=51202607055162",
+   "packshot": "d1124-411476-00.jpg",
+   "title": "Dermalogica Stabilizing Repair Cream: Every Size in Under a Minute #shorts",
+   "lead": "Dermalogica stabilizing repair cream: soothes, repairs and strengthens skin, from the Rosebank moisturizer and texture desk.",
+   "facts": [
+    "Soothes, repairs and strengthens skin"
+   ],
+   "tags": [
+    "stabilizing repair cream",
+    "dermalogica stabilizing repair cream",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #StabilizingRepairCream #MoisturizerDesk #shorts",
+   "thumb": {
+    "text": "Every size",
+    "kicker": "ROSEBANK",
+    "layout": "photo",
+    "photo": "d1124-411476-02.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Sizes",
+     "say": "Rosebank moisturizer and texture desk: Dermalogica stabilizing repair cream, fifteen milliliters. Today: the sizes it comes in."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-411476-02.jpg",
+     "kicker": "SIZES",
+     "headline": "2 sizes in store",
+     "items": [
+      "15 mL",
+      "100 mL"
+     ],
+     "say": "It comes in fifteen milliliters and one hundred milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-411476-03.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Ideal for sensitive or reactive skin",
+     "say": "Ideal for sensitive or reactive skin. Balmy-cream formula melts into skin to quickly alleviate redness and help prevent future irritation."
+    },
+    {
+     "type": "end",
+     "sub": "15 mL",
+     "say": "That's Dermalogica stabilizing repair cream. The link is in the description."
+    }
+   ],
+   "sku": "411476",
+   "variant": "15ml",
+   "slot_sast": "16:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "sizes",
+   "script_overlap_max": 0.87,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "rosebank-deep-breakout-liquid-patch",
+   "domain": "skincare.joburg",
+   "format": "video",
+   "product_name": "deep breakout liquid patch",
+   "spoken_name": "deep breakout liquid patch",
+   "product_url": "https://dermalogica.co.za/products/deep-breakout-liquid-patch-111462int?variant=46588884943162",
+   "packshot": "d1124-111462INT-00.png",
+   "title": "What Goes Into Dermalogica Deep Breakout Liquid Patch: Ingredients and Directions",
+   "lead": "Dermalogica deep breakout liquid patch: soothes and clears on contact, from the Rosebank moisturizer and texture desk.",
+   "facts": [
+    "Soothes and clears on contact",
+    "Invisibly clears deep, hidden blemishes",
+    "Soothes breakout-irritated skin + helps prevent future breakouts",
+    "Safe for use during pregnancy",
+    "How to use: Dispense a rice-sized amount onto back of hand. Use finger to dap a small amount on deep breakouts at the first feeling of the breakout, gently rubbing into skin until absorbed and completely invisible. Allow one minute for product dry down. Repeat as needed throughout the day. Do not us"
+   ],
+   "tags": [
+    "deep breakout liquid patch",
+    "dermalogica deep breakout liquid patch",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #DeepBreakoutLiquidPatch #MoisturizerDesk",
+   "thumb": {
+    "text": "Key ingredients",
+    "kicker": "ROSEBANK",
+    "layout": "right"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Rosebank moisturizer and texture desk: Dermalogica deep breakout liquid patch, 14 milliliters. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111462INT-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Sulfur",
+      "Water",
+      "Niacinamide",
+      "Propanediol"
+     ],
+     "say": "The ingredient list starts with Sulfur, Water, Niacinamide, Propanediol, Glycerin."
+    },
+    {
+     "type": "steps",
+     "image": "d1124-111462INT-05.jpg",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Dispense a rice-sized amount onto back",
+      "Use finger to dap a small amount on deep",
+      "Allow one minute for product dry down"
+     ],
+     "say": "Dispense a rice-sized amount onto back of hand. Use finger to dap a small amount on deep breakouts at the first feeling of the breakout, gently rubbing into skin until absorbed and completely invisible. Allow one minute for product dry down. Repeat as needed throughout the day. Do not use near eyes or lips."
+    },
+    {
+     "type": "note",
+     "image": "d1124-111462INT-01.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Skin-mimicking film forms a semi-permeable patch",
+     "say": "Skin-mimicking film forms a semi-permeable patch that allows airflow while protecting skin from pollution and irritants."
+    },
+    {
+     "type": "note",
+     "image": "d1124-111462INT-01.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Apply as soon as you feel a blemish forming –",
+     "say": "Apply as soon as you feel a blemish forming – and help stop breakouts before you can even see them."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111462INT-02.jpg",
+     "kicker": "BENEFIT",
+     "headline": "Invisibly clears deep, hidden blemishes",
+     "say": "Invisibly clears deep, hidden blemishes."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111462INT-03.jpg",
+     "kicker": "BENEFIT",
+     "headline": "Soothes breakout-irritated skin + helps prevent",
+     "say": "Soothes breakout-irritated skin plus helps prevent future breakouts."
+    },
+    {
+     "type": "end",
+     "sub": "14 mL",
+     "say": "That's Dermalogica deep breakout liquid patch. The link is in the description."
+    }
+   ],
+   "sku": "111462INT",
+   "variant": "14ml",
+   "slot_sast": "18:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.88,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "rosebank-sound-sleep-cocoon-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product_name": "sound sleep cocoon",
+   "spoken_name": "sound sleep cocoon",
+   "product_url": "https://dermalogica.co.za/products/sound-sleep-cocoon-sound-sleep-cocoon?variant=45975457694010",
+   "packshot": "d1124-411279-00.png",
+   "title": "Dermalogica Sound Sleep Cocoon Sizes at a Glance #shorts",
+   "lead": "Dermalogica sound sleep cocoon: revitalizes and soothes senses, from the Rosebank moisturizer and texture desk.",
+   "facts": [
+    "Revitalizes and soothes senses",
+    "Reduces signs of skin fatigue and restores vitality",
+    "Promotes deep, restful sleep for healthier-looking skin",
+    "Visibly increases radiance by morning",
+    "How to use: Smooth over face and neck as the last step of your nighttime regimen, over toners and targeted treatments. Allow gel-cream to melt into skin overnight."
+   ],
+   "tags": [
+    "sound sleep cocoon",
+    "dermalogica sound sleep cocoon",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #SoundSleepCocoon #MoisturizerDesk #shorts",
+   "thumb": {
+    "text": "Sizes at a glance",
+    "kicker": "ROSEBANK",
+    "layout": "photo",
+    "photo": "d1124-411279-03.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Sizes",
+     "say": "Rosebank moisturizer and texture desk: Dermalogica sound sleep cocoon, 10 milliliters. Today: the sizes it comes in."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-411279-01.jpg",
+     "kicker": "SIZES",
+     "headline": "2 sizes in store",
+     "items": [
+      "10 mL",
+      "50 mL"
+     ],
+     "say": "It comes in 10 milliliters and fifty milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-411279-02.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Revitalizing treatment gel-cream transforms skin",
+     "say": "Revitalizing treatment gel-cream transforms skin overnight by optimizing night-time skin recovery."
+    },
+    {
+     "type": "steps",
+     "image": "d1124-411279-03.jpg",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Smooth over face",
+      "Allow gel-cream to melt into skin"
+     ],
+     "say": "Smooth over face and neck as the last step of your nighttime regimen, over toners and targeted treatments. Allow gel-cream to melt into skin overnight."
+    },
+    {
+     "type": "end",
+     "sub": "10 mL",
+     "say": "That's Dermalogica sound sleep cocoon. The link is in the description."
+    }
+   ],
+   "sku": "411279",
+   "variant": "10ml",
+   "slot_sast": "20:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "sizes",
+   "script_overlap_max": 0.63,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "midrand-special-cleansing-gel",
+   "domain": "dermatologist.joburg",
+   "format": "video",
+   "product_name": "special cleansing gel",
+   "spoken_name": "special cleansing gel",
+   "product_url": "https://dermalogica.co.za/products/special-cleansing-gel-special-cleansing-gel?variant=45975457562938",
+   "packshot": "d1124-110638-00.jpg",
+   "title": "Dermalogica Special Cleansing Gel: Key Ingredients and How to Use It",
+   "lead": "Dermalogica special cleansing gel: washes away impurities, from the Midrand routine desk.",
+   "facts": [
+    "Washes away impurities",
+    "Washes away impurities without stripping or drying Calming agents help soothe and purify skin",
+    "How to use: Following the application of PreCleanse, gently lather a small amount of gel in moistened hands and apply to dampened face and throat. Rinse with warm water. Follow with Multi-Active Toner and prescribed Dermalogica moisturizer."
+   ],
+   "tags": [
+    "special cleansing gel",
+    "dermalogica special cleansing gel",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #SpecialCleansingGel #RoutineBuilder",
+   "thumb": {
+    "text": "What's in it",
+    "kicker": "MIDRAND",
+    "layout": "photo",
+    "photo": "d1124-110638-05.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Midrand routine desk: Dermalogica special cleansing gel, 250 milliliters. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-110638-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Water",
+      "Disodium Laureth Sulfosuccinate",
+      "Sodium Lauroyl Sarcosinate",
+      "Melissa Officinalis Leaf Extract"
+     ],
+     "say": "The ingredient list starts with Water, Disodium Laureth Sulfosuccinate, Sodium Lauroyl Sarcosinate, Melissa Officinalis Leaf Extract, Citrus Limon Peel Oil."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-110638-02.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Lightweight and mild enough to use every day",
+     "say": "Lightweight and mild enough to use every day, it also features calming Balm Mint and Lavender extracts to soothe the skin."
+    },
+    {
+     "type": "steps",
+     "image": "d1124-110638-04.jpg",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Following the application of PreCleanse",
+      "Rinse with warm water",
+      "Follow with Multi-Active Toner"
+     ],
+     "say": "Following the application of PreCleanse, gently lather a small amount of gel in moistened hands and apply to dampened face and throat. Rinse with warm water. Follow with Multi-Active Toner and prescribed Dermalogica moisturizer."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-110638-05.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "This iconic cleanser",
+     "say": "This iconic cleanser, which contains naturally-foaming Quillaja Saponaria, gently rinses away toxins and debris to leave skin feeling smooth and clean."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-110638-06.jpg",
+     "kicker": "BENEFIT",
+     "headline": "Washes away impurities without stripping or drying",
+     "say": "Washes away impurities without stripping or drying Calming agents help soothe and purify skin."
+    },
+    {
+     "type": "end",
+     "sub": "250 mL",
+     "say": "That's Dermalogica special cleansing gel. The link is in the description."
+    }
+   ],
+   "sku": "110638",
+   "variant": "250ml",
+   "slot_sast": "10:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.83,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "midrand-multivitamin-thermafoliant-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product_name": "multivitamin thermafoliant",
+   "spoken_name": "multivitamin thermafoliant",
+   "product_url": "https://dermalogica.co.za/products/multivitamin-thermafoliant-75ml-102321?variant=46591203574074",
+   "packshot": "d1124-102321-00.jpg",
+   "title": "Where Dermalogica MultiVitamin Thermafoliant Goes in a Routine #shorts",
+   "lead": "Dermalogica multivitamin thermafoliant: polishes off dulling skin cells, from the Midrand routine desk.",
+   "facts": [
+    "Polishes off dulling skin cells",
+    "Polishes away dulling skin to reveal smoother, fresher skin Thermal technology drives benefits further into skin",
+    "How to use: After cleansing, apply to damp skin in circular motions for 1 to 2 minutes, avoiding the eye area. A more intense result can be achieved by using directly on dry skin. Rinse thoroughly with warm water. Use two to three times per week."
+   ],
+   "tags": [
+    "multivitamin thermafoliant",
+    "dermalogica multivitamin thermafoliant",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #MultiVitaminThermafoliant #RoutineBuilder #shorts",
+   "thumb": {
+    "text": "Key ingredients",
+    "kicker": "MIDRAND",
+    "layout": "left"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "In a routine",
+     "say": "Midrand routine desk: Dermalogica multivitamin thermafoliant, 75 milliliters. Today: where it goes in a routine."
+    },
+    {
+     "type": "steps",
+     "image": "d1124-102321-01.jpg",
+     "kicker": "IN YOUR ROUTINE",
+     "headline": "Directions from the listing",
+     "items": [
+      "After cleansing",
+      "A more intense result can be achieved",
+      "Rinse thoroughly with warm water"
+     ],
+     "say": "After cleansing, apply to damp skin in circular motions for 1 to 2 minutes, avoiding the eye area. A more intense result can be achieved by using directly on dry skin. Rinse thoroughly with warm water. Use two to three times per week."
+    },
+    {
+     "type": "note",
+     "image": "d1124-102321-01.jpg",
+     "kicker": "WHY IT IS THERE",
+     "headline": "Polishes away dulling skin to reveal smoother",
+     "say": "Polishes away dulling skin to reveal smoother, fresher skin Thermal technology drives benefits further into skin."
+    },
+    {
+     "type": "end",
+     "sub": "75 mL",
+     "say": "That's Dermalogica multivitamin thermafoliant. The link is in the description."
+    }
+   ],
+   "sku": "102321",
+   "variant": "75ml",
+   "slot_sast": "12:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "routine",
+   "script_overlap_max": 0.57,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "midrand-precleanse",
+   "domain": "dermatologist.joburg",
+   "format": "video",
+   "product_name": "precleanse",
+   "spoken_name": "precleanse",
+   "product_url": "https://dermalogica.co.za/products/precleanse-precleanse?variant=67681352352058",
+   "packshot": "d1124-111538-00.png",
+   "title": "Dermalogica Precleanse Label Read: The Ingredient List",
+   "lead": "Dermalogica precleanse: melts make-up and impurities, from the Midrand routine desk.",
+   "facts": [
+    "Melts make-up and impurities",
+    "Removes oils without clogging pores. Conditioning essential fatty acids nourish skin. Enables your prescribed Dermalogica Cleanser to work more efficiently",
+    "How to use: Using dry hands, massage over dry face to dissolve surface oil and dirt. Concentrate on areas of congestion or stubborn debris. Wet hands and continue massaging to create a light, milky emulsion. Rinse with lukewarm water. Follow with recommended Dermalogica Cleanser for professional cle"
+   ],
+   "tags": [
+    "precleanse",
+    "dermalogica precleanse",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #Precleanse #RoutineBuilder",
+   "thumb": {
+    "text": "On the label",
+    "kicker": "MIDRAND",
+    "layout": "photo",
+    "photo": "d1124-111538-01.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Midrand routine desk: Dermalogica precleanse, 89 milliliters. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111538-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Caprylic/Capric Triglyceride",
+      "Prunus Armeniaca Kernel Oil",
+      "Helianthus Annuus Seed Oil",
+      "Citrus Aurantium Dulcis Oil"
+     ],
+     "say": "The ingredient list starts with Caprylic Capric Triglyceride, Prunus Armeniaca Kernel Oil, Helianthus Annuus Seed Oil, Citrus Aurantium Dulcis Oil, Citrus Grandis Peel Oil."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111538-02.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Deep-cleansing oil melts impurities",
+     "say": "Deep-cleansing oil melts impurities and make-up from skin."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111538-03.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Thoroughly melt away layers of excess sebum (oil)",
+     "say": "Thoroughly melt away layers of excess sebum (oil), sunscreen, waterproof make-up, environmental pollutants and residual products that build up on skin throughout the day with skin-fortifying Borage Seed, Kukui and Apricot oils."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111538-05.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Formulated with conditioning Rice Bran",
+     "say": "Formulated with conditioning Rice Bran and Vitamin E oils, this gentle blend offers a deep cleansing ideal even for oily skin conditions."
+    },
+    {
+     "type": "steps",
+     "image": "d1124-111538-05.jpg",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Using dry hands",
+      "Concentrate on areas of congestion",
+      "Wet hands"
+     ],
+     "say": "Using dry hands, massage over dry face to dissolve surface oil and dirt. Concentrate on areas of congestion or stubborn debris. Wet hands and continue massaging to create a light, milky emulsion. Rinse with lukewarm water. Follow with recommended Dermalogica Cleanser for professional cleansing results."
+    },
+    {
+     "type": "end",
+     "sub": "89 mL",
+     "say": "That's Dermalogica precleanse. The link is in the description."
+    }
+   ],
+   "sku": "111538",
+   "variant": "89ml",
+   "slot_sast": "18:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.64,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "midrand-ultracalming-cleanser-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product_name": "ultracalming cleanser",
+   "spoken_name": "ultracalming cleanser",
+   "product_url": "https://dermalogica.co.za/products/ultracalming-cleanser-ultracalming-cleanser?variant=52306636243258",
+   "packshot": "d1124-111523-00.jpg",
+   "title": "Dermalogica UltraCalming Cleanser: Every Size in Under a Minute #shorts",
+   "lead": "Dermalogica ultracalming cleanser: calms and cools sensitized skin, from the Midrand routine desk.",
+   "facts": [
+    "Calms and cools sensitized skin",
+    "Helps calm and cool redness and discomfort Easily rinses away or tissues off",
+    "How to use: Following the application of PreCleanse, apply to the face and throat, gently massaging with fingertips with light, upward strokes. Rinse thoroughly with warm water or remove with dry cotton pads. Follow with UltraCalming Mist and Barrier Repair."
+   ],
+   "tags": [
+    "ultracalming cleanser",
+    "dermalogica ultracalming cleanser",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #UltraCalmingCleanser #RoutineBuilder #shorts",
+   "thumb": {
+    "text": "Where it fits",
+    "kicker": "MIDRAND",
+    "layout": "photo",
+    "photo": "d1124-111523-02.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "Sizes",
+     "say": "Midrand routine desk: Dermalogica ultracalming cleanser. Today: the sizes it comes in."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111523-01.jpg",
+     "kicker": "SIZES",
+     "headline": "2 sizes in store",
+     "items": [
+      "250 mL",
+      "500 mL"
+     ],
+     "say": "It comes in 250 milliliters and 500 milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111523-02.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Delicately fortifies skin’s protective barrier",
+     "say": "Delicately fortifies skin’s protective barrier without leaving an irritating residue, and easily rinses away or wipes off, making it ideal for sensitive skin. Gentle cleansing gel/cream for reactive skin."
+    },
+    {
+     "type": "steps",
+     "image": "d1124-111523-03.jpg",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Following the application of PreCleanse",
+      "Rinse thoroughly with warm water",
+      "Follow with UltraCalming Mist"
+     ],
+     "say": "Following the application of PreCleanse, apply to the face and throat, gently massaging with fingertips with light, upward strokes."
+    },
+    {
+     "type": "end",
+     "sub": "UltraCalming Cleanser",
+     "say": "That's Dermalogica ultracalming cleanser. The link is in the description."
+    }
+   ],
+   "sku": "111523",
+   "variant": "Refill 500ml",
+   "slot_sast": "20:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "sizes",
+   "script_overlap_max": 0.47,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "bedfordview-smart-response-serum",
+   "domain": "dermatology.joburg",
+   "format": "video",
+   "product_name": "smart response serum",
+   "spoken_name": "smart response serum",
+   "product_url": "https://dermalogica.co.za/products/smart-response-serum-30ml-111432?variant=46591383765306",
+   "packshot": "d1124-111432-00.png",
+   "title": "Dermalogica Smart Response Serum Explained: Hydrates, Brightens, Soothes",
+   "lead": "Dermalogica smart response serum: hydrates, brightens, soothes, from the Bedfordview labels and ingredients desk.",
+   "facts": [
+    "Hydrates, brightens, soothes",
+    "Helps skin to maintain optimal hydration levels, Brightens and helps reduce the appearance of dark spots, Helps to soothe and reduce the appearance of redness, Helps improve the look of fine lines and wrinkles",
+    "How to use: Apply each morning and night after cleansing and toning. Allow one minute for product absorption."
+   ],
+   "tags": [
+    "smart response serum",
+    "dermalogica smart response serum",
+    "labels and ingredients",
+    "bedfordview skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #SmartResponseSerum #LabelRead",
+   "thumb": {
+    "text": "Hydrates, brightens, soothes",
+    "kicker": "BEDFORDVIEW",
+    "layout": "photo",
+    "photo": "d1124-111432-03.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "30 mL · Hydrates, brightens, soothes",
+     "say": "Bedfordview labels and ingredients desk: Dermalogica smart response serum, thirty milliliters."
+    },
+    {
+     "type": "note",
+     "image": "d1124-111432-03.jpg",
+     "kicker": "FIRST",
+     "headline": "Not dermatologists or doctors. General product information.",
+     "say": "First, dermatology dot joburg isn't run by dermatologists or doctors. This is general product information from the store listing."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111432-01.png",
+     "kicker": "WHAT IT IS",
+     "headline": "Hydrates, brightens, soothes",
+     "say": "Oligosaccharides from hydrolyzed Beta Glucan respond to dehydration signals, helping skin to maintain optimal hydration levels. Hydrolyzed Wheat Flour, rich in arabinoxylo-oligosaccharides, activates as needed to brighten and help reduce the appearance of dark spots. Next-gen smart serum delivers what your skin needs, when it needs it. SmartResponse technology helps stop skin damage before it starts – using four smart actives which, when triggered, hydrate, brighten, soothe, and address the appearance of fine lines and wrinkles in response to skin’s changing needs."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111432-02.jpg",
+     "kicker": "BENEFIT 1",
+     "headline": "Helps skin to maintain optimal hydration levels",
+     "say": "Helps skin to maintain optimal hydration levels, Brightens and helps reduce the appearance of dark spots, Helps to soothe and reduce the appearance of redness, Helps improve the look of fine lines and wrinkles."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Apply each morning",
+      "Allow one minute for product absorption"
+     ],
+     "say": "Apply each morning and night after cleansing and toning. Allow one minute for product absorption.",
+     "image": "d1124-111432-01.png"
+    },
+    {
+     "type": "end",
+     "sub": "30 mL",
+     "say": "That's Dermalogica smart response serum. The link is in the description."
+    }
+   ],
+   "sku": "111432",
+   "variant": "30ml",
+   "slot_sast": "10:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "standard",
+   "script_overlap_max": 1.0,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "bedfordview-powerbright-dark-spot-peel-50ml-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product_name": "powerbright dark spot peel 50ml",
+   "spoken_name": "powerbright dark spot peel fifty milliliters",
+   "product_url": "https://dermalogica.co.za/products/powerbright-dark-spot-peel-50ml?variant=48568039768378",
+   "packshot": "d1124-111481-00.png",
+   "title": "What Goes Into Dermalogica PowerBright Dark Spot Peel 50ml? #shorts",
+   "lead": "Dermalogica powerbright dark spot peel 50ml: visibly lifts dark spots, from the Bedfordview labels and ingredients desk.",
+   "facts": [
+    "Visibly lifts dark spots",
+    "Exfoliates to fade dark spots",
+    "Reduces triggers of post-inflammatory hyperpigmentation Skin feels smoother and softer",
+    "How to use: Apply a thin, even layer. Leave on for 15-20 minutes, then rinse. Begin by using daily for 4-5 days, then use 2-3 times per week. For an extra boost, leave on skin up to 30 minutes."
+   ],
+   "tags": [
+    "powerbright dark spot peel 50ml",
+    "dermalogica powerbright dark spot peel 50ml",
+    "labels and ingredients",
+    "bedfordview skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #PowerBrightDarkSpotPeel50ml #LabelRead #shorts",
+   "thumb": {
+    "text": "Ingredient check",
+    "kicker": "BEDFORDVIEW",
+    "layout": "photo",
+    "photo": "d1124-111481-01.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Bedfordview labels and ingredients desk: Dermalogica powerbright dark spot peel fifty milliliters. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111481-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Water",
+      "Glycerin",
+      "Butylene Glycol",
+      "Glycolic Acid"
+     ],
+     "say": "The ingredient list starts with Water, Glycerin, Butylene Glycol, Glycolic Acid, Niacinamide."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111481-02.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "This fast-acting formula with an AHA + PHA blend",
+     "say": "This fast-acting formula with an AHA plus PHA blend, including Mandelic Acid, helps to quickly exfoliate away the appearance of stubborn hyperpigmentation while Tranexamic Acid and Niacinamide helps even skin tone."
+    },
+    {
+     "type": "end",
+     "sub": "50 mL",
+     "say": "That's Dermalogica powerbright dark spot peel fifty milliliters. The link is in the description."
+    }
+   ],
+   "sku": "111481",
+   "variant": "50ml",
+   "slot_sast": "12:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.21,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "bedfordview-post-breakout-fix-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product_name": "post-breakout fix",
+   "spoken_name": "post-breakout fix",
+   "product_url": "https://dermalogica.co.za/products/post-breakout-fix-15ml-111447?variant=46591316132154",
+   "packshot": "d1124-111447-00.jpg",
+   "title": "Dermalogica Post-Breakout Fix, Ingredient by Ingredient #shorts",
+   "lead": "Dermalogica post-breakout fix: fades post-breakout marks, from the Bedfordview labels and ingredients desk.",
+   "facts": [
+    "Fades post-breakout marks",
+    "Hexylresorcinol helps fade post-breakout marks and brighten skin's appearance Salicylic acid gently exfoliates and helps even skin tone Carob seed extract targets skin’s natural regeneration process for visibly calmer and clearer looking skin Squalane helps moisturize and stabilize skin’s barrier for smoother and softer skin",
+    "How to use: After cleansing and toning, apply a small amount directly to your post-breakout spot. Use twice a day or as needed. Repeat until the mark fades."
+   ],
+   "tags": [
+    "post-breakout fix",
+    "dermalogica post-breakout fix",
+    "labels and ingredients",
+    "bedfordview skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #PostBreakoutFix #LabelRead #shorts",
+   "thumb": {
+    "text": "How to use it",
+    "kicker": "BEDFORDVIEW",
+    "layout": "photo",
+    "photo": "d1124-111447-02.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Bedfordview labels and ingredients desk: Dermalogica post-breakout fix, fifteen milliliters. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111447-02.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Water",
+      "Ethylhexyl Olivate",
+      "Pentylene Glycol",
+      "Caprylic/capric Triglyceride"
+     ],
+     "say": "The ingredient list starts with Water, Ethylhexyl Olivate, Pentylene Glycol, Caprylic capric Triglyceride, Polyacrylate Crosspolymer-6."
+    },
+    {
+     "type": "end",
+     "sub": "15 mL",
+     "say": "That's Dermalogica post-breakout fix. The link is in the description."
+    }
+   ],
+   "sku": "111447",
+   "variant": "15ml",
+   "slot_sast": "16:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.07,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "bedfordview-powerbright-dark-spot-serum",
+   "domain": "dermatology.joburg",
+   "format": "video",
+   "product_name": "powerbright dark spot serum",
+   "spoken_name": "powerbright dark spot serum",
+   "product_url": "https://dermalogica.co.za/products/powerbright-dark-spot-serum-30ml-111404?variant=46591322161466",
+   "packshot": "d1124-111404-00.png",
+   "title": "Dermalogica PowerBright Dark Spot Serum: Fades Appearance of Dark Spots, and How to Use It",
+   "lead": "Dermalogica powerbright dark spot serum: fades appearance of dark spots, from the Bedfordview labels and ingredients desk.",
+   "facts": [
+    "Fades appearance of dark spots",
+    "Brightens and boosts skin’s natural luminosity.Helps prevent future dark spots.Brightens and boosts skin’s natural luminosity",
+    "How to use: Each morning after cleansing and toning, apply one pump over face and neck in light, upward strokes. Allow one minute for product absorption."
+   ],
+   "tags": [
+    "powerbright dark spot serum",
+    "dermalogica powerbright dark spot serum",
+    "labels and ingredients",
+    "bedfordview skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #PowerBrightDarkSpotSerum #LabelRead",
+   "thumb": {
+    "text": "How to use it",
+    "kicker": "BEDFORDVIEW",
+    "layout": "photo",
+    "photo": "d1124-111404-03.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "30 mL · Fades appearance of dark spots",
+     "say": "Bedfordview labels and ingredients desk: Dermalogica powerbright dark spot serum, thirty milliliters."
+    },
+    {
+     "type": "note",
+     "image": "d1124-111404-03.jpg",
+     "kicker": "FIRST",
+     "headline": "Not dermatologists or doctors. General product information.",
+     "say": "First, dermatology dot joburg isn't run by dermatologists or doctors. This is general product information from the store listing."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111404-01.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Fades appearance of dark spots",
+     "say": "Skin care powerhouse Shiitake Mushroom – rich in beta glucans – brightens skin, while adaptogenic Ashwagandha smoothes and delivers antioxidant benefits. Black Currant Oil and Peony Flower help boost skin’s natural luminosity. Start fading the appearance of dark spots within days: advanced serum begins to diminish the appearance of uneven pigmentation fast, and keeps working to even skin tone over time. Light-diffusing technology begins to balance the appearance of uneven pigmentation after one use, and continues working over time with potent Niacinamide and Hexylresorcinol to help fade dark spots."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111404-02.jpg",
+     "kicker": "BENEFIT 1",
+     "headline": "Brightens",
+     "say": "Brightens and boosts skin’s natural luminosity.Helps prevent future dark spots.Brightens and boosts skin’s natural luminosity."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Each morning after cleansing and toning",
+      "Allow one minute for product absorption"
+     ],
+     "say": "Each morning after cleansing and toning, apply one pump over face and neck in light, upward strokes. Allow one minute for product absorption.",
+     "image": "d1124-111404-01.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "30 mL",
+     "say": "That's Dermalogica powerbright dark spot serum. The link is in the description."
+    }
+   ],
+   "sku": "111404",
+   "variant": "30ml",
+   "slot_sast": "18:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "standard",
+   "script_overlap_max": 1.0,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "bedfordview-circular-hydration-serum-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product_name": "circular hydration serum",
+   "spoken_name": "circular hydration serum",
+   "product_url": "https://dermalogica.co.za/products/circular-hydration-serum-30ml-111455?variant=50044642230586",
+   "packshot": "d1124-411455-00.png",
+   "title": "Dermalogica Circular Hydration Serum Ingredients: What's on the Label #shorts",
+   "lead": "Dermalogica circular hydration serum: deeply hydrates and replenishes, from the Bedfordview labels and ingredients desk.",
+   "facts": [
+    "Deeply hydrates and replenishes",
+    "Immediately hydrates to quench dehydrated skin",
+    "Provides hydration that lasts throughout the day and beyond",
+    "Replenishes skin from within",
+    "How to use: Smooth over cleansed face and neck morning and night after toning and before moisturizing."
+   ],
+   "tags": [
+    "circular hydration serum",
+    "dermalogica circular hydration serum",
+    "labels and ingredients",
+    "bedfordview skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #CircularHydrationSerum #LabelRead #shorts",
+   "thumb": {
+    "text": "Label read",
+    "kicker": "BEDFORDVIEW",
+    "layout": "right"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Bedfordview labels and ingredients desk: Dermalogica circular hydration serum, 10 milliliters. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-411455-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Water",
+      "PEG-8",
+      "Glycerin",
+      "Methylpropanediol"
+     ],
+     "say": "The ingredient list starts with Water, PEG-8, Glycerin, Methylpropanediol, Propanediol."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-411455-02.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Full-circle hydrating serum utilizes an enhanced",
+     "say": "Full-circle hydrating serum utilizes an enhanced form of Hyaluronic Acid to penetrate skin’s surface for deep hydration and more supple, radiant skin over time."
+    },
+    {
+     "type": "end",
+     "sub": "10 mL",
+     "say": "That's Dermalogica circular hydration serum. The link is in the description."
+    }
+   ],
+   "sku": "411455",
+   "variant": "10ml",
+   "slot_sast": "20:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.59,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "umhlanga-stress-positive-eye-lift",
+   "domain": "dermatology.durban",
+   "format": "video",
+   "product_name": "stress positive eye lift",
+   "spoken_name": "stress positive eye lift",
+   "product_url": "https://dermalogica.co.za/products/stress-positive-eye-lift-25ml-111257?variant=46591395561786",
+   "packshot": "d1124-111257-00.png",
+   "title": "Dermalogica Stress Positive Eye Lift, Explained",
+   "lead": "Dermalogica stress positive eye lift: firms, depuffs, and brightens, from the uMhlanga hydration and layering desk.",
+   "facts": [
+    "Firms, depuffs, and brightens",
+    "Firms skin to help generate a lifting effect",
+    "Brightens the appearance of dark under-eye circles",
+    "Visibly de-puffs the under-eye area",
+    "How to use: Apply generously around cleansed eye area using cooling massage applicator. Leave on for 3-5 minutes. Massage any excess product into skin, or tissue off. Use as needed for a quick boost, or daily to address signs of chronic eye fatigue."
+   ],
+   "tags": [
+    "stress positive eye lift",
+    "dermalogica stress positive eye lift",
+    "hydration and layering",
+    "umhlanga skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #StressPositiveEyeLift #LayeringGuide",
+   "thumb": {
+    "text": "Firms, depuffs, and brightens",
+    "kicker": "UMHLANGA",
+    "layout": "photo",
+    "photo": "d1124-111257-03.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "25 mL · Firms, depuffs, and brightens",
+     "say": "uMhlanga hydration and layering desk: Dermalogica stress positive eye lift, twenty-five milliliters."
+    },
+    {
+     "type": "note",
+     "image": "d1124-111257-03.jpg",
+     "kicker": "FIRST",
+     "headline": "Not dermatologists or doctors. General product information.",
+     "say": "First, dermatology dot durban isn't run by dermatologists or doctors. This is general product information from the store listing."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111257-01.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Firms, depuffs, and brightens",
+     "say": "Wild Indigo Seed actives brighten to help visibly reduce under-eye circles. Sea Water Extract and Arctic Algae counter the look of puffiness. High-performance eye treatment and masque energizes skin to reduce visible signs of stress. Active, cooling cream-gel minimizes the appearance of puffiness and dark circles, increases skin luminosity, and helps restore skin barrier integrity."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111257-02.jpg",
+     "kicker": "BENEFIT 1",
+     "headline": "Firms skin to help generate a lifting effect",
+     "say": "Firms skin to help generate a lifting effect."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111257-03.jpg",
+     "kicker": "BENEFIT 2",
+     "headline": "Brightens the appearance of dark under-eye circles",
+     "say": "Brightens the appearance of dark under-eye circles."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Directions from the listing",
+     "items": [
+      "Apply generously around cleansed eye",
+      "Leave on for 3-5 minutes",
+      "Massage any excess product into skin"
+     ],
+     "say": "Apply generously around cleansed eye area using cooling massage applicator. Leave on for 3-5 minutes. Massage any excess product into skin, or tissue off. Use as needed for a quick boost, or daily to address signs of chronic eye fatigue.",
+     "image": "d1124-111257-03.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "25 mL",
+     "say": "That's Dermalogica stress positive eye lift. The link is in the description."
+    }
+   ],
+   "sku": "111257",
+   "variant": "25ml",
+   "slot_sast": "10:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "standard",
+   "script_overlap_max": 0.94,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "umhlanga-awaken-peptide-eye-gel-short",
+   "domain": "dermatology.durban",
+   "format": "short",
+   "product_name": "awaken peptide eye gel",
+   "spoken_name": "awaken peptide eye gel",
+   "product_url": "https://dermalogica.co.za/products/awaken-peptide-eye-gel-15ml-111449?variant=46583518626106",
+   "packshot": "d1124-111449-00.png",
+   "title": "Reading the Label: Dermalogica Awaken Peptide Eye Gel #shorts",
+   "lead": "Dermalogica awaken peptide eye gel: firms, hydrates, and depuffs, from the uMhlanga hydration and layering desk.",
+   "facts": [
+    "Firms, hydrates, and depuffs",
+    "Minimizes the appearance of fine lines and wrinkles",
+    "Reduces the appearance of puffiness around the eye area",
+    "Visibly firms and smooths skin texture",
+    "How to use: Apply under the eye and along the orbital bone. Keep out of eyes."
+   ],
+   "tags": [
+    "awaken peptide eye gel",
+    "dermalogica awaken peptide eye gel",
+    "hydration and layering",
+    "umhlanga skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #AwakenPeptideEyeGel #LayeringGuide #shorts",
+   "thumb": {
+    "text": "Ingredient check",
+    "kicker": "UMHLANGA",
+    "layout": "left"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "uMhlanga hydration and layering desk: Dermalogica awaken peptide eye gel, fifteen milliliters. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111449-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Water",
+      "Glycerin",
+      "Maltodextrin",
+      "Magnesium Aluminum Silicate"
+     ],
+     "say": "The ingredient list starts with Water, Glycerin, Maltodextrin, Magnesium Aluminum Silicate, Butylene Glycol."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111449-02.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "New Awaken Peptide Eye Gel utilizes a highly active",
+     "say": "New Awaken Peptide Eye Gel utilizes a highly active blend with Tetrapeptides and soothing Rosemary Leaf Extract that minimizes the appearance of puffiness and fine lines."
+    },
+    {
+     "type": "end",
+     "sub": "15 mL",
+     "say": "That's Dermalogica awaken peptide eye gel. The link is in the description."
+    }
+   ],
+   "sku": "111449",
+   "variant": "15ml",
+   "slot_sast": "12:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.53,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
+   "domain": "dermatology.durban",
+   "format": "short",
+   "product_name": "hydration you can feel kit (2 full-size)",
+   "spoken_name": "hydration you can feel kit",
+   "product_url": "https://dermalogica.co.za/products/hydration-you-can-feel-set-2026?variant=53577206825274",
+   "packshot": "d1124-301338INT-00.jpg",
+   "title": "Dermalogica Hydration You Can Feel Kit (2 Full-Size): Key Ingredients in Under a Minute #shorts",
+   "lead": "Dermalogica hydration you can feel kit (2 full-size): hydrates and replenishes skin, from the uMhlanga hydration and layering desk.",
+   "facts": [
+    "Hydrates and replenishes skin",
+    "What's inside: Skin Smoothing Cream (50ml); Circular Hydration Serum (30ml)",
+    "Provides hydration that lasts throughout the day and beyond",
+    "Replenishes skin from within",
+    "Provides 48 hours of continuous hydration",
+    "Powered by Active HydraMesh Technology™",
+    "How to use: Smooth Circular Hydration Serum over cleansed face and neck morning and night after toning and before moisturizing. After cleansing and toning, apply Skin Smoothing Cream over face and neck in light, upward strokes. Use twice daily, morning and night."
+   ],
+   "tags": [
+    "hydration you can feel kit (2 full-size)",
+    "dermalogica hydration you can feel kit (2 full-size)",
+    "hydration and layering",
+    "umhlanga skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #HydrationYouCanFeelKit2FullSize #LayeringGuide #shorts",
+   "thumb": {
+    "text": "On the label",
+    "kicker": "UMHLANGA",
+    "layout": "photo",
+    "photo": "d1124-301338INT-02.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "uMhlanga hydration and layering desk: Dermalogica hydration you can feel kit. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "kicker": "WHAT'S INSIDE",
+     "headline": "2 products in one kit",
+     "items": [
+      "Skin Smoothing Cream (50 mL)",
+      "Circular Hydration Serum (30 mL)"
+     ],
+     "say": "Inside the kit: Skin Smoothing Cream, fifty milliliters; Circular Hydration Serum, thirty milliliters."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-301338INT-02.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Circular Hydration Serum utilizes an advanced form",
+     "say": "Circular Hydration Serum utilizes an advanced form of Hyaluronic Acid to penetrate skin’s surface for deep hydration."
+    },
+    {
+     "type": "end",
+     "sub": "Hydration You Can Feel Kit (2 Full-Size)",
+     "say": "That's Dermalogica hydration you can feel kit. The link is in the description."
+    }
+   ],
+   "sku": "301338INT",
+   "variant": "Default Title",
+   "slot_sast": "16:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.87,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "umhlanga-multivitamin-power-firm",
+   "domain": "dermatology.durban",
+   "format": "video",
+   "product_name": "multivitamin power firm",
+   "spoken_name": "multivitamin power firm",
+   "product_url": "https://dermalogica.co.za/products/multivitamin-power-firm-15ml-106053?variant=47072642662714",
+   "packshot": "d1124-811033-00.jpg",
+   "title": "Layering Guide: Dermalogica MultiVitamin Power Firm, Step by Step",
+   "lead": "Dermalogica multivitamin power firm: firms and improves resilience, from the uMhlanga hydration and layering desk.",
+   "facts": [
+    "Firms and improves resilience",
+    "Increases skin resilience and firmness",
+    "Protects against moisture loss to help minimize fine dryness lines",
+    "Shields against free radicals to help prevent environmental stress",
+    "How to use: Smooth around eyes, concentrating on areas of visible aging."
+   ],
+   "tags": [
+    "multivitamin power firm",
+    "dermalogica multivitamin power firm",
+    "hydration and layering",
+    "umhlanga skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #MultiVitaminPowerFirm #LayeringGuide",
+   "thumb": {
+    "text": "Firming for the eye area",
+    "kicker": "UMHLANGA",
+    "layout": "photo",
+    "photo": "d1124-811033-00.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "30 mL · Firms and improves resilience",
+     "say": "uMhlanga hydration and layering desk: Dermalogica multivitamin power firm, thirty milliliters."
+    },
+    {
+     "type": "note",
+     "image": "d1124-811033-01.jpg",
+     "kicker": "FIRST",
+     "headline": "Not dermatologists or doctors. General product information.",
+     "say": "First, dermatology dot durban isn't run by dermatologists or doctors. This is general product information from the store listing."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-811033-01.jpg",
+     "kicker": "WHAT IT IS",
+     "headline": "Firms and improves resilience",
+     "say": "Makes a great make-up prep prior to concealer application. Powerful firming complex helps combat lines around the delicate eye area. Antioxidant vitamins C and E help improve resilience and scavenge free radicals, while acting as a protective barrier against further assault. Unique botanical extracts help firm, smooth skin texture, and minimize the appearance of fine lines."
+    },
+    {
+     "type": "note",
+     "image": "d1124-811033-01.jpg",
+     "kicker": "BENEFIT 1",
+     "headline": "Increases skin resilience and firmness",
+     "say": "Increases skin resilience and firmness."
+    },
+    {
+     "type": "note",
+     "image": "d1124-811033-01.jpg",
+     "kicker": "BENEFIT 2",
+     "headline": "Protects against moisture loss to help minimize fine",
+     "say": "Protects against moisture loss to help minimize fine dryness lines."
+    },
+    {
+     "type": "steps",
+     "kicker": "HOW TO USE",
+     "headline": "Smooth around eyes",
+     "items": [
+      "Smooth around eyes"
+     ],
+     "say": "Smooth around eyes, concentrating on areas of visible aging.",
+     "image": "d1124-811033-01.jpg"
+    },
+    {
+     "type": "end",
+     "sub": "30 mL",
+     "say": "That's Dermalogica multivitamin power firm. The link is in the description."
+    }
+   ],
+   "sku": "811033",
+   "variant": "30ml",
+   "slot_sast": "18:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "standard",
+   "script_overlap_max": 0.86,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "umhlanga-pro-collagen-banking-water-cream-short",
+   "domain": "dermatology.durban",
+   "format": "short",
+   "product_name": "pro-collagen banking water cream",
+   "spoken_name": "pro-collagen banking water cream",
+   "product_url": "https://dermalogica.co.za/products/pro-collagen-banking-water-cream-50ml?variant=53115654537530",
+   "packshot": "d1124-111519-00.jpg",
+   "title": "Dermalogica Pro-Collagen Banking Water Cream Ingredient Check #shorts",
+   "lead": "Dermalogica pro-collagen banking water cream: plumping + preserving, from the uMhlanga hydration and layering desk.",
+   "facts": [
+    "Plumping + preserving",
+    "Water-burst technology delivers deep hydration to plump skin",
+    "Supports skin barrier for visible bounce, now and into the future",
+    "Fights oxidative stress to help preserve collagen and elastin",
+    "How to use: Smooth 1-2 pumps onto skin. If using after a serum, apply while the skin is still damp. Use once or twice daily."
+   ],
+   "tags": [
+    "pro-collagen banking water cream",
+    "dermalogica pro-collagen banking water cream",
+    "hydration and layering",
+    "umhlanga skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #ProCollagenBankingWaterCream #LayeringGuide #shorts",
+   "thumb": {
+    "text": "How to layer it",
+    "kicker": "UMHLANGA",
+    "layout": "photo",
+    "photo": "d1124-111519-01.jpg"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "uMhlanga hydration and layering desk: Dermalogica pro-collagen banking water cream. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-111519-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Dimethicone",
+      "Propanediol",
+      "Simmondsia Chinensis Seed Oil",
+      "Glycerin"
+     ],
+     "say": "The ingredient list starts with Dimethicone, Propanediol, Simmondsia Chinensis Seed Oil, Glycerin, Betaine."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-111519-05.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Powered by a peptide complex",
+     "say": "Powered by a peptide complex with Collagen Amino Acids, Zinc Glycinate, and Carnosine, plus ultra-hydrating Jojoba Ester, it helps fight oxidative stress and delay signs of aging."
+    },
+    {
+     "type": "end",
+     "sub": "Pro-Collagen Banking Water Cream",
+     "say": "That's Dermalogica pro-collagen banking water cream. The link is in the description."
+    }
+   ],
+   "sku": "111519",
+   "variant": "Default Title",
+   "slot_sast": "20:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.17,
+   "script_overlap_channel_7d": 0
+  },
+  {
+   "slug": "midrand-skin-resurfacing-cleanser-short",
+   "domain": "dermatologist.joburg",
+   "format": "short",
+   "product_name": "skin resurfacing cleanser",
+   "spoken_name": "skin resurfacing cleanser",
+   "product_url": "https://dermalogica.co.za/products/skin-resurfacing-cleanser-150ml-101511?variant=46591375180090",
+   "packshot": "d1124-101511-00.jpg",
+   "title": "What Goes Into Dermalogica Skin Resurfacing Cleanser? #shorts",
+   "lead": "Dermalogica skin resurfacing cleanser: retexturizes aging skin, from the Midrand routine desk.",
+   "facts": [
+    "Retexturizes aging skin",
+    "Helps accelerate cell turnover, hydrate and brighten",
+    "Convenient two-in-one cleanser and exfoliant",
+    "Retexturises, leaving skin super smooth",
+    "How to use: Following the application of PreCleanse, lightly lather in hands and apply to damp face and throat morning and evening, massaging with light, upward strokes for at least 30 seconds, avoiding the eye area. Reduce to one use per day if any sensitivity develops. Follow with Dynamic Skin Rec"
+   ],
+   "tags": [
+    "skin resurfacing cleanser",
+    "dermalogica skin resurfacing cleanser",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "hashtags": "#Dermalogica #SkinResurfacingCleanser #RoutineBuilder #shorts",
+   "thumb": {
+    "text": "Ingredient check",
+    "kicker": "MIDRAND",
+    "layout": "center"
+   },
+   "free_photos": [],
+   "scenes": [
+    {
+     "type": "cover",
+     "sub": "On the label",
+     "say": "Midrand routine desk: Dermalogica skin resurfacing cleanser, 150 milliliters. Today: what's on the label."
+    },
+    {
+     "type": "bullets",
+     "image": "d1124-101511-01.jpg",
+     "kicker": "ON THE LABEL",
+     "headline": "First ingredients listed",
+     "items": [
+      "Water",
+      "Sodium Laureth Sulfate",
+      "Lactic Acid",
+      "PPG-2 Hydroxyethyl Cocamide"
+     ],
+     "say": "The ingredient list starts with Water, Sodium Laureth Sulfate, Lactic Acid, PPG-2 Hydroxyethyl Cocamide, Cocamidopropyl Betaine."
+    },
+    {
+     "type": "figure",
+     "image": "d1124-101511-03.jpg",
+     "kicker": "KEY INGREDIENTS",
+     "headline": "Lactic Acid concentrate helps retexturise skin",
+     "say": "Lactic Acid concentrate helps retexturise skin showing signs of aging by removing dulling surface debris and helping to accelerate skin cell turnover."
+    },
+    {
+     "type": "end",
+     "sub": "150 mL",
+     "say": "That's Dermalogica skin resurfacing cleanser. The link is in the description."
+    }
+   ],
+   "sku": "101511",
+   "variant": "150ml",
+   "slot_sast": "16:00",
+   "tier": "a",
+   "tier_why": "unused SKU in the desk (7-day window)",
+   "angle": "ingredients",
+   "script_overlap_max": 0.54,
+   "script_overlap_channel_7d": 0
+  }
+ ]
+}
