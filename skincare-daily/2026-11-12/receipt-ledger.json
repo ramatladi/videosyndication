@@ -110,13 +110,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "X0uH8zUdeq8",
       "sku": "111403INT",
       "title": "Reading the Label: Dermalogica Dark Spot Solutions Kit #shorts",
       "manifest_slug": "capetown-dark-spot-solutions-kit-short",
       "media_sha256": "0ac02bd97e9bcdbdbda7ffbb8cf985a87f6c17d5ddb2c6f129eaf73bfb93ced0",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T21:32:26Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -474,5 +475,5 @@
     "youtube_ids_recorded": 31,
     "producer_refreshed": "2026-11-23T21:10+02:00"
   },
-  "youtube_ids_recorded": 33
+  "youtube_ids_recorded": 34
 }
