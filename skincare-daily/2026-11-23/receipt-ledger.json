@@ -298,13 +298,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "9KTXp0GOr0E",
       "sku": "111386",
       "title": "Dermalogica Body Hydrating Cream: Key Ingredients in Under a Minute #shorts",
       "manifest_slug": "westville-body-hydrating-cream-short",
       "media_sha256": "f7382a3580ff72b810020db1b6e399c72a183e9bcbbede67e3cf7ba6eedd8c9e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T06:00:00Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -445,5 +446,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 4
+  "youtube_ids_recorded": 5
 }
