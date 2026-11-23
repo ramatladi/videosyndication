@@ -371,13 +371,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "Ps-ED58du8s",
       "sku": "111268",
       "title": "Dermalogica Calm Water Gel Ingredient Check #shorts",
       "manifest_slug": "rosebank-calm-water-gel-short",
       "media_sha256": "8a24bde5f362ae99ffd9c19075ddc1ea43f098e99b8eb05750ec3b67d5e226f4",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T06:00:00Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -446,5 +447,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 5
+  "youtube_ids_recorded": 6
 }
