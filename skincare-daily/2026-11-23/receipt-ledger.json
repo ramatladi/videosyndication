@@ -149,13 +149,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "56U8XTQAhQs",
       "sku": "111013-01",
       "title": "Dermalogica PowerBright Moisturiser SPF50 Ingredient Check #shorts",
       "manifest_slug": "capetown-powerbright-moisturiser-spf50-short",
       "media_sha256": "34919b0fabc94bd23d24b4a8470c218f1e1caab3a64e2519e50c14aa17e677aa",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T18:00:00Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -472,5 +473,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 31
+  "youtube_ids_recorded": 32
 }
