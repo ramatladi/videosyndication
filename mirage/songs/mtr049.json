@@ -4,7 +4,7 @@
  "artist": "DJ Ioanna Ivory",
  "style": "indiedance",
  "vocals": true,
- "status": "pending",
+ "status": "dropped",
  "source": {
   "generator": "creative-claw",
   "model": "music/mureka-v9.5",
@@ -24,5 +24,9 @@
   "page": "https://unsplash.com/photos/woman-in-bikini-against-rocky-cliff-Z8tqUF9sJnI",
   "photographer": "Tetiana Stepanets",
   "kind": "bikini"
+ },
+ "dropped": {
+  "on": "2026-11-23",
+  "reason": "QC click check failed on both takes (take 1: click at 61.6 s; take 2: click at 16.1 s)"
  }
 }
