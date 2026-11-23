@@ -225,13 +225,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "PGmcaGkg3L4",
       "sku": "111518",
       "title": "Dermalogica Phyto Nature E\u00b2 Regenerating Daily Exosome Leave-On Treatment, Ingredient by Ingredient ",
       "manifest_slug": "bedfordview-phyto-nature-e-regenerating-daily-exosome-leave-on-treatment-short",
       "media_sha256": "1863e7bebca30a5dee86a1d260a00ab7f640c30a0e38c1125afd217c54f25fff",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T06:00:00Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -444,5 +445,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 3
+  "youtube_ids_recorded": 4
 }
