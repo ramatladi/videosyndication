@@ -19,13 +19,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "YPVC5bfJMZg",
       "sku": "111403INT",
       "title": "Dermalogica Dark Spot Solutions Kit Review: Fades and Prevents Dark Spots, How to Use It",
       "manifest_slug": "midrand-dark-spot-solutions-kit",
       "media_sha256": "a4cb77a79476458134ab73fec8708fe409ca0e95f8a0e8bf51dc07726f0dedfa",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T08:00:00Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -447,5 +448,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 6
+  "youtube_ids_recorded": 7
 }
