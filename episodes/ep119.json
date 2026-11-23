@@ -1,0 +1,453 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 119,
+ "slug": "everybody-goes-out-except-me",
+ "title": "Everybody Goes Out Except Me",
+ "trend": "TikTok 'In this town everybody goes out partying except me' (Virlo weekly list, week of Nov 16 2026, 417 posts, New; Virlo November list updated Nov 23 2026, US) + the Saturday-before-Thanksgiving going-out weekend — self-pity lament skit: homebody Desmond in a blanket narrates that the whole town goes out except him while his phone reads everyone's party posts; he turns down every invite with worse excuses (the soup, the plant, his good socks); twist: his sister Tasha knocks — every party post was staged around his building, the whole town is in the hallway because the party came to him; button: everybody takes their shoes off and goes home at nine",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "lofi",
+ "intro": [
+  "in this town",
+  "everybody goes out",
+  "except me"
+ ],
+ "youtube_title": "In this town everybody goes out on Saturday night. Except me. 🛋️",
+ "description": "Saturday night. The whole town is out. Desmond is in a blanket with soup and a plant, and his phone will not stop showing him every party. Then somebody knocks.\n\n#cartoon #animation #funny #comedy #homebody #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "homebody",
+  "saturday night",
+  "staying in",
+  "sister",
+  "party"
+ ],
+ "tiktok_caption": "in this town everybody goes out except me 🛋️ #cartoon #animation #funny #homebody",
+ "cast": [
+  {
+   "id": "des",
+   "name": "Desmond",
+   "kind": "human",
+   "color": "#6f4e37",
+   "scale": 1.03,
+   "hair": {
+    "style": "afro",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#74b9ff",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#dfe6e9",
+   "accessories": [
+    "beanie:#e17055"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "frown",
+   "label_color": "#81ecec",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "phone",
+   "name": "The Phone",
+   "kind": "mascot",
+   "shape": "phone",
+   "case": "#6c5ce7",
+   "color": "#2d3436",
+   "scale": 0.85,
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#a29bfe",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "tasha",
+   "name": "Tasha",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "ponytail",
+    "color": "#2d1b10"
+   },
+   "top": {
+    "color": "#fd79a8",
+    "pattern": "dots",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#fdcb6e",
+   "accessories": [
+    "party_hat:#fdcb6e",
+    "sunglasses"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "des",
+   "text": "In this town, everybody goes out on Saturday night. Except me.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "phone",
+   "text": "Hello. I am his phone. He has not left this couch since Tuesday.",
+   "shot": "phone",
+   "gesture": "wave",
+   "after": "sting"
+  },
+  {
+   "spk": "des",
+   "text": "That is not true. I went to the mailbox. In my socks.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "phone",
+   "text": "It was raining. He came back with one sock.",
+   "shot": "phone",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "des",
+   "text": "Look at this. Everybody is out. Everybody is happy.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "phone",
+   "text": "Marcus is at the bowling place. Twelve people. Matching shirts.",
+   "shot": "phone"
+  },
+  {
+   "spk": "des",
+   "text": "Matching shirts. Nobody asked me about a shirt.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "phone",
+   "text": "They asked you four times. You said you were busy.",
+   "shot": "phone",
+   "gesture": "point"
+  },
+  {
+   "spk": "des",
+   "text": "I was busy. I had soup.",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 0.5
+  },
+  {
+   "spk": "phone",
+   "text": "He had soup for three hours.",
+   "shot": "phone",
+   "after": "rimshot"
+  },
+  {
+   "spk": "des",
+   "text": "It was a big soup.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "phone",
+   "text": "Now Kim is at the rooftop place. There is a band. There are little lights.",
+   "shot": "phone"
+  },
+  {
+   "spk": "des",
+   "text": "Little lights. I have a little light. It is in the fridge.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "phone",
+   "text": "He opens the fridge just to feel something.",
+   "shot": "phone"
+  },
+  {
+   "spk": "des",
+   "text": "Do not tell people that.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "phone",
+   "text": "New message. Come out tonight. We miss you. Bring nothing.",
+   "shot": "phone",
+   "gesture": "wave"
+  },
+  {
+   "spk": "des",
+   "text": "Bring nothing. That is suspicious. What are they hiding?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "phone",
+   "text": "He is typing. He is deleting. He is typing again.",
+   "shot": "phone"
+  },
+  {
+   "spk": "des",
+   "text": "Sorry. I cannot. My plant needs me.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "post": 0.7
+  },
+  {
+   "spk": "phone",
+   "text": "The plant is plastic. He bought it so it would not need him.",
+   "shot": "phone",
+   "gesture": "facepalm",
+   "after": "boing"
+  },
+  {
+   "spk": "des",
+   "text": "Okay, fine. Maybe I will go out. A little bit.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "phone",
+   "text": "He put on one nice shoe. Then he sat down again.",
+   "shot": "phone"
+  },
+  {
+   "spk": "des",
+   "text": "The other shoe is under the couch. The couch does not want me to leave.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "phone",
+   "text": "He is negotiating with furniture.",
+   "shot": "phone"
+  },
+  {
+   "spk": "des",
+   "text": "Everyone is out there living. And I am in here. With a blanket that has sleeves.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "phone",
+   "text": "The blanket is very nice. I will give him that.",
+   "shot": "phone"
+  },
+  {
+   "spk": "des",
+   "text": "Show me one more post. Just one. I like to suffer.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "phone",
+   "text": "Tasha is at a big party. She says, best night ever. She is in a hallway.",
+   "shot": "phone",
+   "gesture": "think"
+  },
+  {
+   "spk": "des",
+   "text": "A hallway party. That is not even a place.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "phone",
+   "text": "That hallway looks a lot like your hallway.",
+   "shot": "phone",
+   "pre": 0.6
+  },
+  {
+   "spk": "des",
+   "text": "All hallways look the same. That is why they are hallways.",
+   "shot": "CU"
+  },
+  {
+   "spk": "phone",
+   "text": "That doormat says go away. You have that doormat.",
+   "shot": "phone",
+   "gesture": "point"
+  },
+  {
+   "spk": "des",
+   "text": "Lots of people have that doormat. It is a very popular doormat.",
+   "shot": "CU",
+   "gesture": "think",
+   "post": 0.8
+  },
+  {
+   "spk": "phone",
+   "text": "Marcus just posted again. He is also in the hallway now.",
+   "shot": "phone"
+  },
+  {
+   "spk": "des",
+   "text": "Why is the bowling team in a hallway?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "phone",
+   "text": "Somebody is knocking.",
+   "shot": "phone",
+   "pre": 0.6,
+   "after": "ding"
+  },
+  {
+   "spk": "des",
+   "text": "Nobody knock. I am not home. I am out partying.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "tasha",
+   "text": "Desmond. I can hear you. I can see your blanket through the little hole.",
+   "shot": "tasha",
+   "gesture": "wave"
+  },
+  {
+   "spk": "des",
+   "text": "Tasha? Why are you here? You are at a big party.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "tasha",
+   "text": "I am at a big party. It is in your hallway. It has been there for an hour.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "des",
+   "text": "The bowling place. The rooftop. The little lights.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "tasha",
+   "text": "All fake. Marcus took that bowling picture by your mailbox. The lights are from my car.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "phone",
+   "text": "I knew. I have known since Wednesday. I am a very good phone.",
+   "shot": "phone",
+   "gesture": "cross",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "des",
+   "text": "You knew? You let me suffer?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "phone",
+   "text": "You asked me to show you one more post. You like to suffer.",
+   "shot": "phone"
+  },
+  {
+   "spk": "tasha",
+   "text": "In this town, everybody goes out. Except you. So the town came in.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "des",
+   "text": "How many people are in my hallway?",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "tasha",
+   "text": "Twenty two. And a dog. And the lady from downstairs with her famous dip.",
+   "shot": "CU"
+  },
+  {
+   "spk": "des",
+   "text": "The dip lady is here? Okay. Okay. You can come in.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "tasha",
+   "text": "Bring nothing, we said. Because we brought everything.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "des",
+   "text": "Wait. Rules. Everybody takes their shoes off.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "phone",
+   "text": "He found both shoes for this. Incredible.",
+   "shot": "phone"
+  },
+  {
+   "spk": "des",
+   "text": "And everybody goes home at nine.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.4
+  },
+  {
+   "spk": "tasha",
+   "text": "It is nine fifteen.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.7
+  },
+  {
+   "spk": "des",
+   "text": "Then everybody goes home at ten.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "phone",
+   "text": "In this town, everybody goes out. And then everybody comes to Desmond.",
+   "shot": "phone",
+   "gesture": "wave",
+   "after": "applause"
+  }
+ ]
+}
