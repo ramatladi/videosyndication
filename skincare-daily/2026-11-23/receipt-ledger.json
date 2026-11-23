@@ -289,13 +289,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "uTafX9oKz78",
       "sku": "111372",
       "title": "Dermalogica BioLumin-C Serum: What It Does and How to Use It",
       "manifest_slug": "bedfordview-biolumin-c-serum",
       "media_sha256": "7d99b15b6ad0bb5090b90275eb4e07f3a04312c093678ef4c8dcd338b2deda5c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T16:00:00Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -468,5 +469,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 27
+  "youtube_ids_recorded": 28
 }
