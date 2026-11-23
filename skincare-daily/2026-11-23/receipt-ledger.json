@@ -273,13 +273,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "jNqLsmtnzZw",
       "sku": "111461",
       "title": "Dermalogica Liquid Peelfoliant Ingredients: What's on the Label #shorts",
       "manifest_slug": "bedfordview-liquid-peelfoliant-short",
       "media_sha256": "b27ce8ac4c447ec8b4d1dc05d6f9f2e4a21dfc6361987cb3557da4973efa8317",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T14:00:00Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -462,5 +463,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 21
+  "youtube_ids_recorded": 22
 }
