@@ -425,13 +425,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "D13uPvCZR_w",
       "sku": "111342",
       "title": "Dermalogica Age Bright Clearing Serum Ingredients: What's on the Label #shorts",
       "manifest_slug": "rosebank-age-bright-clearing-serum-short",
       "media_sha256": "22a44d99bc40bc6031fc88d6ab80023a0cb821de1f0aeef64f6d42d0e235b272",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T14:00:00Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -464,5 +465,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 23
+  "youtube_ids_recorded": 24
 }
