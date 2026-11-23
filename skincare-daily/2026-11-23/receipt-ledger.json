@@ -32,13 +32,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "mFeQVfS_LYs",
       "sku": "301351INT",
       "title": "Dermalogica Expert Barrier Repair Set (3 Travel-Size), Explained Fast #shorts",
       "manifest_slug": "midrand-expert-barrier-repair-set-3-travel-size-short",
       "media_sha256": "d5d9ddbae5c043c0649e9d3ae4ae2bd0df53a3f577b94f21507bb946ee9812bd",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T10:00:00Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -453,5 +454,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 12
+  "youtube_ids_recorded": 13
 }
