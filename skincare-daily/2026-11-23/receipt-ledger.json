@@ -71,13 +71,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "joWikKb3n44",
       "sku": "301347INT",
       "title": "How to Use Dermalogica Expert Protect + Renew Set (2 Full-Size + 1 Travel) #shorts",
       "manifest_slug": "midrand-expert-protect-renew-set-2-full-size-1-travel-short",
       "media_sha256": "d71f43f9f4fac9989c1e0e555e449a397ece84f232b62f124bf8998f68968144",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T18:00:00Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -471,5 +472,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 30
+  "youtube_ids_recorded": 31
 }
