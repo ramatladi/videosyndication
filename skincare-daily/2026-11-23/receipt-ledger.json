@@ -227,13 +227,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "tzYqU-gGw2I",
       "sku": "111474",
       "title": "Dermalogica Oil to Foam Total Cleanser, Ingredient by Ingredient #shorts",
       "manifest_slug": "umhlanga-oil-to-foam-total-cleanser-short",
       "media_sha256": "088c88baebcb5bb8fc7843e573f59c7cf92413e3026d9ef4ec4919d15e2484dc",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T18:00:00Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -473,5 +474,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 32
+  "youtube_ids_recorded": 33
 }
