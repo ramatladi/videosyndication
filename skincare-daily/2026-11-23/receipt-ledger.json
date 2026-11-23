@@ -93,13 +93,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "XCvQeuC3NxU",
       "sku": "111473INT",
       "title": "Dermalogica PoreScreen SPF40: Benefits, Directions and Who It Suits",
       "manifest_slug": "capetown-porescreen-spf40",
       "media_sha256": "95e40c9bf78aa803733eb7ee18f056341e87b28739f15b97d135b20e0e6a86e3",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T08:00:00Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -448,5 +449,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 7
+  "youtube_ids_recorded": 8
 }
