@@ -167,13 +167,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "T-c0sm1fY0E",
       "sku": "111452",
       "title": "Dermalogica Hyaluronic Ceramide Mist Ingredients, Read From the Label",
       "manifest_slug": "umhlanga-hyaluronic-ceramide-mist",
       "media_sha256": "bb75a2e09c8e5a0208fa9841114e07559c2db6ecfba7fc56a794b25482cb4c75",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T08:00:00Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -449,5 +450,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 8
+  "youtube_ids_recorded": 9
 }
