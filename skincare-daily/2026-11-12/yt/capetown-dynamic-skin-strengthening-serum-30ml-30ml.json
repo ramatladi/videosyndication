@@ -3,15 +3,23 @@
   "handle": "@DermatologyCapeTown",
   "title": "Dermalogica Dynamic Skin Strengthening Serum 30ml: Benefits, Directions and Who It Suits",
   "slot_sast": "2026-11-12 18:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefbe6d284c56c8",
   "publish_at": "2026-11-23T22:32:26Z",
   "overdue": true,
   "upload_started": "2026-11-23T20:34:25Z",
   "error": null,
-  "updated": "2026-11-23T20:34:30Z",
+  "updated": "2026-11-23T20:35:02Z",
   "video_id": "3iNVDlsMjpU",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=3iNVDlsMjpU",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UC6IhnhkFRVu8tTc1FJbjb8Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-23T22:32:26Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
