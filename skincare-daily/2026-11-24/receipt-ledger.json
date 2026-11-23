@@ -225,13 +225,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "McR4mmAgFaY",
       "sku": "111508",
       "title": "What Goes Into Dermalogica Dynamic Skin Strengthening Serum 30ml? #shorts",
       "manifest_slug": "bedfordview-dynamic-skin-strengthening-serum-30ml-short",
       "media_sha256": "f28f60f0830eb92298253c145d6ae280530f8546b3bb504550915dfb5b8a6e80",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T06:00:00Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -444,5 +445,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T21:04+02:00"
   },
-  "youtube_ids_recorded": 3
+  "youtube_ids_recorded": 4
 }
