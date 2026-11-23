@@ -9,8 +9,9 @@
   "overdue": false,
   "upload_started": "2026-11-23T05:40:58Z",
   "error": null,
-  "updated": "2026-11-23T05:41:00Z",
+  "updated": "2026-11-23T05:41:02Z",
   "video_id": "Ps-ED58du8s",
   "published_now": null,
-  "url": "https://youtube.com/shorts/Ps-ED58du8s"
+  "url": "https://youtube.com/shorts/Ps-ED58du8s",
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
 }
