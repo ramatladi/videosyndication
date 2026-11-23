@@ -96,7 +96,20 @@ def parse(p):
     bl = [b for b in bl if b and not b.endswith(':') and len(b) > 8]
     claim = re.compile(r'(?i)%|clinical|\bstud(?:y|ies)\b|subjects|in vitro|\btested\b|untreated|results (?:at|after)|consumer|survey|perception|\*')
     bl = [b for b in bl if not claim.search(b)]  # no clinical-study or percentage claims (Sello's standing rule)
-    return {'tagline': tagline, 'description': [x for x in sentences(desc) if not claim.search(x)][:4], 'benefits': bl[:6],
+    label = []
+    mi2 = re.search(r'\bingredients\s+(.*?)(?:Dermalogica is dedicated|For an accurate|frequently asked|$)', s, re.I | re.S)
+    if mi2:
+        raw = re.sub(r'(?i)(?:active ingredients?|inactive ingredients?|lifting phase|firming phase)\s*:\s*', ', ', mi2.group(1))
+        raw = re.sub(r'\([^)]*\)', '', raw)
+        for x in raw.split(','):
+            x = clean('Water' if re.match(r'(?i)\s*water\s*/', x) else x)
+            if 2 < len(x) < 40 and not re.search(r'\d{2,}|may contain|\+/-', x, re.I) and x.lower() not in [l.lower() for l in label]:
+                label.append(x[:1].upper() + x[1:])
+            if len(label) >= 6: break
+    keyw = re.compile(r'(?i)\b(acid|vitamin|extract|oil|peptide|ceramide|niacinamide|retin|zinc|complex|enzyme|clay|charcoal|butter|squalane|tea|botanical|probiotic|hyaluronic|glycolic|lactic|salicylic|ferment|algae|oat|aloe|licorice|kojic|exosome|silica)')
+    keysent = [x for x in sentences(body) + bl if keyw.search(x) and not claim.search(x)][:4]
+    return {'label': label, 'key_sentences': keysent,
+            'tagline': tagline, 'description': [x for x in sentences(desc) if not claim.search(x)][:4], 'benefits': bl[:6],
             'how': sentences(how)[:5], 'inside': inside, 'recommended': clean(rec.group(1)) if rec else '',
             'kit': bool(inside) or bool(re.search(r'\b(kit|set|duo|trio|system|pair)\b', p['title'], re.I))}
 
@@ -233,7 +246,7 @@ def replan(date, media):
     bad = {(p['item']['domain'], p['item']['slot']) for p in probs}
     ban = json.load(open(f'{w}/banned.json')) if os.path.exists(f'{w}/banned.json') else {}
     for p in probs:  # script overlap and kit problems belong to the product, not the slot: ban it for every slot of the day
-        key = '*|*' if re.search(r'overlap|kit', p['problem']) else f"{p['item']['domain']}|{p['item']['slot']}"
+        key = '*|*' if re.search(r'kit', p['problem']) else f"{p['item']['domain']}|{p['item']['slot']}"
         ban.setdefault(key, []).extend([p['item']['sku'], clean(p['item']['title']).lower()])
     json.dump(ban, open(f'{w}/banned.json', 'w'), indent=1)
     plan(date, pl['catalog'], media, fixed=[i for i in pl['items'] if (i['domain'], i['slot']) not in bad],
@@ -411,7 +424,7 @@ def kit_check(f, item):
 
 def prior_scripts(media, date):
     """Narration and image URLs of every earlier item, by product name (for no-repeat scripts and visuals)."""
-    says, urls = {}, {}
+    says, urls = {}, {}; global PRIOR_BY_DOMAIN; PRIOR_BY_DOMAIN = {}
     files = glob.glob(f'{media}/skincare-daily/*/features*.json') + glob.glob(f'{WORK}/*/features.json') + [f'{LAUNCH}/features.json']
     for f in files:
         d = os.path.basename(os.path.dirname(f)) if 'skincare-launch' not in f else '2026-11-07'
@@ -419,7 +432,9 @@ def prior_scripts(media, date):
         try: vids = json.load(open(f)).get('videos', [])
         except Exception: continue
         for v in vids:
-            says.setdefault(clean(v['product_name']).lower(), []).append(' '.join(s['say'] for s in v['scenes']))
+            txt = ' '.join(s['say'] for s in v['scenes'])
+            says.setdefault(clean(v['product_name']).lower(), []).append(txt)
+            PRIOR_BY_DOMAIN.setdefault(clean(v['product_name']).lower(), []).append((v.get('domain'), d, txt))
     for f in glob.glob(f'{media}/skincare-daily/*/images/sources.json'):
         if os.path.basename(os.path.dirname(os.path.dirname(f))) == date: continue
         for x in json.load(open(f)): urls.setdefault(x.get('sku'), set()).add(x['source'].split('?')[0])
@@ -442,6 +457,68 @@ def overlap(a, b, name=''):
 
 def rot(L, k):
     return L[k % len(L):] + L[:k % len(L)] if L else L
+
+
+ANGLE_TITLES = {'ingredients': (["Dermalogica {N} Ingredients: What's on the Label #shorts", 'Reading the Label: Dermalogica {N} #shorts',
+                                  'Dermalogica {N}: Key Ingredients in Under a Minute #shorts', 'Dermalogica {N} Ingredient Check #shorts',
+                                  'What Goes Into Dermalogica {N}? #shorts', 'Dermalogica {N}, Ingredient by Ingredient #shorts'],
+                                 ['Dermalogica {N} Ingredients, Read From the Label', 'What Goes Into Dermalogica {N}: Ingredients and Directions',
+                                  'Dermalogica {N}: Key Ingredients and How to Use It', 'Dermalogica {N} Label Read: The Ingredient List']),
+                'routine': (['Where Dermalogica {N} Goes in a Routine #shorts', 'Dermalogica {N}: Which Step Is It? #shorts', 'Dermalogica {N} in Your Routine #shorts'],
+                            ['Dermalogica {N}: Where It Fits in a Routine, Step by Step', 'Dermalogica {N} Routine Guide: When and How to Use It']),
+                'sizes': (['Dermalogica {N}: Every Size in Under a Minute #shorts', 'Dermalogica {N} Sizes at a Glance #shorts'],
+                          ['Dermalogica {N}: Sizes, Directions and What It Does', 'Dermalogica {N} Sizes and How to Use It'])}
+ANGLE_THUMB = {'ingredients': ['On the label', 'Key ingredients', 'Ingredient check', 'Read the label', "What's in it"],
+               'routine': ['Where it fits', 'Which step?', 'In your routine'], 'sizes': ['Every size', 'Sizes at a glance']}
+ANGLE_INTRO = {'ingredients': " Today: what's on the label.", 'routine': ' Today: where it goes in a routine.', 'sizes': ' Today: the sizes it comes in.'}
+
+
+ANGLE_USED = {}
+
+
+def angle_scenes(ang, f, p, it, sp, intro, how, ben, desc, pics, short, size):
+    """A returning product from another angle. Every fact is still the product's own listing (label, directions, variants)."""
+    pic = lambda i: pics[i % len(pics)]
+    cover = dict(type='cover', sub={'ingredients': 'On the label', 'routine': 'In a routine', 'sizes': 'Sizes'}[ang], say=intro + ANGLE_INTRO[ang])
+    sc = [cover]
+    if f['inside']:  # a kit's contents (from its own listing) lead every angle
+        sc.append(dict(type='bullets', kicker="WHAT'S INSIDE", headline=f"{len(f['inside'])} products in one kit",
+                       items=[f"{tcase(c['name'])} ({c['size'].replace('ml', ' mL')})" for c in f['inside']][:4],
+                       say='Inside the kit: ' + '; '.join(f"{say_units(c['name'])}, {say_units(c['size'])}" for c in f['inside']) + '.'))
+    if ang == 'ingredients':
+        if f['inside'] and not f['key_sentences']: return None  # a kit's page lists each product separately: no single label
+        if len(f['label']) < 3 and not f['key_sentences']: return None
+        if len(f['label']) >= 3 and not f['inside']:
+            sc.append(dict(type='bullets', image=pic(0), kicker='ON THE LABEL', headline='First ingredients listed', items=[american(x) for x in f['label'][:4]],
+                           say=say_units('The ingredient list starts with ' + ', '.join(american(x).replace('/', ' ') for x in f['label'][:5]) + '.')))
+        for j, x in enumerate(f['key_sentences'][:1 if short else 3]):
+            sc.append(dict(type='figure', image=pic(1 + j), kicker='KEY INGREDIENTS', headline=short_head(american(x), 52), say=say_units(american(x))))
+        if not short and how:
+            sc.append(dict(type='steps', image=pic(3), kicker='HOW TO USE', headline='Directions from the listing', items=[short_head(h, 40) for h in how[:3]], say=say_units(words(80, *how))))
+    elif ang == 'routine':
+        if not how: return None
+        sc.append(dict(type='steps', image=pic(0), kicker='IN YOUR ROUTINE', headline='Directions from the listing', items=[short_head(re.sub(r'^[A-Za-z][\w\-+ ]{2,50}:\s*', '', h), 40) for h in how[:3]],
+                       say=say_units(words(45 if short else 110, *how))))
+        if f['recommended'] and not short:
+            sc.append(dict(type='note', image=pic(1), kicker='RECOMMENDED FOR', headline=short_head(american(f['recommended']), 70), say=say_units('The listing recommends it for ' + american(f['recommended']).rstrip('.') + '.')))
+        b = ben[-1] if ben else None
+        if b: sc.append(dict(type='figure', image=pic(2), kicker='WHY IT IS THERE', headline=short_head(b, 52), say=say_units(b.rstrip('.') + '.')))
+    elif ang == 'sizes':
+        sizes = [v['title'] for v in p['variants'] if v['available'] and re.match(r'^[\d.]+\s?(?:ml|g|oz)\b', v['title'] or '', re.I)]
+        if len(sizes) < 2: return None
+        sc.append(dict(type='bullets', image=pic(0), kicker='SIZES', headline=f'{len(sizes)} sizes in store', items=[x.replace('ml', ' mL') for x in sizes[:4]],
+                       say=say_units('It comes in ' + ', '.join(sizes[:-1]) + ' and ' + sizes[-1] + '.')))
+        if desc: sc.append(dict(type='figure', image=pic(1), kicker='WHAT IT IS', headline=short_head(desc[0], 52), say=say_units(words(30 if short else 70, *desc))))
+        if how: sc.append(dict(type='steps', image=pic(2), kicker='HOW TO USE', headline='Directions from the listing', items=[short_head(h, 40) for h in how[:3]], say=say_units(words(28 if short else 80, *how))))
+    if short:
+        while len(sc) > (3 if f['inside'] else 2) and sum(len(x['say']) for x in sc) + 80 > 560: sc.pop()
+    if len(sc) < 2: return None
+    sc.append(dict(type='end', sub=(size.replace('ml', ' mL') if size else tcase(clean(p['title']))), say=f"That's Dermalogica {sp}. The link is in the description."))
+    used = set()
+    for x in sc:  # no picture twice in one video
+        if x['type'] == 'figure' and x.get('image') in used: x['type'] = 'note'
+        if x.get('image'): used.add(x['image'])
+    return sc
 
 
 def write(date):
@@ -540,16 +617,38 @@ def write(date):
         # text cards keep a listing image of their own product (no plain backgrounds)
         for s in item['scenes']:
             if s['type'] in ('note', 'steps', 'bullets') and not s.get('image'): s['image'] = pic(k); k += 1
-        narr = ' '.join(x['say'] for x in item['scenes'])
-        item['script_overlap_max'] = round(max((overlap(narr, q, name) for q in prev_says.get(clean(name).lower(), [])), default=0), 2)
-        if item['script_overlap_max'] > 0.6 and short:  # same product again: drop the shared description (videos keep it for length)
-            item['scenes'] = [x for x in item['scenes'] if x.get('kicker') != 'WHAT IT IS']
-            narr = ' '.join(x['say'] for x in item['scenes'])
-            item['script_overlap_max'] = round(max((overlap(narr, q, name) for q in prev_says.get(clean(name).lower(), [])), default=0), 2)
+        # Sello, 23 Nov 2026: a returning product gets a different angle instead of an empty slot; the 0.85 overlap limit
+        # applies only to the same channel's scripts within its 7-day window.
+        key = clean(name).lower(); D = dt.date.fromisoformat(date)
+        allprev = prev_says.get(key, [])
+        chprev = [t for dom_, d_, t in PRIOR_BY_DOMAIN.get(key, []) if dom_ == it['domain'] and abs((D - dt.date.fromisoformat(d_)).days) < WINDOW]
+        ov = lambda sc_: (round(max((overlap(' '.join(x['say'] for x in sc_), q, name) for q in allprev), default=0), 2),
+                          round(max((overlap(' '.join(x['say'] for x in sc_), q, name) for q in chprev), default=0), 2))
+        item['angle'] = 'standard'; g, c = ov(item['scenes'])
+        if g > 0.6 and allprev:
+            cands = [(g, 'standard', item['scenes'], c)]
+            for ang in rot(['ingredients', 'routine', 'sizes'], kprev + n):
+                alt = angle_scenes(ang, f, p, it, sp, intro, how, ben, desc, pics, short, size)
+                if alt:
+                    g2, c2 = ov(alt)
+                    cands.append((g2, ang, alt, c2))
+            ok_ = [x for x in cands if x[0] <= 0.7] or [min(cands, key=lambda x: x[0])]
+            g2, ang, alt, c2 = min(ok_, key=lambda x: (ANGLE_USED.get(x[1], 0), x[0]))  # spread the angles across the day
+            ANGLE_USED[ang] = ANGLE_USED.get(ang, 0) + 1
+            if ang != 'standard':
+                if True:
+                    item['angle'] = ang; item['scenes'] = alt; g, c = g2, c2
+                    k_ = ANGLE_USED[ang]; pool_ = ANGLE_TITLES[ang][0 if short else 1]
+                    at = next((t for t in (pool_[(k_ + j) % len(pool_)] for j in range(len(pool_)))
+                               if t.format(N=N).lower() not in used_titles), pool_[k_ % len(pool_)]).format(N=N + (f' {size.replace("ml", " mL")}' if size and it['tier'] in 'bd' and not size_in_name and ang != 'sizes' else ''))
+                    if at.lower() in used_titles: at = at.replace(' #shorts', '') + f' ({DESK_TITLE[desk]})' + (' #shorts' if short else '')
+                    used_titles.discard(item['title'].lower()); item['title'] = at[:100]; used_titles.add(item['title'].lower())
+                    item['thumb']['text'] = ANGLE_THUMB[ang][ANGLE_USED[ang] % len(ANGLE_THUMB[ang])]
+        item['script_overlap_max'] = g; item['script_overlap_channel_7d'] = c
         if not any(x['type'] in ('figure', 'steps', 'bullets', 'photo') or x.get('kicker') == 'RECOMMENDED FOR' for x in item['scenes']):
-            problems.append((it, 'script overlap: no listing content left after dropping the repeated description (cover and end card only)')); continue
-        if item['script_overlap_max'] > 0.85:
-            problems.append((it, f"script overlaps an earlier video of this product ({item['script_overlap_max']})")); continue
+            problems.append((it, 'no listing content left for this product (cover and end card only)')); continue
+        if c > 0.85:
+            problems.append((it, f"script overlaps this channel's video of this product within 7 days ({c})")); continue
         ke = kit_check(f, item)
         if ke: problems.append((it, 'kit: ' + '; '.join(ke))); continue
         vids.append(item)
@@ -694,7 +793,7 @@ def stage(date, media):
             why = next((b['problem'] for b in probs if b['item']['domain'] == dom and b['item']['slot'] == s_), None) \
                 or next((f'not staged: {x[3]}' for x in failed if x[0] == dom and x[1] == s_), None) \
                 or (old_un.get((h, s_)) or {}).get('reason') \
-                or ('catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window and the 0.85 script-overlap guard'
+                or ('catalog exhausted: after the replans no eligible product was left for this slot within the 7-day window (overlap limit: same channel, 7 days)'
                     if (dom, s_) not in {(i['domain'], i['slot']) for i in pl['items']} else 'not produced in this run')
             unfilled.append({'handle': h, 'slot_sast': f'{date} {s_}', 'format': 'short' if s_ in SHORT_SLOTS else 'regular', 'reason': why})
     json.dump({'date': date, 'ledger': f'{base}/receipt-ledger.json', 'publishing': 'skincare-upload.yml (GitHub Action) publishes; this batch uploads and schedules nothing.',

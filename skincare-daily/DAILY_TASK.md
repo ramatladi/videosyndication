@@ -37,6 +37,13 @@ applies it automatically and logs the tier and reason in `plan.json` and the man
   neck/chest; Cape Town only when the listing itself talks about UV, daytime, free radicals or environmental stress;
 - **(d)** the least recently used desk or angle product outside the channel's 7-day window (new script and visuals).
 
+**Returning products (Sello, 23 Nov 2026).** A product that already has videos never leaves a slot empty: `sk.py write`
+gives it a different angle when its script would repeat (more than 60% shared wording with any earlier video):
+an ingredient read from its own label, its place in a routine (its own directions), or its sizes (its own variants),
+spreading the angles and title wordings across the day. The 0.85 script-overlap limit applies only to the same
+channel's videos of that product within its 7-day window, never across all channels and all time. Each item records
+`angle`, `script_overlap_max` (all channels) and `script_overlap_channel_7d` in features.json.
+
 Kits: components and sizes come only from the kit's own listing ("What's inside" / "Kit includes"); `sk.py write`
 checks that every component and size appears in the facts and the narration (`kit_check`), and the planner skips kits
 whose listing doesn't name its contents. Never take kit contents from another product's page.
