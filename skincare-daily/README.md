@@ -33,5 +33,5 @@ out.length+' products'
 - 23 Nov 2026 run (for 24 Nov): the regular-video title template "Dermalogica {N} Review: {T}, How to Use It" became
   "Dermalogica {N}: {T}, and How to Use It" (no "review" framing; the rules exclude review claims). Store packshots with an
   award badge (daily microfoliant 111429, liquid peelfoliant 111461, special cleansing gel 110639) were banned for the day
-  and replanned. Heal backlog at the start: 328 slots over 12-22 Nov (13 never-staged days); one run renders about 70-80
+  and replanned. Heal backlog at the start: 328 slots over 12-22 Nov (14, 20 and 22 Nov never staged); one run renders about 70-80
   items in its 3 hours, so heals go oldest day first after tomorrow's 36.
