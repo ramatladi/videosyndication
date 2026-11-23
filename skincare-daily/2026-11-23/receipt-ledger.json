@@ -305,13 +305,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "FXg-Le82izQ",
       "sku": "111295",
       "title": "Reading the Label: Dermalogica Breakout Clearing Booster #shorts",
       "manifest_slug": "bedfordview-breakout-clearing-booster-short",
       "media_sha256": "79bc560cfa869adc7d4a726f7f2e907ad90d326b9788c381e95d5e5d069d651e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T18:00:00Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -474,5 +475,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 33
+  "youtube_ids_recorded": 34
 }
