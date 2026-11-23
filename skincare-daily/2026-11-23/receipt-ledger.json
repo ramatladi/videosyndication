@@ -79,13 +79,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "oaFmHGV3K3I",
       "sku": "111356",
       "title": "Reading the Label: Dermalogica Clearing Defense SPF30 #shorts",
       "manifest_slug": "capetown-clearing-defense-spf30-short",
       "media_sha256": "a546ea16bbb061777a92de4d4311d8f1cdef284f311da25c16f87d579f889261",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T06:00:00Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -442,5 +443,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 1
+  "youtube_ids_recorded": 2
 }
