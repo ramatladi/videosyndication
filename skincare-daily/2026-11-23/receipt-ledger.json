@@ -241,13 +241,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "yN2jZ_YPjxA",
       "sku": "111504",
       "title": "Dermalogica BioLumin-C Night Restore Serum Ingredients, Read From the Label",
       "manifest_slug": "bedfordview-biolumin-c-night-restore-serum",
       "media_sha256": "fb96de832272311824a4e7cc41a78d7235b63dbebb6700e7a7a18ee26ff5141c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-23T08:00:00Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -450,5 +451,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-23T03:35+02:00"
   },
-  "youtube_ids_recorded": 9
+  "youtube_ids_recorded": 10
 }
