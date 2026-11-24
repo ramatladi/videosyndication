@@ -71,13 +71,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "xTRYbouxDcg",
       "sku": "111523",
       "title": "Dermalogica UltraCalming Cleanser: Every Size in Under a Minute #shorts",
       "manifest_slug": "midrand-ultracalming-cleanser-short",
       "media_sha256": "51c41d6ff1fed5fa88d3bef4e96d61677f815dead15ca3321ea48abcbcec764f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T18:00:00Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -471,5 +472,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 30
+  "youtube_ids_recorded": 31
 }
