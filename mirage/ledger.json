@@ -3379,6 +3379,81 @@
     "dance": 0.151,
     "genre_fit": 0.88
    }
+  },
+  {
+   "release": "mtr052",
+   "date": "2026-11-24",
+   "slot": "2026-11-24T23:55",
+   "format": "video",
+   "title": "Still Water Sway",
+   "artist": "Karthik Promenade",
+   "style": "deep",
+   "key": "G major",
+   "bpm": 123,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "88ff97df-7cf9-4bd0-81fb-ba9781381e85",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/e8855b3d-af05-4ea7-b7ec-62126b3c2736.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr052.json",
+   "photographer": "Konara Bandara",
+   "photo_page": "https://unsplash.com/photos/woman-in-green-bikini-on-beach-ISx4ju03MYA",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-7097722770103450739",
+   "media_url": "https://static.metricool.com/planner/202611/7593699-file-16392593338607014142.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr052.mp3",
+    "top": [
+     [
+      "electronic",
+      0.387
+     ],
+     [
+      "chillout",
+      0.201
+     ],
+     [
+      "House",
+      0.164
+     ],
+     [
+      "dance",
+      0.164
+     ],
+     [
+      "pop",
+      0.135
+     ],
+     [
+      "electronica",
+      0.112
+     ],
+     [
+      "ambient",
+      0.083
+     ],
+     [
+      "electro",
+      0.063
+     ],
+     [
+      "female vocalists",
+      0.052
+     ],
+     [
+      "jazz",
+      0.047
+     ]
+    ],
+    "house": 0.164,
+    "electronic": 0.387,
+    "dance": 0.164,
+    "genre_fit": 0.886
+   }
   }
  ]
 }
