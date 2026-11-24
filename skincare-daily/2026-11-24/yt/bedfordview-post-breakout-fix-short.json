@@ -3,15 +3,23 @@
   "handle": "@DermatologyJoburgBedfordview",
   "title": "Dermalogica Post-Breakout Fix, Ingredient by Ingredient #shorts",
   "slot_sast": "2026-11-24 16:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref1a475a9d71a3",
   "publish_at": "2026-11-24T18:24:26Z",
   "overdue": true,
   "upload_started": "2026-11-24T16:33:49Z",
   "error": null,
-  "updated": "2026-11-24T16:33:56Z",
+  "updated": "2026-11-24T16:34:28Z",
   "video_id": "emCboBwbe_Q",
   "published_now": null,
   "url": "https://youtube.com/shorts/emCboBwbe_Q",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCs0uxMnSV1INS_Bxn6yqc2Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-24T18:24:26Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
