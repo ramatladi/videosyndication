@@ -257,13 +257,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "nRPymU_7nyw",
       "sku": "111481",
       "title": "What Goes Into Dermalogica PowerBright Dark Spot Peel 50ml? #shorts",
       "manifest_slug": "bedfordview-powerbright-dark-spot-peel-50ml-short",
       "media_sha256": "2a355a98ad653a8bd34082570e7f7eb19c16e6bab6911525432e07e8707a51c8",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T17:24:26Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -456,5 +457,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 15
+  "youtube_ids_recorded": 16
 }
