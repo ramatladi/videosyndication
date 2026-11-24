@@ -289,13 +289,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "4ATzOWNOnDY",
       "sku": "111404",
       "title": "Dermalogica PowerBright Dark Spot Serum: Fades Appearance of Dark Spots, and How to Use It",
       "manifest_slug": "bedfordview-powerbright-dark-spot-serum",
       "media_sha256": "f8be13401feace9fe869d3f80e9db51d82588f7b760596cb0831a82baf55e117",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T19:24:26Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -468,5 +469,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 27
+  "youtube_ids_recorded": 28
 }
