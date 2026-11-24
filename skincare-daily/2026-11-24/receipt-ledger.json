@@ -93,13 +93,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "P-YDm-MVd0M",
       "sku": "111505INT",
       "title": "Dermalogica Golden Hour Hydrating SPF30 Stick: Benefits, Directions and Who It Suits",
       "manifest_slug": "capetown-golden-hour-hydrating-spf30-stick",
       "media_sha256": "c0851109f8f6e7ec68b2e8ff8f2edb6d4ebde7bbc56f0c62f7b86168b6aed4a1",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T16:24:27Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -448,5 +449,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 7
+  "youtube_ids_recorded": 8
 }
