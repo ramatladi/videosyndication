@@ -212,13 +212,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "R1KoDRtUeOc",
       "sku": "811033",
       "title": "Layering Guide: Dermalogica MultiVitamin Power Firm, Step by Step",
       "manifest_slug": "umhlanga-multivitamin-power-firm",
       "media_sha256": "1557a04f7a8458f50a4d9189e297c75c5ac764ba2ba09f6cc1f2d5c741fc4d2f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T19:24:26Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -467,5 +468,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 26
+  "youtube_ids_recorded": 27
 }
