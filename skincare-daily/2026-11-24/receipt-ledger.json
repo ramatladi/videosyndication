@@ -135,13 +135,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "rwU6yfbu7Jw",
       "sku": "111236",
       "title": "Dermalogica Age Reversal Eye Complex Label Read: The Ingredient List",
       "manifest_slug": "capetown-age-reversal-eye-complex",
       "media_sha256": "ee56476d8887e6893ccb9ba76c2c821dbe369e467ead2199e3819a7739ae9bd2",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T19:24:26Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -466,5 +467,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 25
+  "youtube_ids_recorded": 26
 }
