@@ -349,13 +349,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "xzv1U8mJqgE",
       "sku": "111369",
       "title": "What Goes Into Dermalogica Phyto Nature Firming Serum? #shorts",
       "manifest_slug": "westville-phyto-nature-firming-serum-short",
       "media_sha256": "04223715c135c7bc9732fff7646ce80644964280d24ef0c9936baec1031292f2",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T18:24:26Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -463,5 +464,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 22
+  "youtube_ids_recorded": 23
 }
