@@ -389,13 +389,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "aJDqXffhc0I",
       "sku": "111293",
       "title": "Dermalogica Blackhead Clearing Fizz Mask Ingredients, Read From the Label",
       "manifest_slug": "rosebank-blackhead-clearing-fizz-mask",
       "media_sha256": "d150fe313352cbeec86c0e1d36799d1049fcc074d11e60c505ab422624e6d542",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T16:26:53Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -452,5 +453,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 11
+  "youtube_ids_recorded": 12
 }
