@@ -366,13 +366,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "ZOxwnBkBVcs",
       "sku": "111326",
       "title": "Dermalogica Intensive Moisture Cleanser: Sizes, Directions and What It Does",
       "manifest_slug": "westville-intensive-moisture-cleanser",
       "media_sha256": "52070192cc5536cc60139e7eb471b88fbb2553c3110234422b4b151796f822a0",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T19:24:26Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -469,5 +470,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 28
+  "youtube_ids_recorded": 29
 }
