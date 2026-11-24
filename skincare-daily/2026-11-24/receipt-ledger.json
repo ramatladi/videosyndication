@@ -273,13 +273,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "emCboBwbe_Q",
       "sku": "111447",
       "title": "Dermalogica Post-Breakout Fix, Ingredient by Ingredient #shorts",
       "manifest_slug": "bedfordview-post-breakout-fix-short",
       "media_sha256": "6bda7a4b98d8e678f491bdf2a88689c37dbe08c17cccf060121b1abedfa1ada9",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T18:24:26Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -462,5 +463,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 21
+  "youtube_ids_recorded": 22
 }
