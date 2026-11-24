@@ -332,13 +332,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "tjrSARD_0vg",
       "sku": "W101717",
       "title": "Dermalogica Clearing Skin Wash Ingredient Check #shorts",
       "manifest_slug": "westville-clearing-skin-wash-short",
       "media_sha256": "b92f7667c0ff5d2885b56e1baaebfd24ec40d6f7e73439ac05dac6de0dd94304",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T17:24:26Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -457,5 +458,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 16
+  "youtube_ids_recorded": 17
 }
