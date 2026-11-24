@@ -3,15 +3,23 @@
   "handle": "@DermatologistJoburgMidrand",
   "title": "Where Dermalogica MultiVitamin Thermafoliant Goes in a Routine #shorts",
   "slot_sast": "2026-11-24 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefd545387d2290",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-24T16:27:33Z",
   "error": null,
-  "updated": "2026-11-24T16:27:39Z",
+  "updated": "2026-11-24T16:28:11Z",
   "video_id": "t6wXHy8fjhk",
   "published_now": "2026-11-24T16:27:33Z",
   "url": "https://youtube.com/shorts/t6wXHy8fjhk",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCb16q-70MGFin6RfsMGbdnw",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
