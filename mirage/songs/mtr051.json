@@ -4,7 +4,7 @@
  "artist": "Karthik Promenade",
  "style": "deep",
  "vocals": true,
- "status": "pending",
+ "status": "dropped",
  "source": {
   "generator": "creative-claw",
   "model": "music/mureka-v9.5",
@@ -25,5 +25,9 @@
   "kind": "bikini",
   "source": "unsplash",
   "id": "ISx4ju03MYA"
+ },
+ "dropped": {
+  "on": "2026-11-24",
+  "reason": "QC click check failed on both takes (take 1: click at 14.9 s; take 2: click at 0.19 s)"
  }
 }
