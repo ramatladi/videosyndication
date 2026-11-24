@@ -383,13 +383,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "q8JrixGeo5c",
       "sku": "111441",
       "title": "Dermalogica BioLumin-C Gel Moisturiser, Ingredient by Ingredient #shorts",
       "manifest_slug": "westville-biolumin-c-gel-moisturiser-short",
       "media_sha256": "92a87fc3dfbde96a89da89aecf67bd6f9c3db18f31d6676a0c4418efb15dcabb",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T18:00:00Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -475,5 +476,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 34
+  "youtube_ids_recorded": 35
 }
