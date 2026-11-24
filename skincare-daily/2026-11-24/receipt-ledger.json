@@ -461,13 +461,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "s8pBIZ0pN4c",
       "sku": "411279",
       "title": "Dermalogica Sound Sleep Cocoon Sizes at a Glance #shorts",
       "manifest_slug": "rosebank-sound-sleep-cocoon-short",
       "media_sha256": "2da20fb6c4b6687884a0a02a74b0b147fec8403a92ac10e862b5dafe9a00af6a",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T18:00:00Z"
     }
   ],
   "reconciliation": {
@@ -476,5 +477,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 35
+  "youtube_ids_recorded": 36
 }
