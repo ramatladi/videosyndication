@@ -407,13 +407,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "YUyOK101qH0",
       "sku": "110716",
       "title": "Dermalogica MultiVitamin Power Recovery Masque Sizes at a Glance #shorts",
       "manifest_slug": "rosebank-multivitamin-power-recovery-masque-short",
       "media_sha256": "37887a360ce4d1b79d2a63e2a423d2fc5b71ddaf05e9d761b0d3ec348b374788",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T17:24:26Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -458,5 +459,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 17
+  "youtube_ids_recorded": 18
 }
