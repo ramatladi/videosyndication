@@ -3,15 +3,23 @@
   "handle": "@SkincareDurbanWestville",
   "title": "Dermalogica Breakout Biotic Moisturiser: Where It Fits in a Routine, Step by Step",
   "slot_sast": "2026-11-24 10:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref2e2393c641e4",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-24T16:26:14Z",
   "error": null,
-  "updated": "2026-11-24T16:26:19Z",
+  "updated": "2026-11-24T16:26:51Z",
   "video_id": "hmfpTZL1E7s",
   "published_now": "2026-11-24T16:26:14Z",
   "url": "https://www.youtube.com/watch?v=hmfpTZL1E7s",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCh1fAzbqzZRAKMoFpJ9f0_g",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
