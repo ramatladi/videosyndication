@@ -1,0 +1,511 @@
+{
+ "engine": "cast",
+ "id": 129,
+ "slug": "the-beanie",
+ "title": "The Beanie",
+ "trend": "TikTok 'How dudes act after putting on a skull cap' (Peaking on the Virlo week-of-Nov-23 list, updated Nov 24 2026; first cold week of winter beanie season, US) \u2014 'how X acts after Y' transformation skit: a regular guy puts on a beanie and becomes slow-nodding, deep-talking, too-cool; never names the sound or hashtag",
+ "target_seconds": 180,
+ "length_reason": "The 'how dudes act after putting on a beanie' clips are quick one-clip skits well under a minute, so this stays at the shortest film length, 3:00, which also fits Instagram's 3-minute limit.",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "how my brother acts",
+  "after putting on a beanie",
+  "since seven this morning"
+ ],
+ "youtube_title": "My Brother Put On A Beanie And Became A Different Person | Funny Cartoon",
+ "description": "At seven this morning Tyler put on a gray beanie from the back of the closet. Now he nods at everything, leans on the fridge and calls his dad Ray. His sister wants answers. Dad has a secret.\n\n#cartoon #animation #funny #comedy #winter",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "beanie",
+  "winter",
+  "siblings",
+  "family comedy",
+  "dad jokes"
+ ],
+ "tiktok_caption": "how my brother acts after putting on a beanie \u2744\ufe0f #cartoon #animation #funny #comedy #winter",
+ "cast": [
+  {
+   "id": "tyler",
+   "name": "Tyler",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.05,
+   "hair": {
+    "style": "short",
+    "color": "#5a3a1e"
+   },
+   "top": {
+    "color": "#556b2f",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "accessories": [
+    "beanie:#5d6d7e"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_liam",
+    "pitch": -1,
+    "tempo": 0.9
+   }
+  },
+  {
+   "id": "jasmine",
+   "name": "Jasmine",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.95,
+   "hair": {
+    "style": "curly",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#ff7f6e",
+    "pattern": "dots",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2c3e50",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "ray",
+   "name": "Dad Ray",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.1,
+   "hair": {
+    "style": "bald",
+    "color": "#5a3a1e"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#f5d76e"
+   },
+   "bottom": "#5d4037",
+   "accessories": [
+    "mustache:#5a3a1e"
+   ],
+   "brows": "raised",
+   "voice": {
+    "id": "am_fenrir",
+    "pitch": -1,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "thermostat",
+   "name": "The Thermostat",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#f4f6f7",
+   "scale": 0.9,
+   "accessories": [
+    "glasses:#333333",
+    "scarf:#2e86c1"
+   ],
+   "eye": "sleepy",
+   "mouth": "flat",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "jasmine",
+   "text": "My brother put on a beanie at seven this morning. He has not been the same since.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tyler",
+   "text": "Morning is just night that woke up early.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.6,
+   "after": "sting"
+  },
+  {
+   "spk": "jasmine",
+   "text": "See? Yesterday he cried at a cereal commercial.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "thermostat",
+   "text": "Good morning. It is sixty two degrees in this house. Nobody is allowed to touch me.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Tyler. Do you want eggs?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "tyler",
+   "text": "Eggs are just chickens that never got a chance, my guy.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jasmine",
+   "text": "You ate nine eggs last night. Standing up. In your underwear.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tyler",
+   "text": "That was a different man. He did not have the beanie.",
+   "shot": "CU",
+   "post": 0.8,
+   "after": "ding"
+  },
+  {
+   "spk": "thermostat",
+   "text": "I have seen this before. It always starts with the slow nod.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tyler",
+   "text": "Mm.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "jasmine",
+   "text": "That is it. That is the nod. He nods at everything now.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "jasmine",
+   "text": "I told him the toaster was on fire. He nodded.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tyler",
+   "text": "Fire is just the toaster expressing itself.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "thermostat",
+   "text": "The toaster is fine. The toast is not.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Then he leaned on the fridge. For forty minutes.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tyler",
+   "text": "The fridge leans back, my guy. It is a relationship.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "jasmine",
+   "text": "He is leaning on it right now. The ice maker is scared.",
+   "shot": "W"
+  },
+  {
+   "spk": "tyler",
+   "text": "I take my coffee black now.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "jasmine",
+   "text": "Since when?",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tyler",
+   "text": "Since seven.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jasmine",
+   "text": "You put eleven sugars in it. I watched you.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tyler",
+   "text": "Black on the outside. Sweet on the inside. Like the beanie.",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "thermostat",
+   "text": "The beanie is gray.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "tyler",
+   "text": "I fix bikes now too.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jasmine",
+   "text": "You do not own a bike.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "tyler",
+   "text": "That is why I am so good at it. Nothing has broken yet.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jasmine",
+   "text": "He also learned guitar this morning.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tyler",
+   "text": "One chord. But I play it like I mean it.",
+   "shot": "CU",
+   "gesture": "talk",
+   "jump": true
+  },
+  {
+   "spk": "jasmine",
+   "text": "He played it for three hours. The neighbors left a note.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "tyler",
+   "text": "The note said keep going.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jasmine",
+   "text": "The note said we are moving.",
+   "shot": "CU",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "ray",
+   "text": "What is all this noise? Who keeps opening the fridge?",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tyler",
+   "text": "Ray.",
+   "shot": "CU",
+   "pre": 0.4
+  },
+  {
+   "spk": "ray",
+   "text": "Did my son just call me Ray?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Since seven, Dad.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tyler",
+   "text": "Ray, my guy. The cold is just the house telling you a secret.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "ray",
+   "text": "The cold is me. I set the thermostat to sixty two.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "thermostat",
+   "text": "He did. He whispered to me. It was a little strange.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Can you please make him take it off? He wore it in the shower.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "tyler",
+   "text": "The beanie stays on. The beanie is not a hat. The beanie is a way of living.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "sting"
+  },
+  {
+   "spk": "ray",
+   "text": "Son. Where did you find that beanie?",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "tyler",
+   "text": "The back of the closet. Behind the waffle maker nobody uses.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ray",
+   "text": "That is my beanie. From nineteen ninety four.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "whoosh"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Your beanie? You wear a fanny pack to the grocery store.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ray",
+   "text": "I wore that beanie for one winter. Everybody called me Big Ray.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "thermostat",
+   "text": "Big Ray. I have heard stories. None of them make sense.",
+   "shot": "CU"
+  },
+  {
+   "spk": "ray",
+   "text": "I said deep things at the ice rink. Your mother fell in love with me there.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Mom said she fell on the ice and you were the only one near her.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "ray",
+   "text": "Same thing.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "ray",
+   "text": "Your grandpa wore it too. He talked like this for the whole winter of nineteen seventy one.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jasmine",
+   "text": "So why put it in the back of the closet?",
+   "shot": "CU"
+  },
+  {
+   "spk": "ray",
+   "text": "I did not. I put it there every November. Then I make the house very, very cold.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "thermostat",
+   "text": "Sixty two degrees. A trap. And I was part of it.",
+   "shot": "CU",
+   "after": "sting"
+  },
+  {
+   "spk": "jasmine",
+   "text": "You froze us for a hat?",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "ray",
+   "text": "I wanted somebody to be Big Ray again. Your brother was ready.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tyler",
+   "text": "Thanks, Ray.",
+   "shot": "CU",
+   "pre": 0.4
+  },
+  {
+   "spk": "ray",
+   "text": "Call me Dad. Big Ray only answers in winter.",
+   "shot": "CU"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Fine. I am turning the heat up. Give me the beanie, I am putting it back.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "tyler",
+   "text": "It does not go back. It chooses.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "jasmine",
+   "text": "It is a hat, Tyler.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jasmine",
+   "text": "Okay. Fine. I am trying it on. Only to prove a point.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "jasmine",
+   "text": "Mm.",
+   "shot": "CU",
+   "pre": 1.0
+  },
+  {
+   "spk": "jasmine",
+   "text": "Eggs are just chickens that never got a chance.",
+   "shot": "W",
+   "gesture": "think",
+   "after": "applause"
+  },
+  {
+   "spk": "ray",
+   "text": "It chose.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "thermostat",
+   "text": "Sixty two degrees. Another one lost. I am going to need a scarf.",
+   "shot": "CU",
+   "gesture": "shrug"
+  }
+ ]
+}
