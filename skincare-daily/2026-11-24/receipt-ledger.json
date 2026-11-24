@@ -107,13 +107,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "UyS-96HMqVs",
       "sku": "411510INT",
       "title": "Dermalogica BioLumin-C Heat Aging Protector SPF50 Sizes at a Glance #shorts",
       "manifest_slug": "capetown-biolumin-c-heat-aging-protector-spf50-short",
       "media_sha256": "7d0ae060618eb9455986c8fda3c4a7d4cd645c0d415e848ab2277eb07e438ef0",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T17:24:26Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -454,5 +455,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 13
+  "youtube_ids_recorded": 14
 }
