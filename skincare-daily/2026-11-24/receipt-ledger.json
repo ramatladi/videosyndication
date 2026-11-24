@@ -167,13 +167,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "G1a6nheCPiE",
       "sku": "111257",
       "title": "Dermalogica Stress Positive Eye Lift, Explained",
       "manifest_slug": "umhlanga-stress-positive-eye-lift",
       "media_sha256": "4695c6c077ba3971fdd78e7289b9f04acd71f99494fb397df374efc3b6e2bd12",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T16:25:08Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -449,5 +450,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 8
+  "youtube_ids_recorded": 9
 }
