@@ -425,13 +425,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "LEq2M1Dxa9Y",
       "sku": "411476",
       "title": "Dermalogica Stabilizing Repair Cream: Every Size in Under a Minute #shorts",
       "manifest_slug": "rosebank-stabilizing-repair-cream-short",
       "media_sha256": "67b5611a473d082ea8d1f348d93af72a99f6600b24e588a71952c2064d41a1f1",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T18:24:26Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -464,5 +465,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 23
+  "youtube_ids_recorded": 24
 }
