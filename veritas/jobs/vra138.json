@@ -1,0 +1,143 @@
+{
+ "id": "vra138",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.05,
+ "source_id": "cloudflare:8401119:US",
+ "job": {
+  "employer": "Cloudflare",
+  "logo": "cloudflare",
+  "title": "Systems Engineer - Network Data Plane Software",
+  "short_title": "Systems Engineer, Network Data Plane",
+  "location": "Champaign, IL",
+  "workplace": "Hybrid",
+  "pay": "$168K – $210K a year",
+  "pay_full": "$168,000 – $210,000 estimated annual salary for Champaign, IL based hires ($185,000 – $230,000 for Washington, DC or Seattle, WA), plus equity",
+  "type": "",
+  "posted": "",
+  "ref": "",
+  "apply_url": "https://boards.greenhouse.io/cloudflare/jobs/8401119?gh_jid=8401119",
+  "apply_site": "boards.greenhouse.io/cloudflare"
+ },
+ "details": {
+  "about": "Cloudflare runs one of the world's largest networks on general-purpose Linux servers, so the routers, firewalls, load balancers and proxies that carry its customers' traffic are software it writes and operates itself. The Packet Processing team builds that software, the engines behind products like Magic Transit, Cloudflare WAN, Cloudflare Network Firewall and Spectrum, and is moving to one unified data plane that all its L3/L4 products share.",
+  "duties": [
+   "Build the shared data plane platform: packet I/O, processing stages, per-core steering, per-customer isolation and upgrades that don't drop traffic",
+   "Work on a userspace forwarding plane with per-customer routing over GRE and IPsec tunnels and direct connections",
+   "Develop a stateful packet firewall in Rust: rule evaluation, rate limiting, intrusion detection, packet capture, IPv4/IPv6",
+   "Work on an XDP-based L4 load balancer and an XDP/eBPF fast path for very large single flows",
+   "Improve host networking so each packet is classified once",
+   "Chase down packet drops, latency and throughput problems across servers in hundreds of cities",
+   "Build, deploy and operate these systems, mostly in Go and Rust (plus C for eBPF) on Linux"
+  ],
+  "needs": [
+   "Systems programming in Rust, Go, C or C++",
+   "Solid understanding of L3/L4 networking: IP, TCP, UDP, routing and forwarding, GRE/IPsec tunneling, NAT, connection tracking and anycast",
+   "Experience building data plane software such as routers, switches, firewalls, load balancers, VPN gateways or SDN/NFV systems",
+   "Linux networking: eBPF/XDP, tc, netfilter/nftables, network namespaces, sockets",
+   "High-performance packet processing in user space or the kernel (e.g. AF_XDP, DPDK, VPP)",
+   "Debugging, profiling and optimizing throughput- and latency-sensitive systems",
+   "Building and operating large-scale distributed systems, including on-call, incident response and root cause analysis",
+   "Clear written and verbal communication"
+  ],
+  "nice": [
+   "Router, switch or network OS development",
+   "Network firewalls, IDS/IPS (e.g. Suricata, Snort) or rate limiting",
+   "L4 load balancing (e.g. Maglev-style consistent hashing, Katran, IPVS)",
+   "Running large networks: ISPs, data center networks or backbone operations",
+   "Open-source networking contributions (e.g. Linux kernel, DPDK, VPP, FRR)"
+  ],
+  "benefits": "Estimated annual salary $168,000 – $210,000 for Champaign, IL based hires, and $185,000 – $230,000 for Washington, DC or Seattle, WA based hires; pay may be adjusted by work location. The role is eligible for Cloudflare's equity plan. US benefits include medical/Rx, dental and vision insurance, flexible and commuter spending accounts, fertility and family-forming benefits, on-demand mental health support and an EAP, global travel medical insurance, short- and long-term disability, life and accident insurance, a 401(k), an Employee Stock Participation Plan, flexible paid time off, and parental, pregnancy health, medical and bereavement leave.",
+  "notes": [
+   "Listed locations include Austin TX, Champaign IL, Atlanta GA and Washington DC (plus Lisbon and London)",
+   "Applicants who reach the offer stage may be asked to attend an in-person interview at a Cloudflare office or hub",
+   "Offers may be conditioned on authorization to receive technology controlled under US export laws without an export license sponsorship"
+  ]
+ },
+ "yt_title": "Cloudflare Is Hiring: Systems Engineer, Network Data Plane | Champaign, IL | $168K–$210K",
+ "hashtags": [
+  "#TechJobs",
+  "#NetworkEngineer",
+  "#SystemsEngineer",
+  "#RustLang",
+  "#Hiring"
+ ],
+ "tags": [
+  "cloudflare jobs",
+  "systems engineer jobs",
+  "network engineer jobs",
+  "rust jobs",
+  "golang jobs",
+  "ebpf",
+  "linux networking jobs",
+  "champaign jobs",
+  "tech jobs",
+  "veritas recruitment agency"
+ ],
+ "scenes": [
+  {
+   "head": "The role",
+   "bullets": [
+    "Systems Engineer",
+    "Network Data Plane Software",
+    "Champaign, IL · hybrid"
+   ],
+   "lines": [
+    "Now hiring in Champaign, Illinois! Cloudflare wants a Systems Engineer to build the software that forwards, filters, and load-balances its network traffic."
+   ]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": [
+    "Build a unified packet data plane",
+    "Rust firewall · XDP load balancer",
+    "Mostly Go & Rust on Linux"
+   ],
+   "lines": [
+    "You'll work on a shared data plane, a stateful firewall in Rust, and an X D P load balancer, writing mostly Go and Rust on Linux."
+   ],
+   "show": [
+    "You'll work on a shared data plane, a stateful firewall in Rust, and an XDP load balancer, writing mostly Go and Rust on Linux."
+   ]
+  },
+  {
+   "head": "What Cloudflare looks for",
+   "bullets": [
+    "Rust, Go, C or C++ systems programming",
+    "L3/L4 networking: IP, TCP, UDP, tunnels",
+    "Linux networking: eBPF/XDP, nftables"
+   ],
+   "lines": [
+    "Cloudflare looks for systems programming in Rust, Go, C, or C plus plus, solid layer three and four networking, and Linux networking like e B P F."
+   ],
+   "show": [
+    "Cloudflare looks for systems programming in Rust, Go, C, or C++, solid layer 3 and 4 networking, and Linux networking like eBPF."
+   ]
+  },
+  {
+   "head": "Pay",
+   "bullets": [
+    "$168,000 – $210,000 a year (Champaign)",
+    "Equity plan eligible",
+    "Health, 401(k), flexible PTO"
+   ],
+   "lines": [
+    "Pay in Champaign is an estimated one hundred sixty-eight thousand to two hundred ten thousand dollars a year, plus equity and full benefits."
+   ],
+   "show": [
+    "Pay in Champaign is an estimated $168,000 to $210,000 a year, plus equity and full benefits."
+   ]
+  },
+  {
+   "head": "How to apply",
+   "bullets": [
+    "Application link in the description",
+    "Apply on Cloudflare's job board"
+   ],
+   "lines": [
+    "To apply, find the direct application link in the description.",
+    "Follow Veritas for new tech jobs every day."
+   ]
+  }
+ ]
+}
