@@ -57,7 +57,7 @@
    "voice": {
     "id": "af_sarah",
     "pitch": 0,
-    "tempo": 1.04
+    "tempo": 1.06
    }
   },
   {
@@ -89,7 +89,7 @@
    "voice": {
     "id": "am_michael",
     "pitch": 0,
-    "tempo": 1.02
+    "tempo": 1.05
    }
   },
   {
@@ -110,7 +110,7 @@
    "voice": {
     "id": "am_echo",
     "pitch": -1,
-    "tempo": 0.95
+    "tempo": 1.0
    }
   }
  ],
@@ -133,6 +133,12 @@
    "shot": "ruthie",
    "gesture": "facepalm",
    "after": "sting"
+  },
+  {
+   "spk": "carlos",
+   "text": "Nobody wants that.",
+   "shot": "carlos",
+   "pre": 0.2
   },
   {
    "spk": "can",
@@ -191,6 +197,12 @@
   },
   {
    "spk": "ruthie",
+   "text": "He is not wrong.",
+   "shot": "ruthie",
+   "pre": 0.2
+  },
+  {
+   "spk": "ruthie",
    "text": "Okay. Stuffing should be made in a waffle maker.",
    "shot": "CU",
    "gesture": "think"
@@ -200,6 +212,12 @@
    "text": "Oh, that is good. I would eat that.",
    "shot": "carlos",
    "jump": true
+  },
+  {
+   "spk": "ruthie",
+   "text": "Carlos! Stop helping!",
+   "shot": "TWO",
+   "pre": 0.2
   },
   {
    "spk": "can",
@@ -226,30 +244,6 @@
    "gesture": "facepalm"
   },
   {
-   "spk": "ruthie",
-   "text": "Unpopular opinion. The parade is better than the big game.",
-   "shot": "CU",
-   "gesture": "point"
-  },
-  {
-   "spk": "carlos",
-   "text": "That is a real fight. Half the house will leave.",
-   "shot": "carlos",
-   "gesture": "arms_up"
-  },
-  {
-   "spk": "can",
-   "text": "The other half is asleep by the third balloon. Tie.",
-   "shot": "can",
-   "gesture": "shrug"
-  },
-  {
-   "spk": "ruthie",
-   "text": "A tie does not count. Somebody has to host.",
-   "shot": "TWO",
-   "gesture": "cross"
-  },
-  {
    "spk": "carlos",
    "text": "Unpopular opinion. Leftovers are better than the actual dinner.",
    "shot": "CU"
@@ -269,7 +263,7 @@
   },
   {
    "spk": "ruthie",
-   "text": "So that is three for you, three for me. Sudden death.",
+   "text": "So we are both losing. Sudden death.",
    "shot": "TWO",
    "gesture": "point"
   },
@@ -302,6 +296,18 @@
    "text": "So we both lose. We both have to host?",
    "shot": "ruthie",
    "gesture": "facepalm"
+  },
+  {
+   "spk": "carlos",
+   "text": "Together?",
+   "shot": "carlos",
+   "pre": 0.2
+  },
+  {
+   "spk": "ruthie",
+   "text": "In one kitchen?",
+   "shot": "ruthie",
+   "pre": 0.2
   },
   {
    "spk": "carlos",
@@ -340,6 +346,12 @@
    "text": "What?",
    "shot": "ruthie",
    "pre": 0.4
+  },
+  {
+   "spk": "can",
+   "text": "You heard me.",
+   "shot": "CU",
+   "pre": 0.2
   },
   {
    "spk": "carlos",
@@ -402,21 +414,16 @@
    "pre": 0.3
   },
   {
+   "spk": "ruthie",
+   "text": "Where does everybody sit?",
+   "shot": "ruthie",
+   "pre": 0.2
+  },
+  {
    "spk": "can",
    "text": "Uncle Frankie can sit on the rice.",
    "shot": "CU",
    "gesture": "shrug"
-  },
-  {
-   "spk": "ruthie",
-   "text": "Last opinion of the show. I am excited for next Thanksgiving.",
-   "shot": "ruthie",
-   "gesture": "arms_up"
-  },
-  {
-   "spk": "can",
-   "text": "Popular. Everybody wants to see the pantry.",
-   "shot": "can"
   },
   {
    "spk": "can",
