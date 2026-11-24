@@ -227,13 +227,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "2TiloLCsHmA",
       "sku": "111519",
       "title": "Dermalogica Pro-Collagen Banking Water Cream Ingredient Check #shorts",
       "manifest_slug": "umhlanga-pro-collagen-banking-water-cream-short",
       "media_sha256": "a0519fbbc0dff297484d9b114d0198066c2d8771f47d1da0934ba925111a2a59",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T18:00:00Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -473,5 +474,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 32
+  "youtube_ids_recorded": 33
 }
