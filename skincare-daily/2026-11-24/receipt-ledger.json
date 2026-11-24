@@ -32,13 +32,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "t6wXHy8fjhk",
       "sku": "102321",
       "title": "Where Dermalogica MultiVitamin Thermafoliant Goes in a Routine #shorts",
       "manifest_slug": "midrand-multivitamin-thermafoliant-short",
       "media_sha256": "eb39505643bcb7ca776c95bcb89022ecdb4fc03e99e9d7f721b17c8fe0eff548",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T16:27:33Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -453,5 +454,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 12
+  "youtube_ids_recorded": 13
 }
