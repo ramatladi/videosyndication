@@ -305,13 +305,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "usTR_3mkpVs",
       "sku": "411455",
       "title": "Dermalogica Circular Hydration Serum Ingredients: What's on the Label #shorts",
       "manifest_slug": "bedfordview-circular-hydration-serum-short",
       "media_sha256": "9273d67d9177ef54a503d7c57327f55957b5ea48a36a30a3ee8de308dbc99dc7",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T18:00:00Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -474,5 +475,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 33
+  "youtube_ids_recorded": 34
 }
