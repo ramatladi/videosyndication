@@ -58,13 +58,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "otUcM_MLIXs",
       "sku": "111538",
       "title": "Dermalogica Precleanse Label Read: The Ingredient List",
       "manifest_slug": "midrand-precleanse",
       "media_sha256": "817b470ae0302c4695d56d66a781e2c99ee84fe47998a3f590acaf94a7973044",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T18:24:26Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -465,5 +466,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 24
+  "youtube_ids_recorded": 25
 }
