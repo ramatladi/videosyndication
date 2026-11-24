@@ -45,13 +45,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "guvYkC985E4",
       "sku": "101511",
       "title": "What Goes Into Dermalogica Skin Resurfacing Cleanser? #shorts",
       "manifest_slug": "midrand-skin-resurfacing-cleanser-short",
       "media_sha256": "c83bcfdc3ba4222bdf876efbce84c1918aa1053e8432246ee6e31bbf6f75e0c4",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T17:24:26Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -459,5 +460,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 18
+  "youtube_ids_recorded": 19
 }
