@@ -3,15 +3,23 @@
   "handle": "@DermatologistJoburgMidrand",
   "title": "Dermalogica Precleanse Label Read: The Ingredient List",
   "slot_sast": "2026-11-24 18:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref692a8050270b",
   "publish_at": "2026-11-24T18:24:26Z",
   "overdue": true,
   "upload_started": "2026-11-24T16:35:49Z",
   "error": null,
-  "updated": "2026-11-24T16:35:55Z",
+  "updated": "2026-11-24T16:36:27Z",
   "video_id": "otUcM_MLIXs",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=otUcM_MLIXs",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCb16q-70MGFin6RfsMGbdnw",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-24T18:24:26Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
