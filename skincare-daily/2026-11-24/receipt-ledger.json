@@ -443,13 +443,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "NjOu3zcgAP8",
       "sku": "111462INT",
       "title": "What Goes Into Dermalogica Deep Breakout Liquid Patch: Ingredients and Directions",
       "manifest_slug": "rosebank-deep-breakout-liquid-patch",
       "media_sha256": "cd35b82e61f46948b72fa6909bddd263a4b3aacb79c08f31251695e6b72e42ae",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T19:24:26Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -470,5 +471,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 29
+  "youtube_ids_recorded": 30
 }
