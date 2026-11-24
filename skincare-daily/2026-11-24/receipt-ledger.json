@@ -197,13 +197,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "kYPS7C7GRN0",
       "sku": "301338INT",
       "title": "Dermalogica Hydration You Can Feel Kit (2 Full-Size): Key Ingredients in Under a Minute #shorts",
       "manifest_slug": "umhlanga-hydration-you-can-feel-kit-2-full-size-short",
       "media_sha256": "519c4c2157888d5b6b2369dfa276eac7885a0832ca7e950971f3d08bde1c37e7",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T18:24:26Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -461,5 +462,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 20
+  "youtube_ids_recorded": 21
 }
