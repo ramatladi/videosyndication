@@ -10,93 +10,458 @@
  "scene": "office",
  "desk": false,
  "music": "upbeat",
- "intro": ["office rule:", "no holiday music", "until friday"],
+ "intro": [
+  "office rule:",
+  "no holiday music",
+  "until friday"
+ ],
  "youtube_title": "My boss banned holiday music until Friday. The radio and I had other plans 🎄",
  "description": "Hank has one rule at the office: no holiday music until the Friday after Thanksgiving. Gloria has a sweater, a keyboard and an intern who whistles. Hank has a secret in his drawer.\n\n#cartoon #animation #funny #office #shorts",
- "tags": ["cartoon", "animation", "funny", "comedy", "cartoons", "office", "holiday music", "coworkers", "boss", "christmas"],
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "office",
+  "holiday music",
+  "coworkers",
+  "boss",
+  "christmas"
+ ],
  "tiktok_caption": "no holiday music at work until Friday. we tried. 🎄 #cartoon #animation #funny #office",
  "cast": [
-  {"id": "gloria", "name": "Gloria", "kind": "human", "color": "#c68642",
-   "hair": {"style": "curly", "color": "#2d1b0e"},
-   "top": {"color": "#d63031", "pattern": "stripes", "pattern_color": "#ffffff"}, "bottom": "#2d3436", "shoes": "#00b894",
-   "accessories": ["party_hat:#00b894"],
-   "eye": "big", "brows": "raised", "mouth": "smile", "blush": true, "label_color": "#ff7675",
-   "voice": {"id": "af_bella", "pitch": 0, "tempo": 1.05}},
-  {"id": "hank", "name": "Hank", "kind": "human", "color": "#f1c27d", "scale": 1.08,
-   "hair": {"style": "short", "color": "#7f8c8d"},
-   "top": {"color": "#636e72", "pattern": "suit", "pattern_color": "#ffffff"}, "bottom": "#2d3436", "shoes": "#2d3436",
-   "accessories": ["tie:#0984e3", "glasses"],
-   "eye": "round", "brows": "angry", "mouth": "flat", "label_color": "#b2bec3",
-   "voice": {"id": "am_adam", "pitch": -1, "tempo": 0.96}},
-  {"id": "radio", "name": "The Office Radio", "kind": "mascot", "shape": "box", "color": "#e17055",
-   "accessories": ["sunglasses"],
-   "eye": "sleepy", "brows": "neutral", "mouth": "smile", "label_color": "#fab1a0",
-   "voice": {"id": "bm_lewis", "pitch": 0, "tempo": 0.98}},
-  {"id": "wyatt", "name": "Wyatt", "kind": "human", "color": "#e0ac69", "scale": 0.94,
-   "hair": {"style": "mohawk", "color": "#fdcb6e"},
-   "top": {"color": "#6c5ce7", "pattern": "hoodie"}, "bottom": "#636e72", "shoes": "#ffffff",
-   "accessories": ["mic_headset"],
-   "eye": "happy", "brows": "worried", "mouth": "smile", "label_color": "#a29bfe",
-   "voice": {"id": "am_puck", "pitch": 1, "tempo": 1.08}}
+  {
+   "id": "gloria",
+   "name": "Gloria",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "curly",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#d63031",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#00b894",
+   "accessories": [
+    "party_hat:#00b894"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "blush": true,
+   "label_color": "#ff7675",
+   "voice": {
+    "id": "af_bella",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "hank",
+   "name": "Hank",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.08,
+   "hair": {
+    "style": "short",
+    "color": "#7f8c8d"
+   },
+   "top": {
+    "color": "#636e72",
+    "pattern": "suit",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#2d3436",
+   "accessories": [
+    "tie:#0984e3",
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#b2bec3",
+   "voice": {
+    "id": "am_adam",
+    "pitch": -1,
+    "tempo": 0.96
+   }
+  },
+  {
+   "id": "radio",
+   "name": "The Office Radio",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#e17055",
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "wyatt",
+   "name": "Wyatt",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 0.94,
+   "hair": {
+    "style": "mohawk",
+    "color": "#fdcb6e"
+   },
+   "top": {
+    "color": "#6c5ce7",
+    "pattern": "hoodie"
+   },
+   "bottom": "#636e72",
+   "shoes": "#ffffff",
+   "accessories": [
+    "mic_headset"
+   ],
+   "eye": "happy",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#a29bfe",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 1,
+    "tempo": 1.08
+   }
+  }
  ],
  "lines": [
-  {"spk": "hank", "text": "Reminder, everybody. No holiday music in this office until the Friday after Thanksgiving.", "shot": "CU", "gesture": "point"},
-  {"spk": "gloria", "text": "Hank, it is Tuesday. That is three days. I will not survive three days.", "shot": "gloria", "gesture": "arms_up"},
-  {"spk": "radio", "text": "I am the office radio. I have been playing the same weather report since March.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "hank", "text": "Friday. Twelve noon. Not one second sooner.", "shot": "CU", "gesture": "cross", "after": "sting"},
-  {"spk": "gloria", "text": "Fine. I will be quiet. Like a little snowflake.", "shot": "gloria", "gesture": "wave"},
-  {"spk": "radio", "text": "She was not quiet like a snowflake. She hummed for nine minutes.", "shot": "CU"},
-  {"spk": "hank", "text": "Gloria. Are you humming the one about the sleigh?", "shot": "TWO", "gesture": "hips"},
-  {"spk": "gloria", "text": "No. I am humming about a spreadsheet. A very festive spreadsheet.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "hank", "text": "Spreadsheets do not go jingle, Gloria.", "shot": "hank", "pre": 0.3},
-  {"spk": "gloria", "text": "Mine do. I color the cells red and green.", "shot": "CU", "gesture": "point", "after": "ding"},
-  {"spk": "radio", "text": "Plan two. She wore the sweater.", "shot": "CU", "gesture": "think"},
-  {"spk": "hank", "text": "Why is your sweater playing music?", "shot": "TWO", "gesture": "point"},
-  {"spk": "gloria", "text": "It has a button on the belly. I sat down too hard. It is an accident.", "shot": "gloria", "gesture": "shrug"},
-  {"spk": "hank", "text": "You have sat down too hard eleven times this morning.", "shot": "CU", "gesture": "cross"},
-  {"spk": "gloria", "text": "My chair is very low, Hank.", "shot": "gloria", "pre": 0.3},
-  {"spk": "hank", "text": "The sweater goes in the coat closet. With the umbrellas. It can think about what it did.", "shot": "CU", "gesture": "point", "after": "boing"},
-  {"spk": "radio", "text": "The sweater played alone in the closet until lunch. The umbrellas were not happy.", "shot": "CU"},
-  {"spk": "wyatt", "text": "Hi. I am Wyatt, the intern. Gloria told me to whistle near Hank.", "shot": "wyatt", "gesture": "wave"},
-  {"spk": "gloria", "text": "Wyatt. That was a secret plan. You were the secret.", "shot": "TWO", "gesture": "facepalm"},
-  {"spk": "wyatt", "text": "Sorry. I am new. I do not know which plans are secret yet.", "shot": "wyatt", "gesture": "shrug"},
-  {"spk": "hank", "text": "Wyatt, if you whistle one jingle, you are filing paper until New Year.", "shot": "CU", "gesture": "point"},
-  {"spk": "wyatt", "text": "I love paper. Is that a threat?", "shot": "wyatt", "pre": 0.3},
-  {"spk": "radio", "text": "Plan four. She typed the song on her keyboard, one key at a time.", "shot": "CU"},
-  {"spk": "gloria", "text": "Beep, boop, boop. Beep, boop, boop. Beep, boop, beep, boop, boop.", "shot": "gloria", "gesture": "talk"},
-  {"spk": "hank", "text": "That is not typing. You are typing a song at me.", "shot": "CU", "gesture": "hips"},
-  {"spk": "gloria", "text": "It is an email. To my mom. She will understand.", "shot": "gloria", "gesture": "shrug"},
-  {"spk": "hank", "text": "Gloria, why do you need it so badly?", "shot": "TWO"},
-  {"spk": "gloria", "text": "Because it is cold, Hank. The coffee machine is broken. I need the jingle.", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "radio", "text": "Final plan. She asked me directly.", "shot": "CU", "gesture": "think"},
-  {"spk": "gloria", "text": "Radio. Please. Just one little holiday song. Three days early.", "shot": "TWO", "gesture": "point"},
-  {"spk": "radio", "text": "I cannot. Hank put a sticky note on my power button. It says Friday.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "gloria", "text": "Who puts a sticky note on a radio?", "shot": "gloria", "gesture": "facepalm"},
-  {"spk": "radio", "text": "A man with a secret. I have seen his bottom drawer.", "shot": "CU", "pre": 0.6, "after": "record_scratch"},
-  {"spk": "hank", "text": "Radio. We talked about the drawer.", "shot": "hank", "gesture": "cross"},
-  {"spk": "wyatt", "text": "I am the intern. I open drawers. It is my whole job.", "shot": "wyatt", "jump": true},
-  {"spk": "wyatt", "text": "There is a trumpet in here. And a book called holiday songs for beginners.", "shot": "CU", "gesture": "point"},
-  {"spk": "gloria", "text": "Hank. Do you play the trumpet?", "shot": "gloria", "pre": 0.5},
-  {"spk": "hank", "text": "Since July. Every night. My neighbor moved his bed to the other wall.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "radio", "text": "He wants to play one song at the office party on Friday.", "shot": "CU"},
-  {"spk": "hank", "text": "If you all hear that song every day this week, you will be sick of it.", "shot": "CU", "gesture": "talk"},
-  {"spk": "hank", "text": "I wanted it to feel new. I wanted one moment where everybody looks at me and smiles.", "shot": "hank", "gesture": "think"},
-  {"spk": "gloria", "text": "Hank. That is the sweetest rule I have ever been mad at.", "shot": "TWO", "gesture": "arms_up"},
-  {"spk": "wyatt", "text": "Can you play it now? I might not be an intern on Friday.", "shot": "wyatt", "gesture": "point"},
-  {"spk": "hank", "text": "It is not ready. I only know the beginning. And part of the middle.", "shot": "CU"},
-  {"spk": "gloria", "text": "Please. Holiday music is allowed now. I am allowing it.", "shot": "gloria", "gesture": "hips"},
-  {"spk": "radio", "text": "I took the sticky note off myself. I am very brave today.", "shot": "CU", "gesture": "wave"},
-  {"spk": "hank", "text": "Okay. Everybody stand back. This is a loud instrument.", "shot": "W", "gesture": "arms_up", "after": "whoosh"},
-  {"spk": "radio", "text": "He played. It sounded like a goose that found out about taxes.", "shot": "CU", "pre": 0.8},
-  {"spk": "wyatt", "text": "My ears are filing a complaint.", "shot": "wyatt", "gesture": "facepalm"},
-  {"spk": "gloria", "text": "Hank. That was beautiful. Please never do it again before Friday.", "shot": "TWO", "gesture": "wave"},
-  {"spk": "hank", "text": "So you understand the rule now.", "shot": "CU", "gesture": "point"},
-  {"spk": "gloria", "text": "I understand the rule. I love the rule. The rule protects us.", "shot": "gloria", "gesture": "cross"},
-  {"spk": "hank", "text": "Then I will practice every night until Friday. Here. In the office.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "wyatt", "text": "I would like to go back to filing paper. Forever.", "shot": "wyatt", "pre": 0.3},
-  {"spk": "gloria", "text": "Radio, play something. Anything. The weather report. Please.", "shot": "TWO", "gesture": "arms_up"},
-  {"spk": "radio", "text": "New office rule. No holiday trumpet until the Friday after Thanksgiving.", "shot": "CU", "gesture": "point", "after": "applause"},
-  {"spk": "hank", "text": "That is my rule.", "shot": "hank", "pre": 0.3},
-  {"spk": "radio", "text": "It is my rule now. I put a sticky note on your trumpet.", "shot": "CU", "gesture": "cross", "after": "rimshot"}
+  {
+   "spk": "hank",
+   "text": "Reminder, everybody. No holiday music in this office until the Friday after Thanksgiving.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gloria",
+   "text": "Hank, that is three days. I will not survive.",
+   "shot": "gloria",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "radio",
+   "text": "I am the office radio. I have been playing the same weather report since March.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hank",
+   "text": "Friday. Twelve noon. Not one second sooner.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "sting"
+  },
+  {
+   "spk": "gloria",
+   "text": "Fine. I will be quiet. Like a little snowflake.",
+   "shot": "gloria",
+   "gesture": "wave"
+  },
+  {
+   "spk": "radio",
+   "text": "She was not quiet like a snowflake. She hummed for nine minutes.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hank",
+   "text": "Gloria. Are you humming the one about the sleigh?",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "gloria",
+   "text": "No. I am humming about a festive spreadsheet.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hank",
+   "text": "Spreadsheets do not go jingle, Gloria.",
+   "shot": "hank",
+   "pre": 0.3
+  },
+  {
+   "spk": "gloria",
+   "text": "Mine do. I color the cells red and green.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "ding"
+  },
+  {
+   "spk": "radio",
+   "text": "Plan two. She wore the sweater.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "hank",
+   "text": "Why is your sweater playing music?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "gloria",
+   "text": "There is a button on the belly. I sat down too hard.",
+   "shot": "gloria",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hank",
+   "text": "You have sat down too hard eleven times this morning.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gloria",
+   "text": "My chair is very low, Hank.",
+   "shot": "gloria",
+   "pre": 0.3
+  },
+  {
+   "spk": "hank",
+   "text": "The sweater goes in the closet. It can think about what it did.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "boing"
+  },
+  {
+   "spk": "wyatt",
+   "text": "Hi. I am Wyatt, the intern. Gloria told me to whistle near Hank.",
+   "shot": "wyatt",
+   "gesture": "wave"
+  },
+  {
+   "spk": "gloria",
+   "text": "Wyatt! You were the secret plan.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "wyatt",
+   "text": "Sorry. I am new.",
+   "shot": "wyatt",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "hank",
+   "text": "Wyatt, if you whistle one jingle, you are filing paper until New Year.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "wyatt",
+   "text": "I love paper. Is that a threat?",
+   "shot": "wyatt",
+   "pre": 0.3
+  },
+  {
+   "spk": "radio",
+   "text": "Plan four. She typed the song on her keyboard.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gloria",
+   "text": "Beep, boop, boop. Beep, boop, boop.",
+   "shot": "gloria",
+   "gesture": "talk"
+  },
+  {
+   "spk": "hank",
+   "text": "That is not typing. You are typing a song at me.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "gloria",
+   "text": "It is an email. To my mom. She will understand.",
+   "shot": "gloria",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "radio",
+   "text": "Final plan. She asked me directly.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "gloria",
+   "text": "Radio. Please. One little holiday song.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "radio",
+   "text": "I cannot. Hank put a sticky note on my power button. It says Friday.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gloria",
+   "text": "Who puts a sticky note on a radio?",
+   "shot": "gloria",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "radio",
+   "text": "A man with a secret. I have seen his bottom drawer.",
+   "shot": "CU",
+   "pre": 0.6,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "hank",
+   "text": "Radio. We talked about the drawer.",
+   "shot": "hank",
+   "gesture": "cross"
+  },
+  {
+   "spk": "wyatt",
+   "text": "I am the intern. I open drawers.",
+   "shot": "wyatt",
+   "jump": true
+  },
+  {
+   "spk": "wyatt",
+   "text": "There is a trumpet in here. And a book called holiday songs for beginners.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "gloria",
+   "text": "Hank. Do you play the trumpet?",
+   "shot": "gloria",
+   "pre": 0.5
+  },
+  {
+   "spk": "hank",
+   "text": "Since July. My neighbor moved his bed to the other wall.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "radio",
+   "text": "He wants to play one song at the office party on Friday.",
+   "shot": "CU"
+  },
+  {
+   "spk": "hank",
+   "text": "If you hear it all week, you will be sick of it.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "hank",
+   "text": "I wanted it to feel new. One moment where everybody smiles at me.",
+   "shot": "hank",
+   "gesture": "think"
+  },
+  {
+   "spk": "gloria",
+   "text": "Hank. That is the sweetest rule I have ever been mad at.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "wyatt",
+   "text": "Can you play it now? I might not be an intern on Friday.",
+   "shot": "wyatt",
+   "gesture": "point"
+  },
+  {
+   "spk": "hank",
+   "text": "It is not ready. I only know the beginning. And part of the middle.",
+   "shot": "CU"
+  },
+  {
+   "spk": "gloria",
+   "text": "Please. Holiday music is allowed now. I am allowing it.",
+   "shot": "gloria",
+   "gesture": "hips"
+  },
+  {
+   "spk": "radio",
+   "text": "I took the sticky note off myself. I am very brave today.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "hank",
+   "text": "Okay. Everybody stand back. This is a loud instrument.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "whoosh"
+  },
+  {
+   "spk": "radio",
+   "text": "He played. It sounded like a goose that found out about taxes.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "wyatt",
+   "text": "My ears are filing a complaint.",
+   "shot": "wyatt",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "gloria",
+   "text": "Hank. That was beautiful. Please never do it again before Friday.",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "hank",
+   "text": "Then I will practice here every night until Friday.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "wyatt",
+   "text": "I would like to go back to filing paper. Forever.",
+   "shot": "wyatt",
+   "pre": 0.3
+  },
+  {
+   "spk": "gloria",
+   "text": "Radio, play something. Anything. The weather report. Please.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "radio",
+   "text": "New office rule. No holiday trumpet until the Friday after Thanksgiving.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "applause"
+  },
+  {
+   "spk": "hank",
+   "text": "That is my rule.",
+   "shot": "hank",
+   "pre": 0.3
+  },
+  {
+   "spk": "radio",
+   "text": "It is my rule now. I put a sticky note on your trumpet.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "rimshot"
+  }
  ]
 }

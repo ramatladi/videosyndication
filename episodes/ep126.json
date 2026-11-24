@@ -171,7 +171,7 @@
   },
   {
    "spk": "keisha",
-   "text": "I will go first. I have been in a book club for two years.",
+   "text": "Me first. I have been in a book club for two years.",
    "shot": "CU"
   },
   {
@@ -228,27 +228,15 @@
   },
   {
    "spk": "marisol",
-   "text": "Fine. Mine is bigger. And it happened in this house.",
+   "text": "Mine is bigger. It happened in this house.",
    "shot": "CU",
    "gesture": "think",
    "pre": 0.5
   },
   {
-   "spk": "keisha",
-   "text": "Ooh. The house. Go.",
-   "shot": "keisha",
-   "jump": true
-  },
-  {
    "spk": "marisol",
    "text": "You know Grandma's crystal turkey dish? The one she only uses on Thanksgiving?",
    "shot": "CU"
-  },
-  {
-   "spk": "dev",
-   "text": "The one we are not allowed to look at directly?",
-   "shot": "dev",
-   "gesture": "point"
   },
   {
    "spk": "marisol",
@@ -264,13 +252,8 @@
    "pre": 0.6
   },
   {
-   "spk": "dev",
-   "text": "No, no, no.",
-   "shot": "dev"
-  },
-  {
    "spk": "marisol",
-   "text": "You said we listen and we do not judge. Your face is judging.",
+   "text": "We do not judge. Your face is judging.",
    "shot": "CU",
    "gesture": "hips"
   },
@@ -295,13 +278,13 @@
   },
   {
    "spk": "keisha",
-   "text": "I thought it was a very old crack. I thought, this dish has been through a lot.",
+   "text": "I thought it was a very old crack.",
    "shot": "CU",
    "gesture": "shrug"
   },
   {
    "spk": "dev",
-   "text": "Okay. I need to say something and I need everybody to listen and not judge.",
+   "text": "Okay. Listen, and do not judge.",
    "shot": "dev",
    "gesture": "talk"
   },
@@ -316,7 +299,7 @@
   },
   {
    "spk": "dev",
-   "text": "Twenty twenty two. I dropped it in the sink. I used the strong glue. The one for boats.",
+   "text": "Twenty twenty two. I dropped it in the sink. I used glue for boats.",
    "shot": "CU",
    "gesture": "facepalm"
   },
@@ -351,7 +334,7 @@
   },
   {
    "spk": "keisha",
-   "text": "We have to tell her. Tomorrow. At breakfast. Before the pancakes, so she is not holding a pan.",
+   "text": "We tell her at breakfast. Before the pancakes, so she is not holding a pan.",
    "shot": "CU"
   },
   {
@@ -363,7 +346,7 @@
   },
   {
    "spk": "dev",
-   "text": "Grandma! How long have you been in the doorway?",
+   "text": "Grandma! How long have you been there?",
    "shot": "dev",
    "jump": true
   },
@@ -375,7 +358,7 @@
   },
   {
    "spk": "marisol",
-   "text": "Grandma, we are so sorry about the turkey dish.",
+   "text": "Grandma, we are so sorry.",
    "shot": "marisol",
    "gesture": "facepalm"
   },
@@ -405,13 +388,13 @@
   },
   {
    "spk": "grandma",
-   "text": "It has been glued four times. It is mostly glue. It is a glue turkey.",
+   "text": "It has been glued four times. It is a glue turkey.",
    "shot": "CU",
    "gesture": "shrug"
   },
   {
    "spk": "marisol",
-   "text": "But it is crystal. It is the family treasure.",
+   "text": "But it is crystal.",
    "shot": "marisol"
   },
   {
@@ -434,7 +417,7 @@
   },
   {
    "spk": "dev",
-   "text": "Grandma, why did you give the three of us one air mattress?",
+   "text": "Grandma, why one air mattress?",
    "shot": "dev",
    "gesture": "think"
   },
@@ -451,14 +434,8 @@
    "gesture": "arms_up"
   },
   {
-   "spk": "marisol",
-   "text": "That is actually very sweet.",
-   "shot": "marisol",
-   "pre": 0.4
-  },
-  {
    "spk": "keisha",
-   "text": "Okay, Grandma, your turn. One more confession. We listen.",
+   "text": "Your turn, Grandma. We listen.",
    "shot": "keisha",
    "gesture": "point"
   },
@@ -488,7 +465,7 @@
   },
   {
    "spk": "keisha",
-   "text": "Grandma! We listen, and we do not judge. But I am judging a little.",
+   "text": "Grandma! We do not judge. But I am judging a little.",
    "shot": "W",
    "gesture": "facepalm"
   },
