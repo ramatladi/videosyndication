@@ -153,7 +153,7 @@
   },
   {
    "spk": "thermostat",
-   "text": "Good morning. It is sixty two degrees in this house. Nobody is allowed to touch me.",
+   "text": "It is sixty two degrees in this house. Nobody touches me.",
    "shot": "CU"
   },
   {
@@ -226,11 +226,6 @@
    "gesture": "cross"
   },
   {
-   "spk": "jasmine",
-   "text": "He is leaning on it right now. The ice maker is scared.",
-   "shot": "W"
-  },
-  {
    "spk": "tyler",
    "text": "I take my coffee black now.",
    "shot": "CU",
@@ -264,22 +259,6 @@
    "text": "The beanie is gray.",
    "shot": "CU",
    "pre": 0.6
-  },
-  {
-   "spk": "tyler",
-   "text": "I fix bikes now too.",
-   "shot": "CU",
-   "gesture": "shrug"
-  },
-  {
-   "spk": "jasmine",
-   "text": "You do not own a bike.",
-   "shot": "TWO"
-  },
-  {
-   "spk": "tyler",
-   "text": "That is why I am so good at it. Nothing has broken yet.",
-   "shot": "CU"
   },
   {
    "spk": "jasmine",
@@ -327,11 +306,6 @@
    "text": "Did my son just call me Ray?",
    "shot": "TWO",
    "gesture": "point"
-  },
-  {
-   "spk": "jasmine",
-   "text": "Since seven, Dad.",
-   "shot": "CU"
   },
   {
    "spk": "tyler",
@@ -392,11 +366,6 @@
    "gesture": "think"
   },
   {
-   "spk": "thermostat",
-   "text": "Big Ray. I have heard stories. None of them make sense.",
-   "shot": "CU"
-  },
-  {
    "spk": "ray",
    "text": "I said deep things at the ice rink. Your mother fell in love with me there.",
    "shot": "CU"
@@ -414,18 +383,13 @@
    "gesture": "shrug"
   },
   {
-   "spk": "ray",
-   "text": "Your grandpa wore it too. He talked like this for the whole winter of nineteen seventy one.",
-   "shot": "CU"
-  },
-  {
    "spk": "jasmine",
    "text": "So why put it in the back of the closet?",
    "shot": "CU"
   },
   {
    "spk": "ray",
-   "text": "I did not. I put it there every November. Then I make the house very, very cold.",
+   "text": "I put it there every November. Then I make the house very cold.",
    "shot": "CU",
    "gesture": "talk"
   },
@@ -469,12 +433,6 @@
    "text": "It does not go back. It chooses.",
    "shot": "CU",
    "gesture": "think"
-  },
-  {
-   "spk": "jasmine",
-   "text": "It is a hat, Tyler.",
-   "shot": "CU",
-   "gesture": "hips"
   },
   {
    "spk": "jasmine",
