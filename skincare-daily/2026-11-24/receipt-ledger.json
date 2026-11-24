@@ -121,13 +121,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "thvTtK5NHV0",
       "sku": "111331",
       "title": "Dermalogica Prisma Protect SPF30 Ingredients: What's on the Label #shorts",
       "manifest_slug": "capetown-prisma-protect-spf30-short",
       "media_sha256": "a59241e816546c171afb588f4fa878b029252382b7c734ee264dd367aaa89223",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-24T18:24:26Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -460,5 +461,5 @@
     "youtube_ids_recorded": 7,
     "producer_refreshed": "2026-11-24T04:34+02:00"
   },
-  "youtube_ids_recorded": 19
+  "youtube_ids_recorded": 20
 }
