@@ -10,96 +10,507 @@
  "scene": "bedroom",
  "desk": false,
  "music": "lofi",
- "intro": ["we listen", "and we don't judge", "cousins at grandma's"],
+ "intro": [
+  "we listen",
+  "and we don't judge",
+  "cousins at grandma's"
+ ],
  "youtube_title": "Three cousins, one air mattress, and the night we told the truth 🛏️",
  "description": "Keisha, Dev and Marisol are sharing one air mattress at Grandma's for Thanksgiving. The rule tonight: we listen and we don't judge. Then everybody confesses the same thing.\n\n#cartoon #animation #funny #cousins #shorts",
- "tags": ["cartoon", "animation", "funny", "comedy", "cartoons", "cousins", "grandma", "thanksgiving", "sleepover", "family secrets"],
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "cousins",
+  "grandma",
+  "thanksgiving",
+  "sleepover",
+  "family secrets"
+ ],
  "tiktok_caption": "we listen and we don't judge. cousins at grandma's edition 🛏️ #cartoon #animation #funny #cousins",
  "cast": [
-  {"id": "keisha", "name": "Keisha", "kind": "human", "color": "#6f4e37",
-   "hair": {"style": "afro", "color": "#1e130c"},
-   "top": {"color": "#00b894", "pattern": "hoodie"}, "bottom": "#636e72", "shoes": "#ffffff",
-   "accessories": ["headphones:#fdcb6e"],
-   "eye": "round", "brows": "raised", "mouth": "smile", "label_color": "#55efc4",
-   "voice": {"id": "af_jessica", "pitch": 0, "tempo": 1.03}},
-  {"id": "dev", "name": "Dev", "kind": "human", "color": "#b5764a", "scale": 1.05,
-   "hair": {"style": "spiky", "color": "#1e130c"},
-   "top": {"color": "#e17055", "pattern": "stripes", "pattern_color": "#ffeaa7"}, "bottom": "#2d3436", "shoes": "#0984e3",
-   "accessories": ["glasses"],
-   "eye": "big", "brows": "worried", "mouth": "smile", "label_color": "#fab1a0",
-   "voice": {"id": "am_eric", "pitch": 0, "tempo": 1.05}},
-  {"id": "marisol", "name": "Marisol", "kind": "human", "color": "#e0ac69", "scale": 0.96,
-   "hair": {"style": "ponytail", "color": "#4a2511"},
-   "top": {"color": "#a29bfe", "pattern": "dots", "pattern_color": "#ffffff"}, "bottom": "#2d3436", "shoes": "#fd79a8",
-   "accessories": ["beanie:#d63031"],
-   "eye": "sleepy", "brows": "neutral", "mouth": "flat", "label_color": "#a29bfe",
-   "voice": {"id": "af_aoede", "pitch": -1, "tempo": 0.97}},
-  {"id": "grandma", "name": "Grandma Rosalind", "kind": "human", "color": "#8d5524", "scale": 0.94,
-   "hair": {"style": "bun", "color": "#dfe6e9"},
-   "top": {"color": "#fd79a8", "pattern": "plain"}, "bottom": "#6c5ce7", "shoes": "#ffeaa7",
-   "accessories": ["glasses", "scarf:#00cec9"],
-   "eye": "happy", "brows": "raised", "mouth": "smile", "label_color": "#ffeaa7",
-   "voice": {"id": "bf_isabella", "pitch": -1, "tempo": 0.95}}
+  {
+   "id": "keisha",
+   "name": "Keisha",
+   "kind": "human",
+   "color": "#6f4e37",
+   "hair": {
+    "style": "afro",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#00b894",
+    "pattern": "hoodie"
+   },
+   "bottom": "#636e72",
+   "shoes": "#ffffff",
+   "accessories": [
+    "headphones:#fdcb6e"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "dev",
+   "name": "Dev",
+   "kind": "human",
+   "color": "#b5764a",
+   "scale": 1.05,
+   "hair": {
+    "style": "spiky",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#e17055",
+    "pattern": "stripes",
+    "pattern_color": "#ffeaa7"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#0984e3",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "marisol",
+   "name": "Marisol",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 0.96,
+   "hair": {
+    "style": "ponytail",
+    "color": "#4a2511"
+   },
+   "top": {
+    "color": "#a29bfe",
+    "pattern": "dots",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#fd79a8",
+   "accessories": [
+    "beanie:#d63031"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#a29bfe",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": -1,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "grandma",
+   "name": "Grandma Rosalind",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.94,
+   "hair": {
+    "style": "bun",
+    "color": "#dfe6e9"
+   },
+   "top": {
+    "color": "#fd79a8",
+    "pattern": "plain"
+   },
+   "bottom": "#6c5ce7",
+   "shoes": "#ffeaa7",
+   "accessories": [
+    "glasses",
+    "scarf:#00cec9"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#ffeaa7",
+   "voice": {
+    "id": "bf_isabella",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
  ],
  "lines": [
-  {"spk": "keisha", "text": "Okay. Phones down. Lights off. We listen, and we do not judge.", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "dev", "text": "Why are we doing this on an air mattress?", "shot": "dev", "gesture": "shrug"},
-  {"spk": "marisol", "text": "Because Grandma gave three grown adults one air mattress. We are bonding now.", "shot": "CU", "gesture": "cross"},
-  {"spk": "keisha", "text": "I will go first. I have been in a book club for two years.", "shot": "CU"},
-  {"spk": "keisha", "text": "I have never read a book. I go for the cheese.", "shot": "CU", "gesture": "shrug", "after": "ding"},
-  {"spk": ["dev", "marisol"], "text": "We listen, and we do not judge.", "shot": "W"},
-  {"spk": "keisha", "text": "There is a man named Gerald who brings brie. I would die for Gerald.", "shot": "keisha", "gesture": "think"},
-  {"spk": "dev", "text": "My turn. I tell everybody at work that I run marathons.", "shot": "CU", "gesture": "point"},
-  {"spk": "marisol", "text": "You do not run.", "shot": "marisol", "pre": 0.3},
-  {"spk": "dev", "text": "I ran one half of a fun run. I walked the fun part.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "dev", "text": "I bought the medal online. It says first place. Nobody asked what for.", "shot": "dev", "after": "boing"},
-  {"spk": ["keisha", "marisol"], "text": "We listen, and we do not judge.", "shot": "W"},
-  {"spk": "marisol", "text": "Fine. Mine is bigger. And it happened in this house.", "shot": "CU", "gesture": "think", "pre": 0.5},
-  {"spk": "keisha", "text": "Ooh. The house. Go.", "shot": "keisha", "jump": true},
-  {"spk": "marisol", "text": "You know Grandma's crystal turkey dish? The one she only uses on Thanksgiving?", "shot": "CU"},
-  {"spk": "dev", "text": "The one we are not allowed to look at directly?", "shot": "dev", "gesture": "point"},
-  {"spk": "marisol", "text": "Twenty eighteen. I broke it. I glued it back. Nobody noticed.", "shot": "CU", "gesture": "facepalm", "after": "sting"},
-  {"spk": "keisha", "text": "No.", "shot": "keisha", "pre": 0.6},
-  {"spk": "dev", "text": "No, no, no.", "shot": "dev"},
-  {"spk": "marisol", "text": "You said we listen and we do not judge. Your face is judging.", "shot": "CU", "gesture": "hips"},
-  {"spk": "keisha", "text": "My face is not judging. My face is remembering.", "shot": "keisha", "gesture": "think"},
-  {"spk": "keisha", "text": "Because I broke that turkey dish in twenty twenty. And I glued it back.", "shot": "CU", "gesture": "arms_up", "after": "record_scratch"},
-  {"spk": "marisol", "text": "You broke my glue?", "shot": "marisol", "pre": 0.4},
-  {"spk": "keisha", "text": "I thought it was a very old crack. I thought, this dish has been through a lot.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "dev", "text": "Okay. I need to say something and I need everybody to listen and not judge.", "shot": "dev", "gesture": "talk"},
-  {"spk": ["keisha", "marisol"], "text": "Dev.", "shot": "W", "pre": 0.3},
-  {"spk": "dev", "text": "Twenty twenty two. I dropped it in the sink. I used the strong glue. The one for boats.", "shot": "CU", "gesture": "facepalm"},
-  {"spk": "marisol", "text": "Why do you own glue for boats?", "shot": "marisol"},
-  {"spk": "dev", "text": "I wanted a boat. I got as far as the glue.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "keisha", "text": "So that turkey is held together by three cousins and a boat.", "shot": "W", "gesture": "point"},
-  {"spk": "marisol", "text": "Grandma puts the stuffing in it in two days.", "shot": "marisol", "gesture": "think"},
-  {"spk": "dev", "text": "What if it opens up at the table? Like a flower?", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "keisha", "text": "We have to tell her. Tomorrow. At breakfast. Before the pancakes, so she is not holding a pan.", "shot": "CU"},
-  {"spk": "grandma", "text": "No need, sweetheart. I am standing right here.", "shot": "grandma", "pre": 0.8, "after": "sting"},
-  {"spk": "dev", "text": "Grandma! How long have you been in the doorway?", "shot": "dev", "jump": true},
-  {"spk": "grandma", "text": "Since the cheese. Gerald sounds lovely.", "shot": "CU", "gesture": "wave"},
-  {"spk": "marisol", "text": "Grandma, we are so sorry about the turkey dish.", "shot": "marisol", "gesture": "facepalm"},
-  {"spk": "grandma", "text": "We listen, and we do not judge. Isn't that the rule?", "shot": "CU", "gesture": "point"},
-  {"spk": "keisha", "text": "Yes, ma'am.", "shot": "keisha", "pre": 0.3},
-  {"spk": "grandma", "text": "Then listen. I broke that dish in nineteen eighty seven. I was dancing in the kitchen.", "shot": "CU", "gesture": "think"},
-  {"spk": "dev", "text": "You broke it first?", "shot": "dev", "gesture": "arms_up"},
-  {"spk": "grandma", "text": "It has been glued four times. It is mostly glue. It is a glue turkey.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "marisol", "text": "But it is crystal. It is the family treasure.", "shot": "marisol"},
-  {"spk": "grandma", "text": "It came free with a full tank of gas. I just say crystal very slowly.", "shot": "CU", "gesture": "hips", "after": "rimshot"},
-  {"spk": "keisha", "text": "We were scared of a gas station turkey for our whole lives.", "shot": "TWO", "gesture": "facepalm"},
-  {"spk": "grandma", "text": "Fear is good for children. It keeps them out of the cabinets.", "shot": "CU"},
-  {"spk": "dev", "text": "Grandma, why did you give the three of us one air mattress?", "shot": "dev", "gesture": "think"},
-  {"spk": "grandma", "text": "Because in this house you three only talk to your phones.", "shot": "CU", "gesture": "point"},
-  {"spk": "grandma", "text": "Put you in one small bed, and look. Two hours of secrets.", "shot": "W", "gesture": "arms_up"},
-  {"spk": "marisol", "text": "That is actually very sweet.", "shot": "marisol", "pre": 0.4},
-  {"spk": "keisha", "text": "Okay, Grandma, your turn. One more confession. We listen.", "shot": "keisha", "gesture": "point"},
-  {"spk": "grandma", "text": "Hold on to something.", "shot": "CU", "pre": 0.5},
-  {"spk": "dev", "text": "Why is the mattress getting lower?", "shot": "dev", "gesture": "arms_up"},
-  {"spk": "marisol", "text": "Why is my head on the floor?", "shot": "marisol", "after": "whoosh"},
-  {"spk": "grandma", "text": "I let some air out before bed. Flat people do not stay up all night.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "keisha", "text": "Grandma! We listen, and we do not judge. But I am judging a little.", "shot": "W", "gesture": "facepalm"},
-  {"spk": "grandma", "text": "Good night, my loves. The pancakes are at eight. The pan stays with me.", "shot": "CU", "gesture": "wave"},
-  {"spk": "dev", "text": "Wait. Who let the air out last Thanksgiving?", "shot": "dev", "gesture": "think"},
-  {"spk": "grandma", "text": "That one was me too.", "shot": "CU", "gesture": "wave", "pre": 0.5, "after": "applause"}
+  {
+   "spk": "keisha",
+   "text": "Okay. Phones down. Lights off. We listen, and we do not judge.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dev",
+   "text": "Why are we doing this on an air mattress?",
+   "shot": "dev",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marisol",
+   "text": "Because Grandma gave three grown adults one air mattress. We are bonding now.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "keisha",
+   "text": "I will go first. I have been in a book club for two years.",
+   "shot": "CU"
+  },
+  {
+   "spk": "keisha",
+   "text": "I have never read a book. I go for the cheese.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": [
+    "dev",
+    "marisol"
+   ],
+   "text": "We listen, and we do not judge.",
+   "shot": "W"
+  },
+  {
+   "spk": "keisha",
+   "text": "There is a man named Gerald who brings brie. I would die for Gerald.",
+   "shot": "keisha",
+   "gesture": "think"
+  },
+  {
+   "spk": "dev",
+   "text": "My turn. I tell everybody at work that I run marathons.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marisol",
+   "text": "You do not run.",
+   "shot": "marisol",
+   "pre": 0.3
+  },
+  {
+   "spk": "dev",
+   "text": "I ran one half of a fun run. I walked the fun part.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dev",
+   "text": "I bought the medal online. It says first place. Nobody asked what for.",
+   "shot": "dev",
+   "after": "boing"
+  },
+  {
+   "spk": [
+    "keisha",
+    "marisol"
+   ],
+   "text": "We listen, and we do not judge.",
+   "shot": "W"
+  },
+  {
+   "spk": "marisol",
+   "text": "Fine. Mine is bigger. And it happened in this house.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.5
+  },
+  {
+   "spk": "keisha",
+   "text": "Ooh. The house. Go.",
+   "shot": "keisha",
+   "jump": true
+  },
+  {
+   "spk": "marisol",
+   "text": "You know Grandma's crystal turkey dish? The one she only uses on Thanksgiving?",
+   "shot": "CU"
+  },
+  {
+   "spk": "dev",
+   "text": "The one we are not allowed to look at directly?",
+   "shot": "dev",
+   "gesture": "point"
+  },
+  {
+   "spk": "marisol",
+   "text": "Twenty eighteen. I broke it. I glued it back. Nobody noticed.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "sting"
+  },
+  {
+   "spk": "keisha",
+   "text": "No.",
+   "shot": "keisha",
+   "pre": 0.6
+  },
+  {
+   "spk": "dev",
+   "text": "No, no, no.",
+   "shot": "dev"
+  },
+  {
+   "spk": "marisol",
+   "text": "You said we listen and we do not judge. Your face is judging.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "keisha",
+   "text": "My face is not judging. My face is remembering.",
+   "shot": "keisha",
+   "gesture": "think"
+  },
+  {
+   "spk": "keisha",
+   "text": "Because I broke that turkey dish in twenty twenty. And I glued it back.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "marisol",
+   "text": "You broke my glue?",
+   "shot": "marisol",
+   "pre": 0.4
+  },
+  {
+   "spk": "keisha",
+   "text": "I thought it was a very old crack. I thought, this dish has been through a lot.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dev",
+   "text": "Okay. I need to say something and I need everybody to listen and not judge.",
+   "shot": "dev",
+   "gesture": "talk"
+  },
+  {
+   "spk": [
+    "keisha",
+    "marisol"
+   ],
+   "text": "Dev.",
+   "shot": "W",
+   "pre": 0.3
+  },
+  {
+   "spk": "dev",
+   "text": "Twenty twenty two. I dropped it in the sink. I used the strong glue. The one for boats.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "marisol",
+   "text": "Why do you own glue for boats?",
+   "shot": "marisol"
+  },
+  {
+   "spk": "dev",
+   "text": "I wanted a boat. I got as far as the glue.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "keisha",
+   "text": "So that turkey is held together by three cousins and a boat.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "marisol",
+   "text": "Grandma puts the stuffing in it in two days.",
+   "shot": "marisol",
+   "gesture": "think"
+  },
+  {
+   "spk": "dev",
+   "text": "What if it opens up at the table? Like a flower?",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "keisha",
+   "text": "We have to tell her. Tomorrow. At breakfast. Before the pancakes, so she is not holding a pan.",
+   "shot": "CU"
+  },
+  {
+   "spk": "grandma",
+   "text": "No need, sweetheart. I am standing right here.",
+   "shot": "grandma",
+   "pre": 0.8,
+   "after": "sting"
+  },
+  {
+   "spk": "dev",
+   "text": "Grandma! How long have you been in the doorway?",
+   "shot": "dev",
+   "jump": true
+  },
+  {
+   "spk": "grandma",
+   "text": "Since the cheese. Gerald sounds lovely.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "marisol",
+   "text": "Grandma, we are so sorry about the turkey dish.",
+   "shot": "marisol",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "grandma",
+   "text": "We listen, and we do not judge. Isn't that the rule?",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "keisha",
+   "text": "Yes, ma'am.",
+   "shot": "keisha",
+   "pre": 0.3
+  },
+  {
+   "spk": "grandma",
+   "text": "Then listen. I broke that dish in nineteen eighty seven. I was dancing in the kitchen.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dev",
+   "text": "You broke it first?",
+   "shot": "dev",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "grandma",
+   "text": "It has been glued four times. It is mostly glue. It is a glue turkey.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marisol",
+   "text": "But it is crystal. It is the family treasure.",
+   "shot": "marisol"
+  },
+  {
+   "spk": "grandma",
+   "text": "It came free with a full tank of gas. I just say crystal very slowly.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "rimshot"
+  },
+  {
+   "spk": "keisha",
+   "text": "We were scared of a gas station turkey for our whole lives.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "grandma",
+   "text": "Fear is good for children. It keeps them out of the cabinets.",
+   "shot": "CU"
+  },
+  {
+   "spk": "dev",
+   "text": "Grandma, why did you give the three of us one air mattress?",
+   "shot": "dev",
+   "gesture": "think"
+  },
+  {
+   "spk": "grandma",
+   "text": "Because in this house you three only talk to your phones.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "grandma",
+   "text": "Put you in one small bed, and look. Two hours of secrets.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marisol",
+   "text": "That is actually very sweet.",
+   "shot": "marisol",
+   "pre": 0.4
+  },
+  {
+   "spk": "keisha",
+   "text": "Okay, Grandma, your turn. One more confession. We listen.",
+   "shot": "keisha",
+   "gesture": "point"
+  },
+  {
+   "spk": "grandma",
+   "text": "Hold on to something.",
+   "shot": "CU",
+   "pre": 0.5
+  },
+  {
+   "spk": "dev",
+   "text": "Why is the mattress getting lower?",
+   "shot": "dev",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marisol",
+   "text": "Why is my head on the floor?",
+   "shot": "marisol",
+   "after": "whoosh"
+  },
+  {
+   "spk": "grandma",
+   "text": "I let some air out before bed. Flat people do not stay up all night.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "keisha",
+   "text": "Grandma! We listen, and we do not judge. But I am judging a little.",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "grandma",
+   "text": "Good night, my loves. The pancakes are at eight. The pan stays with me.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "dev",
+   "text": "Wait. Who let the air out last Thanksgiving?",
+   "shot": "dev",
+   "gesture": "think"
+  },
+  {
+   "spk": "grandma",
+   "text": "That one was me too.",
+   "shot": "CU",
+   "gesture": "wave",
+   "pre": 0.5,
+   "after": "applause"
+  }
  ]
 }
