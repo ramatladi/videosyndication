@@ -38,28 +38,49 @@
    "shape": "box",
    "color": "#ecf0f1",
    "scale": 1.12,
-   "accessories": ["glasses", "tie:#0984e3"],
+   "accessories": [
+    "glasses",
+    "tie:#0984e3"
+   ],
    "eye": "sleepy",
    "brows": "neutral",
    "mouth": "flat",
    "label_color": "#74b9ff",
-   "voice": {"id": "bm_daniel", "pitch": -1, "tempo": 0.97}
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": -1,
+    "tempo": 0.97
+   }
   },
   {
    "id": "jordan",
    "name": "Jordan",
    "kind": "human",
    "color": "#c68642",
-   "hair": {"style": "curly", "color": "#2d1b0e"},
-   "top": {"color": "#00b894", "pattern": "stripes", "pattern_color": "#ffffff"},
+   "hair": {
+    "style": "curly",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#00b894",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
    "bottom": "#2d3436",
    "shoes": "#ffffff",
-   "accessories": ["glasses", "bow:#fdcb6e"],
+   "accessories": [
+    "glasses",
+    "bow:#fdcb6e"
+   ],
    "eye": "big",
    "brows": "raised",
    "mouth": "smile",
    "label_color": "#55efc4",
-   "voice": {"id": "af_kore", "pitch": 0, "tempo": 1.05}
+   "voice": {
+    "id": "af_kore",
+    "pitch": 0,
+    "tempo": 1.05
+   }
   },
   {
    "id": "kai",
@@ -67,16 +88,28 @@
    "kind": "human",
    "color": "#f1c27d",
    "scale": 1.05,
-   "hair": {"style": "spiky", "color": "#e17055"},
-   "top": {"color": "#e17055", "pattern": "hoodie"},
+   "hair": {
+    "style": "spiky",
+    "color": "#e17055"
+   },
+   "top": {
+    "color": "#e17055",
+    "pattern": "hoodie"
+   },
    "bottom": "#636e72",
    "shoes": "#2d3436",
-   "accessories": ["beanie:#2d3436"],
+   "accessories": [
+    "beanie:#2d3436"
+   ],
    "eye": "sleepy",
    "brows": "neutral",
    "mouth": "smile",
    "label_color": "#fab1a0",
-   "voice": {"id": "am_puck", "pitch": 0, "tempo": 1.0}
+   "voice": {
+    "id": "am_puck",
+    "pitch": 0,
+    "tempo": 1.0
+   }
   },
   {
    "id": "dana",
@@ -84,71 +117,340 @@
    "kind": "human",
    "color": "#8d5524",
    "scale": 0.92,
-   "hair": {"style": "ponytail", "color": "#1e130c"},
-   "top": {"color": "#a29bfe", "pattern": "plain"},
+   "hair": {
+    "style": "ponytail",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#a29bfe",
+    "pattern": "plain"
+   },
    "bottom": "#2d3436",
    "shoes": "#dfe6e9",
-   "accessories": ["headphones:#fdcb6e"],
+   "accessories": [
+    "headphones:#fdcb6e"
+   ],
    "eye": "round",
    "brows": "worried",
    "mouth": "flat",
    "label_color": "#a29bfe",
-   "voice": {"id": "af_nicole", "pitch": 0, "tempo": 0.98}
+   "voice": {
+    "id": "af_nicole",
+    "pitch": 0,
+    "tempo": 0.98
+   }
   }
  ],
  "lines": [
-  {"spk": "fridge", "text": "I am the fridge. I have seen everything. Day one.", "shot": "CU", "gesture": "talk"},
-  {"spk": "jordan", "text": "Hi roomie! I labeled the shelves. Top shelf, Jordan. Middle shelf, Kai.", "shot": "CU", "gesture": "wave", "jump": true},
-  {"spk": "kai", "text": "Wow. Is it okay if I put my yogurt here?", "shot": "TWO", "gesture": "point"},
-  {"spk": "jordan", "text": "Of course, friend! What is mine is yours. Except the oat milk.", "shot": "jordan", "gesture": "arms_up"},
-  {"spk": "fridge", "text": "They made a chore chart. With stickers. Gold stars.", "shot": "fridge", "gesture": "shrug"},
-  {"spk": "kai", "text": "I will take out the trash every Tuesday. With joy.", "shot": "kai", "gesture": "hips"},
-  {"spk": "jordan", "text": "We are going to be best friends forever.", "shot": "W", "gesture": "arms_up", "after": "ding"},
-  {"spk": "fridge", "text": "I gave it six months. Month six.", "shot": "fridge", "gesture": "talk", "pre": 0.6, "after": "whoosh"},
-  {"spk": "fridge", "text": "They do not talk anymore. They write notes. On me.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "fridge", "text": "Note one. To whoever ate my yogurt. I know.", "shot": "fridge", "gesture": "talk"},
-  {"spk": "fridge", "text": "Note two. Nobody ate your yogurt. Yogurt leaves on its own sometimes.", "shot": "fridge", "gesture": "talk"},
-  {"spk": "jordan", "text": "Kai. It is Tuesday. The trash is taller than me.", "shot": "jordan", "gesture": "point"},
-  {"spk": "kai", "text": "The trash is resting. It had a big week.", "shot": "kai", "gesture": "shrug"},
-  {"spk": "fridge", "text": "The chore chart has one sticker left. It is on the cat.", "shot": "fridge", "gesture": "talk"},
-  {"spk": "jordan", "text": "We do not have a cat.", "shot": "jordan", "gesture": "facepalm", "pre": 0.5},
-  {"spk": "kai", "text": "Then whose cat is that?", "shot": "kai", "gesture": "think", "after": "record_scratch"},
-  {"spk": "fridge", "text": "Nobody knows. Year one.", "shot": "fridge", "gesture": "talk", "pre": 0.6, "after": "whoosh"},
-  {"spk": "fridge", "text": "There is one fork left. They share it. They take turns.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "kai", "text": "Fork.", "shot": "kai", "gesture": "point"},
-  {"spk": "jordan", "text": "Fork.", "shot": "jordan", "gesture": "point"},
-  {"spk": "fridge", "text": "That is how they say good morning now.", "shot": "fridge", "gesture": "talk"},
-  {"spk": "jordan", "text": "I am eating cereal out of the pot because the bowls are a memory.", "shot": "jordan", "gesture": "shrug"},
-  {"spk": "kai", "text": "I put a sock in the crisper drawer. For later.", "shot": "kai", "gesture": "hips"},
-  {"spk": "fridge", "text": "It is a clean sock. That is the worst part. He is saving it.", "shot": "fridge", "gesture": "facepalm"},
-  {"spk": "jordan", "text": "And somebody still eats my yogurt. Every week. One year.", "shot": "jordan", "gesture": "cross"},
-  {"spk": "kai", "text": "Not me. I have not paid for food since the move.", "shot": "kai", "gesture": "shrug"},
-  {"spk": "jordan", "text": "Or rent. You have not paid rent since the move.", "shot": "jordan", "gesture": "point"},
-  {"spk": "kai", "text": "Why would I pay rent? I am not on the lease.", "shot": "kai", "gesture": "shrug", "pre": 0.4},
-  {"spk": "jordan", "text": "What do you mean you are not on the lease?", "shot": "TWO", "gesture": "arms_up", "after": "sting"},
-  {"spk": "kai", "text": "I came to help you carry the couch. Day one. The couch was heavy. I stayed.", "shot": "kai", "gesture": "talk"},
-  {"spk": "jordan", "text": "I thought you were my roommate!", "shot": "jordan", "gesture": "facepalm"},
-  {"spk": "kai", "text": "I thought you were my roommate. I live here. I have a sock here.", "shot": "kai", "gesture": "arms_up"},
-  {"spk": "jordan", "text": "Then who has been paying the other half of the rent?", "shot": "W", "gesture": "think", "pre": 0.8},
-  {"spk": "dana", "text": "Hi. That would be me.", "shot": "dana", "gesture": "wave", "after": "sting"},
-  {"spk": "jordan", "text": "Who are you? Where did you come from?", "shot": "jordan", "gesture": "arms_up", "jump": true},
-  {"spk": "dana", "text": "I am Dana. The small room. Next to the bathroom. I moved in day one too.", "shot": "dana", "gesture": "point"},
-  {"spk": "kai", "text": "I thought that was a closet with a door.", "shot": "kai", "gesture": "think"},
-  {"spk": "dana", "text": "It is a closet with a door. And a bed. And a little lamp. It is nice.", "shot": "dana", "gesture": "talk"},
-  {"spk": "fridge", "text": "She is very quiet. She pays on time. She is my favorite.", "shot": "fridge", "gesture": "talk"},
-  {"spk": "jordan", "text": "You knew? You never said anything!", "shot": "jordan", "gesture": "point"},
-  {"spk": "fridge", "text": "I am a fridge. Nobody asks me anything. They just open me and stare.", "shot": "fridge", "gesture": "shrug"},
-  {"spk": "dana", "text": "Also, the yogurt. That was me. I am so sorry. It was on my shelf.", "shot": "dana", "gesture": "facepalm"},
-  {"spk": "jordan", "text": "There is no Dana shelf.", "shot": "jordan", "gesture": "cross"},
-  {"spk": "dana", "text": "The bottom shelf. I labeled it day one. In very small letters.", "shot": "dana", "gesture": "point"},
-  {"spk": "fridge", "text": "It is true. It says Dana. It is behind the pickles. Nobody moves the pickles.", "shot": "fridge", "gesture": "talk", "after": "rimshot"},
-  {"spk": "kai", "text": "So if Dana is the roommate, then what am I?", "shot": "kai", "gesture": "think"},
-  {"spk": "fridge", "text": "A guest. For one year. The longest couch in history.", "shot": "fridge", "gesture": "talk"},
-  {"spk": "jordan", "text": "Okay. New rules. Kai pays rent. Dana gets a real room.", "shot": "jordan", "gesture": "point"},
-  {"spk": "kai", "text": "Fine. Can I at least keep the sock?", "shot": "kai", "gesture": "shrug"},
-  {"spk": "jordan", "text": "No.", "shot": "jordan", "gesture": "cross"},
-  {"spk": "dana", "text": "So. Is it okay if I put my yogurt here?", "shot": "W", "gesture": "point", "pre": 0.6},
-  {"spk": "jordan", "text": "Of course, friend!", "shot": "jordan", "gesture": "arms_up"},
-  {"spk": "fridge", "text": "Day one. Again. I give it six months.", "shot": "fridge", "gesture": "shrug", "after": "ding"}
+  {
+   "spk": "fridge",
+   "text": "I am the fridge. I have seen everything. Day one.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jordan",
+   "text": "Hi roomie! I labeled the shelves. Top shelf, Jordan. Middle shelf, Kai.",
+   "shot": "CU",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "kai",
+   "text": "Wow. Is it okay if I put my yogurt here?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "jordan",
+   "text": "Of course, friend! What is mine is yours. Except the oat milk.",
+   "shot": "jordan",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "fridge",
+   "text": "They made a chore chart. With stickers. Gold stars.",
+   "shot": "fridge",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kai",
+   "text": "I will take out the trash every Tuesday. With joy.",
+   "shot": "kai",
+   "gesture": "hips"
+  },
+  {
+   "spk": "jordan",
+   "text": "We are going to be best friends forever.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "ding"
+  },
+  {
+   "spk": "fridge",
+   "text": "I gave it six months. Month six.",
+   "shot": "fridge",
+   "gesture": "talk",
+   "pre": 0.6,
+   "after": "whoosh"
+  },
+  {
+   "spk": "fridge",
+   "text": "They do not talk anymore. They write notes. On me.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "fridge",
+   "text": "Note one. To whoever ate my yogurt. I know.",
+   "shot": "fridge",
+   "gesture": "talk"
+  },
+  {
+   "spk": "fridge",
+   "text": "Note two. Nobody ate your yogurt. Yogurt leaves on its own sometimes.",
+   "shot": "fridge",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jordan",
+   "text": "Kai. It is Tuesday. The trash is taller than me.",
+   "shot": "jordan",
+   "gesture": "point"
+  },
+  {
+   "spk": "kai",
+   "text": "The trash is resting. It had a big week.",
+   "shot": "kai",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "fridge",
+   "text": "The chore chart has one sticker left. It is on the cat.",
+   "shot": "fridge",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jordan",
+   "text": "We do not have a cat.",
+   "shot": "jordan",
+   "gesture": "facepalm",
+   "pre": 0.5
+  },
+  {
+   "spk": "kai",
+   "text": "Then whose cat is that?",
+   "shot": "kai",
+   "gesture": "think",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "fridge",
+   "text": "Nobody knows. Year one.",
+   "shot": "fridge",
+   "gesture": "talk",
+   "pre": 0.6,
+   "after": "whoosh"
+  },
+  {
+   "spk": "fridge",
+   "text": "There is one fork left. They share it. They take turns.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kai",
+   "text": "Fork.",
+   "shot": "kai",
+   "gesture": "point"
+  },
+  {
+   "spk": "jordan",
+   "text": "Fork.",
+   "shot": "jordan",
+   "gesture": "point"
+  },
+  {
+   "spk": "fridge",
+   "text": "That is how they say good morning now.",
+   "shot": "fridge",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jordan",
+   "text": "I am eating cereal out of the pot because the bowls are a memory.",
+   "shot": "jordan",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "kai",
+   "text": "I put a sock in the crisper drawer. For later.",
+   "shot": "kai",
+   "gesture": "hips"
+  },
+  {
+   "spk": "fridge",
+   "text": "It is a clean sock. He is saving it.",
+   "shot": "fridge",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jordan",
+   "text": "And somebody still eats my yogurt. Every week. One year.",
+   "shot": "jordan",
+   "gesture": "cross"
+  },
+  {
+   "spk": "kai",
+   "text": "Not me. I have not paid for food since the move.",
+   "shot": "kai",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jordan",
+   "text": "Or rent. You have not paid rent since the move.",
+   "shot": "jordan",
+   "gesture": "point"
+  },
+  {
+   "spk": "kai",
+   "text": "Why would I pay rent? I am not on the lease.",
+   "shot": "kai",
+   "gesture": "shrug",
+   "pre": 0.4
+  },
+  {
+   "spk": "jordan",
+   "text": "What do you mean you are not on the lease?",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "kai",
+   "text": "I came to help you carry the couch. Day one. The couch was heavy. I stayed.",
+   "shot": "kai",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jordan",
+   "text": "I thought you were my roommate!",
+   "shot": "jordan",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "kai",
+   "text": "I thought you were my roommate. I live here. I have a sock here.",
+   "shot": "kai",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jordan",
+   "text": "Then who has been paying the other half of the rent?",
+   "shot": "W",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "dana",
+   "text": "Hi. That would be me.",
+   "shot": "dana",
+   "gesture": "wave",
+   "after": "sting"
+  },
+  {
+   "spk": "jordan",
+   "text": "Who are you? Where did you come from?",
+   "shot": "jordan",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "dana",
+   "text": "I am Dana. The small room. Next to the bathroom. I moved in day one too.",
+   "shot": "dana",
+   "gesture": "point"
+  },
+  {
+   "spk": "kai",
+   "text": "I thought that was a closet with a door.",
+   "shot": "kai",
+   "gesture": "think"
+  },
+  {
+   "spk": "dana",
+   "text": "It is a closet with a door. And a bed. And a little lamp. It is nice.",
+   "shot": "dana",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jordan",
+   "text": "You knew? You never said anything!",
+   "shot": "jordan",
+   "gesture": "point"
+  },
+  {
+   "spk": "fridge",
+   "text": "I am a fridge. Nobody asks me anything. They just open me and stare.",
+   "shot": "fridge",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dana",
+   "text": "Also, the yogurt. That was me. I am so sorry. It was on my shelf.",
+   "shot": "dana",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jordan",
+   "text": "There is no Dana shelf.",
+   "shot": "jordan",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dana",
+   "text": "The bottom shelf. I labeled it day one. In very small letters.",
+   "shot": "dana",
+   "gesture": "point"
+  },
+  {
+   "spk": "fridge",
+   "text": "It is true. It says Dana. It is behind the pickles. Nobody moves the pickles.",
+   "shot": "fridge",
+   "gesture": "talk",
+   "after": "rimshot"
+  },
+  {
+   "spk": "kai",
+   "text": "So if Dana is the roommate, then what am I?",
+   "shot": "kai",
+   "gesture": "think"
+  },
+  {
+   "spk": "fridge",
+   "text": "A guest. For one year. The longest couch in history.",
+   "shot": "fridge",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dana",
+   "text": "So. Is it okay if I put my yogurt here?",
+   "shot": "W",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "jordan",
+   "text": "Of course, friend!",
+   "shot": "jordan",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "fridge",
+   "text": "Day one. Again. I give it six months.",
+   "shot": "fridge",
+   "gesture": "shrug",
+   "after": "ding"
+  }
  ]
 }

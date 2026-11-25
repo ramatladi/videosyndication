@@ -1,0 +1,454 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 133,
+ "slug": "expectation-vs-reality-road-trip",
+ "title": "Expectation Versus Reality: The Drive",
+ "trend": "TikTok 'Expectation vs reality' (a calm setup, then the face changes; Peaking, Postdom TikTok trends week of Nov 23-29 2026, updated Nov 24 2026, US) + the biggest travel night of the year before Thanksgiving and the high wind watch (Google Trends US past 24h, 'high wind watch' 100K+, related 'thanksgiving 2026', Nov 24 2026) — Gwen narrates what she expected from the drive to Grandma's and the phone navigation answers with the reality: leaving at six (Teddy went back three times — the charger, the pie, the other pie), a sweet singalong (the wind opened the roof bag and a pillow landed on a cow), a quick stop (forty five minutes and jerky the size of an arm); twist: the navigation was set to 'Grandma', which is their own house, because Grandma is hosting at their place this year and has waited on their porch since six with a turkey; they drove four hours in a circle; button: Grandma's own expectation vs reality — she ate one pie",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "street_night",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "expectation vs reality:",
+  "driving to grandma's",
+  "the night before thanksgiving"
+ ],
+ "youtube_title": "Expectation vs reality: driving to Grandma's the night before Thanksgiving 🚗",
+ "description": "Gwen had a plan: leave at six, sing the whole way, be at Grandma's by nine. Teddy forgot the pie. The wind took the pillows. The phone knows exactly where they are going.\n\n#cartoon #animation #funny #thanksgiving #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "thanksgiving",
+  "road trip",
+  "grandma",
+  "couple",
+  "holiday travel"
+ ],
+ "tiktok_caption": "expectation vs reality: driving to grandma's the night before thanksgiving 🚗 #cartoon #animation #funny #thanksgiving",
+ "cast": [
+  {
+   "id": "gwen",
+   "name": "Gwen",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "long",
+    "color": "#c0392b"
+   },
+   "top": {
+    "color": "#0984e3",
+    "pattern": "plain"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#ffffff",
+   "accessories": [
+    "scarf:#fdcb6e",
+    "sunglasses"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#74b9ff",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "teddy",
+   "name": "Teddy",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.1,
+   "hair": {
+    "style": "short",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#d63031",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "12"
+   },
+   "bottom": "#636e72",
+   "shoes": "#2d3436",
+   "accessories": [
+    "beard:#1e130c",
+    "cap:#2d3436"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#ff7675",
+   "voice": {
+    "id": "am_eric",
+    "pitch": -1,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "phone",
+   "name": "The Phone",
+   "kind": "mascot",
+   "shape": "phone",
+   "color": "#2d3436",
+   "case": "#00b894",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "bf_emma",
+    "pitch": 0,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "lou",
+   "name": "Grandma Lou",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 0.9,
+   "hair": {
+    "style": "curly",
+    "color": "#ecf0f1"
+   },
+   "top": {
+    "color": "#6c5ce7",
+    "pattern": "apron",
+    "pattern_color": "#ffeaa7"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#b2bec3",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#a29bfe",
+   "voice": {
+    "id": "af_bella",
+    "pitch": -2,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "gwen",
+   "text": "Expectation. We leave at six. We beat the traffic. We are at Grandma's by nine.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "phone",
+   "text": "Reality. It is seven forty. You are still in the driveway.",
+   "shot": "phone",
+   "gesture": "talk",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "teddy",
+   "text": "Sorry. Sorry. I forgot the charger.",
+   "shot": "teddy",
+   "gesture": "wave"
+  },
+  {
+   "spk": "phone",
+   "text": "He went back for the charger. Then the pie. Then the other pie.",
+   "shot": "phone",
+   "gesture": "talk"
+  },
+  {
+   "spk": "teddy",
+   "text": "You cannot bring one pie. One pie is a threat.",
+   "shot": "teddy",
+   "gesture": "point"
+  },
+  {
+   "spk": "gwen",
+   "text": "Okay. Okay. We are moving. That is what matters.",
+   "shot": "gwen",
+   "gesture": "talk"
+  },
+  {
+   "spk": "phone",
+   "text": "You are moving backwards. He is reversing to get the pie server.",
+   "shot": "phone",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "gwen",
+   "text": "Expectation. A cozy drive. We sing songs. We hold hands.",
+   "shot": "gwen",
+   "gesture": "arms_up",
+   "pre": 0.5
+  },
+  {
+   "spk": "phone",
+   "text": "Reality. There is a high wind watch. The roof bag is open.",
+   "shot": "phone",
+   "gesture": "talk"
+  },
+  {
+   "spk": "gwen",
+   "text": "What do you mean open?",
+   "shot": "gwen",
+   "gesture": "think"
+  },
+  {
+   "spk": "phone",
+   "text": "Your pillows are leaving. One by one. Like little birds.",
+   "shot": "phone",
+   "gesture": "point",
+   "after": "whoosh"
+  },
+  {
+   "spk": "teddy",
+   "text": "My pillow just landed on a cow.",
+   "shot": "teddy",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "phone",
+   "text": "The cow is keeping it. The cow looks very comfortable.",
+   "shot": "phone",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gwen",
+   "text": "Fine. We still have each other. Sing with me, Teddy.",
+   "shot": "gwen",
+   "gesture": "talk"
+  },
+  {
+   "spk": "teddy",
+   "text": "I only know one song. It is the one about the truck.",
+   "shot": "teddy",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "phone",
+   "text": "He sang the truck song for one hundred and eleven miles.",
+   "shot": "phone",
+   "gesture": "talk"
+  },
+  {
+   "spk": "gwen",
+   "text": "Expectation. One quick stop. Five minutes. In and out.",
+   "shot": "gwen",
+   "gesture": "point",
+   "pre": 0.5
+  },
+  {
+   "spk": "phone",
+   "text": "Reality. Forty five minutes at a gas station.",
+   "shot": "phone",
+   "gesture": "talk"
+  },
+  {
+   "spk": "teddy",
+   "text": "They had jerky the size of my arm. I had to think about it.",
+   "shot": "teddy",
+   "gesture": "think"
+  },
+  {
+   "spk": "phone",
+   "text": "He thought about it for twenty minutes. He talked to it.",
+   "shot": "phone",
+   "gesture": "talk"
+  },
+  {
+   "spk": "teddy",
+   "text": "We have a bond now. Her name is Barbara.",
+   "shot": "teddy",
+   "gesture": "hips",
+   "after": "rimshot"
+  },
+  {
+   "spk": "gwen",
+   "text": "Please just tell me how long until Grandma's house.",
+   "shot": "gwen",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "phone",
+   "text": "In two hundred feet, your destination is on the right.",
+   "shot": "phone",
+   "gesture": "point"
+  },
+  {
+   "spk": "gwen",
+   "text": "Already? That was fast. Grandma lives four hours away.",
+   "shot": "gwen",
+   "gesture": "think"
+  },
+  {
+   "spk": "teddy",
+   "text": "Hey, that mailbox looks like our mailbox.",
+   "shot": "teddy",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "gwen",
+   "text": "That is our mailbox. That is our house. Why are we home?",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "phone",
+   "text": "You told me to go to Grandma. This is where Grandma is.",
+   "shot": "phone",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "lou",
+   "text": "Hello, darlings. I have been on your porch since six.",
+   "shot": "lou",
+   "gesture": "wave"
+  },
+  {
+   "spk": "gwen",
+   "text": "Grandma? What are you doing at our house?",
+   "shot": "gwen",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "lou",
+   "text": "You are hosting this year. We decided in July. You said, sounds great.",
+   "shot": "lou",
+   "gesture": "point"
+  },
+  {
+   "spk": "teddy",
+   "text": "I say sounds great to everything. I said it to a pigeon once.",
+   "shot": "teddy",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "gwen",
+   "text": "So we drove four hours in a circle.",
+   "shot": "gwen",
+   "gesture": "facepalm",
+   "pre": 0.5
+  },
+  {
+   "spk": "phone",
+   "text": "A very big circle. I tried to tell you. You turned me down for the truck song.",
+   "shot": "phone",
+   "gesture": "talk"
+  },
+  {
+   "spk": "lou",
+   "text": "I brought the turkey. It is in the car. It has been riding shotgun.",
+   "shot": "lou",
+   "gesture": "talk"
+  },
+  {
+   "spk": "teddy",
+   "text": "Wait. If we are hosting, who is cooking?",
+   "shot": "teddy",
+   "gesture": "think"
+  },
+  {
+   "spk": "lou",
+   "text": "Expectation. You two cook, and I sit with my feet up.",
+   "shot": "lou",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "gwen",
+   "text": "Reality. Teddy can only make toast. And sometimes not toast.",
+   "shot": "gwen",
+   "gesture": "point"
+  },
+  {
+   "spk": "teddy",
+   "text": "I can also make the truck song.",
+   "shot": "teddy",
+   "gesture": "hips"
+  },
+  {
+   "spk": "lou",
+   "text": "Please do not make the truck song.",
+   "shot": "lou",
+   "gesture": "cross"
+  },
+  {
+   "spk": "gwen",
+   "text": "Okay. At least we brought two pies. Teddy, get the pies.",
+   "shot": "gwen",
+   "gesture": "point"
+  },
+  {
+   "spk": "teddy",
+   "text": "The pies were in the roof bag.",
+   "shot": "teddy",
+   "gesture": "shrug",
+   "pre": 0.8
+  },
+  {
+   "spk": "phone",
+   "text": "The cow has the pies now. The cow is having a very good Thanksgiving.",
+   "shot": "phone",
+   "gesture": "talk",
+   "after": "boing"
+  },
+  {
+   "spk": "gwen",
+   "text": "Grandma, did you bring a pie at least?",
+   "shot": "gwen",
+   "gesture": "think"
+  },
+  {
+   "spk": "lou",
+   "text": "Expectation. I brought two pies for you.",
+   "shot": "lou",
+   "gesture": "talk"
+  },
+  {
+   "spk": "lou",
+   "text": "Reality. I waited on your porch for four hours.",
+   "shot": "lou",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "teddy",
+   "text": "So how many pies are there?",
+   "shot": "teddy",
+   "gesture": "think"
+  },
+  {
+   "spk": "lou",
+   "text": "One pie. I ate one pie.",
+   "shot": "lou",
+   "gesture": "cross"
+  },
+  {
+   "spk": "teddy",
+   "text": "One pie is a threat.",
+   "shot": "teddy",
+   "gesture": "point"
+  },
+  {
+   "spk": "lou",
+   "text": "Then consider yourselves threatened. Happy Thanksgiving.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "ding"
+  }
+ ]
+}
