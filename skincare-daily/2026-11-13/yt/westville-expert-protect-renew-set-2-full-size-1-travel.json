@@ -9,8 +9,9 @@
   "overdue": true,
   "upload_started": "2026-11-25T20:16:01Z",
   "error": null,
-  "updated": "2026-11-25T20:16:04Z",
+  "updated": "2026-11-25T20:16:06Z",
   "video_id": "Z-3dtv-01-0",
   "published_now": null,
-  "url": "https://www.youtube.com/watch?v=Z-3dtv-01-0"
+  "url": "https://www.youtube.com/watch?v=Z-3dtv-01-0",
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
 }
