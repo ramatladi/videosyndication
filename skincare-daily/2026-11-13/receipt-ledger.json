@@ -106,13 +106,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "K8eHy3c4bCE",
       "sku": "111450INT",
       "title": "Dermalogica Daily Brightness Boosters Kit: Key Ingredients and How to Use It",
       "manifest_slug": "umhlanga-daily-brightness-boosters-kit",
       "media_sha256": "5d00d4fd1ea24d8db0143ebcee3185bac47f35441a8e7a63a18c96791d84a585",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T21:10:34Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -391,5 +392,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 10
+  "youtube_ids_recorded": 11
 }
