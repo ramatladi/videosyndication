@@ -180,13 +180,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "CZVj66RHAMU",
       "sku": "110910",
       "title": "Dermalogica Breakout Clearing Foaming Wash 177 mL Ingredients, Read From the Label",
       "manifest_slug": "bedfordview-breakout-clearing-foaming-wash-177ml",
       "media_sha256": "3a5ffbec554eafce638be1ec60823f5ad12778746839c2be70fe51d2fee6d860",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T21:10:34Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -392,5 +393,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 11
+  "youtube_ids_recorded": 12
 }
