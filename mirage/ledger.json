@@ -3454,6 +3454,81 @@
     "dance": 0.164,
     "genre_fit": 0.886
    }
+  },
+  {
+   "release": "mtr053",
+   "date": "2026-11-25",
+   "slot": "2026-11-25T19:55",
+   "format": "short",
+   "title": "Velvet Boulevard",
+   "artist": "Bianca Lima",
+   "style": "french",
+   "key": "F# minor",
+   "bpm": 118,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "71c0d898-13cc-4251-bf77-802fc6487f6c",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/a98542ec-3d31-4b1b-9b29-176ae2031d5f.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr053.json",
+   "photographer": "Ocho Artex Media",
+   "photo_page": "https://unsplash.com/photos/young-woman-with-freckles-relaxing-on-a-beach-chair-1IFY7pwAY5Y",
+   "photo_kind": "bikini",
+   "metricool_uuid": "8574488713750856619",
+   "media_url": "https://static.metricool.com/planner/202611/7593699-file-2019983442085035451.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr053.mp3",
+    "top": [
+     [
+      "dance",
+      0.309
+     ],
+     [
+      "pop",
+      0.306
+     ],
+     [
+      "electronic",
+      0.252
+     ],
+     [
+      "female vocalists",
+      0.153
+     ],
+     [
+      "House",
+      0.122
+     ],
+     [
+      "80s",
+      0.109
+     ],
+     [
+      "chillout",
+      0.067
+     ],
+     [
+      "electronica",
+      0.061
+     ],
+     [
+      "electro",
+      0.049
+     ],
+     [
+      "soul",
+      0.048
+     ]
+    ],
+    "house": 0.122,
+    "electronic": 0.252,
+    "dance": 0.309,
+    "genre_fit": 0.892
+   }
   }
  ]
 }
