@@ -314,13 +314,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "7pTN3pqd2z4",
       "sku": "111356",
       "title": "What Dermalogica Clearing Defense SPF30 59 mL Does: Reduces Shine and Mattifies Skin #shorts",
       "manifest_slug": "rosebank-clearing-defense-spf30-59ml-short",
       "media_sha256": "5191d54adfc0281f0e140de7df3c93d48808eba3762943b06fc34606d4702566",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T20:13:30Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -389,5 +390,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 8
+  "youtube_ids_recorded": 9
 }
