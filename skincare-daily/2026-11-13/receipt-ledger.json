@@ -363,13 +363,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "AnRt3SXlr4k",
       "sku": "111393",
       "title": "Where Dermalogica BioLumin-C Eye Serum 15 mL Goes in a Routine #shorts",
       "manifest_slug": "rosebank-biolumin-c-eye-serum-15ml-short",
       "media_sha256": "985b3e46f86fe549ea3c3e070a6bddd9399132d8af97f1c76b00566794bb481a",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T23:10:34Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -402,5 +403,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 21
+  "youtube_ids_recorded": 22
 }
