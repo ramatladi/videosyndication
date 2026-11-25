@@ -58,13 +58,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "8Ke8EE8PqLo",
       "sku": "301349INT",
       "title": "Dermalogica The Expert Lift Set (3 Full-Size): Firm + Lift Trio, and How to Use It",
       "manifest_slug": "midrand-the-expert-lift-set-3-full-size",
       "media_sha256": "affdfda435d24fcfce715edec118d837b9ea6ab9fd23bbbf9c26696e68f41ab2",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T00:10:34Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -403,5 +404,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 22
+  "youtube_ids_recorded": 23
 }
