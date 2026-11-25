@@ -162,13 +162,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "nUyhzSi-Z8g",
       "sku": "811063",
       "title": "Dermalogica Super Rich Repair: Every Size in Under a Minute #shorts",
       "manifest_slug": "umhlanga-super-rich-repair-100ml-short",
       "media_sha256": "fe0caac0a3d03e8f36b260dde1d79c44b137e76d31cc266a635df739b6f219b8",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T01:10:34Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -408,5 +409,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 27
+  "youtube_ids_recorded": 28
 }
