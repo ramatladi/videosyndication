@@ -19,13 +19,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "PJmFreWRiF4",
       "sku": "111388",
       "title": "Dermalogica Sensitive Skin Rescue Kit Explained: Calms, Soothes, and Hydrates",
       "manifest_slug": "midrand-sensitive-skin-rescue-kit",
       "media_sha256": "06748c02dc24a36f12ce06385fd276a34ff2e6675810c81f900894e460b349a8",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T21:10:34Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -390,5 +391,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 9
+  "youtube_ids_recorded": 10
 }
