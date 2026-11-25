@@ -93,13 +93,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "pRY5NijGwrA",
       "sku": "111524",
       "title": "Dermalogica Futurecode Booster Damage-Correcting Longevity Serum Label Read: The Ingredient List",
       "manifest_slug": "capetown-futurecode-booster-damage-correcting-longevity-serum",
       "media_sha256": "7279e9fbc4fa98e62c2fab6c79857d66cde83d6b219fd62df55f856f2e94af25",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T08:00:00Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -448,5 +449,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 7
+  "youtube_ids_recorded": 8
 }
