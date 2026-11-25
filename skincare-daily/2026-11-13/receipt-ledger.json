@@ -240,13 +240,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "NR0d2hjv5gM",
       "sku": "110615",
       "title": "Dermalogica Multi Active Toner 50 mL: Which Step Is It? #shorts",
       "manifest_slug": "bedfordview-multi-active-toner-50ml-short",
       "media_sha256": "82b63ee972eb1aae45841aeadb830e70e5a413a15da1630c411ea27243c8a99e",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T23:10:34Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -409,5 +410,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 28
+  "youtube_ids_recorded": 29
 }
