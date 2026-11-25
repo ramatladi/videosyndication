@@ -331,13 +331,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "JutXEWbW9Qg",
       "sku": "111504",
       "title": "Dermalogica BioLumin-C Night Restore Serum 25 mL Routine Guide: When and How to Use It",
       "manifest_slug": "rosebank-biolumin-c-night-restore-serum-25ml",
       "media_sha256": "f488df7a96a79004f317af524aa45195794e2b4ad57f5a557a2f9887d7f7dd6c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T21:10:34Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -394,5 +395,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 13
+  "youtube_ids_recorded": 14
 }
