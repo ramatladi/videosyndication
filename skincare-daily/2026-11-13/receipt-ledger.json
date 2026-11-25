@@ -256,13 +256,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "Z-3dtv-01-0",
       "sku": "301347INT",
       "title": "What Goes Into Dermalogica Expert Protect + Renew Set (2 Full-Size + 1 Travel): Ingredients and Dire",
       "manifest_slug": "westville-expert-protect-renew-set-2-full-size-1-travel",
       "media_sha256": "79575fbe80b784311a1b696caa7a82498f6d8720fc2b7d56093c9eb99c0c4e70",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T21:10:34Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -393,5 +394,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 12
+  "youtube_ids_recorded": 13
 }
