@@ -120,13 +120,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "SeL4z_vghG4",
       "sku": "111268",
       "title": "Dermalogica Calm Water Gel 50 mL in Your Routine #shorts",
       "manifest_slug": "umhlanga-calm-water-gel-50ml-short",
       "media_sha256": "12c7f9f21b2fb8f7f1ea247acbfde723057c9c7854468ed2ded13f51ab65791a",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T22:10:34Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -396,5 +397,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 15
+  "youtube_ids_recorded": 16
 }
