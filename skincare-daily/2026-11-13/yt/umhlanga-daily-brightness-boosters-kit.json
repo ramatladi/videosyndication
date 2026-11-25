@@ -3,15 +3,23 @@
   "handle": "@DermatologyDurbanUmhlanga",
   "title": "Dermalogica Daily Brightness Boosters Kit: Key Ingredients and How to Use It",
   "slot_sast": "2026-11-13 10:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefaeed882e5f40",
   "publish_at": "2026-11-25T21:10:34Z",
   "overdue": true,
   "upload_started": "2026-11-25T20:14:45Z",
   "error": null,
-  "updated": "2026-11-25T20:14:50Z",
+  "updated": "2026-11-25T20:15:22Z",
   "video_id": "K8eHy3c4bCE",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=K8eHy3c4bCE",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCBHecSaBW2iEir_PIp7sJbQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-25T21:10:34Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
