@@ -347,13 +347,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "q11oqNauYfU",
       "sku": "111203",
       "title": "Dermalogica Protection 50 Sport SPF50 150 mL Ingredient Check #shorts",
       "manifest_slug": "rosebank-protection-50-sport-spf50-150ml-short",
       "media_sha256": "410a02dee73e43f5a46702f7af55dc439b4c36c838cd7689fc4af6cb2de0843a",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T22:10:34Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -398,5 +399,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 17
+  "youtube_ids_recorded": 18
 }
