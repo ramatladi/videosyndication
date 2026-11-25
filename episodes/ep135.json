@@ -1,0 +1,504 @@
+{
+ "engine": "cast",
+ "id": 135,
+ "slug": "camera-shy",
+ "title": "Camera Shy",
+ "trend": "TikTok 'camera shy' pet format (original sound by Niki: a pet acts shy at the camera, then gives in and dances; Rising, 196.6K videos, SocialPilot TikTok trends Nov 17-25 2026, US) + holiday-card photo season starting Thanksgiving week — dialogue skit; never names the sound or hashtag",
+ "target_seconds": 180,
+ "length_reason": "The camera-shy pet clips are quick one-clip reveals well under a minute, so this stays at the shortest film length, 3:00, which also fits Instagram's 3-minute limit.",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "holiday card photo day",
+  "my bunny says he's camera shy",
+  "print shop closes at nine"
+ ],
+ "youtube_title": "My Bunny Is Too Camera Shy For The Holiday Card | Funny Cartoon",
+ "description": "Renee needs one holiday card photo before the print shop closes. Her bunny Mochi says he is camera shy. Uncle Marv, twenty two years of mall photos, has a plan. Then another plan. Then three more.\n\n#cartoon #animation #funny #comedy #bunny",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "bunny",
+  "pets",
+  "holiday card",
+  "family photo",
+  "christmas"
+ ],
+ "tiktok_caption": "my bunny says he's camera shy 🐰📸 #cartoon #animation #funny #comedy #bunny",
+ "cast": [
+  {
+   "id": "renee",
+   "name": "Renee",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.0,
+   "hair": {
+    "style": "curly",
+    "color": "#4a2c17"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2c3e50",
+   "accessories": [
+    "scarf:#27ae60"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "mochi",
+   "name": "Mochi",
+   "kind": "animal",
+   "ears": "bunny",
+   "color": "#e6e2dc",
+   "belly": "#ffffff",
+   "inner": "#f5b7c5",
+   "scale": 0.88,
+   "top": {
+    "color": "#2c3e50",
+    "pattern": "suit",
+    "pattern_color": "#c0392b"
+   },
+   "accessories": [
+    "sunglasses",
+    "tie:#c0392b"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "marv",
+   "name": "Uncle Marv",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.12,
+   "hair": {
+    "style": "bald",
+    "color": "#7f6a55"
+   },
+   "top": {
+    "color": "#e67e22",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "accessories": [
+    "beard:#8e6e4e",
+    "whistle",
+    "cap:#2c3e50"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "blush": true,
+   "voice": {
+    "id": "am_eric",
+    "pitch": -1,
+    "tempo": 1.05
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "renee",
+   "text": "Okay, Mochi. Holiday card photo. The print shop closes at nine. Look at the camera.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "mochi",
+   "text": "No thank you. I am camera shy.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "renee",
+   "text": "You are a bunny. You do not have a schedule.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "mochi",
+   "text": "I have a very full schedule. Most of it is hiding.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "renee",
+   "text": "It is one photo. You sit by the tree. You look cute. Done.",
+   "shot": "CU"
+  },
+  {
+   "spk": "mochi",
+   "text": "I do not look at things. Things look at me. That is the problem.",
+   "shot": "CU",
+   "gesture": "think",
+   "after": "sting"
+  },
+  {
+   "spk": "renee",
+   "text": "Okay. Phone up. Three. Two.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "mochi",
+   "text": "I am facing the wall now. The wall has never hurt me.",
+   "shot": "W",
+   "gesture": "cross",
+   "after": "whoosh"
+  },
+  {
+   "spk": "renee",
+   "text": "That is the back of your head. Two hundred people are getting this card.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "mochi",
+   "text": "Then two hundred people can see my good side. It is the back.",
+   "shot": "CU"
+  },
+  {
+   "spk": "renee",
+   "text": "Fine. I called in a professional.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marv",
+   "text": "Uncle Marv is here! Twenty two years of mall photos. Babies, dogs, one very angry goat.",
+   "shot": "W",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "mochi",
+   "text": "Was the goat camera shy?",
+   "shot": "mochi"
+  },
+  {
+   "spk": "marv",
+   "text": "The goat ate the camera. We got a lovely picture of the inside.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "renee",
+   "text": "Marv, he will not turn around.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "marv",
+   "text": "Leave it to me. I brought the squeaky toy.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marv",
+   "text": "Who is a good bunny? Look at Uncle Marv! Squeak, squeak!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "boing"
+  },
+  {
+   "spk": "mochi",
+   "text": "I am looking at the carpet. The carpet does not squeak at me.",
+   "shot": "CU"
+  },
+  {
+   "spk": "marv",
+   "text": "Okay. Plan two. The whistle.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marv",
+   "text": "Hey! Over here, buddy! Big smile!",
+   "shot": "W",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "mochi",
+   "text": "A whistle. Wonderful. Now the neighbors think we have a referee.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "renee",
+   "text": "Mochi, please. Grandma asks for this card every single year.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "mochi",
+   "text": "Grandma still has last year's card. It is on her fridge. I am wearing an elf hat.",
+   "shot": "CU"
+  },
+  {
+   "spk": "renee",
+   "text": "You looked adorable.",
+   "shot": "renee",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "mochi",
+   "text": "I looked like a cupcake that lost a bet.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "rimshot"
+  },
+  {
+   "spk": "marv",
+   "text": "Plan three. Bribery. What does the talent want?",
+   "shot": "W",
+   "gesture": "think"
+  },
+  {
+   "spk": "mochi",
+   "text": "The talent wants one carrot. A whole one. With the leaves.",
+   "shot": "CU"
+  },
+  {
+   "spk": "renee",
+   "text": "Fine. One carrot. Then one photo.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "mochi",
+   "text": "Thank you. Delicious. I am still shy.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.8
+  },
+  {
+   "spk": "renee",
+   "text": "You just ate the payment.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "mochi",
+   "text": "I ate it shyly.",
+   "shot": "mochi"
+  },
+  {
+   "spk": "marv",
+   "text": "Plan four. We hide the camera. Inside the holiday sweater.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "renee",
+   "text": "That is my sweater.",
+   "shot": "renee",
+   "gesture": "cross"
+  },
+  {
+   "spk": "marv",
+   "text": "It is a disguise now. Nobody suspects a sweater.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "mochi",
+   "text": "The lens is in the reindeer nose. I see you, sweater.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marv",
+   "text": "He found the reindeer. Nobody ever finds the reindeer.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "renee",
+   "text": "Mochi. Buddy. What will it take?",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "mochi",
+   "text": "Privacy. Dignity. A second carrot.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "marv",
+   "text": "Plan five. I lie on the floor. I become the floor.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "mochi",
+   "text": "Uncle Marv is on the floor now. This is somehow worse.",
+   "shot": "mochi"
+  },
+  {
+   "spk": "marv",
+   "text": "My back is making a sound. Take the picture while I can still leave.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "renee",
+   "text": "Everybody freeze. Got it! I got it!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "renee",
+   "text": "Wait. Why is it my face?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "marv",
+   "text": "Let me see. That is your face. Very close. Kind of up the nose.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "renee",
+   "text": "The phone was on the selfie camera. The whole time.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "pre": 0.8
+  },
+  {
+   "spk": "marv",
+   "text": "How many pictures did you take?",
+   "shot": "marv"
+  },
+  {
+   "spk": "renee",
+   "text": "Three hundred and twelve. All of me saying come on, buddy.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "mochi",
+   "text": "So the camera was never pointing at me.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "renee",
+   "text": "No.",
+   "shot": "renee",
+   "pre": 0.8
+  },
+  {
+   "spk": "mochi",
+   "text": "Oh. Well. In that case.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "mochi",
+   "text": "Hop to the left. Spin. Little foot thing.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "marv",
+   "text": "He is dancing. Why is he dancing?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "mochi",
+   "text": "I am not camera shy. I am camera polite. I only dance when nobody is filming.",
+   "shot": "CU",
+   "gesture": "hips",
+   "jump": true
+  },
+  {
+   "spk": "renee",
+   "text": "Marv. Flip the camera. Quietly.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "marv",
+   "text": "Flipping. Flipping like a pancake. A very quiet pancake.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "mochi",
+   "text": "I hear a pancake.",
+   "shot": "mochi",
+   "pre": 0.8
+  },
+  {
+   "spk": "renee",
+   "text": "Keep dancing. Please. For Grandma.",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "mochi",
+   "text": "One spin. For Grandma. Then I am retiring.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "marv",
+   "text": "Got it! Bunny mid spin, ears out, sunglasses crooked!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "renee",
+   "text": "It is perfect. Grandma is going to cry.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "mochi",
+   "text": "Put the nose one on the back. Grandma should see what I went through.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "renee",
+   "text": "Happy holidays from Renee, Mochi, and Renee's nostrils.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "mochi",
+   "text": "Finally. A card I can be proud of.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "sting"
+  }
+ ]
+}
