@@ -1,0 +1,480 @@
+{
+ "engine": "cast",
+ "id": 136,
+ "slug": "full-price",
+ "title": "Full Price",
+ "trend": "TikTok 'He wanna pay full price' (lip-sync about spending more than you needed to; Virlo Fresh, 456 creators +4967% in 7 days, first seen Nov 8; Postdom spotted Nov 23 2026, 1.5M-view example; US) + Black Friday in two days and Thanksgiving week ('thanksgiving 2026' #1 on Google Trends US past 24h, 1M+, Nov 25 2026) — dialogue skit; never names the sound, the show or any store",
+ "target_seconds": 180,
+ "length_reason": "The full-price clips are quick one-clip lip-syncs well under a minute, so this stays at the shortest film length, 3:00, which also fits Instagram's 3-minute limit.",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "the night before black friday",
+  "my dad refuses",
+  "to pay anything but full price"
+ ],
+ "youtube_title": "My Dad Refuses To Pay Anything But Full Price | Funny Cartoon",
+ "description": "Two days before Black Friday, Tasha has coupons, alarms and a spreadsheet. Her dad Doug has paid full price for everything, tipped the self checkout and called the cable company to raise his bill. His wallet would like a word. So would his secret in the closet.\n\n#cartoon #animation #funny #comedy #blackfriday",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "black friday",
+  "dad",
+  "shopping",
+  "coupons",
+  "family comedy"
+ ],
+ "tiktok_caption": "my dad only pays full price 💸 his wallet has notes #cartoon #animation #funny #comedy #blackfriday",
+ "cast": [
+  {
+   "id": "doug",
+   "name": "Doug",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.1,
+   "hair": {
+    "style": "short",
+    "color": "#5b4636"
+   },
+   "top": {
+    "color": "#2e86c1",
+    "pattern": "jersey",
+    "pattern_color": "#ffffff",
+    "number": "1"
+   },
+   "bottom": "#5d4037",
+   "shoes": "#2c3e50",
+   "accessories": [
+    "mustache:#5b4636",
+    "cap:#c0392b"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "blush": true,
+   "voice": {
+    "id": "am_michael",
+    "pitch": -1,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "tasha",
+   "name": "Tasha",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 0.95,
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "glasses",
+    "mic_headset"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "wallet",
+   "name": "The Wallet",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#7b4a2a",
+   "scale": 0.85,
+   "accessories": [
+    "glasses",
+    "tie:#27ae60"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "frown",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": 0,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "tasha",
+   "text": "Okay. Black Friday plan. Coupons, alarms, snacks. We leave at four in the morning.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "doug",
+   "text": "I will not be joining you. I paid full price.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tasha",
+   "text": "For what?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "doug",
+   "text": "Everything. I walked in, I saw the price, I paid it. Like a man.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "wallet",
+   "text": "Hello. I am his wallet. I would like to file a complaint.",
+   "shot": "CU",
+   "gesture": "talk",
+   "after": "ding"
+  },
+  {
+   "spk": "tasha",
+   "text": "Dad, the sale is in two days. Two.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "doug",
+   "text": "Deals are for people who do not believe in themselves.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "tasha",
+   "text": "Deals are for people who like money.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "doug",
+   "text": "Let us start with the turkey.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "wallet",
+   "text": "Oh no. The turkey.",
+   "shot": "wallet",
+   "gesture": "talk"
+  },
+  {
+   "spk": "doug",
+   "text": "The sign said buy one, get one free.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tasha",
+   "text": "So you got two turkeys.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "doug",
+   "text": "I paid for one and left the free one. It deserves a family that earned it.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "tasha",
+   "text": "It is a frozen turkey. It does not want a family.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "wallet",
+   "text": "He also tipped the self checkout.",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "tasha",
+   "text": "You tipped a machine?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "doug",
+   "text": "It said thank you for shopping. Nobody says that to me.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "tasha",
+   "text": "Okay. What else.",
+   "shot": "TWO",
+   "gesture": "hips"
+  },
+  {
+   "spk": "doug",
+   "text": "Today I bought the big television. Tonight. Full price.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tasha",
+   "text": "It is half off on Friday. I have it in a spreadsheet. With a color.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "doug",
+   "text": "I do not wait in lines. Lines wait for me.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "wallet",
+   "text": "The line was empty. He waited anyway. To feel something.",
+   "shot": "wallet"
+  },
+  {
+   "spk": "doug",
+   "text": "The cashier asked if I had a rewards card. I said, I am the reward.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tasha",
+   "text": "That is not a sentence.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "wallet",
+   "text": "He also said keep the change. It was a card.",
+   "shot": "CU",
+   "after": "rimshot"
+  },
+  {
+   "spk": "tasha",
+   "text": "Dad, I have saved forty one dollars this month with coupons.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "doug",
+   "text": "And how much did you spend on gas driving to the coupons?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "tasha",
+   "text": "That is private information.",
+   "shot": "CU",
+   "gesture": "cross",
+   "pre": 0.8
+  },
+  {
+   "spk": "wallet",
+   "text": "Sixty. She drove to three states for paper towels.",
+   "shot": "wallet"
+  },
+  {
+   "spk": "tasha",
+   "text": "Two states. One was a very big gas station.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "doug",
+   "text": "Then this morning I called the cable company.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "tasha",
+   "text": "To lower the bill?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "doug",
+   "text": "To raise it. The lady was so nice. I wanted her to win.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "wallet",
+   "text": "She put him on hold to cry a little.",
+   "shot": "CU",
+   "after": "boing"
+  },
+  {
+   "spk": "tasha",
+   "text": "Who negotiates up?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "doug",
+   "text": "A man with nothing to prove. And very nice phone manners.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "wallet",
+   "text": "I used to be thick. I used to be a leather brick.",
+   "shot": "wallet",
+   "pre": 0.5
+  },
+  {
+   "spk": "wallet",
+   "text": "Now I am a leather envelope. You can see through me.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tasha",
+   "text": "Okay. I am still going at four. They have the headphones I want for sixty percent off.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "tasha",
+   "text": "I have been watching that price since July. Every morning. With coffee.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "doug",
+   "text": "Mm hm.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "wallet",
+   "text": "Tell her. Please. I cannot keep this in. I am thin.",
+   "shot": "wallet",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tasha",
+   "text": "Tell me what?",
+   "shot": "TWO",
+   "gesture": "hips",
+   "pre": 0.4
+  },
+  {
+   "spk": "doug",
+   "text": "Look in the closet. Behind the vacuum.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.8,
+   "after": "whoosh"
+  },
+  {
+   "spk": "tasha",
+   "text": "Those are my headphones. The good ones. The ones from the spreadsheet.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "doug",
+   "text": "Full price. Bought them in July.",
+   "shot": "CU"
+  },
+  {
+   "spk": "tasha",
+   "text": "Why would you pay full price for a thing I was going to get on sale?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "doug",
+   "text": "Because every year you stand in a parking lot at four in the morning in the cold.",
+   "shot": "CU"
+  },
+  {
+   "spk": "doug",
+   "text": "And this year I wanted you to sleep in. On Thanksgiving weekend. Like a person.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "wallet",
+   "text": "He has been planning this since July. I have been crying since July.",
+   "shot": "wallet"
+  },
+  {
+   "spk": "tasha",
+   "text": "Dad. That is the sweetest thing anyone has ever overpaid for.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "doug",
+   "text": "I would pay full price for you every time.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "tasha",
+   "text": "Okay. I love you. I am still getting up at four.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.5
+  },
+  {
+   "spk": "doug",
+   "text": "Why?",
+   "shot": "TWO",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "tasha",
+   "text": "To return them and buy them again on sale. That is twenty three dollars.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "doug",
+   "text": "You would price match a gift?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "tasha",
+   "text": "I would price match a birthday.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "rimshot"
+  },
+  {
+   "spk": "wallet",
+   "text": "Finally. Someone in this family is on my side.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "doug",
+   "text": "Fine. But I am driving. And I am paying for parking. Full price.",
+   "shot": "W",
+   "gesture": "cross"
+  },
+  {
+   "spk": "wallet",
+   "text": "I need to lie down. In a pocket. Forever.",
+   "shot": "wallet",
+   "after": "sting"
+  }
+ ]
+}
