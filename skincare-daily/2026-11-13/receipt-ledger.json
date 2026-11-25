@@ -134,13 +134,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "I29Rh7E6ptY",
       "sku": "811323",
       "title": "Reading the Label: Dermalogica Skin Smoothing Cream 150 mL #shorts",
       "manifest_slug": "umhlanga-skin-smoothing-cream-150ml-short",
       "media_sha256": "2f5c01bfcd607ed14bf781cc4cfdccb28e676de95486e6402030bdb0b35f16a5",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T23:10:34Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -400,5 +401,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 19
+  "youtube_ids_recorded": 20
 }
