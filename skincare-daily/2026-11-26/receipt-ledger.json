@@ -371,13 +371,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "imL47PWrcBc",
       "sku": "111507",
       "title": "Dermalogica MultiVitamin Power Recovery Cream: Key Ingredients in Under a Minute #shorts",
       "manifest_slug": "rosebank-multivitamin-power-recovery-cream-short",
       "media_sha256": "602c8c145a1bbc5e2ec571d98e682f574d3b58fef6211f03c8a5920090e0a97d",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T06:00:00Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -446,5 +447,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 5
+  "youtube_ids_recorded": 6
 }
