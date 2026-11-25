@@ -286,13 +286,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "4K-hyLdCEnY",
       "sku": "111439",
       "title": "Dermalogica Daily Glycolic Cleanser 150 mL: Which Step Is It? #shorts",
       "manifest_slug": "westville-daily-glycolic-cleanser-150ml-short",
       "media_sha256": "61905abecb9b29266ffe613c076818fba25fbcdd21a5faa3311ba5d8a142b561",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T23:10:34Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -401,5 +402,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 20
+  "youtube_ids_recorded": 21
 }
