@@ -117,7 +117,7 @@
  "lines": [
   {
    "spk": "renee",
-   "text": "Okay, Mochi. Holiday card photo. The print shop closes at nine. Look at the camera.",
+   "text": "Okay, Mochi. Holiday card photo. Print shop closes at nine. Look here.",
    "shot": "W",
    "gesture": "point"
   },
@@ -132,12 +132,6 @@
    "text": "You are a bunny. You do not have a schedule.",
    "shot": "TWO",
    "gesture": "hips"
-  },
-  {
-   "spk": "mochi",
-   "text": "I have a very full schedule. Most of it is hiding.",
-   "shot": "CU",
-   "gesture": "shrug"
   },
   {
    "spk": "renee",
@@ -200,11 +194,6 @@
    "gesture": "shrug"
   },
   {
-   "spk": "renee",
-   "text": "Marv, he will not turn around.",
-   "shot": "TWO"
-  },
-  {
    "spk": "marv",
    "text": "Leave it to me. I brought the squeaky toy.",
    "shot": "CU",
@@ -225,13 +214,7 @@
   },
   {
    "spk": "marv",
-   "text": "Okay. Plan two. The whistle.",
-   "shot": "CU",
-   "gesture": "point"
-  },
-  {
-   "spk": "marv",
-   "text": "Hey! Over here, buddy! Big smile!",
+   "text": "Plan two. The whistle. Hey! Over here, buddy!",
    "shot": "W",
    "gesture": "wave",
    "jump": true
@@ -307,18 +290,6 @@
    "gesture": "think"
   },
   {
-   "spk": "renee",
-   "text": "That is my sweater.",
-   "shot": "renee",
-   "gesture": "cross"
-  },
-  {
-   "spk": "marv",
-   "text": "It is a disguise now. Nobody suspects a sweater.",
-   "shot": "TWO",
-   "gesture": "shrug"
-  },
-  {
    "spk": "mochi",
    "text": "The lens is in the reindeer nose. I see you, sweater.",
    "shot": "CU",
@@ -354,12 +325,6 @@
    "shot": "mochi"
   },
   {
-   "spk": "marv",
-   "text": "My back is making a sound. Take the picture while I can still leave.",
-   "shot": "CU",
-   "gesture": "facepalm"
-  },
-  {
    "spk": "renee",
    "text": "Everybody freeze. Got it! I got it!",
    "shot": "W",
@@ -387,13 +352,8 @@
    "pre": 0.8
   },
   {
-   "spk": "marv",
-   "text": "How many pictures did you take?",
-   "shot": "marv"
-  },
-  {
    "spk": "renee",
-   "text": "Three hundred and twelve. All of me saying come on, buddy.",
+   "text": "Three hundred and twelve pictures. All of me saying come on, buddy.",
    "shot": "CU",
    "gesture": "shrug",
    "after": "record_scratch"
@@ -408,7 +368,7 @@
    "spk": "renee",
    "text": "No.",
    "shot": "renee",
-   "pre": 0.8
+   "pre": 0.5
   },
   {
    "spk": "mochi",
@@ -423,12 +383,6 @@
    "gesture": "arms_up",
    "jump": true,
    "after": "applause"
-  },
-  {
-   "spk": "marv",
-   "text": "He is dancing. Why is he dancing?",
-   "shot": "TWO",
-   "gesture": "point"
   },
   {
    "spk": "mochi",
@@ -456,12 +410,6 @@
    "pre": 0.8
   },
   {
-   "spk": "renee",
-   "text": "Keep dancing. Please. For Grandma.",
-   "shot": "TWO",
-   "gesture": "arms_up"
-  },
-  {
    "spk": "mochi",
    "text": "One spin. For Grandma. Then I am retiring.",
    "shot": "W",
@@ -470,16 +418,10 @@
   },
   {
    "spk": "marv",
-   "text": "Got it! Bunny mid spin, ears out, sunglasses crooked!",
+   "text": "Got it! Mid spin! Ears out!",
    "shot": "W",
    "gesture": "arms_up",
    "jump": true
-  },
-  {
-   "spk": "renee",
-   "text": "It is perfect. Grandma is going to cry.",
-   "shot": "CU",
-   "gesture": "wave"
   },
   {
    "spk": "mochi",
