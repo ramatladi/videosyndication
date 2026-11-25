@@ -45,13 +45,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "GfZlb41BT4s",
       "sku": "301346INT",
       "title": "Routine Builder: Dermalogica Expert Cleanse + Glow Set (3 Full-Size) #shorts",
       "manifest_slug": "midrand-expert-cleanse-glow-set-3-full-size-short",
       "media_sha256": "d72823bce3b48300d384192c7c921c931ba1cad22c0113c66f476a51bdf674ac",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T23:10:34Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -399,5 +400,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 18
+  "youtube_ids_recorded": 19
 }
