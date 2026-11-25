@@ -19,13 +19,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "-8kpaVE85yc",
       "sku": "111252",
       "title": "Dermalogica Daily Superfoliant Label Read: The Ingredient List",
       "manifest_slug": "midrand-daily-superfoliant",
       "media_sha256": "3ebc07ea110a0164da3642c598943abed8674525ff2fba6a7242a3bce569912c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T08:00:00Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -447,5 +448,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 6
+  "youtube_ids_recorded": 7
 }
