@@ -6,13 +6,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "x1b55qcZhFc",
       "sku": "111452",
       "title": "Dermalogica Hyaluronic Ceramide Mist 150 mL in Your Routine #shorts",
       "manifest_slug": "midrand-hyaluronic-ceramide-mist-150ml-short",
       "media_sha256": "1d3f380ff83f9afcf259aae247bde69c5f2deeff6c41a91220429e7a0249fd0b",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T06:00:00Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -440,5 +441,6 @@
     "missing_renders": 0,
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
-  }
+  },
+  "youtube_ids_recorded": 1
 }
