@@ -148,13 +148,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "ELnMxfamzpQ",
       "sku": "111342",
       "title": "Dermalogica Age Bright Clearing Serum 30 mL: Clears and Prevents Breakouts, and How to Use It",
       "manifest_slug": "umhlanga-age-bright-clearing-serum-30ml",
       "media_sha256": "34bf2f2e3eacb40bb00f7cac43779fb236432f76da1916db84d516af766bbc13",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T00:10:34Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -404,5 +405,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 23
+  "youtube_ids_recorded": 24
 }
