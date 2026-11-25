@@ -3,15 +3,23 @@
   "handle": "@DermatologistJoburgMidrand",
   "title": "Dermalogica Hyaluronic Ceramide Mist 150 mL in Your Routine #shorts",
   "slot_sast": "2026-11-26 08:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref1ddb7cf5af7d",
   "publish_at": "2026-11-26T06:00:00Z",
   "overdue": false,
   "upload_started": "2026-11-25T20:27:43Z",
   "error": null,
-  "updated": "2026-11-25T20:27:47Z",
+  "updated": "2026-11-25T20:28:18Z",
   "video_id": "x1b55qcZhFc",
   "published_now": null,
   "url": "https://youtube.com/shorts/x1b55qcZhFc",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCb16q-70MGFin6RfsMGbdnw",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-26T06:00:00Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
