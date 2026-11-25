@@ -379,13 +379,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "xeq5RDWMvEI",
       "sku": "111295",
       "title": "Dermalogica Breakout Clearing Booster 30 mL, Explained",
       "manifest_slug": "rosebank-breakout-clearing-booster-30ml",
       "media_sha256": "fa20fd662c6e84f28d3ee8b2b095c1cee10fc663869382f44fe5e365cd27d04d",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T00:10:34Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -406,5 +407,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 25
+  "youtube_ids_recorded": 26
 }
