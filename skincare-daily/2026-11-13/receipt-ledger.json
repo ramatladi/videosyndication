@@ -396,13 +396,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "0kSjX6puIlg",
       "sku": "111369",
       "title": "Dermalogica Phyto Nature Firming Serum 40 mL, Ingredient by Ingredient #shorts",
       "manifest_slug": "rosebank-phyto-nature-firming-serum-40ml-short",
       "media_sha256": "92b538c2c9c28dd06e11cc429bac12f5d053ed652341ae42cfc505a6655bdc69",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T01:10:34Z"
     }
   ],
   "reconciliation": {
@@ -411,5 +412,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 30
+  "youtube_ids_recorded": 31
 }
