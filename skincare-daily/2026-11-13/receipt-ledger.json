@@ -318,13 +318,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "dgMAGKv28ag",
       "sku": "111372",
       "title": "Dermalogica BioLumin-C Serum 10 mL: Key Ingredients in Under a Minute #shorts",
       "manifest_slug": "westville-biolumin-c-serum-10ml-short",
       "media_sha256": "853bcd7ec34469fb1d1f31191999968b72d20d14fade9d601d471bec4afabd23",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T00:10:34Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -410,5 +411,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 29
+  "youtube_ids_recorded": 30
 }
