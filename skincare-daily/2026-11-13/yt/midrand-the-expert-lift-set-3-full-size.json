@@ -3,15 +3,23 @@
   "handle": "@DermatologistJoburgMidrand",
   "title": "Dermalogica The Expert Lift Set (3 Full-Size): Firm + Lift Trio, and How to Use It",
   "slot_sast": "2026-11-13 18:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref590cb4952db1",
   "publish_at": "2026-11-26T00:10:34Z",
   "overdue": true,
   "upload_started": "2026-11-25T20:22:04Z",
   "error": null,
-  "updated": "2026-11-25T20:22:08Z",
+  "updated": "2026-11-25T20:22:40Z",
   "video_id": "8Ke8EE8PqLo",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=8Ke8EE8PqLo",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCb16q-70MGFin6RfsMGbdnw",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-26T00:10:34Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
