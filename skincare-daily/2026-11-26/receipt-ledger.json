@@ -79,13 +79,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "NXM9rM6GXy4",
       "sku": "111513INT",
       "title": "Dermalogica Stressed Skin Recovery System (2 Full-Size): Multivitamin Power Recovery Cream #shorts",
       "manifest_slug": "capetown-stressed-skin-recovery-system-2-full-size-short",
       "media_sha256": "bce4223dcb7a05de686109c5096a46846b03de5a21ba2e1006e4ca5ea4a827eb",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T06:00:00Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -442,5 +443,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 1
+  "youtube_ids_recorded": 2
 }
