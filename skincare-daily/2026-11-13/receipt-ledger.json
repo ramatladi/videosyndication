@@ -92,13 +92,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "PBtHBFwBJM4",
       "sku": "111487",
       "title": "Layering Guide: Dermalogica Phyto Nature Lifting Eye Cream 15ml #shorts",
       "manifest_slug": "umhlanga-phyto-nature-lifting-eye-cream-15ml-15ml-short",
       "media_sha256": "809767d72802c07bbf34a35ee1f7b621b3550b2800a3f325040a853cdfe8a983",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T20:11:51Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -386,5 +387,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 5
+  "youtube_ids_recorded": 6
 }
