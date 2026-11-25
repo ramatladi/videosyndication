@@ -298,13 +298,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "g3XH0pL4WfU",
       "sku": "301339INT",
       "title": "Reading the Label: Dermalogica Get + Keep Your Glow Kit (2 Full-Size) #shorts",
       "manifest_slug": "westville-get-keep-your-glow-kit-2-full-size-short",
       "media_sha256": "d55998fd893350c35152a76f62a1d70031a3a819cbd8223b8fb4f1003493c26a",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T06:00:00Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -445,5 +446,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 4
+  "youtube_ids_recorded": 5
 }
