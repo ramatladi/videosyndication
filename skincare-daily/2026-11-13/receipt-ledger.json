@@ -240,13 +240,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "z5cuGVlqt1U",
       "sku": "111431",
       "title": "Dermalogica Cooling Aqua Jelly 59 mL in Your Routine #shorts",
       "manifest_slug": "westville-cooling-aqua-jelly-59ml-short",
       "media_sha256": "a65b5a217b924de4dd41e84a0d80586e0738cd913b256a83aadf4d561ec11c45",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T20:12:52Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -388,5 +389,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 7
+  "youtube_ids_recorded": 8
 }
