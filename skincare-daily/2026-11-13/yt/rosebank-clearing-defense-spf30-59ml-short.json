@@ -3,15 +3,23 @@
   "handle": "@SkincareJoburgRosebank",
   "title": "What Dermalogica Clearing Defense SPF30 59 mL Does: Reduces Shine and Mattifies Skin #shorts",
   "slot_sast": "2026-11-13 08:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefd862604a10eb",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-25T20:13:30Z",
   "error": null,
-  "updated": "2026-11-25T20:13:35Z",
+  "updated": "2026-11-25T20:14:07Z",
   "video_id": "7pTN3pqd2z4",
   "published_now": "2026-11-25T20:13:30Z",
   "url": "https://youtube.com/shorts/7pTN3pqd2z4",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCeTPU-6Wsq_Ii0A4Uv6DESQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
