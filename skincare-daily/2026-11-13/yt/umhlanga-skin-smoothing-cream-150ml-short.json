@@ -3,15 +3,23 @@
   "handle": "@DermatologyDurbanUmhlanga",
   "title": "Reading the Label: Dermalogica Skin Smoothing Cream 150 mL #shorts",
   "slot_sast": "2026-11-13 16:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref5a0583168c68",
   "publish_at": "2026-11-25T23:10:34Z",
   "overdue": true,
   "upload_started": "2026-11-25T20:20:09Z",
   "error": null,
-  "updated": "2026-11-25T20:20:15Z",
+  "updated": "2026-11-25T20:20:47Z",
   "video_id": "I29Rh7E6ptY",
   "published_now": null,
   "url": "https://youtube.com/shorts/I29Rh7E6ptY",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCBHecSaBW2iEir_PIp7sJbQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-25T23:10:34Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
