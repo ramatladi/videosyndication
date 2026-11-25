@@ -6,13 +6,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "IxHsWHeJw8M",
       "sku": "111452",
       "title": "Dermalogica Hyaluronic Ceramide Mist 150 mL: Hydrates and Locks in Moisture #shorts",
       "manifest_slug": "midrand-hyaluronic-ceramide-mist-150ml-short",
       "media_sha256": "b9dc615b591dda7b9e191f54d6e94da1e22ac6c65435f8f60e0ca7332edd3e79",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T20:10:35Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -165,7 +166,7 @@
       "status": "staged_awaiting_youtube_receipt",
       "youtube_id": null,
       "sku": "111518",
-      "title": "Where Dermalogica Phyto Nature E² Regenerating Daily Exosome Leave-On Treatment Goes in a Routine #s",
+      "title": "Where Dermalogica Phyto Nature E\u00b2 Regenerating Daily Exosome Leave-On Treatment Goes in a Routine #s",
       "manifest_slug": "bedfordview-phyto-nature-e-regenerating-daily-exosome-leave-on-treatment-short",
       "media_sha256": "fa9c5db5da946ff1f41ab629035feb61a0212a028ff93c9ffa9b5d19acd030e5",
       "asset_checksums_verified": true
@@ -384,5 +385,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 3
+  "youtube_ids_recorded": 4
 }
