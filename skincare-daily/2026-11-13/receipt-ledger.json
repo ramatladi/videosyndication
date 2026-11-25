@@ -71,13 +71,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "nEoIgJSMPB4",
       "sku": "110545",
       "title": "Dermalogica UltraCalming Mist 177 mL, Explained Fast #shorts",
       "manifest_slug": "midrand-ultracalming-mist-177ml-short",
       "media_sha256": "e10b0ac4627cb22398726c345193cdf2b19145fc0c73a6b9322ed5db934b1bcd",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T01:10:34Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -407,5 +408,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 26
+  "youtube_ids_recorded": 27
 }
