@@ -79,13 +79,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "SiS6naceFSI",
       "sku": "111430",
       "title": "Dermalogica Micro-Pore Mist 118ml: Which Step Is It? #shorts",
       "manifest_slug": "capetown-micro-pore-mist-118ml-118ml-short",
       "media_sha256": "805ce027bd3829e07785e34232ea54a105ae7efc4ed2cb2f834ac12d6b44accd",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-25T20:10:58Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -385,5 +386,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-25T20:51+02:00"
   },
-  "youtube_ids_recorded": 4
+  "youtube_ids_recorded": 5
 }
