@@ -35,3 +35,10 @@ out.length+' products'
   award badge (daily microfoliant 111429, liquid peelfoliant 111461, special cleansing gel 110639) were banned for the day
   and replanned. Heal backlog at the start: 328 slots over 12-22 Nov (14, 20 and 22 Nov never staged); one run renders about 70-80
   items in its 3 hours, so heals go oldest day first after tomorrow's 36.
+- 25 Nov 2026 run (for 26 Nov): fixes in `sk.py`: (1) `verify` hashes an earlier run's file from the committed blob when the
+  sparse media checkout doesn't have it (heal-day `stage` failed on the day's existing items); (2) regular videos on the standard
+  angle add the listing's own label, key ingredients and sizes until ~120 words (two came out under 45 s); (3) a benefits line
+  written as "Provides X, Gives Y, Brightens Z" counts as three benefits; (4) a kit Short still over budget trims its directions
+  scene to whole sentences. Award-badge packshots banned for the day: daily microfoliant (all sizes), daily milkfoliant,
+  special cleansing gel, liquid peelfoliant. Heal days staged after tomorrow: a heal day's new thumbnails count in tomorrow's
+  14-day crossday check, so re-run `render` (it re-picks thumbnails) if `stage` comes after a heal.

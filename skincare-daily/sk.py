@@ -513,6 +513,13 @@ def angle_scenes(ang, f, p, it, sp, intro, how, ben, desc, pics, short, size):
     if short:
         budget = 560 - 2 * max(0, len(sp) - 30)  # long names are read twice (cover and end card)
         while len(sc) > (3 if f['inside'] else 2) and sum(len(x['say']) for x in sc) + 80 > budget: sc.pop()
+        # still over (a kit's contents plus its directions): shorten the directions scene to whole sentences that fit
+        over = sum(len(x['say']) for x in sc) + 80 - budget
+        for x in sc[::-1]:
+            if over <= 0 or x['type'] == 'cover' or x.get('kicker') == "WHAT'S INSIDE": continue
+            parts = re.split(r'(?<=[.!?])\s+', x['say']); keep = list(parts)
+            while len(keep) > 1 and len(' '.join(keep)) > len(x['say']) - over: keep.pop()
+            over -= len(x['say']) - len(' '.join(keep)); x['say'] = ' '.join(keep)
     else:  # regular videos need at least ~45 s: add the listing's own description and benefits until ~130 words
         extra = [dict(type='figure', image=pic(4), kicker='WHAT IT IS', headline=short_head(d_, 52), say=say_units(d_)) for d_ in desc[:2]] + \
                 [dict(type='figure', image=pic(5 + j), kicker='BENEFIT', headline=short_head(b_, 52), say=say_units(b_.rstrip('.') + '.')) for j, b_ in enumerate(ben[:4])]
@@ -558,6 +565,7 @@ def write(date):
         said = ' '.join(prev_says.get(clean(p['title']).lower(), [])).lower()
         fresh_first = lambda L: [x for x in L if say_units(x).lower().rstrip('.')[:60] not in said] + [x for x in L if say_units(x).lower().rstrip('.')[:60] in said]
         desc = fresh_first(rot([american(x) for x in f['description']], kprev)); ben = fresh_first(rot([american(x) for x in f['benefits']], kprev)); how = [american(x) for x in f['how']]
+        ben = [y_.strip() for x_ in ben for y_ in re.split(r',\s+(?=[A-Z][a-z]+s\b)', x_) if y_.strip()]  # "Provides X, Gives Y, Brightens Z" is three benefits
         n_fresh_ben = sum(1 for x in ben if say_units(x).lower().rstrip('.')[:60] not in said)
         size = it['variant'] if re.match(r'^[\d.]+\s?(?:ml|g|oz)\b', it['variant'] or '', re.I) else ''
         size_in_name = bool(size) and re.sub(r'\s', '', size.lower()) in re.sub(r'\s', '', name.lower())
@@ -602,6 +610,19 @@ def write(date):
             for kick in ('WHAT IT IS', 'BENEFITS'):
                 if sum(len(x['say']) for x in sc) + 80 > 560:  # characters read more reliably than words (acronyms, numbers)
                     sc = [x for x in sc if x.get('kicker') != kick]
+        if not short:  # regular videos need at least ~45 s: add the listing's own label, key ingredients and sizes until ~120 words
+            sizes_ = [v_['title'] for v_ in p['variants'] if v_['available'] and re.match(r'^[\d.]+\s?(?:ml|g|oz)\b', v_['title'] or '', re.I)]
+            pad = [dict(type='figure', image=pic(5 + j), kicker='KEY INGREDIENTS', headline=short_head(american(x_), 52), say=say_units(american(x_))) for j, x_ in enumerate(f['key_sentences'][:3])]
+            if len(f['label']) >= 3 and not f['inside']:
+                pad.append(dict(type='bullets', image=pic(8), kicker='ON THE LABEL', headline='First ingredients listed', items=[american(x_) for x_ in f['label'][:4]],
+                                say=say_units('The ingredient list starts with ' + ', '.join(american(x_).replace('/', ' ') for x_ in f['label'][:5]) + '.')))
+            if len(sizes_) >= 2:
+                pad.append(dict(type='bullets', image=pic(9), kicker='SIZES', headline=f'{len(sizes_)} sizes in store', items=[x_.replace('ml', ' mL') for x_ in sizes_[:4]],
+                                say=say_units('It comes in ' + ', '.join(sizes_[:-1]) + ' and ' + sizes_[-1] + '.')))
+            have_ = ' '.join(x['say'] for x in sc)
+            for e_ in pad:
+                if sum(len(x['say'].split()) for x in sc) >= 120: break
+                if e_['say'][:50] not in have_: sc.append(e_); have_ += ' ' + e_['say']
         sc.append(dict(type='end', sub=(size.replace('ml', ' mL') if size else N), say=f"That's Dermalogica {sp}. The link is in the description."))
         # titles: first unused template
         pool = SHORT_TITLES if short else VIDEO_TITLES; title = None
@@ -822,7 +843,12 @@ def verify(media, date):
     m = json.load(open(f'{media}/skincare-daily/{date}/manifest.json')); bad = []
     for it in m['items']:
         for p, k in (('media_path', 'sha256'), ('thumbnail_path', 'thumbnail_sha256'), ('captions_path', 'captions_sha256')):
-            if sha(f'{media}/{it[p]}') != it[k]: bad.append(it[p])
+            fp = f'{media}/{it[p]}'
+            if os.path.exists(fp): h = sha(fp)
+            else:  # sparse media checkout: an earlier run's file is not checked out; hash the committed blob instead
+                r = subprocess.run(['git', '-C', media, 'show', f'HEAD:{it[p]}'], capture_output=True)
+                h = hashlib.sha256(r.stdout).hexdigest() if r.returncode == 0 else None
+            if h != it[k]: bad.append(it[p])
     if bad: raise SystemExit(f'hash mismatch: {bad}')
     return len(m['items'])
 
