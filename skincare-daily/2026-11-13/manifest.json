@@ -5,191 +5,51 @@
  "commission_disclosure": "description only",
  "language": "American English",
  "channels": {
-  "@DermatologyJoburgBedfordview": {
-   "domain": "dermatology.joburg",
-   "shorts": 2,
+  "@DermatologistJoburgMidrand": {
+   "domain": "dermatologist.joburg",
+   "shorts": 4,
+   "videos": 2,
+   "all_pass": true,
+   "status": "ready"
+  },
+  "@DermatologyCapeTown": {
+   "domain": "dermatology.capetown",
+   "shorts": 1,
    "videos": 0,
    "all_pass": true,
    "status": "partial: staged items ready"
   },
+  "@DermatologyDurbanUmhlanga": {
+   "domain": "dermatology.durban",
+   "shorts": 4,
+   "videos": 2,
+   "all_pass": true,
+   "status": "ready"
+  },
+  "@DermatologyJoburgBedfordview": {
+   "domain": "dermatology.joburg",
+   "shorts": 4,
+   "videos": 2,
+   "all_pass": true,
+   "status": "ready"
+  },
   "@SkincareDurbanWestville": {
    "domain": "skincare.durban",
-   "shorts": 0,
-   "videos": 1,
+   "shorts": 4,
+   "videos": 2,
    "all_pass": true,
-   "status": "partial: staged items ready"
+   "status": "ready"
+  },
+  "@SkincareJoburgRosebank": {
+   "domain": "skincare.joburg",
+   "shorts": 4,
+   "videos": 2,
+   "all_pass": true,
+   "status": "ready"
   }
  },
  "not_staged": [],
  "unfilled_slots": [
-  {
-   "handle": "@SkincareJoburgRosebank",
-   "slot_sast": "2026-11-13 08:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@SkincareJoburgRosebank",
-   "slot_sast": "2026-11-13 12:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@SkincareJoburgRosebank",
-   "slot_sast": "2026-11-13 16:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@SkincareJoburgRosebank",
-   "slot_sast": "2026-11-13 20:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@SkincareJoburgRosebank",
-   "slot_sast": "2026-11-13 10:00",
-   "format": "regular",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@SkincareJoburgRosebank",
-   "slot_sast": "2026-11-13 18:00",
-   "format": "regular",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@SkincareDurbanWestville",
-   "slot_sast": "2026-11-13 08:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@SkincareDurbanWestville",
-   "slot_sast": "2026-11-13 12:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@SkincareDurbanWestville",
-   "slot_sast": "2026-11-13 16:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@SkincareDurbanWestville",
-   "slot_sast": "2026-11-13 20:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@SkincareDurbanWestville",
-   "slot_sast": "2026-11-13 10:00",
-   "format": "regular",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologistJoburgMidrand",
-   "slot_sast": "2026-11-13 08:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologistJoburgMidrand",
-   "slot_sast": "2026-11-13 12:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologistJoburgMidrand",
-   "slot_sast": "2026-11-13 16:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologistJoburgMidrand",
-   "slot_sast": "2026-11-13 20:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologistJoburgMidrand",
-   "slot_sast": "2026-11-13 10:00",
-   "format": "regular",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologistJoburgMidrand",
-   "slot_sast": "2026-11-13 18:00",
-   "format": "regular",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologyJoburgBedfordview",
-   "slot_sast": "2026-11-13 08:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologyJoburgBedfordview",
-   "slot_sast": "2026-11-13 20:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologyJoburgBedfordview",
-   "slot_sast": "2026-11-13 10:00",
-   "format": "regular",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologyJoburgBedfordview",
-   "slot_sast": "2026-11-13 18:00",
-   "format": "regular",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologyDurbanUmhlanga",
-   "slot_sast": "2026-11-13 08:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologyDurbanUmhlanga",
-   "slot_sast": "2026-11-13 12:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologyDurbanUmhlanga",
-   "slot_sast": "2026-11-13 16:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologyDurbanUmhlanga",
-   "slot_sast": "2026-11-13 20:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologyDurbanUmhlanga",
-   "slot_sast": "2026-11-13 10:00",
-   "format": "regular",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologyDurbanUmhlanga",
-   "slot_sast": "2026-11-13 18:00",
-   "format": "regular",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
-  {
-   "handle": "@DermatologyCapeTown",
-   "slot_sast": "2026-11-13 08:00",
-   "format": "short",
-   "reason": "heal (15 Nov): the 13 Nov run never staged this day; catalog exhausted for this slot (no eligible product within the 7-day window, forward and back, that passes the 0.85 script-overlap guard against every script)"
-  },
   {
    "handle": "@DermatologyCapeTown",
    "slot_sast": "2026-11-13 12:00",
@@ -222,6 +82,956 @@
   }
  ],
  "items": [
+  {
+   "domain": "dermatologist.joburg",
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-13 08:00",
+   "format": "short",
+   "slug": "midrand-hyaluronic-ceramide-mist-150ml-short",
+   "sku": "111452",
+   "variant": "150ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "hyaluronic ceramide mist",
+    "listing_url": "https://dermalogica.co.za/products/hyaluronic-ceramide-mist-150ml-111452?variant=46589414637882",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111452-00.png",
+    "packshot_sha256": "f893279c3768a15b0d0ec4ddc9e6ef17913a1740e03ab3561d909e624c0f1ef2",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Medium_2c02cce2-3a5e-4086-8b5b-c4cd608e8b05.png?v=1698671487"
+   },
+   "title": "Dermalogica Hyaluronic Ceramide Mist 150 mL: Hydrates and Locks in Moisture #shorts",
+   "description": "Dermalogica hyaluronic ceramide mist: hydrates and locks in moisture, from the Midrand routine desk.\n\nWe earn a commission if you buy through our link at https://dermatologist.joburg/.\n\n• Hydrates and locks in moisture\n• Hydrates to help skin bounce back\n• Strengthens skin's barrier\n• Smooths the appearance of fine lines and wrinkles\n• How to use: After cleansing, spray directly onto face and neck, avoiding the eyes. Also ideal as a refreshing spritz throughout the day.\n\ndermatologist.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/hyaluronic-ceramide-mist-150ml-111452?variant=46589414637882, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatologist.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #HyaluronicCeramideMist #RoutineBuilder #shorts",
+   "tags": [
+    "hyaluronic ceramide mist",
+    "dermalogica hyaluronic ceramide mist",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 34.23,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-hyaluronic-ceramide-mist-150ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-hyaluronic-ceramide-mist-150ml-short.mp4",
+   "sha256": "b9dc615b591dda7b9e191f54d6e94da1e22ac6c65435f8f60e0ca7332edd3e79",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-hyaluronic-ceramide-mist-150ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-hyaluronic-ceramide-mist-150ml-short.jpg",
+   "thumbnail_sha256": "92a15670479c13b8c33f995d6b76285c29b1b72dd0ddd97cac439b0904f96e0d",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-hyaluronic-ceramide-mist-150ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-hyaluronic-ceramide-mist-150ml-short.en.srt",
+   "captions_sha256": "4f520e14d1a464b571c78316e4bdb7a11fa0725f92070871ecb818bdcf2e13ee",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111452-00.png",
+    "skincare-daily/2026-11-13/images/d1113-111452-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111452-02.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111452-04.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_jessica (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.42,
+    "true_peak": -1.84,
+    "packshot_match": 0.964,
+    "srt_cues": 9,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 47,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatologist.joburg",
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-13 10:00",
+   "format": "video",
+   "slug": "midrand-sensitive-skin-rescue-kit",
+   "sku": "111388",
+   "variant": "Skin Kits",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "sensitive skin rescue kit",
+    "listing_url": "https://dermalogica.co.za/products/sensitive-skin-rescue-kit-111388?variant=46591370854714",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111388-00.jpg",
+    "packshot_sha256": "799549e5c0386c262a82306cc32f419784a4406dfe0c472a4b803d5eddc18eb0",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/PR89BI541_111388_Sensitive_Skin_Rescue_Kit_SZ4.jpg?v=1698727506"
+   },
+   "title": "Dermalogica Sensitive Skin Rescue Kit Explained: Calms, Soothes, and Hydrates",
+   "description": "Dermalogica sensitive skin rescue kit: calms, soothes, and hydrates, from the Midrand routine desk.\n\nWe earn a commission if you buy through our link at https://dermatologist.joburg/.\n\n• Calms, soothes, and hydrates\n• What's inside: UltraCalming Cleanser (1.7oz); UltraCalming Mist (1.7oz); Calm Water Gel (0.5oz)\n• Helps fortify skin's protective barrier for healthier skin\n• Helps manage the internal and external influences that trigger sensitization\n• Helps calm, soothe and minimize irritation\n• How to use: Apply UltraCalming Cleanser to dry or damp face and neck, and over closed eyes with circular motions. Rinse thoroughly or tissue off. Spritz Ultracalming Mist all over face and neck, with eyes closed. Finish by applying a liberal amount of Calm Water gel over face and neck.\n\nChapters:\n0:00 Overview\n0:12 Calms, soothes, and hydrates\n0:38 Directions from the listing\n\ndermatologist.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/sensitive-skin-rescue-kit-111388?variant=46591370854714, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatologist.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #SensitiveSkinRescueKit #RoutineBuilder",
+   "tags": [
+    "sensitive skin rescue kit",
+    "dermalogica sensitive skin rescue kit",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 68.45,
+   "resolution": "1920x1080",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-sensitive-skin-rescue-kit.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-sensitive-skin-rescue-kit.mp4",
+   "sha256": "06748c02dc24a36f12ce06385fd276a34ff2e6675810c81f900894e460b349a8",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-sensitive-skin-rescue-kit.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-sensitive-skin-rescue-kit.jpg",
+   "thumbnail_sha256": "6584a16be0afb05ef62114c267dcc0463be0195e98c281469e50f4a830e570f9",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-sensitive-skin-rescue-kit.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-sensitive-skin-rescue-kit.en.srt",
+   "captions_sha256": "66caea32f2a0816319f243c69527c4de22c8f0a3836a75ad9a3b9f14de6de0a5",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111388-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111388-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111388-02.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111388-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_jessica (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.45,
+    "true_peak": -1.96,
+    "packshot_match": 0.913,
+    "srt_cues": 19,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 53,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatologist.joburg",
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-13 12:00",
+   "format": "short",
+   "slug": "midrand-expert-barrier-repair-set-3-travel-size-short",
+   "sku": "301351INT",
+   "variant": "Default Title",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "expert barrier repair set (3 travel-size)",
+    "listing_url": "https://dermalogica.co.za/products/expert-barrier-repair?variant=67649862861114",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-301351INT-00.jpg",
+    "packshot_sha256": "03561fbdc2c4956cc646c6ce2cf3280517dc3ffab2198451866afae8a50a27ae",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/1B_Kit-Render-with-Primaries_12ef8b80-ffed-4faf-a7de-1fa27490466a.jpg?v=1792570009"
+   },
+   "title": "Dermalogica Expert Barrier Repair Set (3 Travel-Size), Ingredient by Ingredient #shorts",
+   "description": "Dermalogica expert barrier repair set (3 travel-size): comfort, calm + barrier support, from the Midrand routine desk.\n\nWe earn a commission if you buy through our link at https://dermatologist.joburg/.\n\n• Comfort, calm + barrier support\n• What's inside: Special Cleansing Gel (50ml); Daily Milkfoliant (13g); Stabilizing Repair Cream (15ml)\n• Gently polishes to reveal smoother, more vibrant skin\n• Replenishes and supports skin's moisture barrier\n• Relieves skin with calming and soothing ingredients\n• Soothes on contact\n• How to use: Special Cleansing Gel: Gently lather a small amount of gel in moistened hands and apply to dampened face and throat. Rinse with warm water. Daily Milkfoliant: Dispense into wet hands and create a creamy lather. Massage onto clean face. Rinse.\n\ndermatologist.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/expert-barrier-repair?variant=67649862861114, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatologist.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #ExpertBarrierRepairSet3TravelSize #RoutineBuilder #shorts",
+   "tags": [
+    "expert barrier repair set (3 travel-size)",
+    "dermalogica expert barrier repair set (3 travel-size)",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 24.84,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-expert-barrier-repair-set-3-travel-size-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-expert-barrier-repair-set-3-travel-size-short.mp4",
+   "sha256": "b72df3d86ca2e1ffa5287a45ebd4853dba2f12089bfb10d6324a2720f2a6824e",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-expert-barrier-repair-set-3-travel-size-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-expert-barrier-repair-set-3-travel-size-short.jpg",
+   "thumbnail_sha256": "a90f8d04ffad2ac12253860d585960a4ac83e2ae38b446ab86cfa1079adbed27",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-expert-barrier-repair-set-3-travel-size-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-expert-barrier-repair-set-3-travel-size-short.en.srt",
+   "captions_sha256": "aa307b0682bb7027f69d761da651fe40389ff3fbe99c3ef07c948b24d0d28673",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-301351INT-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-301351INT-06.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_jessica (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.45,
+    "true_peak": -1.96,
+    "packshot_match": 0.898,
+    "srt_cues": 8,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 49,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatologist.joburg",
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-13 16:00",
+   "format": "short",
+   "slug": "midrand-expert-cleanse-glow-set-3-full-size-short",
+   "sku": "301346INT",
+   "variant": "Default Title",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "expert cleanse + glow set (3 full-size)",
+    "listing_url": "https://dermalogica.co.za/products/expert-cleanse-glow?variant=67649806827834",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-301346INT-00.jpg",
+    "packshot_sha256": "bb0af0a84c97cc72a6936416e371a14fe121bd3b09e97be0e3e088adc9c3e3c2",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/1B_Kit-Render-with-Primaries_3d2ca017-9868-4e32-bc6e-ed6c92b88e43.jpg?v=1792569566"
+   },
+   "title": "Routine Builder: Dermalogica Expert Cleanse + Glow Set (3 Full-Size) #shorts",
+   "description": "Dermalogica expert cleanse + glow set (3 full-size): 3-step cleansing essentials, from the Midrand routine desk.\n\nWe earn a commission if you buy through our link at https://dermatologist.joburg/.\n\n• 3-step cleansing essentials\n• What's inside: PreCleanse (150ml); Special Cleansing Gel (250ml); Daily Microfoliant (74g)\n• Enables your prescribed Dermalogica Cleanser to work more efficiently\n• Washes away impurities without stripping or drying\n• Calming agents help soothe and purify skin\n• Removes dulling surface debris and evens skin tone\n• How to use: PreCleanse: Using dry hands, massage over dry face to dissolve surface oil and dirt. Concentrate on areas of congestion or stubborn debris. Wet hands and continue massaging to create a light, milky emulsion. Rinse with lukewarm water. Follow with recommended Dermalogica Cleanser.\n\ndermatologist.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/expert-cleanse-glow?variant=67649806827834, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatologist.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #ExpertCleanseGlowSet3FullSize #RoutineBuilder #shorts",
+   "tags": [
+    "expert cleanse + glow set (3 full-size)",
+    "dermalogica expert cleanse + glow set (3 full-size)",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 34.93,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-expert-cleanse-glow-set-3-full-size-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-expert-cleanse-glow-set-3-full-size-short.mp4",
+   "sha256": "d72823bce3b48300d384192c7c921c931ba1cad22c0113c66f476a51bdf674ac",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-expert-cleanse-glow-set-3-full-size-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-expert-cleanse-glow-set-3-full-size-short.jpg",
+   "thumbnail_sha256": "a56c8d55faeaea1e268d8bfbf1a443f16c121f5228b2d290ad7ec1a17ae30956",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-expert-cleanse-glow-set-3-full-size-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-expert-cleanse-glow-set-3-full-size-short.en.srt",
+   "captions_sha256": "8f07557fe0261bdec11cf0bf313fd4d6b5bd531731701b4195c478877629d64e",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-301346INT-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-301346INT-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-301346INT-06.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_jessica (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.48,
+    "true_peak": -1.95,
+    "packshot_match": 0.888,
+    "srt_cues": 9,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 59,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatologist.joburg",
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-13 18:00",
+   "format": "video",
+   "slug": "midrand-the-expert-lift-set-3-full-size",
+   "sku": "301349INT",
+   "variant": "Default Title",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "the expert lift set (3 full-size)",
+    "listing_url": "https://dermalogica.co.za/products/expert-lift?variant=67649851294010",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-301349INT-00.jpg",
+    "packshot_sha256": "a0ff41d2a7c5d6069b961c78003e7d52e2931380fbbdf5b8d0c79acd094549a9",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/1A_StylizedRenderwithPacks.jpg?v=1792570211"
+   },
+   "title": "Dermalogica The Expert Lift Set (3 Full-Size): Firm + Lift Trio, and How to Use It",
+   "description": "Dermalogica the expert lift set (3 full-size): firm + lift trio, from the Midrand routine desk.\n\nWe earn a commission if you buy through our link at https://dermatologist.joburg/.\n\n• Firm + lift trio\n• What's inside: Phyto Nature E² (100ml); Phyto Nature Oxygen Cream (50ml); Phyto Nature Lifting Eye Cream (15ml)\n• Regenerative exosome blend helps diminish the appearance of fine lines + wrinkles\n• Accelerates skin's natural cellular renewal\n• Resurfaces to reveal brighter, smoother skin every day\n• Firms and lifts to reduce the appearance of skin aging\n• How to use: Phyto Nature E²: Apply to clean skin. Allow to absorb, then follow with the rest of your skin care routine. Use twice daily. Phyto Nature Oxygen Cream: After cleansing and toning, apply over face and neck in light, upward strokes. Use twice daily, morning and night.\n\nChapters:\n0:00 Overview\n0:12 3 products in one kit\n0:31 Directions from the listing\n\ndermatologist.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/expert-lift?variant=67649851294010, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatologist.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #TheExpertLiftSet3FullSize #RoutineBuilder",
+   "tags": [
+    "the expert lift set (3 full-size)",
+    "dermalogica the expert lift set (3 full-size)",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 60.73,
+   "resolution": "1920x1080",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-the-expert-lift-set-3-full-size.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-the-expert-lift-set-3-full-size.mp4",
+   "sha256": "affdfda435d24fcfce715edec118d837b9ea6ab9fd23bbbf9c26696e68f41ab2",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-the-expert-lift-set-3-full-size.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-the-expert-lift-set-3-full-size.jpg",
+   "thumbnail_sha256": "fb8f5afc01c04e0f864f4b9d75aa45c2b197773b6d188a1243b81f7d9741a3cc",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-the-expert-lift-set-3-full-size.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-the-expert-lift-set-3-full-size.en.srt",
+   "captions_sha256": "9cc36e2366e518dffc3b7916c9eb13d0608ad810f9d09b42bf03cd5b52d3c19a",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-301349INT-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-301349INT-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-301349INT-08.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_jessica (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.44,
+    "true_peak": -1.98,
+    "packshot_match": 0.901,
+    "srt_cues": 18,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 69,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatologist.joburg",
+   "handle": "@DermatologistJoburgMidrand",
+   "slot_sast": "2026-11-13 20:00",
+   "format": "short",
+   "slug": "midrand-ultracalming-mist-177ml-short",
+   "sku": "110545",
+   "variant": "177ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "ultracalming mist",
+    "listing_url": "https://dermalogica.co.za/products/ultracalming-mist-177ml-110545?variant=46592473956666",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-110545-00.jpg",
+    "packshot_sha256": "cb5abe4025198e5615fd79eae9bc41b62b61305e29b2a6382e136503f9a89d12",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/UltraCalming-Mist_6oz.jpg?v=1696578733"
+   },
+   "title": "Dermalogica UltraCalming Mist 177 mL, Explained Fast #shorts",
+   "description": "Dermalogica ultracalming mist: soothes and relieves inflammation, from the Midrand routine desk.\n\nWe earn a commission if you buy through our link at https://dermatologist.joburg/.\n\n• Soothes and relieves inflammation\n• Helps condition skin Can be used after waxing or exfoliation for soothing benefits\n• Quickly relieves inflammation and discomfort\n• How to use: After cleansing, spray over face, neck and chest with eyes closed. For added benefits, press into skin. May also be sprayed onto fingertips or dampened cotton pad and applied to the skin with light, upward strokes. Follow with UltraCalming Serum Concentrate.\n\ndermatologist.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/ultracalming-mist-177ml-110545?variant=46592473956666, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatologist.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #UltraCalmingMist #RoutineBuilder #shorts",
+   "tags": [
+    "ultracalming mist",
+    "dermalogica ultracalming mist",
+    "routine",
+    "midrand skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 25.2,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-ultracalming-mist-177ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-ultracalming-mist-177ml-short.mp4",
+   "sha256": "e10b0ac4627cb22398726c345193cdf2b19145fc0c73a6b9322ed5db934b1bcd",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-ultracalming-mist-177ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-ultracalming-mist-177ml-short.jpg",
+   "thumbnail_sha256": "8bd33fbe5c8ce5209780bb7e8da2fc19350f36a3e123a0ee04484bdb972fcea5",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-ultracalming-mist-177ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatologist.joburg/midrand-ultracalming-mist-177ml-short.en.srt",
+   "captions_sha256": "0a19b241802977d6cda0802ebc4297da3732758ee53ef98f897f71b80f482658",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-110545-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-110545-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-110545-02.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_jessica (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.42,
+    "true_peak": -1.9,
+    "packshot_match": 0.946,
+    "srt_cues": 7,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 44,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.capetown",
+   "handle": "@DermatologyCapeTown",
+   "slot_sast": "2026-11-13 08:00",
+   "format": "short",
+   "slug": "capetown-micro-pore-mist-118ml-118ml-short",
+   "sku": "111430",
+   "variant": "118ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "micro-pore mist 118ml",
+    "listing_url": "https://dermalogica.co.za/products/micro-pore-mist-118ml-111430?variant=46589510025530",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111430-00.png",
+    "packshot_sha256": "e7484e198e43af9b7815325e8d286b226678bcfcd048725a55bb45f52105f48a",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Medium_6a8f3754-a597-44d4-86d3-f62fd94333fc.png?v=1698673088"
+   },
+   "title": "Dermalogica Micro-Pore Mist 118ml: Which Step Is It? #shorts",
+   "description": "Dermalogica micro-pore mist 118ml: minimizes pores and refreshes, from the Cape Town daily sun care desk.\n\nWe earn a commission if you buy through our link at https://dermatology.capetown/.\n\n• Minimizes pores and refreshes\n• Wild rose hips flavonoid complex helps reduce oily shine and minimize pores from the first use Niacinamide (vitamin b3) helps diminish the appearance of pores and post-breakout marks, brighten skin and even tone Cucumber extract refreshes the senses for a cool pick-me-up\n• How to use: Spritz on after cleansing morning and night or throughout the day as needed.\n\ndermatology.capetown is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/micro-pore-mist-118ml-111430?variant=46589510025530, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatology.capetown/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #MicroPoreMist118ml #DailySPF #shorts",
+   "tags": [
+    "micro-pore mist 118ml",
+    "dermalogica micro-pore mist 118ml",
+    "daily sun care",
+    "cape town skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 38.3,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatology.capetown/capetown-micro-pore-mist-118ml-118ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.capetown/capetown-micro-pore-mist-118ml-118ml-short.mp4",
+   "sha256": "805ce027bd3829e07785e34232ea54a105ae7efc4ed2cb2f834ac12d6b44accd",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatology.capetown/capetown-micro-pore-mist-118ml-118ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.capetown/capetown-micro-pore-mist-118ml-118ml-short.jpg",
+   "thumbnail_sha256": "b25c91dbd8b05d9818793e9ec124a95e4120815f7e82d98c1892f6bf18743594",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatology.capetown/capetown-micro-pore-mist-118ml-118ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.capetown/capetown-micro-pore-mist-118ml-118ml-short.en.srt",
+   "captions_sha256": "8c7b755a3267e751936fd19aa124421c467a7a0df12ea13132ba0bc7f7d74527",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111430-00.png",
+    "skincare-daily/2026-11-13/images/d1113-111430-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111430-05.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_aoede (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.41,
+    "true_peak": -1.35,
+    "packshot_match": 0.951,
+    "srt_cues": 9,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 47,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.durban",
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-13 08:00",
+   "format": "short",
+   "slug": "umhlanga-phyto-nature-lifting-eye-cream-15ml-15ml-short",
+   "sku": "111487",
+   "variant": "15ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "phyto nature lifting eye cream 15ml",
+    "listing_url": "https://dermalogica.co.za/products/phyto-nature-lifting-eye-cream-15ml?variant=49107322831162",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111487-00.jpg",
+    "packshot_sha256": "ba0cffc835208dff1170b9f9b28745c24556f99d54798b30fe0ec3e2d21124f1",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Phyto_Nature_Lifting_Eye_Cream_FRONT.jpg?v=1786703018"
+   },
+   "title": "Layering Guide: Dermalogica Phyto Nature Lifting Eye Cream 15ml #shorts",
+   "description": "Dermalogica phyto nature lifting eye cream 15ml: lifts + firms sagging eyes, from the uMhlanga hydration and layering desk.\n\nWe earn a commission if you buy through our link at https://dermatology.durban/.\n\n• Lifts + firms sagging eyes\n• Visibly lifts, firms, and reduces eyelid folds\n• How to use: Warm a pea-sized amount between fingers. Gently pat onto under eyes and eyelids, massaging in an upward motion from the orbital bone toward temples. Use twice daily.\n\ndermatology.durban is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/phyto-nature-lifting-eye-cream-15ml?variant=49107322831162, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatology.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #PhytoNatureLiftingEyeCream15ml #LayeringGuide #shorts",
+   "tags": [
+    "phyto nature lifting eye cream 15ml",
+    "dermalogica phyto nature lifting eye cream 15ml",
+    "hydration and layering",
+    "umhlanga skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 29.13,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-phyto-nature-lifting-eye-cream-15ml-15ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-phyto-nature-lifting-eye-cream-15ml-15ml-short.mp4",
+   "sha256": "809767d72802c07bbf34a35ee1f7b621b3550b2800a3f325040a853cdfe8a983",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-phyto-nature-lifting-eye-cream-15ml-15ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-phyto-nature-lifting-eye-cream-15ml-15ml-short.jpg",
+   "thumbnail_sha256": "f260b8d60adb8d93f105328ce404051af6ba4b7b04facb0ae465db0d55a78ce4",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-phyto-nature-lifting-eye-cream-15ml-15ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-phyto-nature-lifting-eye-cream-15ml-15ml-short.en.srt",
+   "captions_sha256": "247871403a616f91e69ef3b2e8ae5d9a09c7a4a5f9c4b479739e56e0a0746e4a",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111487-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111487-02.png",
+    "skincare-daily/2026-11-13/images/d1113-111487-06.png"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_sarah (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.38,
+    "true_peak": -1.42,
+    "packshot_match": 0.979,
+    "srt_cues": 9,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 58,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.durban",
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-13 10:00",
+   "format": "video",
+   "slug": "umhlanga-daily-brightness-boosters-kit",
+   "sku": "111450INT",
+   "variant": "Skin Kits",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "daily brightness boosters kit",
+    "listing_url": "https://dermalogica.co.za/products/daily-brightness-boosters-kit-111450int?variant=46588824224058",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111450INT-00.jpg",
+    "packshot_sha256": "191e60a21b4c13db1ef0e54ae36f0044747826e33ebb69c85320109bfaeb4845",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/daily-brightness-boosters-pdp.jpg?v=1721216149"
+   },
+   "title": "Dermalogica Daily Brightness Boosters Kit: Key Ingredients and How to Use It",
+   "description": "Dermalogica daily brightness boosters kit: brightens, conditions, hydrates, from the uMhlanga hydration and layering desk.\n\nWe earn a commission if you buy through our link at https://dermatology.durban/.\n\n• Brightens, conditions, hydrates\n• What's inside: Daily Glycolic Cleanser (30ml); BioLumin-C Serum (9ml); BioLumin-C Gel Moisturizer (15ml)\n• Brightens the appearance of skin immediately and over time\n• Cleanses and removes buildup\n• Brightens and evens skin tone\n• Brightens and reduces unbalanced pigmentation\n• How to use: Massage Daily Glycolic Cleanser onto dampened face and neck. Rinse with warm water. Dispense a full dropper of Biolumin-C Serum and smooth over cleansed face and neck. Follow with BioLumin-C Gel Moisturizer and apply over face and neck in light, upward strokes.\n\nChapters:\n0:00 Overview\n0:18 Cleanse and remove buildup Brighten and reduce\n0:45 Directions from the listing\n\ndermatology.durban is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/daily-brightness-boosters-kit-111450int?variant=46588824224058, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatology.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #DailyBrightnessBoostersKit #LayeringGuide",
+   "tags": [
+    "daily brightness boosters kit",
+    "dermalogica daily brightness boosters kit",
+    "hydration and layering",
+    "umhlanga skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 69.02,
+   "resolution": "1920x1080",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-daily-brightness-boosters-kit.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-daily-brightness-boosters-kit.mp4",
+   "sha256": "5d00d4fd1ea24d8db0143ebcee3185bac47f35441a8e7a63a18c96791d84a585",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-daily-brightness-boosters-kit.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-daily-brightness-boosters-kit.jpg",
+   "thumbnail_sha256": "f687ed26dd3ff77d5f7926f56a76fedbcb5df7bc88acf719d9f40faa5a0617b9",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-daily-brightness-boosters-kit.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-daily-brightness-boosters-kit.en.srt",
+   "captions_sha256": "5d13db9f37e36490c6b1250b833ccdcc4d977e06ba5e3a958430ef0ecdc691cf",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111450INT-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111450INT-02.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111450INT-04.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_sarah (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.35,
+    "true_peak": -1.34,
+    "packshot_match": 0.955,
+    "srt_cues": 17,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 59,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.durban",
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-13 12:00",
+   "format": "short",
+   "slug": "umhlanga-calm-water-gel-50ml-short",
+   "sku": "111268",
+   "variant": "50ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "calm water gel",
+    "listing_url": "https://dermalogica.co.za/products/calm-water-gel-50ml-111268?variant=46583617126714",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111268-00.png",
+    "packshot_sha256": "a9a9127c23237cb7db38d9d4e84d2d12a6efe70b703804d18211bcdbfb1e8af6",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Medium_024357fe-bbd2-4453-95b6-3d6459de8279.png?v=1698668507"
+   },
+   "title": "Dermalogica Calm Water Gel 50 mL in Your Routine #shorts",
+   "description": "Dermalogica calm water gel: calms and hydrates sensitive skin, from the uMhlanga hydration and layering desk.\n\nWe earn a commission if you buy through our link at https://dermatology.durban/.\n\n• Calms and hydrates sensitive skin\n• Locks in moisture and defends skin against dryness\n• Provides immediate hydration to dry, irritated skin\n• Softens, soothes and calms\n• How to use: Squeeze a small amount into palm and rub hands together to activate. Pat gently onto face and neck. Use twice a day for continuous relief.\n\ndermatology.durban is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/calm-water-gel-50ml-111268?variant=46583617126714, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatology.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #CalmWaterGel #LayeringGuide #shorts",
+   "tags": [
+    "calm water gel",
+    "dermalogica calm water gel",
+    "hydration and layering",
+    "umhlanga skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 25.14,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-calm-water-gel-50ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-calm-water-gel-50ml-short.mp4",
+   "sha256": "12c7f9f21b2fb8f7f1ea247acbfde723057c9c7854468ed2ded13f51ab65791a",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-calm-water-gel-50ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-calm-water-gel-50ml-short.jpg",
+   "thumbnail_sha256": "1f5f08a427b33dcd33be255f8997578e2ee731e44baff7ddb347c9785a9a31d5",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-calm-water-gel-50ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-calm-water-gel-50ml-short.en.srt",
+   "captions_sha256": "18f2cb9a58864ae550742aa19193b16eeafeb053542678cf636c63f793a514b7",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111268-00.png",
+    "skincare-daily/2026-11-13/images/d1113-111268-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111268-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_sarah (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.4,
+    "true_peak": -1.45,
+    "packshot_match": 0.941,
+    "srt_cues": 8,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 43,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.durban",
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-13 16:00",
+   "format": "short",
+   "slug": "umhlanga-skin-smoothing-cream-150ml-short",
+   "sku": "811323",
+   "variant": "150ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "skin smoothing cream",
+    "listing_url": "https://dermalogica.co.za/products/skin-smoothing-cream-skin-smoothing-cream?variant=45975454843194",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-811323-00.jpg",
+    "packshot_sha256": "13d57da58e7a04d0d6b4a57c5af96f26d435089f793f54e1f159432f1facf23b",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Skin_Smoothing_Cream_3.4oz_FRONT_121b29ce-7515-4ef7-b0d3-761c26571964.jpg?v=1778851940"
+   },
+   "title": "Reading the Label: Dermalogica Skin Smoothing Cream 150 mL #shorts",
+   "description": "Dermalogica skin smoothing cream: provides 48 hours of hydration, from the uMhlanga hydration and layering desk.\n\nWe earn a commission if you buy through our link at https://dermatology.durban/.\n\n• Provides 48 hours of hydration\n• Provides 48 hours of continuous hydration Powered by Active HydraMesh Technology\n• Protects against environmental stress\n• How to use: After cleansing and toning, apply over face and throat in light, upward strokes. Use twice daily, morning and night.\n\ndermatology.durban is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/skin-smoothing-cream-skin-smoothing-cream?variant=45975454843194, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatology.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #SkinSmoothingCream #LayeringGuide #shorts",
+   "tags": [
+    "skin smoothing cream",
+    "dermalogica skin smoothing cream",
+    "hydration and layering",
+    "umhlanga skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 36.04,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-skin-smoothing-cream-150ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-skin-smoothing-cream-150ml-short.mp4",
+   "sha256": "2f5c01bfcd607ed14bf781cc4cfdccb28e676de95486e6402030bdb0b35f16a5",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-skin-smoothing-cream-150ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-skin-smoothing-cream-150ml-short.jpg",
+   "thumbnail_sha256": "9d28dd901b684ebe603e9bc438ca13120f9f6197c2b9f8693c31d2a931cc31b6",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-skin-smoothing-cream-150ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-skin-smoothing-cream-150ml-short.en.srt",
+   "captions_sha256": "c90506dd0723695e50f8f39a4a1541f2b45b7b2c03a848cecee04547134226f6",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-811323-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-811323-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-811323-02.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_sarah (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.46,
+    "true_peak": -1.46,
+    "packshot_match": 0.972,
+    "srt_cues": 10,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 52,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.durban",
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-13 18:00",
+   "format": "video",
+   "slug": "umhlanga-age-bright-clearing-serum-30ml",
+   "sku": "111342",
+   "variant": "30ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "Age Bright Clearing Serum",
+    "listing_url": "https://dermalogica.co.za/products/age-bright-clearing-serum-30ml-111342?variant=46583455940922",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111342-00.png",
+    "packshot_sha256": "af6b759fa05446a83b96c0305083f763fc9645536a9a97c2e052fedd2c8cba0c",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Smaller_fdba0c52-e225-4b2a-8074-55dd5b91bcea.png?v=1698665884"
+   },
+   "title": "Dermalogica Age Bright Clearing Serum 30 mL: Clears and Prevents Breakouts, and How to Use It",
+   "description": "Dermalogica Age Bright Clearing Serum: clears and prevents breakouts, from the uMhlanga hydration and layering desk.\n\nWe earn a commission if you buy through our link at https://dermatology.durban/.\n\n• Clears and prevents breakouts\n• AGE Bright Complex works with the skin’s natural microbiome for clearer, brighter skin\n• Phytoactives from Resurrection Plant hydrate and smooth skin Niacinamide works together with White Shiitake Mushroom to promote brighter, more even skin tone\n• How to use: Apply a thin layer and allow to dry. Use all over the face and under your recommended Dermalogica moisturizer twice a day, as needed.\n\nChapters:\n0:00 Overview\n0:16 Clears and prevents breakouts\n0:39 Phytoactives from Resurrection Plant hydrate\n0:55 Directions from the listing\n\ndermatology.durban is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/age-bright-clearing-serum-30ml-111342?variant=46583455940922, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatology.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #AgeBrightClearingSerum #LayeringGuide",
+   "tags": [
+    "Age Bright Clearing Serum",
+    "dermalogica Age Bright Clearing Serum",
+    "hydration and layering",
+    "umhlanga skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 70.12,
+   "resolution": "1920x1080",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-age-bright-clearing-serum-30ml.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-age-bright-clearing-serum-30ml.mp4",
+   "sha256": "34bf2f2e3eacb40bb00f7cac43779fb236432f76da1916db84d516af766bbc13",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-age-bright-clearing-serum-30ml.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-age-bright-clearing-serum-30ml.jpg",
+   "thumbnail_sha256": "5654660265e77aec76e3f334a4df2dcb95a8338b064fe11ab9d14f73004b64d1",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-age-bright-clearing-serum-30ml.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-age-bright-clearing-serum-30ml.en.srt",
+   "captions_sha256": "45fc46331b6419adf9698a573b4a9fa2f0dbb55825e81a66019481ffc6e73d5f",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111342-00.png",
+    "skincare-daily/2026-11-13/images/d1113-111342-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111342-02.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111342-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_sarah (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.44,
+    "true_peak": -1.91,
+    "packshot_match": 0.982,
+    "srt_cues": 20,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 51,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.durban",
+   "handle": "@DermatologyDurbanUmhlanga",
+   "slot_sast": "2026-11-13 20:00",
+   "format": "short",
+   "slug": "umhlanga-super-rich-repair-100ml-short",
+   "sku": "811063",
+   "variant": "100ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "super rich repair",
+    "listing_url": "https://dermalogica.co.za/products/super-rich-repair-super-rich-repair?variant=45975458021690",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-811063-00.jpg",
+    "packshot_sha256": "ef5fe474937fa847b7d8328bbc26ae7b555861ce1d70b068e19e43f6cb1fee35",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Canva_edit_super_rich_100ml_11cca082-684b-49df-a750-3f6227146859.png?v=1774269691"
+   },
+   "title": "Dermalogica Super Rich Repair: Every Size in Under a Minute #shorts",
+   "description": "Dermalogica super rich repair: nourishes chronically dry skin, from the uMhlanga hydration and layering desk.\n\nWe earn a commission if you buy through our link at https://dermatology.durban/.\n\n• Nourishes chronically dry skin\n• Soothes and insulates skin against extreme environmental elements\n• Replenishes barrier lipids while moisturizing Fortified with Allantoin to help soothe\n• How to use: Apply to face and neck with light, upward strokes. Wait for cream to absorb before applying additional products. Use twice daily. Store at room temperature.\n\ndermatology.durban is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/super-rich-repair-super-rich-repair?variant=45975458021690, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatology.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #SuperRichRepair #LayeringGuide #shorts",
+   "tags": [
+    "super rich repair",
+    "dermalogica super rich repair",
+    "hydration and layering",
+    "umhlanga skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 30.53,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-super-rich-repair-100ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-super-rich-repair-100ml-short.mp4",
+   "sha256": "fe0caac0a3d03e8f36b260dde1d79c44b137e76d31cc266a635df739b6f219b8",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-super-rich-repair-100ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-super-rich-repair-100ml-short.jpg",
+   "thumbnail_sha256": "df3c67eb4dfa4b22804880b68a7de75ed22b9d9f4bf36e668712e884f28eb0d8",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-super-rich-repair-100ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.durban/umhlanga-super-rich-repair-100ml-short.en.srt",
+   "captions_sha256": "39f8eead6396d4539189e9de937d952bbd82ff331b58d4f6e0ec3656653b450a",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-811063-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-811063-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-811063-02.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_sarah (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.41,
+    "true_peak": -1.45,
+    "packshot_match": 0.962,
+    "srt_cues": 9,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 45,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.joburg",
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-13 08:00",
+   "format": "short",
+   "slug": "bedfordview-phyto-nature-e-regenerating-daily-exosome-leave-on-treatment-short",
+   "sku": "111518",
+   "variant": "Default Title",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "phyto nature e² regenerating daily exosome leave-on treatment",
+    "listing_url": "https://dermalogica.co.za/products/phyto-nature-e-regenerating-daily-exosome-leave-on-treatment?variant=52469125218618",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111518-00.jpg",
+    "packshot_sha256": "a94a88b4da58a893a4353fa5765e62af989671e44f3ccdd8f082053a2e06a2f3",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/PhytoNatureE2_3.4PRIMARY_FRONT_1.jpg?v=1775380723"
+   },
+   "title": "Where Dermalogica Phyto Nature E² Regenerating Daily Exosome Leave-On Treatment Goes in a Routine #s",
+   "description": "Dermalogica phyto nature e² regenerating daily exosome leave-on treatment: renew + resurface, from the Bedfordview labels and ingredients desk.\n\nWe earn a commission if you buy through our link at https://dermatology.joburg/.\n\n• Renew + resurface\n• Resurfaces to reveal brighter, smoother skin every day\n• Regenerative exosome blend helps diminish the appearance of fine lines + wrinkles\n• Accelerates skin's natural cellular renewal\n• How to use: Apply to clean skin. Allow to absorb, then follow with the rest of your skin care routine. Use twice daily.\n\ndermatology.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/phyto-nature-e-regenerating-daily-exosome-leave-on-treatment?variant=52469125218618, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatology.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #PhytoNatureERegeneratingDailyExosomeLeaveOnTreatment #LabelRead #shorts",
+   "tags": [
+    "phyto nature e² regenerating daily exosome leave-on treatment",
+    "dermalogica phyto nature e² regenerating daily exosome leave-on treatment",
+    "labels and ingredients",
+    "bedfordview skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 45.93,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-phyto-nature-e-regenerating-daily-exosome-leave-on-treatment-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-phyto-nature-e-regenerating-daily-exosome-leave-on-treatment-short.mp4",
+   "sha256": "fa9c5db5da946ff1f41ab629035feb61a0212a028ff93c9ffa9b5d19acd030e5",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-phyto-nature-e-regenerating-daily-exosome-leave-on-treatment-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-phyto-nature-e-regenerating-daily-exosome-leave-on-treatment-short.jpg",
+   "thumbnail_sha256": "0c3a70b557ce2269502c9d6a866f2a0fe6516ff1236aa625663c8fde9dcc2594",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-phyto-nature-e-regenerating-daily-exosome-leave-on-treatment-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-phyto-nature-e-regenerating-daily-exosome-leave-on-treatment-short.en.srt",
+   "captions_sha256": "6d985da9e19ebd81ae763fd9c2de85769128f464dae2a01e5cae224e7630a70d",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111518-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111518-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111518-04.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_nicole (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.35,
+    "true_peak": -1.95,
+    "packshot_match": 0.977,
+    "srt_cues": 9,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 53,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.joburg",
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-13 10:00",
+   "format": "video",
+   "slug": "bedfordview-breakout-clearing-foaming-wash-177ml",
+   "sku": "110910",
+   "variant": "177ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "breakout clearing foaming wash",
+    "listing_url": "https://dermalogica.co.za/products/breakout-clearing-foaming-wash-breakout-clearing-foaming-wash?variant=45975458316602",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-110910-00.jpg",
+    "packshot_sha256": "8f1c5000536481045412287485683f6408d6bc2c2bd9d9c0dedfeca9ca0343e1",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/6ozproductimage_f9de28b5-4e6e-49f8-b705-a9948c0b918c.jpg?v=1761902713"
+   },
+   "title": "Dermalogica Breakout Clearing Foaming Wash 177 mL Ingredients, Read From the Label",
+   "description": "Dermalogica breakout clearing foaming wash: fights breakouts and deep cleans, from the Bedfordview labels and ingredients desk.\n\nWe earn a commission if you buy through our link at https://dermatology.joburg/.\n\n• Fights breakouts and deep cleans\n• Formulated with 8 botanicals including Tea Tree, Lavender and Camellia\n• Sinensis, known to gently soothe and calm irritated skin Orange Peel Extract revives, energizes, and refreshes\n• Salicylic Acid dives deep into pores, clearing dead skin cells and trapped oils to help wipe out existing and future breakouts\n• How to use: Morning and night, lather a small amount in damp hands, then rub over face, neck, chest ... anywhere you want to wipe out dirt and breakouts. Keep out of your eyes. Rinse thoroughly with warm water.\n\nChapters:\n0:00 Overview\n0:15 First ingredients listed\n0:36 This breakout-fighting\n0:49 Salicylic Acid dives deep into pores\n1:03 Directions from the listing\n1:30 Overview\n\ndermatology.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/breakout-clearing-foaming-wash-breakout-clearing-foaming-wash?variant=45975458316602, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatology.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #BreakoutClearingFoamingWash #LabelRead",
+   "tags": [
+    "breakout clearing foaming wash",
+    "dermalogica breakout clearing foaming wash",
+    "labels and ingredients",
+    "bedfordview skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 101.77,
+   "resolution": "1920x1080",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-breakout-clearing-foaming-wash-177ml.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-breakout-clearing-foaming-wash-177ml.mp4",
+   "sha256": "3a5ffbec554eafce638be1ec60823f5ad12778746839c2be70fe51d2fee6d860",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-breakout-clearing-foaming-wash-177ml.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-breakout-clearing-foaming-wash-177ml.jpg",
+   "thumbnail_sha256": "f0dfcaae590e37b1cb26195a9a9e01e9da879c3e150e93fbafbf2e9e5618795a",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-breakout-clearing-foaming-wash-177ml.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-breakout-clearing-foaming-wash-177ml.en.srt",
+   "captions_sha256": "541e099e93df85a675bbebcc22fb63fdd19bb521b251ecda292b7c99da092366",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-110910-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-110910-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-110910-02.jpg",
+    "skincare-daily/2026-11-13/images/d1113-110910-06.jpg",
+    "skincare-daily/2026-11-13/images/d1113-110910-07.jpg",
+    "skincare-daily/2026-11-13/images/d1113-110910-08.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_nicole (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.33,
+    "true_peak": -1.9,
+    "packshot_match": 0.889,
+    "srt_cues": 19,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 48,
+   "status": "ready"
+  },
   {
    "domain": "dermatology.joburg",
    "handle": "@DermatologyJoburgBedfordview",
@@ -349,6 +1159,385 @@
    "status": "ready"
   },
   {
+   "domain": "dermatology.joburg",
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-13 18:00",
+   "format": "video",
+   "slug": "bedfordview-active-moist-150ml",
+   "sku": "811059",
+   "variant": "150ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "active moist",
+    "listing_url": "https://dermalogica.co.za/products/active-moist-active-moist?variant=45975454449978",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-811059-00.png",
+    "packshot_sha256": "ac7355968737b666c0fdad135a6cd4b8eb2fe67b752d0c6034dbe21f51592ba3",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Larger.png?v=1719988272"
+   },
+   "title": "Dermalogica Active Moist 150 mL, Explained",
+   "description": "Dermalogica active moist: provides oil-free hydration, from the Bedfordview labels and ingredients desk.\n\nWe earn a commission if you buy through our link at https://dermatology.joburg/.\n\n• Provides oil-free hydration\n• Smooths and helps improve skin texture Sheer formula goes on quickly\n• Provides effective, oil-free hydration without a greasy feel\n• How to use: Apply over damp face and throat with light, upward strokes. Best when used following Multi-Active Toner. Can be applied over or mixed with prescribed Dermalogica Concentrated Booster for additional results.\n\nChapters:\n0:00 Overview\n0:10 Not dermatologists or doctors\n0:24 Provides oil-free hydration\n0:50 Smooths and helps improve skin texture Sheer…\n1:03 Directions from the listing\n\ndermatology.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/active-moist-active-moist?variant=45975454449978, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatology.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #ActiveMoist #LabelRead",
+   "tags": [
+    "active moist",
+    "dermalogica active moist",
+    "labels and ingredients",
+    "bedfordview skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 92.03,
+   "resolution": "1920x1080",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-active-moist-150ml.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-active-moist-150ml.mp4",
+   "sha256": "c8bf0a73cd9d116f071f0af0b76a468f462b7ce27fac8e6161f47e017ac934a5",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-active-moist-150ml.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-active-moist-150ml.jpg",
+   "thumbnail_sha256": "723a73b4f6d8a1fa64405a3533674c701b288d3f05cf7ce3e344637329e1567e",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-active-moist-150ml.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-active-moist-150ml.en.srt",
+   "captions_sha256": "5a329183a6c5ea2bc9cff622f9e1e52cf32cafd272dd7207f218a6c7aabdc886",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-811059-00.png",
+    "skincare-daily/2026-11-13/images/d1113-811059-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-811059-02.jpg",
+    "skincare-daily/2026-11-13/images/d1113-811059-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_nicole (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.35,
+    "true_peak": -1.9,
+    "packshot_match": 0.953,
+    "srt_cues": 15,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 45,
+   "status": "ready"
+  },
+  {
+   "domain": "dermatology.joburg",
+   "handle": "@DermatologyJoburgBedfordview",
+   "slot_sast": "2026-11-13 20:00",
+   "format": "short",
+   "slug": "bedfordview-multi-active-toner-50ml-short",
+   "sku": "110615",
+   "variant": "50ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "multi active toner",
+    "listing_url": "https://dermalogica.co.za/products/multi-active-toner-multi-active-toner?variant=45975454974266",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-110615-00.jpg",
+    "packshot_sha256": "a3edaa48357665acd12543be4591692dde73cccc094553a9288d96a78ad83ec3",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/2_Hero_Travel.jpg?v=1778846745"
+   },
+   "title": "Dermalogica Multi Active Toner 50 mL: Which Step Is It? #shorts",
+   "description": "Dermalogica multi active toner: preps, hydrates, and refreshes, from the Bedfordview labels and ingredients desk.\n\nWe earn a commission if you buy through our link at https://dermatology.joburg/.\n\n• Preps, hydrates, and refreshes\n• Helps even out skin porosity\n• Optimizes moisturizer absorption\n• How to use: After performing the Dermalogica Double Cleanse, spray directly over the entire face and throat with eyes closed. Follow with prescribed Dermalogica moisturizer.\n\ndermatology.joburg is not run by dermatologists or doctors.\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/multi-active-toner-multi-active-toner?variant=45975454974266, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://dermatology.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #MultiActiveToner #LabelRead #shorts",
+   "tags": [
+    "multi active toner",
+    "dermalogica multi active toner",
+    "labels and ingredients",
+    "bedfordview skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 41.91,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-multi-active-toner-50ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-multi-active-toner-50ml-short.mp4",
+   "sha256": "82b63ee972eb1aae45841aeadb830e70e5a413a15da1630c411ea27243c8a99e",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-multi-active-toner-50ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-multi-active-toner-50ml-short.jpg",
+   "thumbnail_sha256": "d105fbab399e5fe6b11f8b1afd8cc3ec6186cbc659e41e8647ce6cb33f29326f",
+   "captions_path": "skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-multi-active-toner-50ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/dermatology.joburg/bedfordview-multi-active-toner-50ml-short.en.srt",
+   "captions_sha256": "2376208226aeb52a179afd267dda5df4309dae48131fa98bc6409423c9ff6ee6",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-110615-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-110615-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-110615-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_nicole (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.44,
+    "true_peak": -1.92,
+    "packshot_match": 0.96,
+    "srt_cues": 9,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 50,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.durban",
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-13 08:00",
+   "format": "short",
+   "slug": "westville-cooling-aqua-jelly-59ml-short",
+   "sku": "111431",
+   "variant": "59ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "cooling aqua jelly",
+    "listing_url": "https://dermalogica.co.za/products/cooling-aqua-jelly-59ml-111431?variant=46588822126906",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111431-00.png",
+    "packshot_sha256": "77276c47c6482c7858a5e5d9d633482ed1263d3ab811e07e84f348ed5fd2e779",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Smaller_1e30f98d-ba69-4fab-b2ea-ab145a255261.png?v=1698669537"
+   },
+   "title": "Dermalogica Cooling Aqua Jelly 59 mL in Your Routine #shorts",
+   "description": "Dermalogica cooling aqua jelly: hydrates and cools skin, from the Westville body care desk.\n\nWe earn a commission if you buy through our link at https://skincare.durban/.\n\n• Hydrates and cools skin\n• Hydrates and cools skin for a refreshed feeling\n• Calms and soothes while brightening the skin’s appearance\n• Helps reduce excess oil and refines skin texture\n• How to use: Apply a pea-sized amount over entire face and neck as the last step in your routine. Use day and night.\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/cooling-aqua-jelly-59ml-111431?variant=46588822126906, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://skincare.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #CoolingAquaJelly #BodyCare #shorts",
+   "tags": [
+    "cooling aqua jelly",
+    "dermalogica cooling aqua jelly",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 24.3,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-cooling-aqua-jelly-59ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-cooling-aqua-jelly-59ml-short.mp4",
+   "sha256": "a65b5a217b924de4dd41e84a0d80586e0738cd913b256a83aadf4d561ec11c45",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-cooling-aqua-jelly-59ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-cooling-aqua-jelly-59ml-short.jpg",
+   "thumbnail_sha256": "e3dd8464978cb626d1871026cce95c0aee80b56ac331405387b51646241d13f7",
+   "captions_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-cooling-aqua-jelly-59ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-cooling-aqua-jelly-59ml-short.en.srt",
+   "captions_sha256": "33c1673e33339d139630a91efd6f9d6267dc15de54182ecf99bd11fde9cba7da",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111431-00.png",
+    "skincare-daily/2026-11-13/images/d1113-111431-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111431-04.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_bella (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.22,
+    "true_peak": -1.47,
+    "packshot_match": 0.916,
+    "srt_cues": 7,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 48,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.durban",
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-13 10:00",
+   "format": "video",
+   "slug": "westville-expert-protect-renew-set-2-full-size-1-travel",
+   "sku": "301347INT",
+   "variant": "Default Title",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "expert protect + renew set (2 full-size + 1 travel)",
+    "listing_url": "https://dermalogica.co.za/products/expert-protect-renew?variant=67649842807098",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-301347INT-00.jpg",
+    "packshot_sha256": "ed19a129aa7f1e2a969366f545e37d85b7f68903ccc9c46f23679a38f1575f01",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/1A_Kit-Render-with-Primaries_74efd688-f1b0-4737-a4ef-f5952b15c8f3.jpg?v=1792569154"
+   },
+   "title": "What Goes Into Dermalogica Expert Protect + Renew Set (2 Full-Size + 1 Travel): Ingredients and Dire",
+   "description": "Dermalogica expert protect + renew set (2 full-size + 1 travel): smooth + radiant skin trio, from the Westville body care desk.\n\nWe earn a commission if you buy through our link at https://skincare.durban/.\n\n• Smooth + radiant skin trio\n• What's inside: Dynamic Skin Recovery SPF50 (50ml); Dynamic Skin Retinol Serum (30ml); Antioxidant Hydramist (30ml)\n• Blends smoothly into skin for a perfected finish\n• Helps reverse the appearance of wrinkles\n• Retexturizes for smoother skin\n• Reduces the appearance of pores\n• How to use: Dynamic Skin Recovery SPF50: After cleansing and toning, apply a generous amount to face and neck, preferably 30 minutes prior to sun exposure. Dynamic Skin Retinol Serum: Once your face is clean and dry, apply a small amount evenly over your entire face, avoiding the eyes. Use nightly, \n\nChapters:\n0:00 Overview\n0:19 Antioxidant HydraMist refreshes and hydrates\n0:36 What's inside: • Dynamic Skin Recovery SPF50…\n0:48 Directions from the listing\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/expert-protect-renew?variant=67649842807098, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://skincare.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #ExpertProtectRenewSet2FullSize1Travel #BodyCare",
+   "tags": [
+    "expert protect + renew set (2 full-size + 1 travel)",
+    "dermalogica expert protect + renew set (2 full-size + 1 travel)",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 82.83,
+   "resolution": "1920x1080",
+   "media_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-expert-protect-renew-set-2-full-size-1-travel.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-expert-protect-renew-set-2-full-size-1-travel.mp4",
+   "sha256": "79575fbe80b784311a1b696caa7a82498f6d8720fc2b7d56093c9eb99c0c4e70",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-expert-protect-renew-set-2-full-size-1-travel.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-expert-protect-renew-set-2-full-size-1-travel.jpg",
+   "thumbnail_sha256": "1148a4924787f8dbef9e5bb85353734f09c1930aae9f46f67f5dc9a8632e14ff",
+   "captions_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-expert-protect-renew-set-2-full-size-1-travel.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-expert-protect-renew-set-2-full-size-1-travel.en.srt",
+   "captions_sha256": "9a6d0d7c9ab5762a9ebc71f206b04b1164445df84cf184638b0f5afd901eb403",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-301347INT-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-301347INT-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-301347INT-04.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_bella (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.18,
+    "true_peak": -1.42,
+    "packshot_match": 0.886,
+    "srt_cues": 18,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 65,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.durban",
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-13 12:00",
+   "format": "short",
+   "slug": "westville-intensive-moisture-balance-150ml-short",
+   "sku": "811327",
+   "variant": "150ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "intensive moisture balance",
+    "listing_url": "https://dermalogica.co.za/products/intensive-moisture-balance-intensive-moisture-balance?variant=45975450550586",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-811327-00.png",
+    "packshot_sha256": "b9db6e4fc115142f1f7fe3a97440129144974f954493bfc32c0b9dacb470bf1f",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Largest.png?v=1716447454"
+   },
+   "title": "Dermalogica Intensive Moisture Balance: Every Size in Under a Minute #shorts",
+   "description": "Dermalogica intensive moisture balance: moisturizes dry, depleted skin, from the Westville body care desk.\n\nWe earn a commission if you buy through our link at https://skincare.durban/.\n\n• Moisturizes dry, depleted skin\n• Strengthens the skin's lipid barrier\n• Helps rebalance the skin's microbiome Intensely moisturizes dry, depleted skin\n• How to use: After cleansing and toning, apply over face and neck in light, upward strokes. Use twice daily, morning and night.\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/intensive-moisture-balance-intensive-moisture-balance?variant=45975450550586, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://skincare.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #IntensiveMoistureBalance #BodyCare #shorts",
+   "tags": [
+    "intensive moisture balance",
+    "dermalogica intensive moisture balance",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 37.41,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-intensive-moisture-balance-150ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-intensive-moisture-balance-150ml-short.mp4",
+   "sha256": "21add2c71842ad02e95dfe0dc3dc50809828f0de3b6803c49cccd61bf3d9a52a",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-intensive-moisture-balance-150ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-intensive-moisture-balance-150ml-short.jpg",
+   "thumbnail_sha256": "f6552a89ac5d1dbb61762f36fc0c6b31f2a1b4bb32d5a71e093a809945d401b0",
+   "captions_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-intensive-moisture-balance-150ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-intensive-moisture-balance-150ml-short.en.srt",
+   "captions_sha256": "f502438678027645832887505d97e4e6ed6d92ea09cf7de1fad353da4166fc4b",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-811327-00.png",
+    "skincare-daily/2026-11-13/images/d1113-811327-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-811327-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_bella (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.16,
+    "true_peak": -1.48,
+    "packshot_match": 0.942,
+    "srt_cues": 10,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 44,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.durban",
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-13 16:00",
+   "format": "short",
+   "slug": "westville-daily-glycolic-cleanser-150ml-short",
+   "sku": "111439",
+   "variant": "150ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "daily glycolic cleanser",
+    "listing_url": "https://dermalogica.co.za/products/daily-glycolic-cleanser-daily-glycolic-cleanser?variant=45975459365178",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111439-00.jpg",
+    "packshot_sha256": "09e91ac93bea44fc63a4dc78ca0075dc688a7e8a3c810d468fbea7bb113901e7",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Daily_Glycolic_Cleanser_BTL_5.1oz_FRONT.jpg?v=1778850369"
+   },
+   "title": "Dermalogica Daily Glycolic Cleanser 150 mL: Which Step Is It? #shorts",
+   "description": "Dermalogica daily glycolic cleanser: brightens dull, uneven skin tone, from the Westville body care desk.\n\nWe earn a commission if you buy through our link at https://skincare.durban/.\n\n• Brightens dull, uneven skin tone\n• Cleanses and removes buildup, Brightens and evens skin tone, Conditions and replenishes skin\n• How to use: Massage onto dampened face and neck. Rinse with warm water.\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/daily-glycolic-cleanser-daily-glycolic-cleanser?variant=45975459365178, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://skincare.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #DailyGlycolicCleanser #BodyCare #shorts",
+   "tags": [
+    "daily glycolic cleanser",
+    "dermalogica daily glycolic cleanser",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 25.73,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-daily-glycolic-cleanser-150ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-daily-glycolic-cleanser-150ml-short.mp4",
+   "sha256": "61905abecb9b29266ffe613c076818fba25fbcdd21a5faa3311ba5d8a142b561",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-daily-glycolic-cleanser-150ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-daily-glycolic-cleanser-150ml-short.jpg",
+   "thumbnail_sha256": "3795c405d88f088a5cc654e73c616f32d7896e29d4a42757549e7a678f0d1af4",
+   "captions_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-daily-glycolic-cleanser-150ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-daily-glycolic-cleanser-150ml-short.en.srt",
+   "captions_sha256": "a9ea736465813a3973715410708a6412616d4809ee17bcf33548baeb67176d6e",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111439-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111439-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111439-04.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_bella (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.12,
+    "true_peak": -1.48,
+    "packshot_match": 0.949,
+    "srt_cues": 8,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 41,
+   "status": "ready"
+  },
+  {
    "domain": "skincare.durban",
    "handle": "@SkincareDurbanWestville",
    "slot_sast": "2026-11-13 18:00",
@@ -409,6 +1598,451 @@
     "pass": true
    },
    "crossday_min_thumb_dist": 57,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.durban",
+   "handle": "@SkincareDurbanWestville",
+   "slot_sast": "2026-11-13 20:00",
+   "format": "short",
+   "slug": "westville-biolumin-c-serum-10ml-short",
+   "sku": "111372",
+   "variant": "10ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "biolumin-c serum",
+    "listing_url": "https://dermalogica.co.za/products/biolumin-c-serum-biolumin-c-serum?variant=47391489032506",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111372-00.png",
+    "packshot_sha256": "597fdb9981809631000604cda89a3f078e8452c03c21a097201b102a161c0927",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/BioluminCSerum10mlResize.png?v=1730900993"
+   },
+   "title": "Dermalogica BioLumin-C Serum 10 mL: Key Ingredients in Under a Minute #shorts",
+   "description": "Dermalogica biolumin-c serum: exfoliates, brightens, and firms, from the Westville body care desk.\n\nWe earn a commission if you buy through our link at https://skincare.durban/.\n\n• Exfoliates, brightens, and firms\n• Exfoliates and reduces unbalanced pigmentation\n• Reduces the appearance of fine lines and wrinkles\n• Prevents and corrects free radical damage\n• How to use: Smooth over cleansed face and neck morning and night after toning and before moisturizing.\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/biolumin-c-serum-biolumin-c-serum?variant=47391489032506, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://skincare.durban/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #BioLuminCSerum #BodyCare #shorts",
+   "tags": [
+    "biolumin-c serum",
+    "dermalogica biolumin-c serum",
+    "body care",
+    "westville skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 35.17,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-biolumin-c-serum-10ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-biolumin-c-serum-10ml-short.mp4",
+   "sha256": "853bcd7ec34469fb1d1f31191999968b72d20d14fade9d601d471bec4afabd23",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-biolumin-c-serum-10ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-biolumin-c-serum-10ml-short.jpg",
+   "thumbnail_sha256": "8c0898b6d75e8ba1c1ebaf515b161accccb3b2f8be6b5a4d8ef01f2badd0f3c0",
+   "captions_path": "skincare-daily/2026-11-13/renders/skincare.durban/westville-biolumin-c-serum-10ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.durban/westville-biolumin-c-serum-10ml-short.en.srt",
+   "captions_sha256": "1fb5bea9121fd8d04319b531e5b04dd051196235b03451cc4de3543be748f3e0",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111372-00.png",
+    "skincare-daily/2026-11-13/images/d1113-111372-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111372-02.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_bella (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.31,
+    "true_peak": -1.48,
+    "packshot_match": 0.962,
+    "srt_cues": 9,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 43,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.joburg",
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-13 08:00",
+   "format": "short",
+   "slug": "rosebank-clearing-defense-spf30-59ml-short",
+   "sku": "111356",
+   "variant": "59ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "clearing defense spf30",
+    "listing_url": "https://dermalogica.co.za/products/clearing-defense-spf30-59ml-111356?variant=46588812296506",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111356-00.jpg",
+    "packshot_sha256": "d762611e7911875f6221ed1071d0a362fe9cedad8b6056bcccc410a64a1547f5",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/01-productimage_aeb2d241-929f-449f-bac1-fc0cba74256e.jpg?v=1761903334"
+   },
+   "title": "What Dermalogica Clearing Defense SPF30 59 mL Does: Reduces Shine and Mattifies Skin #shorts",
+   "description": "Dermalogica clearing defense spf30: reduces shine and mattifies skin, from the Rosebank moisturizer and texture desk.\n\nWe earn a commission if you buy through our link at https://skincare.joburg/.\n\n• Reduces shine and mattifies skin\n• Antioxidant Willow Bark Extract, Green Tea Extract and Vitamin C combat the irritating effects of pollution Patented TT technology works with the skin’s natural microbiome Natural Tapioca helps reduce shine\n• How to use: Apply a generous amount to cleansed face and neck, preferably 30 minutes prior to sun exposure.\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/clearing-defense-spf30-59ml-111356?variant=46588812296506, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://skincare.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #ClearingDefenseSPF30 #MoisturizerDesk #shorts",
+   "tags": [
+    "clearing defense spf30",
+    "dermalogica clearing defense spf30",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 34.93,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-clearing-defense-spf30-59ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-clearing-defense-spf30-59ml-short.mp4",
+   "sha256": "5191d54adfc0281f0e140de7df3c93d48808eba3762943b06fc34606d4702566",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-clearing-defense-spf30-59ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-clearing-defense-spf30-59ml-short.jpg",
+   "thumbnail_sha256": "f36b5c1c4bca4bb00572cf324bc1a2522aab434d3f0b59d0fd43625c10849672",
+   "captions_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-clearing-defense-spf30-59ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-clearing-defense-spf30-59ml-short.en.srt",
+   "captions_sha256": "c469ff95e107dbff1f9509a1e3dc65ae1fbce1666826ca091ef73439b1b76313",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111356-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111356-02.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111356-03.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_heart (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.21,
+    "true_peak": -1.47,
+    "packshot_match": 0.931,
+    "srt_cues": 9,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 54,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.joburg",
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-13 10:00",
+   "format": "video",
+   "slug": "rosebank-biolumin-c-night-restore-serum-25ml",
+   "sku": "111504",
+   "variant": "25ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "biolumin-c night restore serum",
+    "listing_url": "https://dermalogica.co.za/products/biolumen-c-night-restore-25ml?variant=49347448865082",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111504-00.png",
+    "packshot_sha256": "ffcb3009373b36ada9a2b825b78c2340949dd189ecd53f95927aeed338b98e99",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/BioluminCNightRestore_01_28db6f1b-e0a6-46d4-9905-1800e427421a.png?v=1725353719"
+   },
+   "title": "Dermalogica BioLumin-C Night Restore Serum 25 mL Routine Guide: When and How to Use It",
+   "description": "Dermalogica biolumin-c night restore serum: restore skin's radiance, hydration + tone, from the Rosebank moisturizer and texture desk.\n\nWe earn a commission if you buy through our link at https://skincare.joburg/.\n\n• Restore skin's radiance, hydration + tone\n• Provides long-lasting brightness + immediate hydration\n• Helps repair + restore skin’s moisture barrier\n• Helps reverse daytime damage\n• How to use: After cleansing and toning, dispense 3-4 drops and apply evenly over face and neck before bed. Keep out of eyes.\n\nChapters:\n0:00 Overview\n0:10 Directions from the listing\n0:21 With our ultra-stable Vitamin C\n0:36 Overview\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/biolumen-c-night-restore-25ml?variant=49347448865082, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://skincare.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #BioLuminCNightRestoreSerum #MoisturizerDesk",
+   "tags": [
+    "biolumin-c night restore serum",
+    "dermalogica biolumin-c night restore serum",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 55.2,
+   "resolution": "1920x1080",
+   "media_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-biolumin-c-night-restore-serum-25ml.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-biolumin-c-night-restore-serum-25ml.mp4",
+   "sha256": "f488df7a96a79004f317af524aa45195794e2b4ad57f5a557a2f9887d7f7dd6c",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-biolumin-c-night-restore-serum-25ml.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-biolumin-c-night-restore-serum-25ml.jpg",
+   "thumbnail_sha256": "644b74d28d2ad3b0560706439c37c030d05323e556f34447fd8f6bb9b86daf29",
+   "captions_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-biolumin-c-night-restore-serum-25ml.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-biolumin-c-night-restore-serum-25ml.en.srt",
+   "captions_sha256": "42349f1dc76fad27d6f0e5ca020e00c67031354e18816e1bbebf140593d1fb1d",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111504-00.png",
+    "skincare-daily/2026-11-13/images/d1113-111504-01.png",
+    "skincare-daily/2026-11-13/images/d1113-111504-03.png",
+    "skincare-daily/2026-11-13/images/d1113-111504-05.png",
+    "skincare-daily/2026-11-13/images/d1113-111504-06.png",
+    "skincare-daily/2026-11-13/images/d1113-111504-07.png"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_heart (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.32,
+    "true_peak": -1.45,
+    "packshot_match": 0.975,
+    "srt_cues": 15,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 57,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.joburg",
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-13 12:00",
+   "format": "short",
+   "slug": "rosebank-protection-50-sport-spf50-150ml-short",
+   "sku": "111203",
+   "variant": "150ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "protection 50 sport spf50",
+    "listing_url": "https://dermalogica.co.za/products/protection-50-sport-spf50-150ml-111203?variant=46591339757882",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111203-00.jpg",
+    "packshot_sha256": "9e2a540dfbcdac8db83aafd5ab806c30f5a4ac8d9bf31f5cc9052b874d46c0a5",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/PR119BI457_111203_Protection_50_Sport_Spf50_SZ4.jpg?v=1696925504"
+   },
+   "title": "Dermalogica Protection 50 Sport SPF50 150 mL Ingredient Check #shorts",
+   "description": "Dermalogica protection 50 sport spf50: defends against skin damage, from the Rosebank moisturizer and texture desk.\n\nWe earn a commission if you buy through our link at https://skincare.joburg/.\n\n• Defends against skin damage\n• Water-resistant (80 minutes) formula is perfect for the sport enthusiast Sophisticated Oleosome Technology helps powerfully defend skin against the sun's damaging rays and keep skin hydrated Feather-light formula blends smoothly into skin without leaving an uncomfortable film\n• How to use: Use daily on face and body for year-round protection against sun damage. Apply liberally and evenly to skin, preferably 15 minutes prior to sun exposure. Pay special attention to commonly-exposed areas, such as the hands. For continuous protection, apply regularly and reapply as needed a\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/protection-50-sport-spf50-150ml-111203?variant=46591339757882, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://skincare.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #Protection50SportSPF50 #MoisturizerDesk #shorts",
+   "tags": [
+    "protection 50 sport spf50",
+    "dermalogica protection 50 sport spf50",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 27.77,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-protection-50-sport-spf50-150ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-protection-50-sport-spf50-150ml-short.mp4",
+   "sha256": "410a02dee73e43f5a46702f7af55dc439b4c36c838cd7689fc4af6cb2de0843a",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-protection-50-sport-spf50-150ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-protection-50-sport-spf50-150ml-short.jpg",
+   "thumbnail_sha256": "315ef844127ae2bf536a390c2ccc044dc8a8f2a7217d242e73dd225f3c3e7bc5",
+   "captions_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-protection-50-sport-spf50-150ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-protection-50-sport-spf50-150ml-short.en.srt",
+   "captions_sha256": "7eb99e6c2cf1b8ec821802dbd0b05ac55bbe291f1875d65452208b839ca68003",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111203-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111203-01.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_heart (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.35,
+    "true_peak": -1.46,
+    "packshot_match": 0.982,
+    "srt_cues": 7,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 41,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.joburg",
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-13 16:00",
+   "format": "short",
+   "slug": "rosebank-biolumin-c-eye-serum-15ml-short",
+   "sku": "111393",
+   "variant": "15ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "biolumin-c eye serum",
+    "listing_url": "https://dermalogica.co.za/products/biolumin-c-eye-serum-15ml-111393?variant=46583556964666",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111393-00.png",
+    "packshot_sha256": "268638774f4180be4f1dac69a09fe405a9aa9186c5e94877dcae439d42d7f701",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Smaller_565d640b-f762-43fc-be57-e88ddf166f68.png?v=1698666743"
+   },
+   "title": "Where Dermalogica BioLumin-C Eye Serum 15 mL Goes in a Routine #shorts",
+   "description": "Dermalogica biolumin-c eye serum: hydrates and brightens, from the Rosebank moisturizer and texture desk.\n\nWe earn a commission if you buy through our link at https://skincare.joburg/.\n\n• Hydrates and brightens\n• Brightens the eye area with a boost of Vitamin C Reduces the appearance of fine lines and wrinkles\n• Exfoliates and hydrates for smooth, healthy-looking skin\n• How to use: Apply under the eye and along the orbital bone morning and evening. Keep out of eyes.\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/biolumin-c-eye-serum-15ml-111393?variant=46583556964666, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://skincare.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #BioLuminCEyeSerum #MoisturizerDesk #shorts",
+   "tags": [
+    "biolumin-c eye serum",
+    "dermalogica biolumin-c eye serum",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 24.73,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-biolumin-c-eye-serum-15ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-biolumin-c-eye-serum-15ml-short.mp4",
+   "sha256": "985b3e46f86fe549ea3c3e070a6bddd9399132d8af97f1c76b00566794bb481a",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-biolumin-c-eye-serum-15ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-biolumin-c-eye-serum-15ml-short.jpg",
+   "thumbnail_sha256": "936ce7f062ca1b1286fab246b141ec96eef3c7b7f9eb3b9e6da0be2956623752",
+   "captions_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-biolumin-c-eye-serum-15ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-biolumin-c-eye-serum-15ml-short.en.srt",
+   "captions_sha256": "30b61fdd181ef74c217ebf5d630174fbc4da340c93917682d99342877de18a3a",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111393-00.png",
+    "skincare-daily/2026-11-13/images/d1113-111393-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111393-04.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_heart (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.43,
+    "true_peak": -1.45,
+    "packshot_match": 0.972,
+    "srt_cues": 8,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 49,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.joburg",
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-13 18:00",
+   "format": "video",
+   "slug": "rosebank-breakout-clearing-booster-30ml",
+   "sku": "111295",
+   "variant": "30ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "breakout clearing booster",
+    "listing_url": "https://dermalogica.co.za/products/breakout-clearing-booster-30ml-111295?variant=46583581442362",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111295-00.jpg",
+    "packshot_sha256": "52929c3d5e2400f2de7ecf8918e745f25a98a3ea1a90385b1885348431c4e818",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/01-Packaging.jpg?v=1761904222"
+   },
+   "title": "Dermalogica Breakout Clearing Booster 30 mL, Explained",
+   "description": "Dermalogica breakout clearing booster: soothes and rapidly clears skin, from the Rosebank moisturizer and texture desk.\n\nWe earn a commission if you buy through our link at https://skincare.joburg/.\n\n• Soothes and rapidly clears skin\n• Crispus Extract locks in moisture to help, soothe irritated skin Cruelty-free, gluten-free and vegan\n• Niacinamide reinforces skin’s defensive barrier and helps to even skin tone Seaweed-derived\n• How to use: Apply directly to blemish or breakout area, or apply a thin layer all over the face under moisturizer for breakout prevention.\n\nChapters:\n0:00 Overview\n0:27 Crispus Extract locks in moisture to help\n0:41 Apply directly to blemish or breakout\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/breakout-clearing-booster-30ml-111295?variant=46583581442362, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://skincare.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #BreakoutClearingBooster #MoisturizerDesk",
+   "tags": [
+    "breakout clearing booster",
+    "dermalogica breakout clearing booster",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 55.23,
+   "resolution": "1920x1080",
+   "media_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-breakout-clearing-booster-30ml.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-breakout-clearing-booster-30ml.mp4",
+   "sha256": "fa20fd662c6e84f28d3ee8b2b095c1cee10fc663869382f44fe5e365cd27d04d",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-breakout-clearing-booster-30ml.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-breakout-clearing-booster-30ml.jpg",
+   "thumbnail_sha256": "7fc623ee52436ce0e72b12c09faf77de0a224bafa511cf2ce390287b24a7e8f2",
+   "captions_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-breakout-clearing-booster-30ml.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-breakout-clearing-booster-30ml.en.srt",
+   "captions_sha256": "caf65daea1d575c663c136d1e9a7ab1317bf27085522bde18a4b6063954e58b2",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111295-00.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111295-02.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111295-04.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111295-05.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111295-07.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_heart (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.16,
+    "true_peak": -1.4,
+    "packshot_match": 0.942,
+    "srt_cues": 18,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 56,
+   "status": "ready"
+  },
+  {
+   "domain": "skincare.joburg",
+   "handle": "@SkincareJoburgRosebank",
+   "slot_sast": "2026-11-13 20:00",
+   "format": "short",
+   "slug": "rosebank-phyto-nature-firming-serum-40ml-short",
+   "sku": "111369",
+   "variant": "40ml",
+   "selection": {
+    "tier": "d",
+    "why": "least recently used product (catalog thin; new script and visuals)"
+   },
+   "product": {
+    "name": "phyto nature firming serum",
+    "listing_url": "https://dermalogica.co.za/products/phyto-nature-firming-serum-40ml-111369?variant=46591303483706",
+    "checked": "2026-11-13",
+    "packshot": "skincare-daily/2026-11-13/images/d1113-111369-00.png",
+    "packshot_sha256": "aded071ae0f6cbb021b2fbe6e279e80ff57e851cb959ba3af4acea99862732f2",
+    "packshot_source": "https://cdn.shopify.com/s/files/1/0794/8464/9786/files/Medium_139f9efe-ffe9-486f-9a8b-645861bd49e2.png?v=1698674729"
+   },
+   "title": "Dermalogica Phyto Nature Firming Serum 40 mL, Ingredient by Ingredient #shorts",
+   "description": "Dermalogica phyto nature firming serum: flash-firms, lifts, revitalizes, from the Rosebank moisturizer and texture desk.\n\nWe earn a commission if you buy through our link at https://skincare.joburg/.\n\n• Flash-firms, lifts, revitalizes\n• Reduces visible wrinkles in just 4 weeks\n• Double skin's luminosity after just 1 application\n• Minimizes the appearance of fine lines after just 1 application\n• How to use: Dispense 1-2 pumps into the palm of your hand. Blend the two serums and smooth over cleansed face and neck. Can be used morning and/or evening. Follow with your moisturizer.\n\nGeneral product information, not medical advice. Product details from the official product listing (https://dermalogica.co.za/products/phyto-nature-firming-serum-40ml-111369?variant=46591303483706, checked 2026-11-13); check the current listing before you buy.\n\nShop: https://skincare.joburg/\n\nProduct images: Dermalogica South Africa store listing.\nMusic: original, made for this video. Narration: Kokoro text-to-speech.\n\n#Dermalogica #PhytoNatureFirmingSerum #MoisturizerDesk #shorts",
+   "tags": [
+    "phyto nature firming serum",
+    "dermalogica phyto nature firming serum",
+    "moisturizer and texture",
+    "rosebank skincare",
+    "dermalogica south africa"
+   ],
+   "category": "Howto & Style",
+   "default_language": "en",
+   "audio_language": "en",
+   "made_for_kids": false,
+   "paid_promotion": true,
+   "altered_or_synthetic_content": false,
+   "duration_seconds": 36.31,
+   "resolution": "1080x1920",
+   "media_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-phyto-nature-firming-serum-40ml-short.mp4",
+   "media_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-phyto-nature-firming-serum-40ml-short.mp4",
+   "sha256": "92b538c2c9c28dd06e11cc429bac12f5d053ed652341ae42cfc505a6655bdc69",
+   "thumbnail_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-phyto-nature-firming-serum-40ml-short.jpg",
+   "thumbnail_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-phyto-nature-firming-serum-40ml-short.jpg",
+   "thumbnail_sha256": "b31324e62c3c5f9faa4af0c7eca69cdd090d56038d12e70fc2563f76aa6d0086",
+   "captions_path": "skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-phyto-nature-firming-serum-40ml-short.en.srt",
+   "captions_url": "https://raw.githubusercontent.com/ramatladi/videosyndication/media/skincare-daily/2026-11-13/renders/skincare.joburg/rosebank-phyto-nature-firming-serum-40ml-short.en.srt",
+   "captions_sha256": "fcaffa2745155af965b7ddc8858c8bdec6b3ac9c79932f6360347c51caa797da",
+   "listing_images": [
+    "skincare-daily/2026-11-13/images/d1113-111369-00.png",
+    "skincare-daily/2026-11-13/images/d1113-111369-01.jpg",
+    "skincare-daily/2026-11-13/images/d1113-111369-02.jpg"
+   ],
+   "narration": "Kokoro text-to-speech, voice af_heart (American English, female)",
+   "music": "original, made for this video",
+   "qa": {
+    "lufs": -14.2,
+    "true_peak": -1.46,
+    "packshot_match": 0.977,
+    "srt_cues": 10,
+    "pass": true
+   },
+   "crossday_min_thumb_dist": 54,
    "status": "ready"
   }
  ]
