@@ -152,13 +152,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "tEzsvMhK3no",
       "sku": "111525",
       "title": "Dermalogica Smart Eye Density Undereye Serum: Which Step Is It? #shorts",
       "manifest_slug": "umhlanga-smart-eye-density-undereye-serum-short",
       "media_sha256": "ed68383e3751396cce5552f11a36f6faf90155d8fc5b857f1ae58214b0ce1558",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T06:00:00Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -443,5 +444,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 2
+  "youtube_ids_recorded": 3
 }
