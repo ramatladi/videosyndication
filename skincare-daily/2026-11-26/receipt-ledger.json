@@ -121,13 +121,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "VIQnEz63YIw",
       "sku": "111325",
       "title": "Dermalogica Skin Smoothing Cream Sizes at a Glance #shorts",
       "manifest_slug": "capetown-skin-smoothing-cream-short",
       "media_sha256": "380e7a7296fa0d17fda631dda6a6b145cec1467c2e32810ce267f7db4e7ef93b",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T14:00:00Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -460,5 +461,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 19
+  "youtube_ids_recorded": 20
 }
