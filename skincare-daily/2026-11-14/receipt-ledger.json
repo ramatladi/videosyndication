@@ -311,13 +311,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "TUdlWLDpYCY",
       "sku": "111325",
       "title": "Dermalogica Skin Smoothing Cream: Every Size in Under a Minute #shorts",
       "manifest_slug": "rosebank-skin-smoothing-cream-15ml-short",
       "media_sha256": "88fdbc5e35ad8d4e82c6b6ea0d11d535a47cfa89d9cd2e2b4acad15a498c6de7",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T22:38:26Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -386,5 +387,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 5
+  "youtube_ids_recorded": 6
 }
