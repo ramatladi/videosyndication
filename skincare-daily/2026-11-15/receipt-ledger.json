@@ -19,13 +19,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "-ddgd0vfstw",
       "sku": "811051",
       "title": "Dermalogica Precleanse 295 mL: Where It Fits in a Routine, Step by Step",
       "manifest_slug": "midrand-precleanse-295ml",
       "media_sha256": "e03d407f7cd9a16299a5785cb514894ef642b44294a06ecb0adf1853c11188ca",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T03:35:14Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -427,5 +428,5 @@
     "youtube_ids_recorded": 22,
     "producer_refreshed": "2026-11-26T20:34+02:00"
   },
-  "youtube_ids_recorded": 22
+  "youtube_ids_recorded": 23
 }
