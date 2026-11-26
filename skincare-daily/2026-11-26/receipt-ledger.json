@@ -389,13 +389,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "dYBf8RKYK10",
       "sku": "111515",
       "title": "What Goes Into Dermalogica NeuroTouch Symmetry Serum: Ingredients and Directions",
       "manifest_slug": "rosebank-neurotouch-symmetry-serum",
       "media_sha256": "9a07ff813ad7e1b5193e68c7e2f22156f3c7ca45a0cdf56933ffec60e345db83",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T08:00:00Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -452,5 +453,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 11
+  "youtube_ids_recorded": 12
 }
