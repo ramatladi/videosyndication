@@ -380,13 +380,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "kF2MTtgpW60",
       "sku": "102022",
       "title": "Dermalogica Antioxidant Hydramist 30 mL: Reduces Fine Lines and Hydrates, and How to Use It",
       "manifest_slug": "rosebank-antioxidant-hydramist-30ml",
       "media_sha256": "7ddb3912168cd952d202fd6e103b07b3d0a1452e5ac52500424c4eae09176468",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T02:35:14Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -407,5 +408,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 26
+  "youtube_ids_recorded": 27
 }
