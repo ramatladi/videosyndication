@@ -226,13 +226,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "oJCA8QognOM",
       "sku": "111326",
       "title": "Dermalogica Intensive Moisture Cleanser 150 mL, Explained",
       "manifest_slug": "bedfordview-intensive-moisture-cleanser-150ml",
       "media_sha256": "178b4c265564d1ade9e2c1f647d2058acbcf80c962d4b3f3712f27745f3761d7",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T02:35:14Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -405,5 +406,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 24
+  "youtube_ids_recorded": 25
 }
