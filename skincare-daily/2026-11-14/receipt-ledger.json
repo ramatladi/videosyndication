@@ -165,13 +165,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "dv3mRQUVEaE",
       "sku": "111504",
       "title": "Label Read: Dermalogica BioLumin-C Night Restore Serum 25 mL #shorts",
       "manifest_slug": "bedfordview-biolumin-c-night-restore-serum-25ml-short",
       "media_sha256": "2e2e877a19f9e647eb0c4e0143abd4e7d1960e4465ab31de1d042e1db9038124",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T22:36:54Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -384,5 +385,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 3
+  "youtube_ids_recorded": 4
 }
