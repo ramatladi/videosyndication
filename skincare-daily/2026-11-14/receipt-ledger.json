@@ -287,13 +287,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "moys_F66TRk",
       "sku": "111508",
       "title": "Body Care: Dermalogica Dynamic Skin Strengthening Serum 30ml #shorts",
       "manifest_slug": "westville-dynamic-skin-strengthening-serum-30ml-30ml-short",
       "media_sha256": "86c17deac6c562052c4c9f543a102a36900e14521bd836ef7cdafab6ae00285b",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T01:35:14Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -401,5 +402,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 20
+  "youtube_ids_recorded": 21
 }
