@@ -161,13 +161,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "6hM1OJKE0Qw",
       "sku": "110616",
       "title": "Where Dermalogica Multi Active Toner 250 mL Goes in a Routine #shorts",
       "manifest_slug": "umhlanga-multi-active-toner-250ml-short",
       "media_sha256": "83f143ae19db008ea77c192fb8581ddf6f3b9174eb553a507599ae0ec593b413",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T04:35:14Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -430,5 +431,5 @@
     "youtube_ids_recorded": 22,
     "producer_refreshed": "2026-11-26T20:34+02:00"
   },
-  "youtube_ids_recorded": 25
+  "youtube_ids_recorded": 26
 }
