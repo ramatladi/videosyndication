@@ -32,13 +32,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "JFf8-54iOFY",
       "sku": "111441",
       "title": "Where Dermalogica BioLumin-C Gel Moisturiser 50 mL Goes in a Routine #shorts",
       "manifest_slug": "midrand-biolumin-c-gel-moisturiser-50ml-short",
       "media_sha256": "69867cef8f2127c43dee7ef527d4b69ae0bdbdae5e9380eb7f35757e9f8c0f76",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T00:35:14Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -393,5 +394,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 12
+  "youtube_ids_recorded": 13
 }
