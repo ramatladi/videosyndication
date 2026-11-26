@@ -390,7 +390,15 @@ SHORT_TITLES = ['Dermalogica {N}: {T} #shorts', 'How to Use Dermalogica {N} #sho
                 '{A}: Dermalogica {N} #shorts', 'Dermalogica {N}, Explained Fast #shorts', 'What Dermalogica {N} Does: {T} #shorts']
 VIDEO_TITLES = ['Dermalogica {N}: {T}, and How to Use It', 'Dermalogica {N}: What It Does and How to Use It', 'Dermalogica {N}, Explained', 'Dermalogica {N}: How to Use It',
                 'Dermalogica {N} Explained: {T}', '{A}: Dermalogica {N}, Step by Step', 'Dermalogica {N}: Benefits, Directions and Who It Suits']
-DESK_TITLE = {'moist': 'Moisturizer Desk', 'body': 'Body Care', 'routine': 'Routine Builder', 'labels': 'Label Read', 'hydra': 'Layering Guide', 'sun': 'Daily SPF'}
+DESK_TITLE = {'moist': 'Moisturizer Desk', 'body': 'Body Care', 'routine': 'Routine Builder', 'labels': 'Label Read', 'hydra': 'Layering Guide', 'sun': 'Daytime Routine'}  # 'Daily SPF' mislabeled non-SPF products (26 Nov)
+
+
+def fit100(t):
+    """YouTube's 100-character title limit, cut at a word (never mid-word), keeping ' #shorts'."""
+    if len(t) <= 100: return t
+    tag = ' #shorts' if t.endswith(' #shorts') else ''; body = t[:len(t) - len(tag)]
+    body = body[:100 - len(tag)].rsplit(' ', 1)[0].rstrip(' ,:;-')
+    return body + tag
 
 
 NOPE = re.compile(r'(?i)(?:[_\-]b_?a\d?[_.\-]|before|after|clinical|claim|number.?of.?uses|\.gif|consumer|survey|award|review)')
@@ -630,7 +638,7 @@ def write(date):
             cand = pool[(n + j) % len(pool)].format(N=N + (f' {size.replace("ml", " mL")}' if size and it['tier'] in 'bd' and not size_in_name else ''), T=T, A=DESK_TITLE[desk])
             if len(cand) <= 100 and cand.lower() not in used_titles and name.lower() in cand.lower(): title = cand; break
         if not title:
-            title = (f'Dermalogica {N}: {DESK_TITLE[desk]} {date[5:]}' + (' #shorts' if short else ''))[:100]
+            title = fit100(f'Dermalogica {N}: {DESK_TITLE[desk]} {date[5:]}' + (' #shorts' if short else ''))
         used_titles.add(title.lower())
         facts = ([short_head(tag, 120)] if tag else []) + ([f"What's inside: " + '; '.join(f"{c['name']} ({c['size']})" for c in f['inside'])] if f['inside'] else []) \
             + [b for b in ben[:4]] + ([('How to use: ' + ' '.join(how))[:300]] if how else [])
@@ -674,9 +682,9 @@ def write(date):
                     item['angle'] = ang; item['scenes'] = alt; g, c = g2, c2
                     k_ = ANGLE_USED[ang]; pool_ = ANGLE_TITLES[ang][0 if short else 1]
                     at = next((t for t in (pool_[(k_ + j) % len(pool_)] for j in range(len(pool_)))
-                               if t.format(N=N).lower() not in used_titles), pool_[k_ % len(pool_)]).format(N=N + (f' {size.replace("ml", " mL")}' if size and it['tier'] in 'bd' and not size_in_name and ang != 'sizes' else ''))
+                               if t.format(N=N).lower() not in used_titles and len(t.format(N=N)) <= 100), pool_[k_ % len(pool_)]).format(N=N + (f' {size.replace("ml", " mL")}' if size and it['tier'] in 'bd' and not size_in_name and ang != 'sizes' else ''))
                     if at.lower() in used_titles: at = at.replace(' #shorts', '') + f' ({DESK_TITLE[desk]})' + (' #shorts' if short else '')
-                    used_titles.discard(item['title'].lower()); item['title'] = at[:100]; used_titles.add(item['title'].lower())
+                    used_titles.discard(item['title'].lower()); item['title'] = fit100(at); used_titles.add(item['title'].lower())
                     item['thumb']['text'] = ANGLE_THUMB[ang][ANGLE_USED[ang] % len(ANGLE_THUMB[ang])]
         item['script_overlap_max'] = g; item['script_overlap_channel_7d'] = c
         if not any(x['type'] in ('figure', 'steps', 'bullets', 'photo') or x.get('kicker') == 'RECOMMENDED FOR' for x in item['scenes']):

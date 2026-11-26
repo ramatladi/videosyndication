@@ -42,3 +42,7 @@ out.length+' products'
   scene to whole sentences. Award-badge packshots banned for the day: daily microfoliant (all sizes), daily milkfoliant,
   special cleansing gel, liquid peelfoliant. Heal days staged after tomorrow: a heal day's new thumbnails count in tomorrow's
   14-day crossday check, so re-run `render` (it re-picks thumbnails) if `stage` comes after a heal.
+- 26 Nov 2026 run (for 27 Nov): `DESK_TITLE['sun']` is now "Daytime Routine" (titles and hashtags said "Daily SPF" on serums and
+  creams with no SPF); `fit100()` cuts over-long titles at a word, never mid-word, and angle titles prefer templates that fit in 100
+  characters. Renders run two at a time (the container has 2 CPUs): about 0.8 items a minute in total, so ~100 items per run.
+  Heal days 14-17 Nov planned first (heal-first rule), then 27 Nov.
