@@ -107,13 +107,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "crk0UVp5CDI",
       "sku": "111452",
       "title": "Dermalogica Hyaluronic Ceramide Mist 150 mL Explained: Hydrates and Locks in Moisture",
       "manifest_slug": "umhlanga-hyaluronic-ceramide-mist-150ml",
       "media_sha256": "d08131a34c1de5285afc0331451751a234ab1e832a78c728d62f7d0043a4c0f8",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T23:35:14Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -389,5 +390,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 8
+  "youtube_ids_recorded": 9
 }
