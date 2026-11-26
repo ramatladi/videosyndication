@@ -135,13 +135,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "gGmu3SQWfVk",
       "sku": "111012-01",
       "title": "Where Dermalogica PowerBright Overnight Cream 50 mL Goes in a Routine #shorts",
       "manifest_slug": "umhlanga-powerbright-overnight-cream-50ml-short",
       "media_sha256": "d782c538b3855d6070db4e98219b377bdc496acb769ae09aa28d8067278a279b",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T01:35:14Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -399,5 +400,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 18
+  "youtube_ids_recorded": 19
 }
