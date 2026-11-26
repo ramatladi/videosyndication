@@ -240,13 +240,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "HYudSMmtp0w",
       "sku": "W101717",
       "title": "Dermalogica Clearing Skin Wash 500 mL: Clearing Oil and Prevents Breakouts #shorts",
       "manifest_slug": "bedfordview-clearing-skin-wash-500ml-short",
       "media_sha256": "39104ec4ee6fa87476e84b298294419739eb1a3b6b98b1f2119532d83324bc29",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T03:35:14Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -409,5 +410,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 28
+  "youtube_ids_recorded": 29
 }
