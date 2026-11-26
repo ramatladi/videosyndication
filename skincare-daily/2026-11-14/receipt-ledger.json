@@ -181,13 +181,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "va5CFfW_xcA",
       "sku": "111342",
       "title": "Dermalogica Age Bright Clearing Serum 30 mL: Where It Fits in a Routine, Step by Step",
       "manifest_slug": "bedfordview-age-bright-clearing-serum-30ml",
       "media_sha256": "5c1a8ee711d47dedf4ef49222fec4713b53f34daac01e8520b14319c768495ec",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T23:35:14Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -390,5 +391,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 9
+  "youtube_ids_recorded": 10
 }
