@@ -1,0 +1,445 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 138,
+ "slug": "the-wishbone",
+ "title": "The Wishbone",
+ "trend": "TikTok 'I wish for straight teeth' Willow lip-sync (say a wish, then the ironic 'wish come true' reveal; Virlo Fresh, new this week, 177 creators, examples 5.4M and 4M, leads the Nov 23-29 2026 daily table, US) + Thanksgiving Day wishbone pull — siblings Rosa and Theo both win the wishbone and it grants every wish in the worst literal way (no love-life questions — everyone asks about his hair; all the leftovers — forty one containers in a two-seat car; no canoe story — a 112-slide slideshow; no dishes — one roasting pan the size of the canoe); twist: it is last year's wishbone and Mom won last year, wishing her kids would stay the whole weekend, and she has been arranging all of it; button: they stay, the bone wishes for a nap, back in the drawer — 'somebody please eat the ice'",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "we pulled the wishbone",
+  "and both of us won",
+  "be careful what you wish for"
+ ],
+ "youtube_title": "We both won the wishbone. Every wish came true in the worst way 🦴",
+ "description": "Rosa and Theo pull the wishbone at Thanksgiving and both of them win. The wishbone grants everything they ask for, just not the way they meant it. Mom knows more than she is saying.\n\n#cartoon #animation #funny #thanksgiving #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "thanksgiving",
+  "wishbone",
+  "siblings",
+  "mom",
+  "leftovers"
+ ],
+ "tiktok_caption": "we both won the wishbone. every wish came true in the worst way 🦴 #cartoon #animation #funny #thanksgiving",
+ "cast": [
+  {
+   "id": "rosa",
+   "name": "Rosa",
+   "kind": "human",
+   "color": "#d9a066",
+   "hair": {
+    "style": "long",
+    "color": "#3b2416"
+   },
+   "top": {
+    "color": "#00b894",
+    "pattern": "dots",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#fab1a0",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "theo",
+   "name": "Theo",
+   "kind": "human",
+   "color": "#d9a066",
+   "scale": 1.04,
+   "hair": {
+    "style": "spiky",
+    "color": "#e17055"
+   },
+   "top": {
+    "color": "#fdcb6e",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ffffff",
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#ffeaa7",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "bone",
+   "name": "The Wishbone",
+   "kind": "mascot",
+   "shape": "gumdrop",
+   "color": "#f3e5c0",
+   "scale": 0.9,
+   "accessories": [
+    "crown:#f1c40f",
+    "tie:#8e44ad"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#f6e58d",
+   "voice": {
+    "id": "bm_george",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "mom",
+   "name": "Mom Carla",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 1.0,
+   "hair": {
+    "style": "bun",
+    "color": "#5d4037"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "apron",
+    "pattern_color": "#fdcb6e"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#6d4c41",
+   "accessories": [
+    "scarf:#f39c12"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#ff7675",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": -1,
+    "tempo": 1.0
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": [
+    "rosa",
+    "theo"
+   ],
+   "text": "One, two, three, pull!",
+   "shot": "TWO",
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "bone",
+   "text": "Congratulations. You both won. I am the wishbone. Make your wishes, please.",
+   "shot": "bone",
+   "gesture": "wave"
+  },
+  {
+   "spk": "theo",
+   "text": "Wait, you talk?",
+   "shot": "theo",
+   "gesture": "point"
+  },
+  {
+   "spk": "bone",
+   "text": "Only on Thanksgiving. The rest of the year I live in a drawer with the takeout menus.",
+   "shot": "bone",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosa",
+   "text": "Okay. Theo, you go first. Something small.",
+   "shot": "rosa"
+  },
+  {
+   "spk": "theo",
+   "text": "I wish that this year, nobody at the table asks about my love life.",
+   "shot": "theo",
+   "gesture": "think"
+  },
+  {
+   "spk": "bone",
+   "text": "Granted.",
+   "shot": "bone",
+   "gesture": "hips",
+   "after": "ding"
+  },
+  {
+   "spk": "rosa",
+   "text": "Aunt Denise is walking over. She looks very concerned.",
+   "shot": "rosa",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "Hi, Aunt Denise. No questions about my love life, right?",
+   "shot": "TWO",
+   "gesture": "wave"
+  },
+  {
+   "spk": "rosa",
+   "text": "She wants to know who did this to your hair.",
+   "shot": "rosa",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "theo",
+   "text": "Now everybody is asking about my hair. Grandpa asked if I lost a bet.",
+   "shot": "theo",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "bone",
+   "text": "Nobody asked about your love life. I am very good at my job.",
+   "shot": "bone",
+   "gesture": "cross",
+   "after": "rimshot"
+  },
+  {
+   "spk": "rosa",
+   "text": "My turn. I wish I could take home all the leftovers.",
+   "shot": "rosa",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "bone",
+   "text": "Granted.",
+   "shot": "bone",
+   "gesture": "hips"
+  },
+  {
+   "spk": "mom",
+   "text": "Rosa, sweetie, here are your leftovers. All of them. Forty one containers.",
+   "shot": "mom",
+   "gesture": "wave"
+  },
+  {
+   "spk": "rosa",
+   "text": "Mom, I drive a tiny car. It has two seats.",
+   "shot": "rosa",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "mom",
+   "text": "Then the gravy gets the passenger seat. Buckle it in. It is from twenty nineteen.",
+   "shot": "mom",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "The gravy is older than your car.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "bone",
+   "text": "Leftovers. All of them. Wish granted. You are welcome.",
+   "shot": "bone",
+   "gesture": "hips",
+   "after": "whoosh"
+  },
+  {
+   "spk": "theo",
+   "text": "Okay. Last wish. I wish Uncle Walt would stop telling the canoe story.",
+   "shot": "theo",
+   "gesture": "think"
+  },
+  {
+   "spk": "bone",
+   "text": "Granted.",
+   "shot": "bone"
+  },
+  {
+   "spk": "rosa",
+   "text": "He stopped telling it. He is setting up a projector.",
+   "shot": "rosa",
+   "gesture": "point"
+  },
+  {
+   "spk": "theo",
+   "text": "It is a slideshow now. One hundred and twelve slides.",
+   "shot": "theo",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "rosa",
+   "text": "Slide forty is just the canoe. Sitting there. Being a canoe.",
+   "shot": "rosa"
+  },
+  {
+   "spk": "bone",
+   "text": "He is not telling the story. He is showing the story. Big difference.",
+   "shot": "bone",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "rosa",
+   "text": "Fine. Real last wish. I wish I did not have to do the dishes tonight.",
+   "shot": "rosa",
+   "gesture": "cross"
+  },
+  {
+   "spk": "bone",
+   "text": "Granted. There is only one dish.",
+   "shot": "bone",
+   "pre": 0.5
+  },
+  {
+   "spk": "mom",
+   "text": "Rosa, you only have the roasting pan, honey. Just the one.",
+   "shot": "mom",
+   "gesture": "wave"
+  },
+  {
+   "spk": "rosa",
+   "text": "Mom. This pan is the size of the canoe.",
+   "shot": "rosa",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "theo",
+   "text": "Wait. The hair. The forty one containers. The slideshow. The giant pan.",
+   "shot": "theo",
+   "gesture": "think"
+  },
+  {
+   "spk": "theo",
+   "text": "Every wish makes us stay here longer.",
+   "shot": "theo",
+   "gesture": "point"
+  },
+  {
+   "spk": "bone",
+   "text": "Correct. And I have a confession. I am not this year's wishbone.",
+   "shot": "bone",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "bone",
+   "text": "I am last year's. Your mother won last year. I was holding one wish for her.",
+   "shot": "bone"
+  },
+  {
+   "spk": "rosa",
+   "text": "Mom?",
+   "shot": "mom",
+   "pre": 0.8
+  },
+  {
+   "spk": "mom",
+   "text": "Fine. Last year I wished my kids would stay the whole weekend for once.",
+   "shot": "mom",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "mom",
+   "text": "You both left before the pie. The pie was still warm, Theo.",
+   "shot": "mom",
+   "gesture": "cross"
+  },
+  {
+   "spk": "theo",
+   "text": "So the haircut questions?",
+   "shot": "TWO"
+  },
+  {
+   "spk": "mom",
+   "text": "I texted every aunt a photo of the back of your head.",
+   "shot": "mom",
+   "gesture": "hips"
+  },
+  {
+   "spk": "rosa",
+   "text": "And the forty one containers?",
+   "shot": "rosa"
+  },
+  {
+   "spk": "mom",
+   "text": "I bought them in July. I filled one with just ice.",
+   "shot": "mom",
+   "gesture": "think"
+  },
+  {
+   "spk": "bone",
+   "text": "And the canoe slideshow is four hours long. Uncle Walt is thrilled. He made a sequel.",
+   "shot": "bone",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "rosa",
+   "text": "Mom, that is honestly kind of sweet.",
+   "shot": "rosa"
+  },
+  {
+   "spk": "theo",
+   "text": "And kind of a trap. A warm trap with gravy.",
+   "shot": "theo",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "mom",
+   "text": "The guest room has bunk beds now. I built them on Tuesday.",
+   "shot": "mom",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": [
+    "rosa",
+    "theo"
+   ],
+   "text": "Fine. We will stay.",
+   "shot": "W",
+   "gesture": "hips"
+  },
+  {
+   "spk": "theo",
+   "text": "Can I make one more wish?",
+   "shot": "theo",
+   "gesture": "think"
+  },
+  {
+   "spk": "bone",
+   "text": "I am out of wishes. I am a bone. I wish for a nap.",
+   "shot": "bone",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "mom",
+   "text": "Granted. Back in the drawer with the takeout menus.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "bone",
+   "text": "Same time next year. Somebody please eat the ice.",
+   "shot": "bone",
+   "gesture": "wave"
+  }
+ ]
+}
