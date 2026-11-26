@@ -3,15 +3,23 @@
   "handle": "@DermatologistJoburgMidrand",
   "title": "Reading the Label: Dermalogica Multi Active Toner 250 mL #shorts",
   "slot_sast": "2026-11-26 16:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref221118585687",
   "publish_at": "2026-11-26T14:00:00Z",
   "overdue": false,
   "upload_started": "2026-11-26T03:12:16Z",
   "error": null,
-  "updated": "2026-11-26T03:12:21Z",
+  "updated": "2026-11-26T03:12:52Z",
   "video_id": "1eZ4waIP6LQ",
   "published_now": null,
   "url": "https://youtube.com/shorts/1eZ4waIP6LQ",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCb16q-70MGFin6RfsMGbdnw",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-26T14:00:00Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
