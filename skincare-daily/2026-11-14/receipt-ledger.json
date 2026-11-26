@@ -318,13 +318,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "8-am9gE3kqQ",
       "sku": "111404",
       "title": "Reading the Label: Dermalogica PowerBright Dark Spot Serum 30 mL #shorts",
       "manifest_slug": "westville-powerbright-dark-spot-serum-30ml-short",
       "media_sha256": "a3d0374c202a6dd3e661e758323bb29163929a1a47d633c18802a7c176363642",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T03:35:14Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -410,5 +411,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 29
+  "youtube_ids_recorded": 30
 }
