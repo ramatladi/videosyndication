@@ -167,13 +167,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "pcGQnB5dYFg",
       "sku": "111455",
       "title": "Dermalogica Circular Hydration Serum 30 mL: What It Does and How to Use It",
       "manifest_slug": "umhlanga-circular-hydration-serum-30ml",
       "media_sha256": "ff4f6078ca9c81568466678ea1bbf5040fb4551e95fd30f546f0c35be66c0ab6",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T08:00:00Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -449,5 +450,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 8
+  "youtube_ids_recorded": 9
 }
