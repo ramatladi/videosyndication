@@ -238,13 +238,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "W5pM7TLYuL4",
       "sku": "111122",
       "title": "Dermalogica Skin Soothing Hydrating Lotion 60 mL in Your Routine #shorts",
       "manifest_slug": "westville-skin-soothing-hydrating-lotion-60ml-short",
       "media_sha256": "1446561d85b50dd8d39bc99804bad97576ed912ce2f18e432d6706f49bc2263a",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T22:37:47Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -385,5 +386,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 4
+  "youtube_ids_recorded": 5
 }
