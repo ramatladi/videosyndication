@@ -3,15 +3,23 @@
   "handle": "@SkincareJoburgRosebank",
   "title": "Dermalogica Antioxidant Hydramist 30 mL: Reduces Fine Lines and Hydrates, and How to Use It",
   "slot_sast": "2026-11-14 18:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref411f616c4a30",
   "publish_at": "2026-11-27T02:35:14Z",
   "overdue": true,
   "upload_started": "2026-11-26T22:52:20Z",
   "error": null,
-  "updated": "2026-11-26T22:52:24Z",
+  "updated": "2026-11-26T22:52:55Z",
   "video_id": "kF2MTtgpW60",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=kF2MTtgpW60",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCeTPU-6Wsq_Ii0A4Uv6DESQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-27T02:35:14Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
