@@ -6,13 +6,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "aQAeRERyC3g",
       "sku": "811483",
       "title": "Dermalogica Pro-Collagen Banking Serum: Every Size in Under a Minute #shorts",
       "manifest_slug": "midrand-pro-collagen-banking-serum-59mljumbo-short",
       "media_sha256": "fe53a59af5617788471625cc4b2c53ad1bbcb9421c77ab8252633a030c13086b",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T22:35:15Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -380,5 +381,6 @@
     "missing_renders": 0,
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
-  }
+  },
+  "youtube_ids_recorded": 1
 }
