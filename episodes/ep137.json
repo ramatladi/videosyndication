@@ -1,0 +1,454 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 137,
+ "slug": "in-this-town",
+ "title": "In This Town",
+ "trend": "TikTok 'In this town everybody goes out partying except me' ('huss huss huss' lip-sync of a mundane activity while the town goes out; Virlo Fresh, 477 creators +47600%, examples 5.9M, updated Nov 25 2026; Postdom spotted Nov 23 2026, sound 518.1K videos, US) + Thanksgiving Day — Devon narrates how the whole town goes out (turkey trot, parade, big game) except him, he stays home and bastes; the street fills with chairs, a grill and a banner; twist: the town comes to his lawn every year at noon for 'Devon's Fire Drill' (his alarm goes off and he runs out waving a towel); button: he burns one roll for the kids, locks everyone out, and the smoke alarm finally gets quiet",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "in this town",
+  "everybody goes out on thanksgiving",
+  "except me"
+ ],
+ "youtube_title": "Everybody in this town goes out on Thanksgiving. Except me. I baste 🦃",
+ "description": "Devon stays home every Thanksgiving to baste the turkey while the whole town goes out. His daughter June has questions. The smoke alarm is nervous. And the street outside is getting very full.\n\n#cartoon #animation #funny #thanksgiving #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "thanksgiving",
+  "turkey",
+  "dad",
+  "neighbors",
+  "smoke alarm"
+ ],
+ "tiktok_caption": "in this town everybody goes out on thanksgiving. except me 🦃 #cartoon #animation #funny #thanksgiving",
+ "cast": [
+  {
+   "id": "devon",
+   "name": "Devon",
+   "kind": "human",
+   "color": "#a0683f",
+   "scale": 1.05,
+   "hair": {
+    "style": "short",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#2980b9",
+    "pattern": "apron",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#6d4c41",
+   "accessories": [
+    "chef_hat",
+    "beard:#1e130c"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#74b9ff",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "june",
+   "name": "June",
+   "kind": "human",
+   "color": "#a0683f",
+   "scale": 0.86,
+   "hair": {
+    "style": "ponytail",
+    "color": "#1e130c"
+   },
+   "top": {
+    "color": "#e84393",
+    "pattern": "hoodie"
+   },
+   "bottom": "#636e72",
+   "shoes": "#ffeaa7",
+   "accessories": [
+    "bow:#fdcb6e"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#fd79a8",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 1,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "alarm",
+   "name": "The Smoke Alarm",
+   "kind": "mascot",
+   "shape": "egg",
+   "color": "#f5f6fa",
+   "scale": 0.9,
+   "accessories": [
+    "sunglasses"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#dfe6e9",
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": -1,
+    "tempo": 0.96
+   }
+  },
+  {
+   "id": "pruitt",
+   "name": "Mrs. Pruitt",
+   "kind": "human",
+   "color": "#f1d3b3",
+   "hair": {
+    "style": "curly",
+    "color": "#dfe6e9"
+   },
+   "top": {
+    "color": "#6c5ce7",
+    "pattern": "stripes",
+    "pattern_color": "#a29bfe"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#b2bec3",
+   "accessories": [
+    "glasses",
+    "scarf:#e17055"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#a29bfe",
+   "voice": {
+    "id": "af_kore",
+    "pitch": -1,
+    "tempo": 0.97
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "devon",
+   "text": "In this town, everybody goes out on Thanksgiving morning. Everybody. Except me.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "devon",
+   "text": "I stay home. I baste.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "sting"
+  },
+  {
+   "spk": "june",
+   "text": "Dad, why are you talking like that? You are holding a spoon.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "devon",
+   "text": "In this town, they run the turkey trot. Five miles in little turkey hats.",
+   "shot": "devon",
+   "gesture": "wave"
+  },
+  {
+   "spk": "devon",
+   "text": "Not me. I baste. Every thirty minutes. Huss.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "alarm",
+   "text": "Good morning. I am the smoke alarm. I am already nervous.",
+   "shot": "alarm"
+  },
+  {
+   "spk": "june",
+   "text": "Why is the smoke alarm nervous?",
+   "shot": "june",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "alarm",
+   "text": "Every year he says this exact speech. Every year I end up yelling.",
+   "shot": "alarm",
+   "gesture": "cross"
+  },
+  {
+   "spk": "devon",
+   "text": "Not this year. This year the turkey is perfect. Look at her. She is golden.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "june",
+   "text": "It is nine in the morning. She is pink.",
+   "shot": "june",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "devon",
+   "text": "She is golden on the inside. Emotionally.",
+   "shot": "CU",
+   "gesture": "think",
+   "after": "rimshot"
+  },
+  {
+   "spk": "devon",
+   "text": "In this town, everybody goes downtown for the big parade. Giant balloons. Marching bands.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "devon",
+   "text": "Except me. I stay with the gravy. The gravy needs me.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "june",
+   "text": "Mrs. Pruitt just walked by the window with a folding chair and a thermos.",
+   "shot": "june",
+   "gesture": "point"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Morning, Devon. Big day. Do you need anything?",
+   "shot": "pruitt",
+   "gesture": "wave"
+  },
+  {
+   "spk": "devon",
+   "text": "No thank you, Mrs. Pruitt. I am a man alone with his turkey.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Lovely. I will save my usual spot.",
+   "shot": "pruitt"
+  },
+  {
+   "spk": "alarm",
+   "text": "Her usual spot. Interesting. She has a usual spot.",
+   "shot": "alarm",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "june",
+   "text": "Why does she need a folding chair if the parade is downtown?",
+   "shot": "june",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "devon",
+   "text": "Not my business. My business is stuffing. Huss.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "whoosh"
+  },
+  {
+   "spk": "devon",
+   "text": "In this town, everybody watches the big game. Wings. Shouting. Little foam fingers.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "devon",
+   "text": "Except me. I am making Grandma's rolls from scratch.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "june",
+   "text": "Grandma's recipe card says open can, hit can on counter.",
+   "shot": "june"
+  },
+  {
+   "spk": "devon",
+   "text": "From scratch means I scratched the can open. With love.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "alarm",
+   "text": "The rolls are in the toaster oven. I do not trust the toaster oven. It has a past.",
+   "shot": "alarm",
+   "gesture": "cross"
+  },
+  {
+   "spk": "june",
+   "text": "Dad, the street outside is getting very full.",
+   "shot": "june",
+   "gesture": "point"
+  },
+  {
+   "spk": "devon",
+   "text": "People love a holiday walk. It is very healthy.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "june",
+   "text": "They brought a grill. And a banner. And a man is selling hot chocolate.",
+   "shot": "june",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Two hot chocolates, please. We are getting close to the good part.",
+   "shot": "pruitt"
+  },
+  {
+   "spk": "devon",
+   "text": "What good part?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.8
+  },
+  {
+   "spk": "alarm",
+   "text": "Oh no. They are all looking at me. Fifty people are looking at me.",
+   "shot": "alarm",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "june",
+   "text": "Dad. The banner says Devon's Fire Drill. Year eight.",
+   "shot": "june",
+   "gesture": "point"
+  },
+  {
+   "spk": "devon",
+   "text": "What?",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "record_scratch"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Every Thanksgiving at noon, your alarm goes off and you run onto the lawn in your apron, waving a towel.",
+   "shot": "pruitt",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pruitt",
+   "text": "It is the best show in town. The parade balloons never yell huss.",
+   "shot": "pruitt"
+  },
+  {
+   "spk": "devon",
+   "text": "So everybody in this town goes out to...",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "june",
+   "text": "To watch you, Dad. You are the party.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "alarm",
+   "text": "And I am the band. Eight years. Nobody ever asks the band how it feels.",
+   "shot": "alarm",
+   "gesture": "cross"
+  },
+  {
+   "spk": "devon",
+   "text": "Well, not this year. Nothing burns. Everybody can go home.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "pruitt",
+   "text": "Oh. Well. The children will be sad. They made signs.",
+   "shot": "pruitt",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "june",
+   "text": "Little Timmy drew you holding a smoking roll. He used glitter.",
+   "shot": "june"
+  },
+  {
+   "spk": "devon",
+   "text": "Glitter?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.7
+  },
+  {
+   "spk": "devon",
+   "text": "Fine. One small burnt roll. For the children.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "alarm",
+   "text": "Wait. No. I did not agree to this.",
+   "shot": "alarm",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "devon",
+   "text": "Toaster oven. It is time.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "alarm",
+   "text": "Beep. Beep. Beep. I hate this town.",
+   "shot": "W",
+   "gesture": "facepalm",
+   "after": "applause"
+  },
+  {
+   "spk": "pruitt",
+   "text": "And there he goes, with the towel. Glorious.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "devon",
+   "text": "In this town, everybody goes out on Thanksgiving. Huss. Huss. Huss.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "june",
+   "text": "Dad. You just locked us out.",
+   "shot": "W",
+   "gesture": "facepalm",
+   "pre": 0.5
+  },
+  {
+   "spk": "alarm",
+   "text": "Except me. I am inside. Finally, a little quiet.",
+   "shot": "alarm",
+   "gesture": "hips"
+  }
+ ]
+}
