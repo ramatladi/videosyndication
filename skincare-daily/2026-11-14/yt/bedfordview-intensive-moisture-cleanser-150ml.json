@@ -3,15 +3,23 @@
   "handle": "@DermatologyJoburgBedfordview",
   "title": "Dermalogica Intensive Moisture Cleanser 150 mL, Explained",
   "slot_sast": "2026-11-14 18:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefda9889786312",
   "publish_at": "2026-11-27T02:35:14Z",
   "overdue": true,
   "upload_started": "2026-11-26T22:51:05Z",
   "error": null,
-  "updated": "2026-11-26T22:51:09Z",
+  "updated": "2026-11-26T22:51:41Z",
   "video_id": "oJCA8QognOM",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=oJCA8QognOM",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCs0uxMnSV1INS_Bxn6yqc2Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-27T02:35:14Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
