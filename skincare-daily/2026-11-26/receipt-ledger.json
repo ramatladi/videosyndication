@@ -349,13 +349,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "Zg-XP8zGW0E",
       "sku": "111329",
       "title": "Dermalogica Intensive Moisture Balance 15 mL: Key Ingredients in Under a Minute #shorts",
       "manifest_slug": "westville-intensive-moisture-balance-15ml-short",
       "media_sha256": "c95cc8eb5de1a2ed39c1b0bcefd2663b959d40c3e90690590fbd176d279862ec",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T14:00:00Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -463,5 +464,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 22
+  "youtube_ids_recorded": 23
 }
