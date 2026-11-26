@@ -92,13 +92,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "XHDDMLe7Xds",
       "sku": "111393",
       "title": "Dermalogica BioLumin-C Eye Serum 15 mL, Explained Fast #shorts",
       "manifest_slug": "umhlanga-biolumin-c-eye-serum-15ml-short",
       "media_sha256": "873a7071b472a268e799cc91c8515df872d9b930ee7da817c087d8682cc1b8c0",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T22:36:16Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -383,5 +384,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 2
+  "youtube_ids_recorded": 3
 }
