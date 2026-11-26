@@ -425,13 +425,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "JZvB9JofpAc",
       "sku": "111431",
       "title": "Dermalogica Cooling Aqua Jelly 59 mL: Which Step Is It? #shorts",
       "manifest_slug": "rosebank-cooling-aqua-jelly-59ml-short",
       "media_sha256": "5f9f99d157ea34fd05a0ced930e7e64e1ee661303372e34fb219d5426f06b2c9",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T14:00:00Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -464,5 +465,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 23
+  "youtube_ids_recorded": 24
 }
