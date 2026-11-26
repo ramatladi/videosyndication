@@ -196,13 +196,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "FvxTy9dvRUg",
       "sku": "102321",
       "title": "Dermalogica MultiVitamin Thermafoliant 75 mL, Ingredient by Ingredient #shorts",
       "manifest_slug": "bedfordview-multivitamin-thermafoliant-75ml-short",
       "media_sha256": "93adf2cc50a3366eb60273f6a3c990761a9b8fc92cdd98d50a6883849f7e8d5f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T00:35:14Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -395,5 +396,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 14
+  "youtube_ids_recorded": 15
 }
