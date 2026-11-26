@@ -3,15 +3,23 @@
   "handle": "@DermatologistJoburgMidrand",
   "title": "Routine Builder: Dermalogica Phyto Nature Oxygen Cream 50 mL, Step by Step",
   "slot_sast": "2026-11-14 18:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref2b322c88c3ff",
   "publish_at": "2026-11-27T02:35:14Z",
   "overdue": true,
   "upload_started": "2026-11-26T22:49:50Z",
   "error": null,
-  "updated": "2026-11-26T22:49:54Z",
+  "updated": "2026-11-26T22:50:26Z",
   "video_id": "pSnPsftFvGY",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=pSnPsftFvGY",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCb16q-70MGFin6RfsMGbdnw",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-27T02:35:14Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
