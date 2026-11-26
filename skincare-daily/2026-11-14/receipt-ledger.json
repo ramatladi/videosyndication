@@ -303,13 +303,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "XEX2bBrm1z0",
       "sku": "111524",
       "title": "Dermalogica Futurecode Booster Damage-Correcting Longevity Serum Routine Guide: When and How to Use ",
       "manifest_slug": "westville-futurecode-booster-damage-correcting-longevity-serum",
       "media_sha256": "b6694a590f6972441a6f95cced8c2dc3d1778a7bf3f73ad1f6a636a68e1825c8",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T02:35:14Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -406,5 +407,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 25
+  "youtube_ids_recorded": 26
 }
