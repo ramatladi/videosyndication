@@ -3529,6 +3529,81 @@
     "dance": 0.309,
     "genre_fit": 0.892
    }
+  },
+  {
+   "release": "mtr054",
+   "date": "2026-11-26",
+   "slot": "2026-11-26T23:55",
+   "format": "video",
+   "title": "Follow The Undertow",
+   "artist": "Rohan Harbour",
+   "style": "melodic",
+   "key": "D major",
+   "bpm": 122,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "571e70b2-3e8b-456a-81ab-759a684b0dde",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/fe2e3da3-0464-489e-856f-49900dd2e79a.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr054.json",
+   "photographer": "Tetiana Stepanets",
+   "photo_page": "https://unsplash.com/photos/woman-in-green-bikini-on-rocky-beach-F0CPYSn1LRY",
+   "photo_kind": "bikini",
+   "metricool_uuid": "3983814716086045823",
+   "media_url": "https://static.metricool.com/planner/202611/7593699-file-18130578942967648938.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr054.mp3",
+    "top": [
+     [
+      "electronic",
+      0.33
+     ],
+     [
+      "chillout",
+      0.158
+     ],
+     [
+      "pop",
+      0.137
+     ],
+     [
+      "dance",
+      0.131
+     ],
+     [
+      "House",
+      0.101
+     ],
+     [
+      "electronica",
+      0.094
+     ],
+     [
+      "ambient",
+      0.091
+     ],
+     [
+      "female vocalists",
+      0.068
+     ],
+     [
+      "instrumental",
+      0.053
+     ],
+     [
+      "electro",
+      0.047
+     ]
+    ],
+    "house": 0.101,
+    "electronic": 0.33,
+    "dance": 0.131,
+    "genre_fit": 0.839
+   }
   }
  ]
 }
