@@ -162,13 +162,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "uU2_X3jDIc0",
       "sku": "811512",
       "title": "Reading the Label: Dermalogica Magnetic[+] Afterglow Cleanser 295 mL #shorts",
       "manifest_slug": "umhlanga-magnetic-afterglow-cleanser-295ml-short",
       "media_sha256": "d30e38b644d892267b1edf0c61990701a09583f5bb1b2f1b828856485e27228f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T03:35:14Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -408,5 +409,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 27
+  "youtube_ids_recorded": 28
 }
