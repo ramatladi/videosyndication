@@ -346,13 +346,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "Tp2OR0Xsg50",
       "sku": "111432",
       "title": "Dermalogica Smart Response Serum 30 mL: Key Ingredients in Under a Minute #shorts",
       "manifest_slug": "rosebank-smart-response-serum-30ml-short",
       "media_sha256": "52a80a1173c1d0cacb63fbc18e1198b53edbb0d8dcf699cea40fe6fcb7bda7a9",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T00:35:14Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -397,5 +398,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 16
+  "youtube_ids_recorded": 17
 }
