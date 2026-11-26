@@ -3,15 +3,23 @@
   "handle": "@SkincareJoburgRosebank",
   "title": "Dermalogica Smart Response Serum 30 mL: Key Ingredients in Under a Minute #shorts",
   "slot_sast": "2026-11-14 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref4042bb3e51b7",
   "publish_at": "2026-11-27T00:35:14Z",
   "overdue": true,
   "upload_started": "2026-11-26T22:46:06Z",
   "error": null,
-  "updated": "2026-11-26T22:46:10Z",
+  "updated": "2026-11-26T22:46:41Z",
   "video_id": "Tp2OR0Xsg50",
   "published_now": null,
   "url": "https://youtube.com/shorts/Tp2OR0Xsg50",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCeTPU-6Wsq_Ii0A4Uv6DESQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-27T00:35:14Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
