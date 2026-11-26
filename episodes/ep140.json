@@ -1,0 +1,405 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 140,
+ "slug": "pov-the-last-deviled-egg",
+ "title": "POV: The Last Deviled Egg",
+ "trend": "TikTok 'POV:' (caption over one moment, one take; Peaking, top 59.3M, Postdom TikTok trends week of Nov 23-29 2026, US) + Thanksgiving night leftovers (deviled eggs among the top sides by state, Google Thanksgiving searches reported by KIRO 7 / Cox Media Nov 24 2026) — POV: you are the last deviled egg at midnight as Grandpa Sal raids the fridge; the leftovers try not to look delicious (pie is declared breakfast, the egg claims to be mostly mayonnaise, two forks means he is serious); twist: someone in the back is last year's green bean casserole, forgotten behind the ketchup for a year — getting eaten is the good ending; button: they all beg, Sal makes one midnight sandwich of egg and pie ('a group project'), and the casserole goes straight to the trash, happy someone finally opened its lid",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "kitchen",
+ "desk": false,
+ "music": "lofi",
+ "intro": [
+  "pov:",
+  "you're the last deviled egg",
+  "and it's midnight"
+ ],
+ "youtube_title": "POV: you're the last deviled egg in the fridge and Grandpa just came downstairs 🥚",
+ "description": "It is midnight after Thanksgiving dinner. Grandpa Sal is hungry, and the leftovers are trying very hard not to look delicious. Then someone in the very back of the fridge tells them what is really scary.\n\n#cartoon #animation #funny #leftovers #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "thanksgiving",
+  "leftovers",
+  "deviled egg",
+  "grandpa",
+  "midnight snack"
+ ],
+ "tiktok_caption": "pov: you're the last deviled egg and it's midnight 🥚 #cartoon #animation #funny #leftovers",
+ "cast": [
+  {
+   "id": "egg",
+   "name": "The Deviled Egg",
+   "kind": "mascot",
+   "shape": "egg",
+   "color": "#fff8e7",
+   "scale": 0.9,
+   "accessories": [
+    "tophat:#e17055"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "flat",
+   "label_color": "#fab1a0",
+   "beans": {
+    "id": "af_bella",
+    "pitch": 0,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "pie",
+   "name": "The Pumpkin Pie",
+   "kind": "mascot",
+   "shape": "pumpkin",
+   "color": "#e67e22",
+   "scale": 0.92,
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "round",
+   "brows": "worried",
+   "mouth": "smile",
+   "label_color": "#f39c12",
+   "beans": {
+    "id": "bf_isabella",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "sal",
+   "name": "Grandpa Sal",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.08,
+   "hair": {
+    "style": "bald",
+    "color": "#b2bec3"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "stripes",
+    "pattern_color": "#2d3436"
+   },
+   "bottom": "#636e72",
+   "shoes": "#6d4c41",
+   "accessories": [
+    "mustache:#dfe6e9",
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#a29bfe",
+   "beans": {
+    "id": "am_onyx",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "beans",
+   "name": "Last Year's Green Bean Casserole",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#6ab04c",
+   "scale": 0.85,
+   "accessories": [
+    "scarf:#535c68"
+   ],
+   "eye": "sleepy",
+   "brows": "angry",
+   "mouth": "frown",
+   "label_color": "#badc58",
+   "beans": {
+    "id": "bm_lewis",
+    "pitch": -2,
+    "tempo": 0.92
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "egg",
+   "text": "Point of view. You are the last deviled egg. It is midnight. Someone is coming down the stairs.",
+   "shot": "CU",
+   "gesture": "think",
+   "after": "sting"
+  },
+  {
+   "spk": "pie",
+   "text": "Everybody stay calm. Nobody look delicious.",
+   "shot": "pie",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "egg",
+   "text": "Too late for me. I was born looking delicious. It is a curse.",
+   "shot": "egg",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "egg",
+   "text": "Shh. The fridge door is opening. Here comes the light.",
+   "shot": "egg",
+   "gesture": "point"
+  },
+  {
+   "spk": "sal",
+   "text": "Hello, my little friends. Grandpa Sal is a little hungry.",
+   "shot": "sal",
+   "gesture": "wave"
+  },
+  {
+   "spk": "pie",
+   "text": "He said little. Little means me. I am one slice. I am very little.",
+   "shot": "pie",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "sal",
+   "text": "Hmm. Not you, pie. You are breakfast. Pie is a breakfast food.",
+   "shot": "sal",
+   "gesture": "point"
+  },
+  {
+   "spk": "pie",
+   "text": "I am breakfast. I have never been so honored. Or so scared.",
+   "shot": "pie",
+   "gesture": "arms_up",
+   "after": "boing"
+  },
+  {
+   "spk": "egg",
+   "text": "Breakfast is in seven hours. Pray for her.",
+   "shot": "egg"
+  },
+  {
+   "spk": "sal",
+   "text": "Maybe a little egg. Just one little egg.",
+   "shot": "sal",
+   "gesture": "think"
+  },
+  {
+   "spk": "egg",
+   "text": "No! Wait. I am a decoy egg. I am mostly mayonnaise.",
+   "shot": "egg",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "sal",
+   "text": "Hmm. Mostly mayonnaise. I will come back for you.",
+   "shot": "sal",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "egg",
+   "text": "He will come back for me. That is so much worse.",
+   "shot": "egg",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "egg",
+   "text": "Every year it is the same. The turkey goes first. Then the potatoes. Then it is us.",
+   "shot": "egg",
+   "gesture": "cross"
+  },
+  {
+   "spk": "pie",
+   "text": "Where is the turkey?",
+   "shot": "pie",
+   "pre": 0.6
+  },
+  {
+   "spk": "egg",
+   "text": "Sandwiches. Four of them. Uncle Tony ate one in the car before he even left the driveway.",
+   "shot": "egg"
+  },
+  {
+   "spk": "pie",
+   "text": "A sandwich in the driveway. That is the dream.",
+   "shot": "pie",
+   "after": "rimshot"
+  },
+  {
+   "spk": "sal",
+   "text": "I am back. I brought a fork. And a plate. And a second fork.",
+   "shot": "sal",
+   "gesture": "wave"
+  },
+  {
+   "spk": "egg",
+   "text": "Two forks. Two forks means he is serious.",
+   "shot": "egg",
+   "gesture": "point"
+  },
+  {
+   "spk": "sal",
+   "text": "Little deviled egg. You are looking very fancy tonight.",
+   "shot": "sal",
+   "gesture": "think"
+  },
+  {
+   "spk": "egg",
+   "text": "I have paprika on my head. I am wearing a hat for the occasion.",
+   "shot": "egg",
+   "gesture": "hips"
+  },
+  {
+   "spk": "sal",
+   "text": "I love a hat.",
+   "shot": "sal"
+  },
+  {
+   "spk": "egg",
+   "text": "Oh no. Sal loves a hat.",
+   "shot": "egg",
+   "gesture": "facepalm",
+   "after": "whoosh"
+  },
+  {
+   "spk": "pie",
+   "text": "Hide behind the pickles. Nobody ever moves the pickles.",
+   "shot": "pie",
+   "gesture": "point"
+  },
+  {
+   "spk": "beans",
+   "text": "Psst. Down here. In the back.",
+   "shot": "W",
+   "pre": 0.8
+  },
+  {
+   "spk": "pie",
+   "text": "Who said that? Nobody is in the back. The back is where things go to be forgotten.",
+   "shot": "pie",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "beans",
+   "text": "Exactly. I am last year's green bean casserole.",
+   "shot": "beans",
+   "gesture": "wave",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "egg",
+   "text": "Last year? You have been back there since last Thanksgiving?",
+   "shot": "egg",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "beans",
+   "text": "Behind the ketchup. Since November. I have seen four birthdays and a Fourth of July from here.",
+   "shot": "beans"
+  },
+  {
+   "spk": "beans",
+   "text": "You think getting eaten is scary? Try getting forgotten. Nobody even opened my lid.",
+   "shot": "beans",
+   "gesture": "cross"
+  },
+  {
+   "spk": "pie",
+   "text": "That is the saddest thing I have ever heard. And I am breakfast.",
+   "shot": "pie",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "egg",
+   "text": "So getting eaten is the good ending.",
+   "shot": "egg",
+   "gesture": "think",
+   "pre": 0.5
+  },
+  {
+   "spk": "beans",
+   "text": "Getting eaten is the best ending. It means somebody wanted you.",
+   "shot": "beans",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pie",
+   "text": "Grandpa Sal! Over here! Forget breakfast. I am ready now.",
+   "shot": "pie",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "egg",
+   "text": "Sal! Look at my hat! I am not mostly mayonnaise! I am very fancy!",
+   "shot": "egg",
+   "gesture": "wave",
+   "jump": true
+  },
+  {
+   "spk": "sal",
+   "text": "Whoa. Everybody is very loud tonight.",
+   "shot": "sal",
+   "gesture": "think"
+  },
+  {
+   "spk": "sal",
+   "text": "You know what? A man cannot choose. I will make a midnight sandwich.",
+   "shot": "sal",
+   "gesture": "point"
+  },
+  {
+   "spk": "sal",
+   "text": "Two slices of bread. Egg in the middle. A little pie on top for dessert.",
+   "shot": "sal",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "egg",
+   "text": "Together? All of us? In one sandwich?",
+   "shot": "egg",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pie",
+   "text": "Finally. A group project.",
+   "shot": "pie",
+   "gesture": "hips"
+  },
+  {
+   "spk": "sal",
+   "text": "And what is this way in the back?",
+   "shot": "sal",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "beans",
+   "text": "Hello, Sal. It has been a long year.",
+   "shot": "beans",
+   "gesture": "wave"
+  },
+  {
+   "spk": "sal",
+   "text": "Green bean casserole. Oh, I missed you.",
+   "shot": "sal",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "sal",
+   "text": "Nope. Straight to the trash. But I missed you.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "beans",
+   "text": "Worth it. Somebody finally opened my lid.",
+   "shot": "beans",
+   "gesture": "hips"
+  }
+ ]
+}
