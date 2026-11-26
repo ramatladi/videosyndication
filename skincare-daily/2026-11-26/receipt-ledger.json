@@ -107,13 +107,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "ntwyI-qkOP0",
       "sku": "301243INT",
       "title": "What Goes Into Dermalogica Skin Transformation Duo? #shorts",
       "manifest_slug": "capetown-skin-transformation-duo-short",
       "media_sha256": "277f4f37526ea1a96874b2b8c1c011f2c2c1a8b6f4bffcd39648235bcb3f437f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T10:00:00Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -454,5 +455,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 13
+  "youtube_ids_recorded": 14
 }
