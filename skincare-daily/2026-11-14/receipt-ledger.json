@@ -45,13 +45,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "aRMVrb1zIiM",
       "sku": "111293",
       "title": "Dermalogica Blackhead Clearing Fizz Mask 50 mL: Which Step Is It? #shorts",
       "manifest_slug": "midrand-blackhead-clearing-fizz-mask-50ml-short",
       "media_sha256": "aed2a322d99fcbb396c62c006ada53acdb4cf457ed0733a0cda9672e23b0ccfd",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T01:35:14Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -398,5 +399,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 17
+  "youtube_ids_recorded": 18
 }
