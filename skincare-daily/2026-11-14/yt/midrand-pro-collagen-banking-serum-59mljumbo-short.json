@@ -3,15 +3,23 @@
   "handle": "@DermatologistJoburgMidrand",
   "title": "Dermalogica Pro-Collagen Banking Serum: Every Size in Under a Minute #shorts",
   "slot_sast": "2026-11-14 08:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref7ce272d29672",
   "publish_at": null,
   "overdue": true,
   "upload_started": "2026-11-26T22:35:15Z",
   "error": null,
-  "updated": "2026-11-26T22:35:20Z",
+  "updated": "2026-11-26T22:35:51Z",
   "video_id": "aQAeRERyC3g",
   "published_now": "2026-11-26T22:35:15Z",
   "url": "https://youtube.com/shorts/aQAeRERyC3g",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCb16q-70MGFin6RfsMGbdnw",
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "publishAt": null,
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
