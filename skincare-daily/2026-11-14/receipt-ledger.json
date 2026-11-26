@@ -271,13 +271,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "gm4BAoNVD7s",
       "sku": "111403INT",
       "title": "Dermalogica Dark Spot Solutions Kit in Under a Minute: Fades and Prevents Dark Spots #shorts",
       "manifest_slug": "westville-dark-spot-solutions-kit-short",
       "media_sha256": "303d336a9b745a8dcc7af799f8a3304661ed7a3e5f6be8b8ac0bd67d8dad9258",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T00:35:14Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -396,5 +397,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 15
+  "youtube_ids_recorded": 16
 }
