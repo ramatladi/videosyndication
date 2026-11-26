@@ -3,15 +3,23 @@
   "handle": "@SkincareDurbanWestville",
   "title": "Dermalogica Breakout Biotic Moisturiser: Benefits, Directions and Who It Suits",
   "slot_sast": "2026-11-14 10:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref9ab540fe7b18",
   "publish_at": "2026-11-26T23:35:14Z",
   "overdue": true,
   "upload_started": "2026-11-26T22:41:36Z",
   "error": null,
-  "updated": "2026-11-26T22:41:40Z",
+  "updated": "2026-11-26T22:42:42Z",
   "video_id": "C4mn2B5HLKg",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=C4mn2B5HLKg",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCh1fAzbqzZRAKMoFpJ9f0_g",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-26T23:35:14Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
