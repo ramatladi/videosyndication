@@ -81,13 +81,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "pvLi-G3rbJc",
       "sku": "111356",
       "title": "Daily SPF: Dermalogica Clearing Defense SPF30 59 mL, Step by Step",
       "manifest_slug": "capetown-clearing-defense-spf30-59ml",
       "media_sha256": "969507eb3c97d6b1580977bb0c7184c94f6f00bf0077a56315cb68ca3dda4917",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T23:35:14Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -388,5 +389,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 7
+  "youtube_ids_recorded": 8
 }
