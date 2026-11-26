@@ -45,13 +45,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "1eZ4waIP6LQ",
       "sku": "110616",
       "title": "Reading the Label: Dermalogica Multi Active Toner 250 mL #shorts",
       "manifest_slug": "midrand-multi-active-toner-250ml-short",
       "media_sha256": "f294a9b107217b64c839b607ae4883586114994938321c910ccfff13d5dadea8",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T14:00:00Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -459,5 +460,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 18
+  "youtube_ids_recorded": 19
 }
