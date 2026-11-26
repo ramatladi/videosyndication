@@ -149,13 +149,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "2nSYxTXJB6c",
       "sku": "411476",
       "title": "Dermalogica Stabilizing Repair Cream 15 mL: Key Ingredients and How to Use It",
       "manifest_slug": "umhlanga-stabilizing-repair-cream-15ml",
       "media_sha256": "e724f403f61b613a8bd75cd3661269a770e3ca9a4c11736e4f3d03dfd8e5ef8b",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T02:35:14Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -404,5 +405,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 23
+  "youtube_ids_recorded": 24
 }
