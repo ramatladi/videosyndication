@@ -32,13 +32,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "-GUr6zMOdYo",
       "sku": "111370M",
       "title": "Dermalogica Discover Healthy Skin Kit Ingredients: What's on the Label #shorts",
       "manifest_slug": "midrand-discover-healthy-skin-kit-short",
       "media_sha256": "8d5ad29ad68e9c7d8f4e63244274be9552838b2d1d4e679e1220009aa568ed25",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T10:00:00Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -453,5 +454,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 12
+  "youtube_ids_recorded": 13
 }
