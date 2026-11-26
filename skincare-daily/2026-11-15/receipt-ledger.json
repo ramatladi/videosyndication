@@ -96,13 +96,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "DflTIMpWICw",
       "sku": "111473INT",
       "title": "Dermalogica PoreScreen SPF40 30 mL, Explained",
       "manifest_slug": "capetown-porescreen-spf40-30ml",
       "media_sha256": "a21e70968427673d3f00480f0ed1dee1dd9eccc210d77e5a4950f439cc131af3",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T00:35:14Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -428,5 +429,5 @@
     "youtube_ids_recorded": 22,
     "producer_refreshed": "2026-11-26T20:34+02:00"
   },
-  "youtube_ids_recorded": 23
+  "youtube_ids_recorded": 24
 }
