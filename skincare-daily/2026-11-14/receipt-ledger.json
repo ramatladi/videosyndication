@@ -255,13 +255,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "C4mn2B5HLKg",
       "sku": "111506INT",
       "title": "Dermalogica Breakout Biotic Moisturiser: Benefits, Directions and Who It Suits",
       "manifest_slug": "westville-breakout-biotic-moisturiser",
       "media_sha256": "179e74b503009b5f6032462169b0d3acd37a079d46f0e8cc18bd17cd93b5ce7a",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T23:35:14Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -391,5 +392,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 10
+  "youtube_ids_recorded": 11
 }
