@@ -332,13 +332,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "VIrFDKO09lI",
       "sku": "111419",
       "title": "Reading the Label: Dermalogica Breakout Clearing Foaming Wash #shorts",
       "manifest_slug": "westville-breakout-clearing-foaming-wash-short",
       "media_sha256": "61a2e362f404f4f99a8fcbeab9cc5474615f8be4a0475b1b6a48e5ce01e662e8",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T10:00:00Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -457,5 +458,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 16
+  "youtube_ids_recorded": 17
 }
