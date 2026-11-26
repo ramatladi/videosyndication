@@ -3,15 +3,23 @@
   "handle": "@DermatologyJoburgBedfordview",
   "title": "Dermalogica MultiVitamin Thermafoliant 75 mL, Ingredient by Ingredient #shorts",
   "slot_sast": "2026-11-14 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref250d01208c74",
   "publish_at": "2026-11-27T00:35:14Z",
   "overdue": true,
   "upload_started": "2026-11-26T22:44:37Z",
   "error": null,
-  "updated": "2026-11-26T22:44:41Z",
+  "updated": "2026-11-26T22:45:28Z",
   "video_id": "FvxTy9dvRUg",
   "published_now": null,
   "url": "https://youtube.com/shorts/FvxTy9dvRUg",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCs0uxMnSV1INS_Bxn6yqc2Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-27T00:35:14Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
