@@ -238,13 +238,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "luXZLfFBstc",
       "sku": "111393",
       "title": "Dermalogica BioLumin-C Eye Serum 15 mL: Hydrates and Brightens #shorts",
       "manifest_slug": "bedfordview-biolumin-c-eye-serum-15ml-short",
       "media_sha256": "3f447f596771bb7b085f5ad4f88b2b4daf9f9e8823489662f9449939e771632a",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T05:35:14Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -431,5 +432,5 @@
     "youtube_ids_recorded": 22,
     "producer_refreshed": "2026-11-26T20:34+02:00"
   },
-  "youtube_ids_recorded": 26
+  "youtube_ids_recorded": 27
 }
