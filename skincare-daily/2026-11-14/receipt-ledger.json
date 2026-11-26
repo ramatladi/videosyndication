@@ -58,13 +58,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "pSnPsftFvGY",
       "sku": "111466INT",
       "title": "Routine Builder: Dermalogica Phyto Nature Oxygen Cream 50 mL, Step by Step",
       "manifest_slug": "midrand-phyto-nature-oxygen-cream-50ml",
       "media_sha256": "5c4b39efa629e9808ddca0a6d59e8a4e23b17a560dfae779bd847b7d085e2913",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T02:35:14Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -403,5 +404,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 22
+  "youtube_ids_recorded": 23
 }
