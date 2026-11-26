@@ -1,0 +1,866 @@
+{
+ "summary": {
+  "renders": 12,
+  "passed": 12,
+  "fails": [],
+  "unique_products": true,
+  "free_photos_unique": true,
+  "store_images_shared_between_videos": [],
+  "min_thumb_dist": 50,
+  "min_frame_dist": 38,
+  "similarity_fails": []
+ },
+ "renders": [
+  {
+   "slug": "rosebank-active-moist-50ml-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product": "active moist",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 33.03,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.23,
+   "true_peak": -1.38,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 57,
+   "desc_bytes": 1037,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.961,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.962,
+   "cover_ok": true,
+   "mp4_sha256": "cd788feb8c44ac3bc0d94f05760298a1212a229045c081e8127d73347f37d2d2",
+   "jpg_sha256": "cb090c28417ce583f38797201c9de4017b52879a506cfcbd7abe91747ab3e54c",
+   "srt_sha256": "c43560bf3fba4d7bcba1f6bdb310d7f9c9dac7db07fea9b17c82d0db2e42636f",
+   "pass": true
+  },
+  {
+   "slug": "capetown-porescreen-spf40-30ml",
+   "domain": "dermatology.capetown",
+   "format": "video",
+   "product": "porescreen spf40",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 65.1,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.27,
+   "true_peak": -1.38,
+   "loudness_ok": true,
+   "srt_cues": 16,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 45,
+   "desc_bytes": 1225,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.98,
+   "packshot_ok": true,
+   "mp4_sha256": "a21e70968427673d3f00480f0ed1dee1dd9eccc210d77e5a4950f439cc131af3",
+   "jpg_sha256": "393ef1c6043ec17525dde747890b17f151e1b8ef7292f0917b63010563a45b8e",
+   "srt_sha256": "b54a4ef098604033221e88031f1aa075288b6881a08db3163a653974d9c00cb9",
+   "pass": true
+  },
+  {
+   "slug": "westville-calm-water-gel-50ml-short",
+   "domain": "skincare.durban",
+   "format": "short",
+   "product": "calm water gel",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 26.47,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.14,
+   "true_peak": -1.47,
+   "loudness_ok": true,
+   "srt_cues": 8,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 75,
+   "desc_bytes": 969,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.972,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.969,
+   "cover_ok": true,
+   "mp4_sha256": "c7acc69e8117ef89562a9d66a0a89a5daf4c0ea629b9adebd238c7394aad5122",
+   "jpg_sha256": "efb1d5effd34057607f419ffbbe9ef714507af76f6831f7f8a9f3f3c60c4e904",
+   "srt_sha256": "bb5fd917908511562145a4278782987413ceb381ac05b009fabcf7b7b4c8b69d",
+   "pass": true
+  },
+  {
+   "slug": "rosebank-super-rich-repair-15ml-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product": "super rich repair",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 31.63,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.3,
+   "true_peak": -1.49,
+   "loudness_ok": true,
+   "srt_cues": 10,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 74,
+   "desc_bytes": 1034,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.966,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.96,
+   "cover_ok": true,
+   "mp4_sha256": "5e6aa270445239448a75a6e1ca211866dbf9d8dd593826e4be4198d4662e5203",
+   "jpg_sha256": "00edd0fa11a0e4cf699949d2df2b97b8fca2bba4865511175ff3798c3f842f7e",
+   "srt_sha256": "af9f58be25392087ff0e964145ae9ea1447c1742b824524f119916708e01405b",
+   "pass": true
+  },
+  {
+   "slug": "rosebank-phyto-nature-oxygen-cream-50ml-short",
+   "domain": "skincare.joburg",
+   "format": "short",
+   "product": "phyto nature oxygen cream",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 26.93,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.4,
+   "true_peak": -1.48,
+   "loudness_ok": true,
+   "srt_cues": 8,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 70,
+   "desc_bytes": 1024,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.977,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.972,
+   "cover_ok": true,
+   "mp4_sha256": "658a2cffee0af147db7adbe53476280c1e6464a6a055c2ec042efcb07e4942df",
+   "jpg_sha256": "cefa8c4301b2fbaaa0752e077887798296a74d03dbcdeb0b2961f43dd455c69d",
+   "srt_sha256": "83e0fb562440658d21ffbc4b644532cbcb702071ad3840b8e733fa9b43e0e3c1",
+   "pass": true
+  },
+  {
+   "slug": "midrand-precleanse-295ml",
+   "domain": "dermatologist.joburg",
+   "format": "video",
+   "product": "precleanse",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 69.05,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.43,
+   "true_peak": -1.88,
+   "loudness_ok": true,
+   "srt_cues": 19,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 71,
+   "desc_bytes": 1304,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.944,
+   "packshot_ok": true,
+   "mp4_sha256": "e03d407f7cd9a16299a5785cb514894ef642b44294a06ecb0adf1853c11188ca",
+   "jpg_sha256": "83fd77a1016b204333271c3ce4960d565d828945ecb895154972a9a510029824",
+   "srt_sha256": "cce8b6878f32f16db58babf1c965c79208a0125d390cbd60f7d1946e7e0a514c",
+   "pass": true
+  },
+  {
+   "slug": "midrand-ultracalming-cleanser",
+   "domain": "dermatologist.joburg",
+   "format": "video",
+   "product": "ultracalming cleanser",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 61.12,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.48,
+   "true_peak": -1.4,
+   "loudness_ok": true,
+   "srt_cues": 17,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 85,
+   "desc_bytes": 1235,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.921,
+   "packshot_ok": true,
+   "mp4_sha256": "b8e1417c593124d74871c70529afcff2e1e77cfa7c39e46133ac551e64dc3530",
+   "jpg_sha256": "c5e2109fba87c155c5243e6f0011dc14b20b63fa56b0a1c375a3644bc7e03e20",
+   "srt_sha256": "d268172889df28439efc4d962134140279e90360b2bb63be2342e0a31c220396",
+   "pass": true
+  },
+  {
+   "slug": "bedfordview-powerbright-dark-spot-peel-50ml-50ml",
+   "domain": "dermatology.joburg",
+   "format": "video",
+   "product": "powerbright dark spot peel 50ml",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 137.13,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.33,
+   "true_peak": -1.88,
+   "loudness_ok": true,
+   "srt_cues": 23,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 75,
+   "desc_bytes": 1254,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.946,
+   "packshot_ok": true,
+   "mp4_sha256": "fec2a20ce0e3065d10dea829c85fa5032505664c155550d08ae1e2635b125a77",
+   "jpg_sha256": "d68d9559e6efb1afdbd798b6787bcefe54f974e66a4077367d0bd4a2bdeb1c55",
+   "srt_sha256": "9af7b0f643ce616e991dfa20ebf8dd996ab5e7ab9501682e6d3f7880057946cb",
+   "pass": true
+  },
+  {
+   "slug": "bedfordview-biolumin-c-eye-serum-15ml-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product": "biolumin-c eye serum",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 57.1,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.3,
+   "true_peak": -1.95,
+   "loudness_ok": true,
+   "srt_cues": 10,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 70,
+   "desc_bytes": 1015,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.972,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.972,
+   "cover_ok": true,
+   "mp4_sha256": "3f447f596771bb7b085f5ad4f88b2b4daf9f9e8823489662f9449939e771632a",
+   "jpg_sha256": "0223160d95276ca358b28cc79c5640e97df374a0ac94934749a41cdb5a3e5618",
+   "srt_sha256": "030aaecf814c26683d1e5a7002c8edc6d0cdb2b88e29c88fdcd3b2019926c43b",
+   "pass": true
+  },
+  {
+   "slug": "umhlanga-multi-active-toner-250ml-short",
+   "domain": "dermatology.durban",
+   "format": "short",
+   "product": "multi active toner",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 28.17,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.49,
+   "true_peak": -1.44,
+   "loudness_ok": true,
+   "srt_cues": 9,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 69,
+   "desc_bytes": 1016,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.944,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.938,
+   "cover_ok": true,
+   "mp4_sha256": "83f143ae19db008ea77c192fb8581ddf6f3b9174eb553a507599ae0ec593b413",
+   "jpg_sha256": "79ce0c6bf8ef93d7319158c4f71446f7a6b4b3bac3e67bee02b772092309179f",
+   "srt_sha256": "67e16d0d0ca1b9f3e27504ed3e9d8a0e0117dc4ef70e814c017201145244ecfc",
+   "pass": true
+  },
+  {
+   "slug": "umhlanga-cooling-aqua-jelly-59ml",
+   "domain": "dermatology.durban",
+   "format": "video",
+   "product": "cooling aqua jelly",
+   "w": 1920,
+   "h": 1080,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 65.43,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.47,
+   "true_peak": -1.37,
+   "loudness_ok": true,
+   "srt_cues": 18,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 71,
+   "desc_bytes": 1145,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.916,
+   "packshot_ok": true,
+   "mp4_sha256": "d70976993cac46147082fd8723ad048c38444a3323c63afab3381c745a871df6",
+   "jpg_sha256": "6a42ea089f00785778758b7c2c391712abc4936a8d790776f42b26889dec7ffe",
+   "srt_sha256": "fbda8f864f8c6ea44289943abd51dc9871f168014c6a893e20a0c3d7245d86dd",
+   "pass": true
+  },
+  {
+   "slug": "bedfordview-expert-cleanse-glow-set-3-full-size-short",
+   "domain": "dermatology.joburg",
+   "format": "short",
+   "product": "expert cleanse + glow set (3 full-size)",
+   "w": 1080,
+   "h": 1920,
+   "vcodec": "h264",
+   "acodec": "aac",
+   "fps": "30/1",
+   "duration": 53.03,
+   "size_ok": true,
+   "duration_ok": true,
+   "lufs": -14.4,
+   "true_peak": -1.98,
+   "loudness_ok": true,
+   "srt_cues": 8,
+   "srt_ok": true,
+   "product_in_title": true,
+   "product_spoken": true,
+   "american_english_ok": true,
+   "commission_description_only": true,
+   "title_len": 71,
+   "desc_bytes": 1363,
+   "meta_ok": true,
+   "thumb_size": [
+    1280,
+    720
+   ],
+   "packshot_match": 0.978,
+   "packshot_ok": true,
+   "cover_frame_stable": true,
+   "cover_packshot_match": 0.934,
+   "cover_ok": true,
+   "mp4_sha256": "6590470b6e480349346a35629a6932fa5fd0164e2daee3ca7b73508b68f367b1",
+   "jpg_sha256": "e174619b92271a03e9aaa3c5a1e47d7aba1164d1c52e1321f91bf810aa7bb1cf",
+   "srt_sha256": "a48b0f3d0a562ecd2cf0954b1306aa73f3069ee0e487ca99e3ea753fc6d9d384",
+   "pass": true
+  }
+ ],
+ "pairs": [
+  {
+   "a": "rosebank-active-moist-50ml-short",
+   "b": "capetown-porescreen-spf40-30ml",
+   "thumb_dist": 50,
+   "frame_dist": 103
+  },
+  {
+   "a": "rosebank-active-moist-50ml-short",
+   "b": "westville-calm-water-gel-50ml-short",
+   "thumb_dist": 60,
+   "frame_dist": 92
+  },
+  {
+   "a": "rosebank-active-moist-50ml-short",
+   "b": "rosebank-super-rich-repair-15ml-short",
+   "thumb_dist": 52,
+   "frame_dist": 83
+  },
+  {
+   "a": "rosebank-active-moist-50ml-short",
+   "b": "rosebank-phyto-nature-oxygen-cream-50ml-short",
+   "thumb_dist": 55,
+   "frame_dist": 90
+  },
+  {
+   "a": "rosebank-active-moist-50ml-short",
+   "b": "midrand-precleanse-295ml",
+   "thumb_dist": 73,
+   "frame_dist": 119
+  },
+  {
+   "a": "rosebank-active-moist-50ml-short",
+   "b": "midrand-ultracalming-cleanser",
+   "thumb_dist": 61,
+   "frame_dist": 103
+  },
+  {
+   "a": "rosebank-active-moist-50ml-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-50ml",
+   "thumb_dist": 58,
+   "frame_dist": 106
+  },
+  {
+   "a": "rosebank-active-moist-50ml-short",
+   "b": "bedfordview-biolumin-c-eye-serum-15ml-short",
+   "thumb_dist": 65,
+   "frame_dist": 74
+  },
+  {
+   "a": "rosebank-active-moist-50ml-short",
+   "b": "umhlanga-multi-active-toner-250ml-short",
+   "thumb_dist": 68,
+   "frame_dist": 64
+  },
+  {
+   "a": "rosebank-active-moist-50ml-short",
+   "b": "umhlanga-cooling-aqua-jelly-59ml",
+   "thumb_dist": 69,
+   "frame_dist": 105
+  },
+  {
+   "a": "rosebank-active-moist-50ml-short",
+   "b": "bedfordview-expert-cleanse-glow-set-3-full-size-short",
+   "thumb_dist": 137,
+   "frame_dist": 87
+  },
+  {
+   "a": "capetown-porescreen-spf40-30ml",
+   "b": "westville-calm-water-gel-50ml-short",
+   "thumb_dist": 60,
+   "frame_dist": 106
+  },
+  {
+   "a": "capetown-porescreen-spf40-30ml",
+   "b": "rosebank-super-rich-repair-15ml-short",
+   "thumb_dist": 62,
+   "frame_dist": 108
+  },
+  {
+   "a": "capetown-porescreen-spf40-30ml",
+   "b": "rosebank-phyto-nature-oxygen-cream-50ml-short",
+   "thumb_dist": 59,
+   "frame_dist": 100
+  },
+  {
+   "a": "capetown-porescreen-spf40-30ml",
+   "b": "midrand-precleanse-295ml",
+   "thumb_dist": 77,
+   "frame_dist": 101
+  },
+  {
+   "a": "capetown-porescreen-spf40-30ml",
+   "b": "midrand-ultracalming-cleanser",
+   "thumb_dist": 69,
+   "frame_dist": 96
+  },
+  {
+   "a": "capetown-porescreen-spf40-30ml",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-50ml",
+   "thumb_dist": 64,
+   "frame_dist": 38
+  },
+  {
+   "a": "capetown-porescreen-spf40-30ml",
+   "b": "bedfordview-biolumin-c-eye-serum-15ml-short",
+   "thumb_dist": 61,
+   "frame_dist": 107
+  },
+  {
+   "a": "capetown-porescreen-spf40-30ml",
+   "b": "umhlanga-multi-active-toner-250ml-short",
+   "thumb_dist": 62,
+   "frame_dist": 103
+  },
+  {
+   "a": "capetown-porescreen-spf40-30ml",
+   "b": "umhlanga-cooling-aqua-jelly-59ml",
+   "thumb_dist": 61,
+   "frame_dist": 97
+  },
+  {
+   "a": "capetown-porescreen-spf40-30ml",
+   "b": "bedfordview-expert-cleanse-glow-set-3-full-size-short",
+   "thumb_dist": 133,
+   "frame_dist": 102
+  },
+  {
+   "a": "westville-calm-water-gel-50ml-short",
+   "b": "rosebank-super-rich-repair-15ml-short",
+   "thumb_dist": 76,
+   "frame_dist": 96
+  },
+  {
+   "a": "westville-calm-water-gel-50ml-short",
+   "b": "rosebank-phyto-nature-oxygen-cream-50ml-short",
+   "thumb_dist": 57,
+   "frame_dist": 90
+  },
+  {
+   "a": "westville-calm-water-gel-50ml-short",
+   "b": "midrand-precleanse-295ml",
+   "thumb_dist": 71,
+   "frame_dist": 106
+  },
+  {
+   "a": "westville-calm-water-gel-50ml-short",
+   "b": "midrand-ultracalming-cleanser",
+   "thumb_dist": 75,
+   "frame_dist": 110
+  },
+  {
+   "a": "westville-calm-water-gel-50ml-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-50ml",
+   "thumb_dist": 80,
+   "frame_dist": 102
+  },
+  {
+   "a": "westville-calm-water-gel-50ml-short",
+   "b": "bedfordview-biolumin-c-eye-serum-15ml-short",
+   "thumb_dist": 67,
+   "frame_dist": 82
+  },
+  {
+   "a": "westville-calm-water-gel-50ml-short",
+   "b": "umhlanga-multi-active-toner-250ml-short",
+   "thumb_dist": 80,
+   "frame_dist": 74
+  },
+  {
+   "a": "westville-calm-water-gel-50ml-short",
+   "b": "umhlanga-cooling-aqua-jelly-59ml",
+   "thumb_dist": 73,
+   "frame_dist": 107
+  },
+  {
+   "a": "westville-calm-water-gel-50ml-short",
+   "b": "bedfordview-expert-cleanse-glow-set-3-full-size-short",
+   "thumb_dist": 141,
+   "frame_dist": 83
+  },
+  {
+   "a": "rosebank-super-rich-repair-15ml-short",
+   "b": "rosebank-phyto-nature-oxygen-cream-50ml-short",
+   "thumb_dist": 67,
+   "frame_dist": 77
+  },
+  {
+   "a": "rosebank-super-rich-repair-15ml-short",
+   "b": "midrand-precleanse-295ml",
+   "thumb_dist": 83,
+   "frame_dist": 119
+  },
+  {
+   "a": "rosebank-super-rich-repair-15ml-short",
+   "b": "midrand-ultracalming-cleanser",
+   "thumb_dist": 73,
+   "frame_dist": 98
+  },
+  {
+   "a": "rosebank-super-rich-repair-15ml-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-50ml",
+   "thumb_dist": 74,
+   "frame_dist": 111
+  },
+  {
+   "a": "rosebank-super-rich-repair-15ml-short",
+   "b": "bedfordview-biolumin-c-eye-serum-15ml-short",
+   "thumb_dist": 79,
+   "frame_dist": 83
+  },
+  {
+   "a": "rosebank-super-rich-repair-15ml-short",
+   "b": "umhlanga-multi-active-toner-250ml-short",
+   "thumb_dist": 68,
+   "frame_dist": 76
+  },
+  {
+   "a": "rosebank-super-rich-repair-15ml-short",
+   "b": "umhlanga-cooling-aqua-jelly-59ml",
+   "thumb_dist": 85,
+   "frame_dist": 119
+  },
+  {
+   "a": "rosebank-super-rich-repair-15ml-short",
+   "b": "bedfordview-expert-cleanse-glow-set-3-full-size-short",
+   "thumb_dist": 131,
+   "frame_dist": 86
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-50ml-short",
+   "b": "midrand-precleanse-295ml",
+   "thumb_dist": 78,
+   "frame_dist": 101
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-50ml-short",
+   "b": "midrand-ultracalming-cleanser",
+   "thumb_dist": 76,
+   "frame_dist": 109
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-50ml-short",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-50ml",
+   "thumb_dist": 83,
+   "frame_dist": 104
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-50ml-short",
+   "b": "bedfordview-biolumin-c-eye-serum-15ml-short",
+   "thumb_dist": 80,
+   "frame_dist": 101
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-50ml-short",
+   "b": "umhlanga-multi-active-toner-250ml-short",
+   "thumb_dist": 67,
+   "frame_dist": 44
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-50ml-short",
+   "b": "umhlanga-cooling-aqua-jelly-59ml",
+   "thumb_dist": 70,
+   "frame_dist": 107
+  },
+  {
+   "a": "rosebank-phyto-nature-oxygen-cream-50ml-short",
+   "b": "bedfordview-expert-cleanse-glow-set-3-full-size-short",
+   "thumb_dist": 140,
+   "frame_dist": 96
+  },
+  {
+   "a": "midrand-precleanse-295ml",
+   "b": "midrand-ultracalming-cleanser",
+   "thumb_dist": 80,
+   "frame_dist": 74
+  },
+  {
+   "a": "midrand-precleanse-295ml",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-50ml",
+   "thumb_dist": 75,
+   "frame_dist": 104
+  },
+  {
+   "a": "midrand-precleanse-295ml",
+   "b": "bedfordview-biolumin-c-eye-serum-15ml-short",
+   "thumb_dist": 84,
+   "frame_dist": 114
+  },
+  {
+   "a": "midrand-precleanse-295ml",
+   "b": "umhlanga-multi-active-toner-250ml-short",
+   "thumb_dist": 89,
+   "frame_dist": 101
+  },
+  {
+   "a": "midrand-precleanse-295ml",
+   "b": "umhlanga-cooling-aqua-jelly-59ml",
+   "thumb_dist": 74,
+   "frame_dist": 65
+  },
+  {
+   "a": "midrand-precleanse-295ml",
+   "b": "bedfordview-expert-cleanse-glow-set-3-full-size-short",
+   "thumb_dist": 142,
+   "frame_dist": 104
+  },
+  {
+   "a": "midrand-ultracalming-cleanser",
+   "b": "bedfordview-powerbright-dark-spot-peel-50ml-50ml",
+   "thumb_dist": 69,
+   "frame_dist": 89
+  },
+  {
+   "a": "midrand-ultracalming-cleanser",
+   "b": "bedfordview-biolumin-c-eye-serum-15ml-short",
+   "thumb_dist": 80,
+   "frame_dist": 113
+  },
+  {
+   "a": "midrand-ultracalming-cleanser",
+   "b": "umhlanga-multi-active-toner-250ml-short",
+   "thumb_dist": 83,
+   "frame_dist": 100
+  },
+  {
+   "a": "midrand-ultracalming-cleanser",
+   "b": "umhlanga-cooling-aqua-jelly-59ml",
+   "thumb_dist": 88,
+   "frame_dist": 73
+  },
+  {
+   "a": "midrand-ultracalming-cleanser",
+   "b": "bedfordview-expert-cleanse-glow-set-3-full-size-short",
+   "thumb_dist": 148,
+   "frame_dist": 104
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-peel-50ml-50ml",
+   "b": "bedfordview-biolumin-c-eye-serum-15ml-short",
+   "thumb_dist": 57,
+   "frame_dist": 100
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-peel-50ml-50ml",
+   "b": "umhlanga-multi-active-toner-250ml-short",
+   "thumb_dist": 82,
+   "frame_dist": 94
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-peel-50ml-50ml",
+   "b": "umhlanga-cooling-aqua-jelly-59ml",
+   "thumb_dist": 83,
+   "frame_dist": 102
+  },
+  {
+   "a": "bedfordview-powerbright-dark-spot-peel-50ml-50ml",
+   "b": "bedfordview-expert-cleanse-glow-set-3-full-size-short",
+   "thumb_dist": 131,
+   "frame_dist": 101
+  },
+  {
+   "a": "bedfordview-biolumin-c-eye-serum-15ml-short",
+   "b": "umhlanga-multi-active-toner-250ml-short",
+   "thumb_dist": 85,
+   "frame_dist": 98
+  },
+  {
+   "a": "bedfordview-biolumin-c-eye-serum-15ml-short",
+   "b": "umhlanga-cooling-aqua-jelly-59ml",
+   "thumb_dist": 72,
+   "frame_dist": 112
+  },
+  {
+   "a": "bedfordview-biolumin-c-eye-serum-15ml-short",
+   "b": "bedfordview-expert-cleanse-glow-set-3-full-size-short",
+   "thumb_dist": 132,
+   "frame_dist": 75
+  },
+  {
+   "a": "umhlanga-multi-active-toner-250ml-short",
+   "b": "umhlanga-cooling-aqua-jelly-59ml",
+   "thumb_dist": 63,
+   "frame_dist": 100
+  },
+  {
+   "a": "umhlanga-multi-active-toner-250ml-short",
+   "b": "bedfordview-expert-cleanse-glow-set-3-full-size-short",
+   "thumb_dist": 135,
+   "frame_dist": 87
+  },
+  {
+   "a": "umhlanga-cooling-aqua-jelly-59ml",
+   "b": "bedfordview-expert-cleanse-glow-set-3-full-size-short",
+   "thumb_dist": 148,
+   "frame_dist": 111
+  }
+ ]
+}
