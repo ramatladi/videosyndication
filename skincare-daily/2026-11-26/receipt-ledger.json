@@ -407,13 +407,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "3B0dDCr-O9Y",
       "sku": "411465",
       "title": "Where Dermalogica Dynamic Skin Retinol Serum Goes in a Routine #shorts",
       "manifest_slug": "rosebank-dynamic-skin-retinol-serum-short",
       "media_sha256": "f26cabbe341a81ea2248df22cc9c0bd0f9ee1f25d625899adc830320cff232d2",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T10:00:00Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -458,5 +459,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 17
+  "youtube_ids_recorded": 18
 }
