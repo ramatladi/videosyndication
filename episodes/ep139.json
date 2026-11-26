@@ -1,0 +1,403 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 139,
+ "slug": "this-is-your-sign",
+ "title": "This Is Your Sign",
+ "trend": "TikTok 'This is your sign' ('this is your sign to...' over someone deciding to act; Rising, top 20.6M, Postdom TikTok trends week of Nov 23-29 2026, US) + 'The tree goes up' (decorating; sound 1.3M videos, Postdom spotted Nov 10 2026) on Thanksgiving night — Marcy wants one sign to put the tree up tonight, husband Glen holds his dad's December-first rule, and the tree box in the garage keeps supplying signs (sleigh bells on the weather station, a star-shaped crack in the pie, the neighbors' lights spell her name minus a letter); twist: the box is empty — Glen put the tree up in the guest room on October third and sits with it every night; button: 'this is your sign to tell me what else is in the guest room closet' — 'The November tree.'",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "this is your sign",
+  "to put the tree up",
+  "tonight"
+ ],
+ "youtube_title": "I asked for one sign to put the tree up tonight. The box in the garage answered 🎄",
+ "description": "Marcy wants the tree up on Thanksgiving night. Glen says the rule is December first. The tree box in the garage keeps sending signs, and it has a secret about where the tree went.\n\n#cartoon #animation #funny #christmastree #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "christmas tree",
+  "thanksgiving night",
+  "couple",
+  "holidays",
+  "decorating"
+ ],
+ "tiktok_caption": "this is your sign to put the tree up tonight 🎄 #cartoon #animation #funny #christmastree",
+ "cast": [
+  {
+   "id": "marcy",
+   "name": "Marcy",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "curly",
+    "color": "#c0392b"
+   },
+   "top": {
+    "color": "#d63031",
+    "pattern": "stripes",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#00b894",
+   "accessories": [
+    "scarf:#00b894"
+   ],
+   "eye": "big",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#ff7675",
+   "voice": {
+    "id": "af_river",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "glen",
+   "name": "Glen",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.06,
+   "hair": {
+    "style": "short",
+    "color": "#6d4c41"
+   },
+   "top": {
+    "color": "#2d3436",
+    "pattern": "suit",
+    "pattern_color": "#27ae60"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#3e2723",
+   "accessories": [
+    "glasses",
+    "mustache:#6d4c41",
+    "tie:#27ae60"
+   ],
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "am_michael",
+    "pitch": -1,
+    "tempo": 0.98
+   }
+  },
+  {
+   "id": "box",
+   "name": "The Tree Box",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#c8a165",
+   "scale": 0.95,
+   "accessories": [
+    "party_hat:#27ae60"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#e1b382",
+   "voice": {
+    "id": "bf_lily",
+    "pitch": -1,
+    "tempo": 0.97
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "marcy",
+   "text": "I need one sign. Just one. And the tree goes up tonight.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "box",
+   "text": "This is your sign.",
+   "shot": "box",
+   "gesture": "hips",
+   "after": "sting"
+  },
+  {
+   "spk": "glen",
+   "text": "Marcy, the box in the garage is talking again.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "box",
+   "text": "I am the tree box. I have been in this garage since January. I have a lot of feelings.",
+   "shot": "box",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "glen",
+   "text": "The rule is December first. We do not put up the tree on Thanksgiving night.",
+   "shot": "glen",
+   "gesture": "cross"
+  },
+  {
+   "spk": "marcy",
+   "text": "The rule is from your dad. Your dad also irons his socks.",
+   "shot": "marcy",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "glen",
+   "text": "And his socks look amazing. No tree.",
+   "shot": "glen",
+   "gesture": "hips"
+  },
+  {
+   "spk": "box",
+   "text": "Fine. You want signs? I will give you signs.",
+   "shot": "box",
+   "gesture": "cross"
+  },
+  {
+   "spk": "marcy",
+   "text": "The radio just played sleigh bells. For forty minutes. On the weather station.",
+   "shot": "marcy",
+   "gesture": "point"
+  },
+  {
+   "spk": "glen",
+   "text": "That is a coincidence. Weather can be festive.",
+   "shot": "glen",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "box",
+   "text": "The weather man said, light snow, and also this is your sign, Marcy.",
+   "shot": "box",
+   "after": "ding"
+  },
+  {
+   "spk": "glen",
+   "text": "He did not say that.",
+   "shot": "glen",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "marcy",
+   "text": "He said it twice. Once very slowly.",
+   "shot": "marcy"
+  },
+  {
+   "spk": "marcy",
+   "text": "Sign number two. I cut the pumpkin pie and the crack is shaped like a star.",
+   "shot": "marcy",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "glen",
+   "text": "That is a pie that needed more time in the oven.",
+   "shot": "glen",
+   "gesture": "think"
+  },
+  {
+   "spk": "box",
+   "text": "That is a pie with a message.",
+   "shot": "box"
+  },
+  {
+   "spk": "glen",
+   "text": "Pies do not send messages, box.",
+   "shot": "glen",
+   "gesture": "point"
+  },
+  {
+   "spk": "box",
+   "text": "Boxes do not talk, Glen. And yet, here we are.",
+   "shot": "box",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "marcy",
+   "text": "Sign number three. The neighbors put up their lights tonight. They spell my name.",
+   "shot": "marcy",
+   "gesture": "point"
+  },
+  {
+   "spk": "glen",
+   "text": "They spell Mary. They are missing a letter.",
+   "shot": "glen",
+   "gesture": "cross"
+  },
+  {
+   "spk": "box",
+   "text": "The C fell off. It is in the bushes. It is also a sign.",
+   "shot": "box"
+  },
+  {
+   "spk": "glen",
+   "text": "Everything is a sign to you two. The doorbell. The toaster.",
+   "shot": "glen",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "box",
+   "text": "The toaster said ding. Ding is a holiday word.",
+   "shot": "box",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marcy",
+   "text": "That is enough. I am opening the box.",
+   "shot": "marcy",
+   "gesture": "cross",
+   "jump": true
+  },
+  {
+   "spk": "glen",
+   "text": "Wait. Marcy. Do not open the box.",
+   "shot": "glen",
+   "gesture": "arms_up",
+   "pre": 0.4
+  },
+  {
+   "spk": "marcy",
+   "text": "Why not?",
+   "shot": "marcy",
+   "pre": 0.8
+  },
+  {
+   "spk": "box",
+   "text": "Go ahead. Open me. I have been waiting to say this for five weeks.",
+   "shot": "box"
+  },
+  {
+   "spk": "marcy",
+   "text": "It is empty. There is no tree in here.",
+   "shot": "marcy",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "box",
+   "text": "I have been empty since October. He took the tree.",
+   "shot": "box",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marcy",
+   "text": "Glen. Where is the tree?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "glen",
+   "text": "What tree? I am a December first man.",
+   "shot": "glen",
+   "gesture": "think"
+  },
+  {
+   "spk": "box",
+   "text": "Check the guest room.",
+   "shot": "box"
+  },
+  {
+   "spk": "marcy",
+   "text": "Glen. The tree is in the guest room. It is fully decorated. It has a little chair next to it.",
+   "shot": "marcy",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marcy",
+   "text": "And your slippers. And a mug. And a blanket with snowmen on it.",
+   "shot": "marcy",
+   "gesture": "point"
+  },
+  {
+   "spk": "glen",
+   "text": "Okay. Fine. I put it up on October third.",
+   "shot": "glen",
+   "gesture": "shrug",
+   "pre": 0.6
+  },
+  {
+   "spk": "glen",
+   "text": "Every year it comes down too fast. I just wanted more time with it.",
+   "shot": "glen",
+   "gesture": "think"
+  },
+  {
+   "spk": "glen",
+   "text": "So I sit with it. After dinner. Every night. We talk.",
+   "shot": "glen"
+  },
+  {
+   "spk": "box",
+   "text": "It does not talk. I talk. The tree just listens.",
+   "shot": "box",
+   "gesture": "cross"
+  },
+  {
+   "spk": "marcy",
+   "text": "You made me do the December rule for nine years.",
+   "shot": "marcy",
+   "gesture": "hips"
+  },
+  {
+   "spk": "glen",
+   "text": "I did the December rule out loud. On the inside I am a September man.",
+   "shot": "glen",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marcy",
+   "text": "That is the most romantic weird thing you have ever done.",
+   "shot": "marcy",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "box",
+   "text": "I am going to need you two to carry it downstairs. I miss it.",
+   "shot": "box"
+  },
+  {
+   "spk": "glen",
+   "text": "So this is your sign. The tree comes down. To the living room.",
+   "shot": "TWO",
+   "gesture": "wave",
+   "after": "applause"
+  },
+  {
+   "spk": "marcy",
+   "text": "Wait. One more question.",
+   "shot": "marcy",
+   "gesture": "think",
+   "pre": 0.5
+  },
+  {
+   "spk": "marcy",
+   "text": "This is your sign to tell me what else is in the guest room closet.",
+   "shot": "marcy",
+   "gesture": "point"
+  },
+  {
+   "spk": "glen",
+   "text": "The November tree.",
+   "shot": "glen",
+   "gesture": "shrug",
+   "pre": 0.8,
+   "after": "sting"
+  },
+  {
+   "spk": "box",
+   "text": "I knew it. I am not the only box in this house.",
+   "shot": "box",
+   "gesture": "facepalm"
+  }
+ ]
+}
