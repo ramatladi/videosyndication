@@ -3,15 +3,23 @@
   "handle": "@SkincareDurbanWestville",
   "title": "Dermalogica Magnetic[+] Afterglow Cleanser: Sizes, Directions and What It Does",
   "slot_sast": "2026-11-26 10:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefd67c86b18710",
   "publish_at": "2026-11-26T08:00:00Z",
   "overdue": false,
   "upload_started": "2026-11-26T03:07:08Z",
   "error": null,
-  "updated": "2026-11-26T03:07:13Z",
+  "updated": "2026-11-26T03:07:44Z",
   "video_id": "_gI_oW7xGvg",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=_gI_oW7xGvg",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCh1fAzbqzZRAKMoFpJ9f0_g",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-26T08:00:00Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
