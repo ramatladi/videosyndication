@@ -396,13 +396,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "0Q42UwQA8jw",
       "sku": "411455",
       "title": "Dermalogica Circular Hydration Serum 10 mL: Which Step Is It? #shorts",
       "manifest_slug": "rosebank-circular-hydration-serum-10ml-short",
       "media_sha256": "c64b559e402ac77e46b8ae864de4f3fb1dd3a71f5013f68b53fc0766e326e8a5",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T03:35:14Z"
     }
   ],
   "reconciliation": {
@@ -411,5 +412,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 30
+  "youtube_ids_recorded": 31
 }
