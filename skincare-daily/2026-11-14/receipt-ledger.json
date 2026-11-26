@@ -121,13 +121,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "hz1GlxFz060",
       "sku": "110545",
       "title": "Dermalogica UltraCalming Mist 177 mL in Under a Minute: Soothes and Relieves Inflammation #shorts",
       "manifest_slug": "umhlanga-ultracalming-mist-177ml-short",
       "media_sha256": "b344eae0e4661d86b6d42321f6a89641d9235b935d4c50f0dfc9e3c12c4736f5",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T00:35:14Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -394,5 +395,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 13
+  "youtube_ids_recorded": 14
 }
