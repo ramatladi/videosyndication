@@ -1,0 +1,553 @@
+{
+ "engine": "cast",
+ "id": 142,
+ "slug": "first-to-react",
+ "title": "First To React",
+ "trend": "TikTok 'First to React Loses Challenge' (two people hold a straight face while things happen around them, the first to flinch loses; listed on Virlo TikTok trends of November 2026, updated Nov 26 2026, US) on Thanksgiving night ('thanksgiving 2026' #1 Google Trends US, 1M+) — straight-face challenge skit with a dishes forfeit; avoids the dinner-table glance (141), wishbone (138), leftovers (140)",
+ "target_seconds": 180,
+ "length_reason": "Straight-face challenge clips are quick one-clip videos under a minute, so this stays at the shortest film length, 3:00, which also fits Instagram's 3-minute limit.",
+ "scene": "living_room",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "first one to react",
+  "does all the dishes",
+  "thanksgiving night"
+ ],
+ "youtube_title": "First One To React Does All The Thanksgiving Dishes | Funny Cartoon",
+ "description": "After Thanksgiving dinner, Grandma Pearl has one rule: the first one to react does every dish in the kitchen. Marcus and Wes will not crack, not for a three-sleeve sweater, a boyfriend named Chet or cranberry sauce in a shoe. Then Grandma tells them what the winner gets.\n\n#cartoon #animation #funny #comedy #thanksgiving",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "thanksgiving",
+  "dishes",
+  "grandma",
+  "brothers",
+  "holiday comedy"
+ ],
+ "tiktok_caption": "first one to react does all the thanksgiving dishes 🍽️ grandma did not play fair #cartoon #animation #funny #comedy #thanksgiving",
+ "cast": [
+  {
+   "id": "marcus",
+   "name": "Marcus",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "short",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "plain"
+   },
+   "bottom": "#34495e",
+   "shoes": "#2c3e50",
+   "accessories": [
+    "glasses",
+    "beard:#1b1b1b"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_michael",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "wes",
+   "name": "Wes",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.05,
+   "hair": {
+    "style": "curly",
+    "color": "#6d4c41"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#f5e6ca"
+   },
+   "bottom": "#5d4037",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "beanie:#f39c12"
+   ],
+   "eye": "round",
+   "brows": "neutral",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_puck",
+    "pitch": 0,
+    "tempo": 1.04
+   }
+  },
+  {
+   "id": "pearl",
+   "name": "Grandma Pearl",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.92,
+   "hair": {
+    "style": "bun",
+    "color": "#e0e0e0"
+   },
+   "top": {
+    "color": "#ffffff",
+    "pattern": "stripes",
+    "pattern_color": "#222222"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#111111",
+   "accessories": [
+    "glasses",
+    "whistle"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_sarah",
+    "pitch": -2,
+    "tempo": 0.94
+   }
+  },
+  {
+   "id": "dish",
+   "name": "The Dishwasher",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#cfd8dc",
+   "accessories": [
+    "glasses",
+    "tie:#2c3e50"
+   ],
+   "eye": "sleepy",
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "bm_george",
+    "pitch": -1,
+    "tempo": 0.96
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "pearl",
+   "text": "Thanksgiving tradition. First one to react does every dish in this kitchen.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "marcus",
+   "text": "Every dish? Grandma, there are dishes on the stairs.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pearl",
+   "text": "Then you better not react, Marcus.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "sting"
+  },
+  {
+   "spk": "wes",
+   "text": "Easy. I have not had a feeling since two thousand nineteen.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dish",
+   "text": "Good evening. I am the dishwasher. I have been broken since August.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "dish",
+   "text": "So whoever loses tonight is me.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pearl",
+   "text": "Faces still. Hands on knees. Go.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "marcus",
+   "text": "Wes.",
+   "shot": "CU",
+   "pre": 0.8,
+   "post": 0.8
+  },
+  {
+   "spk": "wes",
+   "text": "Marcus.",
+   "shot": "CU",
+   "post": 0.8
+  },
+  {
+   "spk": "marcus",
+   "text": "Nice sweater.",
+   "shot": "CU"
+  },
+  {
+   "spk": "wes",
+   "text": "Grandma knitted it. It has three sleeves.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marcus",
+   "text": "I see that.",
+   "shot": "CU",
+   "post": 0.9
+  },
+  {
+   "spk": "dish",
+   "text": "Neither man looked at the third sleeve. Impressive.",
+   "shot": "dish",
+   "gesture": "think"
+  },
+  {
+   "spk": "wes",
+   "text": "Watch this.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "wes",
+   "text": "I am eating this whole drumstick. Sideways. Like corn.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marcus",
+   "text": "Mm. Very normal.",
+   "shot": "CU",
+   "pre": 0.7
+  },
+  {
+   "spk": "dish",
+   "text": "That drumstick was for breakfast. Nobody reacted. I reacted. On the inside. In my rinse cycle.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "boing"
+  },
+  {
+   "spk": "pearl",
+   "text": "Round two. I have an announcement.",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "pearl",
+   "text": "Grandma has a boyfriend. His name is Chet.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "wes",
+   "text": "Okay.",
+   "shot": "CU",
+   "pre": 1.0
+  },
+  {
+   "spk": "marcus",
+   "text": "Great.",
+   "shot": "CU",
+   "pre": 0.9
+  },
+  {
+   "spk": "pearl",
+   "text": "Chet is fifty one.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marcus",
+   "text": "Good for Chet.",
+   "shot": "CU"
+  },
+  {
+   "spk": "wes",
+   "text": "Chet is living his best life.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pearl",
+   "text": "Chet has a truck.",
+   "shot": "CU",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "dish",
+   "text": "Chet has a truck, gentlemen. Chet.",
+   "shot": "dish",
+   "gesture": "arms_up",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "marcus",
+   "text": "We are very happy for you and the truck.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "pearl",
+   "text": "Hm. Strong boys. Round three.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "pearl",
+   "text": "I found the photo album.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marcus",
+   "text": "Which album?",
+   "shot": "CU",
+   "pre": 0.6
+  },
+  {
+   "spk": "pearl",
+   "text": "Seventh grade. Marcus. The haircut.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dish",
+   "text": "Business in the front. A whole different business in the back.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "wes",
+   "text": "Mm.",
+   "shot": "CU",
+   "pre": 0.9,
+   "post": 0.9
+  },
+  {
+   "spk": "pearl",
+   "text": "Wes, your lip moved.",
+   "shot": "CU",
+   "gesture": "point",
+   "after": "sting"
+  },
+  {
+   "spk": "wes",
+   "text": "It was the drumstick. It is still in there.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pearl",
+   "text": "Reviewing the replay.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dish",
+   "text": "I have the replay. I see everything from down here. Inconclusive.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "marcus",
+   "text": "The dishwasher is on my side.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "dish",
+   "text": "I am on the side of whoever has warm hands and a sponge.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "pearl",
+   "text": "Fine. Final round. I did not want to do this.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "pearl",
+   "text": "I put the cranberry sauce in Wes's shoe.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "wes",
+   "text": "Which shoe?",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "pearl",
+   "text": "The one you are wearing.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "wes",
+   "text": "Squishy. Cold. Totally fine.",
+   "shot": "CU",
+   "pre": 0.8
+  },
+  {
+   "spk": "marcus",
+   "text": "That is a man who wants to win.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dish",
+   "text": "One shoe full of cranberry. Zero reactions. I have never been so proud of two people I do not like.",
+   "shot": "dish",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "pearl",
+   "text": "Oh. Did I forget to tell you what the winner gets?",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "marcus",
+   "text": "The winner gets to not do dishes.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pearl",
+   "text": "The winner drives me to the big sale. Doors open at five in the morning.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "pearl",
+   "text": "I want a seventy inch television and a recliner. You carry both.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dish",
+   "text": "Gentlemen. The rules have changed.",
+   "shot": "dish",
+   "gesture": "talk",
+   "after": "whoosh"
+  },
+  {
+   "spk": "wes",
+   "text": "Ah! I am reacting! Look at my face!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "marcus",
+   "text": "No! Me! I gasped! Everyone saw it!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": [
+    "wes",
+    "marcus"
+   ],
+   "text": "Wow!",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "pearl",
+   "text": "Hold on. Reviewing the replay.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dish",
+   "text": "Photo finish. Same exact second. I have never seen this, and I have seen Wes eat soup with a fork.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "pearl",
+   "text": "A tie. Very rare.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "marcus",
+   "text": "So we both do the dishes?",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "pearl",
+   "text": "You both do the dishes. And you both drive me to the sale.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "wes",
+   "text": "That is two losers.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "pearl",
+   "text": "That is two drivers. Chet's truck is in the shop.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "marcus",
+   "text": "Wait. Chet was the plan the whole time?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "pearl",
+   "text": "Chet reacted first last year. Chet did eleven hundred dishes.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dish",
+   "text": "Lovely man. Very warm hands.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "pearl",
+   "text": "Wheels up at four thirty. Wear stretchy pants.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "dish",
+   "text": "And nobody react when I make this noise.",
+   "shot": "dish",
+   "gesture": "shrug",
+   "after": "boing"
+  }
+ ]
+}
