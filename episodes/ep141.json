@@ -1,0 +1,561 @@
+{
+ "engine": "cast",
+ "id": 141,
+ "slug": "the-look",
+ "title": "The Look",
+ "trend": "TikTok 'Gossip Girl Thanksgiving' (families and friends stage tense, dramatic dinner-table glances to a slow R&B sound; New Engen TikTok trends November 2026 list, updated Nov 20 2026, US) on Thanksgiving Day itself ('thanksgiving 2026' #1 on Google Trends US, 1M+, Nov 25 2026) — dialogue skit of the silent-glance format; never names the show, the song or the artist",
+ "target_seconds": 180,
+ "length_reason": "The dinner-glance clips are quick one-clip skits well under a minute, so this stays at the shortest film length, 3:00, which also fits Instagram's 3-minute limit.",
+ "scene": "living_room",
+ "desk": false,
+ "music": "dramatic",
+ "intro": [
+  "thanksgiving dinner",
+  "nobody says a word",
+  "everybody gives a look"
+ ],
+ "youtube_title": "Nobody Says A Word At Thanksgiving Dinner. Everybody Gives A Look | Funny Cartoon",
+ "description": "Aunt Bev has one rule at Thanksgiving dinner: nobody says a word, we just look. One look at a time, Dante, Nora and Bev crack and confess everything. So why is everyone still staring?\n\n#cartoon #animation #funny #comedy #thanksgiving",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "thanksgiving",
+  "family dinner",
+  "aunt",
+  "cousins",
+  "dog"
+ ],
+ "tiktok_caption": "thanksgiving dinner where nobody says a word 👀 one look and everybody confesses #cartoon #animation #funny #comedy #thanksgiving",
+ "cast": [
+  {
+   "id": "bev",
+   "name": "Aunt Bev",
+   "kind": "human",
+   "color": "#8d5524",
+   "scale": 1.08,
+   "hair": {
+    "style": "curly",
+    "color": "#bdbdbd"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "apron",
+    "pattern_color": "#f5e6ca"
+   },
+   "bottom": "#4a2c2a",
+   "shoes": "#2c3e50",
+   "accessories": [
+    "glasses",
+    "scarf:#e67e22"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  },
+  {
+   "id": "dante",
+   "name": "Dante",
+   "kind": "human",
+   "color": "#c68642",
+   "hair": {
+    "style": "short",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#16a085",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "accessories": [
+    "cap:#2c3e50"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "flat",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "nora",
+   "name": "Nora",
+   "kind": "human",
+   "color": "#f1c27d",
+   "hair": {
+    "style": "ponytail",
+    "color": "#8e3b1f"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "stripes",
+    "pattern_color": "#f8c471"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#7f8c8d",
+   "accessories": [
+    "bow:#f1c40f"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "blush": true,
+   "voice": {
+    "id": "af_river",
+    "pitch": 1,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "biscuit",
+   "name": "Biscuit",
+   "kind": "animal",
+   "ears": "dog",
+   "color": "#d4a056",
+   "belly": "#f5deb3",
+   "scale": 0.9,
+   "top": {
+    "color": "#2c3e50",
+    "pattern": "suit",
+    "pattern_color": "#c0392b"
+   },
+   "accessories": [
+    "tie:#c0392b"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "bev",
+   "text": "Thanksgiving rules. Nobody says a word. We just look.",
+   "shot": "W",
+   "gesture": "point"
+  },
+  {
+   "spk": "dante",
+   "text": "Aunt Bev, you just said nine words.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bev",
+   "text": "I am the host. I get nine.",
+   "shot": "CU",
+   "gesture": "hips",
+   "after": "sting"
+  },
+  {
+   "spk": "nora",
+   "text": "So we just eat and look at each other?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "bev",
+   "text": "Slowly. Over the top of the glasses.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dante",
+   "text": "Mm.",
+   "shot": "CU",
+   "pre": 0.9,
+   "post": 0.9
+  },
+  {
+   "spk": "nora",
+   "text": "Mm.",
+   "shot": "CU",
+   "post": 0.9
+  },
+  {
+   "spk": "bev",
+   "text": "Mm hm.",
+   "shot": "bev",
+   "post": 1.0
+  },
+  {
+   "spk": "dante",
+   "text": "Why are you looking at my pie like that?",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "bev",
+   "text": "Mm.",
+   "shot": "CU",
+   "pre": 0.8,
+   "post": 0.9
+  },
+  {
+   "spk": "dante",
+   "text": "It is homemade. I made it. In my home.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "nora",
+   "text": "It is perfectly round, Dante.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dante",
+   "text": "I have very steady hands.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bev",
+   "text": "Mm.",
+   "shot": "bev",
+   "pre": 0.8,
+   "post": 1.0
+  },
+  {
+   "spk": "dante",
+   "text": "Okay! The bakery made it! I peeled the sticker off!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "nora",
+   "text": "Where is the sticker?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "dante",
+   "text": "On my elbow. It would not let go.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "rimshot"
+  },
+  {
+   "spk": "bev",
+   "text": "One down.",
+   "shot": "W",
+   "gesture": "hips"
+  },
+  {
+   "spk": "nora",
+   "text": "Mm.",
+   "shot": "nora",
+   "pre": 0.9,
+   "post": 0.9
+  },
+  {
+   "spk": "dante",
+   "text": "Now she is looking at you, Nora.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "nora",
+   "text": "She is looking at the gravy. I am near the gravy.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bev",
+   "text": "How is the new job at the bank, sweetheart?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "nora",
+   "text": "Great. Very banky. Lots of money in there.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bev",
+   "text": "Mm.",
+   "shot": "bev",
+   "pre": 0.8,
+   "post": 1.0
+  },
+  {
+   "spk": "dante",
+   "text": "Oh, that is a long one.",
+   "shot": "dante"
+  },
+  {
+   "spk": "nora",
+   "text": "Fine! I quit in August. I make candles now.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "dante",
+   "text": "What do they smell like?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "nora",
+   "text": "Soup. Every one of them smells like soup.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "nora",
+   "text": "I am working on it. The pumpkin one smells like chicken soup.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "bev",
+   "text": "Two down.",
+   "shot": "W",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dante",
+   "text": "Wait. What about you, Aunt Bev?",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": [
+    "dante",
+    "nora"
+   ],
+   "text": "Mm.",
+   "shot": "W",
+   "pre": 0.8,
+   "post": 1.0
+  },
+  {
+   "spk": "bev",
+   "text": "Do not look at me like that. I invented that look.",
+   "shot": "CU",
+   "gesture": "cross"
+  },
+  {
+   "spk": "nora",
+   "text": "Where did the turkey come from, Aunt Bev?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "bev",
+   "text": "From my oven.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dante",
+   "text": "And before your oven?",
+   "shot": "dante",
+   "post": 1.0
+  },
+  {
+   "spk": "bev",
+   "text": "Okay! The diner on Route nine! I put it in my own pan!",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "nora",
+   "text": "You told us you got up at four.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "bev",
+   "text": "I did get up at four. To drive to the diner.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dante",
+   "text": "So nobody cooked anything.",
+   "shot": "W",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "nora",
+   "text": "Thanksgiving is just three liars and a pan.",
+   "shot": "W",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "bev",
+   "text": "A very nice pan. It was my mother's.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bev",
+   "text": "Good. All the secrets are out. Now we eat.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "dante",
+   "text": "Mm.",
+   "shot": "CU",
+   "pre": 0.9,
+   "post": 0.9
+  },
+  {
+   "spk": "nora",
+   "text": "Mm.",
+   "shot": "CU",
+   "post": 0.9
+  },
+  {
+   "spk": "bev",
+   "text": "Why are you two still looking? I confessed!",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dante",
+   "text": "Aunt Bev. Do not turn around.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "nora",
+   "text": "Very slowly. Do not turn around.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bev",
+   "text": "What is behind me?",
+   "shot": "bev",
+   "pre": 0.8
+  },
+  {
+   "spk": "dante",
+   "text": "Biscuit is on the counter.",
+   "shot": "TWO"
+  },
+  {
+   "spk": "nora",
+   "text": "With the turkey. In his arms.",
+   "shot": "CU",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Nobody says a word. We just look.",
+   "shot": "CU",
+   "gesture": "hips",
+   "pre": 0.6
+  },
+  {
+   "spk": [
+    "bev",
+    "dante",
+    "nora"
+   ],
+   "text": "He can talk?",
+   "shot": "W",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "biscuit",
+   "text": "I have been talking for six years. You never look at me.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Tonight, you look at each other. I look at the turkey.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "bev",
+   "text": "Biscuit. Put down the diner turkey.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Mm.",
+   "shot": "biscuit",
+   "pre": 0.8,
+   "post": 1.0
+  },
+  {
+   "spk": "dante",
+   "text": "Oh, he is good at the look.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "nora",
+   "text": "He is better than you, Aunt Bev.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "bev",
+   "text": "Nobody is better than me. I taught him.",
+   "shot": "CU",
+   "gesture": "cross",
+   "after": "boing"
+  },
+  {
+   "spk": "biscuit",
+   "text": "My turn for a secret. The pie was not from the bakery.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dante",
+   "text": "Yes it was. I bought it.",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "biscuit",
+   "text": "That one I ate in the car. This one is from the gas station.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "rimshot"
+  },
+  {
+   "spk": "nora",
+   "text": "Happy Thanksgiving, everybody.",
+   "shot": "W",
+   "gesture": "wave"
+  },
+  {
+   "spk": "biscuit",
+   "text": "Mm. Pass the gravy. I am staying for dessert.",
+   "shot": "CU",
+   "gesture": "wave",
+   "after": "ding"
+  }
+ ]
+}
