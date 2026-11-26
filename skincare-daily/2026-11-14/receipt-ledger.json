@@ -363,13 +363,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "_KTQyTSnHxY",
       "sku": "111257",
       "title": "Dermalogica Stress Positive Eye Lift 25 mL Ingredient Check #shorts",
       "manifest_slug": "rosebank-stress-positive-eye-lift-25ml-short",
       "media_sha256": "6434ba8d139e02e764369f3978baa0643293ee7a16607e42fcba2709ed31d614",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T01:35:14Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -402,5 +403,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 21
+  "youtube_ids_recorded": 22
 }
