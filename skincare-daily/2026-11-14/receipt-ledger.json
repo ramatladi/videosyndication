@@ -211,13 +211,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "XUYNn4yyjT4",
       "sku": "111370",
       "title": "How to Use Dermalogica Discover Healthy Skin Kit #shorts",
       "manifest_slug": "bedfordview-discover-healthy-skin-kit-short",
       "media_sha256": "02c6c6334bfd95aa7aa80916585dc27e4f4605f3e96cfc5feb06009e136fb765",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T01:35:14Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -400,5 +401,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 19
+  "youtube_ids_recorded": 20
 }
