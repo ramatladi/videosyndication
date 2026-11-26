@@ -315,13 +315,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "_gI_oW7xGvg",
       "sku": "811512",
       "title": "Dermalogica Magnetic[+] Afterglow Cleanser: Sizes, Directions and What It Does",
       "manifest_slug": "westville-magnetic-afterglow-cleanser",
       "media_sha256": "65ff22b43094f0e90096666d00421d66037bf3d3c843a2483dd781c423c99f3d",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T08:00:00Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -451,5 +452,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-25T21:14+02:00"
   },
-  "youtube_ids_recorded": 10
+  "youtube_ids_recorded": 11
 }
