@@ -329,13 +329,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "HMyUgs0s_CM",
       "sku": "111431",
       "title": "Dermalogica Cooling Aqua Jelly 59 mL Explained: Hydrates and Cools Skin",
       "manifest_slug": "rosebank-cooling-aqua-jelly-59ml",
       "media_sha256": "c3def39b699a7764f13a1aa91f698233424cae9ee103073797b1e5b5b310e602",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-26T23:35:14Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -392,5 +393,5 @@
     "youtube_ids_recorded": 0,
     "producer_refreshed": "2026-11-26T21:04+02:00"
   },
-  "youtube_ids_recorded": 11
+  "youtube_ids_recorded": 12
 }
