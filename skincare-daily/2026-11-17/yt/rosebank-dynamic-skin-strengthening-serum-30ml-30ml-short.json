@@ -3,15 +3,23 @@
   "handle": "@SkincareJoburgRosebank",
   "title": "Moisturizer Desk: Dermalogica Dynamic Skin Strengthening Serum 30ml #shorts",
   "slot_sast": "2026-11-17 12:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefbcbf5b601362",
   "publish_at": "2026-11-27T23:55:43Z",
   "overdue": true,
   "upload_started": "2026-11-27T22:59:55Z",
   "error": null,
-  "updated": "2026-11-27T23:00:02Z",
+  "updated": "2026-11-27T23:00:34Z",
   "video_id": "p3xVt0FUh7Y",
   "published_now": null,
   "url": "https://youtube.com/shorts/p3xVt0FUh7Y",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCeTPU-6Wsq_Ii0A4Uv6DESQ",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-27T23:55:43Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
