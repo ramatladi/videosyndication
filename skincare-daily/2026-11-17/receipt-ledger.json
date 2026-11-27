@@ -45,13 +45,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "qoSg7OqOCkk",
       "sku": "111439",
       "title": "Dermalogica Daily Glycolic Cleanser 150 mL: What It Does and How to Use It",
       "manifest_slug": "midrand-daily-glycolic-cleanser-150ml",
       "media_sha256": "3d25df9b2c5205b6b50b529f47c20ca4eeb23a21015cbed6010b28ea5d9547ce",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T23:55:43Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -416,5 +417,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 23
+  "youtube_ids_recorded": 24
 }
