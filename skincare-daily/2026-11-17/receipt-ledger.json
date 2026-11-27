@@ -109,13 +109,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "wpMC4LFMSxo",
       "sku": "301339INT",
       "title": "Dermalogica Get + Keep Your Glow Kit (2 Full-Size): Which Step Is It? #shorts",
       "manifest_slug": "capetown-get-keep-your-glow-kit-2-full-size-short",
       "media_sha256": "a7250f0ece81b17a32fd65a42e12c33f60a83873257382f0d5b9ec56efef0cf6",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T23:01:03Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -412,5 +413,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 19
+  "youtube_ids_recorded": 20
 }
