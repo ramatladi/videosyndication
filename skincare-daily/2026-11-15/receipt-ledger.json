@@ -357,13 +357,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "wjzw1WrsDe4",
       "sku": "111268",
       "title": "Dermalogica Calm Water Gel 50 mL: Calms and Hydrates Sensitive Skin #shorts",
       "manifest_slug": "westville-calm-water-gel-50ml-short",
       "media_sha256": "c7acc69e8117ef89562a9d66a0a89a5daf4c0ea629b9adebd238c7394aad5122",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T04:33:36Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -436,5 +437,5 @@
     "youtube_ids_recorded": 22,
     "producer_refreshed": "2026-11-26T20:34+02:00"
   },
-  "youtube_ids_recorded": 31
+  "youtube_ids_recorded": 32
 }
