@@ -1,0 +1,173 @@
+{
+ "id": "vra152",
+ "format": "video",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "source_id": "cloudflare:8397865:US",
+ "job": {
+  "employer": "Cloudflare",
+  "logo": "cloudflare",
+  "title": "Senior Software Engineer (Threat Intelligence), Cloudforce One",
+  "short_title": "Senior Software Engineer, Threat Intelligence",
+  "location": "Austin, TX; San Francisco, CA; New York, NY; Washington, DC",
+  "workplace": "Hybrid",
+  "pay": "$185K – $266K a year",
+  "pay_full": "Estimated annual salary $194,000 – $266,000 (San Francisco) or $185,000 – $254,000 (New York City and Washington, D.C.), plus equity",
+  "type": "",
+  "posted": "",
+  "ref": "8397865",
+  "apply_url": "https://boards.greenhouse.io/cloudflare/jobs/8397865?gh_jid=8397865",
+  "apply_site": "Cloudflare's Greenhouse job board"
+ },
+ "details": {
+  "about": "Cloudflare runs one of the world's largest networks, protecting and accelerating millions of websites and Internet properties. Cloudforce One is its threat operations and research team, which identifies and disrupts cyber threats from sophisticated criminal activity to nation-state advanced persistent threats (APTs), working with external organizations and internal teams and drawing on data from Cloudflare's global network. This engineer owns the full software lifecycle, from design and architecture to deployment and monitoring, for systems that support threat disruption and legal response efforts.",
+  "duties": [
+   "Design, build, run and scale distributed tools and services that support cyber threat disruption and platform abuse efforts",
+   "Develop data pipelines and services that collect, analyze and expose threat intelligence data for Cloudforce One analysts and Cloudflare customers, helping identify TTPs and indicators of compromise (IOCs)",
+   "Work with Threat Intelligence, Trust & Safety, Legal and Product teams to turn complex requirements into scalable solutions",
+   "Improve system design and architecture for stable, performant, maintainable compliance and security services",
+   "Monitor and maintain production services, including on-call rotations",
+   "Mentor other developers and promote well-tested, modular, reusable code",
+   "Work mostly in Go and TypeScript, alongside Rust, Kafka, Redis, Kubernetes, Terraform, Temporal, PostgreSQL and Cloudflare's own developer platform"
+  ],
+  "needs": [
+   "At least 5 years building large-scale software applications, preferably distributed systems",
+   "At least 3 years working with threat intelligence or supporting a threat intelligence platform",
+   "Experience designing and integrating RESTful APIs and/or gRPC services",
+   "Knowledge of SQL and relational databases such as PostgreSQL",
+   "Production code in Go and/or TypeScript; familiarity with Rust",
+   "Excellent debugging and optimization skills and well-tested code",
+   "Experience with AI-assisted development and agentic AI workflows",
+   "Interest in mentoring teammates"
+  ],
+  "nice": [
+   "Deep understanding of DNS, TLS/SSL and HTTP",
+   "Expertise in web security issues and access control standards",
+   "Experience with Kafka, React, Kubernetes or Redis"
+  ],
+  "benefits": "Estimated annual salary $194,000 – $266,000 for San Francisco hires and $185,000 – $254,000 for New York City and Washington, D.C. hires; pay may be adjusted by work location. The role is eligible for Cloudflare's equity plan. US benefits include medical/Rx, dental and vision insurance, flexible and commuter spending accounts, fertility and family-forming benefits, on-demand mental health support and an Employee Assistance Program, global travel medical insurance, short- and long-term disability, life and accident insurance, a 401(k) plan, an employee stock participation plan, flexible paid time off and parental, pregnancy health, medical and bereavement leave.",
+  "notes": [
+   "The posting lists skills and experience as desirable; Cloudflare says it is looking for great engineers regardless of experience with its specific technologies",
+   "Requires flexibility for on-call work outside standard hours",
+   "May require access to export-controlled information; an offer may depend on authorization to receive it without an export licence sponsorship",
+   "Candidates at the offer stage may be asked to attend an in-person interview at a Cloudflare office or hub"
+  ]
+ },
+ "yt_title": "Cloudflare Is Hiring: Senior Software Engineer, Threat Intel | SF, NYC, DC, Austin | $185K–$266K",
+ "hashtags": [
+  "#TechJobs",
+  "#CyberSecurityJobs",
+  "#SoftwareEngineer",
+  "#ThreatIntelligence",
+  "#Hiring"
+ ],
+ "tags": [
+  "cloudflare jobs",
+  "threat intelligence jobs",
+  "cybersecurity jobs",
+  "senior software engineer jobs",
+  "golang jobs",
+  "typescript jobs",
+  "security engineer jobs",
+  "austin tech jobs",
+  "tech jobs",
+  "veritas recruitment agency"
+ ],
+ "scenes": [
+  {
+   "head": "Today's job",
+   "bullets": [
+    "Senior Software Engineer, Threat Intelligence",
+    "Cloudflare · Cloudforce One",
+    "Austin · San Francisco · New York · DC",
+    "Hybrid"
+   ],
+   "lines": [
+    "Welcome to Veritas Recruitment Agency, where we bring you real tech jobs straight from employers' own careers sites.",
+    "Today, Cloudflare is hiring a Senior Software Engineer for threat intelligence on its Cloudforce One team, in a hybrid role in Austin, San Francisco, New York, or Washington D C.",
+    "You'll find the direct application link in the description."
+   ],
+   "show": [
+    null,
+    "Today, Cloudflare is hiring a Senior Software Engineer for threat intelligence on its Cloudforce One team, in a hybrid role in Austin, San Francisco, New York, or Washington DC.",
+    null
+   ]
+  },
+  {
+   "head": "About Cloudforce One",
+   "bullets": [
+    "One of the world's largest networks",
+    "Threat operations & research team",
+    "Disrupts criminals & nation-state APTs"
+   ],
+   "lines": [
+    "Cloudflare runs one of the world's largest networks, protecting and speeding up millions of websites.",
+    "Cloudforce One is its threat operations and research team. It finds and disrupts cyber threats, from sophisticated criminal groups to nation-state attackers, using data from Cloudflare's global network.",
+    "In this role you'll own the full software lifecycle for systems behind threat disruption and legal response work."
+   ]
+  },
+  {
+   "head": "What you'll do",
+   "bullets": [
+    "Build & scale threat-disruption services",
+    "Threat intel data pipelines (TTPs, IOCs)",
+    "Partner with Trust & Safety, Legal, Product",
+    "On-call rotation · mentor developers"
+   ],
+   "lines": [
+    "You'll design, build, and run distributed tools and services that fight cyber threats and platform abuse.",
+    "You'll develop data pipelines that collect, analyze, and share threat intelligence with analysts and customers, helping spot attacker techniques and indicators of compromise.",
+    "You'll work with the Threat Intelligence, Trust and Safety, Legal, and Product teams, join on-call rotations, and mentor other developers.",
+    "Most services are written in Go and TypeScript, with Rust, Kafka, Redis, Kubernetes, and Postgres in the mix."
+   ]
+  },
+  {
+   "head": "What they're looking for",
+   "bullets": [
+    "5+ yrs large-scale software, ideally distributed",
+    "3+ yrs threat intelligence work",
+    "REST/gRPC APIs · SQL & PostgreSQL",
+    "Go and/or TypeScript · some Rust"
+   ],
+   "lines": [
+    "Cloudflare is looking for at least five years building large-scale software, ideally distributed systems, and at least three years working with threat intelligence or a threat intelligence platform.",
+    "Experience with REST or g R P C APIs, S Q L and Postgres, production code in Go or TypeScript, and some Rust all help.",
+    "Knowing D N S, T L S, and H T T P deeply, or web security, earns bonus points. And Cloudflare says it wants great engineers, whatever their experience with its specific tools."
+   ],
+   "show": [
+    "Cloudflare is looking for at least 5 years building large-scale software, ideally distributed systems, and at least 3 years working with threat intelligence or a threat intelligence platform.",
+    "Experience with REST or gRPC APIs, SQL and Postgres, production code in Go or TypeScript, and some Rust all help.",
+    "Knowing DNS, TLS, and HTTP deeply, or web security, earns bonus points. And Cloudflare says it wants great engineers, whatever their experience with its specific tools."
+   ]
+  },
+  {
+   "head": "Pay & benefits",
+   "bullets": [
+    "San Francisco: $194,000 – $266,000",
+    "New York & DC: $185,000 – $254,000",
+    "Equity plan · 401(k) · stock purchase plan",
+    "Health, dental, vision · flexible PTO"
+   ],
+   "lines": [
+    "In San Francisco, the estimated salary is one hundred ninety-four thousand to two hundred sixty-six thousand dollars a year. In New York and Washington, it's one hundred eighty-five thousand to two hundred fifty-four thousand.",
+    "The role is eligible for equity, and benefits include medical, dental, and vision cover, a four-oh-one-k plan, an employee stock purchase plan, flexible paid time off, and parental leave."
+   ],
+   "show": [
+    "In San Francisco, the estimated salary is $194,000 to $266,000 a year. In New York and Washington, it's $185,000 to $254,000.",
+    "The role is eligible for equity, and benefits include medical, dental, and vision cover, a 401(k) plan, an employee stock purchase plan, flexible paid time off, and parental leave."
+   ]
+  },
+  {
+   "head": "How to apply",
+   "bullets": [
+    "Application link in the description",
+    "Apply on Cloudflare's job board",
+    "Job ID 8397865"
+   ],
+   "lines": [
+    "To apply, find the direct application link in the description below. It takes you straight to Cloudflare's careers site.",
+    "Subscribe to Veritas Recruitment Agency for new tech jobs across the United States, every day."
+   ]
+  }
+ ]
+}
