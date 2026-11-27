@@ -233,13 +233,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "pu2psnYCCK0",
       "sku": "111483",
       "title": "Where Dermalogica Pro-Collagen Banking Serum 30 mL Goes in a Routine #shorts",
       "manifest_slug": "bedfordview-pro-collagen-banking-serum-30ml-short",
       "media_sha256": "483fc0ca66a7128cb2859442bc09f0d9c5a7c0d97064696c1b5bc6dc229024b8",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T23:55:43Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -408,5 +409,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 15
+  "youtube_ids_recorded": 16
 }
