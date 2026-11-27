@@ -149,13 +149,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "n-BSRvzDJg8",
       "sku": "111012-01",
       "title": "Dermalogica PowerBright Overnight Cream Ingredients: What's on the Label #shorts",
       "manifest_slug": "capetown-powerbright-overnight-cream-short",
       "media_sha256": "8b8986428b8a718fdc45e78dafcdb8fc26db449dcb3da6107d86d3020cdf4b14",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T02:55:43Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -472,5 +473,5 @@
     "youtube_ids_recorded": 24,
     "producer_refreshed": "2026-11-26T19:45+02:00"
   },
-  "youtube_ids_recorded": 31
+  "youtube_ids_recorded": 32
 }
