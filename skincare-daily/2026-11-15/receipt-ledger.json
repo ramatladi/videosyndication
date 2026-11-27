@@ -251,13 +251,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "vyPyFbXPZEM",
       "sku": "301346INT",
       "title": "Label Read: Dermalogica Expert Cleanse + Glow Set (3 Full-Size) #shorts",
       "manifest_slug": "bedfordview-expert-cleanse-glow-set-3-full-size-short",
       "media_sha256": "6590470b6e480349346a35629a6932fa5fd0164e2daee3ca7b73508b68f367b1",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T06:35:14Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -433,5 +434,5 @@
     "youtube_ids_recorded": 22,
     "producer_refreshed": "2026-11-26T20:34+02:00"
   },
-  "youtube_ids_recorded": 28
+  "youtube_ids_recorded": 29
 }
