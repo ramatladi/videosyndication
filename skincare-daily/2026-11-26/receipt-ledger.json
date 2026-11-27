@@ -305,13 +305,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "aX5EU8riFMY",
       "sku": "111519",
       "title": "Dermalogica Pro-Collagen Banking Water Cream: Which Step Is It? #shorts",
       "manifest_slug": "bedfordview-pro-collagen-banking-water-cream-short",
       "media_sha256": "4847f901d3e1c91448355b516f7151c79616697b3b1667ade182c7fd3cf2c290",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T04:55:43Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -474,5 +475,5 @@
     "youtube_ids_recorded": 24,
     "producer_refreshed": "2026-11-26T19:45+02:00"
   },
-  "youtube_ids_recorded": 33
+  "youtube_ids_recorded": 34
 }
