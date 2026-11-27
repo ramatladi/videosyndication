@@ -280,13 +280,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "4pIZGVeJZI4",
       "sku": "103605",
       "title": "Dermalogica Super Rich Repair 50 mL Routine Guide: When and How to Use It",
       "manifest_slug": "westville-super-rich-repair-50ml",
       "media_sha256": "c94e34372c362975b374299ebc920e977af390edf50f2283b7536bd0aa5d632c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T22:56:27Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -405,5 +406,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 12
+  "youtube_ids_recorded": 13
 }
