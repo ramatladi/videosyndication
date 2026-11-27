@@ -185,13 +185,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "0rUbFz3QY3A",
       "sku": "411279",
       "title": "Dermalogica Sound Sleep Cocoon 10 mL: Key Ingredients in Under a Minute #shorts",
       "manifest_slug": "umhlanga-sound-sleep-cocoon-10ml-short",
       "media_sha256": "aebe070268ec96df42d53e3dae937d3724fb03d81d4a2630af2729fb56881be0",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T23:55:43Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -413,5 +414,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 20
+  "youtube_ids_recorded": 21
 }
