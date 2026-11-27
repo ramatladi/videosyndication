@@ -461,13 +461,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "HccKivoDwG4",
       "sku": "111506INT",
       "title": "What Goes Into Dermalogica Breakout Biotic Moisturiser? #shorts",
       "manifest_slug": "rosebank-breakout-biotic-moisturiser-short",
       "media_sha256": "a58d02d56bd71be9b30f5692706a94184878d70195633d2ae61dac89c7cd109d",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T04:55:43Z"
     }
   ],
   "reconciliation": {
@@ -476,5 +477,5 @@
     "youtube_ids_recorded": 24,
     "producer_refreshed": "2026-11-26T19:45+02:00"
   },
-  "youtube_ids_recorded": 35
+  "youtube_ids_recorded": 36
 }
