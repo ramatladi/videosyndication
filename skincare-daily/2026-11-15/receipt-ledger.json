@@ -188,13 +188,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "nEnWU_MZJ5k",
       "sku": "111431",
       "title": "Dermalogica Cooling Aqua Jelly 59 mL Explained: Hydrates and Cools Skin",
       "manifest_slug": "umhlanga-cooling-aqua-jelly-59ml",
       "media_sha256": "d70976993cac46147082fd8723ad048c38444a3323c63afab3381c745a871df6",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T05:35:14Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -435,5 +436,5 @@
     "youtube_ids_recorded": 22,
     "producer_refreshed": "2026-11-26T20:34+02:00"
   },
-  "youtube_ids_recorded": 30
+  "youtube_ids_recorded": 31
 }
