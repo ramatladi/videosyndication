@@ -1,0 +1,433 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 145,
+ "slug": "we-listen-and-we-dont-judge",
+ "title": "We Listen And We Don't Judge",
+ "trend": "TikTok 'We listen and we don't judge' (said to camera, then one harmless confession with a straight face; Peaking, top 420K for Nov 23-29, Postdom TikTok trends week of Nov 23-29 2026, US) + Black Friday, the day the mall Santas start — the break room circle on day one of the season",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "office",
+ "desk": false,
+ "music": "upbeat",
+ "intro": [
+  "first day of the season",
+  "the mall break room",
+  "we listen and we don't judge"
+ ],
+ "youtube_title": "The mall Santa crew has one rule in the break room: we listen and we don't judge 🎅",
+ "description": "It is the first day of the season at the mall, and the break room has one rule: you confess, nobody judges. Kenzie the elf, a very old snow globe and manager Denise go first. Then Walt, the mall Santa, has something to say.\n\n#cartoon #animation #funny #santa #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "santa",
+  "christmas",
+  "mall",
+  "elf",
+  "holidays"
+ ],
+ "tiktok_caption": "first day of the season. the mall break room. we listen and we don't judge 🎅 #cartoon #animation #funny #santa",
+ "cast": [
+  {
+   "id": "denise",
+   "name": "Denise",
+   "kind": "human",
+   "color": "#e0ac69",
+   "scale": 1.0,
+   "hair": {
+    "style": "bun",
+    "color": "#5d4037"
+   },
+   "top": {
+    "color": "#2d3436",
+    "pattern": "suit",
+    "pattern_color": "#d63031"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#d63031",
+   "accessories": [
+    "glasses",
+    "mic_headset"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "smile",
+   "label_color": "#fab1a0",
+   "voice": {
+    "id": "af_aoede",
+    "pitch": 0,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "kenzie",
+   "name": "Kenzie",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 0.92,
+   "hair": {
+    "style": "ponytail",
+    "color": "#e17055"
+   },
+   "top": {
+    "color": "#00b894",
+    "pattern": "dots",
+    "pattern_color": "#d63031"
+   },
+   "bottom": "#d63031",
+   "shoes": "#00b894",
+   "accessories": [
+    "party_hat:#00b894"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "blush": true,
+   "label_color": "#55efc4",
+   "voice": {
+    "id": "af_kore",
+    "pitch": 1,
+    "tempo": 1.06
+   }
+  },
+  {
+   "id": "globe",
+   "name": "The Snow Globe",
+   "kind": "mascot",
+   "shape": "ball",
+   "color": "#dff9fb",
+   "scale": 0.88,
+   "accessories": [
+    "tophat:#2d3436"
+   ],
+   "eye": "sleepy",
+   "brows": "neutral",
+   "mouth": "flat",
+   "label_color": "#c7ecee",
+   "voice": {
+    "id": "bm_daniel",
+    "pitch": -1,
+    "tempo": 0.96
+   }
+  },
+  {
+   "id": "walt",
+   "name": "Walt",
+   "kind": "human",
+   "color": "#f5cba7",
+   "scale": 1.14,
+   "hair": {
+    "style": "short",
+    "color": "#ffffff"
+   },
+   "top": {
+    "color": "#d63031",
+    "pattern": "suit",
+    "pattern_color": "#ffffff"
+   },
+   "bottom": "#d63031",
+   "shoes": "#2d3436",
+   "accessories": [
+    "beard:#ffffff",
+    "mustache:#ffffff",
+    "glasses"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#ff7675",
+   "voice": {
+    "id": "am_echo",
+    "pitch": -1,
+    "tempo": 0.94
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "denise",
+   "text": "Welcome to the break room. First day of the season. You know the rule.",
+   "shot": "CU",
+   "gesture": "wave"
+  },
+  {
+   "spk": "all",
+   "text": "We listen and we don't judge.",
+   "shot": "W",
+   "gesture": "arms_up",
+   "after": "ding"
+  },
+  {
+   "spk": "globe",
+   "text": "I am the snow globe by the fountain. I have been in this mall since nineteen eighty seven. I have heard things.",
+   "shot": "globe",
+   "gesture": "think"
+  },
+  {
+   "spk": "denise",
+   "text": "Kenzie. You are new. You go first.",
+   "shot": "denise",
+   "gesture": "point"
+  },
+  {
+   "spk": "kenzie",
+   "text": "Okay. I am a head elf. And I have never seen snow.",
+   "shot": "kenzie",
+   "gesture": "shrug",
+   "pre": 0.4
+  },
+  {
+   "spk": "walt",
+   "text": "Never?",
+   "shot": "walt",
+   "gesture": "think"
+  },
+  {
+   "spk": "kenzie",
+   "text": "I grew up in the desert. I thought snow was a rumor.",
+   "shot": "kenzie",
+   "gesture": "hips"
+  },
+  {
+   "spk": "globe",
+   "text": "I am full of snow. Right now. Look at me.",
+   "shot": "globe",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "kenzie",
+   "text": "That is glitter. And there is a little shrimp in there.",
+   "shot": "kenzie",
+   "gesture": "point"
+  },
+  {
+   "spk": "globe",
+   "text": "That is Gerald. He fell in during a seafood festival in two thousand nine. We do not talk about Gerald.",
+   "shot": "globe",
+   "gesture": "cross",
+   "after": "rimshot"
+  },
+  {
+   "spk": "denise",
+   "text": "We listen and we don't judge. Snow globe. Your turn.",
+   "shot": "denise",
+   "gesture": "point"
+  },
+  {
+   "spk": "globe",
+   "text": "Every time a child shakes me, I scream a little. Inside. Very politely.",
+   "shot": "globe",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "walt",
+   "text": "Denise. What about you?",
+   "shot": "walt",
+   "gesture": "point"
+  },
+  {
+   "spk": "denise",
+   "text": "I run this whole holiday village. And I have no idea how the train works.",
+   "shot": "denise",
+   "gesture": "shrug",
+   "pre": 0.4
+  },
+  {
+   "spk": "kenzie",
+   "text": "The little train? The one kids ride around the tree?",
+   "shot": "kenzie",
+   "gesture": "think"
+  },
+  {
+   "spk": "denise",
+   "text": "It just goes. For twelve years. Nobody has ever seen it stop. I am scared of it.",
+   "shot": "denise",
+   "gesture": "arms_up",
+   "after": "whoosh"
+  },
+  {
+   "spk": "globe",
+   "text": "It stopped once. In nineteen ninety four. A man in a reindeer sweater got off and was never seen again.",
+   "shot": "globe",
+   "gesture": "think"
+  },
+  {
+   "spk": "denise",
+   "text": "We listen. And we don't judge. Walt. Last one.",
+   "shot": "denise",
+   "gesture": "wave"
+  },
+  {
+   "spk": "walt",
+   "text": "Well. I don't know how to say this.",
+   "shot": "walt",
+   "gesture": "think",
+   "pre": 0.6
+  },
+  {
+   "spk": "kenzie",
+   "text": "It is okay. You can tell us anything.",
+   "shot": "kenzie",
+   "gesture": "talk"
+  },
+  {
+   "spk": "walt",
+   "text": "I do not like cookies.",
+   "shot": "walt",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "all",
+   "text": "Oh no.",
+   "shot": "W",
+   "gesture": "facepalm",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "denise",
+   "text": "Walt, you are a mall Santa. Cookies are the whole job.",
+   "shot": "denise",
+   "gesture": "point"
+  },
+  {
+   "spk": "walt",
+   "text": "I eat them anyway. Every one. To be polite. It has been a very long time.",
+   "shot": "walt",
+   "gesture": "talk"
+  },
+  {
+   "spk": "kenzie",
+   "text": "How long have you been a mall Santa?",
+   "shot": "kenzie",
+   "gesture": "think"
+  },
+  {
+   "spk": "walt",
+   "text": "At this mall? Since it opened.",
+   "shot": "walt",
+   "gesture": "talk"
+  },
+  {
+   "spk": "globe",
+   "text": "That is not a joke. He was here before me. He was here before the fountain.",
+   "shot": "globe",
+   "gesture": "point"
+  },
+  {
+   "spk": "globe",
+   "text": "I have watched him through my glass for thirty nine years. He has not gotten one day older.",
+   "shot": "globe",
+   "gesture": "think",
+   "pre": 0.5
+  },
+  {
+   "spk": "denise",
+   "text": "Walt. Who are you?",
+   "shot": "denise",
+   "gesture": "cross"
+  },
+  {
+   "spk": "walt",
+   "text": "I am the real one. I like to hear what the kids want in person. The letters have a lot of spelling.",
+   "shot": "walt",
+   "gesture": "shrug",
+   "after": "sting"
+  },
+  {
+   "spk": "kenzie",
+   "text": "You are the real Santa. And you hate cookies.",
+   "shot": "kenzie",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "walt",
+   "text": "We listen. And we don't judge.",
+   "shot": "walt",
+   "gesture": "point"
+  },
+  {
+   "spk": "denise",
+   "text": "Then how does the train work?",
+   "shot": "denise",
+   "gesture": "think"
+  },
+  {
+   "spk": "walt",
+   "text": "Two of my reindeer. Under the tree skirt. They walk in a circle. They like it.",
+   "shot": "walt",
+   "gesture": "talk"
+  },
+  {
+   "spk": "globe",
+   "text": "That explains the hay. I have been asking about the hay for twelve years.",
+   "shot": "globe",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "kenzie",
+   "text": "Wait. Can I see snow? Real snow? At the North Pole?",
+   "shot": "kenzie",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "walt",
+   "text": "Head elf, you said? Then you work for me now. Bring a coat.",
+   "shot": "walt",
+   "gesture": "wave",
+   "after": "applause"
+  },
+  {
+   "spk": "kenzie",
+   "text": "Best first day ever.",
+   "shot": "kenzie",
+   "gesture": "hips",
+   "jump": true
+  },
+  {
+   "spk": "denise",
+   "text": "Hold on. Who is going to be Santa at the mall tomorrow?",
+   "shot": "denise",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "walt",
+   "text": "The man from the train. He has been riding it since nineteen ninety four. He is ready.",
+   "shot": "walt",
+   "gesture": "point"
+  },
+  {
+   "spk": "globe",
+   "text": "Can I come too? Gerald has always wanted to see the ocean. Any ocean.",
+   "shot": "globe",
+   "gesture": "think"
+  },
+  {
+   "spk": "walt",
+   "text": "Everybody comes. Last thing. Kenzie, what do you want for Christmas?",
+   "shot": "walt",
+   "gesture": "talk"
+  },
+  {
+   "spk": "kenzie",
+   "text": "A pony.",
+   "shot": "kenzie",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "walt",
+   "text": "We listen. And we don't judge. But no.",
+   "shot": "walt",
+   "gesture": "cross"
+  },
+  {
+   "spk": "globe",
+   "text": "I listen. And I judge. A little.",
+   "shot": "globe",
+   "gesture": "hips"
+  }
+ ]
+}
