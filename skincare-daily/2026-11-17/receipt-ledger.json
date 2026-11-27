@@ -279,13 +279,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "zzkmdzaalGI",
       "sku": "111487",
       "title": "Label Read: Dermalogica Phyto Nature Lifting Eye Cream 15ml #shorts",
       "manifest_slug": "bedfordview-phyto-nature-lifting-eye-cream-15ml-15ml-short",
       "media_sha256": "2de5a3a4c747ca0bfd3dc3d7a48a0af087df89c33d2db59917ccd0b25bf87af4",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T02:55:43Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -423,5 +424,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 30
+  "youtube_ids_recorded": 31
 }
