@@ -58,13 +58,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "mUToDWRZg_s",
       "sku": "811439",
       "title": "Dermalogica Daily Glycolic Cleanser 295 mL: Brightens Dull, Uneven Skin Tone, and How to Use It",
       "manifest_slug": "midrand-daily-glycolic-cleanser-295ml",
       "media_sha256": "e85a88ce25d64b6af0f2766c335a94d90a7b4d3d0b375ff2dff84d719214a973",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T00:55:43Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -465,5 +466,5 @@
     "youtube_ids_recorded": 24,
     "producer_refreshed": "2026-11-26T19:45+02:00"
   },
-  "youtube_ids_recorded": 24
+  "youtube_ids_recorded": 25
 }
