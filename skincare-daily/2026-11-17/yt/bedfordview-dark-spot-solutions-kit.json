@@ -3,11 +3,11 @@
   "handle": "@DermatologyJoburgBedfordview",
   "title": "Dermalogica Dark Spot Solutions Kit, Explained",
   "slot_sast": "2026-11-17 10:00",
-  "status": "UPLOADING",
+  "status": "FAILED_PREUPLOAD",
   "upload_marker": "skref2c81f50d4131",
   "publish_at": "2026-11-27T08:35:14Z",
   "overdue": true,
   "upload_started": "2026-11-27T04:39:39Z",
-  "error": null,
-  "updated": "2026-11-27T04:39:39Z"
+  "error": "POST /upload/youtube/v3/videos -> HTTP 400 uploadLimitExceeded",
+  "updated": "2026-11-27T04:39:40Z"
 }
