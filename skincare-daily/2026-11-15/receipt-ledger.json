@@ -58,13 +58,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "TYbqzFX97cM",
       "sku": "111523",
       "title": "Dermalogica UltraCalming Cleanser: Calms and Cools Sensitized Skin, and How to Use It",
       "manifest_slug": "midrand-ultracalming-cleanser",
       "media_sha256": "b8e1417c593124d74871c70529afcff2e1e77cfa7c39e46133ac551e64dc3530",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T04:32:33Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -434,5 +435,5 @@
     "youtube_ids_recorded": 22,
     "producer_refreshed": "2026-11-26T20:34+02:00"
   },
-  "youtube_ids_recorded": 29
+  "youtube_ids_recorded": 30
 }
