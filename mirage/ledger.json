@@ -3604,6 +3604,81 @@
     "dance": 0.131,
     "genre_fit": 0.839
    }
+  },
+  {
+   "release": "mtr055",
+   "date": "2026-11-27",
+   "slot": "2026-11-27T19:55",
+   "format": "short",
+   "title": "Brighter Than Gravity",
+   "artist": "DJ Marcia Campbell",
+   "style": "trance",
+   "key": "E major",
+   "bpm": 137,
+   "written_by_hand": false,
+   "generated": {
+    "generator": "creative-claw",
+    "model": "music/mureka-v9.5",
+    "job_id": "5eedd1a3-d8e1-4275-902c-0492fcc42ee0",
+    "audio_url": "https://cdn.creativeclaw.co/u/8ca3b8ef/audio/3d423825-13eb-406a-ab77-cfb2c164b58c.mp3"
+   },
+   "vocals": true,
+   "spec": "mirage/songs/mtr055.json",
+   "photographer": "Konara Bandara",
+   "photo_page": "https://unsplash.com/photos/woman-in-green-bikini-on-beach-9Cv_JKdOnbM",
+   "photo_kind": "bikini",
+   "metricool_uuid": "-3418405342780700301",
+   "media_url": "https://static.metricool.com/planner/202611/7593699-file-16282387726531539925.mp4",
+   "reference": null,
+   "ears": {
+    "file": "mtr055.mp3",
+    "top": [
+     [
+      "dance",
+      0.382
+     ],
+     [
+      "electronic",
+      0.314
+     ],
+     [
+      "pop",
+      0.208
+     ],
+     [
+      "female vocalists",
+      0.164
+     ],
+     [
+      "electronica",
+      0.074
+     ],
+     [
+      "House",
+      0.057
+     ],
+     [
+      "90s",
+      0.045
+     ],
+     [
+      "electro",
+      0.035
+     ],
+     [
+      "chillout",
+      0.035
+     ],
+     [
+      "ambient",
+      0.029
+     ]
+    ],
+    "house": 0.057,
+    "electronic": 0.314,
+    "dance": 0.382,
+    "genre_fit": 0.903
+   }
   }
  ]
 }
