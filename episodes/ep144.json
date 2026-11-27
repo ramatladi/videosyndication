@@ -1,0 +1,474 @@
+{
+ "engine": "cast",
+ "format": "short",
+ "id": 144,
+ "slug": "nice-sweater",
+ "title": "Nice Sweater",
+ "trend": "TikTok 'Paid Me No Mind' overthinking (lip-sync of one line repeated with the emphasis moved each time to show overanalysing; New Engen TikTok trends November 2026, updated Nov 20 2026; Socialpilot peak-stage, sound 241.3K videos, US) + holiday sweater season the day after Thanksgiving — Nia replays two words her neighbor said at the mailbox",
+ "target_seconds": 175,
+ "length_reason": "YouTube Short",
+ "scene": "bedroom",
+ "desk": false,
+ "music": "lofi",
+ "intro": [
+  "he said two words",
+  "at the mailbox",
+  "i have thought about them for nine hours"
+ ],
+ "youtube_title": "He said two words to me at the mailbox. I have thought about them for nine hours 🧶",
+ "description": "Nia's new neighbor Derek said nice sweater at the mailbox. Now her best friend Omar, a piece of toast and Nia are going to figure out what he meant, one word at a time.\n\n#cartoon #animation #funny #sweater #shorts",
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny",
+  "comedy",
+  "cartoons",
+  "holiday sweater",
+  "neighbor",
+  "overthinking",
+  "best friend",
+  "grandma"
+ ],
+ "tiktok_caption": "he said two words at the mailbox. i have thought about them for nine hours 🧶 #cartoon #animation #funny #sweater",
+ "cast": [
+  {
+   "id": "nia",
+   "name": "Nia",
+   "kind": "human",
+   "color": "#a0522d",
+   "scale": 1.0,
+   "hair": {
+    "style": "afro",
+    "color": "#2d1b0e"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#27ae60"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ffffff",
+   "accessories": [
+    "bow:#27ae60"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "blush": true,
+   "label_color": "#ff7675",
+   "voice": {
+    "id": "af_nova",
+    "pitch": 0,
+    "tempo": 1.05
+   }
+  },
+  {
+   "id": "omar",
+   "name": "Omar",
+   "kind": "human",
+   "color": "#d2a679",
+   "scale": 1.05,
+   "hair": {
+    "style": "short",
+    "color": "#1e272e"
+   },
+   "top": {
+    "color": "#636e72",
+    "pattern": "hoodie"
+   },
+   "bottom": "#2d3436",
+   "shoes": "#d63031",
+   "accessories": [
+    "glasses",
+    "beard:#1e272e"
+   ],
+   "eye": "round",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#b2bec3",
+   "voice": {
+    "id": "am_eric",
+    "pitch": 0,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "toast",
+   "name": "The Toast",
+   "kind": "mascot",
+   "shape": "toast",
+   "color": "#f6c177",
+   "crust": "#a0522d",
+   "scale": 0.85,
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "flat",
+   "label_color": "#f6c177",
+   "voice": {
+    "id": "bf_emma",
+    "pitch": 0,
+    "tempo": 0.97
+   }
+  },
+  {
+   "id": "derek",
+   "name": "Derek",
+   "kind": "human",
+   "color": "#f1c27d",
+   "scale": 1.08,
+   "hair": {
+    "style": "spiky",
+    "color": "#e1b12c"
+   },
+   "top": {
+    "color": "#c0392b",
+    "pattern": "stripes",
+    "pattern_color": "#27ae60"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#3e2723",
+   "accessories": [
+    "scarf:#27ae60"
+   ],
+   "eye": "happy",
+   "brows": "neutral",
+   "mouth": "smile",
+   "label_color": "#fdcb6e",
+   "voice": {
+    "id": "am_adam",
+    "pitch": -1,
+    "tempo": 0.97
+   }
+  }
+ ],
+ "lines": [
+  {
+   "spk": "nia",
+   "text": "Omar. Derek from apartment four said two words to me at the mailbox.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "sting"
+  },
+  {
+   "spk": "omar",
+   "text": "It is eleven at night. What two words?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "Nice sweater.",
+   "shot": "nia",
+   "gesture": "point",
+   "pre": 0.5
+  },
+  {
+   "spk": "toast",
+   "text": "I am her toast. She made me at two in the afternoon. She has not eaten me. She has been thinking.",
+   "shot": "toast",
+   "gesture": "think"
+  },
+  {
+   "spk": "omar",
+   "text": "Nice sweater is nice. Goodnight.",
+   "shot": "omar",
+   "gesture": "wave"
+  },
+  {
+   "spk": "nia",
+   "text": "No. Listen. Nice sweater. Or was it nice. Sweater.",
+   "shot": "nia",
+   "gesture": "think"
+  },
+  {
+   "spk": "omar",
+   "text": "Those are the same words.",
+   "shot": "omar",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "toast",
+   "text": "They are not. There was a crumb of silence in the middle. I know crumbs.",
+   "shot": "toast",
+   "gesture": "point"
+  },
+  {
+   "spk": "nia",
+   "text": "If he said nice, loud, then he likes me.",
+   "shot": "nia",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "nia",
+   "text": "If he said sweater, loud, then he likes the sweater more than me.",
+   "shot": "nia",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "omar",
+   "text": "Which one was loud?",
+   "shot": "omar",
+   "gesture": "think"
+  },
+  {
+   "spk": "nia",
+   "text": "The mailbox. The mailbox was very loud. It squeaks.",
+   "shot": "nia",
+   "gesture": "facepalm",
+   "after": "boing"
+  },
+  {
+   "spk": "toast",
+   "text": "Let the record show the mailbox has ruined everything.",
+   "shot": "toast",
+   "gesture": "cross"
+  },
+  {
+   "spk": "omar",
+   "text": "Okay. Show me the sweater.",
+   "shot": "omar",
+   "gesture": "point"
+  },
+  {
+   "spk": "nia",
+   "text": "My grandma Ruth made it. It has a reindeer. The reindeer has a smaller sweater.",
+   "shot": "nia",
+   "gesture": "hips"
+  },
+  {
+   "spk": "omar",
+   "text": "The reindeer is wearing a sweater with another reindeer on it.",
+   "shot": "omar",
+   "gesture": "think"
+  },
+  {
+   "spk": "toast",
+   "text": "It goes down nine reindeer. Bring a magnifying glass.",
+   "shot": "toast",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "So he could have meant nice like nice. Or nice like wow.",
+   "shot": "nia",
+   "gesture": "think"
+  },
+  {
+   "spk": "omar",
+   "text": "Or nice like he has eyes.",
+   "shot": "omar",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "We need to act it out. You be Derek.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "omar",
+   "text": "I am not being Derek.",
+   "shot": "omar",
+   "gesture": "cross"
+  },
+  {
+   "spk": "omar",
+   "text": "Nice sweater.",
+   "shot": "omar",
+   "gesture": "wave",
+   "pre": 0.6
+  },
+  {
+   "spk": "nia",
+   "text": "No, he did a little nod. And he was holding a package. Hold the toast.",
+   "shot": "nia",
+   "gesture": "point"
+  },
+  {
+   "spk": "toast",
+   "text": "I have never been a package. I am so ready.",
+   "shot": "toast",
+   "gesture": "arms_up",
+   "after": "ding"
+  },
+  {
+   "spk": "omar",
+   "text": "Nice. Sweater.",
+   "shot": "omar",
+   "gesture": "talk"
+  },
+  {
+   "spk": "nia",
+   "text": "Again, but like a man who owns a canoe.",
+   "shot": "nia",
+   "gesture": "hips"
+  },
+  {
+   "spk": "omar",
+   "text": "How does Derek own a canoe?",
+   "shot": "omar",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "There is a canoe on his balcony, Omar. I am not blind.",
+   "shot": "nia",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "omar",
+   "text": "Nia. Just knock on his door and ask.",
+   "shot": "omar",
+   "gesture": "point"
+  },
+  {
+   "spk": "nia",
+   "text": "Ask a man what he meant by two words? Are you a monster?",
+   "shot": "nia",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "toast",
+   "text": "Somebody is knocking. It is not a monster. It is worse. It is Derek.",
+   "shot": "toast",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": "derek",
+   "text": "Hi. Sorry. It is late. I just had to ask you something.",
+   "shot": "derek",
+   "gesture": "wave",
+   "pre": 0.5
+  },
+  {
+   "spk": "nia",
+   "text": "Hi. Yes. Hi. Go ahead.",
+   "shot": "nia",
+   "gesture": "hips"
+  },
+  {
+   "spk": "omar",
+   "text": "Wait. Derek. Why are you wearing the same sweater?",
+   "shot": "W",
+   "gesture": "point",
+   "pre": 0.6
+  },
+  {
+   "spk": "derek",
+   "text": "That is my question. Where did you get yours?",
+   "shot": "derek",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "My grandma Ruth. She lives in apartment one.",
+   "shot": "nia",
+   "gesture": "think"
+  },
+  {
+   "spk": "derek",
+   "text": "Grandma Ruth from apartment one is my grandma too. Not my real one. She just decided.",
+   "shot": "derek",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "omar",
+   "text": "She decided you were her grandson?",
+   "shot": "omar",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "derek",
+   "text": "The first week I moved in. She brought soup and a sweater and a new last name.",
+   "shot": "derek",
+   "gesture": "talk"
+  },
+  {
+   "spk": "toast",
+   "text": "Grandma Ruth is running a family. In a building. With yarn.",
+   "shot": "toast",
+   "gesture": "think",
+   "after": "sting"
+  },
+  {
+   "spk": "derek",
+   "text": "I think she is trying to set us up. She asked if I like canoes and toast.",
+   "shot": "derek",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "nia",
+   "text": "She asked me the same thing. I said yes to both.",
+   "shot": "nia",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "toast",
+   "text": "I have been a part of this plan the whole time. I am honored. I am cold.",
+   "shot": "toast",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "omar",
+   "text": "So. Derek. What did you mean by nice sweater?",
+   "shot": "omar",
+   "gesture": "point"
+  },
+  {
+   "spk": "derek",
+   "text": "Nice. Matching. Sweater.",
+   "shot": "derek",
+   "gesture": "wave"
+  },
+  {
+   "spk": "nia",
+   "text": "Three words. He said three words. Omar, I need another nine hours.",
+   "shot": "nia",
+   "gesture": "arms_up",
+   "jump": true,
+   "after": "applause"
+  },
+  {
+   "spk": "omar",
+   "text": "I am going home. Grandma Ruth gave me a sweater too.",
+   "shot": "omar",
+   "gesture": "wave"
+  },
+  {
+   "spk": "derek",
+   "text": "Is it the one with nine reindeer?",
+   "shot": "derek",
+   "gesture": "think"
+  },
+  {
+   "spk": "omar",
+   "text": "Ten. I am her favorite.",
+   "shot": "omar",
+   "gesture": "hips"
+  },
+  {
+   "spk": "toast",
+   "text": "Will anybody eat me? Anybody at all?",
+   "shot": "toast",
+   "gesture": "shrug",
+   "pre": 0.5
+  },
+  {
+   "spk": "derek",
+   "text": "Nice toast.",
+   "shot": "derek",
+   "gesture": "point"
+  },
+  {
+   "spk": "toast",
+   "text": "Nice. Toast. Oh no. What did he mean by that?",
+   "shot": "toast",
+   "gesture": "think"
+  }
+ ]
+}
