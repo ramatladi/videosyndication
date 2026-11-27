@@ -9,93 +9,463 @@
  "scene": "studio",
  "desk": true,
  "music": "upbeat",
- "intro": ["blind ranking", "aunt dot's attic", "no moving anything"],
+ "intro": [
+  "blind ranking",
+  "aunt dot's attic",
+  "no moving anything"
+ ],
  "youtube_title": "Aunt Dot Made Us Blind Rank Everything In Her Attic | Funny Cartoon",
  "description": "Aunt Dot brought five boxes down from the attic and turned her garage into a game show. Jada and Leo must rank every box from one to five, one at a time, no moving anything. Nobody asked what the numbers mean.\n\n#cartoon #animation #funny #comedy #family",
- "tags": ["cartoon", "animation", "funny cartoon", "comedy", "cartoons", "aunt", "siblings", "attic", "fruitcake", "family comedy"],
+ "tags": [
+  "cartoon",
+  "animation",
+  "funny cartoon",
+  "comedy",
+  "cartoons",
+  "aunt",
+  "siblings",
+  "attic",
+  "fruitcake",
+  "family comedy"
+ ],
  "tiktok_caption": "aunt dot made us rank everything in her attic. nobody asked what the numbers mean 📦 #cartoon #animation #funny #comedy #family",
  "cast": [
-  {"id": "dot", "name": "Aunt Dot", "kind": "human", "color": "#a0522d", "scale": 0.95, "hair": {"style": "afro", "color": "#d7d7d7"},
-   "top": {"color": "#f1c40f", "pattern": "suit", "pattern_color": "#8e44ad"}, "bottom": "#2c3e50", "shoes": "#8e44ad",
-   "accessories": ["sunglasses", "mic_headset"], "eye": "happy", "brows": "raised", "mouth": "smile",
-   "voice": {"id": "af_nova", "pitch": -1, "tempo": 1.02}},
-  {"id": "jada", "name": "Jada", "kind": "human", "color": "#8d5524", "hair": {"style": "ponytail", "color": "#1b1b1b"},
-   "top": {"color": "#8e44ad", "pattern": "hoodie"}, "bottom": "#34495e", "shoes": "#ecf0f1",
-   "eye": "round", "brows": "angry", "mouth": "flat",
-   "voice": {"id": "af_jessica", "pitch": 0, "tempo": 1.03}},
-  {"id": "leo", "name": "Leo", "kind": "human", "color": "#c68642", "scale": 0.9, "hair": {"style": "curly", "color": "#3e2723"},
-   "top": {"color": "#27ae60", "pattern": "stripes", "pattern_color": "#f5e6ca"}, "bottom": "#5d4037", "shoes": "#c0392b",
-   "accessories": ["glasses"], "eye": "big", "brows": "worried", "mouth": "smile", "blush": true,
-   "voice": {"id": "am_liam", "pitch": 1, "tempo": 1.0}},
-  {"id": "cake", "name": "The Fruitcake", "kind": "mascot", "shape": "box", "color": "#7b3f1e",
-   "accessories": ["tophat:#2c2c2c", "mustache"], "eye": "sleepy", "brows": "raised", "mouth": "smile",
-   "voice": {"id": "bm_lewis", "pitch": -1, "tempo": 0.95}}
+  {
+   "id": "dot",
+   "name": "Aunt Dot",
+   "kind": "human",
+   "color": "#a0522d",
+   "scale": 0.95,
+   "hair": {
+    "style": "afro",
+    "color": "#d7d7d7"
+   },
+   "top": {
+    "color": "#f1c40f",
+    "pattern": "suit",
+    "pattern_color": "#8e44ad"
+   },
+   "bottom": "#2c3e50",
+   "shoes": "#8e44ad",
+   "accessories": [
+    "sunglasses",
+    "mic_headset"
+   ],
+   "eye": "happy",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "af_nova",
+    "pitch": -1,
+    "tempo": 1.02
+   }
+  },
+  {
+   "id": "jada",
+   "name": "Jada",
+   "kind": "human",
+   "color": "#8d5524",
+   "hair": {
+    "style": "ponytail",
+    "color": "#1b1b1b"
+   },
+   "top": {
+    "color": "#8e44ad",
+    "pattern": "hoodie"
+   },
+   "bottom": "#34495e",
+   "shoes": "#ecf0f1",
+   "eye": "round",
+   "brows": "angry",
+   "mouth": "flat",
+   "voice": {
+    "id": "af_jessica",
+    "pitch": 0,
+    "tempo": 1.03
+   }
+  },
+  {
+   "id": "leo",
+   "name": "Leo",
+   "kind": "human",
+   "color": "#c68642",
+   "scale": 0.9,
+   "hair": {
+    "style": "curly",
+    "color": "#3e2723"
+   },
+   "top": {
+    "color": "#27ae60",
+    "pattern": "stripes",
+    "pattern_color": "#f5e6ca"
+   },
+   "bottom": "#5d4037",
+   "shoes": "#c0392b",
+   "accessories": [
+    "glasses"
+   ],
+   "eye": "big",
+   "brows": "worried",
+   "mouth": "smile",
+   "blush": true,
+   "voice": {
+    "id": "am_liam",
+    "pitch": 1,
+    "tempo": 1.0
+   }
+  },
+  {
+   "id": "cake",
+   "name": "The Fruitcake",
+   "kind": "mascot",
+   "shape": "box",
+   "color": "#7b3f1e",
+   "accessories": [
+    "tophat:#2c2c2c",
+    "mustache"
+   ],
+   "eye": "sleepy",
+   "brows": "raised",
+   "mouth": "smile",
+   "voice": {
+    "id": "bm_lewis",
+    "pitch": -1,
+    "tempo": 0.95
+   }
+  }
  ],
  "lines": [
-  {"spk": "dot", "text": "Welcome to my garage, which tonight is a television studio.", "shot": "CU", "gesture": "arms_up", "after": "applause"},
-  {"spk": "jada", "text": "Aunt Dot, it is a garage. There is a lawn mower behind you.", "shot": "TWO", "gesture": "point"},
-  {"spk": "dot", "text": "The lawn mower is my studio audience. Be nice to him.", "shot": "CU", "gesture": "hips"},
-  {"spk": "dot", "text": "I brought five boxes down from the attic. You rank them one to five.", "shot": "W", "gesture": "talk"},
-  {"spk": "dot", "text": "One box at a time. Once it is on the board, no moving anything.", "shot": "CU", "gesture": "point"},
-  {"spk": "leo", "text": "What do the numbers mean?", "shot": "CU", "gesture": "think"},
-  {"spk": "jada", "text": "Obviously one is keep forever and five is the garage sale. Keep up.", "shot": "TWO", "gesture": "cross"},
-  {"spk": "dot", "text": "I love that you said obviously. Box one.", "shot": "dot", "gesture": "talk", "after": "ding"},
-  {"spk": "leo", "text": "It is a fish. On a little wooden board.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "dot", "text": "When you walk past him, he sings. He has sung at every holiday since nineteen ninety nine.", "shot": "CU", "gesture": "talk"},
-  {"spk": "jada", "text": "He sang at my graduation. During my speech. Five. Easy five.", "shot": "CU", "gesture": "facepalm"},
-  {"spk": "leo", "text": "He is a little bit beautiful though.", "shot": "TWO", "gesture": "talk"},
-  {"spk": "jada", "text": "Leo, he has one eye. The other one fell in the gravy in two thousand twelve.", "shot": "CU", "gesture": "point"},
-  {"spk": "dot", "text": "The fish goes in slot five. He will remember this. Box two.", "shot": "W", "gesture": "point", "after": "ding"},
-  {"spk": "leo", "text": "Oh my gosh. It is my macaroni ornament from second grade.", "shot": "CU", "gesture": "arms_up", "jump": true},
-  {"spk": "jada", "text": "It is glue with opinions.", "shot": "jada", "gesture": "cross"},
-  {"spk": "leo", "text": "It is a star. I made it for Grandma. Number one. Put it at number one.", "shot": "CU", "gesture": "point"},
-  {"spk": "jada", "text": "We have three boxes left. What if one of them is a car?", "shot": "TWO", "gesture": "shrug"},
-  {"spk": "dot", "text": "Nobody has ever kept a car in a box, sweetie.", "shot": "dot", "gesture": "talk"},
-  {"spk": "jada", "text": "Then what if it is a smaller, better macaroni star?", "shot": "CU", "gesture": "think"},
-  {"spk": "leo", "text": "There is no better macaroni star. I was seven. I was at my peak.", "shot": "CU", "gesture": "hips"},
-  {"spk": "dot", "text": "Compromise. The star goes at number two. Box three.", "shot": "W", "gesture": "point", "after": "ding"},
-  {"spk": "jada", "text": "This one says do not open, signed Dad.", "shot": "CU", "gesture": "think", "pre": 0.3},
-  {"spk": "leo", "text": "We are opening it.", "shot": "TWO", "gesture": "talk"},
-  {"spk": "jada", "text": "It is a bowling shirt. It says The Gravy Boats on the back.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "dot", "text": "Your father had a band. Three songs. All of them about soup.", "shot": "dot", "gesture": "talk"},
-  {"spk": "leo", "text": "Why is it damp?", "shot": "CU", "gesture": "facepalm"},
-  {"spk": "dot", "text": "Nobody knows. It has always been damp. It was damp at the show.", "shot": "CU", "gesture": "shrug", "after": "boing"},
-  {"spk": "jada", "text": "Four. Not five, because Dad will cry. But four.", "shot": "CU", "gesture": "point"},
-  {"spk": "dot", "text": "The damp shirt is number four. Box four.", "shot": "W", "gesture": "talk", "after": "ding"},
-  {"spk": "leo", "text": "It is a ball of holiday lights. It is the size of me.", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "dot", "text": "Grandpa tangled them in nineteen ninety one. We just keep adding more.", "shot": "dot", "gesture": "talk"},
-  {"spk": "jada", "text": "Something in there is still blinking.", "shot": "CU", "gesture": "point"},
-  {"spk": "leo", "text": "I think something in there is still living.", "shot": "TWO", "gesture": "talk"},
-  {"spk": "jada", "text": "We have one and three left. The lights go at three. Number one is for the last box.", "shot": "CU", "gesture": "think"},
-  {"spk": "leo", "text": "The last box could be anything. It could be Grandma's ring.", "shot": "CU", "gesture": "arms_up", "jump": true},
-  {"spk": "dot", "text": "The lights go at three. Here comes the final box.", "shot": "W", "gesture": "point", "after": "whoosh"},
-  {"spk": "cake", "text": "Good evening. Thank you. Please, hold your applause.", "shot": "CU", "gesture": "wave", "pre": 0.6},
-  {"spk": "jada", "text": "No. No. It is the fruitcake.", "shot": "jada", "gesture": "facepalm"},
-  {"spk": "cake", "text": "I have been in that attic since nineteen ninety eight. I have been waiting for this ranking my whole life.", "shot": "CU", "gesture": "talk"},
-  {"spk": "leo", "text": "Why does the fruitcake have a mustache?", "shot": "TWO", "gesture": "think"},
-  {"spk": "cake", "text": "Twenty eight years in the dark, young man. A fellow grows things.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "jada", "text": "Aunt Dot, can we move the star? Please. Just one move.", "shot": "TWO", "gesture": "talk"},
-  {"spk": "dot", "text": "No moving anything. The fruitcake is number one.", "shot": "dot", "gesture": "cross", "after": "sting"},
-  {"spk": "cake", "text": "Number one. Somebody write that down. Somebody tell the fish.", "shot": "CU", "gesture": "arms_up", "jump": true},
-  {"spk": "jada", "text": "Fine. Whatever. Number one is keep forever, so it stays in your attic.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "dot", "text": "Oh, sweetie. I never said what the numbers mean.", "shot": "dot", "gesture": "talk", "pre": 0.8},
-  {"spk": "leo", "text": "Uh oh.", "shot": "leo", "gesture": "think"},
-  {"spk": "dot", "text": "Number one goes home with you tonight. Number five stays here with me forever.", "shot": "W", "gesture": "point", "after": "record_scratch"},
-  {"spk": ["jada", "leo"], "text": "What?", "shot": "W", "gesture": "arms_up"},
-  {"spk": "jada", "text": "You said obviously. You loved that I said obviously.", "shot": "CU", "gesture": "point"},
-  {"spk": "dot", "text": "I did. It was beautiful. I have been waiting all year for somebody to say obviously.", "shot": "CU", "gesture": "hips"},
-  {"spk": "leo", "text": "So my star goes home with me?", "shot": "CU", "gesture": "talk"},
-  {"spk": "dot", "text": "Two goes home with you. Three and four go to the garage sale.", "shot": "dot", "gesture": "talk"},
-  {"spk": "jada", "text": "Somebody is going to buy Dad's damp shirt.", "shot": "TWO", "gesture": "facepalm"},
-  {"spk": "dot", "text": "Somebody always buys the damp shirt. Every year. Same man.", "shot": "CU", "gesture": "shrug"},
-  {"spk": "leo", "text": "And the fish stays with you forever?", "shot": "CU", "gesture": "think"},
-  {"spk": "dot", "text": "The fish is my best friend. He sang at my wedding. Both of them.", "shot": "CU", "gesture": "talk", "after": "rimshot"},
-  {"spk": "jada", "text": "I gave the fish a five so he could stay. I am a genius. By accident.", "shot": "CU", "gesture": "arms_up"},
-  {"spk": "cake", "text": "Excuse me. Where do I sit in the car?", "shot": "CU", "gesture": "talk"},
-  {"spk": "jada", "text": "The trunk.", "shot": "jada", "gesture": "cross"},
-  {"spk": "cake", "text": "I am number one. Number one sits in the front.", "shot": "CU", "gesture": "point"},
-  {"spk": "leo", "text": "He can sit with me and the star. We will be the top two.", "shot": "TWO", "gesture": "wave"},
-  {"spk": "cake", "text": "Finally. A family that ranks me first.", "shot": "CU", "gesture": "arms_up", "jump": true},
-  {"spk": "dot", "text": "Same time next year, babies. I have six more boxes.", "shot": "W", "gesture": "wave", "after": "applause"}
+  {
+   "spk": "dot",
+   "text": "Welcome to my garage, which tonight is a television studio.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "after": "applause"
+  },
+  {
+   "spk": "jada",
+   "text": "Aunt Dot, it is a garage. There is a lawn mower behind you.",
+   "shot": "TWO",
+   "gesture": "point"
+  },
+  {
+   "spk": "dot",
+   "text": "I brought five boxes down from the attic. You rank them one to five.",
+   "shot": "W",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dot",
+   "text": "One box at a time. Once it is on the board, no moving anything.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "leo",
+   "text": "What do the numbers mean?",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "jada",
+   "text": "Obviously one is keep forever and five is the garage sale. Keep up.",
+   "shot": "TWO",
+   "gesture": "cross"
+  },
+  {
+   "spk": "dot",
+   "text": "I love that you said obviously. Box one.",
+   "shot": "dot",
+   "gesture": "talk",
+   "after": "ding"
+  },
+  {
+   "spk": "leo",
+   "text": "It is a fish. On a little wooden board.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dot",
+   "text": "He sings when you walk past. Every holiday since nineteen ninety nine.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jada",
+   "text": "He sang at my graduation. During my speech. Five. Easy five.",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "jada",
+   "text": "Leo, he has one eye. The other one fell in the gravy.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dot",
+   "text": "The fish goes in slot five. He will remember this. Box two.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "ding"
+  },
+  {
+   "spk": "leo",
+   "text": "Oh my gosh. It is my macaroni ornament from second grade.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "jada",
+   "text": "It is glue with opinions.",
+   "shot": "jada",
+   "gesture": "cross"
+  },
+  {
+   "spk": "leo",
+   "text": "It is a star. I made it for Grandma. Number one. Put it at number one.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "jada",
+   "text": "We have three boxes left. What if one is a better macaroni star?",
+   "shot": "TWO",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "leo",
+   "text": "There is no better macaroni star. I was seven. I was at my peak.",
+   "shot": "CU",
+   "gesture": "hips"
+  },
+  {
+   "spk": "dot",
+   "text": "Compromise. The star goes at number two. Box three.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "ding"
+  },
+  {
+   "spk": "jada",
+   "text": "This one says do not open, signed Dad.",
+   "shot": "CU",
+   "gesture": "think",
+   "pre": 0.3
+  },
+  {
+   "spk": "jada",
+   "text": "It is a bowling shirt. It says The Gravy Boats on the back.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dot",
+   "text": "Your father had a band. Three songs. All about soup.",
+   "shot": "dot",
+   "gesture": "talk"
+  },
+  {
+   "spk": "leo",
+   "text": "Why is it damp?",
+   "shot": "CU",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "dot",
+   "text": "Nobody knows. It has always been damp. It was damp at the show.",
+   "shot": "CU",
+   "gesture": "shrug",
+   "after": "boing"
+  },
+  {
+   "spk": "jada",
+   "text": "Four. Not five, because Dad will cry. But four.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "dot",
+   "text": "The damp shirt is number four. Box four.",
+   "shot": "W",
+   "gesture": "talk",
+   "after": "ding"
+  },
+  {
+   "spk": "leo",
+   "text": "It is a ball of holiday lights. It is the size of me.",
+   "shot": "CU",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "dot",
+   "text": "Grandpa tangled them in nineteen ninety one.",
+   "shot": "dot",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jada",
+   "text": "We have one and three left. The lights go at three. Number one is for the last box.",
+   "shot": "CU",
+   "gesture": "think"
+  },
+  {
+   "spk": "dot",
+   "text": "The lights go at three. Here comes the final box.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "whoosh"
+  },
+  {
+   "spk": "cake",
+   "text": "Good evening. Thank you. Please, hold your applause.",
+   "shot": "CU",
+   "gesture": "wave",
+   "pre": 0.6
+  },
+  {
+   "spk": "jada",
+   "text": "No. No. It is the fruitcake.",
+   "shot": "jada",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "cake",
+   "text": "In that attic since nineteen ninety eight. Waiting my whole life for this.",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "leo",
+   "text": "Why does the fruitcake have a mustache?",
+   "shot": "TWO",
+   "gesture": "think"
+  },
+  {
+   "spk": "cake",
+   "text": "Twenty eight years in the dark, young man. A fellow grows things.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "jada",
+   "text": "Can we move the star? Just one move.",
+   "shot": "TWO",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dot",
+   "text": "No moving anything. The fruitcake is number one.",
+   "shot": "dot",
+   "gesture": "cross",
+   "after": "sting"
+  },
+  {
+   "spk": "cake",
+   "text": "Number one. Somebody write that down. Somebody tell the fish.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "jada",
+   "text": "Fine. Whatever. Number one is keep forever, so it stays in your attic.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dot",
+   "text": "Oh, sweetie. I never said what the numbers mean.",
+   "shot": "dot",
+   "gesture": "talk",
+   "pre": 0.8
+  },
+  {
+   "spk": "dot",
+   "text": "Number one goes home with you tonight. Number five stays here with me forever.",
+   "shot": "W",
+   "gesture": "point",
+   "after": "record_scratch"
+  },
+  {
+   "spk": [
+    "jada",
+    "leo"
+   ],
+   "text": "What?",
+   "shot": "W",
+   "gesture": "arms_up"
+  },
+  {
+   "spk": "jada",
+   "text": "You said obviously. You loved that I said obviously.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "leo",
+   "text": "So my star goes home with me?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "dot",
+   "text": "Two goes home with Leo. Three and four, garage sale. Five stays with me.",
+   "shot": "dot",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jada",
+   "text": "Somebody is going to buy Dad's damp shirt.",
+   "shot": "TWO",
+   "gesture": "facepalm"
+  },
+  {
+   "spk": "dot",
+   "text": "Somebody always buys the damp shirt. Every year. Same man.",
+   "shot": "CU",
+   "gesture": "shrug"
+  },
+  {
+   "spk": "dot",
+   "text": "The fish is my best friend. He sang at both of my weddings.",
+   "shot": "CU",
+   "gesture": "talk",
+   "after": "rimshot"
+  },
+  {
+   "spk": "cake",
+   "text": "Excuse me. Where do I sit in the car?",
+   "shot": "CU",
+   "gesture": "talk"
+  },
+  {
+   "spk": "jada",
+   "text": "The trunk.",
+   "shot": "jada",
+   "gesture": "cross"
+  },
+  {
+   "spk": "cake",
+   "text": "I am number one. Number one sits in the front.",
+   "shot": "CU",
+   "gesture": "point"
+  },
+  {
+   "spk": "cake",
+   "text": "Finally. A family that ranks me first.",
+   "shot": "CU",
+   "gesture": "arms_up",
+   "jump": true
+  },
+  {
+   "spk": "dot",
+   "text": "Same time next year, babies. I have six more boxes.",
+   "shot": "W",
+   "gesture": "wave",
+   "after": "applause"
+  }
  ]
 }
