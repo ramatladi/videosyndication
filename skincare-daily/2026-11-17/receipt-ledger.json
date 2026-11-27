@@ -203,13 +203,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "R0JLmDNoGWI",
       "sku": "111257",
       "title": "Where Dermalogica Stress Positive Eye Lift 25 mL Goes in a Routine #shorts",
       "manifest_slug": "bedfordview-stress-positive-eye-lift-25ml-short",
       "media_sha256": "8def9c10dcc9fd07bc78d4f7e0a1505bf2af429dbc18dae6fa41e3de336ec5a3",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T07:35:14Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -399,5 +400,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 6
+  "youtube_ids_recorded": 7
 }
