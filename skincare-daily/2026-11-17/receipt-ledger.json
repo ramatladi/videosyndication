@@ -170,13 +170,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "XPQcbafiXK4",
       "sku": "111432",
       "title": "Dermalogica Smart Response Serum 30 mL: Which Step Is It? #shorts",
       "manifest_slug": "umhlanga-smart-response-serum-30ml-short",
       "media_sha256": "4814b174ec8d9977091e0e725e8301b842f36d08b4fc5abf9a7cd380f1c0f8ff",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T22:57:51Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -407,5 +408,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 14
+  "youtube_ids_recorded": 15
 }
