@@ -3,15 +3,23 @@
   "handle": "@DermatologyJoburgBedfordview",
   "title": "Dermalogica Blackhead Clearing Fizz Mask 50 mL Label Read: The Ingredient List",
   "slot_sast": "2026-11-17 18:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skref0e5481cb3cc3",
   "publish_at": "2026-11-28T01:55:43Z",
   "overdue": true,
   "upload_started": "2026-11-27T23:05:43Z",
   "error": null,
-  "updated": "2026-11-27T23:05:49Z",
+  "updated": "2026-11-27T23:06:21Z",
   "video_id": "6w3q-nvsLPs",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=6w3q-nvsLPs",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCs0uxMnSV1INS_Bxn6yqc2Q",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-28T01:55:43Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
