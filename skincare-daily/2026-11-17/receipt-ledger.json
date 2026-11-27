@@ -249,13 +249,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "H7zxbujvQVA",
       "sku": "811455",
       "title": "Dermalogica Circular Hydration Serum Sizes at a Glance #shorts",
       "manifest_slug": "bedfordview-circular-hydration-serum-59ml-short",
       "media_sha256": "2407d1d111ef4b872631977cef30997f1379e93665c529b23d232ab5e793330a",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T00:55:43Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -414,5 +415,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 21
+  "youtube_ids_recorded": 22
 }
