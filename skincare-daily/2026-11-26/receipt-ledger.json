@@ -366,13 +366,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "gDjYwp52hSY",
       "sku": "102022",
       "title": "Dermalogica Antioxidant Hydramist 30 mL: Where It Fits in a Routine, Step by Step",
       "manifest_slug": "westville-antioxidant-hydramist-30ml",
       "media_sha256": "70aaf6f530ad9dbe1b953c3acf363d61021197c00073e5ea7749beb3fc9c8259",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T01:55:43Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -469,5 +470,5 @@
     "youtube_ids_recorded": 24,
     "producer_refreshed": "2026-11-26T19:45+02:00"
   },
-  "youtube_ids_recorded": 28
+  "youtube_ids_recorded": 29
 }
