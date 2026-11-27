@@ -227,13 +227,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "nSnNX9btxU8",
       "sku": "110545",
       "title": "Dermalogica UltraCalming Mist 177 mL: Which Step Is It? #shorts",
       "manifest_slug": "umhlanga-ultracalming-mist-177ml-short",
       "media_sha256": "28d1de9a02c0b20c2548e725ca5883c6fe223b03428152b3524e57e651b5dbfa",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T02:55:43Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -473,5 +474,5 @@
     "youtube_ids_recorded": 24,
     "producer_refreshed": "2026-11-26T19:45+02:00"
   },
-  "youtube_ids_recorded": 32
+  "youtube_ids_recorded": 33
 }
