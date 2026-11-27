@@ -1,0 +1,13 @@
+{
+ "employer": "Rubrik",
+ "candidates": [
+  {
+   "page": "https://www.rubrik.com/",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "page": "https://www.rubrik.com/company/careers",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  }
+ ]
+}
