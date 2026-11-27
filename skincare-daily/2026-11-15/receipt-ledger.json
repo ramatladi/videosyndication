@@ -379,13 +379,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "9E2p-zzeEqM",
       "sku": "411063",
       "title": "Dermalogica Super Rich Repair Sizes at a Glance (Moisturizer Desk) #shorts",
       "manifest_slug": "rosebank-super-rich-repair-15ml-short",
       "media_sha256": "5e6aa270445239448a75a6e1ca211866dbf9d8dd593826e4be4198d4662e5203",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T04:31:16Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -432,5 +433,5 @@
     "youtube_ids_recorded": 22,
     "producer_refreshed": "2026-11-26T20:34+02:00"
   },
-  "youtube_ids_recorded": 27
+  "youtube_ids_recorded": 28
 }
