@@ -328,13 +328,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "vwY2haW_zAQ",
       "sku": "111388",
       "title": "Dermalogica Sensitive Skin Rescue Kit: Benefits, Directions and Who It Suits",
       "manifest_slug": "westville-sensitive-skin-rescue-kit",
       "media_sha256": "6a91794aef81da84592bc9d4c467863cd12ae67b0fd314ddf0664f2664be0ccb",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T00:55:43Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -419,5 +420,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 26
+  "youtube_ids_recorded": 27
 }
