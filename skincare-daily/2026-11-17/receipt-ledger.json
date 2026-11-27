@@ -201,13 +201,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "Cv6WCYJSo4s",
       "sku": "111466INT",
       "title": "Dermalogica Phyto Nature Oxygen Cream 50 mL in Your Routine #shorts",
       "manifest_slug": "umhlanga-phyto-nature-oxygen-cream-50ml-short",
       "media_sha256": "8abe170f9f1971b1eb7946e63b742bb2c2815aa1e603003cbc09eb77aa82c6c1",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T00:55:43Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -422,5 +423,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 29
+  "youtube_ids_recorded": 30
 }
