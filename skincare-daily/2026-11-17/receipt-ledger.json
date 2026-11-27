@@ -376,13 +376,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "6pWRy_e8g0g",
       "sku": "111515",
       "title": "Dermalogica NeuroTouch Symmetry Serum: Which Step Is It? #shorts",
       "manifest_slug": "rosebank-neurotouch-symmetry-serum-short",
       "media_sha256": "5c4f6861ba1321a1d9ee056d920bd79b4132936307d463ac6a2dd19134dd0ff3",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T00:55:43Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -415,5 +416,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 22
+  "youtube_ids_recorded": 23
 }
