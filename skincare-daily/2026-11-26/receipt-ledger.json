@@ -135,13 +135,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "8kuigsy0GqU",
       "sku": "111483",
       "title": "What Goes Into Dermalogica Pro-Collagen Banking Serum: Ingredients and Directions",
       "manifest_slug": "capetown-pro-collagen-banking-serum",
       "media_sha256": "7183cae5a86261b2f71e29dcfc314aa5218584319a008f5146837e003379a3d7",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T01:55:43Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -466,5 +467,5 @@
     "youtube_ids_recorded": 24,
     "producer_refreshed": "2026-11-26T19:45+02:00"
   },
-  "youtube_ids_recorded": 25
+  "youtube_ids_recorded": 26
 }
