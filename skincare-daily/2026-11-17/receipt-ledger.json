@@ -409,13 +409,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "wS9MswfZDT0",
       "sku": "111362",
       "title": "Dermalogica BioLumin-C Serum 59 mL in Your Routine #shorts",
       "manifest_slug": "rosebank-biolumin-c-serum-59ml-short",
       "media_sha256": "2afe983e58a74b7e205ff49595bdd32ef22546af0521b818cf4089c273bbc893",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T02:55:43Z"
     }
   ],
   "reconciliation": {
@@ -424,5 +425,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 31
+  "youtube_ids_recorded": 32
 }
