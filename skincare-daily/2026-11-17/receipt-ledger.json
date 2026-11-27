@@ -32,13 +32,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "16:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "HJQHPp26xTM",
       "sku": "110615",
       "title": "Dermalogica Multi Active Toner Sizes at a Glance #shorts",
       "manifest_slug": "midrand-multi-active-toner-50ml-short",
       "media_sha256": "27a7bb77ce828d9b9d0b56a17c8fbbec04b192c90483e1089ef4434bb27c0533",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T23:00:37Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -411,5 +412,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 18
+  "youtube_ids_recorded": 19
 }
