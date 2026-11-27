@@ -383,13 +383,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "0p00Z1Zu8QI",
       "sku": "411063",
       "title": "Dermalogica Super Rich Repair Sizes at a Glance #shorts",
       "manifest_slug": "westville-super-rich-repair-15ml-short",
       "media_sha256": "1b124afab77567193eb9b2b807a8e6fab73aefaa89dfaaf13eb58b4aefc0c34c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T02:55:43Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -475,5 +476,5 @@
     "youtube_ids_recorded": 24,
     "producer_refreshed": "2026-11-26T19:45+02:00"
   },
-  "youtube_ids_recorded": 34
+  "youtube_ids_recorded": 35
 }
