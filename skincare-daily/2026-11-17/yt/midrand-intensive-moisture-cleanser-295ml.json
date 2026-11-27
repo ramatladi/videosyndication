@@ -3,15 +3,23 @@
   "handle": "@DermatologistJoburgMidrand",
   "title": "Routine Builder: Dermalogica Intensive Moisture Cleanser 295 mL, Step by Step",
   "slot_sast": "2026-11-17 10:00",
-  "status": "UPLOADED",
+  "status": "VERIFIED",
   "upload_marker": "skrefb83638db01d0",
   "publish_at": "2026-11-27T06:35:14Z",
   "overdue": true,
   "upload_started": "2026-11-27T04:37:46Z",
   "error": null,
-  "updated": "2026-11-27T04:37:50Z",
+  "updated": "2026-11-27T04:38:22Z",
   "video_id": "le-frcstFj4",
   "published_now": null,
   "url": "https://www.youtube.com/watch?v=le-frcstFj4",
-  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden"
+  "thumbnail": "failed: POST /upload/youtube/v3/thumbnails/set -> HTTP 403 forbidden",
+  "last_state": {
+    "channelId": "UCb16q-70MGFin6RfsMGbdnw",
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-27T06:35:14Z",
+    "rejectionReason": null,
+    "failureReason": null
+  }
 }
