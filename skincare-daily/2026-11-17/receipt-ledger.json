@@ -359,13 +359,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "p3xVt0FUh7Y",
       "sku": "111508",
       "title": "Moisturizer Desk: Dermalogica Dynamic Skin Strengthening Serum 30ml #shorts",
       "manifest_slug": "rosebank-dynamic-skin-strengthening-serum-30ml-30ml-short",
       "media_sha256": "c0ed659ff4839ce2fdf6e40acbc165667eef4214ee417dc77b547f7e154a1f2c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T23:55:43Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -410,5 +411,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 17
+  "youtube_ids_recorded": 18
 }
