@@ -19,13 +19,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "le-frcstFj4",
       "sku": "111334",
       "title": "Routine Builder: Dermalogica Intensive Moisture Cleanser 295 mL, Step by Step",
       "manifest_slug": "midrand-intensive-moisture-cleanser-295ml",
       "media_sha256": "550881e918d9ed3bd49610b64a7efab4d72d6374ed722c1cab7656f73f35dab8",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T06:35:14Z"
     },
     {
       "channel": "@DermatologistJoburgMidrand",
@@ -401,5 +402,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 8
+  "youtube_ids_recorded": 9
 }
