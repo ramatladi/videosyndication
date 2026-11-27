@@ -71,13 +71,14 @@
       "channel": "@DermatologistJoburgMidrand",
       "time": "20:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "yQH4uAgnX8k",
       "sku": "111334",
       "title": "Dermalogica Intensive Moisture Cleanser 295 mL: Key Ingredients in Under a Minute #shorts",
       "manifest_slug": "midrand-intensive-moisture-cleanser-295ml-short",
       "media_sha256": "34ab29d6be030409524b58d8934207251321e5c49b3897c3cc3c93125d3fc92f",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T01:55:43Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -471,5 +472,5 @@
     "youtube_ids_recorded": 24,
     "producer_refreshed": "2026-11-26T19:45+02:00"
   },
-  "youtube_ids_recorded": 30
+  "youtube_ids_recorded": 31
 }
