@@ -123,13 +123,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "13zygL74ew8",
       "sku": "811033",
       "title": "Dermalogica MultiVitamin Power Firm 30 mL, Explained",
       "manifest_slug": "capetown-multivitamin-power-firm-30ml",
       "media_sha256": "fc2b50fd9e4c22c03d78ffbeacaaba0f49999b57ca2089c9f6d4e734c27e6b94",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T23:55:43Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -417,5 +418,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 24
+  "youtube_ids_recorded": 25
 }
