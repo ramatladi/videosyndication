@@ -68,13 +68,14 @@
       "channel": "@DermatologyCapeTown",
       "time": "08:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "LpN4own4VeI",
       "sku": "111513INT",
       "title": "Dermalogica Stressed Skin Recovery System (2 Full-Size): Which Step Is It? #shorts",
       "manifest_slug": "capetown-stressed-skin-recovery-system-2-full-size-short",
       "media_sha256": "ec44e6932ba6202b6d55a350e16758e9a06552893ec0d86e418908a6d9c33072",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T04:35:30Z"
     },
     {
       "channel": "@DermatologyCapeTown",
@@ -397,5 +398,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 4
+  "youtube_ids_recorded": 5
 }
