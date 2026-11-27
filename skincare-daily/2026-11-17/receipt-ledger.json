@@ -295,13 +295,14 @@
       "channel": "@SkincareDurbanWestville",
       "time": "12:00",
       "format": "short",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "IBLcCl_Oljo",
       "sku": "301349INT",
       "title": "Where Dermalogica The Expert Lift Set (3 Full-Size) Goes in a Routine #shorts",
       "manifest_slug": "westville-the-expert-lift-set-3-full-size-short",
       "media_sha256": "80fef3e4893690a4c8dbdcda0f51488ead50f99fc2a437cc96d886c4f212696c",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T23:55:43Z"
     },
     {
       "channel": "@SkincareDurbanWestville",
@@ -409,5 +410,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 16
+  "youtube_ids_recorded": 17
 }
