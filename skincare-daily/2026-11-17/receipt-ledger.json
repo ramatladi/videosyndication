@@ -157,13 +157,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "JIBVLMq3Y8w",
       "sku": "111059",
       "title": "Dermalogica Active Moist 100 mL: Benefits, Directions and Who It Suits",
       "manifest_slug": "umhlanga-active-moist-100ml",
       "media_sha256": "01309e1808380a5006a2dc5f419be5cc8c93c6697e09f2e3cdf6c42304727a06",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T07:35:14Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -403,5 +404,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 10
+  "youtube_ids_recorded": 11
 }
