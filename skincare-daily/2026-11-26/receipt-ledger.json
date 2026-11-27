@@ -212,13 +212,14 @@
       "channel": "@DermatologyDurbanUmhlanga",
       "time": "18:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_scheduled",
+      "youtube_id": "Pwh9gtbGelo",
       "sku": "111487",
       "title": "Dermalogica Phyto Nature Lifting Eye Cream 15ml Explained: Lifts + Firms Sagging Eyes",
       "manifest_slug": "umhlanga-phyto-nature-lifting-eye-cream-15ml-15ml",
       "media_sha256": "89ddd8456dcb7f531cd6680e57d39d24e57eeb32f5e75c5aa6dfb2634e6e92da",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-28T01:55:43Z"
     },
     {
       "channel": "@DermatologyDurbanUmhlanga",
@@ -467,5 +468,5 @@
     "youtube_ids_recorded": 24,
     "producer_refreshed": "2026-11-26T19:45+02:00"
   },
-  "youtube_ids_recorded": 26
+  "youtube_ids_recorded": 27
 }
