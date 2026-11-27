@@ -219,13 +219,14 @@
       "channel": "@DermatologyJoburgBedfordview",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "eQvFDdvPyR4",
       "sku": "111403INT",
       "title": "Dermalogica Dark Spot Solutions Kit, Explained",
       "manifest_slug": "bedfordview-dark-spot-solutions-kit",
       "media_sha256": "172b45e8afec22f64afbda38860e4b7c609c2630e5c16faedcbdc7425487976b",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T22:55:45Z"
     },
     {
       "channel": "@DermatologyJoburgBedfordview",
@@ -404,5 +405,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 11
+  "youtube_ids_recorded": 12
 }
