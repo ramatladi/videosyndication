@@ -343,13 +343,14 @@
       "channel": "@SkincareJoburgRosebank",
       "time": "10:00",
       "format": "regular",
-      "status": "staged_awaiting_youtube_receipt",
-      "youtube_id": null,
+      "status": "youtube_published",
+      "youtube_id": "PZa1HZHB9UQ",
       "sku": "111518",
       "title": "Dermalogica Phyto Nature E\u00b2 Regenerating Daily Exosome Leave-On Treatment: How to Use It",
       "manifest_slug": "rosebank-phyto-nature-e-regenerating-daily-exosome-leave-on-treatment",
       "media_sha256": "fe79871e59f1e944c9dd09d3b317c359daf3b73de0420936abe18e7aa0ea16a5",
-      "asset_checksums_verified": true
+      "asset_checksums_verified": true,
+      "publish_at": "2026-11-27T22:57:09Z"
     },
     {
       "channel": "@SkincareJoburgRosebank",
@@ -406,5 +407,5 @@
     "youtube_ids_recorded": 3,
     "producer_refreshed": "2026-11-26T21:34+02:00"
   },
-  "youtube_ids_recorded": 13
+  "youtube_ids_recorded": 14
 }
